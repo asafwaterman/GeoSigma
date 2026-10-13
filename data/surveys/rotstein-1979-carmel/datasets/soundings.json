@@ -1,0 +1,381 @@
+[
+ {
+  "id": "rotstein1979-carmel-S1-curve",
+  "survey": "rotstein-1979-carmel",
+  "site": "S1",
+  "method": "VES",
+  "level": "L1",
+  "representation": "sounding_curve",
+  "measured_on": "1979",
+  "confidence": "B",
+  "status": "draft",
+  "x_quantity": "ab2",
+  "curve": [
+   {
+    "x": 1.53,
+    "rho_a": 68.7
+   },
+   {
+    "x": 2.06,
+    "rho_a": 85.0
+   },
+   {
+    "x": 2.57,
+    "rho_a": 99.5
+   },
+   {
+    "x": 3.05,
+    "rho_a": 111.0
+   },
+   {
+    "x": 4.06,
+    "rho_a": 136.0
+   },
+   {
+    "x": 5.01,
+    "rho_a": 158.0
+   },
+   {
+    "x": 6.0,
+    "rho_a": 170.0
+   },
+   {
+    "x": 7.93,
+    "rho_a": 194.0
+   },
+   {
+    "x": 10.0,
+    "rho_a": 222.0
+   },
+   {
+    "x": 12.2,
+    "rho_a": 246.0
+   },
+   {
+    "x": 14.8,
+    "rho_a": 280.0
+   },
+   {
+    "x": 19.9,
+    "rho_a": 350.0
+   },
+   {
+    "x": 25.0,
+    "rho_a": 381.0
+   },
+   {
+    "x": 27.6,
+    "rho_a": 369.0
+   },
+   {
+    "x": 30.3,
+    "rho_a": 384.0
+   },
+   {
+    "x": 40.1,
+    "rho_a": 388.0
+   },
+   {
+    "x": 49.8,
+    "rho_a": 377.0
+   },
+   {
+    "x": 60.6,
+    "rho_a": 352.0
+   },
+   {
+    "x": 74.6,
+    "rho_a": 444.0
+   },
+   {
+    "x": 75.0,
+    "rho_a": 367.0
+   },
+   {
+    "x": 101.0,
+    "rho_a": 474.0
+   },
+   {
+    "x": 122.0,
+    "rho_a": 480.0
+   },
+   {
+    "x": 150.0,
+    "rho_a": 492.0
+   },
+   {
+    "x": 195.0,
+    "rho_a": 487.0
+   },
+   {
+    "x": 250.0,
+    "rho_a": 471.0
+   },
+   {
+    "x": 290.0,
+    "rho_a": 482.0
+   },
+   {
+    "x": 299.0,
+    "rho_a": 434.0
+   },
+   {
+    "x": 392.0,
+    "rho_a": 393.0
+   },
+   {
+    "x": 494.0,
+    "rho_a": 312.0
+   },
+   {
+    "x": 609.0,
+    "rho_a": 308.0
+   },
+   {
+    "x": 797.0,
+    "rho_a": 319.0
+   },
+   {
+    "x": 991.0,
+    "rho_a": 345.0
+   },
+   {
+    "x": 1120.0,
+    "rho_a": 345.0
+   }
+  ],
+  "digitisation_error": "+-0.01 log10 (point centres read by eye)",
+  "provenance": {
+   "document": "main",
+   "pages": [
+    6
+   ],
+   "figure": "Field sheet S1",
+   "method": "digitised_manual",
+   "tool": "geosigma.extract.carmel",
+   "extracted_on": "2026-10-13"
+  }
+ },
+ {
+  "id": "rotstein1979-carmel-E2-curve",
+  "survey": "rotstein-1979-carmel",
+  "site": "E2",
+  "method": "DIPOLE",
+  "level": "L1",
+  "representation": "sounding_curve",
+  "measured_on": "1979",
+  "confidence": "B",
+  "status": "draft",
+  "x_quantity": "effective separation",
+  "curve": [
+   {
+    "x": 517.0,
+    "rho_a": 37.4
+   },
+   {
+    "x": 522.0,
+    "rho_a": 28.4
+   },
+   {
+    "x": 549.0,
+    "rho_a": 53.7
+   },
+   {
+    "x": 603.0,
+    "rho_a": 43.2
+   },
+   {
+    "x": 793.0,
+    "rho_a": 31.3
+   },
+   {
+    "x": 1130.0,
+    "rho_a": 54.4
+   },
+   {
+    "x": 1330.0,
+    "rho_a": 14.2
+   },
+   {
+    "x": 1540.0,
+    "rho_a": 55.5
+   },
+   {
+    "x": 1580.0,
+    "rho_a": 5.78
+   },
+   {
+    "x": 3000.0,
+    "rho_a": 17.5
+   }
+  ],
+  "digitisation_error": "+-0.01 log10 (point centres read by eye)",
+  "provenance": {
+   "document": "main",
+   "pages": [
+    7
+   ],
+   "figure": "Field sheet E2",
+   "method": "digitised_manual",
+   "tool": "geosigma.extract.carmel",
+   "extracted_on": "2026-10-13"
+  }
+ },
+ {
+  "id": "rotstein1979-carmel-E3-curve",
+  "survey": "rotstein-1979-carmel",
+  "site": "E3",
+  "method": "DIPOLE",
+  "level": "L1",
+  "representation": "sounding_curve",
+  "measured_on": "1979",
+  "confidence": "B",
+  "status": "draft",
+  "x_quantity": "effective separation",
+  "curve": [
+   {
+    "x": 416.0,
+    "rho_a": 7.5
+   },
+   {
+    "x": 442.0,
+    "rho_a": 5.12
+   },
+   {
+    "x": 467.0,
+    "rho_a": 4.76
+   },
+   {
+    "x": 517.0,
+    "rho_a": 3.03
+   },
+   {
+    "x": 662.0,
+    "rho_a": 4.98
+   },
+   {
+    "x": 733.0,
+    "rho_a": 6.03
+   },
+   {
+    "x": 920.0,
+    "rho_a": 2.14
+   },
+   {
+    "x": 1070.0,
+    "rho_a": 5.2
+   },
+   {
+    "x": 1270.0,
+    "rho_a": 2.66
+   },
+   {
+    "x": 1500.0,
+    "rho_a": 3.08
+   },
+   {
+    "x": 1680.0,
+    "rho_a": 4.36
+   },
+   {
+    "x": 2090.0,
+    "rho_a": 5.78
+   },
+   {
+    "x": 2600.0,
+    "rho_a": 2.9
+   }
+  ],
+  "digitisation_error": "+-0.01 log10 (point centres read by eye)",
+  "provenance": {
+   "document": "main",
+   "pages": [
+    8
+   ],
+   "figure": "Field sheet E3",
+   "method": "digitised_manual",
+   "tool": "geosigma.extract.carmel",
+   "extracted_on": "2026-10-13"
+  }
+ },
+ {
+  "survey": "rotstein-1979-carmel",
+  "site": "S1",
+  "method": "VES",
+  "level": "L2",
+  "representation": "model_1d",
+  "measured_on": "1979",
+  "confidence": "C",
+  "status": "draft",
+  "model_type": "layered",
+  "depth_max_m": 400,
+  "digitisation_error": "+-10 m on interface depths",
+  "provenance": {
+   "document": "main",
+   "pages": [
+    6
+   ],
+   "method": "digitised_manual",
+   "tool": "geosigma.extract.carmel",
+   "extracted_on": "2026-10-13",
+   "figure": "Field sheet S1, model A"
+  },
+  "id": "rotstein1979-carmel-S1-model-A",
+  "layers": [
+   {
+    "top_m": 0,
+    "bottom_m": 350,
+    "rho_ohmm": 480
+   },
+   {
+    "top_m": 350,
+    "bottom_m": null,
+    "note": "LOW (no value given)"
+   }
+  ],
+  "notes": "Near-surface low-resistivity cover seen at AB/2 < 20 m is not part of the drawn model."
+ },
+ {
+  "survey": "rotstein-1979-carmel",
+  "site": "S1",
+  "method": "VES",
+  "level": "L2",
+  "representation": "model_1d",
+  "measured_on": "1979",
+  "confidence": "C",
+  "status": "draft",
+  "model_type": "layered",
+  "depth_max_m": 400,
+  "digitisation_error": "+-10 m on interface depths",
+  "provenance": {
+   "document": "main",
+   "pages": [
+    6
+   ],
+   "method": "digitised_manual",
+   "tool": "geosigma.extract.carmel",
+   "extracted_on": "2026-10-13",
+   "figure": "Field sheet S1, model B"
+  },
+  "id": "rotstein1979-carmel-S1-model-B",
+  "reinterprets": "rotstein1979-carmel-S1-model-A",
+  "layers": [
+   {
+    "top_m": 0,
+    "bottom_m": 250,
+    "rho_ohmm": 480
+   },
+   {
+    "top_m": 250,
+    "bottom_m": 310,
+    "note": "LOW (no value given)"
+   },
+   {
+    "top_m": 310,
+    "bottom_m": null,
+    "note": "HIGH (no value given)"
+   }
+  ],
+  "notes": "Alternative interpretation drawn on the same sheet."
+ }
+]

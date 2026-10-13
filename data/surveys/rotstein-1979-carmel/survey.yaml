@@ -7,6 +7,7 @@ report_number: NK/498/78
 year: 1979
 methods:
 - VES
+- DIPOLE
 region: Mount Carmel
 geometry: stations
 depth_reach: target about 500 m
@@ -22,4 +23,32 @@ documents:
   sha256: a31d52308154398836c51287d39cc0d5f7f33aebb5323303f12c8ba2b257e12e
   pages: 9
 notes: Schlumberger soundings; Hebrew text.
-extraction_status: registered
+extraction_status: complete
+sites:
+- id: S1
+  name: Schlumberger sounding S1
+  coords:
+    x: 157900
+    y: 233050
+    crs: EPSG:28193
+    source: table
+  elevation_m: null
+  notes: Sheet prints E-1579000; read as 157900 (one extra zero), matching the location map.
+- id: E2
+  name: Equatorial dipole sounding E2
+  coords:
+    x: 157800
+    y: 232350
+    crs: EPSG:28193
+    source: table
+  elevation_m: 450
+  notes: null
+- id: E3
+  name: Equatorial dipole sounding E3
+  coords:
+    x: 154650
+    y: 237750
+    crs: EPSG:28193
+    source: table
+  elevation_m: 500
+  notes: null

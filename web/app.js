@@ -139,6 +139,7 @@ function profileTraces(d) {
     const x = [], y = [];
     const bottom = d.depth_max_m || Math.max(...d.layers.map((l) => l.bottom_m || l.top_m * 1.5 || 100));
     for (const l of d.layers) {
+      if (l.rho_ohmm == null) { x.push(null, null); y.push(l.top_m, l.bottom_m ?? bottom); continue; }
       x.push(v(l.rho_ohmm), v(l.rho_ohmm));
       y.push(l.top_m, l.bottom_m ?? bottom);
     }
@@ -164,6 +165,13 @@ function showDataset(d, el) {
       xaxis: { type: "log", title: state.sigma ? "Conductivity (mS/m)" : "Resistivity (Ω·m)", gridcolor: dark ? "#2e343e" : "#e6e9ef" },
       yaxis: { autorange: "reversed", title: "Depth below ground (m)", gridcolor: dark ? "#2e343e" : "#e6e9ef" },
       annotations: d.doi_m ? [{ xref: "paper", x: 1, y: d.doi_m, text: "DOI", showarrow: false, xanchor: "right", yanchor: "bottom" }] : [],
+    }, { displayModeBar: false, responsive: true });
+  } else if (d.representation === "sounding_curve") {
+    Plotly.react("profile", [{ x: d.curve.map((c) => c.x), y: d.curve.map((c) => c.rho_a), mode: "markers",
+      marker: { color: "#1f5fa8", size: 7 }, hovertemplate: "%{x:.3g}: %{y:.3g} Ω·m<extra></extra>" }], {
+      margin: { l: 55, r: 10, t: 10, b: 45 }, paper_bgcolor: "rgba(0,0,0,0)", plot_bgcolor: "rgba(0,0,0,0)",
+      font: { color: dark ? "#e4e8ee" : "#1d2430" },
+      xaxis: { type: "log", title: d.x_quantity || "x" }, yaxis: { type: "log", title: "Apparent resistivity (Ω·m)" },
     }, { displayModeBar: false, responsive: true });
   } else {
     Plotly.purge("profile");
