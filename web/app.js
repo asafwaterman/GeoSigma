@@ -175,7 +175,9 @@ function showDataset(d, el) {
     }, { displayModeBar: false, responsive: true });
   } else {
     Plotly.purge("profile");
-    $("profile").innerHTML = `<p>${d.summary || d.representation}</p>`;
+    $("profile").innerHTML = d.representation === "interface_depth"
+      ? `<p>Interface at <b>${d.interface_depth_m} m</b> below ground: ${d.criterion || ""}</p>`
+      : `<p>${d.summary || d.representation}</p>`;
   }
   const p = d.provenance;
   const doc = d.document_info;

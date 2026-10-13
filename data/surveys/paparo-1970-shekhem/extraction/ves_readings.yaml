@@ -1,0 +1,21 @@
+# VES field sheets, PDF pages 5-11 (faded scans). Box values (ohm.m) and the
+# formation written in each box; box edges read by eye in 200 dpi pixels.
+# Coordinates printed in units of 10 m (Old Israel Grid).
+- {page: 5, job: 781, dp: 1, x: 18265, y: 19910, elev: 335, rho: [680, 3400, 18000, 7200, 35000],
+   units: [alluvium, Eocene, Eocene, Senonian, Turonian-Cenomanian], edges_px: [234, 1048, 1622, 1979]}
+- {page: 6, job: 781, dp: 2, x: 17250, y: 20450, elev: 240, rho: [600, 1200, 3350, 38000],
+   units: [alluvium, Paleocene-Maastrichtian, Senonian, Turonian-Cenomanian], edges_px: [427, 1064, 1750]}
+- {page: 7, job: 781, dp: 3, x: 17883, y: 20340, elev: 300, rho: [520, 2100, 8400, 18000, 4000, 38000],
+   units: [alluvium, alluvium (gravel), Eocene, Eocene, Senonian, Turonian-Cenomanian],
+   edges_px: [184, 994, 1520, 1984, 2192], confidence: C,
+   note: "The edge between the two Eocene boxes is not visible on the scan; placed midway."}
+- {page: 8, job: 781, dp: 4, x: 17295, y: 19466, elev: 370, rho: [800, 400, 300, 4000, null],
+   units: [alluvium, alluvium, Paleocene-Maastrichtian, Senonian, Turonian-Cenomanian], edges_px: [462, 880, 1360, 1840],
+   confidence: C, note: "First box edge faint on the scan."}
+- {page: 9, job: 781, dp: 5, x: 17860, y: 21100, elev: 100, rho: [320, 9600, 1500, 14500, 4500, 38000],
+   units: [alluvium, Eocene, "Eocene?", Eocene, Senonian, Turonian-Cenomanian], edges_px: [556, 1421, 1610, 1951, 2264],
+   confidence: C, note: "Edges 2 and 3 faint on the scan."}
+- {page: 10, job: 781, dp: 6, x: 18550, y: 20423, elev: 340, rho: [7500, 19000, 38000, 150000],
+   units: [Eocene, Eocene, Turonian-Cenomanian, Lower Cretaceous], edges_px: [1012, 1520, 2331]}
+- {page: 11, job: 781, dp: 7, x: 17393, y: 18895, elev: 450, rho: [1000, 7000, 15200, 9400, 38000],
+   units: [alluvium, Eocene, Eocene, Senonian, Turonian-Cenomanian], edges_px: [146, 1246, 1576, 2150]}

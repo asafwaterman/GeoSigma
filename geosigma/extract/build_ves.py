@@ -28,13 +28,16 @@ def build(survey: str, pdf: str, doc_id: str) -> int:
     sv = yaml.safe_load((sdir / "survey.yaml").read_text())
     sites, ds, problems = {s["id"]: s for s in sv.get("sites", [])}, [], []
     for r in readings:
-        sh = read_sheet(d[r["page"] - 1], r["page"])
-        edges = sh.interfaces_m
+        sh = read_sheet(d[r["page"] - 1], r["page"], ocr=False)
+        if r.get("edges_px"):  # box edges read by eye (200 dpi pixels) where detection fails
+            edges = [round(float(sh.ab2(x)), 1) for x in r["edges_px"]]
+        else:
+            edges = sh.interfaces_m
         r["edges_ab2_m"] = edges
         if len(edges) != len(r["rho"]) - 1:
             problems.append(f"page {r['page']}: {len(r['rho'])} boxes read but {len(edges)} edges detected")
             continue
-        sid = f"{r['job']}-{r['dp']}"
+        sid = f"{r['job']}-{r['dp']}".replace("/", "-")
         sites[sid] = {"id": sid, "name": f"VES {r['dp']} (job {r['job']})", "elevation_m": r.get("elev"),
                       "coords": {"x": coord(r["x"]), "y": coord(r["y"]), "crs": "EPSG:28193", "source": "table"}}
         tops = [0.0] + edges
@@ -42,19 +45,22 @@ def build(survey: str, pdf: str, doc_id: str) -> int:
         for i, rho in enumerate(r["rho"]):
             bottom = edges[i] if i < len(edges) else None
             lay = {"top_m": tops[i], "bottom_m": bottom, "rho_ohmm": rho}
+            if r.get("units"):
+                lay["note"] = r["units"][i]
             if rho is None:
-                lay["note"] = "drawn as infinity (resistive basement)"
+                lay["note"] = ((lay.get("note") or "") + " drawn as infinity (resistive basement)").strip()
             layers.append(lay)
+        conf = r.get("confidence", "B")
         ds.append({
             "id": f"{survey}-ves-{sid}", "survey": survey, "site": sid, "method": "VES", "level": "L2",
-            "representation": "model_1d", "confidence": "B", "status": "draft", "model_type": "layered",
+            "representation": "model_1d", "confidence": conf, "status": "draft", "model_type": "layered",
             "depth_max_m": round(max(edges) * 1.5) if edges else None, "layers": layers,
             "digitisation_error": "interfaces +-5% (box edges read on the AB/2 axis)",
             "provenance": {"document": doc_id, "pages": [r["page"]], "figure": f"VES sheet D.P. {r['dp']}, job {r['job']}",
                            "method": "digitised_manual", "tool": "geosigma.extract.ves_sheet (edges) + reading by eye",
                            "extracted_on": date.today().isoformat(),
                            "notes": "Interface depths taken as the AB/2 of the box edges under the curve."},
-            "notes": "The last layer is open-ended; the model does not state a DOI.",
+            "notes": " ".join(filter(None, [r.get("note"), "The last layer is open-ended; the model does not state a DOI."])),
         })
     sv["sites"] = list(sites.values())
     (sdir / "survey.yaml").write_text(yaml.safe_dump(sv, sort_keys=False, allow_unicode=True, width=110))

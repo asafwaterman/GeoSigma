@@ -69,7 +69,7 @@ def _ocr(img: np.ndarray, psm: int = 7, extra: str = "") -> str:
     return pytesseract.image_to_string(Image.fromarray(img), config=f"--psm {psm} {extra}").strip()
 
 
-def read_sheet(page, pno: int) -> Sheet:
+def read_sheet(page, pno: int, ocr: bool = True) -> Sheet:
     g = render(page)
     d = g < 128
     H, W = d.shape
@@ -101,15 +101,15 @@ def read_sheet(page, pno: int) -> Sheet:
                 edges.append([x])
         sh.edges_px = [float(np.mean(e)) for e in edges]
         bounds = [int(sh.x_one)] + [int(x) for x in sh.edges_px] + [int(sh.x_one + 3 * sh.dec_x)]
-        for a, b in zip(bounds, bounds[1:]):
+        for a, b in zip(bounds, bounds[1:]) if ocr else []:
             crop = g[top + 4 : bot - 3, a + 6 : b - 6]
             if crop.size == 0:
                 sh.box_text.append("")
                 continue
             big = np.kron(crop, np.ones((2, 2), np.uint8))
             sh.box_text.append(_ocr(np.pad(big, 20, constant_values=255), 7))
-        foot = g[bot + 2 : min(H, bot + int(110 * s)), :]
-        sh.footer = _ocr(foot, 6)
+        if ocr:
+            sh.footer = _ocr(g[bot + 2 : min(H, bot + int(110 * s)), :], 6)
     return sh
 
 

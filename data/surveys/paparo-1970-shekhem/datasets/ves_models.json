@@ -1,0 +1,401 @@
+[
+ {
+  "id": "paparo-1970-shekhem-ves-781-1",
+  "survey": "paparo-1970-shekhem",
+  "site": "781-1",
+  "method": "VES",
+  "level": "L2",
+  "representation": "model_1d",
+  "confidence": "B",
+  "status": "draft",
+  "model_type": "layered",
+  "depth_max_m": 1208,
+  "layers": [
+   {
+    "top_m": 0.0,
+    "bottom_m": 1.8,
+    "rho_ohmm": 680,
+    "note": "alluvium"
+   },
+   {
+    "top_m": 1.8,
+    "bottom_m": 31.3,
+    "rho_ohmm": 3400,
+    "note": "Eocene"
+   },
+   {
+    "top_m": 31.3,
+    "bottom_m": 231.8,
+    "rho_ohmm": 18000,
+    "note": "Eocene"
+   },
+   {
+    "top_m": 231.8,
+    "bottom_m": 805.1,
+    "rho_ohmm": 7200,
+    "note": "Senonian"
+   },
+   {
+    "top_m": 805.1,
+    "bottom_m": null,
+    "rho_ohmm": 35000,
+    "note": "Turonian-Cenomanian"
+   }
+  ],
+  "digitisation_error": "interfaces +-5% (box edges read on the AB/2 axis)",
+  "provenance": {
+   "document": "main",
+   "pages": [
+    5
+   ],
+   "figure": "VES sheet D.P. 1, job 781",
+   "method": "digitised_manual",
+   "tool": "geosigma.extract.ves_sheet (edges) + reading by eye",
+   "extracted_on": "2026-10-13",
+   "notes": "Interface depths taken as the AB/2 of the box edges under the curve."
+  },
+  "notes": "The last layer is open-ended; the model does not state a DOI."
+ },
+ {
+  "id": "paparo-1970-shekhem-ves-781-2",
+  "survey": "paparo-1970-shekhem",
+  "site": "781-2",
+  "method": "VES",
+  "level": "L2",
+  "representation": "model_1d",
+  "confidence": "B",
+  "status": "draft",
+  "model_type": "layered",
+  "depth_max_m": 526,
+  "layers": [
+   {
+    "top_m": 0.0,
+    "bottom_m": 3.5,
+    "rho_ohmm": 600,
+    "note": "alluvium"
+   },
+   {
+    "top_m": 3.5,
+    "bottom_m": 32.3,
+    "rho_ohmm": 1200,
+    "note": "Paleocene-Maastrichtian"
+   },
+   {
+    "top_m": 32.3,
+    "bottom_m": 350.9,
+    "rho_ohmm": 3350,
+    "note": "Senonian"
+   },
+   {
+    "top_m": 350.9,
+    "bottom_m": null,
+    "rho_ohmm": 38000,
+    "note": "Turonian-Cenomanian"
+   }
+  ],
+  "digitisation_error": "interfaces +-5% (box edges read on the AB/2 axis)",
+  "provenance": {
+   "document": "main",
+   "pages": [
+    6
+   ],
+   "figure": "VES sheet D.P. 2, job 781",
+   "method": "digitised_manual",
+   "tool": "geosigma.extract.ves_sheet (edges) + reading by eye",
+   "extracted_on": "2026-10-13",
+   "notes": "Interface depths taken as the AB/2 of the box edges under the curve."
+  },
+  "notes": "The last layer is open-ended; the model does not state a DOI."
+ },
+ {
+  "id": "paparo-1970-shekhem-ves-781-3",
+  "survey": "paparo-1970-shekhem",
+  "site": "781-3",
+  "method": "VES",
+  "level": "L2",
+  "representation": "model_1d",
+  "confidence": "C",
+  "status": "draft",
+  "model_type": "layered",
+  "depth_max_m": 2443,
+  "layers": [
+   {
+    "top_m": 0.0,
+    "bottom_m": 1.5,
+    "rho_ohmm": 520,
+    "note": "alluvium"
+   },
+   {
+    "top_m": 1.5,
+    "bottom_m": 25.3,
+    "rho_ohmm": 2100,
+    "note": "alluvium (gravel)"
+   },
+   {
+    "top_m": 25.3,
+    "bottom_m": 157.6,
+    "rho_ohmm": 8400,
+    "note": "Eocene"
+   },
+   {
+    "top_m": 157.6,
+    "bottom_m": 790.5,
+    "rho_ohmm": 18000,
+    "note": "Eocene"
+   },
+   {
+    "top_m": 790.5,
+    "bottom_m": 1628.4,
+    "rho_ohmm": 4000,
+    "note": "Senonian"
+   },
+   {
+    "top_m": 1628.4,
+    "bottom_m": null,
+    "rho_ohmm": 38000,
+    "note": "Turonian-Cenomanian"
+   }
+  ],
+  "digitisation_error": "interfaces +-5% (box edges read on the AB/2 axis)",
+  "provenance": {
+   "document": "main",
+   "pages": [
+    7
+   ],
+   "figure": "VES sheet D.P. 3, job 781",
+   "method": "digitised_manual",
+   "tool": "geosigma.extract.ves_sheet (edges) + reading by eye",
+   "extracted_on": "2026-10-13",
+   "notes": "Interface depths taken as the AB/2 of the box edges under the curve."
+  },
+  "notes": "The edge between the two Eocene boxes is not visible on the scan; placed midway. The last layer is open-ended; the model does not state a DOI."
+ },
+ {
+  "id": "paparo-1970-shekhem-ves-781-4",
+  "survey": "paparo-1970-shekhem",
+  "site": "781-4",
+  "method": "VES",
+  "level": "L2",
+  "representation": "model_1d",
+  "confidence": "C",
+  "status": "draft",
+  "model_type": "layered",
+  "depth_max_m": 718,
+  "layers": [
+   {
+    "top_m": 0.0,
+    "bottom_m": 4.0,
+    "rho_ohmm": 800,
+    "note": "alluvium"
+   },
+   {
+    "top_m": 4.0,
+    "bottom_m": 17.0,
+    "rho_ohmm": 400,
+    "note": "alluvium"
+   },
+   {
+    "top_m": 17.0,
+    "bottom_m": 90.1,
+    "rho_ohmm": 300,
+    "note": "Paleocene-Maastrichtian"
+   },
+   {
+    "top_m": 90.1,
+    "bottom_m": 478.7,
+    "rho_ohmm": 4000,
+    "note": "Senonian"
+   },
+   {
+    "top_m": 478.7,
+    "bottom_m": null,
+    "rho_ohmm": null,
+    "note": "Turonian-Cenomanian drawn as infinity (resistive basement)"
+   }
+  ],
+  "digitisation_error": "interfaces +-5% (box edges read on the AB/2 axis)",
+  "provenance": {
+   "document": "main",
+   "pages": [
+    8
+   ],
+   "figure": "VES sheet D.P. 4, job 781",
+   "method": "digitised_manual",
+   "tool": "geosigma.extract.ves_sheet (edges) + reading by eye",
+   "extracted_on": "2026-10-13",
+   "notes": "Interface depths taken as the AB/2 of the box edges under the curve."
+  },
+  "notes": "First box edge faint on the scan. The last layer is open-ended; the model does not state a DOI."
+ },
+ {
+  "id": "paparo-1970-shekhem-ves-781-5",
+  "survey": "paparo-1970-shekhem",
+  "site": "781-5",
+  "method": "VES",
+  "level": "L2",
+  "representation": "model_1d",
+  "confidence": "C",
+  "status": "draft",
+  "model_type": "layered",
+  "depth_max_m": 3152,
+  "layers": [
+   {
+    "top_m": 0.0,
+    "bottom_m": 5.5,
+    "rho_ohmm": 320,
+    "note": "alluvium"
+   },
+   {
+    "top_m": 5.5,
+    "bottom_m": 111.8,
+    "rho_ohmm": 9600,
+    "note": "Eocene"
+   },
+   {
+    "top_m": 111.8,
+    "bottom_m": 215.8,
+    "rho_ohmm": 1500,
+    "note": "Eocene?"
+   },
+   {
+    "top_m": 215.8,
+    "bottom_m": 706.9,
+    "rho_ohmm": 14500,
+    "note": "Eocene"
+   },
+   {
+    "top_m": 706.9,
+    "bottom_m": 2101.0,
+    "rho_ohmm": 4500,
+    "note": "Senonian"
+   },
+   {
+    "top_m": 2101.0,
+    "bottom_m": null,
+    "rho_ohmm": 38000,
+    "note": "Turonian-Cenomanian"
+   }
+  ],
+  "digitisation_error": "interfaces +-5% (box edges read on the AB/2 axis)",
+  "provenance": {
+   "document": "main",
+   "pages": [
+    9
+   ],
+   "figure": "VES sheet D.P. 5, job 781",
+   "method": "digitised_manual",
+   "tool": "geosigma.extract.ves_sheet (edges) + reading by eye",
+   "extracted_on": "2026-10-13",
+   "notes": "Interface depths taken as the AB/2 of the box edges under the curve."
+  },
+  "notes": "Edges 2 and 3 faint on the scan. The last layer is open-ended; the model does not state a DOI."
+ },
+ {
+  "id": "paparo-1970-shekhem-ves-781-6",
+  "survey": "paparo-1970-shekhem",
+  "site": "781-6",
+  "method": "VES",
+  "level": "L2",
+  "representation": "model_1d",
+  "confidence": "B",
+  "status": "draft",
+  "model_type": "layered",
+  "depth_max_m": 3986,
+  "layers": [
+   {
+    "top_m": 0.0,
+    "bottom_m": 27.0,
+    "rho_ohmm": 7500,
+    "note": "Eocene"
+   },
+   {
+    "top_m": 27.0,
+    "bottom_m": 158.0,
+    "rho_ohmm": 19000,
+    "note": "Eocene"
+   },
+   {
+    "top_m": 158.0,
+    "bottom_m": 2657.3,
+    "rho_ohmm": 38000,
+    "note": "Turonian-Cenomanian"
+   },
+   {
+    "top_m": 2657.3,
+    "bottom_m": null,
+    "rho_ohmm": 150000,
+    "note": "Lower Cretaceous"
+   }
+  ],
+  "digitisation_error": "interfaces +-5% (box edges read on the AB/2 axis)",
+  "provenance": {
+   "document": "main",
+   "pages": [
+    10
+   ],
+   "figure": "VES sheet D.P. 6, job 781",
+   "method": "digitised_manual",
+   "tool": "geosigma.extract.ves_sheet (edges) + reading by eye",
+   "extracted_on": "2026-10-13",
+   "notes": "Interface depths taken as the AB/2 of the box edges under the curve."
+  },
+  "notes": "The last layer is open-ended; the model does not state a DOI."
+ },
+ {
+  "id": "paparo-1970-shekhem-ves-781-7",
+  "survey": "paparo-1970-shekhem",
+  "site": "781-7",
+  "method": "VES",
+  "level": "L2",
+  "representation": "model_1d",
+  "confidence": "B",
+  "status": "draft",
+  "model_type": "layered",
+  "depth_max_m": 2074,
+  "layers": [
+   {
+    "top_m": 0.0,
+    "bottom_m": 1.3,
+    "rho_ohmm": 1000,
+    "note": "alluvium"
+   },
+   {
+    "top_m": 1.3,
+    "bottom_m": 59.9,
+    "rho_ohmm": 7000,
+    "note": "Eocene"
+   },
+   {
+    "top_m": 59.9,
+    "bottom_m": 188.4,
+    "rho_ohmm": 15200,
+    "note": "Eocene"
+   },
+   {
+    "top_m": 188.4,
+    "bottom_m": 1382.7,
+    "rho_ohmm": 9400,
+    "note": "Senonian"
+   },
+   {
+    "top_m": 1382.7,
+    "bottom_m": null,
+    "rho_ohmm": 38000,
+    "note": "Turonian-Cenomanian"
+   }
+  ],
+  "digitisation_error": "interfaces +-5% (box edges read on the AB/2 axis)",
+  "provenance": {
+   "document": "main",
+   "pages": [
+    11
+   ],
+   "figure": "VES sheet D.P. 7, job 781",
+   "method": "digitised_manual",
+   "tool": "geosigma.extract.ves_sheet (edges) + reading by eye",
+   "extracted_on": "2026-10-13",
+   "notes": "Interface depths taken as the AB/2 of the box edges under the curve."
+  },
+  "notes": "The last layer is open-ended; the model does not state a DOI."
+ }
+]
