@@ -1,0 +1,12 @@
+# Read by eye from the VES field sheets (PDF pages 10-17): box resistivities (ohm.m,
+# null = drawn as infinity) and footer. Coordinates as printed: 5-digit values are in
+# units of 10 m, 6-digit values in metres (Old Israel Grid). Box edges are detected
+# automatically by geosigma.extract.ves_sheet and stored by build_ves_datasets.
+- {page: 10, job: 373, dp: 1, x: 13515, y: 13170, elev: 86, rho: [4.80, 16.80, 38.50, 7.60, null]}
+- {page: 11, job: 373, dp: 2, x: 13670, y: 13180, elev: 102, rho: [4.40, 17.60, 36.00, 10.80, null]}
+- {page: 12, job: 373, dp: 3, x: 13520, y: 13270, elev: 89, rho: [7.50, 3.00, 12.00, 30.00, 5.10, null]}
+- {page: 13, job: 736, dp: 19, x: 134880, y: 134460, elev: 85, rho: [5.60, 3.60, 9.50, 38.00]}
+- {page: 14, job: 736, dp: 20, x: 133710, y: 133560, elev: 74, rho: [12.00, 60.00, 130.00, 30.00, 6.60, null]}
+- {page: 15, job: 736, dp: 22, x: 135400, y: 130500, elev: 100, rho: [7.00, 2.80, 20.00, 7.00, 36.00, 7.00, null]}
+- {page: 16, job: 736, dp: 25, x: 137340, y: 133250, elev: 110, rho: [4.10, 2.60, 36.00, 7.00, null]}
+- {page: 17, job: 777, dp: 12, x: 137660, y: 135250, elev: 87, rho: [25.00, 52.00, 10.40, null]}

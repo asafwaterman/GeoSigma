@@ -1,0 +1,435 @@
+[
+ {
+  "id": "paparo-1977-revadim-ves-373-1",
+  "survey": "paparo-1977-revadim",
+  "site": "373-1",
+  "method": "VES",
+  "level": "L2",
+  "representation": "model_1d",
+  "confidence": "B",
+  "status": "draft",
+  "model_type": "layered",
+  "depth_max_m": 477,
+  "layers": [
+   {
+    "top_m": 0.0,
+    "bottom_m": 7.5,
+    "rho_ohmm": 4.8
+   },
+   {
+    "top_m": 7.5,
+    "bottom_m": 39.8,
+    "rho_ohmm": 16.8
+   },
+   {
+    "top_m": 39.8,
+    "bottom_m": 120.2,
+    "rho_ohmm": 38.5
+   },
+   {
+    "top_m": 120.2,
+    "bottom_m": 318.1,
+    "rho_ohmm": 7.6
+   },
+   {
+    "top_m": 318.1,
+    "bottom_m": null,
+    "rho_ohmm": null,
+    "note": "drawn as infinity (resistive basement)"
+   }
+  ],
+  "digitisation_error": "interfaces +-5% (box edges read on the AB/2 axis)",
+  "provenance": {
+   "document": "main",
+   "pages": [
+    10
+   ],
+   "figure": "VES sheet D.P. 1, job 373",
+   "method": "digitised_manual",
+   "tool": "geosigma.extract.ves_sheet (edges) + reading by eye",
+   "extracted_on": "2026-10-13",
+   "notes": "Interface depths taken as the AB/2 of the box edges under the curve."
+  },
+  "notes": "The last layer is open-ended; the model does not state a DOI."
+ },
+ {
+  "id": "paparo-1977-revadim-ves-373-2",
+  "survey": "paparo-1977-revadim",
+  "site": "373-2",
+  "method": "VES",
+  "level": "L2",
+  "representation": "model_1d",
+  "confidence": "B",
+  "status": "draft",
+  "model_type": "layered",
+  "depth_max_m": 534,
+  "layers": [
+   {
+    "top_m": 0.0,
+    "bottom_m": 7.0,
+    "rho_ohmm": 4.4
+   },
+   {
+    "top_m": 7.0,
+    "bottom_m": 24.0,
+    "rho_ohmm": 17.6
+   },
+   {
+    "top_m": 24.0,
+    "bottom_m": 110.0,
+    "rho_ohmm": 36.0
+   },
+   {
+    "top_m": 110.0,
+    "bottom_m": 356.0,
+    "rho_ohmm": 10.8
+   },
+   {
+    "top_m": 356.0,
+    "bottom_m": null,
+    "rho_ohmm": null,
+    "note": "drawn as infinity (resistive basement)"
+   }
+  ],
+  "digitisation_error": "interfaces +-5% (box edges read on the AB/2 axis)",
+  "provenance": {
+   "document": "main",
+   "pages": [
+    11
+   ],
+   "figure": "VES sheet D.P. 2, job 373",
+   "method": "digitised_manual",
+   "tool": "geosigma.extract.ves_sheet (edges) + reading by eye",
+   "extracted_on": "2026-10-13",
+   "notes": "Interface depths taken as the AB/2 of the box edges under the curve."
+  },
+  "notes": "The last layer is open-ended; the model does not state a DOI."
+ },
+ {
+  "id": "paparo-1977-revadim-ves-373-3",
+  "survey": "paparo-1977-revadim",
+  "site": "373-3",
+  "method": "VES",
+  "level": "L2",
+  "representation": "model_1d",
+  "confidence": "B",
+  "status": "draft",
+  "model_type": "layered",
+  "depth_max_m": 388,
+  "layers": [
+   {
+    "top_m": 0.0,
+    "bottom_m": 1.8,
+    "rho_ohmm": 7.5
+   },
+   {
+    "top_m": 1.8,
+    "bottom_m": 11.9,
+    "rho_ohmm": 3.0
+   },
+   {
+    "top_m": 11.9,
+    "bottom_m": 22.9,
+    "rho_ohmm": 12.0
+   },
+   {
+    "top_m": 22.9,
+    "bottom_m": 69.8,
+    "rho_ohmm": 30.0
+   },
+   {
+    "top_m": 69.8,
+    "bottom_m": 259.0,
+    "rho_ohmm": 5.1
+   },
+   {
+    "top_m": 259.0,
+    "bottom_m": null,
+    "rho_ohmm": null,
+    "note": "drawn as infinity (resistive basement)"
+   }
+  ],
+  "digitisation_error": "interfaces +-5% (box edges read on the AB/2 axis)",
+  "provenance": {
+   "document": "main",
+   "pages": [
+    12
+   ],
+   "figure": "VES sheet D.P. 3, job 373",
+   "method": "digitised_manual",
+   "tool": "geosigma.extract.ves_sheet (edges) + reading by eye",
+   "extracted_on": "2026-10-13",
+   "notes": "Interface depths taken as the AB/2 of the box edges under the curve."
+  },
+  "notes": "The last layer is open-ended; the model does not state a DOI."
+ },
+ {
+  "id": "paparo-1977-revadim-ves-736-19",
+  "survey": "paparo-1977-revadim",
+  "site": "736-19",
+  "method": "VES",
+  "level": "L2",
+  "representation": "model_1d",
+  "confidence": "B",
+  "status": "draft",
+  "model_type": "layered",
+  "depth_max_m": 325,
+  "layers": [
+   {
+    "top_m": 0.0,
+    "bottom_m": 1.3,
+    "rho_ohmm": 5.6
+   },
+   {
+    "top_m": 1.3,
+    "bottom_m": 13.8,
+    "rho_ohmm": 3.6
+   },
+   {
+    "top_m": 13.8,
+    "bottom_m": 216.4,
+    "rho_ohmm": 9.5
+   },
+   {
+    "top_m": 216.4,
+    "bottom_m": null,
+    "rho_ohmm": 38.0
+   }
+  ],
+  "digitisation_error": "interfaces +-5% (box edges read on the AB/2 axis)",
+  "provenance": {
+   "document": "main",
+   "pages": [
+    13
+   ],
+   "figure": "VES sheet D.P. 19, job 736",
+   "method": "digitised_manual",
+   "tool": "geosigma.extract.ves_sheet (edges) + reading by eye",
+   "extracted_on": "2026-10-13",
+   "notes": "Interface depths taken as the AB/2 of the box edges under the curve."
+  },
+  "notes": "The last layer is open-ended; the model does not state a DOI."
+ },
+ {
+  "id": "paparo-1977-revadim-ves-736-20",
+  "survey": "paparo-1977-revadim",
+  "site": "736-20",
+  "method": "VES",
+  "level": "L2",
+  "representation": "model_1d",
+  "confidence": "B",
+  "status": "draft",
+  "model_type": "layered",
+  "depth_max_m": 737,
+  "layers": [
+   {
+    "top_m": 0.0,
+    "bottom_m": 4.6,
+    "rho_ohmm": 12.0
+   },
+   {
+    "top_m": 4.6,
+    "bottom_m": 32.4,
+    "rho_ohmm": 60.0
+   },
+   {
+    "top_m": 32.4,
+    "bottom_m": 69.8,
+    "rho_ohmm": 130.0
+   },
+   {
+    "top_m": 69.8,
+    "bottom_m": 240.1,
+    "rho_ohmm": 30.0
+   },
+   {
+    "top_m": 240.1,
+    "bottom_m": 491.5,
+    "rho_ohmm": 6.6
+   },
+   {
+    "top_m": 491.5,
+    "bottom_m": null,
+    "rho_ohmm": null,
+    "note": "drawn as infinity (resistive basement)"
+   }
+  ],
+  "digitisation_error": "interfaces +-5% (box edges read on the AB/2 axis)",
+  "provenance": {
+   "document": "main",
+   "pages": [
+    14
+   ],
+   "figure": "VES sheet D.P. 20, job 736",
+   "method": "digitised_manual",
+   "tool": "geosigma.extract.ves_sheet (edges) + reading by eye",
+   "extracted_on": "2026-10-13",
+   "notes": "Interface depths taken as the AB/2 of the box edges under the curve."
+  },
+  "notes": "The last layer is open-ended; the model does not state a DOI."
+ },
+ {
+  "id": "paparo-1977-revadim-ves-736-22",
+  "survey": "paparo-1977-revadim",
+  "site": "736-22",
+  "method": "VES",
+  "level": "L2",
+  "representation": "model_1d",
+  "confidence": "B",
+  "status": "draft",
+  "model_type": "layered",
+  "depth_max_m": 591,
+  "layers": [
+   {
+    "top_m": 0.0,
+    "bottom_m": 1.2,
+    "rho_ohmm": 7.0
+   },
+   {
+    "top_m": 1.2,
+    "bottom_m": 4.6,
+    "rho_ohmm": 2.8
+   },
+   {
+    "top_m": 4.6,
+    "bottom_m": 33.8,
+    "rho_ohmm": 20.0
+   },
+   {
+    "top_m": 33.8,
+    "bottom_m": 140.2,
+    "rho_ohmm": 7.0
+   },
+   {
+    "top_m": 140.2,
+    "bottom_m": 259.9,
+    "rho_ohmm": 36.0
+   },
+   {
+    "top_m": 259.9,
+    "bottom_m": 394.0,
+    "rho_ohmm": 7.0
+   },
+   {
+    "top_m": 394.0,
+    "bottom_m": null,
+    "rho_ohmm": null,
+    "note": "drawn as infinity (resistive basement)"
+   }
+  ],
+  "digitisation_error": "interfaces +-5% (box edges read on the AB/2 axis)",
+  "provenance": {
+   "document": "main",
+   "pages": [
+    15
+   ],
+   "figure": "VES sheet D.P. 22, job 736",
+   "method": "digitised_manual",
+   "tool": "geosigma.extract.ves_sheet (edges) + reading by eye",
+   "extracted_on": "2026-10-13",
+   "notes": "Interface depths taken as the AB/2 of the box edges under the curve."
+  },
+  "notes": "The last layer is open-ended; the model does not state a DOI."
+ },
+ {
+  "id": "paparo-1977-revadim-ves-736-25",
+  "survey": "paparo-1977-revadim",
+  "site": "736-25",
+  "method": "VES",
+  "level": "L2",
+  "representation": "model_1d",
+  "confidence": "B",
+  "status": "draft",
+  "model_type": "layered",
+  "depth_max_m": 375,
+  "layers": [
+   {
+    "top_m": 0.0,
+    "bottom_m": 4.1,
+    "rho_ohmm": 4.1
+   },
+   {
+    "top_m": 4.1,
+    "bottom_m": 25.2,
+    "rho_ohmm": 2.6
+   },
+   {
+    "top_m": 25.2,
+    "bottom_m": 112.3,
+    "rho_ohmm": 36.0
+   },
+   {
+    "top_m": 112.3,
+    "bottom_m": 249.9,
+    "rho_ohmm": 7.0
+   },
+   {
+    "top_m": 249.9,
+    "bottom_m": null,
+    "rho_ohmm": null,
+    "note": "drawn as infinity (resistive basement)"
+   }
+  ],
+  "digitisation_error": "interfaces +-5% (box edges read on the AB/2 axis)",
+  "provenance": {
+   "document": "main",
+   "pages": [
+    16
+   ],
+   "figure": "VES sheet D.P. 25, job 736",
+   "method": "digitised_manual",
+   "tool": "geosigma.extract.ves_sheet (edges) + reading by eye",
+   "extracted_on": "2026-10-13",
+   "notes": "Interface depths taken as the AB/2 of the box edges under the curve."
+  },
+  "notes": "The last layer is open-ended; the model does not state a DOI."
+ },
+ {
+  "id": "paparo-1977-revadim-ves-777-12",
+  "survey": "paparo-1977-revadim",
+  "site": "777-12",
+  "method": "VES",
+  "level": "L2",
+  "representation": "model_1d",
+  "confidence": "B",
+  "status": "draft",
+  "model_type": "layered",
+  "depth_max_m": 360,
+  "layers": [
+   {
+    "top_m": 0.0,
+    "bottom_m": 4.8,
+    "rho_ohmm": 25.0
+   },
+   {
+    "top_m": 4.8,
+    "bottom_m": 42.1,
+    "rho_ohmm": 52.0
+   },
+   {
+    "top_m": 42.1,
+    "bottom_m": 240.1,
+    "rho_ohmm": 10.4
+   },
+   {
+    "top_m": 240.1,
+    "bottom_m": null,
+    "rho_ohmm": null,
+    "note": "drawn as infinity (resistive basement)"
+   }
+  ],
+  "digitisation_error": "interfaces +-5% (box edges read on the AB/2 axis)",
+  "provenance": {
+   "document": "main",
+   "pages": [
+    17
+   ],
+   "figure": "VES sheet D.P. 12, job 777",
+   "method": "digitised_manual",
+   "tool": "geosigma.extract.ves_sheet (edges) + reading by eye",
+   "extracted_on": "2026-10-13",
+   "notes": "Interface depths taken as the AB/2 of the box edges under the curve."
+  },
+  "notes": "The last layer is open-ended; the model does not state a DOI."
+ }
+]

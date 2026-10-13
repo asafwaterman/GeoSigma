@@ -21,3 +21,68 @@ documents:
   sha256: 75e2e8f5460608c2f06f553d9ebbe6b2353218a14d95ace8ff47bd0fec37a23b
   pages: 18
 extraction_status: registered
+sites:
+- id: 373-1
+  name: VES 1 (job 373)
+  elevation_m: 86
+  coords:
+    x: 135150
+    y: 131700
+    crs: EPSG:28193
+    source: table
+- id: 373-2
+  name: VES 2 (job 373)
+  elevation_m: 102
+  coords:
+    x: 136700
+    y: 131800
+    crs: EPSG:28193
+    source: table
+- id: 373-3
+  name: VES 3 (job 373)
+  elevation_m: 89
+  coords:
+    x: 135200
+    y: 132700
+    crs: EPSG:28193
+    source: table
+- id: 736-19
+  name: VES 19 (job 736)
+  elevation_m: 85
+  coords:
+    x: 134880
+    y: 134460
+    crs: EPSG:28193
+    source: table
+- id: 736-20
+  name: VES 20 (job 736)
+  elevation_m: 74
+  coords:
+    x: 133710
+    y: 133560
+    crs: EPSG:28193
+    source: table
+- id: 736-22
+  name: VES 22 (job 736)
+  elevation_m: 100
+  coords:
+    x: 135400
+    y: 130500
+    crs: EPSG:28193
+    source: table
+- id: 736-25
+  name: VES 25 (job 736)
+  elevation_m: 110
+  coords:
+    x: 137340
+    y: 133250
+    crs: EPSG:28193
+    source: table
+- id: 777-12
+  name: VES 12 (job 777)
+  elevation_m: 87
+  coords:
+    x: 137660
+    y: 135250
+    crs: EPSG:28193
+    source: table
