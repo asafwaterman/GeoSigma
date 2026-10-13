@@ -1,0 +1,1251 @@
+[
+ {
+  "id": "paparo-1978-zin-amazyahu-sedom-ves-457-Zin1",
+  "survey": "paparo-1978-zin-amazyahu-sedom",
+  "site": "457-Zin1",
+  "method": "VES",
+  "level": "L2",
+  "representation": "model_1d",
+  "measured_on": "1978",
+  "confidence": "B",
+  "status": "draft",
+  "model_type": "layered",
+  "depth_max_m": 95,
+  "layers": [
+   {
+    "top_m": 0.0,
+    "bottom_m": 3.0,
+    "rho_ohmm": 600
+   },
+   {
+    "top_m": 3.0,
+    "bottom_m": 18.2,
+    "rho_ohmm": 750
+   },
+   {
+    "top_m": 18.2,
+    "bottom_m": 63.3,
+    "rho_ohmm": 150
+   },
+   {
+    "top_m": 63.3,
+    "bottom_m": null,
+    "rho_ohmm": 0.5,
+    "rho_max": 1.0,
+    "note": "printed as 0 (below 1 ohm.m); 0.5 used as a nominal value"
+   }
+  ],
+  "digitisation_error": "interfaces +-5% (box edges read on the AB/2 axis)",
+  "provenance": {
+   "document": "main",
+   "pages": [
+    12
+   ],
+   "figure": "VES sheet D.P. Zin1, job 457",
+   "method": "digitised_manual",
+   "tool": "geosigma.extract.ves_sheet (edges) + reading by eye",
+   "extracted_on": "2026-10-13",
+   "notes": "Interface depths taken as the AB/2 of the box edges under the curve."
+  },
+  "notes": "Sounding at the Zin 1 borehole; same place as D.P. 23. The last layer is open-ended; the model does not state a DOI."
+ },
+ {
+  "id": "paparo-1978-zin-amazyahu-sedom-ves-457-9-II",
+  "survey": "paparo-1978-zin-amazyahu-sedom",
+  "site": "457-9-II",
+  "method": "VES",
+  "level": "L2",
+  "representation": "model_1d",
+  "measured_on": "1978",
+  "confidence": "B",
+  "status": "draft",
+  "model_type": "layered",
+  "depth_max_m": 57,
+  "layers": [
+   {
+    "top_m": 0.0,
+    "bottom_m": 1.3,
+    "rho_ohmm": 11200
+   },
+   {
+    "top_m": 1.3,
+    "bottom_m": 18.2,
+    "rho_ohmm": 1300
+   },
+   {
+    "top_m": 18.2,
+    "bottom_m": 38.3,
+    "rho_ohmm": 260
+   },
+   {
+    "top_m": 38.3,
+    "bottom_m": null,
+    "rho_ohmm": 0.5,
+    "rho_max": 1.0,
+    "note": "printed as 0 (below 1 ohm.m); 0.5 used as a nominal value"
+   }
+  ],
+  "digitisation_error": "interfaces +-5% (box edges read on the AB/2 axis)",
+  "provenance": {
+   "document": "main",
+   "pages": [
+    13
+   ],
+   "figure": "VES sheet D.P. 9/II, job 457",
+   "method": "digitised_manual",
+   "tool": "geosigma.extract.ves_sheet (edges) + reading by eye",
+   "extracted_on": "2026-10-13",
+   "notes": "Interface depths taken as the AB/2 of the box edges under the curve."
+  },
+  "notes": "The last layer is open-ended; the model does not state a DOI."
+ },
+ {
+  "id": "paparo-1978-zin-amazyahu-sedom-ves-457-9-III",
+  "survey": "paparo-1978-zin-amazyahu-sedom",
+  "site": "457-9-III",
+  "method": "VES",
+  "level": "L2",
+  "representation": "model_1d",
+  "measured_on": "1978",
+  "confidence": "B",
+  "status": "draft",
+  "model_type": "layered",
+  "depth_max_m": 68,
+  "layers": [
+   {
+    "top_m": 0.0,
+    "bottom_m": 1.9,
+    "rho_ohmm": 2900
+   },
+   {
+    "top_m": 1.9,
+    "bottom_m": 3.8,
+    "rho_ohmm": 1160
+   },
+   {
+    "top_m": 3.8,
+    "bottom_m": 12.0,
+    "rho_ohmm": 3350
+   },
+   {
+    "top_m": 12.0,
+    "bottom_m": 45.5,
+    "rho_ohmm": 280
+   },
+   {
+    "top_m": 45.5,
+    "bottom_m": null,
+    "rho_ohmm": 0.5,
+    "rho_max": 1.0,
+    "note": "printed as 0 (below 1 ohm.m); 0.5 used as a nominal value"
+   }
+  ],
+  "digitisation_error": "interfaces +-5% (box edges read on the AB/2 axis)",
+  "provenance": {
+   "document": "main",
+   "pages": [
+    14
+   ],
+   "figure": "VES sheet D.P. 9/III, job 457",
+   "method": "digitised_manual",
+   "tool": "geosigma.extract.ves_sheet (edges) + reading by eye",
+   "extracted_on": "2026-10-13",
+   "notes": "Interface depths taken as the AB/2 of the box edges under the curve."
+  },
+  "notes": "The last layer is open-ended; the model does not state a DOI."
+ },
+ {
+  "id": "paparo-1978-zin-amazyahu-sedom-ves-457-13",
+  "survey": "paparo-1978-zin-amazyahu-sedom",
+  "site": "457-13",
+  "method": "VES",
+  "level": "L2",
+  "representation": "model_1d",
+  "measured_on": "1953",
+  "confidence": "B",
+  "status": "draft",
+  "model_type": "layered",
+  "depth_max_m": 65,
+  "layers": [
+   {
+    "top_m": 0.0,
+    "bottom_m": 1.6,
+    "rho_ohmm": 5.6
+   },
+   {
+    "top_m": 1.6,
+    "bottom_m": 11.1,
+    "rho_ohmm": 3.0
+   },
+   {
+    "top_m": 11.1,
+    "bottom_m": 43.6,
+    "rho_ohmm": 7.5
+   },
+   {
+    "top_m": 43.6,
+    "bottom_m": null,
+    "rho_ohmm": 0.5,
+    "rho_max": 1.0,
+    "note": "printed as 0 (below 1 ohm.m); 0.5 used as a nominal value"
+   }
+  ],
+  "digitisation_error": "interfaces +-5% (box edges read on the AB/2 axis)",
+  "provenance": {
+   "document": "main",
+   "pages": [
+    15
+   ],
+   "figure": "VES sheet D.P. 13, job 457",
+   "method": "digitised_manual",
+   "tool": "geosigma.extract.ves_sheet (edges) + reading by eye",
+   "extracted_on": "2026-10-13",
+   "notes": "Interface depths taken as the AB/2 of the box edges under the curve."
+  },
+  "notes": "The last layer is open-ended; the model does not state a DOI."
+ },
+ {
+  "id": "paparo-1978-zin-amazyahu-sedom-ves-457-19-I",
+  "survey": "paparo-1978-zin-amazyahu-sedom",
+  "site": "457-19-I",
+  "method": "VES",
+  "level": "L2",
+  "representation": "model_1d",
+  "measured_on": "1978",
+  "confidence": "B",
+  "status": "draft",
+  "model_type": "layered",
+  "depth_max_m": 82,
+  "layers": [
+   {
+    "top_m": 0.0,
+    "bottom_m": 2.0,
+    "rho_ohmm": 1250
+   },
+   {
+    "top_m": 2.0,
+    "bottom_m": 4.1,
+    "rho_ohmm": 700
+   },
+   {
+    "top_m": 4.1,
+    "bottom_m": 27.1,
+    "rho_ohmm": 850
+   },
+   {
+    "top_m": 27.1,
+    "bottom_m": 54.6,
+    "rho_ohmm": 170
+   },
+   {
+    "top_m": 54.6,
+    "bottom_m": null,
+    "rho_ohmm": 0.5,
+    "rho_max": 1.0,
+    "note": "printed as 0 (below 1 ohm.m); 0.5 used as a nominal value"
+   }
+  ],
+  "digitisation_error": "interfaces +-5% (box edges read on the AB/2 axis)",
+  "provenance": {
+   "document": "main",
+   "pages": [
+    16
+   ],
+   "figure": "VES sheet D.P. 19/I, job 457",
+   "method": "digitised_manual",
+   "tool": "geosigma.extract.ves_sheet (edges) + reading by eye",
+   "extracted_on": "2026-10-13",
+   "notes": "Interface depths taken as the AB/2 of the box edges under the curve."
+  },
+  "notes": "The last layer is open-ended; the model does not state a DOI."
+ },
+ {
+  "id": "paparo-1978-zin-amazyahu-sedom-ves-457-19-II",
+  "survey": "paparo-1978-zin-amazyahu-sedom",
+  "site": "457-19-II",
+  "method": "VES",
+  "level": "L2",
+  "representation": "model_1d",
+  "measured_on": "1978",
+  "confidence": "B",
+  "status": "draft",
+  "model_type": "layered",
+  "depth_max_m": 82,
+  "layers": [
+   {
+    "top_m": 0.0,
+    "bottom_m": 1.0,
+    "rho_ohmm": 600
+   },
+   {
+    "top_m": 1.0,
+    "bottom_m": 22.2,
+    "rho_ohmm": 1300
+   },
+   {
+    "top_m": 22.2,
+    "bottom_m": 54.9,
+    "rho_ohmm": 240
+   },
+   {
+    "top_m": 54.9,
+    "bottom_m": null,
+    "rho_ohmm": 0.5,
+    "rho_max": 1.0,
+    "note": "printed as 0 (below 1 ohm.m); 0.5 used as a nominal value"
+   }
+  ],
+  "digitisation_error": "interfaces +-5% (box edges read on the AB/2 axis)",
+  "provenance": {
+   "document": "main",
+   "pages": [
+    17
+   ],
+   "figure": "VES sheet D.P. 19/II, job 457",
+   "method": "digitised_manual",
+   "tool": "geosigma.extract.ves_sheet (edges) + reading by eye",
+   "extracted_on": "2026-10-13",
+   "notes": "Interface depths taken as the AB/2 of the box edges under the curve."
+  },
+  "notes": "Sheet scanned upside down. The last layer is open-ended; the model does not state a DOI."
+ },
+ {
+  "id": "paparo-1978-zin-amazyahu-sedom-ves-457-19-III",
+  "survey": "paparo-1978-zin-amazyahu-sedom",
+  "site": "457-19-III",
+  "method": "VES",
+  "level": "L2",
+  "representation": "model_1d",
+  "measured_on": "1978",
+  "confidence": "B",
+  "status": "draft",
+  "model_type": "layered",
+  "depth_max_m": 68,
+  "layers": [
+   {
+    "top_m": 0.0,
+    "bottom_m": 1.1,
+    "rho_ohmm": 5000
+   },
+   {
+    "top_m": 1.1,
+    "bottom_m": 26.8,
+    "rho_ohmm": 1100
+   },
+   {
+    "top_m": 26.8,
+    "bottom_m": 45.1,
+    "rho_ohmm": 220
+   },
+   {
+    "top_m": 45.1,
+    "bottom_m": null,
+    "rho_ohmm": 0.5,
+    "rho_max": 1.0,
+    "note": "printed as 0 (below 1 ohm.m); 0.5 used as a nominal value"
+   }
+  ],
+  "digitisation_error": "interfaces +-5% (box edges read on the AB/2 axis)",
+  "provenance": {
+   "document": "main",
+   "pages": [
+    18
+   ],
+   "figure": "VES sheet D.P. 19/III, job 457",
+   "method": "digitised_manual",
+   "tool": "geosigma.extract.ves_sheet (edges) + reading by eye",
+   "extracted_on": "2026-10-13",
+   "notes": "Interface depths taken as the AB/2 of the box edges under the curve."
+  },
+  "notes": "The last layer is open-ended; the model does not state a DOI."
+ },
+ {
+  "id": "paparo-1978-zin-amazyahu-sedom-ves-457-23",
+  "survey": "paparo-1978-zin-amazyahu-sedom",
+  "site": "457-23",
+  "method": "VES",
+  "level": "L2",
+  "representation": "model_1d",
+  "measured_on": "1953",
+  "confidence": "B",
+  "status": "draft",
+  "model_type": "layered",
+  "depth_max_m": 33,
+  "layers": [
+   {
+    "top_m": 0.0,
+    "bottom_m": 1.2,
+    "rho_ohmm": 1400
+   },
+   {
+    "top_m": 1.2,
+    "bottom_m": 9.0,
+    "rho_ohmm": 280
+   },
+   {
+    "top_m": 9.0,
+    "bottom_m": 22.1,
+    "rho_ohmm": 1000
+   },
+   {
+    "top_m": 22.1,
+    "bottom_m": null,
+    "rho_ohmm": 0.5,
+    "rho_max": 1.0,
+    "note": "printed as 0 (below 1 ohm.m); 0.5 used as a nominal value"
+   }
+  ],
+  "digitisation_error": "interfaces +-5% (box edges read on the AB/2 axis)",
+  "provenance": {
+   "document": "main",
+   "pages": [
+    19
+   ],
+   "figure": "VES sheet D.P. 23, job 457",
+   "method": "digitised_manual",
+   "tool": "geosigma.extract.ves_sheet (edges) + reading by eye",
+   "extracted_on": "2026-10-13",
+   "notes": "Interface depths taken as the AB/2 of the box edges under the curve."
+  },
+  "notes": "At the Zin 1 borehole. The last layer is open-ended; the model does not state a DOI."
+ },
+ {
+  "id": "paparo-1978-zin-amazyahu-sedom-ves-457-27",
+  "survey": "paparo-1978-zin-amazyahu-sedom",
+  "site": "457-27",
+  "method": "VES",
+  "level": "L2",
+  "representation": "model_1d",
+  "measured_on": "1953",
+  "confidence": "B",
+  "status": "draft",
+  "model_type": "layered",
+  "depth_max_m": 27,
+  "layers": [
+   {
+    "top_m": 0.0,
+    "bottom_m": 17.7,
+    "rho_ohmm": 900
+   },
+   {
+    "top_m": 17.7,
+    "bottom_m": null,
+    "rho_ohmm": 23
+   }
+  ],
+  "digitisation_error": "interfaces +-5% (box edges read on the AB/2 axis)",
+  "provenance": {
+   "document": "main",
+   "pages": [
+    20
+   ],
+   "figure": "VES sheet D.P. 27, job 457",
+   "method": "digitised_manual",
+   "tool": "geosigma.extract.ves_sheet (edges) + reading by eye",
+   "extracted_on": "2026-10-13",
+   "notes": "Interface depths taken as the AB/2 of the box edges under the curve."
+  },
+  "notes": "Near the Zin 2 borehole. The last layer is open-ended; the model does not state a DOI."
+ },
+ {
+  "id": "paparo-1978-zin-amazyahu-sedom-ves-457-28",
+  "survey": "paparo-1978-zin-amazyahu-sedom",
+  "site": "457-28",
+  "method": "VES",
+  "level": "L2",
+  "representation": "model_1d",
+  "measured_on": "1953",
+  "confidence": "B",
+  "status": "draft",
+  "model_type": "layered",
+  "depth_max_m": 21,
+  "layers": [
+   {
+    "top_m": 0.0,
+    "bottom_m": 14.2,
+    "rho_ohmm": 800
+   },
+   {
+    "top_m": 14.2,
+    "bottom_m": null,
+    "rho_ohmm": 20
+   }
+  ],
+  "digitisation_error": "interfaces +-5% (box edges read on the AB/2 axis)",
+  "provenance": {
+   "document": "main",
+   "pages": [
+    21
+   ],
+   "figure": "VES sheet D.P. 28, job 457",
+   "method": "digitised_manual",
+   "tool": "geosigma.extract.ves_sheet (edges) + reading by eye",
+   "extracted_on": "2026-10-13",
+   "notes": "Interface depths taken as the AB/2 of the box edges under the curve."
+  },
+  "notes": "The last layer is open-ended; the model does not state a DOI."
+ },
+ {
+  "id": "paparo-1978-zin-amazyahu-sedom-ves-457-30",
+  "survey": "paparo-1978-zin-amazyahu-sedom",
+  "site": "457-30",
+  "method": "VES",
+  "level": "L2",
+  "representation": "model_1d",
+  "measured_on": "1953",
+  "confidence": "B",
+  "status": "draft",
+  "model_type": "layered",
+  "depth_max_m": 34,
+  "layers": [
+   {
+    "top_m": 0.0,
+    "bottom_m": 3.6,
+    "rho_ohmm": 1700
+   },
+   {
+    "top_m": 3.6,
+    "bottom_m": 22.9,
+    "rho_ohmm": 660
+   },
+   {
+    "top_m": 22.9,
+    "bottom_m": null,
+    "rho_ohmm": 16
+   }
+  ],
+  "digitisation_error": "interfaces +-5% (box edges read on the AB/2 axis)",
+  "provenance": {
+   "document": "main",
+   "pages": [
+    22
+   ],
+   "figure": "VES sheet D.P. 30, job 457",
+   "method": "digitised_manual",
+   "tool": "geosigma.extract.ves_sheet (edges) + reading by eye",
+   "extracted_on": "2026-10-13",
+   "notes": "Interface depths taken as the AB/2 of the box edges under the curve."
+  },
+  "notes": "The last layer is open-ended; the model does not state a DOI."
+ },
+ {
+  "id": "paparo-1978-zin-amazyahu-sedom-ves-457-31",
+  "survey": "paparo-1978-zin-amazyahu-sedom",
+  "site": "457-31",
+  "method": "VES",
+  "level": "L2",
+  "representation": "model_1d",
+  "measured_on": "1953",
+  "confidence": "B",
+  "status": "draft",
+  "model_type": "layered",
+  "depth_max_m": 21,
+  "layers": [
+   {
+    "top_m": 0.0,
+    "bottom_m": 14.1,
+    "rho_ohmm": 150
+   },
+   {
+    "top_m": 14.1,
+    "bottom_m": null,
+    "rho_ohmm": 15
+   }
+  ],
+  "digitisation_error": "interfaces +-5% (box edges read on the AB/2 axis)",
+  "provenance": {
+   "document": "main",
+   "pages": [
+    23
+   ],
+   "figure": "VES sheet D.P. 31, job 457",
+   "method": "digitised_manual",
+   "tool": "geosigma.extract.ves_sheet (edges) + reading by eye",
+   "extracted_on": "2026-10-13",
+   "notes": "Interface depths taken as the AB/2 of the box edges under the curve."
+  },
+  "notes": "The last layer is open-ended; the model does not state a DOI."
+ },
+ {
+  "id": "paparo-1978-zin-amazyahu-sedom-ves-457-32",
+  "survey": "paparo-1978-zin-amazyahu-sedom",
+  "site": "457-32",
+  "method": "VES",
+  "level": "L2",
+  "representation": "model_1d",
+  "measured_on": "1953",
+  "confidence": "B",
+  "status": "draft",
+  "model_type": "layered",
+  "depth_max_m": 33,
+  "layers": [
+   {
+    "top_m": 0.0,
+    "bottom_m": 3.0,
+    "rho_ohmm": 30
+   },
+   {
+    "top_m": 3.0,
+    "bottom_m": 21.9,
+    "rho_ohmm": 300
+   },
+   {
+    "top_m": 21.9,
+    "bottom_m": null,
+    "rho_ohmm": 0.5,
+    "rho_max": 1.0,
+    "note": "printed as 0 (below 1 ohm.m); 0.5 used as a nominal value"
+   }
+  ],
+  "digitisation_error": "interfaces +-5% (box edges read on the AB/2 axis)",
+  "provenance": {
+   "document": "main",
+   "pages": [
+    24
+   ],
+   "figure": "VES sheet D.P. 32, job 457",
+   "method": "digitised_manual",
+   "tool": "geosigma.extract.ves_sheet (edges) + reading by eye",
+   "extracted_on": "2026-10-13",
+   "notes": "Interface depths taken as the AB/2 of the box edges under the curve."
+  },
+  "notes": "The last layer is open-ended; the model does not state a DOI."
+ },
+ {
+  "id": "paparo-1978-zin-amazyahu-sedom-ves-457-33",
+  "survey": "paparo-1978-zin-amazyahu-sedom",
+  "site": "457-33",
+  "method": "VES",
+  "level": "L2",
+  "representation": "model_1d",
+  "measured_on": "1953",
+  "confidence": "B",
+  "status": "draft",
+  "model_type": "layered",
+  "depth_max_m": 4,
+  "layers": [
+   {
+    "top_m": 0.0,
+    "bottom_m": 3.0,
+    "rho_ohmm": 560
+   },
+   {
+    "top_m": 3.0,
+    "bottom_m": null,
+    "rho_ohmm": 13
+   }
+  ],
+  "digitisation_error": "interfaces +-5% (box edges read on the AB/2 axis)",
+  "provenance": {
+   "document": "main",
+   "pages": [
+    25
+   ],
+   "figure": "VES sheet D.P. 33, job 457",
+   "method": "digitised_manual",
+   "tool": "geosigma.extract.ves_sheet (edges) + reading by eye",
+   "extracted_on": "2026-10-13",
+   "notes": "Interface depths taken as the AB/2 of the box edges under the curve."
+  },
+  "notes": "The last layer is open-ended; the model does not state a DOI."
+ },
+ {
+  "id": "paparo-1978-zin-amazyahu-sedom-ves-457-34",
+  "survey": "paparo-1978-zin-amazyahu-sedom",
+  "site": "457-34",
+  "method": "VES",
+  "level": "L2",
+  "representation": "model_1d",
+  "measured_on": "1953",
+  "confidence": "B",
+  "status": "draft",
+  "model_type": "layered",
+  "depth_max_m": 27,
+  "layers": [
+   {
+    "top_m": 0.0,
+    "bottom_m": 1.0,
+    "rho_ohmm": 900
+   },
+   {
+    "top_m": 1.0,
+    "bottom_m": 18.3,
+    "rho_ohmm": 1300
+   },
+   {
+    "top_m": 18.3,
+    "bottom_m": null,
+    "rho_ohmm": 0.5,
+    "rho_max": 1.0,
+    "note": "printed as 0 (below 1 ohm.m); 0.5 used as a nominal value"
+   }
+  ],
+  "digitisation_error": "interfaces +-5% (box edges read on the AB/2 axis)",
+  "provenance": {
+   "document": "main",
+   "pages": [
+    26
+   ],
+   "figure": "VES sheet D.P. 34, job 457",
+   "method": "digitised_manual",
+   "tool": "geosigma.extract.ves_sheet (edges) + reading by eye",
+   "extracted_on": "2026-10-13",
+   "notes": "Interface depths taken as the AB/2 of the box edges under the curve."
+  },
+  "notes": "At the Zin 5 borehole. The last layer is open-ended; the model does not state a DOI."
+ },
+ {
+  "id": "paparo-1978-zin-amazyahu-sedom-ves-457-36",
+  "survey": "paparo-1978-zin-amazyahu-sedom",
+  "site": "457-36",
+  "method": "VES",
+  "level": "L2",
+  "representation": "model_1d",
+  "measured_on": "1953",
+  "confidence": "B",
+  "status": "draft",
+  "model_type": "layered",
+  "depth_max_m": 16,
+  "layers": [
+   {
+    "top_m": 0.0,
+    "bottom_m": 10.8,
+    "rho_ohmm": 1800
+   },
+   {
+    "top_m": 10.8,
+    "bottom_m": null,
+    "rho_ohmm": 40
+   }
+  ],
+  "digitisation_error": "interfaces +-5% (box edges read on the AB/2 axis)",
+  "provenance": {
+   "document": "main",
+   "pages": [
+    27
+   ],
+   "figure": "VES sheet D.P. 36, job 457",
+   "method": "digitised_manual",
+   "tool": "geosigma.extract.ves_sheet (edges) + reading by eye",
+   "extracted_on": "2026-10-13",
+   "notes": "Interface depths taken as the AB/2 of the box edges under the curve."
+  },
+  "notes": "The last layer is open-ended; the model does not state a DOI."
+ },
+ {
+  "id": "paparo-1978-zin-amazyahu-sedom-ves-457-37",
+  "survey": "paparo-1978-zin-amazyahu-sedom",
+  "site": "457-37",
+  "method": "VES",
+  "level": "L2",
+  "representation": "model_1d",
+  "measured_on": "1953",
+  "confidence": "B",
+  "status": "draft",
+  "model_type": "layered",
+  "depth_max_m": 17,
+  "layers": [
+   {
+    "top_m": 0.0,
+    "bottom_m": 1.6,
+    "rho_ohmm": 5400
+   },
+   {
+    "top_m": 1.6,
+    "bottom_m": 11.3,
+    "rho_ohmm": 2200
+   },
+   {
+    "top_m": 11.3,
+    "bottom_m": null,
+    "rho_ohmm": 60
+   }
+  ],
+  "digitisation_error": "interfaces +-5% (box edges read on the AB/2 axis)",
+  "provenance": {
+   "document": "main",
+   "pages": [
+    28
+   ],
+   "figure": "VES sheet D.P. 37, job 457",
+   "method": "digitised_manual",
+   "tool": "geosigma.extract.ves_sheet (edges) + reading by eye",
+   "extracted_on": "2026-10-13",
+   "notes": "Interface depths taken as the AB/2 of the box edges under the curve."
+  },
+  "notes": "Grid too faint for the axis fit; axis set from the printed 10 and 100 labels. The last layer is open-ended; the model does not state a DOI."
+ },
+ {
+  "id": "paparo-1978-zin-amazyahu-sedom-ves-457-38",
+  "survey": "paparo-1978-zin-amazyahu-sedom",
+  "site": "457-38",
+  "method": "VES",
+  "level": "L2",
+  "representation": "model_1d",
+  "measured_on": "1953",
+  "confidence": "B",
+  "status": "draft",
+  "model_type": "layered",
+  "depth_max_m": 18,
+  "layers": [
+   {
+    "top_m": 0.0,
+    "bottom_m": 11.9,
+    "rho_ohmm": 1400
+   },
+   {
+    "top_m": 11.9,
+    "bottom_m": null,
+    "rho_ohmm": 98
+   }
+  ],
+  "digitisation_error": "interfaces +-5% (box edges read on the AB/2 axis)",
+  "provenance": {
+   "document": "main",
+   "pages": [
+    29
+   ],
+   "figure": "VES sheet D.P. 38, job 457",
+   "method": "digitised_manual",
+   "tool": "geosigma.extract.ves_sheet (edges) + reading by eye",
+   "extracted_on": "2026-10-13",
+   "notes": "Interface depths taken as the AB/2 of the box edges under the curve."
+  },
+  "notes": "At the Zin 3 borehole. The last layer is open-ended; the model does not state a DOI."
+ },
+ {
+  "id": "paparo-1978-zin-amazyahu-sedom-ves-457-39",
+  "survey": "paparo-1978-zin-amazyahu-sedom",
+  "site": "457-39",
+  "method": "VES",
+  "level": "L2",
+  "representation": "model_1d",
+  "measured_on": "1953",
+  "confidence": "B",
+  "status": "draft",
+  "model_type": "layered",
+  "depth_max_m": 17,
+  "layers": [
+   {
+    "top_m": 0.0,
+    "bottom_m": 6.3,
+    "rho_ohmm": 3000
+   },
+   {
+    "top_m": 6.3,
+    "bottom_m": 11.1,
+    "rho_ohmm": 460
+   },
+   {
+    "top_m": 11.1,
+    "bottom_m": null,
+    "rho_ohmm": 64
+   }
+  ],
+  "digitisation_error": "interfaces +-5% (box edges read on the AB/2 axis)",
+  "provenance": {
+   "document": "main",
+   "pages": [
+    30
+   ],
+   "figure": "VES sheet D.P. 39, job 457",
+   "method": "digitised_manual",
+   "tool": "geosigma.extract.ves_sheet (edges) + reading by eye",
+   "extracted_on": "2026-10-13",
+   "notes": "Interface depths taken as the AB/2 of the box edges under the curve."
+  },
+  "notes": "The last layer is open-ended; the model does not state a DOI."
+ },
+ {
+  "id": "paparo-1978-zin-amazyahu-sedom-ves-457-40",
+  "survey": "paparo-1978-zin-amazyahu-sedom",
+  "site": "457-40",
+  "method": "VES",
+  "level": "L2",
+  "representation": "model_1d",
+  "measured_on": "1953",
+  "confidence": "B",
+  "status": "draft",
+  "model_type": "layered",
+  "depth_max_m": 17,
+  "layers": [
+   {
+    "top_m": 0.0,
+    "bottom_m": 2.0,
+    "rho_ohmm": 4200
+   },
+   {
+    "top_m": 2.0,
+    "bottom_m": 11.2,
+    "rho_ohmm": 840
+   },
+   {
+    "top_m": 11.2,
+    "bottom_m": null,
+    "rho_ohmm": 66
+   }
+  ],
+  "digitisation_error": "interfaces +-5% (box edges read on the AB/2 axis)",
+  "provenance": {
+   "document": "main",
+   "pages": [
+    31
+   ],
+   "figure": "VES sheet D.P. 40, job 457",
+   "method": "digitised_manual",
+   "tool": "geosigma.extract.ves_sheet (edges) + reading by eye",
+   "extracted_on": "2026-10-13",
+   "notes": "Interface depths taken as the AB/2 of the box edges under the curve."
+  },
+  "notes": "The last layer is open-ended; the model does not state a DOI."
+ },
+ {
+  "id": "paparo-1978-zin-amazyahu-sedom-ves-457-52",
+  "survey": "paparo-1978-zin-amazyahu-sedom",
+  "site": "457-52",
+  "method": "VES",
+  "level": "L2",
+  "representation": "model_1d",
+  "measured_on": "1953",
+  "confidence": "B",
+  "status": "draft",
+  "model_type": "layered",
+  "depth_max_m": 15,
+  "layers": [
+   {
+    "top_m": 0.0,
+    "bottom_m": 3.2,
+    "rho_ohmm": 2400
+   },
+   {
+    "top_m": 3.2,
+    "bottom_m": 10.0,
+    "rho_ohmm": 300
+   },
+   {
+    "top_m": 10.0,
+    "bottom_m": null,
+    "rho_ohmm": 36
+   }
+  ],
+  "digitisation_error": "interfaces +-5% (box edges read on the AB/2 axis)",
+  "provenance": {
+   "document": "main",
+   "pages": [
+    32
+   ],
+   "figure": "VES sheet D.P. 52, job 457",
+   "method": "digitised_manual",
+   "tool": "geosigma.extract.ves_sheet (edges) + reading by eye",
+   "extracted_on": "2026-10-13",
+   "notes": "Interface depths taken as the AB/2 of the box edges under the curve."
+  },
+  "notes": "The last layer is open-ended; the model does not state a DOI."
+ },
+ {
+  "id": "paparo-1978-zin-amazyahu-sedom-ves-457-53",
+  "survey": "paparo-1978-zin-amazyahu-sedom",
+  "site": "457-53",
+  "method": "VES",
+  "level": "L2",
+  "representation": "model_1d",
+  "measured_on": "1953",
+  "confidence": "B",
+  "status": "draft",
+  "model_type": "layered",
+  "depth_max_m": 15,
+  "layers": [
+   {
+    "top_m": 0.0,
+    "bottom_m": 1.9,
+    "rho_ohmm": 2800
+   },
+   {
+    "top_m": 1.9,
+    "bottom_m": 10.2,
+    "rho_ohmm": 560
+   },
+   {
+    "top_m": 10.2,
+    "bottom_m": null,
+    "rho_ohmm": 50
+   }
+  ],
+  "digitisation_error": "interfaces +-5% (box edges read on the AB/2 axis)",
+  "provenance": {
+   "document": "main",
+   "pages": [
+    34
+   ],
+   "figure": "VES sheet D.P. 53, job 457",
+   "method": "digitised_manual",
+   "tool": "geosigma.extract.ves_sheet (edges) + reading by eye",
+   "extracted_on": "2026-10-13",
+   "notes": "Interface depths taken as the AB/2 of the box edges under the curve."
+  },
+  "notes": "The last layer is open-ended; the model does not state a DOI."
+ },
+ {
+  "id": "paparo-1978-zin-amazyahu-sedom-ves-457-55",
+  "survey": "paparo-1978-zin-amazyahu-sedom",
+  "site": "457-55",
+  "method": "VES",
+  "level": "L2",
+  "representation": "model_1d",
+  "measured_on": "1953",
+  "confidence": "B",
+  "status": "draft",
+  "model_type": "layered",
+  "depth_max_m": 14,
+  "layers": [
+   {
+    "top_m": 0.0,
+    "bottom_m": 2.1,
+    "rho_ohmm": 1300
+   },
+   {
+    "top_m": 2.1,
+    "bottom_m": 9.6,
+    "rho_ohmm": 34
+   },
+   {
+    "top_m": 9.6,
+    "bottom_m": null,
+    "rho_ohmm": 8
+   }
+  ],
+  "digitisation_error": "interfaces +-5% (box edges read on the AB/2 axis)",
+  "provenance": {
+   "document": "main",
+   "pages": [
+    36
+   ],
+   "figure": "VES sheet D.P. 55, job 457",
+   "method": "digitised_manual",
+   "tool": "geosigma.extract.ves_sheet (edges) + reading by eye",
+   "extracted_on": "2026-10-13",
+   "notes": "Interface depths taken as the AB/2 of the box edges under the curve."
+  },
+  "notes": "The last layer is open-ended; the model does not state a DOI."
+ },
+ {
+  "id": "paparo-1978-zin-amazyahu-sedom-ves-457-56",
+  "survey": "paparo-1978-zin-amazyahu-sedom",
+  "site": "457-56",
+  "method": "VES",
+  "level": "L2",
+  "representation": "model_1d",
+  "measured_on": "1953",
+  "confidence": "B",
+  "status": "draft",
+  "model_type": "layered",
+  "depth_max_m": 60,
+  "layers": [
+   {
+    "top_m": 0.0,
+    "bottom_m": 9.6,
+    "rho_ohmm": 48
+   },
+   {
+    "top_m": 9.6,
+    "bottom_m": 40.3,
+    "rho_ohmm": 14
+   },
+   {
+    "top_m": 40.3,
+    "bottom_m": null,
+    "rho_ohmm": 9
+   }
+  ],
+  "digitisation_error": "interfaces +-5% (box edges read on the AB/2 axis)",
+  "provenance": {
+   "document": "main",
+   "pages": [
+    37
+   ],
+   "figure": "VES sheet D.P. 56, job 457",
+   "method": "digitised_manual",
+   "tool": "geosigma.extract.ves_sheet (edges) + reading by eye",
+   "extracted_on": "2026-10-13",
+   "notes": "Interface depths taken as the AB/2 of the box edges under the curve."
+  },
+  "notes": "The last layer is open-ended; the model does not state a DOI."
+ },
+ {
+  "id": "paparo-1978-zin-amazyahu-sedom-ves-457-57",
+  "survey": "paparo-1978-zin-amazyahu-sedom",
+  "site": "457-57",
+  "method": "VES",
+  "level": "L2",
+  "representation": "model_1d",
+  "measured_on": "1953",
+  "confidence": "B",
+  "status": "draft",
+  "model_type": "layered",
+  "depth_max_m": 46,
+  "layers": [
+   {
+    "top_m": 0.0,
+    "bottom_m": 1.1,
+    "rho_ohmm": 3200
+   },
+   {
+    "top_m": 1.1,
+    "bottom_m": 13.1,
+    "rho_ohmm": 64
+   },
+   {
+    "top_m": 13.1,
+    "bottom_m": 30.5,
+    "rho_ohmm": 15
+   },
+   {
+    "top_m": 30.5,
+    "bottom_m": null,
+    "rho_ohmm": 7.4
+   }
+  ],
+  "digitisation_error": "interfaces +-5% (box edges read on the AB/2 axis)",
+  "provenance": {
+   "document": "main",
+   "pages": [
+    38
+   ],
+   "figure": "VES sheet D.P. 57, job 457",
+   "method": "digitised_manual",
+   "tool": "geosigma.extract.ves_sheet (edges) + reading by eye",
+   "extracted_on": "2026-10-13",
+   "notes": "Interface depths taken as the AB/2 of the box edges under the curve."
+  },
+  "notes": "The last layer is open-ended; the model does not state a DOI."
+ },
+ {
+  "id": "paparo-1978-zin-amazyahu-sedom-ves-457-58",
+  "survey": "paparo-1978-zin-amazyahu-sedom",
+  "site": "457-58",
+  "method": "VES",
+  "level": "L2",
+  "representation": "model_1d",
+  "measured_on": "1953",
+  "confidence": "B",
+  "status": "draft",
+  "model_type": "layered",
+  "depth_max_m": 42,
+  "layers": [
+   {
+    "top_m": 0.0,
+    "bottom_m": 1.3,
+    "rho_ohmm": 3500
+   },
+   {
+    "top_m": 1.3,
+    "bottom_m": 8.7,
+    "rho_ohmm": 1200
+   },
+   {
+    "top_m": 8.7,
+    "bottom_m": 27.9,
+    "rho_ohmm": 55
+   },
+   {
+    "top_m": 27.9,
+    "bottom_m": null,
+    "rho_ohmm": 36
+   }
+  ],
+  "digitisation_error": "interfaces +-5% (box edges read on the AB/2 axis)",
+  "provenance": {
+   "document": "main",
+   "pages": [
+    39
+   ],
+   "figure": "VES sheet D.P. 58, job 457",
+   "method": "digitised_manual",
+   "tool": "geosigma.extract.ves_sheet (edges) + reading by eye",
+   "extracted_on": "2026-10-13",
+   "notes": "Interface depths taken as the AB/2 of the box edges under the curve."
+  },
+  "notes": "The last layer is open-ended; the model does not state a DOI."
+ },
+ {
+  "id": "paparo-1978-zin-amazyahu-sedom-ves-457-59",
+  "survey": "paparo-1978-zin-amazyahu-sedom",
+  "site": "457-59",
+  "method": "VES",
+  "level": "L2",
+  "representation": "model_1d",
+  "measured_on": "1953",
+  "confidence": "B",
+  "status": "draft",
+  "model_type": "layered",
+  "depth_max_m": 23,
+  "layers": [
+   {
+    "top_m": 0.0,
+    "bottom_m": 3.8,
+    "rho_ohmm": 2000
+   },
+   {
+    "top_m": 3.8,
+    "bottom_m": 15.2,
+    "rho_ohmm": 270
+   },
+   {
+    "top_m": 15.2,
+    "bottom_m": null,
+    "rho_ohmm": 56
+   }
+  ],
+  "digitisation_error": "interfaces +-5% (box edges read on the AB/2 axis)",
+  "provenance": {
+   "document": "main",
+   "pages": [
+    40
+   ],
+   "figure": "VES sheet D.P. 59, job 457",
+   "method": "digitised_manual",
+   "tool": "geosigma.extract.ves_sheet (edges) + reading by eye",
+   "extracted_on": "2026-10-13",
+   "notes": "Interface depths taken as the AB/2 of the box edges under the curve."
+  },
+  "notes": "The last layer is open-ended; the model does not state a DOI."
+ },
+ {
+  "id": "paparo-1978-zin-amazyahu-sedom-ves-457-60",
+  "survey": "paparo-1978-zin-amazyahu-sedom",
+  "site": "457-60",
+  "method": "VES",
+  "level": "L2",
+  "representation": "model_1d",
+  "measured_on": "1953",
+  "confidence": "B",
+  "status": "draft",
+  "model_type": "layered",
+  "depth_max_m": 24,
+  "layers": [
+   {
+    "top_m": 0.0,
+    "bottom_m": 16.1,
+    "rho_ohmm": 500
+   },
+   {
+    "top_m": 16.1,
+    "bottom_m": null,
+    "rho_ohmm": 36
+   }
+  ],
+  "digitisation_error": "interfaces +-5% (box edges read on the AB/2 axis)",
+  "provenance": {
+   "document": "main",
+   "pages": [
+    41
+   ],
+   "figure": "VES sheet D.P. 60, job 457",
+   "method": "digitised_manual",
+   "tool": "geosigma.extract.ves_sheet (edges) + reading by eye",
+   "extracted_on": "2026-10-13",
+   "notes": "Interface depths taken as the AB/2 of the box edges under the curve."
+  },
+  "notes": "The last layer is open-ended; the model does not state a DOI."
+ }
+]

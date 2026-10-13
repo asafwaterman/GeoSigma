@@ -21,4 +21,229 @@ documents:
   role: main_report
   sha256: c6e68b604acfe98c66b925780017ee3840ab5184de71cf5e812137957f4cf9aa
   pages: 51
-extraction_status: registered
+extraction_status: partial
+sites:
+- id: 457-Zin1
+  name: VES Zin1 (job 457)
+  elevation_m: -363
+  coords:
+    x: 183270
+    y: 44900
+    crs: EPSG:28193
+    source: table
+- id: 457-9-II
+  name: VES 9/II (job 457)
+  elevation_m: -359
+  coords:
+    x: 183140
+    y: 45330
+    crs: EPSG:28193
+    source: table
+- id: 457-9-III
+  name: VES 9/III (job 457)
+  elevation_m: -360
+  coords:
+    x: 183420
+    y: 45500
+    crs: EPSG:28193
+    source: table
+- id: 457-13
+  name: VES 13 (job 457)
+  elevation_m: -374
+  coords:
+    x: 183560
+    y: 44410
+    crs: EPSG:28193
+    source: table
+- id: 457-19-I
+  name: VES 19/I (job 457)
+  elevation_m: -357
+  coords:
+    x: 183160
+    y: 45020
+    crs: EPSG:28193
+    source: table
+- id: 457-19-II
+  name: VES 19/II (job 457)
+  elevation_m: -361
+  coords:
+    x: 183370
+    y: 45220
+    crs: EPSG:28193
+    source: table
+- id: 457-19-III
+  name: VES 19/III (job 457)
+  elevation_m: -362
+  coords:
+    x: 183520
+    y: 45360
+    crs: EPSG:28193
+    source: table
+- id: 457-23
+  name: VES 23 (job 457)
+  elevation_m: -363
+  coords:
+    x: 183270
+    y: 44900
+    crs: EPSG:28193
+    source: table
+- id: 457-27
+  name: VES 27 (job 457)
+  elevation_m: -356
+  coords:
+    x: 183020
+    y: 45350
+    crs: EPSG:28193
+    source: table
+- id: 457-28
+  name: VES 28 (job 457)
+  elevation_m: -372
+  coords:
+    x: 183280
+    y: 45640
+    crs: EPSG:28193
+    source: table
+- id: 457-30
+  name: VES 30 (job 457)
+  elevation_m: -369
+  coords:
+    x: 183560
+    y: 45140
+    crs: EPSG:28193
+    source: table
+- id: 457-31
+  name: VES 31 (job 457)
+  elevation_m: -365
+  coords:
+    x: 183100
+    y: 45220
+    crs: EPSG:28193
+    source: table
+- id: 457-32
+  name: VES 32 (job 457)
+  elevation_m: -363
+  coords:
+    x: 183190
+    y: 45060
+    crs: EPSG:28193
+    source: table
+- id: 457-33
+  name: VES 33 (job 457)
+  elevation_m: -368
+  coords:
+    x: 182930
+    y: 45480
+    crs: EPSG:28193
+    source: table
+- id: 457-34
+  name: VES 34 (job 457)
+  elevation_m: -365
+  coords:
+    x: 183430
+    y: 44680
+    crs: EPSG:28193
+    source: table
+- id: 457-36
+  name: VES 36 (job 457)
+  elevation_m: -370
+  coords:
+    x: 183360
+    y: 45560
+    crs: EPSG:28193
+    source: table
+- id: 457-37
+  name: VES 37 (job 457)
+  elevation_m: -370
+  coords:
+    x: 183460
+    y: 45310
+    crs: EPSG:28193
+    source: table
+- id: 457-38
+  name: VES 38 (job 457)
+  elevation_m: -367
+  coords:
+    x: 183670
+    y: 44920
+    crs: EPSG:28193
+    source: table
+- id: 457-39
+  name: VES 39 (job 457)
+  elevation_m: -347
+  coords:
+    x: 183880
+    y: 45400
+    crs: EPSG:28193
+    source: table
+- id: 457-40
+  name: VES 40 (job 457)
+  elevation_m: -373
+  coords:
+    x: 184030
+    y: 45150
+    crs: EPSG:28193
+    source: table
+- id: 457-52
+  name: VES 52 (job 457)
+  elevation_m: -372
+  coords:
+    x: 184150
+    y: 44920
+    crs: EPSG:28193
+    source: table
+- id: 457-53
+  name: VES 53 (job 457)
+  elevation_m: -367
+  coords:
+    x: 182970
+    y: 45410
+    crs: EPSG:28193
+    source: table
+- id: 457-55
+  name: VES 55 (job 457)
+  elevation_m: -369
+  coords:
+    x: 183180
+    y: 45800
+    crs: EPSG:28193
+    source: table
+- id: 457-56
+  name: VES 56 (job 457)
+  elevation_m: -374
+  coords:
+    x: 183390
+    y: 46100
+    crs: EPSG:28193
+    source: table
+- id: 457-57
+  name: VES 57 (job 457)
+  elevation_m: -375
+  coords:
+    x: 183490
+    y: 46000
+    crs: EPSG:28193
+    source: table
+- id: 457-58
+  name: VES 58 (job 457)
+  elevation_m: -376
+  coords:
+    x: 183630
+    y: 45780
+    crs: EPSG:28193
+    source: table
+- id: 457-59
+  name: VES 59 (job 457)
+  elevation_m: -375
+  coords:
+    x: 183760
+    y: 45580
+    crs: EPSG:28193
+    source: table
+- id: 457-60
+  name: VES 60 (job 457)
+  elevation_m: -369
+  coords:
+    x: 183740
+    y: 44660
+    crs: EPSG:28193
+    source: table

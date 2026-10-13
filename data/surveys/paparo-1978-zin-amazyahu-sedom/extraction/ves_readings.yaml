@@ -1,0 +1,39 @@
+# VES sheets, PDF pages 12-41. Box values (ohm.m) read by eye; box edges read by eye
+# in 200 dpi pixels (the sheets have no closed box band, so detection does not work).
+# Coordinates printed in units of 10 m (Old Israel Grid); elevations below sea level.
+# Pages 33 and 35 repeat pages 32 and 34 and are skipped.
+# File 223 sheets are the report's reinterpretation of the 1953 soundings; the others
+# are the six new 1978 soundings. A printed "0" box means below 1 ohm.m (brine).
+- {page: 12, job: 457, dp: Zin1, x: 18327, y: 4490, elev: -363, rho: [600, 750, 150, 0], edges_px: [388, 897, 1252],
+   measured_on: "1978", note: "Sounding at the Zin 1 borehole; same place as D.P. 23."}
+- {page: 13, job: 457, dp: 9/II, x: 18314, y: 4533, elev: -359, rho: [11200, 1300, 260, 0], edges_px: [150, 895, 1107], measured_on: "1978"}
+- {page: 14, job: 457, dp: 9/III, x: 18342, y: 4550, elev: -360, rho: [2900, 1160, 3350, 280, 0], edges_px: [255, 452, 780, 1158], measured_on: "1978"}
+- {page: 15, job: 457, dp: 13, x: 18356, y: 4441, elev: -374, rho: [5.6, 3.0, 7.5, 0], edges_px: [213, 763, 1152], measured_on: "1953"}
+- {page: 16, job: 457, dp: 19/I, x: 18316, y: 4502, elev: -357, rho: [1250, 700, 850, 170, 0], edges_px: [275, 473, 1013, 1212], measured_on: "1978"}
+- {page: 17, job: 457, dp: 19/II, x: 18337, y: 4522, elev: -361, rho: [600, 1300, 240, 0], edges_px: [73, 948, 1205], rotate: 180,
+   measured_on: "1978", note: "Sheet scanned upside down."}
+- {page: 18, job: 457, dp: 19/III, x: 18352, y: 4536, elev: -362, rho: [5000, 1100, 220, 0], edges_px: [87, 987, 1135], measured_on: "1978"}
+- {page: 19, job: 457, dp: 23, x: 18327, y: 4490, elev: -363, rho: [1400, 280, 1000, 0], edges_px: [130, 708, 963], measured_on: "1953",
+   note: "At the Zin 1 borehole."}
+- {page: 20, job: 457, dp: 27, x: 18302, y: 4535, elev: -356, rho: [900, 23], edges_px: [883], measured_on: "1953", note: "Near the Zin 2 borehole."}
+- {page: 21, job: 457, dp: 28, x: 18328, y: 4564, elev: -372, rho: [800, 20], edges_px: [842], measured_on: "1953"}
+- {page: 22, job: 457, dp: 30, x: 18356, y: 4514, elev: -369, rho: [1700, 660, 16], edges_px: [433, 960], measured_on: "1953"}
+- {page: 23, job: 457, dp: 31, x: 18310, y: 4522, elev: -365, rho: [150, 15], edges_px: [832], measured_on: "1953"}
+- {page: 24, job: 457, dp: 32, x: 18319, y: 4506, elev: -363, rho: [30, 300, 0], edges_px: [388, 953], measured_on: "1953"}
+- {page: 25, job: 457, dp: 33, x: 18293, y: 4548, elev: -368, rho: [560, 13], edges_px: [395], measured_on: "1953"}
+- {page: 26, job: 457, dp: 34, x: 18343, y: 4468, elev: -365, rho: [900, 1300, 0], edges_px: [78, 897], measured_on: "1953",
+   note: "At the Zin 5 borehole."}
+- {page: 27, job: 457, dp: 36, x: 18336, y: 4556, elev: -370, rho: [1800, 40], edges_px: [742], measured_on: "1953"}
+- {page: 28, job: 457, dp: 37, x: 18346, y: 4531, elev: -370, rho: [5400, 2200, 60], edges_px: [225, 775], x_one: 84, dec_x: 655,
+   measured_on: "1953", note: "Grid too faint for the axis fit; axis set from the printed 10 and 100 labels."}
+- {page: 29, job: 457, dp: 38, x: 18367, y: 4492, elev: -367, rho: [1400, 98], edges_px: [772], measured_on: "1953", note: "At the Zin 3 borehole."}
+- {page: 30, job: 457, dp: 39, x: 18388, y: 4540, elev: -347, rho: [3000, 460, 64], edges_px: [588, 747], measured_on: "1953"}
+- {page: 31, job: 457, dp: 40, x: 18403, y: 4515, elev: -373, rho: [4200, 840, 66], edges_px: [257, 745], measured_on: "1953"}
+- {page: 32, job: 457, dp: 52, x: 18415, y: 4492, elev: -372, rho: [2400, 300, 36], edges_px: [395, 720], measured_on: "1953"}
+- {page: 34, job: 457, dp: 53, x: 18297, y: 4541, elev: -367, rho: [2800, 560, 50], edges_px: [238, 713], measured_on: "1953"}
+- {page: 36, job: 457, dp: 55, x: 18318, y: 4580, elev: -369, rho: [1300, 34, 8], edges_px: [290, 717], measured_on: "1953"}
+- {page: 37, job: 457, dp: 56, x: 18339, y: 4610, elev: -374, rho: [48, 14, 9], edges_px: [708, 1117], measured_on: "1953"}
+- {page: 38, job: 457, dp: 57, x: 18349, y: 4600, elev: -375, rho: [3200, 64, 15, 7.4], edges_px: [117, 822, 1062], measured_on: "1953"}
+- {page: 39, job: 457, dp: 58, x: 18363, y: 4578, elev: -376, rho: [3500, 1200, 55, 36], edges_px: [125, 667, 1002], measured_on: "1953"}
+- {page: 40, job: 457, dp: 59, x: 18376, y: 4558, elev: -375, rho: [2000, 270, 56], edges_px: [448, 842], measured_on: "1953"}
+- {page: 41, job: 457, dp: 60, x: 18374, y: 4466, elev: -369, rho: [500, 36], edges_px: [870], measured_on: "1953"}
