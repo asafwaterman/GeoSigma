@@ -1,0 +1,2303 @@
+id: afek-2013-csamt
+name: In-line CSAMT survey, Afek Project, southern Golan Heights
+organisation: Northwest Geophysical Associates (NGA)
+client: Genie Oil and Gas
+authors:
+- N. Carlson
+- L. Beard
+- A. Szidarovszky
+report_number: NGA Job 13060
+year: 2013
+acquired: 2013-09-06/2013-10-21
+methods:
+- CSAMT
+region: Southern Golan Heights
+purpose: Map resistive bituminous chalk / oil-shale zones (Gareb, Mishash, Menuha fms.)
+geometry: profile
+depth_reach: models to about 1.5-2 km
+documents:
+- id: main
+  title: 'Geophysical report: in-line CSAMT survey on the Afek Project'
+  filename: Afek-Project-Geophysical-Report.pdf
+  drive_id: 1AojgaAXwjkY3YsNVTZFpdWEOkfePXyO0
+  sha256: bd60a392d87d086b0148fde3d8db882fdca8e6eeba70569e650a4c5dfacf5346
+  pages: 33
+  language:
+  - en
+  scanned: false
+  role: main_report
+- id: appA
+  title: 'Appendix A: production schedule'
+  filename: Afek-Project-Geophysical-Report-Appendix-A.pdf
+  drive_id: 1kLWHFD1FAc3Va3gY2j83CpS-GvMQW_0D
+  sha256: 698405655d174434dd976b38ff9f115ddbf6774b8766d725575be3cfbf1ecffc
+  pages: 4
+  language:
+  - en
+  scanned: false
+  role: appendix
+- id: appB
+  title: 'Appendix B: transmitter and receiver station coordinates'
+  filename: Afek-Project-Geophysical-Report-Appendix-B.pdf
+  drive_id: 135Cl7Cf30X0tlwSj3WwXYrTcqQuwj3xE
+  sha256: 8a9d29195eb39ef488f86d6b44d5fe5191270322e5c50a00c23e3a4dcc1aea04
+  pages: 12
+  language:
+  - en
+  scanned: false
+  role: appendix
+- id: appC
+  title: 'Appendix C: resistivity model curves'
+  filename: Afek-Project-Geophysical-Report-Appendix-C.pdf
+  drive_id: 10jxRq3NHawT7m1oiiC9fbr5cACLxtSi5
+  sha256: 16023cb137bac99d41f7fe308a285eacc9933881a60a065ba3d0f646b844b939
+  pages: 130
+  language:
+  - en
+  scanned: false
+  role: appendix
+- id: appD
+  title: 'Appendix D: resistivity model cross sections'
+  filename: Afek-Project-Geophysical-Report-Appendix-D.pdf
+  drive_id: 152OhjygIcnkxLUsQR-3-BYGPi2yTJJuQ
+  sha256: 35914027d2709b4ad542ab62591f611ed69867f680e25f7236de7653dc3a93ea
+  pages: 61
+  language:
+  - en
+  scanned: false
+  role: appendix
+sites:
+- id: A1-100
+  name: Line A1 station 100 (Ex)
+  line: A1
+  coords:
+    x: 265256.0
+    y: 740112.0
+    crs: EPSG:2039
+    source: table
+  notes: CSAMT In-line receiver, Ex dipole (App. B)
+- id: A1-300
+  name: Line A1 station 300 (Ex)
+  line: A1
+  coords:
+    x: 265310.0
+    y: 739910.0
+    crs: EPSG:2039
+    source: table
+  notes: CSAMT In-line receiver, Ex dipole (App. B)
+- id: A1-500
+  name: Line A1 station 500 (Ex)
+  line: A1
+  coords:
+    x: 265373.0
+    y: 739740.0
+    crs: EPSG:2039
+    source: table
+  notes: CSAMT In-line receiver, Ex dipole (App. B)
+- id: A1-700
+  name: Line A1 station 700 (Ex)
+  line: A1
+  coords:
+    x: 265432.0
+    y: 739562.0
+    crs: EPSG:2039
+    source: table
+  notes: CSAMT In-line receiver, Ex dipole (App. B)
+- id: A2-100
+  name: Line A2 station 100 (Ex)
+  line: A2
+  coords:
+    x: 265497.0
+    y: 739266.0
+    crs: EPSG:2039
+    source: table
+  notes: CSAMT In-line receiver, Ex dipole (App. B)
+- id: A2-300
+  name: Line A2 station 300 (Ex)
+  line: A2
+  coords:
+    x: 265527.0
+    y: 739070.0
+    crs: EPSG:2039
+    source: table
+  notes: CSAMT In-line receiver, Ex dipole (App. B)
+- id: A2-500
+  name: Line A2 station 500 (Ex)
+  line: A2
+  coords:
+    x: 265558.0
+    y: 738874.0
+    crs: EPSG:2039
+    source: table
+  notes: CSAMT In-line receiver, Ex dipole (App. B)
+- id: A2-700
+  name: Line A2 station 700 (Ex)
+  line: A2
+  coords:
+    x: 265590.0
+    y: 738679.0
+    crs: EPSG:2039
+    source: table
+  notes: CSAMT In-line receiver, Ex dipole (App. B)
+- id: A3-100
+  name: Line A3 station 100 (Ex)
+  line: A3
+  coords:
+    x: 263567.0
+    y: 739707.0
+    crs: EPSG:2039
+    source: table
+  notes: CSAMT In-line receiver, Ex dipole (App. B)
+- id: A3-300
+  name: Line A3 station 300 (Ex)
+  line: A3
+  coords:
+    x: 263564.0
+    y: 739508.0
+    crs: EPSG:2039
+    source: table
+  notes: CSAMT In-line receiver, Ex dipole (App. B)
+- id: A3-500
+  name: Line A3 station 500 (Ex)
+  line: A3
+  coords:
+    x: 263560.0
+    y: 739308.0
+    crs: EPSG:2039
+    source: table
+  notes: CSAMT In-line receiver, Ex dipole (App. B)
+- id: A3-700
+  name: Line A3 station 700 (Ex)
+  line: A3
+  coords:
+    x: 263555.0
+    y: 739109.0
+    crs: EPSG:2039
+    source: table
+  notes: CSAMT In-line receiver, Ex dipole (App. B)
+- id: A4-100
+  name: Line A4 station 100 (Ex)
+  line: A4
+  coords:
+    x: 262909.0
+    y: 739738.0
+    crs: EPSG:2039
+    source: table
+  notes: CSAMT In-line receiver, Ex dipole (App. B)
+- id: A4-300
+  name: Line A4 station 300 (Ex)
+  line: A4
+  coords:
+    x: 262915.0
+    y: 739538.0
+    crs: EPSG:2039
+    source: table
+  notes: CSAMT In-line receiver, Ex dipole (App. B)
+- id: A4-500
+  name: Line A4 station 500 (Ex)
+  line: A4
+  coords:
+    x: 262920.0
+    y: 739338.0
+    crs: EPSG:2039
+    source: table
+  notes: CSAMT In-line receiver, Ex dipole (App. B); no model plot in App. C
+- id: A4-700
+  name: Line A4 station 700 (Ex)
+  line: A4
+  coords:
+    x: 262925.0
+    y: 739138.0
+    crs: EPSG:2039
+    source: table
+  notes: CSAMT In-line receiver, Ex dipole (App. B); no model plot in App. C
+- id: B1-100
+  name: Line B1 station 100 (Ex)
+  line: B1
+  coords:
+    x: 263601.0
+    y: 741860.0
+    crs: EPSG:2039
+    source: table
+  notes: CSAMT In-line receiver, Ex dipole (App. B)
+- id: B1-300
+  name: Line B1 station 300 (Ex)
+  line: B1
+  coords:
+    x: 263793.0
+    y: 741911.0
+    crs: EPSG:2039
+    source: table
+  notes: CSAMT In-line receiver, Ex dipole (App. B)
+- id: B1-500
+  name: Line B1 station 500 (Ex)
+  line: B1
+  coords:
+    x: 263987.0
+    y: 741961.0
+    crs: EPSG:2039
+    source: table
+  notes: CSAMT In-line receiver, Ex dipole (App. B)
+- id: B1-700
+  name: Line B1 station 700 (Ex)
+  line: B1
+  coords:
+    x: 264181.0
+    y: 742012.0
+    crs: EPSG:2039
+    source: table
+  notes: CSAMT In-line receiver, Ex dipole (App. B)
+- id: B2-100
+  name: Line B2 station 100 (Ex)
+  line: B2
+  coords:
+    x: 263024.0
+    y: 740823.0
+    crs: EPSG:2039
+    source: table
+  notes: CSAMT In-line receiver, Ex dipole (App. B)
+- id: B2-300
+  name: Line B2 station 300 (Ex)
+  line: B2
+  coords:
+    x: 263200.0
+    y: 740920.0
+    crs: EPSG:2039
+    source: table
+  notes: CSAMT In-line receiver, Ex dipole (App. B)
+- id: B2-500
+  name: Line B2 station 500 (Ex)
+  line: B2
+  coords:
+    x: 263376.0
+    y: 741017.0
+    crs: EPSG:2039
+    source: table
+  notes: CSAMT In-line receiver, Ex dipole (App. B)
+- id: B2-700
+  name: Line B2 station 700 (Ex)
+  line: B2
+  coords:
+    x: 263551.0
+    y: 741113.0
+    crs: EPSG:2039
+    source: table
+  notes: CSAMT In-line receiver, Ex dipole (App. B)
+- id: B3-100
+  name: Line B3 station 100 (Ex)
+  line: B3
+  coords:
+    x: 265460.0
+    y: 741951.0
+    crs: EPSG:2039
+    source: table
+  notes: CSAMT In-line receiver, Ex dipole (App. B)
+- id: B3-300
+  name: Line B3 station 300 (Ex)
+  line: B3
+  coords:
+    x: 265643.0
+    y: 742029.0
+    crs: EPSG:2039
+    source: table
+  notes: CSAMT In-line receiver, Ex dipole (App. B)
+- id: B3-500
+  name: Line B3 station 500 (Ex)
+  line: B3
+  coords:
+    x: 265827.0
+    y: 742107.0
+    crs: EPSG:2039
+    source: table
+  notes: CSAMT In-line receiver, Ex dipole (App. B)
+- id: B3-700
+  name: Line B3 station 700 (Ex)
+  line: B3
+  coords:
+    x: 266011.0
+    y: 742187.0
+    crs: EPSG:2039
+    source: table
+  notes: CSAMT In-line receiver, Ex dipole (App. B)
+- id: C2-1-100
+  name: Line C2-1 station 100 (Ex)
+  line: C2-1
+  coords:
+    x: 270757.0
+    y: 746484.0
+    crs: EPSG:2039
+    source: table
+  notes: CSAMT In-line receiver, Ex dipole (App. B)
+- id: C2-1-300
+  name: Line C2-1 station 300 (Ex)
+  line: C2-1
+  coords:
+    x: 270838.0
+    y: 746667.0
+    crs: EPSG:2039
+    source: table
+  notes: CSAMT In-line receiver, Ex dipole (App. B)
+- id: C2-1-500
+  name: Line C2-1 station 500 (Ex)
+  line: C2-1
+  coords:
+    x: 270925.0
+    y: 746846.0
+    crs: EPSG:2039
+    source: table
+  notes: CSAMT In-line receiver, Ex dipole (App. B)
+- id: C2-1-700
+  name: Line C2-1 station 700 (Ex)
+  line: C2-1
+  coords:
+    x: 271036.0
+    y: 747010.0
+    crs: EPSG:2039
+    source: table
+  notes: CSAMT In-line receiver, Ex dipole (App. B)
+- id: C2-2-100
+  name: Line C2-2 station 100 (Ex)
+  line: C2-2
+  coords:
+    x: 270350.0
+    y: 746887.0
+    crs: EPSG:2039
+    source: table
+  notes: CSAMT In-line receiver, Ex dipole (App. B)
+- id: C2-2-300
+  name: Line C2-2 station 300 (Ex)
+  line: C2-2
+  coords:
+    x: 270430.0
+    y: 747069.0
+    crs: EPSG:2039
+    source: table
+  notes: CSAMT In-line receiver, Ex dipole (App. B)
+- id: C2-2-500
+  name: Line C2-2 station 500 (Ex)
+  line: C2-2
+  coords:
+    x: 270510.0
+    y: 747252.0
+    crs: EPSG:2039
+    source: table
+  notes: CSAMT In-line receiver, Ex dipole (App. B)
+- id: C2-2-700
+  name: Line C2-2 station 700 (Ex)
+  line: C2-2
+  coords:
+    x: 270589.0
+    y: 747434.0
+    crs: EPSG:2039
+    source: table
+  notes: CSAMT In-line receiver, Ex dipole (App. B)
+- id: C2-3-100
+  name: Line C2-3 station 100 (Ex)
+  line: C2-3
+  coords:
+    x: 270450.0
+    y: 748296.0
+    crs: EPSG:2039
+    source: table
+  notes: CSAMT In-line receiver, Ex dipole (App. B)
+- id: C2-3-300
+  name: Line C2-3 station 300 (Ex)
+  line: C2-3
+  coords:
+    x: 270590.0
+    y: 748439.0
+    crs: EPSG:2039
+    source: table
+  notes: CSAMT In-line receiver, Ex dipole (App. B)
+- id: C2-3-500
+  name: Line C2-3 station 500 (Ex)
+  line: C2-3
+  coords:
+    x: 270733.0
+    y: 748579.0
+    crs: EPSG:2039
+    source: table
+  notes: CSAMT In-line receiver, Ex dipole (App. B)
+- id: C2-3-700
+  name: Line C2-3 station 700 (Ex)
+  line: C2-3
+  coords:
+    x: 270886.0
+    y: 748707.0
+    crs: EPSG:2039
+    source: table
+  notes: CSAMT In-line receiver, Ex dipole (App. B)
+- id: C2-4-100
+  name: Line C2-4 station 100 (Ex)
+  line: C2-4
+  coords:
+    x: 270206.0
+    y: 749724.0
+    crs: EPSG:2039
+    source: table
+  notes: CSAMT In-line receiver, Ex dipole (App. B)
+- id: C2-4-300
+  name: Line C2-4 station 300 (Ex)
+  line: C2-4
+  coords:
+    x: 270358.0
+    y: 749854.0
+    crs: EPSG:2039
+    source: table
+  notes: CSAMT In-line receiver, Ex dipole (App. B)
+- id: C2-4-500
+  name: Line C2-4 station 500 (Ex)
+  line: C2-4
+  coords:
+    x: 270510.0
+    y: 749984.0
+    crs: EPSG:2039
+    source: table
+  notes: CSAMT In-line receiver, Ex dipole (App. B)
+- id: C2-4-700
+  name: Line C2-4 station 700 (Ex)
+  line: C2-4
+  coords:
+    x: 270662.0
+    y: 750114.0
+    crs: EPSG:2039
+    source: table
+  notes: CSAMT In-line receiver, Ex dipole (App. B)
+- id: C2-5-100
+  name: Line C2-5 station 100 (Ex)
+  line: C2-5
+  coords:
+    x: 270633.0
+    y: 749383.0
+    crs: EPSG:2039
+    source: table
+  notes: CSAMT In-line receiver, Ex dipole (App. B)
+- id: C2-5-300
+  name: Line C2-5 station 300 (Ex)
+  line: C2-5
+  coords:
+    x: 270789.0
+    y: 749509.0
+    crs: EPSG:2039
+    source: table
+  notes: CSAMT In-line receiver, Ex dipole (App. B)
+- id: C2-5-500
+  name: Line C2-5 station 500 (Ex)
+  line: C2-5
+  coords:
+    x: 270945.0
+    y: 749634.0
+    crs: EPSG:2039
+    source: table
+  notes: CSAMT In-line receiver, Ex dipole (App. B)
+- id: C2-5-700
+  name: Line C2-5 station 700 (Ex)
+  line: C2-5
+  coords:
+    x: 271101.0
+    y: 749759.0
+    crs: EPSG:2039
+    source: table
+  notes: CSAMT In-line receiver, Ex dipole (App. B)
+- id: C2-6-100
+  name: Line C2-6 station 100 (Ex)
+  line: C2-6
+  coords:
+    x: 269887.0
+    y: 749972.0
+    crs: EPSG:2039
+    source: table
+  notes: CSAMT In-line receiver, Ex dipole (App. B)
+- id: C2-6-300
+  name: Line C2-6 station 300 (Ex)
+  line: C2-6
+  coords:
+    x: 270040.0
+    y: 750100.0
+    crs: EPSG:2039
+    source: table
+  notes: CSAMT In-line receiver, Ex dipole (App. B)
+- id: C2-6-500
+  name: Line C2-6 station 500 (Ex)
+  line: C2-6
+  coords:
+    x: 270193.0
+    y: 750229.0
+    crs: EPSG:2039
+    source: table
+  notes: CSAMT In-line receiver, Ex dipole (App. B)
+- id: C2-6-700
+  name: Line C2-6 station 700 (Ex)
+  line: C2-6
+  coords:
+    x: 270346.0
+    y: 750357.0
+    crs: EPSG:2039
+    source: table
+  notes: CSAMT In-line receiver, Ex dipole (App. B)
+- id: C3-7-100
+  name: Line C3-7 station 100 (Ex)
+  line: C3-7
+  coords:
+    x: 273246.0
+    y: 757942.0
+    crs: EPSG:2039
+    source: table
+  notes: CSAMT In-line receiver, Ex dipole (App. B)
+- id: C3-7-300
+  name: Line C3-7 station 300 (Ex)
+  line: C3-7
+  coords:
+    x: 273351.0
+    y: 757772.0
+    crs: EPSG:2039
+    source: table
+  notes: CSAMT In-line receiver, Ex dipole (App. B)
+- id: C3-7-500
+  name: Line C3-7 station 500 (Ex)
+  line: C3-7
+  coords:
+    x: 273455.0
+    y: 757601.0
+    crs: EPSG:2039
+    source: table
+  notes: CSAMT In-line receiver, Ex dipole (App. B)
+- id: C3-7-700
+  name: Line C3-7 station 700 (Ex)
+  line: C3-7
+  coords:
+    x: 273560.0
+    y: 757431.0
+    crs: EPSG:2039
+    source: table
+  notes: CSAMT In-line receiver, Ex dipole (App. B)
+- id: C3-8-100
+  name: Line C3-8 station 100 (Ex)
+  line: C3-8
+  coords:
+    x: 272662.0
+    y: 759369.0
+    crs: EPSG:2039
+    source: table
+  notes: CSAMT In-line receiver, Ex dipole (App. B)
+- id: C3-8-300
+  name: Line C3-8 station 300 (Ex)
+  line: C3-8
+  coords:
+    x: 272731.0
+    y: 759181.0
+    crs: EPSG:2039
+    source: table
+  notes: CSAMT In-line receiver, Ex dipole (App. B)
+- id: C3-8-500
+  name: Line C3-8 station 500 (Ex)
+  line: C3-8
+  coords:
+    x: 272802.0
+    y: 758993.0
+    crs: EPSG:2039
+    source: table
+  notes: CSAMT In-line receiver, Ex dipole (App. B)
+- id: C3-8-700
+  name: Line C3-8 station 700 (Ex)
+  line: C3-8
+  coords:
+    x: 272875.0
+    y: 758808.0
+    crs: EPSG:2039
+    source: table
+  notes: CSAMT In-line receiver, Ex dipole (App. B)
+- id: C3-9-100
+  name: Line C3-9 station 100 (Ex)
+  line: C3-9
+  coords:
+    x: 272267.0
+    y: 760509.0
+    crs: EPSG:2039
+    source: table
+  notes: CSAMT In-line receiver, Ex dipole (App. B)
+- id: C3-9-300
+  name: Line C3-9 station 300 (Ex)
+  line: C3-9
+  coords:
+    x: 272347.0
+    y: 760324.0
+    crs: EPSG:2039
+    source: table
+  notes: CSAMT In-line receiver, Ex dipole (App. B)
+- id: C3-9-500
+  name: Line C3-9 station 500 (Ex)
+  line: C3-9
+  coords:
+    x: 272427.0
+    y: 760141.0
+    crs: EPSG:2039
+    source: table
+  notes: CSAMT In-line receiver, Ex dipole (App. B)
+- id: C3-9-700
+  name: Line C3-9 station 700 (Ex)
+  line: C3-9
+  coords:
+    x: 272508.0
+    y: 759958.0
+    crs: EPSG:2039
+    source: table
+  notes: CSAMT In-line receiver, Ex dipole (App. B)
+- id: D1-100
+  name: Line D1 station 100 (Ex)
+  line: D1
+  coords:
+    x: 262959.0
+    y: 744718.0
+    crs: EPSG:2039
+    source: table
+  notes: CSAMT In-line receiver, Ex dipole (App. B)
+- id: D1-300
+  name: Line D1 station 300 (Ex)
+  line: D1
+  coords:
+    x: 263158.0
+    y: 744732.0
+    crs: EPSG:2039
+    source: table
+  notes: CSAMT In-line receiver, Ex dipole (App. B)
+- id: D1-500
+  name: Line D1 station 500 (Ex)
+  line: D1
+  coords:
+    x: 263359.0
+    y: 744745.0
+    crs: EPSG:2039
+    source: table
+  notes: CSAMT In-line receiver, Ex dipole (App. B)
+- id: D1-700
+  name: Line D1 station 700 (Ex)
+  line: D1
+  coords:
+    x: 263559.0
+    y: 744758.0
+    crs: EPSG:2039
+    source: table
+  notes: CSAMT In-line receiver, Ex dipole (App. B)
+- id: D2-100
+  name: Line D2 station 100 (Ex)
+  line: D2
+  coords:
+    x: 262795.0
+    y: 745557.0
+    crs: EPSG:2039
+    source: table
+  notes: CSAMT In-line receiver, Ex dipole (App. B)
+- id: D2-300
+  name: Line D2 station 300 (Ex)
+  line: D2
+  coords:
+    x: 262992.0
+    y: 745530.0
+    crs: EPSG:2039
+    source: table
+  notes: CSAMT In-line receiver, Ex dipole (App. B)
+- id: D2-500
+  name: Line D2 station 500 (Ex)
+  line: D2
+  coords:
+    x: 263192.0
+    y: 745505.0
+    crs: EPSG:2039
+    source: table
+  notes: CSAMT In-line receiver, Ex dipole (App. B)
+- id: D2-700
+  name: Line D2 station 700 (Ex)
+  line: D2
+  coords:
+    x: 263391.0
+    y: 745479.0
+    crs: EPSG:2039
+    source: table
+  notes: CSAMT In-line receiver, Ex dipole (App. B)
+- id: D3-100
+  name: Line D3 station 100 (Ex)
+  line: D3
+  coords:
+    x: 262573.0
+    y: 746023.0
+    crs: EPSG:2039
+    source: table
+  notes: CSAMT In-line receiver, Ex dipole (App. B)
+- id: D3-300
+  name: Line D3 station 300 (Ex)
+  line: D3
+  coords:
+    x: 262772.0
+    y: 746042.0
+    crs: EPSG:2039
+    source: table
+  notes: CSAMT In-line receiver, Ex dipole (App. B)
+- id: D3-500
+  name: Line D3 station 500 (Ex)
+  line: D3
+  coords:
+    x: 262969.0
+    y: 746074.0
+    crs: EPSG:2039
+    source: table
+  notes: CSAMT In-line receiver, Ex dipole (App. B)
+- id: D3-700
+  name: Line D3 station 700 (Ex)
+  line: D3
+  coords:
+    x: 263162.0
+    y: 746127.0
+    crs: EPSG:2039
+    source: table
+  notes: CSAMT In-line receiver, Ex dipole (App. B)
+- id: D4-100
+  name: Line D4 station 100 (Ex)
+  line: D4
+  coords:
+    x: 262401.0
+    y: 746945.0
+    crs: EPSG:2039
+    source: table
+  notes: CSAMT In-line receiver, Ex dipole (App. B)
+- id: D4-300
+  name: Line D4 station 300 (Ex)
+  line: D4
+  coords:
+    x: 262599.0
+    y: 746933.0
+    crs: EPSG:2039
+    source: table
+  notes: CSAMT In-line receiver, Ex dipole (App. B)
+- id: D4-500
+  name: Line D4 station 500 (Ex)
+  line: D4
+  coords:
+    x: 262796.0
+    y: 746906.0
+    crs: EPSG:2039
+    source: table
+  notes: CSAMT In-line receiver, Ex dipole (App. B)
+- id: D4-700
+  name: Line D4 station 700 (Ex)
+  line: D4
+  coords:
+    x: 262994.0
+    y: 746872.0
+    crs: EPSG:2039
+    source: table
+  notes: CSAMT In-line receiver, Ex dipole (App. B)
+- id: E1N-5-100
+  name: Line E1N-5 station 100 (Ex)
+  line: E1N-5
+  coords:
+    x: 268635.0
+    y: 754392.0
+    crs: EPSG:2039
+    source: table
+  notes: CSAMT In-line receiver, Ex dipole (App. B)
+- id: E1N-5-300
+  name: Line E1N-5 station 300 (Ex)
+  line: E1N-5
+  coords:
+    x: 268638.0
+    y: 754193.0
+    crs: EPSG:2039
+    source: table
+  notes: CSAMT In-line receiver, Ex dipole (App. B)
+- id: E1N-5-500
+  name: Line E1N-5 station 500 (Ex)
+  line: E1N-5
+  coords:
+    x: 268640.0
+    y: 753994.0
+    crs: EPSG:2039
+    source: table
+  notes: CSAMT In-line receiver, Ex dipole (App. B)
+- id: E1N-5-700
+  name: Line E1N-5 station 700 (Ex)
+  line: E1N-5
+  coords:
+    x: 268643.0
+    y: 753794.0
+    crs: EPSG:2039
+    source: table
+  notes: CSAMT In-line receiver, Ex dipole (App. B)
+- id: E1N-6-100
+  name: Line E1N-6 station 100 (Ex)
+  line: E1N-6
+  coords:
+    x: 269422.0
+    y: 754873.0
+    crs: EPSG:2039
+    source: table
+  notes: CSAMT In-line receiver, Ex dipole (App. B)
+- id: E1N-6-300
+  name: Line E1N-6 station 300 (Ex)
+  line: E1N-6
+  coords:
+    x: 269419.0
+    y: 754669.0
+    crs: EPSG:2039
+    source: table
+  notes: CSAMT In-line receiver, Ex dipole (App. B)
+- id: E1N-6-500
+  name: Line E1N-6 station 500 (Ex)
+  line: E1N-6
+  coords:
+    x: 269417.0
+    y: 754468.0
+    crs: EPSG:2039
+    source: table
+  notes: CSAMT In-line receiver, Ex dipole (App. B)
+- id: E1N-6-700
+  name: Line E1N-6 station 700 (Ex)
+  line: E1N-6
+  coords:
+    x: 269416.0
+    y: 754268.0
+    crs: EPSG:2039
+    source: table
+  notes: CSAMT In-line receiver, Ex dipole (App. B)
+- id: E1N-7-100
+  name: Line E1N-7 station 100 (Ex)
+  line: E1N-7
+  coords:
+    x: 270056.0
+    y: 754943.0
+    crs: EPSG:2039
+    source: table
+  notes: CSAMT In-line receiver, Ex dipole (App. B)
+- id: E1N-7-300
+  name: Line E1N-7 station 300 (Ex)
+  line: E1N-7
+  coords:
+    x: 270053.0
+    y: 754743.0
+    crs: EPSG:2039
+    source: table
+  notes: CSAMT In-line receiver, Ex dipole (App. B)
+- id: E1N-7-500
+  name: Line E1N-7 station 500 (Ex)
+  line: E1N-7
+  coords:
+    x: 270051.0
+    y: 754543.0
+    crs: EPSG:2039
+    source: table
+  notes: CSAMT In-line receiver, Ex dipole (App. B)
+- id: E1N-7-700
+  name: Line E1N-7 station 700 (Ex)
+  line: E1N-7
+  coords:
+    x: 270048.0
+    y: 754343.0
+    crs: EPSG:2039
+    source: table
+  notes: CSAMT In-line receiver, Ex dipole (App. B)
+- id: E1N-8-100
+  name: Line E1N-8 station 100 (Ex)
+  line: E1N-8
+  coords:
+    x: 270713.0
+    y: 755141.0
+    crs: EPSG:2039
+    source: table
+  notes: CSAMT In-line receiver, Ex dipole (App. B)
+- id: E1N-8-300
+  name: Line E1N-8 station 300 (Ex)
+  line: E1N-8
+  coords:
+    x: 270721.0
+    y: 754942.0
+    crs: EPSG:2039
+    source: table
+  notes: CSAMT In-line receiver, Ex dipole (App. B)
+- id: E1N-8-500
+  name: Line E1N-8 station 500 (Ex)
+  line: E1N-8
+  coords:
+    x: 270726.0
+    y: 754742.0
+    crs: EPSG:2039
+    source: table
+  notes: CSAMT In-line receiver, Ex dipole (App. B)
+- id: E1N-8-700
+  name: Line E1N-8 station 700 (Ex)
+  line: E1N-8
+  coords:
+    x: 270715.0
+    y: 754543.0
+    crs: EPSG:2039
+    source: table
+  notes: CSAMT In-line receiver, Ex dipole (App. B)
+- id: E1S-1-100
+  name: Line E1S-1 station 100 (Ex)
+  line: E1S-1
+  coords:
+    x: 268623.0
+    y: 744038.0
+    crs: EPSG:2039
+    source: table
+  notes: CSAMT In-line receiver, Ex dipole (App. B)
+- id: E1S-1-300
+  name: Line E1S-1 station 300 (Ex)
+  line: E1S-1
+  coords:
+    x: 268621.0
+    y: 743841.0
+    crs: EPSG:2039
+    source: table
+  notes: CSAMT In-line receiver, Ex dipole (App. B)
+- id: E1S-1-500
+  name: Line E1S-1 station 500 (Ex)
+  line: E1S-1
+  coords:
+    x: 268620.0
+    y: 743642.0
+    crs: EPSG:2039
+    source: table
+  notes: CSAMT In-line receiver, Ex dipole (App. B)
+- id: E1S-1-700
+  name: Line E1S-1 station 700 (Ex)
+  line: E1S-1
+  coords:
+    x: 268618.0
+    y: 743443.0
+    crs: EPSG:2039
+    source: table
+  notes: CSAMT In-line receiver, Ex dipole (App. B)
+- id: E1S-2-100
+  name: Line E1S-2 station 100 (Ex)
+  line: E1S-2
+  coords:
+    x: 269106.0
+    y: 744544.0
+    crs: EPSG:2039
+    source: table
+  notes: CSAMT In-line receiver, Ex dipole (App. B)
+- id: E1S-2-300
+  name: Line E1S-2 station 300 (Ex)
+  line: E1S-2
+  coords:
+    x: 269168.0
+    y: 744355.0
+    crs: EPSG:2039
+    source: table
+  notes: CSAMT In-line receiver, Ex dipole (App. B)
+- id: E1S-2-500
+  name: Line E1S-2 station 500 (Ex)
+  line: E1S-2
+  coords:
+    x: 269232.0
+    y: 744165.0
+    crs: EPSG:2039
+    source: table
+  notes: CSAMT In-line receiver, Ex dipole (App. B)
+- id: E1S-2-700
+  name: Line E1S-2 station 700 (Ex)
+  line: E1S-2
+  coords:
+    x: 269296.0
+    y: 743977.0
+    crs: EPSG:2039
+    source: table
+  notes: CSAMT In-line receiver, Ex dipole (App. B)
+- id: E1S-3-100
+  name: Line E1S-3 station 100 (Ex)
+  line: E1S-3
+  coords:
+    x: 270459.0
+    y: 743958.0
+    crs: EPSG:2039
+    source: table
+  notes: CSAMT In-line receiver, Ex dipole (App. B)
+- id: E1S-3-300
+  name: Line E1S-3 station 300 (Ex)
+  line: E1S-3
+  coords:
+    x: 270389.0
+    y: 743772.0
+    crs: EPSG:2039
+    source: table
+  notes: CSAMT In-line receiver, Ex dipole (App. B)
+- id: E1S-3-500
+  name: Line E1S-3 station 500 (Ex)
+  line: E1S-3
+  coords:
+    x: 270319.0
+    y: 743584.0
+    crs: EPSG:2039
+    source: table
+  notes: CSAMT In-line receiver, Ex dipole (App. B)
+- id: E1S-4-100
+  name: Line E1S-4 station 100 (Ex)
+  line: E1S-4
+  coords:
+    x: 271298.0
+    y: 745565.0
+    crs: EPSG:2039
+    source: table
+  notes: CSAMT In-line receiver, Ex dipole (App. B)
+- id: E1S-4-300
+  name: Line E1S-4 station 300 (Ex)
+  line: E1S-4
+  coords:
+    x: 271314.0
+    y: 745366.0
+    crs: EPSG:2039
+    source: table
+  notes: CSAMT In-line receiver, Ex dipole (App. B)
+- id: E1S-4-500
+  name: Line E1S-4 station 500 (Ex)
+  line: E1S-4
+  coords:
+    x: 271315.0
+    y: 745168.0
+    crs: EPSG:2039
+    source: table
+  notes: CSAMT In-line receiver, Ex dipole (App. B)
+- id: E1S-4-700
+  name: Line E1S-4 station 700 (Ex)
+  line: E1S-4
+  coords:
+    x: 271293.0
+    y: 744970.0
+    crs: EPSG:2039
+    source: table
+  notes: CSAMT In-line receiver, Ex dipole (App. B)
+- id: E2-1-100
+  name: Line E2-1 station 100 (Ex)
+  line: E2-1
+  coords:
+    x: 262596.0
+    y: 748327.0
+    crs: EPSG:2039
+    source: table
+  notes: CSAMT In-line receiver, Ex dipole (App. B)
+- id: E2-1-300
+  name: Line E2-1 station 300 (Ex)
+  line: E2-1
+  coords:
+    x: 262784.0
+    y: 748407.0
+    crs: EPSG:2039
+    source: table
+  notes: CSAMT In-line receiver, Ex dipole (App. B)
+- id: E2-1-500
+  name: Line E2-1 station 500 (Ex)
+  line: E2-1
+  coords:
+    x: 262965.0
+    y: 748484.0
+    crs: EPSG:2039
+    source: table
+  notes: CSAMT In-line receiver, Ex dipole (App. B)
+- id: E2-1-700
+  name: Line E2-1 station 700 (Ex)
+  line: E2-1
+  coords:
+    x: 263148.0
+    y: 748562.0
+    crs: EPSG:2039
+    source: table
+  notes: CSAMT In-line receiver, Ex dipole (App. B)
+- id: E2-2-100
+  name: Line E2-2 station 100 (Ex)
+  line: E2-2
+  coords:
+    x: 263711.0
+    y: 748784.0
+    crs: EPSG:2039
+    source: table
+  notes: CSAMT In-line receiver, Ex dipole (App. B)
+- id: E2-2-300
+  name: Line E2-2 station 300 (Ex)
+  line: E2-2
+  coords:
+    x: 263899.0
+    y: 748855.0
+    crs: EPSG:2039
+    source: table
+  notes: CSAMT In-line receiver, Ex dipole (App. B)
+- id: E2-2-500
+  name: Line E2-2 station 500 (Ex)
+  line: E2-2
+  coords:
+    x: 264089.0
+    y: 748924.0
+    crs: EPSG:2039
+    source: table
+  notes: CSAMT In-line receiver, Ex dipole (App. B)
+- id: E2-2-700
+  name: Line E2-2 station 700 (Ex)
+  line: E2-2
+  coords:
+    x: 264275.0
+    y: 748992.0
+    crs: EPSG:2039
+    source: table
+  notes: CSAMT In-line receiver, Ex dipole (App. B)
+- id: E2-3-100
+  name: Line E2-3 station 100 (Ex)
+  line: E2-3
+  coords:
+    x: 263718.0
+    y: 749537.0
+    crs: EPSG:2039
+    source: table
+  notes: CSAMT In-line receiver, Ex dipole (App. B); no model plot in App. C
+- id: E2-3-300
+  name: Line E2-3 station 300 (Ex)
+  line: E2-3
+  coords:
+    x: 263910.0
+    y: 749585.0
+    crs: EPSG:2039
+    source: table
+  notes: CSAMT In-line receiver, Ex dipole (App. B); no model plot in App. C
+- id: E2-3-500
+  name: Line E2-3 station 500 (Ex)
+  line: E2-3
+  coords:
+    x: 264104.0
+    y: 749632.0
+    crs: EPSG:2039
+    source: table
+  notes: CSAMT In-line receiver, Ex dipole (App. B); no model plot in App. C
+- id: E2-3-700
+  name: Line E2-3 station 700 (Ex)
+  line: E2-3
+  coords:
+    x: 264298.0
+    y: 749681.0
+    crs: EPSG:2039
+    source: table
+  notes: CSAMT In-line receiver, Ex dipole (App. B); no model plot in App. C
+- id: E2-4-100
+  name: Line E2-4 station 100 (Ex)
+  line: E2-4
+  coords:
+    x: 264698.0
+    y: 749663.0
+    crs: EPSG:2039
+    source: table
+  notes: CSAMT In-line receiver, Ex dipole (App. B)
+- id: E2-4-300
+  name: Line E2-4 station 300 (Ex)
+  line: E2-4
+  coords:
+    x: 264897.0
+    y: 749760.0
+    crs: EPSG:2039
+    source: table
+  notes: CSAMT In-line receiver, Ex dipole (App. B)
+- id: E2-4-500
+  name: Line E2-4 station 500 (Ex)
+  line: E2-4
+  coords:
+    x: 265091.0
+    y: 749832.0
+    crs: EPSG:2039
+    source: table
+  notes: CSAMT In-line receiver, Ex dipole (App. B)
+- id: E2-4-700
+  name: Line E2-4 station 700 (Ex)
+  line: E2-4
+  coords:
+    x: 265286.0
+    y: 749876.0
+    crs: EPSG:2039
+    source: table
+  notes: CSAMT In-line receiver, Ex dipole (App. B)
+- id: E2-5-100
+  name: Line E2-5 station 100 (Ex)
+  line: E2-5
+  coords:
+    x: 265022.0
+    y: 750454.0
+    crs: EPSG:2039
+    source: table
+  notes: CSAMT In-line receiver, Ex dipole (App. B)
+- id: E2-5-300
+  name: Line E2-5 station 300 (Ex)
+  line: E2-5
+  coords:
+    x: 265221.0
+    y: 750472.0
+    crs: EPSG:2039
+    source: table
+  notes: CSAMT In-line receiver, Ex dipole (App. B)
+- id: E2-5-500
+  name: Line E2-5 station 500 (Ex)
+  line: E2-5
+  coords:
+    x: 265422.0
+    y: 750489.0
+    crs: EPSG:2039
+    source: table
+  notes: CSAMT In-line receiver, Ex dipole (App. B)
+- id: E2-5-700
+  name: Line E2-5 station 700 (Ex)
+  line: E2-5
+  coords:
+    x: 265621.0
+    y: 750508.0
+    crs: EPSG:2039
+    source: table
+  notes: CSAMT In-line receiver, Ex dipole (App. B)
+- id: E2-6-100
+  name: Line E2-6 station 100 (Ex)
+  line: E2-6
+  coords:
+    x: 264763.0
+    y: 751304.0
+    crs: EPSG:2039
+    source: table
+  notes: CSAMT In-line receiver, Ex dipole (App. B)
+- id: E2-6-300
+  name: Line E2-6 station 300 (Ex)
+  line: E2-6
+  coords:
+    x: 264963.0
+    y: 751316.0
+    crs: EPSG:2039
+    source: table
+  notes: CSAMT In-line receiver, Ex dipole (App. B)
+- id: E2-6-500
+  name: Line E2-6 station 500 (Ex)
+  line: E2-6
+  coords:
+    x: 265162.0
+    y: 751327.0
+    crs: EPSG:2039
+    source: table
+  notes: CSAMT In-line receiver, Ex dipole (App. B)
+- id: E2-6-700
+  name: Line E2-6 station 700 (Ex)
+  line: E2-6
+  coords:
+    x: 265362.0
+    y: 751339.0
+    crs: EPSG:2039
+    source: table
+  notes: CSAMT In-line receiver, Ex dipole (App. B)
+- id: E2-7-100
+  name: Line E2-7 station 100 (Ex)
+  line: E2-7
+  coords:
+    x: 264786.0
+    y: 752033.0
+    crs: EPSG:2039
+    source: table
+  notes: CSAMT In-line receiver, Ex dipole (App. B)
+- id: E2-7-300
+  name: Line E2-7 station 300 (Ex)
+  line: E2-7
+  coords:
+    x: 264974.0
+    y: 752017.0
+    crs: EPSG:2039
+    source: table
+  notes: CSAMT In-line receiver, Ex dipole (App. B)
+- id: E2-7-500
+  name: Line E2-7 station 500 (Ex)
+  line: E2-7
+  coords:
+    x: 265161.0
+    y: 752002.0
+    crs: EPSG:2039
+    source: table
+  notes: CSAMT In-line receiver, Ex dipole (App. B)
+- id: HE5-100
+  name: Line HE5 station 100 (Ex)
+  line: HE5
+  coords:
+    x: 273146.0
+    y: 764809.0
+    crs: EPSG:2039
+    source: table
+  notes: CSAMT In-line receiver, Ex dipole (App. B)
+- id: HE5-300
+  name: Line HE5 station 300 (Ex)
+  line: HE5
+  coords:
+    x: 273302.0
+    y: 764934.0
+    crs: EPSG:2039
+    source: table
+  notes: CSAMT In-line receiver, Ex dipole (App. B)
+- id: HE5-500
+  name: Line HE5 station 500 (Ex)
+  line: HE5
+  coords:
+    x: 273459.0
+    y: 765059.0
+    crs: EPSG:2039
+    source: table
+  notes: CSAMT In-line receiver, Ex dipole (App. B)
+- id: HE5-700
+  name: Line HE5 station 700 (Ex)
+  line: HE5
+  coords:
+    x: 273615.0
+    y: 765184.0
+    crs: EPSG:2039
+    source: table
+  notes: CSAMT In-line receiver, Ex dipole (App. B)
+- id: HE6-100
+  name: Line HE6 station 100 (Ex)
+  line: HE6
+  coords:
+    x: 273394.0
+    y: 765872.0
+    crs: EPSG:2039
+    source: table
+  notes: CSAMT In-line receiver, Ex dipole (App. B)
+- id: HE6-300
+  name: Line HE6 station 300 (Ex)
+  line: HE6
+  coords:
+    x: 273549.0
+    y: 765998.0
+    crs: EPSG:2039
+    source: table
+  notes: CSAMT In-line receiver, Ex dipole (App. B)
+- id: HE6-500
+  name: Line HE6 station 500 (Ex)
+  line: HE6
+  coords:
+    x: 273706.0
+    y: 766122.0
+    crs: EPSG:2039
+    source: table
+  notes: CSAMT In-line receiver, Ex dipole (App. B)
+- id: HE6-700
+  name: Line HE6 station 700 (Ex)
+  line: HE6
+  coords:
+    x: 273862.0
+    y: 766247.0
+    crs: EPSG:2039
+    source: table
+  notes: CSAMT In-line receiver, Ex dipole (App. B)
+- id: HE7-100
+  name: Line HE7 station 100 (Ex)
+  line: HE7
+  coords:
+    x: 274379.0
+    y: 764751.0
+    crs: EPSG:2039
+    source: table
+  notes: CSAMT In-line receiver, Ex dipole (App. B)
+- id: HE7-300
+  name: Line HE7 station 300 (Ex)
+  line: HE7
+  coords:
+    x: 274524.0
+    y: 764888.0
+    crs: EPSG:2039
+    source: table
+  notes: CSAMT In-line receiver, Ex dipole (App. B)
+- id: HE7-500
+  name: Line HE7 station 500 (Ex)
+  line: HE7
+  coords:
+    x: 274669.0
+    y: 765025.0
+    crs: EPSG:2039
+    source: table
+  notes: CSAMT In-line receiver, Ex dipole (App. B)
+- id: HE7-700
+  name: Line HE7 station 700 (Ex)
+  line: HE7
+  coords:
+    x: 274815.0
+    y: 765162.0
+    crs: EPSG:2039
+    source: table
+  notes: CSAMT In-line receiver, Ex dipole (App. B)
+- id: HE8-100
+  name: Line HE8 station 100 (Ex)
+  line: HE8
+  coords:
+    x: 274392.0
+    y: 766135.0
+    crs: EPSG:2039
+    source: table
+  notes: CSAMT In-line receiver, Ex dipole (App. B)
+- id: HE8-300
+  name: Line HE8 station 300 (Ex)
+  line: HE8
+  coords:
+    x: 274525.0
+    y: 766274.0
+    crs: EPSG:2039
+    source: table
+  notes: CSAMT In-line receiver, Ex dipole (App. B)
+- id: HE8-500
+  name: Line HE8 station 500 (Ex)
+  line: HE8
+  coords:
+    x: 274665.0
+    y: 766417.0
+    crs: EPSG:2039
+    source: table
+  notes: CSAMT In-line receiver, Ex dipole (App. B)
+- id: HE8-700
+  name: Line HE8 station 700 (Ex)
+  line: HE8
+  coords:
+    x: 274805.0
+    y: 766560.0
+    crs: EPSG:2039
+    source: table
+  notes: CSAMT In-line receiver, Ex dipole (App. B)
+- id: HW1-100
+  name: Line HW1 station 100 (Ex)
+  line: HW1
+  coords:
+    x: 265214.0
+    y: 759290.0
+    crs: EPSG:2039
+    source: table
+  notes: CSAMT In-line receiver, Ex dipole (App. B)
+- id: HW1-300
+  name: Line HW1 station 300 (Ex)
+  line: HW1
+  coords:
+    x: 265334.0
+    y: 759444.0
+    crs: EPSG:2039
+    source: table
+  notes: CSAMT In-line receiver, Ex dipole (App. B)
+- id: HW1-500
+  name: Line HW1 station 500 (Ex)
+  line: HW1
+  coords:
+    x: 265458.0
+    y: 759602.0
+    crs: EPSG:2039
+    source: table
+  notes: CSAMT In-line receiver, Ex dipole (App. B)
+- id: HW1-700
+  name: Line HW1 station 700 (Ex)
+  line: HW1
+  coords:
+    x: 265580.0
+    y: 759761.0
+    crs: EPSG:2039
+    source: table
+  notes: CSAMT In-line receiver, Ex dipole (App. B)
+- id: HW2-100
+  name: Line HW2 station 100 (Ex)
+  line: HW2
+  coords:
+    x: 267106.0
+    y: 760800.0
+    crs: EPSG:2039
+    source: table
+  notes: CSAMT In-line receiver, Ex dipole (App. B)
+- id: HW2-300
+  name: Line HW2 station 300 (Ex)
+  line: HW2
+  coords:
+    x: 267258.0
+    y: 760929.0
+    crs: EPSG:2039
+    source: table
+  notes: CSAMT In-line receiver, Ex dipole (App. B)
+- id: HW2-500
+  name: Line HW2 station 500 (Ex)
+  line: HW2
+  coords:
+    x: 267419.0
+    y: 761047.0
+    crs: EPSG:2039
+    source: table
+  notes: CSAMT In-line receiver, Ex dipole (App. B)
+- id: HW2-700
+  name: Line HW2 station 700 (Ex)
+  line: HW2
+  coords:
+    x: 267580.0
+    y: 761166.0
+    crs: EPSG:2039
+    source: table
+  notes: CSAMT In-line receiver, Ex dipole (App. B)
+- id: HW3-100
+  name: Line HW3 station 100 (Ex)
+  line: HW3
+  coords:
+    x: 263934.0
+    y: 757385.0
+    crs: EPSG:2039
+    source: table
+  notes: CSAMT In-line receiver, Ex dipole (App. B)
+- id: HW3-300
+  name: Line HW3 station 300 (Ex)
+  line: HW3
+  coords:
+    x: 264076.0
+    y: 757528.0
+    crs: EPSG:2039
+    source: table
+  notes: CSAMT In-line receiver, Ex dipole (App. B)
+- id: HW3-500
+  name: Line HW3 station 500 (Ex)
+  line: HW3
+  coords:
+    x: 264217.0
+    y: 757671.0
+    crs: EPSG:2039
+    source: table
+  notes: CSAMT In-line receiver, Ex dipole (App. B)
+- id: HW3-700
+  name: Line HW3 station 700 (Ex)
+  line: HW3
+  coords:
+    x: 264358.0
+    y: 757813.0
+    crs: EPSG:2039
+    source: table
+  notes: CSAMT In-line receiver, Ex dipole (App. B)
+- id: HW4-100
+  name: Line HW4 station 100 (Ex)
+  line: HW4
+  coords:
+    x: 265037.0
+    y: 758249.0
+    crs: EPSG:2039
+    source: table
+  notes: CSAMT In-line receiver, Ex dipole (App. B)
+- id: HW4-300
+  name: Line HW4 station 300 (Ex)
+  line: HW4
+  coords:
+    x: 265201.0
+    y: 758365.0
+    crs: EPSG:2039
+    source: table
+  notes: CSAMT In-line receiver, Ex dipole (App. B)
+- id: HW4-500
+  name: Line HW4 station 500 (Ex)
+  line: HW4
+  coords:
+    x: 265364.0
+    y: 758479.0
+    crs: EPSG:2039
+    source: table
+  notes: CSAMT In-line receiver, Ex dipole (App. B)
+- id: HW4-700
+  name: Line HW4 station 700 (Ex)
+  line: HW4
+  coords:
+    x: 265527.0
+    y: 758593.0
+    crs: EPSG:2039
+    source: table
+  notes: CSAMT In-line receiver, Ex dipole (App. B)
+- id: I1-100
+  name: Line I1 station 100 (Ex)
+  line: I1
+  coords:
+    x: 268674.0
+    y: 757996.0
+    crs: EPSG:2039
+    source: table
+  notes: CSAMT In-line receiver, Ex dipole (App. B)
+- id: I1-300
+  name: Line I1 station 300 (Ex)
+  line: I1
+  coords:
+    x: 268844.0
+    y: 758107.0
+    crs: EPSG:2039
+    source: table
+  notes: CSAMT In-line receiver, Ex dipole (App. B)
+- id: I1-500
+  name: Line I1 station 500 (Ex)
+  line: I1
+  coords:
+    x: 269011.0
+    y: 758219.0
+    crs: EPSG:2039
+    source: table
+  notes: CSAMT In-line receiver, Ex dipole (App. B)
+- id: I1-700
+  name: Line I1 station 700 (Ex)
+  line: I1
+  coords:
+    x: 269177.0
+    y: 758329.0
+    crs: EPSG:2039
+    source: table
+  notes: CSAMT In-line receiver, Ex dipole (App. B)
+- id: I2-100
+  name: Line I2 station 100 (Ex)
+  line: I2
+  coords:
+    x: 267430.0
+    y: 757754.0
+    crs: EPSG:2039
+    source: table
+  notes: CSAMT In-line receiver, Ex dipole (App. B)
+- id: I2-300
+  name: Line I2 station 300 (Ex)
+  line: I2
+  coords:
+    x: 267616.0
+    y: 757829.0
+    crs: EPSG:2039
+    source: table
+  notes: CSAMT In-line receiver, Ex dipole (App. B)
+- id: I2-500
+  name: Line I2 station 500 (Ex)
+  line: I2
+  coords:
+    x: 267803.0
+    y: 757903.0
+    crs: EPSG:2039
+    source: table
+  notes: CSAMT In-line receiver, Ex dipole (App. B)
+- id: I2-700
+  name: Line I2 station 700 (Ex)
+  line: I2
+  coords:
+    x: 267989.0
+    y: 757973.0
+    crs: EPSG:2039
+    source: table
+  notes: CSAMT In-line receiver, Ex dipole (App. B)
+- id: K4-11-100
+  name: Line K4-11 station 100 (Ex)
+  line: K4-11
+  coords:
+    x: 267254.0
+    y: 764946.0
+    crs: EPSG:2039
+    source: table
+  notes: CSAMT In-line receiver, Ex dipole (App. B)
+- id: K4-11-300
+  name: Line K4-11 station 300 (Ex)
+  line: K4-11
+  coords:
+    x: 267442.0
+    y: 765011.0
+    crs: EPSG:2039
+    source: table
+  notes: CSAMT In-line receiver, Ex dipole (App. B)
+- id: K4-11-500
+  name: Line K4-11 station 500 (Ex)
+  line: K4-11
+  coords:
+    x: 267635.0
+    y: 765063.0
+    crs: EPSG:2039
+    source: table
+  notes: CSAMT In-line receiver, Ex dipole (App. B)
+- id: K4-11-700
+  name: Line K4-11 station 700 (Ex)
+  line: K4-11
+  coords:
+    x: 267832.0
+    y: 765102.0
+    crs: EPSG:2039
+    source: table
+  notes: CSAMT In-line receiver, Ex dipole (App. B)
+- id: K4-12-100
+  name: Line K4-12 station 100 (Ex)
+  line: K4-12
+  coords:
+    x: 265545.0
+    y: 765174.0
+    crs: EPSG:2039
+    source: table
+  notes: CSAMT In-line receiver, Ex dipole (App. B)
+- id: K4-12-300
+  name: Line K4-12 station 300 (Ex)
+  line: K4-12
+  coords:
+    x: 265743.0
+    y: 765201.0
+    crs: EPSG:2039
+    source: table
+  notes: CSAMT In-line receiver, Ex dipole (App. B)
+- id: K4-12-500
+  name: Line K4-12 station 500 (Ex)
+  line: K4-12
+  coords:
+    x: 265943.0
+    y: 765228.0
+    crs: EPSG:2039
+    source: table
+  notes: CSAMT In-line receiver, Ex dipole (App. B)
+- id: K4-12-700
+  name: Line K4-12 station 700 (Ex)
+  line: K4-12
+  coords:
+    x: 266142.0
+    y: 765254.0
+    crs: EPSG:2039
+    source: table
+  notes: CSAMT In-line receiver, Ex dipole (App. B)
+- id: L1-100
+  name: Line L1 station 100 (Ex)
+  line: L1
+  coords:
+    x: 260760.0
+    y: 758725.0
+    crs: EPSG:2039
+    source: table
+  notes: CSAMT Broadside receiver, Ex dipole (App. B)
+- id: L1-300
+  name: Line L1 station 300 (Ex)
+  line: L1
+  coords:
+    x: 260909.0
+    y: 758856.0
+    crs: EPSG:2039
+    source: table
+  notes: CSAMT Broadside receiver, Ex dipole (App. B)
+- id: L1-200-Ey
+  name: Line L1 station 200 (Ey)
+  line: L1
+  coords:
+    x: 260834.0
+    y: 758790.0
+    crs: EPSG:2039
+    source: table
+  notes: CSAMT Broadside receiver, Ey dipole (App. B)
+- id: L2-100
+  name: Line L2 station 100 (Ex)
+  line: L2
+  coords:
+    x: 265214.0
+    y: 760843.0
+    crs: EPSG:2039
+    source: table
+  notes: CSAMT Broadside receiver, Ex dipole (App. B)
+- id: L2-300
+  name: Line L2 station 300 (Ex)
+  line: L2
+  coords:
+    x: 265355.0
+    y: 760981.0
+    crs: EPSG:2039
+    source: table
+  notes: CSAMT Broadside receiver, Ex dipole (App. B)
+- id: L2-500
+  name: Line L2 station 500 (Ex)
+  line: L2
+  coords:
+    x: 265495.0
+    y: 761122.0
+    crs: EPSG:2039
+    source: table
+  notes: CSAMT Broadside receiver, Ex dipole (App. B)
+- id: L2-700
+  name: Line L2 station 700 (Ex)
+  line: L2
+  coords:
+    x: 265636.0
+    y: 761267.0
+    crs: EPSG:2039
+    source: table
+  notes: CSAMT Broadside receiver, Ex dipole (App. B)
+- id: L2-400-Ey
+  name: Line L2 station 400 (Ey)
+  line: L2
+  coords:
+    x: 265424.0
+    y: 761049.0
+    crs: EPSG:2039
+    source: table
+  notes: CSAMT Broadside receiver, Ey dipole (App. B)
+- id: L3-100
+  name: Line L3 station 100 (Ex)
+  line: L3
+  coords:
+    x: 269916.0
+    y: 749951.0
+    crs: EPSG:2039
+    source: table
+  notes: CSAMT Broadside receiver, Ex dipole (App. B)
+- id: L3-300
+  name: Line L3 station 300 (Ex)
+  line: L3
+  coords:
+    x: 270068.0
+    y: 750081.0
+    crs: EPSG:2039
+    source: table
+  notes: CSAMT Broadside receiver, Ex dipole (App. B)
+- id: L3-500
+  name: Line L3 station 500 (Ex)
+  line: L3
+  coords:
+    x: 270218.0
+    y: 750211.0
+    crs: EPSG:2039
+    source: table
+  notes: CSAMT Broadside receiver, Ex dipole (App. B)
+- id: L3-700
+  name: Line L3 station 700 (Ex)
+  line: L3
+  coords:
+    x: 270371.0
+    y: 750340.0
+    crs: EPSG:2039
+    source: table
+  notes: CSAMT Broadside receiver, Ex dipole (App. B)
+- id: L3-400-Ey
+  name: Line L3 station 400 (Ey)
+  line: L3
+  coords:
+    x: 270143.0
+    y: 750146.0
+    crs: EPSG:2039
+    source: table
+  notes: CSAMT Broadside receiver, Ey dipole (App. B)
+- id: L5-100
+  name: Line L5 station 100 (Ex)
+  line: L5
+  coords:
+    x: 270605.0
+    y: 749585.0
+    crs: EPSG:2039
+    source: table
+  notes: CSAMT Broadside receiver, Ex dipole (App. B)
+- id: L5-300
+  name: Line L5 station 300 (Ex)
+  line: L5
+  coords:
+    x: 270745.0
+    y: 749730.0
+    crs: EPSG:2039
+    source: table
+  notes: CSAMT Broadside receiver, Ex dipole (App. B)
+- id: L5-500
+  name: Line L5 station 500 (Ex)
+  line: L5
+  coords:
+    x: 270885.0
+    y: 749873.0
+    crs: EPSG:2039
+    source: table
+  notes: CSAMT Broadside receiver, Ex dipole (App. B)
+- id: L5-700
+  name: Line L5 station 700 (Ex)
+  line: L5
+  coords:
+    x: 271025.0
+    y: 750016.0
+    crs: EPSG:2039
+    source: table
+  notes: CSAMT Broadside receiver, Ex dipole (App. B)
+- id: M1-100
+  name: Line M1 station 100 (Ex)
+  line: M1
+  coords:
+    x: 274632.0
+    y: 752324.0
+    crs: EPSG:2039
+    source: table
+  notes: CSAMT Broadside receiver, Ex dipole (App. B)
+- id: M1-300
+  name: Line M1 station 300 (Ex)
+  line: M1
+  coords:
+    x: 274820.0
+    y: 752395.0
+    crs: EPSG:2039
+    source: table
+  notes: CSAMT Broadside receiver, Ex dipole (App. B)
+- id: M1-500
+  name: Line M1 station 500 (Ex)
+  line: M1
+  coords:
+    x: 275008.0
+    y: 752467.0
+    crs: EPSG:2039
+    source: table
+  notes: CSAMT Broadside receiver, Ex dipole (App. B)
+- id: M1-700
+  name: Line M1 station 700 (Ex)
+  line: M1
+  coords:
+    x: 275195.0
+    y: 752538.0
+    crs: EPSG:2039
+    source: table
+  notes: CSAMT Broadside receiver, Ex dipole (App. B)
+- id: M1-400-Ey
+  name: Line M1 station 400 (Ey)
+  line: M1
+  coords:
+    x: 274915.0
+    y: 752432.0
+    crs: EPSG:2039
+    source: table
+  notes: CSAMT Broadside receiver, Ey dipole (App. B)
+- id: M2-100
+  name: Line M2 station 100 (Ex)
+  line: M2
+  coords:
+    x: 274281.0
+    y: 753838.0
+    crs: EPSG:2039
+    source: table
+  notes: CSAMT Broadside receiver, Ex dipole (App. B)
+- id: M2-300
+  name: Line M2 station 300 (Ex)
+  line: M2
+  coords:
+    x: 274462.0
+    y: 753922.0
+    crs: EPSG:2039
+    source: table
+  notes: CSAMT Broadside receiver, Ex dipole (App. B)
+- id: M2-500
+  name: Line M2 station 500 (Ex)
+  line: M2
+  coords:
+    x: 274642.0
+    y: 754008.0
+    crs: EPSG:2039
+    source: table
+  notes: CSAMT Broadside receiver, Ex dipole (App. B)
+- id: M2-700
+  name: Line M2 station 700 (Ex)
+  line: M2
+  coords:
+    x: 274823.0
+    y: 754094.0
+    crs: EPSG:2039
+    source: table
+  notes: CSAMT Broadside receiver, Ex dipole (App. B)
+- id: M2-400-Ey
+  name: Line M2 station 400 (Ey)
+  line: M2
+  coords:
+    x: 274552.0
+    y: 753965.0
+    crs: EPSG:2039
+    source: table
+  notes: CSAMT Broadside receiver, Ey dipole (App. B)
+- id: N3-100
+  name: Line N3 station 100 (Ex)
+  line: N3
+  coords:
+    x: 272779.0
+    y: 745956.0
+    crs: EPSG:2039
+    source: table
+  notes: CSAMT Broadside receiver, Ex dipole (App. B)
+- id: N3-300
+  name: Line N3 station 300 (Ex)
+  line: N3
+  coords:
+    x: 272709.0
+    y: 746142.0
+    crs: EPSG:2039
+    source: table
+  notes: CSAMT Broadside receiver, Ex dipole (App. B)
+- id: N3-200-Ey
+  name: Line N3 station 200 (Ey)
+  line: N3
+  coords:
+    x: 272744.0
+    y: 746049.0
+    crs: EPSG:2039
+    source: table
+  notes: CSAMT Broadside receiver, Ey dipole (App. B)
+- id: N-A2-100
+  name: Line N-A2 station 100 (Ex)
+  line: N-A2
+  coords:
+    x: 265490.0
+    y: 739259.0
+    crs: EPSG:2039
+    source: table
+  notes: CSAMT Broadside receiver, Ex dipole (App. B)
+- id: N-A2-300
+  name: Line N-A2 station 300 (Ex)
+  line: N-A2
+  coords:
+    x: 265521.0
+    y: 739064.0
+    crs: EPSG:2039
+    source: table
+  notes: CSAMT Broadside receiver, Ex dipole (App. B)
+- id: N-A2-500
+  name: Line N-A2 station 500 (Ex)
+  line: N-A2
+  coords:
+    x: 265551.0
+    y: 738868.0
+    crs: EPSG:2039
+    source: table
+  notes: CSAMT Broadside receiver, Ex dipole (App. B)
+- id: N-A2-700
+  name: Line N-A2 station 700 (Ex)
+  line: N-A2
+  coords:
+    x: 265583.0
+    y: 738672.0
+    crs: EPSG:2039
+    source: table
+  notes: CSAMT Broadside receiver, Ex dipole (App. B)
+- id: N-A2-400-Ey
+  name: Line N-A2 station 400 (Ey)
+  line: N-A2
+  coords:
+    x: 265536.0
+    y: 738966.0
+    crs: EPSG:2039
+    source: table
+  notes: CSAMT Broadside receiver, Ey dipole (App. B)
+- id: N-A4-100
+  name: Line N-A4 station 100 (Ex)
+  line: N-A4
+  coords:
+    x: 262840.0
+    y: 738975.0
+    crs: EPSG:2039
+    source: table
+  notes: CSAMT Broadside receiver, Ex dipole (App. B)
+- id: N-A4-300
+  name: Line N-A4 station 300 (Ex)
+  line: N-A4
+  coords:
+    x: 262860.0
+    y: 739172.0
+    crs: EPSG:2039
+    source: table
+  notes: CSAMT Broadside receiver, Ex dipole (App. B)
+- id: N-A4-500
+  name: Line N-A4 station 500 (Ex)
+  line: N-A4
+  coords:
+    x: 262883.0
+    y: 739371.0
+    crs: EPSG:2039
+    source: table
+  notes: CSAMT Broadside receiver, Ex dipole (App. B)
+- id: N-A4-700
+  name: Line N-A4 station 700 (Ex)
+  line: N-A4
+  coords:
+    x: 262909.0
+    y: 739569.0
+    crs: EPSG:2039
+    source: table
+  notes: CSAMT Broadside receiver, Ex dipole (App. B)
+- id: N-A4-400-Ey
+  name: Line N-A4 station 400 (Ey)
+  line: N-A4
+  coords:
+    x: 262871.0
+    y: 739271.0
+    crs: EPSG:2039
+    source: table
+  notes: CSAMT Broadside receiver, Ey dipole (App. B)
+- id: P1-100
+  name: Line P1 station 100 (Ex)
+  line: P1
+  coords:
+    x: 265369.0
+    y: 754564.0
+    crs: EPSG:2039
+    source: table
+  notes: CSAMT Broadside receiver, Ex dipole (App. B)
+- id: P1-300
+  name: Line P1 station 300 (Ex)
+  line: P1
+  coords:
+    x: 265510.0
+    y: 754706.0
+    crs: EPSG:2039
+    source: table
+  notes: CSAMT Broadside receiver, Ex dipole (App. B)
+- id: P1-500
+  name: Line P1 station 500 (Ex)
+  line: P1
+  coords:
+    x: 265650.0
+    y: 754848.0
+    crs: EPSG:2039
+    source: table
+  notes: CSAMT Broadside receiver, Ex dipole (App. B)
+- id: P1-700
+  name: Line P1 station 700 (Ex)
+  line: P1
+  coords:
+    x: 265791.0
+    y: 754990.0
+    crs: EPSG:2039
+    source: table
+  notes: CSAMT Broadside receiver, Ex dipole (App. B)
+- id: P1-400-Ey
+  name: Line P1 station 400 (Ey)
+  line: P1
+  coords:
+    x: 265580.0
+    y: 754778.0
+    crs: EPSG:2039
+    source: table
+  notes: CSAMT Broadside receiver, Ey dipole (App. B)
+- id: P2-100
+  name: Line P2 station 100 (Ex)
+  line: P2
+  coords:
+    x: 260571.0
+    y: 764604.0
+    crs: EPSG:2039
+    source: table
+  notes: CSAMT Broadside receiver, Ex dipole (App. B)
+- id: P2-100-Ey
+  name: Line P2 station 100 (Ey)
+  line: P2
+  coords:
+    x: 260571.0
+    y: 764604.0
+    crs: EPSG:2039
+    source: table
+  notes: CSAMT Broadside receiver, Ey dipole (App. B); no model plot in App. C
+- id: P3-100
+  name: Line P3 station 100 (Ex)
+  line: P3
+  coords:
+    x: 263902.0
+    y: 765540.0
+    crs: EPSG:2039
+    source: table
+  notes: CSAMT Broadside receiver, Ex dipole (App. B)
+- id: P3-300
+  name: Line P3 station 300 (Ex)
+  line: P3
+  coords:
+    x: 264054.0
+    y: 765665.0
+    crs: EPSG:2039
+    source: table
+  notes: CSAMT Broadside receiver, Ex dipole (App. B)
+- id: P3-200-Ey
+  name: Line P3 station 200 (Ey)
+  line: P3
+  coords:
+    x: 263977.0
+    y: 765603.0
+    crs: EPSG:2039
+    source: table
+  notes: CSAMT Broadside receiver, Ey dipole (App. B)
+- id: Q1-100
+  name: Line Q1 station 100 (Ex)
+  line: Q1
+  coords:
+    x: 275184.0
+    y: 752875.0
+    crs: EPSG:2039
+    source: table
+  notes: CSAMT Broadside receiver, Ex dipole (App. B)
+- id: Q1-300
+  name: Line Q1 station 300 (Ex)
+  line: Q1
+  coords:
+    x: 275261.0
+    y: 752812.0
+    crs: EPSG:2039
+    source: table
+  notes: CSAMT Broadside receiver, Ex dipole (App. B)
+- id: Q1-200-Ey
+  name: Line Q1 station 200 (Ey)
+  line: Q1
+  coords:
+    x: 275223.0
+    y: 752843.0
+    crs: EPSG:2039
+    source: table
+  notes: CSAMT Broadside receiver, Ey dipole (App. B)
+- id: Q2-100
+  name: Line Q2 station 100 (Ex)
+  line: Q2
+  coords:
+    x: 274183.0
+    y: 755062.0
+    crs: EPSG:2039
+    source: table
+  notes: CSAMT Broadside receiver, Ex dipole (App. B)
+- id: Q2-300
+  name: Line Q2 station 300 (Ex)
+  line: Q2
+  coords:
+    x: 274021.0
+    y: 755179.0
+    crs: EPSG:2039
+    source: table
+  notes: CSAMT Broadside receiver, Ex dipole (App. B)
+- id: Q2-500
+  name: Line Q2 station 500 (Ex)
+  line: Q2
+  coords:
+    x: 273863.0
+    y: 755295.0
+    crs: EPSG:2039
+    source: table
+  notes: CSAMT Broadside receiver, Ex dipole (App. B)
+- id: Q2-700
+  name: Line Q2 station 700 (Ex)
+  line: Q2
+  coords:
+    x: 273702.0
+    y: 755413.0
+    crs: EPSG:2039
+    source: table
+  notes: CSAMT Broadside receiver, Ex dipole (App. B)
+- id: Q2-400-Ey
+  name: Line Q2 station 400 (Ey)
+  line: Q2
+  coords:
+    x: 273940.0
+    y: 755237.0
+    crs: EPSG:2039
+    source: table
+  notes: CSAMT Broadside receiver, Ey dipole (App. B)
+- id: Q3-100
+  name: Line Q3 station 100 (Ex)
+  line: Q3
+  coords:
+    x: 275155.0
+    y: 757655.0
+    crs: EPSG:2039
+    source: table
+  notes: CSAMT Broadside receiver, Ex dipole (App. B)
+- id: Q3-300
+  name: Line Q3 station 300 (Ex)
+  line: Q3
+  coords:
+    x: 275326.0
+    y: 757551.0
+    crs: EPSG:2039
+    source: table
+  notes: CSAMT Broadside receiver, Ex dipole (App. B)
+- id: Q3-200-Ey
+  name: Line Q3 station 200 (Ey)
+  line: Q3
+  coords:
+    x: 275241.0
+    y: 757604.0
+    crs: EPSG:2039
+    source: table
+  notes: CSAMT Broadside receiver, Ey dipole (App. B)
+acquisition:
+  lines: 62
+  receiver_dipole_m: 200
+  line_length_m: 800
+  frequencies_hz: 8192 to 0.0625
+  transmitter: Zonge GGT-30, source dipole 1-2 km, 4-10 km offset
+  receiver: Zonge GDP-32II
+  inversion: Zonge SCS2D smooth-model 1D, TM mode
+  crs_note: App. B coordinates labelled 'NID TM' = Israeli TM Grid
+extraction_status: partial
+notes: Raw and model data were on a report archive disk that is not available. Models digitised from App. C plots.

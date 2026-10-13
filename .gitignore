@@ -1,0 +1,6 @@
+build/
+__pycache__/
+*.pyc
+data/sources/pdf/
+data/work/
+.pytest_cache/
