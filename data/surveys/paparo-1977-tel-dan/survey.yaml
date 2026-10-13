@@ -1,0 +1,22 @@
+id: paparo-1977-tel-dan
+name: Electrical resistance measurements, Tel Dan area
+organisation: IPRG
+authors:
+- H. Paparo
+report_number: GKS/331/77
+year: 1977
+methods:
+- VES
+region: Tel Dan
+geometry: area
+documents:
+- id: main
+  title: Electrical resistance measurements, Tel Dan area
+  filename: Paparo-H-Report-Electrical-Resistance-Measurements-Tel-Dan-Area-IPRG-Rep-GKS-331-77-1977.pdf
+  drive_id: 1OGO0YYNflvBrIMht4IyVLcL5R7VGHCMi
+  language:
+  - he
+  scanned: true
+  role: main_report
+extraction_status: blocked
+notes: PDF over the connector size limit.

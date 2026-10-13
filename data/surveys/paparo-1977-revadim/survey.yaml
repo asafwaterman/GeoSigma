@@ -1,0 +1,23 @@
+id: paparo-1977-revadim
+name: Electrical resistance measurements, Revadim area
+organisation: IPRG
+authors:
+- H. Paparo
+report_number: GK/373/77
+year: 1977
+methods:
+- VES
+region: Revadim
+geometry: area
+documents:
+- id: main
+  title: Electrical resistance measurements, Revadim area
+  filename: Paparo-H-Report-Electrical-Resistance-Measurements-Revadim-Area-IPRG-Rep-GK-373-77-1977.pdf
+  drive_id: 16fPZyoUXmn8DHQAsOdJ2cXboTt8C-587
+  language:
+  - he
+  scanned: true
+  role: main_report
+  sha256: 75e2e8f5460608c2f06f553d9ebbe6b2353218a14d95ace8ff47bd0fec37a23b
+  pages: 18
+extraction_status: registered

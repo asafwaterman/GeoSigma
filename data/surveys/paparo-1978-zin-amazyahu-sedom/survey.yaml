@@ -1,0 +1,24 @@
+id: paparo-1978-zin-amazyahu-sedom
+name: Electrical resistivity surveys, Nahal Zin, Amazyahu and Sedom
+organisation: IPRG
+client: Dead Sea Works
+authors:
+- H. Paparo
+report_number: GE/457
+year: 1978
+methods:
+- VES
+region: Nahal Zin, Amazyahu, Sedom
+geometry: area
+documents:
+- id: main
+  title: Electrical resistivity surveys, Nahal Zin, Amazyahu, Sedom
+  filename: Paparo-H-Electrical-Resistivity-Surveys-Nahal-Zin-Amazyia-Sedom-IRPG-Rep-GE-457-1978.pdf
+  drive_id: 1dY6McdqrhLX-t809gmj30Gf9ynhzgszZ
+  language:
+  - he
+  scanned: true
+  role: main_report
+  sha256: c6e68b604acfe98c66b925780017ee3840ab5184de71cf5e812137957f4cf9aa
+  pages: 51
+extraction_status: registered

@@ -1,0 +1,25 @@
+id: rotstein-1979-carmel
+name: Carmel geoelectric measurements
+organisation: IPRG
+authors:
+- Y. Rotstein
+report_number: NK/498/78
+year: 1979
+methods:
+- VES
+region: Mount Carmel
+geometry: stations
+depth_reach: target about 500 m
+documents:
+- id: main
+  title: Carmel geoelectric measurements
+  filename: Rotstein-Y-Carmel-Geoelectric-Measurements-IPRG-Rep-NK-498-78-1979.pdf
+  drive_id: 1CyV0cysx-aLLpNXDjshjhuQ35aovzixt
+  language:
+  - he
+  scanned: true
+  role: main_report
+  sha256: a31d52308154398836c51287d39cc0d5f7f33aebb5323303f12c8ba2b257e12e
+  pages: 9
+notes: Schlumberger soundings; Hebrew text.
+extraction_status: registered

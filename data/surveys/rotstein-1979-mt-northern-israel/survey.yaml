@@ -1,0 +1,26 @@
+id: rotstein-1979-mt-northern-israel
+name: Magnetotelluric survey in northern Israel
+organisation: IPRG
+authors:
+- Y. Rotstein
+- Goldberg
+report_number: MT/325/77
+year: 1979
+methods:
+- MT
+region: Upper Galilee, Golan, Hula
+geometry: stations
+depth_reach: crustal section
+documents:
+- id: main
+  title: Magnetotelluric survey, northern Israel
+  filename: Rotstein-Y-Magnetotelluric-Survey-Northern-Israel-IPRG-MT-325-1979.pdf
+  drive_id: 1SzV3ru9-XiqEpFtCKxScIjqgZDVC3prc
+  language:
+  - en
+  scanned: true
+  role: main_report
+  sha256: c643357fd62359493dff6d892ccaf55bdbee5c7345cc88ca90fec6429ce5a2f3
+  pages: 23
+notes: 10 sites, 7 usable.
+extraction_status: registered

@@ -1,0 +1,24 @@
+id: klang-1970-mt-general
+name: General aspects and initial results of MT surveys in Israel (Afiq-Lot traverse)
+organisation: IPRG
+authors:
+- A. Klang
+report_number: '1044'
+year: 1970
+acquired: '1969'
+methods:
+- MT
+region: Afiq to Lot traverse
+geometry: profile
+depth_reach: crustal
+documents:
+- id: main
+  title: General aspects and initial results of magnetotelluric surveys in Israel
+  filename: Klang-A-General-Aspects-Initial-Results-Magnetotelluric-Surveys-Israel-IPRG-Rep-1044-1970.pdf
+  drive_id: 1TK62PjNazj8ulZMO-jbuf8QRsLV1X7HU
+  language:
+  - en
+  scanned: true
+  role: main_report
+extraction_status: blocked
+notes: 22 soundings. PDF over the Drive connector size limit; waiting for a copy.

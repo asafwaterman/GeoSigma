@@ -1,0 +1,33 @@
+id: paparo-1977-northern-arava
+name: Analysis of electrical resistivity measurements, Northern Arava
+organisation: IPRG / GSI
+authors:
+- H. Paparo
+- D. Levitte
+report_number: GSI 05/77, PK/249/76
+year: 1977
+methods:
+- VES
+region: Northern Arava
+geometry: area
+documents:
+- id: vol1
+  title: Vol. 1, text
+  filename: Paparo-Levitte-Analysis-Northern-Arava-Electrical-Resistivity-Measurements-Vol-1-GSI-05-77-IPRG-PK-249-76-1977.pdf
+  drive_id: 1AeqqNYXFRw_1ZfWGpMTp-05AzCCY09jk
+  language:
+  - he
+  scanned: true
+  role: main_report
+  sha256: eafdc61e60e92db9501dbb665e83213853c4ea71ad9bbe95d46f4b2073b7d94b
+  pages: 17
+- id: vol2
+  title: Vol. 2, figures
+  filename: Paparo-Levitte-Analysis-Northern-Arava-Electrical-Resistivity-Measurements-Vol-2-GSI-05-77-IPRG-PK-249-76-1977.pdf
+  drive_id: 19PuTxQ7Q1tzgdongEtnZv7w9hKLXk16i
+  language:
+  - he
+  scanned: true
+  role: figures
+extraction_status: registered
+notes: 444 geoelectric points. Vol. 2 over the connector size limit.

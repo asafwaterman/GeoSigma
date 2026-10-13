@@ -1,0 +1,23 @@
+id: klang-1970-mt-timna-ramon
+name: Timna and Ramon area magnetotelluric measurements
+organisation: IPRG
+authors:
+- A. Klang
+report_number: MT/665/69
+year: 1970
+methods:
+- MT
+region: Timna and Makhtesh Ramon
+geometry: stations
+depth_reach: layered complexes to about 15 km
+documents:
+- id: main
+  title: Timna-Ramon area magneto-telluric measurements
+  filename: Klang-A-Timna-Ramon-Area-Magneto-Telluric-Measurements-IPRG-MT-665-69-1970.pdf
+  drive_id: 15dZLkOF0HUaQ1nhY_ZeKNBS48n8S6wxX
+  language:
+  - en
+  scanned: true
+  role: main_report
+extraction_status: blocked
+notes: 6 soundings. PDF over the connector size limit.

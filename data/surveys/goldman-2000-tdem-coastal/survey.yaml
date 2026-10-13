@@ -1,0 +1,30 @@
+id: goldman-2000-tdem-coastal
+name: Electromagnetic (TDEM) survey of the coastal aquifer
+organisation: Geophysical Institute of Israel (GII)
+authors:
+- M. Goldman
+report_number: 904/62/99
+year: 2000
+acquired: 1989/1999
+methods:
+- TEM
+region: Coast, Zikim to Rosh HaNikra
+purpose: Seawater intrusion monitoring
+geometry: stations
+depth_reach: about 100-200 m
+documents:
+- id: main
+  title: Electromagnetic survey of the coastal aquifer of Israel
+  filename: Goldman-M-Electromagnetic-Survey-Coastal-Aquifer-Israel-GII-Rep-904-62-99-2000.pdf
+  drive_id: 1dn6i5RjWcYmzfeDyr6X5xzvgEVQ_EyIn
+  language:
+  - he
+  - en
+  scanned: true
+  role: main_report
+  sha256: 8bde39efa0bc70c36166391e3507b091a9f690fec01aec758eb20a1ea346a543
+  pages: 133
+acquisition:
+  loop_m: 100
+notes: 61 stations; repeat measurements 1989-1997. Coordinates in Old Israel Grid (inferred).
+extraction_status: registered

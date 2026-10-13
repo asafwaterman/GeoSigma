@@ -1,0 +1,27 @@
+id: klang-1979-mt-tamar
+name: Magnetotelluric survey in the Tamar area
+organisation: IPRG
+authors:
+- A. Klang
+- Y. Rotstein
+- Goldberg
+report_number: MT/260/75
+year: 1979
+methods:
+- MT
+region: Tamar, northern Arava
+geometry: stations
+depth_reach: deep
+documents:
+- id: main
+  title: Magnetotelluric survey, Tamar area
+  filename: Klang-A-Magnetotelluric-Survey-Tamar-Area-IPRG-Rep-MT-260-75-1979.pdf
+  drive_id: 1x3ljIZfzGd008aS3yWH7zOppijLsqdyF
+  language:
+  - en
+  scanned: true
+  role: main_report
+  sha256: 0e91a58fc28dbe364178b1d99ac45e4122fb79c9bf67efeb39d4ea4009f4956f
+  pages: 19
+notes: 4 soundings; strongly anisotropic, results are qualitative.
+extraction_status: registered

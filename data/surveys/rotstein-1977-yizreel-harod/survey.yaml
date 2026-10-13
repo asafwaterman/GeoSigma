@@ -1,0 +1,36 @@
+id: rotstein-1977-yizreel-harod
+name: Yizreel and Harod valleys electrical resistivity survey (geothermal)
+organisation: IPRG
+authors:
+- Y. Rotstein
+- A. Klang
+- Levanon
+report_number: GT/149/74(2)
+year: 1977
+methods:
+- DIPOLE
+- VES
+region: Yizreel and Harod valleys
+purpose: Geothermal exploration
+geometry: area
+depth_reach: shallow to about 1 km
+documents:
+- id: main
+  title: Yizreel-Harod valleys electrical resistivity survey
+  filename: Rotstein-Y-Yizreel-Harod-Valleys-Electrical-Resistivity-Survey-IPRG-GT-149-74-2-1977.pdf
+  drive_id: 1vBYMJ8xKchz02sU6N8IfAicovRwUnU1k
+  language:
+  - en
+  scanned: true
+  role: main_report
+- id: maps
+  title: Maps
+  filename: Rotstein-Y-Yizreel-Harod-Valleys-Electrical-Resistivity-Survey-IPRG-GT-149-74-2-1977-Maps.pdf
+  drive_id: 18Ty89u3CLyoqsQ84aeumM8hZiLm056OS
+  language:
+  - en
+  scanned: true
+  role: maps
+extraction_status: blocked
+notes: Roving dipole apparent resistivity maps, dipole-dipole profiles, depth soundings. Both PDFs over the connector
+  size limit.

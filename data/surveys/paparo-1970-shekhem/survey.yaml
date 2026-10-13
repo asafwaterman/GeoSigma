@@ -1,0 +1,23 @@
+id: paparo-1970-shekhem
+name: Electrical resistivity surveys, Shekhem syncline
+organisation: IPRG
+authors:
+- H. Paparo
+report_number: GK/781/70
+year: 1970
+methods:
+- VES
+region: Shekhem (Nablus) syncline
+geometry: area
+documents:
+- id: main
+  title: Electrical resistivity surveys, Shekhem syncline
+  filename: Paparo-H-Report-Electrical-Resistivity-Surveys-Shekhem-Syncline-IPRG-Rep-GK-781-70-1970.pdf
+  drive_id: 169g4JmAMhxqpCMbQf1svOalFKWo2552Y
+  language:
+  - he
+  scanned: true
+  role: main_report
+  sha256: 1ed869fdc57a18038fd9c2b33022b074af29ca778411cfcc2e57a7fd134630e5
+  pages: 15
+extraction_status: registered

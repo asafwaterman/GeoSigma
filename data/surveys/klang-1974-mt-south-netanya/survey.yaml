@@ -1,0 +1,24 @@
+id: klang-1974-mt-south-netanya
+name: South Netanya magnetotelluric study, first phase
+organisation: IPRG
+client: Sonol
+authors:
+- A. Klang
+report_number: MT/118/74
+year: 1974
+methods:
+- MT
+region: South Netanya
+geometry: stations
+depth_reach: deep
+documents:
+- id: main
+  title: South Netanya magnetotelluric study, first phase
+  filename: Klang-A-South-Netanya-Magnetotelluric-Study-First-Phase-IPRG-MT-118-1974.pdf
+  drive_id: 1UMgXRKOw4v37N8X196n0bO8J4fasGPEI
+  language:
+  - en
+  scanned: true
+  role: main_report
+extraction_status: blocked
+notes: 4 soundings. PDF over the connector size limit.

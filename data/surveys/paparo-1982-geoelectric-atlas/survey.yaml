@@ -1,0 +1,24 @@
+id: paparo-1982-geoelectric-atlas
+name: 'Geoelectric atlas of Israel: interface geoelectric measurements'
+organisation: IPRG
+authors:
+- H. Paparo
+report_number: VO/875/80
+year: 1982
+methods:
+- VES
+region: Coastal plain
+purpose: Fresh/saline water interface, repeat measurements
+geometry: stations
+documents:
+- id: main
+  title: Geoelectric atlas of Israel
+  filename: Paparo-H-Geoelectric-Atlas-Israel-Determining-Geoelectric-Measurements-IPRG Rep-VO-875-80-1982.pdf
+  drive_id: 19voEmOXTvF20g2AbL7kRpvohFqRjfDbD
+  language:
+  - he
+  scanned: true
+  role: main_report
+  sha256: 0ab4cdeb5c650c0e394ad3fe588b693cbf31ea5399e3721e635eb834bf839abf
+  pages: 47
+extraction_status: registered

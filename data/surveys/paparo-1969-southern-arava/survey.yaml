@@ -1,0 +1,30 @@
+id: paparo-1969-southern-arava
+name: Reinterpretation of electrical resistivity measurements, Southern Arava
+organisation: IPRG
+authors:
+- H. Paparo
+report_number: GK/625/68
+year: 1969
+methods:
+- VES
+region: Southern Arava
+geometry: area
+documents:
+- id: main
+  title: Reinterpretation, Southern Arava (text)
+  filename: Paparo-H-Reinterpretation-Electrical-Resistivity-Measurements-Southern-Arava-IPRG-Rep-GK-625-68-1969.pdf
+  drive_id: 1YyRB_-7iZ0m_-eya2Mo_AEoNib7QzrbI
+  language:
+  - he
+  scanned: true
+  role: main_report
+- id: figs
+  title: Figures
+  filename: Paparo-H-Reinterpretation-Electrical-Resistivity-Measurements-Southern-Arava-IPRG-Rep-GK-625-68-1969-Figs.pdf
+  drive_id: 1H6008QktgdHYADCXr4oWCYTmAUwaX4wM
+  language:
+  - he
+  scanned: true
+  role: figures
+extraction_status: blocked
+notes: Reinterpretation of older soundings. No text layer; PDFs over the connector size limit.
