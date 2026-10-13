@@ -23,4 +23,93 @@ documents:
   sha256: c643357fd62359493dff6d892ccaf55bdbee5c7345cc88ca90fec6429ce5a2f3
   pages: 23
 notes: 10 sites, 7 usable.
-extraction_status: registered
+extraction_status: complete
+sites:
+- id: KFM
+  name: MT sounding KFM (Upper Galil)
+  coords:
+    x: 175019
+    y: 243805
+    crs: EPSG:28193
+    source: map
+    accuracy_m: 300
+- id: BTN
+  name: MT sounding BTN (Upper Galil)
+  coords:
+    x: 185348
+    y: 247457
+    crs: EPSG:28193
+    source: map
+    accuracy_m: 300
+- id: BCH
+  name: MT sounding BCH (Upper Galil)
+  coords:
+    x: 186100
+    y: 258653
+    crs: EPSG:28193
+    source: map
+    accuracy_m: 300
+- id: RAL
+  name: MT sounding RAL (Hula Valley)
+  coords:
+    x: 207519
+    y: 274677
+    crs: EPSG:28193
+    source: map
+    accuracy_m: 300
+- id: MRG
+  name: MT sounding MRG (Golan Heights)
+  coords:
+    x: 222368
+    y: 283510
+    crs: EPSG:28193
+    source: map
+    accuracy_m: 300
+- id: KAR
+  name: MT sounding KAR (Golan Heights)
+  coords:
+    x: 216523
+    y: 279896
+    crs: EPSG:28193
+    source: map
+    accuracy_m: 300
+- id: JOU
+  name: MT sounding JOU (Golan Heights)
+  coords:
+    x: 227209
+    y: 258577
+    crs: EPSG:28193
+    source: map
+    accuracy_m: 300
+- id: DAZ
+  name: MT sounding DAZ (Golan Heights)
+  coords:
+    x: 216297
+    y: 251964
+    crs: EPSG:28193
+    source: map
+    accuracy_m: 300
+- id: noisy-1
+  name: Unnamed MT sounding 1 (noisy, no data reported)
+  coords:
+    x: 193806
+    y: 269336
+    crs: EPSG:28193
+    source: map
+    accuracy_m: 300
+- id: noisy-2
+  name: Unnamed MT sounding 2 (noisy, no data reported)
+  coords:
+    x: 195207
+    y: 254364
+    crs: EPSG:28193
+    source: map
+    accuracy_m: 300
+- id: noisy-3
+  name: Unnamed MT sounding 3 (noisy, no data reported)
+  coords:
+    x: 209276
+    y: 255085
+    crs: EPSG:28193
+    source: map
+    accuracy_m: 300

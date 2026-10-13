@@ -1,0 +1,421 @@
+[
+ {
+  "id": "rotstein1979-mt-KFM-te-layered",
+  "survey": "rotstein-1979-mt-northern-israel",
+  "site": "KFM",
+  "method": "MT",
+  "level": "L2",
+  "representation": "model_1d",
+  "measured_on": "1977",
+  "depth_max_m": 55500.0,
+  "confidence": "C",
+  "status": "draft",
+  "model_type": "layered",
+  "layers": [
+   {
+    "top_m": 0.0,
+    "bottom_m": 460.0,
+    "rho_ohmm": 21.0
+   },
+   {
+    "top_m": 460.0,
+    "bottom_m": 1450.0,
+    "rho_ohmm": 2.5
+   },
+   {
+    "top_m": 1450.0,
+    "bottom_m": 15350.0,
+    "rho_ohmm": 33.0
+   },
+   {
+    "top_m": 15350.0,
+    "bottom_m": null,
+    "rho_ohmm": 3.5
+   }
+  ],
+  "digitisation_error": "+-0.05 log10 rho, +-0.03 log10 depth (inset drawing and scan)",
+  "provenance": {
+   "document": "main",
+   "pages": [
+    10
+   ],
+   "figure": "Figure 2, KFM inset",
+   "method": "digitised_manual",
+   "tool": "geosigma.extract.rotstein_mt (pixel readings)",
+   "extracted_on": "2026-10-13",
+   "notes": "1D inversion of TE data. Top of plot is 0.1 km; the first layer is extended to the surface."
+  },
+  "notes": "Report Table 2: crustal low-resistivity layer from 16 km. Report warns of strong 2D/3D effects; layer depths may be off by tens of percent."
+ },
+ {
+  "id": "rotstein1979-mt-BTN-te-layered",
+  "survey": "rotstein-1979-mt-northern-israel",
+  "site": "BTN",
+  "method": "MT",
+  "level": "L2",
+  "representation": "model_1d",
+  "measured_on": "1977",
+  "depth_max_m": 7000.0,
+  "confidence": "C",
+  "status": "draft",
+  "model_type": "layered",
+  "layers": [
+   {
+    "top_m": 0.0,
+    "bottom_m": 440.0,
+    "rho_ohmm": 3.0
+   },
+   {
+    "top_m": 440.0,
+    "bottom_m": 1500.0,
+    "rho_ohmm": 10.0
+   },
+   {
+    "top_m": 1500.0,
+    "bottom_m": 3360.0,
+    "rho_ohmm": 1.1
+   },
+   {
+    "top_m": 3360.0,
+    "bottom_m": null,
+    "rho_ohmm": 6.3
+   }
+  ],
+  "digitisation_error": "+-0.05 log10 rho, +-0.03 log10 depth (inset drawing and scan)",
+  "provenance": {
+   "document": "main",
+   "pages": [
+    10
+   ],
+   "figure": "Figure 2, BTN inset",
+   "method": "digitised_manual",
+   "tool": "geosigma.extract.rotstein_mt (pixel readings)",
+   "extracted_on": "2026-10-13",
+   "notes": "1D inversion of TE data. Top of plot is 0.1 km; the first layer is extended to the surface."
+  },
+  "notes": "Report warns of strong 2D/3D effects; layer depths may be off by tens of percent."
+ },
+ {
+  "id": "rotstein1979-mt-BCH-te-layered",
+  "survey": "rotstein-1979-mt-northern-israel",
+  "site": "BCH",
+  "method": "MT",
+  "level": "L2",
+  "representation": "model_1d",
+  "measured_on": "1977",
+  "depth_max_m": 66200.0,
+  "confidence": "C",
+  "status": "draft",
+  "model_type": "layered",
+  "layers": [
+   {
+    "top_m": 0.0,
+    "bottom_m": 760.0,
+    "rho_ohmm": 74.0
+   },
+   {
+    "top_m": 760.0,
+    "bottom_m": 3840.0,
+    "rho_ohmm": 11.0
+   },
+   {
+    "top_m": 3840.0,
+    "bottom_m": 26790.0,
+    "rho_ohmm": 74.0
+   },
+   {
+    "top_m": 26790.0,
+    "bottom_m": null,
+    "rho_ohmm": 8.9
+   }
+  ],
+  "digitisation_error": "+-0.05 log10 rho, +-0.03 log10 depth (inset drawing and scan)",
+  "provenance": {
+   "document": "main",
+   "pages": [
+    10
+   ],
+   "figure": "Figure 2, BCH inset",
+   "method": "digitised_manual",
+   "tool": "geosigma.extract.rotstein_mt (pixel readings)",
+   "extracted_on": "2026-10-13",
+   "notes": "1D inversion of TE data. Top of plot is 0.1 km; the first layer is extended to the surface."
+  },
+  "notes": "Report Table 2: crustal low-resistivity layer from 22 km. Report warns of strong 2D/3D effects; layer depths may be off by tens of percent."
+ },
+ {
+  "id": "rotstein1979-mt-RAL-te-layered",
+  "survey": "rotstein-1979-mt-northern-israel",
+  "site": "RAL",
+  "method": "MT",
+  "level": "L2",
+  "representation": "model_1d",
+  "measured_on": "1977",
+  "depth_max_m": 61700.0,
+  "confidence": "B",
+  "status": "draft",
+  "model_type": "layered",
+  "layers": [
+   {
+    "top_m": 0.0,
+    "bottom_m": 180.0,
+    "rho_ohmm": 3.1
+   },
+   {
+    "top_m": 180.0,
+    "bottom_m": 320.0,
+    "rho_ohmm": 42.0
+   },
+   {
+    "top_m": 320.0,
+    "bottom_m": 520.0,
+    "rho_ohmm": 3.9
+   },
+   {
+    "top_m": 520.0,
+    "bottom_m": 1580.0,
+    "rho_ohmm": 31.0
+   },
+   {
+    "top_m": 1580.0,
+    "bottom_m": 5840.0,
+    "rho_ohmm": 4.8
+   },
+   {
+    "top_m": 5840.0,
+    "bottom_m": 12680.0,
+    "rho_ohmm": 52.0
+   },
+   {
+    "top_m": 12680.0,
+    "bottom_m": null,
+    "rho_ohmm": 1.4
+   }
+  ],
+  "digitisation_error": "+-0.05 log10 rho, +-0.03 log10 depth (inset drawing and scan)",
+  "provenance": {
+   "document": "main",
+   "pages": [
+    10
+   ],
+   "figure": "Figure 2, RAL inset",
+   "method": "digitised_manual",
+   "tool": "geosigma.extract.rotstein_mt (pixel readings)",
+   "extracted_on": "2026-10-13",
+   "notes": "1D inversion of TE data. Top of plot is 0.1 km; the first layer is extended to the surface."
+  },
+  "notes": "Report Table 2: crustal low-resistivity layer from 13 km. Report rates this sounding among the most reliable."
+ },
+ {
+  "id": "rotstein1979-mt-MRG-te-layered",
+  "survey": "rotstein-1979-mt-northern-israel",
+  "site": "MRG",
+  "method": "MT",
+  "level": "L2",
+  "representation": "model_1d",
+  "measured_on": "1977",
+  "depth_max_m": 85500.0,
+  "confidence": "C",
+  "status": "draft",
+  "model_type": "layered",
+  "layers": [
+   {
+    "top_m": 0.0,
+    "bottom_m": 950.0,
+    "rho_ohmm": 79.0
+   },
+   {
+    "top_m": 950.0,
+    "bottom_m": 2110.0,
+    "rho_ohmm": 260.0
+   },
+   {
+    "top_m": 2110.0,
+    "bottom_m": 3410.0,
+    "rho_ohmm": 54.0
+   },
+   {
+    "top_m": 3410.0,
+    "bottom_m": 14260.0,
+    "rho_ohmm": 560.0
+   },
+   {
+    "top_m": 14260.0,
+    "bottom_m": null,
+    "rho_ohmm": 50.0
+   }
+  ],
+  "digitisation_error": "+-0.05 log10 rho, +-0.03 log10 depth (inset drawing and scan)",
+  "provenance": {
+   "document": "main",
+   "pages": [
+    11
+   ],
+   "figure": "Figure 3, MRG inset",
+   "method": "digitised_manual",
+   "tool": "geosigma.extract.rotstein_mt (pixel readings)",
+   "extracted_on": "2026-10-13",
+   "notes": "1D inversion of TE data. Top of plot is 0.1 km; the first layer is extended to the surface."
+  },
+  "notes": "Report Table 2: crustal low-resistivity layer from 14 km. Report warns of strong 2D/3D effects; layer depths may be off by tens of percent."
+ },
+ {
+  "id": "rotstein1979-mt-DAZ-te-layered",
+  "survey": "rotstein-1979-mt-northern-israel",
+  "site": "DAZ",
+  "method": "MT",
+  "level": "L2",
+  "representation": "model_1d",
+  "measured_on": "1977",
+  "depth_max_m": 42900.0,
+  "confidence": "C",
+  "status": "draft",
+  "model_type": "layered",
+  "layers": [
+   {
+    "top_m": 0.0,
+    "bottom_m": 320.0,
+    "rho_ohmm": 30.0
+   },
+   {
+    "top_m": 320.0,
+    "bottom_m": 1290.0,
+    "rho_ohmm": 56.0
+   },
+   {
+    "top_m": 1290.0,
+    "bottom_m": 1560.0,
+    "rho_ohmm": 6.2
+   },
+   {
+    "top_m": 1560.0,
+    "bottom_m": 10420.0,
+    "rho_ohmm": 58.0
+   },
+   {
+    "top_m": 10420.0,
+    "bottom_m": null,
+    "rho_ohmm": 20.0
+   }
+  ],
+  "digitisation_error": "+-0.05 log10 rho, +-0.03 log10 depth (inset drawing and scan)",
+  "provenance": {
+   "document": "main",
+   "pages": [
+    11
+   ],
+   "figure": "Figure 3, DAZ inset",
+   "method": "digitised_manual",
+   "tool": "geosigma.extract.rotstein_mt (pixel readings)",
+   "extracted_on": "2026-10-13",
+   "notes": "1D inversion of TE data. Top of plot is 0.1 km; the first layer is extended to the surface."
+  },
+  "notes": "Report Table 2: crustal low-resistivity layer from 12 km. Report warns of strong 2D/3D effects; layer depths may be off by tens of percent."
+ },
+ {
+  "id": "rotstein1979-mt-KAR-te-layered",
+  "survey": "rotstein-1979-mt-northern-israel",
+  "site": "KAR",
+  "method": "MT",
+  "level": "L2",
+  "representation": "model_1d",
+  "measured_on": "1977",
+  "depth_max_m": 67200.0,
+  "confidence": "B",
+  "status": "draft",
+  "model_type": "layered",
+  "layers": [
+   {
+    "top_m": 0.0,
+    "bottom_m": 690.0,
+    "rho_ohmm": 68.0
+   },
+   {
+    "top_m": 690.0,
+    "bottom_m": 1280.0,
+    "rho_ohmm": 1000.0
+   },
+   {
+    "top_m": 1280.0,
+    "bottom_m": 4580.0,
+    "rho_ohmm": 57.0
+   },
+   {
+    "top_m": 4580.0,
+    "bottom_m": 24120.0,
+    "rho_ohmm": 88.0
+   },
+   {
+    "top_m": 24120.0,
+    "bottom_m": null,
+    "rho_ohmm": 23.0
+   }
+  ],
+  "digitisation_error": "+-0.05 log10 rho, +-0.03 log10 depth (inset drawing and scan)",
+  "provenance": {
+   "document": "main",
+   "pages": [
+    11
+   ],
+   "figure": "Figure 3, KAR inset",
+   "method": "digitised_manual",
+   "tool": "geosigma.extract.rotstein_mt (pixel readings)",
+   "extracted_on": "2026-10-13",
+   "notes": "1D inversion of TE data. Top of plot is 0.1 km; the first layer is extended to the surface."
+  },
+  "notes": "Report Table 2: crustal low-resistivity layer from 23 km. Report rates this sounding among the most reliable."
+ },
+ {
+  "id": "rotstein1979-mt-JOU-te-layered",
+  "survey": "rotstein-1979-mt-northern-israel",
+  "site": "JOU",
+  "method": "MT",
+  "level": "L2",
+  "representation": "model_1d",
+  "measured_on": "1977",
+  "depth_max_m": 52000.0,
+  "confidence": "B",
+  "status": "draft",
+  "model_type": "layered",
+  "layers": [
+   {
+    "top_m": 0.0,
+    "bottom_m": 410.0,
+    "rho_ohmm": 37.0
+   },
+   {
+    "top_m": 410.0,
+    "bottom_m": 1620.0,
+    "rho_ohmm": 90.0
+   },
+   {
+    "top_m": 1620.0,
+    "bottom_m": 4070.0,
+    "rho_ohmm": 24.0
+   },
+   {
+    "top_m": 4070.0,
+    "bottom_m": 13930.0,
+    "rho_ohmm": 130.0
+   },
+   {
+    "top_m": 13930.0,
+    "bottom_m": null,
+    "rho_ohmm": 11.0
+   }
+  ],
+  "digitisation_error": "+-0.05 log10 rho, +-0.03 log10 depth (inset drawing and scan)",
+  "provenance": {
+   "document": "main",
+   "pages": [
+    11
+   ],
+   "figure": "Figure 3, JOU inset",
+   "method": "digitised_manual",
+   "tool": "geosigma.extract.rotstein_mt (pixel readings)",
+   "extracted_on": "2026-10-13",
+   "notes": "1D inversion of TE data. Top of plot is 0.1 km; the first layer is extended to the surface."
+  },
+  "notes": "Report Table 2: crustal low-resistivity layer from 13 km. Report rates this sounding among the most reliable."
+ }
+]
