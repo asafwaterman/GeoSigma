@@ -24,4 +24,41 @@ documents:
   sha256: 0e91a58fc28dbe364178b1d99ac45e4122fb79c9bf67efeb39d4ea4009f4956f
   pages: 19
 notes: 4 soundings; strongly anisotropic, results are qualitative.
-extraction_status: registered
+extraction_status: complete
+sites:
+- id: TR-1
+  name: MT sounding TR-1
+  coords:
+    x: 179883
+    y: 42208
+    crs: EPSG:28193
+    source: map
+    accuracy_m: 200
+- id: TR-2
+  name: MT sounding TR-2
+  coords:
+    x: 175852
+    y: 43628
+    crs: EPSG:28193
+    source: map
+    accuracy_m: 200
+- id: TR-3
+  name: MT sounding TR-3
+  coords:
+    x: 176159
+    y: 44042
+    crs: EPSG:28193
+    source: map
+    accuracy_m: 200
+- id: TR-4
+  name: MT sounding TR-4
+  coords:
+    x: 176159
+    y: 44683
+    crs: EPSG:28193
+    source: map
+    accuracy_m: 200
+acquired: 1977-10/1978-03
+acquisition:
+  system: Geotronics 5-channel digital MT
+  frequency_hz: about 50 to 0.001

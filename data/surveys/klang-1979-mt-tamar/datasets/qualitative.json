@@ -1,0 +1,106 @@
+[
+ {
+  "id": "klang1979-mt-TR-1-qualitative",
+  "survey": "klang-1979-mt-tamar",
+  "site": "TR-1",
+  "method": "MT",
+  "level": "L1",
+  "representation": "qualitative",
+  "measured_on": "1977/1978",
+  "confidence": "D",
+  "status": "draft",
+  "summary": "In the Rift Valley 1.5 km SE of Tamar 9. TE and TM split (2D effect of the fault). Near-surface 15-30 ohm.m for periods < 0.1 s, then a strong decrease (possibly < 6 ohm.m) of unknown thickness, over a resistive layer seen at 100-1000 s.",
+  "provenance": {
+   "document": "main",
+   "pages": [
+    10,
+    11,
+    12,
+    17
+   ],
+   "figure": "Figure 2 and text section 5",
+   "method": "manual",
+   "tool": "read from the report text",
+   "extracted_on": "2026-10-13"
+  },
+  "notes": "The report gives only a qualitative interpretation; no 1D model."
+ },
+ {
+  "id": "klang1979-mt-TR-2-qualitative",
+  "survey": "klang-1979-mt-tamar",
+  "site": "TR-2",
+  "method": "MT",
+  "level": "L1",
+  "representation": "qualitative",
+  "measured_on": "1977/1978",
+  "confidence": "D",
+  "status": "draft",
+  "summary": "3 km W of Tamar 9, near the steep flank of the Hatsera anticline. Anisotropic; TE/TM differ strongly below 10 s and converge at long periods.",
+  "provenance": {
+   "document": "main",
+   "pages": [
+    10,
+    11,
+    12,
+    17
+   ],
+   "figure": "Figure 2 and text section 5",
+   "method": "manual",
+   "tool": "read from the report text",
+   "extracted_on": "2026-10-13"
+  },
+  "notes": "The report gives only a qualitative interpretation; no 1D model."
+ },
+ {
+  "id": "klang1979-mt-TR-3-qualitative",
+  "survey": "klang-1979-mt-tamar",
+  "site": "TR-3",
+  "method": "MT",
+  "level": "L1",
+  "representation": "qualitative",
+  "measured_on": "1977/1978",
+  "confidence": "D",
+  "status": "draft",
+  "summary": "3 km W of Tamar 9. Anisotropic but less than TR-2 at short periods; TE/TM converge at long periods.",
+  "provenance": {
+   "document": "main",
+   "pages": [
+    10,
+    11,
+    12,
+    17
+   ],
+   "figure": "Figure 2 and text section 5",
+   "method": "manual",
+   "tool": "read from the report text",
+   "extracted_on": "2026-10-13"
+  },
+  "notes": "The report gives only a qualitative interpretation; no 1D model."
+ },
+ {
+  "id": "klang1979-mt-TR-4-qualitative",
+  "survey": "klang-1979-mt-tamar",
+  "site": "TR-4",
+  "method": "MT",
+  "level": "L1",
+  "representation": "qualitative",
+  "measured_on": "1977/1978",
+  "confidence": "D",
+  "status": "draft",
+  "summary": "3 km W of Tamar 9. Strongest anisotropy; TE apparent resistivity an order of magnitude below TR-2/TR-3, possibly a local low-resistivity anomaly (not confirmed).",
+  "provenance": {
+   "document": "main",
+   "pages": [
+    10,
+    11,
+    12,
+    17
+   ],
+   "figure": "Figure 2 and text section 5",
+   "method": "manual",
+   "tool": "read from the report text",
+   "extracted_on": "2026-10-13"
+  },
+  "notes": "The report gives only a qualitative interpretation; no 1D model."
+ }
+]
