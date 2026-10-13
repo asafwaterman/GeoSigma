@@ -27,4 +27,469 @@ documents:
 acquisition:
   loop_m: 100
 notes: 61 stations; repeat measurements 1989-1997. Coordinates in Old Israel Grid (inferred).
-extraction_status: registered
+extraction_status: partial
+sites:
+- id: HS501
+  name: HS501 Ashgelon
+  elevation_m: 34.6
+  coords:
+    x: 107822
+    y: 119369
+    crs: EPSG:28193
+    source: table
+- id: HS502
+  name: HS502 Ziqim
+  elevation_m: 5.0
+  coords:
+    x: 103140
+    y: 112320
+    crs: EPSG:28193
+    source: table
+- id: HS503
+  name: HS503 Barnea
+  elevation_m: 28.2
+  coords:
+    x: 109842
+    y: 122800
+    crs: EPSG:28193
+    source: table
+- id: HS504
+  name: HS504 Ashqelon
+  elevation_m: 19.6
+  coords:
+    x: 109552
+    y: 123046
+    crs: EPSG:28193
+    source: table
+- id: HS505
+  name: HS505 Nitzanim dunes
+  elevation_m: 16.6
+  coords:
+    x: 110828
+    y: 124710
+    crs: EPSG:28193
+    source: table
+- id: HS506
+  name: HS506 Nitzanim dunes
+  elevation_m: 15.5
+  coords:
+    x: 111000
+    y: 124642
+    crs: EPSG:28193
+    source: table
+- id: HS507
+  name: HS507 Hof Nitzanim
+  elevation_m: 6.8
+  coords:
+    x: 112871
+    y: 128064
+    crs: EPSG:28193
+    source: table
+- id: HS508
+  name: HS508 Nitzanim dunes
+  elevation_m: 4.6
+  coords:
+    x: 112445
+    y: 128120
+    crs: EPSG:28193
+    source: table
+- id: HS509
+  name: HS509 Ashdod South
+  elevation_m: 17.4
+  coords:
+    x: 114330
+    y: 130891
+    crs: EPSG:28193
+    source: table
+- id: HS510
+  name: HS510 Hof Rishon
+  elevation_m: 4.2
+  coords:
+    x: 124978
+    y: 156167
+    crs: EPSG:28193
+    source: table
+- id: HS511
+  name: HS511 Herzliya
+  elevation_m: 18.3
+  coords:
+    x: 131690
+    y: 174374
+    crs: EPSG:28193
+    source: table
+- id: HS512
+  name: HS512 Shefaim
+  elevation_m: 28.2
+  coords:
+    x: 133906
+    y: 181147
+    crs: EPSG:28193
+    source: table
+- id: HS513
+  name: HS513 Yaqum
+  elevation_m: 41.2
+  coords:
+    x: 133954
+    y: 184130
+    crs: EPSG:28193
+    source: table
+- id: HS514
+  name: HS514 Yaqum
+  elevation_m: 16.5
+  coords:
+    x: 134582
+    y: 184231
+    crs: EPSG:28193
+    source: table
+- id: HS515
+  name: HS515 Poleg
+  elevation_m: 14.2
+  coords:
+    x: 135212
+    y: 186986
+    crs: EPSG:28193
+    source: table
+- id: HS516
+  name: HS516 Hofit
+  elevation_m: 10.2
+  coords:
+    x: 138625
+    y: 199356
+    crs: EPSG:28193
+    source: table
+- id: HS517
+  name: HS517 Mikhmoret East
+  elevation_m: 21.0
+  coords:
+    x: 139479
+    y: 202392
+    crs: EPSG:28193
+    source: table
+- id: HS519
+  name: HS519 Giv'at Ol'ga
+  elevation_m: 10.6
+  coords:
+    x: 139295
+    y: 205860
+    crs: EPSG:28193
+    source: table
+- id: HS520
+  name: HS520 Giv'at Ol'ga
+  elevation_m: 10.6
+  coords:
+    x: 139929
+    y: 205986
+    crs: EPSG:28193
+    source: table
+- id: HS521
+  name: HS521 Sdot Yam
+  elevation_m: 2.1
+  coords:
+    x: 139750
+    y: 209851
+    crs: EPSG:28193
+    source: table
+- id: HS522
+  name: HS522 Caesarea
+  elevation_m: 5.5
+  coords:
+    x: 140271
+    y: 210199
+    crs: EPSG:28193
+    source: table
+- id: HS523
+  name: HS523 Caesarea
+  elevation_m: 5.7
+  coords:
+    x: 140933
+    y: 213671
+    crs: EPSG:28193
+    source: table
+- id: HS524
+  name: HS524 Caesarea
+  elevation_m: 4.4
+  coords:
+    x: 140632
+    y: 213363
+    crs: EPSG:28193
+    source: table
+- id: HS525
+  name: HS525 Hof Nachsholim
+  elevation_m: 3.7
+  coords:
+    x: 142888
+    y: 225303
+    crs: EPSG:28193
+    source: table
+- id: HS526
+  name: HS526 Newe-Yam
+  elevation_m: 4.8
+  coords:
+    x: 143540
+    y: 229343
+    crs: EPSG:28193
+    source: table
+- id: HS527
+  name: HS527 Newe-Yam
+  elevation_m: 5.9
+  coords:
+    x: 143990
+    y: 229260
+    crs: EPSG:28193
+    source: table
+- id: HS528
+  name: HS528 Newe-Yam
+  elevation_m: 4.3
+  coords:
+    x: 143707
+    y: 231164
+    crs: EPSG:28193
+    source: table
+- id: HS529
+  name: HS529 Atlit
+  elevation_m: 4.4
+  coords:
+    x: 145185
+    y: 236104
+    crs: EPSG:28193
+    source: table
+- id: HS530
+  name: HS530 Kfar Galim
+  elevation_m: 15.1
+  coords:
+    x: 146051
+    y: 240800
+    crs: EPSG:28193
+    source: table
+- id: HS531
+  name: HS531 Kfar Shamir
+  elevation_m: 15.6
+  coords:
+    x: 146525
+    y: 244091
+    crs: EPSG:28193
+    source: table
+- id: HS532
+  name: HS532 Hakhotrim
+  elevation_m: 9.9
+  coords:
+    x: 145966
+    y: 239222
+    crs: EPSG:28193
+    source: table
+- id: HS533
+  name: HS533 Habonim
+  elevation_m: 3.9
+  coords:
+    x: 143098
+    y: 227199
+    crs: EPSG:28193
+    source: table
+- id: HS535
+  name: HS535 Caesarea
+  elevation_m: 7.0
+  coords:
+    x: 140302
+    y: 211513
+    crs: EPSG:28193
+    source: table
+- id: HS536
+  name: HS536 Jisr-Al-Zarka
+  elevation_m: 0.0
+  coords:
+    x: 141390
+    y: 215940
+    crs: EPSG:28193
+    source: table
+- id: HS537
+  name: HS537 Jisr-Al-Zarka
+  elevation_m: 0.0
+  coords:
+    x: 142550
+    y: 216010
+    crs: EPSG:28193
+    source: table
+- id: HS538
+  name: HS538 Rosh Ha-Nikra
+  elevation_m: 6.5
+  coords:
+    x: 160794
+    y: 276209
+    crs: EPSG:28193
+    source: table
+- id: HS539
+  name: HS539 Betzet
+  elevation_m: 7.1
+  coords:
+    x: 160707
+    y: 275063
+    crs: EPSG:28193
+    source: table
+- id: HS540A
+  name: HS540A Ahziv
+  elevation_m: 0.0
+  coords:
+    x: 159600
+    y: 271200
+    crs: EPSG:28193
+    source: table
+- id: HS541
+  name: HS541 Nahariya South
+  elevation_m: 4.9
+  coords:
+    x: 158134
+    y: 265841
+    crs: EPSG:28193
+    source: table
+- id: HS542
+  name: HS542 Nahariya South
+  elevation_m: 5.8
+  coords:
+    x: 158520
+    y: 265782
+    crs: EPSG:28193
+    source: table
+- id: HS543
+  name: HS543 Khatzrot Yosef
+  elevation_m: 1.9
+  coords:
+    x: 157491
+    y: 262631
+    crs: EPSG:28193
+    source: table
+- id: HS544
+  name: HS544 Geva Karmel
+  elevation_m: 35.1
+  coords:
+    x: 146959
+    y: 230378
+    crs: EPSG:28193
+    source: table
+- id: HS546
+  name: HS546 Shvei Zion
+  elevation_m: 2.6
+  coords:
+    x: 157813
+    y: 264233
+    crs: EPSG:28193
+    source: table
+- id: HS547
+  name: HS547 Shvei Zion
+  elevation_m: 3.0
+  coords:
+    x: 158073
+    y: 264255
+    crs: EPSG:28193
+    source: table
+- id: HS548
+  name: HS548 Betzet East
+  elevation_m: 17.5
+  coords:
+    x: 161084
+    y: 274871
+    crs: EPSG:28193
+    source: table
+- id: HS549
+  name: HS549 Khatzrot Yosef
+  elevation_m: 2.2
+  coords:
+    x: 157751
+    y: 262561
+    crs: EPSG:28193
+    source: table
+- id: HS550
+  name: HS550 Khatzrot Yosef
+  elevation_m: 3.6
+  coords:
+    x: 158125
+    y: 262487
+    crs: EPSG:28193
+    source: table
+- id: HS551
+  name: HS551 Bustan Hagalil
+  elevation_m: 3.4
+  coords:
+    x: 157835
+    y: 261625
+    crs: EPSG:28193
+    source: table
+- id: HS552
+  name: HS552 Bustan Hagalil
+  elevation_m: 4.1
+  coords:
+    x: 158350
+    y: 261007
+    crs: EPSG:28193
+    source: table
+- id: HS553
+  name: HS553 Kfar Galim
+  elevation_m: 20.0
+  coords:
+    x: 146436
+    y: 240662
+    crs: EPSG:28193
+    source: table
+- id: HS554
+  name: HS554 Newe-Yam
+  elevation_m: 6.1
+  coords:
+    x: 144244
+    y: 231191
+    crs: EPSG:28193
+    source: table
+- id: HS555
+  name: HS555 Einot-Shumi
+  elevation_m: 18.3
+  coords:
+    x: 145827
+    y: 216075
+    crs: EPSG:28193
+    source: table
+- id: HS556
+  name: HS556 Shefaim
+  elevation_m: 33.8
+  coords:
+    x: 133787
+    y: 180958
+    crs: EPSG:28193
+    source: table
+- id: HS557
+  name: HS557 Palmakhim
+  elevation_m: 3.2
+  coords:
+    x: 119737
+    y: 143936
+    crs: EPSG:28193
+    source: table
+- id: HS558
+  name: HS558 Palmakhim
+  elevation_m: 13.9
+  coords:
+    x: 119874
+    y: 143763
+    crs: EPSG:28193
+    source: table
+- id: HS559
+  name: HS559 Palmakhim
+  elevation_m: 3.5
+  coords:
+    x: 120988
+    y: 146965
+    crs: EPSG:28193
+    source: table
+- id: HS560
+  name: HS560 Palmakhim
+  elevation_m: 9.6
+  coords:
+    x: 119416
+    y: 142330
+    crs: EPSG:28193
+    source: table
+- id: HS561
+  name: HS561 Palmakhim
+  elevation_m: 13.4
+  coords:
+    x: 121194
+    y: 146902
+    crs: EPSG:28193
+    source: table

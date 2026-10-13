@@ -1,0 +1,4143 @@
+[
+ {
+  "survey": "goldman-2000-tdem-coastal",
+  "site": "HS501",
+  "method": "TEM",
+  "level": "L2",
+  "measured_on": "1999-11-22",
+  "confidence": "A",
+  "status": "draft",
+  "id": "goldman2000-HS501-layered",
+  "representation": "model_1d",
+  "model_type": "layered",
+  "layers": [
+   {
+    "top_m": 0.0,
+    "bottom_m": 55.69,
+    "rho_ohmm": 152.4
+   },
+   {
+    "top_m": 55.69,
+    "bottom_m": 97.6,
+    "rho_ohmm": 25.58
+   },
+   {
+    "top_m": 97.6,
+    "bottom_m": 142.56,
+    "rho_ohmm": 1.51
+   },
+   {
+    "top_m": 142.56,
+    "bottom_m": 204.63,
+    "rho_ohmm": 5.91
+   },
+   {
+    "top_m": 204.63,
+    "bottom_m": null,
+    "rho_ohmm": 1.31
+   }
+  ],
+  "depth_max_m": 307.0,
+  "provenance": {
+   "document": "main",
+   "pages": [
+    9
+   ],
+   "table": "PROTEM inversion printout HS501",
+   "method": "ocr",
+   "tool": "tesseract 5 psm 6 + geosigma.extract.goldman_tdem",
+   "extracted_on": "2026-10-13",
+   "notes": null
+  },
+  "notes": "Loop 100x100 m; fitting error 2.181%. Last layer is the half-space."
+ },
+ {
+  "survey": "goldman-2000-tdem-coastal",
+  "site": "HS501",
+  "method": "TEM",
+  "level": "L3",
+  "measured_on": "1999-11-22",
+  "confidence": "A",
+  "status": "draft",
+  "id": "goldman2000-HS501-seawater",
+  "representation": "interface_depth",
+  "interface_depth_m": 97.6,
+  "criterion": "rho < 3 ohm.m (seawater-saturated)",
+  "provenance": {
+   "document": "main",
+   "pages": [
+    9
+   ],
+   "table": "PROTEM inversion printout HS501",
+   "method": "manual",
+   "tool": "derived from the layered model",
+   "extracted_on": "2026-10-13",
+   "notes": null
+  },
+  "reinterprets": "goldman2000-HS501-layered"
+ },
+ {
+  "survey": "goldman-2000-tdem-coastal",
+  "site": "HS502",
+  "method": "TEM",
+  "level": "L2",
+  "measured_on": "1999-11-22",
+  "confidence": "A",
+  "status": "draft",
+  "id": "goldman2000-HS502-layered",
+  "representation": "model_1d",
+  "model_type": "layered",
+  "layers": [
+   {
+    "top_m": 0.0,
+    "bottom_m": 3.51,
+    "rho_ohmm": 20.9
+   },
+   {
+    "top_m": 3.51,
+    "bottom_m": 18.35,
+    "rho_ohmm": 592.5
+   },
+   {
+    "top_m": 18.35,
+    "bottom_m": 94.79,
+    "rho_ohmm": 17.32
+   },
+   {
+    "top_m": 94.79,
+    "bottom_m": 137.5,
+    "rho_ohmm": 2.87
+   },
+   {
+    "top_m": 137.5,
+    "bottom_m": 191.78,
+    "rho_ohmm": 0.801
+   },
+   {
+    "top_m": 191.78,
+    "bottom_m": null,
+    "rho_ohmm": 27.54
+   }
+  ],
+  "depth_max_m": 288.0,
+  "provenance": {
+   "document": "main",
+   "pages": [
+    11
+   ],
+   "table": "PROTEM inversion printout HS502",
+   "method": "ocr",
+   "tool": "tesseract 5 psm 6 + geosigma.extract.goldman_tdem",
+   "extracted_on": "2026-10-13",
+   "notes": null
+  },
+  "notes": "Loop 100x100 m; fitting error 3.289%. Last layer is the half-space."
+ },
+ {
+  "survey": "goldman-2000-tdem-coastal",
+  "site": "HS502",
+  "method": "TEM",
+  "level": "L3",
+  "measured_on": "1999-11-22",
+  "confidence": "A",
+  "status": "draft",
+  "id": "goldman2000-HS502-seawater",
+  "representation": "interface_depth",
+  "interface_depth_m": 94.79,
+  "criterion": "rho < 3 ohm.m (seawater-saturated)",
+  "provenance": {
+   "document": "main",
+   "pages": [
+    11
+   ],
+   "table": "PROTEM inversion printout HS502",
+   "method": "manual",
+   "tool": "derived from the layered model",
+   "extracted_on": "2026-10-13",
+   "notes": null
+  },
+  "reinterprets": "goldman2000-HS502-layered"
+ },
+ {
+  "survey": "goldman-2000-tdem-coastal",
+  "site": "HS503",
+  "method": "TEM",
+  "level": "L2",
+  "measured_on": "1999-11-22",
+  "confidence": "A",
+  "status": "draft",
+  "id": "goldman2000-HS503-layered",
+  "representation": "model_1d",
+  "model_type": "layered",
+  "layers": [
+   {
+    "top_m": 0.0,
+    "bottom_m": 15.81,
+    "rho_ohmm": 34.3
+   },
+   {
+    "top_m": 15.81,
+    "bottom_m": 59.64,
+    "rho_ohmm": 85.54
+   },
+   {
+    "top_m": 59.64,
+    "bottom_m": 83.26,
+    "rho_ohmm": 15.73
+   },
+   {
+    "top_m": 83.26,
+    "bottom_m": 108.43,
+    "rho_ohmm": 100.3
+   },
+   {
+    "top_m": 108.43,
+    "bottom_m": 160.18,
+    "rho_ohmm": 1.44
+   },
+   {
+    "top_m": 160.18,
+    "bottom_m": 185.98,
+    "rho_ohmm": 8.9
+   },
+   {
+    "top_m": 185.98,
+    "bottom_m": null,
+    "rho_ohmm": 1.08
+   }
+  ],
+  "depth_max_m": 279.0,
+  "provenance": {
+   "document": "main",
+   "pages": [
+    13
+   ],
+   "table": "PROTEM inversion printout HS503",
+   "method": "ocr",
+   "tool": "tesseract 5 psm 6 + geosigma.extract.goldman_tdem",
+   "extracted_on": "2026-10-13",
+   "notes": null
+  },
+  "notes": "Loop 100x100 m; fitting error 2.993%. Last layer is the half-space."
+ },
+ {
+  "survey": "goldman-2000-tdem-coastal",
+  "site": "HS503",
+  "method": "TEM",
+  "level": "L3",
+  "measured_on": "1999-11-22",
+  "confidence": "A",
+  "status": "draft",
+  "id": "goldman2000-HS503-seawater",
+  "representation": "interface_depth",
+  "interface_depth_m": 108.43,
+  "criterion": "rho < 3 ohm.m (seawater-saturated)",
+  "provenance": {
+   "document": "main",
+   "pages": [
+    13
+   ],
+   "table": "PROTEM inversion printout HS503",
+   "method": "manual",
+   "tool": "derived from the layered model",
+   "extracted_on": "2026-10-13",
+   "notes": null
+  },
+  "reinterprets": "goldman2000-HS503-layered"
+ },
+ {
+  "survey": "goldman-2000-tdem-coastal",
+  "site": "HS504",
+  "method": "TEM",
+  "level": "L2",
+  "measured_on": "1999-11-23",
+  "confidence": "A",
+  "status": "draft",
+  "id": "goldman2000-HS504-layered",
+  "representation": "model_1d",
+  "model_type": "layered",
+  "layers": [
+   {
+    "top_m": 0.0,
+    "bottom_m": 14.71,
+    "rho_ohmm": 86.18
+   },
+   {
+    "top_m": 14.71,
+    "bottom_m": 58.94,
+    "rho_ohmm": 40.2
+   },
+   {
+    "top_m": 58.94,
+    "bottom_m": 73.74,
+    "rho_ohmm": 2.34
+   },
+   {
+    "top_m": 73.74,
+    "bottom_m": null,
+    "rho_ohmm": 0.931
+   }
+  ],
+  "depth_max_m": 111.0,
+  "provenance": {
+   "document": "main",
+   "pages": [
+    15
+   ],
+   "table": "PROTEM inversion printout HS504",
+   "method": "ocr",
+   "tool": "tesseract 5 psm 6 + geosigma.extract.goldman_tdem",
+   "extracted_on": "2026-10-13",
+   "notes": null
+  },
+  "notes": "Loop 100x100 m; fitting error 3.453%. Last layer is the half-space."
+ },
+ {
+  "survey": "goldman-2000-tdem-coastal",
+  "site": "HS504",
+  "method": "TEM",
+  "level": "L3",
+  "measured_on": "1999-11-23",
+  "confidence": "A",
+  "status": "draft",
+  "id": "goldman2000-HS504-seawater",
+  "representation": "interface_depth",
+  "interface_depth_m": 58.94,
+  "criterion": "rho < 3 ohm.m (seawater-saturated)",
+  "provenance": {
+   "document": "main",
+   "pages": [
+    15
+   ],
+   "table": "PROTEM inversion printout HS504",
+   "method": "manual",
+   "tool": "derived from the layered model",
+   "extracted_on": "2026-10-13",
+   "notes": null
+  },
+  "reinterprets": "goldman2000-HS504-layered"
+ },
+ {
+  "survey": "goldman-2000-tdem-coastal",
+  "site": "HS505",
+  "method": "TEM",
+  "level": "L2",
+  "measured_on": "1999-11-23",
+  "confidence": "A",
+  "status": "draft",
+  "id": "goldman2000-HS505-layered",
+  "representation": "model_1d",
+  "model_type": "layered",
+  "layers": [
+   {
+    "top_m": 0.0,
+    "bottom_m": 78.72,
+    "rho_ohmm": 87.76
+   },
+   {
+    "top_m": 78.72,
+    "bottom_m": 152.93,
+    "rho_ohmm": 2.46
+   },
+   {
+    "top_m": 152.93,
+    "bottom_m": 182.58,
+    "rho_ohmm": 8.86
+   },
+   {
+    "top_m": 182.58,
+    "bottom_m": null,
+    "rho_ohmm": 1.18
+   }
+  ],
+  "depth_max_m": 274.0,
+  "provenance": {
+   "document": "main",
+   "pages": [
+    17
+   ],
+   "table": "PROTEM inversion printout HS505",
+   "method": "ocr",
+   "tool": "tesseract 5 psm 6 + geosigma.extract.goldman_tdem",
+   "extracted_on": "2026-10-13",
+   "notes": null
+  },
+  "notes": "Loop 100x100 m; fitting error 5.233%. Last layer is the half-space."
+ },
+ {
+  "survey": "goldman-2000-tdem-coastal",
+  "site": "HS505",
+  "method": "TEM",
+  "level": "L3",
+  "measured_on": "1999-11-23",
+  "confidence": "A",
+  "status": "draft",
+  "id": "goldman2000-HS505-seawater",
+  "representation": "interface_depth",
+  "interface_depth_m": 78.72,
+  "criterion": "rho < 3 ohm.m (seawater-saturated)",
+  "provenance": {
+   "document": "main",
+   "pages": [
+    17
+   ],
+   "table": "PROTEM inversion printout HS505",
+   "method": "manual",
+   "tool": "derived from the layered model",
+   "extracted_on": "2026-10-13",
+   "notes": null
+  },
+  "reinterprets": "goldman2000-HS505-layered"
+ },
+ {
+  "survey": "goldman-2000-tdem-coastal",
+  "site": "HS506",
+  "method": "TEM",
+  "level": "L2",
+  "measured_on": "1999-11-23",
+  "confidence": "A",
+  "status": "draft",
+  "id": "goldman2000-HS506-layered",
+  "representation": "model_1d",
+  "model_type": "layered",
+  "layers": [
+   {
+    "top_m": 0.0,
+    "bottom_m": 12.35,
+    "rho_ohmm": 22.41
+   },
+   {
+    "top_m": 12.35,
+    "bottom_m": 71.53,
+    "rho_ohmm": 54.82
+   },
+   {
+    "top_m": 71.53,
+    "bottom_m": 96.27,
+    "rho_ohmm": 10.63
+   },
+   {
+    "top_m": 96.27,
+    "bottom_m": 158.02,
+    "rho_ohmm": 2.65
+   },
+   {
+    "top_m": 158.02,
+    "bottom_m": 194.0,
+    "rho_ohmm": 9.41
+   },
+   {
+    "top_m": 194.0,
+    "bottom_m": null,
+    "rho_ohmm": 1.02
+   }
+  ],
+  "depth_max_m": 291.0,
+  "provenance": {
+   "document": "main",
+   "pages": [
+    19
+   ],
+   "table": "PROTEM inversion printout HS506",
+   "method": "ocr",
+   "tool": "tesseract 5 psm 6 + geosigma.extract.goldman_tdem",
+   "extracted_on": "2026-10-13",
+   "notes": null
+  },
+  "notes": "Loop 100x100 m; fitting error 2.283%. Last layer is the half-space."
+ },
+ {
+  "survey": "goldman-2000-tdem-coastal",
+  "site": "HS506",
+  "method": "TEM",
+  "level": "L3",
+  "measured_on": "1999-11-23",
+  "confidence": "A",
+  "status": "draft",
+  "id": "goldman2000-HS506-seawater",
+  "representation": "interface_depth",
+  "interface_depth_m": 96.27,
+  "criterion": "rho < 3 ohm.m (seawater-saturated)",
+  "provenance": {
+   "document": "main",
+   "pages": [
+    19
+   ],
+   "table": "PROTEM inversion printout HS506",
+   "method": "manual",
+   "tool": "derived from the layered model",
+   "extracted_on": "2026-10-13",
+   "notes": null
+  },
+  "reinterprets": "goldman2000-HS506-layered"
+ },
+ {
+  "survey": "goldman-2000-tdem-coastal",
+  "site": "HS507",
+  "method": "TEM",
+  "level": "L2",
+  "measured_on": "1999-11-23",
+  "confidence": "A",
+  "status": "draft",
+  "id": "goldman2000-HS507-layered",
+  "representation": "model_1d",
+  "model_type": "layered",
+  "layers": [
+   {
+    "top_m": 0.0,
+    "bottom_m": 12.36,
+    "rho_ohmm": 62.03
+   },
+   {
+    "top_m": 12.36,
+    "bottom_m": 68.02,
+    "rho_ohmm": 32.81
+   },
+   {
+    "top_m": 68.02,
+    "bottom_m": 106.11,
+    "rho_ohmm": 1.03
+   },
+   {
+    "top_m": 106.11,
+    "bottom_m": 188.33,
+    "rho_ohmm": 9.87
+   },
+   {
+    "top_m": 188.33,
+    "bottom_m": null,
+    "rho_ohmm": 0.746
+   }
+  ],
+  "depth_max_m": 282.0,
+  "provenance": {
+   "document": "main",
+   "pages": [
+    21
+   ],
+   "table": "PROTEM inversion printout HS507",
+   "method": "ocr",
+   "tool": "tesseract 5 psm 6 + geosigma.extract.goldman_tdem",
+   "extracted_on": "2026-10-13",
+   "notes": null
+  },
+  "notes": "Loop 100x100 m; fitting error 3.253%. Last layer is the half-space."
+ },
+ {
+  "survey": "goldman-2000-tdem-coastal",
+  "site": "HS507",
+  "method": "TEM",
+  "level": "L3",
+  "measured_on": "1999-11-23",
+  "confidence": "A",
+  "status": "draft",
+  "id": "goldman2000-HS507-seawater",
+  "representation": "interface_depth",
+  "interface_depth_m": 68.02,
+  "criterion": "rho < 3 ohm.m (seawater-saturated)",
+  "provenance": {
+   "document": "main",
+   "pages": [
+    21
+   ],
+   "table": "PROTEM inversion printout HS507",
+   "method": "manual",
+   "tool": "derived from the layered model",
+   "extracted_on": "2026-10-13",
+   "notes": null
+  },
+  "reinterprets": "goldman2000-HS507-layered"
+ },
+ {
+  "survey": "goldman-2000-tdem-coastal",
+  "site": "HS508",
+  "method": "TEM",
+  "level": "L2",
+  "measured_on": "1999-11-24",
+  "confidence": "A",
+  "status": "draft",
+  "id": "goldman2000-HS508-layered",
+  "representation": "model_1d",
+  "model_type": "layered",
+  "layers": [
+   {
+    "top_m": 0.0,
+    "bottom_m": 52.73,
+    "rho_ohmm": 30.29
+   },
+   {
+    "top_m": 52.73,
+    "bottom_m": 119.48,
+    "rho_ohmm": 1.46
+   },
+   {
+    "top_m": 119.48,
+    "bottom_m": 167.2,
+    "rho_ohmm": 8.57
+   },
+   {
+    "top_m": 167.2,
+    "bottom_m": null,
+    "rho_ohmm": 1.03
+   }
+  ],
+  "depth_max_m": 251.0,
+  "provenance": {
+   "document": "main",
+   "pages": [
+    23
+   ],
+   "table": "PROTEM inversion printout HS508",
+   "method": "ocr",
+   "tool": "tesseract 5 psm 6 + geosigma.extract.goldman_tdem",
+   "extracted_on": "2026-10-13",
+   "notes": null
+  },
+  "notes": "Loop 100x100 m; fitting error 2.573%. Last layer is the half-space."
+ },
+ {
+  "survey": "goldman-2000-tdem-coastal",
+  "site": "HS508",
+  "method": "TEM",
+  "level": "L3",
+  "measured_on": "1999-11-24",
+  "confidence": "A",
+  "status": "draft",
+  "id": "goldman2000-HS508-seawater",
+  "representation": "interface_depth",
+  "interface_depth_m": 52.73,
+  "criterion": "rho < 3 ohm.m (seawater-saturated)",
+  "provenance": {
+   "document": "main",
+   "pages": [
+    23
+   ],
+   "table": "PROTEM inversion printout HS508",
+   "method": "manual",
+   "tool": "derived from the layered model",
+   "extracted_on": "2026-10-13",
+   "notes": null
+  },
+  "reinterprets": "goldman2000-HS508-layered"
+ },
+ {
+  "survey": "goldman-2000-tdem-coastal",
+  "site": "HS509",
+  "method": "TEM",
+  "level": "L2",
+  "measured_on": "1999-11-24",
+  "confidence": "A",
+  "status": "draft",
+  "id": "goldman2000-HS509-layered",
+  "representation": "model_1d",
+  "model_type": "layered",
+  "layers": [
+   {
+    "top_m": 0.0,
+    "bottom_m": 15.75,
+    "rho_ohmm": 39.2
+   },
+   {
+    "top_m": 15.75,
+    "bottom_m": 69.66,
+    "rho_ohmm": 272.7
+   },
+   {
+    "top_m": 69.66,
+    "bottom_m": 120.33,
+    "rho_ohmm": 1.9
+   },
+   {
+    "top_m": 120.33,
+    "bottom_m": 173.55,
+    "rho_ohmm": 40.44
+   },
+   {
+    "top_m": 173.55,
+    "bottom_m": null,
+    "rho_ohmm": 1.52
+   }
+  ],
+  "depth_max_m": 260.0,
+  "provenance": {
+   "document": "main",
+   "pages": [
+    25
+   ],
+   "table": "PROTEM inversion printout HS509",
+   "method": "ocr",
+   "tool": "tesseract 5 psm 6 + geosigma.extract.goldman_tdem",
+   "extracted_on": "2026-10-13",
+   "notes": null
+  },
+  "notes": "Loop 100x100 m; fitting error 3.661%. Last layer is the half-space."
+ },
+ {
+  "survey": "goldman-2000-tdem-coastal",
+  "site": "HS509",
+  "method": "TEM",
+  "level": "L3",
+  "measured_on": "1999-11-24",
+  "confidence": "A",
+  "status": "draft",
+  "id": "goldman2000-HS509-seawater",
+  "representation": "interface_depth",
+  "interface_depth_m": 69.66,
+  "criterion": "rho < 3 ohm.m (seawater-saturated)",
+  "provenance": {
+   "document": "main",
+   "pages": [
+    25
+   ],
+   "table": "PROTEM inversion printout HS509",
+   "method": "manual",
+   "tool": "derived from the layered model",
+   "extracted_on": "2026-10-13",
+   "notes": null
+  },
+  "reinterprets": "goldman2000-HS509-layered"
+ },
+ {
+  "survey": "goldman-2000-tdem-coastal",
+  "site": "HS510",
+  "method": "TEM",
+  "level": "L2",
+  "measured_on": "1999-11-24",
+  "confidence": "A",
+  "status": "draft",
+  "id": "goldman2000-HS510-layered",
+  "representation": "model_1d",
+  "model_type": "layered",
+  "layers": [
+   {
+    "top_m": 0.0,
+    "bottom_m": 14.63,
+    "rho_ohmm": 6.23
+   },
+   {
+    "top_m": 14.63,
+    "bottom_m": 44.59,
+    "rho_ohmm": 94.73
+   },
+   {
+    "top_m": 44.59,
+    "bottom_m": 68.98,
+    "rho_ohmm": 3.92
+   },
+   {
+    "top_m": 68.98,
+    "bottom_m": 123.73,
+    "rho_ohmm": 22.28
+   },
+   {
+    "top_m": 123.73,
+    "bottom_m": null,
+    "rho_ohmm": 3.64
+   }
+  ],
+  "depth_max_m": 186.0,
+  "provenance": {
+   "document": "main",
+   "pages": [
+    27
+   ],
+   "table": "PROTEM inversion printout HS510",
+   "method": "ocr",
+   "tool": "tesseract 5 psm 6 + geosigma.extract.goldman_tdem",
+   "extracted_on": "2026-10-13",
+   "notes": null
+  },
+  "notes": "Loop 100x100 m; fitting error 2.728%. Last layer is the half-space."
+ },
+ {
+  "survey": "goldman-2000-tdem-coastal",
+  "site": "HS511",
+  "method": "TEM",
+  "level": "L2",
+  "measured_on": "1999-11-24",
+  "confidence": "A",
+  "status": "draft",
+  "id": "goldman2000-HS511-layered",
+  "representation": "model_1d",
+  "model_type": "layered",
+  "layers": [
+   {
+    "top_m": 0.0,
+    "bottom_m": 25.87,
+    "rho_ohmm": 62.7
+   },
+   {
+    "top_m": 25.87,
+    "bottom_m": 46.59,
+    "rho_ohmm": 8.7
+   },
+   {
+    "top_m": 46.59,
+    "bottom_m": 88.66,
+    "rho_ohmm": 0.347
+   },
+   {
+    "top_m": 88.66,
+    "bottom_m": null,
+    "rho_ohmm": 646.1
+   }
+  ],
+  "depth_max_m": 133.0,
+  "provenance": {
+   "document": "main",
+   "pages": [
+    29
+   ],
+   "table": "PROTEM inversion printout HS511",
+   "method": "ocr",
+   "tool": "tesseract 5 psm 6 + geosigma.extract.goldman_tdem",
+   "extracted_on": "2026-10-13",
+   "notes": null
+  },
+  "notes": "Loop 100x100 m; fitting error 8.369%. Last layer is the half-space."
+ },
+ {
+  "survey": "goldman-2000-tdem-coastal",
+  "site": "HS511",
+  "method": "TEM",
+  "level": "L3",
+  "measured_on": "1999-11-24",
+  "confidence": "A",
+  "status": "draft",
+  "id": "goldman2000-HS511-seawater",
+  "representation": "interface_depth",
+  "interface_depth_m": 46.59,
+  "criterion": "rho < 3 ohm.m (seawater-saturated)",
+  "provenance": {
+   "document": "main",
+   "pages": [
+    29
+   ],
+   "table": "PROTEM inversion printout HS511",
+   "method": "manual",
+   "tool": "derived from the layered model",
+   "extracted_on": "2026-10-13",
+   "notes": null
+  },
+  "reinterprets": "goldman2000-HS511-layered"
+ },
+ {
+  "survey": "goldman-2000-tdem-coastal",
+  "site": "HS512",
+  "method": "TEM",
+  "level": "L2",
+  "measured_on": "1999-12-02",
+  "confidence": "A",
+  "status": "draft",
+  "id": "goldman2000-HS512-layered",
+  "representation": "model_1d",
+  "model_type": "layered",
+  "layers": [
+   {
+    "top_m": 0.0,
+    "bottom_m": 72.73,
+    "rho_ohmm": 42.19
+   },
+   {
+    "top_m": 72.73,
+    "bottom_m": 92.05,
+    "rho_ohmm": 5.31
+   },
+   {
+    "top_m": 92.05,
+    "bottom_m": 111.19,
+    "rho_ohmm": 1.57
+   },
+   {
+    "top_m": 111.19,
+    "bottom_m": 183.52,
+    "rho_ohmm": 39.14
+   },
+   {
+    "top_m": 183.52,
+    "bottom_m": null,
+    "rho_ohmm": 1.56
+   }
+  ],
+  "depth_max_m": 275.0,
+  "provenance": {
+   "document": "main",
+   "pages": [
+    31
+   ],
+   "table": "PROTEM inversion printout HS512",
+   "method": "ocr",
+   "tool": "tesseract 5 psm 6 + geosigma.extract.goldman_tdem",
+   "extracted_on": "2026-10-13",
+   "notes": null
+  },
+  "notes": "Loop 100x100 m; fitting error 2.269%. Last layer is the half-space."
+ },
+ {
+  "survey": "goldman-2000-tdem-coastal",
+  "site": "HS512",
+  "method": "TEM",
+  "level": "L3",
+  "measured_on": "1999-12-02",
+  "confidence": "A",
+  "status": "draft",
+  "id": "goldman2000-HS512-seawater",
+  "representation": "interface_depth",
+  "interface_depth_m": 92.05,
+  "criterion": "rho < 3 ohm.m (seawater-saturated)",
+  "provenance": {
+   "document": "main",
+   "pages": [
+    31
+   ],
+   "table": "PROTEM inversion printout HS512",
+   "method": "manual",
+   "tool": "derived from the layered model",
+   "extracted_on": "2026-10-13",
+   "notes": null
+  },
+  "reinterprets": "goldman2000-HS512-layered"
+ },
+ {
+  "survey": "goldman-2000-tdem-coastal",
+  "site": "HS513",
+  "method": "TEM",
+  "level": "L2",
+  "measured_on": "1999-11-25",
+  "confidence": "A",
+  "status": "draft",
+  "id": "goldman2000-HS513-layered",
+  "representation": "model_1d",
+  "model_type": "layered",
+  "layers": [
+   {
+    "top_m": 0.0,
+    "bottom_m": 50.15,
+    "rho_ohmm": 89.23
+   },
+   {
+    "top_m": 50.15,
+    "bottom_m": 73.24,
+    "rho_ohmm": 16.49
+   },
+   {
+    "top_m": 73.24,
+    "bottom_m": 94.82,
+    "rho_ohmm": 1.92
+   },
+   {
+    "top_m": 94.82,
+    "bottom_m": 131.26,
+    "rho_ohmm": 1.13
+   },
+   {
+    "top_m": 131.26,
+    "bottom_m": 179.54,
+    "rho_ohmm": 5.27
+   },
+   {
+    "top_m": 179.54,
+    "bottom_m": null,
+    "rho_ohmm": 1.96
+   }
+  ],
+  "depth_max_m": 269.0,
+  "provenance": {
+   "document": "main",
+   "pages": [
+    33
+   ],
+   "table": "PROTEM inversion printout HS513",
+   "method": "ocr",
+   "tool": "tesseract 5 psm 6 + geosigma.extract.goldman_tdem",
+   "extracted_on": "2026-10-13",
+   "notes": null
+  },
+  "notes": "Loop 100x100 m; fitting error 4.902%. Last layer is the half-space."
+ },
+ {
+  "survey": "goldman-2000-tdem-coastal",
+  "site": "HS513",
+  "method": "TEM",
+  "level": "L3",
+  "measured_on": "1999-11-25",
+  "confidence": "A",
+  "status": "draft",
+  "id": "goldman2000-HS513-seawater",
+  "representation": "interface_depth",
+  "interface_depth_m": 73.24,
+  "criterion": "rho < 3 ohm.m (seawater-saturated)",
+  "provenance": {
+   "document": "main",
+   "pages": [
+    33
+   ],
+   "table": "PROTEM inversion printout HS513",
+   "method": "manual",
+   "tool": "derived from the layered model",
+   "extracted_on": "2026-10-13",
+   "notes": null
+  },
+  "reinterprets": "goldman2000-HS513-layered"
+ },
+ {
+  "survey": "goldman-2000-tdem-coastal",
+  "site": "HS514",
+  "method": "TEM",
+  "level": "L2",
+  "measured_on": "1999-11-25",
+  "confidence": "A",
+  "status": "draft",
+  "id": "goldman2000-HS514-layered",
+  "representation": "model_1d",
+  "model_type": "layered",
+  "layers": [
+   {
+    "top_m": 0.0,
+    "bottom_m": 7.37,
+    "rho_ohmm": 7.08
+   },
+   {
+    "top_m": 7.37,
+    "bottom_m": 48.01,
+    "rho_ohmm": 114.7
+   },
+   {
+    "top_m": 48.01,
+    "bottom_m": 66.84,
+    "rho_ohmm": 12.0
+   },
+   {
+    "top_m": 66.84,
+    "bottom_m": 90.87,
+    "rho_ohmm": 1.49
+   },
+   {
+    "top_m": 90.87,
+    "bottom_m": 169.47,
+    "rho_ohmm": 11.36
+   },
+   {
+    "top_m": 169.47,
+    "bottom_m": null,
+    "rho_ohmm": 2.13
+   }
+  ],
+  "depth_max_m": 254.0,
+  "provenance": {
+   "document": "main",
+   "pages": [
+    35
+   ],
+   "table": "PROTEM inversion printout HS514",
+   "method": "ocr",
+   "tool": "tesseract 5 psm 6 + geosigma.extract.goldman_tdem",
+   "extracted_on": "2026-10-13",
+   "notes": null
+  },
+  "notes": "Loop 100x100 m; fitting error 6.189%. Last layer is the half-space."
+ },
+ {
+  "survey": "goldman-2000-tdem-coastal",
+  "site": "HS514",
+  "method": "TEM",
+  "level": "L3",
+  "measured_on": "1999-11-25",
+  "confidence": "A",
+  "status": "draft",
+  "id": "goldman2000-HS514-seawater",
+  "representation": "interface_depth",
+  "interface_depth_m": 66.84,
+  "criterion": "rho < 3 ohm.m (seawater-saturated)",
+  "provenance": {
+   "document": "main",
+   "pages": [
+    35
+   ],
+   "table": "PROTEM inversion printout HS514",
+   "method": "manual",
+   "tool": "derived from the layered model",
+   "extracted_on": "2026-10-13",
+   "notes": null
+  },
+  "reinterprets": "goldman2000-HS514-layered"
+ },
+ {
+  "survey": "goldman-2000-tdem-coastal",
+  "site": "HS515",
+  "method": "TEM",
+  "level": "L2",
+  "measured_on": "1999-12-01",
+  "confidence": "A",
+  "status": "draft",
+  "id": "goldman2000-HS515-layered",
+  "representation": "model_1d",
+  "model_type": "layered",
+  "layers": [
+   {
+    "top_m": 0.0,
+    "bottom_m": 48.23,
+    "rho_ohmm": 311.4
+   },
+   {
+    "top_m": 48.23,
+    "bottom_m": 69.26,
+    "rho_ohmm": 10.01
+   },
+   {
+    "top_m": 69.26,
+    "bottom_m": 91.25,
+    "rho_ohmm": 2.54
+   },
+   {
+    "top_m": 91.25,
+    "bottom_m": 159.48,
+    "rho_ohmm": 11.36
+   },
+   {
+    "top_m": 159.48,
+    "bottom_m": null,
+    "rho_ohmm": 1.95
+   }
+  ],
+  "depth_max_m": 239.0,
+  "provenance": {
+   "document": "main",
+   "pages": [
+    37
+   ],
+   "table": "PROTEM inversion printout HS515",
+   "method": "ocr",
+   "tool": "tesseract 5 psm 6 + geosigma.extract.goldman_tdem",
+   "extracted_on": "2026-10-13",
+   "notes": null
+  },
+  "notes": "Loop 100x100 m; fitting error 1.072%. Last layer is the half-space."
+ },
+ {
+  "survey": "goldman-2000-tdem-coastal",
+  "site": "HS515",
+  "method": "TEM",
+  "level": "L3",
+  "measured_on": "1999-12-01",
+  "confidence": "A",
+  "status": "draft",
+  "id": "goldman2000-HS515-seawater",
+  "representation": "interface_depth",
+  "interface_depth_m": 69.26,
+  "criterion": "rho < 3 ohm.m (seawater-saturated)",
+  "provenance": {
+   "document": "main",
+   "pages": [
+    37
+   ],
+   "table": "PROTEM inversion printout HS515",
+   "method": "manual",
+   "tool": "derived from the layered model",
+   "extracted_on": "2026-10-13",
+   "notes": null
+  },
+  "reinterprets": "goldman2000-HS515-layered"
+ },
+ {
+  "survey": "goldman-2000-tdem-coastal",
+  "site": "HS516",
+  "method": "TEM",
+  "level": "L2",
+  "measured_on": "1999-12-01",
+  "confidence": "A",
+  "status": "draft",
+  "id": "goldman2000-HS516-layered",
+  "representation": "model_1d",
+  "model_type": "layered",
+  "layers": [
+   {
+    "top_m": 0.0,
+    "bottom_m": 9.98,
+    "rho_ohmm": 95.04
+   },
+   {
+    "top_m": 9.98,
+    "bottom_m": 56.36,
+    "rho_ohmm": 29.07
+   },
+   {
+    "top_m": 56.36,
+    "bottom_m": 156.46,
+    "rho_ohmm": 3.18
+   },
+   {
+    "top_m": 156.46,
+    "bottom_m": null,
+    "rho_ohmm": 1.05
+   }
+  ],
+  "depth_max_m": 235.0,
+  "provenance": {
+   "document": "main",
+   "pages": [
+    39
+   ],
+   "table": "PROTEM inversion printout HS516",
+   "method": "ocr",
+   "tool": "tesseract 5 psm 6 + geosigma.extract.goldman_tdem",
+   "extracted_on": "2026-10-13",
+   "notes": null
+  },
+  "notes": "Loop 100x100 m; fitting error 4.188%. Last layer is the half-space."
+ },
+ {
+  "survey": "goldman-2000-tdem-coastal",
+  "site": "HS516",
+  "method": "TEM",
+  "level": "L3",
+  "measured_on": "1999-12-01",
+  "confidence": "A",
+  "status": "draft",
+  "id": "goldman2000-HS516-seawater",
+  "representation": "interface_depth",
+  "interface_depth_m": 156.46,
+  "criterion": "rho < 3 ohm.m (seawater-saturated)",
+  "provenance": {
+   "document": "main",
+   "pages": [
+    39
+   ],
+   "table": "PROTEM inversion printout HS516",
+   "method": "manual",
+   "tool": "derived from the layered model",
+   "extracted_on": "2026-10-13",
+   "notes": null
+  },
+  "reinterprets": "goldman2000-HS516-layered"
+ },
+ {
+  "survey": "goldman-2000-tdem-coastal",
+  "site": "HS517",
+  "method": "TEM",
+  "level": "L2",
+  "measured_on": "1999-12-01",
+  "confidence": "A",
+  "status": "draft",
+  "id": "goldman2000-HS517-layered",
+  "representation": "model_1d",
+  "model_type": "layered",
+  "layers": [
+   {
+    "top_m": 0.0,
+    "bottom_m": 15.18,
+    "rho_ohmm": 283.3
+   },
+   {
+    "top_m": 15.18,
+    "bottom_m": 67.92,
+    "rho_ohmm": 35.0
+   },
+   {
+    "top_m": 67.92,
+    "bottom_m": 81.25,
+    "rho_ohmm": 2.86
+   },
+   {
+    "top_m": 81.25,
+    "bottom_m": 143.41,
+    "rho_ohmm": 90.84
+   },
+   {
+    "top_m": 143.41,
+    "bottom_m": null,
+    "rho_ohmm": 1.76
+   }
+  ],
+  "depth_max_m": 215.0,
+  "provenance": {
+   "document": "main",
+   "pages": [
+    41
+   ],
+   "table": "PROTEM inversion printout HS517",
+   "method": "ocr",
+   "tool": "tesseract 5 psm 6 + geosigma.extract.goldman_tdem",
+   "extracted_on": "2026-10-13",
+   "notes": null
+  },
+  "notes": "Loop 100x100 m; fitting error 4.364%. Last layer is the half-space."
+ },
+ {
+  "survey": "goldman-2000-tdem-coastal",
+  "site": "HS517",
+  "method": "TEM",
+  "level": "L3",
+  "measured_on": "1999-12-01",
+  "confidence": "A",
+  "status": "draft",
+  "id": "goldman2000-HS517-seawater",
+  "representation": "interface_depth",
+  "interface_depth_m": 67.92,
+  "criterion": "rho < 3 ohm.m (seawater-saturated)",
+  "provenance": {
+   "document": "main",
+   "pages": [
+    41
+   ],
+   "table": "PROTEM inversion printout HS517",
+   "method": "manual",
+   "tool": "derived from the layered model",
+   "extracted_on": "2026-10-13",
+   "notes": null
+  },
+  "reinterprets": "goldman2000-HS517-layered"
+ },
+ {
+  "survey": "goldman-2000-tdem-coastal",
+  "site": "HS519",
+  "method": "TEM",
+  "level": "L2",
+  "measured_on": "1999-12-01",
+  "confidence": "A",
+  "status": "draft",
+  "id": "goldman2000-HS519-layered",
+  "representation": "model_1d",
+  "model_type": "layered",
+  "layers": [
+   {
+    "top_m": 0.0,
+    "bottom_m": 1.27,
+    "rho_ohmm": 17.13
+   },
+   {
+    "top_m": 1.27,
+    "bottom_m": 38.76,
+    "rho_ohmm": 39.09
+   },
+   {
+    "top_m": 38.76,
+    "bottom_m": 53.8,
+    "rho_ohmm": 4.56
+   },
+   {
+    "top_m": 53.8,
+    "bottom_m": 90.3,
+    "rho_ohmm": 1.68
+   },
+   {
+    "top_m": 90.3,
+    "bottom_m": 130.96,
+    "rho_ohmm": 18.4
+   },
+   {
+    "top_m": 130.96,
+    "bottom_m": null,
+    "rho_ohmm": 1.13
+   }
+  ],
+  "depth_max_m": 196.0,
+  "provenance": {
+   "document": "main",
+   "pages": [
+    45
+   ],
+   "table": "PROTEM inversion printout HS519",
+   "method": "ocr",
+   "tool": "tesseract 5 psm 6 + geosigma.extract.goldman_tdem",
+   "extracted_on": "2026-10-13",
+   "notes": null
+  },
+  "notes": "Loop 100x100 m; fitting error 2.772%. Last layer is the half-space."
+ },
+ {
+  "survey": "goldman-2000-tdem-coastal",
+  "site": "HS519",
+  "method": "TEM",
+  "level": "L3",
+  "measured_on": "1999-12-01",
+  "confidence": "A",
+  "status": "draft",
+  "id": "goldman2000-HS519-seawater",
+  "representation": "interface_depth",
+  "interface_depth_m": 53.8,
+  "criterion": "rho < 3 ohm.m (seawater-saturated)",
+  "provenance": {
+   "document": "main",
+   "pages": [
+    45
+   ],
+   "table": "PROTEM inversion printout HS519",
+   "method": "manual",
+   "tool": "derived from the layered model",
+   "extracted_on": "2026-10-13",
+   "notes": null
+  },
+  "reinterprets": "goldman2000-HS519-layered"
+ },
+ {
+  "survey": "goldman-2000-tdem-coastal",
+  "site": "HS520",
+  "method": "TEM",
+  "level": "L2",
+  "measured_on": "1999-12-01",
+  "confidence": "A",
+  "status": "draft",
+  "id": "goldman2000-HS520-layered",
+  "representation": "model_1d",
+  "model_type": "layered",
+  "layers": [
+   {
+    "top_m": 0.0,
+    "bottom_m": 22.51,
+    "rho_ohmm": 96.59
+   },
+   {
+    "top_m": 22.51,
+    "bottom_m": 63.8,
+    "rho_ohmm": 40.14
+   },
+   {
+    "top_m": 63.8,
+    "bottom_m": 70.76,
+    "rho_ohmm": 1.19
+   },
+   {
+    "top_m": 70.76,
+    "bottom_m": 152.39,
+    "rho_ohmm": 7.69
+   },
+   {
+    "top_m": 152.39,
+    "bottom_m": null,
+    "rho_ohmm": 0.749
+   }
+  ],
+  "depth_max_m": 229.0,
+  "provenance": {
+   "document": "main",
+   "pages": [
+    47
+   ],
+   "table": "PROTEM inversion printout HS520",
+   "method": "ocr",
+   "tool": "tesseract 5 psm 6 + geosigma.extract.goldman_tdem",
+   "extracted_on": "2026-10-13",
+   "notes": null
+  },
+  "notes": "Loop 100x100 m; fitting error 3.62%. Last layer is the half-space."
+ },
+ {
+  "survey": "goldman-2000-tdem-coastal",
+  "site": "HS520",
+  "method": "TEM",
+  "level": "L3",
+  "measured_on": "1999-12-01",
+  "confidence": "A",
+  "status": "draft",
+  "id": "goldman2000-HS520-seawater",
+  "representation": "interface_depth",
+  "interface_depth_m": 63.8,
+  "criterion": "rho < 3 ohm.m (seawater-saturated)",
+  "provenance": {
+   "document": "main",
+   "pages": [
+    47
+   ],
+   "table": "PROTEM inversion printout HS520",
+   "method": "manual",
+   "tool": "derived from the layered model",
+   "extracted_on": "2026-10-13",
+   "notes": null
+  },
+  "reinterprets": "goldman2000-HS520-layered"
+ },
+ {
+  "survey": "goldman-2000-tdem-coastal",
+  "site": "HS521",
+  "method": "TEM",
+  "level": "L2",
+  "measured_on": "1999-12-02",
+  "confidence": "A",
+  "status": "draft",
+  "id": "goldman2000-HS521-layered",
+  "representation": "model_1d",
+  "model_type": "layered",
+  "layers": [
+   {
+    "top_m": 0.0,
+    "bottom_m": 3.71,
+    "rho_ohmm": 5.69
+   },
+   {
+    "top_m": 3.71,
+    "bottom_m": 9.47,
+    "rho_ohmm": 42.99
+   },
+   {
+    "top_m": 9.47,
+    "bottom_m": 17.95,
+    "rho_ohmm": 6.07
+   },
+   {
+    "top_m": 17.95,
+    "bottom_m": 31.39,
+    "rho_ohmm": 32.48
+   },
+   {
+    "top_m": 31.39,
+    "bottom_m": 53.77,
+    "rho_ohmm": 1.91
+   },
+   {
+    "top_m": 53.77,
+    "bottom_m": 106.47,
+    "rho_ohmm": 1.36
+   },
+   {
+    "top_m": 106.47,
+    "bottom_m": null,
+    "rho_ohmm": 2.1
+   }
+  ],
+  "depth_max_m": 160.0,
+  "provenance": {
+   "document": "main",
+   "pages": [
+    49
+   ],
+   "table": "PROTEM inversion printout HS521",
+   "method": "ocr",
+   "tool": "tesseract 5 psm 6 + geosigma.extract.goldman_tdem",
+   "extracted_on": "2026-10-13",
+   "notes": null
+  },
+  "notes": "Loop 50x50 m; fitting error 2.739%. Last layer is the half-space."
+ },
+ {
+  "survey": "goldman-2000-tdem-coastal",
+  "site": "HS521",
+  "method": "TEM",
+  "level": "L3",
+  "measured_on": "1999-12-02",
+  "confidence": "A",
+  "status": "draft",
+  "id": "goldman2000-HS521-seawater",
+  "representation": "interface_depth",
+  "interface_depth_m": 31.39,
+  "criterion": "rho < 3 ohm.m (seawater-saturated)",
+  "provenance": {
+   "document": "main",
+   "pages": [
+    49
+   ],
+   "table": "PROTEM inversion printout HS521",
+   "method": "manual",
+   "tool": "derived from the layered model",
+   "extracted_on": "2026-10-13",
+   "notes": null
+  },
+  "reinterprets": "goldman2000-HS521-layered"
+ },
+ {
+  "survey": "goldman-2000-tdem-coastal",
+  "site": "HS522",
+  "method": "TEM",
+  "level": "L2",
+  "measured_on": "1999-12-02",
+  "confidence": "A",
+  "status": "draft",
+  "id": "goldman2000-HS522-layered",
+  "representation": "model_1d",
+  "model_type": "layered",
+  "layers": [
+   {
+    "top_m": 0.0,
+    "bottom_m": 42.68,
+    "rho_ohmm": 55.24
+   },
+   {
+    "top_m": 42.68,
+    "bottom_m": 56.69,
+    "rho_ohmm": 25.8
+   },
+   {
+    "top_m": 56.69,
+    "bottom_m": null,
+    "rho_ohmm": 3.12
+   }
+  ],
+  "depth_max_m": 85.0,
+  "provenance": {
+   "document": "main",
+   "pages": [
+    51
+   ],
+   "table": "PROTEM inversion printout HS522",
+   "method": "ocr",
+   "tool": "tesseract 5 psm 6 + geosigma.extract.goldman_tdem",
+   "extracted_on": "2026-10-13",
+   "notes": null
+  },
+  "notes": "Loop 100x100 m; fitting error 3.869%. Last layer is the half-space."
+ },
+ {
+  "survey": "goldman-2000-tdem-coastal",
+  "site": "HS523",
+  "method": "TEM",
+  "level": "L2",
+  "measured_on": "1999-12-02",
+  "confidence": "A",
+  "status": "draft",
+  "id": "goldman2000-HS523-layered",
+  "representation": "model_1d",
+  "model_type": "layered",
+  "layers": [
+   {
+    "top_m": 0.0,
+    "bottom_m": 33.4,
+    "rho_ohmm": 22.21
+   },
+   {
+    "top_m": 33.4,
+    "bottom_m": 159.2,
+    "rho_ohmm": 6.69
+   },
+   {
+    "top_m": 159.2,
+    "bottom_m": null,
+    "rho_ohmm": 2.26
+   }
+  ],
+  "depth_max_m": 239.0,
+  "provenance": {
+   "document": "main",
+   "pages": [
+    53
+   ],
+   "table": "PROTEM inversion printout HS523",
+   "method": "ocr",
+   "tool": "tesseract 5 psm 6 + geosigma.extract.goldman_tdem",
+   "extracted_on": "2026-10-13",
+   "notes": null
+  },
+  "notes": "Loop 100x100 m; fitting error 3.092%. Last layer is the half-space."
+ },
+ {
+  "survey": "goldman-2000-tdem-coastal",
+  "site": "HS523",
+  "method": "TEM",
+  "level": "L3",
+  "measured_on": "1999-12-02",
+  "confidence": "A",
+  "status": "draft",
+  "id": "goldman2000-HS523-seawater",
+  "representation": "interface_depth",
+  "interface_depth_m": 159.2,
+  "criterion": "rho < 3 ohm.m (seawater-saturated)",
+  "provenance": {
+   "document": "main",
+   "pages": [
+    53
+   ],
+   "table": "PROTEM inversion printout HS523",
+   "method": "manual",
+   "tool": "derived from the layered model",
+   "extracted_on": "2026-10-13",
+   "notes": null
+  },
+  "reinterprets": "goldman2000-HS523-layered"
+ },
+ {
+  "survey": "goldman-2000-tdem-coastal",
+  "site": "HS524",
+  "method": "TEM",
+  "level": "L2",
+  "measured_on": "1999-12-02",
+  "confidence": "A",
+  "status": "draft",
+  "id": "goldman2000-HS524-layered",
+  "representation": "model_1d",
+  "model_type": "layered",
+  "layers": [
+   {
+    "top_m": 0.0,
+    "bottom_m": 3.01,
+    "rho_ohmm": 7.64
+   },
+   {
+    "top_m": 3.01,
+    "bottom_m": 49.44,
+    "rho_ohmm": 24.6
+   },
+   {
+    "top_m": 49.44,
+    "bottom_m": null,
+    "rho_ohmm": 2.95
+   }
+  ],
+  "depth_max_m": 74.0,
+  "provenance": {
+   "document": "main",
+   "pages": [
+    55
+   ],
+   "table": "PROTEM inversion printout HS524",
+   "method": "ocr",
+   "tool": "tesseract 5 psm 6 + geosigma.extract.goldman_tdem",
+   "extracted_on": "2026-10-13",
+   "notes": null
+  },
+  "notes": "Loop 50x50 m; fitting error 2.93%. Last layer is the half-space."
+ },
+ {
+  "survey": "goldman-2000-tdem-coastal",
+  "site": "HS524",
+  "method": "TEM",
+  "level": "L3",
+  "measured_on": "1999-12-02",
+  "confidence": "A",
+  "status": "draft",
+  "id": "goldman2000-HS524-seawater",
+  "representation": "interface_depth",
+  "interface_depth_m": 49.44,
+  "criterion": "rho < 3 ohm.m (seawater-saturated)",
+  "provenance": {
+   "document": "main",
+   "pages": [
+    55
+   ],
+   "table": "PROTEM inversion printout HS524",
+   "method": "manual",
+   "tool": "derived from the layered model",
+   "extracted_on": "2026-10-13",
+   "notes": null
+  },
+  "reinterprets": "goldman2000-HS524-layered"
+ },
+ {
+  "survey": "goldman-2000-tdem-coastal",
+  "site": "HS525",
+  "method": "TEM",
+  "level": "L2",
+  "measured_on": "1999-12-06",
+  "confidence": "A",
+  "status": "draft",
+  "id": "goldman2000-HS525-layered",
+  "representation": "model_1d",
+  "model_type": "layered",
+  "layers": [
+   {
+    "top_m": 0.0,
+    "bottom_m": 3.92,
+    "rho_ohmm": 11.7
+   },
+   {
+    "top_m": 3.92,
+    "bottom_m": 18.49,
+    "rho_ohmm": 20.43
+   },
+   {
+    "top_m": 18.49,
+    "bottom_m": 26.6,
+    "rho_ohmm": 2.33
+   },
+   {
+    "top_m": 26.6,
+    "bottom_m": 71.26,
+    "rho_ohmm": 18.47
+   },
+   {
+    "top_m": 71.26,
+    "bottom_m": 144.1,
+    "rho_ohmm": 12.55
+   },
+   {
+    "top_m": 144.1,
+    "bottom_m": null,
+    "rho_ohmm": 20.0
+   }
+  ],
+  "depth_max_m": 216.0,
+  "provenance": {
+   "document": "main",
+   "pages": [
+    57
+   ],
+   "table": "PROTEM inversion printout HS525",
+   "method": "ocr",
+   "tool": "tesseract 5 psm 6 + geosigma.extract.goldman_tdem",
+   "extracted_on": "2026-10-13",
+   "notes": null
+  },
+  "notes": "Loop 50x50 m; fitting error 4.091%. Last layer is the half-space."
+ },
+ {
+  "survey": "goldman-2000-tdem-coastal",
+  "site": "HS525",
+  "method": "TEM",
+  "level": "L3",
+  "measured_on": "1999-12-06",
+  "confidence": "A",
+  "status": "draft",
+  "id": "goldman2000-HS525-seawater",
+  "representation": "interface_depth",
+  "interface_depth_m": 18.49,
+  "criterion": "rho < 3 ohm.m (seawater-saturated)",
+  "provenance": {
+   "document": "main",
+   "pages": [
+    57
+   ],
+   "table": "PROTEM inversion printout HS525",
+   "method": "manual",
+   "tool": "derived from the layered model",
+   "extracted_on": "2026-10-13",
+   "notes": null
+  },
+  "reinterprets": "goldman2000-HS525-layered"
+ },
+ {
+  "survey": "goldman-2000-tdem-coastal",
+  "site": "HS526",
+  "method": "TEM",
+  "level": "L2",
+  "measured_on": "1999-12-06",
+  "confidence": "A",
+  "status": "draft",
+  "id": "goldman2000-HS526-layered",
+  "representation": "model_1d",
+  "model_type": "layered",
+  "layers": [
+   {
+    "top_m": 0.0,
+    "bottom_m": 25.1,
+    "rho_ohmm": 4.25
+   },
+   {
+    "top_m": 25.1,
+    "bottom_m": 49.64,
+    "rho_ohmm": 2.76
+   },
+   {
+    "top_m": 49.64,
+    "bottom_m": 114.18,
+    "rho_ohmm": 1.51
+   },
+   {
+    "top_m": 114.18,
+    "bottom_m": null,
+    "rho_ohmm": 10.16
+   }
+  ],
+  "depth_max_m": 171.0,
+  "provenance": {
+   "document": "main",
+   "pages": [
+    59
+   ],
+   "table": "PROTEM inversion printout HS526",
+   "method": "ocr",
+   "tool": "tesseract 5 psm 6 + geosigma.extract.goldman_tdem",
+   "extracted_on": "2026-10-13",
+   "notes": null
+  },
+  "notes": "Loop 100x100 m; fitting error 1.542%. Last layer is the half-space."
+ },
+ {
+  "survey": "goldman-2000-tdem-coastal",
+  "site": "HS526",
+  "method": "TEM",
+  "level": "L3",
+  "measured_on": "1999-12-06",
+  "confidence": "A",
+  "status": "draft",
+  "id": "goldman2000-HS526-seawater",
+  "representation": "interface_depth",
+  "interface_depth_m": 25.1,
+  "criterion": "rho < 3 ohm.m (seawater-saturated)",
+  "provenance": {
+   "document": "main",
+   "pages": [
+    59
+   ],
+   "table": "PROTEM inversion printout HS526",
+   "method": "manual",
+   "tool": "derived from the layered model",
+   "extracted_on": "2026-10-13",
+   "notes": null
+  },
+  "reinterprets": "goldman2000-HS526-layered"
+ },
+ {
+  "survey": "goldman-2000-tdem-coastal",
+  "site": "HS527",
+  "method": "TEM",
+  "level": "L2",
+  "measured_on": "1999-12-06",
+  "confidence": "A",
+  "status": "draft",
+  "id": "goldman2000-HS527-layered",
+  "representation": "model_1d",
+  "model_type": "layered",
+  "layers": [
+   {
+    "top_m": 0.0,
+    "bottom_m": 1.35,
+    "rho_ohmm": 13.11
+   },
+   {
+    "top_m": 1.35,
+    "bottom_m": 24.27,
+    "rho_ohmm": 14.96
+   },
+   {
+    "top_m": 24.27,
+    "bottom_m": 66.17,
+    "rho_ohmm": 3.54
+   },
+   {
+    "top_m": 66.17,
+    "bottom_m": 181.67,
+    "rho_ohmm": 5.9
+   },
+   {
+    "top_m": 181.67,
+    "bottom_m": null,
+    "rho_ohmm": 18.88
+   }
+  ],
+  "depth_max_m": 273.0,
+  "provenance": {
+   "document": "main",
+   "pages": [
+    61
+   ],
+   "table": "PROTEM inversion printout HS527",
+   "method": "ocr",
+   "tool": "tesseract 5 psm 6 + geosigma.extract.goldman_tdem",
+   "extracted_on": "2026-10-13",
+   "notes": null
+  },
+  "notes": "Loop 100x100 m; fitting error 3.103%. Last layer is the half-space."
+ },
+ {
+  "survey": "goldman-2000-tdem-coastal",
+  "site": "HS528",
+  "method": "TEM",
+  "level": "L2",
+  "measured_on": "1999-12-06",
+  "confidence": "A",
+  "status": "draft",
+  "id": "goldman2000-HS528-layered",
+  "representation": "model_1d",
+  "model_type": "layered",
+  "layers": [
+   {
+    "top_m": 0.0,
+    "bottom_m": 4.55,
+    "rho_ohmm": 3.02
+   },
+   {
+    "top_m": 4.55,
+    "bottom_m": 22.75,
+    "rho_ohmm": 105.4
+   },
+   {
+    "top_m": 22.75,
+    "bottom_m": 61.61,
+    "rho_ohmm": 3.3
+   },
+   {
+    "top_m": 61.61,
+    "bottom_m": 125.19,
+    "rho_ohmm": 17.21
+   },
+   {
+    "top_m": 125.19,
+    "bottom_m": null,
+    "rho_ohmm": 6.67
+   }
+  ],
+  "depth_max_m": 188.0,
+  "provenance": {
+   "document": "main",
+   "pages": [
+    63
+   ],
+   "table": "PROTEM inversion printout HS528",
+   "method": "ocr",
+   "tool": "tesseract 5 psm 6 + geosigma.extract.goldman_tdem",
+   "extracted_on": "2026-10-13",
+   "notes": null
+  },
+  "notes": "Loop 50x50 m; fitting error 4.134%. Last layer is the half-space."
+ },
+ {
+  "survey": "goldman-2000-tdem-coastal",
+  "site": "HS529",
+  "method": "TEM",
+  "level": "L2",
+  "measured_on": "1999-12-07",
+  "confidence": "A",
+  "status": "draft",
+  "id": "goldman2000-HS529-layered",
+  "representation": "model_1d",
+  "model_type": "layered",
+  "layers": [
+   {
+    "top_m": 0.0,
+    "bottom_m": 5.52,
+    "rho_ohmm": 8.62
+   },
+   {
+    "top_m": 5.52,
+    "bottom_m": 14.49,
+    "rho_ohmm": 100.1
+   },
+   {
+    "top_m": 14.49,
+    "bottom_m": 50.65,
+    "rho_ohmm": 5.26
+   },
+   {
+    "top_m": 50.65,
+    "bottom_m": 84.53,
+    "rho_ohmm": 7.59
+   },
+   {
+    "top_m": 84.53,
+    "bottom_m": null,
+    "rho_ohmm": 5.01
+   }
+  ],
+  "depth_max_m": 127.0,
+  "provenance": {
+   "document": "main",
+   "pages": [
+    65
+   ],
+   "table": "PROTEM inversion printout HS529",
+   "method": "ocr",
+   "tool": "tesseract 5 psm 6 + geosigma.extract.goldman_tdem",
+   "extracted_on": "2026-10-13",
+   "notes": null
+  },
+  "notes": "Loop 50x50 m; fitting error 2.862%. Last layer is the half-space."
+ },
+ {
+  "survey": "goldman-2000-tdem-coastal",
+  "site": "HS530",
+  "method": "TEM",
+  "level": "L2",
+  "measured_on": "1999-12-07",
+  "confidence": "A",
+  "status": "draft",
+  "id": "goldman2000-HS530-layered",
+  "representation": "model_1d",
+  "model_type": "layered",
+  "layers": [
+   {
+    "top_m": 0.0,
+    "bottom_m": 13.34,
+    "rho_ohmm": 4.37
+   },
+   {
+    "top_m": 13.34,
+    "bottom_m": 40.07,
+    "rho_ohmm": 36.21
+   },
+   {
+    "top_m": 40.07,
+    "bottom_m": 51.21,
+    "rho_ohmm": 6.68
+   },
+   {
+    "top_m": 51.21,
+    "bottom_m": 106.19,
+    "rho_ohmm": 2.33
+   },
+   {
+    "top_m": 106.19,
+    "bottom_m": null,
+    "rho_ohmm": 15.57
+   }
+  ],
+  "depth_max_m": 159.0,
+  "provenance": {
+   "document": "main",
+   "pages": [
+    67
+   ],
+   "table": "PROTEM inversion printout HS530",
+   "method": "ocr",
+   "tool": "tesseract 5 psm 6 + geosigma.extract.goldman_tdem",
+   "extracted_on": "2026-10-13",
+   "notes": null
+  },
+  "notes": "Loop 100x100 m; fitting error 4.574%. Last layer is the half-space."
+ },
+ {
+  "survey": "goldman-2000-tdem-coastal",
+  "site": "HS530",
+  "method": "TEM",
+  "level": "L3",
+  "measured_on": "1999-12-07",
+  "confidence": "A",
+  "status": "draft",
+  "id": "goldman2000-HS530-seawater",
+  "representation": "interface_depth",
+  "interface_depth_m": 51.21,
+  "criterion": "rho < 3 ohm.m (seawater-saturated)",
+  "provenance": {
+   "document": "main",
+   "pages": [
+    67
+   ],
+   "table": "PROTEM inversion printout HS530",
+   "method": "manual",
+   "tool": "derived from the layered model",
+   "extracted_on": "2026-10-13",
+   "notes": null
+  },
+  "reinterprets": "goldman2000-HS530-layered"
+ },
+ {
+  "survey": "goldman-2000-tdem-coastal",
+  "site": "HS531",
+  "method": "TEM",
+  "level": "L2",
+  "measured_on": "1999-12-07",
+  "confidence": "A",
+  "status": "draft",
+  "id": "goldman2000-HS531-layered",
+  "representation": "model_1d",
+  "model_type": "layered",
+  "layers": [
+   {
+    "top_m": 0.0,
+    "bottom_m": 5.84,
+    "rho_ohmm": 23.54
+   },
+   {
+    "top_m": 5.84,
+    "bottom_m": 11.58,
+    "rho_ohmm": 1.42
+   },
+   {
+    "top_m": 11.58,
+    "bottom_m": 52.71,
+    "rho_ohmm": 31.93
+   },
+   {
+    "top_m": 52.71,
+    "bottom_m": 163.91,
+    "rho_ohmm": 8.3
+   },
+   {
+    "top_m": 163.91,
+    "bottom_m": null,
+    "rho_ohmm": 2.46
+   }
+  ],
+  "depth_max_m": 246.0,
+  "provenance": {
+   "document": "main",
+   "pages": [
+    69
+   ],
+   "table": "PROTEM inversion printout HS531",
+   "method": "ocr",
+   "tool": "tesseract 5 psm 6 + geosigma.extract.goldman_tdem",
+   "extracted_on": "2026-10-13",
+   "notes": null
+  },
+  "notes": "Loop 100x100 m; fitting error 4.046%. Last layer is the half-space."
+ },
+ {
+  "survey": "goldman-2000-tdem-coastal",
+  "site": "HS531",
+  "method": "TEM",
+  "level": "L3",
+  "measured_on": "1999-12-07",
+  "confidence": "A",
+  "status": "draft",
+  "id": "goldman2000-HS531-seawater",
+  "representation": "interface_depth",
+  "interface_depth_m": 5.84,
+  "criterion": "rho < 3 ohm.m (seawater-saturated)",
+  "provenance": {
+   "document": "main",
+   "pages": [
+    69
+   ],
+   "table": "PROTEM inversion printout HS531",
+   "method": "manual",
+   "tool": "derived from the layered model",
+   "extracted_on": "2026-10-13",
+   "notes": null
+  },
+  "reinterprets": "goldman2000-HS531-layered"
+ },
+ {
+  "survey": "goldman-2000-tdem-coastal",
+  "site": "HS532",
+  "method": "TEM",
+  "level": "L2",
+  "measured_on": "1999-12-07",
+  "confidence": "A",
+  "status": "draft",
+  "id": "goldman2000-HS532-layered",
+  "representation": "model_1d",
+  "model_type": "layered",
+  "layers": [
+   {
+    "top_m": 0.0,
+    "bottom_m": 6.61,
+    "rho_ohmm": 7.98
+   },
+   {
+    "top_m": 6.61,
+    "bottom_m": 14.89,
+    "rho_ohmm": 2.24
+   },
+   {
+    "top_m": 14.89,
+    "bottom_m": 72.68,
+    "rho_ohmm": 7.48
+   },
+   {
+    "top_m": 72.68,
+    "bottom_m": 124.26,
+    "rho_ohmm": 4.55
+   },
+   {
+    "top_m": 124.26,
+    "bottom_m": null,
+    "rho_ohmm": 10.24
+   }
+  ],
+  "depth_max_m": 186.0,
+  "provenance": {
+   "document": "main",
+   "pages": [
+    71
+   ],
+   "table": "PROTEM inversion printout HS532",
+   "method": "ocr",
+   "tool": "tesseract 5 psm 6 + geosigma.extract.goldman_tdem",
+   "extracted_on": "2026-10-13",
+   "notes": null
+  },
+  "notes": "Loop 100x100 m; fitting error 2.609%. Last layer is the half-space."
+ },
+ {
+  "survey": "goldman-2000-tdem-coastal",
+  "site": "HS532",
+  "method": "TEM",
+  "level": "L3",
+  "measured_on": "1999-12-07",
+  "confidence": "A",
+  "status": "draft",
+  "id": "goldman2000-HS532-seawater",
+  "representation": "interface_depth",
+  "interface_depth_m": 6.61,
+  "criterion": "rho < 3 ohm.m (seawater-saturated)",
+  "provenance": {
+   "document": "main",
+   "pages": [
+    71
+   ],
+   "table": "PROTEM inversion printout HS532",
+   "method": "manual",
+   "tool": "derived from the layered model",
+   "extracted_on": "2026-10-13",
+   "notes": null
+  },
+  "reinterprets": "goldman2000-HS532-layered"
+ },
+ {
+  "survey": "goldman-2000-tdem-coastal",
+  "site": "HS533",
+  "method": "TEM",
+  "level": "L2",
+  "measured_on": "1999-12-07",
+  "confidence": "A",
+  "status": "draft",
+  "id": "goldman2000-HS533-layered",
+  "representation": "model_1d",
+  "model_type": "layered",
+  "layers": [
+   {
+    "top_m": 0.0,
+    "bottom_m": 5.84,
+    "rho_ohmm": 4.32
+   },
+   {
+    "top_m": 5.84,
+    "bottom_m": 14.23,
+    "rho_ohmm": 16.42
+   },
+   {
+    "top_m": 14.23,
+    "bottom_m": 29.01,
+    "rho_ohmm": 30.31
+   },
+   {
+    "top_m": 29.01,
+    "bottom_m": 86.77,
+    "rho_ohmm": 3.79
+   },
+   {
+    "top_m": 86.77,
+    "bottom_m": null,
+    "rho_ohmm": 9.88
+   }
+  ],
+  "depth_max_m": 130.0,
+  "provenance": {
+   "document": "main",
+   "pages": [
+    73
+   ],
+   "table": "PROTEM inversion printout HS533",
+   "method": "ocr",
+   "tool": "tesseract 5 psm 6 + geosigma.extract.goldman_tdem",
+   "extracted_on": "2026-10-13",
+   "notes": null
+  },
+  "notes": "Loop 50x50 m; fitting error 2.621%. Last layer is the half-space."
+ },
+ {
+  "survey": "goldman-2000-tdem-coastal",
+  "site": "HS535",
+  "method": "TEM",
+  "level": "L2",
+  "measured_on": "1999-12-08",
+  "confidence": "A",
+  "status": "draft",
+  "id": "goldman2000-HS535-layered",
+  "representation": "model_1d",
+  "model_type": "layered",
+  "layers": [
+   {
+    "top_m": 0.0,
+    "bottom_m": 50.46,
+    "rho_ohmm": 32.74
+   },
+   {
+    "top_m": 50.46,
+    "bottom_m": 83.51,
+    "rho_ohmm": 1.34
+   },
+   {
+    "top_m": 83.51,
+    "bottom_m": 104.06,
+    "rho_ohmm": 6.14
+   },
+   {
+    "top_m": 104.06,
+    "bottom_m": 220.26,
+    "rho_ohmm": 2.22
+   },
+   {
+    "top_m": 220.26,
+    "bottom_m": null,
+    "rho_ohmm": 9.77
+   }
+  ],
+  "depth_max_m": 330.0,
+  "provenance": {
+   "document": "main",
+   "pages": [
+    77
+   ],
+   "table": "PROTEM inversion printout HS535",
+   "method": "ocr",
+   "tool": "tesseract 5 psm 6 + geosigma.extract.goldman_tdem",
+   "extracted_on": "2026-10-13",
+   "notes": null
+  },
+  "notes": "Loop 200x200 m; fitting error 3.903%. Last layer is the half-space."
+ },
+ {
+  "survey": "goldman-2000-tdem-coastal",
+  "site": "HS535",
+  "method": "TEM",
+  "level": "L3",
+  "measured_on": "1999-12-08",
+  "confidence": "A",
+  "status": "draft",
+  "id": "goldman2000-HS535-seawater",
+  "representation": "interface_depth",
+  "interface_depth_m": 50.46,
+  "criterion": "rho < 3 ohm.m (seawater-saturated)",
+  "provenance": {
+   "document": "main",
+   "pages": [
+    77
+   ],
+   "table": "PROTEM inversion printout HS535",
+   "method": "manual",
+   "tool": "derived from the layered model",
+   "extracted_on": "2026-10-13",
+   "notes": null
+  },
+  "reinterprets": "goldman2000-HS535-layered"
+ },
+ {
+  "survey": "goldman-2000-tdem-coastal",
+  "site": "HS536",
+  "method": "TEM",
+  "level": "L2",
+  "measured_on": "1999-12-08",
+  "confidence": "A",
+  "status": "draft",
+  "id": "goldman2000-HS536-layered",
+  "representation": "model_1d",
+  "model_type": "layered",
+  "layers": [
+   {
+    "top_m": 0.0,
+    "bottom_m": 22.67,
+    "rho_ohmm": 9.02
+   },
+   {
+    "top_m": 22.67,
+    "bottom_m": 39.83,
+    "rho_ohmm": 16.31
+   },
+   {
+    "top_m": 39.83,
+    "bottom_m": 58.67,
+    "rho_ohmm": 10.32
+   },
+   {
+    "top_m": 58.67,
+    "bottom_m": null,
+    "rho_ohmm": 14.72
+   }
+  ],
+  "depth_max_m": 88.0,
+  "provenance": {
+   "document": "main",
+   "pages": [
+    79
+   ],
+   "table": "PROTEM inversion printout HS536",
+   "method": "ocr",
+   "tool": "tesseract 5 psm 6 + geosigma.extract.goldman_tdem",
+   "extracted_on": "2026-10-13",
+   "notes": null
+  },
+  "notes": "Loop 100x100 m; fitting error 2.316%. Last layer is the half-space."
+ },
+ {
+  "survey": "goldman-2000-tdem-coastal",
+  "site": "HS537",
+  "method": "TEM",
+  "level": "L2",
+  "measured_on": "1999-12-08",
+  "confidence": "A",
+  "status": "draft",
+  "id": "goldman2000-HS537-layered",
+  "representation": "model_1d",
+  "model_type": "layered",
+  "layers": [
+   {
+    "top_m": 0.0,
+    "bottom_m": 40.95,
+    "rho_ohmm": 7.14
+   },
+   {
+    "top_m": 40.95,
+    "bottom_m": 59.86,
+    "rho_ohmm": 26.06
+   },
+   {
+    "top_m": 59.86,
+    "bottom_m": 98.33,
+    "rho_ohmm": 53.11
+   },
+   {
+    "top_m": 98.33,
+    "bottom_m": null,
+    "rho_ohmm": 13.68
+   }
+  ],
+  "depth_max_m": 147.0,
+  "provenance": {
+   "document": "main",
+   "pages": [
+    81
+   ],
+   "table": "PROTEM inversion printout HS537",
+   "method": "ocr",
+   "tool": "tesseract 5 psm 6 + geosigma.extract.goldman_tdem",
+   "extracted_on": "2026-10-13",
+   "notes": null
+  },
+  "notes": "Loop 200x200 m; fitting error 2.885%. Last layer is the half-space."
+ },
+ {
+  "survey": "goldman-2000-tdem-coastal",
+  "site": "HS538",
+  "method": "TEM",
+  "level": "L2",
+  "measured_on": "1999-12-12",
+  "confidence": "A",
+  "status": "draft",
+  "id": "goldman2000-HS538-layered",
+  "representation": "model_1d",
+  "model_type": "layered",
+  "layers": [
+   {
+    "top_m": 0.0,
+    "bottom_m": 16.92,
+    "rho_ohmm": 4.35
+   },
+   {
+    "top_m": 16.92,
+    "bottom_m": 33.53,
+    "rho_ohmm": 28.75
+   },
+   {
+    "top_m": 33.53,
+    "bottom_m": 84.59,
+    "rho_ohmm": 3.9
+   },
+   {
+    "top_m": 84.59,
+    "bottom_m": null,
+    "rho_ohmm": 29.08
+   }
+  ],
+  "depth_max_m": 127.0,
+  "provenance": {
+   "document": "main",
+   "pages": [
+    83
+   ],
+   "table": "PROTEM inversion printout HS538",
+   "method": "ocr",
+   "tool": "tesseract 5 psm 6 + geosigma.extract.goldman_tdem",
+   "extracted_on": "2026-10-13",
+   "notes": null
+  },
+  "notes": "Loop 100x100 m; fitting error 3.551%. Last layer is the half-space."
+ },
+ {
+  "survey": "goldman-2000-tdem-coastal",
+  "site": "HS539",
+  "method": "TEM",
+  "level": "L2",
+  "measured_on": "1999-12-12",
+  "confidence": "A",
+  "status": "draft",
+  "id": "goldman2000-HS539-layered",
+  "representation": "model_1d",
+  "model_type": "layered",
+  "layers": [
+   {
+    "top_m": 0.0,
+    "bottom_m": 8.3,
+    "rho_ohmm": 5.77
+   },
+   {
+    "top_m": 8.3,
+    "bottom_m": 40.89,
+    "rho_ohmm": 19.49
+   },
+   {
+    "top_m": 40.89,
+    "bottom_m": 139.91,
+    "rho_ohmm": 1.8
+   },
+   {
+    "top_m": 139.91,
+    "bottom_m": null,
+    "rho_ohmm": 0.75
+   }
+  ],
+  "depth_max_m": 210.0,
+  "provenance": {
+   "document": "main",
+   "pages": [
+    85
+   ],
+   "table": "PROTEM inversion printout HS539",
+   "method": "ocr",
+   "tool": "tesseract 5 psm 6 + geosigma.extract.goldman_tdem",
+   "extracted_on": "2026-10-13",
+   "notes": null
+  },
+  "notes": "Loop 50x50 m; fitting error 1.735%. Last layer is the half-space."
+ },
+ {
+  "survey": "goldman-2000-tdem-coastal",
+  "site": "HS539",
+  "method": "TEM",
+  "level": "L3",
+  "measured_on": "1999-12-12",
+  "confidence": "A",
+  "status": "draft",
+  "id": "goldman2000-HS539-seawater",
+  "representation": "interface_depth",
+  "interface_depth_m": 40.89,
+  "criterion": "rho < 3 ohm.m (seawater-saturated)",
+  "provenance": {
+   "document": "main",
+   "pages": [
+    85
+   ],
+   "table": "PROTEM inversion printout HS539",
+   "method": "manual",
+   "tool": "derived from the layered model",
+   "extracted_on": "2026-10-13",
+   "notes": null
+  },
+  "reinterprets": "goldman2000-HS539-layered"
+ },
+ {
+  "survey": "goldman-2000-tdem-coastal",
+  "site": "HS540A",
+  "method": "TEM",
+  "level": "L2",
+  "measured_on": "1999-12-13",
+  "confidence": "A",
+  "status": "draft",
+  "id": "goldman2000-HS540A-layered",
+  "representation": "model_1d",
+  "model_type": "layered",
+  "layers": [
+   {
+    "top_m": 0.0,
+    "bottom_m": 5.78,
+    "rho_ohmm": 23.3
+   },
+   {
+    "top_m": 5.78,
+    "bottom_m": 16.96,
+    "rho_ohmm": 317.4
+   },
+   {
+    "top_m": 16.96,
+    "bottom_m": 139.36,
+    "rho_ohmm": 2.57
+   },
+   {
+    "top_m": 139.36,
+    "bottom_m": null,
+    "rho_ohmm": 97.73
+   }
+  ],
+  "depth_max_m": 209.0,
+  "provenance": {
+   "document": "main",
+   "pages": [
+    89
+   ],
+   "table": "PROTEM inversion printout HS540A",
+   "method": "ocr",
+   "tool": "tesseract 5 psm 6 + geosigma.extract.goldman_tdem",
+   "extracted_on": "2026-10-13",
+   "notes": null
+  },
+  "notes": "Loop 50x50 m; fitting error 4.716%. Last layer is the half-space."
+ },
+ {
+  "survey": "goldman-2000-tdem-coastal",
+  "site": "HS540A",
+  "method": "TEM",
+  "level": "L3",
+  "measured_on": "1999-12-13",
+  "confidence": "A",
+  "status": "draft",
+  "id": "goldman2000-HS540A-seawater",
+  "representation": "interface_depth",
+  "interface_depth_m": 16.96,
+  "criterion": "rho < 3 ohm.m (seawater-saturated)",
+  "provenance": {
+   "document": "main",
+   "pages": [
+    89
+   ],
+   "table": "PROTEM inversion printout HS540A",
+   "method": "manual",
+   "tool": "derived from the layered model",
+   "extracted_on": "2026-10-13",
+   "notes": null
+  },
+  "reinterprets": "goldman2000-HS540A-layered"
+ },
+ {
+  "survey": "goldman-2000-tdem-coastal",
+  "site": "HS541",
+  "method": "TEM",
+  "level": "L2",
+  "measured_on": "1999-12-12",
+  "confidence": "A",
+  "status": "draft",
+  "id": "goldman2000-HS541-layered",
+  "representation": "model_1d",
+  "model_type": "layered",
+  "layers": [
+   {
+    "top_m": 0.0,
+    "bottom_m": 21.7,
+    "rho_ohmm": 9.61
+   },
+   {
+    "top_m": 21.7,
+    "bottom_m": 39.15,
+    "rho_ohmm": 19.83
+   },
+   {
+    "top_m": 39.15,
+    "bottom_m": 103.35,
+    "rho_ohmm": 3.25
+   },
+   {
+    "top_m": 103.35,
+    "bottom_m": null,
+    "rho_ohmm": 8.97
+   }
+  ],
+  "depth_max_m": 155.0,
+  "provenance": {
+   "document": "main",
+   "pages": [
+    91
+   ],
+   "table": "PROTEM inversion printout HS541",
+   "method": "ocr",
+   "tool": "tesseract 5 psm 6 + geosigma.extract.goldman_tdem",
+   "extracted_on": "2026-10-13",
+   "notes": null
+  },
+  "notes": "Loop 100x100 m; fitting error 2.614%. Last layer is the half-space."
+ },
+ {
+  "survey": "goldman-2000-tdem-coastal",
+  "site": "HS542",
+  "method": "TEM",
+  "level": "L2",
+  "measured_on": "1999-12-12",
+  "confidence": "A",
+  "status": "draft",
+  "id": "goldman2000-HS542-layered",
+  "representation": "model_1d",
+  "model_type": "layered",
+  "layers": [
+   {
+    "top_m": 0.0,
+    "bottom_m": 7.0,
+    "rho_ohmm": 6.45
+   },
+   {
+    "top_m": 7.0,
+    "bottom_m": 46.18,
+    "rho_ohmm": 23.06
+   },
+   {
+    "top_m": 46.18,
+    "bottom_m": 68.95,
+    "rho_ohmm": 5.43
+   },
+   {
+    "top_m": 68.95,
+    "bottom_m": null,
+    "rho_ohmm": 1.67
+   }
+  ],
+  "depth_max_m": 103.0,
+  "provenance": {
+   "document": "main",
+   "pages": [
+    93
+   ],
+   "table": "PROTEM inversion printout HS542",
+   "method": "ocr",
+   "tool": "tesseract 5 psm 6 + geosigma.extract.goldman_tdem",
+   "extracted_on": "2026-10-13",
+   "notes": null
+  },
+  "notes": "Loop 100x100 m; fitting error 3.711%. Last layer is the half-space."
+ },
+ {
+  "survey": "goldman-2000-tdem-coastal",
+  "site": "HS542",
+  "method": "TEM",
+  "level": "L3",
+  "measured_on": "1999-12-12",
+  "confidence": "A",
+  "status": "draft",
+  "id": "goldman2000-HS542-seawater",
+  "representation": "interface_depth",
+  "interface_depth_m": 68.95,
+  "criterion": "rho < 3 ohm.m (seawater-saturated)",
+  "provenance": {
+   "document": "main",
+   "pages": [
+    93
+   ],
+   "table": "PROTEM inversion printout HS542",
+   "method": "manual",
+   "tool": "derived from the layered model",
+   "extracted_on": "2026-10-13",
+   "notes": null
+  },
+  "reinterprets": "goldman2000-HS542-layered"
+ },
+ {
+  "survey": "goldman-2000-tdem-coastal",
+  "site": "HS543",
+  "method": "TEM",
+  "level": "L2",
+  "measured_on": "1999-12-13",
+  "confidence": "A",
+  "status": "draft",
+  "id": "goldman2000-HS543-layered",
+  "representation": "model_1d",
+  "model_type": "layered",
+  "layers": [
+   {
+    "top_m": 0.0,
+    "bottom_m": 14.81,
+    "rho_ohmm": 3.29
+   },
+   {
+    "top_m": 14.81,
+    "bottom_m": 24.04,
+    "rho_ohmm": 1.38
+   },
+   {
+    "top_m": 24.04,
+    "bottom_m": 67.87,
+    "rho_ohmm": 2.33
+   },
+   {
+    "top_m": 67.87,
+    "bottom_m": null,
+    "rho_ohmm": 3.8
+   }
+  ],
+  "depth_max_m": 102.0,
+  "provenance": {
+   "document": "main",
+   "pages": [
+    95
+   ],
+   "table": "PROTEM inversion printout HS543",
+   "method": "ocr",
+   "tool": "tesseract 5 psm 6 + geosigma.extract.goldman_tdem",
+   "extracted_on": "2026-10-13",
+   "notes": null
+  },
+  "notes": "Loop 50x50 m; fitting error 3.094%. Last layer is the half-space."
+ },
+ {
+  "survey": "goldman-2000-tdem-coastal",
+  "site": "HS543",
+  "method": "TEM",
+  "level": "L3",
+  "measured_on": "1999-12-13",
+  "confidence": "A",
+  "status": "draft",
+  "id": "goldman2000-HS543-seawater",
+  "representation": "interface_depth",
+  "interface_depth_m": 14.81,
+  "criterion": "rho < 3 ohm.m (seawater-saturated)",
+  "provenance": {
+   "document": "main",
+   "pages": [
+    95
+   ],
+   "table": "PROTEM inversion printout HS543",
+   "method": "manual",
+   "tool": "derived from the layered model",
+   "extracted_on": "2026-10-13",
+   "notes": null
+  },
+  "reinterprets": "goldman2000-HS543-layered"
+ },
+ {
+  "survey": "goldman-2000-tdem-coastal",
+  "site": "HS544",
+  "method": "TEM",
+  "level": "L2",
+  "measured_on": "1999-12-15",
+  "confidence": "A",
+  "status": "draft",
+  "id": "goldman2000-HS544-layered",
+  "representation": "model_1d",
+  "model_type": "layered",
+  "layers": [
+   {
+    "top_m": 0.0,
+    "bottom_m": 13.74,
+    "rho_ohmm": 9.41
+   },
+   {
+    "top_m": 13.74,
+    "bottom_m": 80.09,
+    "rho_ohmm": 334.4
+   },
+   {
+    "top_m": 80.09,
+    "bottom_m": 110.93,
+    "rho_ohmm": 10.79
+   },
+   {
+    "top_m": 110.93,
+    "bottom_m": 298.63,
+    "rho_ohmm": 249.2
+   },
+   {
+    "top_m": 298.63,
+    "bottom_m": 328.04,
+    "rho_ohmm": 9.71
+   },
+   {
+    "top_m": 328.04,
+    "bottom_m": null,
+    "rho_ohmm": 0.979
+   }
+  ],
+  "depth_max_m": 492.0,
+  "provenance": {
+   "document": "main",
+   "pages": [
+    97
+   ],
+   "table": "PROTEM inversion printout HS544",
+   "method": "ocr",
+   "tool": "tesseract 5 psm 6 + geosigma.extract.goldman_tdem",
+   "extracted_on": "2026-10-13",
+   "notes": null
+  },
+  "notes": "Loop 100x100 m; fitting error 7.912%. Last layer is the half-space."
+ },
+ {
+  "survey": "goldman-2000-tdem-coastal",
+  "site": "HS544",
+  "method": "TEM",
+  "level": "L3",
+  "measured_on": "1999-12-15",
+  "confidence": "A",
+  "status": "draft",
+  "id": "goldman2000-HS544-seawater",
+  "representation": "interface_depth",
+  "interface_depth_m": 328.04,
+  "criterion": "rho < 3 ohm.m (seawater-saturated)",
+  "provenance": {
+   "document": "main",
+   "pages": [
+    97
+   ],
+   "table": "PROTEM inversion printout HS544",
+   "method": "manual",
+   "tool": "derived from the layered model",
+   "extracted_on": "2026-10-13",
+   "notes": null
+  },
+  "reinterprets": "goldman2000-HS544-layered"
+ },
+ {
+  "survey": "goldman-2000-tdem-coastal",
+  "site": "HS546",
+  "method": "TEM",
+  "level": "L2",
+  "measured_on": "1999-12-15",
+  "confidence": "A",
+  "status": "draft",
+  "id": "goldman2000-HS546-layered",
+  "representation": "model_1d",
+  "model_type": "layered",
+  "layers": [
+   {
+    "top_m": 0.0,
+    "bottom_m": 9.3,
+    "rho_ohmm": 4.32
+   },
+   {
+    "top_m": 9.3,
+    "bottom_m": 20.94,
+    "rho_ohmm": 8.17
+   },
+   {
+    "top_m": 20.94,
+    "bottom_m": 32.49,
+    "rho_ohmm": 1.32
+   },
+   {
+    "top_m": 32.49,
+    "bottom_m": 152.19,
+    "rho_ohmm": 4.81
+   },
+   {
+    "top_m": 152.19,
+    "bottom_m": null,
+    "rho_ohmm": 3.04
+   }
+  ],
+  "depth_max_m": 228.0,
+  "provenance": {
+   "document": "main",
+   "pages": [
+    101
+   ],
+   "table": "PROTEM inversion printout HS546",
+   "method": "ocr",
+   "tool": "tesseract 5 psm 6 + geosigma.extract.goldman_tdem",
+   "extracted_on": "2026-10-13",
+   "notes": null
+  },
+  "notes": "Loop 50x50 m; fitting error 3.214%. Last layer is the half-space."
+ },
+ {
+  "survey": "goldman-2000-tdem-coastal",
+  "site": "HS546",
+  "method": "TEM",
+  "level": "L3",
+  "measured_on": "1999-12-15",
+  "confidence": "A",
+  "status": "draft",
+  "id": "goldman2000-HS546-seawater",
+  "representation": "interface_depth",
+  "interface_depth_m": 20.94,
+  "criterion": "rho < 3 ohm.m (seawater-saturated)",
+  "provenance": {
+   "document": "main",
+   "pages": [
+    101
+   ],
+   "table": "PROTEM inversion printout HS546",
+   "method": "manual",
+   "tool": "derived from the layered model",
+   "extracted_on": "2026-10-13",
+   "notes": null
+  },
+  "reinterprets": "goldman2000-HS546-layered"
+ },
+ {
+  "survey": "goldman-2000-tdem-coastal",
+  "site": "HS547",
+  "method": "TEM",
+  "level": "L2",
+  "measured_on": "1999-12-15",
+  "confidence": "A",
+  "status": "draft",
+  "id": "goldman2000-HS547-layered",
+  "representation": "model_1d",
+  "model_type": "layered",
+  "layers": [
+   {
+    "top_m": 0.0,
+    "bottom_m": 19.29,
+    "rho_ohmm": 6.59
+   },
+   {
+    "top_m": 19.29,
+    "bottom_m": 36.09,
+    "rho_ohmm": 13.51
+   },
+   {
+    "top_m": 36.09,
+    "bottom_m": 57.09,
+    "rho_ohmm": 4.03
+   },
+   {
+    "top_m": 57.09,
+    "bottom_m": 97.07,
+    "rho_ohmm": 9.54
+   },
+   {
+    "top_m": 97.07,
+    "bottom_m": null,
+    "rho_ohmm": 4.3
+   }
+  ],
+  "depth_max_m": 146.0,
+  "provenance": {
+   "document": "main",
+   "pages": [
+    103
+   ],
+   "table": "PROTEM inversion printout HS547",
+   "method": "ocr",
+   "tool": "tesseract 5 psm 6 + geosigma.extract.goldman_tdem",
+   "extracted_on": "2026-10-13",
+   "notes": null
+  },
+  "notes": "Loop 100x100 m; fitting error 1.327%. Last layer is the half-space."
+ },
+ {
+  "survey": "goldman-2000-tdem-coastal",
+  "site": "HS548",
+  "method": "TEM",
+  "level": "L2",
+  "measured_on": "1999-12-16",
+  "confidence": "A",
+  "status": "draft",
+  "id": "goldman2000-HS548-layered",
+  "representation": "model_1d",
+  "model_type": "layered",
+  "layers": [
+   {
+    "top_m": 0.0,
+    "bottom_m": 9.97,
+    "rho_ohmm": 179.9
+   },
+   {
+    "top_m": 9.97,
+    "bottom_m": 51.9,
+    "rho_ohmm": 27.06
+   },
+   {
+    "top_m": 51.9,
+    "bottom_m": 83.59,
+    "rho_ohmm": 2.55
+   },
+   {
+    "top_m": 83.59,
+    "bottom_m": 150.26,
+    "rho_ohmm": 4.74
+   },
+   {
+    "top_m": 150.26,
+    "bottom_m": null,
+    "rho_ohmm": 2.41
+   }
+  ],
+  "depth_max_m": 225.0,
+  "provenance": {
+   "document": "main",
+   "pages": [
+    105
+   ],
+   "table": "PROTEM inversion printout HS548",
+   "method": "ocr",
+   "tool": "tesseract 5 psm 6 + geosigma.extract.goldman_tdem",
+   "extracted_on": "2026-10-13",
+   "notes": null
+  },
+  "notes": "Loop 100x100 m; fitting error 3.311%. Last layer is the half-space."
+ },
+ {
+  "survey": "goldman-2000-tdem-coastal",
+  "site": "HS548",
+  "method": "TEM",
+  "level": "L3",
+  "measured_on": "1999-12-16",
+  "confidence": "A",
+  "status": "draft",
+  "id": "goldman2000-HS548-seawater",
+  "representation": "interface_depth",
+  "interface_depth_m": 51.9,
+  "criterion": "rho < 3 ohm.m (seawater-saturated)",
+  "provenance": {
+   "document": "main",
+   "pages": [
+    105
+   ],
+   "table": "PROTEM inversion printout HS548",
+   "method": "manual",
+   "tool": "derived from the layered model",
+   "extracted_on": "2026-10-13",
+   "notes": null
+  },
+  "reinterprets": "goldman2000-HS548-layered"
+ },
+ {
+  "survey": "goldman-2000-tdem-coastal",
+  "site": "HS549",
+  "method": "TEM",
+  "level": "L2",
+  "measured_on": "1999-12-16",
+  "confidence": "A",
+  "status": "draft",
+  "id": "goldman2000-HS549-layered",
+  "representation": "model_1d",
+  "model_type": "layered",
+  "layers": [
+   {
+    "top_m": 0.0,
+    "bottom_m": 21.18,
+    "rho_ohmm": 3.28
+   },
+   {
+    "top_m": 21.18,
+    "bottom_m": 34.52,
+    "rho_ohmm": 5.83
+   },
+   {
+    "top_m": 34.52,
+    "bottom_m": 51.07,
+    "rho_ohmm": 1.02
+   },
+   {
+    "top_m": 51.07,
+    "bottom_m": 85.06,
+    "rho_ohmm": 2.28
+   },
+   {
+    "top_m": 85.06,
+    "bottom_m": 134.91,
+    "rho_ohmm": 0.552
+   },
+   {
+    "top_m": 134.91,
+    "bottom_m": null,
+    "rho_ohmm": 0.173
+   }
+  ],
+  "depth_max_m": 202.0,
+  "provenance": {
+   "document": "main",
+   "pages": [
+    107
+   ],
+   "table": "PROTEM inversion printout HS549",
+   "method": "ocr",
+   "tool": "tesseract 5 psm 6 + geosigma.extract.goldman_tdem",
+   "extracted_on": "2026-10-13",
+   "notes": null
+  },
+  "notes": "Loop 100x100 m; fitting error 1.821%. Last layer is the half-space."
+ },
+ {
+  "survey": "goldman-2000-tdem-coastal",
+  "site": "HS549",
+  "method": "TEM",
+  "level": "L3",
+  "measured_on": "1999-12-16",
+  "confidence": "A",
+  "status": "draft",
+  "id": "goldman2000-HS549-seawater",
+  "representation": "interface_depth",
+  "interface_depth_m": 34.52,
+  "criterion": "rho < 3 ohm.m (seawater-saturated)",
+  "provenance": {
+   "document": "main",
+   "pages": [
+    107
+   ],
+   "table": "PROTEM inversion printout HS549",
+   "method": "manual",
+   "tool": "derived from the layered model",
+   "extracted_on": "2026-10-13",
+   "notes": null
+  },
+  "reinterprets": "goldman2000-HS549-layered"
+ },
+ {
+  "survey": "goldman-2000-tdem-coastal",
+  "site": "HS550",
+  "method": "TEM",
+  "level": "L2",
+  "measured_on": "1999-12-16",
+  "confidence": "A",
+  "status": "draft",
+  "id": "goldman2000-HS550-layered",
+  "representation": "model_1d",
+  "model_type": "layered",
+  "layers": [
+   {
+    "top_m": 0.0,
+    "bottom_m": 5.71,
+    "rho_ohmm": 63.35
+   },
+   {
+    "top_m": 5.71,
+    "bottom_m": 10.38,
+    "rho_ohmm": 1.28
+   },
+   {
+    "top_m": 10.38,
+    "bottom_m": 18.37,
+    "rho_ohmm": 10.12
+   },
+   {
+    "top_m": 18.37,
+    "bottom_m": 35.32,
+    "rho_ohmm": 19.7
+   },
+   {
+    "top_m": 35.32,
+    "bottom_m": 97.75,
+    "rho_ohmm": 2.08
+   },
+   {
+    "top_m": 97.75,
+    "bottom_m": null,
+    "rho_ohmm": 9.17
+   }
+  ],
+  "depth_max_m": 147.0,
+  "provenance": {
+   "document": "main",
+   "pages": [
+    109
+   ],
+   "table": "PROTEM inversion printout HS550",
+   "method": "ocr",
+   "tool": "tesseract 5 psm 6 + geosigma.extract.goldman_tdem",
+   "extracted_on": "2026-10-13",
+   "notes": null
+  },
+  "notes": "Loop 100x100 m; fitting error 3.304%. Last layer is the half-space."
+ },
+ {
+  "survey": "goldman-2000-tdem-coastal",
+  "site": "HS550",
+  "method": "TEM",
+  "level": "L3",
+  "measured_on": "1999-12-16",
+  "confidence": "A",
+  "status": "draft",
+  "id": "goldman2000-HS550-seawater",
+  "representation": "interface_depth",
+  "interface_depth_m": 5.71,
+  "criterion": "rho < 3 ohm.m (seawater-saturated)",
+  "provenance": {
+   "document": "main",
+   "pages": [
+    109
+   ],
+   "table": "PROTEM inversion printout HS550",
+   "method": "manual",
+   "tool": "derived from the layered model",
+   "extracted_on": "2026-10-13",
+   "notes": null
+  },
+  "reinterprets": "goldman2000-HS550-layered"
+ },
+ {
+  "survey": "goldman-2000-tdem-coastal",
+  "site": "HS551",
+  "method": "TEM",
+  "level": "L2",
+  "measured_on": "1999-12-16",
+  "confidence": "A",
+  "status": "draft",
+  "id": "goldman2000-HS551-layered",
+  "representation": "model_1d",
+  "model_type": "layered",
+  "layers": [
+   {
+    "top_m": 0.0,
+    "bottom_m": 18.02,
+    "rho_ohmm": 3.34
+   },
+   {
+    "top_m": 18.02,
+    "bottom_m": 44.56,
+    "rho_ohmm": 6.26
+   },
+   {
+    "top_m": 44.56,
+    "bottom_m": 66.06,
+    "rho_ohmm": 2.74
+   },
+   {
+    "top_m": 66.06,
+    "bottom_m": 86.68,
+    "rho_ohmm": 1.01
+   },
+   {
+    "top_m": 86.68,
+    "bottom_m": 125.55,
+    "rho_ohmm": 1.8
+   },
+   {
+    "top_m": 125.55,
+    "bottom_m": null,
+    "rho_ohmm": 0.971
+   }
+  ],
+  "depth_max_m": 188.0,
+  "provenance": {
+   "document": "main",
+   "pages": [
+    111
+   ],
+   "table": "PROTEM inversion printout HS551",
+   "method": "ocr",
+   "tool": "tesseract 5 psm 6 + geosigma.extract.goldman_tdem",
+   "extracted_on": "2026-10-13",
+   "notes": null
+  },
+  "notes": "Loop 100x100 m; fitting error 2.078%. Last layer is the half-space."
+ },
+ {
+  "survey": "goldman-2000-tdem-coastal",
+  "site": "HS551",
+  "method": "TEM",
+  "level": "L3",
+  "measured_on": "1999-12-16",
+  "confidence": "A",
+  "status": "draft",
+  "id": "goldman2000-HS551-seawater",
+  "representation": "interface_depth",
+  "interface_depth_m": 44.56,
+  "criterion": "rho < 3 ohm.m (seawater-saturated)",
+  "provenance": {
+   "document": "main",
+   "pages": [
+    111
+   ],
+   "table": "PROTEM inversion printout HS551",
+   "method": "manual",
+   "tool": "derived from the layered model",
+   "extracted_on": "2026-10-13",
+   "notes": null
+  },
+  "reinterprets": "goldman2000-HS551-layered"
+ },
+ {
+  "survey": "goldman-2000-tdem-coastal",
+  "site": "HS552",
+  "method": "TEM",
+  "level": "L2",
+  "measured_on": "1999-12-16",
+  "confidence": "A",
+  "status": "draft",
+  "id": "goldman2000-HS552-layered",
+  "representation": "model_1d",
+  "model_type": "layered",
+  "layers": [
+   {
+    "top_m": 0.0,
+    "bottom_m": 5.66,
+    "rho_ohmm": 4.77
+   },
+   {
+    "top_m": 5.66,
+    "bottom_m": 54.22,
+    "rho_ohmm": 13.66
+   },
+   {
+    "top_m": 54.22,
+    "bottom_m": 94.56,
+    "rho_ohmm": 1.28
+   },
+   {
+    "top_m": 94.56,
+    "bottom_m": 195.56,
+    "rho_ohmm": 0.924
+   },
+   {
+    "top_m": 195.56,
+    "bottom_m": null,
+    "rho_ohmm": 35.43
+   }
+  ],
+  "depth_max_m": 293.0,
+  "provenance": {
+   "document": "main",
+   "pages": [
+    113
+   ],
+   "table": "PROTEM inversion printout HS552",
+   "method": "ocr",
+   "tool": "tesseract 5 psm 6 + geosigma.extract.goldman_tdem",
+   "extracted_on": "2026-10-13",
+   "notes": null
+  },
+  "notes": "Loop 100x100 m; fitting error 4.348%. Last layer is the half-space."
+ },
+ {
+  "survey": "goldman-2000-tdem-coastal",
+  "site": "HS552",
+  "method": "TEM",
+  "level": "L3",
+  "measured_on": "1999-12-16",
+  "confidence": "A",
+  "status": "draft",
+  "id": "goldman2000-HS552-seawater",
+  "representation": "interface_depth",
+  "interface_depth_m": 54.22,
+  "criterion": "rho < 3 ohm.m (seawater-saturated)",
+  "provenance": {
+   "document": "main",
+   "pages": [
+    113
+   ],
+   "table": "PROTEM inversion printout HS552",
+   "method": "manual",
+   "tool": "derived from the layered model",
+   "extracted_on": "2026-10-13",
+   "notes": null
+  },
+  "reinterprets": "goldman2000-HS552-layered"
+ },
+ {
+  "survey": "goldman-2000-tdem-coastal",
+  "site": "HS553",
+  "method": "TEM",
+  "level": "L2",
+  "measured_on": "1999-12-19",
+  "confidence": "A",
+  "status": "draft",
+  "id": "goldman2000-HS553-layered",
+  "representation": "model_1d",
+  "model_type": "layered",
+  "layers": [
+   {
+    "top_m": 0.0,
+    "bottom_m": 15.76,
+    "rho_ohmm": 6.64
+   },
+   {
+    "top_m": 15.76,
+    "bottom_m": 41.1,
+    "rho_ohmm": 31.84
+   },
+   {
+    "top_m": 41.1,
+    "bottom_m": 53.54,
+    "rho_ohmm": 7.08
+   },
+   {
+    "top_m": 53.54,
+    "bottom_m": 182.54,
+    "rho_ohmm": 41.56
+   },
+   {
+    "top_m": 182.54,
+    "bottom_m": null,
+    "rho_ohmm": 5.0
+   }
+  ],
+  "depth_max_m": 274.0,
+  "provenance": {
+   "document": "main",
+   "pages": [
+    115
+   ],
+   "table": "PROTEM inversion printout HS553",
+   "method": "ocr",
+   "tool": "tesseract 5 psm 6 + geosigma.extract.goldman_tdem",
+   "extracted_on": "2026-10-13",
+   "notes": null
+  },
+  "notes": "Loop 100x100 m; fitting error 3.974%. Last layer is the half-space."
+ },
+ {
+  "survey": "goldman-2000-tdem-coastal",
+  "site": "HS554",
+  "method": "TEM",
+  "level": "L2",
+  "measured_on": "1999-12-19",
+  "confidence": "A",
+  "status": "draft",
+  "id": "goldman2000-HS554-layered",
+  "representation": "model_1d",
+  "model_type": "layered",
+  "layers": [
+   {
+    "top_m": 0.0,
+    "bottom_m": 11.19,
+    "rho_ohmm": 3.08
+   },
+   {
+    "top_m": 11.19,
+    "bottom_m": 93.47,
+    "rho_ohmm": 97.91
+   },
+   {
+    "top_m": 93.47,
+    "bottom_m": 126.56,
+    "rho_ohmm": 208.8
+   },
+   {
+    "top_m": 126.56,
+    "bottom_m": 158.15,
+    "rho_ohmm": 29.99
+   },
+   {
+    "top_m": 158.15,
+    "bottom_m": 317.05,
+    "rho_ohmm": 4.34
+   },
+   {
+    "top_m": 317.05,
+    "bottom_m": null,
+    "rho_ohmm": 2.05
+   }
+  ],
+  "depth_max_m": 476.0,
+  "provenance": {
+   "document": "main",
+   "pages": [
+    117
+   ],
+   "table": "PROTEM inversion printout HS554",
+   "method": "ocr",
+   "tool": "tesseract 5 psm 6 + geosigma.extract.goldman_tdem",
+   "extracted_on": "2026-10-13",
+   "notes": null
+  },
+  "notes": "Loop 100x100 m; fitting error 4.607%. Last layer is the half-space."
+ },
+ {
+  "survey": "goldman-2000-tdem-coastal",
+  "site": "HS554",
+  "method": "TEM",
+  "level": "L3",
+  "measured_on": "1999-12-19",
+  "confidence": "A",
+  "status": "draft",
+  "id": "goldman2000-HS554-seawater",
+  "representation": "interface_depth",
+  "interface_depth_m": 317.05,
+  "criterion": "rho < 3 ohm.m (seawater-saturated)",
+  "provenance": {
+   "document": "main",
+   "pages": [
+    117
+   ],
+   "table": "PROTEM inversion printout HS554",
+   "method": "manual",
+   "tool": "derived from the layered model",
+   "extracted_on": "2026-10-13",
+   "notes": null
+  },
+  "reinterprets": "goldman2000-HS554-layered"
+ },
+ {
+  "survey": "goldman-2000-tdem-coastal",
+  "site": "HS555",
+  "method": "TEM",
+  "level": "L2",
+  "measured_on": "1999-12-19",
+  "confidence": "A",
+  "status": "draft",
+  "id": "goldman2000-HS555-layered",
+  "representation": "model_1d",
+  "model_type": "layered",
+  "layers": [
+   {
+    "top_m": 0.0,
+    "bottom_m": 92.19,
+    "rho_ohmm": 51.29
+   },
+   {
+    "top_m": 92.19,
+    "bottom_m": 220.39,
+    "rho_ohmm": 29.54
+   },
+   {
+    "top_m": 220.39,
+    "bottom_m": 261.92,
+    "rho_ohmm": 7.37
+   },
+   {
+    "top_m": 261.92,
+    "bottom_m": 348.64,
+    "rho_ohmm": 82.58
+   },
+   {
+    "top_m": 348.64,
+    "bottom_m": 443.34,
+    "rho_ohmm": 150.6
+   },
+   {
+    "top_m": 443.34,
+    "bottom_m": 569.74,
+    "rho_ohmm": 79.24
+   },
+   {
+    "top_m": 569.74,
+    "bottom_m": null,
+    "rho_ohmm": 3.05
+   }
+  ],
+  "depth_max_m": 855.0,
+  "provenance": {
+   "document": "main",
+   "pages": [
+    119
+   ],
+   "table": "PROTEM inversion printout HS555",
+   "method": "ocr",
+   "tool": "tesseract 5 psm 6 + geosigma.extract.goldman_tdem",
+   "extracted_on": "2026-10-13",
+   "notes": null
+  },
+  "notes": "Loop 200x200 m; fitting error 3.223%. Last layer is the half-space."
+ },
+ {
+  "survey": "goldman-2000-tdem-coastal",
+  "site": "HS556",
+  "method": "TEM",
+  "level": "L2",
+  "measured_on": "1999-12-19",
+  "confidence": "A",
+  "status": "draft",
+  "id": "goldman2000-HS556-layered",
+  "representation": "model_1d",
+  "model_type": "layered",
+  "layers": [
+   {
+    "top_m": 0.0,
+    "bottom_m": 32.82,
+    "rho_ohmm": 102.9
+   },
+   {
+    "top_m": 32.82,
+    "bottom_m": 62.19,
+    "rho_ohmm": 22.39
+   },
+   {
+    "top_m": 62.19,
+    "bottom_m": 88.81,
+    "rho_ohmm": 94.18
+   },
+   {
+    "top_m": 88.81,
+    "bottom_m": 113.92,
+    "rho_ohmm": 1.27
+   },
+   {
+    "top_m": 113.92,
+    "bottom_m": 184.73,
+    "rho_ohmm": 25.65
+   },
+   {
+    "top_m": 184.73,
+    "bottom_m": null,
+    "rho_ohmm": 1.23
+   }
+  ],
+  "depth_max_m": 277.0,
+  "provenance": {
+   "document": "main",
+   "pages": [
+    121
+   ],
+   "table": "PROTEM inversion printout HS556",
+   "method": "ocr",
+   "tool": "tesseract 5 psm 6 + geosigma.extract.goldman_tdem",
+   "extracted_on": "2026-10-13",
+   "notes": null
+  },
+  "notes": "Loop 100x100 m; fitting error 4.225%. Last layer is the half-space."
+ },
+ {
+  "survey": "goldman-2000-tdem-coastal",
+  "site": "HS556",
+  "method": "TEM",
+  "level": "L3",
+  "measured_on": "1999-12-19",
+  "confidence": "A",
+  "status": "draft",
+  "id": "goldman2000-HS556-seawater",
+  "representation": "interface_depth",
+  "interface_depth_m": 88.81,
+  "criterion": "rho < 3 ohm.m (seawater-saturated)",
+  "provenance": {
+   "document": "main",
+   "pages": [
+    121
+   ],
+   "table": "PROTEM inversion printout HS556",
+   "method": "manual",
+   "tool": "derived from the layered model",
+   "extracted_on": "2026-10-13",
+   "notes": null
+  },
+  "reinterprets": "goldman2000-HS556-layered"
+ },
+ {
+  "survey": "goldman-2000-tdem-coastal",
+  "site": "HS557",
+  "method": "TEM",
+  "level": "L2",
+  "measured_on": "2000-01-17",
+  "confidence": "A",
+  "status": "draft",
+  "id": "goldman2000-HS557-layered",
+  "representation": "model_1d",
+  "model_type": "layered",
+  "layers": [
+   {
+    "top_m": 0.0,
+    "bottom_m": 11.75,
+    "rho_ohmm": 180.9
+   },
+   {
+    "top_m": 11.75,
+    "bottom_m": 27.16,
+    "rho_ohmm": 12.71
+   },
+   {
+    "top_m": 27.16,
+    "bottom_m": 82.65,
+    "rho_ohmm": 1.39
+   },
+   {
+    "top_m": 82.65,
+    "bottom_m": 101.68,
+    "rho_ohmm": 4.24
+   },
+   {
+    "top_m": 101.68,
+    "bottom_m": 208.08,
+    "rho_ohmm": 45.42
+   },
+   {
+    "top_m": 208.08,
+    "bottom_m": null,
+    "rho_ohmm": 0.957
+   }
+  ],
+  "depth_max_m": 312.0,
+  "provenance": {
+   "document": "main",
+   "pages": [
+    123
+   ],
+   "table": "PROTEM inversion printout HS557",
+   "method": "ocr",
+   "tool": "tesseract 5 psm 6 + geosigma.extract.goldman_tdem",
+   "extracted_on": "2026-10-13",
+   "notes": null
+  },
+  "notes": "Loop 50x50 m; fitting error 4.738%. Last layer is the half-space."
+ },
+ {
+  "survey": "goldman-2000-tdem-coastal",
+  "site": "HS557",
+  "method": "TEM",
+  "level": "L3",
+  "measured_on": "2000-01-17",
+  "confidence": "A",
+  "status": "draft",
+  "id": "goldman2000-HS557-seawater",
+  "representation": "interface_depth",
+  "interface_depth_m": 27.16,
+  "criterion": "rho < 3 ohm.m (seawater-saturated)",
+  "provenance": {
+   "document": "main",
+   "pages": [
+    123
+   ],
+   "table": "PROTEM inversion printout HS557",
+   "method": "manual",
+   "tool": "derived from the layered model",
+   "extracted_on": "2026-10-13",
+   "notes": null
+  },
+  "reinterprets": "goldman2000-HS557-layered"
+ },
+ {
+  "survey": "goldman-2000-tdem-coastal",
+  "site": "HS558",
+  "method": "TEM",
+  "level": "L2",
+  "measured_on": "2000-01-17",
+  "confidence": "A",
+  "status": "draft",
+  "id": "goldman2000-HS558-layered",
+  "representation": "model_1d",
+  "model_type": "layered",
+  "layers": [
+   {
+    "top_m": 0.0,
+    "bottom_m": 28.85,
+    "rho_ohmm": 71.45
+   },
+   {
+    "top_m": 28.85,
+    "bottom_m": 61.8,
+    "rho_ohmm": 18.9
+   },
+   {
+    "top_m": 61.8,
+    "bottom_m": 90.58,
+    "rho_ohmm": 2.15
+   },
+   {
+    "top_m": 90.58,
+    "bottom_m": 169.96,
+    "rho_ohmm": 99.85
+   },
+   {
+    "top_m": 169.96,
+    "bottom_m": null,
+    "rho_ohmm": 3.31
+   }
+  ],
+  "depth_max_m": 255.0,
+  "provenance": {
+   "document": "main",
+   "pages": [
+    125
+   ],
+   "table": "PROTEM inversion printout HS558",
+   "method": "ocr",
+   "tool": "tesseract 5 psm 6 + geosigma.extract.goldman_tdem",
+   "extracted_on": "2026-10-13",
+   "notes": null
+  },
+  "notes": "Loop 50x50 m; fitting error 1.092%. Last layer is the half-space."
+ },
+ {
+  "survey": "goldman-2000-tdem-coastal",
+  "site": "HS558",
+  "method": "TEM",
+  "level": "L3",
+  "measured_on": "2000-01-17",
+  "confidence": "A",
+  "status": "draft",
+  "id": "goldman2000-HS558-seawater",
+  "representation": "interface_depth",
+  "interface_depth_m": 61.8,
+  "criterion": "rho < 3 ohm.m (seawater-saturated)",
+  "provenance": {
+   "document": "main",
+   "pages": [
+    125
+   ],
+   "table": "PROTEM inversion printout HS558",
+   "method": "manual",
+   "tool": "derived from the layered model",
+   "extracted_on": "2026-10-13",
+   "notes": null
+  },
+  "reinterprets": "goldman2000-HS558-layered"
+ },
+ {
+  "survey": "goldman-2000-tdem-coastal",
+  "site": "HS559",
+  "method": "TEM",
+  "level": "L2",
+  "measured_on": "2000-01-17",
+  "confidence": "A",
+  "status": "draft",
+  "id": "goldman2000-HS559-layered",
+  "representation": "model_1d",
+  "model_type": "layered",
+  "layers": [
+   {
+    "top_m": 0.0,
+    "bottom_m": 4.91,
+    "rho_ohmm": 5.66
+   },
+   {
+    "top_m": 4.91,
+    "bottom_m": 26.51,
+    "rho_ohmm": 333.7
+   },
+   {
+    "top_m": 26.51,
+    "bottom_m": 32.02,
+    "rho_ohmm": 8.62
+   },
+   {
+    "top_m": 32.02,
+    "bottom_m": 56.27,
+    "rho_ohmm": 1.28
+   },
+   {
+    "top_m": 56.27,
+    "bottom_m": 72.62,
+    "rho_ohmm": 2.82
+   },
+   {
+    "top_m": 72.62,
+    "bottom_m": 176.62,
+    "rho_ohmm": 51.52
+   },
+   {
+    "top_m": 176.62,
+    "bottom_m": null,
+    "rho_ohmm": 2.51
+   }
+  ],
+  "depth_max_m": 265.0,
+  "provenance": {
+   "document": "main",
+   "pages": [
+    127
+   ],
+   "table": "PROTEM inversion printout HS559",
+   "method": "ocr",
+   "tool": "tesseract 5 psm 6 + geosigma.extract.goldman_tdem",
+   "extracted_on": "2026-10-13",
+   "notes": null
+  },
+  "notes": "Loop 50x50 m; fitting error 3.503%. Last layer is the half-space."
+ },
+ {
+  "survey": "goldman-2000-tdem-coastal",
+  "site": "HS559",
+  "method": "TEM",
+  "level": "L3",
+  "measured_on": "2000-01-17",
+  "confidence": "A",
+  "status": "draft",
+  "id": "goldman2000-HS559-seawater",
+  "representation": "interface_depth",
+  "interface_depth_m": 32.02,
+  "criterion": "rho < 3 ohm.m (seawater-saturated)",
+  "provenance": {
+   "document": "main",
+   "pages": [
+    127
+   ],
+   "table": "PROTEM inversion printout HS559",
+   "method": "manual",
+   "tool": "derived from the layered model",
+   "extracted_on": "2026-10-13",
+   "notes": null
+  },
+  "reinterprets": "goldman2000-HS559-layered"
+ },
+ {
+  "survey": "goldman-2000-tdem-coastal",
+  "site": "HS560",
+  "method": "TEM",
+  "level": "L2",
+  "measured_on": "2000-01-17",
+  "confidence": "A",
+  "status": "draft",
+  "id": "goldman2000-HS560-layered",
+  "representation": "model_1d",
+  "model_type": "layered",
+  "layers": [
+   {
+    "top_m": 0.0,
+    "bottom_m": 26.67,
+    "rho_ohmm": 15.98
+   },
+   {
+    "top_m": 26.67,
+    "bottom_m": 58.37,
+    "rho_ohmm": 101.7
+   },
+   {
+    "top_m": 58.37,
+    "bottom_m": 82.3,
+    "rho_ohmm": 20.2
+   },
+   {
+    "top_m": 82.3,
+    "bottom_m": 134.36,
+    "rho_ohmm": 2.36
+   },
+   {
+    "top_m": 134.36,
+    "bottom_m": null,
+    "rho_ohmm": 0.533
+   }
+  ],
+  "depth_max_m": 202.0,
+  "provenance": {
+   "document": "main",
+   "pages": [
+    129
+   ],
+   "table": "PROTEM inversion printout HS560",
+   "method": "ocr",
+   "tool": "tesseract 5 psm 6 + geosigma.extract.goldman_tdem",
+   "extracted_on": "2026-10-13",
+   "notes": null
+  },
+  "notes": "Loop 50x50 m; fitting error 1.744%. Last layer is the half-space."
+ },
+ {
+  "survey": "goldman-2000-tdem-coastal",
+  "site": "HS560",
+  "method": "TEM",
+  "level": "L3",
+  "measured_on": "2000-01-17",
+  "confidence": "A",
+  "status": "draft",
+  "id": "goldman2000-HS560-seawater",
+  "representation": "interface_depth",
+  "interface_depth_m": 82.3,
+  "criterion": "rho < 3 ohm.m (seawater-saturated)",
+  "provenance": {
+   "document": "main",
+   "pages": [
+    129
+   ],
+   "table": "PROTEM inversion printout HS560",
+   "method": "manual",
+   "tool": "derived from the layered model",
+   "extracted_on": "2026-10-13",
+   "notes": null
+  },
+  "reinterprets": "goldman2000-HS560-layered"
+ },
+ {
+  "survey": "goldman-2000-tdem-coastal",
+  "site": "HS561",
+  "method": "TEM",
+  "level": "L2",
+  "measured_on": "2000-01-17",
+  "confidence": "A",
+  "status": "draft",
+  "id": "goldman2000-HS561-layered",
+  "representation": "model_1d",
+  "model_type": "layered",
+  "layers": [
+   {
+    "top_m": 0.0,
+    "bottom_m": 81.22,
+    "rho_ohmm": 51.41
+   },
+   {
+    "top_m": 81.22,
+    "bottom_m": 110.06,
+    "rho_ohmm": 3.13
+   },
+   {
+    "top_m": 110.06,
+    "bottom_m": 150.52,
+    "rho_ohmm": 10.19
+   },
+   {
+    "top_m": 150.52,
+    "bottom_m": null,
+    "rho_ohmm": 2.11
+   }
+  ],
+  "depth_max_m": 226.0,
+  "provenance": {
+   "document": "main",
+   "pages": [
+    131
+   ],
+   "table": "PROTEM inversion printout HS561",
+   "method": "ocr",
+   "tool": "tesseract 5 psm 6 + geosigma.extract.goldman_tdem",
+   "extracted_on": "2026-10-13",
+   "notes": null
+  },
+  "notes": "Loop 100x100 m; fitting error 1.288%. Last layer is the half-space."
+ },
+ {
+  "survey": "goldman-2000-tdem-coastal",
+  "site": "HS561",
+  "method": "TEM",
+  "level": "L3",
+  "measured_on": "2000-01-17",
+  "confidence": "A",
+  "status": "draft",
+  "id": "goldman2000-HS561-seawater",
+  "representation": "interface_depth",
+  "interface_depth_m": 150.52,
+  "criterion": "rho < 3 ohm.m (seawater-saturated)",
+  "provenance": {
+   "document": "main",
+   "pages": [
+    131
+   ],
+   "table": "PROTEM inversion printout HS561",
+   "method": "manual",
+   "tool": "derived from the layered model",
+   "extracted_on": "2026-10-13",
+   "notes": null
+  },
+  "reinterprets": "goldman2000-HS561-layered"
+ }
+]
