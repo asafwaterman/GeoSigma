@@ -44,7 +44,7 @@ class Representation(str, Enum):
     sounding_curve = "sounding_curve"  # L1: apparent resistivity vs time/period/spacing
     model_1d = "model_1d"  # L2: layered or smooth resistivity vs depth
     section_2d = "section_2d"  # L2: resistivity on a (distance, depth) grid
-    map_grid = "map_grid"  # L1/L3: resistivity on a map
+    map_grid = "map_grid"  # L1/L3: resistivity on a map (values at stations, in ``profile``)
     qualitative = "qualitative"  # text-only result, no usable numbers
     interface_depth = "interface_depth"  # depth to a layer meeting a resistivity criterion
     profile = "profile"  # L1: apparent resistivity along a line at one electrode spacing
@@ -168,6 +168,7 @@ class Dataset(BaseModel):
     profile: list[ProfilePoint] = []
     array: Optional[str] = None  # electrode array, e.g. "Wenner"
     spacing_m: Optional[float] = None  # electrode spacing of a profile
+    source_dipole: Optional[list[Coordinates]] = None  # transmitter ends of a roving-dipole map
     interface_depth_m: Optional[float] = None
     criterion: Optional[str] = None  # e.g. "rho < 3 ohm.m (seawater)"
     summary: Optional[str] = None  # required for qualitative results
@@ -188,6 +189,8 @@ class Dataset(BaseModel):
             raise ValueError(f"{self.id}: qualitative dataset needs a summary")
         if r == Representation.profile and not self.profile:
             raise ValueError(f"{self.id}: profile needs points")
+        if r == Representation.map_grid and not self.profile:
+            raise ValueError(f"{self.id}: map_grid needs station values (profile)")
         if self.level != Level.L1 and r == Representation.profile:
             raise ValueError(f"{self.id}: a profile of apparent resistivity is L1")
         if r == Representation.interface_depth and self.interface_depth_m is None:

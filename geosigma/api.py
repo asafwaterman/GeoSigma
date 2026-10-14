@@ -58,7 +58,7 @@ def sites(
         survey_years = {r["id"]: r["year"] for r in con.execute("SELECT id, year FROM survey")}
     by_site: dict[tuple, list] = {}
     for r in ds_rows:
-        if r["representation"] == "profile":  # a profile belongs to every station it crosses
+        if r["representation"] in ("profile", "map_grid"):  # belongs to every station it covers
             for sid in {pt.get("site") for pt in json.loads(r["json"]).get("profile", [])} - {None}:
                 by_site.setdefault((r["survey"], sid), []).append(r)
         else:

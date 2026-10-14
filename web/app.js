@@ -125,7 +125,7 @@ async function selectSite(p) {
   const dss = await Promise.all(ids.map((id) => api(`/api/datasets/${encodeURIComponent(id)}`)));
   state.siteDatasets = dss;
   $("dsList").innerHTML = dss.map((d, i) => `<div class="ds" data-i="${i}">${d.method} ${d.level} ${d.representation}
-    ${d.model_type ? "(" + d.model_type + ")" : ""}${d.spacing_m ? " a = " + d.spacing_m + " m" : ""}${d.measured_on && d.representation === "profile" ? " · " + d.measured_on : ""} · confidence ${d.confidence}
+    ${d.model_type ? "(" + d.model_type + ")" : ""}${d.spacing_m ? " a = " + d.spacing_m + " m" : ""}${d.measured_on && d.representation === "profile" ? " · " + d.measured_on : ""}${d.representation === "map_grid" && d.line ? " · " + d.line : ""} · confidence ${d.confidence}
     ${d.status === "draft" ? '<span class="badge">unreviewed</span>' : ""}</div>`).join("") ||
     '<p class="muted">No datasets at this site yet.</p>';
   document.querySelectorAll(".ds").forEach((el) => el.addEventListener("click", () => showDataset(dss[+el.dataset.i], el)));
@@ -188,6 +188,19 @@ function showDataset(d, el) {
       font: { color: dark ? "#e4e8ee" : "#1d2430" }, showlegend: same.length > 1, legend: { orientation: "h", y: 1.12 },
       shapes: here ? [{ type: "line", yref: "paper", y0: 0, y1: 1, x0: here.station, x1: here.station, line: { color: "#888", dash: "dot", width: 1 } }] : [],
       xaxis: { title: `Reading along ${d.line} (a = ${d.spacing_m} m)`, gridcolor: dark ? "#2e343e" : "#e6e9ef" },
+      yaxis: { type: "log", title: "Apparent resistivity (Ω·m)", gridcolor: dark ? "#2e343e" : "#e6e9ef" },
+    }, { displayModeBar: false, responsive: true });
+  } else if (d.representation === "map_grid") {
+    // roving-dipole maps: this station's apparent resistivity for every source that covers it
+    const sid = state.site && state.site.site;
+    const maps = (state.siteDatasets || []).filter((o) => o.representation === "map_grid" && o.survey === d.survey);
+    const rows = maps.map((o) => [o, o.profile.find((q) => q.site === sid)]).filter(([, q]) => q);
+    Plotly.react("profile", [{ x: rows.map(([o]) => o.line), y: rows.map(([, q]) => q.rho_a), type: "bar",
+      marker: { color: rows.map(([o]) => (o === d ? "#c2410c" : "#1f5fa8")) },
+      hovertemplate: "%{x}: %{y:.3g} Ω·m<extra></extra>" }], {
+      margin: { l: 55, r: 10, t: 10, b: 70 }, paper_bgcolor: "rgba(0,0,0,0)", plot_bgcolor: "rgba(0,0,0,0)",
+      font: { color: dark ? "#e4e8ee" : "#1d2430" },
+      xaxis: { title: "Transmitter (source)", type: "category", gridcolor: dark ? "#2e343e" : "#e6e9ef" },
       yaxis: { type: "log", title: "Apparent resistivity (Ω·m)", gridcolor: dark ? "#2e343e" : "#e6e9ef" },
     }, { displayModeBar: false, responsive: true });
   } else {

@@ -1,0 +1,11150 @@
+[
+ {
+  "id": "rotstein-1977-yizreel-harod-roving-source-41",
+  "survey": "rotstein-1977-yizreel-harod",
+  "site": null,
+  "line": "Source 41",
+  "method": "DIPOLE",
+  "level": "L1",
+  "representation": "map_grid",
+  "array": "roving dipole",
+  "measured_on": null,
+  "confidence": "B",
+  "status": "draft",
+  "profile": [
+   {
+    "station": 122.0,
+    "rho_a": 41.5,
+    "site": "RD-122"
+   },
+   {
+    "station": 121.0,
+    "rho_a": 89.3,
+    "site": "RD-121"
+   },
+   {
+    "station": 110.0,
+    "rho_a": 27.4,
+    "site": "RD-110"
+   },
+   {
+    "station": 120.0,
+    "rho_a": 15.9,
+    "site": "RD-120"
+   },
+   {
+    "station": 109.0,
+    "rho_a": 36.7,
+    "site": "RD-109"
+   },
+   {
+    "station": 119.0,
+    "rho_a": 27.3,
+    "site": "RD-119"
+   },
+   {
+    "station": 107.0,
+    "rho_a": 6.0,
+    "site": "RD-107"
+   },
+   {
+    "station": 15.0,
+    "rho_a": 29.3,
+    "site": "RD-15"
+   },
+   {
+    "station": 117.0,
+    "rho_a": 15.0,
+    "site": "RD-117"
+   },
+   {
+    "station": 118.0,
+    "rho_a": 9.1,
+    "site": "RD-118"
+   },
+   {
+    "station": 108.0,
+    "rho_a": 4.0,
+    "site": "RD-108"
+   },
+   {
+    "station": 16.0,
+    "rho_a": 36.5,
+    "site": "RD-16"
+   },
+   {
+    "station": 17.0,
+    "rho_a": 46.6,
+    "site": "RD-17"
+   },
+   {
+    "station": 20.0,
+    "rho_a": 32.0,
+    "site": "RD-20"
+   },
+   {
+    "station": 19.0,
+    "rho_a": 83.9,
+    "site": "RD-19"
+   },
+   {
+    "station": 115.0,
+    "rho_a": 15.3,
+    "site": "RD-115"
+   },
+   {
+    "station": 5.0,
+    "rho_a": 4.5,
+    "site": "RD-5"
+   },
+   {
+    "station": 132.0,
+    "rho_a": 7.7,
+    "site": "RD-132"
+   },
+   {
+    "station": 113.0,
+    "rho_a": 4.8,
+    "site": "RD-113"
+   },
+   {
+    "station": 14.0,
+    "rho_a": 51.9,
+    "site": "RD-14"
+   },
+   {
+    "station": 6.0,
+    "rho_a": 4.6,
+    "site": "RD-6"
+   },
+   {
+    "station": 38.0,
+    "rho_a": 49.0,
+    "site": "RD-38"
+   },
+   {
+    "station": 21.0,
+    "rho_a": 56.8,
+    "site": "RD-21"
+   },
+   {
+    "station": 8.0,
+    "rho_a": 7.5,
+    "site": "RD-8"
+   },
+   {
+    "station": 23.0,
+    "rho_a": 31.21,
+    "site": "RD-23"
+   },
+   {
+    "station": 114.0,
+    "rho_a": 2.7,
+    "site": "RD-114"
+   },
+   {
+    "station": 7.0,
+    "rho_a": 11.7,
+    "site": "RD-7"
+   },
+   {
+    "station": 111.0,
+    "rho_a": 3.0,
+    "site": "RD-111"
+   },
+   {
+    "station": 26.0,
+    "rho_a": 65.5,
+    "site": "RD-26"
+   },
+   {
+    "station": 106.0,
+    "rho_a": 2.7,
+    "site": "RD-106"
+   },
+   {
+    "station": 10.0,
+    "rho_a": 68.6,
+    "site": "RD-10"
+   },
+   {
+    "station": 112.0,
+    "rho_a": 4.8,
+    "site": "RD-112"
+   },
+   {
+    "station": 22.0,
+    "rho_a": 68.5,
+    "site": "RD-22"
+   },
+   {
+    "station": 1.0,
+    "rho_a": 40.4,
+    "site": "RD-1"
+   },
+   {
+    "station": 25.0,
+    "rho_a": 63.3,
+    "site": "RD-25"
+   },
+   {
+    "station": 127.0,
+    "rho_a": 11.3,
+    "site": "RD-127"
+   },
+   {
+    "station": 101.0,
+    "rho_a": 1.4,
+    "site": "RD-101"
+   },
+   {
+    "station": 11.0,
+    "rho_a": 53.4,
+    "site": "RD-11"
+   },
+   {
+    "station": 126.0,
+    "rho_a": 11.6,
+    "site": "RD-126"
+   },
+   {
+    "station": 105.0,
+    "rho_a": 3.0,
+    "site": "RD-105"
+   },
+   {
+    "station": 2.0,
+    "rho_a": 17.4,
+    "site": "RD-2"
+   },
+   {
+    "station": 29.0,
+    "rho_a": 32.4,
+    "site": "RD-29"
+   },
+   {
+    "station": 24.0,
+    "rho_a": 71.7,
+    "site": "RD-24"
+   },
+   {
+    "station": 3.0,
+    "rho_a": 17.2,
+    "site": "RD-3"
+   },
+   {
+    "station": 102.0,
+    "rho_a": 2.6,
+    "site": "RD-102"
+   },
+   {
+    "station": 128.0,
+    "rho_a": 14.7,
+    "site": "RD-128"
+   },
+   {
+    "station": 125.0,
+    "rho_a": 10.6,
+    "site": "RD-125"
+   },
+   {
+    "station": 136.0,
+    "rho_a": 17.7,
+    "site": "RD-136"
+   },
+   {
+    "station": 30.0,
+    "rho_a": 41.6,
+    "site": "RD-30"
+   },
+   {
+    "station": 28.0,
+    "rho_a": 35.1,
+    "site": "RD-28"
+   },
+   {
+    "station": 103.0,
+    "rho_a": 8.0,
+    "site": "RD-103"
+   },
+   {
+    "station": 33.0,
+    "rho_a": 38.0,
+    "site": "RD-33"
+   },
+   {
+    "station": 124.0,
+    "rho_a": 5.6,
+    "site": "RD-124"
+   },
+   {
+    "station": 129.0,
+    "rho_a": 18.8,
+    "site": "RD-129"
+   },
+   {
+    "station": 135.0,
+    "rho_a": 32.2,
+    "site": "RD-135"
+   },
+   {
+    "station": 35.0,
+    "rho_a": 42.7,
+    "site": "RD-35"
+   },
+   {
+    "station": 34.0,
+    "rho_a": 49.2,
+    "site": "RD-34"
+   },
+   {
+    "station": 37.0,
+    "rho_a": 35.6,
+    "site": "RD-37"
+   },
+   {
+    "station": 130.0,
+    "rho_a": 6.1,
+    "site": "RD-130"
+   },
+   {
+    "station": 123.0,
+    "rho_a": 22.7,
+    "site": "RD-123"
+   },
+   {
+    "station": 137.0,
+    "rho_a": 17.0,
+    "site": "RD-137"
+   },
+   {
+    "station": 32.0,
+    "rho_a": 26.5,
+    "site": "RD-32"
+   },
+   {
+    "station": 134.0,
+    "rho_a": 29.0,
+    "site": "RD-134"
+   },
+   {
+    "station": 131.0,
+    "rho_a": 25.0,
+    "site": "RD-131"
+   },
+   {
+    "station": 133.0,
+    "rho_a": 33.6,
+    "site": "RD-133"
+   },
+   {
+    "station": 39.0,
+    "rho_a": 26.1,
+    "site": "RD-39"
+   },
+   {
+    "station": 138.0,
+    "rho_a": 42.0,
+    "site": "RD-138"
+   },
+   {
+    "station": 116.0,
+    "rho_a": 8.3,
+    "site": "RD-116"
+   }
+  ],
+  "source_dipole": [
+   {
+    "x": 165221,
+    "y": 230648,
+    "crs": "EPSG:28193",
+    "source": "map",
+    "accuracy_m": 100
+   },
+   {
+    "x": 164380,
+    "y": 228937,
+    "crs": "EPSG:28193",
+    "source": "map",
+    "accuracy_m": 100
+   }
+  ],
+  "provenance": {
+   "document": "maps",
+   "pages": [
+    3
+   ],
+   "figure": "Figure 3, source 41",
+   "method": "manual",
+   "tool": "geosigma.extract.yizreel_maps (positions by script, values by eye)",
+   "extracted_on": "2026-10-14"
+  },
+  "notes": "Apparent resistivity at 68 receiver stations for transmitter 41. 1 readings were hard to read."
+ },
+ {
+  "id": "rotstein-1977-yizreel-harod-roving-source-42",
+  "survey": "rotstein-1977-yizreel-harod",
+  "site": null,
+  "line": "Source 42",
+  "method": "DIPOLE",
+  "level": "L1",
+  "representation": "map_grid",
+  "array": "roving dipole",
+  "measured_on": null,
+  "confidence": "B",
+  "status": "draft",
+  "profile": [
+   {
+    "station": 122.0,
+    "rho_a": 28.5,
+    "site": "RD-122"
+   },
+   {
+    "station": 121.0,
+    "rho_a": 20.2,
+    "site": "RD-121"
+   },
+   {
+    "station": 110.0,
+    "rho_a": 4.3,
+    "site": "RD-110"
+   },
+   {
+    "station": 120.0,
+    "rho_a": 2.2,
+    "site": "RD-120"
+   },
+   {
+    "station": 109.0,
+    "rho_a": 11.7,
+    "site": "RD-109"
+   },
+   {
+    "station": 119.0,
+    "rho_a": 11.8,
+    "site": "RD-119"
+   },
+   {
+    "station": 107.0,
+    "rho_a": 19.5,
+    "site": "RD-107"
+   },
+   {
+    "station": 15.0,
+    "rho_a": 11.5,
+    "site": "RD-15"
+   },
+   {
+    "station": 117.0,
+    "rho_a": 4.4,
+    "site": "RD-117"
+   },
+   {
+    "station": 108.0,
+    "rho_a": 4.9,
+    "site": "RD-108"
+   },
+   {
+    "station": 16.0,
+    "rho_a": 6.8,
+    "site": "RD-16"
+   },
+   {
+    "station": 17.0,
+    "rho_a": 9.8,
+    "site": "RD-17"
+   },
+   {
+    "station": 18.0,
+    "rho_a": 25.9,
+    "site": "RD-18"
+   },
+   {
+    "station": 20.0,
+    "rho_a": 12.7,
+    "site": "RD-20"
+   },
+   {
+    "station": 19.0,
+    "rho_a": 19.3,
+    "site": "RD-19"
+   },
+   {
+    "station": 115.0,
+    "rho_a": 4.1,
+    "site": "RD-115"
+   },
+   {
+    "station": 132.0,
+    "rho_a": 7.6,
+    "site": "RD-132"
+   },
+   {
+    "station": 5.0,
+    "rho_a": 7.1,
+    "site": "RD-5"
+   },
+   {
+    "station": 113.0,
+    "rho_a": 4.0,
+    "site": "RD-113"
+   },
+   {
+    "station": 14.0,
+    "rho_a": 11.9,
+    "site": "RD-14"
+   },
+   {
+    "station": 6.0,
+    "rho_a": 9.1,
+    "site": "RD-6"
+   },
+   {
+    "station": 38.0,
+    "rho_a": 15.7,
+    "site": "RD-38"
+   },
+   {
+    "station": 13.0,
+    "rho_a": 29.8,
+    "site": "RD-13"
+   },
+   {
+    "station": 21.0,
+    "rho_a": 12.7,
+    "site": "RD-21"
+   },
+   {
+    "station": 23.0,
+    "rho_a": 20.3,
+    "site": "RD-23"
+   },
+   {
+    "station": 114.0,
+    "rho_a": 3.1,
+    "site": "RD-114"
+   },
+   {
+    "station": 8.0,
+    "rho_a": 6.9,
+    "site": "RD-8"
+   },
+   {
+    "station": 7.0,
+    "rho_a": 6.5,
+    "site": "RD-7"
+   },
+   {
+    "station": 111.0,
+    "rho_a": 2.2,
+    "site": "RD-111"
+   },
+   {
+    "station": 12.0,
+    "rho_a": 19.8,
+    "site": "RD-12"
+   },
+   {
+    "station": 26.0,
+    "rho_a": 17.2,
+    "site": "RD-26"
+   },
+   {
+    "station": 106.0,
+    "rho_a": 12.8,
+    "site": "RD-106"
+   },
+   {
+    "station": 10.0,
+    "rho_a": 18.0,
+    "site": "RD-10"
+   },
+   {
+    "station": 112.0,
+    "rho_a": 3.9,
+    "site": "RD-112"
+   },
+   {
+    "station": 22.0,
+    "rho_a": 10.5,
+    "site": "RD-22"
+   },
+   {
+    "station": 1.0,
+    "rho_a": 10.4,
+    "site": "RD-1"
+   },
+   {
+    "station": 25.0,
+    "rho_a": 25.8,
+    "site": "RD-25"
+   },
+   {
+    "station": 101.0,
+    "rho_a": 7.4,
+    "site": "RD-101"
+   },
+   {
+    "station": 127.0,
+    "rho_a": 6.1,
+    "site": "RD-127"
+   },
+   {
+    "station": 11.0,
+    "rho_a": 22.9,
+    "site": "RD-11"
+   },
+   {
+    "station": 126.0,
+    "rho_a": 18.3,
+    "site": "RD-126"
+   },
+   {
+    "station": 105.0,
+    "rho_a": 11.1,
+    "site": "RD-105"
+   },
+   {
+    "station": 2.0,
+    "rho_a": 10.2,
+    "site": "RD-2"
+   },
+   {
+    "station": 29.0,
+    "rho_a": 12.2,
+    "site": "RD-29"
+   },
+   {
+    "station": 24.0,
+    "rho_a": 35.0,
+    "site": "RD-24"
+   },
+   {
+    "station": 3.0,
+    "rho_a": 13.0,
+    "site": "RD-3"
+   },
+   {
+    "station": 102.0,
+    "rho_a": 12.8,
+    "site": "RD-102"
+   },
+   {
+    "station": 128.0,
+    "rho_a": 12.8,
+    "site": "RD-128"
+   },
+   {
+    "station": 125.0,
+    "rho_a": 14.4,
+    "site": "RD-125"
+   },
+   {
+    "station": 136.0,
+    "rho_a": 11.4,
+    "site": "RD-136"
+   },
+   {
+    "station": 104.0,
+    "rho_a": 5.7,
+    "site": "RD-104"
+   },
+   {
+    "station": 28.0,
+    "rho_a": 33.1,
+    "site": "RD-28"
+   },
+   {
+    "station": 33.0,
+    "rho_a": 9.4,
+    "site": "RD-33"
+   },
+   {
+    "station": 27.0,
+    "rho_a": 46.2,
+    "site": "RD-27"
+   },
+   {
+    "station": 103.0,
+    "rho_a": 15.7,
+    "site": "RD-103"
+   },
+   {
+    "station": 124.0,
+    "rho_a": 5.8,
+    "site": "RD-124"
+   },
+   {
+    "station": 135.0,
+    "rho_a": 10.6,
+    "site": "RD-135"
+   },
+   {
+    "station": 129.0,
+    "rho_a": 9.2,
+    "site": "RD-129"
+   },
+   {
+    "station": 31.0,
+    "rho_a": 12.7,
+    "site": "RD-31"
+   },
+   {
+    "station": 37.0,
+    "rho_a": 15.5,
+    "site": "RD-37"
+   },
+   {
+    "station": 130.0,
+    "rho_a": 14.9,
+    "site": "RD-130"
+   },
+   {
+    "station": 123.0,
+    "rho_a": 17.6,
+    "site": "RD-123"
+   },
+   {
+    "station": 137.0,
+    "rho_a": 7.6,
+    "site": "RD-137"
+   },
+   {
+    "station": 32.0,
+    "rho_a": 11.4,
+    "site": "RD-32"
+   },
+   {
+    "station": 131.0,
+    "rho_a": 20.7,
+    "site": "RD-131"
+   },
+   {
+    "station": 134.0,
+    "rho_a": 8.9,
+    "site": "RD-134"
+   },
+   {
+    "station": 133.0,
+    "rho_a": 8.1,
+    "site": "RD-133"
+   },
+   {
+    "station": 39.0,
+    "rho_a": 13.8,
+    "site": "RD-39"
+   },
+   {
+    "station": 30.0,
+    "rho_a": 5.6,
+    "site": "RD-30"
+   },
+   {
+    "station": 34.0,
+    "rho_a": 17.2,
+    "site": "RD-34"
+   }
+  ],
+  "source_dipole": [
+   {
+    "x": 164415,
+    "y": 228950,
+    "crs": "EPSG:28193",
+    "source": "map",
+    "accuracy_m": 100
+   },
+   {
+    "x": 166048,
+    "y": 227788,
+    "crs": "EPSG:28193",
+    "source": "map",
+    "accuracy_m": 100
+   }
+  ],
+  "provenance": {
+   "document": "maps",
+   "pages": [
+    4
+   ],
+   "figure": "Figure 4, source 42",
+   "method": "manual",
+   "tool": "geosigma.extract.yizreel_maps (positions by script, values by eye)",
+   "extracted_on": "2026-10-14"
+  },
+  "notes": "Apparent resistivity at 70 receiver stations for transmitter 42. 1 readings were hard to read."
+ },
+ {
+  "id": "rotstein-1977-yizreel-harod-roving-source-43",
+  "survey": "rotstein-1977-yizreel-harod",
+  "site": null,
+  "line": "Source 43",
+  "method": "DIPOLE",
+  "level": "L1",
+  "representation": "map_grid",
+  "array": "roving dipole",
+  "measured_on": null,
+  "confidence": "B",
+  "status": "draft",
+  "profile": [
+   {
+    "station": 17.0,
+    "rho_a": 18.0,
+    "site": "RD-17"
+   },
+   {
+    "station": 18.0,
+    "rho_a": 98.3,
+    "site": "RD-18"
+   },
+   {
+    "station": 20.0,
+    "rho_a": 16.1,
+    "site": "RD-20"
+   },
+   {
+    "station": 19.0,
+    "rho_a": 28.6,
+    "site": "RD-19"
+   },
+   {
+    "station": 147.0,
+    "rho_a": 63.7,
+    "site": "RD-147"
+   },
+   {
+    "station": 143.0,
+    "rho_a": 39.7,
+    "site": "RD-143"
+   },
+   {
+    "station": 142.0,
+    "rho_a": 32.8,
+    "site": "RD-142"
+   },
+   {
+    "station": 14.0,
+    "rho_a": 49.0,
+    "site": "RD-14"
+   },
+   {
+    "station": 141.0,
+    "rho_a": 17.1,
+    "site": "RD-141"
+   },
+   {
+    "station": 144.0,
+    "rho_a": 44.8,
+    "site": "RD-144"
+   },
+   {
+    "station": 38.0,
+    "rho_a": 85.7,
+    "site": "RD-38"
+   },
+   {
+    "station": 21.0,
+    "rho_a": 53.0,
+    "site": "RD-21"
+   },
+   {
+    "station": 23.0,
+    "rho_a": 66.3,
+    "site": "RD-23"
+   },
+   {
+    "station": 145.0,
+    "rho_a": 47.6,
+    "site": "RD-145"
+   },
+   {
+    "station": 9.0,
+    "rho_a": 29.8,
+    "site": "RD-9"
+   },
+   {
+    "station": 26.0,
+    "rho_a": 29.7,
+    "site": "RD-26"
+   },
+   {
+    "station": 139.0,
+    "rho_a": 45.2,
+    "site": "RD-139"
+   },
+   {
+    "station": 140.0,
+    "rho_a": 25.6,
+    "site": "RD-140"
+   },
+   {
+    "station": 146.0,
+    "rho_a": 29.8,
+    "site": "RD-146"
+   },
+   {
+    "station": 10.0,
+    "rho_a": 57.3,
+    "site": "RD-10"
+   },
+   {
+    "station": 22.0,
+    "rho_a": 72.7,
+    "site": "RD-22"
+   },
+   {
+    "station": 149.0,
+    "rho_a": 52.9,
+    "site": "RD-149"
+   },
+   {
+    "station": 25.0,
+    "rho_a": 70.6,
+    "site": "RD-25"
+   },
+   {
+    "station": 152.0,
+    "rho_a": 71.5,
+    "site": "RD-152"
+   },
+   {
+    "station": 155.0,
+    "rho_a": 46.2,
+    "site": "RD-155"
+   },
+   {
+    "station": 40.0,
+    "rho_a": 24.0,
+    "site": "RD-40"
+   },
+   {
+    "station": 24.0,
+    "rho_a": 58.0,
+    "site": "RD-24"
+   },
+   {
+    "station": 151.0,
+    "rho_a": 65.5,
+    "site": "RD-151"
+   },
+   {
+    "station": 28.0,
+    "rho_a": 67.4,
+    "site": "RD-28"
+   },
+   {
+    "station": 153.0,
+    "rho_a": 36.5,
+    "site": "RD-153"
+   },
+   {
+    "station": 156.0,
+    "rho_a": 17.7,
+    "site": "RD-156"
+   },
+   {
+    "station": 159.0,
+    "rho_a": 15.0,
+    "site": "RD-159"
+   },
+   {
+    "station": 35.0,
+    "rho_a": 67.5,
+    "site": "RD-35"
+   },
+   {
+    "station": 34.0,
+    "rho_a": 48.7,
+    "site": "RD-34"
+   },
+   {
+    "station": 160.0,
+    "rho_a": 9.5,
+    "site": "RD-160"
+   },
+   {
+    "station": 154.0,
+    "rho_a": 42.5,
+    "site": "RD-154"
+   },
+   {
+    "station": 43.0,
+    "rho_a": 9.4,
+    "site": "RD-43"
+   },
+   {
+    "station": 158.0,
+    "rho_a": 6.5,
+    "site": "RD-158"
+   },
+   {
+    "station": 162.0,
+    "rho_a": 35.7,
+    "site": "RD-162"
+   },
+   {
+    "station": 42.0,
+    "rho_a": 8.0,
+    "site": "RD-42"
+   },
+   {
+    "station": 461.0,
+    "rho_a": 31.2,
+    "site": "RD-461"
+   },
+   {
+    "station": 169.0,
+    "rho_a": 16.7,
+    "site": "RD-169"
+   },
+   {
+    "station": 171.0,
+    "rho_a": 10.0,
+    "site": "RD-171"
+   },
+   {
+    "station": 163.0,
+    "rho_a": 31.1,
+    "site": "RD-163"
+   },
+   {
+    "station": 164.0,
+    "rho_a": 36.4,
+    "site": "RD-164"
+   },
+   {
+    "station": 167.0,
+    "rho_a": 27.4,
+    "site": "RD-167"
+   },
+   {
+    "station": 172.0,
+    "rho_a": 18.0,
+    "site": "RD-172"
+   },
+   {
+    "station": 170.0,
+    "rho_a": 31.5,
+    "site": "RD-170"
+   },
+   {
+    "station": 166.0,
+    "rho_a": 33.4,
+    "site": "RD-166"
+   },
+   {
+    "station": 165.0,
+    "rho_a": 22.1,
+    "site": "RD-165"
+   },
+   {
+    "station": 173.0,
+    "rho_a": 24.4,
+    "site": "RD-173"
+   },
+   {
+    "station": 44.0,
+    "rho_a": 5.5,
+    "site": "RD-44"
+   }
+  ],
+  "source_dipole": [
+   {
+    "x": 174574,
+    "y": 227161,
+    "crs": "EPSG:28193",
+    "source": "map",
+    "accuracy_m": 100
+   },
+   {
+    "x": 174983,
+    "y": 225176,
+    "crs": "EPSG:28193",
+    "source": "map",
+    "accuracy_m": 100
+   }
+  ],
+  "provenance": {
+   "document": "maps",
+   "pages": [
+    5
+   ],
+   "figure": "Figure 5, source 43",
+   "method": "manual",
+   "tool": "geosigma.extract.yizreel_maps (positions by script, values by eye)",
+   "extracted_on": "2026-10-14"
+  },
+  "notes": "Apparent resistivity at 52 receiver stations for transmitter 43. 1 readings were hard to read."
+ },
+ {
+  "id": "rotstein-1977-yizreel-harod-roving-source-44",
+  "survey": "rotstein-1977-yizreel-harod",
+  "site": null,
+  "line": "Source 44",
+  "method": "DIPOLE",
+  "level": "L1",
+  "representation": "map_grid",
+  "array": "roving dipole",
+  "measured_on": null,
+  "confidence": "B",
+  "status": "draft",
+  "profile": [
+   {
+    "station": 16.0,
+    "rho_a": 28.9,
+    "site": "RD-16"
+   },
+   {
+    "station": 17.0,
+    "rho_a": 27.4,
+    "site": "RD-17"
+   },
+   {
+    "station": 20.0,
+    "rho_a": 30.5,
+    "site": "RD-20"
+   },
+   {
+    "station": 19.0,
+    "rho_a": 56.0,
+    "site": "RD-19"
+   },
+   {
+    "station": 147.0,
+    "rho_a": 38.3,
+    "site": "RD-147"
+   },
+   {
+    "station": 143.0,
+    "rho_a": 31.1,
+    "site": "RD-143"
+   },
+   {
+    "station": 142.0,
+    "rho_a": 26.9,
+    "site": "RD-142"
+   },
+   {
+    "station": 14.0,
+    "rho_a": 23.9,
+    "site": "RD-14"
+   },
+   {
+    "station": 141.0,
+    "rho_a": 43.2,
+    "site": "RD-141"
+   },
+   {
+    "station": 144.0,
+    "rho_a": 23.4,
+    "site": "RD-144"
+   },
+   {
+    "station": 13.0,
+    "rho_a": 51.7,
+    "site": "RD-13"
+   },
+   {
+    "station": 21.0,
+    "rho_a": 23.6,
+    "site": "RD-21"
+   },
+   {
+    "station": 23.0,
+    "rho_a": 57.0,
+    "site": "RD-23"
+   },
+   {
+    "station": 145.0,
+    "rho_a": 35.6,
+    "site": "RD-145"
+   },
+   {
+    "station": 148.0,
+    "rho_a": 45.2,
+    "site": "RD-148"
+   },
+   {
+    "station": 12.0,
+    "rho_a": 23.9,
+    "site": "RD-12"
+   },
+   {
+    "station": 9.0,
+    "rho_a": 42.0,
+    "site": "RD-9"
+   },
+   {
+    "station": 26.0,
+    "rho_a": 26.2,
+    "site": "RD-26"
+   },
+   {
+    "station": 139.0,
+    "rho_a": 15.4,
+    "site": "RD-139"
+   },
+   {
+    "station": 146.0,
+    "rho_a": 33.1,
+    "site": "RD-146"
+   },
+   {
+    "station": 140.0,
+    "rho_a": 47.4,
+    "site": "RD-140"
+   },
+   {
+    "station": 10.0,
+    "rho_a": 39.9,
+    "site": "RD-10"
+   },
+   {
+    "station": 22.0,
+    "rho_a": 76.2,
+    "site": "RD-22"
+   },
+   {
+    "station": 149.0,
+    "rho_a": 60.5,
+    "site": "RD-149"
+   },
+   {
+    "station": 25.0,
+    "rho_a": 31.0,
+    "site": "RD-25"
+   },
+   {
+    "station": 11.0,
+    "rho_a": 65.4,
+    "site": "RD-11"
+   },
+   {
+    "station": 150.0,
+    "rho_a": 39.8,
+    "site": "RD-150"
+   },
+   {
+    "station": 152.0,
+    "rho_a": 45.3,
+    "site": "RD-152"
+   },
+   {
+    "station": 155.0,
+    "rho_a": 40.6,
+    "site": "RD-155"
+   },
+   {
+    "station": 40.0,
+    "rho_a": 73.9,
+    "site": "RD-40"
+   },
+   {
+    "station": 24.0,
+    "rho_a": 30.3,
+    "site": "RD-24"
+   },
+   {
+    "station": 151.0,
+    "rho_a": 38.7,
+    "site": "RD-151"
+   },
+   {
+    "station": 28.0,
+    "rho_a": 21.7,
+    "site": "RD-28"
+   },
+   {
+    "station": 153.0,
+    "rho_a": 19.4,
+    "site": "RD-153"
+   },
+   {
+    "station": 156.0,
+    "rho_a": 18.4,
+    "site": "RD-156"
+   },
+   {
+    "station": 27.0,
+    "rho_a": 55.7,
+    "site": "RD-27"
+   },
+   {
+    "station": 35.0,
+    "rho_a": 18.1,
+    "site": "RD-35"
+   },
+   {
+    "station": 34.0,
+    "rho_a": 20.4,
+    "site": "RD-34"
+   },
+   {
+    "station": 160.0,
+    "rho_a": 19.0,
+    "site": "RD-160"
+   },
+   {
+    "station": 44.0,
+    "rho_a": 8.4,
+    "site": "RD-44"
+   },
+   {
+    "station": 43.0,
+    "rho_a": 13.4,
+    "site": "RD-43"
+   },
+   {
+    "station": 154.0,
+    "rho_a": 26.2,
+    "site": "RD-154"
+   },
+   {
+    "station": 158.0,
+    "rho_a": 16.0,
+    "site": "RD-158"
+   },
+   {
+    "station": 162.0,
+    "rho_a": 24.3,
+    "site": "RD-162"
+   },
+   {
+    "station": 42.0,
+    "rho_a": 13.9,
+    "site": "RD-42"
+   },
+   {
+    "station": 161.0,
+    "rho_a": 29.0,
+    "site": "RD-161"
+   },
+   {
+    "station": 168.0,
+    "rho_a": 28.0,
+    "site": "RD-168"
+   },
+   {
+    "station": 169.0,
+    "rho_a": 26.0,
+    "site": "RD-169"
+   },
+   {
+    "station": 41.0,
+    "rho_a": 20.9,
+    "site": "RD-41"
+   },
+   {
+    "station": 163.0,
+    "rho_a": 27.1,
+    "site": "RD-163"
+   },
+   {
+    "station": 164.0,
+    "rho_a": 33.02,
+    "site": "RD-164"
+   },
+   {
+    "station": 167.0,
+    "rho_a": 32.4,
+    "site": "RD-167"
+   },
+   {
+    "station": 170.0,
+    "rho_a": 46.3,
+    "site": "RD-170"
+   },
+   {
+    "station": 172.0,
+    "rho_a": 27.3,
+    "site": "RD-172"
+   },
+   {
+    "station": 166.0,
+    "rho_a": 35.1,
+    "site": "RD-166"
+   },
+   {
+    "station": 165.0,
+    "rho_a": 21.1,
+    "site": "RD-165"
+   },
+   {
+    "station": 173.0,
+    "rho_a": 44.4,
+    "site": "RD-173"
+   },
+   {
+    "station": 159.0,
+    "rho_a": 22.5,
+    "site": "RD-159"
+   },
+   {
+    "station": 171.0,
+    "rho_a": 23.4,
+    "site": "RD-171"
+   }
+  ],
+  "source_dipole": [
+   {
+    "x": 174622,
+    "y": 227171,
+    "crs": "EPSG:28193",
+    "source": "map",
+    "accuracy_m": 100
+   },
+   {
+    "x": 176524,
+    "y": 227593,
+    "crs": "EPSG:28193",
+    "source": "map",
+    "accuracy_m": 100
+   }
+  ],
+  "provenance": {
+   "document": "maps",
+   "pages": [
+    6
+   ],
+   "figure": "Figure 6, source 44",
+   "method": "manual",
+   "tool": "geosigma.extract.yizreel_maps (positions by script, values by eye)",
+   "extracted_on": "2026-10-14"
+  },
+  "notes": "Apparent resistivity at 59 receiver stations for transmitter 44. 1 readings were hard to read."
+ },
+ {
+  "id": "rotstein-1977-yizreel-harod-roving-source-45",
+  "survey": "rotstein-1977-yizreel-harod",
+  "site": null,
+  "line": "Source 45",
+  "method": "DIPOLE",
+  "level": "L1",
+  "representation": "map_grid",
+  "array": "roving dipole",
+  "measured_on": null,
+  "confidence": "B",
+  "status": "draft",
+  "profile": [
+   {
+    "station": 122.0,
+    "rho_a": 27.6,
+    "site": "RD-122"
+   },
+   {
+    "station": 120.0,
+    "rho_a": 17.3,
+    "site": "RD-120"
+   },
+   {
+    "station": 109.0,
+    "rho_a": 95.0,
+    "site": "RD-109"
+   },
+   {
+    "station": 119.0,
+    "rho_a": 11.3,
+    "site": "RD-119"
+   },
+   {
+    "station": 45.0,
+    "rho_a": 60.8,
+    "site": "RD-45"
+   },
+   {
+    "station": 107.0,
+    "rho_a": 17.3,
+    "site": "RD-107"
+   },
+   {
+    "station": 118.0,
+    "rho_a": 41.1,
+    "site": "RD-118"
+   },
+   {
+    "station": 108.0,
+    "rho_a": 20.8,
+    "site": "RD-108"
+   },
+   {
+    "station": 46.0,
+    "rho_a": 23.7,
+    "site": "RD-46"
+   },
+   {
+    "station": 115.0,
+    "rho_a": 14.4,
+    "site": "RD-115"
+   },
+   {
+    "station": 5.0,
+    "rho_a": 25.9,
+    "site": "RD-5"
+   },
+   {
+    "station": 113.0,
+    "rho_a": 21.1,
+    "site": "RD-113"
+   },
+   {
+    "station": 47.0,
+    "rho_a": 23.4,
+    "site": "RD-47"
+   },
+   {
+    "station": 114.0,
+    "rho_a": 24.4,
+    "site": "RD-114"
+   },
+   {
+    "station": 111.0,
+    "rho_a": 24.2,
+    "site": "RD-111"
+   },
+   {
+    "station": 48.0,
+    "rho_a": 19.9,
+    "site": "RD-48"
+   },
+   {
+    "station": 106.0,
+    "rho_a": 26.2,
+    "site": "RD-106"
+   },
+   {
+    "station": 112.0,
+    "rho_a": 18.2,
+    "site": "RD-112"
+   },
+   {
+    "station": 101.0,
+    "rho_a": 22.9,
+    "site": "RD-101"
+   },
+   {
+    "station": 105.0,
+    "rho_a": 21.2,
+    "site": "RD-105"
+   },
+   {
+    "station": 102.0,
+    "rho_a": 20.8,
+    "site": "RD-102"
+   },
+   {
+    "station": 104.0,
+    "rho_a": 19.1,
+    "site": "RD-104"
+   },
+   {
+    "station": 103.0,
+    "rho_a": 8.7,
+    "site": "RD-103"
+   },
+   {
+    "station": 117.0,
+    "rho_a": 11.2,
+    "site": "RD-117"
+   },
+   {
+    "station": 116.0,
+    "rho_a": 14.3,
+    "site": "RD-116"
+   }
+  ],
+  "source_dipole": [
+   {
+    "x": 161723,
+    "y": 232118,
+    "crs": "EPSG:28193",
+    "source": "map",
+    "accuracy_m": 100
+   },
+   {
+    "x": 162672,
+    "y": 233650,
+    "crs": "EPSG:28193",
+    "source": "map",
+    "accuracy_m": 100
+   }
+  ],
+  "provenance": {
+   "document": "maps",
+   "pages": [
+    7
+   ],
+   "figure": "Figure 7, source 45",
+   "method": "manual",
+   "tool": "geosigma.extract.yizreel_maps (positions by script, values by eye)",
+   "extracted_on": "2026-10-14"
+  },
+  "notes": "Apparent resistivity at 25 receiver stations for transmitter 45."
+ },
+ {
+  "id": "rotstein-1977-yizreel-harod-roving-source-46",
+  "survey": "rotstein-1977-yizreel-harod",
+  "site": null,
+  "line": "Source 46",
+  "method": "DIPOLE",
+  "level": "L1",
+  "representation": "map_grid",
+  "array": "roving dipole",
+  "measured_on": null,
+  "confidence": "B",
+  "status": "draft",
+  "profile": [
+   {
+    "station": 122.0,
+    "rho_a": 21.0,
+    "site": "RD-122"
+   },
+   {
+    "station": 120.0,
+    "rho_a": 15.7,
+    "site": "RD-120"
+   },
+   {
+    "station": 109.0,
+    "rho_a": 87.9,
+    "site": "RD-109"
+   },
+   {
+    "station": 119.0,
+    "rho_a": 21.8,
+    "site": "RD-119"
+   },
+   {
+    "station": 45.0,
+    "rho_a": 19.6,
+    "site": "RD-45"
+   },
+   {
+    "station": 107.0,
+    "rho_a": 19.3,
+    "site": "RD-107"
+   },
+   {
+    "station": 117.0,
+    "rho_a": 8.4,
+    "site": "RD-117"
+   },
+   {
+    "station": 118.0,
+    "rho_a": 29.0,
+    "site": "RD-118"
+   },
+   {
+    "station": 108.0,
+    "rho_a": 8.7,
+    "site": "RD-108"
+   },
+   {
+    "station": 116.0,
+    "rho_a": 7.7,
+    "site": "RD-116"
+   },
+   {
+    "station": 46.0,
+    "rho_a": 10.1,
+    "site": "RD-46"
+   },
+   {
+    "station": 115.0,
+    "rho_a": 4.8,
+    "site": "RD-115"
+   },
+   {
+    "station": 113.0,
+    "rho_a": 7.6,
+    "site": "RD-113"
+   },
+   {
+    "station": 47.0,
+    "rho_a": 52.1,
+    "site": "RD-47"
+   },
+   {
+    "station": 114.0,
+    "rho_a": 7.6,
+    "site": "RD-114"
+   },
+   {
+    "station": 111.0,
+    "rho_a": 9.1,
+    "site": "RD-111"
+   },
+   {
+    "station": 48.0,
+    "rho_a": 8.1,
+    "site": "RD-48"
+   },
+   {
+    "station": 106.0,
+    "rho_a": 7.5,
+    "site": "RD-106"
+   },
+   {
+    "station": 112.0,
+    "rho_a": 17.3,
+    "site": "RD-112"
+   },
+   {
+    "station": 101.0,
+    "rho_a": 5.7,
+    "site": "RD-101"
+   },
+   {
+    "station": 105.0,
+    "rho_a": 7.6,
+    "site": "RD-105"
+   },
+   {
+    "station": 102.0,
+    "rho_a": 14.3,
+    "site": "RD-102"
+   },
+   {
+    "station": 104.0,
+    "rho_a": 13.2,
+    "site": "RD-104"
+   },
+   {
+    "station": 103.0,
+    "rho_a": 7.7,
+    "site": "RD-103"
+   },
+   {
+    "station": 5.0,
+    "rho_a": 7.8,
+    "site": "RD-5"
+   }
+  ],
+  "source_dipole": [
+   {
+    "x": 160202,
+    "y": 233168,
+    "crs": "EPSG:28193",
+    "source": "map",
+    "accuracy_m": 100
+   },
+   {
+    "x": 161734,
+    "y": 232156,
+    "crs": "EPSG:28193",
+    "source": "map",
+    "accuracy_m": 100
+   }
+  ],
+  "provenance": {
+   "document": "maps",
+   "pages": [
+    8
+   ],
+   "figure": "Figure 8, source 46",
+   "method": "manual",
+   "tool": "geosigma.extract.yizreel_maps (positions by script, values by eye)",
+   "extracted_on": "2026-10-14"
+  },
+  "notes": "Apparent resistivity at 25 receiver stations for transmitter 46."
+ },
+ {
+  "id": "rotstein-1977-yizreel-harod-roving-source-47",
+  "survey": "rotstein-1977-yizreel-harod",
+  "site": null,
+  "line": "Source 47",
+  "method": "DIPOLE",
+  "level": "L1",
+  "representation": "map_grid",
+  "array": "roving dipole",
+  "measured_on": null,
+  "confidence": "B",
+  "status": "draft",
+  "profile": [
+   {
+    "station": 44.0,
+    "rho_a": 24.0,
+    "site": "RD-44"
+   },
+   {
+    "station": 43.0,
+    "rho_a": 16.0,
+    "site": "RD-43"
+   },
+   {
+    "station": 53.0,
+    "rho_a": 14.0,
+    "site": "RD-53"
+   },
+   {
+    "station": 49.0,
+    "rho_a": 22.6,
+    "site": "RD-49"
+   },
+   {
+    "station": 54.0,
+    "rho_a": 20.7,
+    "site": "RD-54"
+   },
+   {
+    "station": 42.0,
+    "rho_a": 17.6,
+    "site": "RD-42"
+   },
+   {
+    "station": 161.0,
+    "rho_a": 21.5,
+    "site": "RD-161"
+   },
+   {
+    "station": 50.0,
+    "rho_a": 22.7,
+    "site": "RD-50"
+   },
+   {
+    "station": 203.0,
+    "rho_a": 15.7,
+    "site": "RD-203"
+   },
+   {
+    "station": 69.0,
+    "rho_a": 14.2,
+    "site": "RD-69"
+   },
+   {
+    "station": 57.0,
+    "rho_a": 22.8,
+    "site": "RD-57"
+   },
+   {
+    "station": 51.0,
+    "rho_a": 14.0,
+    "site": "RD-51"
+   },
+   {
+    "station": 55.0,
+    "rho_a": 20.0,
+    "site": "RD-55"
+   },
+   {
+    "station": 58.0,
+    "rho_a": 23.1,
+    "site": "RD-58"
+   },
+   {
+    "station": 171.0,
+    "rho_a": 17.7,
+    "site": "RD-171"
+   },
+   {
+    "station": 41.0,
+    "rho_a": 18.4,
+    "site": "RD-41"
+   },
+   {
+    "station": 68.0,
+    "rho_a": 6.6,
+    "site": "RD-68"
+   },
+   {
+    "station": 52.0,
+    "rho_a": 9.5,
+    "site": "RD-52"
+   },
+   {
+    "station": 175.0,
+    "rho_a": 42.5,
+    "site": "RD-175"
+   },
+   {
+    "station": 70.0,
+    "rho_a": 36.3,
+    "site": "RD-70"
+   },
+   {
+    "station": 56.0,
+    "rho_a": 11.2,
+    "site": "RD-56"
+   },
+   {
+    "station": 163.0,
+    "rho_a": 30.6,
+    "site": "RD-163"
+   },
+   {
+    "station": 167.0,
+    "rho_a": 59.1,
+    "site": "RD-167"
+   },
+   {
+    "station": 170.0,
+    "rho_a": 65.2,
+    "site": "RD-170"
+   },
+   {
+    "station": 172.0,
+    "rho_a": 48.8,
+    "site": "RD-172"
+   },
+   {
+    "station": 67.0,
+    "rho_a": 14.4,
+    "site": "RD-67"
+   },
+   {
+    "station": 66.0,
+    "rho_a": 5.4,
+    "site": "RD-66"
+   },
+   {
+    "station": 174.0,
+    "rho_a": 19.3,
+    "site": "RD-174"
+   },
+   {
+    "station": 205.0,
+    "rho_a": 20.6,
+    "site": "RD-205"
+   },
+   {
+    "station": 204.0,
+    "rho_a": 7.0,
+    "site": "RD-204"
+   },
+   {
+    "station": 176.0,
+    "rho_a": 41.7,
+    "site": "RD-176"
+   },
+   {
+    "station": 60.0,
+    "rho_a": 15.5,
+    "site": "RD-60"
+   },
+   {
+    "station": 173.0,
+    "rho_a": 29.9,
+    "site": "RD-173"
+   },
+   {
+    "station": 184.0,
+    "rho_a": 64.5,
+    "site": "RD-184"
+   },
+   {
+    "station": 61.0,
+    "rho_a": 21.7,
+    "site": "RD-61"
+   },
+   {
+    "station": 63.0,
+    "rho_a": 14.5,
+    "site": "RD-63"
+   },
+   {
+    "station": 96.0,
+    "rho_a": 8.6,
+    "site": "RD-96"
+   },
+   {
+    "station": 62.0,
+    "rho_a": 21.5,
+    "site": "RD-62"
+   },
+   {
+    "station": 182.0,
+    "rho_a": 83.0,
+    "site": "RD-182"
+   },
+   {
+    "station": 97.0,
+    "rho_a": 10.7,
+    "site": "RD-97"
+   },
+   {
+    "station": 177.0,
+    "rho_a": 15.8,
+    "site": "RD-177"
+   },
+   {
+    "station": 98.0,
+    "rho_a": 17.0,
+    "site": "RD-98"
+   },
+   {
+    "station": 191.0,
+    "rho_a": 46.1,
+    "site": "RD-191"
+   },
+   {
+    "station": 181.0,
+    "rho_a": 34.8,
+    "site": "RD-181"
+   },
+   {
+    "station": 79.0,
+    "rho_a": 1.9,
+    "site": "RD-79"
+   },
+   {
+    "station": 178.0,
+    "rho_a": 32.8,
+    "site": "RD-178"
+   },
+   {
+    "station": 72.0,
+    "rho_a": 21.7,
+    "site": "RD-72"
+   },
+   {
+    "station": 71.0,
+    "rho_a": 36.3,
+    "site": "RD-71"
+   },
+   {
+    "station": 73.0,
+    "rho_a": 20.4,
+    "site": "RD-73"
+   },
+   {
+    "station": 190.0,
+    "rho_a": 26.6,
+    "site": "RD-190"
+   },
+   {
+    "station": 93.0,
+    "rho_a": 19.7,
+    "site": "RD-93"
+   },
+   {
+    "station": 189.0,
+    "rho_a": 35.8,
+    "site": "RD-189"
+   },
+   {
+    "station": 188.0,
+    "rho_a": 31.0,
+    "site": "RD-188"
+   },
+   {
+    "station": 187.0,
+    "rho_a": 13.9,
+    "site": "RD-187"
+   },
+   {
+    "station": 74.0,
+    "rho_a": 12.9,
+    "site": "RD-74"
+   },
+   {
+    "station": 94.0,
+    "rho_a": 34.0,
+    "site": "RD-94"
+   },
+   {
+    "station": 89.0,
+    "rho_a": 26.4,
+    "site": "RD-89"
+   },
+   {
+    "station": 78.0,
+    "rho_a": 22.7,
+    "site": "RD-78"
+   },
+   {
+    "station": 77.0,
+    "rho_a": 31.5,
+    "site": "RD-77"
+   },
+   {
+    "station": 92.0,
+    "rho_a": 25.7,
+    "site": "RD-92"
+   },
+   {
+    "station": 192.0,
+    "rho_a": 30.6,
+    "site": "RD-192"
+   },
+   {
+    "station": 301.0,
+    "rho_a": 14.5,
+    "site": "RD-301"
+   },
+   {
+    "station": 195.0,
+    "rho_a": 50.5,
+    "site": "RD-195"
+   },
+   {
+    "station": 95.0,
+    "rho_a": 22.0,
+    "site": "RD-95"
+   },
+   {
+    "station": 75.0,
+    "rho_a": 56.3,
+    "site": "RD-75"
+   },
+   {
+    "station": 194.0,
+    "rho_a": 31.4,
+    "site": "RD-194"
+   },
+   {
+    "station": 99.0,
+    "rho_a": 31.0,
+    "site": "RD-99"
+   },
+   {
+    "station": 90.0,
+    "rho_a": 26.0,
+    "site": "RD-90"
+   },
+   {
+    "station": 91.0,
+    "rho_a": 45.7,
+    "site": "RD-91"
+   },
+   {
+    "station": 199.0,
+    "rho_a": 72.1,
+    "site": "RD-199"
+   },
+   {
+    "station": 80.0,
+    "rho_a": 40.0,
+    "site": "RD-80"
+   },
+   {
+    "station": 193.0,
+    "rho_a": 29.3,
+    "site": "RD-193"
+   },
+   {
+    "station": 196.0,
+    "rho_a": 40.4,
+    "site": "RD-196"
+   },
+   {
+    "station": 100.0,
+    "rho_a": 13.3,
+    "site": "RD-100"
+   },
+   {
+    "station": 198.0,
+    "rho_a": 41.1,
+    "site": "RD-198"
+   },
+   {
+    "station": 197.0,
+    "rho_a": 33.9,
+    "site": "RD-197"
+   },
+   {
+    "station": 88.0,
+    "rho_a": 34.4,
+    "site": "RD-88"
+   },
+   {
+    "station": 81.0,
+    "rho_a": 22.0,
+    "site": "RD-81"
+   },
+   {
+    "station": 201.0,
+    "rho_a": 26.3,
+    "site": "RD-201"
+   },
+   {
+    "station": 87.0,
+    "rho_a": 37.5,
+    "site": "RD-87"
+   },
+   {
+    "station": 82.0,
+    "rho_a": 25.6,
+    "site": "RD-82"
+   },
+   {
+    "station": 85.0,
+    "rho_a": 27.6,
+    "site": "RD-85"
+   },
+   {
+    "station": 202.0,
+    "rho_a": 25.9,
+    "site": "RD-202"
+   },
+   {
+    "station": 84.0,
+    "rho_a": 16.9,
+    "site": "RD-84"
+   },
+   {
+    "station": 64.0,
+    "rho_a": 1.8,
+    "site": "RD-64"
+   },
+   {
+    "station": 65.0,
+    "rho_a": 4.8,
+    "site": "RD-65"
+   },
+   {
+    "station": 180.0,
+    "rho_a": 23.0,
+    "site": "RD-180"
+   },
+   {
+    "station": 185.0,
+    "rho_a": 54.6,
+    "site": "RD-185"
+   }
+  ],
+  "source_dipole": [
+   {
+    "x": 171219,
+    "y": 221115,
+    "crs": "EPSG:28193",
+    "source": "map",
+    "accuracy_m": 100
+   },
+   {
+    "x": 172225,
+    "y": 219970,
+    "crs": "EPSG:28193",
+    "source": "map",
+    "accuracy_m": 100
+   }
+  ],
+  "provenance": {
+   "document": "maps",
+   "pages": [
+    9
+   ],
+   "figure": "Figure 9, source 47",
+   "method": "manual",
+   "tool": "geosigma.extract.yizreel_maps (positions by script, values by eye)",
+   "extracted_on": "2026-10-14"
+  },
+  "notes": "Apparent resistivity at 88 receiver stations for transmitter 47."
+ },
+ {
+  "id": "rotstein-1977-yizreel-harod-roving-source-48",
+  "survey": "rotstein-1977-yizreel-harod",
+  "site": null,
+  "line": "Source 48",
+  "method": "DIPOLE",
+  "level": "L1",
+  "representation": "map_grid",
+  "array": "roving dipole",
+  "measured_on": null,
+  "confidence": "B",
+  "status": "draft",
+  "profile": [
+   {
+    "station": 43.0,
+    "rho_a": 6.7,
+    "site": "RD-43"
+   },
+   {
+    "station": 44.0,
+    "rho_a": 6.7,
+    "site": "RD-44"
+   },
+   {
+    "station": 53.0,
+    "rho_a": 10.0,
+    "site": "RD-53"
+   },
+   {
+    "station": 49.0,
+    "rho_a": 15.7,
+    "site": "RD-49"
+   },
+   {
+    "station": 54.0,
+    "rho_a": 8.3,
+    "site": "RD-54"
+   },
+   {
+    "station": 42.0,
+    "rho_a": 7.6,
+    "site": "RD-42"
+   },
+   {
+    "station": 161.0,
+    "rho_a": 12.3,
+    "site": "RD-161"
+   },
+   {
+    "station": 203.0,
+    "rho_a": 9.1,
+    "site": "RD-203"
+   },
+   {
+    "station": 50.0,
+    "rho_a": 8.5,
+    "site": "RD-50"
+   },
+   {
+    "station": 69.0,
+    "rho_a": 37.8,
+    "site": "RD-69"
+   },
+   {
+    "station": 57.0,
+    "rho_a": 26.3,
+    "site": "RD-57"
+   },
+   {
+    "station": 51.0,
+    "rho_a": 14.4,
+    "site": "RD-51"
+   },
+   {
+    "station": 55.0,
+    "rho_a": 13.2,
+    "site": "RD-55"
+   },
+   {
+    "station": 58.0,
+    "rho_a": 36.9,
+    "site": "RD-58"
+   },
+   {
+    "station": 41.0,
+    "rho_a": 4.7,
+    "site": "RD-41"
+   },
+   {
+    "station": 68.0,
+    "rho_a": 38.2,
+    "site": "RD-68"
+   },
+   {
+    "station": 52.0,
+    "rho_a": 26.9,
+    "site": "RD-52"
+   },
+   {
+    "station": 70.0,
+    "rho_a": 52.3,
+    "site": "RD-70"
+   },
+   {
+    "station": 56.0,
+    "rho_a": 10.4,
+    "site": "RD-56"
+   },
+   {
+    "station": 163.0,
+    "rho_a": 14.5,
+    "site": "RD-163"
+   },
+   {
+    "station": 67.0,
+    "rho_a": 19.1,
+    "site": "RD-67"
+   },
+   {
+    "station": 66.0,
+    "rho_a": 27.6,
+    "site": "RD-66"
+   },
+   {
+    "station": 205.0,
+    "rho_a": 35.2,
+    "site": "RD-205"
+   },
+   {
+    "station": 64.0,
+    "rho_a": 12.6,
+    "site": "RD-64"
+   },
+   {
+    "station": 204.0,
+    "rho_a": 24.7,
+    "site": "RD-204"
+   },
+   {
+    "station": 176.0,
+    "rho_a": 16.4,
+    "site": "RD-176"
+   },
+   {
+    "station": 60.0,
+    "rho_a": 46.9,
+    "site": "RD-60"
+   },
+   {
+    "station": 65.0,
+    "rho_a": 20.8,
+    "site": "RD-65"
+   },
+   {
+    "station": 184.0,
+    "rho_a": 36.5,
+    "site": "RD-184"
+   },
+   {
+    "station": 61.0,
+    "rho_a": 76.8,
+    "site": "RD-61"
+   },
+   {
+    "station": 180.0,
+    "rho_a": 7.4,
+    "site": "RD-180"
+   },
+   {
+    "station": 63.0,
+    "rho_a": 27.0,
+    "site": "RD-63"
+   },
+   {
+    "station": 185.0,
+    "rho_a": 39.4,
+    "site": "RD-185"
+   },
+   {
+    "station": 96.0,
+    "rho_a": 12.3,
+    "site": "RD-96"
+   },
+   {
+    "station": 62.0,
+    "rho_a": 52.2,
+    "site": "RD-62"
+   },
+   {
+    "station": 97.0,
+    "rho_a": 12.7,
+    "site": "RD-97"
+   },
+   {
+    "station": 182.0,
+    "rho_a": 51.6,
+    "site": "RD-182"
+   },
+   {
+    "station": 177.0,
+    "rho_a": 16.0,
+    "site": "RD-177"
+   },
+   {
+    "station": 98.0,
+    "rho_a": 17.7,
+    "site": "RD-98"
+   },
+   {
+    "station": 191.0,
+    "rho_a": 23.2,
+    "site": "RD-191"
+   },
+   {
+    "station": 181.0,
+    "rho_a": 31.4,
+    "site": "RD-181"
+   },
+   {
+    "station": 79.0,
+    "rho_a": 20.3,
+    "site": "RD-79"
+   },
+   {
+    "station": 178.0,
+    "rho_a": 32.6,
+    "site": "RD-178"
+   },
+   {
+    "station": 72.0,
+    "rho_a": 27.0,
+    "site": "RD-72"
+   },
+   {
+    "station": 186.0,
+    "rho_a": 17.7,
+    "site": "RD-186"
+   },
+   {
+    "station": 71.0,
+    "rho_a": 41.1,
+    "site": "RD-71"
+   },
+   {
+    "station": 190.0,
+    "rho_a": 34.2,
+    "site": "RD-190"
+   },
+   {
+    "station": 93.0,
+    "rho_a": 30.0,
+    "site": "RD-93"
+   },
+   {
+    "station": 73.0,
+    "rho_a": 16.0,
+    "site": "RD-73"
+   },
+   {
+    "station": 189.0,
+    "rho_a": 36.7,
+    "site": "RD-189"
+   },
+   {
+    "station": 188.0,
+    "rho_a": 27.7,
+    "site": "RD-188"
+   },
+   {
+    "station": 187.0,
+    "rho_a": 29.6,
+    "site": "RD-187"
+   },
+   {
+    "station": 74.0,
+    "rho_a": 14.4,
+    "site": "RD-74"
+   },
+   {
+    "station": 94.0,
+    "rho_a": 21.7,
+    "site": "RD-94"
+   },
+   {
+    "station": 89.0,
+    "rho_a": 30.3,
+    "site": "RD-89"
+   },
+   {
+    "station": 78.0,
+    "rho_a": 20.0,
+    "site": "RD-78"
+   },
+   {
+    "station": 77.0,
+    "rho_a": 28.2,
+    "site": "RD-77"
+   },
+   {
+    "station": 200.0,
+    "rho_a": 30.3,
+    "site": "RD-200"
+   },
+   {
+    "station": 92.0,
+    "rho_a": 30.4,
+    "site": "RD-92"
+   },
+   {
+    "station": 192.0,
+    "rho_a": 37.1,
+    "site": "RD-192"
+   },
+   {
+    "station": 301.0,
+    "rho_a": 36.9,
+    "site": "RD-301"
+   },
+   {
+    "station": 195.0,
+    "rho_a": 43.1,
+    "site": "RD-195"
+   },
+   {
+    "station": 95.0,
+    "rho_a": 27.1,
+    "site": "RD-95"
+   },
+   {
+    "station": 75.0,
+    "rho_a": 33.6,
+    "site": "RD-75"
+   },
+   {
+    "station": 76.0,
+    "rho_a": 15.1,
+    "site": "RD-76"
+   },
+   {
+    "station": 194.0,
+    "rho_a": 44.2,
+    "site": "RD-194"
+   },
+   {
+    "station": 99.0,
+    "rho_a": 35.2,
+    "site": "RD-99"
+   },
+   {
+    "station": 90.0,
+    "rho_a": 31.4,
+    "site": "RD-90"
+   },
+   {
+    "station": 91.0,
+    "rho_a": 47.6,
+    "site": "RD-91"
+   },
+   {
+    "station": 199.0,
+    "rho_a": 72.4,
+    "site": "RD-199"
+   },
+   {
+    "station": 193.0,
+    "rho_a": 48.1,
+    "site": "RD-193"
+   },
+   {
+    "station": 80.0,
+    "rho_a": 50.5,
+    "site": "RD-80"
+   },
+   {
+    "station": 196.0,
+    "rho_a": 36.3,
+    "site": "RD-196"
+   },
+   {
+    "station": 100.0,
+    "rho_a": 15.6,
+    "site": "RD-100"
+   },
+   {
+    "station": 198.0,
+    "rho_a": 52.7,
+    "site": "RD-198"
+   },
+   {
+    "station": 197.0,
+    "rho_a": 22.0,
+    "site": "RD-197"
+   },
+   {
+    "station": 88.0,
+    "rho_a": 38.4,
+    "site": "RD-88"
+   },
+   {
+    "station": 81.0,
+    "rho_a": 25.7,
+    "site": "RD-81"
+   },
+   {
+    "station": 201.0,
+    "rho_a": 21.9,
+    "site": "RD-201"
+   },
+   {
+    "station": 87.0,
+    "rho_a": 35.2,
+    "site": "RD-87"
+   },
+   {
+    "station": 82.0,
+    "rho_a": 31.5,
+    "site": "RD-82"
+   },
+   {
+    "station": 85.0,
+    "rho_a": 28.5,
+    "site": "RD-85"
+   },
+   {
+    "station": 202.0,
+    "rho_a": 28.1,
+    "site": "RD-202"
+   },
+   {
+    "station": 183.0,
+    "rho_a": 2.8,
+    "site": "RD-183"
+   }
+  ],
+  "source_dipole": [
+   {
+    "x": 173512,
+    "y": 221249,
+    "crs": "EPSG:28193",
+    "source": "map",
+    "accuracy_m": 100
+   },
+   {
+    "x": 172300,
+    "y": 219959,
+    "crs": "EPSG:28193",
+    "source": "map",
+    "accuracy_m": 100
+   }
+  ],
+  "provenance": {
+   "document": "maps",
+   "pages": [
+    10
+   ],
+   "figure": "Figure 10, source 48",
+   "method": "manual",
+   "tool": "geosigma.extract.yizreel_maps (positions by script, values by eye)",
+   "extracted_on": "2026-10-14"
+  },
+  "notes": "Apparent resistivity at 84 receiver stations for transmitter 48."
+ },
+ {
+  "id": "rotstein-1977-yizreel-harod-roving-source-49",
+  "survey": "rotstein-1977-yizreel-harod",
+  "site": null,
+  "line": "Source 49",
+  "method": "DIPOLE",
+  "level": "L1",
+  "representation": "map_grid",
+  "array": "roving dipole",
+  "measured_on": null,
+  "confidence": "B",
+  "status": "draft",
+  "profile": [
+   {
+    "station": 223.0,
+    "rho_a": 24.7,
+    "site": "RD-223"
+   },
+   {
+    "station": 222.0,
+    "rho_a": 18.3,
+    "site": "RD-222"
+   },
+   {
+    "station": 221.0,
+    "rho_a": 17.4,
+    "site": "RD-221"
+   },
+   {
+    "station": 248.0,
+    "rho_a": 16.5,
+    "site": "RD-248"
+   },
+   {
+    "station": 224.0,
+    "rho_a": 17.5,
+    "site": "RD-224"
+   },
+   {
+    "station": 238.0,
+    "rho_a": 29.9,
+    "site": "RD-238"
+   },
+   {
+    "station": 247.0,
+    "rho_a": 29.1,
+    "site": "RD-247"
+   },
+   {
+    "station": 239.0,
+    "rho_a": 21.5,
+    "site": "RD-239"
+   },
+   {
+    "station": 233.0,
+    "rho_a": 18.6,
+    "site": "RD-233"
+   },
+   {
+    "station": 234.0,
+    "rho_a": 63.0,
+    "site": "RD-234"
+   },
+   {
+    "station": 235.0,
+    "rho_a": 30.0,
+    "site": "RD-235"
+   },
+   {
+    "station": 236.0,
+    "rho_a": 23.7,
+    "site": "RD-236"
+   },
+   {
+    "station": 242.0,
+    "rho_a": 17.8,
+    "site": "RD-242"
+   },
+   {
+    "station": 232.0,
+    "rho_a": 49.7,
+    "site": "RD-232"
+   },
+   {
+    "station": 327.0,
+    "rho_a": 6.2,
+    "site": "RD-327"
+   },
+   {
+    "station": 243.0,
+    "rho_a": 45.4,
+    "site": "RD-243"
+   },
+   {
+    "station": 241.0,
+    "rho_a": 20.7,
+    "site": "RD-241"
+   },
+   {
+    "station": 240.0,
+    "rho_a": 20.3,
+    "site": "RD-240"
+   },
+   {
+    "station": 231.0,
+    "rho_a": 44.9,
+    "site": "RD-231"
+   },
+   {
+    "station": 329.0,
+    "rho_a": 25.1,
+    "site": "RD-329"
+   },
+   {
+    "station": 326.0,
+    "rho_a": 20.9,
+    "site": "RD-326"
+   },
+   {
+    "station": 325.0,
+    "rho_a": 17.1,
+    "site": "RD-325"
+   },
+   {
+    "station": 244.0,
+    "rho_a": 39.5,
+    "site": "RD-244"
+   },
+   {
+    "station": 220.0,
+    "rho_a": 19.1,
+    "site": "RD-220"
+   },
+   {
+    "station": 180.0,
+    "rho_a": 17.1,
+    "site": "RD-180"
+   },
+   {
+    "station": 230.0,
+    "rho_a": 54.7,
+    "site": "RD-230"
+   },
+   {
+    "station": 245.0,
+    "rho_a": 24.4,
+    "site": "RD-245"
+   },
+   {
+    "station": 328.0,
+    "rho_a": 27.6,
+    "site": "RD-328"
+   },
+   {
+    "station": 182.0,
+    "rho_a": 9.0,
+    "site": "RD-182"
+   },
+   {
+    "station": 177.0,
+    "rho_a": 27.9,
+    "site": "RD-177"
+   },
+   {
+    "station": 219.0,
+    "rho_a": 68.7,
+    "site": "RD-219"
+   },
+   {
+    "station": 218.0,
+    "rho_a": 19.1,
+    "site": "RD-218"
+   },
+   {
+    "station": 228.0,
+    "rho_a": 54.3,
+    "site": "RD-228"
+   },
+   {
+    "station": 178.0,
+    "rho_a": 40.0,
+    "site": "RD-178"
+   },
+   {
+    "station": 330.0,
+    "rho_a": 39.8,
+    "site": "RD-330"
+   },
+   {
+    "station": 246.0,
+    "rho_a": 68.6,
+    "site": "RD-246"
+   },
+   {
+    "station": 217.0,
+    "rho_a": 48.3,
+    "site": "RD-217"
+   },
+   {
+    "station": 93.0,
+    "rho_a": 32.8,
+    "site": "RD-93"
+   },
+   {
+    "station": 190.0,
+    "rho_a": 85.7,
+    "site": "RD-190"
+   },
+   {
+    "station": 216.0,
+    "rho_a": 24.7,
+    "site": "RD-216"
+   },
+   {
+    "station": 213.0,
+    "rho_a": 24.0,
+    "site": "RD-213"
+   },
+   {
+    "station": 215.0,
+    "rho_a": 18.7,
+    "site": "RD-215"
+   },
+   {
+    "station": 89.0,
+    "rho_a": 44.6,
+    "site": "RD-89"
+   },
+   {
+    "station": 207.0,
+    "rho_a": 50.4,
+    "site": "RD-207"
+   },
+   {
+    "station": 214.0,
+    "rho_a": 58.0,
+    "site": "RD-214"
+   },
+   {
+    "station": 212.0,
+    "rho_a": 45.1,
+    "site": "RD-212"
+   },
+   {
+    "station": 208.0,
+    "rho_a": 70.0,
+    "site": "RD-208"
+   },
+   {
+    "station": 192.0,
+    "rho_a": 33.4,
+    "site": "RD-192"
+   },
+   {
+    "station": 209.0,
+    "rho_a": 94.8,
+    "site": "RD-209"
+   },
+   {
+    "station": 195.0,
+    "rho_a": 44.1,
+    "site": "RD-195"
+   },
+   {
+    "station": 210.0,
+    "rho_a": 81.9,
+    "site": "RD-210"
+   },
+   {
+    "station": 318.0,
+    "rho_a": 30.6,
+    "site": "RD-318"
+   },
+   {
+    "station": 225.0,
+    "rho_a": 40.6,
+    "site": "RD-225"
+   },
+   {
+    "station": 194.0,
+    "rho_a": 20.0,
+    "site": "RD-194"
+   },
+   {
+    "station": 90.0,
+    "rho_a": 27.6,
+    "site": "RD-90"
+   },
+   {
+    "station": 317.0,
+    "rho_a": 65.8,
+    "site": "RD-317"
+   },
+   {
+    "station": 226.0,
+    "rho_a": 63.1,
+    "site": "RD-226"
+   },
+   {
+    "station": 322.0,
+    "rho_a": 28.5,
+    "site": "RD-322"
+   },
+   {
+    "station": 199.0,
+    "rho_a": 21.7,
+    "site": "RD-199"
+   },
+   {
+    "station": 193.0,
+    "rho_a": 33.1,
+    "site": "RD-193"
+   },
+   {
+    "station": 319.0,
+    "rho_a": 41.0,
+    "site": "RD-319"
+   },
+   {
+    "station": 196.0,
+    "rho_a": 41.4,
+    "site": "RD-196"
+   },
+   {
+    "station": 227.0,
+    "rho_a": 131.6,
+    "site": "RD-227"
+   },
+   {
+    "station": 316.0,
+    "rho_a": 22.1,
+    "site": "RD-316"
+   },
+   {
+    "station": 197.0,
+    "rho_a": 40.9,
+    "site": "RD-197"
+   },
+   {
+    "station": 198.0,
+    "rho_a": 85.8,
+    "site": "RD-198"
+   },
+   {
+    "station": 321.0,
+    "rho_a": 43.3,
+    "site": "RD-321"
+   },
+   {
+    "station": 88.0,
+    "rho_a": 39.9,
+    "site": "RD-88"
+   },
+   {
+    "station": 86.0,
+    "rho_a": 56.0,
+    "site": "RD-86"
+   },
+   {
+    "station": 320.0,
+    "rho_a": 44.1,
+    "site": "RD-320"
+   },
+   {
+    "station": 315.0,
+    "rho_a": 52.2,
+    "site": "RD-315"
+   },
+   {
+    "station": 302.0,
+    "rho_a": 58.8,
+    "site": "RD-302"
+   },
+   {
+    "station": 331.0,
+    "rho_a": 55.2,
+    "site": "RD-331"
+   },
+   {
+    "station": 85.0,
+    "rho_a": 33.7,
+    "site": "RD-85"
+   },
+   {
+    "station": 308.0,
+    "rho_a": 69.8,
+    "site": "RD-308"
+   },
+   {
+    "station": 323.0,
+    "rho_a": 38.2,
+    "site": "RD-323"
+   },
+   {
+    "station": 314.0,
+    "rho_a": 43.7,
+    "site": "RD-314"
+   },
+   {
+    "station": 303.0,
+    "rho_a": 86.2,
+    "site": "RD-303"
+   },
+   {
+    "station": 84.0,
+    "rho_a": 53.5,
+    "site": "RD-84"
+   },
+   {
+    "station": 324.0,
+    "rho_a": 120.1,
+    "site": "RD-324"
+   },
+   {
+    "station": 309.0,
+    "rho_a": 72.6,
+    "site": "RD-309"
+   },
+   {
+    "station": 313.0,
+    "rho_a": 58.0,
+    "site": "RD-313"
+   },
+   {
+    "station": 304.0,
+    "rho_a": 67.6,
+    "site": "RD-304"
+   },
+   {
+    "station": 310.0,
+    "rho_a": 44.2,
+    "site": "RD-310"
+   },
+   {
+    "station": 312.0,
+    "rho_a": 76.4,
+    "site": "RD-312"
+   },
+   {
+    "station": 305.0,
+    "rho_a": 51.0,
+    "site": "RD-305"
+   },
+   {
+    "station": 311.0,
+    "rho_a": 50.6,
+    "site": "RD-311"
+   },
+   {
+    "station": 306.0,
+    "rho_a": 51.8,
+    "site": "RD-306"
+   },
+   {
+    "station": 307.0,
+    "rho_a": 49.6,
+    "site": "RD-307"
+   }
+  ],
+  "source_dipole": [
+   {
+    "x": 177286,
+    "y": 220689,
+    "crs": "EPSG:28193",
+    "source": "map",
+    "accuracy_m": 100
+   },
+   {
+    "x": 177332,
+    "y": 218675,
+    "crs": "EPSG:28193",
+    "source": "map",
+    "accuracy_m": 100
+   }
+  ],
+  "provenance": {
+   "document": "maps",
+   "pages": [
+    11
+   ],
+   "figure": "Figure 11, source 49",
+   "method": "manual",
+   "tool": "geosigma.extract.yizreel_maps (positions by script, values by eye)",
+   "extracted_on": "2026-10-14"
+  },
+  "notes": "Apparent resistivity at 89 receiver stations for transmitter 49."
+ },
+ {
+  "id": "rotstein-1977-yizreel-harod-roving-source-50",
+  "survey": "rotstein-1977-yizreel-harod",
+  "site": null,
+  "line": "Source 50",
+  "method": "DIPOLE",
+  "level": "L1",
+  "representation": "map_grid",
+  "array": "roving dipole",
+  "measured_on": null,
+  "confidence": "B",
+  "status": "draft",
+  "profile": [
+   {
+    "station": 223.0,
+    "rho_a": 22.6,
+    "site": "RD-223"
+   },
+   {
+    "station": 222.0,
+    "rho_a": 12.8,
+    "site": "RD-222"
+   },
+   {
+    "station": 221.0,
+    "rho_a": 13.7,
+    "site": "RD-221"
+   },
+   {
+    "station": 948.0,
+    "rho_a": 44.1,
+    "site": "RD-948"
+   },
+   {
+    "station": 224.0,
+    "rho_a": 18.4,
+    "site": "RD-224"
+   },
+   {
+    "station": 238.0,
+    "rho_a": 38.3,
+    "site": "RD-238"
+   },
+   {
+    "station": 247.0,
+    "rho_a": 36.6,
+    "site": "RD-247"
+   },
+   {
+    "station": 239.0,
+    "rho_a": 25.9,
+    "site": "RD-239"
+   },
+   {
+    "station": 233.0,
+    "rho_a": 74.7,
+    "site": "RD-233"
+   },
+   {
+    "station": 234.0,
+    "rho_a": 31.4,
+    "site": "RD-234"
+   },
+   {
+    "station": 236.0,
+    "rho_a": 40.1,
+    "site": "RD-236"
+   },
+   {
+    "station": 235.0,
+    "rho_a": 45.3,
+    "site": "RD-235"
+   },
+   {
+    "station": 242.0,
+    "rho_a": 30.0,
+    "site": "RD-242"
+   },
+   {
+    "station": 232.0,
+    "rho_a": 59.2,
+    "site": "RD-232"
+   },
+   {
+    "station": 243.0,
+    "rho_a": 44.7,
+    "site": "RD-243"
+   },
+   {
+    "station": 241.0,
+    "rho_a": 29.0,
+    "site": "RD-241"
+   },
+   {
+    "station": 240.0,
+    "rho_a": 28.0,
+    "site": "RD-240"
+   },
+   {
+    "station": 231.0,
+    "rho_a": 28.7,
+    "site": "RD-231"
+   },
+   {
+    "station": 329.0,
+    "rho_a": 33.0,
+    "site": "RD-329"
+   },
+   {
+    "station": 326.0,
+    "rho_a": 30.5,
+    "site": "RD-326"
+   },
+   {
+    "station": 325.0,
+    "rho_a": 26.0,
+    "site": "RD-325"
+   },
+   {
+    "station": 244.0,
+    "rho_a": 37.2,
+    "site": "RD-244"
+   },
+   {
+    "station": 220.0,
+    "rho_a": 18.0,
+    "site": "RD-220"
+   },
+   {
+    "station": 180.0,
+    "rho_a": 18.5,
+    "site": "RD-180"
+   },
+   {
+    "station": 230.0,
+    "rho_a": 28.7,
+    "site": "RD-230"
+   },
+   {
+    "station": 245.0,
+    "rho_a": 14.1,
+    "site": "RD-245"
+   },
+   {
+    "station": 328.0,
+    "rho_a": 24.4,
+    "site": "RD-328"
+   },
+   {
+    "station": 182.0,
+    "rho_a": 10.7,
+    "site": "RD-182"
+   },
+   {
+    "station": 177.0,
+    "rho_a": 20.8,
+    "site": "RD-177"
+   },
+   {
+    "station": 219.0,
+    "rho_a": 17.4,
+    "site": "RD-219"
+   },
+   {
+    "station": 228.0,
+    "rho_a": 65.5,
+    "site": "RD-228"
+   },
+   {
+    "station": 218.0,
+    "rho_a": 20.6,
+    "site": "RD-218"
+   },
+   {
+    "station": 178.0,
+    "rho_a": 32.4,
+    "site": "RD-178"
+   },
+   {
+    "station": 330.0,
+    "rho_a": 28.8,
+    "site": "RD-330"
+   },
+   {
+    "station": 246.0,
+    "rho_a": 24.9,
+    "site": "RD-246"
+   },
+   {
+    "station": 217.0,
+    "rho_a": 25.8,
+    "site": "RD-217"
+   },
+   {
+    "station": 93.0,
+    "rho_a": 21.3,
+    "site": "RD-93"
+   },
+   {
+    "station": 190.0,
+    "rho_a": 83.6,
+    "site": "RD-190"
+   },
+   {
+    "station": 215.0,
+    "rho_a": 8.6,
+    "site": "RD-215"
+   },
+   {
+    "station": 89.0,
+    "rho_a": 22.5,
+    "site": "RD-89"
+   },
+   {
+    "station": 207.0,
+    "rho_a": 31.5,
+    "site": "RD-207"
+   },
+   {
+    "station": 214.0,
+    "rho_a": 37.8,
+    "site": "RD-214"
+   },
+   {
+    "station": 212.0,
+    "rho_a": 24.3,
+    "site": "RD-212"
+   },
+   {
+    "station": 208.0,
+    "rho_a": 42.8,
+    "site": "RD-208"
+   },
+   {
+    "station": 92.0,
+    "rho_a": 54.2,
+    "site": "RD-92"
+   },
+   {
+    "station": 192.0,
+    "rho_a": 22.2,
+    "site": "RD-192"
+   },
+   {
+    "station": 209.0,
+    "rho_a": 33.8,
+    "site": "RD-209"
+   },
+   {
+    "station": 195.0,
+    "rho_a": 41.8,
+    "site": "RD-195"
+   },
+   {
+    "station": 210.0,
+    "rho_a": 49.2,
+    "site": "RD-210"
+   },
+   {
+    "station": 318.0,
+    "rho_a": 19.2,
+    "site": "RD-318"
+   },
+   {
+    "station": 211.0,
+    "rho_a": 18.9,
+    "site": "RD-211"
+   },
+   {
+    "station": 225.0,
+    "rho_a": 29.1,
+    "site": "RD-225"
+   },
+   {
+    "station": 194.0,
+    "rho_a": 14.8,
+    "site": "RD-194"
+   },
+   {
+    "station": 317.0,
+    "rho_a": 55.8,
+    "site": "RD-317"
+   },
+   {
+    "station": 90.0,
+    "rho_a": 93.7,
+    "site": "RD-90"
+   },
+   {
+    "station": 226.0,
+    "rho_a": 45.2,
+    "site": "RD-226"
+   },
+   {
+    "station": 199.0,
+    "rho_a": 37.9,
+    "site": "RD-199"
+   },
+   {
+    "station": 322.0,
+    "rho_a": 44.4,
+    "site": "RD-322"
+   },
+   {
+    "station": 193.0,
+    "rho_a": 29.4,
+    "site": "RD-193"
+   },
+   {
+    "station": 319.0,
+    "rho_a": 31.7,
+    "site": "RD-319"
+   },
+   {
+    "station": 196.0,
+    "rho_a": 39.7,
+    "site": "RD-196"
+   },
+   {
+    "station": 227.0,
+    "rho_a": 49.9,
+    "site": "RD-227"
+   },
+   {
+    "station": 197.0,
+    "rho_a": 45.4,
+    "site": "RD-197"
+   },
+   {
+    "station": 198.0,
+    "rho_a": 41.4,
+    "site": "RD-198"
+   },
+   {
+    "station": 321.0,
+    "rho_a": 41.9,
+    "site": "RD-321"
+   },
+   {
+    "station": 88.0,
+    "rho_a": 33.3,
+    "site": "RD-88"
+   },
+   {
+    "station": 86.0,
+    "rho_a": 49.5,
+    "site": "RD-86"
+   },
+   {
+    "station": 320.0,
+    "rho_a": 61.6,
+    "site": "RD-320"
+   },
+   {
+    "station": 315.0,
+    "rho_a": 48.0,
+    "site": "RD-315"
+   },
+   {
+    "station": 331.0,
+    "rho_a": 55.7,
+    "site": "RD-331"
+   },
+   {
+    "station": 85.0,
+    "rho_a": 78.6,
+    "site": "RD-85"
+   },
+   {
+    "station": 308.0,
+    "rho_a": 54.4,
+    "site": "RD-308"
+   },
+   {
+    "station": 323.0,
+    "rho_a": 56.0,
+    "site": "RD-323"
+   },
+   {
+    "station": 83.0,
+    "rho_a": 57.6,
+    "site": "RD-83"
+   },
+   {
+    "station": 314.0,
+    "rho_a": 43.9,
+    "site": "RD-314"
+   },
+   {
+    "station": 303.0,
+    "rho_a": 60.9,
+    "site": "RD-303"
+   },
+   {
+    "station": 84.0,
+    "rho_a": 29.0,
+    "site": "RD-84"
+   },
+   {
+    "station": 324.0,
+    "rho_a": 52.4,
+    "site": "RD-324"
+   },
+   {
+    "station": 309.0,
+    "rho_a": 47.8,
+    "site": "RD-309"
+   },
+   {
+    "station": 313.0,
+    "rho_a": 69.3,
+    "site": "RD-313"
+   },
+   {
+    "station": 304.0,
+    "rho_a": 59.2,
+    "site": "RD-304"
+   },
+   {
+    "station": 312.0,
+    "rho_a": 42.7,
+    "site": "RD-312"
+   },
+   {
+    "station": 305.0,
+    "rho_a": 51.0,
+    "site": "RD-305"
+   },
+   {
+    "station": 311.0,
+    "rho_a": 64.2,
+    "site": "RD-311"
+   },
+   {
+    "station": 306.0,
+    "rho_a": 56.8,
+    "site": "RD-306"
+   },
+   {
+    "station": 307.0,
+    "rho_a": 55.3,
+    "site": "RD-307"
+   },
+   {
+    "station": 327.0,
+    "rho_a": 14.8,
+    "site": "RD-327"
+   },
+   {
+    "station": 216.0,
+    "rho_a": 12.0,
+    "site": "RD-216"
+   },
+   {
+    "station": 213.0,
+    "rho_a": 13.8,
+    "site": "RD-213"
+   },
+   {
+    "station": 302.0,
+    "rho_a": 56.7,
+    "site": "RD-302"
+   }
+  ],
+  "source_dipole": [
+   {
+    "x": 177471,
+    "y": 218743,
+    "crs": "EPSG:28193",
+    "source": "map",
+    "accuracy_m": 100
+   },
+   {
+    "x": 179058,
+    "y": 218630,
+    "crs": "EPSG:28193",
+    "source": "map",
+    "accuracy_m": 100
+   }
+  ],
+  "provenance": {
+   "document": "maps",
+   "pages": [
+    12
+   ],
+   "figure": "Figure 12, source 50",
+   "method": "manual",
+   "tool": "geosigma.extract.yizreel_maps (positions by script, values by eye)",
+   "extracted_on": "2026-10-14"
+  },
+  "notes": "Apparent resistivity at 90 receiver stations for transmitter 50."
+ },
+ {
+  "id": "rotstein-1977-yizreel-harod-roving-source-51",
+  "survey": "rotstein-1977-yizreel-harod",
+  "site": null,
+  "line": "Source 51",
+  "method": "DIPOLE",
+  "level": "L1",
+  "representation": "map_grid",
+  "array": "roving dipole",
+  "measured_on": null,
+  "confidence": "B",
+  "status": "draft",
+  "profile": [
+   {
+    "station": 178.0,
+    "rho_a": 33.4,
+    "site": "RD-178"
+   },
+   {
+    "station": 189.0,
+    "rho_a": 58.5,
+    "site": "RD-189"
+   },
+   {
+    "station": 188.0,
+    "rho_a": 41.1,
+    "site": "RD-188"
+   },
+   {
+    "station": 187.0,
+    "rho_a": 44.5,
+    "site": "RD-187"
+   },
+   {
+    "station": 200.0,
+    "rho_a": 53.6,
+    "site": "RD-200"
+   },
+   {
+    "station": 92.0,
+    "rho_a": 47.8,
+    "site": "RD-92"
+   },
+   {
+    "station": 301.0,
+    "rho_a": 55.3,
+    "site": "RD-301"
+   },
+   {
+    "station": 195.0,
+    "rho_a": 45.2,
+    "site": "RD-195"
+   },
+   {
+    "station": 76.0,
+    "rho_a": 59.5,
+    "site": "RD-76"
+   },
+   {
+    "station": 75.0,
+    "rho_a": 53.3,
+    "site": "RD-75"
+   },
+   {
+    "station": 194.0,
+    "rho_a": 26.3,
+    "site": "RD-194"
+   },
+   {
+    "station": 99.0,
+    "rho_a": 46.5,
+    "site": "RD-99"
+   },
+   {
+    "station": 90.0,
+    "rho_a": 70.2,
+    "site": "RD-90"
+   },
+   {
+    "station": 317.0,
+    "rho_a": 77.8,
+    "site": "RD-317"
+   },
+   {
+    "station": 91.0,
+    "rho_a": 60.7,
+    "site": "RD-91"
+   },
+   {
+    "station": 199.0,
+    "rho_a": 51.7,
+    "site": "RD-199"
+   },
+   {
+    "station": 80.0,
+    "rho_a": 60.9,
+    "site": "RD-80"
+   },
+   {
+    "station": 196.0,
+    "rho_a": 45.9,
+    "site": "RD-196"
+   },
+   {
+    "station": 100.0,
+    "rho_a": 66.2,
+    "site": "RD-100"
+   },
+   {
+    "station": 316.0,
+    "rho_a": 105.3,
+    "site": "RD-316"
+   },
+   {
+    "station": 198.0,
+    "rho_a": 28.0,
+    "site": "RD-198"
+   },
+   {
+    "station": 197.0,
+    "rho_a": 30.8,
+    "site": "RD-197"
+   },
+   {
+    "station": 88.0,
+    "rho_a": 49.4,
+    "site": "RD-88"
+   },
+   {
+    "station": 86.0,
+    "rho_a": 49.2,
+    "site": "RD-86"
+   },
+   {
+    "station": 81.0,
+    "rho_a": 43.9,
+    "site": "RD-81"
+   },
+   {
+    "station": 201.0,
+    "rho_a": 101.9,
+    "site": "RD-201"
+   },
+   {
+    "station": 87.0,
+    "rho_a": 71.0,
+    "site": "RD-87"
+   },
+   {
+    "station": 82.0,
+    "rho_a": 54.9,
+    "site": "RD-82"
+   },
+   {
+    "station": 315.0,
+    "rho_a": 50.9,
+    "site": "RD-315"
+   },
+   {
+    "station": 302.0,
+    "rho_a": 38.2,
+    "site": "RD-302"
+   },
+   {
+    "station": 85.0,
+    "rho_a": 32.9,
+    "site": "RD-85"
+   },
+   {
+    "station": 202.0,
+    "rho_a": 70.3,
+    "site": "RD-202"
+   },
+   {
+    "station": 83.0,
+    "rho_a": 134.6,
+    "site": "RD-83"
+   },
+   {
+    "station": 314.0,
+    "rho_a": 76.7,
+    "site": "RD-314"
+   },
+   {
+    "station": 303.0,
+    "rho_a": 60.0,
+    "site": "RD-303"
+   },
+   {
+    "station": 250.0,
+    "rho_a": 38.4,
+    "site": "RD-250"
+   },
+   {
+    "station": 332.0,
+    "rho_a": 32.9,
+    "site": "RD-332"
+   },
+   {
+    "station": 310.0,
+    "rho_a": 45.0,
+    "site": "RD-310"
+   },
+   {
+    "station": 252.0,
+    "rho_a": 34.5,
+    "site": "RD-252"
+   },
+   {
+    "station": 312.0,
+    "rho_a": 60.6,
+    "site": "RD-312"
+   },
+   {
+    "station": 253.0,
+    "rho_a": 35.9,
+    "site": "RD-253"
+   },
+   {
+    "station": 311.0,
+    "rho_a": 78.6,
+    "site": "RD-311"
+   },
+   {
+    "station": 306.0,
+    "rho_a": 77.9,
+    "site": "RD-306"
+   },
+   {
+    "station": 307.0,
+    "rho_a": 56.5,
+    "site": "RD-307"
+   },
+   {
+    "station": 254.0,
+    "rho_a": 44.1,
+    "site": "RD-254"
+   }
+  ],
+  "source_dipole": [
+   {
+    "x": 176778,
+    "y": 214963,
+    "crs": "EPSG:28193",
+    "source": "map",
+    "accuracy_m": 100
+   },
+   {
+    "x": 176171,
+    "y": 213412,
+    "crs": "EPSG:28193",
+    "source": "map",
+    "accuracy_m": 100
+   }
+  ],
+  "provenance": {
+   "document": "maps",
+   "pages": [
+    13
+   ],
+   "figure": "Figure 13, source 51",
+   "method": "manual",
+   "tool": "geosigma.extract.yizreel_maps (positions by script, values by eye)",
+   "extracted_on": "2026-10-14"
+  },
+  "notes": "Apparent resistivity at 45 receiver stations for transmitter 51."
+ },
+ {
+  "id": "rotstein-1977-yizreel-harod-roving-source-52",
+  "survey": "rotstein-1977-yizreel-harod",
+  "site": null,
+  "line": "Source 52",
+  "method": "DIPOLE",
+  "level": "L1",
+  "representation": "map_grid",
+  "array": "roving dipole",
+  "measured_on": null,
+  "confidence": "B",
+  "status": "draft",
+  "profile": [
+   {
+    "station": 178.0,
+    "rho_a": 64.1,
+    "site": "RD-178"
+   },
+   {
+    "station": 190.0,
+    "rho_a": 40.7,
+    "site": "RD-190"
+   },
+   {
+    "station": 189.0,
+    "rho_a": 38.4,
+    "site": "RD-189"
+   },
+   {
+    "station": 188.0,
+    "rho_a": 65.0,
+    "site": "RD-188"
+   },
+   {
+    "station": 187.0,
+    "rho_a": 66.4,
+    "site": "RD-187"
+   },
+   {
+    "station": 200.0,
+    "rho_a": 77.9,
+    "site": "RD-200"
+   },
+   {
+    "station": 92.0,
+    "rho_a": 58.8,
+    "site": "RD-92"
+   },
+   {
+    "station": 301.0,
+    "rho_a": 64.6,
+    "site": "RD-301"
+   },
+   {
+    "station": 195.0,
+    "rho_a": 40.1,
+    "site": "RD-195"
+   },
+   {
+    "station": 75.0,
+    "rho_a": 77.6,
+    "site": "RD-75"
+   },
+   {
+    "station": 76.0,
+    "rho_a": 106.9,
+    "site": "RD-76"
+   },
+   {
+    "station": 99.0,
+    "rho_a": 88.2,
+    "site": "RD-99"
+   },
+   {
+    "station": 90.0,
+    "rho_a": 40.1,
+    "site": "RD-90"
+   },
+   {
+    "station": 317.0,
+    "rho_a": 126.5,
+    "site": "RD-317"
+   },
+   {
+    "station": 91.0,
+    "rho_a": 64.1,
+    "site": "RD-91"
+   },
+   {
+    "station": 80.0,
+    "rho_a": 97.2,
+    "site": "RD-80"
+   },
+   {
+    "station": 196.0,
+    "rho_a": 49.5,
+    "site": "RD-196"
+   },
+   {
+    "station": 100.0,
+    "rho_a": 53.2,
+    "site": "RD-100"
+   },
+   {
+    "station": 316.0,
+    "rho_a": 127.7,
+    "site": "RD-316"
+   },
+   {
+    "station": 197.0,
+    "rho_a": 49.0,
+    "site": "RD-197"
+   },
+   {
+    "station": 198.0,
+    "rho_a": 48.5,
+    "site": "RD-198"
+   },
+   {
+    "station": 88.0,
+    "rho_a": 39.7,
+    "site": "RD-88"
+   },
+   {
+    "station": 86.0,
+    "rho_a": 50.5,
+    "site": "RD-86"
+   },
+   {
+    "station": 81.0,
+    "rho_a": 45.1,
+    "site": "RD-81"
+   },
+   {
+    "station": 201.0,
+    "rho_a": 55.7,
+    "site": "RD-201"
+   },
+   {
+    "station": 87.0,
+    "rho_a": 43.0,
+    "site": "RD-87"
+   },
+   {
+    "station": 315.0,
+    "rho_a": 53.4,
+    "site": "RD-315"
+   },
+   {
+    "station": 82.0,
+    "rho_a": 44.9,
+    "site": "RD-82"
+   },
+   {
+    "station": 302.0,
+    "rho_a": 59.9,
+    "site": "RD-302"
+   },
+   {
+    "station": 85.0,
+    "rho_a": 29.0,
+    "site": "RD-85"
+   },
+   {
+    "station": 202.0,
+    "rho_a": 57.5,
+    "site": "RD-202"
+   },
+   {
+    "station": 314.0,
+    "rho_a": 61.1,
+    "site": "RD-314"
+   },
+   {
+    "station": 303.0,
+    "rho_a": 42.9,
+    "site": "RD-303"
+   },
+   {
+    "station": 251.0,
+    "rho_a": 44.2,
+    "site": "RD-251"
+   },
+   {
+    "station": 250.0,
+    "rho_a": 40.7,
+    "site": "RD-250"
+   },
+   {
+    "station": 332.0,
+    "rho_a": 25.5,
+    "site": "RD-332"
+   },
+   {
+    "station": 310.0,
+    "rho_a": 62.0,
+    "site": "RD-310"
+   },
+   {
+    "station": 252.0,
+    "rho_a": 37.3,
+    "site": "RD-252"
+   },
+   {
+    "station": 312.0,
+    "rho_a": 23.3,
+    "site": "RD-312"
+   },
+   {
+    "station": 253.0,
+    "rho_a": 35.2,
+    "site": "RD-253"
+   },
+   {
+    "station": 311.0,
+    "rho_a": 86.1,
+    "site": "RD-311"
+   },
+   {
+    "station": 306.0,
+    "rho_a": 52.2,
+    "site": "RD-306"
+   },
+   {
+    "station": 307.0,
+    "rho_a": 58.6,
+    "site": "RD-307"
+   },
+   {
+    "station": 254.0,
+    "rho_a": 32.3,
+    "site": "RD-254"
+   },
+   {
+    "station": 194.0,
+    "rho_a": 29.0,
+    "site": "RD-194"
+   }
+  ],
+  "source_dipole": [
+   {
+    "x": 174372,
+    "y": 214090,
+    "crs": "EPSG:28193",
+    "source": "map",
+    "accuracy_m": 100
+   },
+   {
+    "x": 176150,
+    "y": 213386,
+    "crs": "EPSG:28193",
+    "source": "map",
+    "accuracy_m": 100
+   }
+  ],
+  "provenance": {
+   "document": "maps",
+   "pages": [
+    14
+   ],
+   "figure": "Figure 14, source 52",
+   "method": "manual",
+   "tool": "geosigma.extract.yizreel_maps (positions by script, values by eye)",
+   "extracted_on": "2026-10-14"
+  },
+  "notes": "Apparent resistivity at 45 receiver stations for transmitter 52."
+ },
+ {
+  "id": "rotstein-1977-yizreel-harod-roving-source-53",
+  "survey": "rotstein-1977-yizreel-harod",
+  "site": null,
+  "line": "Source 53",
+  "method": "DIPOLE",
+  "level": "L1",
+  "representation": "map_grid",
+  "array": "roving dipole",
+  "measured_on": null,
+  "confidence": "B",
+  "status": "draft",
+  "profile": [
+   {
+    "station": 12.0,
+    "rho_a": 37.3,
+    "site": "RD-12"
+   },
+   {
+    "station": 343.0,
+    "rho_a": 17.6,
+    "site": "RD-343"
+   },
+   {
+    "station": 1.0,
+    "rho_a": 27.9,
+    "site": "RD-1"
+   },
+   {
+    "station": 25.0,
+    "rho_a": 35.0,
+    "site": "RD-25"
+   },
+   {
+    "station": 334.0,
+    "rho_a": 57.8,
+    "site": "RD-334"
+   },
+   {
+    "station": 11.0,
+    "rho_a": 30.8,
+    "site": "RD-11"
+   },
+   {
+    "station": 2.0,
+    "rho_a": 26.9,
+    "site": "RD-2"
+   },
+   {
+    "station": 29.0,
+    "rho_a": 29.6,
+    "site": "RD-29"
+   },
+   {
+    "station": 336.0,
+    "rho_a": 190.9,
+    "site": "RD-336"
+   },
+   {
+    "station": 335.0,
+    "rho_a": 168.0,
+    "site": "RD-335"
+   },
+   {
+    "station": 24.0,
+    "rho_a": 52.9,
+    "site": "RD-24"
+   },
+   {
+    "station": 340.0,
+    "rho_a": 177.1,
+    "site": "RD-340"
+   },
+   {
+    "station": 337.0,
+    "rho_a": 152.1,
+    "site": "RD-337"
+   },
+   {
+    "station": 339.0,
+    "rho_a": 146.6,
+    "site": "RD-339"
+   },
+   {
+    "station": 30.0,
+    "rho_a": 46.9,
+    "site": "RD-30"
+   },
+   {
+    "station": 28.0,
+    "rho_a": 34.4,
+    "site": "RD-28"
+   },
+   {
+    "station": 341.0,
+    "rho_a": 35.0,
+    "site": "RD-341"
+   },
+   {
+    "station": 342.0,
+    "rho_a": 52.2,
+    "site": "RD-342"
+   },
+   {
+    "station": 27.0,
+    "rho_a": 109.0,
+    "site": "RD-27"
+   },
+   {
+    "station": 338.0,
+    "rho_a": 108.2,
+    "site": "RD-338"
+   },
+   {
+    "station": 135.0,
+    "rho_a": 45.3,
+    "site": "RD-135"
+   },
+   {
+    "station": 31.0,
+    "rho_a": 98.0,
+    "site": "RD-31"
+   },
+   {
+    "station": 43.0,
+    "rho_a": 53.0,
+    "site": "RD-43"
+   },
+   {
+    "station": 53.0,
+    "rho_a": 56.3,
+    "site": "RD-53"
+   },
+   {
+    "station": 137.0,
+    "rho_a": 33.2,
+    "site": "RD-137"
+   },
+   {
+    "station": 42.0,
+    "rho_a": 72.9,
+    "site": "RD-42"
+   },
+   {
+    "station": 134.0,
+    "rho_a": 34.7,
+    "site": "RD-134"
+   },
+   {
+    "station": 50.0,
+    "rho_a": 54.6,
+    "site": "RD-50"
+   },
+   {
+    "station": 55.0,
+    "rho_a": 58.3,
+    "site": "RD-55"
+   },
+   {
+    "station": 58.0,
+    "rho_a": 21.7,
+    "site": "RD-58"
+   },
+   {
+    "station": 39.0,
+    "rho_a": 34.2,
+    "site": "RD-39"
+   },
+   {
+    "station": 138.0,
+    "rho_a": 9.2,
+    "site": "RD-138"
+   },
+   {
+    "station": 41.0,
+    "rho_a": 67.3,
+    "site": "RD-41"
+   },
+   {
+    "station": 52.0,
+    "rho_a": 15.6,
+    "site": "RD-52"
+   },
+   {
+    "station": 68.0,
+    "rho_a": 12.3,
+    "site": "RD-68"
+   },
+   {
+    "station": 56.0,
+    "rho_a": 44.2,
+    "site": "RD-56"
+   },
+   {
+    "station": 70.0,
+    "rho_a": 48.7,
+    "site": "RD-70"
+   },
+   {
+    "station": 59.0,
+    "rho_a": 60.9,
+    "site": "RD-59"
+   },
+   {
+    "station": 205.0,
+    "rho_a": 44.8,
+    "site": "RD-205"
+   },
+   {
+    "station": 66.0,
+    "rho_a": 14.8,
+    "site": "RD-66"
+   },
+   {
+    "station": 64.0,
+    "rho_a": 54.1,
+    "site": "RD-64"
+   },
+   {
+    "station": 60.0,
+    "rho_a": 39.7,
+    "site": "RD-60"
+   },
+   {
+    "station": 65.0,
+    "rho_a": 32.4,
+    "site": "RD-65"
+   },
+   {
+    "station": 61.0,
+    "rho_a": 114.6,
+    "site": "RD-61"
+   },
+   {
+    "station": 63.0,
+    "rho_a": 28.9,
+    "site": "RD-63"
+   },
+   {
+    "station": 69.0,
+    "rho_a": 11.1,
+    "site": "RD-69"
+   }
+  ],
+  "source_dipole": [
+   {
+    "x": 169952,
+    "y": 225583,
+    "crs": "EPSG:28193",
+    "source": "map",
+    "accuracy_m": 100
+   },
+   {
+    "x": 170113,
+    "y": 224049,
+    "crs": "EPSG:28193",
+    "source": "map",
+    "accuracy_m": 100
+   }
+  ],
+  "provenance": {
+   "document": "maps",
+   "pages": [
+    15
+   ],
+   "figure": "Figure 15, source 53",
+   "method": "manual",
+   "tool": "geosigma.extract.yizreel_maps (positions by script, values by eye)",
+   "extracted_on": "2026-10-14"
+  },
+  "notes": "Apparent resistivity at 46 receiver stations for transmitter 53. 1 readings were hard to read."
+ },
+ {
+  "id": "rotstein-1977-yizreel-harod-roving-source-54",
+  "survey": "rotstein-1977-yizreel-harod",
+  "site": null,
+  "line": "Source 54",
+  "method": "DIPOLE",
+  "level": "L1",
+  "representation": "map_grid",
+  "array": "roving dipole",
+  "measured_on": null,
+  "confidence": "B",
+  "status": "draft",
+  "profile": [
+   {
+    "station": 12.0,
+    "rho_a": 7.6,
+    "site": "RD-12"
+   },
+   {
+    "station": 343.0,
+    "rho_a": 7.2,
+    "site": "RD-343"
+   },
+   {
+    "station": 1.0,
+    "rho_a": 7.6,
+    "site": "RD-1"
+   },
+   {
+    "station": 25.0,
+    "rho_a": 12.0,
+    "site": "RD-25"
+   },
+   {
+    "station": 334.0,
+    "rho_a": 18.7,
+    "site": "RD-334"
+   },
+   {
+    "station": 11.0,
+    "rho_a": 11.9,
+    "site": "RD-11"
+   },
+   {
+    "station": 2.0,
+    "rho_a": 8.9,
+    "site": "RD-2"
+   },
+   {
+    "station": 336.0,
+    "rho_a": 13.6,
+    "site": "RD-336"
+   },
+   {
+    "station": 29.0,
+    "rho_a": 13.3,
+    "site": "RD-29"
+   },
+   {
+    "station": 335.0,
+    "rho_a": 33.3,
+    "site": "RD-335"
+   },
+   {
+    "station": 340.0,
+    "rho_a": 19.1,
+    "site": "RD-340"
+   },
+   {
+    "station": 24.0,
+    "rho_a": 22.5,
+    "site": "RD-24"
+   },
+   {
+    "station": 337.0,
+    "rho_a": 18.4,
+    "site": "RD-337"
+   },
+   {
+    "station": 339.0,
+    "rho_a": 13.0,
+    "site": "RD-339"
+   },
+   {
+    "station": 136.0,
+    "rho_a": 5.5,
+    "site": "RD-136"
+   },
+   {
+    "station": 30.0,
+    "rho_a": 7.7,
+    "site": "RD-30"
+   },
+   {
+    "station": 28.0,
+    "rho_a": 28.7,
+    "site": "RD-28"
+   },
+   {
+    "station": 341.0,
+    "rho_a": 10.6,
+    "site": "RD-341"
+   },
+   {
+    "station": 342.0,
+    "rho_a": 10.8,
+    "site": "RD-342"
+   },
+   {
+    "station": 27.0,
+    "rho_a": 7.0,
+    "site": "RD-27"
+   },
+   {
+    "station": 338.0,
+    "rho_a": 14.8,
+    "site": "RD-338"
+   },
+   {
+    "station": 135.0,
+    "rho_a": 12.3,
+    "site": "RD-135"
+   },
+   {
+    "station": 31.0,
+    "rho_a": 7.1,
+    "site": "RD-31"
+   },
+   {
+    "station": 53.0,
+    "rho_a": 8.9,
+    "site": "RD-53"
+   },
+   {
+    "station": 137.0,
+    "rho_a": 7.8,
+    "site": "RD-137"
+   },
+   {
+    "station": 42.0,
+    "rho_a": 14.2,
+    "site": "RD-42"
+   },
+   {
+    "station": 50.0,
+    "rho_a": 21.4,
+    "site": "RD-50"
+   },
+   {
+    "station": 69.0,
+    "rho_a": 5.4,
+    "site": "RD-69"
+   },
+   {
+    "station": 55.0,
+    "rho_a": 15.6,
+    "site": "RD-55"
+   },
+   {
+    "station": 58.0,
+    "rho_a": 6.2,
+    "site": "RD-58"
+   },
+   {
+    "station": 39.0,
+    "rho_a": 8.8,
+    "site": "RD-39"
+   },
+   {
+    "station": 138.0,
+    "rho_a": 11.3,
+    "site": "RD-138"
+   },
+   {
+    "station": 41.0,
+    "rho_a": 23.8,
+    "site": "RD-41"
+   },
+   {
+    "station": 52.0,
+    "rho_a": 12.9,
+    "site": "RD-52"
+   },
+   {
+    "station": 68.0,
+    "rho_a": 6.1,
+    "site": "RD-68"
+   },
+   {
+    "station": 70.0,
+    "rho_a": 11.2,
+    "site": "RD-70"
+   },
+   {
+    "station": 59.0,
+    "rho_a": 11.6,
+    "site": "RD-59"
+   },
+   {
+    "station": 205.0,
+    "rho_a": 11.0,
+    "site": "RD-205"
+   },
+   {
+    "station": 66.0,
+    "rho_a": 9.1,
+    "site": "RD-66"
+   },
+   {
+    "station": 64.0,
+    "rho_a": 22.7,
+    "site": "RD-64"
+   },
+   {
+    "station": 60.0,
+    "rho_a": 14.4,
+    "site": "RD-60"
+   },
+   {
+    "station": 65.0,
+    "rho_a": 19.1,
+    "site": "RD-65"
+   },
+   {
+    "station": 61.0,
+    "rho_a": 25.8,
+    "site": "RD-61"
+   },
+   {
+    "station": 63.0,
+    "rho_a": 8.8,
+    "site": "RD-63"
+   },
+   {
+    "station": 56.0,
+    "rho_a": 21.6,
+    "site": "RD-56"
+   }
+  ],
+  "source_dipole": [
+   {
+    "x": 170089,
+    "y": 224042,
+    "crs": "EPSG:28193",
+    "source": "map",
+    "accuracy_m": 100
+   },
+   {
+    "x": 172273,
+    "y": 225061,
+    "crs": "EPSG:28193",
+    "source": "map",
+    "accuracy_m": 100
+   }
+  ],
+  "provenance": {
+   "document": "maps",
+   "pages": [
+    16
+   ],
+   "figure": "Figure 16, source 54",
+   "method": "manual",
+   "tool": "geosigma.extract.yizreel_maps (positions by script, values by eye)",
+   "extracted_on": "2026-10-14"
+  },
+  "notes": "Apparent resistivity at 45 receiver stations for transmitter 54."
+ },
+ {
+  "id": "rotstein-1977-yizreel-harod-roving-source-57",
+  "survey": "rotstein-1977-yizreel-harod",
+  "site": null,
+  "line": "Source 57",
+  "method": "DIPOLE",
+  "level": "L1",
+  "representation": "map_grid",
+  "array": "roving dipole",
+  "measured_on": null,
+  "confidence": "B",
+  "status": "draft",
+  "profile": [
+   {
+    "station": 222.0,
+    "rho_a": 44.3,
+    "site": "RD-222"
+   },
+   {
+    "station": 221.0,
+    "rho_a": 21.0,
+    "site": "RD-221"
+   },
+   {
+    "station": 248.0,
+    "rho_a": 28.3,
+    "site": "RD-248"
+   },
+   {
+    "station": 154.0,
+    "rho_a": 57.8,
+    "site": "RD-154"
+   },
+   {
+    "station": 224.0,
+    "rho_a": 24.9,
+    "site": "RD-224"
+   },
+   {
+    "station": 238.0,
+    "rho_a": 55.7,
+    "site": "RD-238"
+   },
+   {
+    "station": 161.0,
+    "rho_a": 69.3,
+    "site": "RD-161"
+   },
+   {
+    "station": 247.0,
+    "rho_a": 56.2,
+    "site": "RD-247"
+   },
+   {
+    "station": 239.0,
+    "rho_a": 32.8,
+    "site": "RD-239"
+   },
+   {
+    "station": 233.0,
+    "rho_a": 42.8,
+    "site": "RD-233"
+   },
+   {
+    "station": 234.0,
+    "rho_a": 40.9,
+    "site": "RD-234"
+   },
+   {
+    "station": 344.0,
+    "rho_a": 38.8,
+    "site": "RD-344"
+   },
+   {
+    "station": 235.0,
+    "rho_a": 55.0,
+    "site": "RD-235"
+   },
+   {
+    "station": 345.0,
+    "rho_a": 37.8,
+    "site": "RD-345"
+   },
+   {
+    "station": 242.0,
+    "rho_a": 53.7,
+    "site": "RD-242"
+   },
+   {
+    "station": 241.0,
+    "rho_a": 58.3,
+    "site": "RD-241"
+   },
+   {
+    "station": 243.0,
+    "rho_a": 19.8,
+    "site": "RD-243"
+   },
+   {
+    "station": 346.0,
+    "rho_a": 28.7,
+    "site": "RD-346"
+   },
+   {
+    "station": 240.0,
+    "rho_a": 40.2,
+    "site": "RD-240"
+   },
+   {
+    "station": 231.0,
+    "rho_a": 32.8,
+    "site": "RD-231"
+   },
+   {
+    "station": 356.0,
+    "rho_a": 43.0,
+    "site": "RD-356"
+   },
+   {
+    "station": 354.0,
+    "rho_a": 61.0,
+    "site": "RD-354"
+   },
+   {
+    "station": 347.0,
+    "rho_a": 54.4,
+    "site": "RD-347"
+   },
+   {
+    "station": 357.0,
+    "rho_a": 48.3,
+    "site": "RD-357"
+   },
+   {
+    "station": 244.0,
+    "rho_a": 36.4,
+    "site": "RD-244"
+   },
+   {
+    "station": 220.0,
+    "rho_a": 89.0,
+    "site": "RD-220"
+   },
+   {
+    "station": 352.0,
+    "rho_a": 57.0,
+    "site": "RD-352"
+   },
+   {
+    "station": 355.0,
+    "rho_a": 61.8,
+    "site": "RD-355"
+   },
+   {
+    "station": 358.0,
+    "rho_a": 22.7,
+    "site": "RD-358"
+   },
+   {
+    "station": 230.0,
+    "rho_a": 38.0,
+    "site": "RD-230"
+   },
+   {
+    "station": 245.0,
+    "rho_a": 28.9,
+    "site": "RD-245"
+   },
+   {
+    "station": 348.0,
+    "rho_a": 53.9,
+    "site": "RD-348"
+   },
+   {
+    "station": 258.0,
+    "rho_a": 63.0,
+    "site": "RD-258"
+   },
+   {
+    "station": 359.0,
+    "rho_a": 26.6,
+    "site": "RD-359"
+   },
+   {
+    "station": 228.0,
+    "rho_a": 49.2,
+    "site": "RD-228"
+   },
+   {
+    "station": 218.0,
+    "rho_a": 29.8,
+    "site": "RD-218"
+   },
+   {
+    "station": 351.0,
+    "rho_a": 32.0,
+    "site": "RD-351"
+   },
+   {
+    "station": 256.0,
+    "rho_a": 22.3,
+    "site": "RD-256"
+   },
+   {
+    "station": 257.0,
+    "rho_a": 56.9,
+    "site": "RD-257"
+   },
+   {
+    "station": 246.0,
+    "rho_a": 54.2,
+    "site": "RD-246"
+   },
+   {
+    "station": 217.0,
+    "rho_a": 19.7,
+    "site": "RD-217"
+   },
+   {
+    "station": 349.0,
+    "rho_a": 16.4,
+    "site": "RD-349"
+   },
+   {
+    "station": 360.0,
+    "rho_a": 27.7,
+    "site": "RD-360"
+   },
+   {
+    "station": 216.0,
+    "rho_a": 36.4,
+    "site": "RD-216"
+   },
+   {
+    "station": 213.0,
+    "rho_a": 20.2,
+    "site": "RD-213"
+   },
+   {
+    "station": 215.0,
+    "rho_a": 26.4,
+    "site": "RD-215"
+   },
+   {
+    "station": 207.0,
+    "rho_a": 49.0,
+    "site": "RD-207"
+   },
+   {
+    "station": 371.0,
+    "rho_a": 23.1,
+    "site": "RD-371"
+   },
+   {
+    "station": 214.0,
+    "rho_a": 12.7,
+    "site": "RD-214"
+   },
+   {
+    "station": 350.0,
+    "rho_a": 44.8,
+    "site": "RD-350"
+   },
+   {
+    "station": 212.0,
+    "rho_a": 10.7,
+    "site": "RD-212"
+   },
+   {
+    "station": 208.0,
+    "rho_a": 47.0,
+    "site": "RD-208"
+   },
+   {
+    "station": 361.0,
+    "rho_a": 36.7,
+    "site": "RD-361"
+   },
+   {
+    "station": 209.0,
+    "rho_a": 34.4,
+    "site": "RD-209"
+   },
+   {
+    "station": 255.0,
+    "rho_a": 10.4,
+    "site": "RD-255"
+   },
+   {
+    "station": 210.0,
+    "rho_a": 45.4,
+    "site": "RD-210"
+   },
+   {
+    "station": 362.0,
+    "rho_a": 34.9,
+    "site": "RD-362"
+   },
+   {
+    "station": 211.0,
+    "rho_a": 22.0,
+    "site": "RD-211"
+   },
+   {
+    "station": 369.0,
+    "rho_a": 115.6,
+    "site": "RD-369"
+   },
+   {
+    "station": 367.0,
+    "rho_a": 33.9,
+    "site": "RD-367"
+   },
+   {
+    "station": 225.0,
+    "rho_a": 38.7,
+    "site": "RD-225"
+   },
+   {
+    "station": 370.0,
+    "rho_a": 59.1,
+    "site": "RD-370"
+   },
+   {
+    "station": 368.0,
+    "rho_a": 14.7,
+    "site": "RD-368"
+   },
+   {
+    "station": 226.0,
+    "rho_a": 39.6,
+    "site": "RD-226"
+   },
+   {
+    "station": 366.0,
+    "rho_a": 22.1,
+    "site": "RD-366"
+   },
+   {
+    "station": 363.0,
+    "rho_a": 67.7,
+    "site": "RD-363"
+   },
+   {
+    "station": 227.0,
+    "rho_a": 77.5,
+    "site": "RD-227"
+   },
+   {
+    "station": 365.0,
+    "rho_a": 57.1,
+    "site": "RD-365"
+   },
+   {
+    "station": 364.0,
+    "rho_a": 106.4,
+    "site": "RD-364"
+   },
+   {
+    "station": 232.0,
+    "rho_a": 30.0,
+    "site": "RD-232"
+   }
+  ],
+  "source_dipole": [
+   {
+    "x": 184500,
+    "y": 221812,
+    "crs": "EPSG:28193",
+    "source": "map",
+    "accuracy_m": 100
+   },
+   {
+    "x": 184364,
+    "y": 219892,
+    "crs": "EPSG:28193",
+    "source": "map",
+    "accuracy_m": 100
+   }
+  ],
+  "provenance": {
+   "document": "maps",
+   "pages": [
+    17
+   ],
+   "figure": "Figure 17, source 57",
+   "method": "manual",
+   "tool": "geosigma.extract.yizreel_maps (positions by script, values by eye)",
+   "extracted_on": "2026-10-14"
+  },
+  "notes": "Apparent resistivity at 70 receiver stations for transmitter 57."
+ },
+ {
+  "id": "rotstein-1977-yizreel-harod-roving-source-58",
+  "survey": "rotstein-1977-yizreel-harod",
+  "site": null,
+  "line": "Source 58",
+  "method": "DIPOLE",
+  "level": "L1",
+  "representation": "map_grid",
+  "array": "roving dipole",
+  "measured_on": null,
+  "confidence": "B",
+  "status": "draft",
+  "profile": [
+   {
+    "station": 222.0,
+    "rho_a": 24.3,
+    "site": "RD-222"
+   },
+   {
+    "station": 221.0,
+    "rho_a": 15.5,
+    "site": "RD-221"
+   },
+   {
+    "station": 248.0,
+    "rho_a": 26.8,
+    "site": "RD-248"
+   },
+   {
+    "station": 154.0,
+    "rho_a": 25.5,
+    "site": "RD-154"
+   },
+   {
+    "station": 224.0,
+    "rho_a": 28.2,
+    "site": "RD-224"
+   },
+   {
+    "station": 161.0,
+    "rho_a": 36.5,
+    "site": "RD-161"
+   },
+   {
+    "station": 247.0,
+    "rho_a": 33.7,
+    "site": "RD-247"
+   },
+   {
+    "station": 239.0,
+    "rho_a": 17.1,
+    "site": "RD-239"
+   },
+   {
+    "station": 233.0,
+    "rho_a": 27.9,
+    "site": "RD-233"
+   },
+   {
+    "station": 234.0,
+    "rho_a": 29.7,
+    "site": "RD-234"
+   },
+   {
+    "station": 344.0,
+    "rho_a": 52.5,
+    "site": "RD-344"
+   },
+   {
+    "station": 235.0,
+    "rho_a": 26.2,
+    "site": "RD-235"
+   },
+   {
+    "station": 236.0,
+    "rho_a": 35.7,
+    "site": "RD-236"
+   },
+   {
+    "station": 345.0,
+    "rho_a": 16.8,
+    "site": "RD-345"
+   },
+   {
+    "station": 242.0,
+    "rho_a": 31.6,
+    "site": "RD-242"
+   },
+   {
+    "station": 232.0,
+    "rho_a": 33.6,
+    "site": "RD-232"
+   },
+   {
+    "station": 243.0,
+    "rho_a": 28.3,
+    "site": "RD-243"
+   },
+   {
+    "station": 241.0,
+    "rho_a": 24.0,
+    "site": "RD-241"
+   },
+   {
+    "station": 353.0,
+    "rho_a": 76.0,
+    "site": "RD-353"
+   },
+   {
+    "station": 240.0,
+    "rho_a": 26.5,
+    "site": "RD-240"
+   },
+   {
+    "station": 231.0,
+    "rho_a": 41.3,
+    "site": "RD-231"
+   },
+   {
+    "station": 356.0,
+    "rho_a": 15.0,
+    "site": "RD-356"
+   },
+   {
+    "station": 354.0,
+    "rho_a": 52.9,
+    "site": "RD-354"
+   },
+   {
+    "station": 347.0,
+    "rho_a": 34.6,
+    "site": "RD-347"
+   },
+   {
+    "station": 244.0,
+    "rho_a": 21.8,
+    "site": "RD-244"
+   },
+   {
+    "station": 352.0,
+    "rho_a": 63.0,
+    "site": "RD-352"
+   },
+   {
+    "station": 355.0,
+    "rho_a": 90.0,
+    "site": "RD-355"
+   },
+   {
+    "station": 358.0,
+    "rho_a": 11.5,
+    "site": "RD-358"
+   },
+   {
+    "station": 230.0,
+    "rho_a": 26.0,
+    "site": "RD-230"
+   },
+   {
+    "station": 245.0,
+    "rho_a": 18.3,
+    "site": "RD-245"
+   },
+   {
+    "station": 258.0,
+    "rho_a": 19.0,
+    "site": "RD-258"
+   },
+   {
+    "station": 348.0,
+    "rho_a": 52.0,
+    "site": "RD-348"
+   },
+   {
+    "station": 359.0,
+    "rho_a": 7.2,
+    "site": "RD-359"
+   },
+   {
+    "station": 228.0,
+    "rho_a": 41.0,
+    "site": "RD-228"
+   },
+   {
+    "station": 218.0,
+    "rho_a": 17.6,
+    "site": "RD-218"
+   },
+   {
+    "station": 351.0,
+    "rho_a": 34.0,
+    "site": "RD-351"
+   },
+   {
+    "station": 256.0,
+    "rho_a": 9.6,
+    "site": "RD-256"
+   },
+   {
+    "station": 257.0,
+    "rho_a": 23.5,
+    "site": "RD-257"
+   },
+   {
+    "station": 246.0,
+    "rho_a": 30.4,
+    "site": "RD-246"
+   },
+   {
+    "station": 217.0,
+    "rho_a": 21.7,
+    "site": "RD-217"
+   },
+   {
+    "station": 349.0,
+    "rho_a": 80.0,
+    "site": "RD-349"
+   },
+   {
+    "station": 360.0,
+    "rho_a": 11.0,
+    "site": "RD-360"
+   },
+   {
+    "station": 216.0,
+    "rho_a": 11.1,
+    "site": "RD-216"
+   },
+   {
+    "station": 213.0,
+    "rho_a": 16.4,
+    "site": "RD-213"
+   },
+   {
+    "station": 215.0,
+    "rho_a": 16.7,
+    "site": "RD-215"
+   },
+   {
+    "station": 207.0,
+    "rho_a": 24.2,
+    "site": "RD-207"
+   },
+   {
+    "station": 371.0,
+    "rho_a": 15.2,
+    "site": "RD-371"
+   },
+   {
+    "station": 214.0,
+    "rho_a": 19.7,
+    "site": "RD-214"
+   },
+   {
+    "station": 350.0,
+    "rho_a": 29.7,
+    "site": "RD-350"
+   },
+   {
+    "station": 212.0,
+    "rho_a": 30.5,
+    "site": "RD-212"
+   },
+   {
+    "station": 208.0,
+    "rho_a": 33.9,
+    "site": "RD-208"
+   },
+   {
+    "station": 361.0,
+    "rho_a": 19.2,
+    "site": "RD-361"
+   },
+   {
+    "station": 209.0,
+    "rho_a": 29.5,
+    "site": "RD-209"
+   },
+   {
+    "station": 255.0,
+    "rho_a": 21.0,
+    "site": "RD-255"
+   },
+   {
+    "station": 362.0,
+    "rho_a": 14.0,
+    "site": "RD-362"
+   },
+   {
+    "station": 369.0,
+    "rho_a": 18.2,
+    "site": "RD-369"
+   },
+   {
+    "station": 367.0,
+    "rho_a": 11.2,
+    "site": "RD-367"
+   },
+   {
+    "station": 211.0,
+    "rho_a": 22.0,
+    "site": "RD-211"
+   },
+   {
+    "station": 225.0,
+    "rho_a": 15.1,
+    "site": "RD-225"
+   },
+   {
+    "station": 368.0,
+    "rho_a": 10.1,
+    "site": "RD-368"
+   },
+   {
+    "station": 226.0,
+    "rho_a": 20.0,
+    "site": "RD-226"
+   },
+   {
+    "station": 366.0,
+    "rho_a": 10.7,
+    "site": "RD-366"
+   },
+   {
+    "station": 363.0,
+    "rho_a": 13.0,
+    "site": "RD-363"
+   },
+   {
+    "station": 227.0,
+    "rho_a": 38.0,
+    "site": "RD-227"
+   },
+   {
+    "station": 365.0,
+    "rho_a": 7.4,
+    "site": "RD-365"
+   },
+   {
+    "station": 364.0,
+    "rho_a": 26.0,
+    "site": "RD-364"
+   },
+   {
+    "station": 238.0,
+    "rho_a": 14.9,
+    "site": "RD-238"
+   },
+   {
+    "station": 357.0,
+    "rho_a": 21.7,
+    "site": "RD-357"
+   },
+   {
+    "station": 220.0,
+    "rho_a": 25.0,
+    "site": "RD-220"
+   },
+   {
+    "station": 210.0,
+    "rho_a": 28.2,
+    "site": "RD-210"
+   }
+  ],
+  "source_dipole": [
+   {
+    "x": 182939,
+    "y": 219565,
+    "crs": "EPSG:28193",
+    "source": "map",
+    "accuracy_m": 100
+   },
+   {
+    "x": 184360,
+    "y": 219912,
+    "crs": "EPSG:28193",
+    "source": "map",
+    "accuracy_m": 100
+   }
+  ],
+  "provenance": {
+   "document": "maps",
+   "pages": [
+    18
+   ],
+   "figure": "Figure 18, source 58",
+   "method": "manual",
+   "tool": "geosigma.extract.yizreel_maps (positions by script, values by eye)",
+   "extracted_on": "2026-10-14"
+  },
+  "notes": "Apparent resistivity at 70 receiver stations for transmitter 58. 1 readings were hard to read."
+ },
+ {
+  "id": "rotstein-1977-yizreel-harod-roving-source-59",
+  "survey": "rotstein-1977-yizreel-harod",
+  "site": null,
+  "line": "Source 59",
+  "method": "DIPOLE",
+  "level": "L1",
+  "representation": "map_grid",
+  "array": "roving dipole",
+  "measured_on": null,
+  "confidence": "B",
+  "status": "draft",
+  "profile": [
+   {
+    "station": 380.0,
+    "rho_a": 28.1,
+    "site": "RD-380"
+   },
+   {
+    "station": 374.0,
+    "rho_a": 65.8,
+    "site": "RD-374"
+   },
+   {
+    "station": 356.0,
+    "rho_a": 28.5,
+    "site": "RD-356"
+   },
+   {
+    "station": 357.0,
+    "rho_a": 27.8,
+    "site": "RD-357"
+   },
+   {
+    "station": 267.0,
+    "rho_a": 31.7,
+    "site": "RD-267"
+   },
+   {
+    "station": 359.0,
+    "rho_a": 21.4,
+    "site": "RD-359"
+   },
+   {
+    "station": 228.0,
+    "rho_a": 84.1,
+    "site": "RD-228"
+   },
+   {
+    "station": 268.0,
+    "rho_a": 46.8,
+    "site": "RD-268"
+   },
+   {
+    "station": 256.0,
+    "rho_a": 17.0,
+    "site": "RD-256"
+   },
+   {
+    "station": 257.0,
+    "rho_a": 25.5,
+    "site": "RD-257"
+   },
+   {
+    "station": 349.0,
+    "rho_a": 147.8,
+    "site": "RD-349"
+   },
+   {
+    "station": 382.0,
+    "rho_a": 60.6,
+    "site": "RD-382"
+   },
+   {
+    "station": 360.0,
+    "rho_a": 29.4,
+    "site": "RD-360"
+   },
+   {
+    "station": 213.0,
+    "rho_a": 20.6,
+    "site": "RD-213"
+   },
+   {
+    "station": 373.0,
+    "rho_a": 44.0,
+    "site": "RD-373"
+   },
+   {
+    "station": 371.0,
+    "rho_a": 8.9,
+    "site": "RD-371"
+   },
+   {
+    "station": 214.0,
+    "rho_a": 14.0,
+    "site": "RD-214"
+   },
+   {
+    "station": 372.0,
+    "rho_a": 24.8,
+    "site": "RD-372"
+   },
+   {
+    "station": 212.0,
+    "rho_a": 18.9,
+    "site": "RD-212"
+   },
+   {
+    "station": 361.0,
+    "rho_a": 43.0,
+    "site": "RD-361"
+   },
+   {
+    "station": 209.0,
+    "rho_a": 65.4,
+    "site": "RD-209"
+   },
+   {
+    "station": 255.0,
+    "rho_a": 6.4,
+    "site": "RD-255"
+   },
+   {
+    "station": 210.0,
+    "rho_a": 33.4,
+    "site": "RD-210"
+   },
+   {
+    "station": 362.0,
+    "rho_a": 22.0,
+    "site": "RD-362"
+   },
+   {
+    "station": 211.0,
+    "rho_a": 18.9,
+    "site": "RD-211"
+   },
+   {
+    "station": 367.0,
+    "rho_a": 21.0,
+    "site": "RD-367"
+   },
+   {
+    "station": 369.0,
+    "rho_a": 64.0,
+    "site": "RD-369"
+   },
+   {
+    "station": 381.0,
+    "rho_a": 38.7,
+    "site": "RD-381"
+   },
+   {
+    "station": 370.0,
+    "rho_a": 88.0,
+    "site": "RD-370"
+   },
+   {
+    "station": 368.0,
+    "rho_a": 27.0,
+    "site": "RD-368"
+   },
+   {
+    "station": 375.0,
+    "rho_a": 42.7,
+    "site": "RD-375"
+   },
+   {
+    "station": 366.0,
+    "rho_a": 17.2,
+    "site": "RD-366"
+   },
+   {
+    "station": 270.0,
+    "rho_a": 45.6,
+    "site": "RD-270"
+   },
+   {
+    "station": 386.0,
+    "rho_a": 53.2,
+    "site": "RD-386"
+   },
+   {
+    "station": 376.0,
+    "rho_a": 64.0,
+    "site": "RD-376"
+   },
+   {
+    "station": 392.0,
+    "rho_a": 23.5,
+    "site": "RD-392"
+   },
+   {
+    "station": 365.0,
+    "rho_a": 37.0,
+    "site": "RD-365"
+   },
+   {
+    "station": 269.0,
+    "rho_a": 40.8,
+    "site": "RD-269"
+   },
+   {
+    "station": 259.0,
+    "rho_a": 39.8,
+    "site": "RD-259"
+   },
+   {
+    "station": 262.0,
+    "rho_a": 69.9,
+    "site": "RD-262"
+   },
+   {
+    "station": 391.0,
+    "rho_a": 21.3,
+    "site": "RD-391"
+   },
+   {
+    "station": 265.0,
+    "rho_a": 26.1,
+    "site": "RD-265"
+   },
+   {
+    "station": 387.0,
+    "rho_a": 26.1,
+    "site": "RD-387"
+   },
+   {
+    "station": 389.0,
+    "rho_a": 19.7,
+    "site": "RD-389"
+   },
+   {
+    "station": 260.0,
+    "rho_a": 49.3,
+    "site": "RD-260"
+   },
+   {
+    "station": 261.0,
+    "rho_a": 75.4,
+    "site": "RD-261"
+   },
+   {
+    "station": 390.0,
+    "rho_a": 38.6,
+    "site": "RD-390"
+   },
+   {
+    "station": 264.0,
+    "rho_a": 31.5,
+    "site": "RD-264"
+   },
+   {
+    "station": 377.0,
+    "rho_a": 24.0,
+    "site": "RD-377"
+   },
+   {
+    "station": 358.0,
+    "rho_a": 8.1,
+    "site": "RD-358"
+   },
+   {
+    "station": 350.0,
+    "rho_a": 17.8,
+    "site": "RD-350"
+   },
+   {
+    "station": 266.0,
+    "rho_a": 13.2,
+    "site": "RD-266"
+   }
+  ],
+  "source_dipole": [
+   {
+    "x": 187312,
+    "y": 217280,
+    "crs": "EPSG:28193",
+    "source": "map",
+    "accuracy_m": 100
+   },
+   {
+    "x": 186682,
+    "y": 215811,
+    "crs": "EPSG:28193",
+    "source": "map",
+    "accuracy_m": 100
+   }
+  ],
+  "provenance": {
+   "document": "maps",
+   "pages": [
+    19
+   ],
+   "figure": "Figure 19, source 59",
+   "method": "manual",
+   "tool": "geosigma.extract.yizreel_maps (positions by script, values by eye)",
+   "extracted_on": "2026-10-14"
+  },
+  "notes": "Apparent resistivity at 52 receiver stations for transmitter 59. 2 readings were hard to read."
+ },
+ {
+  "id": "rotstein-1977-yizreel-harod-roving-source-60",
+  "survey": "rotstein-1977-yizreel-harod",
+  "site": null,
+  "line": "Source 60",
+  "method": "DIPOLE",
+  "level": "L1",
+  "representation": "map_grid",
+  "array": "roving dipole",
+  "measured_on": null,
+  "confidence": "B",
+  "status": "draft",
+  "profile": [
+   {
+    "station": 380.0,
+    "rho_a": 25.4,
+    "site": "RD-380"
+   },
+   {
+    "station": 374.0,
+    "rho_a": 98.3,
+    "site": "RD-374"
+   },
+   {
+    "station": 357.0,
+    "rho_a": 62.4,
+    "site": "RD-357"
+   },
+   {
+    "station": 267.0,
+    "rho_a": 53.9,
+    "site": "RD-267"
+   },
+   {
+    "station": 228.0,
+    "rho_a": 66.1,
+    "site": "RD-228"
+   },
+   {
+    "station": 359.0,
+    "rho_a": 48.1,
+    "site": "RD-359"
+   },
+   {
+    "station": 268.0,
+    "rho_a": 116.7,
+    "site": "RD-268"
+   },
+   {
+    "station": 256.0,
+    "rho_a": 86.0,
+    "site": "RD-256"
+   },
+   {
+    "station": 257.0,
+    "rho_a": 69.4,
+    "site": "RD-257"
+   },
+   {
+    "station": 382.0,
+    "rho_a": 254.0,
+    "site": "RD-382"
+   },
+   {
+    "station": 360.0,
+    "rho_a": 38.0,
+    "site": "RD-360"
+   },
+   {
+    "station": 266.0,
+    "rho_a": 103.1,
+    "site": "RD-266"
+   },
+   {
+    "station": 213.0,
+    "rho_a": 34.2,
+    "site": "RD-213"
+   },
+   {
+    "station": 373.0,
+    "rho_a": 72.1,
+    "site": "RD-373"
+   },
+   {
+    "station": 371.0,
+    "rho_a": 55.2,
+    "site": "RD-371"
+   },
+   {
+    "station": 214.0,
+    "rho_a": 51.9,
+    "site": "RD-214"
+   },
+   {
+    "station": 350.0,
+    "rho_a": 29.5,
+    "site": "RD-350"
+   },
+   {
+    "station": 212.0,
+    "rho_a": 26.4,
+    "site": "RD-212"
+   },
+   {
+    "station": 372.0,
+    "rho_a": 105.8,
+    "site": "RD-372"
+   },
+   {
+    "station": 255.0,
+    "rho_a": 16.8,
+    "site": "RD-255"
+   },
+   {
+    "station": 209.0,
+    "rho_a": 21.1,
+    "site": "RD-209"
+   },
+   {
+    "station": 210.0,
+    "rho_a": 81.2,
+    "site": "RD-210"
+   },
+   {
+    "station": 362.0,
+    "rho_a": 60.0,
+    "site": "RD-362"
+   },
+   {
+    "station": 211.0,
+    "rho_a": 14.5,
+    "site": "RD-211"
+   },
+   {
+    "station": 367.0,
+    "rho_a": 23.0,
+    "site": "RD-367"
+   },
+   {
+    "station": 369.0,
+    "rho_a": 61.7,
+    "site": "RD-369"
+   },
+   {
+    "station": 381.0,
+    "rho_a": 55.0,
+    "site": "RD-381"
+   },
+   {
+    "station": 370.0,
+    "rho_a": 75.2,
+    "site": "RD-370"
+   },
+   {
+    "station": 368.0,
+    "rho_a": 3.2,
+    "site": "RD-368"
+   },
+   {
+    "station": 375.0,
+    "rho_a": 55.9,
+    "site": "RD-375"
+   },
+   {
+    "station": 366.0,
+    "rho_a": 13.0,
+    "site": "RD-366"
+   },
+   {
+    "station": 386.0,
+    "rho_a": 96.7,
+    "site": "RD-386"
+   },
+   {
+    "station": 376.0,
+    "rho_a": 91.5,
+    "site": "RD-376"
+   },
+   {
+    "station": 365.0,
+    "rho_a": 4.5,
+    "site": "RD-365"
+   },
+   {
+    "station": 269.0,
+    "rho_a": 57.8,
+    "site": "RD-269"
+   },
+   {
+    "station": 259.0,
+    "rho_a": 56.6,
+    "site": "RD-259"
+   },
+   {
+    "station": 262.0,
+    "rho_a": 64.3,
+    "site": "RD-262"
+   },
+   {
+    "station": 391.0,
+    "rho_a": 53.8,
+    "site": "RD-391"
+   },
+   {
+    "station": 388.0,
+    "rho_a": 52.9,
+    "site": "RD-388"
+   },
+   {
+    "station": 387.0,
+    "rho_a": 92.8,
+    "site": "RD-387"
+   },
+   {
+    "station": 270.0,
+    "rho_a": 63.3,
+    "site": "RD-270"
+   },
+   {
+    "station": 379.0,
+    "rho_a": 43.1,
+    "site": "RD-379"
+   },
+   {
+    "station": 383.0,
+    "rho_a": 70.2,
+    "site": "RD-383"
+   },
+   {
+    "station": 260.0,
+    "rho_a": 82.1,
+    "site": "RD-260"
+   },
+   {
+    "station": 389.0,
+    "rho_a": 72.7,
+    "site": "RD-389"
+   },
+   {
+    "station": 261.0,
+    "rho_a": 76.7,
+    "site": "RD-261"
+   },
+   {
+    "station": 390.0,
+    "rho_a": 93.3,
+    "site": "RD-390"
+   },
+   {
+    "station": 384.0,
+    "rho_a": 67.8,
+    "site": "RD-384"
+   },
+   {
+    "station": 377.0,
+    "rho_a": 79.3,
+    "site": "RD-377"
+   },
+   {
+    "station": 378.0,
+    "rho_a": 80.9,
+    "site": "RD-378"
+   },
+   {
+    "station": 358.0,
+    "rho_a": 40.2,
+    "site": "RD-358"
+   },
+   {
+    "station": 349.0,
+    "rho_a": 250.2,
+    "site": "RD-349"
+   }
+  ],
+  "source_dipole": [
+   {
+    "x": 185017,
+    "y": 216980,
+    "crs": "EPSG:28193",
+    "source": "map",
+    "accuracy_m": 100
+   },
+   {
+    "x": 186697,
+    "y": 215824,
+    "crs": "EPSG:28193",
+    "source": "map",
+    "accuracy_m": 100
+   }
+  ],
+  "provenance": {
+   "document": "maps",
+   "pages": [
+    20
+   ],
+   "figure": "Figure 20, source 60",
+   "method": "manual",
+   "tool": "geosigma.extract.yizreel_maps (positions by script, values by eye)",
+   "extracted_on": "2026-10-14"
+  },
+  "notes": "Apparent resistivity at 52 receiver stations for transmitter 60. 1 readings were hard to read."
+ },
+ {
+  "id": "rotstein-1977-yizreel-harod-roving-source-61",
+  "survey": "rotstein-1977-yizreel-harod",
+  "site": null,
+  "line": "Source 61",
+  "method": "DIPOLE",
+  "level": "L1",
+  "representation": "map_grid",
+  "array": "roving dipole",
+  "measured_on": null,
+  "confidence": "B",
+  "status": "draft",
+  "profile": [
+   {
+    "station": 267.0,
+    "rho_a": 21.4,
+    "site": "RD-267"
+   },
+   {
+    "station": 393.0,
+    "rho_a": 24.2,
+    "site": "RD-393"
+   },
+   {
+    "station": 268.0,
+    "rho_a": 42.8,
+    "site": "RD-268"
+   },
+   {
+    "station": 257.0,
+    "rho_a": 70.6,
+    "site": "RD-257"
+   },
+   {
+    "station": 256.0,
+    "rho_a": 106.7,
+    "site": "RD-256"
+   },
+   {
+    "station": 394.0,
+    "rho_a": 68.3,
+    "site": "RD-394"
+   },
+   {
+    "station": 400.0,
+    "rho_a": 8.1,
+    "site": "RD-400"
+   },
+   {
+    "station": 266.0,
+    "rho_a": 76.1,
+    "site": "RD-266"
+   },
+   {
+    "station": 395.0,
+    "rho_a": 9.9,
+    "site": "RD-395"
+   },
+   {
+    "station": 373.0,
+    "rho_a": 36.5,
+    "site": "RD-373"
+   },
+   {
+    "station": 372.0,
+    "rho_a": 19.3,
+    "site": "RD-372"
+   },
+   {
+    "station": 398.0,
+    "rho_a": 14.9,
+    "site": "RD-398"
+   },
+   {
+    "station": 502.0,
+    "rho_a": 27.8,
+    "site": "RD-502"
+   },
+   {
+    "station": 501.0,
+    "rho_a": 24.1,
+    "site": "RD-501"
+   },
+   {
+    "station": 362.0,
+    "rho_a": 34.0,
+    "site": "RD-362"
+   },
+   {
+    "station": 369.0,
+    "rho_a": 38.1,
+    "site": "RD-369"
+   },
+   {
+    "station": 503.0,
+    "rho_a": 18.6,
+    "site": "RD-503"
+   },
+   {
+    "station": 375.0,
+    "rho_a": 10.7,
+    "site": "RD-375"
+   },
+   {
+    "station": 397.0,
+    "rho_a": 7.8,
+    "site": "RD-397"
+   },
+   {
+    "station": 504.0,
+    "rho_a": 16.5,
+    "site": "RD-504"
+   },
+   {
+    "station": 386.0,
+    "rho_a": 39.4,
+    "site": "RD-386"
+   },
+   {
+    "station": 363.0,
+    "rho_a": 51.2,
+    "site": "RD-363"
+   },
+   {
+    "station": 376.0,
+    "rho_a": 7.6,
+    "site": "RD-376"
+   },
+   {
+    "station": 392.0,
+    "rho_a": 21.6,
+    "site": "RD-392"
+   },
+   {
+    "station": 511.0,
+    "rho_a": 30.6,
+    "site": "RD-511"
+   },
+   {
+    "station": 269.0,
+    "rho_a": 23.4,
+    "site": "RD-269"
+   },
+   {
+    "station": 259.0,
+    "rho_a": 47.0,
+    "site": "RD-259"
+   },
+   {
+    "station": 396.0,
+    "rho_a": 25.6,
+    "site": "RD-396"
+   },
+   {
+    "station": 507.0,
+    "rho_a": 24.2,
+    "site": "RD-507"
+   },
+   {
+    "station": 262.0,
+    "rho_a": 70.6,
+    "site": "RD-262"
+   },
+   {
+    "station": 391.0,
+    "rho_a": 46.5,
+    "site": "RD-391"
+   },
+   {
+    "station": 364.0,
+    "rho_a": 95.0,
+    "site": "RD-364"
+   },
+   {
+    "station": 505.0,
+    "rho_a": 17.1,
+    "site": "RD-505"
+   },
+   {
+    "station": 510.0,
+    "rho_a": 15.0,
+    "site": "RD-510"
+   },
+   {
+    "station": 508.0,
+    "rho_a": 17.9,
+    "site": "RD-508"
+   },
+   {
+    "station": 260.0,
+    "rho_a": 66.1,
+    "site": "RD-260"
+   },
+   {
+    "station": 261.0,
+    "rho_a": 75.6,
+    "site": "RD-261"
+   },
+   {
+    "station": 281.0,
+    "rho_a": 43.3,
+    "site": "RD-281"
+   },
+   {
+    "station": 506.0,
+    "rho_a": 28.1,
+    "site": "RD-506"
+   },
+   {
+    "station": 282.0,
+    "rho_a": 55.5,
+    "site": "RD-282"
+   },
+   {
+    "station": 509.0,
+    "rho_a": 20.9,
+    "site": "RD-509"
+   },
+   {
+    "station": 280.0,
+    "rho_a": 36.2,
+    "site": "RD-280"
+   },
+   {
+    "station": 286.0,
+    "rho_a": 52.1,
+    "site": "RD-286"
+   },
+   {
+    "station": 283.0,
+    "rho_a": 50.7,
+    "site": "RD-283"
+   },
+   {
+    "station": 279.0,
+    "rho_a": 65.7,
+    "site": "RD-279"
+   },
+   {
+    "station": 284.0,
+    "rho_a": 65.1,
+    "site": "RD-284"
+   },
+   {
+    "station": 285.0,
+    "rho_a": 30.1,
+    "site": "RD-285"
+   },
+   {
+    "station": 512.0,
+    "rho_a": 33.0,
+    "site": "RD-512"
+   },
+   {
+    "station": 278.0,
+    "rho_a": 99.2,
+    "site": "RD-278"
+   },
+   {
+    "station": 271.0,
+    "rho_a": 64.4,
+    "site": "RD-271"
+   },
+   {
+    "station": 295.0,
+    "rho_a": 23.3,
+    "site": "RD-295"
+   },
+   {
+    "station": 274.0,
+    "rho_a": 69.9,
+    "site": "RD-274"
+   },
+   {
+    "station": 275.0,
+    "rho_a": 60.2,
+    "site": "RD-275"
+   },
+   {
+    "station": 294.0,
+    "rho_a": 38.3,
+    "site": "RD-294"
+   },
+   {
+    "station": 288.0,
+    "rho_a": 127.0,
+    "site": "RD-288"
+   },
+   {
+    "station": 273.0,
+    "rho_a": 88.3,
+    "site": "RD-273"
+   },
+   {
+    "station": 272.0,
+    "rho_a": 95.4,
+    "site": "RD-272"
+   },
+   {
+    "station": 277.0,
+    "rho_a": 51.6,
+    "site": "RD-277"
+   },
+   {
+    "station": 276.0,
+    "rho_a": 59.1,
+    "site": "RD-276"
+   },
+   {
+    "station": 289.0,
+    "rho_a": 73.9,
+    "site": "RD-289"
+   },
+   {
+    "station": 291.0,
+    "rho_a": 42.4,
+    "site": "RD-291"
+   },
+   {
+    "station": 292.0,
+    "rho_a": 20.9,
+    "site": "RD-292"
+   },
+   {
+    "station": 293.0,
+    "rho_a": 33.6,
+    "site": "RD-293"
+   },
+   {
+    "station": 290.0,
+    "rho_a": 27.2,
+    "site": "RD-290"
+   },
+   {
+    "station": 258.0,
+    "rho_a": 71.7,
+    "site": "RD-258"
+   },
+   {
+    "station": 370.0,
+    "rho_a": 12.2,
+    "site": "RD-370"
+   },
+   {
+    "station": 287.0,
+    "rho_a": 13.6,
+    "site": "RD-287"
+   }
+  ],
+  "source_dipole": [
+   {
+    "x": 191214,
+    "y": 216404,
+    "crs": "EPSG:28193",
+    "source": "map",
+    "accuracy_m": 100
+   },
+   {
+    "x": 190619,
+    "y": 214804,
+    "crs": "EPSG:28193",
+    "source": "map",
+    "accuracy_m": 100
+   }
+  ],
+  "provenance": {
+   "document": "maps",
+   "pages": [
+    21
+   ],
+   "figure": "Figure 21, source 61",
+   "method": "manual",
+   "tool": "geosigma.extract.yizreel_maps (positions by script, values by eye)",
+   "extracted_on": "2026-10-14"
+  },
+  "notes": "Apparent resistivity at 67 receiver stations for transmitter 61."
+ },
+ {
+  "id": "rotstein-1977-yizreel-harod-roving-source-62",
+  "survey": "rotstein-1977-yizreel-harod",
+  "site": null,
+  "line": "Source 62",
+  "method": "DIPOLE",
+  "level": "L1",
+  "representation": "map_grid",
+  "array": "roving dipole",
+  "measured_on": null,
+  "confidence": "B",
+  "status": "draft",
+  "profile": [
+   {
+    "station": 258.0,
+    "rho_a": 134.1,
+    "site": "RD-258"
+   },
+   {
+    "station": 267.0,
+    "rho_a": 44.9,
+    "site": "RD-267"
+   },
+   {
+    "station": 393.0,
+    "rho_a": 35.1,
+    "site": "RD-393"
+   },
+   {
+    "station": 268.0,
+    "rho_a": 74.2,
+    "site": "RD-268"
+   },
+   {
+    "station": 257.0,
+    "rho_a": 108.4,
+    "site": "RD-257"
+   },
+   {
+    "station": 256.0,
+    "rho_a": 67.6,
+    "site": "RD-256"
+   },
+   {
+    "station": 394.0,
+    "rho_a": 89.3,
+    "site": "RD-394"
+   },
+   {
+    "station": 400.0,
+    "rho_a": 23.1,
+    "site": "RD-400"
+   },
+   {
+    "station": 395.0,
+    "rho_a": 17.5,
+    "site": "RD-395"
+   },
+   {
+    "station": 266.0,
+    "rho_a": 125.0,
+    "site": "RD-266"
+   },
+   {
+    "station": 373.0,
+    "rho_a": 52.2,
+    "site": "RD-373"
+   },
+   {
+    "station": 372.0,
+    "rho_a": 27.2,
+    "site": "RD-372"
+   },
+   {
+    "station": 398.0,
+    "rho_a": 20.5,
+    "site": "RD-398"
+   },
+   {
+    "station": 399.0,
+    "rho_a": 30.1,
+    "site": "RD-399"
+   },
+   {
+    "station": 501.0,
+    "rho_a": 25.3,
+    "site": "RD-501"
+   },
+   {
+    "station": 502.0,
+    "rho_a": 18.4,
+    "site": "RD-502"
+   },
+   {
+    "station": 362.0,
+    "rho_a": 89.7,
+    "site": "RD-362"
+   },
+   {
+    "station": 369.0,
+    "rho_a": 89.8,
+    "site": "RD-369"
+   },
+   {
+    "station": 370.0,
+    "rho_a": 40.3,
+    "site": "RD-370"
+   },
+   {
+    "station": 503.0,
+    "rho_a": 18.6,
+    "site": "RD-503"
+   },
+   {
+    "station": 397.0,
+    "rho_a": 4.7,
+    "site": "RD-397"
+   },
+   {
+    "station": 386.0,
+    "rho_a": 45.0,
+    "site": "RD-386"
+   },
+   {
+    "station": 363.0,
+    "rho_a": 46.7,
+    "site": "RD-363"
+   },
+   {
+    "station": 392.0,
+    "rho_a": 22.1,
+    "site": "RD-392"
+   },
+   {
+    "station": 511.0,
+    "rho_a": 6.5,
+    "site": "RD-511"
+   },
+   {
+    "station": 269.0,
+    "rho_a": 19.4,
+    "site": "RD-269"
+   },
+   {
+    "station": 259.0,
+    "rho_a": 24.6,
+    "site": "RD-259"
+   },
+   {
+    "station": 396.0,
+    "rho_a": 29.2,
+    "site": "RD-396"
+   },
+   {
+    "station": 262.0,
+    "rho_a": 65.8,
+    "site": "RD-262"
+   },
+   {
+    "station": 507.0,
+    "rho_a": 17.5,
+    "site": "RD-507"
+   },
+   {
+    "station": 364.0,
+    "rho_a": 44.0,
+    "site": "RD-364"
+   },
+   {
+    "station": 391.0,
+    "rho_a": 31.0,
+    "site": "RD-391"
+   },
+   {
+    "station": 505.0,
+    "rho_a": 10.3,
+    "site": "RD-505"
+   },
+   {
+    "station": 508.0,
+    "rho_a": 29.9,
+    "site": "RD-508"
+   },
+   {
+    "station": 261.0,
+    "rho_a": 53.5,
+    "site": "RD-261"
+   },
+   {
+    "station": 281.0,
+    "rho_a": 28.4,
+    "site": "RD-281"
+   },
+   {
+    "station": 506.0,
+    "rho_a": 28.7,
+    "site": "RD-506"
+   },
+   {
+    "station": 282.0,
+    "rho_a": 40.9,
+    "site": "RD-282"
+   },
+   {
+    "station": 509.0,
+    "rho_a": 38.0,
+    "site": "RD-509"
+   },
+   {
+    "station": 280.0,
+    "rho_a": 36.3,
+    "site": "RD-280"
+   },
+   {
+    "station": 286.0,
+    "rho_a": 52.0,
+    "site": "RD-286"
+   },
+   {
+    "station": 283.0,
+    "rho_a": 34.7,
+    "site": "RD-283"
+   },
+   {
+    "station": 279.0,
+    "rho_a": 45.4,
+    "site": "RD-279"
+   },
+   {
+    "station": 287.0,
+    "rho_a": 30.2,
+    "site": "RD-287"
+   },
+   {
+    "station": 284.0,
+    "rho_a": 40.2,
+    "site": "RD-284"
+   },
+   {
+    "station": 285.0,
+    "rho_a": 38.1,
+    "site": "RD-285"
+   },
+   {
+    "station": 512.0,
+    "rho_a": 45.2,
+    "site": "RD-512"
+   },
+   {
+    "station": 278.0,
+    "rho_a": 27.8,
+    "site": "RD-278"
+   },
+   {
+    "station": 271.0,
+    "rho_a": 33.1,
+    "site": "RD-271"
+   },
+   {
+    "station": 295.0,
+    "rho_a": 25.8,
+    "site": "RD-295"
+   },
+   {
+    "station": 274.0,
+    "rho_a": 35.4,
+    "site": "RD-274"
+   },
+   {
+    "station": 275.0,
+    "rho_a": 43.2,
+    "site": "RD-275"
+   },
+   {
+    "station": 294.0,
+    "rho_a": 27.6,
+    "site": "RD-294"
+   },
+   {
+    "station": 288.0,
+    "rho_a": 37.7,
+    "site": "RD-288"
+   },
+   {
+    "station": 273.0,
+    "rho_a": 57.4,
+    "site": "RD-273"
+   },
+   {
+    "station": 272.0,
+    "rho_a": 81.8,
+    "site": "RD-272"
+   },
+   {
+    "station": 277.0,
+    "rho_a": 31.9,
+    "site": "RD-277"
+   },
+   {
+    "station": 276.0,
+    "rho_a": 50.5,
+    "site": "RD-276"
+   },
+   {
+    "station": 289.0,
+    "rho_a": 21.9,
+    "site": "RD-289"
+   },
+   {
+    "station": 291.0,
+    "rho_a": 31.6,
+    "site": "RD-291"
+   },
+   {
+    "station": 292.0,
+    "rho_a": 26.9,
+    "site": "RD-292"
+   },
+   {
+    "station": 293.0,
+    "rho_a": 29.3,
+    "site": "RD-293"
+   },
+   {
+    "station": 290.0,
+    "rho_a": 28.3,
+    "site": "RD-290"
+   },
+   {
+    "station": 260.0,
+    "rho_a": 26.4,
+    "site": "RD-260"
+   },
+   {
+    "station": 504.0,
+    "rho_a": 9.8,
+    "site": "RD-504"
+   },
+   {
+    "station": 510.0,
+    "rho_a": 22.0,
+    "site": "RD-510"
+   }
+  ],
+  "source_dipole": [
+   {
+    "x": 191159,
+    "y": 216372,
+    "crs": "EPSG:28193",
+    "source": "map",
+    "accuracy_m": 100
+   },
+   {
+    "x": 192875,
+    "y": 215347,
+    "crs": "EPSG:28193",
+    "source": "map",
+    "accuracy_m": 100
+   }
+  ],
+  "provenance": {
+   "document": "maps",
+   "pages": [
+    22
+   ],
+   "figure": "Figure 22, source 62",
+   "method": "manual",
+   "tool": "geosigma.extract.yizreel_maps (positions by script, values by eye)",
+   "extracted_on": "2026-10-14"
+  },
+  "notes": "Apparent resistivity at 66 receiver stations for transmitter 62. 1 readings were hard to read."
+ },
+ {
+  "id": "rotstein-1977-yizreel-harod-roving-source-63",
+  "survey": "rotstein-1977-yizreel-harod",
+  "site": null,
+  "line": "Source 63",
+  "method": "DIPOLE",
+  "level": "L1",
+  "representation": "map_grid",
+  "array": "roving dipole",
+  "measured_on": null,
+  "confidence": "B",
+  "status": "draft",
+  "profile": [
+   {
+    "station": 400.0,
+    "rho_a": 5.4,
+    "site": "RD-400"
+   },
+   {
+    "station": 395.0,
+    "rho_a": 9.9,
+    "site": "RD-395"
+   },
+   {
+    "station": 398.0,
+    "rho_a": 15.8,
+    "site": "RD-398"
+   },
+   {
+    "station": 399.0,
+    "rho_a": 28.2,
+    "site": "RD-399"
+   },
+   {
+    "station": 501.0,
+    "rho_a": 33.8,
+    "site": "RD-501"
+   },
+   {
+    "station": 502.0,
+    "rho_a": 38.6,
+    "site": "RD-502"
+   },
+   {
+    "station": 503.0,
+    "rho_a": 14.0,
+    "site": "RD-503"
+   },
+   {
+    "station": 397.0,
+    "rho_a": 9.3,
+    "site": "RD-397"
+   },
+   {
+    "station": 386.0,
+    "rho_a": 24.6,
+    "site": "RD-386"
+   },
+   {
+    "station": 392.0,
+    "rho_a": 27.9,
+    "site": "RD-392"
+   },
+   {
+    "station": 511.0,
+    "rho_a": 6.1,
+    "site": "RD-511"
+   },
+   {
+    "station": 396.0,
+    "rho_a": 5.1,
+    "site": "RD-396"
+   },
+   {
+    "station": 507.0,
+    "rho_a": 17.2,
+    "site": "RD-507"
+   },
+   {
+    "station": 391.0,
+    "rho_a": 15.3,
+    "site": "RD-391"
+   },
+   {
+    "station": 510.0,
+    "rho_a": 43.1,
+    "site": "RD-510"
+   },
+   {
+    "station": 299.0,
+    "rho_a": 6.1,
+    "site": "RD-299"
+   },
+   {
+    "station": 508.0,
+    "rho_a": 12.3,
+    "site": "RD-508"
+   },
+   {
+    "station": 300.0,
+    "rho_a": 13.5,
+    "site": "RD-300"
+   },
+   {
+    "station": 509.0,
+    "rho_a": 12.3,
+    "site": "RD-509"
+   },
+   {
+    "station": 280.0,
+    "rho_a": 15.4,
+    "site": "RD-280"
+   },
+   {
+    "station": 286.0,
+    "rho_a": 13.0,
+    "site": "RD-286"
+   },
+   {
+    "station": 297.0,
+    "rho_a": 3.0,
+    "site": "RD-297"
+   },
+   {
+    "station": 401.0,
+    "rho_a": 16.2,
+    "site": "RD-401"
+   },
+   {
+    "station": 283.0,
+    "rho_a": 7.7,
+    "site": "RD-283"
+   },
+   {
+    "station": 279.0,
+    "rho_a": 15.1,
+    "site": "RD-279"
+   },
+   {
+    "station": 287.0,
+    "rho_a": 14.0,
+    "site": "RD-287"
+   },
+   {
+    "station": 285.0,
+    "rho_a": 8.0,
+    "site": "RD-285"
+   },
+   {
+    "station": 296.0,
+    "rho_a": 10.3,
+    "site": "RD-296"
+   },
+   {
+    "station": 282.0,
+    "rho_a": 12.8,
+    "site": "RD-282"
+   },
+   {
+    "station": 298.0,
+    "rho_a": 3.7,
+    "site": "RD-298"
+   }
+  ],
+  "source_dipole": [
+   {
+    "x": 197029,
+    "y": 217204,
+    "crs": "EPSG:28193",
+    "source": "map",
+    "accuracy_m": 100
+   },
+   {
+    "x": 196182,
+    "y": 215657,
+    "crs": "EPSG:28193",
+    "source": "map",
+    "accuracy_m": 100
+   }
+  ],
+  "provenance": {
+   "document": "maps",
+   "pages": [
+    23
+   ],
+   "figure": "Figure 23, source 63",
+   "method": "manual",
+   "tool": "geosigma.extract.yizreel_maps (positions by script, values by eye)",
+   "extracted_on": "2026-10-14"
+  },
+  "notes": "Apparent resistivity at 30 receiver stations for transmitter 63. 1 readings were hard to read."
+ },
+ {
+  "id": "rotstein-1977-yizreel-harod-roving-source-64",
+  "survey": "rotstein-1977-yizreel-harod",
+  "site": null,
+  "line": "Source 64",
+  "method": "DIPOLE",
+  "level": "L1",
+  "representation": "map_grid",
+  "array": "roving dipole",
+  "measured_on": null,
+  "confidence": "B",
+  "status": "draft",
+  "profile": [
+   {
+    "station": 400.0,
+    "rho_a": 10.9,
+    "site": "RD-400"
+   },
+   {
+    "station": 395.0,
+    "rho_a": 17.4,
+    "site": "RD-395"
+   },
+   {
+    "station": 398.0,
+    "rho_a": 28.0,
+    "site": "RD-398"
+   },
+   {
+    "station": 399.0,
+    "rho_a": 25.7,
+    "site": "RD-399"
+   },
+   {
+    "station": 501.0,
+    "rho_a": 23.7,
+    "site": "RD-501"
+   },
+   {
+    "station": 502.0,
+    "rho_a": 33.6,
+    "site": "RD-502"
+   },
+   {
+    "station": 503.0,
+    "rho_a": 14.7,
+    "site": "RD-503"
+   },
+   {
+    "station": 397.0,
+    "rho_a": 8.1,
+    "site": "RD-397"
+   },
+   {
+    "station": 386.0,
+    "rho_a": 31.3,
+    "site": "RD-386"
+   },
+   {
+    "station": 511.0,
+    "rho_a": 3.2,
+    "site": "RD-511"
+   },
+   {
+    "station": 396.0,
+    "rho_a": 10.3,
+    "site": "RD-396"
+   },
+   {
+    "station": 507.0,
+    "rho_a": 27.4,
+    "site": "RD-507"
+   },
+   {
+    "station": 391.0,
+    "rho_a": 21.9,
+    "site": "RD-391"
+   },
+   {
+    "station": 510.0,
+    "rho_a": 27.4,
+    "site": "RD-510"
+   },
+   {
+    "station": 299.0,
+    "rho_a": 3.3,
+    "site": "RD-299"
+   },
+   {
+    "station": 508.0,
+    "rho_a": 18.0,
+    "site": "RD-508"
+   },
+   {
+    "station": 298.0,
+    "rho_a": 5.6,
+    "site": "RD-298"
+   },
+   {
+    "station": 506.0,
+    "rho_a": 11.9,
+    "site": "RD-506"
+   },
+   {
+    "station": 282.0,
+    "rho_a": 13.6,
+    "site": "RD-282"
+   },
+   {
+    "station": 300.0,
+    "rho_a": 19.5,
+    "site": "RD-300"
+   },
+   {
+    "station": 509.0,
+    "rho_a": 8.5,
+    "site": "RD-509"
+   },
+   {
+    "station": 280.0,
+    "rho_a": 35.4,
+    "site": "RD-280"
+   },
+   {
+    "station": 286.0,
+    "rho_a": 15.9,
+    "site": "RD-286"
+   },
+   {
+    "station": 283.0,
+    "rho_a": 43.0,
+    "site": "RD-283"
+   },
+   {
+    "station": 279.0,
+    "rho_a": 24.7,
+    "site": "RD-279"
+   },
+   {
+    "station": 285.0,
+    "rho_a": 9.4,
+    "site": "RD-285"
+   },
+   {
+    "station": 296.0,
+    "rho_a": 5.9,
+    "site": "RD-296"
+   },
+   {
+    "station": 392.0,
+    "rho_a": 47.0,
+    "site": "RD-392"
+   },
+   {
+    "station": 281.0,
+    "rho_a": 23.2,
+    "site": "RD-281"
+   },
+   {
+    "station": 284.0,
+    "rho_a": 19.6,
+    "site": "RD-284"
+   },
+   {
+    "station": 287.0,
+    "rho_a": 16.9,
+    "site": "RD-287"
+   },
+   {
+    "station": 401.0,
+    "rho_a": 11.1,
+    "site": "RD-401"
+   },
+   {
+    "station": 297.0,
+    "rho_a": 4.0,
+    "site": "RD-297"
+   }
+  ],
+  "source_dipole": [
+   {
+    "x": 195560,
+    "y": 218390,
+    "crs": "EPSG:28193",
+    "source": "map",
+    "accuracy_m": 100
+   },
+   {
+    "x": 197007,
+    "y": 217191,
+    "crs": "EPSG:28193",
+    "source": "map",
+    "accuracy_m": 100
+   }
+  ],
+  "provenance": {
+   "document": "maps",
+   "pages": [
+    24
+   ],
+   "figure": "Figure 24, source 64",
+   "method": "manual",
+   "tool": "geosigma.extract.yizreel_maps (positions by script, values by eye)",
+   "extracted_on": "2026-10-14"
+  },
+  "notes": "Apparent resistivity at 33 receiver stations for transmitter 64."
+ },
+ {
+  "id": "rotstein-1977-yizreel-harod-roving-source-65",
+  "survey": "rotstein-1977-yizreel-harod",
+  "site": null,
+  "line": "Source 65",
+  "method": "DIPOLE",
+  "level": "L1",
+  "representation": "map_grid",
+  "array": "roving dipole",
+  "measured_on": null,
+  "confidence": "B",
+  "status": "draft",
+  "profile": [
+   {
+    "station": 413.0,
+    "rho_a": 1.5,
+    "site": "RD-413"
+   },
+   {
+    "station": 414.0,
+    "rho_a": 1.0,
+    "site": "RD-414"
+   },
+   {
+    "station": 415.0,
+    "rho_a": 2.0,
+    "site": "RD-415"
+   },
+   {
+    "station": 412.0,
+    "rho_a": 7.7,
+    "site": "RD-412"
+   },
+   {
+    "station": 504.0,
+    "rho_a": 9.1,
+    "site": "RD-504"
+   },
+   {
+    "station": 416.0,
+    "rho_a": 2.4,
+    "site": "RD-416"
+   },
+   {
+    "station": 511.0,
+    "rho_a": 10.8,
+    "site": "RD-511"
+   },
+   {
+    "station": 510.0,
+    "rho_a": 19.9,
+    "site": "RD-510"
+   },
+   {
+    "station": 505.0,
+    "rho_a": 11.7,
+    "site": "RD-505"
+   },
+   {
+    "station": 417.0,
+    "rho_a": 2.4,
+    "site": "RD-417"
+   },
+   {
+    "station": 299.0,
+    "rho_a": 8.6,
+    "site": "RD-299"
+   },
+   {
+    "station": 410.0,
+    "rho_a": 15.1,
+    "site": "RD-410"
+   },
+   {
+    "station": 298.0,
+    "rho_a": 13.7,
+    "site": "RD-298"
+   },
+   {
+    "station": 506.0,
+    "rho_a": 17.6,
+    "site": "RD-506"
+   },
+   {
+    "station": 418.0,
+    "rho_a": 4.5,
+    "site": "RD-418"
+   },
+   {
+    "station": 300.0,
+    "rho_a": 8.7,
+    "site": "RD-300"
+   },
+   {
+    "station": 509.0,
+    "rho_a": 22.4,
+    "site": "RD-509"
+   },
+   {
+    "station": 286.0,
+    "rho_a": 24.1,
+    "site": "RD-286"
+   },
+   {
+    "station": 297.0,
+    "rho_a": 13.9,
+    "site": "RD-297"
+   },
+   {
+    "station": 419.0,
+    "rho_a": 3.4,
+    "site": "RD-419"
+   },
+   {
+    "station": 401.0,
+    "rho_a": 16.9,
+    "site": "RD-401"
+   },
+   {
+    "station": 425.0,
+    "rho_a": 3.6,
+    "site": "RD-425"
+   },
+   {
+    "station": 287.0,
+    "rho_a": 17.5,
+    "site": "RD-287"
+   },
+   {
+    "station": 285.0,
+    "rho_a": 8.9,
+    "site": "RD-285"
+   },
+   {
+    "station": 423.0,
+    "rho_a": 5.1,
+    "site": "RD-423"
+   },
+   {
+    "station": 424.0,
+    "rho_a": 13.3,
+    "site": "RD-424"
+   },
+   {
+    "station": 420.0,
+    "rho_a": 5.2,
+    "site": "RD-420"
+   },
+   {
+    "station": 421.0,
+    "rho_a": 3.5,
+    "site": "RD-421"
+   },
+   {
+    "station": 422.0,
+    "rho_a": 4.1,
+    "site": "RD-422"
+   },
+   {
+    "station": 407.0,
+    "rho_a": 5.9,
+    "site": "RD-407"
+   },
+   {
+    "station": 408.0,
+    "rho_a": 9.1,
+    "site": "RD-408"
+   },
+   {
+    "station": 406.0,
+    "rho_a": 4.2,
+    "site": "RD-406"
+   },
+   {
+    "station": 409.0,
+    "rho_a": 15.8,
+    "site": "RD-409"
+   },
+   {
+    "station": 435.0,
+    "rho_a": 6.1,
+    "site": "RD-435"
+   },
+   {
+    "station": 431.0,
+    "rho_a": 5.9,
+    "site": "RD-431"
+   },
+   {
+    "station": 430.0,
+    "rho_a": 5.8,
+    "site": "RD-430"
+   },
+   {
+    "station": 426.0,
+    "rho_a": 2.1,
+    "site": "RD-426"
+   },
+   {
+    "station": 402.0,
+    "rho_a": 3.6,
+    "site": "RD-402"
+   },
+   {
+    "station": 437.0,
+    "rho_a": 1.6,
+    "site": "RD-437"
+   },
+   {
+    "station": 432.0,
+    "rho_a": 4.6,
+    "site": "RD-432"
+   },
+   {
+    "station": 436.0,
+    "rho_a": 6.9,
+    "site": "RD-436"
+   },
+   {
+    "station": 429.0,
+    "rho_a": 3.1,
+    "site": "RD-429"
+   },
+   {
+    "station": 428.0,
+    "rho_a": 3.1,
+    "site": "RD-428"
+   },
+   {
+    "station": 403.0,
+    "rho_a": 8.2,
+    "site": "RD-403"
+   },
+   {
+    "station": 404.0,
+    "rho_a": 3.4,
+    "site": "RD-404"
+   },
+   {
+    "station": 427.0,
+    "rho_a": 3.0,
+    "site": "RD-427"
+   },
+   {
+    "station": 433.0,
+    "rho_a": 5.0,
+    "site": "RD-433"
+   },
+   {
+    "station": 434.0,
+    "rho_a": 7.1,
+    "site": "RD-434"
+   }
+  ],
+  "source_dipole": [
+   {
+    "x": 199895,
+    "y": 214320,
+    "crs": "EPSG:28193",
+    "source": "map",
+    "accuracy_m": 100
+   },
+   {
+    "x": 198974,
+    "y": 212743,
+    "crs": "EPSG:28193",
+    "source": "map",
+    "accuracy_m": 100
+   }
+  ],
+  "provenance": {
+   "document": "maps",
+   "pages": [
+    25
+   ],
+   "figure": "Figure 25, source 65",
+   "method": "manual",
+   "tool": "geosigma.extract.yizreel_maps (positions by script, values by eye)",
+   "extracted_on": "2026-10-14"
+  },
+  "notes": "Apparent resistivity at 48 receiver stations for transmitter 65."
+ },
+ {
+  "id": "rotstein-1977-yizreel-harod-roving-source-66",
+  "survey": "rotstein-1977-yizreel-harod",
+  "site": null,
+  "line": "Source 66",
+  "method": "DIPOLE",
+  "level": "L1",
+  "representation": "map_grid",
+  "array": "roving dipole",
+  "measured_on": null,
+  "confidence": "B",
+  "status": "draft",
+  "profile": [
+   {
+    "station": 413.0,
+    "rho_a": 3.7,
+    "site": "RD-413"
+   },
+   {
+    "station": 414.0,
+    "rho_a": 3.8,
+    "site": "RD-414"
+   },
+   {
+    "station": 415.0,
+    "rho_a": 3.4,
+    "site": "RD-415"
+   },
+   {
+    "station": 412.0,
+    "rho_a": 5.5,
+    "site": "RD-412"
+   },
+   {
+    "station": 504.0,
+    "rho_a": 17.3,
+    "site": "RD-504"
+   },
+   {
+    "station": 416.0,
+    "rho_a": 8.5,
+    "site": "RD-416"
+   },
+   {
+    "station": 511.0,
+    "rho_a": 18.3,
+    "site": "RD-511"
+   },
+   {
+    "station": 510.0,
+    "rho_a": 27.3,
+    "site": "RD-510"
+   },
+   {
+    "station": 505.0,
+    "rho_a": 17.4,
+    "site": "RD-505"
+   },
+   {
+    "station": 299.0,
+    "rho_a": 6.3,
+    "site": "RD-299"
+   },
+   {
+    "station": 417.0,
+    "rho_a": 5.1,
+    "site": "RD-417"
+   },
+   {
+    "station": 410.0,
+    "rho_a": 6.7,
+    "site": "RD-410"
+   },
+   {
+    "station": 298.0,
+    "rho_a": 6.3,
+    "site": "RD-298"
+   },
+   {
+    "station": 506.0,
+    "rho_a": 9.8,
+    "site": "RD-506"
+   },
+   {
+    "station": 418.0,
+    "rho_a": 4.3,
+    "site": "RD-418"
+   },
+   {
+    "station": 286.0,
+    "rho_a": 26.3,
+    "site": "RD-286"
+   },
+   {
+    "station": 419.0,
+    "rho_a": 1.6,
+    "site": "RD-419"
+   },
+   {
+    "station": 401.0,
+    "rho_a": 13.3,
+    "site": "RD-401"
+   },
+   {
+    "station": 287.0,
+    "rho_a": 17.8,
+    "site": "RD-287"
+   },
+   {
+    "station": 285.0,
+    "rho_a": 9.8,
+    "site": "RD-285"
+   },
+   {
+    "station": 423.0,
+    "rho_a": 2.1,
+    "site": "RD-423"
+   },
+   {
+    "station": 424.0,
+    "rho_a": 5.6,
+    "site": "RD-424"
+   },
+   {
+    "station": 420.0,
+    "rho_a": 5.1,
+    "site": "RD-420"
+   },
+   {
+    "station": 421.0,
+    "rho_a": 3.1,
+    "site": "RD-421"
+   },
+   {
+    "station": 422.0,
+    "rho_a": 1.9,
+    "site": "RD-422"
+   },
+   {
+    "station": 407.0,
+    "rho_a": 2.2,
+    "site": "RD-407"
+   },
+   {
+    "station": 408.0,
+    "rho_a": 2.2,
+    "site": "RD-408"
+   },
+   {
+    "station": 406.0,
+    "rho_a": 3.9,
+    "site": "RD-406"
+   },
+   {
+    "station": 409.0,
+    "rho_a": 21.0,
+    "site": "RD-409"
+   },
+   {
+    "station": 431.0,
+    "rho_a": 5.9,
+    "site": "RD-431"
+   },
+   {
+    "station": 435.0,
+    "rho_a": 12.4,
+    "site": "RD-435"
+   },
+   {
+    "station": 430.0,
+    "rho_a": 3.2,
+    "site": "RD-430"
+   },
+   {
+    "station": 426.0,
+    "rho_a": 1.6,
+    "site": "RD-426"
+   },
+   {
+    "station": 402.0,
+    "rho_a": 7.1,
+    "site": "RD-402"
+   },
+   {
+    "station": 432.0,
+    "rho_a": 4.7,
+    "site": "RD-432"
+   },
+   {
+    "station": 436.0,
+    "rho_a": 12.7,
+    "site": "RD-436"
+   },
+   {
+    "station": 434.0,
+    "rho_a": 14.7,
+    "site": "RD-434"
+   },
+   {
+    "station": 429.0,
+    "rho_a": 2.8,
+    "site": "RD-429"
+   },
+   {
+    "station": 428.0,
+    "rho_a": 2.7,
+    "site": "RD-428"
+   },
+   {
+    "station": 403.0,
+    "rho_a": 12.4,
+    "site": "RD-403"
+   },
+   {
+    "station": 427.0,
+    "rho_a": 3.0,
+    "site": "RD-427"
+   },
+   {
+    "station": 404.0,
+    "rho_a": 5.8,
+    "site": "RD-404"
+   },
+   {
+    "station": 433.0,
+    "rho_a": 16.7,
+    "site": "RD-433"
+   },
+   {
+    "station": 405.0,
+    "rho_a": 27.1,
+    "site": "RD-405"
+   },
+   {
+    "station": 411.0,
+    "rho_a": 11.1,
+    "site": "RD-411"
+   },
+   {
+    "station": 509.0,
+    "rho_a": 45.2,
+    "site": "RD-509"
+   },
+   {
+    "station": 300.0,
+    "rho_a": 18.6,
+    "site": "RD-300"
+   },
+   {
+    "station": 425.0,
+    "rho_a": 2.0,
+    "site": "RD-425"
+   }
+  ],
+  "source_dipole": [
+   {
+    "x": 197401,
+    "y": 213130,
+    "crs": "EPSG:28193",
+    "source": "map",
+    "accuracy_m": 100
+   },
+   {
+    "x": 199063,
+    "y": 212700,
+    "crs": "EPSG:28193",
+    "source": "map",
+    "accuracy_m": 100
+   }
+  ],
+  "provenance": {
+   "document": "maps",
+   "pages": [
+    26
+   ],
+   "figure": "Figure 26, source 66",
+   "method": "manual",
+   "tool": "geosigma.extract.yizreel_maps (positions by script, values by eye)",
+   "extracted_on": "2026-10-14"
+  },
+  "notes": "Apparent resistivity at 48 receiver stations for transmitter 66."
+ },
+ {
+  "id": "rotstein-1977-yizreel-harod-roving-source-71",
+  "survey": "rotstein-1977-yizreel-harod",
+  "site": null,
+  "line": "Source 71",
+  "method": "DIPOLE",
+  "level": "L1",
+  "representation": "map_grid",
+  "array": "roving dipole",
+  "measured_on": null,
+  "confidence": "B",
+  "status": "draft",
+  "profile": [
+   {
+    "station": 564.0,
+    "rho_a": 47.0,
+    "site": "RD-564"
+   },
+   {
+    "station": 559.0,
+    "rho_a": 18.7,
+    "site": "RD-559"
+   },
+   {
+    "station": 562.0,
+    "rho_a": 38.9,
+    "site": "RD-562"
+   },
+   {
+    "station": 572.0,
+    "rho_a": 40.7,
+    "site": "RD-572"
+   },
+   {
+    "station": 560.0,
+    "rho_a": 30.0,
+    "site": "RD-560"
+   },
+   {
+    "station": 565.0,
+    "rho_a": 41.6,
+    "site": "RD-565"
+   },
+   {
+    "station": 563.0,
+    "rho_a": 38.8,
+    "site": "RD-563"
+   },
+   {
+    "station": 571.0,
+    "rho_a": 34.0,
+    "site": "RD-571"
+   },
+   {
+    "station": 558.0,
+    "rho_a": 32.7,
+    "site": "RD-558"
+   },
+   {
+    "station": 561.0,
+    "rho_a": 27.0,
+    "site": "RD-561"
+   },
+   {
+    "station": 552.0,
+    "rho_a": 20.7,
+    "site": "RD-552"
+   },
+   {
+    "station": 566.0,
+    "rho_a": 58.8,
+    "site": "RD-566"
+   },
+   {
+    "station": 553.0,
+    "rho_a": 56.0,
+    "site": "RD-553"
+   },
+   {
+    "station": 568.0,
+    "rho_a": 48.4,
+    "site": "RD-568"
+   },
+   {
+    "station": 557.0,
+    "rho_a": 28.0,
+    "site": "RD-557"
+   },
+   {
+    "station": 570.0,
+    "rho_a": 26.0,
+    "site": "RD-570"
+   },
+   {
+    "station": 555.0,
+    "rho_a": 17.6,
+    "site": "RD-555"
+   },
+   {
+    "station": 551.0,
+    "rho_a": 22.5,
+    "site": "RD-551"
+   },
+   {
+    "station": 556.0,
+    "rho_a": 15.5,
+    "site": "RD-556"
+   },
+   {
+    "station": 567.0,
+    "rho_a": 55.1,
+    "site": "RD-567"
+   },
+   {
+    "station": 577.0,
+    "rho_a": 36.3,
+    "site": "RD-577"
+   },
+   {
+    "station": 569.0,
+    "rho_a": 69.6,
+    "site": "RD-569"
+   },
+   {
+    "station": 471.0,
+    "rho_a": 44.7,
+    "site": "RD-471"
+   },
+   {
+    "station": 474.0,
+    "rho_a": 21.3,
+    "site": "RD-474"
+   },
+   {
+    "station": 476.0,
+    "rho_a": 49.1,
+    "site": "RD-476"
+   },
+   {
+    "station": 475.0,
+    "rho_a": 37.1,
+    "site": "RD-475"
+   },
+   {
+    "station": 487.0,
+    "rho_a": 24.7,
+    "site": "RD-487"
+   },
+   {
+    "station": 472.0,
+    "rho_a": 22.3,
+    "site": "RD-472"
+   },
+   {
+    "station": 478.0,
+    "rho_a": 24.2,
+    "site": "RD-478"
+   },
+   {
+    "station": 489.0,
+    "rho_a": 64.7,
+    "site": "RD-489"
+   },
+   {
+    "station": 490.0,
+    "rho_a": 21.8,
+    "site": "RD-490"
+   },
+   {
+    "station": 480.0,
+    "rho_a": 93.3,
+    "site": "RD-480"
+   },
+   {
+    "station": 488.0,
+    "rho_a": 24.5,
+    "site": "RD-488"
+   },
+   {
+    "station": 486.0,
+    "rho_a": 18.5,
+    "site": "RD-486"
+   },
+   {
+    "station": 479.0,
+    "rho_a": 34.9,
+    "site": "RD-479"
+   },
+   {
+    "station": 573.0,
+    "rho_a": 40.7,
+    "site": "RD-573"
+   },
+   {
+    "station": 473.0,
+    "rho_a": 18.3,
+    "site": "RD-473"
+   },
+   {
+    "station": 574.0,
+    "rho_a": 26.6,
+    "site": "RD-574"
+   },
+   {
+    "station": 491.0,
+    "rho_a": 16.5,
+    "site": "RD-491"
+   },
+   {
+    "station": 481.0,
+    "rho_a": 39.2,
+    "site": "RD-481"
+   },
+   {
+    "station": 121.0,
+    "rho_a": 7.3,
+    "site": "RD-121"
+   },
+   {
+    "station": 484.0,
+    "rho_a": 16.8,
+    "site": "RD-484"
+   },
+   {
+    "station": 485.0,
+    "rho_a": 12.2,
+    "site": "RD-485"
+   },
+   {
+    "station": 576.0,
+    "rho_a": 40.0,
+    "site": "RD-576"
+   },
+   {
+    "station": 110.0,
+    "rho_a": 17.6,
+    "site": "RD-110"
+   },
+   {
+    "station": 575.0,
+    "rho_a": 64.6,
+    "site": "RD-575"
+   },
+   {
+    "station": 482.0,
+    "rho_a": 17.2,
+    "site": "RD-482"
+   },
+   {
+    "station": 492.0,
+    "rho_a": 21.1,
+    "site": "RD-492"
+   },
+   {
+    "station": 120.0,
+    "rho_a": 10.7,
+    "site": "RD-120"
+   },
+   {
+    "station": 109.0,
+    "rho_a": 12.2,
+    "site": "RD-109"
+   },
+   {
+    "station": 45.0,
+    "rho_a": 47.3,
+    "site": "RD-45"
+   },
+   {
+    "station": 107.0,
+    "rho_a": 15.2,
+    "site": "RD-107"
+   },
+   {
+    "station": 117.0,
+    "rho_a": 11.2,
+    "site": "RD-117"
+   },
+   {
+    "station": 118.0,
+    "rho_a": 34.9,
+    "site": "RD-118"
+   },
+   {
+    "station": 116.0,
+    "rho_a": 8.1,
+    "site": "RD-116"
+   },
+   {
+    "station": 115.0,
+    "rho_a": 5.4,
+    "site": "RD-115"
+   }
+  ],
+  "source_dipole": [
+   {
+    "x": 163870,
+    "y": 234855,
+    "crs": "EPSG:28193",
+    "source": "map",
+    "accuracy_m": 100
+   },
+   {
+    "x": 163508,
+    "y": 233127,
+    "crs": "EPSG:28193",
+    "source": "map",
+    "accuracy_m": 100
+   }
+  ],
+  "provenance": {
+   "document": "maps",
+   "pages": [
+    27
+   ],
+   "figure": "Figure 27, source 71",
+   "method": "manual",
+   "tool": "geosigma.extract.yizreel_maps (positions by script, values by eye)",
+   "extracted_on": "2026-10-14"
+  },
+  "notes": "Apparent resistivity at 56 receiver stations for transmitter 71. 1 readings were hard to read."
+ },
+ {
+  "id": "rotstein-1977-yizreel-harod-roving-source-72",
+  "survey": "rotstein-1977-yizreel-harod",
+  "site": null,
+  "line": "Source 72",
+  "method": "DIPOLE",
+  "level": "L1",
+  "representation": "map_grid",
+  "array": "roving dipole",
+  "measured_on": null,
+  "confidence": "B",
+  "status": "draft",
+  "profile": [
+   {
+    "station": 564.0,
+    "rho_a": 41.0,
+    "site": "RD-564"
+   },
+   {
+    "station": 559.0,
+    "rho_a": 38.8,
+    "site": "RD-559"
+   },
+   {
+    "station": 554.0,
+    "rho_a": 49.7,
+    "site": "RD-554"
+   },
+   {
+    "station": 562.0,
+    "rho_a": 31.9,
+    "site": "RD-562"
+   },
+   {
+    "station": 572.0,
+    "rho_a": 43.7,
+    "site": "RD-572"
+   },
+   {
+    "station": 560.0,
+    "rho_a": 63.7,
+    "site": "RD-560"
+   },
+   {
+    "station": 565.0,
+    "rho_a": 56.7,
+    "site": "RD-565"
+   },
+   {
+    "station": 563.0,
+    "rho_a": 53.0,
+    "site": "RD-563"
+   },
+   {
+    "station": 571.0,
+    "rho_a": 37.3,
+    "site": "RD-571"
+   },
+   {
+    "station": 558.0,
+    "rho_a": 99.1,
+    "site": "RD-558"
+   },
+   {
+    "station": 561.0,
+    "rho_a": 90.5,
+    "site": "RD-561"
+   },
+   {
+    "station": 552.0,
+    "rho_a": 46.3,
+    "site": "RD-552"
+   },
+   {
+    "station": 566.0,
+    "rho_a": 58.8,
+    "site": "RD-566"
+   },
+   {
+    "station": 553.0,
+    "rho_a": 46.9,
+    "site": "RD-553"
+   },
+   {
+    "station": 568.0,
+    "rho_a": 76.8,
+    "site": "RD-568"
+   },
+   {
+    "station": 557.0,
+    "rho_a": 44.3,
+    "site": "RD-557"
+   },
+   {
+    "station": 570.0,
+    "rho_a": 34.1,
+    "site": "RD-570"
+   },
+   {
+    "station": 555.0,
+    "rho_a": 17.8,
+    "site": "RD-555"
+   },
+   {
+    "station": 551.0,
+    "rho_a": 9.3,
+    "site": "RD-551"
+   },
+   {
+    "station": 556.0,
+    "rho_a": 13.7,
+    "site": "RD-556"
+   },
+   {
+    "station": 567.0,
+    "rho_a": 30.1,
+    "site": "RD-567"
+   },
+   {
+    "station": 577.0,
+    "rho_a": 38.8,
+    "site": "RD-577"
+   },
+   {
+    "station": 569.0,
+    "rho_a": 88.4,
+    "site": "RD-569"
+   },
+   {
+    "station": 471.0,
+    "rho_a": 53.6,
+    "site": "RD-471"
+   },
+   {
+    "station": 474.0,
+    "rho_a": 7.5,
+    "site": "RD-474"
+   },
+   {
+    "station": 476.0,
+    "rho_a": 19.8,
+    "site": "RD-476"
+   },
+   {
+    "station": 475.0,
+    "rho_a": 22.1,
+    "site": "RD-475"
+   },
+   {
+    "station": 487.0,
+    "rho_a": 6.0,
+    "site": "RD-487"
+   },
+   {
+    "station": 477.0,
+    "rho_a": 15.1,
+    "site": "RD-477"
+   },
+   {
+    "station": 472.0,
+    "rho_a": 27.7,
+    "site": "RD-472"
+   },
+   {
+    "station": 478.0,
+    "rho_a": 16.4,
+    "site": "RD-478"
+   },
+   {
+    "station": 489.0,
+    "rho_a": 19.3,
+    "site": "RD-489"
+   },
+   {
+    "station": 488.0,
+    "rho_a": 22.5,
+    "site": "RD-488"
+   },
+   {
+    "station": 486.0,
+    "rho_a": 31.6,
+    "site": "RD-486"
+   },
+   {
+    "station": 480.0,
+    "rho_a": 47.1,
+    "site": "RD-480"
+   },
+   {
+    "station": 490.0,
+    "rho_a": 20.5,
+    "site": "RD-490"
+   },
+   {
+    "station": 479.0,
+    "rho_a": 27.8,
+    "site": "RD-479"
+   },
+   {
+    "station": 573.0,
+    "rho_a": 27.4,
+    "site": "RD-573"
+   },
+   {
+    "station": 574.0,
+    "rho_a": 27.2,
+    "site": "RD-574"
+   },
+   {
+    "station": 491.0,
+    "rho_a": 21.1,
+    "site": "RD-491"
+   },
+   {
+    "station": 481.0,
+    "rho_a": 14.1,
+    "site": "RD-481"
+   },
+   {
+    "station": 121.0,
+    "rho_a": 10.9,
+    "site": "RD-121"
+   },
+   {
+    "station": 484.0,
+    "rho_a": 37.3,
+    "site": "RD-484"
+   },
+   {
+    "station": 485.0,
+    "rho_a": 27.6,
+    "site": "RD-485"
+   },
+   {
+    "station": 576.0,
+    "rho_a": 32.7,
+    "site": "RD-576"
+   },
+   {
+    "station": 482.0,
+    "rho_a": 17.3,
+    "site": "RD-482"
+   },
+   {
+    "station": 575.0,
+    "rho_a": 25.2,
+    "site": "RD-575"
+   },
+   {
+    "station": 110.0,
+    "rho_a": 24.1,
+    "site": "RD-110"
+   },
+   {
+    "station": 492.0,
+    "rho_a": 26.5,
+    "site": "RD-492"
+   },
+   {
+    "station": 120.0,
+    "rho_a": 19.3,
+    "site": "RD-120"
+   },
+   {
+    "station": 109.0,
+    "rho_a": 45.5,
+    "site": "RD-109"
+   },
+   {
+    "station": 119.0,
+    "rho_a": 23.8,
+    "site": "RD-119"
+   },
+   {
+    "station": 107.0,
+    "rho_a": 40.1,
+    "site": "RD-107"
+   },
+   {
+    "station": 117.0,
+    "rho_a": 28.3,
+    "site": "RD-117"
+   },
+   {
+    "station": 118.0,
+    "rho_a": 58.6,
+    "site": "RD-118"
+   },
+   {
+    "station": 116.0,
+    "rho_a": 35.1,
+    "site": "RD-116"
+   },
+   {
+    "station": 115.0,
+    "rho_a": 21.4,
+    "site": "RD-115"
+   },
+   {
+    "station": 132.0,
+    "rho_a": 37.6,
+    "site": "RD-132"
+   }
+  ],
+  "source_dipole": [
+   {
+    "x": 163942,
+    "y": 234854,
+    "crs": "EPSG:28193",
+    "source": "map",
+    "accuracy_m": 100
+   },
+   {
+    "x": 165907,
+    "y": 234541,
+    "crs": "EPSG:28193",
+    "source": "map",
+    "accuracy_m": 100
+   }
+  ],
+  "provenance": {
+   "document": "maps",
+   "pages": [
+    28
+   ],
+   "figure": "Figure 28, source 72",
+   "method": "manual",
+   "tool": "geosigma.extract.yizreel_maps (positions by script, values by eye)",
+   "extracted_on": "2026-10-14"
+  },
+  "notes": "Apparent resistivity at 58 receiver stations for transmitter 72."
+ },
+ {
+  "id": "rotstein-1977-yizreel-harod-roving-source-73",
+  "survey": "rotstein-1977-yizreel-harod",
+  "site": null,
+  "line": "Source 73",
+  "method": "DIPOLE",
+  "level": "L1",
+  "representation": "map_grid",
+  "array": "roving dipole",
+  "measured_on": null,
+  "confidence": "B",
+  "status": "draft",
+  "profile": [
+   {
+    "station": 583.0,
+    "rho_a": 25.8,
+    "site": "RD-583"
+   },
+   {
+    "station": 584.0,
+    "rho_a": 30.7,
+    "site": "RD-584"
+   },
+   {
+    "station": 701.0,
+    "rho_a": 37.9,
+    "site": "RD-701"
+   },
+   {
+    "station": 722.0,
+    "rho_a": 43.8,
+    "site": "RD-722"
+   },
+   {
+    "station": 705.0,
+    "rho_a": 45.6,
+    "site": "RD-705"
+   },
+   {
+    "station": 717.0,
+    "rho_a": 38.4,
+    "site": "RD-717"
+   },
+   {
+    "station": 600.0,
+    "rho_a": 43.2,
+    "site": "RD-600"
+   },
+   {
+    "station": 578.0,
+    "rho_a": 34.6,
+    "site": "RD-578"
+   },
+   {
+    "station": 585.0,
+    "rho_a": 52.0,
+    "site": "RD-585"
+   },
+   {
+    "station": 721.0,
+    "rho_a": 36.5,
+    "site": "RD-721"
+   },
+   {
+    "station": 716.0,
+    "rho_a": 88.8,
+    "site": "RD-716"
+   },
+   {
+    "station": 706.0,
+    "rho_a": 57.0,
+    "site": "RD-706"
+   },
+   {
+    "station": 586.0,
+    "rho_a": 58.5,
+    "site": "RD-586"
+   },
+   {
+    "station": 579.0,
+    "rho_a": 48.3,
+    "site": "RD-579"
+   },
+   {
+    "station": 702.0,
+    "rho_a": 37.7,
+    "site": "RD-702"
+   },
+   {
+    "station": 599.0,
+    "rho_a": 31.8,
+    "site": "RD-599"
+   },
+   {
+    "station": 718.0,
+    "rho_a": 4.8,
+    "site": "RD-718"
+   },
+   {
+    "station": 715.0,
+    "rho_a": 116.4,
+    "site": "RD-715"
+   },
+   {
+    "station": 594.0,
+    "rho_a": 27.8,
+    "site": "RD-594"
+   },
+   {
+    "station": 18.0,
+    "rho_a": 66.4,
+    "site": "RD-18"
+   },
+   {
+    "station": 720.0,
+    "rho_a": 35.0,
+    "site": "RD-720"
+   },
+   {
+    "station": 580.0,
+    "rho_a": 29.4,
+    "site": "RD-580"
+   },
+   {
+    "station": 20.0,
+    "rho_a": 28.0,
+    "site": "RD-20"
+   },
+   {
+    "station": 147.0,
+    "rho_a": 44.2,
+    "site": "RD-147"
+   },
+   {
+    "station": 19.0,
+    "rho_a": 31.9,
+    "site": "RD-19"
+   },
+   {
+    "station": 593.0,
+    "rho_a": 35.0,
+    "site": "RD-593"
+   },
+   {
+    "station": 598.0,
+    "rho_a": 30.1,
+    "site": "RD-598"
+   },
+   {
+    "station": 724.0,
+    "rho_a": 36.6,
+    "site": "RD-724"
+   },
+   {
+    "station": 595.0,
+    "rho_a": 41.5,
+    "site": "RD-595"
+   },
+   {
+    "station": 581.0,
+    "rho_a": 48.7,
+    "site": "RD-581"
+   },
+   {
+    "station": 711.0,
+    "rho_a": 38.0,
+    "site": "RD-711"
+   },
+   {
+    "station": 144.0,
+    "rho_a": 15.3,
+    "site": "RD-144"
+   },
+   {
+    "station": 21.0,
+    "rho_a": 22.3,
+    "site": "RD-21"
+   },
+   {
+    "station": 597.0,
+    "rho_a": 59.6,
+    "site": "RD-597"
+   },
+   {
+    "station": 592.0,
+    "rho_a": 52.5,
+    "site": "RD-592"
+   },
+   {
+    "station": 23.0,
+    "rho_a": 31.0,
+    "site": "RD-23"
+   },
+   {
+    "station": 145.0,
+    "rho_a": 31.2,
+    "site": "RD-145"
+   },
+   {
+    "station": 148.0,
+    "rho_a": 38.9,
+    "site": "RD-148"
+   },
+   {
+    "station": 590.0,
+    "rho_a": 73.0,
+    "site": "RD-590"
+   },
+   {
+    "station": 582.0,
+    "rho_a": 33.0,
+    "site": "RD-582"
+   },
+   {
+    "station": 589.0,
+    "rho_a": 24.4,
+    "site": "RD-589"
+   },
+   {
+    "station": 710.0,
+    "rho_a": 24.1,
+    "site": "RD-710"
+   },
+   {
+    "station": 12.0,
+    "rho_a": 55.7,
+    "site": "RD-12"
+   },
+   {
+    "station": 26.0,
+    "rho_a": 28.8,
+    "site": "RD-26"
+   },
+   {
+    "station": 139.0,
+    "rho_a": 28.2,
+    "site": "RD-139"
+   },
+   {
+    "station": 140.0,
+    "rho_a": 31.4,
+    "site": "RD-140"
+   },
+   {
+    "station": 146.0,
+    "rho_a": 26.8,
+    "site": "RD-146"
+   },
+   {
+    "station": 707.0,
+    "rho_a": 16.2,
+    "site": "RD-707"
+   },
+   {
+    "station": 709.0,
+    "rho_a": 7.1,
+    "site": "RD-709"
+   },
+   {
+    "station": 149.0,
+    "rho_a": 31.5,
+    "site": "RD-149"
+   },
+   {
+    "station": 22.0,
+    "rho_a": 20.7,
+    "site": "RD-22"
+   },
+   {
+    "station": 25.0,
+    "rho_a": 38.0,
+    "site": "RD-25"
+   },
+   {
+    "station": 708.0,
+    "rho_a": 18.7,
+    "site": "RD-708"
+   },
+   {
+    "station": 596.0,
+    "rho_a": 46.9,
+    "site": "RD-596"
+   },
+   {
+    "station": 591.0,
+    "rho_a": 27.8,
+    "site": "RD-591"
+   },
+   {
+    "station": 11.0,
+    "rho_a": 36.0,
+    "site": "RD-11"
+   },
+   {
+    "station": 150.0,
+    "rho_a": 28.6,
+    "site": "RD-150"
+   },
+   {
+    "station": 152.0,
+    "rho_a": 27.9,
+    "site": "RD-152"
+   },
+   {
+    "station": 155.0,
+    "rho_a": 61.1,
+    "site": "RD-155"
+   },
+   {
+    "station": 712.0,
+    "rho_a": 32.6,
+    "site": "RD-712"
+   },
+   {
+    "station": 24.0,
+    "rho_a": 32.0,
+    "site": "RD-24"
+   },
+   {
+    "station": 40.0,
+    "rho_a": 30.9,
+    "site": "RD-40"
+   },
+   {
+    "station": 495.0,
+    "rho_a": 38.6,
+    "site": "RD-495"
+   },
+   {
+    "station": 493.0,
+    "rho_a": 13.2,
+    "site": "RD-493"
+   },
+   {
+    "station": 151.0,
+    "rho_a": 27.6,
+    "site": "RD-151"
+   },
+   {
+    "station": 713.0,
+    "rho_a": 17.8,
+    "site": "RD-713"
+   },
+   {
+    "station": 714.0,
+    "rho_a": 31.2,
+    "site": "RD-714"
+   },
+   {
+    "station": 153.0,
+    "rho_a": 13.6,
+    "site": "RD-153"
+   },
+   {
+    "station": 156.0,
+    "rho_a": 13.8,
+    "site": "RD-156"
+   },
+   {
+    "station": 494.0,
+    "rho_a": 12.9,
+    "site": "RD-494"
+   },
+   {
+    "station": 159.0,
+    "rho_a": 22.0,
+    "site": "RD-159"
+   },
+   {
+    "station": 157.0,
+    "rho_a": 13.0,
+    "site": "RD-157"
+   },
+   {
+    "station": 160.0,
+    "rho_a": 10.2,
+    "site": "RD-160"
+   },
+   {
+    "station": 154.0,
+    "rho_a": 17.3,
+    "site": "RD-154"
+   },
+   {
+    "station": 54.0,
+    "rho_a": 15.4,
+    "site": "RD-54"
+   },
+   {
+    "station": 719.0,
+    "rho_a": 41.0,
+    "site": "RD-719"
+   }
+  ],
+  "source_dipole": [
+   {
+    "x": 177454,
+    "y": 231211,
+    "crs": "EPSG:28193",
+    "source": "map",
+    "accuracy_m": 100
+   },
+   {
+    "x": 177649,
+    "y": 229322,
+    "crs": "EPSG:28193",
+    "source": "map",
+    "accuracy_m": 100
+   }
+  ],
+  "provenance": {
+   "document": "maps",
+   "pages": [
+    29
+   ],
+   "figure": "Figure 29, source 73",
+   "method": "manual",
+   "tool": "geosigma.extract.yizreel_maps (positions by script, values by eye)",
+   "extracted_on": "2026-10-14"
+  },
+  "notes": "Apparent resistivity at 76 receiver stations for transmitter 73."
+ },
+ {
+  "id": "rotstein-1977-yizreel-harod-roving-source-74",
+  "survey": "rotstein-1977-yizreel-harod",
+  "site": null,
+  "line": "Source 74",
+  "method": "DIPOLE",
+  "level": "L1",
+  "representation": "map_grid",
+  "array": "roving dipole",
+  "measured_on": null,
+  "confidence": "B",
+  "status": "draft",
+  "profile": [
+   {
+    "station": 583.0,
+    "rho_a": 41.8,
+    "site": "RD-583"
+   },
+   {
+    "station": 584.0,
+    "rho_a": 32.1,
+    "site": "RD-584"
+   },
+   {
+    "station": 701.0,
+    "rho_a": 17.7,
+    "site": "RD-701"
+   },
+   {
+    "station": 722.0,
+    "rho_a": 34.1,
+    "site": "RD-722"
+   },
+   {
+    "station": 705.0,
+    "rho_a": 63.8,
+    "site": "RD-705"
+   },
+   {
+    "station": 600.0,
+    "rho_a": 50.4,
+    "site": "RD-600"
+   },
+   {
+    "station": 717.0,
+    "rho_a": 32.4,
+    "site": "RD-717"
+   },
+   {
+    "station": 578.0,
+    "rho_a": 51.8,
+    "site": "RD-578"
+   },
+   {
+    "station": 585.0,
+    "rho_a": 58.0,
+    "site": "RD-585"
+   },
+   {
+    "station": 721.0,
+    "rho_a": 21.0,
+    "site": "RD-721"
+   },
+   {
+    "station": 716.0,
+    "rho_a": 65.0,
+    "site": "RD-716"
+   },
+   {
+    "station": 706.0,
+    "rho_a": 67.0,
+    "site": "RD-706"
+   },
+   {
+    "station": 586.0,
+    "rho_a": 43.3,
+    "site": "RD-586"
+   },
+   {
+    "station": 579.0,
+    "rho_a": 55.8,
+    "site": "RD-579"
+   },
+   {
+    "station": 587.0,
+    "rho_a": 76.9,
+    "site": "RD-587"
+   },
+   {
+    "station": 702.0,
+    "rho_a": 20.7,
+    "site": "RD-702"
+   },
+   {
+    "station": 718.0,
+    "rho_a": 41.6,
+    "site": "RD-718"
+   },
+   {
+    "station": 715.0,
+    "rho_a": 62.5,
+    "site": "RD-715"
+   },
+   {
+    "station": 594.0,
+    "rho_a": 29.0,
+    "site": "RD-594"
+   },
+   {
+    "station": 18.0,
+    "rho_a": 80.4,
+    "site": "RD-18"
+   },
+   {
+    "station": 720.0,
+    "rho_a": 35.7,
+    "site": "RD-720"
+   },
+   {
+    "station": 580.0,
+    "rho_a": 47.1,
+    "site": "RD-580"
+   },
+   {
+    "station": 20.0,
+    "rho_a": 20.5,
+    "site": "RD-20"
+   },
+   {
+    "station": 147.0,
+    "rho_a": 28.6,
+    "site": "RD-147"
+   },
+   {
+    "station": 19.0,
+    "rho_a": 37.0,
+    "site": "RD-19"
+   },
+   {
+    "station": 593.0,
+    "rho_a": 48.7,
+    "site": "RD-593"
+   },
+   {
+    "station": 598.0,
+    "rho_a": 29.8,
+    "site": "RD-598"
+   },
+   {
+    "station": 595.0,
+    "rho_a": 42.2,
+    "site": "RD-595"
+   },
+   {
+    "station": 581.0,
+    "rho_a": 39.7,
+    "site": "RD-581"
+   },
+   {
+    "station": 711.0,
+    "rho_a": 27.6,
+    "site": "RD-711"
+   },
+   {
+    "station": 144.0,
+    "rho_a": 18.0,
+    "site": "RD-144"
+   },
+   {
+    "station": 597.0,
+    "rho_a": 60.4,
+    "site": "RD-597"
+   },
+   {
+    "station": 21.0,
+    "rho_a": 26.2,
+    "site": "RD-21"
+   },
+   {
+    "station": 592.0,
+    "rho_a": 29.1,
+    "site": "RD-592"
+   },
+   {
+    "station": 23.0,
+    "rho_a": 35.0,
+    "site": "RD-23"
+   },
+   {
+    "station": 148.0,
+    "rho_a": 47.2,
+    "site": "RD-148"
+   },
+   {
+    "station": 145.0,
+    "rho_a": 34.9,
+    "site": "RD-145"
+   },
+   {
+    "station": 590.0,
+    "rho_a": 46.1,
+    "site": "RD-590"
+   },
+   {
+    "station": 582.0,
+    "rho_a": 27.8,
+    "site": "RD-582"
+   },
+   {
+    "station": 589.0,
+    "rho_a": 48.5,
+    "site": "RD-589"
+   },
+   {
+    "station": 710.0,
+    "rho_a": 34.6,
+    "site": "RD-710"
+   },
+   {
+    "station": 12.0,
+    "rho_a": 48.3,
+    "site": "RD-12"
+   },
+   {
+    "station": 26.0,
+    "rho_a": 30.8,
+    "site": "RD-26"
+   },
+   {
+    "station": 139.0,
+    "rho_a": 39.0,
+    "site": "RD-139"
+   },
+   {
+    "station": 140.0,
+    "rho_a": 37.9,
+    "site": "RD-140"
+   },
+   {
+    "station": 146.0,
+    "rho_a": 30.8,
+    "site": "RD-146"
+   },
+   {
+    "station": 707.0,
+    "rho_a": 21.1,
+    "site": "RD-707"
+   },
+   {
+    "station": 709.0,
+    "rho_a": 63.5,
+    "site": "RD-709"
+   },
+   {
+    "station": 149.0,
+    "rho_a": 47.4,
+    "site": "RD-149"
+   },
+   {
+    "station": 22.0,
+    "rho_a": 31.2,
+    "site": "RD-22"
+   },
+   {
+    "station": 25.0,
+    "rho_a": 47.6,
+    "site": "RD-25"
+   },
+   {
+    "station": 708.0,
+    "rho_a": 19.6,
+    "site": "RD-708"
+   },
+   {
+    "station": 596.0,
+    "rho_a": 32.7,
+    "site": "RD-596"
+   },
+   {
+    "station": 591.0,
+    "rho_a": 47.1,
+    "site": "RD-591"
+   },
+   {
+    "station": 11.0,
+    "rho_a": 43.5,
+    "site": "RD-11"
+   },
+   {
+    "station": 150.0,
+    "rho_a": 35.5,
+    "site": "RD-150"
+   },
+   {
+    "station": 152.0,
+    "rho_a": 26.7,
+    "site": "RD-152"
+   },
+   {
+    "station": 712.0,
+    "rho_a": 22.2,
+    "site": "RD-712"
+   },
+   {
+    "station": 40.0,
+    "rho_a": 37.4,
+    "site": "RD-40"
+   },
+   {
+    "station": 24.0,
+    "rho_a": 69.7,
+    "site": "RD-24"
+   },
+   {
+    "station": 495.0,
+    "rho_a": 86.7,
+    "site": "RD-495"
+   },
+   {
+    "station": 493.0,
+    "rho_a": 130.7,
+    "site": "RD-493"
+   },
+   {
+    "station": 151.0,
+    "rho_a": 38.3,
+    "site": "RD-151"
+   },
+   {
+    "station": 713.0,
+    "rho_a": 19.8,
+    "site": "RD-713"
+   },
+   {
+    "station": 714.0,
+    "rho_a": 21.1,
+    "site": "RD-714"
+   },
+   {
+    "station": 153.0,
+    "rho_a": 18.5,
+    "site": "RD-153"
+   },
+   {
+    "station": 156.0,
+    "rho_a": 17.0,
+    "site": "RD-156"
+   },
+   {
+    "station": 494.0,
+    "rho_a": 20.2,
+    "site": "RD-494"
+   },
+   {
+    "station": 159.0,
+    "rho_a": 31.6,
+    "site": "RD-159"
+   },
+   {
+    "station": 157.0,
+    "rho_a": 22.3,
+    "site": "RD-157"
+   },
+   {
+    "station": 160.0,
+    "rho_a": 22.3,
+    "site": "RD-160"
+   },
+   {
+    "station": 154.0,
+    "rho_a": 38.9,
+    "site": "RD-154"
+   },
+   {
+    "station": 54.0,
+    "rho_a": 15.8,
+    "site": "RD-54"
+   },
+   {
+    "station": 599.0,
+    "rho_a": 14.1,
+    "site": "RD-599"
+   },
+   {
+    "station": 719.0,
+    "rho_a": 58.6,
+    "site": "RD-719"
+   }
+  ],
+  "source_dipole": [
+   {
+    "x": 175704,
+    "y": 229528,
+    "crs": "EPSG:28193",
+    "source": "map",
+    "accuracy_m": 100
+   },
+   {
+    "x": 177628,
+    "y": 229298,
+    "crs": "EPSG:28193",
+    "source": "map",
+    "accuracy_m": 100
+   }
+  ],
+  "provenance": {
+   "document": "maps",
+   "pages": [
+    30
+   ],
+   "figure": "Figure 30, source 74",
+   "method": "manual",
+   "tool": "geosigma.extract.yizreel_maps (positions by script, values by eye)",
+   "extracted_on": "2026-10-14"
+  },
+  "notes": "Apparent resistivity at 75 receiver stations for transmitter 74."
+ },
+ {
+  "id": "rotstein-1977-yizreel-harod-roving-source-75",
+  "survey": "rotstein-1977-yizreel-harod",
+  "site": null,
+  "line": "Source 75",
+  "method": "DIPOLE",
+  "level": "L1",
+  "representation": "map_grid",
+  "array": "roving dipole",
+  "measured_on": null,
+  "confidence": "B",
+  "status": "draft",
+  "profile": [
+   {
+    "station": 703.0,
+    "rho_a": 121.2,
+    "site": "RD-703"
+   },
+   {
+    "station": 583.0,
+    "rho_a": 66.7,
+    "site": "RD-583"
+   },
+   {
+    "station": 584.0,
+    "rho_a": 62.7,
+    "site": "RD-584"
+   },
+   {
+    "station": 701.0,
+    "rho_a": 39.0,
+    "site": "RD-701"
+   },
+   {
+    "station": 705.0,
+    "rho_a": 64.0,
+    "site": "RD-705"
+   },
+   {
+    "station": 578.0,
+    "rho_a": 68.1,
+    "site": "RD-578"
+   },
+   {
+    "station": 496.0,
+    "rho_a": 48.7,
+    "site": "RD-496"
+   },
+   {
+    "station": 498.0,
+    "rho_a": 69.4,
+    "site": "RD-498"
+   },
+   {
+    "station": 499.0,
+    "rho_a": 23.5,
+    "site": "RD-499"
+   },
+   {
+    "station": 706.0,
+    "rho_a": 187.9,
+    "site": "RD-706"
+   },
+   {
+    "station": 579.0,
+    "rho_a": 84.6,
+    "site": "RD-579"
+   },
+   {
+    "station": 497.0,
+    "rho_a": 27.0,
+    "site": "RD-497"
+   },
+   {
+    "station": 500.0,
+    "rho_a": 37.7,
+    "site": "RD-500"
+   },
+   {
+    "station": 606.0,
+    "rho_a": 139.0,
+    "site": "RD-606"
+   },
+   {
+    "station": 580.0,
+    "rho_a": 95.1,
+    "site": "RD-580"
+   },
+   {
+    "station": 581.0,
+    "rho_a": 40.0,
+    "site": "RD-581"
+   },
+   {
+    "station": 711.0,
+    "rho_a": 18.6,
+    "site": "RD-711"
+   },
+   {
+    "station": 602.0,
+    "rho_a": 64.5,
+    "site": "RD-602"
+   },
+   {
+    "station": 607.0,
+    "rho_a": 62.0,
+    "site": "RD-607"
+   },
+   {
+    "station": 710.0,
+    "rho_a": 38.3,
+    "site": "RD-710"
+   },
+   {
+    "station": 582.0,
+    "rho_a": 50.5,
+    "site": "RD-582"
+   },
+   {
+    "station": 604.0,
+    "rho_a": 43.6,
+    "site": "RD-604"
+   },
+   {
+    "station": 709.0,
+    "rho_a": 56.0,
+    "site": "RD-709"
+   },
+   {
+    "station": 619.0,
+    "rho_a": 27.5,
+    "site": "RD-619"
+   },
+   {
+    "station": 708.0,
+    "rho_a": 62.7,
+    "site": "RD-708"
+   },
+   {
+    "station": 610.0,
+    "rho_a": 74.7,
+    "site": "RD-610"
+   },
+   {
+    "station": 620.0,
+    "rho_a": 30.1,
+    "site": "RD-620"
+   },
+   {
+    "station": 609.0,
+    "rho_a": 56.0,
+    "site": "RD-609"
+   },
+   {
+    "station": 625.0,
+    "rho_a": 33.4,
+    "site": "RD-625"
+   },
+   {
+    "station": 608.0,
+    "rho_a": 30.8,
+    "site": "RD-608"
+   },
+   {
+    "station": 611.0,
+    "rho_a": 94.8,
+    "site": "RD-611"
+   },
+   {
+    "station": 621.0,
+    "rho_a": 27.5,
+    "site": "RD-621"
+   },
+   {
+    "station": 624.0,
+    "rho_a": 29.5,
+    "site": "RD-624"
+   },
+   {
+    "station": 615.0,
+    "rho_a": 38.0,
+    "site": "RD-615"
+   },
+   {
+    "station": 612.0,
+    "rho_a": 34.8,
+    "site": "RD-612"
+   },
+   {
+    "station": 616.0,
+    "rho_a": 52.6,
+    "site": "RD-616"
+   },
+   {
+    "station": 613.0,
+    "rho_a": 32.5,
+    "site": "RD-613"
+   },
+   {
+    "station": 614.0,
+    "rho_a": 75.8,
+    "site": "RD-614"
+   },
+   {
+    "station": 600.0,
+    "rho_a": 54.1,
+    "site": "RD-600"
+   },
+   {
+    "station": 601.0,
+    "rho_a": 80.7,
+    "site": "RD-601"
+   },
+   {
+    "station": 618.0,
+    "rho_a": 107.5,
+    "site": "RD-618"
+   },
+   {
+    "station": 623.0,
+    "rho_a": 32.2,
+    "site": "RD-623"
+   },
+   {
+    "station": 617.0,
+    "rho_a": 48.0,
+    "site": "RD-617"
+   }
+  ],
+  "source_dipole": [
+   {
+    "x": 186253,
+    "y": 231154,
+    "crs": "EPSG:28193",
+    "source": "map",
+    "accuracy_m": 100
+   },
+   {
+    "x": 187011,
+    "y": 229866,
+    "crs": "EPSG:28193",
+    "source": "map",
+    "accuracy_m": 100
+   }
+  ],
+  "provenance": {
+   "document": "maps",
+   "pages": [
+    31
+   ],
+   "figure": "Figure 31, source 75",
+   "method": "manual",
+   "tool": "geosigma.extract.yizreel_maps (positions by script, values by eye)",
+   "extracted_on": "2026-10-14"
+  },
+  "notes": "Apparent resistivity at 43 receiver stations for transmitter 75. 1 readings were hard to read."
+ },
+ {
+  "id": "rotstein-1977-yizreel-harod-roving-source-76",
+  "survey": "rotstein-1977-yizreel-harod",
+  "site": null,
+  "line": "Source 76",
+  "method": "DIPOLE",
+  "level": "L1",
+  "representation": "map_grid",
+  "array": "roving dipole",
+  "measured_on": null,
+  "confidence": "B",
+  "status": "draft",
+  "profile": [
+   {
+    "station": 703.0,
+    "rho_a": 206.8,
+    "site": "RD-703"
+   },
+   {
+    "station": 584.0,
+    "rho_a": 70.8,
+    "site": "RD-584"
+   },
+   {
+    "station": 701.0,
+    "rho_a": 85.2,
+    "site": "RD-701"
+   },
+   {
+    "station": 705.0,
+    "rho_a": 65.9,
+    "site": "RD-705"
+   },
+   {
+    "station": 600.0,
+    "rho_a": 55.2,
+    "site": "RD-600"
+   },
+   {
+    "station": 578.0,
+    "rho_a": 47.0,
+    "site": "RD-578"
+   },
+   {
+    "station": 498.0,
+    "rho_a": 71.2,
+    "site": "RD-498"
+   },
+   {
+    "station": 499.0,
+    "rho_a": 21.6,
+    "site": "RD-499"
+   },
+   {
+    "station": 706.0,
+    "rho_a": 147.9,
+    "site": "RD-706"
+   },
+   {
+    "station": 579.0,
+    "rho_a": 34.3,
+    "site": "RD-579"
+   },
+   {
+    "station": 500.0,
+    "rho_a": 29.1,
+    "site": "RD-500"
+   },
+   {
+    "station": 497.0,
+    "rho_a": 30.9,
+    "site": "RD-497"
+   },
+   {
+    "station": 606.0,
+    "rho_a": 47.0,
+    "site": "RD-606"
+   },
+   {
+    "station": 580.0,
+    "rho_a": 49.0,
+    "site": "RD-580"
+   },
+   {
+    "station": 601.0,
+    "rho_a": 73.8,
+    "site": "RD-601"
+   },
+   {
+    "station": 605.0,
+    "rho_a": 55.1,
+    "site": "RD-605"
+   },
+   {
+    "station": 581.0,
+    "rho_a": 45.6,
+    "site": "RD-581"
+   },
+   {
+    "station": 711.0,
+    "rho_a": 43.5,
+    "site": "RD-711"
+   },
+   {
+    "station": 602.0,
+    "rho_a": 76.7,
+    "site": "RD-602"
+   },
+   {
+    "station": 607.0,
+    "rho_a": 57.8,
+    "site": "RD-607"
+   },
+   {
+    "station": 582.0,
+    "rho_a": 23.0,
+    "site": "RD-582"
+   },
+   {
+    "station": 710.0,
+    "rho_a": 24.7,
+    "site": "RD-710"
+   },
+   {
+    "station": 603.0,
+    "rho_a": 62.1,
+    "site": "RD-603"
+   },
+   {
+    "station": 604.0,
+    "rho_a": 37.7,
+    "site": "RD-604"
+   },
+   {
+    "station": 709.0,
+    "rho_a": 82.6,
+    "site": "RD-709"
+   },
+   {
+    "station": 619.0,
+    "rho_a": 29.2,
+    "site": "RD-619"
+   },
+   {
+    "station": 708.0,
+    "rho_a": 31.8,
+    "site": "RD-708"
+   },
+   {
+    "station": 610.0,
+    "rho_a": 26.0,
+    "site": "RD-610"
+   },
+   {
+    "station": 620.0,
+    "rho_a": 42.1,
+    "site": "RD-620"
+   },
+   {
+    "station": 609.0,
+    "rho_a": 63.8,
+    "site": "RD-609"
+   },
+   {
+    "station": 625.0,
+    "rho_a": 28.3,
+    "site": "RD-625"
+   },
+   {
+    "station": 608.0,
+    "rho_a": 24.1,
+    "site": "RD-608"
+   },
+   {
+    "station": 611.0,
+    "rho_a": 72.0,
+    "site": "RD-611"
+   },
+   {
+    "station": 618.0,
+    "rho_a": 124.3,
+    "site": "RD-618"
+   },
+   {
+    "station": 621.0,
+    "rho_a": 39.2,
+    "site": "RD-621"
+   },
+   {
+    "station": 615.0,
+    "rho_a": 30.9,
+    "site": "RD-615"
+   },
+   {
+    "station": 622.0,
+    "rho_a": 64.9,
+    "site": "RD-622"
+   },
+   {
+    "station": 616.0,
+    "rho_a": 37.2,
+    "site": "RD-616"
+   },
+   {
+    "station": 617.0,
+    "rho_a": 79.4,
+    "site": "RD-617"
+   },
+   {
+    "station": 613.0,
+    "rho_a": 38.2,
+    "site": "RD-613"
+   },
+   {
+    "station": 614.0,
+    "rho_a": 42.8,
+    "site": "RD-614"
+   },
+   {
+    "station": 583.0,
+    "rho_a": 100.6,
+    "site": "RD-583"
+   },
+   {
+    "station": 496.0,
+    "rho_a": 16.4,
+    "site": "RD-496"
+   },
+   {
+    "station": 612.0,
+    "rho_a": 15.9,
+    "site": "RD-612"
+   }
+  ],
+  "source_dipole": [
+   {
+    "x": 185422,
+    "y": 228653,
+    "crs": "EPSG:28193",
+    "source": "map",
+    "accuracy_m": 100
+   },
+   {
+    "x": 187026,
+    "y": 229833,
+    "crs": "EPSG:28193",
+    "source": "map",
+    "accuracy_m": 100
+   }
+  ],
+  "provenance": {
+   "document": "maps",
+   "pages": [
+    32
+   ],
+   "figure": "Figure 32, source 76",
+   "method": "manual",
+   "tool": "geosigma.extract.yizreel_maps (positions by script, values by eye)",
+   "extracted_on": "2026-10-14"
+  },
+  "notes": "Apparent resistivity at 44 receiver stations for transmitter 76."
+ },
+ {
+  "id": "rotstein-1977-yizreel-harod-roving-source-77",
+  "survey": "rotstein-1977-yizreel-harod",
+  "site": null,
+  "line": "Source 77",
+  "method": "DIPOLE",
+  "level": "L1",
+  "representation": "map_grid",
+  "array": "roving dipole",
+  "measured_on": null,
+  "confidence": "B",
+  "status": "draft",
+  "profile": [
+   {
+    "station": 709.0,
+    "rho_a": 31.7,
+    "site": "RD-709"
+   },
+   {
+    "station": 708.0,
+    "rho_a": 55.4,
+    "site": "RD-708"
+   },
+   {
+    "station": 610.0,
+    "rho_a": 31.1,
+    "site": "RD-610"
+   },
+   {
+    "station": 609.0,
+    "rho_a": 40.5,
+    "site": "RD-609"
+   },
+   {
+    "station": 608.0,
+    "rho_a": 31.5,
+    "site": "RD-608"
+   },
+   {
+    "station": 611.0,
+    "rho_a": 151.6,
+    "site": "RD-611"
+   },
+   {
+    "station": 618.0,
+    "rho_a": 24.5,
+    "site": "RD-618"
+   },
+   {
+    "station": 624.0,
+    "rho_a": 75.1,
+    "site": "RD-624"
+   },
+   {
+    "station": 615.0,
+    "rho_a": 32.1,
+    "site": "RD-615"
+   },
+   {
+    "station": 623.0,
+    "rho_a": 71.9,
+    "site": "RD-623"
+   },
+   {
+    "station": 612.0,
+    "rho_a": 58.9,
+    "site": "RD-612"
+   },
+   {
+    "station": 622.0,
+    "rho_a": 52.0,
+    "site": "RD-622"
+   },
+   {
+    "station": 616.0,
+    "rho_a": 30.1,
+    "site": "RD-616"
+   },
+   {
+    "station": 617.0,
+    "rho_a": 90.9,
+    "site": "RD-617"
+   },
+   {
+    "station": 613.0,
+    "rho_a": 62.1,
+    "site": "RD-613"
+   },
+   {
+    "station": 637.0,
+    "rho_a": 63.7,
+    "site": "RD-637"
+   },
+   {
+    "station": 645.0,
+    "rho_a": 78.1,
+    "site": "RD-645"
+   },
+   {
+    "station": 614.0,
+    "rho_a": 30.5,
+    "site": "RD-614"
+   },
+   {
+    "station": 649.0,
+    "rho_a": 35.6,
+    "site": "RD-649"
+   },
+   {
+    "station": 726.0,
+    "rho_a": 90.7,
+    "site": "RD-726"
+   },
+   {
+    "station": 641.0,
+    "rho_a": 76.3,
+    "site": "RD-641"
+   },
+   {
+    "station": 648.0,
+    "rho_a": 88.0,
+    "site": "RD-648"
+   },
+   {
+    "station": 643.0,
+    "rho_a": 34.9,
+    "site": "RD-643"
+   },
+   {
+    "station": 632.0,
+    "rho_a": 121.4,
+    "site": "RD-632"
+   },
+   {
+    "station": 725.0,
+    "rho_a": 67.9,
+    "site": "RD-725"
+   },
+   {
+    "station": 646.0,
+    "rho_a": 73.3,
+    "site": "RD-646"
+   },
+   {
+    "station": 633.0,
+    "rho_a": 95.2,
+    "site": "RD-633"
+   },
+   {
+    "station": 344.0,
+    "rho_a": 92.8,
+    "site": "RD-344"
+   },
+   {
+    "station": 631.0,
+    "rho_a": 125.4,
+    "site": "RD-631"
+   },
+   {
+    "station": 635.0,
+    "rho_a": 126.8,
+    "site": "RD-635"
+   },
+   {
+    "station": 634.0,
+    "rho_a": 1.14,
+    "site": "RD-634"
+   },
+   {
+    "station": 640.0,
+    "rho_a": 15.3,
+    "site": "RD-640"
+   },
+   {
+    "station": 647.0,
+    "rho_a": 59.1,
+    "site": "RD-647"
+   },
+   {
+    "station": 642.0,
+    "rho_a": 54.4,
+    "site": "RD-642"
+   },
+   {
+    "station": 658.0,
+    "rho_a": 83.4,
+    "site": "RD-658"
+   },
+   {
+    "station": 628.0,
+    "rho_a": 171.4,
+    "site": "RD-628"
+   },
+   {
+    "station": 630.0,
+    "rho_a": 64.0,
+    "site": "RD-630"
+   },
+   {
+    "station": 657.0,
+    "rho_a": 79.8,
+    "site": "RD-657"
+   },
+   {
+    "station": 353.0,
+    "rho_a": 73.4,
+    "site": "RD-353"
+   },
+   {
+    "station": 655.0,
+    "rho_a": 73.5,
+    "site": "RD-655"
+   },
+   {
+    "station": 639.0,
+    "rho_a": 71.2,
+    "site": "RD-639"
+   },
+   {
+    "station": 627.0,
+    "rho_a": 94.6,
+    "site": "RD-627"
+   },
+   {
+    "station": 346.0,
+    "rho_a": 100.7,
+    "site": "RD-346"
+   },
+   {
+    "station": 347.0,
+    "rho_a": 62.7,
+    "site": "RD-347"
+   },
+   {
+    "station": 659.0,
+    "rho_a": 91.4,
+    "site": "RD-659"
+   },
+   {
+    "station": 629.0,
+    "rho_a": 108.2,
+    "site": "RD-629"
+   },
+   {
+    "station": 660.0,
+    "rho_a": 41.0,
+    "site": "RD-660"
+   },
+   {
+    "station": 352.0,
+    "rho_a": 74.6,
+    "site": "RD-352"
+   },
+   {
+    "station": 654.0,
+    "rho_a": 66.0,
+    "site": "RD-654"
+   },
+   {
+    "station": 348.0,
+    "rho_a": 32.8,
+    "site": "RD-348"
+   },
+   {
+    "station": 258.0,
+    "rho_a": 54.9,
+    "site": "RD-258"
+   },
+   {
+    "station": 651.0,
+    "rho_a": 58.0,
+    "site": "RD-651"
+   },
+   {
+    "station": 267.0,
+    "rho_a": 68.1,
+    "site": "RD-267"
+   },
+   {
+    "station": 359.0,
+    "rho_a": 30.5,
+    "site": "RD-359"
+   },
+   {
+    "station": 652.0,
+    "rho_a": 110.5,
+    "site": "RD-652"
+   },
+   {
+    "station": 653.0,
+    "rho_a": 253.5,
+    "site": "RD-653"
+   },
+   {
+    "station": 256.0,
+    "rho_a": 39.8,
+    "site": "RD-256"
+   },
+   {
+    "station": 257.0,
+    "rho_a": 62.4,
+    "site": "RD-257"
+   },
+   {
+    "station": 382.0,
+    "rho_a": 75.3,
+    "site": "RD-382"
+   },
+   {
+    "station": 360.0,
+    "rho_a": 45.3,
+    "site": "RD-360"
+   },
+   {
+    "station": 373.0,
+    "rho_a": 47.4,
+    "site": "RD-373"
+   },
+   {
+    "station": 371.0,
+    "rho_a": 62.6,
+    "site": "RD-371"
+   },
+   {
+    "station": 372.0,
+    "rho_a": 55.7,
+    "site": "RD-372"
+   },
+   {
+    "station": 501.0,
+    "rho_a": 64.0,
+    "site": "RD-501"
+   },
+   {
+    "station": 502.0,
+    "rho_a": 95.3,
+    "site": "RD-502"
+   },
+   {
+    "station": 370.0,
+    "rho_a": 46.3,
+    "site": "RD-370"
+   },
+   {
+    "station": 375.0,
+    "rho_a": 67.0,
+    "site": "RD-375"
+   }
+  ],
+  "source_dipole": [
+   {
+    "x": 187439,
+    "y": 222424,
+    "crs": "EPSG:28193",
+    "source": "map",
+    "accuracy_m": 100
+   },
+   {
+    "x": 187771,
+    "y": 220511,
+    "crs": "EPSG:28193",
+    "source": "map",
+    "accuracy_m": 100
+   }
+  ],
+  "provenance": {
+   "document": "maps",
+   "pages": [
+    33
+   ],
+   "figure": "Figure 33, source 77",
+   "method": "manual",
+   "tool": "geosigma.extract.yizreel_maps (positions by script, values by eye)",
+   "extracted_on": "2026-10-14"
+  },
+  "notes": "Apparent resistivity at 67 receiver stations for transmitter 77. 1 readings were hard to read."
+ },
+ {
+  "id": "rotstein-1977-yizreel-harod-roving-source-78",
+  "survey": "rotstein-1977-yizreel-harod",
+  "site": null,
+  "line": "Source 78",
+  "method": "DIPOLE",
+  "level": "L1",
+  "representation": "map_grid",
+  "array": "roving dipole",
+  "measured_on": null,
+  "confidence": "B",
+  "status": "draft",
+  "profile": [
+   {
+    "station": 709.0,
+    "rho_a": 79.8,
+    "site": "RD-709"
+   },
+   {
+    "station": 610.0,
+    "rho_a": 85.4,
+    "site": "RD-610"
+   },
+   {
+    "station": 608.0,
+    "rho_a": 61.5,
+    "site": "RD-608"
+   },
+   {
+    "station": 611.0,
+    "rho_a": 1.79,
+    "site": "RD-611"
+   },
+   {
+    "station": 618.0,
+    "rho_a": 50.2,
+    "site": "RD-618"
+   },
+   {
+    "station": 624.0,
+    "rho_a": 54.7,
+    "site": "RD-624"
+   },
+   {
+    "station": 623.0,
+    "rho_a": 28.8,
+    "site": "RD-623"
+   },
+   {
+    "station": 612.0,
+    "rho_a": 92.3,
+    "site": "RD-612"
+   },
+   {
+    "station": 622.0,
+    "rho_a": 31.6,
+    "site": "RD-622"
+   },
+   {
+    "station": 644.0,
+    "rho_a": 50.9,
+    "site": "RD-644"
+   },
+   {
+    "station": 616.0,
+    "rho_a": 49.8,
+    "site": "RD-616"
+   },
+   {
+    "station": 617.0,
+    "rho_a": 54.1,
+    "site": "RD-617"
+   },
+   {
+    "station": 613.0,
+    "rho_a": 19.6,
+    "site": "RD-613"
+   },
+   {
+    "station": 637.0,
+    "rho_a": 99.8,
+    "site": "RD-637"
+   },
+   {
+    "station": 614.0,
+    "rho_a": 107.0,
+    "site": "RD-614"
+   },
+   {
+    "station": 645.0,
+    "rho_a": 78.6,
+    "site": "RD-645"
+   },
+   {
+    "station": 649.0,
+    "rho_a": 33.0,
+    "site": "RD-649"
+   },
+   {
+    "station": 726.0,
+    "rho_a": 16.9,
+    "site": "RD-726"
+   },
+   {
+    "station": 641.0,
+    "rho_a": 101.2,
+    "site": "RD-641"
+   },
+   {
+    "station": 643.0,
+    "rho_a": 34.7,
+    "site": "RD-643"
+   },
+   {
+    "station": 648.0,
+    "rho_a": 40.3,
+    "site": "RD-648"
+   },
+   {
+    "station": 725.0,
+    "rho_a": 46.5,
+    "site": "RD-725"
+   },
+   {
+    "station": 632.0,
+    "rho_a": 65.7,
+    "site": "RD-632"
+   },
+   {
+    "station": 646.0,
+    "rho_a": 37.6,
+    "site": "RD-646"
+   },
+   {
+    "station": 633.0,
+    "rho_a": 55.8,
+    "site": "RD-633"
+   },
+   {
+    "station": 344.0,
+    "rho_a": 45.0,
+    "site": "RD-344"
+   },
+   {
+    "station": 631.0,
+    "rho_a": 87.0,
+    "site": "RD-631"
+   },
+   {
+    "station": 635.0,
+    "rho_a": 52.0,
+    "site": "RD-635"
+   },
+   {
+    "station": 634.0,
+    "rho_a": 39.6,
+    "site": "RD-634"
+   },
+   {
+    "station": 640.0,
+    "rho_a": 26.7,
+    "site": "RD-640"
+   },
+   {
+    "station": 647.0,
+    "rho_a": 20.0,
+    "site": "RD-647"
+   },
+   {
+    "station": 642.0,
+    "rho_a": 29.5,
+    "site": "RD-642"
+   },
+   {
+    "station": 658.0,
+    "rho_a": 34.1,
+    "site": "RD-658"
+   },
+   {
+    "station": 628.0,
+    "rho_a": 82.5,
+    "site": "RD-628"
+   },
+   {
+    "station": 630.0,
+    "rho_a": 35.6,
+    "site": "RD-630"
+   },
+   {
+    "station": 657.0,
+    "rho_a": 41.6,
+    "site": "RD-657"
+   },
+   {
+    "station": 656.0,
+    "rho_a": 46.6,
+    "site": "RD-656"
+   },
+   {
+    "station": 639.0,
+    "rho_a": 46.7,
+    "site": "RD-639"
+   },
+   {
+    "station": 353.0,
+    "rho_a": 46.0,
+    "site": "RD-353"
+   },
+   {
+    "station": 655.0,
+    "rho_a": 47.9,
+    "site": "RD-655"
+   },
+   {
+    "station": 627.0,
+    "rho_a": 23.2,
+    "site": "RD-627"
+   },
+   {
+    "station": 346.0,
+    "rho_a": 32.9,
+    "site": "RD-346"
+   },
+   {
+    "station": 347.0,
+    "rho_a": 37.3,
+    "site": "RD-347"
+   },
+   {
+    "station": 650.0,
+    "rho_a": 43.6,
+    "site": "RD-650"
+   },
+   {
+    "station": 629.0,
+    "rho_a": 87.8,
+    "site": "RD-629"
+   },
+   {
+    "station": 659.0,
+    "rho_a": 66.9,
+    "site": "RD-659"
+   },
+   {
+    "station": 352.0,
+    "rho_a": 60.4,
+    "site": "RD-352"
+   },
+   {
+    "station": 660.0,
+    "rho_a": 59.7,
+    "site": "RD-660"
+   },
+   {
+    "station": 654.0,
+    "rho_a": 49.6,
+    "site": "RD-654"
+   },
+   {
+    "station": 258.0,
+    "rho_a": 30.8,
+    "site": "RD-258"
+   },
+   {
+    "station": 651.0,
+    "rho_a": 52.2,
+    "site": "RD-651"
+   },
+   {
+    "station": 267.0,
+    "rho_a": 47.9,
+    "site": "RD-267"
+   },
+   {
+    "station": 393.0,
+    "rho_a": 92.3,
+    "site": "RD-393"
+   },
+   {
+    "station": 359.0,
+    "rho_a": 19.3,
+    "site": "RD-359"
+   },
+   {
+    "station": 652.0,
+    "rho_a": 45.5,
+    "site": "RD-652"
+   },
+   {
+    "station": 653.0,
+    "rho_a": 66.4,
+    "site": "RD-653"
+   },
+   {
+    "station": 256.0,
+    "rho_a": 35.1,
+    "site": "RD-256"
+   },
+   {
+    "station": 257.0,
+    "rho_a": 56.5,
+    "site": "RD-257"
+   },
+   {
+    "station": 382.0,
+    "rho_a": 40.5,
+    "site": "RD-382"
+   },
+   {
+    "station": 360.0,
+    "rho_a": 35.7,
+    "site": "RD-360"
+   },
+   {
+    "station": 373.0,
+    "rho_a": 49.1,
+    "site": "RD-373"
+   },
+   {
+    "station": 371.0,
+    "rho_a": 47.4,
+    "site": "RD-371"
+   },
+   {
+    "station": 372.0,
+    "rho_a": 78.1,
+    "site": "RD-372"
+   },
+   {
+    "station": 501.0,
+    "rho_a": 71.2,
+    "site": "RD-501"
+   },
+   {
+    "station": 370.0,
+    "rho_a": 33.4,
+    "site": "RD-370"
+   },
+   {
+    "station": 375.0,
+    "rho_a": 41.5,
+    "site": "RD-375"
+   },
+   {
+    "station": 397.0,
+    "rho_a": 23.3,
+    "site": "RD-397"
+   },
+   {
+    "station": 609.0,
+    "rho_a": 85.6,
+    "site": "RD-609"
+   },
+   {
+    "station": 348.0,
+    "rho_a": 31.2,
+    "site": "RD-348"
+   }
+  ],
+  "source_dipole": [
+   {
+    "x": 187774,
+    "y": 220489,
+    "crs": "EPSG:28193",
+    "source": "map",
+    "accuracy_m": 100
+   },
+   {
+    "x": 189650,
+    "y": 221403,
+    "crs": "EPSG:28193",
+    "source": "map",
+    "accuracy_m": 100
+   }
+  ],
+  "provenance": {
+   "document": "maps",
+   "pages": [
+    34
+   ],
+   "figure": "Figure 34, source 78",
+   "method": "manual",
+   "tool": "geosigma.extract.yizreel_maps (positions by script, values by eye)",
+   "extracted_on": "2026-10-14"
+  },
+  "notes": "Apparent resistivity at 69 receiver stations for transmitter 78. 1 readings were hard to read."
+ },
+ {
+  "id": "rotstein-1977-yizreel-harod-roving-source-79",
+  "survey": "rotstein-1977-yizreel-harod",
+  "site": null,
+  "line": "Source 79",
+  "method": "DIPOLE",
+  "level": "L1",
+  "representation": "map_grid",
+  "array": "roving dipole",
+  "measured_on": null,
+  "confidence": "B",
+  "status": "draft",
+  "profile": [
+   {
+    "station": 622.0,
+    "rho_a": 691.5,
+    "site": "RD-622"
+   },
+   {
+    "station": 638.0,
+    "rho_a": 500.0,
+    "site": "RD-638"
+   },
+   {
+    "station": 644.0,
+    "rho_a": 58.0,
+    "site": "RD-644"
+   },
+   {
+    "station": 637.0,
+    "rho_a": 27.4,
+    "site": "RD-637"
+   },
+   {
+    "station": 645.0,
+    "rho_a": 69.6,
+    "site": "RD-645"
+   },
+   {
+    "station": 636.0,
+    "rho_a": 8.5,
+    "site": "RD-636"
+   },
+   {
+    "station": 649.0,
+    "rho_a": 51.1,
+    "site": "RD-649"
+   },
+   {
+    "station": 668.0,
+    "rho_a": 61.0,
+    "site": "RD-668"
+   },
+   {
+    "station": 669.0,
+    "rho_a": 21.6,
+    "site": "RD-669"
+   },
+   {
+    "station": 670.0,
+    "rho_a": 256.3,
+    "site": "RD-670"
+   },
+   {
+    "station": 648.0,
+    "rho_a": 57.1,
+    "site": "RD-648"
+   },
+   {
+    "station": 672.0,
+    "rho_a": 159.5,
+    "site": "RD-672"
+   },
+   {
+    "station": 646.0,
+    "rho_a": 61.2,
+    "site": "RD-646"
+   },
+   {
+    "station": 631.0,
+    "rho_a": 70.8,
+    "site": "RD-631"
+   },
+   {
+    "station": 635.0,
+    "rho_a": 29.7,
+    "site": "RD-635"
+   },
+   {
+    "station": 661.0,
+    "rho_a": 25.1,
+    "site": "RD-661"
+   },
+   {
+    "station": 662.0,
+    "rho_a": 58.4,
+    "site": "RD-662"
+   },
+   {
+    "station": 647.0,
+    "rho_a": 34.4,
+    "site": "RD-647"
+   },
+   {
+    "station": 658.0,
+    "rho_a": 54.0,
+    "site": "RD-658"
+   },
+   {
+    "station": 628.0,
+    "rho_a": 81.9,
+    "site": "RD-628"
+   },
+   {
+    "station": 630.0,
+    "rho_a": 32.8,
+    "site": "RD-630"
+   },
+   {
+    "station": 656.0,
+    "rho_a": 58.1,
+    "site": "RD-656"
+   },
+   {
+    "station": 663.0,
+    "rho_a": 38.2,
+    "site": "RD-663"
+   },
+   {
+    "station": 655.0,
+    "rho_a": 33.3,
+    "site": "RD-655"
+   },
+   {
+    "station": 627.0,
+    "rho_a": 38.2,
+    "site": "RD-627"
+   },
+   {
+    "station": 674.0,
+    "rho_a": 32.1,
+    "site": "RD-674"
+   },
+   {
+    "station": 666.0,
+    "rho_a": 31.9,
+    "site": "RD-666"
+   },
+   {
+    "station": 659.0,
+    "rho_a": 20.6,
+    "site": "RD-659"
+   },
+   {
+    "station": 629.0,
+    "rho_a": 32.1,
+    "site": "RD-629"
+   },
+   {
+    "station": 660.0,
+    "rho_a": 16.5,
+    "site": "RD-660"
+   },
+   {
+    "station": 667.0,
+    "rho_a": 28.7,
+    "site": "RD-667"
+   },
+   {
+    "station": 654.0,
+    "rho_a": 45.8,
+    "site": "RD-654"
+   },
+   {
+    "station": 673.0,
+    "rho_a": 28.8,
+    "site": "RD-673"
+   },
+   {
+    "station": 664.0,
+    "rho_a": 23.5,
+    "site": "RD-664"
+   },
+   {
+    "station": 652.0,
+    "rho_a": 35.0,
+    "site": "RD-652"
+   },
+   {
+    "station": 653.0,
+    "rho_a": 6.7,
+    "site": "RD-653"
+   },
+   {
+    "station": 728.0,
+    "rho_a": 35.8,
+    "site": "RD-728"
+   },
+   {
+    "station": 727.0,
+    "rho_a": 14.9,
+    "site": "RD-727"
+   },
+   {
+    "station": 398.0,
+    "rho_a": 27.1,
+    "site": "RD-398"
+   },
+   {
+    "station": 399.0,
+    "rho_a": 24.7,
+    "site": "RD-399"
+   },
+   {
+    "station": 503.0,
+    "rho_a": 20.2,
+    "site": "RD-503"
+   },
+   {
+    "station": 504.0,
+    "rho_a": 21.4,
+    "site": "RD-504"
+   },
+   {
+    "station": 671.0,
+    "rho_a": 597.0,
+    "site": "RD-671"
+   },
+   {
+    "station": 651.0,
+    "rho_a": 27.3,
+    "site": "RD-651"
+   }
+  ],
+  "source_dipole": [
+   {
+    "x": 195509,
+    "y": 222724,
+    "crs": "EPSG:28193",
+    "source": "map",
+    "accuracy_m": 100
+   },
+   {
+    "x": 194871,
+    "y": 220892,
+    "crs": "EPSG:28193",
+    "source": "map",
+    "accuracy_m": 100
+   }
+  ],
+  "provenance": {
+   "document": "maps",
+   "pages": [
+    35
+   ],
+   "figure": "Figure 35, source 79",
+   "method": "manual",
+   "tool": "geosigma.extract.yizreel_maps (positions by script, values by eye)",
+   "extracted_on": "2026-10-14"
+  },
+  "notes": "Apparent resistivity at 44 receiver stations for transmitter 79."
+ },
+ {
+  "id": "rotstein-1977-yizreel-harod-roving-source-80",
+  "survey": "rotstein-1977-yizreel-harod",
+  "site": null,
+  "line": "Source 80",
+  "method": "DIPOLE",
+  "level": "L1",
+  "representation": "map_grid",
+  "array": "roving dipole",
+  "measured_on": null,
+  "confidence": "B",
+  "status": "draft",
+  "profile": [
+   {
+    "station": 622.0,
+    "rho_a": 200.7,
+    "site": "RD-622"
+   },
+   {
+    "station": 638.0,
+    "rho_a": 322.2,
+    "site": "RD-638"
+   },
+   {
+    "station": 644.0,
+    "rho_a": 47.2,
+    "site": "RD-644"
+   },
+   {
+    "station": 637.0,
+    "rho_a": 83.8,
+    "site": "RD-637"
+   },
+   {
+    "station": 645.0,
+    "rho_a": 48.1,
+    "site": "RD-645"
+   },
+   {
+    "station": 636.0,
+    "rho_a": 14.2,
+    "site": "RD-636"
+   },
+   {
+    "station": 649.0,
+    "rho_a": 89.3,
+    "site": "RD-649"
+   },
+   {
+    "station": 668.0,
+    "rho_a": 71.0,
+    "site": "RD-668"
+   },
+   {
+    "station": 669.0,
+    "rho_a": 60.2,
+    "site": "RD-669"
+   },
+   {
+    "station": 670.0,
+    "rho_a": 90.6,
+    "site": "RD-670"
+   },
+   {
+    "station": 671.0,
+    "rho_a": 144.7,
+    "site": "RD-671"
+   },
+   {
+    "station": 672.0,
+    "rho_a": 35.0,
+    "site": "RD-672"
+   },
+   {
+    "station": 648.0,
+    "rho_a": 67.6,
+    "site": "RD-648"
+   },
+   {
+    "station": 646.0,
+    "rho_a": 52.0,
+    "site": "RD-646"
+   },
+   {
+    "station": 631.0,
+    "rho_a": 73.7,
+    "site": "RD-631"
+   },
+   {
+    "station": 635.0,
+    "rho_a": 43.9,
+    "site": "RD-635"
+   },
+   {
+    "station": 634.0,
+    "rho_a": 25.0,
+    "site": "RD-634"
+   },
+   {
+    "station": 661.0,
+    "rho_a": 38.0,
+    "site": "RD-661"
+   },
+   {
+    "station": 662.0,
+    "rho_a": 52.0,
+    "site": "RD-662"
+   },
+   {
+    "station": 647.0,
+    "rho_a": 49.1,
+    "site": "RD-647"
+   },
+   {
+    "station": 658.0,
+    "rho_a": 44.7,
+    "site": "RD-658"
+   },
+   {
+    "station": 628.0,
+    "rho_a": 127.9,
+    "site": "RD-628"
+   },
+   {
+    "station": 630.0,
+    "rho_a": 34.3,
+    "site": "RD-630"
+   },
+   {
+    "station": 657.0,
+    "rho_a": 50.5,
+    "site": "RD-657"
+   },
+   {
+    "station": 655.0,
+    "rho_a": 38.7,
+    "site": "RD-655"
+   },
+   {
+    "station": 663.0,
+    "rho_a": 6.1,
+    "site": "RD-663"
+   },
+   {
+    "station": 627.0,
+    "rho_a": 38.9,
+    "site": "RD-627"
+   },
+   {
+    "station": 674.0,
+    "rho_a": 39.7,
+    "site": "RD-674"
+   },
+   {
+    "station": 666.0,
+    "rho_a": 20.0,
+    "site": "RD-666"
+   },
+   {
+    "station": 659.0,
+    "rho_a": 37.0,
+    "site": "RD-659"
+   },
+   {
+    "station": 629.0,
+    "rho_a": 51.9,
+    "site": "RD-629"
+   },
+   {
+    "station": 665.0,
+    "rho_a": 14.2,
+    "site": "RD-665"
+   },
+   {
+    "station": 660.0,
+    "rho_a": 29.9,
+    "site": "RD-660"
+   },
+   {
+    "station": 667.0,
+    "rho_a": 20.0,
+    "site": "RD-667"
+   },
+   {
+    "station": 654.0,
+    "rho_a": 53.1,
+    "site": "RD-654"
+   },
+   {
+    "station": 664.0,
+    "rho_a": 19.5,
+    "site": "RD-664"
+   },
+   {
+    "station": 652.0,
+    "rho_a": 32.7,
+    "site": "RD-652"
+   },
+   {
+    "station": 653.0,
+    "rho_a": 21.2,
+    "site": "RD-653"
+   },
+   {
+    "station": 728.0,
+    "rho_a": 47.0,
+    "site": "RD-728"
+   },
+   {
+    "station": 727.0,
+    "rho_a": 26.7,
+    "site": "RD-727"
+   },
+   {
+    "station": 398.0,
+    "rho_a": 48.5,
+    "site": "RD-398"
+   },
+   {
+    "station": 399.0,
+    "rho_a": 32.6,
+    "site": "RD-399"
+   },
+   {
+    "station": 503.0,
+    "rho_a": 27.6,
+    "site": "RD-503"
+   },
+   {
+    "station": 504.0,
+    "rho_a": 16.0,
+    "site": "RD-504"
+   },
+   {
+    "station": 651.0,
+    "rho_a": 42.1,
+    "site": "RD-651"
+   }
+  ],
+  "source_dipole": [
+   {
+    "x": 193516,
+    "y": 223172,
+    "crs": "EPSG:28193",
+    "source": "map",
+    "accuracy_m": 100
+   },
+   {
+    "x": 195538,
+    "y": 222689,
+    "crs": "EPSG:28193",
+    "source": "map",
+    "accuracy_m": 100
+   }
+  ],
+  "provenance": {
+   "document": "maps",
+   "pages": [
+    36
+   ],
+   "figure": "Figure 36, source 80",
+   "method": "manual",
+   "tool": "geosigma.extract.yizreel_maps (positions by script, values by eye)",
+   "extracted_on": "2026-10-14"
+  },
+  "notes": "Apparent resistivity at 45 receiver stations for transmitter 80."
+ }
+]
