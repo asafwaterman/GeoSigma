@@ -159,12 +159,13 @@ function showDataset(d, el) {
   const dark = matchMedia("(prefers-color-scheme: dark)").matches;
   const t = profileTraces(d);
   if (d.representation === "model_1d") {
-    Plotly.react("profile", [{ ...t, mode: "lines", line: { color: "#1f5fa8", width: 2, shape: "linear" },
+    const pts = !(d.layers && d.layers.length);  // values at a few depths: show the points
+    Plotly.react("profile", [{ ...t, mode: pts ? "lines+markers" : "lines", line: { color: "#1f5fa8", width: 2, shape: "linear" },
       hovertemplate: `%{x:.3g} ${state.sigma ? "mS/m" : "Ω·m"} at %{y:.0f} m<extra></extra>` }], {
       margin: { l: 55, r: 10, t: 10, b: 45 }, shapes,
       paper_bgcolor: "rgba(0,0,0,0)", plot_bgcolor: "rgba(0,0,0,0)", font: { color: dark ? "#e4e8ee" : "#1d2430" },
       xaxis: { type: "log", title: state.sigma ? "Conductivity (mS/m)" : "Resistivity (Ω·m)", gridcolor: dark ? "#2e343e" : "#e6e9ef" },
-      yaxis: { autorange: "reversed", title: "Depth below ground (m)", gridcolor: dark ? "#2e343e" : "#e6e9ef" },
+      yaxis: { autorange: "reversed", title: d.depth_ref === "below_sea_level" ? "Depth below sea level (m)" : "Depth below ground (m)", gridcolor: dark ? "#2e343e" : "#e6e9ef" },
       annotations: d.doi_m ? [{ xref: "paper", x: 1, y: d.doi_m, text: "DOI", showarrow: false, xanchor: "right", yanchor: "bottom" }] : [],
     }, { displayModeBar: false, responsive: true });
   } else if (d.representation === "sounding_curve") {

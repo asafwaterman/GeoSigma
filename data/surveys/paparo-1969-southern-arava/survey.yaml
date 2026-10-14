@@ -30,11 +30,12 @@ documents:
   role: figures
   sha256: 49bd2e9b28c556c5755f42cb68f8e047bf7af271dbd6fdb864a827777f96fd08
   pages: 40
-extraction_status: partial
+extraction_status: complete
 notes: '81 VES sheets (main PDF pages 2-82), files 250 and 400 of job 625/68. Values on the sheets and maps are
   in ohm.cm and are stored in ohm.m. Figures PDF: location maps (1-5), sections and fence diagrams (6-19), and iso-resistivity
   maps at 50, 100 and 200 m depth and at 25 m below sea level (20-40, five sheets each; page 35 is blank). The maps
-  also cover soundings of files 224, 265-278, 806 and 844 that have no sheet here.'
+  (read by geosigma.extract.arava_maps) also cover soundings of files 224, 265-278, 806 and 844 that have no sheet
+  here. Sections and fence diagrams (6-19) are not extracted; they redraw the same soundings.'
 sites:
 - id: 625-250-1
   name: VES 250/1 (job 625)
@@ -684,3 +685,3477 @@ sites:
     y: 902900
     crs: EPSG:28193
     source: table
+- id: map-224-181
+  name: Sounding 224-181 (Southern Arava maps)
+  coords:
+    x: 156002
+    y: 951999
+    crs: EPSG:28193
+    source: map
+    accuracy_m: 50
+  notes: Position read from the 1:20,000 iso-resistivity maps.
+- id: map-224-182
+  name: Sounding 224-182 (Southern Arava maps)
+  coords:
+    x: 155508
+    y: 951993
+    crs: EPSG:28193
+    source: map
+    accuracy_m: 50
+  notes: Position read from the 1:20,000 iso-resistivity maps. File number not printed; taken as 224.
+- id: map-224-183
+  name: Sounding 224-183 (Southern Arava maps)
+  coords:
+    x: 155006
+    y: 951999
+    crs: EPSG:28193
+    source: map
+    accuracy_m: 50
+  notes: Position read from the 1:20,000 iso-resistivity maps. File number not printed; taken as 224.
+- id: map-224-184
+  name: Sounding 224-184 (Southern Arava maps)
+  coords:
+    x: 155007
+    y: 952485
+    crs: EPSG:28193
+    source: map
+    accuracy_m: 50
+  notes: Position read from the 1:20,000 iso-resistivity maps. File number not printed; taken as 224.
+- id: map-224-185
+  name: Sounding 224-185 (Southern Arava maps)
+  coords:
+    x: 155006
+    y: 952996
+    crs: EPSG:28193
+    source: map
+    accuracy_m: 50
+  notes: Position read from the 1:20,000 iso-resistivity maps. File number not printed; taken as 224.
+- id: map-224-186
+  name: Sounding 224-186 (Southern Arava maps)
+  coords:
+    x: 155010
+    y: 953482
+    crs: EPSG:28193
+    source: map
+    accuracy_m: 50
+  notes: Position read from the 1:20,000 iso-resistivity maps. File number not printed; taken as 224.
+- id: map-224-187
+  name: Sounding 224-187 (Southern Arava maps)
+  coords:
+    x: 155010
+    y: 953993
+    crs: EPSG:28193
+    source: map
+    accuracy_m: 50
+  notes: Position read from the 1:20,000 iso-resistivity maps. File number not printed; taken as 224.
+- id: map-224-188
+  name: Sounding 224-188 (Southern Arava maps)
+  coords:
+    x: 155006
+    y: 954482
+    crs: EPSG:28193
+    source: map
+    accuracy_m: 50
+  notes: Position read from the 1:20,000 iso-resistivity maps. File number not printed; taken as 224.
+- id: map-224-189
+  name: Sounding 224-189 (Southern Arava maps)
+  coords:
+    x: 155007
+    y: 955001
+    crs: EPSG:28193
+    source: map
+    accuracy_m: 50
+  notes: Position read from the 1:20,000 iso-resistivity maps. File number not printed; taken as 224.
+- id: map-224-190
+  name: Sounding 224-190 (Southern Arava maps)
+  coords:
+    x: 155007
+    y: 955296
+    crs: EPSG:28193
+    source: map
+    accuracy_m: 50
+  notes: Position read from the 1:20,000 iso-resistivity maps. File number not printed; taken as 224.
+- id: map-224-191
+  name: Sounding 224-191 (Southern Arava maps)
+  coords:
+    x: 155006
+    y: 955593
+    crs: EPSG:28193
+    source: map
+    accuracy_m: 50
+  notes: Position read from the 1:20,000 iso-resistivity maps. File number not printed; taken as 224.
+- id: map-224-192
+  name: Sounding 224-192 (Southern Arava maps)
+  coords:
+    x: 155009
+    y: 955898
+    crs: EPSG:28193
+    source: map
+    accuracy_m: 50
+  notes: Position read from the 1:20,000 iso-resistivity maps.
+- id: map-224-193
+  name: Sounding 224-193 (Southern Arava maps)
+  coords:
+    x: 163703
+    y: 950291
+    crs: EPSG:28193
+    source: map
+    accuracy_m: 50
+  notes: Position read from the 1:20,000 iso-resistivity maps.
+- id: map-224-194
+  name: Sounding 224-194 (Southern Arava maps)
+  coords:
+    x: 164193
+    y: 950188
+    crs: EPSG:28193
+    source: map
+    accuracy_m: 50
+  notes: Position read from the 1:20,000 iso-resistivity maps. File number not printed; taken as 224.
+- id: map-224-195
+  name: Sounding 224-195 (Southern Arava maps)
+  coords:
+    x: 164801
+    y: 949996
+    crs: EPSG:28193
+    source: map
+    accuracy_m: 50
+  notes: Position read from the 1:20,000 iso-resistivity maps. File number not printed; taken as 224.
+- id: map-224-196
+  name: Sounding 224-196 (Southern Arava maps)
+  coords:
+    x: 165198
+    y: 949892
+    crs: EPSG:28193
+    source: map
+    accuracy_m: 50
+  notes: Position read from the 1:20,000 iso-resistivity maps. File number not printed; taken as 224.
+- id: map-224-197
+  name: Sounding 224-197 (Southern Arava maps)
+  coords:
+    x: 165701
+    y: 949699
+    crs: EPSG:28193
+    source: map
+    accuracy_m: 50
+  notes: Position read from the 1:20,000 iso-resistivity maps. File number not printed; taken as 224.
+- id: map-224-198
+  name: Sounding 224-198 (Southern Arava maps)
+  coords:
+    x: 166204
+    y: 949587
+    crs: EPSG:28193
+    source: map
+    accuracy_m: 50
+  notes: Position read from the 1:20,000 iso-resistivity maps. File number not printed; taken as 224.
+- id: map-224-199
+  name: Sounding 224-199 (Southern Arava maps)
+  coords:
+    x: 163597
+    y: 945485
+    crs: EPSG:28193
+    source: map
+    accuracy_m: 50
+  notes: Position read from the 1:20,000 iso-resistivity maps.
+- id: map-224-200
+  name: Sounding 224-200 (Southern Arava maps)
+  coords:
+    x: 163895
+    y: 945885
+    crs: EPSG:28193
+    source: map
+    accuracy_m: 50
+  notes: Position read from the 1:20,000 iso-resistivity maps. File number not printed; taken as 224.
+- id: map-224-201
+  name: Sounding 224-201 (Southern Arava maps)
+  coords:
+    x: 164195
+    y: 946282
+    crs: EPSG:28193
+    source: map
+    accuracy_m: 50
+  notes: Position read from the 1:20,000 iso-resistivity maps. File number not printed; taken as 224.
+- id: map-224-202
+  name: Sounding 224-202 (Southern Arava maps)
+  coords:
+    x: 164496
+    y: 946680
+    crs: EPSG:28193
+    source: map
+    accuracy_m: 50
+  notes: Position read from the 1:20,000 iso-resistivity maps. File number not printed; taken as 224.
+- id: map-224-203
+  name: Sounding 224-203 (Southern Arava maps)
+  coords:
+    x: 164795
+    y: 947086
+    crs: EPSG:28193
+    source: map
+    accuracy_m: 50
+  notes: Position read from the 1:20,000 iso-resistivity maps. File number not printed; taken as 224.
+- id: map-224-204
+  name: Sounding 224-204 (Southern Arava maps)
+  coords:
+    x: 165104
+    y: 947483
+    crs: EPSG:28193
+    source: map
+    accuracy_m: 50
+  notes: Position read from the 1:20,000 iso-resistivity maps. File number not printed; taken as 224.
+- id: map-224-205
+  name: Sounding 224-205 (Southern Arava maps)
+  coords:
+    x: 165395
+    y: 947993
+    crs: EPSG:28193
+    source: map
+    accuracy_m: 50
+  notes: Position read from the 1:20,000 iso-resistivity maps. File number not printed; taken as 224.
+- id: map-224-206
+  name: Sounding 224-206 (Southern Arava maps)
+  coords:
+    x: 165612
+    y: 948395
+    crs: EPSG:28193
+    source: map
+    accuracy_m: 50
+  notes: Position read from the 1:20,000 iso-resistivity maps. File number not printed; taken as 224.
+- id: map-224-207
+  name: Sounding 224-207 (Southern Arava maps)
+  coords:
+    x: 165902
+    y: 948790
+    crs: EPSG:28193
+    source: map
+    accuracy_m: 50
+  notes: Position read from the 1:20,000 iso-resistivity maps. File number not printed; taken as 224.
+- id: map-224-208
+  name: Sounding 224-208 (Southern Arava maps)
+  coords:
+    x: 166201
+    y: 949194
+    crs: EPSG:28193
+    source: map
+    accuracy_m: 50
+  notes: Position read from the 1:20,000 iso-resistivity maps. File number not printed; taken as 224.
+- id: map-224-209
+  name: Sounding 224-209 (Southern Arava maps)
+  coords:
+    x: 166599
+    y: 949499
+    crs: EPSG:28193
+    source: map
+    accuracy_m: 50
+  notes: Position read from the 1:20,000 iso-resistivity maps. File number not printed; taken as 224.
+- id: map-224-21
+  name: Sounding 224-21 (Southern Arava maps)
+  coords:
+    x: 162208
+    y: 942506
+    crs: EPSG:28193
+    source: map
+    accuracy_m: 50
+  notes: Position read from the 1:20,000 iso-resistivity maps.
+- id: map-224-210
+  name: Sounding 224-210 (Southern Arava maps)
+  coords:
+    x: 155511
+    y: 952185
+    crs: EPSG:28193
+    source: map
+    accuracy_m: 50
+  notes: Position read from the 1:20,000 iso-resistivity maps. File number not printed; taken as 224.
+- id: map-224-211
+  name: Sounding 224-211 (Southern Arava maps)
+  coords:
+    x: 155508
+    y: 952482
+    crs: EPSG:28193
+    source: map
+    accuracy_m: 50
+  notes: Position read from the 1:20,000 iso-resistivity maps.
+- id: map-224-212
+  name: Sounding 224-212 (Southern Arava maps)
+  coords:
+    x: 156007
+    y: 953997
+    crs: EPSG:28193
+    source: map
+    accuracy_m: 50
+  notes: Position read from the 1:20,000 iso-resistivity maps.
+- id: map-224-213
+  name: Sounding 224-213 (Southern Arava maps)
+  coords:
+    x: 156005
+    y: 954189
+    crs: EPSG:28193
+    source: map
+    accuracy_m: 50
+  notes: Position read from the 1:20,000 iso-resistivity maps. File number not printed; taken as 224.
+- id: map-224-214
+  name: Sounding 224-214 (Southern Arava maps)
+  coords:
+    x: 156007
+    y: 954485
+    crs: EPSG:28193
+    source: map
+    accuracy_m: 50
+  notes: Position read from the 1:20,000 iso-resistivity maps. File number not printed; taken as 224.
+- id: map-224-215
+  name: Sounding 224-215 (Southern Arava maps)
+  coords:
+    x: 156004
+    y: 954696
+    crs: EPSG:28193
+    source: map
+    accuracy_m: 50
+  notes: Position read from the 1:20,000 iso-resistivity maps. File number not printed; taken as 224.
+- id: map-224-216
+  name: Sounding 224-216 (Southern Arava maps)
+  coords:
+    x: 156005
+    y: 955003
+    crs: EPSG:28193
+    source: map
+    accuracy_m: 50
+  notes: Position read from the 1:20,000 iso-resistivity maps. File number not printed; taken as 224.
+- id: map-224-217
+  name: Sounding 224-217 (Southern Arava maps)
+  coords:
+    x: 156007
+    y: 955189
+    crs: EPSG:28193
+    source: map
+    accuracy_m: 50
+  notes: Position read from the 1:20,000 iso-resistivity maps. File number not printed; taken as 224.
+- id: map-224-218
+  name: Sounding 224-218 (Southern Arava maps)
+  coords:
+    x: 156006
+    y: 955501
+    crs: EPSG:28193
+    source: map
+    accuracy_m: 50
+  notes: Position read from the 1:20,000 iso-resistivity maps. File number not printed; taken as 224.
+- id: map-224-219
+  name: Sounding 224-219 (Southern Arava maps)
+  coords:
+    x: 156005
+    y: 955702
+    crs: EPSG:28193
+    source: map
+    accuracy_m: 50
+  notes: Position read from the 1:20,000 iso-resistivity maps. File number not printed; taken as 224.
+- id: map-224-22
+  name: Sounding 224-22 (Southern Arava maps)
+  coords:
+    x: 160709
+    y: 940197
+    crs: EPSG:28193
+    source: map
+    accuracy_m: 50
+  notes: Position read from the 1:20,000 iso-resistivity maps.
+- id: map-224-220
+  name: Sounding 224-220 (Southern Arava maps)
+  coords:
+    x: 156009
+    y: 955999
+    crs: EPSG:28193
+    source: map
+    accuracy_m: 50
+  notes: Position read from the 1:20,000 iso-resistivity maps.
+- id: map-224-221
+  name: Sounding 224-221 (Southern Arava maps)
+  coords:
+    x: 161400
+    y: 941000
+    crs: EPSG:28193
+    source: map
+    accuracy_m: 50
+  notes: Position read from the 1:20,000 iso-resistivity maps.
+- id: map-224-222
+  name: Sounding 224-222 (Southern Arava maps)
+  coords:
+    x: 161211
+    y: 940588
+    crs: EPSG:28193
+    source: map
+    accuracy_m: 50
+  notes: Position read from the 1:20,000 iso-resistivity maps. File number not printed; taken as 224.
+- id: map-224-223
+  name: Sounding 224-223 (Southern Arava maps)
+  coords:
+    x: 161011
+    y: 940296
+    crs: EPSG:28193
+    source: map
+    accuracy_m: 50
+  notes: Position read from the 1:20,000 iso-resistivity maps. File number not printed; taken as 224.
+- id: map-224-224
+  name: Sounding 224-224 (Southern Arava maps)
+  coords:
+    x: 160689
+    y: 939886
+    crs: EPSG:28193
+    source: map
+    accuracy_m: 50
+  notes: Position read from the 1:20,000 iso-resistivity maps. File number not printed; taken as 224.
+- id: map-224-225
+  name: Sounding 224-225 (Southern Arava maps)
+  coords:
+    x: 160494
+    y: 939507
+    crs: EPSG:28193
+    source: map
+    accuracy_m: 50
+  notes: Position read from the 1:20,000 iso-resistivity maps. File number not printed; taken as 224.
+- id: map-224-226
+  name: Sounding 224-226 (Southern Arava maps)
+  coords:
+    x: 160201
+    y: 939213
+    crs: EPSG:28193
+    source: map
+    accuracy_m: 50
+  notes: Position read from the 1:20,000 iso-resistivity maps. File number not printed; taken as 224.
+- id: map-224-227
+  name: Sounding 224-227 (Southern Arava maps)
+  coords:
+    x: 160105
+    y: 938810
+    crs: EPSG:28193
+    source: map
+    accuracy_m: 50
+  notes: Position read from the 1:20,000 iso-resistivity maps. File number not printed; taken as 224.
+- id: map-224-228
+  name: Sounding 224-228 (Southern Arava maps)
+  coords:
+    x: 159911
+    y: 938406
+    crs: EPSG:28193
+    source: map
+    accuracy_m: 50
+  notes: Position read from the 1:20,000 iso-resistivity maps. File number not printed; taken as 224.
+- id: map-224-229
+  name: Sounding 224-229 (Southern Arava maps)
+  coords:
+    x: 159622
+    y: 938003
+    crs: EPSG:28193
+    source: map
+    accuracy_m: 50
+  notes: Position read from the 1:20,000 iso-resistivity maps. File number not printed; taken as 224.
+- id: map-224-23
+  name: Sounding 224-23 (Southern Arava maps)
+  coords:
+    x: 157804
+    y: 934597
+    crs: EPSG:28193
+    source: map
+    accuracy_m: 50
+  notes: Position read from the 1:20,000 iso-resistivity maps.
+- id: map-224-230
+  name: Sounding 224-230 (Southern Arava maps)
+  coords:
+    x: 159511
+    y: 937594
+    crs: EPSG:28193
+    source: map
+    accuracy_m: 50
+  notes: Position read from the 1:20,000 iso-resistivity maps. File number not printed; taken as 224.
+- id: map-224-231
+  name: Sounding 224-231 (Southern Arava maps)
+  coords:
+    x: 159514
+    y: 937201
+    crs: EPSG:28193
+    source: map
+    accuracy_m: 50
+  notes: Position read from the 1:20,000 iso-resistivity maps. File number not printed; taken as 224.
+- id: map-224-232
+  name: Sounding 224-232 (Southern Arava maps)
+  coords:
+    x: 159400
+    y: 936800
+    crs: EPSG:28193
+    source: map
+    accuracy_m: 50
+  notes: Position read from the 1:20,000 iso-resistivity maps. File number not printed; taken as 224.
+- id: map-224-233
+  name: Sounding 224-233 (Southern Arava maps)
+  coords:
+    x: 159403
+    y: 936391
+    crs: EPSG:28193
+    source: map
+    accuracy_m: 50
+  notes: Position read from the 1:20,000 iso-resistivity maps. File number not printed; taken as 224.
+- id: map-224-234
+  name: Sounding 224-234 (Southern Arava maps)
+  coords:
+    x: 159294
+    y: 936011
+    crs: EPSG:28193
+    source: map
+    accuracy_m: 50
+  notes: Position read from the 1:20,000 iso-resistivity maps. File number not printed; taken as 224.
+- id: map-224-235
+  name: Sounding 224-235 (Southern Arava maps)
+  coords:
+    x: 158180
+    y: 933688
+    crs: EPSG:28193
+    source: map
+    accuracy_m: 50
+  notes: Position read from the 1:20,000 iso-resistivity maps. File number not printed; taken as 224.
+- id: map-224-236
+  name: Sounding 224-236 (Southern Arava maps)
+  coords:
+    x: 158387
+    y: 933204
+    crs: EPSG:28193
+    source: map
+    accuracy_m: 50
+  notes: Position read from the 1:20,000 iso-resistivity maps. File number not printed; taken as 224.
+- id: map-224-237
+  name: Sounding 224-237 (Southern Arava maps)
+  coords:
+    x: 158498
+    y: 932812
+    crs: EPSG:28193
+    source: map
+    accuracy_m: 50
+  notes: Position read from the 1:20,000 iso-resistivity maps. File number not printed; taken as 224.
+- id: map-224-238
+  name: Sounding 224-238 (Southern Arava maps)
+  coords:
+    x: 158396
+    y: 932291
+    crs: EPSG:28193
+    source: map
+    accuracy_m: 50
+  notes: Position read from the 1:20,000 iso-resistivity maps. File number not printed; taken as 224.
+- id: map-224-239
+  name: Sounding 224-239 (Southern Arava maps)
+  coords:
+    x: 158292
+    y: 931811
+    crs: EPSG:28193
+    source: map
+    accuracy_m: 50
+  notes: Position read from the 1:20,000 iso-resistivity maps. File number not printed; taken as 224.
+- id: map-224-24
+  name: Sounding 224-24 (Southern Arava maps)
+  coords:
+    x: 155392
+    y: 931590
+    crs: EPSG:28193
+    source: map
+    accuracy_m: 50
+  notes: Position read from the 1:20,000 iso-resistivity maps.
+- id: map-224-240
+  name: Sounding 224-240 (Southern Arava maps)
+  coords:
+    x: 158198
+    y: 931398
+    crs: EPSG:28193
+    source: map
+    accuracy_m: 50
+  notes: Position read from the 1:20,000 iso-resistivity maps. File number not printed; taken as 224.
+- id: map-224-241
+  name: Sounding 224-241 (Southern Arava maps)
+  coords:
+    x: 157989
+    y: 931000
+    crs: EPSG:28193
+    source: map
+    accuracy_m: 50
+  notes: Position read from the 1:20,000 iso-resistivity maps. File number not printed; taken as 224.
+- id: map-224-242
+  name: Sounding 224-242 (Southern Arava maps)
+  coords:
+    x: 157789
+    y: 930515
+    crs: EPSG:28193
+    source: map
+    accuracy_m: 50
+  notes: Position read from the 1:20,000 iso-resistivity maps. File number not printed; taken as 224.
+- id: map-224-243
+  name: Sounding 224-243 (Southern Arava maps)
+  coords:
+    x: 157494
+    y: 930097
+    crs: EPSG:28193
+    source: map
+    accuracy_m: 50
+  notes: Position read from the 1:20,000 iso-resistivity maps. File number not printed; taken as 224.
+- id: map-224-244
+  name: Sounding 224-244 (Southern Arava maps)
+  coords:
+    x: 157102
+    y: 929808
+    crs: EPSG:28193
+    source: map
+    accuracy_m: 50
+  notes: Position read from the 1:20,000 iso-resistivity maps. File number not printed; taken as 224.
+- id: map-224-245
+  name: Sounding 224-245 (Southern Arava maps)
+  coords:
+    x: 156785
+    y: 929411
+    crs: EPSG:28193
+    source: map
+    accuracy_m: 50
+  notes: Position read from the 1:20,000 iso-resistivity maps. File number not printed; taken as 224.
+- id: map-224-246
+  name: Sounding 224-246 (Southern Arava maps)
+  coords:
+    x: 156586
+    y: 928911
+    crs: EPSG:28193
+    source: map
+    accuracy_m: 50
+  notes: Position read from the 1:20,000 iso-resistivity maps. File number not printed; taken as 224.
+- id: map-224-247
+  name: Sounding 224-247 (Southern Arava maps)
+  coords:
+    x: 156486
+    y: 928495
+    crs: EPSG:28193
+    source: map
+    accuracy_m: 50
+  notes: Position read from the 1:20,000 iso-resistivity maps. File number not printed; taken as 224.
+- id: map-224-248
+  name: Sounding 224-248 (Southern Arava maps)
+  coords:
+    x: 156515
+    y: 928003
+    crs: EPSG:28193
+    source: map
+    accuracy_m: 50
+  notes: Position read from the 1:20,000 iso-resistivity maps. File number not printed; taken as 224.
+- id: map-224-249
+  name: Sounding 224-249 (Southern Arava maps)
+  coords:
+    x: 156499
+    y: 927504
+    crs: EPSG:28193
+    source: map
+    accuracy_m: 50
+  notes: Position read from the 1:20,000 iso-resistivity maps. File number not printed; taken as 224.
+- id: map-224-25
+  name: Sounding 224-25 (Southern Arava maps)
+  coords:
+    x: 155408
+    y: 922508
+    crs: EPSG:28193
+    source: map
+    accuracy_m: 50
+  notes: Position read from the 1:20,000 iso-resistivity maps.
+- id: map-224-250
+  name: Sounding 224-250 (Southern Arava maps)
+  coords:
+    x: 156481
+    y: 926999
+    crs: EPSG:28193
+    source: map
+    accuracy_m: 50
+  notes: Position read from the 1:20,000 iso-resistivity maps. File number not printed; taken as 224.
+- id: map-224-251
+  name: Sounding 224-251 (Southern Arava maps)
+  coords:
+    x: 156489
+    y: 926503
+    crs: EPSG:28193
+    source: map
+    accuracy_m: 50
+  notes: Position read from the 1:20,000 iso-resistivity maps. File number not printed; taken as 224.
+- id: map-224-252
+  name: Sounding 224-252 (Southern Arava maps)
+  coords:
+    x: 156495
+    y: 926004
+    crs: EPSG:28193
+    source: map
+    accuracy_m: 50
+  notes: Position read from the 1:20,000 iso-resistivity maps. File number not printed; taken as 224.
+- id: map-224-253
+  name: Sounding 224-253 (Southern Arava maps)
+  coords:
+    x: 156500
+    y: 925491
+    crs: EPSG:28193
+    source: map
+    accuracy_m: 50
+  notes: Position read from the 1:20,000 iso-resistivity maps. File number not printed; taken as 224.
+- id: map-224-254
+  name: Sounding 224-254 (Southern Arava maps)
+  coords:
+    x: 156529
+    y: 924996
+    crs: EPSG:28193
+    source: map
+    accuracy_m: 50
+  notes: Position read from the 1:20,000 iso-resistivity maps. File number not printed; taken as 224.
+- id: map-224-255
+  name: Sounding 224-255 (Southern Arava maps)
+  coords:
+    x: 156512
+    y: 924501
+    crs: EPSG:28193
+    source: map
+    accuracy_m: 50
+  notes: Position read from the 1:20,000 iso-resistivity maps. File number not printed; taken as 224.
+- id: map-224-256
+  name: Sounding 224-256 (Southern Arava maps)
+  coords:
+    x: 156515
+    y: 924005
+    crs: EPSG:28193
+    source: map
+    accuracy_m: 50
+  notes: Position read from the 1:20,000 iso-resistivity maps. File number not printed; taken as 224.
+- id: map-224-257
+  name: Sounding 224-257 (Southern Arava maps)
+  coords:
+    x: 156515
+    y: 923502
+    crs: EPSG:28193
+    source: map
+    accuracy_m: 50
+  notes: Position read from the 1:20,000 iso-resistivity maps. File number not printed; taken as 224.
+- id: map-224-258
+  name: Sounding 224-258 (Southern Arava maps)
+  coords:
+    x: 156526
+    y: 923010
+    crs: EPSG:28193
+    source: map
+    accuracy_m: 50
+  notes: Position read from the 1:20,000 iso-resistivity maps. File number not printed; taken as 224.
+- id: map-224-259
+  name: Sounding 224-259 (Southern Arava maps)
+  coords:
+    x: 155513
+    y: 922508
+    crs: EPSG:28193
+    source: map
+    accuracy_m: 50
+  notes: Position read from the 1:20,000 iso-resistivity maps. File number not printed; taken as 224.
+- id: map-224-26
+  name: Sounding 224-26 (Southern Arava maps)
+  coords:
+    x: 155222
+    y: 922790
+    crs: EPSG:28193
+    source: map
+    accuracy_m: 50
+  notes: Position read from the 1:20,000 iso-resistivity maps.
+- id: map-224-260
+  name: Sounding 224-260 (Southern Arava maps)
+  coords:
+    x: 155805
+    y: 922104
+    crs: EPSG:28193
+    source: map
+    accuracy_m: 50
+  notes: Position read from the 1:20,000 iso-resistivity maps. File number not printed; taken as 224.
+- id: map-224-261
+  name: Sounding 224-261 (Southern Arava maps)
+  coords:
+    x: 156109
+    y: 921802
+    crs: EPSG:28193
+    source: map
+    accuracy_m: 50
+  notes: Position read from the 1:20,000 iso-resistivity maps. File number not printed; taken as 224.
+- id: map-224-262
+  name: Sounding 224-262 (Southern Arava maps)
+  coords:
+    x: 156488
+    y: 921411
+    crs: EPSG:28193
+    source: map
+    accuracy_m: 50
+  notes: Position read from the 1:20,000 iso-resistivity maps. File number not printed; taken as 224.
+- id: map-224-263
+  name: Sounding 224-263 (Southern Arava maps)
+  coords:
+    x: 156809
+    y: 921099
+    crs: EPSG:28193
+    source: map
+    accuracy_m: 50
+  notes: Position read from the 1:20,000 iso-resistivity maps. File number not printed; taken as 224.
+- id: map-224-264
+  name: Sounding 224-264 (Southern Arava maps)
+  coords:
+    x: 157214
+    y: 920720
+    crs: EPSG:28193
+    source: map
+    accuracy_m: 50
+  notes: Position read from the 1:20,000 iso-resistivity maps. File number not printed; taken as 224.
+- id: map-224-265
+  name: Sounding 224-265 (Southern Arava maps)
+  coords:
+    x: 152515
+    y: 918597
+    crs: EPSG:28193
+    source: map
+    accuracy_m: 50
+  notes: Position read from the 1:20,000 iso-resistivity maps. File number not printed; taken as 224.
+- id: map-224-266
+  name: Sounding 224-266 (Southern Arava maps)
+  coords:
+    x: 153010
+    y: 918597
+    crs: EPSG:28193
+    source: map
+    accuracy_m: 50
+  notes: Position read from the 1:20,000 iso-resistivity maps. File number not printed; taken as 224.
+- id: map-224-267
+  name: Sounding 224-267 (Southern Arava maps)
+  coords:
+    x: 153513
+    y: 918598
+    crs: EPSG:28193
+    source: map
+    accuracy_m: 50
+  notes: Position read from the 1:20,000 iso-resistivity maps. File number not printed; taken as 224.
+- id: map-224-268
+  name: Sounding 224-268 (Southern Arava maps)
+  coords:
+    x: 154005
+    y: 918594
+    crs: EPSG:28193
+    source: map
+    accuracy_m: 50
+  notes: Position read from the 1:20,000 iso-resistivity maps. File number not printed; taken as 224.
+- id: map-224-269
+  name: Sounding 224-269 (Southern Arava maps)
+  coords:
+    x: 154496
+    y: 918595
+    crs: EPSG:28193
+    source: map
+    accuracy_m: 50
+  notes: Position read from the 1:20,000 iso-resistivity maps. File number not printed; taken as 224.
+- id: map-224-27
+  name: Sounding 224-27 (Southern Arava maps)
+  coords:
+    x: 155788
+    y: 924908
+    crs: EPSG:28193
+    source: map
+    accuracy_m: 50
+  notes: Position read from the 1:20,000 iso-resistivity maps.
+- id: map-224-270
+  name: Sounding 224-270 (Southern Arava maps)
+  coords:
+    x: 155009
+    y: 918598
+    crs: EPSG:28193
+    source: map
+    accuracy_m: 50
+  notes: Position read from the 1:20,000 iso-resistivity maps. File number not printed; taken as 224.
+- id: map-224-271
+  name: Sounding 224-271 (Southern Arava maps)
+  coords:
+    x: 155512
+    y: 918592
+    crs: EPSG:28193
+    source: map
+    accuracy_m: 50
+  notes: Position read from the 1:20,000 iso-resistivity maps. File number not printed; taken as 224.
+- id: map-224-272
+  name: Sounding 224-272 (Southern Arava maps)
+  coords:
+    x: 156012
+    y: 918594
+    crs: EPSG:28193
+    source: map
+    accuracy_m: 50
+  notes: Position read from the 1:20,000 iso-resistivity maps. File number not printed; taken as 224.
+- id: map-224-273
+  name: Sounding 224-273 (Southern Arava maps)
+  coords:
+    x: 153004
+    y: 915697
+    crs: EPSG:28193
+    source: map
+    accuracy_m: 50
+  notes: Position read from the 1:20,000 iso-resistivity maps. File number not printed; taken as 224.
+- id: map-224-274
+  name: Sounding 224-274 (Southern Arava maps)
+  coords:
+    x: 153509
+    y: 915701
+    crs: EPSG:28193
+    source: map
+    accuracy_m: 50
+  notes: Position read from the 1:20,000 iso-resistivity maps. File number not printed; taken as 224.
+- id: map-224-275
+  name: Sounding 224-275 (Southern Arava maps)
+  coords:
+    x: 154002
+    y: 915700
+    crs: EPSG:28193
+    source: map
+    accuracy_m: 50
+  notes: Position read from the 1:20,000 iso-resistivity maps. File number not printed; taken as 224.
+- id: map-224-276
+  name: Sounding 224-276 (Southern Arava maps)
+  coords:
+    x: 154499
+    y: 915698
+    crs: EPSG:28193
+    source: map
+    accuracy_m: 50
+  notes: Position read from the 1:20,000 iso-resistivity maps. File number not printed; taken as 224.
+- id: map-224-277
+  name: Sounding 224-277 (Southern Arava maps)
+  coords:
+    x: 155001
+    y: 915694
+    crs: EPSG:28193
+    source: map
+    accuracy_m: 50
+  notes: Position read from the 1:20,000 iso-resistivity maps. File number not printed; taken as 224.
+- id: map-224-278
+  name: Sounding 224-278 (Southern Arava maps)
+  coords:
+    x: 155504
+    y: 915689
+    crs: EPSG:28193
+    source: map
+    accuracy_m: 50
+  notes: Position read from the 1:20,000 iso-resistivity maps. File number not printed; taken as 224.
+- id: map-224-279
+  name: Sounding 224-279 (Southern Arava maps)
+  coords:
+    x: 155606
+    y: 923098
+    crs: EPSG:28193
+    source: map
+    accuracy_m: 50
+  notes: Position read from the 1:20,000 iso-resistivity maps. File number not printed; taken as 224.
+- id: map-224-28
+  name: Sounding 224-28 (Southern Arava maps)
+  coords:
+    x: 155508
+    y: 924505
+    crs: EPSG:28193
+    source: map
+    accuracy_m: 50
+  notes: Position read from the 1:20,000 iso-resistivity maps.
+- id: map-224-280
+  name: Sounding 224-280 (Southern Arava maps)
+  coords:
+    x: 155812
+    y: 923009
+    crs: EPSG:28193
+    source: map
+    accuracy_m: 50
+  notes: Position read from the 1:20,000 iso-resistivity maps. File number not printed; taken as 224.
+- id: map-224-281
+  name: Sounding 224-281 (Southern Arava maps)
+  coords:
+    x: 156117
+    y: 923009
+    crs: EPSG:28193
+    source: map
+    accuracy_m: 50
+  notes: Position read from the 1:20,000 iso-resistivity maps. File number not printed; taken as 224.
+- id: map-224-282
+  name: Sounding 224-282 (Southern Arava maps)
+  coords:
+    x: 156003
+    y: 924005
+    crs: EPSG:28193
+    source: map
+    accuracy_m: 50
+  notes: Position read from the 1:20,000 iso-resistivity maps. File number not printed; taken as 224.
+- id: map-224-283
+  name: Sounding 224-283 (Southern Arava maps)
+  coords:
+    x: 158073
+    y: 933686
+    crs: EPSG:28193
+    source: map
+    accuracy_m: 50
+  notes: Position read from the 1:20,000 iso-resistivity maps. File number not printed; taken as 224.
+- id: map-224-284
+  name: Sounding 224-284 (Southern Arava maps)
+  coords:
+    x: 158385
+    y: 933697
+    crs: EPSG:28193
+    source: map
+    accuracy_m: 50
+  notes: Position read from the 1:20,000 iso-resistivity maps. File number not printed; taken as 224.
+- id: map-224-285
+  name: Sounding 224-285 (Southern Arava maps)
+  coords:
+    x: 158492
+    y: 932508
+    crs: EPSG:28193
+    source: map
+    accuracy_m: 50
+  notes: Position read from the 1:20,000 iso-resistivity maps. File number not printed; taken as 224.
+- id: map-224-286
+  name: Sounding 224-286 (Southern Arava maps)
+  coords:
+    x: 158295
+    y: 932604
+    crs: EPSG:28193
+    source: map
+    accuracy_m: 50
+  notes: Position read from the 1:20,000 iso-resistivity maps. File number not printed; taken as 224.
+- id: map-224-287
+  name: Sounding 224-287 (Southern Arava maps)
+  coords:
+    x: 158080
+    y: 932609
+    crs: EPSG:28193
+    source: map
+    accuracy_m: 50
+  notes: Position read from the 1:20,000 iso-resistivity maps. File number not printed; taken as 224.
+- id: map-224-288
+  name: Sounding 224-288 (Southern Arava maps)
+  coords:
+    x: 157891
+    y: 932693
+    crs: EPSG:28193
+    source: map
+    accuracy_m: 50
+  notes: Position read from the 1:20,000 iso-resistivity maps. File number not printed; taken as 224.
+- id: map-224-289
+  name: Sounding 224-289 (Southern Arava maps)
+  coords:
+    x: 157707
+    y: 932707
+    crs: EPSG:28193
+    source: map
+    accuracy_m: 50
+  notes: Position read from the 1:20,000 iso-resistivity maps. File number not printed; taken as 224.
+- id: map-224-29
+  name: Sounding 224-29 (Southern Arava maps)
+  coords:
+    x: 155118
+    y: 925110
+    crs: EPSG:28193
+    source: map
+    accuracy_m: 50
+  notes: Position read from the 1:20,000 iso-resistivity maps.
+- id: map-224-290
+  name: Sounding 224-290 (Southern Arava maps)
+  coords:
+    x: 158060
+    y: 933007
+    crs: EPSG:28193
+    source: map
+    accuracy_m: 50
+  notes: Position read from the 1:20,000 iso-resistivity maps. File number not printed; taken as 224.
+- id: map-224-298
+  name: Sounding 224-298 (Southern Arava maps)
+  coords:
+    x: 152208
+    y: 907714
+    crs: EPSG:28193
+    source: map
+    accuracy_m: 50
+  notes: Position read from the 1:20,000 iso-resistivity maps.
+- id: map-224-299
+  name: Sounding 224-299 (Southern Arava maps)
+  coords:
+    x: 151704
+    y: 907507
+    crs: EPSG:28193
+    source: map
+    accuracy_m: 50
+  notes: Position read from the 1:20,000 iso-resistivity maps.
+- id: map-224-30
+  name: Sounding 224-30 (Southern Arava maps)
+  coords:
+    x: 156001
+    y: 924914
+    crs: EPSG:28193
+    source: map
+    accuracy_m: 50
+  notes: Position read from the 1:20,000 iso-resistivity maps.
+- id: map-224-300
+  name: Sounding 224-300 (Southern Arava maps)
+  coords:
+    x: 151097
+    y: 907701
+    crs: EPSG:28193
+    source: map
+    accuracy_m: 50
+  notes: Position read from the 1:20,000 iso-resistivity maps.
+- id: map-224-306
+  name: Sounding 224-306 (Southern Arava maps)
+  coords:
+    x: 152607
+    y: 907715
+    crs: EPSG:28193
+    source: map
+    accuracy_m: 50
+  notes: Position read from the 1:20,000 iso-resistivity maps.
+- id: map-224-308
+  name: Sounding 224-308 (Southern Arava maps)
+  coords:
+    x: 155795
+    y: 926897
+    crs: EPSG:28193
+    source: map
+    accuracy_m: 50
+  notes: Position read from the 1:20,000 iso-resistivity maps. File number not printed; taken as 224.
+- id: map-224-309
+  name: Sounding 224-309 (Southern Arava maps)
+  coords:
+    x: 156202
+    y: 927394
+    crs: EPSG:28193
+    source: map
+    accuracy_m: 50
+  notes: Position read from the 1:20,000 iso-resistivity maps. File number not printed; taken as 224.
+- id: map-224-31
+  name: Sounding 224-31 (Southern Arava maps)
+  coords:
+    x: 156313
+    y: 927594
+    crs: EPSG:28193
+    source: map
+    accuracy_m: 50
+  notes: Position read from the 1:20,000 iso-resistivity maps.
+- id: map-224-310
+  name: Sounding 224-310 (Southern Arava maps)
+  coords:
+    x: 156197
+    y: 927097
+    crs: EPSG:28193
+    source: map
+    accuracy_m: 50
+  notes: Position read from the 1:20,000 iso-resistivity maps. File number not printed; taken as 224.
+- id: map-224-311
+  name: Sounding 224-311 (Southern Arava maps)
+  coords:
+    x: 156218
+    y: 926710
+    crs: EPSG:28193
+    source: map
+    accuracy_m: 50
+  notes: Position read from the 1:20,000 iso-resistivity maps. File number not printed; taken as 224.
+- id: map-224-312
+  name: Sounding 224-312 (Southern Arava maps)
+  coords:
+    x: 156105
+    y: 926594
+    crs: EPSG:28193
+    source: map
+    accuracy_m: 50
+  notes: Position read from the 1:20,000 iso-resistivity maps. File number not printed; taken as 224.
+- id: map-224-313
+  name: Sounding 224-313 (Southern Arava maps)
+  coords:
+    x: 156104
+    y: 926210
+    crs: EPSG:28193
+    source: map
+    accuracy_m: 50
+  notes: Position read from the 1:20,000 iso-resistivity maps. File number not printed; taken as 224.
+- id: map-224-314
+  name: Sounding 224-314 (Southern Arava maps)
+  coords:
+    x: 157989
+    y: 934204
+    crs: EPSG:28193
+    source: map
+    accuracy_m: 50
+  notes: Position read from the 1:20,000 iso-resistivity maps. File number not printed; taken as 224.
+- id: map-224-315
+  name: Sounding 224-315 (Southern Arava maps)
+  coords:
+    x: 157993
+    y: 933292
+    crs: EPSG:28193
+    source: map
+    accuracy_m: 50
+  notes: Position read from the 1:20,000 iso-resistivity maps. File number not printed; taken as 224.
+- id: map-224-316
+  name: Sounding 224-316 (Southern Arava maps)
+  coords:
+    x: 157600
+    y: 932312
+    crs: EPSG:28193
+    source: map
+    accuracy_m: 50
+  notes: Position read from the 1:20,000 iso-resistivity maps. File number not printed; taken as 224.
+- id: map-224-317
+  name: Sounding 224-317 (Southern Arava maps)
+  coords:
+    x: 156892
+    y: 932108
+    crs: EPSG:28193
+    source: map
+    accuracy_m: 50
+  notes: Position read from the 1:20,000 iso-resistivity maps. File number not printed; taken as 224.
+- id: map-224-318
+  name: Sounding 224-318 (Southern Arava maps)
+  coords:
+    x: 157096
+    y: 931914
+    crs: EPSG:28193
+    source: map
+    accuracy_m: 50
+  notes: Position read from the 1:20,000 iso-resistivity maps. File number not printed; taken as 224.
+- id: map-224-319
+  name: Sounding 224-319 (Southern Arava maps)
+  coords:
+    x: 157392
+    y: 931789
+    crs: EPSG:28193
+    source: map
+    accuracy_m: 50
+  notes: Position read from the 1:20,000 iso-resistivity maps. File number not printed; taken as 224.
+- id: map-224-31A
+  name: Sounding 224-31A (Southern Arava maps)
+  coords:
+    x: 156209
+    y: 927590
+    crs: EPSG:28193
+    source: map
+    accuracy_m: 50
+  notes: Position read from the 1:20,000 iso-resistivity maps.
+- id: map-224-32
+  name: Sounding 224-32 (Southern Arava maps)
+  coords:
+    x: 155513
+    y: 928002
+    crs: EPSG:28193
+    source: map
+    accuracy_m: 50
+  notes: Position read from the 1:20,000 iso-resistivity maps.
+- id: map-224-320
+  name: Sounding 224-320 (Southern Arava maps)
+  coords:
+    x: 157600
+    y: 931499
+    crs: EPSG:28193
+    source: map
+    accuracy_m: 50
+  notes: Position read from the 1:20,000 iso-resistivity maps. File number not printed; taken as 224.
+- id: map-224-321
+  name: Sounding 224-321 (Southern Arava maps)
+  coords:
+    x: 157298
+    y: 931192
+    crs: EPSG:28193
+    source: map
+    accuracy_m: 50
+  notes: Position read from the 1:20,000 iso-resistivity maps. File number not printed; taken as 224.
+- id: map-224-322
+  name: Sounding 224-322 (Southern Arava maps)
+  coords:
+    x: 156993
+    y: 930802
+    crs: EPSG:28193
+    source: map
+    accuracy_m: 50
+  notes: Position read from the 1:20,000 iso-resistivity maps. File number not printed; taken as 224.
+- id: map-224-323
+  name: Sounding 224-323 (Southern Arava maps)
+  coords:
+    x: 156801
+    y: 930305
+    crs: EPSG:28193
+    source: map
+    accuracy_m: 50
+  notes: Position read from the 1:20,000 iso-resistivity maps. File number not printed; taken as 224.
+- id: map-224-324
+  name: Sounding 224-324 (Southern Arava maps)
+  coords:
+    x: 150802
+    y: 957487
+    crs: EPSG:28193
+    source: map
+    accuracy_m: 50
+  notes: Position read from the 1:20,000 iso-resistivity maps.
+- id: map-224-325
+  name: Sounding 224-325 (Southern Arava maps)
+  coords:
+    x: 150699
+    y: 956991
+    crs: EPSG:28193
+    source: map
+    accuracy_m: 50
+  notes: Position read from the 1:20,000 iso-resistivity maps. File number not printed; taken as 224.
+- id: map-224-326
+  name: Sounding 224-326 (Southern Arava maps)
+  coords:
+    x: 150702
+    y: 956491
+    crs: EPSG:28193
+    source: map
+    accuracy_m: 50
+  notes: Position read from the 1:20,000 iso-resistivity maps. File number not printed; taken as 224.
+- id: map-224-327
+  name: Sounding 224-327 (Southern Arava maps)
+  coords:
+    x: 150597
+    y: 955994
+    crs: EPSG:28193
+    source: map
+    accuracy_m: 50
+  notes: Position read from the 1:20,000 iso-resistivity maps. File number not printed; taken as 224.
+- id: map-224-328
+  name: Sounding 224-328 (Southern Arava maps)
+  coords:
+    x: 150703
+    y: 955593
+    crs: EPSG:28193
+    source: map
+    accuracy_m: 50
+  notes: Position read from the 1:20,000 iso-resistivity maps. File number not printed; taken as 224.
+- id: map-224-329
+  name: Sounding 224-329 (Southern Arava maps)
+  coords:
+    x: 151004
+    y: 955093
+    crs: EPSG:28193
+    source: map
+    accuracy_m: 50
+  notes: Position read from the 1:20,000 iso-resistivity maps. File number not printed; taken as 224.
+- id: map-224-33
+  name: Sounding 224-33 (Southern Arava maps)
+  coords:
+    x: 155714
+    y: 931397
+    crs: EPSG:28193
+    source: map
+    accuracy_m: 50
+  notes: Position read from the 1:20,000 iso-resistivity maps.
+- id: map-224-330
+  name: Sounding 224-330 (Southern Arava maps)
+  coords:
+    x: 151199
+    y: 954587
+    crs: EPSG:28193
+    source: map
+    accuracy_m: 50
+  notes: Position read from the 1:20,000 iso-resistivity maps.
+- id: map-224-331
+  name: Sounding 224-331 (Southern Arava maps)
+  coords:
+    x: 155807
+    y: 918985
+    crs: EPSG:28193
+    source: map
+    accuracy_m: 50
+  notes: Position read from the 1:20,000 iso-resistivity maps. File number not printed; taken as 224.
+- id: map-224-332
+  name: Sounding 224-332 (Southern Arava maps)
+  coords:
+    x: 154309
+    y: 919188
+    crs: EPSG:28193
+    source: map
+    accuracy_m: 50
+  notes: Position read from the 1:20,000 iso-resistivity maps. File number not printed; taken as 224.
+- id: map-224-333
+  name: Sounding 224-333 (Southern Arava maps)
+  coords:
+    x: 157601
+    y: 932797
+    crs: EPSG:28193
+    source: map
+    accuracy_m: 50
+  notes: Position read from the 1:20,000 iso-resistivity maps. File number not printed; taken as 224.
+- id: map-224-35
+  name: Sounding 224-35 (Southern Arava maps)
+  coords:
+    x: 159110
+    y: 936706
+    crs: EPSG:28193
+    source: map
+    accuracy_m: 50
+  notes: Position read from the 1:20,000 iso-resistivity maps.
+- id: map-224-36
+  name: Sounding 224-36 (Southern Arava maps)
+  coords:
+    x: 159304
+    y: 937602
+    crs: EPSG:28193
+    source: map
+    accuracy_m: 50
+  notes: Position read from the 1:20,000 iso-resistivity maps.
+- id: map-224-37
+  name: Sounding 224-37 (Southern Arava maps)
+  coords:
+    x: 159601
+    y: 938508
+    crs: EPSG:28193
+    source: map
+    accuracy_m: 50
+  notes: Position read from the 1:20,000 iso-resistivity maps.
+- id: map-224-406
+  name: Sounding 224-406 (Southern Arava maps)
+  coords:
+    x: 156373
+    y: 924033
+    crs: EPSG:28193
+    source: map
+    accuracy_m: 50
+  notes: Position read from the 1:20,000 iso-resistivity maps. File number not printed; taken as 224.
+- id: map-224-407
+  name: Sounding 224-407 (Southern Arava maps)
+  coords:
+    x: 156302
+    y: 924005
+    crs: EPSG:28193
+    source: map
+    accuracy_m: 50
+  notes: Position read from the 1:20,000 iso-resistivity maps. File number not printed; taken as 224.
+- id: map-224-408
+  name: Sounding 224-408 (Southern Arava maps)
+  coords:
+    x: 156403
+    y: 924316
+    crs: EPSG:28193
+    source: map
+    accuracy_m: 50
+  notes: Position read from the 1:20,000 iso-resistivity maps. File number not printed; taken as 224.
+- id: map-224-409
+  name: Sounding 224-409 (Southern Arava maps)
+  coords:
+    x: 156209
+    y: 924002
+    crs: EPSG:28193
+    source: map
+    accuracy_m: 50
+  notes: Position read from the 1:20,000 iso-resistivity maps. File number not printed; taken as 224.
+- id: map-224-475
+  name: Sounding 224-475 (Southern Arava maps)
+  coords:
+    x: 156581
+    y: 928469
+    crs: EPSG:28193
+    source: map
+    accuracy_m: 50
+  notes: Position read from the 1:20,000 iso-resistivity maps. File number not printed; taken as 224.
+- id: map-224-476
+  name: Sounding 224-476 (Southern Arava maps)
+  coords:
+    x: 157067
+    y: 928320
+    crs: EPSG:28193
+    source: map
+    accuracy_m: 50
+  notes: Position read from the 1:20,000 iso-resistivity maps. File number not printed; taken as 224.
+- id: map-224-477
+  name: Sounding 224-477 (Southern Arava maps)
+  coords:
+    x: 157027
+    y: 928771
+    crs: EPSG:28193
+    source: map
+    accuracy_m: 50
+  notes: Position read from the 1:20,000 iso-resistivity maps. File number not printed; taken as 224.
+- id: map-224-478
+  name: Sounding 224-478 (Southern Arava maps)
+  coords:
+    x: 157114
+    y: 928002
+    crs: EPSG:28193
+    source: map
+    accuracy_m: 50
+  notes: Position read from the 1:20,000 iso-resistivity maps. File number not printed; taken as 224.
+- id: map-224-479
+  name: Sounding 224-479 (Southern Arava maps)
+  coords:
+    x: 157138
+    y: 927645
+    crs: EPSG:28193
+    source: map
+    accuracy_m: 50
+  notes: Position read from the 1:20,000 iso-resistivity maps. File number not printed; taken as 224.
+- id: map-224-480
+  name: Sounding 224-480 (Southern Arava maps)
+  coords:
+    x: 155013
+    y: 921752
+    crs: EPSG:28193
+    source: map
+    accuracy_m: 50
+  notes: Position read from the 1:20,000 iso-resistivity maps.
+- id: map-224-481
+  name: Sounding 224-481 (Southern Arava maps)
+  coords:
+    x: 155318
+    y: 921612
+    crs: EPSG:28193
+    source: map
+    accuracy_m: 50
+  notes: Position read from the 1:20,000 iso-resistivity maps. File number not printed; taken as 224.
+- id: map-224-482
+  name: Sounding 224-482 (Southern Arava maps)
+  coords:
+    x: 155576
+    y: 921303
+    crs: EPSG:28193
+    source: map
+    accuracy_m: 50
+  notes: Position read from the 1:20,000 iso-resistivity maps. File number not printed; taken as 224.
+- id: map-224-483
+  name: Sounding 224-483 (Southern Arava maps)
+  coords:
+    x: 155866
+    y: 920701
+    crs: EPSG:28193
+    source: map
+    accuracy_m: 50
+  notes: Position read from the 1:20,000 iso-resistivity maps. File number not printed; taken as 224.
+- id: map-224-484
+  name: Sounding 224-484 (Southern Arava maps)
+  coords:
+    x: 155869
+    y: 921046
+    crs: EPSG:28193
+    source: map
+    accuracy_m: 50
+  notes: Position read from the 1:20,000 iso-resistivity maps. File number not printed; taken as 224.
+- id: map-224-485
+  name: Sounding 224-485 (Southern Arava maps)
+  coords:
+    x: 155813
+    y: 921542
+    crs: EPSG:28193
+    source: map
+    accuracy_m: 50
+  notes: Position read from the 1:20,000 iso-resistivity maps. File number not printed; taken as 224.
+- id: map-224-486
+  name: Sounding 224-486 (Southern Arava maps)
+  coords:
+    x: 155129
+    y: 920751
+    crs: EPSG:28193
+    source: map
+    accuracy_m: 50
+  notes: Position read from the 1:20,000 iso-resistivity maps. File number not printed; taken as 224.
+- id: map-224-525
+  name: Sounding 224-525 (Southern Arava maps)
+  coords:
+    x: 159307
+    y: 938004
+    crs: EPSG:28193
+    source: map
+    accuracy_m: 50
+  notes: Position read from the 1:20,000 iso-resistivity maps. File number not printed; taken as 224.
+- id: map-224-526
+  name: Sounding 224-526 (Southern Arava maps)
+  coords:
+    x: 158592
+    y: 936393
+    crs: EPSG:28193
+    source: map
+    accuracy_m: 50
+  notes: Position read from the 1:20,000 iso-resistivity maps. File number not printed; taken as 224.
+- id: map-224-527
+  name: Sounding 224-527 (Southern Arava maps)
+  coords:
+    x: 159002
+    y: 936510
+    crs: EPSG:28193
+    source: map
+    accuracy_m: 50
+  notes: Position read from the 1:20,000 iso-resistivity maps. File number not printed; taken as 224.
+- id: map-224-528
+  name: Sounding 224-528 (Southern Arava maps)
+  coords:
+    x: 159305
+    y: 936403
+    crs: EPSG:28193
+    source: map
+    accuracy_m: 50
+  notes: Position read from the 1:20,000 iso-resistivity maps. File number not printed; taken as 224.
+- id: map-224-529
+  name: Sounding 224-529 (Southern Arava maps)
+  coords:
+    x: 158715
+    y: 936004
+    crs: EPSG:28193
+    source: map
+    accuracy_m: 50
+  notes: Position read from the 1:20,000 iso-resistivity maps. File number not printed; taken as 224.
+- id: map-224-530
+  name: Sounding 224-530 (Southern Arava maps)
+  coords:
+    x: 159293
+    y: 936006
+    crs: EPSG:28193
+    source: map
+    accuracy_m: 50
+  notes: Position read from the 1:20,000 iso-resistivity maps. File number not printed; taken as 224.
+- id: map-224-531
+  name: Sounding 224-531 (Southern Arava maps)
+  coords:
+    x: 158001
+    y: 935601
+    crs: EPSG:28193
+    source: map
+    accuracy_m: 50
+  notes: Position read from the 1:20,000 iso-resistivity maps. File number not printed; taken as 224.
+- id: map-224-532
+  name: Sounding 224-532 (Southern Arava maps)
+  coords:
+    x: 158572
+    y: 935493
+    crs: EPSG:28193
+    source: map
+    accuracy_m: 50
+  notes: Position read from the 1:20,000 iso-resistivity maps. File number not printed; taken as 224.
+- id: map-224-533
+  name: Sounding 224-533 (Southern Arava maps)
+  coords:
+    x: 159000
+    y: 935495
+    crs: EPSG:28193
+    source: map
+    accuracy_m: 50
+  notes: Position read from the 1:20,000 iso-resistivity maps. File number not printed; taken as 224.
+- id: map-224-534
+  name: Sounding 224-534 (Southern Arava maps)
+  coords:
+    x: 159283
+    y: 935486
+    crs: EPSG:28193
+    source: map
+    accuracy_m: 50
+  notes: Position read from the 1:20,000 iso-resistivity maps. File number not printed; taken as 224.
+- id: map-224-535
+  name: Sounding 224-535 (Southern Arava maps)
+  coords:
+    x: 158584
+    y: 935000
+    crs: EPSG:28193
+    source: map
+    accuracy_m: 50
+  notes: Position read from the 1:20,000 iso-resistivity maps. File number not printed; taken as 224.
+- id: map-224-536
+  name: Sounding 224-536 (Southern Arava maps)
+  coords:
+    x: 158513
+    y: 934503
+    crs: EPSG:28193
+    source: map
+    accuracy_m: 50
+  notes: Position read from the 1:20,000 iso-resistivity maps. File number not printed; taken as 224.
+- id: map-224-537
+  name: Sounding 224-537 (Southern Arava maps)
+  coords:
+    x: 158894
+    y: 934503
+    crs: EPSG:28193
+    source: map
+    accuracy_m: 50
+  notes: Position read from the 1:20,000 iso-resistivity maps. File number not printed; taken as 224.
+- id: map-224-538
+  name: Sounding 224-538 (Southern Arava maps)
+  coords:
+    x: 158705
+    y: 933541
+    crs: EPSG:28193
+    source: map
+    accuracy_m: 50
+  notes: Position read from the 1:20,000 iso-resistivity maps. File number not printed; taken as 224.
+- id: map-224-539
+  name: Sounding 224-539 (Southern Arava maps)
+  coords:
+    x: 157708
+    y: 932806
+    crs: EPSG:28193
+    source: map
+    accuracy_m: 50
+  notes: Position read from the 1:20,000 iso-resistivity maps. File number not printed; taken as 224.
+- id: map-224-642
+  name: Sounding 224-642 (Southern Arava maps)
+  coords:
+    x: 158602
+    y: 932609
+    crs: EPSG:28193
+    source: map
+    accuracy_m: 50
+  notes: Position read from the 1:20,000 iso-resistivity maps. File number not printed; taken as 224.
+- id: map-224-643
+  name: Sounding 224-643 (Southern Arava maps)
+  coords:
+    x: 159052
+    y: 932556
+    crs: EPSG:28193
+    source: map
+    accuracy_m: 50
+  notes: Position read from the 1:20,000 iso-resistivity maps. File number not printed; taken as 224.
+- id: map-224-644
+  name: Sounding 224-644 (Southern Arava maps)
+  coords:
+    x: 157703
+    y: 931509
+    crs: EPSG:28193
+    source: map
+    accuracy_m: 50
+  notes: Position read from the 1:20,000 iso-resistivity maps. File number not printed; taken as 224.
+- id: map-224-645
+  name: Sounding 224-645 (Southern Arava maps)
+  coords:
+    x: 158189
+    y: 931504
+    crs: EPSG:28193
+    source: map
+    accuracy_m: 50
+  notes: Position read from the 1:20,000 iso-resistivity maps. File number not printed; taken as 224.
+- id: map-224-646
+  name: Sounding 224-646 (Southern Arava maps)
+  coords:
+    x: 158496
+    y: 931500
+    crs: EPSG:28193
+    source: map
+    accuracy_m: 50
+  notes: Position read from the 1:20,000 iso-resistivity maps. File number not printed; taken as 224.
+- id: map-224-647
+  name: Sounding 224-647 (Southern Arava maps)
+  coords:
+    x: 158698
+    y: 931403
+    crs: EPSG:28193
+    source: map
+    accuracy_m: 50
+  notes: Position read from the 1:20,000 iso-resistivity maps. File number not printed; taken as 224.
+- id: map-224-648
+  name: Sounding 224-648 (Southern Arava maps)
+  coords:
+    x: 156749
+    y: 929004
+    crs: EPSG:28193
+    source: map
+    accuracy_m: 50
+  notes: Position read from the 1:20,000 iso-resistivity maps. File number not printed; taken as 224.
+- id: map-224-649
+  name: Sounding 224-649 (Southern Arava maps)
+  coords:
+    x: 157094
+    y: 928851
+    crs: EPSG:28193
+    source: map
+    accuracy_m: 50
+  notes: Position read from the 1:20,000 iso-resistivity maps. File number not printed; taken as 224.
+- id: map-224-650
+  name: Sounding 224-650 (Southern Arava maps)
+  coords:
+    x: 157503
+    y: 929001
+    crs: EPSG:28193
+    source: map
+    accuracy_m: 50
+  notes: Position read from the 1:20,000 iso-resistivity maps. File number not printed; taken as 224.
+- id: map-224-651
+  name: Sounding 224-651 (Southern Arava maps)
+  coords:
+    x: 157896
+    y: 929357
+    crs: EPSG:28193
+    source: map
+    accuracy_m: 50
+  notes: Position read from the 1:20,000 iso-resistivity maps. File number not printed; taken as 224.
+- id: map-224-652
+  name: Sounding 224-652 (Southern Arava maps)
+  coords:
+    x: 158404
+    y: 929158
+    crs: EPSG:28193
+    source: map
+    accuracy_m: 50
+  notes: Position read from the 1:20,000 iso-resistivity maps. File number not printed; taken as 224.
+- id: map-224-653
+  name: Sounding 224-653 (Southern Arava maps)
+  coords:
+    x: 156999
+    y: 926998
+    crs: EPSG:28193
+    source: map
+    accuracy_m: 50
+  notes: Position read from the 1:20,000 iso-resistivity maps. File number not printed; taken as 224.
+- id: map-224-654
+  name: Sounding 224-654 (Southern Arava maps)
+  coords:
+    x: 157502
+    y: 926999
+    crs: EPSG:28193
+    source: map
+    accuracy_m: 50
+  notes: Position read from the 1:20,000 iso-resistivity maps. File number not printed; taken as 224.
+- id: map-224-655
+  name: Sounding 224-655 (Southern Arava maps)
+  coords:
+    x: 155998
+    y: 926005
+    crs: EPSG:28193
+    source: map
+    accuracy_m: 50
+  notes: Position read from the 1:20,000 iso-resistivity maps. File number not printed; taken as 224.
+- id: map-224-656
+  name: Sounding 224-656 (Southern Arava maps)
+  coords:
+    x: 156491
+    y: 926007
+    crs: EPSG:28193
+    source: map
+    accuracy_m: 50
+  notes: Position read from the 1:20,000 iso-resistivity maps. File number not printed; taken as 224.
+- id: map-224-657
+  name: Sounding 224-657 (Southern Arava maps)
+  coords:
+    x: 156949
+    y: 925997
+    crs: EPSG:28193
+    source: map
+    accuracy_m: 50
+  notes: Position read from the 1:20,000 iso-resistivity maps. File number not printed; taken as 224.
+- id: map-224-658
+  name: Sounding 224-658 (Southern Arava maps)
+  coords:
+    x: 157250
+    y: 926001
+    crs: EPSG:28193
+    source: map
+    accuracy_m: 50
+  notes: Position read from the 1:20,000 iso-resistivity maps. File number not printed; taken as 224.
+- id: map-224-659
+  name: Sounding 224-659 (Southern Arava maps)
+  coords:
+    x: 157747
+    y: 926005
+    crs: EPSG:28193
+    source: map
+    accuracy_m: 50
+  notes: Position read from the 1:20,000 iso-resistivity maps. File number not printed; taken as 224.
+- id: map-224-660
+  name: Sounding 224-660 (Southern Arava maps)
+  coords:
+    x: 156006
+    y: 924452
+    crs: EPSG:28193
+    source: map
+    accuracy_m: 50
+  notes: Position read from the 1:20,000 iso-resistivity maps. File number not printed; taken as 224.
+- id: map-224-661
+  name: Sounding 224-661 (Southern Arava maps)
+  coords:
+    x: 156664
+    y: 924406
+    crs: EPSG:28193
+    source: map
+    accuracy_m: 50
+  notes: Position read from the 1:20,000 iso-resistivity maps. File number not printed; taken as 224.
+- id: map-224-662
+  name: Sounding 224-662 (Southern Arava maps)
+  coords:
+    x: 157004
+    y: 924396
+    crs: EPSG:28193
+    source: map
+    accuracy_m: 50
+  notes: Position read from the 1:20,000 iso-resistivity maps. File number not printed; taken as 224.
+- id: map-224-663
+  name: Sounding 224-663 (Southern Arava maps)
+  coords:
+    x: 157511
+    y: 924353
+    crs: EPSG:28193
+    source: map
+    accuracy_m: 50
+  notes: Position read from the 1:20,000 iso-resistivity maps. File number not printed; taken as 224.
+- id: map-224-664
+  name: Sounding 224-664 (Southern Arava maps)
+  coords:
+    x: 156207
+    y: 922753
+    crs: EPSG:28193
+    source: map
+    accuracy_m: 50
+  notes: Position read from the 1:20,000 iso-resistivity maps. File number not printed; taken as 224.
+- id: map-224-665
+  name: Sounding 224-665 (Southern Arava maps)
+  coords:
+    x: 156514
+    y: 922752
+    crs: EPSG:28193
+    source: map
+    accuracy_m: 50
+  notes: Position read from the 1:20,000 iso-resistivity maps. File number not printed; taken as 224.
+- id: map-224-666
+  name: Sounding 224-666 (Southern Arava maps)
+  coords:
+    x: 156916
+    y: 922808
+    crs: EPSG:28193
+    source: map
+    accuracy_m: 50
+  notes: Position read from the 1:20,000 iso-resistivity maps. File number not printed; taken as 224.
+- id: map-224-667
+  name: Sounding 224-667 (Southern Arava maps)
+  coords:
+    x: 157250
+    y: 922754
+    crs: EPSG:28193
+    source: map
+    accuracy_m: 50
+  notes: Position read from the 1:20,000 iso-resistivity maps. File number not printed; taken as 224.
+- id: map-224-668
+  name: Sounding 224-668 (Southern Arava maps)
+  coords:
+    x: 157705
+    y: 922747
+    crs: EPSG:28193
+    source: map
+    accuracy_m: 50
+  notes: Position read from the 1:20,000 iso-resistivity maps. File number not printed; taken as 224.
+- id: map-224-669
+  name: Sounding 224-669 (Southern Arava maps)
+  coords:
+    x: 158010
+    y: 922699
+    crs: EPSG:28193
+    source: map
+    accuracy_m: 50
+  notes: Position read from the 1:20,000 iso-resistivity maps. File number not printed; taken as 224.
+- id: map-224-670
+  name: Sounding 224-670 (Southern Arava maps)
+  coords:
+    x: 157157
+    y: 921745
+    crs: EPSG:28193
+    source: map
+    accuracy_m: 50
+  notes: Position read from the 1:20,000 iso-resistivity maps. File number not printed; taken as 224.
+- id: map-224-671
+  name: Sounding 224-671 (Southern Arava maps)
+  coords:
+    x: 157819
+    y: 921805
+    crs: EPSG:28193
+    source: map
+    accuracy_m: 50
+  notes: Position read from the 1:20,000 iso-resistivity maps. File number not printed; taken as 224.
+- id: map-224-672
+  name: Sounding 224-672 (Southern Arava maps)
+  coords:
+    x: 157209
+    y: 921096
+    crs: EPSG:28193
+    source: map
+    accuracy_m: 50
+  notes: Position read from the 1:20,000 iso-resistivity maps. File number not printed; taken as 224.
+- id: map-224-673
+  name: Sounding 224-673 (Southern Arava maps)
+  coords:
+    x: 157767
+    y: 921150
+    crs: EPSG:28193
+    source: map
+    accuracy_m: 50
+  notes: Position read from the 1:20,000 iso-resistivity maps. File number not printed; taken as 224.
+- id: map-224-674
+  name: Sounding 224-674 (Southern Arava maps)
+  coords:
+    x: 151356
+    y: 900551
+    crs: EPSG:28193
+    source: map
+    accuracy_m: 50
+  notes: Position read from the 1:20,000 iso-resistivity maps. File number not printed; taken as 224.
+- id: map-224-675
+  name: Sounding 224-675 (Southern Arava maps)
+  coords:
+    x: 151691
+    y: 900560
+    crs: EPSG:28193
+    source: map
+    accuracy_m: 50
+  notes: Position read from the 1:20,000 iso-resistivity maps. File number not printed; taken as 224.
+- id: map-224-676
+  name: Sounding 224-676 (Southern Arava maps)
+  coords:
+    x: 152004
+    y: 900553
+    crs: EPSG:28193
+    source: map
+    accuracy_m: 50
+  notes: Position read from the 1:20,000 iso-resistivity maps. File number not printed; taken as 224.
+- id: map-224-678
+  name: Sounding 224-678 (Southern Arava maps)
+  coords:
+    x: 152697
+    y: 899693
+    crs: EPSG:28193
+    source: map
+    accuracy_m: 50
+  notes: Position read from the 1:20,000 iso-resistivity maps. File number not printed; taken as 224.
+- id: map-224-680
+  name: Sounding 224-680 (Southern Arava maps)
+  coords:
+    x: 151246
+    y: 898995
+    crs: EPSG:28193
+    source: map
+    accuracy_m: 50
+  notes: Position read from the 1:20,000 iso-resistivity maps. File number not printed; taken as 224.
+- id: map-224-681
+  name: Sounding 224-681 (Southern Arava maps)
+  coords:
+    x: 151995
+    y: 898990
+    crs: EPSG:28193
+    source: map
+    accuracy_m: 50
+  notes: Position read from the 1:20,000 iso-resistivity maps. File number not printed; taken as 224.
+- id: map-224-683
+  name: Sounding 224-683 (Southern Arava maps)
+  coords:
+    x: 150452
+    y: 898242
+    crs: EPSG:28193
+    source: map
+    accuracy_m: 50
+  notes: Position read from the 1:20,000 iso-resistivity maps. File number not printed; taken as 224.
+- id: map-224-684
+  name: Sounding 224-684 (Southern Arava maps)
+  coords:
+    x: 151247
+    y: 898248
+    crs: EPSG:28193
+    source: map
+    accuracy_m: 50
+  notes: Position read from the 1:20,000 iso-resistivity maps. File number not printed; taken as 224.
+- id: map-224-685
+  name: Sounding 224-685 (Southern Arava maps)
+  coords:
+    x: 151751
+    y: 898240
+    crs: EPSG:28193
+    source: map
+    accuracy_m: 50
+  notes: Position read from the 1:20,000 iso-resistivity maps. File number not printed; taken as 224.
+- id: map-224-686
+  name: Sounding 224-686 (Southern Arava maps)
+  coords:
+    x: 151993
+    y: 898287
+    crs: EPSG:28193
+    source: map
+    accuracy_m: 50
+  notes: Position read from the 1:20,000 iso-resistivity maps. File number not printed; taken as 224.
+- id: map-224-688
+  name: Sounding 224-688 (Southern Arava maps)
+  coords:
+    x: 150701
+    y: 896595
+    crs: EPSG:28193
+    source: map
+    accuracy_m: 50
+  notes: Position read from the 1:20,000 iso-resistivity maps. File number not printed; taken as 224.
+- id: map-224-689
+  name: Sounding 224-689 (Southern Arava maps)
+  coords:
+    x: 151597
+    y: 895999
+    crs: EPSG:28193
+    source: map
+    accuracy_m: 50
+  notes: Position read from the 1:20,000 iso-resistivity maps. File number not printed; taken as 224.
+- id: map-250-11
+  name: Sounding 250-11 (Southern Arava maps)
+  coords:
+    x: 151093
+    y: 901300
+    crs: EPSG:28193
+    source: map
+    accuracy_m: 50
+  notes: Position read from the 1:20,000 iso-resistivity maps.
+- id: map-250-14
+  name: Sounding 250-14 (Southern Arava maps)
+  coords:
+    x: 147406
+    y: 902497
+    crs: EPSG:28193
+    source: map
+    accuracy_m: 50
+  notes: Position read from the 1:20,000 iso-resistivity maps.
+- id: map-250-15
+  name: Sounding 250-15 (Southern Arava maps)
+  coords:
+    x: 151193
+    y: 907004
+    crs: EPSG:28193
+    source: map
+    accuracy_m: 50
+  notes: Position read from the 1:20,000 iso-resistivity maps.
+- id: map-250-16
+  name: Sounding 250-16 (Southern Arava maps)
+  coords:
+    x: 151299
+    y: 910107
+    crs: EPSG:28193
+    source: map
+    accuracy_m: 50
+  notes: Position read from the 1:20,000 iso-resistivity maps.
+- id: map-250-17
+  name: Sounding 250-17 (Southern Arava maps)
+  coords:
+    x: 151602
+    y: 908220
+    crs: EPSG:28193
+    source: map
+    accuracy_m: 50
+  notes: Position read from the 1:20,000 iso-resistivity maps.
+- id: map-250-18
+  name: Sounding 250-18 (Southern Arava maps)
+  coords:
+    x: 154407
+    y: 921293
+    crs: EPSG:28193
+    source: map
+    accuracy_m: 50
+  notes: Position read from the 1:20,000 iso-resistivity maps.
+- id: map-250-23
+  name: Sounding 250-23 (Southern Arava maps)
+  coords:
+    x: 155794
+    y: 925400
+    crs: EPSG:28193
+    source: map
+    accuracy_m: 50
+  notes: Position read from the 1:20,000 iso-resistivity maps.
+- id: map-250-24
+  name: Sounding 250-24 (Southern Arava maps)
+  coords:
+    x: 155308
+    y: 923700
+    crs: EPSG:28193
+    source: map
+    accuracy_m: 50
+  notes: Position read from the 1:20,000 iso-resistivity maps.
+- id: map-250-26
+  name: Sounding 250-26 (Southern Arava maps)
+  coords:
+    x: 164202
+    y: 948794
+    crs: EPSG:28193
+    source: map
+    accuracy_m: 50
+  notes: Position read from the 1:20,000 iso-resistivity maps.
+- id: map-250-27
+  name: Sounding 250-27 (Southern Arava maps)
+  coords:
+    x: 164706
+    y: 949887
+    crs: EPSG:28193
+    source: map
+    accuracy_m: 50
+  notes: Position read from the 1:20,000 iso-resistivity maps.
+- id: map-250-4
+  name: Sounding 250-4 (Southern Arava maps)
+  coords:
+    x: 146915
+    y: 887010
+    crs: EPSG:28193
+    source: map
+    accuracy_m: 50
+  notes: Position read from the 1:20,000 iso-resistivity maps.
+- id: map-250-7
+  name: Sounding 250-7 (Southern Arava maps)
+  coords:
+    x: 147409
+    y: 887514
+    crs: EPSG:28193
+    source: map
+    accuracy_m: 50
+  notes: Position read from the 1:20,000 iso-resistivity maps.
+- id: map-250-9
+  name: Sounding 250-9 (Southern Arava maps)
+  coords:
+    x: 150898
+    y: 898293
+    crs: EPSG:28193
+    source: map
+    accuracy_m: 50
+  notes: Position read from the 1:20,000 iso-resistivity maps.
+- id: map-400-11
+  name: Sounding 400-11 (Southern Arava maps)
+  coords:
+    x: 151611
+    y: 903913
+    crs: EPSG:28193
+    source: map
+    accuracy_m: 50
+  notes: Position read from the 1:20,000 iso-resistivity maps.
+- id: map-400-21
+  name: Sounding 400-21 (Southern Arava maps)
+  coords:
+    x: 151495
+    y: 899890
+    crs: EPSG:28193
+    source: map
+    accuracy_m: 50
+  notes: Position read from the 1:20,000 iso-resistivity maps.
+- id: map-400-4
+  name: Sounding 400-4 (Southern Arava maps)
+  coords:
+    x: 151597
+    y: 898091
+    crs: EPSG:28193
+    source: map
+    accuracy_m: 50
+  notes: Position read from the 1:20,000 iso-resistivity maps.
+- id: map-450-9
+  name: Sounding 450-9 (Southern Arava maps)
+  coords:
+    x: 151608
+    y: 904709
+    crs: EPSG:28193
+    source: map
+    accuracy_m: 50
+  notes: Position read from the 1:20,000 iso-resistivity maps.
+- id: map-469-1
+  name: Sounding 469-1 (Southern Arava maps)
+  coords:
+    x: 151130
+    y: 908896
+    crs: EPSG:28193
+    source: map
+    accuracy_m: 50
+  notes: Position read from the 1:20,000 iso-resistivity maps.
+- id: map-469-10
+  name: Sounding 469-10 (Southern Arava maps)
+  coords:
+    x: 151238
+    y: 914113
+    crs: EPSG:28193
+    source: map
+    accuracy_m: 50
+  notes: Position read from the 1:20,000 iso-resistivity maps.
+- id: map-469-12
+  name: Sounding 469-12 (Southern Arava maps)
+  coords:
+    x: 150864
+    y: 908651
+    crs: EPSG:28193
+    source: map
+    accuracy_m: 50
+  notes: Position read from the 1:20,000 iso-resistivity maps.
+- id: map-469-13
+  name: Sounding 469-13 (Southern Arava maps)
+  coords:
+    x: 151360
+    y: 910306
+    crs: EPSG:28193
+    source: map
+    accuracy_m: 50
+  notes: Position read from the 1:20,000 iso-resistivity maps.
+- id: map-469-14
+  name: Sounding 469-14 (Southern Arava maps)
+  coords:
+    x: 152070
+    y: 910227
+    crs: EPSG:28193
+    source: map
+    accuracy_m: 50
+  notes: Position read from the 1:20,000 iso-resistivity maps.
+- id: map-469-15
+  name: Sounding 469-15 (Southern Arava maps)
+  coords:
+    x: 151900
+    y: 913004
+    crs: EPSG:28193
+    source: map
+    accuracy_m: 50
+  notes: Position read from the 1:20,000 iso-resistivity maps.
+- id: map-469-16
+  name: Sounding 469-16 (Southern Arava maps)
+  coords:
+    x: 152273
+    y: 918000
+    crs: EPSG:28193
+    source: map
+    accuracy_m: 50
+  notes: Position read from the 1:20,000 iso-resistivity maps.
+- id: map-469-17
+  name: Sounding 469-17 (Southern Arava maps)
+  coords:
+    x: 151899
+    y: 918998
+    crs: EPSG:28193
+    source: map
+    accuracy_m: 50
+  notes: Position read from the 1:20,000 iso-resistivity maps.
+- id: map-469-18
+  name: Sounding 469-18 (Southern Arava maps)
+  coords:
+    x: 151494
+    y: 916007
+    crs: EPSG:28193
+    source: map
+    accuracy_m: 50
+  notes: Position read from the 1:20,000 iso-resistivity maps.
+- id: map-469-19
+  name: Sounding 469-19 (Southern Arava maps)
+  coords:
+    x: 151094
+    y: 915013
+    crs: EPSG:28193
+    source: map
+    accuracy_m: 50
+  notes: Position read from the 1:20,000 iso-resistivity maps.
+- id: map-469-2
+  name: Sounding 469-2 (Southern Arava maps)
+  coords:
+    x: 151245
+    y: 908658
+    crs: EPSG:28193
+    source: map
+    accuracy_m: 50
+  notes: Position read from the 1:20,000 iso-resistivity maps.
+- id: map-469-20
+  name: Sounding 469-20 (Southern Arava maps)
+  coords:
+    x: 152756
+    y: 919001
+    crs: EPSG:28193
+    source: map
+    accuracy_m: 50
+  notes: Position read from the 1:20,000 iso-resistivity maps.
+- id: map-469-21A
+  name: Sounding 469-21A (Southern Arava maps)
+  coords:
+    x: 150497
+    y: 910301
+    crs: EPSG:28193
+    source: map
+    accuracy_m: 50
+  notes: Position read from the 1:20,000 iso-resistivity maps.
+- id: map-469-22
+  name: Sounding 469-22 (Southern Arava maps)
+  coords:
+    x: 153309
+    y: 919893
+    crs: EPSG:28193
+    source: map
+    accuracy_m: 50
+  notes: Position read from the 1:20,000 iso-resistivity maps.
+- id: map-469-23
+  name: Sounding 469-23 (Southern Arava maps)
+  coords:
+    x: 152454
+    y: 916004
+    crs: EPSG:28193
+    source: map
+    accuracy_m: 50
+  notes: Position read from the 1:20,000 iso-resistivity maps.
+- id: map-469-24
+  name: Sounding 469-24 (Southern Arava maps)
+  coords:
+    x: 152100
+    y: 915053
+    crs: EPSG:28193
+    source: map
+    accuracy_m: 50
+  notes: Position read from the 1:20,000 iso-resistivity maps.
+- id: map-469-25
+  name: Sounding 469-25 (Southern Arava maps)
+  coords:
+    x: 151651
+    y: 917997
+    crs: EPSG:28193
+    source: map
+    accuracy_m: 50
+  notes: Position read from the 1:20,000 iso-resistivity maps.
+- id: map-469-26
+  name: Sounding 469-26 (Southern Arava maps)
+  coords:
+    x: 151997
+    y: 918999
+    crs: EPSG:28193
+    source: map
+    accuracy_m: 50
+  notes: Position read from the 1:20,000 iso-resistivity maps.
+- id: map-469-27
+  name: Sounding 469-27 (Southern Arava maps)
+  coords:
+    x: 152451
+    y: 917004
+    crs: EPSG:28193
+    source: map
+    accuracy_m: 50
+  notes: Position read from the 1:20,000 iso-resistivity maps.
+- id: map-469-28
+  name: Sounding 469-28 (Southern Arava maps)
+  coords:
+    x: 148543
+    y: 906261
+    crs: EPSG:28193
+    source: map
+    accuracy_m: 50
+  notes: Position read from the 1:20,000 iso-resistivity maps.
+- id: map-469-29
+  name: Sounding 469-29 (Southern Arava maps)
+  coords:
+    x: 149813
+    y: 907255
+    crs: EPSG:28193
+    source: map
+    accuracy_m: 50
+  notes: Position read from the 1:20,000 iso-resistivity maps.
+- id: map-469-3
+  name: Sounding 469-3 (Southern Arava maps)
+  coords:
+    x: 152407
+    y: 908356
+    crs: EPSG:28193
+    source: map
+    accuracy_m: 50
+  notes: Position read from the 1:20,000 iso-resistivity maps.
+- id: map-469-30
+  name: Sounding 469-30 (Southern Arava maps)
+  coords:
+    x: 148548
+    y: 907155
+    crs: EPSG:28193
+    source: map
+    accuracy_m: 50
+  notes: Position read from the 1:20,000 iso-resistivity maps.
+- id: map-469-31
+  name: Sounding 469-31 (Southern Arava maps)
+  coords:
+    x: 149402
+    y: 906305
+    crs: EPSG:28193
+    source: map
+    accuracy_m: 50
+  notes: Position read from the 1:20,000 iso-resistivity maps.
+- id: map-469-32
+  name: Sounding 469-32 (Southern Arava maps)
+  coords:
+    x: 148545
+    y: 904351
+    crs: EPSG:28193
+    source: map
+    accuracy_m: 50
+  notes: Position read from the 1:20,000 iso-resistivity maps.
+- id: map-469-33
+  name: Sounding 469-33 (Southern Arava maps)
+  coords:
+    x: 148698
+    y: 902356
+    crs: EPSG:28193
+    source: map
+    accuracy_m: 50
+  notes: Position read from the 1:20,000 iso-resistivity maps.
+- id: map-469-34
+  name: Sounding 469-34 (Southern Arava maps)
+  coords:
+    x: 149992
+    y: 908205
+    crs: EPSG:28193
+    source: map
+    accuracy_m: 50
+  notes: Position read from the 1:20,000 iso-resistivity maps.
+- id: map-469-35
+  name: Sounding 469-35 (Southern Arava maps)
+  coords:
+    x: 156009
+    y: 915994
+    crs: EPSG:28193
+    source: map
+    accuracy_m: 50
+  notes: Position read from the 1:20,000 iso-resistivity maps.
+- id: map-469-4
+  name: Sounding 469-4 (Southern Arava maps)
+  coords:
+    x: 152843
+    y: 913902
+    crs: EPSG:28193
+    source: map
+    accuracy_m: 50
+  notes: Position read from the 1:20,000 iso-resistivity maps.
+- id: map-469-5
+  name: Sounding 469-5 (Southern Arava maps)
+  coords:
+    x: 151636
+    y: 914020
+    crs: EPSG:28193
+    source: map
+    accuracy_m: 50
+  notes: Position read from the 1:20,000 iso-resistivity maps.
+- id: map-469-7
+  name: Sounding 469-7 (Southern Arava maps)
+  coords:
+    x: 150645
+    y: 911710
+    crs: EPSG:28193
+    source: map
+    accuracy_m: 50
+  notes: Position read from the 1:20,000 iso-resistivity maps.
+- id: map-469-8
+  name: Sounding 469-8 (Southern Arava maps)
+  coords:
+    x: 151651
+    y: 911663
+    crs: EPSG:28193
+    source: map
+    accuracy_m: 50
+  notes: Position read from the 1:20,000 iso-resistivity maps.
+- id: map-469-9
+  name: Sounding 469-9 (Southern Arava maps)
+  coords:
+    x: 151056
+    y: 913149
+    crs: EPSG:28193
+    source: map
+    accuracy_m: 50
+  notes: Position read from the 1:20,000 iso-resistivity maps.
+- id: map-806-1
+  name: Sounding 806-1 (Southern Arava maps)
+  coords:
+    x: 152097
+    y: 905800
+    crs: EPSG:28193
+    source: map
+    accuracy_m: 50
+  notes: Position read from the 1:20,000 iso-resistivity maps.
+- id: map-806-10
+  name: Sounding 806-10 (Southern Arava maps)
+  coords:
+    x: 151599
+    y: 902295
+    crs: EPSG:28193
+    source: map
+    accuracy_m: 50
+  notes: Position read from the 1:20,000 iso-resistivity maps.
+- id: map-806-11
+  name: Sounding 806-11 (Southern Arava maps)
+  coords:
+    x: 151198
+    y: 908215
+    crs: EPSG:28193
+    source: map
+    accuracy_m: 50
+  notes: Position read from the 1:20,000 iso-resistivity maps.
+- id: map-806-12
+  name: Sounding 806-12 (Southern Arava maps)
+  coords:
+    x: 151088
+    y: 907203
+    crs: EPSG:28193
+    source: map
+    accuracy_m: 50
+  notes: Position read from the 1:20,000 iso-resistivity maps.
+- id: map-806-13
+  name: Sounding 806-13 (Southern Arava maps)
+  coords:
+    x: 151105
+    y: 906707
+    crs: EPSG:28193
+    source: map
+    accuracy_m: 50
+  notes: Position read from the 1:20,000 iso-resistivity maps.
+- id: map-806-14
+  name: Sounding 806-14 (Southern Arava maps)
+  coords:
+    x: 150996
+    y: 905701
+    crs: EPSG:28193
+    source: map
+    accuracy_m: 50
+  notes: Position read from the 1:20,000 iso-resistivity maps.
+- id: map-806-15
+  name: Sounding 806-15 (Southern Arava maps)
+  coords:
+    x: 151000
+    y: 905203
+    crs: EPSG:28193
+    source: map
+    accuracy_m: 50
+  notes: Position read from the 1:20,000 iso-resistivity maps.
+- id: map-806-16
+  name: Sounding 806-16 (Southern Arava maps)
+  coords:
+    x: 150596
+    y: 907511
+    crs: EPSG:28193
+    source: map
+    accuracy_m: 50
+  notes: Position read from the 1:20,000 iso-resistivity maps.
+- id: map-806-17
+  name: Sounding 806-17 (Southern Arava maps)
+  coords:
+    x: 149892
+    y: 907507
+    crs: EPSG:28193
+    source: map
+    accuracy_m: 50
+  notes: Position read from the 1:20,000 iso-resistivity maps.
+- id: map-806-18
+  name: Sounding 806-18 (Southern Arava maps)
+  coords:
+    x: 149899
+    y: 908603
+    crs: EPSG:28193
+    source: map
+    accuracy_m: 50
+  notes: Position read from the 1:20,000 iso-resistivity maps.
+- id: map-806-19
+  name: Sounding 806-19 (Southern Arava maps)
+  coords:
+    x: 150392
+    y: 906404
+    crs: EPSG:28193
+    source: map
+    accuracy_m: 50
+  notes: Position read from the 1:20,000 iso-resistivity maps.
+- id: map-806-2
+  name: Sounding 806-2 (Southern Arava maps)
+  coords:
+    x: 152202
+    y: 906203
+    crs: EPSG:28193
+    source: map
+    accuracy_m: 50
+  notes: Position read from the 1:20,000 iso-resistivity maps.
+- id: map-806-20
+  name: Sounding 806-20 (Southern Arava maps)
+  coords:
+    x: 149797
+    y: 906703
+    crs: EPSG:28193
+    source: map
+    accuracy_m: 50
+  notes: Position read from the 1:20,000 iso-resistivity maps.
+- id: map-806-21
+  name: Sounding 806-21 (Southern Arava maps)
+  coords:
+    x: 151105
+    y: 906896
+    crs: EPSG:28193
+    source: map
+    accuracy_m: 50
+  notes: Position read from the 1:20,000 iso-resistivity maps.
+- id: map-806-22
+  name: Sounding 806-22 (Southern Arava maps)
+  coords:
+    x: 149202
+    y: 907496
+    crs: EPSG:28193
+    source: map
+    accuracy_m: 50
+  notes: Position read from the 1:20,000 iso-resistivity maps.
+- id: map-806-23
+  name: Sounding 806-23 (Southern Arava maps)
+  coords:
+    x: 148392
+    y: 907406
+    crs: EPSG:28193
+    source: map
+    accuracy_m: 50
+  notes: Position read from the 1:20,000 iso-resistivity maps.
+- id: map-806-24
+  name: Sounding 806-24 (Southern Arava maps)
+  coords:
+    x: 148790
+    y: 909010
+    crs: EPSG:28193
+    source: map
+    accuracy_m: 50
+  notes: Position read from the 1:20,000 iso-resistivity maps.
+- id: map-806-25
+  name: Sounding 806-25 (Southern Arava maps)
+  coords:
+    x: 150701
+    y: 908809
+    crs: EPSG:28193
+    source: map
+    accuracy_m: 50
+  notes: Position read from the 1:20,000 iso-resistivity maps.
+- id: map-806-26
+  name: Sounding 806-26 (Southern Arava maps)
+  coords:
+    x: 151201
+    y: 909093
+    crs: EPSG:28193
+    source: map
+    accuracy_m: 50
+  notes: Position read from the 1:20,000 iso-resistivity maps.
+- id: map-806-27
+  name: Sounding 806-27 (Southern Arava maps)
+  coords:
+    x: 151501
+    y: 910203
+    crs: EPSG:28193
+    source: map
+    accuracy_m: 50
+  notes: Position read from the 1:20,000 iso-resistivity maps.
+- id: map-806-28
+  name: Sounding 806-28 (Southern Arava maps)
+  coords:
+    x: 151600
+    y: 911203
+    crs: EPSG:28193
+    source: map
+    accuracy_m: 50
+  notes: Position read from the 1:20,000 iso-resistivity maps.
+- id: map-806-29
+  name: Sounding 806-29 (Southern Arava maps)
+  coords:
+    x: 151903
+    y: 912105
+    crs: EPSG:28193
+    source: map
+    accuracy_m: 50
+  notes: Position read from the 1:20,000 iso-resistivity maps.
+- id: map-806-3
+  name: Sounding 806-3 (Southern Arava maps)
+  coords:
+    x: 152405
+    y: 906604
+    crs: EPSG:28193
+    source: map
+    accuracy_m: 50
+  notes: Position read from the 1:20,000 iso-resistivity maps.
+- id: map-806-30
+  name: Sounding 806-30 (Southern Arava maps)
+  coords:
+    x: 152200
+    y: 913097
+    crs: EPSG:28193
+    source: map
+    accuracy_m: 50
+  notes: Position read from the 1:20,000 iso-resistivity maps.
+- id: map-806-31
+  name: Sounding 806-31 (Southern Arava maps)
+  coords:
+    x: 152700
+    y: 914010
+    crs: EPSG:28193
+    source: map
+    accuracy_m: 50
+  notes: Position read from the 1:20,000 iso-resistivity maps.
+- id: map-806-32
+  name: Sounding 806-32 (Southern Arava maps)
+  coords:
+    x: 152906
+    y: 915004
+    crs: EPSG:28193
+    source: map
+    accuracy_m: 50
+  notes: Position read from the 1:20,000 iso-resistivity maps.
+- id: map-806-33
+  name: Sounding 806-33 (Southern Arava maps)
+  coords:
+    x: 151998
+    y: 904303
+    crs: EPSG:28193
+    source: map
+    accuracy_m: 50
+  notes: Position read from the 1:20,000 iso-resistivity maps.
+- id: map-806-34
+  name: Sounding 806-34 (Southern Arava maps)
+  coords:
+    x: 153003
+    y: 904500
+    crs: EPSG:28193
+    source: map
+    accuracy_m: 50
+  notes: Position read from the 1:20,000 iso-resistivity maps.
+- id: map-806-35
+  name: Sounding 806-35 (Southern Arava maps)
+  coords:
+    x: 152006
+    y: 908803
+    crs: EPSG:28193
+    source: map
+    accuracy_m: 50
+  notes: Position read from the 1:20,000 iso-resistivity maps.
+- id: map-806-36
+  name: Sounding 806-36 (Southern Arava maps)
+  coords:
+    x: 151813
+    y: 907603
+    crs: EPSG:28193
+    source: map
+    accuracy_m: 50
+  notes: Position read from the 1:20,000 iso-resistivity maps.
+- id: map-806-37
+  name: Sounding 806-37 (Southern Arava maps)
+  coords:
+    x: 152311
+    y: 907615
+    crs: EPSG:28193
+    source: map
+    accuracy_m: 50
+  notes: Position read from the 1:20,000 iso-resistivity maps.
+- id: map-806-38
+  name: Sounding 806-38 (Southern Arava maps)
+  coords:
+    x: 151500
+    y: 906804
+    crs: EPSG:28193
+    source: map
+    accuracy_m: 50
+  notes: Position read from the 1:20,000 iso-resistivity maps.
+- id: map-806-39
+  name: Sounding 806-39 (Southern Arava maps)
+  coords:
+    x: 152001
+    y: 906811
+    crs: EPSG:28193
+    source: map
+    accuracy_m: 50
+  notes: Position read from the 1:20,000 iso-resistivity maps.
+- id: map-806-4
+  name: Sounding 806-4 (Southern Arava maps)
+  coords:
+    x: 152598
+    y: 907015
+    crs: EPSG:28193
+    source: map
+    accuracy_m: 50
+  notes: Position read from the 1:20,000 iso-resistivity maps.
+- id: map-806-40
+  name: Sounding 806-40 (Southern Arava maps)
+  coords:
+    x: 151596
+    y: 906211
+    crs: EPSG:28193
+    source: map
+    accuracy_m: 50
+  notes: Position read from the 1:20,000 iso-resistivity maps.
+- id: map-806-41
+  name: Sounding 806-41 (Southern Arava maps)
+  coords:
+    x: 151391
+    y: 905704
+    crs: EPSG:28193
+    source: map
+    accuracy_m: 50
+  notes: Position read from the 1:20,000 iso-resistivity maps.
+- id: map-806-42
+  name: Sounding 806-42 (Southern Arava maps)
+  coords:
+    x: 150600
+    y: 906203
+    crs: EPSG:28193
+    source: map
+    accuracy_m: 50
+  notes: Position read from the 1:20,000 iso-resistivity maps.
+- id: map-806-43
+  name: Sounding 806-43 (Southern Arava maps)
+  coords:
+    x: 150106
+    y: 906205
+    crs: EPSG:28193
+    source: map
+    accuracy_m: 50
+  notes: Position read from the 1:20,000 iso-resistivity maps.
+- id: map-806-44
+  name: Sounding 806-44 (Southern Arava maps)
+  coords:
+    x: 149601
+    y: 906208
+    crs: EPSG:28193
+    source: map
+    accuracy_m: 50
+  notes: Position read from the 1:20,000 iso-resistivity maps.
+- id: map-806-45
+  name: Sounding 806-45 (Southern Arava maps)
+  coords:
+    x: 149299
+    y: 906707
+    crs: EPSG:28193
+    source: map
+    accuracy_m: 50
+  notes: Position read from the 1:20,000 iso-resistivity maps.
+- id: map-806-46
+  name: Sounding 806-46 (Southern Arava maps)
+  coords:
+    x: 150106
+    y: 905705
+    crs: EPSG:28193
+    source: map
+    accuracy_m: 50
+  notes: Position read from the 1:20,000 iso-resistivity maps.
+- id: map-806-47
+  name: Sounding 806-47 (Southern Arava maps)
+  coords:
+    x: 150496
+    y: 905191
+    crs: EPSG:28193
+    source: map
+    accuracy_m: 50
+  notes: Position read from the 1:20,000 iso-resistivity maps.
+- id: map-806-48
+  name: Sounding 806-48 (Southern Arava maps)
+  coords:
+    x: 149990
+    y: 905202
+    crs: EPSG:28193
+    source: map
+    accuracy_m: 50
+  notes: Position read from the 1:20,000 iso-resistivity maps.
+- id: map-806-49
+  name: Sounding 806-49 (Southern Arava maps)
+  coords:
+    x: 149505
+    y: 905204
+    crs: EPSG:28193
+    source: map
+    accuracy_m: 50
+  notes: Position read from the 1:20,000 iso-resistivity maps.
+- id: map-806-4A
+  name: Sounding 806-4A (Southern Arava maps)
+  coords:
+    x: 150999
+    y: 905699
+    crs: EPSG:28193
+    source: map
+    accuracy_m: 50
+  notes: Position read from the 1:20,000 iso-resistivity maps.
+- id: map-806-5
+  name: Sounding 806-5 (Southern Arava maps)
+  coords:
+    x: 152697
+    y: 907513
+    crs: EPSG:28193
+    source: map
+    accuracy_m: 50
+  notes: Position read from the 1:20,000 iso-resistivity maps.
+- id: map-806-50
+  name: Sounding 806-50 (Southern Arava maps)
+  coords:
+    x: 149995
+    y: 904697
+    crs: EPSG:28193
+    source: map
+    accuracy_m: 50
+  notes: Position read from the 1:20,000 iso-resistivity maps.
+- id: map-806-51
+  name: Sounding 806-51 (Southern Arava maps)
+  coords:
+    x: 151092
+    y: 904700
+    crs: EPSG:28193
+    source: map
+    accuracy_m: 50
+  notes: Position read from the 1:20,000 iso-resistivity maps.
+- id: map-806-52
+  name: Sounding 806-52 (Southern Arava maps)
+  coords:
+    x: 151201
+    y: 904209
+    crs: EPSG:28193
+    source: map
+    accuracy_m: 50
+  notes: Position read from the 1:20,000 iso-resistivity maps.
+- id: map-806-53
+  name: Sounding 806-53 (Southern Arava maps)
+  coords:
+    x: 150700
+    y: 904201
+    crs: EPSG:28193
+    source: map
+    accuracy_m: 50
+  notes: Position read from the 1:20,000 iso-resistivity maps.
+- id: map-806-54
+  name: Sounding 806-54 (Southern Arava maps)
+  coords:
+    x: 150194
+    y: 904204
+    crs: EPSG:28193
+    source: map
+    accuracy_m: 50
+  notes: Position read from the 1:20,000 iso-resistivity maps.
+- id: map-806-55
+  name: Sounding 806-55 (Southern Arava maps)
+  coords:
+    x: 149700
+    y: 904193
+    crs: EPSG:28193
+    source: map
+    accuracy_m: 50
+  notes: Position read from the 1:20,000 iso-resistivity maps.
+- id: map-806-56
+  name: Sounding 806-56 (Southern Arava maps)
+  coords:
+    x: 149109
+    y: 904206
+    crs: EPSG:28193
+    source: map
+    accuracy_m: 50
+  notes: Position read from the 1:20,000 iso-resistivity maps.
+- id: map-806-57
+  name: Sounding 806-57 (Southern Arava maps)
+  coords:
+    x: 150596
+    y: 903204
+    crs: EPSG:28193
+    source: map
+    accuracy_m: 50
+  notes: Position read from the 1:20,000 iso-resistivity maps.
+- id: map-806-58
+  name: Sounding 806-58 (Southern Arava maps)
+  coords:
+    x: 149800
+    y: 903199
+    crs: EPSG:28193
+    source: map
+    accuracy_m: 50
+  notes: Position read from the 1:20,000 iso-resistivity maps.
+- id: map-806-59
+  name: Sounding 806-59 (Southern Arava maps)
+  coords:
+    x: 150494
+    y: 911212
+    crs: EPSG:28193
+    source: map
+    accuracy_m: 50
+  notes: Position read from the 1:20,000 iso-resistivity maps.
+- id: map-806-6
+  name: Sounding 806-6 (Southern Arava maps)
+  coords:
+    x: 152796
+    y: 907921
+    crs: EPSG:28193
+    source: map
+    accuracy_m: 50
+  notes: Position read from the 1:20,000 iso-resistivity maps.
+- id: map-806-60
+  name: Sounding 806-60 (Southern Arava maps)
+  coords:
+    x: 152600
+    y: 911205
+    crs: EPSG:28193
+    source: map
+    accuracy_m: 50
+  notes: Position read from the 1:20,000 iso-resistivity maps.
+- id: map-806-61
+  name: Sounding 806-61 (Southern Arava maps)
+  coords:
+    x: 149994
+    y: 911809
+    crs: EPSG:28193
+    source: map
+    accuracy_m: 50
+  notes: Position read from the 1:20,000 iso-resistivity maps.
+- id: map-806-62
+  name: Sounding 806-62 (Southern Arava maps)
+  coords:
+    x: 150994
+    y: 912004
+    crs: EPSG:28193
+    source: map
+    accuracy_m: 50
+  notes: Position read from the 1:20,000 iso-resistivity maps.
+- id: map-806-63
+  name: Sounding 806-63 (Southern Arava maps)
+  coords:
+    x: 152900
+    y: 912298
+    crs: EPSG:28193
+    source: map
+    accuracy_m: 50
+  notes: Position read from the 1:20,000 iso-resistivity maps.
+- id: map-806-64
+  name: Sounding 806-64 (Southern Arava maps)
+  coords:
+    x: 154100
+    y: 912508
+    crs: EPSG:28193
+    source: map
+    accuracy_m: 50
+  notes: Position read from the 1:20,000 iso-resistivity maps.
+- id: map-806-65
+  name: Sounding 806-65 (Southern Arava maps)
+  coords:
+    x: 151299
+    y: 913091
+    crs: EPSG:28193
+    source: map
+    accuracy_m: 50
+  notes: Position read from the 1:20,000 iso-resistivity maps.
+- id: map-806-66
+  name: Sounding 806-66 (Southern Arava maps)
+  coords:
+    x: 150693
+    y: 914012
+    crs: EPSG:28193
+    source: map
+    accuracy_m: 50
+  notes: Position read from the 1:20,000 iso-resistivity maps.
+- id: map-806-67
+  name: Sounding 806-67 (Southern Arava maps)
+  coords:
+    x: 151702
+    y: 914008
+    crs: EPSG:28193
+    source: map
+    accuracy_m: 50
+  notes: Position read from the 1:20,000 iso-resistivity maps.
+- id: map-806-68
+  name: Sounding 806-68 (Southern Arava maps)
+  coords:
+    x: 153498
+    y: 914009
+    crs: EPSG:28193
+    source: map
+    accuracy_m: 50
+  notes: Position read from the 1:20,000 iso-resistivity maps.
+- id: map-806-7
+  name: Sounding 806-7 (Southern Arava maps)
+  coords:
+    x: 151199
+    y: 906216
+    crs: EPSG:28193
+    source: map
+    accuracy_m: 50
+  notes: Position read from the 1:20,000 iso-resistivity maps.
+- id: map-806-8
+  name: Sounding 806-8 (Southern Arava maps)
+  coords:
+    x: 151296
+    y: 907499
+    crs: EPSG:28193
+    source: map
+    accuracy_m: 50
+  notes: Position read from the 1:20,000 iso-resistivity maps.
+- id: map-806-9
+  name: Sounding 806-9 (Southern Arava maps)
+  coords:
+    x: 151501
+    y: 909001
+    crs: EPSG:28193
+    source: map
+    accuracy_m: 50
+  notes: Position read from the 1:20,000 iso-resistivity maps.
+- id: map-807-1
+  name: Sounding 807-1 (Southern Arava maps)
+  coords:
+    x: 148613
+    y: 893507
+    crs: EPSG:28193
+    source: map
+    accuracy_m: 50
+  notes: Position read from the 1:20,000 iso-resistivity maps.
+- id: map-807-10
+  name: Sounding 807-10 (Southern Arava maps)
+  coords:
+    x: 145920
+    y: 888517
+    crs: EPSG:28193
+    source: map
+    accuracy_m: 50
+  notes: Position read from the 1:20,000 iso-resistivity maps.
+- id: map-807-11
+  name: Sounding 807-11 (Southern Arava maps)
+  coords:
+    x: 144922
+    y: 888817
+    crs: EPSG:28193
+    source: map
+    accuracy_m: 50
+  notes: Position read from the 1:20,000 iso-resistivity maps.
+- id: map-807-12
+  name: Sounding 807-12 (Southern Arava maps)
+  coords:
+    x: 147815
+    y: 890210
+    crs: EPSG:28193
+    source: map
+    accuracy_m: 50
+  notes: Position read from the 1:20,000 iso-resistivity maps.
+- id: map-807-13
+  name: Sounding 807-13 (Southern Arava maps)
+  coords:
+    x: 147118
+    y: 890305
+    crs: EPSG:28193
+    source: map
+    accuracy_m: 50
+  notes: Position read from the 1:20,000 iso-resistivity maps.
+- id: map-807-14
+  name: Sounding 807-14 (Southern Arava maps)
+  coords:
+    x: 146423
+    y: 890305
+    crs: EPSG:28193
+    source: map
+    accuracy_m: 50
+  notes: Position read from the 1:20,000 iso-resistivity maps.
+- id: map-807-15
+  name: Sounding 807-15 (Southern Arava maps)
+  coords:
+    x: 146020
+    y: 889013
+    crs: EPSG:28193
+    source: map
+    accuracy_m: 50
+  notes: Position read from the 1:20,000 iso-resistivity maps.
+- id: map-807-16
+  name: Sounding 807-16 (Southern Arava maps)
+  coords:
+    x: 146418
+    y: 889611
+    crs: EPSG:28193
+    source: map
+    accuracy_m: 50
+  notes: Position read from the 1:20,000 iso-resistivity maps.
+- id: map-807-17
+  name: Sounding 807-17 (Southern Arava maps)
+  coords:
+    x: 146916
+    y: 890902
+    crs: EPSG:28193
+    source: map
+    accuracy_m: 50
+  notes: Position read from the 1:20,000 iso-resistivity maps.
+- id: map-807-18
+  name: Sounding 807-18 (Southern Arava maps)
+  coords:
+    x: 147812
+    y: 892207
+    crs: EPSG:28193
+    source: map
+    accuracy_m: 50
+  notes: Position read from the 1:20,000 iso-resistivity maps.
+- id: map-807-19
+  name: Sounding 807-19 (Southern Arava maps)
+  coords:
+    x: 147304
+    y: 892802
+    crs: EPSG:28193
+    source: map
+    accuracy_m: 50
+  notes: Position read from the 1:20,000 iso-resistivity maps.
+- id: map-807-2
+  name: Sounding 807-2 (Southern Arava maps)
+  coords:
+    x: 148010
+    y: 893300
+    crs: EPSG:28193
+    source: map
+    accuracy_m: 50
+  notes: Position read from the 1:20,000 iso-resistivity maps.
+- id: map-807-3
+  name: Sounding 807-3 (Southern Arava maps)
+  coords:
+    x: 147310
+    y: 893608
+    crs: EPSG:28193
+    source: map
+    accuracy_m: 50
+  notes: Position read from the 1:20,000 iso-resistivity maps.
+- id: map-807-4
+  name: Sounding 807-4 (Southern Arava maps)
+  coords:
+    x: 146313
+    y: 893708
+    crs: EPSG:28193
+    source: map
+    accuracy_m: 50
+  notes: Position read from the 1:20,000 iso-resistivity maps.
+- id: map-807-5
+  name: Sounding 807-5 (Southern Arava maps)
+  coords:
+    x: 147907
+    y: 890910
+    crs: EPSG:28193
+    source: map
+    accuracy_m: 50
+  notes: Position read from the 1:20,000 iso-resistivity maps.
+- id: map-807-6
+  name: Sounding 807-6 (Southern Arava maps)
+  coords:
+    x: 147403
+    y: 891503
+    crs: EPSG:28193
+    source: map
+    accuracy_m: 50
+  notes: Position read from the 1:20,000 iso-resistivity maps.
+- id: map-807-7
+  name: Sounding 807-7 (Southern Arava maps)
+  coords:
+    x: 146712
+    y: 891904
+    crs: EPSG:28193
+    source: map
+    accuracy_m: 50
+  notes: Position read from the 1:20,000 iso-resistivity maps.
+- id: map-807-8
+  name: Sounding 807-8 (Southern Arava maps)
+  coords:
+    x: 145915
+    y: 892201
+    crs: EPSG:28193
+    source: map
+    accuracy_m: 50
+  notes: Position read from the 1:20,000 iso-resistivity maps.
+- id: map-807-9
+  name: Sounding 807-9 (Southern Arava maps)
+  coords:
+    x: 146512
+    y: 888017
+    crs: EPSG:28193
+    source: map
+    accuracy_m: 50
+  notes: Position read from the 1:20,000 iso-resistivity maps.
+- id: map-844-1
+  name: Sounding 844-1 (Southern Arava maps)
+  coords:
+    x: 153996
+    y: 911007
+    crs: EPSG:28193
+    source: map
+    accuracy_m: 50
+  notes: Position read from the 1:20,000 iso-resistivity maps.
+- id: map-844-10
+  name: Sounding 844-10 (Southern Arava maps)
+  coords:
+    x: 154000
+    y: 914110
+    crs: EPSG:28193
+    source: map
+    accuracy_m: 50
+  notes: Position read from the 1:20,000 iso-resistivity maps.
+- id: map-844-11
+  name: Sounding 844-11 (Southern Arava maps)
+  coords:
+    x: 151747
+    y: 911554
+    crs: EPSG:28193
+    source: map
+    accuracy_m: 50
+  notes: Position read from the 1:20,000 iso-resistivity maps.
+- id: map-844-12
+  name: Sounding 844-12 (Southern Arava maps)
+  coords:
+    x: 151994
+    y: 914258
+    crs: EPSG:28193
+    source: map
+    accuracy_m: 50
+  notes: Position read from the 1:20,000 iso-resistivity maps.
+- id: map-844-13
+  name: Sounding 844-13 (Southern Arava maps)
+  coords:
+    x: 153493
+    y: 915002
+    crs: EPSG:28193
+    source: map
+    accuracy_m: 50
+  notes: Position read from the 1:20,000 iso-resistivity maps.
+- id: map-844-14
+  name: Sounding 844-14 (Southern Arava maps)
+  coords:
+    x: 154498
+    y: 914996
+    crs: EPSG:28193
+    source: map
+    accuracy_m: 50
+  notes: Position read from the 1:20,000 iso-resistivity maps.
+- id: map-844-15
+  name: Sounding 844-15 (Southern Arava maps)
+  coords:
+    x: 154999
+    y: 915003
+    crs: EPSG:28193
+    source: map
+    accuracy_m: 50
+  notes: Position read from the 1:20,000 iso-resistivity maps.
+- id: map-844-16
+  name: Sounding 844-16 (Southern Arava maps)
+  coords:
+    x: 151212
+    y: 912138
+    crs: EPSG:28193
+    source: map
+    accuracy_m: 50
+  notes: Position read from the 1:20,000 iso-resistivity maps.
+- id: map-844-2
+  name: Sounding 844-2 (Southern Arava maps)
+  coords:
+    x: 153001
+    y: 911004
+    crs: EPSG:28193
+    source: map
+    accuracy_m: 50
+  notes: Position read from the 1:20,000 iso-resistivity maps.
+- id: map-844-3
+  name: Sounding 844-3 (Southern Arava maps)
+  coords:
+    x: 152004
+    y: 911002
+    crs: EPSG:28193
+    source: map
+    accuracy_m: 50
+  notes: Position read from the 1:20,000 iso-resistivity maps.
+- id: map-844-4
+  name: Sounding 844-4 (Southern Arava maps)
+  coords:
+    x: 152996
+    y: 912005
+    crs: EPSG:28193
+    source: map
+    accuracy_m: 50
+  notes: Position read from the 1:20,000 iso-resistivity maps.
+- id: map-844-5
+  name: Sounding 844-5 (Southern Arava maps)
+  coords:
+    x: 153998
+    y: 912004
+    crs: EPSG:28193
+    source: map
+    accuracy_m: 50
+  notes: Position read from the 1:20,000 iso-resistivity maps.
+- id: map-844-6
+  name: Sounding 844-6 (Southern Arava maps)
+  coords:
+    x: 154396
+    y: 913149
+    crs: EPSG:28193
+    source: map
+    accuracy_m: 50
+  notes: Position read from the 1:20,000 iso-resistivity maps.
+- id: map-844-7
+  name: Sounding 844-7 (Southern Arava maps)
+  coords:
+    x: 152994
+    y: 912998
+    crs: EPSG:28193
+    source: map
+    accuracy_m: 50
+  notes: Position read from the 1:20,000 iso-resistivity maps.
+- id: map-844-8
+  name: Sounding 844-8 (Southern Arava maps)
+  coords:
+    x: 151898
+    y: 913148
+    crs: EPSG:28193
+    source: map
+    accuracy_m: 50
+  notes: Position read from the 1:20,000 iso-resistivity maps.
+- id: map-844-9
+  name: Sounding 844-9 (Southern Arava maps)
+  coords:
+    x: 152796
+    y: 914008
+    crs: EPSG:28193
+    source: map
+    accuracy_m: 50
+  notes: Position read from the 1:20,000 iso-resistivity maps.
