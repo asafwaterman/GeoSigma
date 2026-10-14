@@ -2300,4 +2300,8 @@ acquisition:
   inversion: Zonge SCS2D smooth-model 1D, TM mode
   crs_note: App. B coordinates labelled 'NID TM' = Israeli TM Grid
 extraction_status: partial
-notes: Raw and model data were on a report archive disk that is not available. Models digitised from App. C plots.
+notes: "Raw and model data were on a report archive disk that is not available. Models digitised from App. C plots.
+  App. D shows the same SCS2D constrained models as contoured sections (lines B2 and E2-5 left out for poor fit),
+  so it adds no new values and is not digitised. The 15 transmitter dipoles of App. B Table 1 are in
+  extraction/appB_transmitters.json. App. C also plots the measured Cagniard resistivity per station (L1), not yet
+  digitised."

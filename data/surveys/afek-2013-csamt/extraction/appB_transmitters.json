@@ -1,0 +1,503 @@
+{
+ "source": "Appendix B, Table 1 (pages 2-3)",
+ "crs": "EPSG:2039",
+ "note": "Transmitter dipole centres, one row per receiver line; several lines share a transmitter.",
+ "transmitters": [
+  {
+   "line": "A1",
+   "tx_center_x": 263401,
+   "tx_center_y": 745100,
+   "length_m": 1500,
+   "azimuth_deg": 167,
+   "type": "CSAMT In-line"
+  },
+  {
+   "line": "A2",
+   "tx_center_x": 263401,
+   "tx_center_y": 745100,
+   "length_m": 1500,
+   "azimuth_deg": 167,
+   "type": "CSAMT In-line"
+  },
+  {
+   "line": "A3",
+   "tx_center_x": 263401,
+   "tx_center_y": 745100,
+   "length_m": 1500,
+   "azimuth_deg": 167,
+   "type": "CSAMT In-line"
+  },
+  {
+   "line": "A4",
+   "tx_center_x": 263401,
+   "tx_center_y": 745100,
+   "length_m": 1500,
+   "azimuth_deg": 167,
+   "type": "CSAMT In-line"
+  },
+  {
+   "line": "B1",
+   "tx_center_x": 269096,
+   "tx_center_y": 743324,
+   "length_m": 1152,
+   "azimuth_deg": 70,
+   "type": "CSAMT In-line"
+  },
+  {
+   "line": "B2",
+   "tx_center_x": 269096,
+   "tx_center_y": 743324,
+   "length_m": 1152,
+   "azimuth_deg": 70,
+   "type": "CSAMT In-line"
+  },
+  {
+   "line": "B3",
+   "tx_center_x": 269096,
+   "tx_center_y": 743324,
+   "length_m": 1152,
+   "azimuth_deg": 70,
+   "type": "CSAMT In-line"
+  },
+  {
+   "line": "C2-1",
+   "tx_center_x": 275349,
+   "tx_center_y": 752327,
+   "length_m": 1474,
+   "azimuth_deg": 46,
+   "type": "CSAMT In-line"
+  },
+  {
+   "line": "C2-2",
+   "tx_center_x": 275349,
+   "tx_center_y": 752327,
+   "length_m": 1474,
+   "azimuth_deg": 46,
+   "type": "CSAMT In-line"
+  },
+  {
+   "line": "C2-3",
+   "tx_center_x": 275349,
+   "tx_center_y": 752327,
+   "length_m": 1474,
+   "azimuth_deg": 46,
+   "type": "CSAMT In-line"
+  },
+  {
+   "line": "C2-4",
+   "tx_center_x": 275349,
+   "tx_center_y": 752327,
+   "length_m": 1474,
+   "azimuth_deg": 46,
+   "type": "CSAMT In-line"
+  },
+  {
+   "line": "C2-5",
+   "tx_center_x": 275349,
+   "tx_center_y": 752327,
+   "length_m": 1474,
+   "azimuth_deg": 46,
+   "type": "CSAMT In-line"
+  },
+  {
+   "line": "C2-6",
+   "tx_center_x": 275349,
+   "tx_center_y": 752327,
+   "length_m": 1474,
+   "azimuth_deg": 46,
+   "type": "CSAMT In-line"
+  },
+  {
+   "line": "C3-7",
+   "tx_center_x": 275173,
+   "tx_center_y": 752227,
+   "length_m": 1500,
+   "azimuth_deg": 135,
+   "type": "CSAMT In-line"
+  },
+  {
+   "line": "C3-8",
+   "tx_center_x": 275173,
+   "tx_center_y": 752227,
+   "length_m": 1500,
+   "azimuth_deg": 135,
+   "type": "CSAMT In-line"
+  },
+  {
+   "line": "C3-9",
+   "tx_center_x": 275173,
+   "tx_center_y": 752227,
+   "length_m": 1500,
+   "azimuth_deg": 135,
+   "type": "CSAMT In-line"
+  },
+  {
+   "line": "D1",
+   "tx_center_x": 268267,
+   "tx_center_y": 746605,
+   "length_m": 1488,
+   "azimuth_deg": 89,
+   "type": "CSAMT In-line"
+  },
+  {
+   "line": "D2",
+   "tx_center_x": 268267,
+   "tx_center_y": 746605,
+   "length_m": 1488,
+   "azimuth_deg": 89,
+   "type": "CSAMT In-line"
+  },
+  {
+   "line": "D3",
+   "tx_center_x": 268267,
+   "tx_center_y": 746605,
+   "length_m": 1488,
+   "azimuth_deg": 89,
+   "type": "CSAMT In-line"
+  },
+  {
+   "line": "D4",
+   "tx_center_x": 268267,
+   "tx_center_y": 746605,
+   "length_m": 1488,
+   "azimuth_deg": 89,
+   "type": "CSAMT In-line"
+  },
+  {
+   "line": "E1N-5",
+   "tx_center_x": 270615,
+   "tx_center_y": 749891,
+   "length_m": 836,
+   "azimuth_deg": 0,
+   "type": "CSAMT In-line"
+  },
+  {
+   "line": "E1N-6",
+   "tx_center_x": 270615,
+   "tx_center_y": 749891,
+   "length_m": 836,
+   "azimuth_deg": 0,
+   "type": "CSAMT In-line"
+  },
+  {
+   "line": "E1N-7",
+   "tx_center_x": 270615,
+   "tx_center_y": 749891,
+   "length_m": 836,
+   "azimuth_deg": 0,
+   "type": "CSAMT In-line"
+  },
+  {
+   "line": "E1N-8",
+   "tx_center_x": 270615,
+   "tx_center_y": 749891,
+   "length_m": 836,
+   "azimuth_deg": 0,
+   "type": "CSAMT In-line"
+  },
+  {
+   "line": "E1S-1",
+   "tx_center_x": 270615,
+   "tx_center_y": 749891,
+   "length_m": 836,
+   "azimuth_deg": 0,
+   "type": "CSAMT In-line"
+  },
+  {
+   "line": "E1S-2",
+   "tx_center_x": 270615,
+   "tx_center_y": 749891,
+   "length_m": 836,
+   "azimuth_deg": 0,
+   "type": "CSAMT In-line"
+  },
+  {
+   "line": "E1S-3",
+   "tx_center_x": 270615,
+   "tx_center_y": 749891,
+   "length_m": 836,
+   "azimuth_deg": 0,
+   "type": "CSAMT In-line"
+  },
+  {
+   "line": "E1S-4",
+   "tx_center_x": 270615,
+   "tx_center_y": 749891,
+   "length_m": 836,
+   "azimuth_deg": 0,
+   "type": "CSAMT In-line"
+  },
+  {
+   "line": "E2-1",
+   "tx_center_x": 270750,
+   "tx_center_y": 749995,
+   "length_m": 1499,
+   "azimuth_deg": 78,
+   "type": "CSAMT In-line"
+  },
+  {
+   "line": "E2-2",
+   "tx_center_x": 270750,
+   "tx_center_y": 749995,
+   "length_m": 1499,
+   "azimuth_deg": 78,
+   "type": "CSAMT In-line"
+  },
+  {
+   "line": "E2-3",
+   "tx_center_x": 270750,
+   "tx_center_y": 749995,
+   "length_m": 1499,
+   "azimuth_deg": 78,
+   "type": "CSAMT In-line"
+  },
+  {
+   "line": "E2-4",
+   "tx_center_x": 270750,
+   "tx_center_y": 749995,
+   "length_m": 1499,
+   "azimuth_deg": 78,
+   "type": "CSAMT In-line"
+  },
+  {
+   "line": "E2-5",
+   "tx_center_x": 270750,
+   "tx_center_y": 749995,
+   "length_m": 1499,
+   "azimuth_deg": 78,
+   "type": "CSAMT In-line"
+  },
+  {
+   "line": "E2-6",
+   "tx_center_x": 270750,
+   "tx_center_y": 749995,
+   "length_m": 1499,
+   "azimuth_deg": 78,
+   "type": "CSAMT In-line"
+  },
+  {
+   "line": "E2-7",
+   "tx_center_x": 270750,
+   "tx_center_y": 749995,
+   "length_m": 1499,
+   "azimuth_deg": 78,
+   "type": "CSAMT In-line"
+  },
+  {
+   "line": "HE5",
+   "tx_center_x": 269833,
+   "tx_center_y": 764178,
+   "length_m": 1497,
+   "azimuth_deg": 53,
+   "type": "CSAMT In-line"
+  },
+  {
+   "line": "HE6",
+   "tx_center_x": 269833,
+   "tx_center_y": 764178,
+   "length_m": 1497,
+   "azimuth_deg": 53,
+   "type": "CSAMT In-line"
+  },
+  {
+   "line": "HE7",
+   "tx_center_x": 269833,
+   "tx_center_y": 764178,
+   "length_m": 1497,
+   "azimuth_deg": 53,
+   "type": "CSAMT In-line"
+  },
+  {
+   "line": "HE8",
+   "tx_center_x": 269833,
+   "tx_center_y": 764178,
+   "length_m": 1497,
+   "azimuth_deg": 53,
+   "type": "CSAMT In-line"
+  },
+  {
+   "line": "HW1",
+   "tx_center_x": 269833,
+   "tx_center_y": 764178,
+   "length_m": 1497,
+   "azimuth_deg": 53,
+   "type": "CSAMT In-line"
+  },
+  {
+   "line": "HW2",
+   "tx_center_x": 269833,
+   "tx_center_y": 764178,
+   "length_m": 1497,
+   "azimuth_deg": 53,
+   "type": "CSAMT In-line"
+  },
+  {
+   "line": "HW3",
+   "tx_center_x": 269833,
+   "tx_center_y": 764178,
+   "length_m": 1497,
+   "azimuth_deg": 53,
+   "type": "CSAMT In-line"
+  },
+  {
+   "line": "HW4",
+   "tx_center_x": 269833,
+   "tx_center_y": 764178,
+   "length_m": 1497,
+   "azimuth_deg": 53,
+   "type": "CSAMT In-line"
+  },
+  {
+   "line": "I1",
+   "tx_center_x": 272452,
+   "tx_center_y": 760799,
+   "length_m": 1505,
+   "azimuth_deg": 57,
+   "type": "CSAMT In-line"
+  },
+  {
+   "line": "I2",
+   "tx_center_x": 272452,
+   "tx_center_y": 760799,
+   "length_m": 1505,
+   "azimuth_deg": 57,
+   "type": "CSAMT In-line"
+  },
+  {
+   "line": "K4-11",
+   "tx_center_x": 260794,
+   "tx_center_y": 764665,
+   "length_m": 1221,
+   "azimuth_deg": 79,
+   "type": "CSAMT In-line"
+  },
+  {
+   "line": "K4-12",
+   "tx_center_x": 260794,
+   "tx_center_y": 764665,
+   "length_m": 1221,
+   "azimuth_deg": 79,
+   "type": "CSAMT In-line"
+  },
+  {
+   "line": "L1",
+   "tx_center_x": 265728,
+   "tx_center_y": 754828,
+   "length_m": 1624,
+   "azimuth_deg": 50,
+   "type": "CSAMT Broadside"
+  },
+  {
+   "line": "L2",
+   "tx_center_x": 265728,
+   "tx_center_y": 754828,
+   "length_m": 1624,
+   "azimuth_deg": 50,
+   "type": "CSAMT Broadside"
+  },
+  {
+   "line": "L3",
+   "tx_center_x": 265728,
+   "tx_center_y": 754828,
+   "length_m": 1624,
+   "azimuth_deg": 50,
+   "type": "CSAMT Broadside"
+  },
+  {
+   "line": "L5",
+   "tx_center_x": 265728,
+   "tx_center_y": 754828,
+   "length_m": 1624,
+   "azimuth_deg": 50,
+   "type": "CSAMT Broadside"
+  },
+  {
+   "line": "M-1",
+   "tx_center_x": 273194,
+   "tx_center_y": 759802,
+   "length_m": 1311,
+   "azimuth_deg": 69,
+   "type": "CSAMT Broadside"
+  },
+  {
+   "line": "M-2",
+   "tx_center_x": 273194,
+   "tx_center_y": 759802,
+   "length_m": 1311,
+   "azimuth_deg": 69,
+   "type": "CSAMT Broadside"
+  },
+  {
+   "line": "N3",
+   "tx_center_x": 269245,
+   "tx_center_y": 742658,
+   "length_m": 1289,
+   "azimuth_deg": 3,
+   "type": "CSAMT Broadside"
+  },
+  {
+   "line": "N2",
+   "tx_center_x": 269245,
+   "tx_center_y": 742658,
+   "length_m": 1289,
+   "azimuth_deg": 3,
+   "type": "CSAMT Broadside"
+  },
+  {
+   "line": "N4",
+   "tx_center_x": 269245,
+   "tx_center_y": 742658,
+   "length_m": 1289,
+   "azimuth_deg": 3,
+   "type": "CSAMT Broadside"
+  },
+  {
+   "line": "P1",
+   "tx_center_x": 264279,
+   "tx_center_y": 759362,
+   "length_m": 1093,
+   "azimuth_deg": 61,
+   "type": "CSAMT Broadside"
+  },
+  {
+   "line": "P2",
+   "tx_center_x": 264279,
+   "tx_center_y": 759362,
+   "length_m": 1093,
+   "azimuth_deg": 61,
+   "type": "CSAMT Broadside"
+  },
+  {
+   "line": "P3",
+   "tx_center_x": 264279,
+   "tx_center_y": 759362,
+   "length_m": 1093,
+   "azimuth_deg": 61,
+   "type": "CSAMT Broadside"
+  },
+  {
+   "line": "Q1",
+   "tx_center_x": 270649,
+   "tx_center_y": 749884,
+   "length_m": 1205,
+   "azimuth_deg": 129,
+   "type": "CSAMT Broadside"
+  },
+  {
+   "line": "Q2",
+   "tx_center_x": 270649,
+   "tx_center_y": 749884,
+   "length_m": 1205,
+   "azimuth_deg": 129,
+   "type": "CSAMT Broadside"
+  },
+  {
+   "line": "Q3",
+   "tx_center_x": 270649,
+   "tx_center_y": 749884,
+   "length_m": 1205,
+   "azimuth_deg": 129,
+   "type": "CSAMT Broadside"
+  }
+ ]
+}

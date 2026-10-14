@@ -179,10 +179,22 @@ def run() -> list[dict]:
             other = ", ".join(o["site"] for o in group if o is not d)
             d["confidence"] = "C"
             d["notes"] += f" Plot is identical to the one for {other} in App. C; the report may repeat a plot."
+    mark_poor_fits(datasets)
     out = SDIR / "datasets" / "appC_smooth_models.json"
     out.parent.mkdir(parents=True, exist_ok=True)
     out.write_text(json.dumps(datasets, indent=1))
     return datasets
+
+
+POOR_FIT_LINES = ("B2", "E2-5")  # App. C/D text: "model fits ... very poor on a few lines (such as B-2 and E2-5)"
+
+
+def mark_poor_fits(datasets: list[dict]) -> None:
+    for d in datasets:
+        if d["site"].rsplit("-", 1)[0] in POOR_FIT_LINES and "very poor" not in d["notes"]:
+            d["confidence"] = "C"
+            d["notes"] += (" The report says the model fit on this line is very poor (cultural noise or"
+                           " off-line effects) and leaves it out of the App. D sections.")
 
 
 if __name__ == "__main__":

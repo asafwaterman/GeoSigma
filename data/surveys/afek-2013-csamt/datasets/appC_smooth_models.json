@@ -8911,7 +8911,7 @@
   "representation": "model_1d",
   "measured_on": "2013",
   "depth_max_m": 1478.0,
-  "confidence": "B",
+  "confidence": "C",
   "status": "draft",
   "model_type": "smooth",
   "samples": [
@@ -9260,7 +9260,7 @@
    "extracted_on": "2026-10-13",
    "notes": "Zonge SCS2D smooth-model 1D inversion, TM mode (report p. 25)."
   },
-  "notes": "DOI not given in the report; plot depth is the model extent, not a DOI."
+  "notes": "DOI not given in the report; plot depth is the model extent, not a DOI. The report says the model fit on this line is very poor (cultural noise or off-line effects) and leaves it out of the App. D sections."
  },
  {
   "id": "afek-csamt-B2-300-scs2d",
@@ -9272,7 +9272,7 @@
   "representation": "model_1d",
   "measured_on": "2013",
   "depth_max_m": 1478.0,
-  "confidence": "B",
+  "confidence": "C",
   "status": "draft",
   "model_type": "smooth",
   "samples": [
@@ -9681,7 +9681,7 @@
    "extracted_on": "2026-10-13",
    "notes": "Zonge SCS2D smooth-model 1D inversion, TM mode (report p. 25)."
   },
-  "notes": "DOI not given in the report; plot depth is the model extent, not a DOI."
+  "notes": "DOI not given in the report; plot depth is the model extent, not a DOI. The report says the model fit on this line is very poor (cultural noise or off-line effects) and leaves it out of the App. D sections."
  },
  {
   "id": "afek-csamt-B2-500-scs2d",
@@ -9693,7 +9693,7 @@
   "representation": "model_1d",
   "measured_on": "2013",
   "depth_max_m": 1478.0,
-  "confidence": "B",
+  "confidence": "C",
   "status": "draft",
   "model_type": "smooth",
   "samples": [
@@ -9938,7 +9938,7 @@
    "extracted_on": "2026-10-13",
    "notes": "Zonge SCS2D smooth-model 1D inversion, TM mode (report p. 25)."
   },
-  "notes": "DOI not given in the report; plot depth is the model extent, not a DOI."
+  "notes": "DOI not given in the report; plot depth is the model extent, not a DOI. The report says the model fit on this line is very poor (cultural noise or off-line effects) and leaves it out of the App. D sections."
  },
  {
   "id": "afek-csamt-B2-700-scs2d",
@@ -9950,7 +9950,7 @@
   "representation": "model_1d",
   "measured_on": "2013",
   "depth_max_m": 1478.0,
-  "confidence": "B",
+  "confidence": "C",
   "status": "draft",
   "model_type": "smooth",
   "samples": [
@@ -10199,7 +10199,7 @@
    "extracted_on": "2026-10-13",
    "notes": "Zonge SCS2D smooth-model 1D inversion, TM mode (report p. 25)."
   },
-  "notes": "DOI not given in the report; plot depth is the model extent, not a DOI."
+  "notes": "DOI not given in the report; plot depth is the model extent, not a DOI. The report says the model fit on this line is very poor (cultural noise or off-line effects) and leaves it out of the App. D sections."
  },
  {
   "id": "afek-csamt-B3-100-scs2d",
@@ -51438,7 +51438,7 @@
   "representation": "model_1d",
   "measured_on": "2013",
   "depth_max_m": 1478.0,
-  "confidence": "B",
+  "confidence": "C",
   "status": "draft",
   "model_type": "smooth",
   "samples": [
@@ -51691,7 +51691,7 @@
    "extracted_on": "2026-10-13",
    "notes": "Zonge SCS2D smooth-model 1D inversion, TM mode (report p. 25)."
   },
-  "notes": "DOI not given in the report; plot depth is the model extent, not a DOI."
+  "notes": "DOI not given in the report; plot depth is the model extent, not a DOI. The report says the model fit on this line is very poor (cultural noise or off-line effects) and leaves it out of the App. D sections."
  },
  {
   "id": "afek-csamt-E2-5-300-scs2d",
@@ -51703,7 +51703,7 @@
   "representation": "model_1d",
   "measured_on": "2013",
   "depth_max_m": 1478.0,
-  "confidence": "B",
+  "confidence": "C",
   "status": "draft",
   "model_type": "smooth",
   "samples": [
@@ -51976,7 +51976,7 @@
    "extracted_on": "2026-10-13",
    "notes": "Zonge SCS2D smooth-model 1D inversion, TM mode (report p. 25)."
   },
-  "notes": "DOI not given in the report; plot depth is the model extent, not a DOI."
+  "notes": "DOI not given in the report; plot depth is the model extent, not a DOI. The report says the model fit on this line is very poor (cultural noise or off-line effects) and leaves it out of the App. D sections."
  },
  {
   "id": "afek-csamt-E2-5-500-scs2d",
@@ -51988,7 +51988,7 @@
   "representation": "model_1d",
   "measured_on": "2013",
   "depth_max_m": 1478.0,
-  "confidence": "B",
+  "confidence": "C",
   "status": "draft",
   "model_type": "smooth",
   "samples": [
@@ -52141,7 +52141,7 @@
    "extracted_on": "2026-10-13",
    "notes": "Zonge SCS2D smooth-model 1D inversion, TM mode (report p. 25)."
   },
-  "notes": "DOI not given in the report; plot depth is the model extent, not a DOI."
+  "notes": "DOI not given in the report; plot depth is the model extent, not a DOI. The report says the model fit on this line is very poor (cultural noise or off-line effects) and leaves it out of the App. D sections."
  },
  {
   "id": "afek-csamt-E2-5-700-scs2d",
@@ -52153,7 +52153,7 @@
   "representation": "model_1d",
   "measured_on": "2013",
   "depth_max_m": 1478.0,
-  "confidence": "B",
+  "confidence": "C",
   "status": "draft",
   "model_type": "smooth",
   "samples": [
@@ -52702,7 +52702,7 @@
    "extracted_on": "2026-10-13",
    "notes": "Zonge SCS2D smooth-model 1D inversion, TM mode (report p. 25)."
   },
-  "notes": "DOI not given in the report; plot depth is the model extent, not a DOI."
+  "notes": "DOI not given in the report; plot depth is the model extent, not a DOI. The report says the model fit on this line is very poor (cultural noise or off-line effects) and leaves it out of the App. D sections."
  },
  {
   "id": "afek-csamt-E2-6-100-scs2d",
