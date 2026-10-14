@@ -1,0 +1,46 @@
+[
+ {
+  "id": "paparo-1981-interface-criteria",
+  "survey": "paparo-1981-interface",
+  "method": "VES",
+  "level": "L1",
+  "representation": "qualitative",
+  "confidence": "D",
+  "status": "draft",
+  "measured_on": "1953/1980",
+  "summary": "Coastal aquifer, Ashdod to Haifa. In boreholes the fresh/saline interface in the calcareous sandstone matches, in most places, the 25 ohm.m contour of measured (apparent) resistivity; the contact is irregular, not parabolic as in the hydrological models. In the interpreted sections the lowest horizon has calculated resistivities of 3.5-7.5 ohm.m (low) and 0-3.5 ohm.m (minimal), matching the salinity of the interface zone; dry sand at the top has 210-850 ohm.m. Measured resistivity maxima are 100-150 ohm.m and minima 5-25 ohm.m; section maxima 375-1900 ohm.m sit at shallow depth and minima of 2.5-50 ohm.m at depth and near the sea.",
+  "provenance": {
+   "document": "main",
+   "pages": [
+    11,
+    9,
+    10
+   ],
+   "method": "manual",
+   "extracted_on": "2026-10-14",
+   "notes": "Read from the Hebrew text (sections 4.3 and 5.0). The maps and sections it cites are in atlas volumes A, B and D, which are not in the collection."
+  },
+  "notes": "Useful as an interpretation rule: apparent resistivity below about 25 ohm.m marks saline water in the coastal aquifer."
+ },
+ {
+  "id": "paparo-1981-interface-minima-1968-70",
+  "survey": "paparo-1981-interface",
+  "method": "VES",
+  "level": "L1",
+  "representation": "qualitative",
+  "confidence": "D",
+  "status": "draft",
+  "measured_on": "1968/1970",
+  "summary": "Minimum measured resistivities (ohm.m) of the 1968-70 soundings, by coastal strip, at AB/2 = 50, 100 and 200 m: strip 106: 50, 25, 10; 109: 50, 25, 5; 119-121: 50, 25, 25; 131-133: 25, 25, 5; 139: 25, 25, 5; 142: 25, 25, 5; 148: 25, 25, 10; 151: 25, 25, 5.",
+  "provenance": {
+   "document": "main",
+   "pages": [
+    9
+   ],
+   "table": "Section 4.3.2 (a), minimum values",
+   "method": "manual",
+   "extracted_on": "2026-10-14",
+   "notes": "Strip positions are on atlas volume A maps, not in the collection, so no sites are attached."
+  }
+ }
+]

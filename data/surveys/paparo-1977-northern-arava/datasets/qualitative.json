@@ -1,0 +1,26 @@
+[
+ {
+  "id": "paparo-1977-northern-arava-summary",
+  "survey": "paparo-1977-northern-arava",
+  "method": "VES",
+  "level": "L1",
+  "representation": "qualitative",
+  "confidence": "D",
+  "status": "draft",
+  "measured_on": "1949/1976",
+  "summary": "Reinterpretation of 711 resistivity soundings made in the Northern Arava between September 1949 and December 1976, between Old Israel Grid northings 960 and 060 (22 map sheets at 1:20,000). Results are 247 apparent-resistivity curves, 34 sections and 51 iso-resistivity maps at a = 50 m (22 maps), 100 m (16) and 150 m (13). Apparent resistivity ranges from about 1 to 950 ohm.m. Areas below about 50 ohm.m are geoelectrically quiet (background); disturbed areas with 50-950 ohm.m outline anomalies, and high values along the Nahal Arava channel were read as coarse gravel. The sections did not resolve the stratigraphy below the Neogene (Hazeva) fill near the rift margins. The report recommends about 20 deep soundings (to 500 m) along the Arava margins, 20 shallow ones (200 m), 10 very deep ones (1000 m) along the Ein Tamar-Neot HaKikar road and 20 more (500 m) to trace the rift's marginal faults.",
+  "provenance": {
+   "document": "vol1",
+   "pages": [
+    6,
+    7,
+    12,
+    14
+   ],
+   "method": "manual",
+   "extracted_on": "2026-10-14",
+   "notes": "Read from the Hebrew text and the table of soundings per sheet (page 14). The curves, sections and maps are in Vol. 2, which is over the connector's size limit."
+  },
+  "notes": "Numbers for the 444 geoelectric points need Vol. 2."
+ }
+]
