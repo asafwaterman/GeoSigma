@@ -1,0 +1,89 @@
+# VES sheets of the Southern Arava reinterpretation (main PDF pages 2-82), read by eye.
+# Box values as printed, in ohm.cm (the report's maps label the same values ohm.cm; the
+# sheets' printed axis says ohm.m but is generic paper), divided by 100 on build.
+# null = printed as 'גבוה' (high). Two field files, 250 and 400, reuse D.P.
+# numbers, so dp is file/D.P. Coordinates are Old Israel Grid in units of 10 m; sheets
+# printing 4 digits (units of 100 m) are multiplied by 10 here. Narrow first boxes carry their
+# value written vertically at the left edge (narrow_first). Box edges come from
+# geosigma.extract.arava_sheets (extraction/ves_edges_auto.json); edges_m are read by eye.
+- {page: 2, job: 625, dp: '250/1', x: 14605, y: 88445, elev: 1, rho: [60, 300, 200], rho_unit: ohm.cm, null_means: "printed as 'high' (Hebrew gavoha)"}
+- {page: 3, narrow_first: true, job: 625, dp: '250/2', x: 14555, y: 88530, elev: 18, rho: [140, 580, 290], rho_unit: ohm.cm, null_means: "printed as 'high' (Hebrew gavoha)"}
+- {page: 4, job: 625, dp: '250/3', x: 14675, y: 88745, elev: 14, rho: [23000, 3400], rho_unit: ohm.cm, null_means: "printed as 'high' (Hebrew gavoha)"}
+- {page: 5, job: 625, dp: '250/5', x: 14755, y: 88810, elev: 15, rho: [1400, 280, 1400], rho_unit: ohm.cm, null_means: "printed as 'high' (Hebrew gavoha)"}
+- {page: 6, narrow_first: true, job: 625, dp: '250/6', x: 14720, y: 88630, elev: 8, rho: [2500, 1000, 500, 1080], rho_unit: ohm.cm, null_means: "printed as 'high' (Hebrew gavoha)"}
+- {page: 7, job: 625, dp: '250/8', x: 14630, y: 88555, elev: 7, rho: [800, 320, 800, 320], rho_unit: ohm.cm, null_means: "printed as 'high' (Hebrew gavoha)"}
+- {page: 8, job: 625, dp: '250/10', x: 15000, y: 90090, elev: 61, rho: [4600, 800], rho_unit: ohm.cm, null_means: "printed as 'high' (Hebrew gavoha)", note: "Coordinates printed to 100 m."}
+- {page: 9, job: 625, dp: '250/12', x: 14740, y: 90240, elev: 145, rho: [7000, 1400, 4500], rho_unit: ohm.cm, null_means: "printed as 'high' (Hebrew gavoha)", note: "Coordinates printed to 100 m."}
+- {page: 10, narrow_first: true, job: 625, dp: '250/13', x: 14740, y: 90230, elev: 135, rho: [7000, 1400, 4500], rho_unit: ohm.cm, null_means: "printed as 'high' (Hebrew gavoha)", note: "Coordinates printed to 100 m."}
+- {page: 11, narrow_first: true, job: 625, dp: '250/19', x: 15240, y: 91750, elev: 69, rho: [1800, 3540, 5000, 1510, 2300], rho_unit: ohm.cm, null_means: "printed as 'high' (Hebrew gavoha)"}
+- {page: 12, job: 625, dp: '250/20', x: 15280, y: 91770, elev: 68, rho: [5800, 2320, 760], rho_unit: ohm.cm, null_means: "printed as 'high' (Hebrew gavoha)", note: "Coordinates printed to 100 m."}
+- {page: 13, job: 625, dp: '250/21', x: 15510, y: 92230, elev: 95, rho: [50000, 5000, 3000, 1000, null], rho_unit: ohm.cm, null_means: "printed as 'high' (Hebrew gavoha)"}
+- {page: 14, job: 625, dp: '250/22', x: 15430, y: 92200, elev: 100, rho: [800, 2240, 1260], rho_unit: ohm.cm, null_means: "printed as 'high' (Hebrew gavoha)"}
+- {page: 15, narrow_first: true, job: 625, dp: '250/25', x: 15550, y: 92260, elev: 78, rho: [60, 530, 3710], rho_unit: ohm.cm, null_means: "printed as 'high' (Hebrew gavoha)"}
+- {page: 16, job: 625, dp: '400/1', x: 14930, y: 89360, elev: 27, rho: [3000, 660, 1020, 500, 1160], rho_unit: ohm.cm, null_means: "printed as 'high' (Hebrew gavoha)"}
+- {page: 17, narrow_first: true, job: 625, dp: '400/2', x: 15100, y: 89840, elev: 34, rho: [330, 660, 800, 1170], rho_unit: ohm.cm, null_means: "printed as 'high' (Hebrew gavoha)"}
+- {page: 18, narrow_first: true, job: 625, dp: '400/3', x: 15130, y: 89830, elev: 30, rho: [330, 520, 780], rho_unit: ohm.cm, null_means: "printed as 'high' (Hebrew gavoha)"}
+- {page: 19, job: 625, dp: '400/5', x: 15050, y: 89870, elev: 39, rho: [330, 610, 760, 1100], rho_unit: ohm.cm, null_means: "printed as 'high' (Hebrew gavoha)"}
+- {page: 20, job: 625, dp: '400/6', x: 14930, y: 89230, elev: 24, rho: [8000, 3200, 410, 600], rho_unit: ohm.cm, null_means: "printed as 'high' (Hebrew gavoha)"}
+- {page: 21, job: 625, dp: '400/7', x: 14880, y: 89120, elev: 18, rho: [2400, 3000, 580], rho_unit: ohm.cm, null_means: "printed as 'high' (Hebrew gavoha)"}
+- {page: 22, job: 625, dp: '400/8', x: 14830, y: 89000, elev: 18, rho: [1400, 490, 1080, 485, 690], rho_unit: ohm.cm, null_means: "printed as 'high' (Hebrew gavoha)"}
+- {page: 23, job: 625, dp: '400/9', x: 15160, y: 90470, elev: 85, rho: [22000, 2200, 880, 5600, 620], rho_unit: ohm.cm, null_means: "printed as 'high' (Hebrew gavoha)", note: "Coordinates printed to 100 m."}
+- {page: 24, narrow_first: true, job: 625, dp: '400/10', x: 15160, y: 90430, elev: 78, rho: [59000, 16000, 2400, 1200], rho_unit: ohm.cm, null_means: "printed as 'high' (Hebrew gavoha)", note: "Coordinates printed to 100 m."}
+- {page: 25, job: 625, dp: '400/12', x: 15160, y: 90350, elev: 80, rho: [84000, 840, 6200, 640], rho_unit: ohm.cm, null_means: "printed as 'high' (Hebrew gavoha)", note: "Coordinates printed to 100 m."}
+- {page: 26, job: 625, dp: '400/13', x: 15160, y: 90310, elev: 80, rho: [32000, 4800, 620], rho_unit: ohm.cm, null_means: "printed as 'high' (Hebrew gavoha)", note: "Coordinates printed to 100 m."}
+- {page: 27, job: 625, dp: '400/14', x: 15160, y: 90270, elev: 72, rho: [66000, 9900, 4080, 630], rho_unit: ohm.cm, null_means: "printed as 'high' (Hebrew gavoha)", note: "Coordinates printed to 100 m."}
+- {page: 28, job: 625, dp: '400/15', x: 15150, y: 90230, elev: 67, rho: [1300, 9100, 1800], rho_unit: ohm.cm, null_means: "printed as 'high' (Hebrew gavoha)", note: "Coordinates printed to 100 m."}
+- {page: 29, job: 625, dp: '400/16', x: 15150, y: 90190, elev: 62, rho: [3800, 5100, 1530], rho_unit: ohm.cm, null_means: "printed as 'high' (Hebrew gavoha)", note: "Coordinates printed to 100 m."}
+- {page: 30, narrow_first: true, job: 625, dp: '400/17', x: 15150, y: 90150, elev: 58, rho: [17000, 13600, 1650], rho_unit: ohm.cm, null_means: "printed as 'high' (Hebrew gavoha)", note: "Coordinates printed to 100 m."}
+- {page: 31, narrow_first: true, job: 625, dp: '400/18', x: 15150, y: 90110, elev: 57, rho: [10500, 13250, 1420], rho_unit: ohm.cm, null_means: "printed as 'high' (Hebrew gavoha)", note: "Coordinates printed to 100 m."}
+- {page: 32, narrow_first: true, job: 625, dp: '400/19', x: 15150, y: 90070, elev: 55, rho: [2100, 5200, 1010, 1720], rho_unit: ohm.cm, null_means: "printed as 'high' (Hebrew gavoha)", note: "Coordinates printed to 100 m."}
+- {page: 33, narrow_first: true, job: 625, dp: '400/20', x: 15150, y: 90030, elev: 38, rho: [3800, 3040, 760, 1800], rho_unit: ohm.cm, null_means: "printed as 'high' (Hebrew gavoha)", note: "Coordinates printed to 100 m."}
+- {page: 34, narrow_first: true, job: 625, dp: '400/22', x: 15150, y: 89950, elev: 38, rho: [1700, 2550, 370, 1050], rho_unit: ohm.cm, null_means: "printed as 'high' (Hebrew gavoha)"}
+- {page: 35, job: 625, dp: '400/23', x: 15150, y: 89910, elev: 36, rho: [1300, 2350, 410, 950], rho_unit: ohm.cm, null_means: "printed as 'high' (Hebrew gavoha)"}
+- {page: 36, job: 625, dp: '400/24', x: 15160, y: 89870, elev: 32, rho: [1850, 555, 900], rho_unit: ohm.cm, null_means: "printed as 'high' (Hebrew gavoha)"}
+- {page: 37, narrow_first: true, job: 625, dp: '400/25', x: 15170, y: 89740, elev: 28, rho: [1600, 2540, 360, 640], rho_unit: ohm.cm, null_means: "printed as 'high' (Hebrew gavoha)"}
+- {page: 38, job: 625, dp: '400/26', x: 15170, y: 89680, elev: 28, rho: [880, 360, 570], rho_unit: ohm.cm, null_means: "printed as 'high' (Hebrew gavoha)"}
+- {page: 39, job: 625, dp: '400/27', x: 15160, y: 89620, elev: 27, rho: [1300, 360, 780], rho_unit: ohm.cm, null_means: "printed as 'high' (Hebrew gavoha)"}
+- {page: 40, job: 625, dp: '400/28', x: 15130, y: 89560, elev: 26, rho: [1400, 280, 560], rho_unit: ohm.cm, null_means: "printed as 'high' (Hebrew gavoha)"}
+- {page: 41, job: 625, dp: '400/29', x: 15090, y: 89510, elev: 26, rho: [2100, 420, 1350], rho_unit: ohm.cm, null_means: "printed as 'high' (Hebrew gavoha)"}
+- {page: 42, edges_m: [1.1, 3.0, 27], narrow_first: true, job: 625, dp: '400/30', x: 15060, y: 89460, elev: 26, rho: [250, 630, 256, 640], rho_unit: ohm.cm, null_means: "printed as 'high' (Hebrew gavoha)"}
+- {page: 43, job: 625, dp: '400/31', x: 15030, y: 89410, elev: 25, rho: [74, 592], rho_unit: ohm.cm, null_means: "printed as 'high' (Hebrew gavoha)"}
+- {page: 44, job: 625, dp: '400/32', x: 14980, y: 89400, elev: 24, rho: [2800, 420, 720], rho_unit: ohm.cm, null_means: "printed as 'high' (Hebrew gavoha)"}
+- {page: 45, narrow_first: true, job: 625, dp: '400/33', x: 14950, y: 89290, elev: 22, rho: [420, 630, 240, 625], rho_unit: ohm.cm, null_means: "printed as 'high' (Hebrew gavoha)"}
+- {page: 46, job: 625, dp: '400/34', x: 14900, y: 89180, elev: 23, rho: [380, 152, 500], rho_unit: ohm.cm, null_means: "printed as 'high' (Hebrew gavoha)"}
+- {page: 47, job: 625, dp: '400/35', x: 15140, y: 90350, elev: 75, rho: [9400, 1400, null, 620], rho_unit: ohm.cm, null_means: "printed as 'high' (Hebrew gavoha)", note: "Coordinates printed to 100 m."}
+- {page: 48, job: 625, dp: '400/36', x: 15120, y: 90350, elev: 78, rho: [10000, 3000, 1300, 6200, 930], rho_unit: ohm.cm, null_means: "printed as 'high' (Hebrew gavoha)", note: "Coordinates printed to 100 m."}
+- {page: 49, job: 625, dp: '400/37', x: 15070, y: 90350, elev: 86, rho: [47000, 14000, 8400, 5600, 470], rho_unit: ohm.cm, null_means: "printed as 'high' (Hebrew gavoha)", note: "Coordinates printed to 100 m."}
+- {page: 50, job: 625, dp: '400/38', x: 15130, y: 90230, elev: 65, rho: [52000, 7800, 1600], rho_unit: ohm.cm, null_means: "printed as 'high' (Hebrew gavoha)", note: "Coordinates printed to 100 m."}
+- {page: 51, narrow_first: true, job: 625, dp: '400/39', x: 15100, y: 90230, elev: 69, rho: [10000, 12500, 1100], rho_unit: ohm.cm, null_means: "printed as 'high' (Hebrew gavoha)", note: "Coordinates printed to 100 m."}
+- {page: 52, job: 625, dp: '400/40', x: 15050, y: 90230, elev: 74, rho: [10600, 1600], rho_unit: ohm.cm, null_means: "printed as 'high' (Hebrew gavoha)", note: "Coordinates printed to 100 m."}
+- {page: 53, job: 625, dp: '400/41', x: 15170, y: 90510, elev: 83, rho: [3600, 1080], rho_unit: ohm.cm, null_means: "printed as 'high' (Hebrew gavoha)", note: "Coordinates printed to 100 m."}
+- {page: 54, narrow_first: true, job: 625, dp: '400/42', x: 15190, y: 90540, elev: 85, rho: [15000, 3000, 1080], rho_unit: ohm.cm, null_means: "printed as 'high' (Hebrew gavoha)", note: "Coordinates printed to 100 m."}
+- {page: 55, job: 625, dp: '400/43', x: 14860, y: 89060, elev: 19, rho: [1200, 960, 1960, 780], rho_unit: ohm.cm, null_means: "printed as 'high' (Hebrew gavoha)"}
+- {page: 56, job: 625, dp: '400/44', x: 14810, y: 88950, elev: 17, rho: [2600, 980, 200, 1000], rho_unit: ohm.cm, null_means: "printed as 'high' (Hebrew gavoha)"}
+- {page: 57, job: 625, dp: '400/45', x: 14780, y: 88890, elev: 16, rho: [680, 270, 740], rho_unit: ohm.cm, null_means: "printed as 'high' (Hebrew gavoha)"}
+- {page: 58, job: 625, dp: '400/46', x: 15080, y: 89680, elev: 29, rho: [300, 600, 900], rho_unit: ohm.cm, null_means: "printed as 'high' (Hebrew gavoha)"}
+- {page: 59, job: 625, dp: '400/47', x: 14930, y: 89460, elev: 30, rho: [57000, 2850], rho_unit: ohm.cm, null_means: "printed as 'high' (Hebrew gavoha)"}
+- {page: 60, job: 625, dp: '400/48', x: 14930, y: 89560, elev: 40, rho: [2600, 1700, 1360], rho_unit: ohm.cm, null_means: "printed as 'high' (Hebrew gavoha)"}
+- {page: 61, job: 625, dp: '400/49', x: 14940, y: 89660, elev: 40, rho: [9600, 2100, 1400], rho_unit: ohm.cm, null_means: "printed as 'high' (Hebrew gavoha)"}
+- {page: 62, job: 625, dp: '400/50', x: 14940, y: 89760, elev: 42, rho: [7400, 860], rho_unit: ohm.cm, null_means: "printed as 'high' (Hebrew gavoha)"}
+- {page: 63, job: 625, dp: '400/51', x: 14930, y: 89860, elev: 45, rho: [8600, 3000, 2000, 1300], rho_unit: ohm.cm, null_means: "printed as 'high' (Hebrew gavoha)"}
+- {page: 64, job: 625, dp: '400/52', x: 14920, y: 89960, elev: 49, rho: [23000, 9200, 1300], rho_unit: ohm.cm, null_means: "printed as 'high' (Hebrew gavoha)"}
+- {page: 65, job: 625, dp: '400/53', x: 14860, y: 90050, elev: 80, rho: [18000, 5000, 8400, 2500], rho_unit: ohm.cm, null_means: "printed as 'high' (Hebrew gavoha)", note: "Coordinates printed to 100 m."}
+- {page: 66, job: 625, dp: '400/54', x: 14900, y: 90050, elev: 60, rho: [10500, 1560], rho_unit: ohm.cm, null_means: "printed as 'high' (Hebrew gavoha)", note: "Coordinates printed to 100 m."}
+- {page: 67, job: 625, dp: '400/55', x: 14950, y: 90050, elev: 58, rho: [9000, 1300], rho_unit: ohm.cm, null_means: "printed as 'high' (Hebrew gavoha)", note: "Coordinates printed to 100 m."}
+- {page: 68, edges_m: [6.4], job: 625, dp: '400/56', x: 15000, y: 90050, elev: 55, rho: [2800, 1060], rho_unit: ohm.cm, null_means: "printed as 'high' (Hebrew gavoha)", note: "Coordinates printed to 100 m."}
+- {page: 69, job: 625, dp: '400/57', x: 15050, y: 90050, elev: 54, rho: [2800, 670], rho_unit: ohm.cm, null_means: "printed as 'high' (Hebrew gavoha)", note: "Coordinates printed to 100 m."}
+- {page: 70, job: 625, dp: '400/58', x: 14900, y: 90160, elev: 80, rho: [7400, 4800, 1920], rho_unit: ohm.cm, null_means: "printed as 'high' (Hebrew gavoha)", note: "Coordinates printed to 100 m."}
+- {page: 71, job: 625, dp: '400/59', x: 14940, y: 90190, elev: 80, rho: [56000, 2800], rho_unit: ohm.cm, null_means: "printed as 'high' (Hebrew gavoha)", note: "Coordinates printed to 100 m."}
+- {page: 72, job: 625, dp: '400/60', x: 14990, y: 90180, elev: 74, rho: [24000, 2400], rho_unit: ohm.cm, null_means: "printed as 'high' (Hebrew gavoha)", note: "Coordinates printed to 100 m."}
+- {page: 73, job: 625, dp: '400/61', x: 15040, y: 90170, elev: 68, rho: [25000, 4250, 2500], rho_unit: ohm.cm, null_means: "printed as 'high' (Hebrew gavoha)", note: "Coordinates printed to 100 m."}
+- {page: 74, job: 625, dp: '400/62', x: 15090, y: 90160, elev: 62, rho: [11500, 2800, 2030], rho_unit: ohm.cm, null_means: "printed as 'high' (Hebrew gavoha)", note: "Coordinates printed to 100 m."}
+- {page: 75, job: 625, dp: '400/63', x: 14860, y: 90360, elev: 120, rho: [74000, 22200, 4600], rho_unit: ohm.cm, null_means: "printed as 'high' (Hebrew gavoha)", note: "Coordinates printed to 100 m."}
+- {page: 76, narrow_first: true, job: 625, dp: '400/64', x: 14860, y: 90570, elev: 140, rho: [50000, 175000, 6320], rho_unit: ohm.cm, null_means: "printed as 'high' (Hebrew gavoha)", note: "Coordinates printed to 100 m."}
+- {page: 77, job: 625, dp: '400/65', x: 14830, y: 89460, elev: 50, rho: [88000, 8800, 4450], rho_unit: ohm.cm, null_means: "printed as 'high' (Hebrew gavoha)"}
+- {page: 78, narrow_first: true, job: 625, dp: '400/66', x: 14830, y: 89560, elev: 62, rho: [21000, 3000, 4300], rho_unit: ohm.cm, null_means: "printed as 'high' (Hebrew gavoha)"}
+- {page: 79, job: 625, dp: '400/67', x: 14840, y: 89660, elev: 61, rho: [9400, 4600], rho_unit: ohm.cm, null_means: "printed as 'high' (Hebrew gavoha)"}
+- {page: 80, edges_m: [1.4, 22.4], narrow_first: true, job: 625, dp: '400/68', x: 14840, y: 89760, elev: 58, rho: [30000, 9000, 4500], rho_unit: ohm.cm, null_means: "printed as 'high' (Hebrew gavoha)"}
+- {page: 81, job: 625, dp: '400/69', x: 14960, y: 90250, elev: 90, rho: [8000, 1600, 2420], rho_unit: ohm.cm, null_means: "printed as 'high' (Hebrew gavoha)", note: "Coordinates printed to 100 m."}
+- {page: 82, narrow_first: true, job: 625, dp: '400/70', x: 15010, y: 90290, elev: 84, rho: [67000, 13400, 3350], rho_unit: ohm.cm, null_means: "printed as 'high' (Hebrew gavoha)", note: "Coordinates printed to 100 m."}

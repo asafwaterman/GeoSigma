@@ -11,13 +11,15 @@ region: Southern Arava
 geometry: area
 documents:
 - id: main
-  title: Reinterpretation, Southern Arava (text)
+  title: Reinterpretation, Southern Arava (VES sheets)
   filename: Paparo-H-Reinterpretation-Electrical-Resistivity-Measurements-Southern-Arava-IPRG-Rep-GK-625-68-1969.pdf
   drive_id: 1YyRB_-7iZ0m_-eya2Mo_AEoNib7QzrbI
   language:
   - he
   scanned: true
   role: main_report
+  sha256: 4b08b5f59d83342b9fc774e15780ca64fc0a4c56096a581b937ba5747894be4e
+  pages: 83
 - id: figs
   title: Figures
   filename: Paparo-H-Reinterpretation-Electrical-Resistivity-Measurements-Southern-Arava-IPRG-Rep-GK-625-68-1969-Figs.pdf
@@ -26,5 +28,659 @@ documents:
   - he
   scanned: true
   role: figures
-extraction_status: blocked
-notes: Reinterpretation of older soundings. No text layer; PDFs over the connector size limit.
+  sha256: 49bd2e9b28c556c5755f42cb68f8e047bf7af271dbd6fdb864a827777f96fd08
+  pages: 40
+extraction_status: partial
+notes: '81 VES sheets (main PDF pages 2-82), files 250 and 400 of job 625/68. Values on the sheets and maps are
+  in ohm.cm and are stored in ohm.m. Figures PDF: location maps (1-5), sections and fence diagrams (6-19), and iso-resistivity
+  maps at 50, 100 and 200 m depth and at 25 m below sea level (20-40, five sheets each; page 35 is blank). The maps
+  also cover soundings of files 224, 265-278, 806 and 844 that have no sheet here.'
+sites:
+- id: 625-250-1
+  name: VES 250/1 (job 625)
+  elevation_m: 1
+  coords:
+    x: 146050
+    y: 884450
+    crs: EPSG:28193
+    source: table
+- id: 625-250-2
+  name: VES 250/2 (job 625)
+  elevation_m: 18
+  coords:
+    x: 145550
+    y: 885300
+    crs: EPSG:28193
+    source: table
+- id: 625-250-3
+  name: VES 250/3 (job 625)
+  elevation_m: 14
+  coords:
+    x: 146750
+    y: 887450
+    crs: EPSG:28193
+    source: table
+- id: 625-250-5
+  name: VES 250/5 (job 625)
+  elevation_m: 15
+  coords:
+    x: 147550
+    y: 888100
+    crs: EPSG:28193
+    source: table
+- id: 625-250-6
+  name: VES 250/6 (job 625)
+  elevation_m: 8
+  coords:
+    x: 147200
+    y: 886300
+    crs: EPSG:28193
+    source: table
+- id: 625-250-8
+  name: VES 250/8 (job 625)
+  elevation_m: 7
+  coords:
+    x: 146300
+    y: 885550
+    crs: EPSG:28193
+    source: table
+- id: 625-250-10
+  name: VES 250/10 (job 625)
+  elevation_m: 61
+  coords:
+    x: 150000
+    y: 900900
+    crs: EPSG:28193
+    source: table
+- id: 625-250-12
+  name: VES 250/12 (job 625)
+  elevation_m: 145
+  coords:
+    x: 147400
+    y: 902400
+    crs: EPSG:28193
+    source: table
+- id: 625-250-13
+  name: VES 250/13 (job 625)
+  elevation_m: 135
+  coords:
+    x: 147400
+    y: 902300
+    crs: EPSG:28193
+    source: table
+- id: 625-250-19
+  name: VES 250/19 (job 625)
+  elevation_m: 69
+  coords:
+    x: 152400
+    y: 917500
+    crs: EPSG:28193
+    source: table
+- id: 625-250-20
+  name: VES 250/20 (job 625)
+  elevation_m: 68
+  coords:
+    x: 152800
+    y: 917700
+    crs: EPSG:28193
+    source: table
+- id: 625-250-21
+  name: VES 250/21 (job 625)
+  elevation_m: 95
+  coords:
+    x: 155100
+    y: 922300
+    crs: EPSG:28193
+    source: table
+- id: 625-250-22
+  name: VES 250/22 (job 625)
+  elevation_m: 100
+  coords:
+    x: 154300
+    y: 922000
+    crs: EPSG:28193
+    source: table
+- id: 625-250-25
+  name: VES 250/25 (job 625)
+  elevation_m: 78
+  coords:
+    x: 155500
+    y: 922600
+    crs: EPSG:28193
+    source: table
+- id: 625-400-1
+  name: VES 400/1 (job 625)
+  elevation_m: 27
+  coords:
+    x: 149300
+    y: 893600
+    crs: EPSG:28193
+    source: table
+- id: 625-400-2
+  name: VES 400/2 (job 625)
+  elevation_m: 34
+  coords:
+    x: 151000
+    y: 898400
+    crs: EPSG:28193
+    source: table
+- id: 625-400-3
+  name: VES 400/3 (job 625)
+  elevation_m: 30
+  coords:
+    x: 151300
+    y: 898300
+    crs: EPSG:28193
+    source: table
+- id: 625-400-5
+  name: VES 400/5 (job 625)
+  elevation_m: 39
+  coords:
+    x: 150500
+    y: 898700
+    crs: EPSG:28193
+    source: table
+- id: 625-400-6
+  name: VES 400/6 (job 625)
+  elevation_m: 24
+  coords:
+    x: 149300
+    y: 892300
+    crs: EPSG:28193
+    source: table
+- id: 625-400-7
+  name: VES 400/7 (job 625)
+  elevation_m: 18
+  coords:
+    x: 148800
+    y: 891200
+    crs: EPSG:28193
+    source: table
+- id: 625-400-8
+  name: VES 400/8 (job 625)
+  elevation_m: 18
+  coords:
+    x: 148300
+    y: 890000
+    crs: EPSG:28193
+    source: table
+- id: 625-400-9
+  name: VES 400/9 (job 625)
+  elevation_m: 85
+  coords:
+    x: 151600
+    y: 904700
+    crs: EPSG:28193
+    source: table
+- id: 625-400-10
+  name: VES 400/10 (job 625)
+  elevation_m: 78
+  coords:
+    x: 151600
+    y: 904300
+    crs: EPSG:28193
+    source: table
+- id: 625-400-12
+  name: VES 400/12 (job 625)
+  elevation_m: 80
+  coords:
+    x: 151600
+    y: 903500
+    crs: EPSG:28193
+    source: table
+- id: 625-400-13
+  name: VES 400/13 (job 625)
+  elevation_m: 80
+  coords:
+    x: 151600
+    y: 903100
+    crs: EPSG:28193
+    source: table
+- id: 625-400-14
+  name: VES 400/14 (job 625)
+  elevation_m: 72
+  coords:
+    x: 151600
+    y: 902700
+    crs: EPSG:28193
+    source: table
+- id: 625-400-15
+  name: VES 400/15 (job 625)
+  elevation_m: 67
+  coords:
+    x: 151500
+    y: 902300
+    crs: EPSG:28193
+    source: table
+- id: 625-400-16
+  name: VES 400/16 (job 625)
+  elevation_m: 62
+  coords:
+    x: 151500
+    y: 901900
+    crs: EPSG:28193
+    source: table
+- id: 625-400-17
+  name: VES 400/17 (job 625)
+  elevation_m: 58
+  coords:
+    x: 151500
+    y: 901500
+    crs: EPSG:28193
+    source: table
+- id: 625-400-18
+  name: VES 400/18 (job 625)
+  elevation_m: 57
+  coords:
+    x: 151500
+    y: 901100
+    crs: EPSG:28193
+    source: table
+- id: 625-400-19
+  name: VES 400/19 (job 625)
+  elevation_m: 55
+  coords:
+    x: 151500
+    y: 900700
+    crs: EPSG:28193
+    source: table
+- id: 625-400-20
+  name: VES 400/20 (job 625)
+  elevation_m: 38
+  coords:
+    x: 151500
+    y: 900300
+    crs: EPSG:28193
+    source: table
+- id: 625-400-22
+  name: VES 400/22 (job 625)
+  elevation_m: 38
+  coords:
+    x: 151500
+    y: 899500
+    crs: EPSG:28193
+    source: table
+- id: 625-400-23
+  name: VES 400/23 (job 625)
+  elevation_m: 36
+  coords:
+    x: 151500
+    y: 899100
+    crs: EPSG:28193
+    source: table
+- id: 625-400-24
+  name: VES 400/24 (job 625)
+  elevation_m: 32
+  coords:
+    x: 151600
+    y: 898700
+    crs: EPSG:28193
+    source: table
+- id: 625-400-25
+  name: VES 400/25 (job 625)
+  elevation_m: 28
+  coords:
+    x: 151700
+    y: 897400
+    crs: EPSG:28193
+    source: table
+- id: 625-400-26
+  name: VES 400/26 (job 625)
+  elevation_m: 28
+  coords:
+    x: 151700
+    y: 896800
+    crs: EPSG:28193
+    source: table
+- id: 625-400-27
+  name: VES 400/27 (job 625)
+  elevation_m: 27
+  coords:
+    x: 151600
+    y: 896200
+    crs: EPSG:28193
+    source: table
+- id: 625-400-28
+  name: VES 400/28 (job 625)
+  elevation_m: 26
+  coords:
+    x: 151300
+    y: 895600
+    crs: EPSG:28193
+    source: table
+- id: 625-400-29
+  name: VES 400/29 (job 625)
+  elevation_m: 26
+  coords:
+    x: 150900
+    y: 895100
+    crs: EPSG:28193
+    source: table
+- id: 625-400-30
+  name: VES 400/30 (job 625)
+  elevation_m: 26
+  coords:
+    x: 150600
+    y: 894600
+    crs: EPSG:28193
+    source: table
+- id: 625-400-31
+  name: VES 400/31 (job 625)
+  elevation_m: 25
+  coords:
+    x: 150300
+    y: 894100
+    crs: EPSG:28193
+    source: table
+- id: 625-400-32
+  name: VES 400/32 (job 625)
+  elevation_m: 24
+  coords:
+    x: 149800
+    y: 894000
+    crs: EPSG:28193
+    source: table
+- id: 625-400-33
+  name: VES 400/33 (job 625)
+  elevation_m: 22
+  coords:
+    x: 149500
+    y: 892900
+    crs: EPSG:28193
+    source: table
+- id: 625-400-34
+  name: VES 400/34 (job 625)
+  elevation_m: 23
+  coords:
+    x: 149000
+    y: 891800
+    crs: EPSG:28193
+    source: table
+- id: 625-400-35
+  name: VES 400/35 (job 625)
+  elevation_m: 75
+  coords:
+    x: 151400
+    y: 903500
+    crs: EPSG:28193
+    source: table
+- id: 625-400-36
+  name: VES 400/36 (job 625)
+  elevation_m: 78
+  coords:
+    x: 151200
+    y: 903500
+    crs: EPSG:28193
+    source: table
+- id: 625-400-37
+  name: VES 400/37 (job 625)
+  elevation_m: 86
+  coords:
+    x: 150700
+    y: 903500
+    crs: EPSG:28193
+    source: table
+- id: 625-400-38
+  name: VES 400/38 (job 625)
+  elevation_m: 65
+  coords:
+    x: 151300
+    y: 902300
+    crs: EPSG:28193
+    source: table
+- id: 625-400-39
+  name: VES 400/39 (job 625)
+  elevation_m: 69
+  coords:
+    x: 151000
+    y: 902300
+    crs: EPSG:28193
+    source: table
+- id: 625-400-40
+  name: VES 400/40 (job 625)
+  elevation_m: 74
+  coords:
+    x: 150500
+    y: 902300
+    crs: EPSG:28193
+    source: table
+- id: 625-400-41
+  name: VES 400/41 (job 625)
+  elevation_m: 83
+  coords:
+    x: 151700
+    y: 905100
+    crs: EPSG:28193
+    source: table
+- id: 625-400-42
+  name: VES 400/42 (job 625)
+  elevation_m: 85
+  coords:
+    x: 151900
+    y: 905400
+    crs: EPSG:28193
+    source: table
+- id: 625-400-43
+  name: VES 400/43 (job 625)
+  elevation_m: 19
+  coords:
+    x: 148600
+    y: 890600
+    crs: EPSG:28193
+    source: table
+- id: 625-400-44
+  name: VES 400/44 (job 625)
+  elevation_m: 17
+  coords:
+    x: 148100
+    y: 889500
+    crs: EPSG:28193
+    source: table
+- id: 625-400-45
+  name: VES 400/45 (job 625)
+  elevation_m: 16
+  coords:
+    x: 147800
+    y: 888900
+    crs: EPSG:28193
+    source: table
+- id: 625-400-46
+  name: VES 400/46 (job 625)
+  elevation_m: 29
+  coords:
+    x: 150800
+    y: 896800
+    crs: EPSG:28193
+    source: table
+- id: 625-400-47
+  name: VES 400/47 (job 625)
+  elevation_m: 30
+  coords:
+    x: 149300
+    y: 894600
+    crs: EPSG:28193
+    source: table
+- id: 625-400-48
+  name: VES 400/48 (job 625)
+  elevation_m: 40
+  coords:
+    x: 149300
+    y: 895600
+    crs: EPSG:28193
+    source: table
+- id: 625-400-49
+  name: VES 400/49 (job 625)
+  elevation_m: 40
+  coords:
+    x: 149400
+    y: 896600
+    crs: EPSG:28193
+    source: table
+- id: 625-400-50
+  name: VES 400/50 (job 625)
+  elevation_m: 42
+  coords:
+    x: 149400
+    y: 897600
+    crs: EPSG:28193
+    source: table
+- id: 625-400-51
+  name: VES 400/51 (job 625)
+  elevation_m: 45
+  coords:
+    x: 149300
+    y: 898600
+    crs: EPSG:28193
+    source: table
+- id: 625-400-52
+  name: VES 400/52 (job 625)
+  elevation_m: 49
+  coords:
+    x: 149200
+    y: 899600
+    crs: EPSG:28193
+    source: table
+- id: 625-400-53
+  name: VES 400/53 (job 625)
+  elevation_m: 80
+  coords:
+    x: 148600
+    y: 900500
+    crs: EPSG:28193
+    source: table
+- id: 625-400-54
+  name: VES 400/54 (job 625)
+  elevation_m: 60
+  coords:
+    x: 149000
+    y: 900500
+    crs: EPSG:28193
+    source: table
+- id: 625-400-55
+  name: VES 400/55 (job 625)
+  elevation_m: 58
+  coords:
+    x: 149500
+    y: 900500
+    crs: EPSG:28193
+    source: table
+- id: 625-400-56
+  name: VES 400/56 (job 625)
+  elevation_m: 55
+  coords:
+    x: 150000
+    y: 900500
+    crs: EPSG:28193
+    source: table
+- id: 625-400-57
+  name: VES 400/57 (job 625)
+  elevation_m: 54
+  coords:
+    x: 150500
+    y: 900500
+    crs: EPSG:28193
+    source: table
+- id: 625-400-58
+  name: VES 400/58 (job 625)
+  elevation_m: 80
+  coords:
+    x: 149000
+    y: 901600
+    crs: EPSG:28193
+    source: table
+- id: 625-400-59
+  name: VES 400/59 (job 625)
+  elevation_m: 80
+  coords:
+    x: 149400
+    y: 901900
+    crs: EPSG:28193
+    source: table
+- id: 625-400-60
+  name: VES 400/60 (job 625)
+  elevation_m: 74
+  coords:
+    x: 149900
+    y: 901800
+    crs: EPSG:28193
+    source: table
+- id: 625-400-61
+  name: VES 400/61 (job 625)
+  elevation_m: 68
+  coords:
+    x: 150400
+    y: 901700
+    crs: EPSG:28193
+    source: table
+- id: 625-400-62
+  name: VES 400/62 (job 625)
+  elevation_m: 62
+  coords:
+    x: 150900
+    y: 901600
+    crs: EPSG:28193
+    source: table
+- id: 625-400-63
+  name: VES 400/63 (job 625)
+  elevation_m: 120
+  coords:
+    x: 148600
+    y: 903600
+    crs: EPSG:28193
+    source: table
+- id: 625-400-64
+  name: VES 400/64 (job 625)
+  elevation_m: 140
+  coords:
+    x: 148600
+    y: 905700
+    crs: EPSG:28193
+    source: table
+- id: 625-400-65
+  name: VES 400/65 (job 625)
+  elevation_m: 50
+  coords:
+    x: 148300
+    y: 894600
+    crs: EPSG:28193
+    source: table
+- id: 625-400-66
+  name: VES 400/66 (job 625)
+  elevation_m: 62
+  coords:
+    x: 148300
+    y: 895600
+    crs: EPSG:28193
+    source: table
+- id: 625-400-67
+  name: VES 400/67 (job 625)
+  elevation_m: 61
+  coords:
+    x: 148400
+    y: 896600
+    crs: EPSG:28193
+    source: table
+- id: 625-400-68
+  name: VES 400/68 (job 625)
+  elevation_m: 58
+  coords:
+    x: 148400
+    y: 897600
+    crs: EPSG:28193
+    source: table
+- id: 625-400-69
+  name: VES 400/69 (job 625)
+  elevation_m: 90
+  coords:
+    x: 149600
+    y: 902500
+    crs: EPSG:28193
+    source: table
+- id: 625-400-70
+  name: VES 400/70 (job 625)
+  elevation_m: 84
+  coords:
+    x: 150100
+    y: 902900
+    crs: EPSG:28193
+    source: table

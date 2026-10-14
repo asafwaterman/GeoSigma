@@ -1,0 +1,3589 @@
+[
+ {
+  "id": "paparo-1969-southern-arava-ves-625-250-1",
+  "survey": "paparo-1969-southern-arava",
+  "site": "625-250-1",
+  "method": "VES",
+  "level": "L2",
+  "representation": "model_1d",
+  "measured_on": null,
+  "confidence": "B",
+  "status": "draft",
+  "model_type": "layered",
+  "depth_max_m": 15,
+  "layers": [
+   {
+    "top_m": 0.0,
+    "bottom_m": 1.46,
+    "rho_ohmm": 0.6
+   },
+   {
+    "top_m": 1.46,
+    "bottom_m": 9.96,
+    "rho_ohmm": 3.0
+   },
+   {
+    "top_m": 9.96,
+    "bottom_m": null,
+    "rho_ohmm": 2.0
+   }
+  ],
+  "digitisation_error": "interfaces +-5% (box edges read on the AB/2 axis)",
+  "provenance": {
+   "document": "main",
+   "pages": [
+    2
+   ],
+   "figure": "VES sheet D.P. 250/1, job 625",
+   "method": "digitised_manual",
+   "tool": "edges from extraction/ves_edges_auto.json + reading by eye",
+   "extracted_on": "2026-10-14",
+   "notes": "Interface depths taken as the AB/2 of the box edges under the curve."
+  },
+  "notes": "The last layer is open-ended; the model does not state a DOI."
+ },
+ {
+  "id": "paparo-1969-southern-arava-ves-625-250-2",
+  "survey": "paparo-1969-southern-arava",
+  "site": "625-250-2",
+  "method": "VES",
+  "level": "L2",
+  "representation": "model_1d",
+  "measured_on": null,
+  "confidence": "B",
+  "status": "draft",
+  "model_type": "layered",
+  "depth_max_m": 24,
+  "layers": [
+   {
+    "top_m": 0.0,
+    "bottom_m": 1.1,
+    "rho_ohmm": 1.4
+   },
+   {
+    "top_m": 1.1,
+    "bottom_m": 15.93,
+    "rho_ohmm": 5.8
+   },
+   {
+    "top_m": 15.93,
+    "bottom_m": null,
+    "rho_ohmm": 2.9
+   }
+  ],
+  "digitisation_error": "interfaces +-5% (box edges read on the AB/2 axis)",
+  "provenance": {
+   "document": "main",
+   "pages": [
+    3
+   ],
+   "figure": "VES sheet D.P. 250/2, job 625",
+   "method": "digitised_manual",
+   "tool": "edges from extraction/ves_edges_auto.json + reading by eye",
+   "extracted_on": "2026-10-14",
+   "notes": "Interface depths taken as the AB/2 of the box edges under the curve."
+  },
+  "notes": "The first layer is under about 1.5 m thick and its base is approximate. The last layer is open-ended; the model does not state a DOI."
+ },
+ {
+  "id": "paparo-1969-southern-arava-ves-625-250-3",
+  "survey": "paparo-1969-southern-arava",
+  "site": "625-250-3",
+  "method": "VES",
+  "level": "L2",
+  "representation": "model_1d",
+  "measured_on": null,
+  "confidence": "B",
+  "status": "draft",
+  "model_type": "layered",
+  "depth_max_m": 12,
+  "layers": [
+   {
+    "top_m": 0.0,
+    "bottom_m": 7.91,
+    "rho_ohmm": 230.0
+   },
+   {
+    "top_m": 7.91,
+    "bottom_m": null,
+    "rho_ohmm": 34.0
+   }
+  ],
+  "digitisation_error": "interfaces +-5% (box edges read on the AB/2 axis)",
+  "provenance": {
+   "document": "main",
+   "pages": [
+    4
+   ],
+   "figure": "VES sheet D.P. 250/3, job 625",
+   "method": "digitised_manual",
+   "tool": "edges from extraction/ves_edges_auto.json + reading by eye",
+   "extracted_on": "2026-10-14",
+   "notes": "Interface depths taken as the AB/2 of the box edges under the curve."
+  },
+  "notes": "The last layer is open-ended; the model does not state a DOI."
+ },
+ {
+  "id": "paparo-1969-southern-arava-ves-625-250-5",
+  "survey": "paparo-1969-southern-arava",
+  "site": "625-250-5",
+  "method": "VES",
+  "level": "L2",
+  "representation": "model_1d",
+  "measured_on": null,
+  "confidence": "B",
+  "status": "draft",
+  "model_type": "layered",
+  "depth_max_m": 25,
+  "layers": [
+   {
+    "top_m": 0.0,
+    "bottom_m": 6.67,
+    "rho_ohmm": 14.0
+   },
+   {
+    "top_m": 6.67,
+    "bottom_m": 16.55,
+    "rho_ohmm": 2.8
+   },
+   {
+    "top_m": 16.55,
+    "bottom_m": null,
+    "rho_ohmm": 14.0
+   }
+  ],
+  "digitisation_error": "interfaces +-5% (box edges read on the AB/2 axis)",
+  "provenance": {
+   "document": "main",
+   "pages": [
+    5
+   ],
+   "figure": "VES sheet D.P. 250/5, job 625",
+   "method": "digitised_manual",
+   "tool": "edges from extraction/ves_edges_auto.json + reading by eye",
+   "extracted_on": "2026-10-14",
+   "notes": "Interface depths taken as the AB/2 of the box edges under the curve."
+  },
+  "notes": "The last layer is open-ended; the model does not state a DOI."
+ },
+ {
+  "id": "paparo-1969-southern-arava-ves-625-250-6",
+  "survey": "paparo-1969-southern-arava",
+  "site": "625-250-6",
+  "method": "VES",
+  "level": "L2",
+  "representation": "model_1d",
+  "measured_on": null,
+  "confidence": "B",
+  "status": "draft",
+  "model_type": "layered",
+  "depth_max_m": 26,
+  "layers": [
+   {
+    "top_m": 0.0,
+    "bottom_m": 1.1,
+    "rho_ohmm": 25.0
+   },
+   {
+    "top_m": 1.1,
+    "bottom_m": 11.6,
+    "rho_ohmm": 10.0
+   },
+   {
+    "top_m": 11.6,
+    "bottom_m": 17.56,
+    "rho_ohmm": 5.0
+   },
+   {
+    "top_m": 17.56,
+    "bottom_m": null,
+    "rho_ohmm": 10.8
+   }
+  ],
+  "digitisation_error": "interfaces +-5% (box edges read on the AB/2 axis)",
+  "provenance": {
+   "document": "main",
+   "pages": [
+    6
+   ],
+   "figure": "VES sheet D.P. 250/6, job 625",
+   "method": "digitised_manual",
+   "tool": "edges from extraction/ves_edges_auto.json + reading by eye",
+   "extracted_on": "2026-10-14",
+   "notes": "Interface depths taken as the AB/2 of the box edges under the curve."
+  },
+  "notes": "The first layer is under about 1.5 m thick and its base is approximate. The last layer is open-ended; the model does not state a DOI."
+ },
+ {
+  "id": "paparo-1969-southern-arava-ves-625-250-8",
+  "survey": "paparo-1969-southern-arava",
+  "site": "625-250-8",
+  "method": "VES",
+  "level": "L2",
+  "representation": "model_1d",
+  "measured_on": null,
+  "confidence": "B",
+  "status": "draft",
+  "model_type": "layered",
+  "depth_max_m": 132,
+  "layers": [
+   {
+    "top_m": 0.0,
+    "bottom_m": 2.04,
+    "rho_ohmm": 8.0
+   },
+   {
+    "top_m": 2.04,
+    "bottom_m": 21.39,
+    "rho_ohmm": 3.2
+   },
+   {
+    "top_m": 21.39,
+    "bottom_m": 87.99,
+    "rho_ohmm": 8.0
+   },
+   {
+    "top_m": 87.99,
+    "bottom_m": null,
+    "rho_ohmm": 3.2
+   }
+  ],
+  "digitisation_error": "interfaces +-5% (box edges read on the AB/2 axis)",
+  "provenance": {
+   "document": "main",
+   "pages": [
+    7
+   ],
+   "figure": "VES sheet D.P. 250/8, job 625",
+   "method": "digitised_manual",
+   "tool": "edges from extraction/ves_edges_auto.json + reading by eye",
+   "extracted_on": "2026-10-14",
+   "notes": "Interface depths taken as the AB/2 of the box edges under the curve."
+  },
+  "notes": "The last layer is open-ended; the model does not state a DOI."
+ },
+ {
+  "id": "paparo-1969-southern-arava-ves-625-250-10",
+  "survey": "paparo-1969-southern-arava",
+  "site": "625-250-10",
+  "method": "VES",
+  "level": "L2",
+  "representation": "model_1d",
+  "measured_on": null,
+  "confidence": "B",
+  "status": "draft",
+  "model_type": "layered",
+  "depth_max_m": 14,
+  "layers": [
+   {
+    "top_m": 0.0,
+    "bottom_m": 9.12,
+    "rho_ohmm": 46.0
+   },
+   {
+    "top_m": 9.12,
+    "bottom_m": null,
+    "rho_ohmm": 8.0
+   }
+  ],
+  "digitisation_error": "interfaces +-5% (box edges read on the AB/2 axis)",
+  "provenance": {
+   "document": "main",
+   "pages": [
+    8
+   ],
+   "figure": "VES sheet D.P. 250/10, job 625",
+   "method": "digitised_manual",
+   "tool": "edges from extraction/ves_edges_auto.json + reading by eye",
+   "extracted_on": "2026-10-14",
+   "notes": "Interface depths taken as the AB/2 of the box edges under the curve."
+  },
+  "notes": "Coordinates printed to 100 m. The last layer is open-ended; the model does not state a DOI."
+ },
+ {
+  "id": "paparo-1969-southern-arava-ves-625-250-12",
+  "survey": "paparo-1969-southern-arava",
+  "site": "625-250-12",
+  "method": "VES",
+  "level": "L2",
+  "representation": "model_1d",
+  "measured_on": null,
+  "confidence": "B",
+  "status": "draft",
+  "model_type": "layered",
+  "depth_max_m": 42,
+  "layers": [
+   {
+    "top_m": 0.0,
+    "bottom_m": 1.74,
+    "rho_ohmm": 70.0
+   },
+   {
+    "top_m": 1.74,
+    "bottom_m": 28.02,
+    "rho_ohmm": 14.0
+   },
+   {
+    "top_m": 28.02,
+    "bottom_m": null,
+    "rho_ohmm": 45.0
+   }
+  ],
+  "digitisation_error": "interfaces +-5% (box edges read on the AB/2 axis)",
+  "provenance": {
+   "document": "main",
+   "pages": [
+    9
+   ],
+   "figure": "VES sheet D.P. 250/12, job 625",
+   "method": "digitised_manual",
+   "tool": "edges from extraction/ves_edges_auto.json + reading by eye",
+   "extracted_on": "2026-10-14",
+   "notes": "Interface depths taken as the AB/2 of the box edges under the curve."
+  },
+  "notes": "Coordinates printed to 100 m. The last layer is open-ended; the model does not state a DOI."
+ },
+ {
+  "id": "paparo-1969-southern-arava-ves-625-250-13",
+  "survey": "paparo-1969-southern-arava",
+  "site": "625-250-13",
+  "method": "VES",
+  "level": "L2",
+  "representation": "model_1d",
+  "measured_on": null,
+  "confidence": "B",
+  "status": "draft",
+  "model_type": "layered",
+  "depth_max_m": 24,
+  "layers": [
+   {
+    "top_m": 0.0,
+    "bottom_m": 1.1,
+    "rho_ohmm": 70.0
+   },
+   {
+    "top_m": 1.1,
+    "bottom_m": 16.19,
+    "rho_ohmm": 14.0
+   },
+   {
+    "top_m": 16.19,
+    "bottom_m": null,
+    "rho_ohmm": 45.0
+   }
+  ],
+  "digitisation_error": "interfaces +-5% (box edges read on the AB/2 axis)",
+  "provenance": {
+   "document": "main",
+   "pages": [
+    10
+   ],
+   "figure": "VES sheet D.P. 250/13, job 625",
+   "method": "digitised_manual",
+   "tool": "edges from extraction/ves_edges_auto.json + reading by eye",
+   "extracted_on": "2026-10-14",
+   "notes": "Interface depths taken as the AB/2 of the box edges under the curve."
+  },
+  "notes": "Coordinates printed to 100 m. The first layer is under about 1.5 m thick and its base is approximate. The last layer is open-ended; the model does not state a DOI."
+ },
+ {
+  "id": "paparo-1969-southern-arava-ves-625-250-19",
+  "survey": "paparo-1969-southern-arava",
+  "site": "625-250-19",
+  "method": "VES",
+  "level": "L2",
+  "representation": "model_1d",
+  "measured_on": null,
+  "confidence": "B",
+  "status": "draft",
+  "model_type": "layered",
+  "depth_max_m": 45,
+  "layers": [
+   {
+    "top_m": 0.0,
+    "bottom_m": 1.1,
+    "rho_ohmm": 18.0
+   },
+   {
+    "top_m": 1.1,
+    "bottom_m": 3.1,
+    "rho_ohmm": 35.4
+   },
+   {
+    "top_m": 3.1,
+    "bottom_m": 7.51,
+    "rho_ohmm": 50.0
+   },
+   {
+    "top_m": 7.51,
+    "bottom_m": 30.2,
+    "rho_ohmm": 15.1
+   },
+   {
+    "top_m": 30.2,
+    "bottom_m": null,
+    "rho_ohmm": 23.0
+   }
+  ],
+  "digitisation_error": "interfaces +-5% (box edges read on the AB/2 axis)",
+  "provenance": {
+   "document": "main",
+   "pages": [
+    11
+   ],
+   "figure": "VES sheet D.P. 250/19, job 625",
+   "method": "digitised_manual",
+   "tool": "edges from extraction/ves_edges_auto.json + reading by eye",
+   "extracted_on": "2026-10-14",
+   "notes": "Interface depths taken as the AB/2 of the box edges under the curve."
+  },
+  "notes": "The first layer is under about 1.5 m thick and its base is approximate. The last layer is open-ended; the model does not state a DOI."
+ },
+ {
+  "id": "paparo-1969-southern-arava-ves-625-250-20",
+  "survey": "paparo-1969-southern-arava",
+  "site": "625-250-20",
+  "method": "VES",
+  "level": "L2",
+  "representation": "model_1d",
+  "measured_on": null,
+  "confidence": "B",
+  "status": "draft",
+  "model_type": "layered",
+  "depth_max_m": 11,
+  "layers": [
+   {
+    "top_m": 0.0,
+    "bottom_m": 3.57,
+    "rho_ohmm": 58.0
+   },
+   {
+    "top_m": 3.57,
+    "bottom_m": 7.16,
+    "rho_ohmm": 23.2
+   },
+   {
+    "top_m": 7.16,
+    "bottom_m": null,
+    "rho_ohmm": 7.6
+   }
+  ],
+  "digitisation_error": "interfaces +-5% (box edges read on the AB/2 axis)",
+  "provenance": {
+   "document": "main",
+   "pages": [
+    12
+   ],
+   "figure": "VES sheet D.P. 250/20, job 625",
+   "method": "digitised_manual",
+   "tool": "edges from extraction/ves_edges_auto.json + reading by eye",
+   "extracted_on": "2026-10-14",
+   "notes": "Interface depths taken as the AB/2 of the box edges under the curve."
+  },
+  "notes": "Coordinates printed to 100 m. The last layer is open-ended; the model does not state a DOI."
+ },
+ {
+  "id": "paparo-1969-southern-arava-ves-625-250-21",
+  "survey": "paparo-1969-southern-arava",
+  "site": "625-250-21",
+  "method": "VES",
+  "level": "L2",
+  "representation": "model_1d",
+  "measured_on": null,
+  "confidence": "B",
+  "status": "draft",
+  "model_type": "layered",
+  "depth_max_m": 83,
+  "layers": [
+   {
+    "top_m": 0.0,
+    "bottom_m": 1.92,
+    "rho_ohmm": 500.0
+   },
+   {
+    "top_m": 1.92,
+    "bottom_m": 8.61,
+    "rho_ohmm": 50.0
+   },
+   {
+    "top_m": 8.61,
+    "bottom_m": 23.05,
+    "rho_ohmm": 30.0
+   },
+   {
+    "top_m": 23.05,
+    "bottom_m": 55.05,
+    "rho_ohmm": 10.0
+   },
+   {
+    "top_m": 55.05,
+    "bottom_m": null,
+    "rho_ohmm": null,
+    "note": "printed as 'high' (Hebrew gavoha)",
+    "rho_min": 10.0
+   }
+  ],
+  "digitisation_error": "interfaces +-5% (box edges read on the AB/2 axis)",
+  "provenance": {
+   "document": "main",
+   "pages": [
+    13
+   ],
+   "figure": "VES sheet D.P. 250/21, job 625",
+   "method": "digitised_manual",
+   "tool": "edges from extraction/ves_edges_auto.json + reading by eye",
+   "extracted_on": "2026-10-14",
+   "notes": "Interface depths taken as the AB/2 of the box edges under the curve."
+  },
+  "notes": "The last layer is open-ended; the model does not state a DOI."
+ },
+ {
+  "id": "paparo-1969-southern-arava-ves-625-250-22",
+  "survey": "paparo-1969-southern-arava",
+  "site": "625-250-22",
+  "method": "VES",
+  "level": "L2",
+  "representation": "model_1d",
+  "measured_on": null,
+  "confidence": "B",
+  "status": "draft",
+  "model_type": "layered",
+  "depth_max_m": 35,
+  "layers": [
+   {
+    "top_m": 0.0,
+    "bottom_m": 1.54,
+    "rho_ohmm": 8.0
+   },
+   {
+    "top_m": 1.54,
+    "bottom_m": 23.1,
+    "rho_ohmm": 22.4
+   },
+   {
+    "top_m": 23.1,
+    "bottom_m": null,
+    "rho_ohmm": 12.6
+   }
+  ],
+  "digitisation_error": "interfaces +-5% (box edges read on the AB/2 axis)",
+  "provenance": {
+   "document": "main",
+   "pages": [
+    14
+   ],
+   "figure": "VES sheet D.P. 250/22, job 625",
+   "method": "digitised_manual",
+   "tool": "edges from extraction/ves_edges_auto.json + reading by eye",
+   "extracted_on": "2026-10-14",
+   "notes": "Interface depths taken as the AB/2 of the box edges under the curve."
+  },
+  "notes": "The last layer is open-ended; the model does not state a DOI."
+ },
+ {
+  "id": "paparo-1969-southern-arava-ves-625-250-25",
+  "survey": "paparo-1969-southern-arava",
+  "site": "625-250-25",
+  "method": "VES",
+  "level": "L2",
+  "representation": "model_1d",
+  "measured_on": null,
+  "confidence": "B",
+  "status": "draft",
+  "model_type": "layered",
+  "depth_max_m": 10,
+  "layers": [
+   {
+    "top_m": 0.0,
+    "bottom_m": 1.1,
+    "rho_ohmm": 0.6
+   },
+   {
+    "top_m": 1.1,
+    "bottom_m": 6.56,
+    "rho_ohmm": 5.3
+   },
+   {
+    "top_m": 6.56,
+    "bottom_m": null,
+    "rho_ohmm": 37.1
+   }
+  ],
+  "digitisation_error": "interfaces +-5% (box edges read on the AB/2 axis)",
+  "provenance": {
+   "document": "main",
+   "pages": [
+    15
+   ],
+   "figure": "VES sheet D.P. 250/25, job 625",
+   "method": "digitised_manual",
+   "tool": "edges from extraction/ves_edges_auto.json + reading by eye",
+   "extracted_on": "2026-10-14",
+   "notes": "Interface depths taken as the AB/2 of the box edges under the curve."
+  },
+  "notes": "The first layer is under about 1.5 m thick and its base is approximate. The last layer is open-ended; the model does not state a DOI."
+ },
+ {
+  "id": "paparo-1969-southern-arava-ves-625-400-1",
+  "survey": "paparo-1969-southern-arava",
+  "site": "625-400-1",
+  "method": "VES",
+  "level": "L2",
+  "representation": "model_1d",
+  "measured_on": null,
+  "confidence": "B",
+  "status": "draft",
+  "model_type": "layered",
+  "depth_max_m": 172,
+  "layers": [
+   {
+    "top_m": 0.0,
+    "bottom_m": 2.62,
+    "rho_ohmm": 30.0
+   },
+   {
+    "top_m": 2.62,
+    "bottom_m": 25.97,
+    "rho_ohmm": 6.6
+   },
+   {
+    "top_m": 25.97,
+    "bottom_m": 41.48,
+    "rho_ohmm": 10.2
+   },
+   {
+    "top_m": 41.48,
+    "bottom_m": 114.43,
+    "rho_ohmm": 5.0
+   },
+   {
+    "top_m": 114.43,
+    "bottom_m": null,
+    "rho_ohmm": 11.6
+   }
+  ],
+  "digitisation_error": "interfaces +-5% (box edges read on the AB/2 axis)",
+  "provenance": {
+   "document": "main",
+   "pages": [
+    16
+   ],
+   "figure": "VES sheet D.P. 400/1, job 625",
+   "method": "digitised_manual",
+   "tool": "edges from extraction/ves_edges_auto.json + reading by eye",
+   "extracted_on": "2026-10-14",
+   "notes": "Interface depths taken as the AB/2 of the box edges under the curve."
+  },
+  "notes": "The last layer is open-ended; the model does not state a DOI."
+ },
+ {
+  "id": "paparo-1969-southern-arava-ves-625-400-2",
+  "survey": "paparo-1969-southern-arava",
+  "site": "625-400-2",
+  "method": "VES",
+  "level": "L2",
+  "representation": "model_1d",
+  "measured_on": null,
+  "confidence": "B",
+  "status": "draft",
+  "model_type": "layered",
+  "depth_max_m": 123,
+  "layers": [
+   {
+    "top_m": 0.0,
+    "bottom_m": 1.2,
+    "rho_ohmm": 3.3
+   },
+   {
+    "top_m": 1.2,
+    "bottom_m": 11.81,
+    "rho_ohmm": 6.6
+   },
+   {
+    "top_m": 11.81,
+    "bottom_m": 81.98,
+    "rho_ohmm": 8.0
+   },
+   {
+    "top_m": 81.98,
+    "bottom_m": null,
+    "rho_ohmm": 11.7
+   }
+  ],
+  "digitisation_error": "interfaces +-5% (box edges read on the AB/2 axis)",
+  "provenance": {
+   "document": "main",
+   "pages": [
+    17
+   ],
+   "figure": "VES sheet D.P. 400/2, job 625",
+   "method": "digitised_manual",
+   "tool": "edges from extraction/ves_edges_auto.json + reading by eye",
+   "extracted_on": "2026-10-14",
+   "notes": "Interface depths taken as the AB/2 of the box edges under the curve."
+  },
+  "notes": "The first layer is under about 1.5 m thick and its base is approximate. The last layer is open-ended; the model does not state a DOI."
+ },
+ {
+  "id": "paparo-1969-southern-arava-ves-625-400-3",
+  "survey": "paparo-1969-southern-arava",
+  "site": "625-400-3",
+  "method": "VES",
+  "level": "L2",
+  "representation": "model_1d",
+  "measured_on": null,
+  "confidence": "B",
+  "status": "draft",
+  "model_type": "layered",
+  "depth_max_m": 36,
+  "layers": [
+   {
+    "top_m": 0.0,
+    "bottom_m": 1.18,
+    "rho_ohmm": 3.3
+   },
+   {
+    "top_m": 1.18,
+    "bottom_m": 23.99,
+    "rho_ohmm": 5.2
+   },
+   {
+    "top_m": 23.99,
+    "bottom_m": null,
+    "rho_ohmm": 7.8
+   }
+  ],
+  "digitisation_error": "interfaces +-5% (box edges read on the AB/2 axis)",
+  "provenance": {
+   "document": "main",
+   "pages": [
+    18
+   ],
+   "figure": "VES sheet D.P. 400/3, job 625",
+   "method": "digitised_manual",
+   "tool": "edges from extraction/ves_edges_auto.json + reading by eye",
+   "extracted_on": "2026-10-14",
+   "notes": "Interface depths taken as the AB/2 of the box edges under the curve."
+  },
+  "notes": "The first layer is under about 1.5 m thick and its base is approximate. The last layer is open-ended; the model does not state a DOI."
+ },
+ {
+  "id": "paparo-1969-southern-arava-ves-625-400-5",
+  "survey": "paparo-1969-southern-arava",
+  "site": "625-400-5",
+  "method": "VES",
+  "level": "L2",
+  "representation": "model_1d",
+  "measured_on": null,
+  "confidence": "B",
+  "status": "draft",
+  "model_type": "layered",
+  "depth_max_m": 125,
+  "layers": [
+   {
+    "top_m": 0.0,
+    "bottom_m": 1.96,
+    "rho_ohmm": 3.3
+   },
+   {
+    "top_m": 1.96,
+    "bottom_m": 24.33,
+    "rho_ohmm": 6.1
+   },
+   {
+    "top_m": 24.33,
+    "bottom_m": 83.47,
+    "rho_ohmm": 7.6
+   },
+   {
+    "top_m": 83.47,
+    "bottom_m": null,
+    "rho_ohmm": 11.0
+   }
+  ],
+  "digitisation_error": "interfaces +-5% (box edges read on the AB/2 axis)",
+  "provenance": {
+   "document": "main",
+   "pages": [
+    19
+   ],
+   "figure": "VES sheet D.P. 400/5, job 625",
+   "method": "digitised_manual",
+   "tool": "edges from extraction/ves_edges_auto.json + reading by eye",
+   "extracted_on": "2026-10-14",
+   "notes": "Interface depths taken as the AB/2 of the box edges under the curve."
+  },
+  "notes": "The last layer is open-ended; the model does not state a DOI."
+ },
+ {
+  "id": "paparo-1969-southern-arava-ves-625-400-6",
+  "survey": "paparo-1969-southern-arava",
+  "site": "625-400-6",
+  "method": "VES",
+  "level": "L2",
+  "representation": "model_1d",
+  "measured_on": null,
+  "confidence": "B",
+  "status": "draft",
+  "model_type": "layered",
+  "depth_max_m": 50,
+  "layers": [
+   {
+    "top_m": 0.0,
+    "bottom_m": 1.81,
+    "rho_ohmm": 80.0
+   },
+   {
+    "top_m": 1.81,
+    "bottom_m": 8.46,
+    "rho_ohmm": 32.0
+   },
+   {
+    "top_m": 8.46,
+    "bottom_m": 33.65,
+    "rho_ohmm": 4.1
+   },
+   {
+    "top_m": 33.65,
+    "bottom_m": null,
+    "rho_ohmm": 6.0
+   }
+  ],
+  "digitisation_error": "interfaces +-5% (box edges read on the AB/2 axis)",
+  "provenance": {
+   "document": "main",
+   "pages": [
+    20
+   ],
+   "figure": "VES sheet D.P. 400/6, job 625",
+   "method": "digitised_manual",
+   "tool": "edges from extraction/ves_edges_auto.json + reading by eye",
+   "extracted_on": "2026-10-14",
+   "notes": "Interface depths taken as the AB/2 of the box edges under the curve."
+  },
+  "notes": "The last layer is open-ended; the model does not state a DOI."
+ },
+ {
+  "id": "paparo-1969-southern-arava-ves-625-400-7",
+  "survey": "paparo-1969-southern-arava",
+  "site": "625-400-7",
+  "method": "VES",
+  "level": "L2",
+  "representation": "model_1d",
+  "measured_on": null,
+  "confidence": "B",
+  "status": "draft",
+  "model_type": "layered",
+  "depth_max_m": 23,
+  "layers": [
+   {
+    "top_m": 0.0,
+    "bottom_m": 4.01,
+    "rho_ohmm": 24.0
+   },
+   {
+    "top_m": 4.01,
+    "bottom_m": 15.1,
+    "rho_ohmm": 30.0
+   },
+   {
+    "top_m": 15.1,
+    "bottom_m": null,
+    "rho_ohmm": 5.8
+   }
+  ],
+  "digitisation_error": "interfaces +-5% (box edges read on the AB/2 axis)",
+  "provenance": {
+   "document": "main",
+   "pages": [
+    21
+   ],
+   "figure": "VES sheet D.P. 400/7, job 625",
+   "method": "digitised_manual",
+   "tool": "edges from extraction/ves_edges_auto.json + reading by eye",
+   "extracted_on": "2026-10-14",
+   "notes": "Interface depths taken as the AB/2 of the box edges under the curve."
+  },
+  "notes": "The last layer is open-ended; the model does not state a DOI."
+ },
+ {
+  "id": "paparo-1969-southern-arava-ves-625-400-8",
+  "survey": "paparo-1969-southern-arava",
+  "site": "625-400-8",
+  "method": "VES",
+  "level": "L2",
+  "representation": "model_1d",
+  "measured_on": null,
+  "confidence": "B",
+  "status": "draft",
+  "model_type": "layered",
+  "depth_max_m": 94,
+  "layers": [
+   {
+    "top_m": 0.0,
+    "bottom_m": 2.13,
+    "rho_ohmm": 14.0
+   },
+   {
+    "top_m": 2.13,
+    "bottom_m": 10.55,
+    "rho_ohmm": 4.9
+   },
+   {
+    "top_m": 10.55,
+    "bottom_m": 21.04,
+    "rho_ohmm": 10.8
+   },
+   {
+    "top_m": 21.04,
+    "bottom_m": 62.87,
+    "rho_ohmm": 4.85
+   },
+   {
+    "top_m": 62.87,
+    "bottom_m": null,
+    "rho_ohmm": 6.9
+   }
+  ],
+  "digitisation_error": "interfaces +-5% (box edges read on the AB/2 axis)",
+  "provenance": {
+   "document": "main",
+   "pages": [
+    22
+   ],
+   "figure": "VES sheet D.P. 400/8, job 625",
+   "method": "digitised_manual",
+   "tool": "edges from extraction/ves_edges_auto.json + reading by eye",
+   "extracted_on": "2026-10-14",
+   "notes": "Interface depths taken as the AB/2 of the box edges under the curve."
+  },
+  "notes": "The last layer is open-ended; the model does not state a DOI."
+ },
+ {
+  "id": "paparo-1969-southern-arava-ves-625-400-9",
+  "survey": "paparo-1969-southern-arava",
+  "site": "625-400-9",
+  "method": "VES",
+  "level": "L2",
+  "representation": "model_1d",
+  "measured_on": null,
+  "confidence": "B",
+  "status": "draft",
+  "model_type": "layered",
+  "depth_max_m": 107,
+  "layers": [
+   {
+    "top_m": 0.0,
+    "bottom_m": 1.58,
+    "rho_ohmm": 220.0
+   },
+   {
+    "top_m": 1.58,
+    "bottom_m": 9.22,
+    "rho_ohmm": 22.0
+   },
+   {
+    "top_m": 9.22,
+    "bottom_m": 37.48,
+    "rho_ohmm": 8.8
+   },
+   {
+    "top_m": 37.48,
+    "bottom_m": 71.42,
+    "rho_ohmm": 56.0
+   },
+   {
+    "top_m": 71.42,
+    "bottom_m": null,
+    "rho_ohmm": 6.2
+   }
+  ],
+  "digitisation_error": "interfaces +-5% (box edges read on the AB/2 axis)",
+  "provenance": {
+   "document": "main",
+   "pages": [
+    23
+   ],
+   "figure": "VES sheet D.P. 400/9, job 625",
+   "method": "digitised_manual",
+   "tool": "edges from extraction/ves_edges_auto.json + reading by eye",
+   "extracted_on": "2026-10-14",
+   "notes": "Interface depths taken as the AB/2 of the box edges under the curve."
+  },
+  "notes": "Coordinates printed to 100 m. The last layer is open-ended; the model does not state a DOI."
+ },
+ {
+  "id": "paparo-1969-southern-arava-ves-625-400-10",
+  "survey": "paparo-1969-southern-arava",
+  "site": "625-400-10",
+  "method": "VES",
+  "level": "L2",
+  "representation": "model_1d",
+  "measured_on": null,
+  "confidence": "B",
+  "status": "draft",
+  "model_type": "layered",
+  "depth_max_m": 34,
+  "layers": [
+   {
+    "top_m": 0.0,
+    "bottom_m": 1.11,
+    "rho_ohmm": 590.0
+   },
+   {
+    "top_m": 1.11,
+    "bottom_m": 4.34,
+    "rho_ohmm": 160.0
+   },
+   {
+    "top_m": 4.34,
+    "bottom_m": 22.66,
+    "rho_ohmm": 24.0
+   },
+   {
+    "top_m": 22.66,
+    "bottom_m": null,
+    "rho_ohmm": 12.0
+   }
+  ],
+  "digitisation_error": "interfaces +-5% (box edges read on the AB/2 axis)",
+  "provenance": {
+   "document": "main",
+   "pages": [
+    24
+   ],
+   "figure": "VES sheet D.P. 400/10, job 625",
+   "method": "digitised_manual",
+   "tool": "edges from extraction/ves_edges_auto.json + reading by eye",
+   "extracted_on": "2026-10-14",
+   "notes": "Interface depths taken as the AB/2 of the box edges under the curve."
+  },
+  "notes": "Coordinates printed to 100 m. The first layer is under about 1.5 m thick and its base is approximate. The last layer is open-ended; the model does not state a DOI."
+ },
+ {
+  "id": "paparo-1969-southern-arava-ves-625-400-12",
+  "survey": "paparo-1969-southern-arava",
+  "site": "625-400-12",
+  "method": "VES",
+  "level": "L2",
+  "representation": "model_1d",
+  "measured_on": null,
+  "confidence": "B",
+  "status": "draft",
+  "model_type": "layered",
+  "depth_max_m": 124,
+  "layers": [
+   {
+    "top_m": 0.0,
+    "bottom_m": 4.77,
+    "rho_ohmm": 840.0
+   },
+   {
+    "top_m": 4.77,
+    "bottom_m": 17.09,
+    "rho_ohmm": 8.4
+   },
+   {
+    "top_m": 17.09,
+    "bottom_m": 82.37,
+    "rho_ohmm": 62.0
+   },
+   {
+    "top_m": 82.37,
+    "bottom_m": null,
+    "rho_ohmm": 6.4
+   }
+  ],
+  "digitisation_error": "interfaces +-5% (box edges read on the AB/2 axis)",
+  "provenance": {
+   "document": "main",
+   "pages": [
+    25
+   ],
+   "figure": "VES sheet D.P. 400/12, job 625",
+   "method": "digitised_manual",
+   "tool": "edges from extraction/ves_edges_auto.json + reading by eye",
+   "extracted_on": "2026-10-14",
+   "notes": "Interface depths taken as the AB/2 of the box edges under the curve."
+  },
+  "notes": "Coordinates printed to 100 m. The last layer is open-ended; the model does not state a DOI."
+ },
+ {
+  "id": "paparo-1969-southern-arava-ves-625-400-13",
+  "survey": "paparo-1969-southern-arava",
+  "site": "625-400-13",
+  "method": "VES",
+  "level": "L2",
+  "representation": "model_1d",
+  "measured_on": null,
+  "confidence": "B",
+  "status": "draft",
+  "model_type": "layered",
+  "depth_max_m": 88,
+  "layers": [
+   {
+    "top_m": 0.0,
+    "bottom_m": 8.75,
+    "rho_ohmm": 320.0
+   },
+   {
+    "top_m": 8.75,
+    "bottom_m": 58.56,
+    "rho_ohmm": 48.0
+   },
+   {
+    "top_m": 58.56,
+    "bottom_m": null,
+    "rho_ohmm": 6.2
+   }
+  ],
+  "digitisation_error": "interfaces +-5% (box edges read on the AB/2 axis)",
+  "provenance": {
+   "document": "main",
+   "pages": [
+    26
+   ],
+   "figure": "VES sheet D.P. 400/13, job 625",
+   "method": "digitised_manual",
+   "tool": "edges from extraction/ves_edges_auto.json + reading by eye",
+   "extracted_on": "2026-10-14",
+   "notes": "Interface depths taken as the AB/2 of the box edges under the curve."
+  },
+  "notes": "Coordinates printed to 100 m. The last layer is open-ended; the model does not state a DOI."
+ },
+ {
+  "id": "paparo-1969-southern-arava-ves-625-400-14",
+  "survey": "paparo-1969-southern-arava",
+  "site": "625-400-14",
+  "method": "VES",
+  "level": "L2",
+  "representation": "model_1d",
+  "measured_on": null,
+  "confidence": "B",
+  "status": "draft",
+  "model_type": "layered",
+  "depth_max_m": 107,
+  "layers": [
+   {
+    "top_m": 0.0,
+    "bottom_m": 1.43,
+    "rho_ohmm": 660.0
+   },
+   {
+    "top_m": 1.43,
+    "bottom_m": 9.65,
+    "rho_ohmm": 99.0
+   },
+   {
+    "top_m": 9.65,
+    "bottom_m": 71.32,
+    "rho_ohmm": 40.8
+   },
+   {
+    "top_m": 71.32,
+    "bottom_m": null,
+    "rho_ohmm": 6.3
+   }
+  ],
+  "digitisation_error": "interfaces +-5% (box edges read on the AB/2 axis)",
+  "provenance": {
+   "document": "main",
+   "pages": [
+    27
+   ],
+   "figure": "VES sheet D.P. 400/14, job 625",
+   "method": "digitised_manual",
+   "tool": "edges from extraction/ves_edges_auto.json + reading by eye",
+   "extracted_on": "2026-10-14",
+   "notes": "Interface depths taken as the AB/2 of the box edges under the curve."
+  },
+  "notes": "Coordinates printed to 100 m. The last layer is open-ended; the model does not state a DOI."
+ },
+ {
+  "id": "paparo-1969-southern-arava-ves-625-400-15",
+  "survey": "paparo-1969-southern-arava",
+  "site": "625-400-15",
+  "method": "VES",
+  "level": "L2",
+  "representation": "model_1d",
+  "measured_on": null,
+  "confidence": "B",
+  "status": "draft",
+  "model_type": "layered",
+  "depth_max_m": 36,
+  "layers": [
+   {
+    "top_m": 0.0,
+    "bottom_m": 3.7,
+    "rho_ohmm": 13.0
+   },
+   {
+    "top_m": 3.7,
+    "bottom_m": 24.22,
+    "rho_ohmm": 91.0
+   },
+   {
+    "top_m": 24.22,
+    "bottom_m": null,
+    "rho_ohmm": 18.0
+   }
+  ],
+  "digitisation_error": "interfaces +-5% (box edges read on the AB/2 axis)",
+  "provenance": {
+   "document": "main",
+   "pages": [
+    28
+   ],
+   "figure": "VES sheet D.P. 400/15, job 625",
+   "method": "digitised_manual",
+   "tool": "edges from extraction/ves_edges_auto.json + reading by eye",
+   "extracted_on": "2026-10-14",
+   "notes": "Interface depths taken as the AB/2 of the box edges under the curve."
+  },
+  "notes": "Coordinates printed to 100 m. The last layer is open-ended; the model does not state a DOI."
+ },
+ {
+  "id": "paparo-1969-southern-arava-ves-625-400-16",
+  "survey": "paparo-1969-southern-arava",
+  "site": "625-400-16",
+  "method": "VES",
+  "level": "L2",
+  "representation": "model_1d",
+  "measured_on": null,
+  "confidence": "B",
+  "status": "draft",
+  "model_type": "layered",
+  "depth_max_m": 38,
+  "layers": [
+   {
+    "top_m": 0.0,
+    "bottom_m": 1.84,
+    "rho_ohmm": 38.0
+   },
+   {
+    "top_m": 1.84,
+    "bottom_m": 25.19,
+    "rho_ohmm": 51.0
+   },
+   {
+    "top_m": 25.19,
+    "bottom_m": null,
+    "rho_ohmm": 15.3
+   }
+  ],
+  "digitisation_error": "interfaces +-5% (box edges read on the AB/2 axis)",
+  "provenance": {
+   "document": "main",
+   "pages": [
+    29
+   ],
+   "figure": "VES sheet D.P. 400/16, job 625",
+   "method": "digitised_manual",
+   "tool": "edges from extraction/ves_edges_auto.json + reading by eye",
+   "extracted_on": "2026-10-14",
+   "notes": "Interface depths taken as the AB/2 of the box edges under the curve."
+  },
+  "notes": "Coordinates printed to 100 m. The last layer is open-ended; the model does not state a DOI."
+ },
+ {
+  "id": "paparo-1969-southern-arava-ves-625-400-17",
+  "survey": "paparo-1969-southern-arava",
+  "site": "625-400-17",
+  "method": "VES",
+  "level": "L2",
+  "representation": "model_1d",
+  "measured_on": null,
+  "confidence": "B",
+  "status": "draft",
+  "model_type": "layered",
+  "depth_max_m": 10,
+  "layers": [
+   {
+    "top_m": 0.0,
+    "bottom_m": 1.39,
+    "rho_ohmm": 170.0
+   },
+   {
+    "top_m": 1.39,
+    "bottom_m": 6.42,
+    "rho_ohmm": 136.0
+   },
+   {
+    "top_m": 6.42,
+    "bottom_m": null,
+    "rho_ohmm": 16.5
+   }
+  ],
+  "digitisation_error": "interfaces +-5% (box edges read on the AB/2 axis)",
+  "provenance": {
+   "document": "main",
+   "pages": [
+    30
+   ],
+   "figure": "VES sheet D.P. 400/17, job 625",
+   "method": "digitised_manual",
+   "tool": "edges from extraction/ves_edges_auto.json + reading by eye",
+   "extracted_on": "2026-10-14",
+   "notes": "Interface depths taken as the AB/2 of the box edges under the curve."
+  },
+  "notes": "Coordinates printed to 100 m. The first layer is under about 1.5 m thick and its base is approximate. The last layer is open-ended; the model does not state a DOI."
+ },
+ {
+  "id": "paparo-1969-southern-arava-ves-625-400-18",
+  "survey": "paparo-1969-southern-arava",
+  "site": "625-400-18",
+  "method": "VES",
+  "level": "L2",
+  "representation": "model_1d",
+  "measured_on": null,
+  "confidence": "B",
+  "status": "draft",
+  "model_type": "layered",
+  "depth_max_m": 9,
+  "layers": [
+   {
+    "top_m": 0.0,
+    "bottom_m": 1.1,
+    "rho_ohmm": 105.0
+   },
+   {
+    "top_m": 1.1,
+    "bottom_m": 6.26,
+    "rho_ohmm": 132.5
+   },
+   {
+    "top_m": 6.26,
+    "bottom_m": null,
+    "rho_ohmm": 14.2
+   }
+  ],
+  "digitisation_error": "interfaces +-5% (box edges read on the AB/2 axis)",
+  "provenance": {
+   "document": "main",
+   "pages": [
+    31
+   ],
+   "figure": "VES sheet D.P. 400/18, job 625",
+   "method": "digitised_manual",
+   "tool": "edges from extraction/ves_edges_auto.json + reading by eye",
+   "extracted_on": "2026-10-14",
+   "notes": "Interface depths taken as the AB/2 of the box edges under the curve."
+  },
+  "notes": "Coordinates printed to 100 m. The first layer is under about 1.5 m thick and its base is approximate. The last layer is open-ended; the model does not state a DOI."
+ },
+ {
+  "id": "paparo-1969-southern-arava-ves-625-400-19",
+  "survey": "paparo-1969-southern-arava",
+  "site": "625-400-19",
+  "method": "VES",
+  "level": "L2",
+  "representation": "model_1d",
+  "measured_on": null,
+  "confidence": "B",
+  "status": "draft",
+  "model_type": "layered",
+  "depth_max_m": 72,
+  "layers": [
+   {
+    "top_m": 0.0,
+    "bottom_m": 1.1,
+    "rho_ohmm": 21.0
+   },
+   {
+    "top_m": 1.1,
+    "bottom_m": 9.05,
+    "rho_ohmm": 52.0
+   },
+   {
+    "top_m": 9.05,
+    "bottom_m": 47.81,
+    "rho_ohmm": 10.1
+   },
+   {
+    "top_m": 47.81,
+    "bottom_m": null,
+    "rho_ohmm": 17.2
+   }
+  ],
+  "digitisation_error": "interfaces +-5% (box edges read on the AB/2 axis)",
+  "provenance": {
+   "document": "main",
+   "pages": [
+    32
+   ],
+   "figure": "VES sheet D.P. 400/19, job 625",
+   "method": "digitised_manual",
+   "tool": "edges from extraction/ves_edges_auto.json + reading by eye",
+   "extracted_on": "2026-10-14",
+   "notes": "Interface depths taken as the AB/2 of the box edges under the curve."
+  },
+  "notes": "Coordinates printed to 100 m. The first layer is under about 1.5 m thick and its base is approximate. The last layer is open-ended; the model does not state a DOI."
+ },
+ {
+  "id": "paparo-1969-southern-arava-ves-625-400-20",
+  "survey": "paparo-1969-southern-arava",
+  "site": "625-400-20",
+  "method": "VES",
+  "level": "L2",
+  "representation": "model_1d",
+  "measured_on": null,
+  "confidence": "B",
+  "status": "draft",
+  "model_type": "layered",
+  "depth_max_m": 84,
+  "layers": [
+   {
+    "top_m": 0.0,
+    "bottom_m": 1.13,
+    "rho_ohmm": 38.0
+   },
+   {
+    "top_m": 1.13,
+    "bottom_m": 11.2,
+    "rho_ohmm": 30.4
+   },
+   {
+    "top_m": 11.2,
+    "bottom_m": 55.69,
+    "rho_ohmm": 7.6
+   },
+   {
+    "top_m": 55.69,
+    "bottom_m": null,
+    "rho_ohmm": 18.0
+   }
+  ],
+  "digitisation_error": "interfaces +-5% (box edges read on the AB/2 axis)",
+  "provenance": {
+   "document": "main",
+   "pages": [
+    33
+   ],
+   "figure": "VES sheet D.P. 400/20, job 625",
+   "method": "digitised_manual",
+   "tool": "edges from extraction/ves_edges_auto.json + reading by eye",
+   "extracted_on": "2026-10-14",
+   "notes": "Interface depths taken as the AB/2 of the box edges under the curve."
+  },
+  "notes": "Coordinates printed to 100 m. The first layer is under about 1.5 m thick and its base is approximate. The last layer is open-ended; the model does not state a DOI."
+ },
+ {
+  "id": "paparo-1969-southern-arava-ves-625-400-22",
+  "survey": "paparo-1969-southern-arava",
+  "site": "625-400-22",
+  "method": "VES",
+  "level": "L2",
+  "representation": "model_1d",
+  "measured_on": null,
+  "confidence": "B",
+  "status": "draft",
+  "model_type": "layered",
+  "depth_max_m": 33,
+  "layers": [
+   {
+    "top_m": 0.0,
+    "bottom_m": 1.1,
+    "rho_ohmm": 17.0
+   },
+   {
+    "top_m": 1.1,
+    "bottom_m": 11.05,
+    "rho_ohmm": 25.5
+   },
+   {
+    "top_m": 11.05,
+    "bottom_m": 22.01,
+    "rho_ohmm": 3.7
+   },
+   {
+    "top_m": 22.01,
+    "bottom_m": null,
+    "rho_ohmm": 10.5
+   }
+  ],
+  "digitisation_error": "interfaces +-5% (box edges read on the AB/2 axis)",
+  "provenance": {
+   "document": "main",
+   "pages": [
+    34
+   ],
+   "figure": "VES sheet D.P. 400/22, job 625",
+   "method": "digitised_manual",
+   "tool": "edges from extraction/ves_edges_auto.json + reading by eye",
+   "extracted_on": "2026-10-14",
+   "notes": "Interface depths taken as the AB/2 of the box edges under the curve."
+  },
+  "notes": "The first layer is under about 1.5 m thick and its base is approximate. The last layer is open-ended; the model does not state a DOI."
+ },
+ {
+  "id": "paparo-1969-southern-arava-ves-625-400-23",
+  "survey": "paparo-1969-southern-arava",
+  "site": "625-400-23",
+  "method": "VES",
+  "level": "L2",
+  "representation": "model_1d",
+  "measured_on": null,
+  "confidence": "B",
+  "status": "draft",
+  "model_type": "layered",
+  "depth_max_m": 23,
+  "layers": [
+   {
+    "top_m": 0.0,
+    "bottom_m": 1.43,
+    "rho_ohmm": 13.0
+   },
+   {
+    "top_m": 1.43,
+    "bottom_m": 6.13,
+    "rho_ohmm": 23.5
+   },
+   {
+    "top_m": 6.13,
+    "bottom_m": 15.25,
+    "rho_ohmm": 4.1
+   },
+   {
+    "top_m": 15.25,
+    "bottom_m": null,
+    "rho_ohmm": 9.5
+   }
+  ],
+  "digitisation_error": "interfaces +-5% (box edges read on the AB/2 axis)",
+  "provenance": {
+   "document": "main",
+   "pages": [
+    35
+   ],
+   "figure": "VES sheet D.P. 400/23, job 625",
+   "method": "digitised_manual",
+   "tool": "edges from extraction/ves_edges_auto.json + reading by eye",
+   "extracted_on": "2026-10-14",
+   "notes": "Interface depths taken as the AB/2 of the box edges under the curve."
+  },
+  "notes": "The last layer is open-ended; the model does not state a DOI."
+ },
+ {
+  "id": "paparo-1969-southern-arava-ves-625-400-24",
+  "survey": "paparo-1969-southern-arava",
+  "site": "625-400-24",
+  "method": "VES",
+  "level": "L2",
+  "representation": "model_1d",
+  "measured_on": null,
+  "confidence": "B",
+  "status": "draft",
+  "model_type": "layered",
+  "depth_max_m": 55,
+  "layers": [
+   {
+    "top_m": 0.0,
+    "bottom_m": 3.74,
+    "rho_ohmm": 18.5
+   },
+   {
+    "top_m": 3.74,
+    "bottom_m": 36.38,
+    "rho_ohmm": 5.55
+   },
+   {
+    "top_m": 36.38,
+    "bottom_m": null,
+    "rho_ohmm": 9.0
+   }
+  ],
+  "digitisation_error": "interfaces +-5% (box edges read on the AB/2 axis)",
+  "provenance": {
+   "document": "main",
+   "pages": [
+    36
+   ],
+   "figure": "VES sheet D.P. 400/24, job 625",
+   "method": "digitised_manual",
+   "tool": "edges from extraction/ves_edges_auto.json + reading by eye",
+   "extracted_on": "2026-10-14",
+   "notes": "Interface depths taken as the AB/2 of the box edges under the curve."
+  },
+  "notes": "The last layer is open-ended; the model does not state a DOI."
+ },
+ {
+  "id": "paparo-1969-southern-arava-ves-625-400-25",
+  "survey": "paparo-1969-southern-arava",
+  "site": "625-400-25",
+  "method": "VES",
+  "level": "L2",
+  "representation": "model_1d",
+  "measured_on": null,
+  "confidence": "B",
+  "status": "draft",
+  "model_type": "layered",
+  "depth_max_m": 29,
+  "layers": [
+   {
+    "top_m": 0.0,
+    "bottom_m": 1.14,
+    "rho_ohmm": 16.0
+   },
+   {
+    "top_m": 1.14,
+    "bottom_m": 6.51,
+    "rho_ohmm": 25.4
+   },
+   {
+    "top_m": 6.51,
+    "bottom_m": 19.28,
+    "rho_ohmm": 3.6
+   },
+   {
+    "top_m": 19.28,
+    "bottom_m": null,
+    "rho_ohmm": 6.4
+   }
+  ],
+  "digitisation_error": "interfaces +-5% (box edges read on the AB/2 axis)",
+  "provenance": {
+   "document": "main",
+   "pages": [
+    37
+   ],
+   "figure": "VES sheet D.P. 400/25, job 625",
+   "method": "digitised_manual",
+   "tool": "edges from extraction/ves_edges_auto.json + reading by eye",
+   "extracted_on": "2026-10-14",
+   "notes": "Interface depths taken as the AB/2 of the box edges under the curve."
+  },
+  "notes": "The first layer is under about 1.5 m thick and its base is approximate. The last layer is open-ended; the model does not state a DOI."
+ },
+ {
+  "id": "paparo-1969-southern-arava-ves-625-400-26",
+  "survey": "paparo-1969-southern-arava",
+  "site": "625-400-26",
+  "method": "VES",
+  "level": "L2",
+  "representation": "model_1d",
+  "measured_on": null,
+  "confidence": "B",
+  "status": "draft",
+  "model_type": "layered",
+  "depth_max_m": 35,
+  "layers": [
+   {
+    "top_m": 0.0,
+    "bottom_m": 4.06,
+    "rho_ohmm": 8.8
+   },
+   {
+    "top_m": 4.06,
+    "bottom_m": 23.35,
+    "rho_ohmm": 3.6
+   },
+   {
+    "top_m": 23.35,
+    "bottom_m": null,
+    "rho_ohmm": 5.7
+   }
+  ],
+  "digitisation_error": "interfaces +-5% (box edges read on the AB/2 axis)",
+  "provenance": {
+   "document": "main",
+   "pages": [
+    38
+   ],
+   "figure": "VES sheet D.P. 400/26, job 625",
+   "method": "digitised_manual",
+   "tool": "edges from extraction/ves_edges_auto.json + reading by eye",
+   "extracted_on": "2026-10-14",
+   "notes": "Interface depths taken as the AB/2 of the box edges under the curve."
+  },
+  "notes": "The last layer is open-ended; the model does not state a DOI."
+ },
+ {
+  "id": "paparo-1969-southern-arava-ves-625-400-27",
+  "survey": "paparo-1969-southern-arava",
+  "site": "625-400-27",
+  "method": "VES",
+  "level": "L2",
+  "representation": "model_1d",
+  "measured_on": null,
+  "confidence": "B",
+  "status": "draft",
+  "model_type": "layered",
+  "depth_max_m": 62,
+  "layers": [
+   {
+    "top_m": 0.0,
+    "bottom_m": 2.62,
+    "rho_ohmm": 13.0
+   },
+   {
+    "top_m": 2.62,
+    "bottom_m": 41.63,
+    "rho_ohmm": 3.6
+   },
+   {
+    "top_m": 41.63,
+    "bottom_m": null,
+    "rho_ohmm": 7.8
+   }
+  ],
+  "digitisation_error": "interfaces +-5% (box edges read on the AB/2 axis)",
+  "provenance": {
+   "document": "main",
+   "pages": [
+    39
+   ],
+   "figure": "VES sheet D.P. 400/27, job 625",
+   "method": "digitised_manual",
+   "tool": "edges from extraction/ves_edges_auto.json + reading by eye",
+   "extracted_on": "2026-10-14",
+   "notes": "Interface depths taken as the AB/2 of the box edges under the curve."
+  },
+  "notes": "The last layer is open-ended; the model does not state a DOI."
+ },
+ {
+  "id": "paparo-1969-southern-arava-ves-625-400-28",
+  "survey": "paparo-1969-southern-arava",
+  "site": "625-400-28",
+  "method": "VES",
+  "level": "L2",
+  "representation": "model_1d",
+  "measured_on": null,
+  "confidence": "B",
+  "status": "draft",
+  "model_type": "layered",
+  "depth_max_m": 24,
+  "layers": [
+   {
+    "top_m": 0.0,
+    "bottom_m": 4.57,
+    "rho_ohmm": 14.0
+   },
+   {
+    "top_m": 4.57,
+    "bottom_m": 16.14,
+    "rho_ohmm": 2.8
+   },
+   {
+    "top_m": 16.14,
+    "bottom_m": null,
+    "rho_ohmm": 5.6
+   }
+  ],
+  "digitisation_error": "interfaces +-5% (box edges read on the AB/2 axis)",
+  "provenance": {
+   "document": "main",
+   "pages": [
+    40
+   ],
+   "figure": "VES sheet D.P. 400/28, job 625",
+   "method": "digitised_manual",
+   "tool": "edges from extraction/ves_edges_auto.json + reading by eye",
+   "extracted_on": "2026-10-14",
+   "notes": "Interface depths taken as the AB/2 of the box edges under the curve."
+  },
+  "notes": "The last layer is open-ended; the model does not state a DOI."
+ },
+ {
+  "id": "paparo-1969-southern-arava-ves-625-400-29",
+  "survey": "paparo-1969-southern-arava",
+  "site": "625-400-29",
+  "method": "VES",
+  "level": "L2",
+  "representation": "model_1d",
+  "measured_on": null,
+  "confidence": "B",
+  "status": "draft",
+  "model_type": "layered",
+  "depth_max_m": 117,
+  "layers": [
+   {
+    "top_m": 0.0,
+    "bottom_m": 3.05,
+    "rho_ohmm": 21.0
+   },
+   {
+    "top_m": 3.05,
+    "bottom_m": 78.04,
+    "rho_ohmm": 4.2
+   },
+   {
+    "top_m": 78.04,
+    "bottom_m": null,
+    "rho_ohmm": 13.5
+   }
+  ],
+  "digitisation_error": "interfaces +-5% (box edges read on the AB/2 axis)",
+  "provenance": {
+   "document": "main",
+   "pages": [
+    41
+   ],
+   "figure": "VES sheet D.P. 400/29, job 625",
+   "method": "digitised_manual",
+   "tool": "edges from extraction/ves_edges_auto.json + reading by eye",
+   "extracted_on": "2026-10-14",
+   "notes": "Interface depths taken as the AB/2 of the box edges under the curve."
+  },
+  "notes": "The last layer is open-ended; the model does not state a DOI."
+ },
+ {
+  "id": "paparo-1969-southern-arava-ves-625-400-30",
+  "survey": "paparo-1969-southern-arava",
+  "site": "625-400-30",
+  "method": "VES",
+  "level": "L2",
+  "representation": "model_1d",
+  "measured_on": null,
+  "confidence": "B",
+  "status": "draft",
+  "model_type": "layered",
+  "depth_max_m": 40,
+  "layers": [
+   {
+    "top_m": 0.0,
+    "bottom_m": 1.1,
+    "rho_ohmm": 2.5
+   },
+   {
+    "top_m": 1.1,
+    "bottom_m": 3.0,
+    "rho_ohmm": 6.3
+   },
+   {
+    "top_m": 3.0,
+    "bottom_m": 27.0,
+    "rho_ohmm": 2.56
+   },
+   {
+    "top_m": 27.0,
+    "bottom_m": null,
+    "rho_ohmm": 6.4
+   }
+  ],
+  "digitisation_error": "interfaces +-5% (box edges read on the AB/2 axis)",
+  "provenance": {
+   "document": "main",
+   "pages": [
+    42
+   ],
+   "figure": "VES sheet D.P. 400/30, job 625",
+   "method": "digitised_manual",
+   "tool": "reading by eye (values and edges)",
+   "extracted_on": "2026-10-14",
+   "notes": "Interface depths taken as the AB/2 of the box edges under the curve."
+  },
+  "notes": "The first layer is under about 1.5 m thick and its base is approximate. The last layer is open-ended; the model does not state a DOI."
+ },
+ {
+  "id": "paparo-1969-southern-arava-ves-625-400-31",
+  "survey": "paparo-1969-southern-arava",
+  "site": "625-400-31",
+  "method": "VES",
+  "level": "L2",
+  "representation": "model_1d",
+  "measured_on": null,
+  "confidence": "B",
+  "status": "draft",
+  "model_type": "layered",
+  "depth_max_m": 4,
+  "layers": [
+   {
+    "top_m": 0.0,
+    "bottom_m": 2.63,
+    "rho_ohmm": 0.74
+   },
+   {
+    "top_m": 2.63,
+    "bottom_m": null,
+    "rho_ohmm": 5.92
+   }
+  ],
+  "digitisation_error": "interfaces +-5% (box edges read on the AB/2 axis)",
+  "provenance": {
+   "document": "main",
+   "pages": [
+    43
+   ],
+   "figure": "VES sheet D.P. 400/31, job 625",
+   "method": "digitised_manual",
+   "tool": "edges from extraction/ves_edges_auto.json + reading by eye",
+   "extracted_on": "2026-10-14",
+   "notes": "Interface depths taken as the AB/2 of the box edges under the curve."
+  },
+  "notes": "The last layer is open-ended; the model does not state a DOI."
+ },
+ {
+  "id": "paparo-1969-southern-arava-ves-625-400-32",
+  "survey": "paparo-1969-southern-arava",
+  "site": "625-400-32",
+  "method": "VES",
+  "level": "L2",
+  "representation": "model_1d",
+  "measured_on": null,
+  "confidence": "B",
+  "status": "draft",
+  "model_type": "layered",
+  "depth_max_m": 24,
+  "layers": [
+   {
+    "top_m": 0.0,
+    "bottom_m": 2.42,
+    "rho_ohmm": 28.0
+   },
+   {
+    "top_m": 2.42,
+    "bottom_m": 16.14,
+    "rho_ohmm": 4.2
+   },
+   {
+    "top_m": 16.14,
+    "bottom_m": null,
+    "rho_ohmm": 7.2
+   }
+  ],
+  "digitisation_error": "interfaces +-5% (box edges read on the AB/2 axis)",
+  "provenance": {
+   "document": "main",
+   "pages": [
+    44
+   ],
+   "figure": "VES sheet D.P. 400/32, job 625",
+   "method": "digitised_manual",
+   "tool": "edges from extraction/ves_edges_auto.json + reading by eye",
+   "extracted_on": "2026-10-14",
+   "notes": "Interface depths taken as the AB/2 of the box edges under the curve."
+  },
+  "notes": "The last layer is open-ended; the model does not state a DOI."
+ },
+ {
+  "id": "paparo-1969-southern-arava-ves-625-400-33",
+  "survey": "paparo-1969-southern-arava",
+  "site": "625-400-33",
+  "method": "VES",
+  "level": "L2",
+  "representation": "model_1d",
+  "measured_on": null,
+  "confidence": "B",
+  "status": "draft",
+  "model_type": "layered",
+  "depth_max_m": 126,
+  "layers": [
+   {
+    "top_m": 0.0,
+    "bottom_m": 1.1,
+    "rho_ohmm": 4.2
+   },
+   {
+    "top_m": 1.1,
+    "bottom_m": 7.11,
+    "rho_ohmm": 6.3
+   },
+   {
+    "top_m": 7.11,
+    "bottom_m": 83.72,
+    "rho_ohmm": 2.4
+   },
+   {
+    "top_m": 83.72,
+    "bottom_m": null,
+    "rho_ohmm": 6.25
+   }
+  ],
+  "digitisation_error": "interfaces +-5% (box edges read on the AB/2 axis)",
+  "provenance": {
+   "document": "main",
+   "pages": [
+    45
+   ],
+   "figure": "VES sheet D.P. 400/33, job 625",
+   "method": "digitised_manual",
+   "tool": "edges from extraction/ves_edges_auto.json + reading by eye",
+   "extracted_on": "2026-10-14",
+   "notes": "Interface depths taken as the AB/2 of the box edges under the curve."
+  },
+  "notes": "The first layer is under about 1.5 m thick and its base is approximate. The last layer is open-ended; the model does not state a DOI."
+ },
+ {
+  "id": "paparo-1969-southern-arava-ves-625-400-34",
+  "survey": "paparo-1969-southern-arava",
+  "site": "625-400-34",
+  "method": "VES",
+  "level": "L2",
+  "representation": "model_1d",
+  "measured_on": null,
+  "confidence": "B",
+  "status": "draft",
+  "model_type": "layered",
+  "depth_max_m": 13,
+  "layers": [
+   {
+    "top_m": 0.0,
+    "bottom_m": 4.03,
+    "rho_ohmm": 3.8
+   },
+   {
+    "top_m": 4.03,
+    "bottom_m": 8.49,
+    "rho_ohmm": 1.52
+   },
+   {
+    "top_m": 8.49,
+    "bottom_m": null,
+    "rho_ohmm": 5.0
+   }
+  ],
+  "digitisation_error": "interfaces +-5% (box edges read on the AB/2 axis)",
+  "provenance": {
+   "document": "main",
+   "pages": [
+    46
+   ],
+   "figure": "VES sheet D.P. 400/34, job 625",
+   "method": "digitised_manual",
+   "tool": "edges from extraction/ves_edges_auto.json + reading by eye",
+   "extracted_on": "2026-10-14",
+   "notes": "Interface depths taken as the AB/2 of the box edges under the curve."
+  },
+  "notes": "The last layer is open-ended; the model does not state a DOI."
+ },
+ {
+  "id": "paparo-1969-southern-arava-ves-625-400-35",
+  "survey": "paparo-1969-southern-arava",
+  "site": "625-400-35",
+  "method": "VES",
+  "level": "L2",
+  "representation": "model_1d",
+  "measured_on": null,
+  "confidence": "B",
+  "status": "draft",
+  "model_type": "layered",
+  "depth_max_m": 180,
+  "layers": [
+   {
+    "top_m": 0.0,
+    "bottom_m": 5.02,
+    "rho_ohmm": 94.0
+   },
+   {
+    "top_m": 5.02,
+    "bottom_m": 48.09,
+    "rho_ohmm": 14.0
+   },
+   {
+    "top_m": 48.09,
+    "bottom_m": 120.29,
+    "rho_ohmm": null,
+    "note": "printed as 'high' (Hebrew gavoha)",
+    "rho_min": 14.0
+   },
+   {
+    "top_m": 120.29,
+    "bottom_m": null,
+    "rho_ohmm": 6.2
+   }
+  ],
+  "digitisation_error": "interfaces +-5% (box edges read on the AB/2 axis)",
+  "provenance": {
+   "document": "main",
+   "pages": [
+    47
+   ],
+   "figure": "VES sheet D.P. 400/35, job 625",
+   "method": "digitised_manual",
+   "tool": "edges from extraction/ves_edges_auto.json + reading by eye",
+   "extracted_on": "2026-10-14",
+   "notes": "Interface depths taken as the AB/2 of the box edges under the curve."
+  },
+  "notes": "Coordinates printed to 100 m. The last layer is open-ended; the model does not state a DOI."
+ },
+ {
+  "id": "paparo-1969-southern-arava-ves-625-400-36",
+  "survey": "paparo-1969-southern-arava",
+  "site": "625-400-36",
+  "method": "VES",
+  "level": "L2",
+  "representation": "model_1d",
+  "measured_on": null,
+  "confidence": "B",
+  "status": "draft",
+  "model_type": "layered",
+  "depth_max_m": 95,
+  "layers": [
+   {
+    "top_m": 0.0,
+    "bottom_m": 6.4,
+    "rho_ohmm": 100.0
+   },
+   {
+    "top_m": 6.4,
+    "bottom_m": 18.09,
+    "rho_ohmm": 30.0
+   },
+   {
+    "top_m": 18.09,
+    "bottom_m": 31.68,
+    "rho_ohmm": 13.0
+   },
+   {
+    "top_m": 31.68,
+    "bottom_m": 63.5,
+    "rho_ohmm": 62.0
+   },
+   {
+    "top_m": 63.5,
+    "bottom_m": null,
+    "rho_ohmm": 9.3
+   }
+  ],
+  "digitisation_error": "interfaces +-5% (box edges read on the AB/2 axis)",
+  "provenance": {
+   "document": "main",
+   "pages": [
+    48
+   ],
+   "figure": "VES sheet D.P. 400/36, job 625",
+   "method": "digitised_manual",
+   "tool": "edges from extraction/ves_edges_auto.json + reading by eye",
+   "extracted_on": "2026-10-14",
+   "notes": "Interface depths taken as the AB/2 of the box edges under the curve."
+  },
+  "notes": "Coordinates printed to 100 m. The last layer is open-ended; the model does not state a DOI."
+ },
+ {
+  "id": "paparo-1969-southern-arava-ves-625-400-37",
+  "survey": "paparo-1969-southern-arava",
+  "site": "625-400-37",
+  "method": "VES",
+  "level": "L2",
+  "representation": "model_1d",
+  "measured_on": null,
+  "confidence": "B",
+  "status": "draft",
+  "model_type": "layered",
+  "depth_max_m": 157,
+  "layers": [
+   {
+    "top_m": 0.0,
+    "bottom_m": 1.6,
+    "rho_ohmm": 470.0
+   },
+   {
+    "top_m": 1.6,
+    "bottom_m": 6.33,
+    "rho_ohmm": 140.0
+   },
+   {
+    "top_m": 6.33,
+    "bottom_m": 23.4,
+    "rho_ohmm": 84.0
+   },
+   {
+    "top_m": 23.4,
+    "bottom_m": 104.71,
+    "rho_ohmm": 56.0
+   },
+   {
+    "top_m": 104.71,
+    "bottom_m": null,
+    "rho_ohmm": 4.7
+   }
+  ],
+  "digitisation_error": "interfaces +-5% (box edges read on the AB/2 axis)",
+  "provenance": {
+   "document": "main",
+   "pages": [
+    49
+   ],
+   "figure": "VES sheet D.P. 400/37, job 625",
+   "method": "digitised_manual",
+   "tool": "edges from extraction/ves_edges_auto.json + reading by eye",
+   "extracted_on": "2026-10-14",
+   "notes": "Interface depths taken as the AB/2 of the box edges under the curve."
+  },
+  "notes": "Coordinates printed to 100 m. The last layer is open-ended; the model does not state a DOI."
+ },
+ {
+  "id": "paparo-1969-southern-arava-ves-625-400-38",
+  "survey": "paparo-1969-southern-arava",
+  "site": "625-400-38",
+  "method": "VES",
+  "level": "L2",
+  "representation": "model_1d",
+  "measured_on": null,
+  "confidence": "B",
+  "status": "draft",
+  "model_type": "layered",
+  "depth_max_m": 24,
+  "layers": [
+   {
+    "top_m": 0.0,
+    "bottom_m": 2.39,
+    "rho_ohmm": 520.0
+   },
+   {
+    "top_m": 2.39,
+    "bottom_m": 15.74,
+    "rho_ohmm": 78.0
+   },
+   {
+    "top_m": 15.74,
+    "bottom_m": null,
+    "rho_ohmm": 16.0
+   }
+  ],
+  "digitisation_error": "interfaces +-5% (box edges read on the AB/2 axis)",
+  "provenance": {
+   "document": "main",
+   "pages": [
+    50
+   ],
+   "figure": "VES sheet D.P. 400/38, job 625",
+   "method": "digitised_manual",
+   "tool": "edges from extraction/ves_edges_auto.json + reading by eye",
+   "extracted_on": "2026-10-14",
+   "notes": "Interface depths taken as the AB/2 of the box edges under the curve."
+  },
+  "notes": "Coordinates printed to 100 m. The last layer is open-ended; the model does not state a DOI."
+ },
+ {
+  "id": "paparo-1969-southern-arava-ves-625-400-39",
+  "survey": "paparo-1969-southern-arava",
+  "site": "625-400-39",
+  "method": "VES",
+  "level": "L2",
+  "representation": "model_1d",
+  "measured_on": null,
+  "confidence": "B",
+  "status": "draft",
+  "model_type": "layered",
+  "depth_max_m": 15,
+  "layers": [
+   {
+    "top_m": 0.0,
+    "bottom_m": 1.15,
+    "rho_ohmm": 100.0
+   },
+   {
+    "top_m": 1.15,
+    "bottom_m": 10.18,
+    "rho_ohmm": 125.0
+   },
+   {
+    "top_m": 10.18,
+    "bottom_m": null,
+    "rho_ohmm": 11.0
+   }
+  ],
+  "digitisation_error": "interfaces +-5% (box edges read on the AB/2 axis)",
+  "provenance": {
+   "document": "main",
+   "pages": [
+    51
+   ],
+   "figure": "VES sheet D.P. 400/39, job 625",
+   "method": "digitised_manual",
+   "tool": "edges from extraction/ves_edges_auto.json + reading by eye",
+   "extracted_on": "2026-10-14",
+   "notes": "Interface depths taken as the AB/2 of the box edges under the curve."
+  },
+  "notes": "Coordinates printed to 100 m. The first layer is under about 1.5 m thick and its base is approximate. The last layer is open-ended; the model does not state a DOI."
+ },
+ {
+  "id": "paparo-1969-southern-arava-ves-625-400-40",
+  "survey": "paparo-1969-southern-arava",
+  "site": "625-400-40",
+  "method": "VES",
+  "level": "L2",
+  "representation": "model_1d",
+  "measured_on": null,
+  "confidence": "B",
+  "status": "draft",
+  "model_type": "layered",
+  "depth_max_m": 11,
+  "layers": [
+   {
+    "top_m": 0.0,
+    "bottom_m": 7.56,
+    "rho_ohmm": 106.0
+   },
+   {
+    "top_m": 7.56,
+    "bottom_m": null,
+    "rho_ohmm": 16.0
+   }
+  ],
+  "digitisation_error": "interfaces +-5% (box edges read on the AB/2 axis)",
+  "provenance": {
+   "document": "main",
+   "pages": [
+    52
+   ],
+   "figure": "VES sheet D.P. 400/40, job 625",
+   "method": "digitised_manual",
+   "tool": "edges from extraction/ves_edges_auto.json + reading by eye",
+   "extracted_on": "2026-10-14",
+   "notes": "Interface depths taken as the AB/2 of the box edges under the curve."
+  },
+  "notes": "Coordinates printed to 100 m. The last layer is open-ended; the model does not state a DOI."
+ },
+ {
+  "id": "paparo-1969-southern-arava-ves-625-400-41",
+  "survey": "paparo-1969-southern-arava",
+  "site": "625-400-41",
+  "method": "VES",
+  "level": "L2",
+  "representation": "model_1d",
+  "measured_on": null,
+  "confidence": "B",
+  "status": "draft",
+  "model_type": "layered",
+  "depth_max_m": 6,
+  "layers": [
+   {
+    "top_m": 0.0,
+    "bottom_m": 4.0,
+    "rho_ohmm": 36.0
+   },
+   {
+    "top_m": 4.0,
+    "bottom_m": null,
+    "rho_ohmm": 10.8
+   }
+  ],
+  "digitisation_error": "interfaces +-5% (box edges read on the AB/2 axis)",
+  "provenance": {
+   "document": "main",
+   "pages": [
+    53
+   ],
+   "figure": "VES sheet D.P. 400/41, job 625",
+   "method": "digitised_manual",
+   "tool": "edges from extraction/ves_edges_auto.json + reading by eye",
+   "extracted_on": "2026-10-14",
+   "notes": "Interface depths taken as the AB/2 of the box edges under the curve."
+  },
+  "notes": "Coordinates printed to 100 m. The last layer is open-ended; the model does not state a DOI."
+ },
+ {
+  "id": "paparo-1969-southern-arava-ves-625-400-42",
+  "survey": "paparo-1969-southern-arava",
+  "site": "625-400-42",
+  "method": "VES",
+  "level": "L2",
+  "representation": "model_1d",
+  "measured_on": null,
+  "confidence": "B",
+  "status": "draft",
+  "model_type": "layered",
+  "depth_max_m": 12,
+  "layers": [
+   {
+    "top_m": 0.0,
+    "bottom_m": 1.4,
+    "rho_ohmm": 150.0
+   },
+   {
+    "top_m": 1.4,
+    "bottom_m": 7.67,
+    "rho_ohmm": 30.0
+   },
+   {
+    "top_m": 7.67,
+    "bottom_m": null,
+    "rho_ohmm": 10.8
+   }
+  ],
+  "digitisation_error": "interfaces +-5% (box edges read on the AB/2 axis)",
+  "provenance": {
+   "document": "main",
+   "pages": [
+    54
+   ],
+   "figure": "VES sheet D.P. 400/42, job 625",
+   "method": "digitised_manual",
+   "tool": "edges from extraction/ves_edges_auto.json + reading by eye",
+   "extracted_on": "2026-10-14",
+   "notes": "Interface depths taken as the AB/2 of the box edges under the curve."
+  },
+  "notes": "Coordinates printed to 100 m. The first layer is under about 1.5 m thick and its base is approximate. The last layer is open-ended; the model does not state a DOI."
+ },
+ {
+  "id": "paparo-1969-southern-arava-ves-625-400-43",
+  "survey": "paparo-1969-southern-arava",
+  "site": "625-400-43",
+  "method": "VES",
+  "level": "L2",
+  "representation": "model_1d",
+  "measured_on": null,
+  "confidence": "B",
+  "status": "draft",
+  "model_type": "layered",
+  "depth_max_m": 26,
+  "layers": [
+   {
+    "top_m": 0.0,
+    "bottom_m": 3.06,
+    "rho_ohmm": 12.0
+   },
+   {
+    "top_m": 3.06,
+    "bottom_m": 10.11,
+    "rho_ohmm": 9.6
+   },
+   {
+    "top_m": 10.11,
+    "bottom_m": 17.22,
+    "rho_ohmm": 19.6
+   },
+   {
+    "top_m": 17.22,
+    "bottom_m": null,
+    "rho_ohmm": 7.8
+   }
+  ],
+  "digitisation_error": "interfaces +-5% (box edges read on the AB/2 axis)",
+  "provenance": {
+   "document": "main",
+   "pages": [
+    55
+   ],
+   "figure": "VES sheet D.P. 400/43, job 625",
+   "method": "digitised_manual",
+   "tool": "edges from extraction/ves_edges_auto.json + reading by eye",
+   "extracted_on": "2026-10-14",
+   "notes": "Interface depths taken as the AB/2 of the box edges under the curve."
+  },
+  "notes": "The last layer is open-ended; the model does not state a DOI."
+ },
+ {
+  "id": "paparo-1969-southern-arava-ves-625-400-44",
+  "survey": "paparo-1969-southern-arava",
+  "site": "625-400-44",
+  "method": "VES",
+  "level": "L2",
+  "representation": "model_1d",
+  "measured_on": null,
+  "confidence": "B",
+  "status": "draft",
+  "model_type": "layered",
+  "depth_max_m": 79,
+  "layers": [
+   {
+    "top_m": 0.0,
+    "bottom_m": 4.45,
+    "rho_ohmm": 26.0
+   },
+   {
+    "top_m": 4.45,
+    "bottom_m": 40.41,
+    "rho_ohmm": 9.8
+   },
+   {
+    "top_m": 40.41,
+    "bottom_m": 52.56,
+    "rho_ohmm": 2.0
+   },
+   {
+    "top_m": 52.56,
+    "bottom_m": null,
+    "rho_ohmm": 10.0
+   }
+  ],
+  "digitisation_error": "interfaces +-5% (box edges read on the AB/2 axis)",
+  "provenance": {
+   "document": "main",
+   "pages": [
+    56
+   ],
+   "figure": "VES sheet D.P. 400/44, job 625",
+   "method": "digitised_manual",
+   "tool": "edges from extraction/ves_edges_auto.json + reading by eye",
+   "extracted_on": "2026-10-14",
+   "notes": "Interface depths taken as the AB/2 of the box edges under the curve."
+  },
+  "notes": "The last layer is open-ended; the model does not state a DOI."
+ },
+ {
+  "id": "paparo-1969-southern-arava-ves-625-400-45",
+  "survey": "paparo-1969-southern-arava",
+  "site": "625-400-45",
+  "method": "VES",
+  "level": "L2",
+  "representation": "model_1d",
+  "measured_on": null,
+  "confidence": "B",
+  "status": "draft",
+  "model_type": "layered",
+  "depth_max_m": 18,
+  "layers": [
+   {
+    "top_m": 0.0,
+    "bottom_m": 1.72,
+    "rho_ohmm": 6.8
+   },
+   {
+    "top_m": 1.72,
+    "bottom_m": 12.11,
+    "rho_ohmm": 2.7
+   },
+   {
+    "top_m": 12.11,
+    "bottom_m": null,
+    "rho_ohmm": 7.4
+   }
+  ],
+  "digitisation_error": "interfaces +-5% (box edges read on the AB/2 axis)",
+  "provenance": {
+   "document": "main",
+   "pages": [
+    57
+   ],
+   "figure": "VES sheet D.P. 400/45, job 625",
+   "method": "digitised_manual",
+   "tool": "edges from extraction/ves_edges_auto.json + reading by eye",
+   "extracted_on": "2026-10-14",
+   "notes": "Interface depths taken as the AB/2 of the box edges under the curve."
+  },
+  "notes": "The last layer is open-ended; the model does not state a DOI."
+ },
+ {
+  "id": "paparo-1969-southern-arava-ves-625-400-46",
+  "survey": "paparo-1969-southern-arava",
+  "site": "625-400-46",
+  "method": "VES",
+  "level": "L2",
+  "representation": "model_1d",
+  "measured_on": null,
+  "confidence": "B",
+  "status": "draft",
+  "model_type": "layered",
+  "depth_max_m": 103,
+  "layers": [
+   {
+    "top_m": 0.0,
+    "bottom_m": 2.25,
+    "rho_ohmm": 3.0
+   },
+   {
+    "top_m": 2.25,
+    "bottom_m": 68.69,
+    "rho_ohmm": 6.0
+   },
+   {
+    "top_m": 68.69,
+    "bottom_m": null,
+    "rho_ohmm": 9.0
+   }
+  ],
+  "digitisation_error": "interfaces +-5% (box edges read on the AB/2 axis)",
+  "provenance": {
+   "document": "main",
+   "pages": [
+    58
+   ],
+   "figure": "VES sheet D.P. 400/46, job 625",
+   "method": "digitised_manual",
+   "tool": "edges from extraction/ves_edges_auto.json + reading by eye",
+   "extracted_on": "2026-10-14",
+   "notes": "Interface depths taken as the AB/2 of the box edges under the curve."
+  },
+  "notes": "The last layer is open-ended; the model does not state a DOI."
+ },
+ {
+  "id": "paparo-1969-southern-arava-ves-625-400-47",
+  "survey": "paparo-1969-southern-arava",
+  "site": "625-400-47",
+  "method": "VES",
+  "level": "L2",
+  "representation": "model_1d",
+  "measured_on": null,
+  "confidence": "B",
+  "status": "draft",
+  "model_type": "layered",
+  "depth_max_m": 8,
+  "layers": [
+   {
+    "top_m": 0.0,
+    "bottom_m": 5.24,
+    "rho_ohmm": 570.0
+   },
+   {
+    "top_m": 5.24,
+    "bottom_m": null,
+    "rho_ohmm": 28.5
+   }
+  ],
+  "digitisation_error": "interfaces +-5% (box edges read on the AB/2 axis)",
+  "provenance": {
+   "document": "main",
+   "pages": [
+    59
+   ],
+   "figure": "VES sheet D.P. 400/47, job 625",
+   "method": "digitised_manual",
+   "tool": "edges from extraction/ves_edges_auto.json + reading by eye",
+   "extracted_on": "2026-10-14",
+   "notes": "Interface depths taken as the AB/2 of the box edges under the curve."
+  },
+  "notes": "The last layer is open-ended; the model does not state a DOI."
+ },
+ {
+  "id": "paparo-1969-southern-arava-ves-625-400-48",
+  "survey": "paparo-1969-southern-arava",
+  "site": "625-400-48",
+  "method": "VES",
+  "level": "L2",
+  "representation": "model_1d",
+  "measured_on": null,
+  "confidence": "B",
+  "status": "draft",
+  "model_type": "layered",
+  "depth_max_m": 85,
+  "layers": [
+   {
+    "top_m": 0.0,
+    "bottom_m": 8.49,
+    "rho_ohmm": 26.0
+   },
+   {
+    "top_m": 8.49,
+    "bottom_m": 56.68,
+    "rho_ohmm": 17.0
+   },
+   {
+    "top_m": 56.68,
+    "bottom_m": null,
+    "rho_ohmm": 13.6
+   }
+  ],
+  "digitisation_error": "interfaces +-5% (box edges read on the AB/2 axis)",
+  "provenance": {
+   "document": "main",
+   "pages": [
+    60
+   ],
+   "figure": "VES sheet D.P. 400/48, job 625",
+   "method": "digitised_manual",
+   "tool": "edges from extraction/ves_edges_auto.json + reading by eye",
+   "extracted_on": "2026-10-14",
+   "notes": "Interface depths taken as the AB/2 of the box edges under the curve."
+  },
+  "notes": "The last layer is open-ended; the model does not state a DOI."
+ },
+ {
+  "id": "paparo-1969-southern-arava-ves-625-400-49",
+  "survey": "paparo-1969-southern-arava",
+  "site": "625-400-49",
+  "method": "VES",
+  "level": "L2",
+  "representation": "model_1d",
+  "measured_on": null,
+  "confidence": "B",
+  "status": "draft",
+  "model_type": "layered",
+  "depth_max_m": 17,
+  "layers": [
+   {
+    "top_m": 0.0,
+    "bottom_m": 1.43,
+    "rho_ohmm": 96.0
+   },
+   {
+    "top_m": 1.43,
+    "bottom_m": 11.21,
+    "rho_ohmm": 21.0
+   },
+   {
+    "top_m": 11.21,
+    "bottom_m": null,
+    "rho_ohmm": 14.0
+   }
+  ],
+  "digitisation_error": "interfaces +-5% (box edges read on the AB/2 axis)",
+  "provenance": {
+   "document": "main",
+   "pages": [
+    61
+   ],
+   "figure": "VES sheet D.P. 400/49, job 625",
+   "method": "digitised_manual",
+   "tool": "edges from extraction/ves_edges_auto.json + reading by eye",
+   "extracted_on": "2026-10-14",
+   "notes": "Interface depths taken as the AB/2 of the box edges under the curve."
+  },
+  "notes": "The last layer is open-ended; the model does not state a DOI."
+ },
+ {
+  "id": "paparo-1969-southern-arava-ves-625-400-50",
+  "survey": "paparo-1969-southern-arava",
+  "site": "625-400-50",
+  "method": "VES",
+  "level": "L2",
+  "representation": "model_1d",
+  "measured_on": null,
+  "confidence": "B",
+  "status": "draft",
+  "model_type": "layered",
+  "depth_max_m": 2,
+  "layers": [
+   {
+    "top_m": 0.0,
+    "bottom_m": 1.61,
+    "rho_ohmm": 74.0
+   },
+   {
+    "top_m": 1.61,
+    "bottom_m": null,
+    "rho_ohmm": 8.6
+   }
+  ],
+  "digitisation_error": "interfaces +-5% (box edges read on the AB/2 axis)",
+  "provenance": {
+   "document": "main",
+   "pages": [
+    62
+   ],
+   "figure": "VES sheet D.P. 400/50, job 625",
+   "method": "digitised_manual",
+   "tool": "edges from extraction/ves_edges_auto.json + reading by eye",
+   "extracted_on": "2026-10-14",
+   "notes": "Interface depths taken as the AB/2 of the box edges under the curve."
+  },
+  "notes": "The last layer is open-ended; the model does not state a DOI."
+ },
+ {
+  "id": "paparo-1969-southern-arava-ves-625-400-51",
+  "survey": "paparo-1969-southern-arava",
+  "site": "625-400-51",
+  "method": "VES",
+  "level": "L2",
+  "representation": "model_1d",
+  "measured_on": null,
+  "confidence": "B",
+  "status": "draft",
+  "model_type": "layered",
+  "depth_max_m": 61,
+  "layers": [
+   {
+    "top_m": 0.0,
+    "bottom_m": 1.87,
+    "rho_ohmm": 86.0
+   },
+   {
+    "top_m": 1.87,
+    "bottom_m": 9.02,
+    "rho_ohmm": 30.0
+   },
+   {
+    "top_m": 9.02,
+    "bottom_m": 40.67,
+    "rho_ohmm": 20.0
+   },
+   {
+    "top_m": 40.67,
+    "bottom_m": null,
+    "rho_ohmm": 13.0
+   }
+  ],
+  "digitisation_error": "interfaces +-5% (box edges read on the AB/2 axis)",
+  "provenance": {
+   "document": "main",
+   "pages": [
+    63
+   ],
+   "figure": "VES sheet D.P. 400/51, job 625",
+   "method": "digitised_manual",
+   "tool": "edges from extraction/ves_edges_auto.json + reading by eye",
+   "extracted_on": "2026-10-14",
+   "notes": "Interface depths taken as the AB/2 of the box edges under the curve."
+  },
+  "notes": "The last layer is open-ended; the model does not state a DOI."
+ },
+ {
+  "id": "paparo-1969-southern-arava-ves-625-400-52",
+  "survey": "paparo-1969-southern-arava",
+  "site": "625-400-52",
+  "method": "VES",
+  "level": "L2",
+  "representation": "model_1d",
+  "measured_on": null,
+  "confidence": "B",
+  "status": "draft",
+  "model_type": "layered",
+  "depth_max_m": 19,
+  "layers": [
+   {
+    "top_m": 0.0,
+    "bottom_m": 2.55,
+    "rho_ohmm": 230.0
+   },
+   {
+    "top_m": 2.55,
+    "bottom_m": 12.54,
+    "rho_ohmm": 92.0
+   },
+   {
+    "top_m": 12.54,
+    "bottom_m": null,
+    "rho_ohmm": 13.0
+   }
+  ],
+  "digitisation_error": "interfaces +-5% (box edges read on the AB/2 axis)",
+  "provenance": {
+   "document": "main",
+   "pages": [
+    64
+   ],
+   "figure": "VES sheet D.P. 400/52, job 625",
+   "method": "digitised_manual",
+   "tool": "edges from extraction/ves_edges_auto.json + reading by eye",
+   "extracted_on": "2026-10-14",
+   "notes": "Interface depths taken as the AB/2 of the box edges under the curve."
+  },
+  "notes": "The last layer is open-ended; the model does not state a DOI."
+ },
+ {
+  "id": "paparo-1969-southern-arava-ves-625-400-53",
+  "survey": "paparo-1969-southern-arava",
+  "site": "625-400-53",
+  "method": "VES",
+  "level": "L2",
+  "representation": "model_1d",
+  "measured_on": null,
+  "confidence": "B",
+  "status": "draft",
+  "model_type": "layered",
+  "depth_max_m": 52,
+  "layers": [
+   {
+    "top_m": 0.0,
+    "bottom_m": 1.97,
+    "rho_ohmm": 180.0
+   },
+   {
+    "top_m": 1.97,
+    "bottom_m": 13.23,
+    "rho_ohmm": 50.0
+   },
+   {
+    "top_m": 13.23,
+    "bottom_m": 34.43,
+    "rho_ohmm": 84.0
+   },
+   {
+    "top_m": 34.43,
+    "bottom_m": null,
+    "rho_ohmm": 25.0
+   }
+  ],
+  "digitisation_error": "interfaces +-5% (box edges read on the AB/2 axis)",
+  "provenance": {
+   "document": "main",
+   "pages": [
+    65
+   ],
+   "figure": "VES sheet D.P. 400/53, job 625",
+   "method": "digitised_manual",
+   "tool": "edges from extraction/ves_edges_auto.json + reading by eye",
+   "extracted_on": "2026-10-14",
+   "notes": "Interface depths taken as the AB/2 of the box edges under the curve."
+  },
+  "notes": "Coordinates printed to 100 m. The last layer is open-ended; the model does not state a DOI."
+ },
+ {
+  "id": "paparo-1969-southern-arava-ves-625-400-54",
+  "survey": "paparo-1969-southern-arava",
+  "site": "625-400-54",
+  "method": "VES",
+  "level": "L2",
+  "representation": "model_1d",
+  "measured_on": null,
+  "confidence": "B",
+  "status": "draft",
+  "model_type": "layered",
+  "depth_max_m": 6,
+  "layers": [
+   {
+    "top_m": 0.0,
+    "bottom_m": 4.06,
+    "rho_ohmm": 105.0
+   },
+   {
+    "top_m": 4.06,
+    "bottom_m": null,
+    "rho_ohmm": 15.6
+   }
+  ],
+  "digitisation_error": "interfaces +-5% (box edges read on the AB/2 axis)",
+  "provenance": {
+   "document": "main",
+   "pages": [
+    66
+   ],
+   "figure": "VES sheet D.P. 400/54, job 625",
+   "method": "digitised_manual",
+   "tool": "edges from extraction/ves_edges_auto.json + reading by eye",
+   "extracted_on": "2026-10-14",
+   "notes": "Interface depths taken as the AB/2 of the box edges under the curve."
+  },
+  "notes": "Coordinates printed to 100 m. The last layer is open-ended; the model does not state a DOI."
+ },
+ {
+  "id": "paparo-1969-southern-arava-ves-625-400-55",
+  "survey": "paparo-1969-southern-arava",
+  "site": "625-400-55",
+  "method": "VES",
+  "level": "L2",
+  "representation": "model_1d",
+  "measured_on": null,
+  "confidence": "B",
+  "status": "draft",
+  "model_type": "layered",
+  "depth_max_m": 14,
+  "layers": [
+   {
+    "top_m": 0.0,
+    "bottom_m": 9.18,
+    "rho_ohmm": 90.0
+   },
+   {
+    "top_m": 9.18,
+    "bottom_m": null,
+    "rho_ohmm": 13.0
+   }
+  ],
+  "digitisation_error": "interfaces +-5% (box edges read on the AB/2 axis)",
+  "provenance": {
+   "document": "main",
+   "pages": [
+    67
+   ],
+   "figure": "VES sheet D.P. 400/55, job 625",
+   "method": "digitised_manual",
+   "tool": "edges from extraction/ves_edges_auto.json + reading by eye",
+   "extracted_on": "2026-10-14",
+   "notes": "Interface depths taken as the AB/2 of the box edges under the curve."
+  },
+  "notes": "Coordinates printed to 100 m. The last layer is open-ended; the model does not state a DOI."
+ },
+ {
+  "id": "paparo-1969-southern-arava-ves-625-400-56",
+  "survey": "paparo-1969-southern-arava",
+  "site": "625-400-56",
+  "method": "VES",
+  "level": "L2",
+  "representation": "model_1d",
+  "measured_on": null,
+  "confidence": "B",
+  "status": "draft",
+  "model_type": "layered",
+  "depth_max_m": 10,
+  "layers": [
+   {
+    "top_m": 0.0,
+    "bottom_m": 6.4,
+    "rho_ohmm": 28.0
+   },
+   {
+    "top_m": 6.4,
+    "bottom_m": null,
+    "rho_ohmm": 10.6
+   }
+  ],
+  "digitisation_error": "interfaces +-5% (box edges read on the AB/2 axis)",
+  "provenance": {
+   "document": "main",
+   "pages": [
+    68
+   ],
+   "figure": "VES sheet D.P. 400/56, job 625",
+   "method": "digitised_manual",
+   "tool": "reading by eye (values and edges)",
+   "extracted_on": "2026-10-14",
+   "notes": "Interface depths taken as the AB/2 of the box edges under the curve."
+  },
+  "notes": "Coordinates printed to 100 m. The last layer is open-ended; the model does not state a DOI."
+ },
+ {
+  "id": "paparo-1969-southern-arava-ves-625-400-57",
+  "survey": "paparo-1969-southern-arava",
+  "site": "625-400-57",
+  "method": "VES",
+  "level": "L2",
+  "representation": "model_1d",
+  "measured_on": null,
+  "confidence": "B",
+  "status": "draft",
+  "model_type": "layered",
+  "depth_max_m": 14,
+  "layers": [
+   {
+    "top_m": 0.0,
+    "bottom_m": 9.28,
+    "rho_ohmm": 28.0
+   },
+   {
+    "top_m": 9.28,
+    "bottom_m": null,
+    "rho_ohmm": 6.7
+   }
+  ],
+  "digitisation_error": "interfaces +-5% (box edges read on the AB/2 axis)",
+  "provenance": {
+   "document": "main",
+   "pages": [
+    69
+   ],
+   "figure": "VES sheet D.P. 400/57, job 625",
+   "method": "digitised_manual",
+   "tool": "edges from extraction/ves_edges_auto.json + reading by eye",
+   "extracted_on": "2026-10-14",
+   "notes": "Interface depths taken as the AB/2 of the box edges under the curve."
+  },
+  "notes": "Coordinates printed to 100 m. The last layer is open-ended; the model does not state a DOI."
+ },
+ {
+  "id": "paparo-1969-southern-arava-ves-625-400-58",
+  "survey": "paparo-1969-southern-arava",
+  "site": "625-400-58",
+  "method": "VES",
+  "level": "L2",
+  "representation": "model_1d",
+  "measured_on": null,
+  "confidence": "B",
+  "status": "draft",
+  "model_type": "layered",
+  "depth_max_m": 157,
+  "layers": [
+   {
+    "top_m": 0.0,
+    "bottom_m": 7.94,
+    "rho_ohmm": 74.0
+   },
+   {
+    "top_m": 7.94,
+    "bottom_m": 104.72,
+    "rho_ohmm": 48.0
+   },
+   {
+    "top_m": 104.72,
+    "bottom_m": null,
+    "rho_ohmm": 19.2
+   }
+  ],
+  "digitisation_error": "interfaces +-5% (box edges read on the AB/2 axis)",
+  "provenance": {
+   "document": "main",
+   "pages": [
+    70
+   ],
+   "figure": "VES sheet D.P. 400/58, job 625",
+   "method": "digitised_manual",
+   "tool": "edges from extraction/ves_edges_auto.json + reading by eye",
+   "extracted_on": "2026-10-14",
+   "notes": "Interface depths taken as the AB/2 of the box edges under the curve."
+  },
+  "notes": "Coordinates printed to 100 m. The last layer is open-ended; the model does not state a DOI."
+ },
+ {
+  "id": "paparo-1969-southern-arava-ves-625-400-59",
+  "survey": "paparo-1969-southern-arava",
+  "site": "625-400-59",
+  "method": "VES",
+  "level": "L2",
+  "representation": "model_1d",
+  "measured_on": null,
+  "confidence": "B",
+  "status": "draft",
+  "model_type": "layered",
+  "depth_max_m": 25,
+  "layers": [
+   {
+    "top_m": 0.0,
+    "bottom_m": 16.67,
+    "rho_ohmm": 560.0
+   },
+   {
+    "top_m": 16.67,
+    "bottom_m": null,
+    "rho_ohmm": 28.0
+   }
+  ],
+  "digitisation_error": "interfaces +-5% (box edges read on the AB/2 axis)",
+  "provenance": {
+   "document": "main",
+   "pages": [
+    71
+   ],
+   "figure": "VES sheet D.P. 400/59, job 625",
+   "method": "digitised_manual",
+   "tool": "edges from extraction/ves_edges_auto.json + reading by eye",
+   "extracted_on": "2026-10-14",
+   "notes": "Interface depths taken as the AB/2 of the box edges under the curve."
+  },
+  "notes": "Coordinates printed to 100 m. The last layer is open-ended; the model does not state a DOI."
+ },
+ {
+  "id": "paparo-1969-southern-arava-ves-625-400-60",
+  "survey": "paparo-1969-southern-arava",
+  "site": "625-400-60",
+  "method": "VES",
+  "level": "L2",
+  "representation": "model_1d",
+  "measured_on": null,
+  "confidence": "B",
+  "status": "draft",
+  "model_type": "layered",
+  "depth_max_m": 16,
+  "layers": [
+   {
+    "top_m": 0.0,
+    "bottom_m": 10.36,
+    "rho_ohmm": 240.0
+   },
+   {
+    "top_m": 10.36,
+    "bottom_m": null,
+    "rho_ohmm": 24.0
+   }
+  ],
+  "digitisation_error": "interfaces +-5% (box edges read on the AB/2 axis)",
+  "provenance": {
+   "document": "main",
+   "pages": [
+    72
+   ],
+   "figure": "VES sheet D.P. 400/60, job 625",
+   "method": "digitised_manual",
+   "tool": "edges from extraction/ves_edges_auto.json + reading by eye",
+   "extracted_on": "2026-10-14",
+   "notes": "Interface depths taken as the AB/2 of the box edges under the curve."
+  },
+  "notes": "Coordinates printed to 100 m. The last layer is open-ended; the model does not state a DOI."
+ },
+ {
+  "id": "paparo-1969-southern-arava-ves-625-400-61",
+  "survey": "paparo-1969-southern-arava",
+  "site": "625-400-61",
+  "method": "VES",
+  "level": "L2",
+  "representation": "model_1d",
+  "measured_on": null,
+  "confidence": "B",
+  "status": "draft",
+  "model_type": "layered",
+  "depth_max_m": 27,
+  "layers": [
+   {
+    "top_m": 0.0,
+    "bottom_m": 2.35,
+    "rho_ohmm": 250.0
+   },
+   {
+    "top_m": 2.35,
+    "bottom_m": 18.28,
+    "rho_ohmm": 42.5
+   },
+   {
+    "top_m": 18.28,
+    "bottom_m": null,
+    "rho_ohmm": 25.0
+   }
+  ],
+  "digitisation_error": "interfaces +-5% (box edges read on the AB/2 axis)",
+  "provenance": {
+   "document": "main",
+   "pages": [
+    73
+   ],
+   "figure": "VES sheet D.P. 400/61, job 625",
+   "method": "digitised_manual",
+   "tool": "edges from extraction/ves_edges_auto.json + reading by eye",
+   "extracted_on": "2026-10-14",
+   "notes": "Interface depths taken as the AB/2 of the box edges under the curve."
+  },
+  "notes": "Coordinates printed to 100 m. The last layer is open-ended; the model does not state a DOI."
+ },
+ {
+  "id": "paparo-1969-southern-arava-ves-625-400-62",
+  "survey": "paparo-1969-southern-arava",
+  "site": "625-400-62",
+  "method": "VES",
+  "level": "L2",
+  "representation": "model_1d",
+  "measured_on": null,
+  "confidence": "B",
+  "status": "draft",
+  "model_type": "layered",
+  "depth_max_m": 31,
+  "layers": [
+   {
+    "top_m": 0.0,
+    "bottom_m": 2.52,
+    "rho_ohmm": 115.0
+   },
+   {
+    "top_m": 2.52,
+    "bottom_m": 20.99,
+    "rho_ohmm": 28.0
+   },
+   {
+    "top_m": 20.99,
+    "bottom_m": null,
+    "rho_ohmm": 20.3
+   }
+  ],
+  "digitisation_error": "interfaces +-5% (box edges read on the AB/2 axis)",
+  "provenance": {
+   "document": "main",
+   "pages": [
+    74
+   ],
+   "figure": "VES sheet D.P. 400/62, job 625",
+   "method": "digitised_manual",
+   "tool": "edges from extraction/ves_edges_auto.json + reading by eye",
+   "extracted_on": "2026-10-14",
+   "notes": "Interface depths taken as the AB/2 of the box edges under the curve."
+  },
+  "notes": "Coordinates printed to 100 m. The last layer is open-ended; the model does not state a DOI."
+ },
+ {
+  "id": "paparo-1969-southern-arava-ves-625-400-63",
+  "survey": "paparo-1969-southern-arava",
+  "site": "625-400-63",
+  "method": "VES",
+  "level": "L2",
+  "representation": "model_1d",
+  "measured_on": null,
+  "confidence": "B",
+  "status": "draft",
+  "model_type": "layered",
+  "depth_max_m": 37,
+  "layers": [
+   {
+    "top_m": 0.0,
+    "bottom_m": 2.87,
+    "rho_ohmm": 740.0
+   },
+   {
+    "top_m": 2.87,
+    "bottom_m": 24.42,
+    "rho_ohmm": 222.0
+   },
+   {
+    "top_m": 24.42,
+    "bottom_m": null,
+    "rho_ohmm": 46.0
+   }
+  ],
+  "digitisation_error": "interfaces +-5% (box edges read on the AB/2 axis)",
+  "provenance": {
+   "document": "main",
+   "pages": [
+    75
+   ],
+   "figure": "VES sheet D.P. 400/63, job 625",
+   "method": "digitised_manual",
+   "tool": "edges from extraction/ves_edges_auto.json + reading by eye",
+   "extracted_on": "2026-10-14",
+   "notes": "Interface depths taken as the AB/2 of the box edges under the curve."
+  },
+  "notes": "Coordinates printed to 100 m. The last layer is open-ended; the model does not state a DOI."
+ },
+ {
+  "id": "paparo-1969-southern-arava-ves-625-400-64",
+  "survey": "paparo-1969-southern-arava",
+  "site": "625-400-64",
+  "method": "VES",
+  "level": "L2",
+  "representation": "model_1d",
+  "measured_on": null,
+  "confidence": "B",
+  "status": "draft",
+  "model_type": "layered",
+  "depth_max_m": 17,
+  "layers": [
+   {
+    "top_m": 0.0,
+    "bottom_m": 1.13,
+    "rho_ohmm": 500.0
+   },
+   {
+    "top_m": 1.13,
+    "bottom_m": 11.24,
+    "rho_ohmm": 1750.0
+   },
+   {
+    "top_m": 11.24,
+    "bottom_m": null,
+    "rho_ohmm": 63.2
+   }
+  ],
+  "digitisation_error": "interfaces +-5% (box edges read on the AB/2 axis)",
+  "provenance": {
+   "document": "main",
+   "pages": [
+    76
+   ],
+   "figure": "VES sheet D.P. 400/64, job 625",
+   "method": "digitised_manual",
+   "tool": "edges from extraction/ves_edges_auto.json + reading by eye",
+   "extracted_on": "2026-10-14",
+   "notes": "Interface depths taken as the AB/2 of the box edges under the curve."
+  },
+  "notes": "Coordinates printed to 100 m. The first layer is under about 1.5 m thick and its base is approximate. The last layer is open-ended; the model does not state a DOI."
+ },
+ {
+  "id": "paparo-1969-southern-arava-ves-625-400-65",
+  "survey": "paparo-1969-southern-arava",
+  "site": "625-400-65",
+  "method": "VES",
+  "level": "L2",
+  "representation": "model_1d",
+  "measured_on": null,
+  "confidence": "B",
+  "status": "draft",
+  "model_type": "layered",
+  "depth_max_m": 30,
+  "layers": [
+   {
+    "top_m": 0.0,
+    "bottom_m": 1.55,
+    "rho_ohmm": 880.0
+   },
+   {
+    "top_m": 1.55,
+    "bottom_m": 20.04,
+    "rho_ohmm": 88.0
+   },
+   {
+    "top_m": 20.04,
+    "bottom_m": null,
+    "rho_ohmm": 44.5
+   }
+  ],
+  "digitisation_error": "interfaces +-5% (box edges read on the AB/2 axis)",
+  "provenance": {
+   "document": "main",
+   "pages": [
+    77
+   ],
+   "figure": "VES sheet D.P. 400/65, job 625",
+   "method": "digitised_manual",
+   "tool": "edges from extraction/ves_edges_auto.json + reading by eye",
+   "extracted_on": "2026-10-14",
+   "notes": "Interface depths taken as the AB/2 of the box edges under the curve."
+  },
+  "notes": "The last layer is open-ended; the model does not state a DOI."
+ },
+ {
+  "id": "paparo-1969-southern-arava-ves-625-400-66",
+  "survey": "paparo-1969-southern-arava",
+  "site": "625-400-66",
+  "method": "VES",
+  "level": "L2",
+  "representation": "model_1d",
+  "measured_on": null,
+  "confidence": "B",
+  "status": "draft",
+  "model_type": "layered",
+  "depth_max_m": 8,
+  "layers": [
+   {
+    "top_m": 0.0,
+    "bottom_m": 1.22,
+    "rho_ohmm": 210.0
+   },
+   {
+    "top_m": 1.22,
+    "bottom_m": 5.43,
+    "rho_ohmm": 30.0
+   },
+   {
+    "top_m": 5.43,
+    "bottom_m": null,
+    "rho_ohmm": 43.0
+   }
+  ],
+  "digitisation_error": "interfaces +-5% (box edges read on the AB/2 axis)",
+  "provenance": {
+   "document": "main",
+   "pages": [
+    78
+   ],
+   "figure": "VES sheet D.P. 400/66, job 625",
+   "method": "digitised_manual",
+   "tool": "edges from extraction/ves_edges_auto.json + reading by eye",
+   "extracted_on": "2026-10-14",
+   "notes": "Interface depths taken as the AB/2 of the box edges under the curve."
+  },
+  "notes": "The first layer is under about 1.5 m thick and its base is approximate. The last layer is open-ended; the model does not state a DOI."
+ },
+ {
+  "id": "paparo-1969-southern-arava-ves-625-400-67",
+  "survey": "paparo-1969-southern-arava",
+  "site": "625-400-67",
+  "method": "VES",
+  "level": "L2",
+  "representation": "model_1d",
+  "measured_on": null,
+  "confidence": "B",
+  "status": "draft",
+  "model_type": "layered",
+  "depth_max_m": 49,
+  "layers": [
+   {
+    "top_m": 0.0,
+    "bottom_m": 32.59,
+    "rho_ohmm": 94.0
+   },
+   {
+    "top_m": 32.59,
+    "bottom_m": null,
+    "rho_ohmm": 46.0
+   }
+  ],
+  "digitisation_error": "interfaces +-5% (box edges read on the AB/2 axis)",
+  "provenance": {
+   "document": "main",
+   "pages": [
+    79
+   ],
+   "figure": "VES sheet D.P. 400/67, job 625",
+   "method": "digitised_manual",
+   "tool": "edges from extraction/ves_edges_auto.json + reading by eye",
+   "extracted_on": "2026-10-14",
+   "notes": "Interface depths taken as the AB/2 of the box edges under the curve."
+  },
+  "notes": "The last layer is open-ended; the model does not state a DOI."
+ },
+ {
+  "id": "paparo-1969-southern-arava-ves-625-400-68",
+  "survey": "paparo-1969-southern-arava",
+  "site": "625-400-68",
+  "method": "VES",
+  "level": "L2",
+  "representation": "model_1d",
+  "measured_on": null,
+  "confidence": "B",
+  "status": "draft",
+  "model_type": "layered",
+  "depth_max_m": 34,
+  "layers": [
+   {
+    "top_m": 0.0,
+    "bottom_m": 1.4,
+    "rho_ohmm": 300.0
+   },
+   {
+    "top_m": 1.4,
+    "bottom_m": 22.4,
+    "rho_ohmm": 90.0
+   },
+   {
+    "top_m": 22.4,
+    "bottom_m": null,
+    "rho_ohmm": 45.0
+   }
+  ],
+  "digitisation_error": "interfaces +-5% (box edges read on the AB/2 axis)",
+  "provenance": {
+   "document": "main",
+   "pages": [
+    80
+   ],
+   "figure": "VES sheet D.P. 400/68, job 625",
+   "method": "digitised_manual",
+   "tool": "reading by eye (values and edges)",
+   "extracted_on": "2026-10-14",
+   "notes": "Interface depths taken as the AB/2 of the box edges under the curve."
+  },
+  "notes": "The first layer is under about 1.5 m thick and its base is approximate. The last layer is open-ended; the model does not state a DOI."
+ },
+ {
+  "id": "paparo-1969-southern-arava-ves-625-400-69",
+  "survey": "paparo-1969-southern-arava",
+  "site": "625-400-69",
+  "method": "VES",
+  "level": "L2",
+  "representation": "model_1d",
+  "measured_on": null,
+  "confidence": "B",
+  "status": "draft",
+  "model_type": "layered",
+  "depth_max_m": 29,
+  "layers": [
+   {
+    "top_m": 0.0,
+    "bottom_m": 4.94,
+    "rho_ohmm": 80.0
+   },
+   {
+    "top_m": 4.94,
+    "bottom_m": 19.28,
+    "rho_ohmm": 16.0
+   },
+   {
+    "top_m": 19.28,
+    "bottom_m": null,
+    "rho_ohmm": 24.2
+   }
+  ],
+  "digitisation_error": "interfaces +-5% (box edges read on the AB/2 axis)",
+  "provenance": {
+   "document": "main",
+   "pages": [
+    81
+   ],
+   "figure": "VES sheet D.P. 400/69, job 625",
+   "method": "digitised_manual",
+   "tool": "edges from extraction/ves_edges_auto.json + reading by eye",
+   "extracted_on": "2026-10-14",
+   "notes": "Interface depths taken as the AB/2 of the box edges under the curve."
+  },
+  "notes": "Coordinates printed to 100 m. The last layer is open-ended; the model does not state a DOI."
+ },
+ {
+  "id": "paparo-1969-southern-arava-ves-625-400-70",
+  "survey": "paparo-1969-southern-arava",
+  "site": "625-400-70",
+  "method": "VES",
+  "level": "L2",
+  "representation": "model_1d",
+  "measured_on": null,
+  "confidence": "B",
+  "status": "draft",
+  "model_type": "layered",
+  "depth_max_m": 20,
+  "layers": [
+   {
+    "top_m": 0.0,
+    "bottom_m": 1.1,
+    "rho_ohmm": 670.0
+   },
+   {
+    "top_m": 1.1,
+    "bottom_m": 13.28,
+    "rho_ohmm": 134.0
+   },
+   {
+    "top_m": 13.28,
+    "bottom_m": null,
+    "rho_ohmm": 33.5
+   }
+  ],
+  "digitisation_error": "interfaces +-5% (box edges read on the AB/2 axis)",
+  "provenance": {
+   "document": "main",
+   "pages": [
+    82
+   ],
+   "figure": "VES sheet D.P. 400/70, job 625",
+   "method": "digitised_manual",
+   "tool": "edges from extraction/ves_edges_auto.json + reading by eye",
+   "extracted_on": "2026-10-14",
+   "notes": "Interface depths taken as the AB/2 of the box edges under the curve."
+  },
+  "notes": "Coordinates printed to 100 m. The first layer is under about 1.5 m thick and its base is approximate. The last layer is open-ended; the model does not state a DOI."
+ }
+]
