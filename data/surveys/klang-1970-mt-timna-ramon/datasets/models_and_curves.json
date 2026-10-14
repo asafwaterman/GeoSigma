@@ -1,0 +1,879 @@
+[
+ {
+  "id": "klang1970-timna-24-layered",
+  "survey": "klang-1970-mt-timna-ramon",
+  "site": "MTP-24",
+  "method": "MT",
+  "level": "L2",
+  "representation": "model_1d",
+  "measured_on": "1969-08",
+  "model_type": "layered",
+  "depth_max_m": 30000.0,
+  "confidence": "C",
+  "status": "draft",
+  "layers": [
+   {
+    "top_m": 0.0,
+    "bottom_m": 195.0,
+    "rho_ohmm": 30.0
+   },
+   {
+    "top_m": 195.0,
+    "bottom_m": 3300.0,
+    "rho_ohmm": 180.0
+   },
+   {
+    "top_m": 3300.0,
+    "bottom_m": 9900.0,
+    "rho_ohmm": 56.0
+   },
+   {
+    "top_m": 9900.0,
+    "bottom_m": 30000.0,
+    "rho_ohmm": 105.0
+   },
+   {
+    "top_m": 30000.0,
+    "bottom_m": null,
+    "rho_min": 105.0,
+    "note": "printed as 'very high'"
+   }
+  ],
+  "provenance": {
+   "document": "main",
+   "pages": [
+    8
+   ],
+   "figure": "M.T.P. No. 24 field sheet",
+   "table": "CALC. RES. band",
+   "method": "manual",
+   "tool": "geosigma.extract.klang_timna",
+   "extracted_on": "2026-10-14",
+   "notes": "Printed in ohm.cm; divided by 100. Depths below ground."
+  },
+  "notes": "Deepest boundary printed as '30000 ?'; the last complex is 'very high'."
+ },
+ {
+  "id": "klang1970-timna-24-curve",
+  "survey": "klang-1970-mt-timna-ramon",
+  "site": "MTP-24",
+  "method": "MT",
+  "level": "L1",
+  "representation": "sounding_curve",
+  "measured_on": "1969-08",
+  "x_quantity": "period",
+  "curve": [
+   {
+    "x": 0.01,
+    "rho_a": 30.4
+   },
+   {
+    "x": 0.01585,
+    "rho_a": 36.8
+   },
+   {
+    "x": 0.02512,
+    "rho_a": 44.3
+   },
+   {
+    "x": 0.03981,
+    "rho_a": 53.5
+   },
+   {
+    "x": 0.0631,
+    "rho_a": 64.4
+   },
+   {
+    "x": 0.1,
+    "rho_a": 77.6
+   },
+   {
+    "x": 0.15849,
+    "rho_a": 90.4
+   },
+   {
+    "x": 0.25119,
+    "rho_a": 104.0
+   },
+   {
+    "x": 0.39811,
+    "rho_a": 114.0
+   },
+   {
+    "x": 0.63096,
+    "rho_a": 119.0
+   },
+   {
+    "x": 1.0,
+    "rho_a": 117.0
+   },
+   {
+    "x": 1.58489,
+    "rho_a": 108.0
+   },
+   {
+    "x": 2.51189,
+    "rho_a": 95.5
+   },
+   {
+    "x": 3.98107,
+    "rho_a": 86.7
+   },
+   {
+    "x": 6.30957,
+    "rho_a": 78.7
+   },
+   {
+    "x": 10.0,
+    "rho_a": 71.3
+   },
+   {
+    "x": 15.84893,
+    "rho_a": 66.2
+   },
+   {
+    "x": 25.11886,
+    "rho_a": 62.6
+   },
+   {
+    "x": 39.81072,
+    "rho_a": 63.7
+   },
+   {
+    "x": 63.09573,
+    "rho_a": 68.8
+   },
+   {
+    "x": 100.0,
+    "rho_a": 79.9
+   },
+   {
+    "x": 158.48932,
+    "rho_a": 112.0
+   },
+   {
+    "x": 251.18864,
+    "rho_a": 195.0
+   }
+  ],
+  "confidence": "B",
+  "status": "draft",
+  "digitisation_error": "+-0.02 log10 rho_a, +-0.02 log10 sqrt(T) (traced line on log paper)",
+  "provenance": {
+   "document": "main",
+   "pages": [
+    8
+   ],
+   "figure": "M.T.P. No. 24 field sheet",
+   "method": "digitised_auto",
+   "tool": "geosigma.extract.klang_timna",
+   "extracted_on": "2026-10-14",
+   "notes": "Smoothed field curve as drawn; period T = (sqrt T)^2. Bottom decade taken as 1000 ohm.cm."
+  }
+ },
+ {
+  "id": "klang1970-timna-25-layered",
+  "survey": "klang-1970-mt-timna-ramon",
+  "site": "MTP-25",
+  "method": "MT",
+  "level": "L2",
+  "representation": "model_1d",
+  "measured_on": "1969-08",
+  "model_type": "layered",
+  "depth_max_m": 38500.0,
+  "confidence": "C",
+  "status": "draft",
+  "layers": [
+   {
+    "top_m": 0.0,
+    "bottom_m": 300.0,
+    "rho_ohmm": 35.0
+   },
+   {
+    "top_m": 300.0,
+    "bottom_m": 2200.0,
+    "rho_ohmm": 180.0
+   },
+   {
+    "top_m": 2200.0,
+    "bottom_m": 5500.0,
+    "rho_ohmm": 40.0
+   },
+   {
+    "top_m": 5500.0,
+    "bottom_m": 38500.0,
+    "rho_ohmm": 165.0
+   },
+   {
+    "top_m": 38500.0,
+    "bottom_m": null,
+    "rho_min": 165.0,
+    "note": "printed as 'very high'"
+   }
+  ],
+  "provenance": {
+   "document": "main",
+   "pages": [
+    9
+   ],
+   "figure": "M.T.P. No. 25 field sheet",
+   "table": "CALC. RES. band",
+   "method": "manual",
+   "tool": "geosigma.extract.klang_timna",
+   "extracted_on": "2026-10-14",
+   "notes": "Printed in ohm.cm; divided by 100. Depths below ground."
+  },
+  "notes": "Deepest boundary printed as '38500 ?'; the last complex is 'very high'."
+ },
+ {
+  "id": "klang1970-timna-25-curve",
+  "survey": "klang-1970-mt-timna-ramon",
+  "site": "MTP-25",
+  "method": "MT",
+  "level": "L1",
+  "representation": "sounding_curve",
+  "measured_on": "1969-08",
+  "x_quantity": "period",
+  "curve": [
+   {
+    "x": 0.01585,
+    "rho_a": 35.5
+   },
+   {
+    "x": 0.02512,
+    "rho_a": 39.9
+   },
+   {
+    "x": 0.03981,
+    "rho_a": 46.7
+   },
+   {
+    "x": 0.0631,
+    "rho_a": 55.3
+   },
+   {
+    "x": 0.1,
+    "rho_a": 67.4
+   },
+   {
+    "x": 0.15849,
+    "rho_a": 80.4
+   },
+   {
+    "x": 0.25119,
+    "rho_a": 91.0
+   },
+   {
+    "x": 0.39811,
+    "rho_a": 93.1
+   },
+   {
+    "x": 0.63096,
+    "rho_a": 91.3
+   },
+   {
+    "x": 1.0,
+    "rho_a": 83.6
+   },
+   {
+    "x": 1.58489,
+    "rho_a": 74.4
+   },
+   {
+    "x": 2.51189,
+    "rho_a": 66.9
+   },
+   {
+    "x": 3.98107,
+    "rho_a": 62.4
+   },
+   {
+    "x": 6.30957,
+    "rho_a": 62.6
+   },
+   {
+    "x": 10.0,
+    "rho_a": 66.1
+   },
+   {
+    "x": 15.84893,
+    "rho_a": 71.3
+   },
+   {
+    "x": 25.11886,
+    "rho_a": 74.6
+   },
+   {
+    "x": 39.81072,
+    "rho_a": 84.4
+   },
+   {
+    "x": 63.09573,
+    "rho_a": 102.0
+   },
+   {
+    "x": 100.0,
+    "rho_a": 131.0
+   },
+   {
+    "x": 158.48932,
+    "rho_a": 178.0
+   }
+  ],
+  "confidence": "B",
+  "status": "draft",
+  "digitisation_error": "+-0.02 log10 rho_a, +-0.02 log10 sqrt(T) (traced line on log paper)",
+  "provenance": {
+   "document": "main",
+   "pages": [
+    9
+   ],
+   "figure": "M.T.P. No. 25 field sheet",
+   "method": "digitised_auto",
+   "tool": "geosigma.extract.klang_timna",
+   "extracted_on": "2026-10-14",
+   "notes": "Smoothed field curve as drawn; period T = (sqrt T)^2. Bottom decade taken as 1000 ohm.cm."
+  }
+ },
+ {
+  "id": "klang1970-timna-26-layered",
+  "survey": "klang-1970-mt-timna-ramon",
+  "site": "MTP-26",
+  "method": "MT",
+  "level": "L2",
+  "representation": "model_1d",
+  "measured_on": "1969-08",
+  "model_type": "layered",
+  "depth_max_m": 200.0,
+  "confidence": "C",
+  "status": "draft",
+  "layers": [
+   {
+    "top_m": 0.0,
+    "bottom_m": 200.0,
+    "rho_ohmm": 11.0
+   },
+   {
+    "top_m": 200.0,
+    "bottom_m": null,
+    "rho_ohmm": 88.0
+   }
+  ],
+  "provenance": {
+   "document": "main",
+   "pages": [
+    10
+   ],
+   "figure": "M.T.P. No. 26 field sheet",
+   "table": "CALC. RES. band",
+   "method": "manual",
+   "tool": "geosigma.extract.klang_timna",
+   "extracted_on": "2026-10-14",
+   "notes": "Printed in ohm.cm; divided by 100. Depths below ground."
+  },
+  "notes": "Report: low-frequency data insufficient, so the model stays in the sedimentary section."
+ },
+ {
+  "id": "klang1970-timna-26-curve",
+  "survey": "klang-1970-mt-timna-ramon",
+  "site": "MTP-26",
+  "method": "MT",
+  "level": "L1",
+  "representation": "sounding_curve",
+  "measured_on": "1969-08",
+  "x_quantity": "period",
+  "curve": [
+   {
+    "x": 0.02512,
+    "rho_a": 11.3
+   },
+   {
+    "x": 0.03981,
+    "rho_a": 14.2
+   },
+   {
+    "x": 0.0631,
+    "rho_a": 17.6
+   },
+   {
+    "x": 0.1,
+    "rho_a": 22.1
+   },
+   {
+    "x": 0.15849,
+    "rho_a": 26.5
+   },
+   {
+    "x": 0.25119,
+    "rho_a": 32.6
+   },
+   {
+    "x": 0.39811,
+    "rho_a": 38.7
+   },
+   {
+    "x": 0.63096,
+    "rho_a": 44.5
+   }
+  ],
+  "confidence": "B",
+  "status": "draft",
+  "digitisation_error": "+-0.02 log10 rho_a, +-0.02 log10 sqrt(T) (traced line on log paper)",
+  "provenance": {
+   "document": "main",
+   "pages": [
+    10
+   ],
+   "figure": "M.T.P. No. 26 field sheet",
+   "method": "digitised_auto",
+   "tool": "geosigma.extract.klang_timna",
+   "extracted_on": "2026-10-14",
+   "notes": "Smoothed field curve as drawn; period T = (sqrt T)^2. Bottom decade taken as 100 ohm.cm."
+  }
+ },
+ {
+  "id": "klang1970-timna-27-layered",
+  "survey": "klang-1970-mt-timna-ramon",
+  "site": "MTP-27",
+  "method": "MT",
+  "level": "L2",
+  "representation": "model_1d",
+  "measured_on": "1969-08",
+  "model_type": "layered",
+  "depth_max_m": 13800.0,
+  "confidence": "B",
+  "status": "draft",
+  "layers": [
+   {
+    "top_m": 0.0,
+    "bottom_m": 460.0,
+    "rho_ohmm": 85.0
+   },
+   {
+    "top_m": 460.0,
+    "bottom_m": 2760.0,
+    "rho_ohmm": 255.0
+   },
+   {
+    "top_m": 2760.0,
+    "bottom_m": 13800.0,
+    "rho_ohmm": 50.0
+   },
+   {
+    "top_m": 13800.0,
+    "bottom_m": null,
+    "rho_ohmm": 550.0
+   }
+  ],
+  "provenance": {
+   "document": "main",
+   "pages": [
+    11
+   ],
+   "figure": "M.T.P. No. 27 field sheet",
+   "table": "CALC. RES. band",
+   "method": "manual",
+   "tool": "geosigma.extract.klang_timna",
+   "extracted_on": "2026-10-14",
+   "notes": "Printed in ohm.cm; divided by 100. Depths below ground."
+  },
+  "notes": "Report: basement known at about 50-80 m here; the first complex mixes sediments and basement."
+ },
+ {
+  "id": "klang1970-timna-27-curve",
+  "survey": "klang-1970-mt-timna-ramon",
+  "site": "MTP-27",
+  "method": "MT",
+  "level": "L1",
+  "representation": "sounding_curve",
+  "measured_on": "1969-08",
+  "x_quantity": "period",
+  "curve": [
+   {
+    "x": 0.02512,
+    "rho_a": 95.0
+   },
+   {
+    "x": 0.03981,
+    "rho_a": 109.0
+   },
+   {
+    "x": 0.0631,
+    "rho_a": 124.0
+   },
+   {
+    "x": 0.1,
+    "rho_a": 139.0
+   },
+   {
+    "x": 0.15849,
+    "rho_a": 155.0
+   },
+   {
+    "x": 0.25119,
+    "rho_a": 162.0
+   },
+   {
+    "x": 0.39811,
+    "rho_a": 162.0
+   },
+   {
+    "x": 0.63096,
+    "rho_a": 149.0
+   },
+   {
+    "x": 1.0,
+    "rho_a": 129.0
+   },
+   {
+    "x": 1.58489,
+    "rho_a": 112.0
+   },
+   {
+    "x": 2.51189,
+    "rho_a": 96.0
+   },
+   {
+    "x": 3.98107,
+    "rho_a": 86.1
+   },
+   {
+    "x": 6.30957,
+    "rho_a": 74.3
+   },
+   {
+    "x": 10.0,
+    "rho_a": 67.2
+   },
+   {
+    "x": 15.84893,
+    "rho_a": 60.6
+   },
+   {
+    "x": 25.11886,
+    "rho_a": 59.2
+   },
+   {
+    "x": 39.81072,
+    "rho_a": 68.1
+   },
+   {
+    "x": 63.09573,
+    "rho_a": 82.8
+   },
+   {
+    "x": 100.0,
+    "rho_a": 105.0
+   },
+   {
+    "x": 158.48932,
+    "rho_a": 135.0
+   }
+  ],
+  "confidence": "B",
+  "status": "draft",
+  "digitisation_error": "+-0.02 log10 rho_a, +-0.02 log10 sqrt(T) (traced line on log paper)",
+  "provenance": {
+   "document": "main",
+   "pages": [
+    11
+   ],
+   "figure": "M.T.P. No. 27 field sheet",
+   "method": "digitised_auto",
+   "tool": "geosigma.extract.klang_timna",
+   "extracted_on": "2026-10-14",
+   "notes": "Smoothed field curve as drawn; period T = (sqrt T)^2. Bottom decade taken as 1000 ohm.cm."
+  }
+ },
+ {
+  "id": "klang1970-timna-28-layered",
+  "survey": "klang-1970-mt-timna-ramon",
+  "site": "MTP-28",
+  "method": "MT",
+  "level": "L2",
+  "representation": "model_1d",
+  "measured_on": "1969-08",
+  "model_type": "layered",
+  "depth_max_m": 10000.0,
+  "confidence": "B",
+  "status": "draft",
+  "layers": [
+   {
+    "top_m": 0.0,
+    "bottom_m": 480.0,
+    "rho_ohmm": 100.0
+   },
+   {
+    "top_m": 480.0,
+    "bottom_m": 2880.0,
+    "rho_ohmm": 200.0
+   },
+   {
+    "top_m": 2880.0,
+    "bottom_m": 10000.0,
+    "rho_ohmm": 34.0
+   },
+   {
+    "top_m": 10000.0,
+    "bottom_m": null,
+    "rho_ohmm": 675.0
+   }
+  ],
+  "provenance": {
+   "document": "main",
+   "pages": [
+    12
+   ],
+   "figure": "M.T.P. No. 28 field sheet",
+   "table": "CALC. RES. band",
+   "method": "manual",
+   "tool": "geosigma.extract.klang_timna",
+   "extracted_on": "2026-10-14",
+   "notes": "Printed in ohm.cm; divided by 100. Depths below ground."
+  },
+  "notes": "Report: basement known at about 50-80 m here; the first complex mixes sediments and basement."
+ },
+ {
+  "id": "klang1970-timna-28-curve",
+  "survey": "klang-1970-mt-timna-ramon",
+  "site": "MTP-28",
+  "method": "MT",
+  "level": "L1",
+  "representation": "sounding_curve",
+  "measured_on": "1969-08",
+  "x_quantity": "period",
+  "curve": [
+   {
+    "x": 0.01585,
+    "rho_a": 104.0
+   },
+   {
+    "x": 0.02512,
+    "rho_a": 114.0
+   },
+   {
+    "x": 0.03981,
+    "rho_a": 125.0
+   },
+   {
+    "x": 0.0631,
+    "rho_a": 134.0
+   },
+   {
+    "x": 0.1,
+    "rho_a": 143.0
+   },
+   {
+    "x": 0.15849,
+    "rho_a": 149.0
+   },
+   {
+    "x": 0.25119,
+    "rho_a": 152.0
+   },
+   {
+    "x": 0.39811,
+    "rho_a": 152.0
+   },
+   {
+    "x": 0.63096,
+    "rho_a": 143.0
+   },
+   {
+    "x": 1.0,
+    "rho_a": 123.0
+   },
+   {
+    "x": 1.58489,
+    "rho_a": 103.0
+   },
+   {
+    "x": 2.51189,
+    "rho_a": 85.6
+   },
+   {
+    "x": 3.98107,
+    "rho_a": 73.6
+   },
+   {
+    "x": 6.30957,
+    "rho_a": 63.3
+   },
+   {
+    "x": 10.0,
+    "rho_a": 55.8
+   },
+   {
+    "x": 15.84893,
+    "rho_a": 50.8
+   },
+   {
+    "x": 25.11886,
+    "rho_a": 58.1
+   },
+   {
+    "x": 39.81072,
+    "rho_a": 75.5
+   },
+   {
+    "x": 63.09573,
+    "rho_a": 97.7
+   },
+   {
+    "x": 100.0,
+    "rho_a": 129.0
+   },
+   {
+    "x": 158.48932,
+    "rho_a": 167.0
+   }
+  ],
+  "confidence": "B",
+  "status": "draft",
+  "digitisation_error": "+-0.02 log10 rho_a, +-0.02 log10 sqrt(T) (traced line on log paper)",
+  "provenance": {
+   "document": "main",
+   "pages": [
+    12
+   ],
+   "figure": "M.T.P. No. 28 field sheet",
+   "method": "digitised_auto",
+   "tool": "geosigma.extract.klang_timna",
+   "extracted_on": "2026-10-14",
+   "notes": "Smoothed field curve as drawn; period T = (sqrt T)^2. Bottom decade taken as 1000 ohm.cm."
+  }
+ },
+ {
+  "id": "klang1970-timna-29-layered",
+  "survey": "klang-1970-mt-timna-ramon",
+  "site": "MTP-29",
+  "method": "MT",
+  "level": "L2",
+  "representation": "model_1d",
+  "measured_on": "1969-08",
+  "model_type": "layered",
+  "depth_max_m": 15500.0,
+  "confidence": "B",
+  "status": "draft",
+  "layers": [
+   {
+    "top_m": 0.0,
+    "bottom_m": 500.0,
+    "rho_ohmm": 11.0
+   },
+   {
+    "top_m": 500.0,
+    "bottom_m": 15500.0,
+    "rho_ohmm": 77.0
+   },
+   {
+    "top_m": 15500.0,
+    "bottom_m": null,
+    "rho_ohmm": 700.0
+   }
+  ],
+  "provenance": {
+   "document": "main",
+   "pages": [
+    13
+   ],
+   "figure": "M.T.P. No. 29 field sheet",
+   "table": "CALC. RES. band",
+   "method": "manual",
+   "tool": "geosigma.extract.klang_timna",
+   "extracted_on": "2026-10-14",
+   "notes": "Printed in ohm.cm; divided by 100. Depths below ground."
+  },
+  "notes": "Near the Ramon 1 well (TD 3439 m in arkose). Report: no basement can be told apart under the arkose."
+ },
+ {
+  "id": "klang1970-timna-29-curve",
+  "survey": "klang-1970-mt-timna-ramon",
+  "site": "MTP-29",
+  "method": "MT",
+  "level": "L1",
+  "representation": "sounding_curve",
+  "measured_on": "1969-08",
+  "x_quantity": "period",
+  "curve": [
+   {
+    "x": 0.15849,
+    "rho_a": 11.8
+   },
+   {
+    "x": 0.25119,
+    "rho_a": 14.5
+   },
+   {
+    "x": 0.39811,
+    "rho_a": 17.6
+   },
+   {
+    "x": 0.63096,
+    "rho_a": 21.4
+   },
+   {
+    "x": 1.0,
+    "rho_a": 25.6
+   },
+   {
+    "x": 1.58489,
+    "rho_a": 30.7
+   },
+   {
+    "x": 2.51189,
+    "rho_a": 35.8
+   },
+   {
+    "x": 3.98107,
+    "rho_a": 40.5
+   },
+   {
+    "x": 6.30957,
+    "rho_a": 45.0
+   },
+   {
+    "x": 10.0,
+    "rho_a": 49.5
+   },
+   {
+    "x": 15.84893,
+    "rho_a": 56.1
+   },
+   {
+    "x": 25.11886,
+    "rho_a": 68.4
+   },
+   {
+    "x": 39.81072,
+    "rho_a": 82.8
+   },
+   {
+    "x": 63.09573,
+    "rho_a": 104.0
+   },
+   {
+    "x": 100.0,
+    "rho_a": 135.0
+   },
+   {
+    "x": 158.48932,
+    "rho_a": 168.0
+   }
+  ],
+  "confidence": "B",
+  "status": "draft",
+  "digitisation_error": "+-0.02 log10 rho_a, +-0.02 log10 sqrt(T) (traced line on log paper)",
+  "provenance": {
+   "document": "main",
+   "pages": [
+    13
+   ],
+   "figure": "M.T.P. No. 29 field sheet",
+   "method": "digitised_auto",
+   "tool": "geosigma.extract.klang_timna",
+   "extracted_on": "2026-10-14",
+   "notes": "Smoothed field curve as drawn; period T = (sqrt T)^2. Bottom decade taken as 100 ohm.cm."
+  }
+ }
+]

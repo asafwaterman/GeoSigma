@@ -19,5 +19,63 @@ documents:
   - en
   scanned: true
   role: main_report
-extraction_status: blocked
-notes: 6 soundings. PDF over the connector size limit.
+  sha256: 44f4cecb7f48c28ba53204b282c47270d43cb34f5f0136aaa0f0d606de6120b2
+  pages: 15
+extraction_status: complete
+notes: 6 soundings, August 1969. Models typed from the CALC. RES. band of each sheet (ohm.cm on the sheet, stored
+  in ohm.m); apparent-resistivity curves traced by script. The report says one more sounding could not be interpreted.
+sites:
+- id: MTP-24
+  name: MT sounding 24 (Timna)
+  coords:
+    x: 145850
+    y: 904850
+    crs: EPSG:28193
+    source: table
+    accuracy_m: 50
+  elevation_m: 200.0
+- id: MTP-25
+  name: MT sounding 25 (Timna)
+  coords:
+    x: 146094
+    y: 904973
+    crs: EPSG:28193
+    source: table
+    accuracy_m: 50
+  elevation_m: 180.0
+- id: MTP-26
+  name: MT sounding 26 (Timna)
+  coords:
+    x: 147150
+    y: 904100
+    crs: EPSG:28193
+    source: table
+    accuracy_m: 50
+  elevation_m: 200.0
+- id: MTP-27
+  name: MT sounding 27 (Timna)
+  coords:
+    x: 148950
+    y: 909150
+    crs: EPSG:28193
+    source: table
+    accuracy_m: 50
+  elevation_m: 200.0
+- id: MTP-28
+  name: MT sounding 28 (Timna)
+  coords:
+    x: 148950
+    y: 909450
+    crs: EPSG:28193
+    source: table
+    accuracy_m: 50
+  elevation_m: 205.0
+- id: MTP-29
+  name: MT sounding 29 (Ramon)
+  coords:
+    x: 138650
+    y: 1150
+    crs: EPSG:28193
+    source: table
+    accuracy_m: 50
+  elevation_m: 500.0
