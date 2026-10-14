@@ -4,7 +4,9 @@
 
 const state = { depth: 500, sigma: false, hidden: new Set(), site: null, dataset: null, surveys: [] };
 const $ = (id) => document.getElementById(id);
-const api = (path) => fetch(path).then((r) => (r.ok ? r.json() : Promise.reject(r.statusText)));
+// A read-only web copy (geosigma.export_static) sets GEOSIGMA_STATIC with its own api and basemap.
+const STATIC = window.GEOSIGMA_STATIC || null;
+const api = STATIC ? STATIC.api : (path) => fetch(path).then((r) => (r.ok ? r.json() : Promise.reject(r.statusText)));
 
 // Colour ramp on log10(rho), 1 to 1000 ohm.m: conductive red to resistive blue.
 const RAMP = [[0, "#b2182b"], [0.5, "#ef8a62"], [1, "#fddbc7"], [1.5, "#d1e5f0"], [2, "#67a9cf"], [3, "#2166ac"]];
@@ -24,7 +26,7 @@ const fmt = (rho) => {
 
 const map = new maplibregl.Map({
   container: "map",
-  style: {
+  style: STATIC ? STATIC.style : {
     version: 8,
     sources: { osm: { type: "raster", tiles: ["https://tile.openstreetmap.org/{z}/{x}/{y}.png"], tileSize: 256,
       attribution: "© OpenStreetMap contributors" } },
@@ -219,7 +221,7 @@ function showDataset(d, el) {
     ${d.digitisation_error ? "<br>Reading error " + d.digitisation_error : ""}
     ${d.doi_m ? "<br>Depth of investigation " + d.doi_m + " m" + (d.doi_estimated ? " (estimated)" : "") : "<br>No depth of investigation in the report"}
     ${d.notes ? "<br>" + d.notes : ""}</p>
-    ${pages.length ? `<a href="/api/source/${d.survey}/${p.document}/page/${pages[0]}.png?dpi=200" target="_blank">
+    ${pages.length && !STATIC ? `<a href="/api/source/${d.survey}/${p.document}/page/${pages[0]}.png?dpi=200" target="_blank">
       <img loading="lazy" alt="Source page" src="/api/source/${d.survey}/${p.document}/page/${pages[0]}.png?dpi=70"
       onerror="this.replaceWith(document.createTextNode('Source PDF not available locally.'))"></a>` : ""}`;
 }
@@ -267,6 +269,7 @@ map.on("load", loadSites);
 // Review: the decision is written to the dataset's source file by the API.
 function renderReview(d) {
   const by = d.provenance.checked_by ? ` by ${d.provenance.checked_by}${d.provenance.checked_on ? " on " + d.provenance.checked_on : ""}` : "";
+  if (STATIC) { $("review").innerHTML = `<span>Review: <b>${d.status}</b>${by}</span><span class="muted">Review in the local tool.</span>`; return; }
   const btn = (st, label) => `<button data-st="${st}" class="${d.status === st ? "on" : ""}">${label}</button>`;
   $("review").innerHTML = `<span>Review: <b>${d.status}</b>${by}</span>
     ${btn("checked", "Checked")}${btn("approved", "Approve")}${btn("rejected", "Reject")}

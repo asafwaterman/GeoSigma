@@ -16,6 +16,9 @@ def main(argv: list[str] | None = None) -> int:
     b.add_argument("--approved-only", action="store_true", help="leave out draft datasets")
     s = sub.add_parser("serve", help="run the web interface")
     s.add_argument("--port", type=int, default=8000)
+    e = sub.add_parser("export-static", help="write a read-only web copy of the viewer (no server)")
+    e.add_argument("out", nargs="?", default="build/static")
+    e.add_argument("--maplibre-css", help="local maplibre-gl.css (default: download it)")
     args = ap.parse_args(argv)
 
     if args.cmd in ("check", "build"):
@@ -33,6 +36,14 @@ def main(argv: list[str] | None = None) -> int:
         import uvicorn
 
         uvicorn.run("geosigma.api:app", host="127.0.0.1", port=args.port)
+    if args.cmd == "export-static":
+        from pathlib import Path
+
+        from .export_static import export
+
+        out = export(Path(args.out), Path(args.maplibre_css) if args.maplibre_css else None)
+        for f in sorted(out.iterdir()):
+            print(f"{f}  {f.stat().st_size / 1e6:.2f} MB")
     return 0
 
 
