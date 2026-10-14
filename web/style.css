@@ -48,3 +48,9 @@ button { font: inherit; padding: 4px 10px; border: 1px solid var(--line); backgr
   #sectionPane { left: 16px; right: 16px; }
 }
 #sectionPane[hidden], [hidden] { display: none !important; }
+#review { display: flex; flex-wrap: wrap; gap: 6px; align-items: center; margin: 6px 0 10px; font-size: 13px; }
+#review button { font: inherit; padding: 3px 10px; border-radius: 6px; border: 1px solid var(--border, #c9ced6);
+  background: transparent; color: inherit; cursor: pointer; }
+#review button.on { background: var(--accent, #1f5fa8); border-color: var(--accent, #1f5fa8); color: #fff; }
+#review input { flex: 1 1 140px; min-width: 0; font: inherit; padding: 3px 6px; border-radius: 6px;
+  border: 1px solid var(--border, #c9ced6); background: transparent; color: inherit; }

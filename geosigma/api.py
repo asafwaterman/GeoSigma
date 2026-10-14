@@ -1,4 +1,5 @@
-"""FastAPI backend: the only read path for the web interface."""
+"""FastAPI backend for the web interface: reads the built database; the one write
+is a review decision, saved to the dataset's source file."""
 from __future__ import annotations
 
 import json
@@ -7,13 +8,13 @@ from functools import lru_cache
 from pathlib import Path
 from typing import Optional
 
-from fastapi import FastAPI, HTTPException, Query
+from fastapi import Body, FastAPI, HTTPException, Query
 from fastapi.responses import FileResponse, Response
 from fastapi.staticfiles import StaticFiles
 
 from .derived import reliability_at_depth, value_at_depth
 from .schema import Dataset
-from .store import DB_PATH, ROOT
+from .store import DB_PATH, ROOT, set_status
 
 WEB_DIR = ROOT / "web"
 SOURCES_DIR = ROOT / "data" / "sources" / "pdf"  # local PDFs, not committed
@@ -111,6 +112,32 @@ def dataset(dataset_id: str):
         ).fetchone()
     ds["document_info"] = dict(doc) if doc else None
     return ds
+
+
+@app.post("/api/datasets/{dataset_id}/status")
+def review(dataset_id: str, status: str = Body(...), by: str = Body("Asaf"), note: Optional[str] = Body(None)):
+    """Mark a dataset checked, approved, rejected or back to draft."""
+    try:
+        return set_status(dataset_id, status, by, note)
+    except KeyError:
+        raise HTTPException(404, "unknown dataset")
+    except ValueError as e:
+        raise HTTPException(400, str(e))
+
+
+@app.get("/api/review")
+def review_summary():
+    """Datasets per survey and status, deep data first, for working through the review."""
+    with _db() as con:
+        rows = con.execute(
+            "SELECT survey, status, COUNT(*) n, MAX(depth_max_m) deep FROM dataset GROUP BY survey, status"
+        ).fetchall()
+    out: dict[str, dict] = {}
+    for r in rows:
+        s = out.setdefault(r["survey"], {"survey": r["survey"], "deepest_m": 0, "counts": {}})
+        s["counts"][r["status"]] = r["n"]
+        s["deepest_m"] = max(s["deepest_m"], r["deep"] or 0)
+    return sorted(out.values(), key=lambda s: -s["deepest_m"])
 
 
 @app.get("/api/coverage")

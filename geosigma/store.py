@@ -141,3 +141,36 @@ def build_database(cat: Catalogue, db_path: Path = DB_PATH, include_drafts: bool
     con.commit()
     con.close()
     return db_path
+
+
+def set_status(dataset_id: str, status: str, by: str, note: str | None = None,
+               surveys_dir: Path = SURVEYS_DIR, db_path: Path = DB_PATH) -> dict:
+    """Record a review decision in the dataset's source file (the source of truth)
+    and mirror it in the built database, so the viewer shows it without a rebuild."""
+    from datetime import date
+
+    st = Status(status)
+    for dfile in surveys_dir.glob("*/datasets/*.json"):
+        raw = json.loads(dfile.read_text(encoding="utf-8"))
+        items = raw if isinstance(raw, list) else [raw]
+        for item in items:
+            if item.get("id") != dataset_id:
+                continue
+            item["status"] = st.value
+            item["provenance"]["checked_by"] = by
+            item["provenance"]["checked_on"] = date.today().isoformat()
+            if note:
+                item["review_note"] = note
+            ds = Dataset.model_validate(item)
+            dfile.write_text(json.dumps(raw, indent=1, ensure_ascii=False), encoding="utf-8")
+            if db_path.exists():
+                con = sqlite3.connect(db_path)
+                if st == Status.rejected:
+                    con.execute("DELETE FROM dataset WHERE id=?", (dataset_id,))
+                else:
+                    con.execute("UPDATE dataset SET status=?, json=? WHERE id=?",
+                                (st.value, ds.model_dump_json(), dataset_id))
+                con.commit()
+                con.close()
+            return json.loads(ds.model_dump_json())
+    raise KeyError(dataset_id)

@@ -39,6 +39,15 @@ page previews need the report PDFs in `data/sources/pdf/` (not committed; Drive 
   each site and the site panel lists all of them.
 - New extractions start as `draft` and show an "unreviewed" badge until checked.
 
+## Reviewing
+
+Open a site, compare the plot with the source page thumbnail under it, and press
+**Checked**, **Approve** or **Reject** (with an optional note). The decision is saved
+in the dataset's file under `data/surveys/`, so commit those files to keep it.
+Rejected datasets drop out of the database on the next build. `GET /api/review`
+lists the counts per survey, deepest data first. For the Geoelectric Atlas,
+`python scripts/atlas_qa.py <dir>` draws the digitised readings over each plot page.
+
 ## Coordinates
 
 - EPSG:2039 Israeli TM Grid (Afek App. B "NID TM").

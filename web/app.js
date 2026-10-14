@@ -195,6 +195,7 @@ function showDataset(d, el) {
       ? `<p>Interface at <b>${d.interface_depth_m} m</b> below ground: ${d.criterion || ""}</p>`
       : `<p>${d.summary || d.representation}</p>`;
   }
+  renderReview(d);
   const p = d.provenance;
   const doc = d.document_info;
   const pages = p.pages || [];
@@ -247,3 +248,26 @@ $("closeSection").addEventListener("click", () => ($("sectionPane").hidden = tru
 legend();
 loadSurveys();
 map.on("load", loadSites);
+
+
+// Review: the decision is written to the dataset's source file by the API.
+function renderReview(d) {
+  const by = d.provenance.checked_by ? ` by ${d.provenance.checked_by}${d.provenance.checked_on ? " on " + d.provenance.checked_on : ""}` : "";
+  const btn = (st, label) => `<button data-st="${st}" class="${d.status === st ? "on" : ""}">${label}</button>`;
+  $("review").innerHTML = `<span>Review: <b>${d.status}</b>${by}</span>
+    ${btn("checked", "Checked")}${btn("approved", "Approve")}${btn("rejected", "Reject")}
+    ${d.status !== "draft" ? btn("draft", "Undo") : ""}
+    <input id="reviewNote" placeholder="Note (optional)" value="${(d.review_note || "").replace(/"/g, "&quot;")}">`;
+  $("review").querySelectorAll("button").forEach((b) => b.addEventListener("click", async () => {
+    const r = await fetch(`/api/datasets/${encodeURIComponent(d.id)}/status`, {
+      method: "POST", headers: { "Content-Type": "application/json" },
+      body: JSON.stringify({ status: b.dataset.st, note: $("reviewNote").value || null }),
+    });
+    if (!r.ok) { alert("Could not save: " + (await r.text())); return; }
+    const saved = await r.json();
+    Object.assign(d, { status: saved.status, review_note: saved.review_note, provenance: { ...d.provenance, ...saved.provenance } });
+    renderReview(d);
+    const el = document.querySelector(".ds.active .badge");
+    if (el && d.status !== "draft") el.remove();
+  }));
+}

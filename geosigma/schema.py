@@ -94,6 +94,7 @@ class Provenance(BaseModel):
     extracted_by: str = "claude"
     extracted_on: Optional[date] = None
     checked_by: Optional[str] = None
+    checked_on: Optional[date] = None
     notes: Optional[str] = None
 
 
@@ -173,6 +174,7 @@ class Dataset(BaseModel):
     digitisation_error: Optional[str] = None  # e.g. "+-0.03 log10 rho, +-15 m"
     provenance: Provenance
     reinterprets: Optional[str] = None  # Dataset id this one reinterprets
+    review_note: Optional[str] = None  # the reviewer's comment when checking, approving or rejecting
     notes: Optional[str] = None
 
     @model_validator(mode="after")
