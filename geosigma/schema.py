@@ -27,6 +27,7 @@ class Method(str, Enum):
     CSEM = "CSEM"
     VES = "VES"
     DIPOLE = "DIPOLE"  # roving dipole / dipole-dipole DC mapping
+    PROFILING = "PROFILING"  # DC resistivity profiling at fixed spacings (e.g. Wenner)
     ERT = "ERT"
     IP = "IP"
     LOG = "LOG"
@@ -46,6 +47,7 @@ class Representation(str, Enum):
     map_grid = "map_grid"  # L1/L3: resistivity on a map
     qualitative = "qualitative"  # text-only result, no usable numbers
     interface_depth = "interface_depth"  # depth to a layer meeting a resistivity criterion
+    profile = "profile"  # L1: apparent resistivity along a line at one electrode spacing
 
 
 class ExtractionMethod(str, Enum):
@@ -134,6 +136,12 @@ class CurvePoint(BaseModel):
     phase_deg: Optional[float] = None
 
 
+class ProfilePoint(BaseModel):
+    station: float  # reading number along the line, as plotted
+    rho_a: float
+    site: Optional[str] = None  # Site.id of the station, when its position is known
+
+
 class Dataset(BaseModel):
     id: str
     survey: str
@@ -156,6 +164,9 @@ class Dataset(BaseModel):
     layers: list[Layer] = []
     samples: list[Sample] = []
     curve: list[CurvePoint] = []
+    profile: list[ProfilePoint] = []
+    array: Optional[str] = None  # electrode array, e.g. "Wenner"
+    spacing_m: Optional[float] = None  # electrode spacing of a profile
     interface_depth_m: Optional[float] = None
     criterion: Optional[str] = None  # e.g. "rho < 3 ohm.m (seawater)"
     summary: Optional[str] = None  # required for qualitative results
@@ -173,6 +184,10 @@ class Dataset(BaseModel):
             raise ValueError(f"{self.id}: sounding_curve needs curve points")
         if r == Representation.qualitative and not self.summary:
             raise ValueError(f"{self.id}: qualitative dataset needs a summary")
+        if r == Representation.profile and not self.profile:
+            raise ValueError(f"{self.id}: profile needs points")
+        if self.level != Level.L1 and r == Representation.profile:
+            raise ValueError(f"{self.id}: a profile of apparent resistivity is L1")
         if r == Representation.interface_depth and self.interface_depth_m is None:
             raise ValueError(f"{self.id}: interface_depth needs interface_depth_m")
         if self.level == Level.L1 and r == Representation.model_1d:

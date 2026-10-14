@@ -6,7 +6,7 @@ authors:
 report_number: VO/875/80
 year: 1982
 methods:
-- VES
+- PROFILING
 region: Coastal plain
 purpose: Fresh/saline water interface, repeat measurements
 geometry: stations
@@ -21,4 +21,5480 @@ documents:
   role: main_report
   sha256: 0ab4cdeb5c650c0e394ad3fe588b693cbf31ea5399e3721e635eb834bf839abf
   pages: 47
-extraction_status: registered
+extraction_status: partial
+sites:
+- id: ashkelon-1-1.5
+  name: Ashkelon line 1, reading 1.5
+  line: Ashkelon line 1
+  coords:
+    x: 106602
+    y: 118788
+    crs: EPSG:28193
+    source: map
+    accuracy_m: 150
+- id: ashkelon-1-2.5
+  name: Ashkelon line 1, reading 2.5
+  line: Ashkelon line 1
+  coords:
+    x: 106649
+    y: 118773
+    crs: EPSG:28193
+    source: map
+    accuracy_m: 150
+- id: ashkelon-1-3.5
+  name: Ashkelon line 1, reading 3.5
+  line: Ashkelon line 1
+  coords:
+    x: 106697
+    y: 118759
+    crs: EPSG:28193
+    source: map
+    accuracy_m: 150
+- id: ashkelon-1-4.5
+  name: Ashkelon line 1, reading 4.5
+  line: Ashkelon line 1
+  coords:
+    x: 106745
+    y: 118744
+    crs: EPSG:28193
+    source: map
+    accuracy_m: 150
+- id: ashkelon-1-5.5
+  name: Ashkelon line 1, reading 5.5
+  line: Ashkelon line 1
+  coords:
+    x: 106793
+    y: 118729
+    crs: EPSG:28193
+    source: map
+    accuracy_m: 150
+- id: ashkelon-1-6.5
+  name: Ashkelon line 1, reading 6.5
+  line: Ashkelon line 1
+  coords:
+    x: 106841
+    y: 118715
+    crs: EPSG:28193
+    source: map
+    accuracy_m: 150
+- id: ashkelon-1-7.5
+  name: Ashkelon line 1, reading 7.5
+  line: Ashkelon line 1
+  coords:
+    x: 106888
+    y: 118700
+    crs: EPSG:28193
+    source: map
+    accuracy_m: 150
+- id: ashkelon-1-8.5
+  name: Ashkelon line 1, reading 8.5
+  line: Ashkelon line 1
+  coords:
+    x: 106936
+    y: 118685
+    crs: EPSG:28193
+    source: map
+    accuracy_m: 150
+- id: ashkelon-1-9.5
+  name: Ashkelon line 1, reading 9.5
+  line: Ashkelon line 1
+  coords:
+    x: 106984
+    y: 118671
+    crs: EPSG:28193
+    source: map
+    accuracy_m: 150
+- id: ashkelon-1-10.5
+  name: Ashkelon line 1, reading 10.5
+  line: Ashkelon line 1
+  coords:
+    x: 107032
+    y: 118656
+    crs: EPSG:28193
+    source: map
+    accuracy_m: 150
+- id: ashkelon-1-11.5
+  name: Ashkelon line 1, reading 11.5
+  line: Ashkelon line 1
+  coords:
+    x: 107080
+    y: 118641
+    crs: EPSG:28193
+    source: map
+    accuracy_m: 150
+- id: ashkelon-1-12.5
+  name: Ashkelon line 1, reading 12.5
+  line: Ashkelon line 1
+  coords:
+    x: 107127
+    y: 118627
+    crs: EPSG:28193
+    source: map
+    accuracy_m: 150
+- id: ashkelon-1-13.5
+  name: Ashkelon line 1, reading 13.5
+  line: Ashkelon line 1
+  coords:
+    x: 107175
+    y: 118612
+    crs: EPSG:28193
+    source: map
+    accuracy_m: 150
+- id: ashkelon-1-14.5
+  name: Ashkelon line 1, reading 14.5
+  line: Ashkelon line 1
+  coords:
+    x: 107223
+    y: 118597
+    crs: EPSG:28193
+    source: map
+    accuracy_m: 150
+- id: ashkelon-1-15.5
+  name: Ashkelon line 1, reading 15.5
+  line: Ashkelon line 1
+  coords:
+    x: 107271
+    y: 118583
+    crs: EPSG:28193
+    source: map
+    accuracy_m: 150
+- id: ashkelon-1-16.5
+  name: Ashkelon line 1, reading 16.5
+  line: Ashkelon line 1
+  coords:
+    x: 107319
+    y: 118568
+    crs: EPSG:28193
+    source: map
+    accuracy_m: 150
+- id: ashkelon-1-17.5
+  name: Ashkelon line 1, reading 17.5
+  line: Ashkelon line 1
+  coords:
+    x: 107366
+    y: 118553
+    crs: EPSG:28193
+    source: map
+    accuracy_m: 150
+- id: ashkelon-1-18.5
+  name: Ashkelon line 1, reading 18.5
+  line: Ashkelon line 1
+  coords:
+    x: 107414
+    y: 118539
+    crs: EPSG:28193
+    source: map
+    accuracy_m: 150
+- id: ashkelon-1-19.5
+  name: Ashkelon line 1, reading 19.5
+  line: Ashkelon line 1
+  coords:
+    x: 107462
+    y: 118524
+    crs: EPSG:28193
+    source: map
+    accuracy_m: 150
+- id: ashkelon-1-20.5
+  name: Ashkelon line 1, reading 20.5
+  line: Ashkelon line 1
+  coords:
+    x: 107510
+    y: 118509
+    crs: EPSG:28193
+    source: map
+    accuracy_m: 150
+- id: ashkelon-2-1.5
+  name: Ashkelon line 2, reading 1.5
+  line: Ashkelon line 2
+  coords:
+    x: 107257
+    y: 119766
+    crs: EPSG:28193
+    source: map
+    accuracy_m: 150
+- id: ashkelon-2-2.5
+  name: Ashkelon line 2, reading 2.5
+  line: Ashkelon line 2
+  coords:
+    x: 107301
+    y: 119743
+    crs: EPSG:28193
+    source: map
+    accuracy_m: 150
+- id: ashkelon-2-3.5
+  name: Ashkelon line 2, reading 3.5
+  line: Ashkelon line 2
+  coords:
+    x: 107346
+    y: 119720
+    crs: EPSG:28193
+    source: map
+    accuracy_m: 150
+- id: ashkelon-2-4.5
+  name: Ashkelon line 2, reading 4.5
+  line: Ashkelon line 2
+  coords:
+    x: 107390
+    y: 119697
+    crs: EPSG:28193
+    source: map
+    accuracy_m: 150
+- id: ashkelon-2-5.5
+  name: Ashkelon line 2, reading 5.5
+  line: Ashkelon line 2
+  coords:
+    x: 107434
+    y: 119674
+    crs: EPSG:28193
+    source: map
+    accuracy_m: 150
+- id: ashkelon-2-6.5
+  name: Ashkelon line 2, reading 6.5
+  line: Ashkelon line 2
+  coords:
+    x: 107479
+    y: 119651
+    crs: EPSG:28193
+    source: map
+    accuracy_m: 150
+- id: ashkelon-2-7.5
+  name: Ashkelon line 2, reading 7.5
+  line: Ashkelon line 2
+  coords:
+    x: 107523
+    y: 119628
+    crs: EPSG:28193
+    source: map
+    accuracy_m: 150
+- id: ashkelon-2-8.5
+  name: Ashkelon line 2, reading 8.5
+  line: Ashkelon line 2
+  coords:
+    x: 107568
+    y: 119605
+    crs: EPSG:28193
+    source: map
+    accuracy_m: 150
+- id: ashkelon-2-9.5
+  name: Ashkelon line 2, reading 9.5
+  line: Ashkelon line 2
+  coords:
+    x: 107612
+    y: 119582
+    crs: EPSG:28193
+    source: map
+    accuracy_m: 150
+- id: ashkelon-2-10.5
+  name: Ashkelon line 2, reading 10.5
+  line: Ashkelon line 2
+  coords:
+    x: 107657
+    y: 119560
+    crs: EPSG:28193
+    source: map
+    accuracy_m: 150
+- id: ashkelon-2-11.5
+  name: Ashkelon line 2, reading 11.5
+  line: Ashkelon line 2
+  coords:
+    x: 107701
+    y: 119537
+    crs: EPSG:28193
+    source: map
+    accuracy_m: 150
+- id: ashkelon-2-12.5
+  name: Ashkelon line 2, reading 12.5
+  line: Ashkelon line 2
+  coords:
+    x: 107746
+    y: 119514
+    crs: EPSG:28193
+    source: map
+    accuracy_m: 150
+- id: ashkelon-2-13.5
+  name: Ashkelon line 2, reading 13.5
+  line: Ashkelon line 2
+  coords:
+    x: 107790
+    y: 119491
+    crs: EPSG:28193
+    source: map
+    accuracy_m: 150
+- id: ashkelon-2-14.5
+  name: Ashkelon line 2, reading 14.5
+  line: Ashkelon line 2
+  coords:
+    x: 107835
+    y: 119468
+    crs: EPSG:28193
+    source: map
+    accuracy_m: 150
+- id: ashkelon-2-15.5
+  name: Ashkelon line 2, reading 15.5
+  line: Ashkelon line 2
+  coords:
+    x: 107879
+    y: 119445
+    crs: EPSG:28193
+    source: map
+    accuracy_m: 150
+- id: ashkelon-2-16.5
+  name: Ashkelon line 2, reading 16.5
+  line: Ashkelon line 2
+  coords:
+    x: 107923
+    y: 119422
+    crs: EPSG:28193
+    source: map
+    accuracy_m: 150
+- id: ashkelon-2-17.5
+  name: Ashkelon line 2, reading 17.5
+  line: Ashkelon line 2
+  coords:
+    x: 107968
+    y: 119399
+    crs: EPSG:28193
+    source: map
+    accuracy_m: 150
+- id: ashkelon-2-18.5
+  name: Ashkelon line 2, reading 18.5
+  line: Ashkelon line 2
+  coords:
+    x: 108012
+    y: 119376
+    crs: EPSG:28193
+    source: map
+    accuracy_m: 150
+- id: ashkelon-2-19.5
+  name: Ashkelon line 2, reading 19.5
+  line: Ashkelon line 2
+  coords:
+    x: 108057
+    y: 119353
+    crs: EPSG:28193
+    source: map
+    accuracy_m: 150
+- id: ashkelon-2-20.5
+  name: Ashkelon line 2, reading 20.5
+  line: Ashkelon line 2
+  coords:
+    x: 108101
+    y: 119331
+    crs: EPSG:28193
+    source: map
+    accuracy_m: 150
+- id: ashkelon-2-21.5
+  name: Ashkelon line 2, reading 21.5
+  line: Ashkelon line 2
+  coords:
+    x: 108146
+    y: 119308
+    crs: EPSG:28193
+    source: map
+    accuracy_m: 150
+- id: ashkelon-3-1.5
+  name: Ashkelon line 3, reading 1.5
+  line: Ashkelon line 3
+  coords:
+    x: 107705
+    y: 120337
+    crs: EPSG:28193
+    source: map
+    accuracy_m: 150
+- id: ashkelon-3-2.5
+  name: Ashkelon line 3, reading 2.5
+  line: Ashkelon line 3
+  coords:
+    x: 107755
+    y: 120336
+    crs: EPSG:28193
+    source: map
+    accuracy_m: 150
+- id: ashkelon-3-3.5
+  name: Ashkelon line 3, reading 3.5
+  line: Ashkelon line 3
+  coords:
+    x: 107805
+    y: 120334
+    crs: EPSG:28193
+    source: map
+    accuracy_m: 150
+- id: ashkelon-3-4.5
+  name: Ashkelon line 3, reading 4.5
+  line: Ashkelon line 3
+  coords:
+    x: 107855
+    y: 120332
+    crs: EPSG:28193
+    source: map
+    accuracy_m: 150
+- id: ashkelon-3-5.5
+  name: Ashkelon line 3, reading 5.5
+  line: Ashkelon line 3
+  coords:
+    x: 107905
+    y: 120330
+    crs: EPSG:28193
+    source: map
+    accuracy_m: 150
+- id: ashkelon-3-6.5
+  name: Ashkelon line 3, reading 6.5
+  line: Ashkelon line 3
+  coords:
+    x: 107955
+    y: 120329
+    crs: EPSG:28193
+    source: map
+    accuracy_m: 150
+- id: ashkelon-3-7.5
+  name: Ashkelon line 3, reading 7.5
+  line: Ashkelon line 3
+  coords:
+    x: 108005
+    y: 120327
+    crs: EPSG:28193
+    source: map
+    accuracy_m: 150
+- id: ashkelon-3-8.5
+  name: Ashkelon line 3, reading 8.5
+  line: Ashkelon line 3
+  coords:
+    x: 108055
+    y: 120325
+    crs: EPSG:28193
+    source: map
+    accuracy_m: 150
+- id: ashkelon-3-9.5
+  name: Ashkelon line 3, reading 9.5
+  line: Ashkelon line 3
+  coords:
+    x: 108105
+    y: 120324
+    crs: EPSG:28193
+    source: map
+    accuracy_m: 150
+- id: ashkelon-3-10.5
+  name: Ashkelon line 3, reading 10.5
+  line: Ashkelon line 3
+  coords:
+    x: 108155
+    y: 120322
+    crs: EPSG:28193
+    source: map
+    accuracy_m: 150
+- id: ashkelon-3-11.5
+  name: Ashkelon line 3, reading 11.5
+  line: Ashkelon line 3
+  coords:
+    x: 108205
+    y: 120320
+    crs: EPSG:28193
+    source: map
+    accuracy_m: 150
+- id: ashkelon-3-12.5
+  name: Ashkelon line 3, reading 12.5
+  line: Ashkelon line 3
+  coords:
+    x: 108255
+    y: 120318
+    crs: EPSG:28193
+    source: map
+    accuracy_m: 150
+- id: ashkelon-3-13.5
+  name: Ashkelon line 3, reading 13.5
+  line: Ashkelon line 3
+  coords:
+    x: 108305
+    y: 120317
+    crs: EPSG:28193
+    source: map
+    accuracy_m: 150
+- id: ashkelon-3-14.5
+  name: Ashkelon line 3, reading 14.5
+  line: Ashkelon line 3
+  coords:
+    x: 108355
+    y: 120315
+    crs: EPSG:28193
+    source: map
+    accuracy_m: 150
+- id: ashkelon-3-15.5
+  name: Ashkelon line 3, reading 15.5
+  line: Ashkelon line 3
+  coords:
+    x: 108405
+    y: 120313
+    crs: EPSG:28193
+    source: map
+    accuracy_m: 150
+- id: ashkelon-3-16.5
+  name: Ashkelon line 3, reading 16.5
+  line: Ashkelon line 3
+  coords:
+    x: 108455
+    y: 120311
+    crs: EPSG:28193
+    source: map
+    accuracy_m: 150
+- id: ashkelon-3-17.5
+  name: Ashkelon line 3, reading 17.5
+  line: Ashkelon line 3
+  coords:
+    x: 108504
+    y: 120310
+    crs: EPSG:28193
+    source: map
+    accuracy_m: 150
+- id: ashkelon-3-18.5
+  name: Ashkelon line 3, reading 18.5
+  line: Ashkelon line 3
+  coords:
+    x: 108554
+    y: 120308
+    crs: EPSG:28193
+    source: map
+    accuracy_m: 150
+- id: ashkelon-3-19.5
+  name: Ashkelon line 3, reading 19.5
+  line: Ashkelon line 3
+  coords:
+    x: 108604
+    y: 120306
+    crs: EPSG:28193
+    source: map
+    accuracy_m: 150
+- id: ashkelon-3-20.5
+  name: Ashkelon line 3, reading 20.5
+  line: Ashkelon line 3
+  coords:
+    x: 108654
+    y: 120304
+    crs: EPSG:28193
+    source: map
+    accuracy_m: 150
+- id: ashkelon-3-21.5
+  name: Ashkelon line 3, reading 21.5
+  line: Ashkelon line 3
+  coords:
+    x: 108704
+    y: 120303
+    crs: EPSG:28193
+    source: map
+    accuracy_m: 150
+- id: ashkelon-3-22.5
+  name: Ashkelon line 3, reading 22.5
+  line: Ashkelon line 3
+  coords:
+    x: 108754
+    y: 120301
+    crs: EPSG:28193
+    source: map
+    accuracy_m: 150
+- id: ashkelon-3-23.5
+  name: Ashkelon line 3, reading 23.5
+  line: Ashkelon line 3
+  coords:
+    x: 108804
+    y: 120299
+    crs: EPSG:28193
+    source: map
+    accuracy_m: 150
+- id: ashkelon-3-24.5
+  name: Ashkelon line 3, reading 24.5
+  line: Ashkelon line 3
+  coords:
+    x: 108854
+    y: 120297
+    crs: EPSG:28193
+    source: map
+    accuracy_m: 150
+- id: ashkelon-3-25.5
+  name: Ashkelon line 3, reading 25.5
+  line: Ashkelon line 3
+  coords:
+    x: 108904
+    y: 120296
+    crs: EPSG:28193
+    source: map
+    accuracy_m: 150
+- id: ashkelon-3-26.5
+  name: Ashkelon line 3, reading 26.5
+  line: Ashkelon line 3
+  coords:
+    x: 108954
+    y: 120294
+    crs: EPSG:28193
+    source: map
+    accuracy_m: 150
+- id: ashkelon-4-1.5
+  name: Ashkelon line 4, reading 1.5
+  line: Ashkelon line 4
+  coords:
+    x: 108415
+    y: 121490
+    crs: EPSG:28193
+    source: map
+    accuracy_m: 150
+- id: ashkelon-4-2.5
+  name: Ashkelon line 4, reading 2.5
+  line: Ashkelon line 4
+  coords:
+    x: 108465
+    y: 121490
+    crs: EPSG:28193
+    source: map
+    accuracy_m: 150
+- id: ashkelon-4-3.5
+  name: Ashkelon line 4, reading 3.5
+  line: Ashkelon line 4
+  coords:
+    x: 108515
+    y: 121490
+    crs: EPSG:28193
+    source: map
+    accuracy_m: 150
+- id: ashkelon-4-4.5
+  name: Ashkelon line 4, reading 4.5
+  line: Ashkelon line 4
+  coords:
+    x: 108565
+    y: 121490
+    crs: EPSG:28193
+    source: map
+    accuracy_m: 150
+- id: ashkelon-4-5.5
+  name: Ashkelon line 4, reading 5.5
+  line: Ashkelon line 4
+  coords:
+    x: 108615
+    y: 121490
+    crs: EPSG:28193
+    source: map
+    accuracy_m: 150
+- id: ashkelon-4-6.5
+  name: Ashkelon line 4, reading 6.5
+  line: Ashkelon line 4
+  coords:
+    x: 108665
+    y: 121490
+    crs: EPSG:28193
+    source: map
+    accuracy_m: 150
+- id: ashkelon-4-7.5
+  name: Ashkelon line 4, reading 7.5
+  line: Ashkelon line 4
+  coords:
+    x: 108715
+    y: 121490
+    crs: EPSG:28193
+    source: map
+    accuracy_m: 150
+- id: ashkelon-4-8.5
+  name: Ashkelon line 4, reading 8.5
+  line: Ashkelon line 4
+  coords:
+    x: 108765
+    y: 121490
+    crs: EPSG:28193
+    source: map
+    accuracy_m: 150
+- id: ashkelon-4-9.5
+  name: Ashkelon line 4, reading 9.5
+  line: Ashkelon line 4
+  coords:
+    x: 108815
+    y: 121490
+    crs: EPSG:28193
+    source: map
+    accuracy_m: 150
+- id: ashkelon-4-10.5
+  name: Ashkelon line 4, reading 10.5
+  line: Ashkelon line 4
+  coords:
+    x: 108865
+    y: 121490
+    crs: EPSG:28193
+    source: map
+    accuracy_m: 150
+- id: ashkelon-4-11.5
+  name: Ashkelon line 4, reading 11.5
+  line: Ashkelon line 4
+  coords:
+    x: 108915
+    y: 121490
+    crs: EPSG:28193
+    source: map
+    accuracy_m: 150
+- id: ashkelon-4-12.5
+  name: Ashkelon line 4, reading 12.5
+  line: Ashkelon line 4
+  coords:
+    x: 108965
+    y: 121490
+    crs: EPSG:28193
+    source: map
+    accuracy_m: 150
+- id: ashkelon-4-13.5
+  name: Ashkelon line 4, reading 13.5
+  line: Ashkelon line 4
+  coords:
+    x: 109015
+    y: 121490
+    crs: EPSG:28193
+    source: map
+    accuracy_m: 150
+- id: ashkelon-4-14.5
+  name: Ashkelon line 4, reading 14.5
+  line: Ashkelon line 4
+  coords:
+    x: 109065
+    y: 121490
+    crs: EPSG:28193
+    source: map
+    accuracy_m: 150
+- id: ashkelon-4-15.5
+  name: Ashkelon line 4, reading 15.5
+  line: Ashkelon line 4
+  coords:
+    x: 109115
+    y: 121490
+    crs: EPSG:28193
+    source: map
+    accuracy_m: 150
+- id: ashkelon-4-16.5
+  name: Ashkelon line 4, reading 16.5
+  line: Ashkelon line 4
+  coords:
+    x: 109165
+    y: 121490
+    crs: EPSG:28193
+    source: map
+    accuracy_m: 150
+- id: ashkelon-4-17.5
+  name: Ashkelon line 4, reading 17.5
+  line: Ashkelon line 4
+  coords:
+    x: 109215
+    y: 121490
+    crs: EPSG:28193
+    source: map
+    accuracy_m: 150
+- id: ashkelon-4-18.5
+  name: Ashkelon line 4, reading 18.5
+  line: Ashkelon line 4
+  coords:
+    x: 109265
+    y: 121490
+    crs: EPSG:28193
+    source: map
+    accuracy_m: 150
+- id: ashkelon-4-19.5
+  name: Ashkelon line 4, reading 19.5
+  line: Ashkelon line 4
+  coords:
+    x: 109315
+    y: 121490
+    crs: EPSG:28193
+    source: map
+    accuracy_m: 150
+- id: ashkelon-4-20.5
+  name: Ashkelon line 4, reading 20.5
+  line: Ashkelon line 4
+  coords:
+    x: 109365
+    y: 121490
+    crs: EPSG:28193
+    source: map
+    accuracy_m: 150
+- id: ashkelon-4-21.5
+  name: Ashkelon line 4, reading 21.5
+  line: Ashkelon line 4
+  coords:
+    x: 109415
+    y: 121490
+    crs: EPSG:28193
+    source: map
+    accuracy_m: 150
+- id: ashkelon-4-22.5
+  name: Ashkelon line 4, reading 22.5
+  line: Ashkelon line 4
+  coords:
+    x: 109465
+    y: 121490
+    crs: EPSG:28193
+    source: map
+    accuracy_m: 150
+- id: ashkelon-5-1.5
+  name: Ashkelon line 5, reading 1.5
+  line: Ashkelon line 5
+  coords:
+    x: 109299
+    y: 122851
+    crs: EPSG:28193
+    source: map
+    accuracy_m: 150
+- id: ashkelon-5-2.5
+  name: Ashkelon line 5, reading 2.5
+  line: Ashkelon line 5
+  coords:
+    x: 109345
+    y: 122832
+    crs: EPSG:28193
+    source: map
+    accuracy_m: 150
+- id: ashkelon-5-3.5
+  name: Ashkelon line 5, reading 3.5
+  line: Ashkelon line 5
+  coords:
+    x: 109391
+    y: 122812
+    crs: EPSG:28193
+    source: map
+    accuracy_m: 150
+- id: ashkelon-5-4.5
+  name: Ashkelon line 5, reading 4.5
+  line: Ashkelon line 5
+  coords:
+    x: 109437
+    y: 122793
+    crs: EPSG:28193
+    source: map
+    accuracy_m: 150
+- id: ashkelon-5-5.5
+  name: Ashkelon line 5, reading 5.5
+  line: Ashkelon line 5
+  coords:
+    x: 109484
+    y: 122773
+    crs: EPSG:28193
+    source: map
+    accuracy_m: 150
+- id: ashkelon-5-6.5
+  name: Ashkelon line 5, reading 6.5
+  line: Ashkelon line 5
+  coords:
+    x: 109530
+    y: 122754
+    crs: EPSG:28193
+    source: map
+    accuracy_m: 150
+- id: ashkelon-5-7.5
+  name: Ashkelon line 5, reading 7.5
+  line: Ashkelon line 5
+  coords:
+    x: 109576
+    y: 122735
+    crs: EPSG:28193
+    source: map
+    accuracy_m: 150
+- id: ashkelon-5-8.5
+  name: Ashkelon line 5, reading 8.5
+  line: Ashkelon line 5
+  coords:
+    x: 109622
+    y: 122715
+    crs: EPSG:28193
+    source: map
+    accuracy_m: 150
+- id: ashkelon-5-9.5
+  name: Ashkelon line 5, reading 9.5
+  line: Ashkelon line 5
+  coords:
+    x: 109668
+    y: 122696
+    crs: EPSG:28193
+    source: map
+    accuracy_m: 150
+- id: ashkelon-5-10.5
+  name: Ashkelon line 5, reading 10.5
+  line: Ashkelon line 5
+  coords:
+    x: 109714
+    y: 122677
+    crs: EPSG:28193
+    source: map
+    accuracy_m: 150
+- id: ashkelon-5-11.5
+  name: Ashkelon line 5, reading 11.5
+  line: Ashkelon line 5
+  coords:
+    x: 109760
+    y: 122657
+    crs: EPSG:28193
+    source: map
+    accuracy_m: 150
+- id: ashkelon-5-12.5
+  name: Ashkelon line 5, reading 12.5
+  line: Ashkelon line 5
+  coords:
+    x: 109806
+    y: 122638
+    crs: EPSG:28193
+    source: map
+    accuracy_m: 150
+- id: ashkelon-5-13.5
+  name: Ashkelon line 5, reading 13.5
+  line: Ashkelon line 5
+  coords:
+    x: 109852
+    y: 122618
+    crs: EPSG:28193
+    source: map
+    accuracy_m: 150
+- id: ashkelon-5-14.5
+  name: Ashkelon line 5, reading 14.5
+  line: Ashkelon line 5
+  coords:
+    x: 109898
+    y: 122599
+    crs: EPSG:28193
+    source: map
+    accuracy_m: 150
+- id: ashkelon-5-15.5
+  name: Ashkelon line 5, reading 15.5
+  line: Ashkelon line 5
+  coords:
+    x: 109944
+    y: 122580
+    crs: EPSG:28193
+    source: map
+    accuracy_m: 150
+- id: givat-olga-1-1.5
+  name: Givat Olga line 1, reading 1.5
+  line: Givat Olga line 1
+  coords:
+    x: 138073
+    y: 202254
+    crs: EPSG:28193
+    source: map
+    accuracy_m: 150
+- id: givat-olga-1-2.5
+  name: Givat Olga line 1, reading 2.5
+  line: Givat Olga line 1
+  coords:
+    x: 138122
+    y: 202243
+    crs: EPSG:28193
+    source: map
+    accuracy_m: 150
+- id: givat-olga-1-3.5
+  name: Givat Olga line 1, reading 3.5
+  line: Givat Olga line 1
+  coords:
+    x: 138171
+    y: 202232
+    crs: EPSG:28193
+    source: map
+    accuracy_m: 150
+- id: givat-olga-1-4.5
+  name: Givat Olga line 1, reading 4.5
+  line: Givat Olga line 1
+  coords:
+    x: 138220
+    y: 202221
+    crs: EPSG:28193
+    source: map
+    accuracy_m: 150
+- id: givat-olga-1-5.5
+  name: Givat Olga line 1, reading 5.5
+  line: Givat Olga line 1
+  coords:
+    x: 138268
+    y: 202210
+    crs: EPSG:28193
+    source: map
+    accuracy_m: 150
+- id: givat-olga-1-6.5
+  name: Givat Olga line 1, reading 6.5
+  line: Givat Olga line 1
+  coords:
+    x: 138317
+    y: 202199
+    crs: EPSG:28193
+    source: map
+    accuracy_m: 150
+- id: givat-olga-1-7.5
+  name: Givat Olga line 1, reading 7.5
+  line: Givat Olga line 1
+  coords:
+    x: 138366
+    y: 202188
+    crs: EPSG:28193
+    source: map
+    accuracy_m: 150
+- id: givat-olga-1-8.5
+  name: Givat Olga line 1, reading 8.5
+  line: Givat Olga line 1
+  coords:
+    x: 138415
+    y: 202177
+    crs: EPSG:28193
+    source: map
+    accuracy_m: 150
+- id: givat-olga-1-9.5
+  name: Givat Olga line 1, reading 9.5
+  line: Givat Olga line 1
+  coords:
+    x: 138464
+    y: 202167
+    crs: EPSG:28193
+    source: map
+    accuracy_m: 150
+- id: givat-olga-1-10.5
+  name: Givat Olga line 1, reading 10.5
+  line: Givat Olga line 1
+  coords:
+    x: 138512
+    y: 202156
+    crs: EPSG:28193
+    source: map
+    accuracy_m: 150
+- id: givat-olga-1-11.5
+  name: Givat Olga line 1, reading 11.5
+  line: Givat Olga line 1
+  coords:
+    x: 138561
+    y: 202145
+    crs: EPSG:28193
+    source: map
+    accuracy_m: 150
+- id: givat-olga-1-12.5
+  name: Givat Olga line 1, reading 12.5
+  line: Givat Olga line 1
+  coords:
+    x: 138610
+    y: 202134
+    crs: EPSG:28193
+    source: map
+    accuracy_m: 150
+- id: givat-olga-1-13.5
+  name: Givat Olga line 1, reading 13.5
+  line: Givat Olga line 1
+  coords:
+    x: 138659
+    y: 202123
+    crs: EPSG:28193
+    source: map
+    accuracy_m: 150
+- id: givat-olga-1-14.5
+  name: Givat Olga line 1, reading 14.5
+  line: Givat Olga line 1
+  coords:
+    x: 138708
+    y: 202112
+    crs: EPSG:28193
+    source: map
+    accuracy_m: 150
+- id: givat-olga-1-15.5
+  name: Givat Olga line 1, reading 15.5
+  line: Givat Olga line 1
+  coords:
+    x: 138756
+    y: 202101
+    crs: EPSG:28193
+    source: map
+    accuracy_m: 150
+- id: givat-olga-1-16.5
+  name: Givat Olga line 1, reading 16.5
+  line: Givat Olga line 1
+  coords:
+    x: 138805
+    y: 202090
+    crs: EPSG:28193
+    source: map
+    accuracy_m: 150
+- id: givat-olga-1-17.5
+  name: Givat Olga line 1, reading 17.5
+  line: Givat Olga line 1
+  coords:
+    x: 138854
+    y: 202079
+    crs: EPSG:28193
+    source: map
+    accuracy_m: 150
+- id: givat-olga-1-18.5
+  name: Givat Olga line 1, reading 18.5
+  line: Givat Olga line 1
+  coords:
+    x: 138903
+    y: 202069
+    crs: EPSG:28193
+    source: map
+    accuracy_m: 150
+- id: givat-olga-1-19.5
+  name: Givat Olga line 1, reading 19.5
+  line: Givat Olga line 1
+  coords:
+    x: 138952
+    y: 202058
+    crs: EPSG:28193
+    source: map
+    accuracy_m: 150
+- id: givat-olga-1-20.5
+  name: Givat Olga line 1, reading 20.5
+  line: Givat Olga line 1
+  coords:
+    x: 139000
+    y: 202047
+    crs: EPSG:28193
+    source: map
+    accuracy_m: 150
+- id: givat-olga-1-21.5
+  name: Givat Olga line 1, reading 21.5
+  line: Givat Olga line 1
+  coords:
+    x: 139049
+    y: 202036
+    crs: EPSG:28193
+    source: map
+    accuracy_m: 150
+- id: givat-olga-2-1.5
+  name: Givat Olga line 2, reading 1.5
+  line: Givat Olga line 2
+  coords:
+    x: 138374
+    y: 203417
+    crs: EPSG:28193
+    source: map
+    accuracy_m: 150
+- id: givat-olga-2-2.5
+  name: Givat Olga line 2, reading 2.5
+  line: Givat Olga line 2
+  coords:
+    x: 138423
+    y: 203408
+    crs: EPSG:28193
+    source: map
+    accuracy_m: 150
+- id: givat-olga-2-3.5
+  name: Givat Olga line 2, reading 3.5
+  line: Givat Olga line 2
+  coords:
+    x: 138472
+    y: 203399
+    crs: EPSG:28193
+    source: map
+    accuracy_m: 150
+- id: givat-olga-2-4.5
+  name: Givat Olga line 2, reading 4.5
+  line: Givat Olga line 2
+  coords:
+    x: 138521
+    y: 203390
+    crs: EPSG:28193
+    source: map
+    accuracy_m: 150
+- id: givat-olga-2-5.5
+  name: Givat Olga line 2, reading 5.5
+  line: Givat Olga line 2
+  coords:
+    x: 138571
+    y: 203381
+    crs: EPSG:28193
+    source: map
+    accuracy_m: 150
+- id: givat-olga-2-6.5
+  name: Givat Olga line 2, reading 6.5
+  line: Givat Olga line 2
+  coords:
+    x: 138620
+    y: 203372
+    crs: EPSG:28193
+    source: map
+    accuracy_m: 150
+- id: givat-olga-2-7.5
+  name: Givat Olga line 2, reading 7.5
+  line: Givat Olga line 2
+  coords:
+    x: 138669
+    y: 203363
+    crs: EPSG:28193
+    source: map
+    accuracy_m: 150
+- id: givat-olga-2-8.5
+  name: Givat Olga line 2, reading 8.5
+  line: Givat Olga line 2
+  coords:
+    x: 138718
+    y: 203354
+    crs: EPSG:28193
+    source: map
+    accuracy_m: 150
+- id: givat-olga-2-9.5
+  name: Givat Olga line 2, reading 9.5
+  line: Givat Olga line 2
+  coords:
+    x: 138767
+    y: 203345
+    crs: EPSG:28193
+    source: map
+    accuracy_m: 150
+- id: givat-olga-2-10.5
+  name: Givat Olga line 2, reading 10.5
+  line: Givat Olga line 2
+  coords:
+    x: 138817
+    y: 203336
+    crs: EPSG:28193
+    source: map
+    accuracy_m: 150
+- id: givat-olga-2-11.5
+  name: Givat Olga line 2, reading 11.5
+  line: Givat Olga line 2
+  coords:
+    x: 138866
+    y: 203328
+    crs: EPSG:28193
+    source: map
+    accuracy_m: 150
+- id: givat-olga-2-12.5
+  name: Givat Olga line 2, reading 12.5
+  line: Givat Olga line 2
+  coords:
+    x: 138915
+    y: 203319
+    crs: EPSG:28193
+    source: map
+    accuracy_m: 150
+- id: givat-olga-2-13.5
+  name: Givat Olga line 2, reading 13.5
+  line: Givat Olga line 2
+  coords:
+    x: 138964
+    y: 203310
+    crs: EPSG:28193
+    source: map
+    accuracy_m: 150
+- id: givat-olga-2-14.5
+  name: Givat Olga line 2, reading 14.5
+  line: Givat Olga line 2
+  coords:
+    x: 139013
+    y: 203301
+    crs: EPSG:28193
+    source: map
+    accuracy_m: 150
+- id: givat-olga-2-15.5
+  name: Givat Olga line 2, reading 15.5
+  line: Givat Olga line 2
+  coords:
+    x: 139063
+    y: 203292
+    crs: EPSG:28193
+    source: map
+    accuracy_m: 150
+- id: givat-olga-2-16.5
+  name: Givat Olga line 2, reading 16.5
+  line: Givat Olga line 2
+  coords:
+    x: 139112
+    y: 203283
+    crs: EPSG:28193
+    source: map
+    accuracy_m: 150
+- id: givat-olga-2-17.5
+  name: Givat Olga line 2, reading 17.5
+  line: Givat Olga line 2
+  coords:
+    x: 139161
+    y: 203274
+    crs: EPSG:28193
+    source: map
+    accuracy_m: 150
+- id: givat-olga-2-18.5
+  name: Givat Olga line 2, reading 18.5
+  line: Givat Olga line 2
+  coords:
+    x: 139210
+    y: 203265
+    crs: EPSG:28193
+    source: map
+    accuracy_m: 150
+- id: givat-olga-2-19.5
+  name: Givat Olga line 2, reading 19.5
+  line: Givat Olga line 2
+  coords:
+    x: 139259
+    y: 203256
+    crs: EPSG:28193
+    source: map
+    accuracy_m: 150
+- id: givat-olga-2-20.5
+  name: Givat Olga line 2, reading 20.5
+  line: Givat Olga line 2
+  coords:
+    x: 139309
+    y: 203247
+    crs: EPSG:28193
+    source: map
+    accuracy_m: 150
+- id: givat-olga-3-3.5
+  name: Givat Olga line 3, reading 3.5
+  line: Givat Olga line 3
+  coords:
+    x: 138725
+    y: 204522
+    crs: EPSG:28193
+    source: map
+    accuracy_m: 150
+- id: givat-olga-3-4.5
+  name: Givat Olga line 3, reading 4.5
+  line: Givat Olga line 3
+  coords:
+    x: 138772
+    y: 204506
+    crs: EPSG:28193
+    source: map
+    accuracy_m: 150
+- id: givat-olga-3-5.5
+  name: Givat Olga line 3, reading 5.5
+  line: Givat Olga line 3
+  coords:
+    x: 138820
+    y: 204490
+    crs: EPSG:28193
+    source: map
+    accuracy_m: 150
+- id: givat-olga-3-6.5
+  name: Givat Olga line 3, reading 6.5
+  line: Givat Olga line 3
+  coords:
+    x: 138867
+    y: 204473
+    crs: EPSG:28193
+    source: map
+    accuracy_m: 150
+- id: givat-olga-3-7.5
+  name: Givat Olga line 3, reading 7.5
+  line: Givat Olga line 3
+  coords:
+    x: 138914
+    y: 204457
+    crs: EPSG:28193
+    source: map
+    accuracy_m: 150
+- id: givat-olga-3-8.5
+  name: Givat Olga line 3, reading 8.5
+  line: Givat Olga line 3
+  coords:
+    x: 138961
+    y: 204440
+    crs: EPSG:28193
+    source: map
+    accuracy_m: 150
+- id: givat-olga-3-9.5
+  name: Givat Olga line 3, reading 9.5
+  line: Givat Olga line 3
+  coords:
+    x: 139009
+    y: 204424
+    crs: EPSG:28193
+    source: map
+    accuracy_m: 150
+- id: givat-olga-3-10.5
+  name: Givat Olga line 3, reading 10.5
+  line: Givat Olga line 3
+  coords:
+    x: 139056
+    y: 204407
+    crs: EPSG:28193
+    source: map
+    accuracy_m: 150
+- id: givat-olga-3-11.5
+  name: Givat Olga line 3, reading 11.5
+  line: Givat Olga line 3
+  coords:
+    x: 139103
+    y: 204391
+    crs: EPSG:28193
+    source: map
+    accuracy_m: 150
+- id: givat-olga-3-12.5
+  name: Givat Olga line 3, reading 12.5
+  line: Givat Olga line 3
+  coords:
+    x: 139150
+    y: 204374
+    crs: EPSG:28193
+    source: map
+    accuracy_m: 150
+- id: givat-olga-3-13.5
+  name: Givat Olga line 3, reading 13.5
+  line: Givat Olga line 3
+  coords:
+    x: 139197
+    y: 204358
+    crs: EPSG:28193
+    source: map
+    accuracy_m: 150
+- id: givat-olga-3-14.5
+  name: Givat Olga line 3, reading 14.5
+  line: Givat Olga line 3
+  coords:
+    x: 139245
+    y: 204342
+    crs: EPSG:28193
+    source: map
+    accuracy_m: 150
+- id: givat-olga-3-15.5
+  name: Givat Olga line 3, reading 15.5
+  line: Givat Olga line 3
+  coords:
+    x: 139292
+    y: 204325
+    crs: EPSG:28193
+    source: map
+    accuracy_m: 150
+- id: givat-olga-3-16.5
+  name: Givat Olga line 3, reading 16.5
+  line: Givat Olga line 3
+  coords:
+    x: 139339
+    y: 204309
+    crs: EPSG:28193
+    source: map
+    accuracy_m: 150
+- id: givat-olga-3-17.5
+  name: Givat Olga line 3, reading 17.5
+  line: Givat Olga line 3
+  coords:
+    x: 139386
+    y: 204292
+    crs: EPSG:28193
+    source: map
+    accuracy_m: 150
+- id: givat-olga-3-18.5
+  name: Givat Olga line 3, reading 18.5
+  line: Givat Olga line 3
+  coords:
+    x: 139434
+    y: 204276
+    crs: EPSG:28193
+    source: map
+    accuracy_m: 150
+- id: givat-olga-3-19.5
+  name: Givat Olga line 3, reading 19.5
+  line: Givat Olga line 3
+  coords:
+    x: 139481
+    y: 204259
+    crs: EPSG:28193
+    source: map
+    accuracy_m: 150
+- id: givat-olga-3-20.5
+  name: Givat Olga line 3, reading 20.5
+  line: Givat Olga line 3
+  coords:
+    x: 139528
+    y: 204243
+    crs: EPSG:28193
+    source: map
+    accuracy_m: 150
+- id: givat-olga-3-21.5
+  name: Givat Olga line 3, reading 21.5
+  line: Givat Olga line 3
+  coords:
+    x: 139575
+    y: 204226
+    crs: EPSG:28193
+    source: map
+    accuracy_m: 150
+- id: givat-olga-3-22.5
+  name: Givat Olga line 3, reading 22.5
+  line: Givat Olga line 3
+  coords:
+    x: 139622
+    y: 204210
+    crs: EPSG:28193
+    source: map
+    accuracy_m: 150
+- id: givat-olga-3-23.5
+  name: Givat Olga line 3, reading 23.5
+  line: Givat Olga line 3
+  coords:
+    x: 139670
+    y: 204194
+    crs: EPSG:28193
+    source: map
+    accuracy_m: 150
+- id: givat-olga-4-1.5
+  name: Givat Olga line 4, reading 1.5
+  line: Givat Olga line 4
+  coords:
+    x: 138744
+    y: 205092
+    crs: EPSG:28193
+    source: map
+    accuracy_m: 150
+- id: givat-olga-4-2.5
+  name: Givat Olga line 4, reading 2.5
+  line: Givat Olga line 4
+  coords:
+    x: 138793
+    y: 205101
+    crs: EPSG:28193
+    source: map
+    accuracy_m: 150
+- id: givat-olga-4-3.5
+  name: Givat Olga line 4, reading 3.5
+  line: Givat Olga line 4
+  coords:
+    x: 138843
+    y: 205109
+    crs: EPSG:28193
+    source: map
+    accuracy_m: 150
+- id: givat-olga-4-4.5
+  name: Givat Olga line 4, reading 4.5
+  line: Givat Olga line 4
+  coords:
+    x: 138892
+    y: 205117
+    crs: EPSG:28193
+    source: map
+    accuracy_m: 150
+- id: givat-olga-4-5.5
+  name: Givat Olga line 4, reading 5.5
+  line: Givat Olga line 4
+  coords:
+    x: 138941
+    y: 205125
+    crs: EPSG:28193
+    source: map
+    accuracy_m: 150
+- id: givat-olga-4-6.5
+  name: Givat Olga line 4, reading 6.5
+  line: Givat Olga line 4
+  coords:
+    x: 138991
+    y: 205133
+    crs: EPSG:28193
+    source: map
+    accuracy_m: 150
+- id: givat-olga-4-8.5
+  name: Givat Olga line 4, reading 8.5
+  line: Givat Olga line 4
+  coords:
+    x: 139089
+    y: 205150
+    crs: EPSG:28193
+    source: map
+    accuracy_m: 150
+- id: givat-olga-4-9.5
+  name: Givat Olga line 4, reading 9.5
+  line: Givat Olga line 4
+  coords:
+    x: 139139
+    y: 205158
+    crs: EPSG:28193
+    source: map
+    accuracy_m: 150
+- id: givat-olga-4-10.5
+  name: Givat Olga line 4, reading 10.5
+  line: Givat Olga line 4
+  coords:
+    x: 139188
+    y: 205166
+    crs: EPSG:28193
+    source: map
+    accuracy_m: 150
+- id: givat-olga-4-11.5
+  name: Givat Olga line 4, reading 11.5
+  line: Givat Olga line 4
+  coords:
+    x: 139237
+    y: 205175
+    crs: EPSG:28193
+    source: map
+    accuracy_m: 150
+- id: givat-olga-4-12.5
+  name: Givat Olga line 4, reading 12.5
+  line: Givat Olga line 4
+  coords:
+    x: 139286
+    y: 205183
+    crs: EPSG:28193
+    source: map
+    accuracy_m: 150
+- id: givat-olga-4-13.5
+  name: Givat Olga line 4, reading 13.5
+  line: Givat Olga line 4
+  coords:
+    x: 139336
+    y: 205191
+    crs: EPSG:28193
+    source: map
+    accuracy_m: 150
+- id: givat-olga-4-14.5
+  name: Givat Olga line 4, reading 14.5
+  line: Givat Olga line 4
+  coords:
+    x: 139385
+    y: 205199
+    crs: EPSG:28193
+    source: map
+    accuracy_m: 150
+- id: givat-olga-4-15.5
+  name: Givat Olga line 4, reading 15.5
+  line: Givat Olga line 4
+  coords:
+    x: 139434
+    y: 205207
+    crs: EPSG:28193
+    source: map
+    accuracy_m: 150
+- id: givat-olga-4-16.5
+  name: Givat Olga line 4, reading 16.5
+  line: Givat Olga line 4
+  coords:
+    x: 139484
+    y: 205216
+    crs: EPSG:28193
+    source: map
+    accuracy_m: 150
+- id: givat-olga-4-17.5
+  name: Givat Olga line 4, reading 17.5
+  line: Givat Olga line 4
+  coords:
+    x: 139533
+    y: 205224
+    crs: EPSG:28193
+    source: map
+    accuracy_m: 150
+- id: givat-olga-4-7.5
+  name: Givat Olga line 4, reading 7.5
+  line: Givat Olga line 4
+  coords:
+    x: 139040
+    y: 205142
+    crs: EPSG:28193
+    source: map
+    accuracy_m: 150
+- id: givat-olga-5-0.5
+  name: Givat Olga line 5, reading 0.5
+  line: Givat Olga line 5
+  coords:
+    x: 138795
+    y: 205680
+    crs: EPSG:28193
+    source: map
+    accuracy_m: 150
+- id: givat-olga-5-1.5
+  name: Givat Olga line 5, reading 1.5
+  line: Givat Olga line 5
+  coords:
+    x: 138845
+    y: 205680
+    crs: EPSG:28193
+    source: map
+    accuracy_m: 150
+- id: givat-olga-5-2.5
+  name: Givat Olga line 5, reading 2.5
+  line: Givat Olga line 5
+  coords:
+    x: 138895
+    y: 205680
+    crs: EPSG:28193
+    source: map
+    accuracy_m: 150
+- id: givat-olga-5-3.5
+  name: Givat Olga line 5, reading 3.5
+  line: Givat Olga line 5
+  coords:
+    x: 138945
+    y: 205680
+    crs: EPSG:28193
+    source: map
+    accuracy_m: 150
+- id: givat-olga-5-4.5
+  name: Givat Olga line 5, reading 4.5
+  line: Givat Olga line 5
+  coords:
+    x: 138995
+    y: 205680
+    crs: EPSG:28193
+    source: map
+    accuracy_m: 150
+- id: givat-olga-5-5.5
+  name: Givat Olga line 5, reading 5.5
+  line: Givat Olga line 5
+  coords:
+    x: 139045
+    y: 205680
+    crs: EPSG:28193
+    source: map
+    accuracy_m: 150
+- id: givat-olga-5-6.5
+  name: Givat Olga line 5, reading 6.5
+  line: Givat Olga line 5
+  coords:
+    x: 139095
+    y: 205680
+    crs: EPSG:28193
+    source: map
+    accuracy_m: 150
+- id: givat-olga-5-7.5
+  name: Givat Olga line 5, reading 7.5
+  line: Givat Olga line 5
+  coords:
+    x: 139145
+    y: 205680
+    crs: EPSG:28193
+    source: map
+    accuracy_m: 150
+- id: givat-olga-5-8.5
+  name: Givat Olga line 5, reading 8.5
+  line: Givat Olga line 5
+  coords:
+    x: 139195
+    y: 205680
+    crs: EPSG:28193
+    source: map
+    accuracy_m: 150
+- id: givat-olga-5-9.5
+  name: Givat Olga line 5, reading 9.5
+  line: Givat Olga line 5
+  coords:
+    x: 139245
+    y: 205680
+    crs: EPSG:28193
+    source: map
+    accuracy_m: 150
+- id: givat-olga-5-10.5
+  name: Givat Olga line 5, reading 10.5
+  line: Givat Olga line 5
+  coords:
+    x: 139295
+    y: 205680
+    crs: EPSG:28193
+    source: map
+    accuracy_m: 150
+- id: givat-olga-5-11.5
+  name: Givat Olga line 5, reading 11.5
+  line: Givat Olga line 5
+  coords:
+    x: 139345
+    y: 205680
+    crs: EPSG:28193
+    source: map
+    accuracy_m: 150
+- id: givat-olga-5-12.5
+  name: Givat Olga line 5, reading 12.5
+  line: Givat Olga line 5
+  coords:
+    x: 139395
+    y: 205680
+    crs: EPSG:28193
+    source: map
+    accuracy_m: 150
+- id: givat-olga-5-13.5
+  name: Givat Olga line 5, reading 13.5
+  line: Givat Olga line 5
+  coords:
+    x: 139445
+    y: 205680
+    crs: EPSG:28193
+    source: map
+    accuracy_m: 150
+- id: givat-olga-5-14.5
+  name: Givat Olga line 5, reading 14.5
+  line: Givat Olga line 5
+  coords:
+    x: 139495
+    y: 205680
+    crs: EPSG:28193
+    source: map
+    accuracy_m: 150
+- id: givat-olga-5-15.5
+  name: Givat Olga line 5, reading 15.5
+  line: Givat Olga line 5
+  coords:
+    x: 139545
+    y: 205680
+    crs: EPSG:28193
+    source: map
+    accuracy_m: 150
+- id: givat-olga-5-16.5
+  name: Givat Olga line 5, reading 16.5
+  line: Givat Olga line 5
+  coords:
+    x: 139595
+    y: 205680
+    crs: EPSG:28193
+    source: map
+    accuracy_m: 150
+- id: givat-olga-5-17.5
+  name: Givat Olga line 5, reading 17.5
+  line: Givat Olga line 5
+  coords:
+    x: 139645
+    y: 205680
+    crs: EPSG:28193
+    source: map
+    accuracy_m: 150
+- id: givat-olga-5-18.5
+  name: Givat Olga line 5, reading 18.5
+  line: Givat Olga line 5
+  coords:
+    x: 139695
+    y: 205680
+    crs: EPSG:28193
+    source: map
+    accuracy_m: 150
+- id: givat-olga-5-19.5
+  name: Givat Olga line 5, reading 19.5
+  line: Givat Olga line 5
+  coords:
+    x: 139745
+    y: 205680
+    crs: EPSG:28193
+    source: map
+    accuracy_m: 150
+- id: givat-olga-5-20.5
+  name: Givat Olga line 5, reading 20.5
+  line: Givat Olga line 5
+  coords:
+    x: 139795
+    y: 205680
+    crs: EPSG:28193
+    source: map
+    accuracy_m: 150
+- id: givat-olga-5-21.5
+  name: Givat Olga line 5, reading 21.5
+  line: Givat Olga line 5
+  coords:
+    x: 139845
+    y: 205680
+    crs: EPSG:28193
+    source: map
+    accuracy_m: 150
+- id: givat-olga-5-22.5
+  name: Givat Olga line 5, reading 22.5
+  line: Givat Olga line 5
+  coords:
+    x: 139895
+    y: 205680
+    crs: EPSG:28193
+    source: map
+    accuracy_m: 150
+- id: givat-olga-6-0.5
+  name: Givat Olga line 6, reading 0.5
+  line: Givat Olga line 6
+  coords:
+    x: 138775
+    y: 206028
+    crs: EPSG:28193
+    source: map
+    accuracy_m: 150
+- id: givat-olga-6-1.5
+  name: Givat Olga line 6, reading 1.5
+  line: Givat Olga line 6
+  coords:
+    x: 138825
+    y: 206024
+    crs: EPSG:28193
+    source: map
+    accuracy_m: 150
+- id: givat-olga-6-2.5
+  name: Givat Olga line 6, reading 2.5
+  line: Givat Olga line 6
+  coords:
+    x: 138875
+    y: 206019
+    crs: EPSG:28193
+    source: map
+    accuracy_m: 150
+- id: givat-olga-6-3.5
+  name: Givat Olga line 6, reading 3.5
+  line: Givat Olga line 6
+  coords:
+    x: 138924
+    y: 206015
+    crs: EPSG:28193
+    source: map
+    accuracy_m: 150
+- id: givat-olga-6-4.5
+  name: Givat Olga line 6, reading 4.5
+  line: Givat Olga line 6
+  coords:
+    x: 138974
+    y: 206011
+    crs: EPSG:28193
+    source: map
+    accuracy_m: 150
+- id: givat-olga-6-5.5
+  name: Givat Olga line 6, reading 5.5
+  line: Givat Olga line 6
+  coords:
+    x: 139024
+    y: 206007
+    crs: EPSG:28193
+    source: map
+    accuracy_m: 150
+- id: givat-olga-6-6.5
+  name: Givat Olga line 6, reading 6.5
+  line: Givat Olga line 6
+  coords:
+    x: 139074
+    y: 206002
+    crs: EPSG:28193
+    source: map
+    accuracy_m: 150
+- id: givat-olga-6-7.5
+  name: Givat Olga line 6, reading 7.5
+  line: Givat Olga line 6
+  coords:
+    x: 139124
+    y: 205998
+    crs: EPSG:28193
+    source: map
+    accuracy_m: 150
+- id: givat-olga-6-8.5
+  name: Givat Olga line 6, reading 8.5
+  line: Givat Olga line 6
+  coords:
+    x: 139173
+    y: 205994
+    crs: EPSG:28193
+    source: map
+    accuracy_m: 150
+- id: givat-olga-6-9.5
+  name: Givat Olga line 6, reading 9.5
+  line: Givat Olga line 6
+  coords:
+    x: 139223
+    y: 205990
+    crs: EPSG:28193
+    source: map
+    accuracy_m: 150
+- id: givat-olga-6-10.5
+  name: Givat Olga line 6, reading 10.5
+  line: Givat Olga line 6
+  coords:
+    x: 139273
+    y: 205985
+    crs: EPSG:28193
+    source: map
+    accuracy_m: 150
+- id: givat-olga-6-11.5
+  name: Givat Olga line 6, reading 11.5
+  line: Givat Olga line 6
+  coords:
+    x: 139323
+    y: 205981
+    crs: EPSG:28193
+    source: map
+    accuracy_m: 150
+- id: givat-olga-6-12.5
+  name: Givat Olga line 6, reading 12.5
+  line: Givat Olga line 6
+  coords:
+    x: 139373
+    y: 205977
+    crs: EPSG:28193
+    source: map
+    accuracy_m: 150
+- id: givat-olga-6-13.5
+  name: Givat Olga line 6, reading 13.5
+  line: Givat Olga line 6
+  coords:
+    x: 139423
+    y: 205972
+    crs: EPSG:28193
+    source: map
+    accuracy_m: 150
+- id: givat-olga-6-14.5
+  name: Givat Olga line 6, reading 14.5
+  line: Givat Olga line 6
+  coords:
+    x: 139472
+    y: 205968
+    crs: EPSG:28193
+    source: map
+    accuracy_m: 150
+- id: givat-olga-6-15.5
+  name: Givat Olga line 6, reading 15.5
+  line: Givat Olga line 6
+  coords:
+    x: 139522
+    y: 205964
+    crs: EPSG:28193
+    source: map
+    accuracy_m: 150
+- id: givat-olga-6-16.5
+  name: Givat Olga line 6, reading 16.5
+  line: Givat Olga line 6
+  coords:
+    x: 139572
+    y: 205960
+    crs: EPSG:28193
+    source: map
+    accuracy_m: 150
+- id: givat-olga-6-17.5
+  name: Givat Olga line 6, reading 17.5
+  line: Givat Olga line 6
+  coords:
+    x: 139622
+    y: 205955
+    crs: EPSG:28193
+    source: map
+    accuracy_m: 150
+- id: givat-olga-6-18.5
+  name: Givat Olga line 6, reading 18.5
+  line: Givat Olga line 6
+  coords:
+    x: 139672
+    y: 205951
+    crs: EPSG:28193
+    source: map
+    accuracy_m: 150
+- id: givat-olga-6-19.5
+  name: Givat Olga line 6, reading 19.5
+  line: Givat Olga line 6
+  coords:
+    x: 139721
+    y: 205947
+    crs: EPSG:28193
+    source: map
+    accuracy_m: 150
+- id: givat-olga-6-20.5
+  name: Givat Olga line 6, reading 20.5
+  line: Givat Olga line 6
+  coords:
+    x: 139771
+    y: 205943
+    crs: EPSG:28193
+    source: map
+    accuracy_m: 150
+- id: givat-olga-6-21.5
+  name: Givat Olga line 6, reading 21.5
+  line: Givat Olga line 6
+  coords:
+    x: 139821
+    y: 205938
+    crs: EPSG:28193
+    source: map
+    accuracy_m: 150
+- id: givat-olga-6-22.5
+  name: Givat Olga line 6, reading 22.5
+  line: Givat Olga line 6
+  coords:
+    x: 139871
+    y: 205934
+    crs: EPSG:28193
+    source: map
+    accuracy_m: 150
+- id: givat-olga-6-23.5
+  name: Givat Olga line 6, reading 23.5
+  line: Givat Olga line 6
+  coords:
+    x: 139921
+    y: 205930
+    crs: EPSG:28193
+    source: map
+    accuracy_m: 150
+- id: givat-olga-7-1.5
+  name: Givat Olga line 7, reading 1.5
+  line: Givat Olga line 7
+  coords:
+    x: 138984
+    y: 206618
+    crs: EPSG:28193
+    source: map
+    accuracy_m: 150
+- id: givat-olga-7-2.5
+  name: Givat Olga line 7, reading 2.5
+  line: Givat Olga line 7
+  coords:
+    x: 139033
+    y: 206610
+    crs: EPSG:28193
+    source: map
+    accuracy_m: 150
+- id: givat-olga-7-3.5
+  name: Givat Olga line 7, reading 3.5
+  line: Givat Olga line 7
+  coords:
+    x: 139083
+    y: 206602
+    crs: EPSG:28193
+    source: map
+    accuracy_m: 150
+- id: givat-olga-7-4.5
+  name: Givat Olga line 7, reading 4.5
+  line: Givat Olga line 7
+  coords:
+    x: 139132
+    y: 206594
+    crs: EPSG:28193
+    source: map
+    accuracy_m: 150
+- id: givat-olga-7-5.5
+  name: Givat Olga line 7, reading 5.5
+  line: Givat Olga line 7
+  coords:
+    x: 139181
+    y: 206586
+    crs: EPSG:28193
+    source: map
+    accuracy_m: 150
+- id: givat-olga-7-6.5
+  name: Givat Olga line 7, reading 6.5
+  line: Givat Olga line 7
+  coords:
+    x: 139231
+    y: 206577
+    crs: EPSG:28193
+    source: map
+    accuracy_m: 150
+- id: givat-olga-7-7.5
+  name: Givat Olga line 7, reading 7.5
+  line: Givat Olga line 7
+  coords:
+    x: 139280
+    y: 206569
+    crs: EPSG:28193
+    source: map
+    accuracy_m: 150
+- id: givat-olga-7-8.5
+  name: Givat Olga line 7, reading 8.5
+  line: Givat Olga line 7
+  coords:
+    x: 139329
+    y: 206561
+    crs: EPSG:28193
+    source: map
+    accuracy_m: 150
+- id: givat-olga-7-9.5
+  name: Givat Olga line 7, reading 9.5
+  line: Givat Olga line 7
+  coords:
+    x: 139379
+    y: 206553
+    crs: EPSG:28193
+    source: map
+    accuracy_m: 150
+- id: givat-olga-7-10.5
+  name: Givat Olga line 7, reading 10.5
+  line: Givat Olga line 7
+  coords:
+    x: 139428
+    y: 206545
+    crs: EPSG:28193
+    source: map
+    accuracy_m: 150
+- id: givat-olga-7-11.5
+  name: Givat Olga line 7, reading 11.5
+  line: Givat Olga line 7
+  coords:
+    x: 139477
+    y: 206537
+    crs: EPSG:28193
+    source: map
+    accuracy_m: 150
+- id: givat-olga-7-12.5
+  name: Givat Olga line 7, reading 12.5
+  line: Givat Olga line 7
+  coords:
+    x: 139527
+    y: 206529
+    crs: EPSG:28193
+    source: map
+    accuracy_m: 150
+- id: givat-olga-7-13.5
+  name: Givat Olga line 7, reading 13.5
+  line: Givat Olga line 7
+  coords:
+    x: 139576
+    y: 206521
+    crs: EPSG:28193
+    source: map
+    accuracy_m: 150
+- id: givat-olga-7-14.5
+  name: Givat Olga line 7, reading 14.5
+  line: Givat Olga line 7
+  coords:
+    x: 139625
+    y: 206513
+    crs: EPSG:28193
+    source: map
+    accuracy_m: 150
+- id: givat-olga-7-15.5
+  name: Givat Olga line 7, reading 15.5
+  line: Givat Olga line 7
+  coords:
+    x: 139675
+    y: 206505
+    crs: EPSG:28193
+    source: map
+    accuracy_m: 150
+- id: givat-olga-7-16.5
+  name: Givat Olga line 7, reading 16.5
+  line: Givat Olga line 7
+  coords:
+    x: 139724
+    y: 206497
+    crs: EPSG:28193
+    source: map
+    accuracy_m: 150
+- id: givat-olga-7-17.5
+  name: Givat Olga line 7, reading 17.5
+  line: Givat Olga line 7
+  coords:
+    x: 139773
+    y: 206488
+    crs: EPSG:28193
+    source: map
+    accuracy_m: 150
+- id: givat-olga-7-18.5
+  name: Givat Olga line 7, reading 18.5
+  line: Givat Olga line 7
+  coords:
+    x: 139823
+    y: 206480
+    crs: EPSG:28193
+    source: map
+    accuracy_m: 150
+- id: givat-olga-7-19.5
+  name: Givat Olga line 7, reading 19.5
+  line: Givat Olga line 7
+  coords:
+    x: 139872
+    y: 206472
+    crs: EPSG:28193
+    source: map
+    accuracy_m: 150
+- id: givat-olga-7-20.5
+  name: Givat Olga line 7, reading 20.5
+  line: Givat Olga line 7
+  coords:
+    x: 139921
+    y: 206464
+    crs: EPSG:28193
+    source: map
+    accuracy_m: 150
+- id: givat-olga-7-21.5
+  name: Givat Olga line 7, reading 21.5
+  line: Givat Olga line 7
+  coords:
+    x: 139971
+    y: 206456
+    crs: EPSG:28193
+    source: map
+    accuracy_m: 150
+- id: givat-olga-7-22.5
+  name: Givat Olga line 7, reading 22.5
+  line: Givat Olga line 7
+  coords:
+    x: 140020
+    y: 206448
+    crs: EPSG:28193
+    source: map
+    accuracy_m: 150
+- id: rishpon-yakum-1-2.5
+  name: Rishpon-Yakum line 1, reading 2.5
+  line: Rishpon-Yakum line 1
+  coords:
+    x: 132552
+    y: 178393
+    crs: EPSG:28193
+    source: map
+    accuracy_m: 150
+- id: rishpon-yakum-1-3.5
+  name: Rishpon-Yakum line 1, reading 3.5
+  line: Rishpon-Yakum line 1
+  coords:
+    x: 132601
+    y: 178382
+    crs: EPSG:28193
+    source: map
+    accuracy_m: 150
+- id: rishpon-yakum-1-4.5
+  name: Rishpon-Yakum line 1, reading 4.5
+  line: Rishpon-Yakum line 1
+  coords:
+    x: 132650
+    y: 178372
+    crs: EPSG:28193
+    source: map
+    accuracy_m: 150
+- id: rishpon-yakum-1-5.5
+  name: Rishpon-Yakum line 1, reading 5.5
+  line: Rishpon-Yakum line 1
+  coords:
+    x: 132699
+    y: 178361
+    crs: EPSG:28193
+    source: map
+    accuracy_m: 150
+- id: rishpon-yakum-1-6.5
+  name: Rishpon-Yakum line 1, reading 6.5
+  line: Rishpon-Yakum line 1
+  coords:
+    x: 132747
+    y: 178350
+    crs: EPSG:28193
+    source: map
+    accuracy_m: 150
+- id: rishpon-yakum-1-7.5
+  name: Rishpon-Yakum line 1, reading 7.5
+  line: Rishpon-Yakum line 1
+  coords:
+    x: 132796
+    y: 178339
+    crs: EPSG:28193
+    source: map
+    accuracy_m: 150
+- id: rishpon-yakum-1-8.5
+  name: Rishpon-Yakum line 1, reading 8.5
+  line: Rishpon-Yakum line 1
+  coords:
+    x: 132845
+    y: 178328
+    crs: EPSG:28193
+    source: map
+    accuracy_m: 150
+- id: rishpon-yakum-1-9.5
+  name: Rishpon-Yakum line 1, reading 9.5
+  line: Rishpon-Yakum line 1
+  coords:
+    x: 132894
+    y: 178318
+    crs: EPSG:28193
+    source: map
+    accuracy_m: 150
+- id: rishpon-yakum-1-10.5
+  name: Rishpon-Yakum line 1, reading 10.5
+  line: Rishpon-Yakum line 1
+  coords:
+    x: 132943
+    y: 178307
+    crs: EPSG:28193
+    source: map
+    accuracy_m: 150
+- id: rishpon-yakum-1-11.5
+  name: Rishpon-Yakum line 1, reading 11.5
+  line: Rishpon-Yakum line 1
+  coords:
+    x: 132992
+    y: 178296
+    crs: EPSG:28193
+    source: map
+    accuracy_m: 150
+- id: rishpon-yakum-1-12.5
+  name: Rishpon-Yakum line 1, reading 12.5
+  line: Rishpon-Yakum line 1
+  coords:
+    x: 133040
+    y: 178285
+    crs: EPSG:28193
+    source: map
+    accuracy_m: 150
+- id: rishpon-yakum-1-13.5
+  name: Rishpon-Yakum line 1, reading 13.5
+  line: Rishpon-Yakum line 1
+  coords:
+    x: 133089
+    y: 178275
+    crs: EPSG:28193
+    source: map
+    accuracy_m: 150
+- id: rishpon-yakum-1-4
+  name: Rishpon-Yakum line 1, reading 4
+  line: Rishpon-Yakum line 1
+  coords:
+    x: 132625
+    y: 178377
+    crs: EPSG:28193
+    source: map
+    accuracy_m: 150
+- id: rishpon-yakum-1-5
+  name: Rishpon-Yakum line 1, reading 5
+  line: Rishpon-Yakum line 1
+  coords:
+    x: 132674
+    y: 178366
+    crs: EPSG:28193
+    source: map
+    accuracy_m: 150
+- id: rishpon-yakum-1-6
+  name: Rishpon-Yakum line 1, reading 6
+  line: Rishpon-Yakum line 1
+  coords:
+    x: 132723
+    y: 178355
+    crs: EPSG:28193
+    source: map
+    accuracy_m: 150
+- id: rishpon-yakum-1-7
+  name: Rishpon-Yakum line 1, reading 7
+  line: Rishpon-Yakum line 1
+  coords:
+    x: 132772
+    y: 178345
+    crs: EPSG:28193
+    source: map
+    accuracy_m: 150
+- id: rishpon-yakum-1-8
+  name: Rishpon-Yakum line 1, reading 8
+  line: Rishpon-Yakum line 1
+  coords:
+    x: 132821
+    y: 178334
+    crs: EPSG:28193
+    source: map
+    accuracy_m: 150
+- id: rishpon-yakum-1-9
+  name: Rishpon-Yakum line 1, reading 9
+  line: Rishpon-Yakum line 1
+  coords:
+    x: 132869
+    y: 178323
+    crs: EPSG:28193
+    source: map
+    accuracy_m: 150
+- id: rishpon-yakum-1-10
+  name: Rishpon-Yakum line 1, reading 10
+  line: Rishpon-Yakum line 1
+  coords:
+    x: 132918
+    y: 178312
+    crs: EPSG:28193
+    source: map
+    accuracy_m: 150
+- id: rishpon-yakum-1-11
+  name: Rishpon-Yakum line 1, reading 11
+  line: Rishpon-Yakum line 1
+  coords:
+    x: 132967
+    y: 178302
+    crs: EPSG:28193
+    source: map
+    accuracy_m: 150
+- id: rishpon-yakum-1-12
+  name: Rishpon-Yakum line 1, reading 12
+  line: Rishpon-Yakum line 1
+  coords:
+    x: 133016
+    y: 178291
+    crs: EPSG:28193
+    source: map
+    accuracy_m: 150
+- id: rishpon-yakum-2-2.5
+  name: Rishpon-Yakum line 2, reading 2.5
+  line: Rishpon-Yakum line 2
+  coords:
+    x: 132454
+    y: 179219
+    crs: EPSG:28193
+    source: map
+    accuracy_m: 150
+- id: rishpon-yakum-2-3.5
+  name: Rishpon-Yakum line 2, reading 3.5
+  line: Rishpon-Yakum line 2
+  coords:
+    x: 132500
+    y: 179199
+    crs: EPSG:28193
+    source: map
+    accuracy_m: 150
+- id: rishpon-yakum-2-4.5
+  name: Rishpon-Yakum line 2, reading 4.5
+  line: Rishpon-Yakum line 2
+  coords:
+    x: 132545
+    y: 179178
+    crs: EPSG:28193
+    source: map
+    accuracy_m: 150
+- id: rishpon-yakum-2-5.5
+  name: Rishpon-Yakum line 2, reading 5.5
+  line: Rishpon-Yakum line 2
+  coords:
+    x: 132591
+    y: 179158
+    crs: EPSG:28193
+    source: map
+    accuracy_m: 150
+- id: rishpon-yakum-2-6.5
+  name: Rishpon-Yakum line 2, reading 6.5
+  line: Rishpon-Yakum line 2
+  coords:
+    x: 132637
+    y: 179137
+    crs: EPSG:28193
+    source: map
+    accuracy_m: 150
+- id: rishpon-yakum-2-7.5
+  name: Rishpon-Yakum line 2, reading 7.5
+  line: Rishpon-Yakum line 2
+  coords:
+    x: 132682
+    y: 179117
+    crs: EPSG:28193
+    source: map
+    accuracy_m: 150
+- id: rishpon-yakum-2-8.5
+  name: Rishpon-Yakum line 2, reading 8.5
+  line: Rishpon-Yakum line 2
+  coords:
+    x: 132728
+    y: 179097
+    crs: EPSG:28193
+    source: map
+    accuracy_m: 150
+- id: rishpon-yakum-2-9.5
+  name: Rishpon-Yakum line 2, reading 9.5
+  line: Rishpon-Yakum line 2
+  coords:
+    x: 132774
+    y: 179076
+    crs: EPSG:28193
+    source: map
+    accuracy_m: 150
+- id: rishpon-yakum-2-10.5
+  name: Rishpon-Yakum line 2, reading 10.5
+  line: Rishpon-Yakum line 2
+  coords:
+    x: 132819
+    y: 179056
+    crs: EPSG:28193
+    source: map
+    accuracy_m: 150
+- id: rishpon-yakum-2-11.5
+  name: Rishpon-Yakum line 2, reading 11.5
+  line: Rishpon-Yakum line 2
+  coords:
+    x: 132865
+    y: 179035
+    crs: EPSG:28193
+    source: map
+    accuracy_m: 150
+- id: rishpon-yakum-2-12.5
+  name: Rishpon-Yakum line 2, reading 12.5
+  line: Rishpon-Yakum line 2
+  coords:
+    x: 132911
+    y: 179015
+    crs: EPSG:28193
+    source: map
+    accuracy_m: 150
+- id: rishpon-yakum-2-13.5
+  name: Rishpon-Yakum line 2, reading 13.5
+  line: Rishpon-Yakum line 2
+  coords:
+    x: 132956
+    y: 178995
+    crs: EPSG:28193
+    source: map
+    accuracy_m: 150
+- id: rishpon-yakum-2-14.5
+  name: Rishpon-Yakum line 2, reading 14.5
+  line: Rishpon-Yakum line 2
+  coords:
+    x: 133002
+    y: 178974
+    crs: EPSG:28193
+    source: map
+    accuracy_m: 150
+- id: rishpon-yakum-2-15.5
+  name: Rishpon-Yakum line 2, reading 15.5
+  line: Rishpon-Yakum line 2
+  coords:
+    x: 133048
+    y: 178954
+    crs: EPSG:28193
+    source: map
+    accuracy_m: 150
+- id: rishpon-yakum-2-16.5
+  name: Rishpon-Yakum line 2, reading 16.5
+  line: Rishpon-Yakum line 2
+  coords:
+    x: 133093
+    y: 178933
+    crs: EPSG:28193
+    source: map
+    accuracy_m: 150
+- id: rishpon-yakum-2-4
+  name: Rishpon-Yakum line 2, reading 4
+  line: Rishpon-Yakum line 2
+  coords:
+    x: 132523
+    y: 179188
+    crs: EPSG:28193
+    source: map
+    accuracy_m: 150
+- id: rishpon-yakum-2-5
+  name: Rishpon-Yakum line 2, reading 5
+  line: Rishpon-Yakum line 2
+  coords:
+    x: 132568
+    y: 179168
+    crs: EPSG:28193
+    source: map
+    accuracy_m: 150
+- id: rishpon-yakum-2-6
+  name: Rishpon-Yakum line 2, reading 6
+  line: Rishpon-Yakum line 2
+  coords:
+    x: 132614
+    y: 179148
+    crs: EPSG:28193
+    source: map
+    accuracy_m: 150
+- id: rishpon-yakum-2-7
+  name: Rishpon-Yakum line 2, reading 7
+  line: Rishpon-Yakum line 2
+  coords:
+    x: 132660
+    y: 179127
+    crs: EPSG:28193
+    source: map
+    accuracy_m: 150
+- id: rishpon-yakum-2-8
+  name: Rishpon-Yakum line 2, reading 8
+  line: Rishpon-Yakum line 2
+  coords:
+    x: 132705
+    y: 179107
+    crs: EPSG:28193
+    source: map
+    accuracy_m: 150
+- id: rishpon-yakum-2-9
+  name: Rishpon-Yakum line 2, reading 9
+  line: Rishpon-Yakum line 2
+  coords:
+    x: 132751
+    y: 179086
+    crs: EPSG:28193
+    source: map
+    accuracy_m: 150
+- id: rishpon-yakum-2-10
+  name: Rishpon-Yakum line 2, reading 10
+  line: Rishpon-Yakum line 2
+  coords:
+    x: 132796
+    y: 179066
+    crs: EPSG:28193
+    source: map
+    accuracy_m: 150
+- id: rishpon-yakum-2-11
+  name: Rishpon-Yakum line 2, reading 11
+  line: Rishpon-Yakum line 2
+  coords:
+    x: 132842
+    y: 179046
+    crs: EPSG:28193
+    source: map
+    accuracy_m: 150
+- id: rishpon-yakum-2-12
+  name: Rishpon-Yakum line 2, reading 12
+  line: Rishpon-Yakum line 2
+  coords:
+    x: 132888
+    y: 179025
+    crs: EPSG:28193
+    source: map
+    accuracy_m: 150
+- id: rishpon-yakum-2-13
+  name: Rishpon-Yakum line 2, reading 13
+  line: Rishpon-Yakum line 2
+  coords:
+    x: 132933
+    y: 179005
+    crs: EPSG:28193
+    source: map
+    accuracy_m: 150
+- id: rishpon-yakum-2-14
+  name: Rishpon-Yakum line 2, reading 14
+  line: Rishpon-Yakum line 2
+  coords:
+    x: 132979
+    y: 178984
+    crs: EPSG:28193
+    source: map
+    accuracy_m: 150
+- id: rishpon-yakum-3-2.5
+  name: Rishpon-Yakum line 3, reading 2.5
+  line: Rishpon-Yakum line 3
+  coords:
+    x: 132599
+    y: 179622
+    crs: EPSG:28193
+    source: map
+    accuracy_m: 150
+- id: rishpon-yakum-3-3.5
+  name: Rishpon-Yakum line 3, reading 3.5
+  line: Rishpon-Yakum line 3
+  coords:
+    x: 132647
+    y: 179607
+    crs: EPSG:28193
+    source: map
+    accuracy_m: 150
+- id: rishpon-yakum-3-4.5
+  name: Rishpon-Yakum line 3, reading 4.5
+  line: Rishpon-Yakum line 3
+  coords:
+    x: 132695
+    y: 179592
+    crs: EPSG:28193
+    source: map
+    accuracy_m: 150
+- id: rishpon-yakum-3-5.5
+  name: Rishpon-Yakum line 3, reading 5.5
+  line: Rishpon-Yakum line 3
+  coords:
+    x: 132742
+    y: 179577
+    crs: EPSG:28193
+    source: map
+    accuracy_m: 150
+- id: rishpon-yakum-3-6.5
+  name: Rishpon-Yakum line 3, reading 6.5
+  line: Rishpon-Yakum line 3
+  coords:
+    x: 132790
+    y: 179562
+    crs: EPSG:28193
+    source: map
+    accuracy_m: 150
+- id: rishpon-yakum-3-7.5
+  name: Rishpon-Yakum line 3, reading 7.5
+  line: Rishpon-Yakum line 3
+  coords:
+    x: 132838
+    y: 179547
+    crs: EPSG:28193
+    source: map
+    accuracy_m: 150
+- id: rishpon-yakum-3-8.5
+  name: Rishpon-Yakum line 3, reading 8.5
+  line: Rishpon-Yakum line 3
+  coords:
+    x: 132885
+    y: 179532
+    crs: EPSG:28193
+    source: map
+    accuracy_m: 150
+- id: rishpon-yakum-3-9.5
+  name: Rishpon-Yakum line 3, reading 9.5
+  line: Rishpon-Yakum line 3
+  coords:
+    x: 132933
+    y: 179517
+    crs: EPSG:28193
+    source: map
+    accuracy_m: 150
+- id: rishpon-yakum-3-10.5
+  name: Rishpon-Yakum line 3, reading 10.5
+  line: Rishpon-Yakum line 3
+  coords:
+    x: 132981
+    y: 179502
+    crs: EPSG:28193
+    source: map
+    accuracy_m: 150
+- id: rishpon-yakum-3-11.5
+  name: Rishpon-Yakum line 3, reading 11.5
+  line: Rishpon-Yakum line 3
+  coords:
+    x: 133028
+    y: 179487
+    crs: EPSG:28193
+    source: map
+    accuracy_m: 150
+- id: rishpon-yakum-3-12.5
+  name: Rishpon-Yakum line 3, reading 12.5
+  line: Rishpon-Yakum line 3
+  coords:
+    x: 133076
+    y: 179472
+    crs: EPSG:28193
+    source: map
+    accuracy_m: 150
+- id: rishpon-yakum-3-13.5
+  name: Rishpon-Yakum line 3, reading 13.5
+  line: Rishpon-Yakum line 3
+  coords:
+    x: 133124
+    y: 179457
+    crs: EPSG:28193
+    source: map
+    accuracy_m: 150
+- id: rishpon-yakum-3-14.5
+  name: Rishpon-Yakum line 3, reading 14.5
+  line: Rishpon-Yakum line 3
+  coords:
+    x: 133171
+    y: 179442
+    crs: EPSG:28193
+    source: map
+    accuracy_m: 150
+- id: rishpon-yakum-3-15.5
+  name: Rishpon-Yakum line 3, reading 15.5
+  line: Rishpon-Yakum line 3
+  coords:
+    x: 133219
+    y: 179427
+    crs: EPSG:28193
+    source: map
+    accuracy_m: 150
+- id: rishpon-yakum-3-16.5
+  name: Rishpon-Yakum line 3, reading 16.5
+  line: Rishpon-Yakum line 3
+  coords:
+    x: 133267
+    y: 179412
+    crs: EPSG:28193
+    source: map
+    accuracy_m: 150
+- id: rishpon-yakum-3-17.5
+  name: Rishpon-Yakum line 3, reading 17.5
+  line: Rishpon-Yakum line 3
+  coords:
+    x: 133314
+    y: 179397
+    crs: EPSG:28193
+    source: map
+    accuracy_m: 150
+- id: rishpon-yakum-3-18.5
+  name: Rishpon-Yakum line 3, reading 18.5
+  line: Rishpon-Yakum line 3
+  coords:
+    x: 133362
+    y: 179381
+    crs: EPSG:28193
+    source: map
+    accuracy_m: 150
+- id: rishpon-yakum-3-4
+  name: Rishpon-Yakum line 3, reading 4
+  line: Rishpon-Yakum line 3
+  coords:
+    x: 132671
+    y: 179600
+    crs: EPSG:28193
+    source: map
+    accuracy_m: 150
+- id: rishpon-yakum-3-5
+  name: Rishpon-Yakum line 3, reading 5
+  line: Rishpon-Yakum line 3
+  coords:
+    x: 132718
+    y: 179585
+    crs: EPSG:28193
+    source: map
+    accuracy_m: 150
+- id: rishpon-yakum-3-6
+  name: Rishpon-Yakum line 3, reading 6
+  line: Rishpon-Yakum line 3
+  coords:
+    x: 132766
+    y: 179570
+    crs: EPSG:28193
+    source: map
+    accuracy_m: 150
+- id: rishpon-yakum-3-7
+  name: Rishpon-Yakum line 3, reading 7
+  line: Rishpon-Yakum line 3
+  coords:
+    x: 132814
+    y: 179555
+    crs: EPSG:28193
+    source: map
+    accuracy_m: 150
+- id: rishpon-yakum-3-8
+  name: Rishpon-Yakum line 3, reading 8
+  line: Rishpon-Yakum line 3
+  coords:
+    x: 132861
+    y: 179540
+    crs: EPSG:28193
+    source: map
+    accuracy_m: 150
+- id: rishpon-yakum-3-9
+  name: Rishpon-Yakum line 3, reading 9
+  line: Rishpon-Yakum line 3
+  coords:
+    x: 132909
+    y: 179524
+    crs: EPSG:28193
+    source: map
+    accuracy_m: 150
+- id: rishpon-yakum-3-10
+  name: Rishpon-Yakum line 3, reading 10
+  line: Rishpon-Yakum line 3
+  coords:
+    x: 132957
+    y: 179509
+    crs: EPSG:28193
+    source: map
+    accuracy_m: 150
+- id: rishpon-yakum-3-11
+  name: Rishpon-Yakum line 3, reading 11
+  line: Rishpon-Yakum line 3
+  coords:
+    x: 133004
+    y: 179494
+    crs: EPSG:28193
+    source: map
+    accuracy_m: 150
+- id: rishpon-yakum-3-13
+  name: Rishpon-Yakum line 3, reading 13
+  line: Rishpon-Yakum line 3
+  coords:
+    x: 133100
+    y: 179464
+    crs: EPSG:28193
+    source: map
+    accuracy_m: 150
+- id: rishpon-yakum-3-14
+  name: Rishpon-Yakum line 3, reading 14
+  line: Rishpon-Yakum line 3
+  coords:
+    x: 133148
+    y: 179449
+    crs: EPSG:28193
+    source: map
+    accuracy_m: 150
+- id: rishpon-yakum-3-15
+  name: Rishpon-Yakum line 3, reading 15
+  line: Rishpon-Yakum line 3
+  coords:
+    x: 133195
+    y: 179434
+    crs: EPSG:28193
+    source: map
+    accuracy_m: 150
+- id: rishpon-yakum-3-16
+  name: Rishpon-Yakum line 3, reading 16
+  line: Rishpon-Yakum line 3
+  coords:
+    x: 133243
+    y: 179419
+    crs: EPSG:28193
+    source: map
+    accuracy_m: 150
+- id: rishpon-yakum-3-17
+  name: Rishpon-Yakum line 3, reading 17
+  line: Rishpon-Yakum line 3
+  coords:
+    x: 133291
+    y: 179404
+    crs: EPSG:28193
+    source: map
+    accuracy_m: 150
+- id: rishpon-yakum-4-2.5
+  name: Rishpon-Yakum line 4, reading 2.5
+  line: Rishpon-Yakum line 4
+  coords:
+    x: 132701
+    y: 180028
+    crs: EPSG:28193
+    source: map
+    accuracy_m: 150
+- id: rishpon-yakum-4-3.5
+  name: Rishpon-Yakum line 4, reading 3.5
+  line: Rishpon-Yakum line 4
+  coords:
+    x: 132749
+    y: 180015
+    crs: EPSG:28193
+    source: map
+    accuracy_m: 150
+- id: rishpon-yakum-4-4.5
+  name: Rishpon-Yakum line 4, reading 4.5
+  line: Rishpon-Yakum line 4
+  coords:
+    x: 132797
+    y: 180002
+    crs: EPSG:28193
+    source: map
+    accuracy_m: 150
+- id: rishpon-yakum-4-5.5
+  name: Rishpon-Yakum line 4, reading 5.5
+  line: Rishpon-Yakum line 4
+  coords:
+    x: 132846
+    y: 179989
+    crs: EPSG:28193
+    source: map
+    accuracy_m: 150
+- id: rishpon-yakum-4-6.5
+  name: Rishpon-Yakum line 4, reading 6.5
+  line: Rishpon-Yakum line 4
+  coords:
+    x: 132894
+    y: 179976
+    crs: EPSG:28193
+    source: map
+    accuracy_m: 150
+- id: rishpon-yakum-4-7.5
+  name: Rishpon-Yakum line 4, reading 7.5
+  line: Rishpon-Yakum line 4
+  coords:
+    x: 132942
+    y: 179963
+    crs: EPSG:28193
+    source: map
+    accuracy_m: 150
+- id: rishpon-yakum-4-8.5
+  name: Rishpon-Yakum line 4, reading 8.5
+  line: Rishpon-Yakum line 4
+  coords:
+    x: 132990
+    y: 179950
+    crs: EPSG:28193
+    source: map
+    accuracy_m: 150
+- id: rishpon-yakum-4-9.5
+  name: Rishpon-Yakum line 4, reading 9.5
+  line: Rishpon-Yakum line 4
+  coords:
+    x: 133039
+    y: 179937
+    crs: EPSG:28193
+    source: map
+    accuracy_m: 150
+- id: rishpon-yakum-4-10.5
+  name: Rishpon-Yakum line 4, reading 10.5
+  line: Rishpon-Yakum line 4
+  coords:
+    x: 133087
+    y: 179924
+    crs: EPSG:28193
+    source: map
+    accuracy_m: 150
+- id: rishpon-yakum-4-11.5
+  name: Rishpon-Yakum line 4, reading 11.5
+  line: Rishpon-Yakum line 4
+  coords:
+    x: 133135
+    y: 179911
+    crs: EPSG:28193
+    source: map
+    accuracy_m: 150
+- id: rishpon-yakum-4-12.5
+  name: Rishpon-Yakum line 4, reading 12.5
+  line: Rishpon-Yakum line 4
+  coords:
+    x: 133184
+    y: 179898
+    crs: EPSG:28193
+    source: map
+    accuracy_m: 150
+- id: rishpon-yakum-4-13.5
+  name: Rishpon-Yakum line 4, reading 13.5
+  line: Rishpon-Yakum line 4
+  coords:
+    x: 133232
+    y: 179885
+    crs: EPSG:28193
+    source: map
+    accuracy_m: 150
+- id: rishpon-yakum-4-14.5
+  name: Rishpon-Yakum line 4, reading 14.5
+  line: Rishpon-Yakum line 4
+  coords:
+    x: 133280
+    y: 179872
+    crs: EPSG:28193
+    source: map
+    accuracy_m: 150
+- id: rishpon-yakum-4-15.5
+  name: Rishpon-Yakum line 4, reading 15.5
+  line: Rishpon-Yakum line 4
+  coords:
+    x: 133328
+    y: 179859
+    crs: EPSG:28193
+    source: map
+    accuracy_m: 150
+- id: rishpon-yakum-4-16.5
+  name: Rishpon-Yakum line 4, reading 16.5
+  line: Rishpon-Yakum line 4
+  coords:
+    x: 133377
+    y: 179846
+    crs: EPSG:28193
+    source: map
+    accuracy_m: 150
+- id: rishpon-yakum-4-17.5
+  name: Rishpon-Yakum line 4, reading 17.5
+  line: Rishpon-Yakum line 4
+  coords:
+    x: 133425
+    y: 179833
+    crs: EPSG:28193
+    source: map
+    accuracy_m: 150
+- id: rishpon-yakum-4-18.5
+  name: Rishpon-Yakum line 4, reading 18.5
+  line: Rishpon-Yakum line 4
+  coords:
+    x: 133473
+    y: 179820
+    crs: EPSG:28193
+    source: map
+    accuracy_m: 150
+- id: rishpon-yakum-4-19.5
+  name: Rishpon-Yakum line 4, reading 19.5
+  line: Rishpon-Yakum line 4
+  coords:
+    x: 133522
+    y: 179807
+    crs: EPSG:28193
+    source: map
+    accuracy_m: 150
+- id: rishpon-yakum-4-20.5
+  name: Rishpon-Yakum line 4, reading 20.5
+  line: Rishpon-Yakum line 4
+  coords:
+    x: 133570
+    y: 179794
+    crs: EPSG:28193
+    source: map
+    accuracy_m: 150
+- id: rishpon-yakum-4-21.5
+  name: Rishpon-Yakum line 4, reading 21.5
+  line: Rishpon-Yakum line 4
+  coords:
+    x: 133618
+    y: 179781
+    crs: EPSG:28193
+    source: map
+    accuracy_m: 150
+- id: rishpon-yakum-4-22.5
+  name: Rishpon-Yakum line 4, reading 22.5
+  line: Rishpon-Yakum line 4
+  coords:
+    x: 133666
+    y: 179768
+    crs: EPSG:28193
+    source: map
+    accuracy_m: 150
+- id: rishpon-yakum-4-4
+  name: Rishpon-Yakum line 4, reading 4
+  line: Rishpon-Yakum line 4
+  coords:
+    x: 132773
+    y: 180008
+    crs: EPSG:28193
+    source: map
+    accuracy_m: 150
+- id: rishpon-yakum-4-5
+  name: Rishpon-Yakum line 4, reading 5
+  line: Rishpon-Yakum line 4
+  coords:
+    x: 132821
+    y: 179995
+    crs: EPSG:28193
+    source: map
+    accuracy_m: 150
+- id: rishpon-yakum-4-6
+  name: Rishpon-Yakum line 4, reading 6
+  line: Rishpon-Yakum line 4
+  coords:
+    x: 132870
+    y: 179982
+    crs: EPSG:28193
+    source: map
+    accuracy_m: 150
+- id: rishpon-yakum-4-7
+  name: Rishpon-Yakum line 4, reading 7
+  line: Rishpon-Yakum line 4
+  coords:
+    x: 132918
+    y: 179969
+    crs: EPSG:28193
+    source: map
+    accuracy_m: 150
+- id: rishpon-yakum-4-8
+  name: Rishpon-Yakum line 4, reading 8
+  line: Rishpon-Yakum line 4
+  coords:
+    x: 132966
+    y: 179956
+    crs: EPSG:28193
+    source: map
+    accuracy_m: 150
+- id: rishpon-yakum-4-9
+  name: Rishpon-Yakum line 4, reading 9
+  line: Rishpon-Yakum line 4
+  coords:
+    x: 133015
+    y: 179943
+    crs: EPSG:28193
+    source: map
+    accuracy_m: 150
+- id: rishpon-yakum-4-10
+  name: Rishpon-Yakum line 4, reading 10
+  line: Rishpon-Yakum line 4
+  coords:
+    x: 133063
+    y: 179930
+    crs: EPSG:28193
+    source: map
+    accuracy_m: 150
+- id: rishpon-yakum-4-11
+  name: Rishpon-Yakum line 4, reading 11
+  line: Rishpon-Yakum line 4
+  coords:
+    x: 133111
+    y: 179917
+    crs: EPSG:28193
+    source: map
+    accuracy_m: 150
+- id: rishpon-yakum-4-12
+  name: Rishpon-Yakum line 4, reading 12
+  line: Rishpon-Yakum line 4
+  coords:
+    x: 133159
+    y: 179904
+    crs: EPSG:28193
+    source: map
+    accuracy_m: 150
+- id: rishpon-yakum-4-13
+  name: Rishpon-Yakum line 4, reading 13
+  line: Rishpon-Yakum line 4
+  coords:
+    x: 133208
+    y: 179891
+    crs: EPSG:28193
+    source: map
+    accuracy_m: 150
+- id: rishpon-yakum-4-14
+  name: Rishpon-Yakum line 4, reading 14
+  line: Rishpon-Yakum line 4
+  coords:
+    x: 133256
+    y: 179878
+    crs: EPSG:28193
+    source: map
+    accuracy_m: 150
+- id: rishpon-yakum-4-15
+  name: Rishpon-Yakum line 4, reading 15
+  line: Rishpon-Yakum line 4
+  coords:
+    x: 133304
+    y: 179865
+    crs: EPSG:28193
+    source: map
+    accuracy_m: 150
+- id: rishpon-yakum-4-16
+  name: Rishpon-Yakum line 4, reading 16
+  line: Rishpon-Yakum line 4
+  coords:
+    x: 133353
+    y: 179852
+    crs: EPSG:28193
+    source: map
+    accuracy_m: 150
+- id: rishpon-yakum-4-17
+  name: Rishpon-Yakum line 4, reading 17
+  line: Rishpon-Yakum line 4
+  coords:
+    x: 133401
+    y: 179839
+    crs: EPSG:28193
+    source: map
+    accuracy_m: 150
+- id: rishpon-yakum-4-18
+  name: Rishpon-Yakum line 4, reading 18
+  line: Rishpon-Yakum line 4
+  coords:
+    x: 133449
+    y: 179826
+    crs: EPSG:28193
+    source: map
+    accuracy_m: 150
+- id: rishpon-yakum-4-19
+  name: Rishpon-Yakum line 4, reading 19
+  line: Rishpon-Yakum line 4
+  coords:
+    x: 133497
+    y: 179813
+    crs: EPSG:28193
+    source: map
+    accuracy_m: 150
+- id: rishpon-yakum-4-20
+  name: Rishpon-Yakum line 4, reading 20
+  line: Rishpon-Yakum line 4
+  coords:
+    x: 133546
+    y: 179800
+    crs: EPSG:28193
+    source: map
+    accuracy_m: 150
+- id: rishpon-yakum-4-21
+  name: Rishpon-Yakum line 4, reading 21
+  line: Rishpon-Yakum line 4
+  coords:
+    x: 133594
+    y: 179787
+    crs: EPSG:28193
+    source: map
+    accuracy_m: 150
+- id: rishpon-yakum-5-2.5
+  name: Rishpon-Yakum line 5, reading 2.5
+  line: Rishpon-Yakum line 5
+  coords:
+    x: 132890
+    y: 180476
+    crs: EPSG:28193
+    source: map
+    accuracy_m: 150
+- id: rishpon-yakum-5-3.5
+  name: Rishpon-Yakum line 5, reading 3.5
+  line: Rishpon-Yakum line 5
+  coords:
+    x: 132938
+    y: 180462
+    crs: EPSG:28193
+    source: map
+    accuracy_m: 150
+- id: rishpon-yakum-5-4.5
+  name: Rishpon-Yakum line 5, reading 4.5
+  line: Rishpon-Yakum line 5
+  coords:
+    x: 132986
+    y: 180448
+    crs: EPSG:28193
+    source: map
+    accuracy_m: 150
+- id: rishpon-yakum-5-5.5
+  name: Rishpon-Yakum line 5, reading 5.5
+  line: Rishpon-Yakum line 5
+  coords:
+    x: 133034
+    y: 180434
+    crs: EPSG:28193
+    source: map
+    accuracy_m: 150
+- id: rishpon-yakum-5-6.5
+  name: Rishpon-Yakum line 5, reading 6.5
+  line: Rishpon-Yakum line 5
+  coords:
+    x: 133082
+    y: 180421
+    crs: EPSG:28193
+    source: map
+    accuracy_m: 150
+- id: rishpon-yakum-5-7.5
+  name: Rishpon-Yakum line 5, reading 7.5
+  line: Rishpon-Yakum line 5
+  coords:
+    x: 133131
+    y: 180407
+    crs: EPSG:28193
+    source: map
+    accuracy_m: 150
+- id: rishpon-yakum-5-8.5
+  name: Rishpon-Yakum line 5, reading 8.5
+  line: Rishpon-Yakum line 5
+  coords:
+    x: 133179
+    y: 180393
+    crs: EPSG:28193
+    source: map
+    accuracy_m: 150
+- id: rishpon-yakum-5-9.5
+  name: Rishpon-Yakum line 5, reading 9.5
+  line: Rishpon-Yakum line 5
+  coords:
+    x: 133227
+    y: 180380
+    crs: EPSG:28193
+    source: map
+    accuracy_m: 150
+- id: rishpon-yakum-5-10.5
+  name: Rishpon-Yakum line 5, reading 10.5
+  line: Rishpon-Yakum line 5
+  coords:
+    x: 133275
+    y: 180366
+    crs: EPSG:28193
+    source: map
+    accuracy_m: 150
+- id: rishpon-yakum-5-11.5
+  name: Rishpon-Yakum line 5, reading 11.5
+  line: Rishpon-Yakum line 5
+  coords:
+    x: 133323
+    y: 180352
+    crs: EPSG:28193
+    source: map
+    accuracy_m: 150
+- id: rishpon-yakum-5-12.5
+  name: Rishpon-Yakum line 5, reading 12.5
+  line: Rishpon-Yakum line 5
+  coords:
+    x: 133371
+    y: 180338
+    crs: EPSG:28193
+    source: map
+    accuracy_m: 150
+- id: rishpon-yakum-5-13.5
+  name: Rishpon-Yakum line 5, reading 13.5
+  line: Rishpon-Yakum line 5
+  coords:
+    x: 133419
+    y: 180325
+    crs: EPSG:28193
+    source: map
+    accuracy_m: 150
+- id: rishpon-yakum-5-14.5
+  name: Rishpon-Yakum line 5, reading 14.5
+  line: Rishpon-Yakum line 5
+  coords:
+    x: 133467
+    y: 180311
+    crs: EPSG:28193
+    source: map
+    accuracy_m: 150
+- id: rishpon-yakum-5-15.5
+  name: Rishpon-Yakum line 5, reading 15.5
+  line: Rishpon-Yakum line 5
+  coords:
+    x: 133515
+    y: 180297
+    crs: EPSG:28193
+    source: map
+    accuracy_m: 150
+- id: rishpon-yakum-5-16.5
+  name: Rishpon-Yakum line 5, reading 16.5
+  line: Rishpon-Yakum line 5
+  coords:
+    x: 133563
+    y: 180283
+    crs: EPSG:28193
+    source: map
+    accuracy_m: 150
+- id: rishpon-yakum-5-17.5
+  name: Rishpon-Yakum line 5, reading 17.5
+  line: Rishpon-Yakum line 5
+  coords:
+    x: 133611
+    y: 180270
+    crs: EPSG:28193
+    source: map
+    accuracy_m: 150
+- id: rishpon-yakum-5-18.5
+  name: Rishpon-Yakum line 5, reading 18.5
+  line: Rishpon-Yakum line 5
+  coords:
+    x: 133659
+    y: 180256
+    crs: EPSG:28193
+    source: map
+    accuracy_m: 150
+- id: rishpon-yakum-5-19.5
+  name: Rishpon-Yakum line 5, reading 19.5
+  line: Rishpon-Yakum line 5
+  coords:
+    x: 133707
+    y: 180242
+    crs: EPSG:28193
+    source: map
+    accuracy_m: 150
+- id: rishpon-yakum-5-20.5
+  name: Rishpon-Yakum line 5, reading 20.5
+  line: Rishpon-Yakum line 5
+  coords:
+    x: 133756
+    y: 180228
+    crs: EPSG:28193
+    source: map
+    accuracy_m: 150
+- id: rishpon-yakum-5-21.5
+  name: Rishpon-Yakum line 5, reading 21.5
+  line: Rishpon-Yakum line 5
+  coords:
+    x: 133804
+    y: 180215
+    crs: EPSG:28193
+    source: map
+    accuracy_m: 150
+- id: rishpon-yakum-5-22.5
+  name: Rishpon-Yakum line 5, reading 22.5
+  line: Rishpon-Yakum line 5
+  coords:
+    x: 133852
+    y: 180201
+    crs: EPSG:28193
+    source: map
+    accuracy_m: 150
+- id: rishpon-yakum-5-23.5
+  name: Rishpon-Yakum line 5, reading 23.5
+  line: Rishpon-Yakum line 5
+  coords:
+    x: 133900
+    y: 180187
+    crs: EPSG:28193
+    source: map
+    accuracy_m: 150
+- id: rishpon-yakum-5-4
+  name: Rishpon-Yakum line 5, reading 4
+  line: Rishpon-Yakum line 5
+  coords:
+    x: 132962
+    y: 180455
+    crs: EPSG:28193
+    source: map
+    accuracy_m: 150
+- id: rishpon-yakum-5-5
+  name: Rishpon-Yakum line 5, reading 5
+  line: Rishpon-Yakum line 5
+  coords:
+    x: 133010
+    y: 180441
+    crs: EPSG:28193
+    source: map
+    accuracy_m: 150
+- id: rishpon-yakum-5-6
+  name: Rishpon-Yakum line 5, reading 6
+  line: Rishpon-Yakum line 5
+  coords:
+    x: 133058
+    y: 180428
+    crs: EPSG:28193
+    source: map
+    accuracy_m: 150
+- id: rishpon-yakum-5-7
+  name: Rishpon-Yakum line 5, reading 7
+  line: Rishpon-Yakum line 5
+  coords:
+    x: 133107
+    y: 180414
+    crs: EPSG:28193
+    source: map
+    accuracy_m: 150
+- id: rishpon-yakum-5-8
+  name: Rishpon-Yakum line 5, reading 8
+  line: Rishpon-Yakum line 5
+  coords:
+    x: 133155
+    y: 180400
+    crs: EPSG:28193
+    source: map
+    accuracy_m: 150
+- id: rishpon-yakum-5-9
+  name: Rishpon-Yakum line 5, reading 9
+  line: Rishpon-Yakum line 5
+  coords:
+    x: 133203
+    y: 180386
+    crs: EPSG:28193
+    source: map
+    accuracy_m: 150
+- id: rishpon-yakum-5-10
+  name: Rishpon-Yakum line 5, reading 10
+  line: Rishpon-Yakum line 5
+  coords:
+    x: 133251
+    y: 180373
+    crs: EPSG:28193
+    source: map
+    accuracy_m: 150
+- id: rishpon-yakum-5-11
+  name: Rishpon-Yakum line 5, reading 11
+  line: Rishpon-Yakum line 5
+  coords:
+    x: 133299
+    y: 180359
+    crs: EPSG:28193
+    source: map
+    accuracy_m: 150
+- id: rishpon-yakum-5-12
+  name: Rishpon-Yakum line 5, reading 12
+  line: Rishpon-Yakum line 5
+  coords:
+    x: 133347
+    y: 180345
+    crs: EPSG:28193
+    source: map
+    accuracy_m: 150
+- id: rishpon-yakum-5-13
+  name: Rishpon-Yakum line 5, reading 13
+  line: Rishpon-Yakum line 5
+  coords:
+    x: 133395
+    y: 180331
+    crs: EPSG:28193
+    source: map
+    accuracy_m: 150
+- id: rishpon-yakum-5-14
+  name: Rishpon-Yakum line 5, reading 14
+  line: Rishpon-Yakum line 5
+  coords:
+    x: 133443
+    y: 180318
+    crs: EPSG:28193
+    source: map
+    accuracy_m: 150
+- id: rishpon-yakum-5-15
+  name: Rishpon-Yakum line 5, reading 15
+  line: Rishpon-Yakum line 5
+  coords:
+    x: 133491
+    y: 180304
+    crs: EPSG:28193
+    source: map
+    accuracy_m: 150
+- id: rishpon-yakum-5-16
+  name: Rishpon-Yakum line 5, reading 16
+  line: Rishpon-Yakum line 5
+  coords:
+    x: 133539
+    y: 180290
+    crs: EPSG:28193
+    source: map
+    accuracy_m: 150
+- id: rishpon-yakum-5-17
+  name: Rishpon-Yakum line 5, reading 17
+  line: Rishpon-Yakum line 5
+  coords:
+    x: 133587
+    y: 180276
+    crs: EPSG:28193
+    source: map
+    accuracy_m: 150
+- id: rishpon-yakum-5-18
+  name: Rishpon-Yakum line 5, reading 18
+  line: Rishpon-Yakum line 5
+  coords:
+    x: 133635
+    y: 180263
+    crs: EPSG:28193
+    source: map
+    accuracy_m: 150
+- id: rishpon-yakum-5-19
+  name: Rishpon-Yakum line 5, reading 19
+  line: Rishpon-Yakum line 5
+  coords:
+    x: 133683
+    y: 180249
+    crs: EPSG:28193
+    source: map
+    accuracy_m: 150
+- id: rishpon-yakum-5-20
+  name: Rishpon-Yakum line 5, reading 20
+  line: Rishpon-Yakum line 5
+  coords:
+    x: 133732
+    y: 180235
+    crs: EPSG:28193
+    source: map
+    accuracy_m: 150
+- id: rishpon-yakum-5-21
+  name: Rishpon-Yakum line 5, reading 21
+  line: Rishpon-Yakum line 5
+  coords:
+    x: 133780
+    y: 180222
+    crs: EPSG:28193
+    source: map
+    accuracy_m: 150
+- id: rishpon-yakum-5-22
+  name: Rishpon-Yakum line 5, reading 22
+  line: Rishpon-Yakum line 5
+  coords:
+    x: 133828
+    y: 180208
+    crs: EPSG:28193
+    source: map
+    accuracy_m: 150
+- id: rishpon-yakum-6-2.5
+  name: Rishpon-Yakum line 6, reading 2.5
+  line: Rishpon-Yakum line 6
+  coords:
+    x: 133012
+    y: 181214
+    crs: EPSG:28193
+    source: map
+    accuracy_m: 150
+- id: rishpon-yakum-6-3.5
+  name: Rishpon-Yakum line 6, reading 3.5
+  line: Rishpon-Yakum line 6
+  coords:
+    x: 133061
+    y: 181204
+    crs: EPSG:28193
+    source: map
+    accuracy_m: 150
+- id: rishpon-yakum-6-4.5
+  name: Rishpon-Yakum line 6, reading 4.5
+  line: Rishpon-Yakum line 6
+  coords:
+    x: 133110
+    y: 181193
+    crs: EPSG:28193
+    source: map
+    accuracy_m: 150
+- id: rishpon-yakum-6-5.5
+  name: Rishpon-Yakum line 6, reading 5.5
+  line: Rishpon-Yakum line 6
+  coords:
+    x: 133159
+    y: 181183
+    crs: EPSG:28193
+    source: map
+    accuracy_m: 150
+- id: rishpon-yakum-6-6.5
+  name: Rishpon-Yakum line 6, reading 6.5
+  line: Rishpon-Yakum line 6
+  coords:
+    x: 133208
+    y: 181173
+    crs: EPSG:28193
+    source: map
+    accuracy_m: 150
+- id: rishpon-yakum-6-7.5
+  name: Rishpon-Yakum line 6, reading 7.5
+  line: Rishpon-Yakum line 6
+  coords:
+    x: 133257
+    y: 181162
+    crs: EPSG:28193
+    source: map
+    accuracy_m: 150
+- id: rishpon-yakum-6-8.5
+  name: Rishpon-Yakum line 6, reading 8.5
+  line: Rishpon-Yakum line 6
+  coords:
+    x: 133306
+    y: 181152
+    crs: EPSG:28193
+    source: map
+    accuracy_m: 150
+- id: rishpon-yakum-6-9.5
+  name: Rishpon-Yakum line 6, reading 9.5
+  line: Rishpon-Yakum line 6
+  coords:
+    x: 133355
+    y: 181141
+    crs: EPSG:28193
+    source: map
+    accuracy_m: 150
+- id: rishpon-yakum-6-10.5
+  name: Rishpon-Yakum line 6, reading 10.5
+  line: Rishpon-Yakum line 6
+  coords:
+    x: 133404
+    y: 181131
+    crs: EPSG:28193
+    source: map
+    accuracy_m: 150
+- id: rishpon-yakum-6-11.5
+  name: Rishpon-Yakum line 6, reading 11.5
+  line: Rishpon-Yakum line 6
+  coords:
+    x: 133452
+    y: 181121
+    crs: EPSG:28193
+    source: map
+    accuracy_m: 150
+- id: rishpon-yakum-6-12.5
+  name: Rishpon-Yakum line 6, reading 12.5
+  line: Rishpon-Yakum line 6
+  coords:
+    x: 133501
+    y: 181110
+    crs: EPSG:28193
+    source: map
+    accuracy_m: 150
+- id: rishpon-yakum-6-13.5
+  name: Rishpon-Yakum line 6, reading 13.5
+  line: Rishpon-Yakum line 6
+  coords:
+    x: 133550
+    y: 181100
+    crs: EPSG:28193
+    source: map
+    accuracy_m: 150
+- id: rishpon-yakum-6-14.5
+  name: Rishpon-Yakum line 6, reading 14.5
+  line: Rishpon-Yakum line 6
+  coords:
+    x: 133599
+    y: 181090
+    crs: EPSG:28193
+    source: map
+    accuracy_m: 150
+- id: rishpon-yakum-6-15.5
+  name: Rishpon-Yakum line 6, reading 15.5
+  line: Rishpon-Yakum line 6
+  coords:
+    x: 133648
+    y: 181079
+    crs: EPSG:28193
+    source: map
+    accuracy_m: 150
+- id: rishpon-yakum-6-16.5
+  name: Rishpon-Yakum line 6, reading 16.5
+  line: Rishpon-Yakum line 6
+  coords:
+    x: 133697
+    y: 181069
+    crs: EPSG:28193
+    source: map
+    accuracy_m: 150
+- id: rishpon-yakum-6-17.5
+  name: Rishpon-Yakum line 6, reading 17.5
+  line: Rishpon-Yakum line 6
+  coords:
+    x: 133746
+    y: 181058
+    crs: EPSG:28193
+    source: map
+    accuracy_m: 150
+- id: rishpon-yakum-6-18.5
+  name: Rishpon-Yakum line 6, reading 18.5
+  line: Rishpon-Yakum line 6
+  coords:
+    x: 133795
+    y: 181048
+    crs: EPSG:28193
+    source: map
+    accuracy_m: 150
+- id: rishpon-yakum-6-19.5
+  name: Rishpon-Yakum line 6, reading 19.5
+  line: Rishpon-Yakum line 6
+  coords:
+    x: 133844
+    y: 181038
+    crs: EPSG:28193
+    source: map
+    accuracy_m: 150
+- id: rishpon-yakum-6-20.5
+  name: Rishpon-Yakum line 6, reading 20.5
+  line: Rishpon-Yakum line 6
+  coords:
+    x: 133893
+    y: 181027
+    crs: EPSG:28193
+    source: map
+    accuracy_m: 150
+- id: rishpon-yakum-6-21.5
+  name: Rishpon-Yakum line 6, reading 21.5
+  line: Rishpon-Yakum line 6
+  coords:
+    x: 133942
+    y: 181017
+    crs: EPSG:28193
+    source: map
+    accuracy_m: 150
+- id: rishpon-yakum-6-4
+  name: Rishpon-Yakum line 6, reading 4
+  line: Rishpon-Yakum line 6
+  coords:
+    x: 133086
+    y: 181198
+    crs: EPSG:28193
+    source: map
+    accuracy_m: 150
+- id: rishpon-yakum-6-5
+  name: Rishpon-Yakum line 6, reading 5
+  line: Rishpon-Yakum line 6
+  coords:
+    x: 133135
+    y: 181188
+    crs: EPSG:28193
+    source: map
+    accuracy_m: 150
+- id: rishpon-yakum-6-6
+  name: Rishpon-Yakum line 6, reading 6
+  line: Rishpon-Yakum line 6
+  coords:
+    x: 133183
+    y: 181178
+    crs: EPSG:28193
+    source: map
+    accuracy_m: 150
+- id: rishpon-yakum-6-7
+  name: Rishpon-Yakum line 6, reading 7
+  line: Rishpon-Yakum line 6
+  coords:
+    x: 133232
+    y: 181167
+    crs: EPSG:28193
+    source: map
+    accuracy_m: 150
+- id: rishpon-yakum-6-8
+  name: Rishpon-Yakum line 6, reading 8
+  line: Rishpon-Yakum line 6
+  coords:
+    x: 133281
+    y: 181157
+    crs: EPSG:28193
+    source: map
+    accuracy_m: 150
+- id: rishpon-yakum-6-9
+  name: Rishpon-Yakum line 6, reading 9
+  line: Rishpon-Yakum line 6
+  coords:
+    x: 133330
+    y: 181147
+    crs: EPSG:28193
+    source: map
+    accuracy_m: 150
+- id: rishpon-yakum-6-10
+  name: Rishpon-Yakum line 6, reading 10
+  line: Rishpon-Yakum line 6
+  coords:
+    x: 133379
+    y: 181136
+    crs: EPSG:28193
+    source: map
+    accuracy_m: 150
+- id: rishpon-yakum-6-11
+  name: Rishpon-Yakum line 6, reading 11
+  line: Rishpon-Yakum line 6
+  coords:
+    x: 133428
+    y: 181126
+    crs: EPSG:28193
+    source: map
+    accuracy_m: 150
+- id: rishpon-yakum-6-12
+  name: Rishpon-Yakum line 6, reading 12
+  line: Rishpon-Yakum line 6
+  coords:
+    x: 133477
+    y: 181115
+    crs: EPSG:28193
+    source: map
+    accuracy_m: 150
+- id: rishpon-yakum-6-13
+  name: Rishpon-Yakum line 6, reading 13
+  line: Rishpon-Yakum line 6
+  coords:
+    x: 133526
+    y: 181105
+    crs: EPSG:28193
+    source: map
+    accuracy_m: 150
+- id: rishpon-yakum-6-14
+  name: Rishpon-Yakum line 6, reading 14
+  line: Rishpon-Yakum line 6
+  coords:
+    x: 133575
+    y: 181095
+    crs: EPSG:28193
+    source: map
+    accuracy_m: 150
+- id: rishpon-yakum-6-15
+  name: Rishpon-Yakum line 6, reading 15
+  line: Rishpon-Yakum line 6
+  coords:
+    x: 133624
+    y: 181084
+    crs: EPSG:28193
+    source: map
+    accuracy_m: 150
+- id: rishpon-yakum-6-16
+  name: Rishpon-Yakum line 6, reading 16
+  line: Rishpon-Yakum line 6
+  coords:
+    x: 133673
+    y: 181074
+    crs: EPSG:28193
+    source: map
+    accuracy_m: 150
+- id: rishpon-yakum-6-17
+  name: Rishpon-Yakum line 6, reading 17
+  line: Rishpon-Yakum line 6
+  coords:
+    x: 133721
+    y: 181064
+    crs: EPSG:28193
+    source: map
+    accuracy_m: 150
+- id: rishpon-yakum-6-18
+  name: Rishpon-Yakum line 6, reading 18
+  line: Rishpon-Yakum line 6
+  coords:
+    x: 133770
+    y: 181053
+    crs: EPSG:28193
+    source: map
+    accuracy_m: 150
+- id: rishpon-yakum-6-19
+  name: Rishpon-Yakum line 6, reading 19
+  line: Rishpon-Yakum line 6
+  coords:
+    x: 133819
+    y: 181043
+    crs: EPSG:28193
+    source: map
+    accuracy_m: 150
+- id: rishpon-yakum-6-20
+  name: Rishpon-Yakum line 6, reading 20
+  line: Rishpon-Yakum line 6
+  coords:
+    x: 133868
+    y: 181032
+    crs: EPSG:28193
+    source: map
+    accuracy_m: 150
+- id: rishpon-yakum-7-2.5
+  name: Rishpon-Yakum line 7, reading 2.5
+  line: Rishpon-Yakum line 7
+  coords:
+    x: 133171
+    y: 181520
+    crs: EPSG:28193
+    source: map
+    accuracy_m: 150
+- id: rishpon-yakum-7-3.5
+  name: Rishpon-Yakum line 7, reading 3.5
+  line: Rishpon-Yakum line 7
+  coords:
+    x: 133220
+    y: 181508
+    crs: EPSG:28193
+    source: map
+    accuracy_m: 150
+- id: rishpon-yakum-7-4.5
+  name: Rishpon-Yakum line 7, reading 4.5
+  line: Rishpon-Yakum line 7
+  coords:
+    x: 133268
+    y: 181495
+    crs: EPSG:28193
+    source: map
+    accuracy_m: 150
+- id: rishpon-yakum-7-5.5
+  name: Rishpon-Yakum line 7, reading 5.5
+  line: Rishpon-Yakum line 7
+  coords:
+    x: 133317
+    y: 181483
+    crs: EPSG:28193
+    source: map
+    accuracy_m: 150
+- id: rishpon-yakum-7-6.5
+  name: Rishpon-Yakum line 7, reading 6.5
+  line: Rishpon-Yakum line 7
+  coords:
+    x: 133365
+    y: 181471
+    crs: EPSG:28193
+    source: map
+    accuracy_m: 150
+- id: rishpon-yakum-7-7.5
+  name: Rishpon-Yakum line 7, reading 7.5
+  line: Rishpon-Yakum line 7
+  coords:
+    x: 133414
+    y: 181459
+    crs: EPSG:28193
+    source: map
+    accuracy_m: 150
+- id: rishpon-yakum-7-8.5
+  name: Rishpon-Yakum line 7, reading 8.5
+  line: Rishpon-Yakum line 7
+  coords:
+    x: 133462
+    y: 181447
+    crs: EPSG:28193
+    source: map
+    accuracy_m: 150
+- id: rishpon-yakum-7-9.5
+  name: Rishpon-Yakum line 7, reading 9.5
+  line: Rishpon-Yakum line 7
+  coords:
+    x: 133511
+    y: 181435
+    crs: EPSG:28193
+    source: map
+    accuracy_m: 150
+- id: rishpon-yakum-7-10.5
+  name: Rishpon-Yakum line 7, reading 10.5
+  line: Rishpon-Yakum line 7
+  coords:
+    x: 133559
+    y: 181423
+    crs: EPSG:28193
+    source: map
+    accuracy_m: 150
+- id: rishpon-yakum-7-11.5
+  name: Rishpon-Yakum line 7, reading 11.5
+  line: Rishpon-Yakum line 7
+  coords:
+    x: 133608
+    y: 181411
+    crs: EPSG:28193
+    source: map
+    accuracy_m: 150
+- id: rishpon-yakum-7-12.5
+  name: Rishpon-Yakum line 7, reading 12.5
+  line: Rishpon-Yakum line 7
+  coords:
+    x: 133656
+    y: 181398
+    crs: EPSG:28193
+    source: map
+    accuracy_m: 150
+- id: rishpon-yakum-7-13.5
+  name: Rishpon-Yakum line 7, reading 13.5
+  line: Rishpon-Yakum line 7
+  coords:
+    x: 133705
+    y: 181386
+    crs: EPSG:28193
+    source: map
+    accuracy_m: 150
+- id: rishpon-yakum-7-14.5
+  name: Rishpon-Yakum line 7, reading 14.5
+  line: Rishpon-Yakum line 7
+  coords:
+    x: 133753
+    y: 181374
+    crs: EPSG:28193
+    source: map
+    accuracy_m: 150
+- id: rishpon-yakum-7-15.5
+  name: Rishpon-Yakum line 7, reading 15.5
+  line: Rishpon-Yakum line 7
+  coords:
+    x: 133802
+    y: 181362
+    crs: EPSG:28193
+    source: map
+    accuracy_m: 150
+- id: rishpon-yakum-7-16.5
+  name: Rishpon-Yakum line 7, reading 16.5
+  line: Rishpon-Yakum line 7
+  coords:
+    x: 133850
+    y: 181350
+    crs: EPSG:28193
+    source: map
+    accuracy_m: 150
+- id: rishpon-yakum-7-17.5
+  name: Rishpon-Yakum line 7, reading 17.5
+  line: Rishpon-Yakum line 7
+  coords:
+    x: 133899
+    y: 181338
+    crs: EPSG:28193
+    source: map
+    accuracy_m: 150
+- id: rishpon-yakum-7-18.5
+  name: Rishpon-Yakum line 7, reading 18.5
+  line: Rishpon-Yakum line 7
+  coords:
+    x: 133947
+    y: 181326
+    crs: EPSG:28193
+    source: map
+    accuracy_m: 150
+- id: rishpon-yakum-7-19.5
+  name: Rishpon-Yakum line 7, reading 19.5
+  line: Rishpon-Yakum line 7
+  coords:
+    x: 133996
+    y: 181314
+    crs: EPSG:28193
+    source: map
+    accuracy_m: 150
+- id: rishpon-yakum-7-20.5
+  name: Rishpon-Yakum line 7, reading 20.5
+  line: Rishpon-Yakum line 7
+  coords:
+    x: 134044
+    y: 181301
+    crs: EPSG:28193
+    source: map
+    accuracy_m: 150
+- id: rishpon-yakum-7-4
+  name: Rishpon-Yakum line 7, reading 4
+  line: Rishpon-Yakum line 7
+  coords:
+    x: 133244
+    y: 181501
+    crs: EPSG:28193
+    source: map
+    accuracy_m: 150
+- id: rishpon-yakum-7-5
+  name: Rishpon-Yakum line 7, reading 5
+  line: Rishpon-Yakum line 7
+  coords:
+    x: 133293
+    y: 181489
+    crs: EPSG:28193
+    source: map
+    accuracy_m: 150
+- id: rishpon-yakum-7-6
+  name: Rishpon-Yakum line 7, reading 6
+  line: Rishpon-Yakum line 7
+  coords:
+    x: 133341
+    y: 181477
+    crs: EPSG:28193
+    source: map
+    accuracy_m: 150
+- id: rishpon-yakum-7-7
+  name: Rishpon-Yakum line 7, reading 7
+  line: Rishpon-Yakum line 7
+  coords:
+    x: 133390
+    y: 181465
+    crs: EPSG:28193
+    source: map
+    accuracy_m: 150
+- id: rishpon-yakum-7-8
+  name: Rishpon-Yakum line 7, reading 8
+  line: Rishpon-Yakum line 7
+  coords:
+    x: 133438
+    y: 181453
+    crs: EPSG:28193
+    source: map
+    accuracy_m: 150
+- id: rishpon-yakum-7-9
+  name: Rishpon-Yakum line 7, reading 9
+  line: Rishpon-Yakum line 7
+  coords:
+    x: 133487
+    y: 181441
+    crs: EPSG:28193
+    source: map
+    accuracy_m: 150
+- id: rishpon-yakum-7-10
+  name: Rishpon-Yakum line 7, reading 10
+  line: Rishpon-Yakum line 7
+  coords:
+    x: 133535
+    y: 181429
+    crs: EPSG:28193
+    source: map
+    accuracy_m: 150
+- id: rishpon-yakum-7-11
+  name: Rishpon-Yakum line 7, reading 11
+  line: Rishpon-Yakum line 7
+  coords:
+    x: 133584
+    y: 181417
+    crs: EPSG:28193
+    source: map
+    accuracy_m: 150
+- id: rishpon-yakum-7-12
+  name: Rishpon-Yakum line 7, reading 12
+  line: Rishpon-Yakum line 7
+  coords:
+    x: 133632
+    y: 181404
+    crs: EPSG:28193
+    source: map
+    accuracy_m: 150
+- id: rishpon-yakum-7-13
+  name: Rishpon-Yakum line 7, reading 13
+  line: Rishpon-Yakum line 7
+  coords:
+    x: 133681
+    y: 181392
+    crs: EPSG:28193
+    source: map
+    accuracy_m: 150
+- id: rishpon-yakum-7-14
+  name: Rishpon-Yakum line 7, reading 14
+  line: Rishpon-Yakum line 7
+  coords:
+    x: 133729
+    y: 181380
+    crs: EPSG:28193
+    source: map
+    accuracy_m: 150
+- id: rishpon-yakum-7-15
+  name: Rishpon-Yakum line 7, reading 15
+  line: Rishpon-Yakum line 7
+  coords:
+    x: 133778
+    y: 181368
+    crs: EPSG:28193
+    source: map
+    accuracy_m: 150
+- id: rishpon-yakum-7-16
+  name: Rishpon-Yakum line 7, reading 16
+  line: Rishpon-Yakum line 7
+  coords:
+    x: 133826
+    y: 181356
+    crs: EPSG:28193
+    source: map
+    accuracy_m: 150
+- id: rishpon-yakum-7-17
+  name: Rishpon-Yakum line 7, reading 17
+  line: Rishpon-Yakum line 7
+  coords:
+    x: 133875
+    y: 181344
+    crs: EPSG:28193
+    source: map
+    accuracy_m: 150
+- id: rishpon-yakum-7-18
+  name: Rishpon-Yakum line 7, reading 18
+  line: Rishpon-Yakum line 7
+  coords:
+    x: 133923
+    y: 181332
+    crs: EPSG:28193
+    source: map
+    accuracy_m: 150
+- id: rishpon-yakum-7-19
+  name: Rishpon-Yakum line 7, reading 19
+  line: Rishpon-Yakum line 7
+  coords:
+    x: 133972
+    y: 181320
+    crs: EPSG:28193
+    source: map
+    accuracy_m: 150
+- id: rishpon-yakum-8-2.5
+  name: Rishpon-Yakum line 8, reading 2.5
+  line: Rishpon-Yakum line 8
+  coords:
+    x: 133438
+    y: 182250
+    crs: EPSG:28193
+    source: map
+    accuracy_m: 150
+- id: rishpon-yakum-8-3.5
+  name: Rishpon-Yakum line 8, reading 3.5
+  line: Rishpon-Yakum line 8
+  coords:
+    x: 133486
+    y: 182234
+    crs: EPSG:28193
+    source: map
+    accuracy_m: 150
+- id: rishpon-yakum-8-4.5
+  name: Rishpon-Yakum line 8, reading 4.5
+  line: Rishpon-Yakum line 8
+  coords:
+    x: 133533
+    y: 182218
+    crs: EPSG:28193
+    source: map
+    accuracy_m: 150
+- id: rishpon-yakum-8-5.5
+  name: Rishpon-Yakum line 8, reading 5.5
+  line: Rishpon-Yakum line 8
+  coords:
+    x: 133580
+    y: 182202
+    crs: EPSG:28193
+    source: map
+    accuracy_m: 150
+- id: rishpon-yakum-8-6.5
+  name: Rishpon-Yakum line 8, reading 6.5
+  line: Rishpon-Yakum line 8
+  coords:
+    x: 133628
+    y: 182185
+    crs: EPSG:28193
+    source: map
+    accuracy_m: 150
+- id: rishpon-yakum-8-7.5
+  name: Rishpon-Yakum line 8, reading 7.5
+  line: Rishpon-Yakum line 8
+  coords:
+    x: 133675
+    y: 182169
+    crs: EPSG:28193
+    source: map
+    accuracy_m: 150
+- id: rishpon-yakum-8-8.5
+  name: Rishpon-Yakum line 8, reading 8.5
+  line: Rishpon-Yakum line 8
+  coords:
+    x: 133722
+    y: 182153
+    crs: EPSG:28193
+    source: map
+    accuracy_m: 150
+- id: rishpon-yakum-8-9.5
+  name: Rishpon-Yakum line 8, reading 9.5
+  line: Rishpon-Yakum line 8
+  coords:
+    x: 133770
+    y: 182137
+    crs: EPSG:28193
+    source: map
+    accuracy_m: 150
+- id: rishpon-yakum-8-10.5
+  name: Rishpon-Yakum line 8, reading 10.5
+  line: Rishpon-Yakum line 8
+  coords:
+    x: 133817
+    y: 182121
+    crs: EPSG:28193
+    source: map
+    accuracy_m: 150
+- id: rishpon-yakum-8-11.5
+  name: Rishpon-Yakum line 8, reading 11.5
+  line: Rishpon-Yakum line 8
+  coords:
+    x: 133864
+    y: 182105
+    crs: EPSG:28193
+    source: map
+    accuracy_m: 150
+- id: rishpon-yakum-8-12.5
+  name: Rishpon-Yakum line 8, reading 12.5
+  line: Rishpon-Yakum line 8
+  coords:
+    x: 133912
+    y: 182089
+    crs: EPSG:28193
+    source: map
+    accuracy_m: 150
+- id: rishpon-yakum-8-13.5
+  name: Rishpon-Yakum line 8, reading 13.5
+  line: Rishpon-Yakum line 8
+  coords:
+    x: 133959
+    y: 182073
+    crs: EPSG:28193
+    source: map
+    accuracy_m: 150
+- id: rishpon-yakum-8-14.5
+  name: Rishpon-Yakum line 8, reading 14.5
+  line: Rishpon-Yakum line 8
+  coords:
+    x: 134006
+    y: 182057
+    crs: EPSG:28193
+    source: map
+    accuracy_m: 150
+- id: rishpon-yakum-8-4
+  name: Rishpon-Yakum line 8, reading 4
+  line: Rishpon-Yakum line 8
+  coords:
+    x: 133509
+    y: 182226
+    crs: EPSG:28193
+    source: map
+    accuracy_m: 150
+- id: rishpon-yakum-8-5
+  name: Rishpon-Yakum line 8, reading 5
+  line: Rishpon-Yakum line 8
+  coords:
+    x: 133557
+    y: 182210
+    crs: EPSG:28193
+    source: map
+    accuracy_m: 150
+- id: rishpon-yakum-8-6
+  name: Rishpon-Yakum line 8, reading 6
+  line: Rishpon-Yakum line 8
+  coords:
+    x: 133604
+    y: 182193
+    crs: EPSG:28193
+    source: map
+    accuracy_m: 150
+- id: rishpon-yakum-8-7
+  name: Rishpon-Yakum line 8, reading 7
+  line: Rishpon-Yakum line 8
+  coords:
+    x: 133651
+    y: 182177
+    crs: EPSG:28193
+    source: map
+    accuracy_m: 150
+- id: rishpon-yakum-8-8
+  name: Rishpon-Yakum line 8, reading 8
+  line: Rishpon-Yakum line 8
+  coords:
+    x: 133699
+    y: 182161
+    crs: EPSG:28193
+    source: map
+    accuracy_m: 150
+- id: rishpon-yakum-8-9
+  name: Rishpon-Yakum line 8, reading 9
+  line: Rishpon-Yakum line 8
+  coords:
+    x: 133746
+    y: 182145
+    crs: EPSG:28193
+    source: map
+    accuracy_m: 150
+- id: rishpon-yakum-8-10
+  name: Rishpon-Yakum line 8, reading 10
+  line: Rishpon-Yakum line 8
+  coords:
+    x: 133793
+    y: 182129
+    crs: EPSG:28193
+    source: map
+    accuracy_m: 150
+- id: rishpon-yakum-8-11
+  name: Rishpon-Yakum line 8, reading 11
+  line: Rishpon-Yakum line 8
+  coords:
+    x: 133841
+    y: 182113
+    crs: EPSG:28193
+    source: map
+    accuracy_m: 150
+- id: rishpon-yakum-8-12
+  name: Rishpon-Yakum line 8, reading 12
+  line: Rishpon-Yakum line 8
+  coords:
+    x: 133888
+    y: 182097
+    crs: EPSG:28193
+    source: map
+    accuracy_m: 150
+- id: rishpon-yakum-8-13
+  name: Rishpon-Yakum line 8, reading 13
+  line: Rishpon-Yakum line 8
+  coords:
+    x: 133935
+    y: 182081
+    crs: EPSG:28193
+    source: map
+    accuracy_m: 150
+- id: rishpon-yakum-9-2.5
+  name: Rishpon-Yakum line 9, reading 2.5
+  line: Rishpon-Yakum line 9
+  coords:
+    x: 133712
+    y: 183325
+    crs: EPSG:28193
+    source: map
+    accuracy_m: 150
+- id: rishpon-yakum-9-3.5
+  name: Rishpon-Yakum line 9, reading 3.5
+  line: Rishpon-Yakum line 9
+  coords:
+    x: 133757
+    y: 183303
+    crs: EPSG:28193
+    source: map
+    accuracy_m: 150
+- id: rishpon-yakum-9-4.5
+  name: Rishpon-Yakum line 9, reading 4.5
+  line: Rishpon-Yakum line 9
+  coords:
+    x: 133802
+    y: 183281
+    crs: EPSG:28193
+    source: map
+    accuracy_m: 150
+- id: rishpon-yakum-9-5.5
+  name: Rishpon-Yakum line 9, reading 5.5
+  line: Rishpon-Yakum line 9
+  coords:
+    x: 133847
+    y: 183259
+    crs: EPSG:28193
+    source: map
+    accuracy_m: 150
+- id: rishpon-yakum-9-6.5
+  name: Rishpon-Yakum line 9, reading 6.5
+  line: Rishpon-Yakum line 9
+  coords:
+    x: 133892
+    y: 183237
+    crs: EPSG:28193
+    source: map
+    accuracy_m: 150
+- id: rishpon-yakum-9-7.5
+  name: Rishpon-Yakum line 9, reading 7.5
+  line: Rishpon-Yakum line 9
+  coords:
+    x: 133937
+    y: 183215
+    crs: EPSG:28193
+    source: map
+    accuracy_m: 150
+- id: rishpon-yakum-9-8.5
+  name: Rishpon-Yakum line 9, reading 8.5
+  line: Rishpon-Yakum line 9
+  coords:
+    x: 133982
+    y: 183193
+    crs: EPSG:28193
+    source: map
+    accuracy_m: 150
+- id: rishpon-yakum-9-9.5
+  name: Rishpon-Yakum line 9, reading 9.5
+  line: Rishpon-Yakum line 9
+  coords:
+    x: 134027
+    y: 183171
+    crs: EPSG:28193
+    source: map
+    accuracy_m: 150
+- id: rishpon-yakum-9-10.5
+  name: Rishpon-Yakum line 9, reading 10.5
+  line: Rishpon-Yakum line 9
+  coords:
+    x: 134072
+    y: 183150
+    crs: EPSG:28193
+    source: map
+    accuracy_m: 150
+- id: rishpon-yakum-9-11.5
+  name: Rishpon-Yakum line 9, reading 11.5
+  line: Rishpon-Yakum line 9
+  coords:
+    x: 134117
+    y: 183128
+    crs: EPSG:28193
+    source: map
+    accuracy_m: 150
+- id: rishpon-yakum-9-12.5
+  name: Rishpon-Yakum line 9, reading 12.5
+  line: Rishpon-Yakum line 9
+  coords:
+    x: 134162
+    y: 183106
+    crs: EPSG:28193
+    source: map
+    accuracy_m: 150
+- id: rishpon-yakum-9-13.5
+  name: Rishpon-Yakum line 9, reading 13.5
+  line: Rishpon-Yakum line 9
+  coords:
+    x: 134206
+    y: 183084
+    crs: EPSG:28193
+    source: map
+    accuracy_m: 150
+- id: rishpon-yakum-9-14.5
+  name: Rishpon-Yakum line 9, reading 14.5
+  line: Rishpon-Yakum line 9
+  coords:
+    x: 134251
+    y: 183062
+    crs: EPSG:28193
+    source: map
+    accuracy_m: 150
+- id: rishpon-yakum-9-15.5
+  name: Rishpon-Yakum line 9, reading 15.5
+  line: Rishpon-Yakum line 9
+  coords:
+    x: 134296
+    y: 183040
+    crs: EPSG:28193
+    source: map
+    accuracy_m: 150
+- id: rishpon-yakum-9-16.5
+  name: Rishpon-Yakum line 9, reading 16.5
+  line: Rishpon-Yakum line 9
+  coords:
+    x: 134341
+    y: 183018
+    crs: EPSG:28193
+    source: map
+    accuracy_m: 150
+- id: rishpon-yakum-9-4
+  name: Rishpon-Yakum line 9, reading 4
+  line: Rishpon-Yakum line 9
+  coords:
+    x: 133780
+    y: 183292
+    crs: EPSG:28193
+    source: map
+    accuracy_m: 150
+- id: rishpon-yakum-9-5
+  name: Rishpon-Yakum line 9, reading 5
+  line: Rishpon-Yakum line 9
+  coords:
+    x: 133825
+    y: 183270
+    crs: EPSG:28193
+    source: map
+    accuracy_m: 150
+- id: rishpon-yakum-9-6
+  name: Rishpon-Yakum line 9, reading 6
+  line: Rishpon-Yakum line 9
+  coords:
+    x: 133870
+    y: 183248
+    crs: EPSG:28193
+    source: map
+    accuracy_m: 150
+- id: rishpon-yakum-9-7
+  name: Rishpon-Yakum line 9, reading 7
+  line: Rishpon-Yakum line 9
+  coords:
+    x: 133914
+    y: 183226
+    crs: EPSG:28193
+    source: map
+    accuracy_m: 150
+- id: rishpon-yakum-9-8
+  name: Rishpon-Yakum line 9, reading 8
+  line: Rishpon-Yakum line 9
+  coords:
+    x: 133959
+    y: 183204
+    crs: EPSG:28193
+    source: map
+    accuracy_m: 150
+- id: rishpon-yakum-9-9
+  name: Rishpon-Yakum line 9, reading 9
+  line: Rishpon-Yakum line 9
+  coords:
+    x: 134004
+    y: 183182
+    crs: EPSG:28193
+    source: map
+    accuracy_m: 150
+- id: rishpon-yakum-9-10
+  name: Rishpon-Yakum line 9, reading 10
+  line: Rishpon-Yakum line 9
+  coords:
+    x: 134049
+    y: 183160
+    crs: EPSG:28193
+    source: map
+    accuracy_m: 150
+- id: rishpon-yakum-9-11
+  name: Rishpon-Yakum line 9, reading 11
+  line: Rishpon-Yakum line 9
+  coords:
+    x: 134094
+    y: 183139
+    crs: EPSG:28193
+    source: map
+    accuracy_m: 150
+- id: rishpon-yakum-9-12
+  name: Rishpon-Yakum line 9, reading 12
+  line: Rishpon-Yakum line 9
+  coords:
+    x: 134139
+    y: 183117
+    crs: EPSG:28193
+    source: map
+    accuracy_m: 150
+- id: rishpon-yakum-9-13
+  name: Rishpon-Yakum line 9, reading 13
+  line: Rishpon-Yakum line 9
+  coords:
+    x: 134184
+    y: 183095
+    crs: EPSG:28193
+    source: map
+    accuracy_m: 150
+- id: rishpon-yakum-9-14
+  name: Rishpon-Yakum line 9, reading 14
+  line: Rishpon-Yakum line 9
+  coords:
+    x: 134229
+    y: 183073
+    crs: EPSG:28193
+    source: map
+    accuracy_m: 150
+- id: rishpon-yakum-9-15
+  name: Rishpon-Yakum line 9, reading 15
+  line: Rishpon-Yakum line 9
+  coords:
+    x: 134274
+    y: 183051
+    crs: EPSG:28193
+    source: map
+    accuracy_m: 150
+- id: rishpon-yakum-10-2.5
+  name: Rishpon-Yakum line 10, reading 2.5
+  line: Rishpon-Yakum line 10
+  coords:
+    x: 133843
+    y: 183716
+    crs: EPSG:28193
+    source: map
+    accuracy_m: 150
+- id: rishpon-yakum-10-3.5
+  name: Rishpon-Yakum line 10, reading 3.5
+  line: Rishpon-Yakum line 10
+  coords:
+    x: 133892
+    y: 183706
+    crs: EPSG:28193
+    source: map
+    accuracy_m: 150
+- id: rishpon-yakum-10-4.5
+  name: Rishpon-Yakum line 10, reading 4.5
+  line: Rishpon-Yakum line 10
+  coords:
+    x: 133941
+    y: 183697
+    crs: EPSG:28193
+    source: map
+    accuracy_m: 150
+- id: rishpon-yakum-10-5.5
+  name: Rishpon-Yakum line 10, reading 5.5
+  line: Rishpon-Yakum line 10
+  coords:
+    x: 133990
+    y: 183687
+    crs: EPSG:28193
+    source: map
+    accuracy_m: 150
+- id: rishpon-yakum-10-6.5
+  name: Rishpon-Yakum line 10, reading 6.5
+  line: Rishpon-Yakum line 10
+  coords:
+    x: 134039
+    y: 183678
+    crs: EPSG:28193
+    source: map
+    accuracy_m: 150
+- id: rishpon-yakum-10-7.5
+  name: Rishpon-Yakum line 10, reading 7.5
+  line: Rishpon-Yakum line 10
+  coords:
+    x: 134088
+    y: 183668
+    crs: EPSG:28193
+    source: map
+    accuracy_m: 150
+- id: rishpon-yakum-10-8.5
+  name: Rishpon-Yakum line 10, reading 8.5
+  line: Rishpon-Yakum line 10
+  coords:
+    x: 134137
+    y: 183659
+    crs: EPSG:28193
+    source: map
+    accuracy_m: 150
+- id: rishpon-yakum-10-9.5
+  name: Rishpon-Yakum line 10, reading 9.5
+  line: Rishpon-Yakum line 10
+  coords:
+    x: 134186
+    y: 183649
+    crs: EPSG:28193
+    source: map
+    accuracy_m: 150
+- id: rishpon-yakum-10-10.5
+  name: Rishpon-Yakum line 10, reading 10.5
+  line: Rishpon-Yakum line 10
+  coords:
+    x: 134235
+    y: 183639
+    crs: EPSG:28193
+    source: map
+    accuracy_m: 150
+- id: rishpon-yakum-10-11.5
+  name: Rishpon-Yakum line 10, reading 11.5
+  line: Rishpon-Yakum line 10
+  coords:
+    x: 134284
+    y: 183630
+    crs: EPSG:28193
+    source: map
+    accuracy_m: 150
+- id: rishpon-yakum-10-12.5
+  name: Rishpon-Yakum line 10, reading 12.5
+  line: Rishpon-Yakum line 10
+  coords:
+    x: 134333
+    y: 183620
+    crs: EPSG:28193
+    source: map
+    accuracy_m: 150
+- id: rishpon-yakum-10-13.5
+  name: Rishpon-Yakum line 10, reading 13.5
+  line: Rishpon-Yakum line 10
+  coords:
+    x: 134383
+    y: 183611
+    crs: EPSG:28193
+    source: map
+    accuracy_m: 150
+- id: rishpon-yakum-10-14.5
+  name: Rishpon-Yakum line 10, reading 14.5
+  line: Rishpon-Yakum line 10
+  coords:
+    x: 134432
+    y: 183601
+    crs: EPSG:28193
+    source: map
+    accuracy_m: 150
+- id: rishpon-yakum-10-15.5
+  name: Rishpon-Yakum line 10, reading 15.5
+  line: Rishpon-Yakum line 10
+  coords:
+    x: 134481
+    y: 183592
+    crs: EPSG:28193
+    source: map
+    accuracy_m: 150
+- id: rishpon-yakum-10-16.5
+  name: Rishpon-Yakum line 10, reading 16.5
+  line: Rishpon-Yakum line 10
+  coords:
+    x: 134530
+    y: 183582
+    crs: EPSG:28193
+    source: map
+    accuracy_m: 150
+- id: rishpon-yakum-10-17.5
+  name: Rishpon-Yakum line 10, reading 17.5
+  line: Rishpon-Yakum line 10
+  coords:
+    x: 134579
+    y: 183572
+    crs: EPSG:28193
+    source: map
+    accuracy_m: 150
+- id: rishpon-yakum-10-18.5
+  name: Rishpon-Yakum line 10, reading 18.5
+  line: Rishpon-Yakum line 10
+  coords:
+    x: 134628
+    y: 183563
+    crs: EPSG:28193
+    source: map
+    accuracy_m: 150
+- id: rishpon-yakum-10-19.5
+  name: Rishpon-Yakum line 10, reading 19.5
+  line: Rishpon-Yakum line 10
+  coords:
+    x: 134677
+    y: 183553
+    crs: EPSG:28193
+    source: map
+    accuracy_m: 150
+- id: rishpon-yakum-10-4
+  name: Rishpon-Yakum line 10, reading 4
+  line: Rishpon-Yakum line 10
+  coords:
+    x: 133916
+    y: 183702
+    crs: EPSG:28193
+    source: map
+    accuracy_m: 150
+- id: rishpon-yakum-10-5
+  name: Rishpon-Yakum line 10, reading 5
+  line: Rishpon-Yakum line 10
+  coords:
+    x: 133965
+    y: 183692
+    crs: EPSG:28193
+    source: map
+    accuracy_m: 150
+- id: rishpon-yakum-10-6
+  name: Rishpon-Yakum line 10, reading 6
+  line: Rishpon-Yakum line 10
+  coords:
+    x: 134014
+    y: 183683
+    crs: EPSG:28193
+    source: map
+    accuracy_m: 150
+- id: rishpon-yakum-10-7
+  name: Rishpon-Yakum line 10, reading 7
+  line: Rishpon-Yakum line 10
+  coords:
+    x: 134064
+    y: 183673
+    crs: EPSG:28193
+    source: map
+    accuracy_m: 150
+- id: rishpon-yakum-10-8
+  name: Rishpon-Yakum line 10, reading 8
+  line: Rishpon-Yakum line 10
+  coords:
+    x: 134113
+    y: 183663
+    crs: EPSG:28193
+    source: map
+    accuracy_m: 150
+- id: rishpon-yakum-10-9
+  name: Rishpon-Yakum line 10, reading 9
+  line: Rishpon-Yakum line 10
+  coords:
+    x: 134162
+    y: 183654
+    crs: EPSG:28193
+    source: map
+    accuracy_m: 150
+- id: rishpon-yakum-10-10
+  name: Rishpon-Yakum line 10, reading 10
+  line: Rishpon-Yakum line 10
+  coords:
+    x: 134211
+    y: 183644
+    crs: EPSG:28193
+    source: map
+    accuracy_m: 150
+- id: rishpon-yakum-10-11
+  name: Rishpon-Yakum line 10, reading 11
+  line: Rishpon-Yakum line 10
+  coords:
+    x: 134260
+    y: 183635
+    crs: EPSG:28193
+    source: map
+    accuracy_m: 150
+- id: rishpon-yakum-10-12
+  name: Rishpon-Yakum line 10, reading 12
+  line: Rishpon-Yakum line 10
+  coords:
+    x: 134309
+    y: 183625
+    crs: EPSG:28193
+    source: map
+    accuracy_m: 150
+- id: rishpon-yakum-10-13
+  name: Rishpon-Yakum line 10, reading 13
+  line: Rishpon-Yakum line 10
+  coords:
+    x: 134358
+    y: 183616
+    crs: EPSG:28193
+    source: map
+    accuracy_m: 150
+- id: rishpon-yakum-10-14
+  name: Rishpon-Yakum line 10, reading 14
+  line: Rishpon-Yakum line 10
+  coords:
+    x: 134407
+    y: 183606
+    crs: EPSG:28193
+    source: map
+    accuracy_m: 150
+- id: rishpon-yakum-10-15
+  name: Rishpon-Yakum line 10, reading 15
+  line: Rishpon-Yakum line 10
+  coords:
+    x: 134456
+    y: 183596
+    crs: EPSG:28193
+    source: map
+    accuracy_m: 150
+- id: rishpon-yakum-10-16
+  name: Rishpon-Yakum line 10, reading 16
+  line: Rishpon-Yakum line 10
+  coords:
+    x: 134505
+    y: 183587
+    crs: EPSG:28193
+    source: map
+    accuracy_m: 150
+- id: rishpon-yakum-10-17
+  name: Rishpon-Yakum line 10, reading 17
+  line: Rishpon-Yakum line 10
+  coords:
+    x: 134554
+    y: 183577
+    crs: EPSG:28193
+    source: map
+    accuracy_m: 150
+- id: rishpon-yakum-10-18
+  name: Rishpon-Yakum line 10, reading 18
+  line: Rishpon-Yakum line 10
+  coords:
+    x: 134603
+    y: 183568
+    crs: EPSG:28193
+    source: map
+    accuracy_m: 150
+- id: rishpon-yakum-11-2.5
+  name: Rishpon-Yakum line 11, reading 2.5
+  line: Rishpon-Yakum line 11
+  coords:
+    x: 133913
+    y: 184107
+    crs: EPSG:28193
+    source: map
+    accuracy_m: 150
+- id: rishpon-yakum-11-3.5
+  name: Rishpon-Yakum line 11, reading 3.5
+  line: Rishpon-Yakum line 11
+  coords:
+    x: 133962
+    y: 184097
+    crs: EPSG:28193
+    source: map
+    accuracy_m: 150
+- id: rishpon-yakum-11-4.5
+  name: Rishpon-Yakum line 11, reading 4.5
+  line: Rishpon-Yakum line 11
+  coords:
+    x: 134011
+    y: 184088
+    crs: EPSG:28193
+    source: map
+    accuracy_m: 150
+- id: rishpon-yakum-11-5.5
+  name: Rishpon-Yakum line 11, reading 5.5
+  line: Rishpon-Yakum line 11
+  coords:
+    x: 134060
+    y: 184079
+    crs: EPSG:28193
+    source: map
+    accuracy_m: 150
+- id: rishpon-yakum-11-6.5
+  name: Rishpon-Yakum line 11, reading 6.5
+  line: Rishpon-Yakum line 11
+  coords:
+    x: 134109
+    y: 184069
+    crs: EPSG:28193
+    source: map
+    accuracy_m: 150
+- id: rishpon-yakum-11-7.5
+  name: Rishpon-Yakum line 11, reading 7.5
+  line: Rishpon-Yakum line 11
+  coords:
+    x: 134158
+    y: 184060
+    crs: EPSG:28193
+    source: map
+    accuracy_m: 150
+- id: rishpon-yakum-11-8.5
+  name: Rishpon-Yakum line 11, reading 8.5
+  line: Rishpon-Yakum line 11
+  coords:
+    x: 134208
+    y: 184051
+    crs: EPSG:28193
+    source: map
+    accuracy_m: 150
+- id: rishpon-yakum-11-9.5
+  name: Rishpon-Yakum line 11, reading 9.5
+  line: Rishpon-Yakum line 11
+  coords:
+    x: 134257
+    y: 184041
+    crs: EPSG:28193
+    source: map
+    accuracy_m: 150
+- id: rishpon-yakum-11-10.5
+  name: Rishpon-Yakum line 11, reading 10.5
+  line: Rishpon-Yakum line 11
+  coords:
+    x: 134306
+    y: 184032
+    crs: EPSG:28193
+    source: map
+    accuracy_m: 150
+- id: rishpon-yakum-11-11.5
+  name: Rishpon-Yakum line 11, reading 11.5
+  line: Rishpon-Yakum line 11
+  coords:
+    x: 134355
+    y: 184023
+    crs: EPSG:28193
+    source: map
+    accuracy_m: 150
+- id: rishpon-yakum-11-12.5
+  name: Rishpon-Yakum line 11, reading 12.5
+  line: Rishpon-Yakum line 11
+  coords:
+    x: 134404
+    y: 184013
+    crs: EPSG:28193
+    source: map
+    accuracy_m: 150
+- id: rishpon-yakum-11-13.5
+  name: Rishpon-Yakum line 11, reading 13.5
+  line: Rishpon-Yakum line 11
+  coords:
+    x: 134453
+    y: 184004
+    crs: EPSG:28193
+    source: map
+    accuracy_m: 150
+- id: rishpon-yakum-11-14.5
+  name: Rishpon-Yakum line 11, reading 14.5
+  line: Rishpon-Yakum line 11
+  coords:
+    x: 134502
+    y: 183995
+    crs: EPSG:28193
+    source: map
+    accuracy_m: 150
+- id: rishpon-yakum-11-4
+  name: Rishpon-Yakum line 11, reading 4
+  line: Rishpon-Yakum line 11
+  coords:
+    x: 133986
+    y: 184093
+    crs: EPSG:28193
+    source: map
+    accuracy_m: 150
+- id: rishpon-yakum-11-5
+  name: Rishpon-Yakum line 11, reading 5
+  line: Rishpon-Yakum line 11
+  coords:
+    x: 134036
+    y: 184083
+    crs: EPSG:28193
+    source: map
+    accuracy_m: 150
+- id: rishpon-yakum-11-6
+  name: Rishpon-Yakum line 11, reading 6
+  line: Rishpon-Yakum line 11
+  coords:
+    x: 134085
+    y: 184074
+    crs: EPSG:28193
+    source: map
+    accuracy_m: 150
+- id: rishpon-yakum-11-7
+  name: Rishpon-Yakum line 11, reading 7
+  line: Rishpon-Yakum line 11
+  coords:
+    x: 134134
+    y: 184065
+    crs: EPSG:28193
+    source: map
+    accuracy_m: 150
+- id: rishpon-yakum-11-8
+  name: Rishpon-Yakum line 11, reading 8
+  line: Rishpon-Yakum line 11
+  coords:
+    x: 134183
+    y: 184055
+    crs: EPSG:28193
+    source: map
+    accuracy_m: 150
+- id: rishpon-yakum-11-9
+  name: Rishpon-Yakum line 11, reading 9
+  line: Rishpon-Yakum line 11
+  coords:
+    x: 134232
+    y: 184046
+    crs: EPSG:28193
+    source: map
+    accuracy_m: 150
+- id: rishpon-yakum-11-10
+  name: Rishpon-Yakum line 11, reading 10
+  line: Rishpon-Yakum line 11
+  coords:
+    x: 134281
+    y: 184037
+    crs: EPSG:28193
+    source: map
+    accuracy_m: 150
+- id: rishpon-yakum-11-11
+  name: Rishpon-Yakum line 11, reading 11
+  line: Rishpon-Yakum line 11
+  coords:
+    x: 134330
+    y: 184027
+    crs: EPSG:28193
+    source: map
+    accuracy_m: 150
+- id: rishpon-yakum-11-12
+  name: Rishpon-Yakum line 11, reading 12
+  line: Rishpon-Yakum line 11
+  coords:
+    x: 134379
+    y: 184018
+    crs: EPSG:28193
+    source: map
+    accuracy_m: 150
+- id: rishpon-yakum-11-13
+  name: Rishpon-Yakum line 11, reading 13
+  line: Rishpon-Yakum line 11
+  coords:
+    x: 134429
+    y: 184009
+    crs: EPSG:28193
+    source: map
+    accuracy_m: 150
+- id: rishpon-yakum-12-2.5
+  name: Rishpon-Yakum line 12, reading 2.5
+  line: Rishpon-Yakum line 12
+  coords:
+    x: 134069
+    y: 184772
+    crs: EPSG:28193
+    source: map
+    accuracy_m: 150
+- id: rishpon-yakum-12-3.5
+  name: Rishpon-Yakum line 12, reading 3.5
+  line: Rishpon-Yakum line 12
+  coords:
+    x: 134117
+    y: 184757
+    crs: EPSG:28193
+    source: map
+    accuracy_m: 150
+- id: rishpon-yakum-12-4.5
+  name: Rishpon-Yakum line 12, reading 4.5
+  line: Rishpon-Yakum line 12
+  coords:
+    x: 134165
+    y: 184742
+    crs: EPSG:28193
+    source: map
+    accuracy_m: 150
+- id: rishpon-yakum-12-5.5
+  name: Rishpon-Yakum line 12, reading 5.5
+  line: Rishpon-Yakum line 12
+  coords:
+    x: 134212
+    y: 184727
+    crs: EPSG:28193
+    source: map
+    accuracy_m: 150
+- id: rishpon-yakum-12-7.5
+  name: Rishpon-Yakum line 12, reading 7.5
+  line: Rishpon-Yakum line 12
+  coords:
+    x: 134308
+    y: 184697
+    crs: EPSG:28193
+    source: map
+    accuracy_m: 150
+- id: rishpon-yakum-12-8.5
+  name: Rishpon-Yakum line 12, reading 8.5
+  line: Rishpon-Yakum line 12
+  coords:
+    x: 134355
+    y: 184682
+    crs: EPSG:28193
+    source: map
+    accuracy_m: 150
+- id: rishpon-yakum-12-9.5
+  name: Rishpon-Yakum line 12, reading 9.5
+  line: Rishpon-Yakum line 12
+  coords:
+    x: 134403
+    y: 184667
+    crs: EPSG:28193
+    source: map
+    accuracy_m: 150
+- id: rishpon-yakum-12-10.5
+  name: Rishpon-Yakum line 12, reading 10.5
+  line: Rishpon-Yakum line 12
+  coords:
+    x: 134451
+    y: 184652
+    crs: EPSG:28193
+    source: map
+    accuracy_m: 150
+- id: rishpon-yakum-12-11.5
+  name: Rishpon-Yakum line 12, reading 11.5
+  line: Rishpon-Yakum line 12
+  coords:
+    x: 134498
+    y: 184637
+    crs: EPSG:28193
+    source: map
+    accuracy_m: 150
+- id: rishpon-yakum-12-12.5
+  name: Rishpon-Yakum line 12, reading 12.5
+  line: Rishpon-Yakum line 12
+  coords:
+    x: 134546
+    y: 184622
+    crs: EPSG:28193
+    source: map
+    accuracy_m: 150
+- id: rishpon-yakum-12-13.5
+  name: Rishpon-Yakum line 12, reading 13.5
+  line: Rishpon-Yakum line 12
+  coords:
+    x: 134594
+    y: 184607
+    crs: EPSG:28193
+    source: map
+    accuracy_m: 150
+- id: rishpon-yakum-12-4
+  name: Rishpon-Yakum line 12, reading 4
+  line: Rishpon-Yakum line 12
+  coords:
+    x: 134141
+    y: 184750
+    crs: EPSG:28193
+    source: map
+    accuracy_m: 150
+- id: rishpon-yakum-12-5
+  name: Rishpon-Yakum line 12, reading 5
+  line: Rishpon-Yakum line 12
+  coords:
+    x: 134188
+    y: 184735
+    crs: EPSG:28193
+    source: map
+    accuracy_m: 150
+- id: rishpon-yakum-12-6
+  name: Rishpon-Yakum line 12, reading 6
+  line: Rishpon-Yakum line 12
+  coords:
+    x: 134236
+    y: 184720
+    crs: EPSG:28193
+    source: map
+    accuracy_m: 150
+- id: rishpon-yakum-12-7
+  name: Rishpon-Yakum line 12, reading 7
+  line: Rishpon-Yakum line 12
+  coords:
+    x: 134284
+    y: 184705
+    crs: EPSG:28193
+    source: map
+    accuracy_m: 150
+- id: rishpon-yakum-12-8
+  name: Rishpon-Yakum line 12, reading 8
+  line: Rishpon-Yakum line 12
+  coords:
+    x: 134332
+    y: 184690
+    crs: EPSG:28193
+    source: map
+    accuracy_m: 150
+- id: rishpon-yakum-12-9
+  name: Rishpon-Yakum line 12, reading 9
+  line: Rishpon-Yakum line 12
+  coords:
+    x: 134379
+    y: 184675
+    crs: EPSG:28193
+    source: map
+    accuracy_m: 150
+- id: rishpon-yakum-12-10
+  name: Rishpon-Yakum line 12, reading 10
+  line: Rishpon-Yakum line 12
+  coords:
+    x: 134427
+    y: 184660
+    crs: EPSG:28193
+    source: map
+    accuracy_m: 150
+- id: rishpon-yakum-12-11
+  name: Rishpon-Yakum line 12, reading 11
+  line: Rishpon-Yakum line 12
+  coords:
+    x: 134475
+    y: 184645
+    crs: EPSG:28193
+    source: map
+    accuracy_m: 150
+- id: rishpon-yakum-12-12
+  name: Rishpon-Yakum line 12, reading 12
+  line: Rishpon-Yakum line 12
+  coords:
+    x: 134522
+    y: 184630
+    crs: EPSG:28193
+    source: map
+    accuracy_m: 150
+- id: rishpon-yakum-12-6.5
+  name: Rishpon-Yakum line 12, reading 6.5
+  line: Rishpon-Yakum line 12
+  coords:
+    x: 134260
+    y: 184712
+    crs: EPSG:28193
+    source: map
+    accuracy_m: 150
+notes: Plot pages 13-17 (Ashkelon, 3 dates), 20-26 (Givat Olga, 2 dates) and 33-44 (Rishpon-Yakum, 1 date) digitised.
+  Page 46 (Caesarea, a = 25/50/75 m) is not located on any map in the report and is not extracted. Pages 29-32 hold
+  maps not yet extracted.

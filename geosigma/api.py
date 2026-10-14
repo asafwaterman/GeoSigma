@@ -57,7 +57,11 @@ def sites(
         survey_years = {r["id"]: r["year"] for r in con.execute("SELECT id, year FROM survey")}
     by_site: dict[tuple, list] = {}
     for r in ds_rows:
-        by_site.setdefault((r["survey"], r["site"]), []).append(r)
+        if r["representation"] == "profile":  # a profile belongs to every station it crosses
+            for sid in {pt.get("site") for pt in json.loads(r["json"]).get("profile", [])} - {None}:
+                by_site.setdefault((r["survey"], sid), []).append(r)
+        else:
+            by_site.setdefault((r["survey"], r["site"]), []).append(r)
     feats = []
     for s in site_rows:
         dss = by_site.get((s["survey"], s["id"]), [])

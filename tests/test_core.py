@@ -63,3 +63,18 @@ def test_catalogue_is_clean():
     cat = load_catalogue()
     assert cat.problems == []
     assert len(cat.surveys) >= 1
+
+
+def test_profile_dataset_rules():
+    import pytest
+    from geosigma.schema import Dataset
+
+    base = dict(id="p", survey="s", line="L1", method="PROFILING", representation="profile",
+                provenance={"document": "main", "method": "digitised_auto"})
+    ds = Dataset.model_validate({**base, "level": "L1", "array": "Wenner", "spacing_m": 50,
+                                 "profile": [{"station": 1.5, "rho_a": 34.0}]})
+    assert ds.profile[0].rho_a == 34.0
+    with pytest.raises(ValueError):
+        Dataset.model_validate({**base, "level": "L1", "profile": []})
+    with pytest.raises(ValueError):
+        Dataset.model_validate({**base, "level": "L2", "profile": [{"station": 1, "rho_a": 5}]})

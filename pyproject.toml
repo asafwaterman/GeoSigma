@@ -8,7 +8,7 @@ dependencies = [
 ]
 
 [project.optional-dependencies]
-extract = ["opencv-python-headless", "pytesseract"]
+extract = ["opencv-python-headless", "pytesseract", "scipy"]
 dev = ["pytest", "httpx"]
 
 [tool.setuptools]

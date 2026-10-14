@@ -123,12 +123,13 @@ async function selectSite(p) {
   $("siteMeta").textContent = `${survey ? survey.name : p.survey} · ${p.orig}`;
   const ids = typeof p.datasets === "string" ? JSON.parse(p.datasets) : p.datasets;
   const dss = await Promise.all(ids.map((id) => api(`/api/datasets/${encodeURIComponent(id)}`)));
+  state.siteDatasets = dss;
   $("dsList").innerHTML = dss.map((d, i) => `<div class="ds" data-i="${i}">${d.method} ${d.level} ${d.representation}
-    ${d.model_type ? "(" + d.model_type + ")" : ""} · confidence ${d.confidence}
+    ${d.model_type ? "(" + d.model_type + ")" : ""}${d.spacing_m ? " a = " + d.spacing_m + " m" : ""}${d.measured_on && d.representation === "profile" ? " · " + d.measured_on : ""} · confidence ${d.confidence}
     ${d.status === "draft" ? '<span class="badge">unreviewed</span>' : ""}</div>`).join("") ||
     '<p class="muted">No datasets at this site yet.</p>';
   document.querySelectorAll(".ds").forEach((el) => el.addEventListener("click", () => showDataset(dss[+el.dataset.i], el)));
-  $("showSection").hidden = !p.line;
+  $("showSection").hidden = !p.line || !p.has_model;  // sections are drawn from depth models
   if (dss.length) showDataset(dss[0], document.querySelector(".ds"));
   else { Plotly.purge("profile"); $("prov").innerHTML = ""; }
 }
@@ -172,6 +173,21 @@ function showDataset(d, el) {
       margin: { l: 55, r: 10, t: 10, b: 45 }, paper_bgcolor: "rgba(0,0,0,0)", plot_bgcolor: "rgba(0,0,0,0)",
       font: { color: dark ? "#e4e8ee" : "#1d2430" },
       xaxis: { type: "log", title: d.x_quantity || "x" }, yaxis: { type: "log", title: "Apparent resistivity (Ω·m)" },
+    }, { displayModeBar: false, responsive: true });
+  } else if (d.representation === "profile") {
+    // every date of this line and spacing, with the selected station marked
+    const same = (state.siteDatasets || []).filter((o) => o.representation === "profile" && o.line === d.line && o.spacing_m === d.spacing_m);
+    const palette = ["#1f5fa8", "#c2410c", "#15803d"];
+    const traces = same.map((o, k) => ({ x: o.profile.map((q) => q.station), y: o.profile.map((q) => q.rho_a),
+      name: o.measured_on, mode: "lines+markers", line: { color: palette[k % 3], width: o === d ? 2.5 : 1.2 },
+      marker: { size: o === d ? 6 : 4 }, hovertemplate: "reading %{x}: %{y:.3g} Ω·m<extra>" + o.measured_on + "</extra>" }));
+    const here = d.profile.find((q) => q.site === (state.site && state.site.site));
+    Plotly.react("profile", traces, {
+      margin: { l: 55, r: 10, t: 10, b: 45 }, paper_bgcolor: "rgba(0,0,0,0)", plot_bgcolor: "rgba(0,0,0,0)",
+      font: { color: dark ? "#e4e8ee" : "#1d2430" }, showlegend: same.length > 1, legend: { orientation: "h", y: 1.12 },
+      shapes: here ? [{ type: "line", yref: "paper", y0: 0, y1: 1, x0: here.station, x1: here.station, line: { color: "#888", dash: "dot", width: 1 } }] : [],
+      xaxis: { title: `Reading along ${d.line} (a = ${d.spacing_m} m)`, gridcolor: dark ? "#2e343e" : "#e6e9ef" },
+      yaxis: { type: "log", title: "Apparent resistivity (Ω·m)", gridcolor: dark ? "#2e343e" : "#e6e9ef" },
     }, { displayModeBar: false, responsive: true });
   } else {
     Plotly.purge("profile");
