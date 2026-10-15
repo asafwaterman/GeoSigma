@@ -20,6 +20,11 @@ SOURCES_DIR = ROOT / "data" / "sources" / "pdf"  # local PDFs, not committed
 
 QUAD = {"TL": ([0, 0, 0.5, 0.5], "upper-left"), "TR": ([0.5, 0, 1, 0.5], "upper-right"),
         "BL": ([0, 0.5, 0.5, 1], "lower-left"), "BR": ([0.5, 0.5, 1, 1], "lower-right")}
+# Figure 9 of Klang (1970), page 33: x of each sounding's column, as a page fraction
+FIG9_X = {k: round(v / 1986, 4) for k, v in {
+    "9": 135, "6": 232, "5": 262, "4": 287, "2": 352, "1": 406, "7": 437, "8": 443, "21": 514, "10": 594,
+    "22": 697, "11": 765, "12": 931, "13": 1032, "14": 1166, "15": 1277, "16": 1421, "19": 1537, "17": 1745,
+    "20": 1862}.items()}
 PX_DPI = 200  # pixel positions in the extraction files are at 200 dpi
 
 
@@ -78,10 +83,10 @@ def views(ds: dict, filename: str | None) -> list[dict]:
     survey, doc = ds["survey"], prov.get("document")
     sizes = {p: page_size(filename, p) if filename else None for p in pages}
 
-    def view(page, caption, region=None, marks=None, zoom=False):
+    def view(page, caption, region=None, marks=None, zoom=False, boxes=None):
         s = sizes.get(page) or (page_size(filename, page) if filename else None)
         return {"document": doc, "page": page, "aspect": round(s[1] / s[0], 4) if s else None,
-                "region": region, "marks": marks or [], "zoom": zoom, "caption": caption}
+                "region": region, "marks": marks or [], "zoom": zoom, "caption": caption, "boxes": boxes or []}
 
     what = _what(prov)
     first = pages[0]
@@ -155,6 +160,22 @@ def views(ds: dict, filename: str | None) -> list[dict]:
                             [max(0, x0), max(0, y0), min(1, x1), min(1, y1)], marks)]
                 out += [view(p, f"Page {p}: location map of the line") for p in pages[1:]]
                 return out
+
+    # Klang 1970 Afiq-Lot: the author's model is the CALC. RES. band of the sheet and the
+    # sounding's column on Figure 9 (page 33).
+    if survey == "klang-1970-mt-general":
+        no = ds["site"].split("-", 1)[1]
+        out = [view(first, f"Page {first}, M.T.P. No. {no} field sheet. The author's interpreted model is the boxed "
+                           "CALC. RES. row: resistivity of each layer in ohm.cm inside the boxes, the depth of each "
+                           "boundary (m below ground) under the lines between them. The curve above is the measured "
+                           "apparent resistivity", boxes=[[0.025, 0.83, 0.96, 0.91]])]
+        if no in FIG9_X:
+            x = FIG9_X[no]
+            out.append(view(33, f"Page 33, Figure 9 (interpreted resistivity, traverse A-A'): the column under "
+                                f"sounding {no}, the same model drawn against sea level, in ohm.cm",
+                            [max(0, x - 0.07), 0.08, min(1, x + 0.07), 0.75],
+                            marks=[{"site": ds["site"], "x": x, "y": 0.123}]))
+        return out
 
     # Default: a whole field sheet or table page, then any figure it was checked against.
     figs = [f.strip() for f in (prov.get("figure") or "").split(";")]

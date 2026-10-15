@@ -257,7 +257,9 @@ function sourceCrop(d, v, i, whole) {
   const W = 100 / (rw * img.w), left = -(img.x + x0 * img.w) * W, top = -(img.y + y0 * img.h) / (rh * img.h) * 100;
   const site = state.site && state.site.site;
   const rings = v.marks.filter((m) => m.site === site && m.x >= x0 && m.x <= x1 && m.y >= y0 && m.y <= y1)
-    .map((m) => `<span class="ring" style="left:${((m.x - x0) / rw) * 100}%;top:${((m.y - y0) / rh) * 100}%"></span>`).join("");
+    .map((m) => `<span class="ring" style="left:${((m.x - x0) / rw) * 100}%;top:${((m.y - y0) / rh) * 100}%"></span>`).join("")
+    + (v.boxes || []).map(([a, b, c, e]) => `<span class="hl" style="left:${((a - x0) / rw) * 100}%;top:${((b - y0) / rh) * 100}%;`
+      + `width:${((c - a) / rw) * 100}%;height:${((e - b) / rh) * 100}%"></span>`).join("");
   return `<div class="crop${whole ? " whole" : ""}" data-i="${i}" title="Click to switch between this part and the whole page"
     style="aspect-ratio:${rw / (rh * aspect)}"><img loading="lazy" alt="Source page ${v.page}" src="${img.src}"
     style="width:${W}%;left:${left}%;top:${top}%" onerror="this.parentNode.replaceWith(Object.assign(document.createElement('p'),{className:'muted',textContent:'Source PDF not available locally.'}))">${rings}</div>`;
