@@ -155,6 +155,7 @@ function profileTraces(d) {
 function showDataset(d, el) {
   state.dataset = d;
   document.querySelectorAll(".ds").forEach((e) => e.classList.toggle("active", e === el));
+  try {
   const shapes = [{ type: "line", xref: "paper", x0: 0, x1: 1, y0: state.depth, y1: state.depth,
     line: { color: "#888", dash: "dot", width: 1 } }];
   if (d.doi_m) shapes.push({ type: "line", xref: "paper", x0: 0, x1: 1, y0: d.doi_m, y1: d.doi_m,
@@ -212,6 +213,10 @@ function showDataset(d, el) {
       ? `<p>Interface at <b>${d.interface_depth_m} m</b> below ground: ${d.criterion || ""}</p>`
       : `<p>${d.summary || d.representation}</p>`;
   }
+  } catch (e) {  // e.g. the chart library did not load: still show the source below
+    console.error(e);
+    $("profile").innerHTML = `<p class="muted">The chart could not be drawn${window.Plotly ? "" : " (the Plotly chart library did not load; check the internet connection or a content blocker)"}.</p>`;
+  }
   renderReview(d);
   const p = d.provenance;
   const doc = d.document_info;
@@ -261,6 +266,11 @@ function sourceView(d, v, i) {
 
 async function showSection() {
   const p = state.site;
+  if (!window.Plotly) {
+    $("sectionPane").hidden = false;
+    $("section").innerHTML = '<p class="muted">The Plotly chart library did not load; check the internet connection or a content blocker.</p>';
+    return;
+  }
   if (!p || !p.line) return;
   const s = await api(`/api/sections/${p.survey}/${encodeURIComponent(p.line)}`);
   $("sectionPane").hidden = false;
