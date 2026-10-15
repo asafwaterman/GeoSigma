@@ -150,7 +150,7 @@ def datasets(curves: dict | None = None) -> list[dict]:
                                "method": "digitised_auto", "tool": "geosigma.extract.klang_timna",
                                "extracted_on": today,
                                "notes": "Smoothed field curve as drawn; period T = (sqrt T)^2. "
-                                        f"Bottom decade taken as {bottom} ohm.cm."},
+                                        f"Bottom decade taken as {bottom} ohm.cm. Values divided by 100 to ohm.m."},
             })
     return out
 

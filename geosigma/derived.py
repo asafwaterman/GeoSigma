@@ -7,9 +7,18 @@ from typing import Optional
 from .schema import Dataset, Representation
 
 
+def on_ground_depths(ds: Dataset) -> bool:
+    """True for a 1D model whose depths are below ground, the axis of the depth slider."""
+    return ds.representation == Representation.model_1d and ds.depth_ref == "below_ground"
+
+
 def value_at_depth(ds: Dataset, depth_m: float) -> Optional[float]:
-    """Resistivity of a 1D model at ``depth_m`` (below ground), or None if outside it."""
-    if ds.representation != Representation.model_1d:
+    """Resistivity of a 1D model at ``depth_m`` (below ground), or None if outside it.
+
+    Models referenced to sea level are never evaluated here: without the ground elevation
+    a depth below sea level cannot be put on the below-ground axis.
+    """
+    if not on_ground_depths(ds):
         return None
     if ds.layers:
         for layer in ds.layers:
@@ -43,6 +52,8 @@ def model_reach(ds: Dataset) -> Optional[float]:
 
 def reliability_at_depth(ds: Dataset, depth_m: float) -> str:
     """'reliable', 'below_doi', 'beyond_model' or 'unknown_doi'."""
+    if not on_ground_depths(ds):
+        return "beyond_model"
     deepest = model_reach(ds)
     if deepest is not None and depth_m > deepest:
         return "beyond_model"

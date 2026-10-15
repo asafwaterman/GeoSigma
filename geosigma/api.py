@@ -12,7 +12,7 @@ from fastapi import FastAPI, HTTPException, Query
 from fastapi.responses import FileResponse, Response
 from fastapi.staticfiles import StaticFiles
 
-from .derived import model_reach, reliability_at_depth, value_at_depth
+from .derived import model_reach, on_ground_depths, reliability_at_depth, value_at_depth
 from .schema import Dataset
 from .store import DB_PATH, ROOT
 
@@ -95,6 +95,8 @@ def sites(
                 if r["representation"] != "model_1d":
                     continue
                 ds = Dataset.model_validate_json(r["json"])
+                if not on_ground_depths(ds):
+                    continue
                 v = value_at_depth(ds, depth)
                 rel = reliability_at_depth(ds, depth)
                 rank = {"reliable": 0, "unknown_doi": 1, "below_doi": 2, "beyond_model": 3}[rel]

@@ -37,8 +37,8 @@
    "figure": "VES sheet D.P. 250/1, job 625",
    "method": "digitised_manual",
    "tool": "edges from extraction/ves_edges_auto.json + reading by eye",
-   "extracted_on": "2026-10-14",
-   "notes": "Interface depths taken as the AB/2 of the box edges under the curve."
+   "extracted_on": "2026-10-15",
+   "notes": "Interface depths taken as the AB/2 of the box edges under the curve. Resistivities printed in ohm.cm; divided by 100."
   },
   "notes": "The last layer is open-ended; the model does not state a DOI."
  },
@@ -80,8 +80,8 @@
    "figure": "VES sheet D.P. 250/2, job 625",
    "method": "digitised_manual",
    "tool": "edges from extraction/ves_edges_auto.json + reading by eye",
-   "extracted_on": "2026-10-14",
-   "notes": "Interface depths taken as the AB/2 of the box edges under the curve."
+   "extracted_on": "2026-10-15",
+   "notes": "Interface depths taken as the AB/2 of the box edges under the curve. Resistivities printed in ohm.cm; divided by 100."
   },
   "notes": "The first layer is under about 1.5 m thick and its base is approximate. The last layer is open-ended; the model does not state a DOI."
  },
@@ -118,8 +118,8 @@
    "figure": "VES sheet D.P. 250/3, job 625",
    "method": "digitised_manual",
    "tool": "edges from extraction/ves_edges_auto.json + reading by eye",
-   "extracted_on": "2026-10-14",
-   "notes": "Interface depths taken as the AB/2 of the box edges under the curve."
+   "extracted_on": "2026-10-15",
+   "notes": "Interface depths taken as the AB/2 of the box edges under the curve. Resistivities printed in ohm.cm; divided by 100."
   },
   "notes": "The last layer is open-ended; the model does not state a DOI."
  },
@@ -161,8 +161,8 @@
    "figure": "VES sheet D.P. 250/5, job 625",
    "method": "digitised_manual",
    "tool": "edges from extraction/ves_edges_auto.json + reading by eye",
-   "extracted_on": "2026-10-14",
-   "notes": "Interface depths taken as the AB/2 of the box edges under the curve."
+   "extracted_on": "2026-10-15",
+   "notes": "Interface depths taken as the AB/2 of the box edges under the curve. Resistivities printed in ohm.cm; divided by 100."
   },
   "notes": "The last layer is open-ended; the model does not state a DOI."
  },
@@ -209,8 +209,8 @@
    "figure": "VES sheet D.P. 250/6, job 625",
    "method": "digitised_manual",
    "tool": "edges from extraction/ves_edges_auto.json + reading by eye",
-   "extracted_on": "2026-10-14",
-   "notes": "Interface depths taken as the AB/2 of the box edges under the curve."
+   "extracted_on": "2026-10-15",
+   "notes": "Interface depths taken as the AB/2 of the box edges under the curve. Resistivities printed in ohm.cm; divided by 100."
   },
   "notes": "The first layer is under about 1.5 m thick and its base is approximate. The last layer is open-ended; the model does not state a DOI."
  },
@@ -257,8 +257,8 @@
    "figure": "VES sheet D.P. 250/8, job 625",
    "method": "digitised_manual",
    "tool": "edges from extraction/ves_edges_auto.json + reading by eye",
-   "extracted_on": "2026-10-14",
-   "notes": "Interface depths taken as the AB/2 of the box edges under the curve."
+   "extracted_on": "2026-10-15",
+   "notes": "Interface depths taken as the AB/2 of the box edges under the curve. Resistivities printed in ohm.cm; divided by 100."
   },
   "notes": "The last layer is open-ended; the model does not state a DOI."
  },
@@ -295,8 +295,8 @@
    "figure": "VES sheet D.P. 250/10, job 625",
    "method": "digitised_manual",
    "tool": "edges from extraction/ves_edges_auto.json + reading by eye",
-   "extracted_on": "2026-10-14",
-   "notes": "Interface depths taken as the AB/2 of the box edges under the curve."
+   "extracted_on": "2026-10-15",
+   "notes": "Interface depths taken as the AB/2 of the box edges under the curve. Resistivities printed in ohm.cm; divided by 100."
   },
   "notes": "Coordinates printed to 100 m. The last layer is open-ended; the model does not state a DOI."
  },
@@ -338,8 +338,8 @@
    "figure": "VES sheet D.P. 250/12, job 625",
    "method": "digitised_manual",
    "tool": "edges from extraction/ves_edges_auto.json + reading by eye",
-   "extracted_on": "2026-10-14",
-   "notes": "Interface depths taken as the AB/2 of the box edges under the curve."
+   "extracted_on": "2026-10-15",
+   "notes": "Interface depths taken as the AB/2 of the box edges under the curve. Resistivities printed in ohm.cm; divided by 100."
   },
   "notes": "Coordinates printed to 100 m. The last layer is open-ended; the model does not state a DOI."
  },
@@ -381,8 +381,8 @@
    "figure": "VES sheet D.P. 250/13, job 625",
    "method": "digitised_manual",
    "tool": "edges from extraction/ves_edges_auto.json + reading by eye",
-   "extracted_on": "2026-10-14",
-   "notes": "Interface depths taken as the AB/2 of the box edges under the curve."
+   "extracted_on": "2026-10-15",
+   "notes": "Interface depths taken as the AB/2 of the box edges under the curve. Resistivities printed in ohm.cm; divided by 100."
   },
   "notes": "Coordinates printed to 100 m. The first layer is under about 1.5 m thick and its base is approximate. The last layer is open-ended; the model does not state a DOI."
  },
@@ -434,8 +434,8 @@
    "figure": "VES sheet D.P. 250/19, job 625",
    "method": "digitised_manual",
    "tool": "edges from extraction/ves_edges_auto.json + reading by eye",
-   "extracted_on": "2026-10-14",
-   "notes": "Interface depths taken as the AB/2 of the box edges under the curve."
+   "extracted_on": "2026-10-15",
+   "notes": "Interface depths taken as the AB/2 of the box edges under the curve. Resistivities printed in ohm.cm; divided by 100."
   },
   "notes": "The first layer is under about 1.5 m thick and its base is approximate. The last layer is open-ended; the model does not state a DOI."
  },
@@ -477,8 +477,8 @@
    "figure": "VES sheet D.P. 250/20, job 625",
    "method": "digitised_manual",
    "tool": "edges from extraction/ves_edges_auto.json + reading by eye",
-   "extracted_on": "2026-10-14",
-   "notes": "Interface depths taken as the AB/2 of the box edges under the curve."
+   "extracted_on": "2026-10-15",
+   "notes": "Interface depths taken as the AB/2 of the box edges under the curve. Resistivities printed in ohm.cm; divided by 100."
   },
   "notes": "Coordinates printed to 100 m. The last layer is open-ended; the model does not state a DOI."
  },
@@ -532,8 +532,8 @@
    "figure": "VES sheet D.P. 250/21, job 625",
    "method": "digitised_manual",
    "tool": "edges from extraction/ves_edges_auto.json + reading by eye",
-   "extracted_on": "2026-10-14",
-   "notes": "Interface depths taken as the AB/2 of the box edges under the curve."
+   "extracted_on": "2026-10-15",
+   "notes": "Interface depths taken as the AB/2 of the box edges under the curve. Resistivities printed in ohm.cm; divided by 100."
   },
   "notes": "The last layer is open-ended; the model does not state a DOI."
  },
@@ -575,8 +575,8 @@
    "figure": "VES sheet D.P. 250/22, job 625",
    "method": "digitised_manual",
    "tool": "edges from extraction/ves_edges_auto.json + reading by eye",
-   "extracted_on": "2026-10-14",
-   "notes": "Interface depths taken as the AB/2 of the box edges under the curve."
+   "extracted_on": "2026-10-15",
+   "notes": "Interface depths taken as the AB/2 of the box edges under the curve. Resistivities printed in ohm.cm; divided by 100."
   },
   "notes": "The last layer is open-ended; the model does not state a DOI."
  },
@@ -618,8 +618,8 @@
    "figure": "VES sheet D.P. 250/25, job 625",
    "method": "digitised_manual",
    "tool": "edges from extraction/ves_edges_auto.json + reading by eye",
-   "extracted_on": "2026-10-14",
-   "notes": "Interface depths taken as the AB/2 of the box edges under the curve."
+   "extracted_on": "2026-10-15",
+   "notes": "Interface depths taken as the AB/2 of the box edges under the curve. Resistivities printed in ohm.cm; divided by 100."
   },
   "notes": "The first layer is under about 1.5 m thick and its base is approximate. The last layer is open-ended; the model does not state a DOI."
  },
@@ -671,8 +671,8 @@
    "figure": "VES sheet D.P. 400/1, job 625",
    "method": "digitised_manual",
    "tool": "edges from extraction/ves_edges_auto.json + reading by eye",
-   "extracted_on": "2026-10-14",
-   "notes": "Interface depths taken as the AB/2 of the box edges under the curve."
+   "extracted_on": "2026-10-15",
+   "notes": "Interface depths taken as the AB/2 of the box edges under the curve. Resistivities printed in ohm.cm; divided by 100."
   },
   "notes": "The last layer is open-ended; the model does not state a DOI."
  },
@@ -719,8 +719,8 @@
    "figure": "VES sheet D.P. 400/2, job 625",
    "method": "digitised_manual",
    "tool": "edges from extraction/ves_edges_auto.json + reading by eye",
-   "extracted_on": "2026-10-14",
-   "notes": "Interface depths taken as the AB/2 of the box edges under the curve."
+   "extracted_on": "2026-10-15",
+   "notes": "Interface depths taken as the AB/2 of the box edges under the curve. Resistivities printed in ohm.cm; divided by 100."
   },
   "notes": "The first layer is under about 1.5 m thick and its base is approximate. The last layer is open-ended; the model does not state a DOI."
  },
@@ -762,8 +762,8 @@
    "figure": "VES sheet D.P. 400/3, job 625",
    "method": "digitised_manual",
    "tool": "edges from extraction/ves_edges_auto.json + reading by eye",
-   "extracted_on": "2026-10-14",
-   "notes": "Interface depths taken as the AB/2 of the box edges under the curve."
+   "extracted_on": "2026-10-15",
+   "notes": "Interface depths taken as the AB/2 of the box edges under the curve. Resistivities printed in ohm.cm; divided by 100."
   },
   "notes": "The first layer is under about 1.5 m thick and its base is approximate. The last layer is open-ended; the model does not state a DOI."
  },
@@ -810,8 +810,8 @@
    "figure": "VES sheet D.P. 400/5, job 625",
    "method": "digitised_manual",
    "tool": "edges from extraction/ves_edges_auto.json + reading by eye",
-   "extracted_on": "2026-10-14",
-   "notes": "Interface depths taken as the AB/2 of the box edges under the curve."
+   "extracted_on": "2026-10-15",
+   "notes": "Interface depths taken as the AB/2 of the box edges under the curve. Resistivities printed in ohm.cm; divided by 100."
   },
   "notes": "The last layer is open-ended; the model does not state a DOI."
  },
@@ -858,8 +858,8 @@
    "figure": "VES sheet D.P. 400/6, job 625",
    "method": "digitised_manual",
    "tool": "edges from extraction/ves_edges_auto.json + reading by eye",
-   "extracted_on": "2026-10-14",
-   "notes": "Interface depths taken as the AB/2 of the box edges under the curve."
+   "extracted_on": "2026-10-15",
+   "notes": "Interface depths taken as the AB/2 of the box edges under the curve. Resistivities printed in ohm.cm; divided by 100."
   },
   "notes": "The last layer is open-ended; the model does not state a DOI."
  },
@@ -901,8 +901,8 @@
    "figure": "VES sheet D.P. 400/7, job 625",
    "method": "digitised_manual",
    "tool": "edges from extraction/ves_edges_auto.json + reading by eye",
-   "extracted_on": "2026-10-14",
-   "notes": "Interface depths taken as the AB/2 of the box edges under the curve."
+   "extracted_on": "2026-10-15",
+   "notes": "Interface depths taken as the AB/2 of the box edges under the curve. Resistivities printed in ohm.cm; divided by 100."
   },
   "notes": "The last layer is open-ended; the model does not state a DOI."
  },
@@ -954,8 +954,8 @@
    "figure": "VES sheet D.P. 400/8, job 625",
    "method": "digitised_manual",
    "tool": "edges from extraction/ves_edges_auto.json + reading by eye",
-   "extracted_on": "2026-10-14",
-   "notes": "Interface depths taken as the AB/2 of the box edges under the curve."
+   "extracted_on": "2026-10-15",
+   "notes": "Interface depths taken as the AB/2 of the box edges under the curve. Resistivities printed in ohm.cm; divided by 100."
   },
   "notes": "The last layer is open-ended; the model does not state a DOI."
  },
@@ -1007,8 +1007,8 @@
    "figure": "VES sheet D.P. 400/9, job 625",
    "method": "digitised_manual",
    "tool": "edges from extraction/ves_edges_auto.json + reading by eye",
-   "extracted_on": "2026-10-14",
-   "notes": "Interface depths taken as the AB/2 of the box edges under the curve."
+   "extracted_on": "2026-10-15",
+   "notes": "Interface depths taken as the AB/2 of the box edges under the curve. Resistivities printed in ohm.cm; divided by 100."
   },
   "notes": "Coordinates printed to 100 m. The last layer is open-ended; the model does not state a DOI."
  },
@@ -1055,8 +1055,8 @@
    "figure": "VES sheet D.P. 400/10, job 625",
    "method": "digitised_manual",
    "tool": "edges from extraction/ves_edges_auto.json + reading by eye",
-   "extracted_on": "2026-10-14",
-   "notes": "Interface depths taken as the AB/2 of the box edges under the curve."
+   "extracted_on": "2026-10-15",
+   "notes": "Interface depths taken as the AB/2 of the box edges under the curve. Resistivities printed in ohm.cm; divided by 100."
   },
   "notes": "Coordinates printed to 100 m. The first layer is under about 1.5 m thick and its base is approximate. The last layer is open-ended; the model does not state a DOI."
  },
@@ -1103,8 +1103,8 @@
    "figure": "VES sheet D.P. 400/12, job 625",
    "method": "digitised_manual",
    "tool": "edges from extraction/ves_edges_auto.json + reading by eye",
-   "extracted_on": "2026-10-14",
-   "notes": "Interface depths taken as the AB/2 of the box edges under the curve."
+   "extracted_on": "2026-10-15",
+   "notes": "Interface depths taken as the AB/2 of the box edges under the curve. Resistivities printed in ohm.cm; divided by 100."
   },
   "notes": "Coordinates printed to 100 m. The last layer is open-ended; the model does not state a DOI."
  },
@@ -1146,8 +1146,8 @@
    "figure": "VES sheet D.P. 400/13, job 625",
    "method": "digitised_manual",
    "tool": "edges from extraction/ves_edges_auto.json + reading by eye",
-   "extracted_on": "2026-10-14",
-   "notes": "Interface depths taken as the AB/2 of the box edges under the curve."
+   "extracted_on": "2026-10-15",
+   "notes": "Interface depths taken as the AB/2 of the box edges under the curve. Resistivities printed in ohm.cm; divided by 100."
   },
   "notes": "Coordinates printed to 100 m. The last layer is open-ended; the model does not state a DOI."
  },
@@ -1194,8 +1194,8 @@
    "figure": "VES sheet D.P. 400/14, job 625",
    "method": "digitised_manual",
    "tool": "edges from extraction/ves_edges_auto.json + reading by eye",
-   "extracted_on": "2026-10-14",
-   "notes": "Interface depths taken as the AB/2 of the box edges under the curve."
+   "extracted_on": "2026-10-15",
+   "notes": "Interface depths taken as the AB/2 of the box edges under the curve. Resistivities printed in ohm.cm; divided by 100."
   },
   "notes": "Coordinates printed to 100 m. The last layer is open-ended; the model does not state a DOI."
  },
@@ -1237,8 +1237,8 @@
    "figure": "VES sheet D.P. 400/15, job 625",
    "method": "digitised_manual",
    "tool": "edges from extraction/ves_edges_auto.json + reading by eye",
-   "extracted_on": "2026-10-14",
-   "notes": "Interface depths taken as the AB/2 of the box edges under the curve."
+   "extracted_on": "2026-10-15",
+   "notes": "Interface depths taken as the AB/2 of the box edges under the curve. Resistivities printed in ohm.cm; divided by 100."
   },
   "notes": "Coordinates printed to 100 m. The last layer is open-ended; the model does not state a DOI."
  },
@@ -1280,8 +1280,8 @@
    "figure": "VES sheet D.P. 400/16, job 625",
    "method": "digitised_manual",
    "tool": "edges from extraction/ves_edges_auto.json + reading by eye",
-   "extracted_on": "2026-10-14",
-   "notes": "Interface depths taken as the AB/2 of the box edges under the curve."
+   "extracted_on": "2026-10-15",
+   "notes": "Interface depths taken as the AB/2 of the box edges under the curve. Resistivities printed in ohm.cm; divided by 100."
   },
   "notes": "Coordinates printed to 100 m. The last layer is open-ended; the model does not state a DOI."
  },
@@ -1323,8 +1323,8 @@
    "figure": "VES sheet D.P. 400/17, job 625",
    "method": "digitised_manual",
    "tool": "edges from extraction/ves_edges_auto.json + reading by eye",
-   "extracted_on": "2026-10-14",
-   "notes": "Interface depths taken as the AB/2 of the box edges under the curve."
+   "extracted_on": "2026-10-15",
+   "notes": "Interface depths taken as the AB/2 of the box edges under the curve. Resistivities printed in ohm.cm; divided by 100."
   },
   "notes": "Coordinates printed to 100 m. The first layer is under about 1.5 m thick and its base is approximate. The last layer is open-ended; the model does not state a DOI."
  },
@@ -1366,8 +1366,8 @@
    "figure": "VES sheet D.P. 400/18, job 625",
    "method": "digitised_manual",
    "tool": "edges from extraction/ves_edges_auto.json + reading by eye",
-   "extracted_on": "2026-10-14",
-   "notes": "Interface depths taken as the AB/2 of the box edges under the curve."
+   "extracted_on": "2026-10-15",
+   "notes": "Interface depths taken as the AB/2 of the box edges under the curve. Resistivities printed in ohm.cm; divided by 100."
   },
   "notes": "Coordinates printed to 100 m. The first layer is under about 1.5 m thick and its base is approximate. The last layer is open-ended; the model does not state a DOI."
  },
@@ -1414,8 +1414,8 @@
    "figure": "VES sheet D.P. 400/19, job 625",
    "method": "digitised_manual",
    "tool": "edges from extraction/ves_edges_auto.json + reading by eye",
-   "extracted_on": "2026-10-14",
-   "notes": "Interface depths taken as the AB/2 of the box edges under the curve."
+   "extracted_on": "2026-10-15",
+   "notes": "Interface depths taken as the AB/2 of the box edges under the curve. Resistivities printed in ohm.cm; divided by 100."
   },
   "notes": "Coordinates printed to 100 m. The first layer is under about 1.5 m thick and its base is approximate. The last layer is open-ended; the model does not state a DOI."
  },
@@ -1462,8 +1462,8 @@
    "figure": "VES sheet D.P. 400/20, job 625",
    "method": "digitised_manual",
    "tool": "edges from extraction/ves_edges_auto.json + reading by eye",
-   "extracted_on": "2026-10-14",
-   "notes": "Interface depths taken as the AB/2 of the box edges under the curve."
+   "extracted_on": "2026-10-15",
+   "notes": "Interface depths taken as the AB/2 of the box edges under the curve. Resistivities printed in ohm.cm; divided by 100."
   },
   "notes": "Coordinates printed to 100 m. The first layer is under about 1.5 m thick and its base is approximate. The last layer is open-ended; the model does not state a DOI."
  },
@@ -1510,8 +1510,8 @@
    "figure": "VES sheet D.P. 400/22, job 625",
    "method": "digitised_manual",
    "tool": "edges from extraction/ves_edges_auto.json + reading by eye",
-   "extracted_on": "2026-10-14",
-   "notes": "Interface depths taken as the AB/2 of the box edges under the curve."
+   "extracted_on": "2026-10-15",
+   "notes": "Interface depths taken as the AB/2 of the box edges under the curve. Resistivities printed in ohm.cm; divided by 100."
   },
   "notes": "The first layer is under about 1.5 m thick and its base is approximate. The last layer is open-ended; the model does not state a DOI."
  },
@@ -1558,8 +1558,8 @@
    "figure": "VES sheet D.P. 400/23, job 625",
    "method": "digitised_manual",
    "tool": "edges from extraction/ves_edges_auto.json + reading by eye",
-   "extracted_on": "2026-10-14",
-   "notes": "Interface depths taken as the AB/2 of the box edges under the curve."
+   "extracted_on": "2026-10-15",
+   "notes": "Interface depths taken as the AB/2 of the box edges under the curve. Resistivities printed in ohm.cm; divided by 100."
   },
   "notes": "The last layer is open-ended; the model does not state a DOI."
  },
@@ -1601,8 +1601,8 @@
    "figure": "VES sheet D.P. 400/24, job 625",
    "method": "digitised_manual",
    "tool": "edges from extraction/ves_edges_auto.json + reading by eye",
-   "extracted_on": "2026-10-14",
-   "notes": "Interface depths taken as the AB/2 of the box edges under the curve."
+   "extracted_on": "2026-10-15",
+   "notes": "Interface depths taken as the AB/2 of the box edges under the curve. Resistivities printed in ohm.cm; divided by 100."
   },
   "notes": "The last layer is open-ended; the model does not state a DOI."
  },
@@ -1649,8 +1649,8 @@
    "figure": "VES sheet D.P. 400/25, job 625",
    "method": "digitised_manual",
    "tool": "edges from extraction/ves_edges_auto.json + reading by eye",
-   "extracted_on": "2026-10-14",
-   "notes": "Interface depths taken as the AB/2 of the box edges under the curve."
+   "extracted_on": "2026-10-15",
+   "notes": "Interface depths taken as the AB/2 of the box edges under the curve. Resistivities printed in ohm.cm; divided by 100."
   },
   "notes": "The first layer is under about 1.5 m thick and its base is approximate. The last layer is open-ended; the model does not state a DOI."
  },
@@ -1692,8 +1692,8 @@
    "figure": "VES sheet D.P. 400/26, job 625",
    "method": "digitised_manual",
    "tool": "edges from extraction/ves_edges_auto.json + reading by eye",
-   "extracted_on": "2026-10-14",
-   "notes": "Interface depths taken as the AB/2 of the box edges under the curve."
+   "extracted_on": "2026-10-15",
+   "notes": "Interface depths taken as the AB/2 of the box edges under the curve. Resistivities printed in ohm.cm; divided by 100."
   },
   "notes": "The last layer is open-ended; the model does not state a DOI."
  },
@@ -1735,8 +1735,8 @@
    "figure": "VES sheet D.P. 400/27, job 625",
    "method": "digitised_manual",
    "tool": "edges from extraction/ves_edges_auto.json + reading by eye",
-   "extracted_on": "2026-10-14",
-   "notes": "Interface depths taken as the AB/2 of the box edges under the curve."
+   "extracted_on": "2026-10-15",
+   "notes": "Interface depths taken as the AB/2 of the box edges under the curve. Resistivities printed in ohm.cm; divided by 100."
   },
   "notes": "The last layer is open-ended; the model does not state a DOI."
  },
@@ -1778,8 +1778,8 @@
    "figure": "VES sheet D.P. 400/28, job 625",
    "method": "digitised_manual",
    "tool": "edges from extraction/ves_edges_auto.json + reading by eye",
-   "extracted_on": "2026-10-14",
-   "notes": "Interface depths taken as the AB/2 of the box edges under the curve."
+   "extracted_on": "2026-10-15",
+   "notes": "Interface depths taken as the AB/2 of the box edges under the curve. Resistivities printed in ohm.cm; divided by 100."
   },
   "notes": "The last layer is open-ended; the model does not state a DOI."
  },
@@ -1821,8 +1821,8 @@
    "figure": "VES sheet D.P. 400/29, job 625",
    "method": "digitised_manual",
    "tool": "edges from extraction/ves_edges_auto.json + reading by eye",
-   "extracted_on": "2026-10-14",
-   "notes": "Interface depths taken as the AB/2 of the box edges under the curve."
+   "extracted_on": "2026-10-15",
+   "notes": "Interface depths taken as the AB/2 of the box edges under the curve. Resistivities printed in ohm.cm; divided by 100."
   },
   "notes": "The last layer is open-ended; the model does not state a DOI."
  },
@@ -1869,8 +1869,8 @@
    "figure": "VES sheet D.P. 400/30, job 625",
    "method": "digitised_manual",
    "tool": "reading by eye (values and edges)",
-   "extracted_on": "2026-10-14",
-   "notes": "Interface depths taken as the AB/2 of the box edges under the curve."
+   "extracted_on": "2026-10-15",
+   "notes": "Interface depths taken as the AB/2 of the box edges under the curve. Resistivities printed in ohm.cm; divided by 100."
   },
   "notes": "The first layer is under about 1.5 m thick and its base is approximate. The last layer is open-ended; the model does not state a DOI."
  },
@@ -1907,8 +1907,8 @@
    "figure": "VES sheet D.P. 400/31, job 625",
    "method": "digitised_manual",
    "tool": "edges from extraction/ves_edges_auto.json + reading by eye",
-   "extracted_on": "2026-10-14",
-   "notes": "Interface depths taken as the AB/2 of the box edges under the curve."
+   "extracted_on": "2026-10-15",
+   "notes": "Interface depths taken as the AB/2 of the box edges under the curve. Resistivities printed in ohm.cm; divided by 100."
   },
   "notes": "The last layer is open-ended; the model does not state a DOI."
  },
@@ -1950,8 +1950,8 @@
    "figure": "VES sheet D.P. 400/32, job 625",
    "method": "digitised_manual",
    "tool": "edges from extraction/ves_edges_auto.json + reading by eye",
-   "extracted_on": "2026-10-14",
-   "notes": "Interface depths taken as the AB/2 of the box edges under the curve."
+   "extracted_on": "2026-10-15",
+   "notes": "Interface depths taken as the AB/2 of the box edges under the curve. Resistivities printed in ohm.cm; divided by 100."
   },
   "notes": "The last layer is open-ended; the model does not state a DOI."
  },
@@ -1998,8 +1998,8 @@
    "figure": "VES sheet D.P. 400/33, job 625",
    "method": "digitised_manual",
    "tool": "edges from extraction/ves_edges_auto.json + reading by eye",
-   "extracted_on": "2026-10-14",
-   "notes": "Interface depths taken as the AB/2 of the box edges under the curve."
+   "extracted_on": "2026-10-15",
+   "notes": "Interface depths taken as the AB/2 of the box edges under the curve. Resistivities printed in ohm.cm; divided by 100."
   },
   "notes": "The first layer is under about 1.5 m thick and its base is approximate. The last layer is open-ended; the model does not state a DOI."
  },
@@ -2041,8 +2041,8 @@
    "figure": "VES sheet D.P. 400/34, job 625",
    "method": "digitised_manual",
    "tool": "edges from extraction/ves_edges_auto.json + reading by eye",
-   "extracted_on": "2026-10-14",
-   "notes": "Interface depths taken as the AB/2 of the box edges under the curve."
+   "extracted_on": "2026-10-15",
+   "notes": "Interface depths taken as the AB/2 of the box edges under the curve. Resistivities printed in ohm.cm; divided by 100."
   },
   "notes": "The last layer is open-ended; the model does not state a DOI."
  },
@@ -2091,8 +2091,8 @@
    "figure": "VES sheet D.P. 400/35, job 625",
    "method": "digitised_manual",
    "tool": "edges from extraction/ves_edges_auto.json + reading by eye",
-   "extracted_on": "2026-10-14",
-   "notes": "Interface depths taken as the AB/2 of the box edges under the curve."
+   "extracted_on": "2026-10-15",
+   "notes": "Interface depths taken as the AB/2 of the box edges under the curve. Resistivities printed in ohm.cm; divided by 100."
   },
   "notes": "Coordinates printed to 100 m. The last layer is open-ended; the model does not state a DOI."
  },
@@ -2144,8 +2144,8 @@
    "figure": "VES sheet D.P. 400/36, job 625",
    "method": "digitised_manual",
    "tool": "edges from extraction/ves_edges_auto.json + reading by eye",
-   "extracted_on": "2026-10-14",
-   "notes": "Interface depths taken as the AB/2 of the box edges under the curve."
+   "extracted_on": "2026-10-15",
+   "notes": "Interface depths taken as the AB/2 of the box edges under the curve. Resistivities printed in ohm.cm; divided by 100."
   },
   "notes": "Coordinates printed to 100 m. The last layer is open-ended; the model does not state a DOI."
  },
@@ -2197,8 +2197,8 @@
    "figure": "VES sheet D.P. 400/37, job 625",
    "method": "digitised_manual",
    "tool": "edges from extraction/ves_edges_auto.json + reading by eye",
-   "extracted_on": "2026-10-14",
-   "notes": "Interface depths taken as the AB/2 of the box edges under the curve."
+   "extracted_on": "2026-10-15",
+   "notes": "Interface depths taken as the AB/2 of the box edges under the curve. Resistivities printed in ohm.cm; divided by 100."
   },
   "notes": "Coordinates printed to 100 m. The last layer is open-ended; the model does not state a DOI."
  },
@@ -2240,8 +2240,8 @@
    "figure": "VES sheet D.P. 400/38, job 625",
    "method": "digitised_manual",
    "tool": "edges from extraction/ves_edges_auto.json + reading by eye",
-   "extracted_on": "2026-10-14",
-   "notes": "Interface depths taken as the AB/2 of the box edges under the curve."
+   "extracted_on": "2026-10-15",
+   "notes": "Interface depths taken as the AB/2 of the box edges under the curve. Resistivities printed in ohm.cm; divided by 100."
   },
   "notes": "Coordinates printed to 100 m. The last layer is open-ended; the model does not state a DOI."
  },
@@ -2283,8 +2283,8 @@
    "figure": "VES sheet D.P. 400/39, job 625",
    "method": "digitised_manual",
    "tool": "edges from extraction/ves_edges_auto.json + reading by eye",
-   "extracted_on": "2026-10-14",
-   "notes": "Interface depths taken as the AB/2 of the box edges under the curve."
+   "extracted_on": "2026-10-15",
+   "notes": "Interface depths taken as the AB/2 of the box edges under the curve. Resistivities printed in ohm.cm; divided by 100."
   },
   "notes": "Coordinates printed to 100 m. The first layer is under about 1.5 m thick and its base is approximate. The last layer is open-ended; the model does not state a DOI."
  },
@@ -2321,8 +2321,8 @@
    "figure": "VES sheet D.P. 400/40, job 625",
    "method": "digitised_manual",
    "tool": "edges from extraction/ves_edges_auto.json + reading by eye",
-   "extracted_on": "2026-10-14",
-   "notes": "Interface depths taken as the AB/2 of the box edges under the curve."
+   "extracted_on": "2026-10-15",
+   "notes": "Interface depths taken as the AB/2 of the box edges under the curve. Resistivities printed in ohm.cm; divided by 100."
   },
   "notes": "Coordinates printed to 100 m. The last layer is open-ended; the model does not state a DOI."
  },
@@ -2359,8 +2359,8 @@
    "figure": "VES sheet D.P. 400/41, job 625",
    "method": "digitised_manual",
    "tool": "edges from extraction/ves_edges_auto.json + reading by eye",
-   "extracted_on": "2026-10-14",
-   "notes": "Interface depths taken as the AB/2 of the box edges under the curve."
+   "extracted_on": "2026-10-15",
+   "notes": "Interface depths taken as the AB/2 of the box edges under the curve. Resistivities printed in ohm.cm; divided by 100."
   },
   "notes": "Coordinates printed to 100 m. The last layer is open-ended; the model does not state a DOI."
  },
@@ -2402,8 +2402,8 @@
    "figure": "VES sheet D.P. 400/42, job 625",
    "method": "digitised_manual",
    "tool": "edges from extraction/ves_edges_auto.json + reading by eye",
-   "extracted_on": "2026-10-14",
-   "notes": "Interface depths taken as the AB/2 of the box edges under the curve."
+   "extracted_on": "2026-10-15",
+   "notes": "Interface depths taken as the AB/2 of the box edges under the curve. Resistivities printed in ohm.cm; divided by 100."
   },
   "notes": "Coordinates printed to 100 m. The first layer is under about 1.5 m thick and its base is approximate. The last layer is open-ended; the model does not state a DOI."
  },
@@ -2450,8 +2450,8 @@
    "figure": "VES sheet D.P. 400/43, job 625",
    "method": "digitised_manual",
    "tool": "edges from extraction/ves_edges_auto.json + reading by eye",
-   "extracted_on": "2026-10-14",
-   "notes": "Interface depths taken as the AB/2 of the box edges under the curve."
+   "extracted_on": "2026-10-15",
+   "notes": "Interface depths taken as the AB/2 of the box edges under the curve. Resistivities printed in ohm.cm; divided by 100."
   },
   "notes": "The last layer is open-ended; the model does not state a DOI."
  },
@@ -2498,8 +2498,8 @@
    "figure": "VES sheet D.P. 400/44, job 625",
    "method": "digitised_manual",
    "tool": "edges from extraction/ves_edges_auto.json + reading by eye",
-   "extracted_on": "2026-10-14",
-   "notes": "Interface depths taken as the AB/2 of the box edges under the curve."
+   "extracted_on": "2026-10-15",
+   "notes": "Interface depths taken as the AB/2 of the box edges under the curve. Resistivities printed in ohm.cm; divided by 100."
   },
   "notes": "The last layer is open-ended; the model does not state a DOI."
  },
@@ -2541,8 +2541,8 @@
    "figure": "VES sheet D.P. 400/45, job 625",
    "method": "digitised_manual",
    "tool": "edges from extraction/ves_edges_auto.json + reading by eye",
-   "extracted_on": "2026-10-14",
-   "notes": "Interface depths taken as the AB/2 of the box edges under the curve."
+   "extracted_on": "2026-10-15",
+   "notes": "Interface depths taken as the AB/2 of the box edges under the curve. Resistivities printed in ohm.cm; divided by 100."
   },
   "notes": "The last layer is open-ended; the model does not state a DOI."
  },
@@ -2584,8 +2584,8 @@
    "figure": "VES sheet D.P. 400/46, job 625",
    "method": "digitised_manual",
    "tool": "edges from extraction/ves_edges_auto.json + reading by eye",
-   "extracted_on": "2026-10-14",
-   "notes": "Interface depths taken as the AB/2 of the box edges under the curve."
+   "extracted_on": "2026-10-15",
+   "notes": "Interface depths taken as the AB/2 of the box edges under the curve. Resistivities printed in ohm.cm; divided by 100."
   },
   "notes": "The last layer is open-ended; the model does not state a DOI."
  },
@@ -2622,8 +2622,8 @@
    "figure": "VES sheet D.P. 400/47, job 625",
    "method": "digitised_manual",
    "tool": "edges from extraction/ves_edges_auto.json + reading by eye",
-   "extracted_on": "2026-10-14",
-   "notes": "Interface depths taken as the AB/2 of the box edges under the curve."
+   "extracted_on": "2026-10-15",
+   "notes": "Interface depths taken as the AB/2 of the box edges under the curve. Resistivities printed in ohm.cm; divided by 100."
   },
   "notes": "The last layer is open-ended; the model does not state a DOI."
  },
@@ -2665,8 +2665,8 @@
    "figure": "VES sheet D.P. 400/48, job 625",
    "method": "digitised_manual",
    "tool": "edges from extraction/ves_edges_auto.json + reading by eye",
-   "extracted_on": "2026-10-14",
-   "notes": "Interface depths taken as the AB/2 of the box edges under the curve."
+   "extracted_on": "2026-10-15",
+   "notes": "Interface depths taken as the AB/2 of the box edges under the curve. Resistivities printed in ohm.cm; divided by 100."
   },
   "notes": "The last layer is open-ended; the model does not state a DOI."
  },
@@ -2708,8 +2708,8 @@
    "figure": "VES sheet D.P. 400/49, job 625",
    "method": "digitised_manual",
    "tool": "edges from extraction/ves_edges_auto.json + reading by eye",
-   "extracted_on": "2026-10-14",
-   "notes": "Interface depths taken as the AB/2 of the box edges under the curve."
+   "extracted_on": "2026-10-15",
+   "notes": "Interface depths taken as the AB/2 of the box edges under the curve. Resistivities printed in ohm.cm; divided by 100."
   },
   "notes": "The last layer is open-ended; the model does not state a DOI."
  },
@@ -2746,8 +2746,8 @@
    "figure": "VES sheet D.P. 400/50, job 625",
    "method": "digitised_manual",
    "tool": "edges from extraction/ves_edges_auto.json + reading by eye",
-   "extracted_on": "2026-10-14",
-   "notes": "Interface depths taken as the AB/2 of the box edges under the curve."
+   "extracted_on": "2026-10-15",
+   "notes": "Interface depths taken as the AB/2 of the box edges under the curve. Resistivities printed in ohm.cm; divided by 100."
   },
   "notes": "The last layer is open-ended; the model does not state a DOI."
  },
@@ -2794,8 +2794,8 @@
    "figure": "VES sheet D.P. 400/51, job 625",
    "method": "digitised_manual",
    "tool": "edges from extraction/ves_edges_auto.json + reading by eye",
-   "extracted_on": "2026-10-14",
-   "notes": "Interface depths taken as the AB/2 of the box edges under the curve."
+   "extracted_on": "2026-10-15",
+   "notes": "Interface depths taken as the AB/2 of the box edges under the curve. Resistivities printed in ohm.cm; divided by 100."
   },
   "notes": "The last layer is open-ended; the model does not state a DOI."
  },
@@ -2837,8 +2837,8 @@
    "figure": "VES sheet D.P. 400/52, job 625",
    "method": "digitised_manual",
    "tool": "edges from extraction/ves_edges_auto.json + reading by eye",
-   "extracted_on": "2026-10-14",
-   "notes": "Interface depths taken as the AB/2 of the box edges under the curve."
+   "extracted_on": "2026-10-15",
+   "notes": "Interface depths taken as the AB/2 of the box edges under the curve. Resistivities printed in ohm.cm; divided by 100."
   },
   "notes": "The last layer is open-ended; the model does not state a DOI."
  },
@@ -2885,8 +2885,8 @@
    "figure": "VES sheet D.P. 400/53, job 625",
    "method": "digitised_manual",
    "tool": "edges from extraction/ves_edges_auto.json + reading by eye",
-   "extracted_on": "2026-10-14",
-   "notes": "Interface depths taken as the AB/2 of the box edges under the curve."
+   "extracted_on": "2026-10-15",
+   "notes": "Interface depths taken as the AB/2 of the box edges under the curve. Resistivities printed in ohm.cm; divided by 100."
   },
   "notes": "Coordinates printed to 100 m. The last layer is open-ended; the model does not state a DOI."
  },
@@ -2923,8 +2923,8 @@
    "figure": "VES sheet D.P. 400/54, job 625",
    "method": "digitised_manual",
    "tool": "edges from extraction/ves_edges_auto.json + reading by eye",
-   "extracted_on": "2026-10-14",
-   "notes": "Interface depths taken as the AB/2 of the box edges under the curve."
+   "extracted_on": "2026-10-15",
+   "notes": "Interface depths taken as the AB/2 of the box edges under the curve. Resistivities printed in ohm.cm; divided by 100."
   },
   "notes": "Coordinates printed to 100 m. The last layer is open-ended; the model does not state a DOI."
  },
@@ -2961,8 +2961,8 @@
    "figure": "VES sheet D.P. 400/55, job 625",
    "method": "digitised_manual",
    "tool": "edges from extraction/ves_edges_auto.json + reading by eye",
-   "extracted_on": "2026-10-14",
-   "notes": "Interface depths taken as the AB/2 of the box edges under the curve."
+   "extracted_on": "2026-10-15",
+   "notes": "Interface depths taken as the AB/2 of the box edges under the curve. Resistivities printed in ohm.cm; divided by 100."
   },
   "notes": "Coordinates printed to 100 m. The last layer is open-ended; the model does not state a DOI."
  },
@@ -2999,8 +2999,8 @@
    "figure": "VES sheet D.P. 400/56, job 625",
    "method": "digitised_manual",
    "tool": "reading by eye (values and edges)",
-   "extracted_on": "2026-10-14",
-   "notes": "Interface depths taken as the AB/2 of the box edges under the curve."
+   "extracted_on": "2026-10-15",
+   "notes": "Interface depths taken as the AB/2 of the box edges under the curve. Resistivities printed in ohm.cm; divided by 100."
   },
   "notes": "Coordinates printed to 100 m. The last layer is open-ended; the model does not state a DOI."
  },
@@ -3037,8 +3037,8 @@
    "figure": "VES sheet D.P. 400/57, job 625",
    "method": "digitised_manual",
    "tool": "edges from extraction/ves_edges_auto.json + reading by eye",
-   "extracted_on": "2026-10-14",
-   "notes": "Interface depths taken as the AB/2 of the box edges under the curve."
+   "extracted_on": "2026-10-15",
+   "notes": "Interface depths taken as the AB/2 of the box edges under the curve. Resistivities printed in ohm.cm; divided by 100."
   },
   "notes": "Coordinates printed to 100 m. The last layer is open-ended; the model does not state a DOI."
  },
@@ -3080,8 +3080,8 @@
    "figure": "VES sheet D.P. 400/58, job 625",
    "method": "digitised_manual",
    "tool": "edges from extraction/ves_edges_auto.json + reading by eye",
-   "extracted_on": "2026-10-14",
-   "notes": "Interface depths taken as the AB/2 of the box edges under the curve."
+   "extracted_on": "2026-10-15",
+   "notes": "Interface depths taken as the AB/2 of the box edges under the curve. Resistivities printed in ohm.cm; divided by 100."
   },
   "notes": "Coordinates printed to 100 m. The last layer is open-ended; the model does not state a DOI."
  },
@@ -3118,8 +3118,8 @@
    "figure": "VES sheet D.P. 400/59, job 625",
    "method": "digitised_manual",
    "tool": "edges from extraction/ves_edges_auto.json + reading by eye",
-   "extracted_on": "2026-10-14",
-   "notes": "Interface depths taken as the AB/2 of the box edges under the curve."
+   "extracted_on": "2026-10-15",
+   "notes": "Interface depths taken as the AB/2 of the box edges under the curve. Resistivities printed in ohm.cm; divided by 100."
   },
   "notes": "Coordinates printed to 100 m. The last layer is open-ended; the model does not state a DOI."
  },
@@ -3156,8 +3156,8 @@
    "figure": "VES sheet D.P. 400/60, job 625",
    "method": "digitised_manual",
    "tool": "edges from extraction/ves_edges_auto.json + reading by eye",
-   "extracted_on": "2026-10-14",
-   "notes": "Interface depths taken as the AB/2 of the box edges under the curve."
+   "extracted_on": "2026-10-15",
+   "notes": "Interface depths taken as the AB/2 of the box edges under the curve. Resistivities printed in ohm.cm; divided by 100."
   },
   "notes": "Coordinates printed to 100 m. The last layer is open-ended; the model does not state a DOI."
  },
@@ -3199,8 +3199,8 @@
    "figure": "VES sheet D.P. 400/61, job 625",
    "method": "digitised_manual",
    "tool": "edges from extraction/ves_edges_auto.json + reading by eye",
-   "extracted_on": "2026-10-14",
-   "notes": "Interface depths taken as the AB/2 of the box edges under the curve."
+   "extracted_on": "2026-10-15",
+   "notes": "Interface depths taken as the AB/2 of the box edges under the curve. Resistivities printed in ohm.cm; divided by 100."
   },
   "notes": "Coordinates printed to 100 m. The last layer is open-ended; the model does not state a DOI."
  },
@@ -3242,8 +3242,8 @@
    "figure": "VES sheet D.P. 400/62, job 625",
    "method": "digitised_manual",
    "tool": "edges from extraction/ves_edges_auto.json + reading by eye",
-   "extracted_on": "2026-10-14",
-   "notes": "Interface depths taken as the AB/2 of the box edges under the curve."
+   "extracted_on": "2026-10-15",
+   "notes": "Interface depths taken as the AB/2 of the box edges under the curve. Resistivities printed in ohm.cm; divided by 100."
   },
   "notes": "Coordinates printed to 100 m. The last layer is open-ended; the model does not state a DOI."
  },
@@ -3285,8 +3285,8 @@
    "figure": "VES sheet D.P. 400/63, job 625",
    "method": "digitised_manual",
    "tool": "edges from extraction/ves_edges_auto.json + reading by eye",
-   "extracted_on": "2026-10-14",
-   "notes": "Interface depths taken as the AB/2 of the box edges under the curve."
+   "extracted_on": "2026-10-15",
+   "notes": "Interface depths taken as the AB/2 of the box edges under the curve. Resistivities printed in ohm.cm; divided by 100."
   },
   "notes": "Coordinates printed to 100 m. The last layer is open-ended; the model does not state a DOI."
  },
@@ -3328,8 +3328,8 @@
    "figure": "VES sheet D.P. 400/64, job 625",
    "method": "digitised_manual",
    "tool": "edges from extraction/ves_edges_auto.json + reading by eye",
-   "extracted_on": "2026-10-14",
-   "notes": "Interface depths taken as the AB/2 of the box edges under the curve."
+   "extracted_on": "2026-10-15",
+   "notes": "Interface depths taken as the AB/2 of the box edges under the curve. Resistivities printed in ohm.cm; divided by 100."
   },
   "notes": "Coordinates printed to 100 m. The first layer is under about 1.5 m thick and its base is approximate. The last layer is open-ended; the model does not state a DOI."
  },
@@ -3371,8 +3371,8 @@
    "figure": "VES sheet D.P. 400/65, job 625",
    "method": "digitised_manual",
    "tool": "edges from extraction/ves_edges_auto.json + reading by eye",
-   "extracted_on": "2026-10-14",
-   "notes": "Interface depths taken as the AB/2 of the box edges under the curve."
+   "extracted_on": "2026-10-15",
+   "notes": "Interface depths taken as the AB/2 of the box edges under the curve. Resistivities printed in ohm.cm; divided by 100."
   },
   "notes": "The last layer is open-ended; the model does not state a DOI."
  },
@@ -3414,8 +3414,8 @@
    "figure": "VES sheet D.P. 400/66, job 625",
    "method": "digitised_manual",
    "tool": "edges from extraction/ves_edges_auto.json + reading by eye",
-   "extracted_on": "2026-10-14",
-   "notes": "Interface depths taken as the AB/2 of the box edges under the curve."
+   "extracted_on": "2026-10-15",
+   "notes": "Interface depths taken as the AB/2 of the box edges under the curve. Resistivities printed in ohm.cm; divided by 100."
   },
   "notes": "The first layer is under about 1.5 m thick and its base is approximate. The last layer is open-ended; the model does not state a DOI."
  },
@@ -3452,8 +3452,8 @@
    "figure": "VES sheet D.P. 400/67, job 625",
    "method": "digitised_manual",
    "tool": "edges from extraction/ves_edges_auto.json + reading by eye",
-   "extracted_on": "2026-10-14",
-   "notes": "Interface depths taken as the AB/2 of the box edges under the curve."
+   "extracted_on": "2026-10-15",
+   "notes": "Interface depths taken as the AB/2 of the box edges under the curve. Resistivities printed in ohm.cm; divided by 100."
   },
   "notes": "The last layer is open-ended; the model does not state a DOI."
  },
@@ -3495,8 +3495,8 @@
    "figure": "VES sheet D.P. 400/68, job 625",
    "method": "digitised_manual",
    "tool": "reading by eye (values and edges)",
-   "extracted_on": "2026-10-14",
-   "notes": "Interface depths taken as the AB/2 of the box edges under the curve."
+   "extracted_on": "2026-10-15",
+   "notes": "Interface depths taken as the AB/2 of the box edges under the curve. Resistivities printed in ohm.cm; divided by 100."
   },
   "notes": "The first layer is under about 1.5 m thick and its base is approximate. The last layer is open-ended; the model does not state a DOI."
  },
@@ -3538,8 +3538,8 @@
    "figure": "VES sheet D.P. 400/69, job 625",
    "method": "digitised_manual",
    "tool": "edges from extraction/ves_edges_auto.json + reading by eye",
-   "extracted_on": "2026-10-14",
-   "notes": "Interface depths taken as the AB/2 of the box edges under the curve."
+   "extracted_on": "2026-10-15",
+   "notes": "Interface depths taken as the AB/2 of the box edges under the curve. Resistivities printed in ohm.cm; divided by 100."
   },
   "notes": "Coordinates printed to 100 m. The last layer is open-ended; the model does not state a DOI."
  },
@@ -3581,8 +3581,8 @@
    "figure": "VES sheet D.P. 400/70, job 625",
    "method": "digitised_manual",
    "tool": "edges from extraction/ves_edges_auto.json + reading by eye",
-   "extracted_on": "2026-10-14",
-   "notes": "Interface depths taken as the AB/2 of the box edges under the curve."
+   "extracted_on": "2026-10-15",
+   "notes": "Interface depths taken as the AB/2 of the box edges under the curve. Resistivities printed in ohm.cm; divided by 100."
   },
   "notes": "Coordinates printed to 100 m. The first layer is under about 1.5 m thick and its base is approximate. The last layer is open-ended; the model does not state a DOI."
  }
