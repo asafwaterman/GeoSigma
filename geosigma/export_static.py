@@ -3,7 +3,7 @@
 Every API answer the viewer asks for is computed here ahead of time: values and
 reliability at each depth step of the slider, coverage per depth, every dataset and
 every line section. The source pages the datasets point at are rendered from the local
-PDFs as greyscale JPEGs, packed a few pages per file (``src/``); review is left out. The basemap is web/basemap.geojson, country outlines
+PDFs as greyscale JPEGs, packed a few pages per file (``src/``). The basemap is web/basemap.geojson, country outlines
 clipped from Natural Earth 1:10m (public domain), since a hosted page may not load
 map tiles.
 
@@ -148,16 +148,17 @@ def page(core_style: dict, maplibre_css: str) -> str:
     body = re.sub(r'<script src="/static/app.js"></script>', "", body)
     body = body.replace('<span class="sub">Resistivity of Israel, from GSI survey reports</span>',
                         '<span class="sub">Resistivity of Israel, from GSI survey reports</span>'
-                        '<span class="copynote">Read-only copy. Drafts, not yet reviewed.</span>')
+                        '<span class="copynote">Read-only copy.</span>')
     mlcss = maplibre_css
-    return ('<meta charset="utf-8">\n<title>GeoSigma Viewer</title>\n'
+    return ('<!doctype html>\n<html lang="en">\n<head>\n<meta charset="utf-8">\n'
+            '<meta name="viewport" content="width=device-width, initial-scale=1">\n<title>GeoSigma Viewer</title>\n'
             '<meta name="claude:viewport-fit-sides" content="cover">\n'
-            f"<style>{mlcss}</style>\n<style>{(web / 'style.css').read_text()}{THEME}</style>\n"
+            f"<style>{mlcss}</style>\n<style>{(web / 'style.css').read_text()}{THEME}</style>\n</head>\n<body>\n"
             f"{body}\n"
             '<script src="https://unpkg.com/maplibre-gl@4.7.1/dist/maplibre-gl.js"></script>\n'
             '<script src="https://cdnjs.cloudflare.com/ajax/libs/plotly.js/2.35.2/plotly.min.js"></script>\n'
             + SHIM.replace("__STYLE__", json.dumps(core_style))
-            + f"<script>{(web / 'app.js').read_text()}</script>\n")
+            + f"<script>{(web / 'app.js').read_text()}</script>\n</body>\n</html>\n")
 
 
 def basemap_style() -> dict:

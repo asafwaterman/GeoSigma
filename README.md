@@ -37,16 +37,17 @@ are in `data/sources/manifest.json`).
   is 500 m and deeper.
 - Different methods are never merged into one value; the map shows the best model at
   each site and the site panel lists all of them.
-- New extractions start as `draft` and show an "unreviewed" badge until checked.
+- A dataset's `status` field (draft, checked, approved, rejected) can be edited in its
+  file; rejected datasets drop out of the database on the next build. For the Geoelectric
+  Atlas, `python scripts/atlas_qa.py <dir>` draws the digitised readings over each plot page.
 
-## Reviewing
+## Public site
 
-Open a site, compare the plot with the source page thumbnail under it, and press
-**Checked**, **Approve** or **Reject** (with an optional note). The decision is saved
-in the dataset's file under `data/surveys/`, so commit those files to keep it.
-Rejected datasets drop out of the database on the next build. `GET /api/review`
-lists the counts per survey, deepest data first. For the Geoelectric Atlas,
-`python scripts/atlas_qa.py <dir>` draws the digitised readings over each plot page.
+Every push to `main` runs `.github/workflows/deploy.yml`: it checks the data, runs the
+tests, rebuilds the database, exports the read-only web copy (`export-static`) and
+publishes it on GitHub Pages at https://asafwaterman.github.io/geosigma/. Source PDF
+downloads on the public site link to the files in this repository. To publish a new
+survey, add its files, check it locally, then commit and push.
 
 ## Coordinates
 

@@ -227,8 +227,7 @@ async function selectSite(p) {
   const dss = await Promise.all(ids.map((id) => api(`/api/datasets/${encodeURIComponent(id)}`)));
   state.siteDatasets = dss;
   $("dsList").innerHTML = dss.map((d, i) => `<div class="ds" data-i="${i}">${d.method} ${d.level} ${d.representation}
-    ${d.model_type ? "(" + d.model_type + ")" : ""}${d.spacing_m ? " a = " + d.spacing_m + " m" : ""}${d.measured_on && d.representation === "profile" ? " · " + d.measured_on : ""}${d.representation === "map_grid" && d.line ? " · " + d.line : ""} · confidence ${d.confidence}
-    ${d.status === "draft" ? '<span class="badge">unreviewed</span>' : ""}</div>`).join("") ||
+    ${d.model_type ? "(" + d.model_type + ")" : ""}${d.spacing_m ? " a = " + d.spacing_m + " m" : ""}${d.measured_on && d.representation === "profile" ? " · " + d.measured_on : ""}${d.representation === "map_grid" && d.line ? " · " + d.line : ""} · confidence ${d.confidence}</div>`).join("") ||
     '<p class="muted">No datasets at this site yet.</p>';
   document.querySelectorAll(".ds").forEach((el) => el.addEventListener("click", () => showDataset(dss[+el.dataset.i], el)));
   $("showSection").hidden = !p.line || !p.has_model;  // sections are drawn from depth models
@@ -319,7 +318,6 @@ function showDataset(d, el) {
     console.error(e);
     $("profile").innerHTML = `<p class="muted">The chart could not be drawn${window.Plotly ? "" : " (the Plotly chart library did not load; check the internet connection or a content blocker)"}.</p>`;
   }
-  renderReview(d);
   const p = d.provenance;
   const doc = d.document_info;
   const pages = p.pages || [];
@@ -429,27 +427,3 @@ legend();
 loadSurveys();
 map.on("load", () => { loadSites(); if (state.surveys.length) showAreas(); });
 $("showAreas").addEventListener("change", setAreasVisible);
-
-
-// Review: the decision is written to the dataset's source file by the API.
-function renderReview(d) {
-  const by = d.provenance.checked_by ? ` by ${d.provenance.checked_by}${d.provenance.checked_on ? " on " + d.provenance.checked_on : ""}` : "";
-  if (STATIC) { $("review").innerHTML = `<span>Review: <b>${d.status}</b>${by}</span><span class="muted">Review in the local tool.</span>`; return; }
-  const btn = (st, label) => `<button data-st="${st}" class="${d.status === st ? "on" : ""}">${label}</button>`;
-  $("review").innerHTML = `<span>Review: <b>${d.status}</b>${by}</span>
-    ${btn("checked", "Checked")}${btn("approved", "Approve")}${btn("rejected", "Reject")}
-    ${d.status !== "draft" ? btn("draft", "Undo") : ""}
-    <input id="reviewNote" placeholder="Note (optional)" value="${(d.review_note || "").replace(/"/g, "&quot;")}">`;
-  $("review").querySelectorAll("button").forEach((b) => b.addEventListener("click", async () => {
-    const r = await fetch(`/api/datasets/${encodeURIComponent(d.id)}/status`, {
-      method: "POST", headers: { "Content-Type": "application/json" },
-      body: JSON.stringify({ status: b.dataset.st, note: $("reviewNote").value || null }),
-    });
-    if (!r.ok) { alert("Could not save: " + (await r.text())); return; }
-    const saved = await r.json();
-    Object.assign(d, { status: saved.status, review_note: saved.review_note, provenance: { ...d.provenance, ...saved.provenance } });
-    renderReview(d);
-    const el = document.querySelector(".ds.active .badge");
-    if (el && d.status !== "draft") el.remove();
-  }));
-}
