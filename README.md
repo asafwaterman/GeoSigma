@@ -45,7 +45,7 @@ are in `data/sources/manifest.json`).
 
 Every push to `main` runs `.github/workflows/deploy.yml`: it checks the data, runs the
 tests, rebuilds the database, exports the read-only web copy (`export-static`) and
-publishes it on GitHub Pages at https://asafwaterman.github.io/geosigma/. Source PDF
+publishes it on GitHub Pages at https://asafwaterman.github.io/GeoSigma/. Source PDF
 downloads on the public site link to the files in this repository. To publish a new
 survey, add its files, check it locally, then commit and push.
 
