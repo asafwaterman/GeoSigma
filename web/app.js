@@ -141,10 +141,13 @@ function profileTraces(d) {
   const v = (rho) => (state.sigma ? 1000 / rho : rho);
   if (d.layers && d.layers.length) {
     const x = [], y = [];
-    const bottom = d.depth_max_m || Math.max(...d.layers.map((l) => l.bottom_m || l.top_m * 1.5 || 100));
+    // an open-ended last layer (half-space) is drawn a third deeper than its top, so it shows
+    const lastTop = Math.max(...d.layers.map((l) => l.top_m));
+    const bottom = Math.max(d.depth_max_m || 0, ...d.layers.map((l) => l.bottom_m || 0), lastTop * 1.3 || 100);
     for (const l of d.layers) {
-      if (l.rho_ohmm == null) { x.push(null, null); y.push(l.top_m, l.bottom_m ?? bottom); continue; }
-      x.push(v(l.rho_ohmm), v(l.rho_ohmm));
+      const r = l.rho_ohmm ?? l.rho_min;  // a lower bound ("infinity" on the sheet) is drawn at its bound
+      if (r == null) { x.push(null, null); y.push(l.top_m, l.bottom_m ?? bottom); continue; }
+      x.push(v(r), v(r));
       y.push(l.top_m, l.bottom_m ?? bottom);
     }
     return { x, y };
