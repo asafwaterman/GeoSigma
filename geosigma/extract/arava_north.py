@@ -29,7 +29,7 @@ PDF = "Paparo-Levitte-Analysis-Northern-Arava-Electrical-Resistivity-Measurement
 
 def ten_m(v: str) -> int | None:
     digits = re.sub(r"\D", "", str(v or ""))
-    if len(digits) == 4:
+    if len(digits) == 4 or (len(digits) == 5 and digits[0] == "0"):  # 100 m units, sometimes with a leading 0
         return int(digits) * 10
     if len(digits) in (5, 6):
         return int(digits)
