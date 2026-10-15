@@ -6,9 +6,9 @@ report says these soundings could in general not be interpreted. Points were rea
 eye from 260 dpi crops (x to the nearest grid line, rho_a to 2 significant figures) into
 ``extraction/soundings.json``.
 
-Footers print one or two coordinate pairs (Old Israel Grid m). Two pairs are taken as
-the ends of the source dipole, and the site is put at their midpoint; one pair is used
-as is. Each array on a sheet becomes its own L1 sounding curve.
+Footers print one or two coordinate pairs (Old Israel Grid m). With two pairs, the first
+is shared by the two soundings of each source (the report: "two for each source"), so it
+is taken as the source and the second as the sounding point, where the site is put. Each array on a sheet becomes its own L1 sounding curve.
 
 Run: ``python -m geosigma.extract.yizreel_soundings``.
 """
@@ -42,15 +42,15 @@ def run() -> list[dict]:
         if not pts:
             print("no coordinates, skipped: page", sh["page"])
             continue
-        x, y = (sum(p[0] for p in pts) / len(pts), sum(p[1] for p in pts) / len(pts))
+        x, y = pts[-1]
         sid = f"DS-{sh['dp']}"
         if any(s["id"] == sid for s in sites):
             sid = f"{sid}-p{sh['page']}"
         sites.append({"id": sid, "name": f"Depth sounding D.P. {sh['dp']}",
                       "coords": {"x": round(x), "y": round(y), "crs": "EPSG:28193", "source": "table",
-                                 "accuracy_m": 1000 if len(pts) > 1 else 100},
-                      "notes": ("Midpoint of the two coordinate pairs printed on the sheet (taken as the source "
-                                "dipole ends): " if len(pts) > 1 else "As printed on the sheet: ")
+                                 "accuracy_m": 100},
+                      "notes": ("Second coordinate pair on the sheet; the first (shared with the other sounding "
+                                "of the same source) is taken as the source: " if len(pts) > 1 else "As printed: ")
                                + "; ".join(sh.get("coords", []))})
         for key, array in (("schlumberger", "modified Schlumberger"), ("monopole", "monopole")):
             curve = [{"x": float(a), "rho_a": float(b)} for a, b in sh.get(key) or [] if a and b]

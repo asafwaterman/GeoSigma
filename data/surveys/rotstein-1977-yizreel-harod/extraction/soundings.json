@@ -1,0 +1,3640 @@
+[
+{
+"page": 48,
+"dp": "41",
+"file": "001",
+"job": "GT/149/74",
+"coords": [
+"164400 - 228950",
+"165200 - 230650"
+],
+"elev": null,
+"x_label": "m",
+"y_decades": [
+1,
+10,
+100
+],
+"x_decades": [
+10,
+100,
+1000,
+10000
+],
+"schlumberger": [
+[
+100,
+9.9
+],
+[
+200,
+6.8
+],
+[
+300,
+7.0
+],
+[
+400,
+6.3
+],
+[
+500,
+5.7
+],
+[
+600,
+6.6
+],
+[
+700,
+7.0
+],
+[
+800,
+6.8
+],
+[
+900,
+5.7
+],
+[
+1000,
+5.5
+]
+],
+"monopole": [
+[
+300,
+12
+],
+[
+400,
+13
+],
+[
+500,
+14
+],
+[
+700,
+13
+],
+[
+800,
+14
+]
+],
+"model": null,
+"sure": true,
+"note": "No CAL. RES. model, no drawn curve. Possible extra monopole dot at the 600 m / 10 ohm.m major-grid intersection (thickened junction, vertical line there looks overdrawn) - skipped as indistinguishable from line/dirt. Extra annotation '(54076)' in footer. Job printed as 'GT/149/74' (G looks like 9)."
+},
+{
+"page": 49,
+"dp": "42",
+"file": "001",
+"job": "GT/149/74",
+"coords": [
+"164400 - 228950",
+"166050 - 227800"
+],
+"elev": null,
+"x_label": "m",
+"y_decades": [
+1,
+10,
+100
+],
+"x_decades": [
+10,
+100,
+1000,
+10000
+],
+"schlumberger": [
+[
+100,
+8.4
+],
+[
+200,
+8.9
+],
+[
+300,
+9.3
+],
+[
+400,
+9.0
+],
+[
+500,
+9.0
+],
+[
+600,
+9.2
+],
+[
+700,
+2.8
+],
+[
+800,
+17
+],
+[
+900,
+20
+],
+[
+1000,
+29
+]
+],
+"monopole": [
+[
+200,
+11
+],
+[
+300,
+10
+],
+[
+400,
+13
+],
+[
+400,
+18
+],
+[
+500,
+12
+],
+[
+600,
+12
+],
+[
+700,
+12
+],
+[
+800,
+12
+],
+[
+900,
+11
+]
+],
+"model": {
+"rho": [
+9.0,
+14.0
+],
+"edges_m": [
+300
+]
+},
+"sure": false,
+"note": "Hand-drawn smooth curve from 100 m (~9) rising to ~2500 m (~13) - not traced. CAL. RES. band: 9.00 | 14.00 with one boundary at ~300 m; band spans the whole axis (no outer edges drawn). Leftmost x decade label printed as '1' at the 10 position (read as 10, consistent with 100/1000 labels). Two monopole dots at 400 m (13 and 18) - both clear, kept. Schlumberger x at 1000 m/~29 is a faint, partly formed cross (guess). Specks skipped: possible tiny dot/ring at 100 m ~13, specks at ~250 m ~15 and ~1000 m ~13. Points at 300/400 m Schlumberger touch the drawn curve, y read by eye. Footer extra '(54077)', margin '6.130'."
+},
+{
+"page": 50,
+"dp": "43",
+"file": "001",
+"job": "GT/149/74",
+"coords": [
+"174550 - 227200",
+"175000 - 225150"
+],
+"elev": null,
+"x_label": "m",
+"y_decades": [
+1,
+10,
+100
+],
+"x_decades": [
+10,
+100,
+1000,
+10000
+],
+"schlumberger": [
+[
+100,
+5.3
+],
+[
+200,
+11
+],
+[
+300,
+20
+],
+[
+400,
+30
+],
+[
+500,
+42
+],
+[
+600,
+50
+],
+[
+700,
+28
+],
+[
+800,
+18
+],
+[
+900,
+27
+],
+[
+1000,
+27
+]
+],
+"monopole": [
+[
+300,
+5.3
+],
+[
+400,
+7.1
+],
+[
+500,
+4.3
+],
+[
+700,
+5.3
+],
+[
+800,
+5.1
+],
+[
+900,
+5.1
+]
+],
+"model": null,
+"sure": false,
+"note": "No CAL. RES. model, no drawn curve. Coordinates in stencil where 2 looks like 8; first pair confirmed by identical pair on p51, second pair 175000 - 225150 read with moderate confidence. Monopole 400 m (7.1) is a faint small dot (guess). Skipped: off-grid speck near ~725 m/57, small speck ~380 m/~68, small ring at 300 m/~3.3 (looks like dirt). No monopole at 600 m. Footer '(54078)', margin '6.130'."
+},
+{
+"page": 51,
+"dp": "44",
+"file": "001",
+"job": "GT/149/74",
+"coords": [
+"174550 - 227200",
+"176400 - 227560"
+],
+"elev": null,
+"x_label": "m",
+"y_decades": [
+1,
+10,
+100
+],
+"x_decades": [
+10,
+100,
+1000,
+10000
+],
+"schlumberger": [
+[
+100,
+5.0
+],
+[
+200,
+6.8
+],
+[
+300,
+13
+],
+[
+400,
+20
+],
+[
+500,
+23
+],
+[
+600,
+32
+],
+[
+700,
+37
+],
+[
+800,
+39
+],
+[
+900,
+59
+],
+[
+1000,
+83
+]
+],
+"monopole": [
+[
+200,
+14
+],
+[
+300,
+16
+],
+[
+400,
+19
+],
+[
+500,
+18
+],
+[
+600,
+20
+],
+[
+700,
+13
+],
+[
+800,
+17
+],
+[
+900,
+16
+],
+[
+1000,
+13
+]
+],
+"model": null,
+"sure": true,
+"note": "No CAL. RES. model, no drawn curve. Job printed 'GE/149.74' (read as GT/149/74). Leftmost x label printed '1' at the 10 position. Small off-grid specks skipped (~380 m/~60, ~420 m/~75, ~410 m/~45, ~250 m/~15). Footer '(54079)', margin '6.130'."
+},
+{
+"page": 52,
+"dp": "45",
+"file": "001",
+"job": "GT/149/74",
+"coords": [
+"161700 - 232100",
+"162700 - 233600"
+],
+"elev": null,
+"x_label": "m",
+"y_decades": [
+1,
+10,
+100
+],
+"x_decades": [
+10,
+100,
+1000,
+10000
+],
+"schlumberger": [
+[
+100,
+8.4
+],
+[
+200,
+7.6
+],
+[
+300,
+11
+],
+[
+400,
+12
+],
+[
+500,
+11
+],
+[
+600,
+9.8
+],
+[
+700,
+9.1
+],
+[
+800,
+7.0
+],
+[
+900,
+6.2
+],
+[
+1000,
+5.7
+]
+],
+"monopole": [
+[
+100,
+9.5
+],
+[
+200,
+13
+],
+[
+300,
+13
+],
+[
+400,
+19
+],
+[
+500,
+22
+],
+[
+600,
+40
+],
+[
+700,
+29
+],
+[
+800,
+38
+],
+[
+900,
+57
+],
+[
+1000,
+87
+]
+],
+"model": null,
+"sure": false,
+"note": "No CAL. RES. model. A short hand-drawn dashed/dotted line near 1800-2000 m running from ~10 to ~20 ohm.m (not traced, not points). Monopole at 1000 m/87 is a small dot on the 1000 m line near the top (likely real, slight doubt). Off-grid specks skipped (~380 m/~68, ~130 m/~13, ~300 m/~3.3). Footer '(54080)', margin '6.130'."
+},
+{
+"page": 53,
+"dp": "46",
+"file": "001",
+"job": "GT/149/74",
+"coords": [
+"161700 - 232100",
+"160250 - 233150"
+],
+"elev": null,
+"x_label": "m",
+"y_decades": [
+1,
+10,
+100
+],
+"x_decades": [
+10,
+100,
+1000,
+10000
+],
+"schlumberger": [
+[
+100,
+10
+],
+[
+200,
+13
+],
+[
+300,
+12
+],
+[
+400,
+13
+],
+[
+500,
+12
+],
+[
+600,
+14
+],
+[
+700,
+16
+],
+[
+800,
+25
+],
+[
+1000,
+31
+]
+],
+"monopole": [
+[
+100,
+7.5
+],
+[
+200,
+8.7
+],
+[
+300,
+5.4
+],
+[
+400,
+8.3
+],
+[
+500,
+5.7
+],
+[
+600,
+5.4
+],
+[
+700,
+7.1
+],
+[
+800,
+3.1
+],
+[
+900,
+8.0
+],
+[
+1000,
+5.6
+]
+],
+"model": {
+"rho": [
+10,
+35
+],
+"edges_m": [
+285
+]
+},
+"sure": false,
+"note": "Hand-drawn thick curve from ~95 m (~10) to ~1900 m (~25) - not traced; also faint pencil strokes near the top (~800-2500 m, 55-90 ohm.m), not points. CAL. RES. band '10 | 35', single boundary read at ~285 m (between 200 and 300 lines, approximate). Schlumberger points at 100, 300, 400, 600, 700 m sit on/against the drawn curve, y read by eye (+-5%). No Schlumberger x found at 900 m. Footer '(54081)', margin '6.130'."
+},
+{
+"page": 54,
+"dp": "47",
+"file": "001",
+"job": "GT/149/74",
+"coords": [
+"172300 - 219900",
+"171200 - 221150"
+],
+"elev": null,
+"x_label": "m",
+"y_decades": [
+1,
+10,
+100
+],
+"x_decades": [
+10,
+100,
+1000,
+10000
+],
+"schlumberger": [
+[
+100,
+7.1
+],
+[
+200,
+7.9
+],
+[
+300,
+8.4
+],
+[
+400,
+7.7
+],
+[
+500,
+9.5
+],
+[
+600,
+7.9
+],
+[
+700,
+7.1
+],
+[
+800,
+7.9
+],
+[
+900,
+7.9
+],
+[
+1000,
+9.0
+]
+],
+"monopole": [
+[
+100,
+7.9
+],
+[
+200,
+11
+],
+[
+300,
+13
+],
+[
+400,
+12
+],
+[
+500,
+16
+],
+[
+600,
+19
+],
+[
+700,
+23
+],
+[
+800,
+26
+],
+[
+900,
+33
+],
+[
+1000,
+46
+]
+],
+"model": null,
+"sure": true,
+"note": "Clean sheet; no CAL. RES. model, no drawn curve. Footer '(54082)', margin '6.130'."
+},
+{
+"page": 55,
+"dp": "48",
+"file": "001",
+"job": "GT/149/74",
+"coords": [
+"172300 - 219900",
+"173450 - 221200"
+],
+"elev": null,
+"x_label": "m",
+"y_decades": [
+1,
+10,
+100
+],
+"x_decades": [
+10,
+100,
+1000,
+10000
+],
+"schlumberger": [
+[
+100,
+8.1
+],
+[
+200,
+12
+],
+[
+300,
+12
+],
+[
+400,
+11
+],
+[
+500,
+11
+],
+[
+600,
+11
+],
+[
+700,
+12
+],
+[
+800,
+11
+],
+[
+900,
+10
+],
+[
+1000,
+9.1
+]
+],
+"monopole": [
+[
+100,
+6.9
+],
+[
+200,
+8.5
+],
+[
+300,
+9.4
+],
+[
+400,
+12
+],
+[
+500,
+15
+],
+[
+600,
+18
+],
+[
+700,
+20
+],
+[
+800,
+22
+],
+[
+900,
+28
+],
+[
+1000,
+37
+]
+],
+"model": null,
+"sure": true,
+"note": "No CAL. RES. model, no drawn curve. Monopole marks at 900 and 1000 m reproduce as small open rings (faint dots), read as monopole. First coordinate pair printed like '178300' (stencil 2), same as p54's 172300 - 219900. Footer '(54083)', margin '6.130'."
+},
+{
+"page": 56,
+"dp": "49",
+"file": "001",
+"job": "GT/149/74",
+"coords": [
+"177400 - 218700",
+"177300 - 220700"
+],
+"elev": null,
+"x_label": "m",
+"y_decades": [
+1,
+10,
+100
+],
+"x_decades": [
+10,
+100,
+1000,
+10000
+],
+"schlumberger": [
+[
+100,
+7.3
+],
+[
+200,
+8.2
+],
+[
+400,
+12
+],
+[
+500,
+14
+],
+[
+600,
+18
+],
+[
+700,
+19
+],
+[
+800,
+18
+],
+[
+900,
+20
+],
+[
+1000,
+23
+]
+],
+"monopole": [
+[
+100,
+6.7
+],
+[
+200,
+8.7
+],
+[
+300,
+11
+],
+[
+400,
+14
+],
+[
+500,
+18
+],
+[
+600,
+24
+],
+[
+700,
+31
+],
+[
+800,
+37
+],
+[
+900,
+41
+],
+[
+1000,
+61
+]
+],
+"model": {
+"rho": [
+6,
+90
+],
+"edges_m": [
+175
+]
+},
+"sure": false,
+"note": "Thick hand-drawn curve from ~90 m (~6) to ~4300 m (~60) runs over many points - not traced. CAL. RES. band '6 | 90', boundary at ~175 m. Schlumberger 200 m (8.2) is a bump on the drawn curve, read as a hidden x (guess); Schlumberger 300 m not separable from the curve (skipped). 600 m x sits on the curve. Tiny extra cross beside the 400 m monopole dot ignored. Monopole 1000 m (61) is a faint small ring. Dirt cluster near 150 m/5-6 skipped. Footer '(54084)', margin '6.130'."
+},
+{
+"page": 57,
+"dp": "50",
+"file": "001",
+"job": "GT/149/74",
+"coords": [
+"177400 - 218700",
+"179100 - 218600"
+],
+"elev": null,
+"x_label": "m",
+"y_decades": [
+1,
+10,
+100
+],
+"x_decades": [
+10,
+100,
+1000,
+10000
+],
+"schlumberger": [
+[
+100,
+5.6
+],
+[
+700,
+12
+],
+[
+800,
+13
+],
+[
+900,
+13
+],
+[
+1000,
+10
+]
+],
+"monopole": [
+[
+100,
+6.5
+],
+[
+200,
+8.2
+],
+[
+300,
+11
+],
+[
+400,
+16
+],
+[
+500,
+21
+],
+[
+600,
+28
+],
+[
+700,
+35
+],
+[
+800,
+35
+],
+[
+900,
+50
+],
+[
+1000,
+68
+]
+],
+"model": null,
+"sure": true,
+"note": "No CAL. RES. model, no drawn curve. Schlumberger only at 100 and 700-1000 m (none plotted 200-600 m). Not included: a well-formed dot off the grid lines at ~2300 m / 31 ohm.m (isolated, possibly a blot); an x-like mark at ~11 m / 6.2 near the left edge; a small speck at 400 m / ~17 just above the 400 m monopole dot. Pencil line through the legend. Footer '(54085)', margin '6.130'."
+},
+{
+"page": 58,
+"dp": "51",
+"file": "001",
+"job": "GT/149/74",
+"coords": [
+"176150 - 213400",
+"176780 - 214950"
+],
+"elev": null,
+"x_label": "m",
+"y_decades": [
+1,
+10,
+100
+],
+"x_decades": [
+10,
+100,
+1000,
+10000
+],
+"schlumberger": [
+[
+100,
+23
+],
+[
+200,
+39
+],
+[
+300,
+55
+],
+[
+400,
+46
+],
+[
+500,
+34
+],
+[
+600,
+36
+],
+[
+700,
+36
+],
+[
+800,
+20
+],
+[
+900,
+22
+],
+[
+1000,
+35
+]
+],
+"monopole": [
+[
+100,
+17
+],
+[
+200,
+21
+],
+[
+300,
+27
+],
+[
+400,
+34
+],
+[
+500,
+42
+],
+[
+600,
+50
+],
+[
+700,
+57
+]
+],
+"model": {
+"rho": [
+20,
+100
+],
+"edges_m": [
+150
+]
+},
+"sure": false,
+"note": "Hand-drawn curve from ~80 m (~20) to ~1400 m (~70) - not traced. CAL. RES. band '20 | 100', boundary at ~150 m. Monopole 600 m (50) sits on the drawn curve. Schlumberger 1000 m (35) is a blotchy mark, read as x (type guess). No monopole dots found at 800-1000 m. Small specks skipped (~400 m/~20, ~200 m/~25). Footer '(54086)', margin '6.130'."
+},
+{
+"page": 59,
+"dp": "52",
+"file": "001",
+"job": "GT/149/74",
+"coords": [
+"176150 - 213400",
+"174400 - 214100"
+],
+"elev": null,
+"x_label": "m",
+"y_decades": [
+1,
+10,
+100
+],
+"x_decades": [
+10,
+100,
+1000,
+10000
+],
+"schlumberger": [
+[
+100,
+35
+],
+[
+200,
+50
+],
+[
+300,
+34
+],
+[
+400,
+73
+],
+[
+500,
+82
+],
+[
+600,
+92
+],
+[
+700,
+80
+],
+[
+800,
+89
+],
+[
+900,
+44
+],
+[
+1000,
+89
+]
+],
+"monopole": [],
+"model": null,
+"sure": true,
+"note": "Only Schlumberger x's plotted; no monopole dots. Two small dots lying between grid lines (~100 m/~26 and ~400 m/~17) look like specks and were skipped. No CAL. RES. model, no drawn curve. Footer '(54087)', margin '6.130'."
+},
+{
+"page": 60,
+"dp": "53",
+"file": "001",
+"job": "GT/149/74",
+"coords": [
+"170100 - 224050",
+"169950 - 225550"
+],
+"elev": null,
+"x_label": "m",
+"y_decades": [
+1,
+10,
+100
+],
+"x_decades": [
+10,
+100,
+1000,
+10000
+],
+"schlumberger": [
+[
+100,
+39
+],
+[
+200,
+41
+],
+[
+300,
+40
+],
+[
+400,
+39
+],
+[
+500,
+59
+],
+[
+600,
+55
+],
+[
+700,
+73
+],
+[
+800,
+92
+]
+],
+"monopole": [
+[
+200,
+53
+],
+[
+300,
+67
+],
+[
+400,
+69
+],
+[
+500,
+51
+],
+[
+600,
+66
+],
+[
+700,
+68
+],
+[
+800,
+72
+],
+[
+900,
+67
+],
+[
+1000,
+78
+]
+],
+"model": {
+"rho": [
+40,
+140
+],
+"edges_m": [
+220
+]
+},
+"sure": false,
+"note": "Hand-drawn curve from ~120 m (~39) to ~1800 m (~85) - not traced. CAL. RES. band '40 | 140', boundary at ~220 m. Second coordinate's 4th digit is overwritten ('225550', could be 225650). Schlumberger 200 m sits on the curve; 300 m x is smudged. Monopole 700 m and 900 m dots touch the drawn curve (900 m dot faint - guess). No Schlumberger x found at 900/1000 m. Off-grid speck at ~380 m/~60 skipped. Footer '(54088)', margin '6.130'."
+},
+{
+"page": 61,
+"dp": "54",
+"file": "001",
+"job": "GT/149/74",
+"coords": [
+"170100 - 224050",
+"172300 - 225060"
+],
+"elev": null,
+"x_label": "m",
+"y_decades": [
+1,
+10,
+100
+],
+"x_decades": [
+10,
+100,
+1000,
+10000
+],
+"schlumberger": [
+[
+100,
+22
+],
+[
+200,
+12
+],
+[
+300,
+18
+],
+[
+400,
+15
+],
+[
+500,
+15
+],
+[
+600,
+21
+],
+[
+700,
+28
+],
+[
+800,
+70
+],
+[
+900,
+44
+]
+],
+"monopole": [
+[
+100,
+15
+],
+[
+200,
+14
+],
+[
+300,
+13
+],
+[
+400,
+8.2
+],
+[
+500,
+9.8
+],
+[
+600,
+13
+],
+[
+700,
+16
+],
+[
+800,
+12
+],
+[
+900,
+14
+],
+[
+1000,
+13
+]
+],
+"model": null,
+"sure": true,
+"note": "No CAL. RES. model, no drawn curve. Second coordinate printed '172300' with an overwritten 3rd digit (could be 172800); '225.060' printed with a stray dot. No Schlumberger x at 1000 m. Small specks above the 100 m and 400 m points skipped. Footer '(54089)', margin '6.130'."
+},
+{
+"page": 62,
+"dp": "57",
+"file": "001",
+"job": "GT/149/74",
+"coords": [
+"184350 - 219900",
+"184500 - 221800"
+],
+"elev": null,
+"x_label": "m",
+"y_decades": [
+1,
+10,
+100
+],
+"x_decades": [
+10,
+100,
+1000,
+10000
+],
+"schlumberger": [
+[
+100,
+2.9
+],
+[
+200,
+4.1
+],
+[
+300,
+3.8
+],
+[
+400,
+2.5
+],
+[
+500,
+1.9
+],
+[
+600,
+3.5
+],
+[
+700,
+3.5
+],
+[
+800,
+5.5
+],
+[
+900,
+5.8
+],
+[
+1000,
+6.2
+]
+],
+"monopole": [
+[
+100,
+2.0
+],
+[
+200,
+2.4
+],
+[
+300,
+1.7
+],
+[
+400,
+2.0
+],
+[
+500,
+3.0
+],
+[
+600,
+3.9
+],
+[
+700,
+4.0
+],
+[
+800,
+5.1
+],
+[
+900,
+7.9
+],
+[
+1000,
+8.9
+]
+],
+"model": null,
+"sure": true,
+"note": "No CAL. RES. model, no drawn curve. D.P. numbering jumps 54 -> 57 between p61 and p62. Specks skipped near ~390 m/18 and ~100 m/25. Footer '(54092)', margin '6.130'."
+},
+{
+"page": 63,
+"dp": "58",
+"file": "001",
+"job": "GT/149/74",
+"coords": [
+"184350 - 219900",
+"182960 - 219600"
+],
+"elev": null,
+"x_label": "m",
+"y_decades": [
+1,
+10,
+100
+],
+"x_decades": [
+10,
+100,
+1000,
+10000
+],
+"schlumberger": [
+[
+100,
+12
+],
+[
+200,
+9.1
+],
+[
+300,
+13
+],
+[
+400,
+15
+],
+[
+500,
+26
+],
+[
+600,
+38
+],
+[
+700,
+33
+],
+[
+800,
+42
+],
+[
+900,
+54
+],
+[
+1000,
+82
+]
+],
+"monopole": [
+[
+200,
+27
+],
+[
+300,
+40
+],
+[
+400,
+61
+],
+[
+700,
+25
+],
+[
+800,
+23
+],
+[
+900,
+25
+],
+[
+1000,
+17
+],
+[
+2500,
+12
+]
+],
+"model": null,
+"sure": false,
+"note": "No CAL. RES. model, no drawn curve. No monopole dots at 100, 500, 600 m. Isolated clear dot at ~2500 m / 12 ohm.m (on a grid line, far from the other points) included as monopole but may be a stray mark - x read as 2500 (computed ~2590). Footer '(54093)', margin '6.130'."
+},
+{
+"page": 64,
+"dp": "59",
+"file": "001",
+"job": "GT/149/74",
+"coords": [
+"186700 - 215850",
+"187300 - 217250"
+],
+"elev": null,
+"x_label": "m",
+"y_decades": [
+1,
+10,
+100
+],
+"x_decades": [
+10,
+100,
+1000,
+10000
+],
+"schlumberger": [
+[
+100,
+18
+],
+[
+200,
+23
+],
+[
+400,
+42
+],
+[
+500,
+52
+],
+[
+700,
+70
+],
+[
+800,
+93
+]
+],
+"monopole": [
+[
+100,
+17
+],
+[
+100,
+26
+],
+[
+200,
+18
+],
+[
+200,
+37
+],
+[
+300,
+28
+],
+[
+300,
+35
+],
+[
+400,
+32
+],
+[
+400,
+35
+],
+[
+600,
+41
+],
+[
+600,
+59
+],
+[
+700,
+63
+],
+[
+800,
+21
+],
+[
+900,
+85
+]
+],
+"model": {
+"rho": [
+17,
+170
+],
+"edges_m": [
+170
+]
+},
+"sure": false,
+"note": "Messy sheet. Hand-drawn curve from ~90 m (~17) to ~1050 m (~72) - not traced. CAL. RES. band '17 | 170', boundary at ~170 m. Many dots: several spacings carry two dots (100, 200, 300, 400, 600 m) - all clear dots kept as monopole, cannot tell which (if any) is a stray. Schlumberger 100 m and 200 m x's are merged with the drawn curve (y by eye); no x separable at 300, 600, 900, 1000 m (a hook-shaped mark at 600 m/~53 on the curve not included). Not included: small faint dot at 900 m/~100 at the top edge, faint marks near 800 m/~80 and 1000 m/~50, dirt cluster near 170-190 m/~19. Footer '(54094)', margin '6.130'."
+},
+{
+"page": 65,
+"dp": "60",
+"file": "001",
+"job": "GT/149/74",
+"coords": [
+"186700 - 215850",
+"185000 - 216950"
+],
+"elev": null,
+"x_label": "m",
+"y_decades": [
+1,
+10,
+100
+],
+"x_decades": [
+10,
+100,
+1000,
+10000
+],
+"schlumberger": [
+[
+100,
+16
+],
+[
+200,
+22
+],
+[
+300,
+24
+],
+[
+400,
+23
+],
+[
+500,
+23
+],
+[
+600,
+24
+],
+[
+700,
+28
+],
+[
+800,
+32
+],
+[
+900,
+35
+],
+[
+1000,
+25
+]
+],
+"monopole": [
+[
+100,
+19
+],
+[
+100,
+7.9
+],
+[
+200,
+18
+],
+[
+200,
+10
+],
+[
+300,
+21
+],
+[
+300,
+19
+],
+[
+400,
+27
+],
+[
+400,
+22
+],
+[
+500,
+36
+],
+[
+600,
+49
+],
+[
+600,
+17
+],
+[
+700,
+65
+],
+[
+700,
+58
+],
+[
+800,
+45
+],
+[
+800,
+8.3
+],
+[
+900,
+63
+],
+[
+900,
+5.2
+],
+[
+1000,
+3.2
+]
+],
+"model": {
+"rho": [
+18,
+90
+],
+"edges_m": [
+200
+]
+},
+"sure": true,
+"note": "Hand-drawn smooth curve from x=100 (rho~18) rising to ~62 at x~1900 (not traced). CAL. RES. band: 18 left of boundary at 200 m, 90 right of it; outer box edges not marked. Footer also shows '(54095)'. Monopole points scattered widely; several x=1000 'x' symbol drawn like a 'Y'."
+},
+{
+"page": 66,
+"dp": "61",
+"file": "001",
+"job": "GT/149/74",
+"coords": [
+"191200 - 216400",
+"190600 - 214800"
+],
+"elev": null,
+"x_label": "m",
+"y_decades": [
+1,
+10,
+100
+],
+"x_decades": [
+10,
+100,
+1000,
+10000
+],
+"schlumberger": [
+[
+100,
+11
+],
+[
+200,
+15
+],
+[
+300,
+17
+],
+[
+400,
+23
+],
+[
+500,
+27
+],
+[
+600,
+30
+],
+[
+800,
+49
+],
+[
+900,
+37
+],
+[
+1000,
+59
+]
+],
+"monopole": [
+[
+100,
+25
+],
+[
+100,
+3.7
+],
+[
+200,
+5.1
+],
+[
+300,
+10
+],
+[
+400,
+9.8
+],
+[
+500,
+12
+],
+[
+600,
+17
+],
+[
+700,
+18
+],
+[
+800,
+17
+],
+[
+900,
+20
+]
+],
+"model": null,
+"sure": false,
+"note": "No curve, CAL. RES. band empty. Footer also shows '(54096)'. Uncertain: symbol at 400/23 is a blotted blob, read as Schlumberger x (could be a dot); small faint mark at 400/~18 (possibly a faint x) skipped; small mark at 100/25 read as monopole dot but could be dirt. Specks near 380/62 and 930/~3.5 and in the 1-10 m decade skipped as dirt. No Schlumberger point visible at 700 m."
+},
+{
+"page": 67,
+"dp": "62",
+"file": "001",
+"job": "GT/149/74",
+"coords": [
+"192300 - 215350",
+"191200 - 216400"
+],
+"elev": null,
+"x_label": "m",
+"y_decades": [
+1,
+10,
+100
+],
+"x_decades": [
+10,
+100,
+1000,
+10000
+],
+"schlumberger": [
+[
+100,
+9.2
+],
+[
+200,
+12
+],
+[
+300,
+14
+],
+[
+400,
+18
+],
+[
+500,
+20
+],
+[
+600,
+24
+],
+[
+700,
+24
+],
+[
+800,
+21
+],
+[
+900,
+19
+],
+[
+1000,
+22
+]
+],
+"monopole": [
+[
+100,
+9.5
+],
+[
+200,
+13
+],
+[
+300,
+17
+],
+[
+400,
+22
+],
+[
+500,
+27
+],
+[
+600,
+34
+],
+[
+700,
+42
+],
+[
+800,
+53
+],
+[
+900,
+67
+],
+[
+1000,
+74
+]
+],
+"model": {
+"rho": [
+8,
+160
+],
+"edges_m": [
+140
+]
+},
+"sure": true,
+"note": "Hand-drawn smooth curve from ~55 m (rho~8) rising to ~44 at 1000 m (not traced). CAL. RES. band: 8 | 160 with boundary at ~140 m (read from line position, could be 150). Footer also shows '(54097)'. Small specks at 100/~25, ~340/~13 and ~680/~14 skipped as dirt."
+},
+{
+"page": 68,
+"dp": "63",
+"file": "001",
+"job": "GT/149/74",
+"coords": [
+"197000 - 217200",
+"196200 - 215650"
+],
+"elev": null,
+"x_label": "m",
+"y_decades": [
+1,
+10,
+100
+],
+"x_decades": [
+10,
+100,
+1000,
+10000
+],
+"schlumberger": [
+[
+100,
+11
+],
+[
+200,
+1.1
+],
+[
+300,
+3.7
+],
+[
+400,
+9.8
+],
+[
+500,
+5.8
+],
+[
+600,
+6
+],
+[
+700,
+21
+],
+[
+900,
+16
+],
+[
+1000,
+8.4
+]
+],
+"monopole": [
+[
+100,
+3.1
+],
+[
+200,
+12
+],
+[
+300,
+12
+],
+[
+400,
+10
+],
+[
+500,
+5.2
+],
+[
+600,
+8.7
+],
+[
+800,
+10
+],
+[
+900,
+11
+],
+[
+1000,
+12
+]
+],
+"model": null,
+"sure": true,
+"note": "No curve, CAL. RES. band empty. Footer also shows '(54098)'. Very scattered points. Faint specks at 100/~25, 300/~7, 900/~4.5 and near 900-1000/~22 skipped as dirt. No Schlumberger at 800 m, no monopole at 700 m. Points at 1000 m sit slightly right of the 1000 line."
+},
+{
+"page": 69,
+"dp": "64",
+"file": "001",
+"job": "GT/149/74",
+"coords": [
+"197000 - 217200",
+"195550 - 218400"
+],
+"elev": null,
+"x_label": "m",
+"y_decades": [
+1,
+10,
+100
+],
+"x_decades": [
+10,
+100,
+1000,
+10000
+],
+"schlumberger": [
+[
+100,
+25
+],
+[
+200,
+23
+],
+[
+300,
+12
+],
+[
+400,
+4.9
+],
+[
+500,
+21
+],
+[
+600,
+40
+],
+[
+700,
+30
+],
+[
+800,
+18
+],
+[
+900,
+40
+],
+[
+1000,
+48
+]
+],
+"monopole": [
+[
+300,
+7.2
+],
+[
+400,
+5.7
+],
+[
+500,
+6.6
+],
+[
+600,
+7.2
+],
+[
+650,
+7.4
+],
+[
+700,
+5.5
+],
+[
+800,
+8
+],
+[
+900,
+8.8
+],
+[
+1000,
+8.7
+]
+],
+"model": null,
+"sure": false,
+"note": "No curve, CAL. RES. band empty. Footer also shows '(54099)'. Two monopole dots close together at 600 and 650 m (650 sits on the 650 minor line). Small mark on the 90 m line at ~46 (could be a faint x) skipped; other specks (e.g. ~70 m/2.2, ~15 m/4) and faint pencil strokes near 800-900 m/~85 skipped as dirt."
+},
+{
+"page": 70,
+"dp": "65",
+"file": "001",
+"job": "GT/149/74",
+"coords": [
+"199900 - 214300"
+],
+"elev": null,
+"x_label": "m",
+"y_decades": [
+1,
+10,
+100
+],
+"x_decades": [
+10,
+100,
+1000,
+10000
+],
+"schlumberger": [
+[
+100,
+53
+],
+[
+200,
+3.5
+],
+[
+300,
+2.7
+],
+[
+400,
+8.9
+],
+[
+500,
+19
+],
+[
+600,
+6.1
+],
+[
+700,
+8.1
+],
+[
+800,
+6.5
+],
+[
+900,
+9.8
+],
+[
+1000,
+3
+]
+],
+"monopole": [
+[
+100,
+60
+],
+[
+200,
+35
+],
+[
+300,
+10
+],
+[
+400,
+18
+],
+[
+400,
+16
+],
+[
+500,
+25
+],
+[
+600,
+26
+],
+[
+700,
+37
+],
+[
+800,
+36
+],
+[
+900,
+33
+],
+[
+1000,
+24
+]
+],
+"model": null,
+"sure": false,
+"note": "No curve, CAL. RES. band empty. Only one coordinate pair printed; footer also shows '(54100)'. Uncertain: 900/33 is a hollow circle (read as monopole); 400/18 is a small faint dot (second monopole at 400, could be dirt); 300/10 is a blob on a grid intersection. Mark at 100/~27 and dot at ~930/3.7 (off grid line) skipped as dirt."
+},
+{
+"page": 71,
+"dp": "66",
+"file": "001",
+"job": "GT/149/74",
+"coords": [
+"197400 - 213150",
+"188000 - 212700"
+],
+"elev": null,
+"x_label": "m",
+"y_decades": [
+1,
+10,
+100
+],
+"x_decades": [
+10,
+100,
+1000,
+10000
+],
+"schlumberger": [
+[
+100,
+24
+],
+[
+200,
+25
+],
+[
+300,
+48
+],
+[
+400,
+39
+],
+[
+500,
+35
+],
+[
+600,
+50
+],
+[
+700,
+38
+],
+[
+1000,
+12
+]
+],
+"monopole": [
+[
+100,
+92
+],
+[
+200,
+72
+],
+[
+300,
+82
+],
+[
+400,
+72
+],
+[
+500,
+66
+],
+[
+600,
+66
+],
+[
+700,
+55
+],
+[
+800,
+56
+],
+[
+900,
+47
+]
+],
+"model": null,
+"sure": true,
+"note": "No curve, CAL. RES. band empty. Footer also shows '(54101)'. Second coordinate pair read as '188000 - 212700' (first digits slightly smudged). Specks near 100/~26, ~380/~63 and ~420/~17 skipped as dirt."
+},
+{
+"page": 72,
+"dp": "71",
+"file": "001",
+"job": "GT/149/74",
+"coords": [
+"163550 - 223200",
+"163900 - 234900"
+],
+"elev": null,
+"x_label": "m",
+"y_decades": [
+1,
+10,
+100
+],
+"x_decades": [
+10,
+100,
+1000,
+10000
+],
+"schlumberger": [
+[
+100,
+7.1
+],
+[
+200,
+5.9
+],
+[
+300,
+7.7
+],
+[
+400,
+7.7
+],
+[
+500,
+5.7
+],
+[
+600,
+12
+],
+[
+700,
+7.1
+],
+[
+800,
+10
+],
+[
+900,
+17
+],
+[
+1000,
+15
+]
+],
+"monopole": [
+[
+200,
+17
+],
+[
+300,
+18
+],
+[
+400,
+26
+],
+[
+500,
+29
+],
+[
+600,
+27
+],
+[
+700,
+45
+],
+[
+800,
+42
+],
+[
+900,
+78
+],
+[
+1000,
+93
+],
+[
+2400,
+9.3
+]
+],
+"model": null,
+"sure": false,
+"note": "No curve, CAL. RES. band empty. DP number is 71 (sheets jump from 66 to 71). Footer also shows '(54105)'. Coordinates hard to read: '223200' could be '228200', '234900' could be '224900'. Isolated dot far right at ~2350-2400 m / 9.3 (between grid lines, read as 2400) kept as monopole but may be a stray mark. Small dot at ~950 m / 4.6 (off the 100 m grid) skipped as possible dirt."
+},
+{
+"page": 73,
+"dp": "72",
+"file": "001",
+"job": "GT/149/74",
+"coords": [
+"163900 - 234900"
+],
+"elev": null,
+"x_label": "m",
+"y_decades": [
+10,
+100,
+1000
+],
+"x_decades": [
+10,
+100,
+1000,
+10000
+],
+"schlumberger": [
+[
+100,
+14
+],
+[
+200,
+16
+],
+[
+300,
+19
+],
+[
+400,
+31
+],
+[
+500,
+53
+],
+[
+600,
+64
+],
+[
+700,
+98
+],
+[
+800,
+110
+],
+[
+900,
+110
+],
+[
+1000,
+120
+]
+],
+"monopole": [
+[
+100,
+10
+],
+[
+200,
+14
+],
+[
+300,
+20
+],
+[
+400,
+24
+],
+[
+500,
+23
+],
+[
+700,
+20
+],
+[
+800,
+35
+],
+[
+900,
+43
+],
+[
+1000,
+28
+]
+],
+"model": null,
+"sure": false,
+"note": "y axis decades 10-100-1000 on this sheet. No curve, CAL. RES. band empty. Only one coordinate pair; footer also shows '(54107)'. Uncertain: 1000/28 is a small dot on the grid line (could be dirt); 100/10 dot sits right on the bottom edge. A small second dot just above 900/43 skipped. A faint dashed hand-drawn stroke near 7000-9000 m / 15-30 (by the legend) is not data. No monopole at 600 m."
+},
+{
+"page": 74,
+"dp": "73",
+"file": "001",
+"job": "GT/149/74",
+"coords": [
+"177650 - 229300",
+"177480 - 231220"
+],
+"elev": null,
+"x_label": "m",
+"y_decades": [
+1,
+10,
+100
+],
+"x_decades": [
+10,
+100,
+1000,
+10000
+],
+"schlumberger": [
+[
+100,
+8.2
+],
+[
+200,
+9.8
+],
+[
+300,
+9.2
+],
+[
+400,
+15
+],
+[
+500,
+23
+],
+[
+600,
+19
+],
+[
+700,
+21
+],
+[
+900,
+12
+],
+[
+1000,
+23
+]
+],
+"monopole": [
+[
+100,
+11
+],
+[
+200,
+13
+],
+[
+300,
+18
+],
+[
+400,
+21
+],
+[
+500,
+27
+],
+[
+600,
+37
+],
+[
+700,
+33
+],
+[
+800,
+67
+]
+],
+"model": {
+"rho": [
+10,
+150
+],
+"edges_m": [
+170
+]
+},
+"sure": false,
+"note": "Hand-drawn smooth curve from ~75 m (rho~10) rising to ~68 at ~1900 m (not traced). CAL. RES. band: 10 | 150, boundary line at ~170 m. Footer also shows '(54108)'. '177480' in the second coordinate pair is overwritten and hard to read. Small blobs at ~95 m/~25 and ~390 m/~17 (both off the grid lines) skipped as dirt; the latter could be a second monopole at 400. No Schlumberger at 800 m, no monopole at 900/1000 m."
+},
+{
+"page": 75,
+"dp": "74",
+"file": "001",
+"job": "GT/149/74",
+"coords": [
+"175700 - 229520",
+"177650 - 229300"
+],
+"elev": null,
+"x_label": "m",
+"y_decades": [
+1,
+10,
+100
+],
+"x_decades": [
+10,
+100,
+1000,
+10000
+],
+"schlumberger": [
+[
+100,
+1.6
+],
+[
+200,
+1.5
+],
+[
+300,
+2.1
+],
+[
+400,
+2.3
+],
+[
+500,
+3.5
+],
+[
+600,
+4.3
+],
+[
+700,
+5.2
+],
+[
+800,
+6.1
+],
+[
+900,
+8.3
+],
+[
+1000,
+11
+]
+],
+"monopole": [
+[
+100,
+20
+],
+[
+200,
+18
+],
+[
+300,
+16
+],
+[
+400,
+14
+],
+[
+500,
+18
+],
+[
+600,
+18
+],
+[
+700,
+12
+],
+[
+800,
+15
+],
+[
+900,
+17
+],
+[
+1000,
+19
+]
+],
+"model": null,
+"sure": true,
+"note": "No curve through the data, CAL. RES. band empty. A short hand-drawn pencil line near the legend (~2400-4500 m, rho ~1.4-1.6) is not data. Footer also shows '(54109)'. Specks at 100/~25 (recurs on several sheets), ~390/~19 and 900/~4.4 skipped as dirt."
+},
+{
+"page": 76,
+"dp": "75",
+"file": "001",
+"job": "GT/149/74",
+"coords": [
+"186200 - 231150"
+],
+"elev": null,
+"x_label": "m",
+"y_decades": [
+10,
+100,
+1000
+],
+"x_decades": [
+10,
+100,
+1000,
+10000
+],
+"schlumberger": [
+[
+100,
+25
+],
+[
+200,
+36
+],
+[
+300,
+37
+],
+[
+500,
+60
+],
+[
+600,
+67
+],
+[
+700,
+93
+],
+[
+800,
+110
+],
+[
+900,
+150
+],
+[
+1000,
+210
+]
+],
+"monopole": [
+[
+100,
+31
+],
+[
+200,
+31
+],
+[
+300,
+33
+],
+[
+400,
+33
+],
+[
+500,
+29
+],
+[
+600,
+45
+],
+[
+700,
+27
+],
+[
+800,
+29
+],
+[
+900,
+31
+],
+[
+1000,
+43
+]
+],
+"model": null,
+"sure": true,
+"note": "y axis decades 10-100-1000 on this sheet. CAL. RES. band empty. A short hand-drawn pencil stroke near 3000-3300 m (rho ~28-55) is not data and was not traced. Only one coordinate pair; footer also shows '(54110)'. No Schlumberger point at 400 m."
+},
+{
+"page": 77,
+"dp": "76",
+"file": "001",
+"job": "GT/149/74",
+"coords": [
+"185400 - 228650",
+"187200 - 229850"
+],
+"elev": null,
+"x_label": "m",
+"y_decades": [
+1,
+10,
+100
+],
+"x_decades": [
+10,
+100,
+1000,
+10000
+],
+"schlumberger": [
+[
+100,
+4.4
+],
+[
+200,
+4.7
+],
+[
+300,
+4.9
+],
+[
+400,
+5.1
+],
+[
+500,
+6.1
+],
+[
+600,
+6.7
+],
+[
+700,
+7.9
+],
+[
+800,
+8.7
+],
+[
+900,
+11
+],
+[
+1000,
+13
+]
+],
+"monopole": [
+[
+100,
+1.7
+],
+[
+200,
+2.5
+],
+[
+300,
+3
+],
+[
+400,
+3.9
+],
+[
+500,
+3.5
+],
+[
+600,
+3.3
+],
+[
+700,
+2.6
+],
+[
+800,
+2.8
+],
+[
+900,
+4.9
+],
+[
+1000,
+4.5
+]
+],
+"model": null,
+"sure": true,
+"note": "CAL. RES. band empty. A hand-drawn pencil stroke near 3500-5000 m (rho ~2.3-4.6) and a very faint dashed pencil line across ~250-600 m at rho ~6-7 are not data (not traced). Footer also shows '(54111)'. Small dot just right of the 900 m line at ~4.5 skipped as dirt."
+},
+{
+"page": 78,
+"dp": "77",
+"file": "001",
+"job": "GT/149/74",
+"coords": [
+"187800 - 220500",
+"187450 - 222450"
+],
+"elev": null,
+"x_label": "m",
+"y_decades": [
+10,
+100,
+1000
+],
+"x_decades": [
+10,
+100,
+1000,
+10000
+],
+"schlumberger": [
+[
+100,
+17
+],
+[
+200,
+27
+],
+[
+300,
+27
+],
+[
+400,
+27
+],
+[
+500,
+31
+],
+[
+600,
+33
+],
+[
+700,
+36
+],
+[
+800,
+38
+],
+[
+900,
+41
+],
+[
+1000,
+36
+]
+],
+"monopole": [
+[
+100,
+11
+],
+[
+200,
+18
+],
+[
+300,
+33
+],
+[
+400,
+45
+],
+[
+500,
+81
+],
+[
+600,
+67
+],
+[
+700,
+76
+],
+[
+800,
+91
+],
+[
+900,
+98
+],
+[
+1000,
+110
+]
+],
+"model": {
+"rho": [
+10,
+200
+],
+"edges_m": [
+100
+]
+},
+"sure": true,
+"note": "y axis decades 10-100-1000 on this sheet. Hand-drawn smooth curve from ~55 m (rho~10) rising to ~115 at ~2600 m (not traced); 300 m x sits in a gap of the curve. CAL. RES. band: 10 | 200 with boundary at ~100 m. Footer also shows '(54112)'. Ink scribble near 1000 m / ~600 is not a data point."
+},
+{
+"page": 79,
+"dp": "78",
+"file": "001",
+"job": "GT/149/74",
+"coords": [
+"187800 - 220500",
+"189650 - 221450"
+],
+"elev": null,
+"x_label": "m",
+"y_decades": [
+10,
+100,
+1000
+],
+"x_decades": [
+10,
+100,
+1000,
+10000
+],
+"schlumberger": [
+[
+100,
+32
+],
+[
+200,
+31
+],
+[
+300,
+26
+],
+[
+400,
+31
+],
+[
+500,
+27
+],
+[
+600,
+30
+],
+[
+700,
+36
+],
+[
+800,
+31
+],
+[
+900,
+28
+],
+[
+1000,
+29
+]
+],
+"monopole": [
+[
+100,
+10
+],
+[
+200,
+17
+],
+[
+300,
+21
+],
+[
+400,
+28
+],
+[
+500,
+40
+],
+[
+600,
+59
+],
+[
+700,
+69
+],
+[
+800,
+77
+],
+[
+900,
+94
+],
+[
+1000,
+160
+]
+],
+"model": null,
+"sure": true,
+"note": "y axis decades 10-100-1000 on this sheet. CAL. RES. band empty. Short hand-drawn pencil strokes near 4500-7000 m (rho ~120-190) are not data. Monopole at 100 m sits on the bottom edge of the plot (~10, could be clipped lower). Footer also shows '(54113)'."
+},
+{
+"page": 80,
+"dp": "79",
+"file": "001",
+"job": "GT/149/74",
+"coords": [
+"195500 - 222700"
+],
+"elev": null,
+"x_label": "m",
+"y_decades": [
+10,
+100,
+1000
+],
+"x_decades": [
+10,
+100,
+1000,
+10000
+],
+"schlumberger": [
+[
+200,
+250
+],
+[
+300,
+150
+],
+[
+400,
+63
+],
+[
+500,
+91
+],
+[
+600,
+92
+],
+[
+700,
+65
+],
+[
+800,
+18
+],
+[
+1000,
+12
+],
+[
+1100,
+47
+]
+],
+"monopole": [
+[
+100,
+80
+],
+[
+200,
+81
+],
+[
+300,
+85
+],
+[
+500,
+70
+],
+[
+600,
+73
+],
+[
+700,
+57
+],
+[
+800,
+57
+],
+[
+900,
+71
+],
+[
+1000,
+93
+]
+],
+"model": null,
+"sure": false,
+"note": "y axis decades 10-100-1000 on this sheet. CAL. RES. band empty. Only one coordinate pair; footer also shows '(54114)'. One x sits on the 1100 m line (47). An x is drawn below the plot at ~900 m, beneath the x-axis labels (off scale, value < 10, not readable), not listed. A hand-drawn pencil line near 2000-4200 m (rho ~140-175) is not data. Speck at 100/~250 and small speck near 400/~180 skipped. No Schlumberger at 100 or 900 m, no monopole at 400 m."
+},
+{
+"page": 81,
+"dp": "80",
+"file": "001",
+"job": "GT/149/74",
+"coords": [
+"193500 - 223200"
+],
+"elev": null,
+"x_label": "m",
+"y_decades": [
+1,
+10,
+100
+],
+"x_decades": [
+10,
+100,
+1000,
+10000
+],
+"schlumberger": [
+[
+200,
+3.6
+],
+[
+300,
+4
+],
+[
+400,
+5.1
+],
+[
+500,
+4.6
+],
+[
+600,
+5.2
+],
+[
+700,
+5.1
+],
+[
+800,
+1.5
+],
+[
+900,
+4.5
+],
+[
+1000,
+7.3
+]
+],
+"monopole": [
+[
+100,
+8.5
+],
+[
+200,
+7.2
+],
+[
+300,
+6.1
+],
+[
+400,
+6.7
+],
+[
+500,
+9.4
+],
+[
+600,
+5.9
+],
+[
+700,
+6.6
+],
+[
+800,
+8.3
+],
+[
+900,
+8.3
+],
+[
+1000,
+12
+]
+],
+"model": null,
+"sure": true,
+"note": "CAL. RES. band empty. A hand-drawn pencil line near 2200-4000 m (rho ~14-21) is not data. Only one coordinate pair; footer also shows '(54115)'. No Schlumberger point at 100 m. Speck at 100/~25 skipped."
+}
+]

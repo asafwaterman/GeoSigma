@@ -23,6 +23,8 @@ documents:
   - en
   scanned: true
   role: main_report
+  sha256: 562f029aef8835ec6ad46e6427f879adc9b36bf532da63f941867b5f1f9ae1c4
+  pages: 83
 - id: maps
   title: Maps
   filename: Rotstein-Y-Yizreel-Harod-Valleys-Electrical-Resistivity-Survey-IPRG-GT-149-74-2-1977-Maps.pdf
@@ -35,8 +37,9 @@ documents:
   pages: 43
 extraction_status: partial
 notes: 'Roving-dipole apparent-resistivity maps (Maps PDF, Figures 3-36, 34 transmitters) transcribed by eye, station
-  positions by script. Not yet extracted: the pseudosections and composite maps (Maps pages 37-42) and the main
-  report (not supplied; over the connector limit).'
+  positions by script. Main report appendix: 34 modified Schlumberger and monopole sounding sheets, points read
+  by eye (66 curves); 10 sheets carry a two-layer model. Not yet extracted: dipole-dipole pseudosections and composite
+  maps (Maps pages 37-42).'
 sites:
 - id: RD-1
   name: Roving-dipole station 1
@@ -5654,3 +5657,338 @@ sites:
     source: map
     accuracy_m: 100
   notes: Median position over 1 map(s) at 1:50,000.
+- id: DS-41
+  name: Depth sounding D.P. 41
+  coords:
+    x: 165200
+    y: 230650
+    crs: EPSG:28193
+    source: table
+    accuracy_m: 100
+  notes: 'Second coordinate pair on the sheet; the first (shared with the other sounding of the same source) is
+    taken as the source: 164400 - 228950; 165200 - 230650'
+- id: DS-42
+  name: Depth sounding D.P. 42
+  coords:
+    x: 166050
+    y: 227800
+    crs: EPSG:28193
+    source: table
+    accuracy_m: 100
+  notes: 'Second coordinate pair on the sheet; the first (shared with the other sounding of the same source) is
+    taken as the source: 164400 - 228950; 166050 - 227800'
+- id: DS-43
+  name: Depth sounding D.P. 43
+  coords:
+    x: 175000
+    y: 225150
+    crs: EPSG:28193
+    source: table
+    accuracy_m: 100
+  notes: 'Second coordinate pair on the sheet; the first (shared with the other sounding of the same source) is
+    taken as the source: 174550 - 227200; 175000 - 225150'
+- id: DS-44
+  name: Depth sounding D.P. 44
+  coords:
+    x: 176400
+    y: 227560
+    crs: EPSG:28193
+    source: table
+    accuracy_m: 100
+  notes: 'Second coordinate pair on the sheet; the first (shared with the other sounding of the same source) is
+    taken as the source: 174550 - 227200; 176400 - 227560'
+- id: DS-45
+  name: Depth sounding D.P. 45
+  coords:
+    x: 162700
+    y: 233600
+    crs: EPSG:28193
+    source: table
+    accuracy_m: 100
+  notes: 'Second coordinate pair on the sheet; the first (shared with the other sounding of the same source) is
+    taken as the source: 161700 - 232100; 162700 - 233600'
+- id: DS-46
+  name: Depth sounding D.P. 46
+  coords:
+    x: 160250
+    y: 233150
+    crs: EPSG:28193
+    source: table
+    accuracy_m: 100
+  notes: 'Second coordinate pair on the sheet; the first (shared with the other sounding of the same source) is
+    taken as the source: 161700 - 232100; 160250 - 233150'
+- id: DS-47
+  name: Depth sounding D.P. 47
+  coords:
+    x: 171200
+    y: 221150
+    crs: EPSG:28193
+    source: table
+    accuracy_m: 100
+  notes: 'Second coordinate pair on the sheet; the first (shared with the other sounding of the same source) is
+    taken as the source: 172300 - 219900; 171200 - 221150'
+- id: DS-48
+  name: Depth sounding D.P. 48
+  coords:
+    x: 173450
+    y: 221200
+    crs: EPSG:28193
+    source: table
+    accuracy_m: 100
+  notes: 'Second coordinate pair on the sheet; the first (shared with the other sounding of the same source) is
+    taken as the source: 172300 - 219900; 173450 - 221200'
+- id: DS-49
+  name: Depth sounding D.P. 49
+  coords:
+    x: 177300
+    y: 220700
+    crs: EPSG:28193
+    source: table
+    accuracy_m: 100
+  notes: 'Second coordinate pair on the sheet; the first (shared with the other sounding of the same source) is
+    taken as the source: 177400 - 218700; 177300 - 220700'
+- id: DS-50
+  name: Depth sounding D.P. 50
+  coords:
+    x: 179100
+    y: 218600
+    crs: EPSG:28193
+    source: table
+    accuracy_m: 100
+  notes: 'Second coordinate pair on the sheet; the first (shared with the other sounding of the same source) is
+    taken as the source: 177400 - 218700; 179100 - 218600'
+- id: DS-51
+  name: Depth sounding D.P. 51
+  coords:
+    x: 176780
+    y: 214950
+    crs: EPSG:28193
+    source: table
+    accuracy_m: 100
+  notes: 'Second coordinate pair on the sheet; the first (shared with the other sounding of the same source) is
+    taken as the source: 176150 - 213400; 176780 - 214950'
+- id: DS-52
+  name: Depth sounding D.P. 52
+  coords:
+    x: 174400
+    y: 214100
+    crs: EPSG:28193
+    source: table
+    accuracy_m: 100
+  notes: 'Second coordinate pair on the sheet; the first (shared with the other sounding of the same source) is
+    taken as the source: 176150 - 213400; 174400 - 214100'
+- id: DS-53
+  name: Depth sounding D.P. 53
+  coords:
+    x: 169950
+    y: 225550
+    crs: EPSG:28193
+    source: table
+    accuracy_m: 100
+  notes: 'Second coordinate pair on the sheet; the first (shared with the other sounding of the same source) is
+    taken as the source: 170100 - 224050; 169950 - 225550'
+- id: DS-54
+  name: Depth sounding D.P. 54
+  coords:
+    x: 172300
+    y: 225060
+    crs: EPSG:28193
+    source: table
+    accuracy_m: 100
+  notes: 'Second coordinate pair on the sheet; the first (shared with the other sounding of the same source) is
+    taken as the source: 170100 - 224050; 172300 - 225060'
+- id: DS-57
+  name: Depth sounding D.P. 57
+  coords:
+    x: 184500
+    y: 221800
+    crs: EPSG:28193
+    source: table
+    accuracy_m: 100
+  notes: 'Second coordinate pair on the sheet; the first (shared with the other sounding of the same source) is
+    taken as the source: 184350 - 219900; 184500 - 221800'
+- id: DS-58
+  name: Depth sounding D.P. 58
+  coords:
+    x: 182960
+    y: 219600
+    crs: EPSG:28193
+    source: table
+    accuracy_m: 100
+  notes: 'Second coordinate pair on the sheet; the first (shared with the other sounding of the same source) is
+    taken as the source: 184350 - 219900; 182960 - 219600'
+- id: DS-59
+  name: Depth sounding D.P. 59
+  coords:
+    x: 187300
+    y: 217250
+    crs: EPSG:28193
+    source: table
+    accuracy_m: 100
+  notes: 'Second coordinate pair on the sheet; the first (shared with the other sounding of the same source) is
+    taken as the source: 186700 - 215850; 187300 - 217250'
+- id: DS-60
+  name: Depth sounding D.P. 60
+  coords:
+    x: 185000
+    y: 216950
+    crs: EPSG:28193
+    source: table
+    accuracy_m: 100
+  notes: 'Second coordinate pair on the sheet; the first (shared with the other sounding of the same source) is
+    taken as the source: 186700 - 215850; 185000 - 216950'
+- id: DS-61
+  name: Depth sounding D.P. 61
+  coords:
+    x: 190600
+    y: 214800
+    crs: EPSG:28193
+    source: table
+    accuracy_m: 100
+  notes: 'Second coordinate pair on the sheet; the first (shared with the other sounding of the same source) is
+    taken as the source: 191200 - 216400; 190600 - 214800'
+- id: DS-62
+  name: Depth sounding D.P. 62
+  coords:
+    x: 191200
+    y: 216400
+    crs: EPSG:28193
+    source: table
+    accuracy_m: 100
+  notes: 'Second coordinate pair on the sheet; the first (shared with the other sounding of the same source) is
+    taken as the source: 192300 - 215350; 191200 - 216400'
+- id: DS-63
+  name: Depth sounding D.P. 63
+  coords:
+    x: 196200
+    y: 215650
+    crs: EPSG:28193
+    source: table
+    accuracy_m: 100
+  notes: 'Second coordinate pair on the sheet; the first (shared with the other sounding of the same source) is
+    taken as the source: 197000 - 217200; 196200 - 215650'
+- id: DS-64
+  name: Depth sounding D.P. 64
+  coords:
+    x: 195550
+    y: 218400
+    crs: EPSG:28193
+    source: table
+    accuracy_m: 100
+  notes: 'Second coordinate pair on the sheet; the first (shared with the other sounding of the same source) is
+    taken as the source: 197000 - 217200; 195550 - 218400'
+- id: DS-65
+  name: Depth sounding D.P. 65
+  coords:
+    x: 199900
+    y: 214300
+    crs: EPSG:28193
+    source: table
+    accuracy_m: 100
+  notes: 'As printed: 199900 - 214300'
+- id: DS-66
+  name: Depth sounding D.P. 66
+  coords:
+    x: 188000
+    y: 212700
+    crs: EPSG:28193
+    source: table
+    accuracy_m: 100
+  notes: 'Second coordinate pair on the sheet; the first (shared with the other sounding of the same source) is
+    taken as the source: 197400 - 213150; 188000 - 212700'
+- id: DS-71
+  name: Depth sounding D.P. 71
+  coords:
+    x: 163900
+    y: 234900
+    crs: EPSG:28193
+    source: table
+    accuracy_m: 100
+  notes: 'Second coordinate pair on the sheet; the first (shared with the other sounding of the same source) is
+    taken as the source: 163550 - 223200; 163900 - 234900'
+- id: DS-72
+  name: Depth sounding D.P. 72
+  coords:
+    x: 163900
+    y: 234900
+    crs: EPSG:28193
+    source: table
+    accuracy_m: 100
+  notes: 'As printed: 163900 - 234900'
+- id: DS-73
+  name: Depth sounding D.P. 73
+  coords:
+    x: 177480
+    y: 231220
+    crs: EPSG:28193
+    source: table
+    accuracy_m: 100
+  notes: 'Second coordinate pair on the sheet; the first (shared with the other sounding of the same source) is
+    taken as the source: 177650 - 229300; 177480 - 231220'
+- id: DS-74
+  name: Depth sounding D.P. 74
+  coords:
+    x: 177650
+    y: 229300
+    crs: EPSG:28193
+    source: table
+    accuracy_m: 100
+  notes: 'Second coordinate pair on the sheet; the first (shared with the other sounding of the same source) is
+    taken as the source: 175700 - 229520; 177650 - 229300'
+- id: DS-75
+  name: Depth sounding D.P. 75
+  coords:
+    x: 186200
+    y: 231150
+    crs: EPSG:28193
+    source: table
+    accuracy_m: 100
+  notes: 'As printed: 186200 - 231150'
+- id: DS-76
+  name: Depth sounding D.P. 76
+  coords:
+    x: 187200
+    y: 229850
+    crs: EPSG:28193
+    source: table
+    accuracy_m: 100
+  notes: 'Second coordinate pair on the sheet; the first (shared with the other sounding of the same source) is
+    taken as the source: 185400 - 228650; 187200 - 229850'
+- id: DS-77
+  name: Depth sounding D.P. 77
+  coords:
+    x: 187450
+    y: 222450
+    crs: EPSG:28193
+    source: table
+    accuracy_m: 100
+  notes: 'Second coordinate pair on the sheet; the first (shared with the other sounding of the same source) is
+    taken as the source: 187800 - 220500; 187450 - 222450'
+- id: DS-78
+  name: Depth sounding D.P. 78
+  coords:
+    x: 189650
+    y: 221450
+    crs: EPSG:28193
+    source: table
+    accuracy_m: 100
+  notes: 'Second coordinate pair on the sheet; the first (shared with the other sounding of the same source) is
+    taken as the source: 187800 - 220500; 189650 - 221450'
+- id: DS-79
+  name: Depth sounding D.P. 79
+  coords:
+    x: 195500
+    y: 222700
+    crs: EPSG:28193
+    source: table
+    accuracy_m: 100
+  notes: 'As printed: 195500 - 222700'
+- id: DS-80
+  name: Depth sounding D.P. 80
+  coords:
+    x: 193500
+    y: 223200
+    crs: EPSG:28193
+    source: table
+    accuracy_m: 100
+  notes: 'As printed: 193500 - 223200'

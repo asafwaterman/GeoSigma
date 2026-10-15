@@ -80,7 +80,7 @@ def run() -> list[dict]:
     maps = next(d for d in survey["documents"] if d["id"] == "maps")
     maps.update(sha256="f801daad3e579ff8869044f9abe697638f9fbfb756b4194ea3fa1a0ff17079a0", pages=43)
     survey["extraction_status"] = "partial"
-    survey["notes"] = (f"Roving-dipole apparent-resistivity maps (Maps PDF, Figures 3-36, {len(ds)} transmitters) "
+    survey["notes"] = survey.get("notes") or (f"Roving-dipole apparent-resistivity maps (Maps PDF, Figures 3-36, {len(ds)} transmitters) "
                        "transcribed by eye, station positions by script. Not yet extracted: the pseudosections and "
                        "composite maps (Maps pages 37-42) and the main report (not supplied; over the connector limit).")
     sfile.write_text(yaml.safe_dump(survey, sort_keys=False, allow_unicode=True, width=110))
