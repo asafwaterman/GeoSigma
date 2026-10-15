@@ -261,7 +261,7 @@ function sourceCrop(d, v, i, whole) {
     + (v.boxes || []).map(([a, b, c, e]) => `<span class="hl" style="left:${((a - x0) / rw) * 100}%;top:${((b - y0) / rh) * 100}%;`
       + `width:${((c - a) / rw) * 100}%;height:${((e - b) / rh) * 100}%"></span>`).join("");
   return `<div class="crop${whole ? " whole" : ""}" data-i="${i}" title="Click to switch between this part and the whole page"
-    style="aspect-ratio:${rw / (rh * aspect)}"><img loading="lazy" alt="Source page ${v.page}" src="${img.src}"
+    style="aspect-ratio:${rw / (rh * aspect)}${v.rotate ? ";transform:rotate(" + v.rotate + "deg)" : ""}"><img loading="lazy" alt="Source page ${v.page}" src="${img.src}"
     style="width:${W}%;left:${left}%;top:${top}%" onerror="this.parentNode.replaceWith(Object.assign(document.createElement('p'),{className:'muted',textContent:'Source PDF not available locally.'}))">${rings}</div>`;
 }
 

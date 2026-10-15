@@ -25,6 +25,27 @@ FIG9_X = {k: round(v / 1986, 4) for k, v in {
     "9": 135, "6": 232, "5": 262, "4": 287, "2": 352, "1": 406, "7": 437, "8": 443, "21": 514, "10": 594,
     "22": 697, "11": 765, "12": 931, "13": 1032, "14": 1166, "15": 1277, "16": 1421, "19": 1537, "17": 1745,
     "20": 1862}.items()}
+# The author's interpreted model on field sheets of one layout: the CALC. RES. row, as
+# page (or sheet) fractions [x0, y0, x1, y1]. Checked against every sheet of the survey.
+SHEET_BAND = {
+    "paparo-1969-southern-arava": [0.02, 0.845, 0.98, 0.93],
+    "paparo-1970-shekhem": [0.0, 0.85, 0.98, 0.95],
+    "paparo-1977-revadim": [0.0, 0.855, 0.98, 0.925],
+    "klang-1970-mt-timna-ramon": [0.025, 0.835, 0.96, 0.92],
+    "rotstein-1977-yizreel-harod": [0.02, 0.845, 0.98, 0.895],
+    "klang-1974-mt-south-netanya": [0.02, 0.8, 0.98, 0.885],
+}
+SHEET_MODEL = (" The author's interpreted model is the boxed CALC. RES. row: one resistivity per layer inside the "
+               "boxes; the box edges, read on the AB/2 axis, are the layer boundaries. The curve above it is the "
+               "measured apparent resistivity, not the model.")
+MT_MODEL = (" The author's interpreted model is the boxed CALC. RES. row: one resistivity per layer inside the boxes, "
+            "the boundary depths written under the lines between them. The curve above it is the measured apparent "
+            "resistivity, not the model.")
+# Rotstein (1979) Figures 2 and 3: the inverted model is the small hatched inset of each panel.
+ROT_INSET = {"KFM": [0.19, 0.055, 0.245, 0.135], "BTN": [0.57, 0.135, 0.62, 0.235], "BCH": [0.13, 0.6, 0.19, 0.7],
+             "RAL": [0.585, 0.515, 0.62, 0.6], "MRG": [0.11, 0.065, 0.17, 0.16], "DAZ": [0.59, 0.155, 0.635, 0.235],
+             "KAR": [0.115, 0.6, 0.17, 0.69], "JOU": [0.62, 0.6, 0.66, 0.69]}
+L1 = {"sounding_curve", "profile", "map_grid"}  # measured data: the report gives no model for these
 PX_DPI = 200  # pixel positions in the extraction files are at 200 dpi
 
 
@@ -47,6 +68,24 @@ def page_size(filename: str, page: int) -> tuple[float, float] | None:
             return None
         r = doc[page - 1].rect
         return r.width, r.height
+
+
+def _band(survey: str, page: int, quad: str | None = None):
+    """Per-sheet CALC. RES. row read from the scans (extraction/model_boxes.json), else the survey's layout."""
+    per = (_extraction(survey, "model_boxes.json") or {}).get("boxes", {})
+    key = f"{page}:{quad}" if quad else str(page)
+    return per[key] if key in per else SHEET_BAND.get(survey)
+
+
+def _rotate(survey: str, page: int) -> int:
+    return int(((_extraction(survey, "model_boxes.json") or {}).get("rotate") or {}).get(str(page), 0))
+
+
+def _sub(rect, box):
+    """``box`` given as fractions of ``rect`` (both page fractions), as page fractions."""
+    x0, y0, x1, y1 = rect
+    return [round(x0 + box[0] * (x1 - x0), 4), round(y0 + box[1] * (y1 - y0), 4),
+            round(x0 + box[2] * (x1 - x0), 4), round(y0 + box[3] * (y1 - y0), 4)]
 
 
 @lru_cache(maxsize=4096)
@@ -86,7 +125,8 @@ def views(ds: dict, filename: str | None) -> list[dict]:
     def view(page, caption, region=None, marks=None, zoom=False, boxes=None):
         s = sizes.get(page) or (page_size(filename, page) if filename else None)
         return {"document": doc, "page": page, "aspect": round(s[1] / s[0], 4) if s else None,
-                "region": region, "marks": marks or [], "zoom": zoom, "caption": caption, "boxes": boxes or []}
+                "region": region, "marks": marks or [], "zoom": zoom, "caption": caption, "boxes": boxes or [],
+                "rotate": _rotate(survey, page)}
 
     what = _what(prov)
     first = pages[0]
@@ -95,19 +135,33 @@ def views(ds: dict, filename: str | None) -> list[dict]:
     m = re.search(r"Sheet at page (\d+) (TL|TR|BL|BR)", ds.get("notes") or "")
     if m:
         region, word = QUAD[m.group(2)]
-        return [view(first, f"Page {first}, {word} sheet: {what}. The layer values are the numbers in the box row "
-                                "under the curve; the footer gives D.P., coordinates and elevation", region)]
+        band = _band(survey, first, m.group(2))
+        return [view(first, f"Page {first}, {word} sheet: {what}." + SHEET_MODEL, region,
+                     boxes=[_sub(region, band)] if band else None)]
 
     # Afek Appendix C: two embedded plots per page.
     if survey == "afek-2013-csamt" and filename and sizes.get(first):
-        line, st = ds["site"].rsplit("-", 1)
+        sm = re.match(r"^(.+)-(\d+)(?:-(E[xy]))?$", ds["site"])
+        line, st, comp = sm.groups() if sm else (ds["site"], "", None)
         for e in _extraction(survey, "plot_map.json") or []:
-            if e["page"] == first and e["line"] == line and str(e["station"]) == st:
+            if e["page"] == first and e["line"] == line and str(e["station"]) == st and (comp is None or e.get("comp") == comp):
                 i = int(e["file"].rsplit("_", 1)[1].split(".")[0])
                 rects = _image_rects(filename, first)
                 if i < len(rects) and rects[i]:
-                    return [view(first, f"Page {first}, plot for line {line}, station {st}: "
-                                        "the model panel is the right-hand column", rects[i])]
+                    return [view(first, f"Page {first}, plot for line {line}, station {st}. The author's "
+                                        "interpreted model is the boxed right-hand panel (smooth 1D inversion, "
+                                        "resistivity against depth). The left panel is the measured sounding "
+                                        "curve with the model's fit", rects[i], boxes=[_sub(rects[i], [0.64, 0.0, 0.99, 0.97])])]
+
+    # Rotstein (1979) MT: the model is the hatched inset of the station's panel.
+    if survey == "rotstein-1979-mt-northern-israel":
+        name = next((k for k in ROT_INSET if k in (prov.get("figure") or "")), None)
+        if name:
+            b = ROT_INSET[name]
+            region = [max(0, b[0] - 0.1), max(0, b[1] - 0.06), min(1, b[2] + 0.3), min(1, b[3] + 0.12)]
+            return [view(first, f"Page {first}, {prov['figure']}. The author's inverted model is the boxed hatched "
+                                "inset (resistivity against depth in km); the points and curves around it are the "
+                                "measured apparent resistivity and phase with the model's fit", region, boxes=[b])]
 
     # Southern Arava iso-resistivity maps: ring the sounding on each map it appears on.
     if survey == "paparo-1969-southern-arava" and ds["site"].startswith("map-") and filename:
@@ -125,8 +179,9 @@ def views(ds: dict, filename: str | None) -> list[dict]:
             where = f"{depth} m below sea level" if ref == "below_sea_level" else f"{depth} m depth"
             marks = [{"site": ds["site"], "x": fx, "y": fy} for fx, fy in (_frac(s, q["x"], q["y"]) for q in pts)]
             vals = ", ".join(f"{q['value']:g} ohm.cm" for q in pts if q.get("value") is not None) or "no value printed"
-            out.append(view(int(p), f"Page {p}, iso-resistivity map at {where}: value printed at the "
-                                    f"ringed sounding ({vals})", marks=marks, zoom=True))
+            out.append(view(int(p), f"Page {p}, the author's interpreted iso-resistivity map at {where}: the value "
+                                    f"printed at the ringed sounding ({vals}) is the model resistivity used here",
+                            marks=marks, zoom=True))
         if out:
             return out
 
@@ -179,9 +234,22 @@ def views(ds: dict, filename: str | None) -> list[dict]:
 
     # Default: a whole field sheet or table page, then any figure it was checked against.
     figs = [f.strip() for f in (prov.get("figure") or "").split(";")]
-    if (prov.get("figure") or "").startswith("VES sheet") or "RES. band" in (prov.get("table") or ""):
-        what += ". The layer values are the numbers in the box row under the curve; the footer gives D.P., coordinates and elevation"
-    out = [view(first, f"Page {first}: {what}" if what else f"Page {first}")]
+    boxes, rep = None, ds.get("representation")
+    if rep in L1:
+        what += (". This is measured data (apparent resistivity), read from the plot; the report gives no "
+                 "interpreted model for it")
+    elif (prov.get("figure") or "").startswith("VES sheet") or "RES. band" in (prov.get("table") or ""):
+        band = _band(survey, first)
+        boxes = [band] if band else None
+        what += "." + (MT_MODEL if ds.get("method") == "MT" else SHEET_MODEL) if band else "."
+    elif survey == "goldman-2000-tdem-coastal":
+        boxes = [[0.04, 0.33, 0.98, 0.52]]
+        what += (". The author's inverted model is the boxed table: resistivity and thickness of each layer "
+                 "(PROTEM 1D inversion)" + ("; the interface depth is derived from it" if rep == "interface_depth" else ""))
+    elif survey == "rotstein-1979-carmel" and rep == "model_1d":
+        boxes = [[0.62, 0.3, 0.78, 0.86]]
+        what += ". The author's interpreted models A and B are the boxed table drawn on the sheet"
+    out = [view(first, f"Page {first}: {what}" if what else f"Page {first}", boxes=boxes)]
     for i, p in enumerate(pages[1:], 1):
         label = figs[i] if i < len(figs) and figs[i] else "also cited for these values"
         out.append(view(p, f"Page {p}: {label} (used to check the reading)" if i < len(figs) else f"Page {p}: {label}"))
