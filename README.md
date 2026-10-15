@@ -14,8 +14,8 @@ python -m geosigma serve      # http://127.0.0.1:8000
 ```
 
 The viewer loads MapLibre, Plotly and OpenStreetMap tiles from the internet. Source
-page previews need the report PDFs in `data/sources/pdf/` (not committed; Drive ids are in
-`data/sources/manifest.json`).
+page previews use the report PDFs in `data/sources/pdf/` (committed, about 380 MB; Drive ids
+are in `data/sources/manifest.json`).
 
 ## Layout
 
