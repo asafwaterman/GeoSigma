@@ -8,6 +8,7 @@ const $ = (id) => document.getElementById(id);
 const STATIC = window.GEOSIGMA_STATIC || null;
 const TOUCH = matchMedia("(hover: none), (pointer: coarse)").matches;
 const TAP_HINT = "Tap a site on the map to see its models and where they came from.";
+let mapReady = false;  // set on the map's load event
 const api = STATIC ? STATIC.api : (path) => fetch(path).then((r) => (r.ok ? r.json() : Promise.reject(r.statusText)));
 
 // Colour ramp on log10(rho), 1 to 1000 ohm.m: conductive red to resistive blue.
@@ -108,7 +109,7 @@ function areasData() {
 
 let areaPopup = null, areaKey = "", areaTimer = null;
 function showAreas() {
-  if (!map.loaded() && !map.isStyleLoaded()) return;
+  if (!mapReady) return;
   const gj = areasData();
   if (map.getSource("areas")) { map.getSource("areas").setData(gj); return; }
   map.addSource("areas", { type: "geojson", data: gj });
@@ -198,7 +199,7 @@ async function loadSurveys() {
       (c ? ` · ${ok} models reach ${state.depth} m` : "") + ` · ${s.extraction_status}</small>
       <details class="docs"><summary>Original report${s.documents.length > 1 ? "s" : ""} (PDF)</summary>${docLinks(s)}</details></div>`;
   }).join("") || '<p class="muted">No surveys in the database yet.</p>';
-  if (map.isStyleLoaded()) showAreas();
+  showAreas();
   document.querySelectorAll("[data-s]").forEach((cb) => cb.addEventListener("change", () => {
     cb.checked ? state.hidden.delete(cb.dataset.s) : state.hidden.add(cb.dataset.s);
     loadSites();
@@ -451,7 +452,9 @@ $("closeSection").addEventListener("click", () => ($("sectionPane").hidden = tru
 
 legend();
 loadSurveys();
-map.on("load", () => { loadSites(); if (state.surveys.length) showAreas(); });
+// Survey areas need both the map and the survey list; whichever arrives last draws them.
+// (isStyleLoaded() is false while any source is still loading, so it is no guide here.)
+map.on("load", () => { mapReady = true; loadSites(); if (state.surveys.length) showAreas(); });
 $("showAreas").addEventListener("change", setAreasVisible);
 // Phone layout (style.css): open and close the legend panel and the site details.
 $("openLeft").addEventListener("click", () => document.body.classList.add("show-left"));
