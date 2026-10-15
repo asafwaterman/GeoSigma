@@ -19,6 +19,7 @@ def main(argv: list[str] | None = None) -> int:
     e = sub.add_parser("export-static", help="write a read-only web copy of the viewer (no server)")
     e.add_argument("out", nargs="?", default="build/static")
     e.add_argument("--maplibre-css", help="local maplibre-gl.css (default: download it)")
+    e.add_argument("--libs", help="folder with maplibre-gl.js, maplibre-gl.css and plotly.min.js to host with the page")
     args = ap.parse_args(argv)
 
     if args.cmd in ("check", "build"):
@@ -41,7 +42,8 @@ def main(argv: list[str] | None = None) -> int:
 
         from .export_static import export
 
-        out = export(Path(args.out), Path(args.maplibre_css) if args.maplibre_css else None)
+        out = export(Path(args.out), Path(args.maplibre_css) if args.maplibre_css else None,
+                     libs=Path(args.libs) if args.libs else None)
         for f in sorted(out.iterdir()):
             print(f"{f}  {f.stat().st_size / 1e6:.2f} MB")
     return 0
