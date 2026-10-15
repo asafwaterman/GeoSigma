@@ -70,3 +70,5 @@ a.dl:hover { text-decoration: underline; }
 .areapop .maplibregl-popup-content { background: var(--panel); color: var(--text); font-size: 13px; max-height: 50vh; overflow: auto; }
 .areapop .maplibregl-popup-tip { display: none; }
 .areapop .area + .area { border-top: 1px solid var(--line); margin-top: 6px; padding-top: 6px; }
+.sitenote { margin: 8px 0; padding: 8px 10px; border-left: 3px solid var(--warn); background: var(--bg);
+  font-size: 12.5px; line-height: 1.45; }
