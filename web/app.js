@@ -43,8 +43,9 @@ function colourExpr() {
     ["interpolate", ["linear"], ["log10", ["max", ["get", "rho_at_depth"], 0.01]], ...stops]];
 }
 
-async function loadSites() {
+async function loadSites(current = () => true) {
   const gj = await api(`/api/sites?depth=${state.depth}`);
+  if (!current()) return;
   gj.features = gj.features.filter((f) => !state.hidden.has(f.properties.survey));
   for (const f of gj.features) f.properties.rho_at_depth ??= null;
   if (map.getSource("sites")) {
@@ -216,14 +217,46 @@ function showDataset(d, el) {
   const doc = d.document_info;
   const pages = p.pages || [];
   $("prov").innerHTML = `<h2>Where this came from</h2>
-    <p>${doc ? doc.title : p.document}${pages.length ? ", page " + pages.join(", ") : ""}${p.figure ? "<br>" + p.figure : ""}</p>
-    <p class="muted">${p.method.replace("_", " ")}${p.tool ? " with " + p.tool : ""} on ${p.extracted_on || "?"}
+    <p>${doc ? doc.title : p.document}</p>
+    ${(d.source_views || []).map((v, i) => sourceView(d, v, i)).join("") || (pages.length ? "<p>Page " + pages.join(", ") + "</p>" : "")}
+    <p class="muted">The chart above is our digitised version of what is framed here.
+    ${p.method.replace("_", " ")}${p.tool ? " with " + p.tool : ""} on ${p.extracted_on || "?"}
     ${d.digitisation_error ? "<br>Reading error " + d.digitisation_error : ""}
     ${d.doi_m ? "<br>Depth of investigation " + d.doi_m + " m" + (d.doi_estimated ? " (estimated)" : "") : "<br>No depth of investigation in the report"}
-    ${d.notes ? "<br>" + d.notes : ""}</p>
-    ${pages.length && !STATIC ? `<a href="/api/source/${d.survey}/${p.document}/page/${pages[0]}.png?dpi=200" target="_blank">
-      <img loading="lazy" alt="Source page" src="/api/source/${d.survey}/${p.document}/page/${pages[0]}.png?dpi=70"
-      onerror="this.replaceWith(document.createTextNode('Source PDF not available locally.'))"></a>` : ""}`;
+    ${d.notes ? "<br>" + d.notes : ""}</p>`;
+}
+
+// The part of a source page a dataset was read from, with the selected station ringed.
+function frame(v, whole) {
+  const site = state.site && state.site.site;
+  const mark = v.marks.find((m) => m.site === site);
+  if (whole || (!v.region && !(v.zoom && mark))) return [0, 0, 1, 1];
+  if (v.zoom && mark) {  // a window around the station, about a fifth of the page wide
+    const w = 0.22, h = Math.min(1, (w / (v.aspect || 1.4)) * 0.75);
+    const x0 = Math.min(Math.max(mark.x - w / 2, 0), 1 - w), y0 = Math.min(Math.max(mark.y - h / 2, 0), 1 - h);
+    return [x0, y0, x0 + w, y0 + h];
+  }
+  return v.region;
+}
+
+function sourceCrop(d, v, i, whole) {
+  const img = STATIC ? STATIC.sourceImage(d.survey, v.document, v.page)
+    : { src: `/api/source/${d.survey}/${v.document}/page/${v.page}.png?dpi=${v.zoom ? 200 : 150}`, x: 0, y: 0, w: 1, h: 1 };
+  if (!img) return `<p class="muted">Page image not included in this copy.</p>`;
+  const [x0, y0, x1, y1] = frame(v, whole);
+  const rw = x1 - x0, rh = y1 - y0, aspect = v.aspect || 1.4;
+  // img.{x,y,w,h}: where the page sits inside the image file, as fractions of that file
+  const W = 100 / (rw * img.w), left = -(img.x + x0 * img.w) * W, top = -(img.y + y0 * img.h) / (rh * img.h) * 100;
+  const site = state.site && state.site.site;
+  const rings = v.marks.filter((m) => m.site === site && m.x >= x0 && m.x <= x1 && m.y >= y0 && m.y <= y1)
+    .map((m) => `<span class="ring" style="left:${((m.x - x0) / rw) * 100}%;top:${((m.y - y0) / rh) * 100}%"></span>`).join("");
+  return `<div class="crop${whole ? " whole" : ""}" data-i="${i}" title="Click to switch between this part and the whole page"
+    style="aspect-ratio:${rw / (rh * aspect)}"><img loading="lazy" alt="Source page ${v.page}" src="${img.src}"
+    style="width:${W}%;left:${left}%;top:${top}%" onerror="this.parentNode.replaceWith(Object.assign(document.createElement('p'),{className:'muted',textContent:'Source PDF not available locally.'}))">${rings}</div>`;
+}
+
+function sourceView(d, v, i) {
+  return `<figure class="src"><figcaption>${v.caption}</figcaption>${sourceCrop(d, v, i, false)}</figure>`;
 }
 
 async function showSection() {
@@ -246,12 +279,29 @@ async function showSection() {
   }, { displayModeBar: false, responsive: true });
 }
 
-$("depth").addEventListener("input", (e) => ($("depthOut").textContent = `${e.target.value} m`));
-$("depth").addEventListener("change", (e) => {
-  state.depth = +e.target.value;
-  loadSites(); loadSurveys();
-  if (state.dataset) showDataset(state.dataset, document.querySelector(".ds.active"));
+// The map follows the slider while it is dragged; requests that come back late are dropped.
+let depthTimer = null, depthSeq = 0;
+function setDepth(z, final) {
+  state.depth = z;
+  $("depthOut").textContent = `${z} m`;
+  clearTimeout(depthTimer);
+  depthTimer = setTimeout(async () => {
+    const seq = ++depthSeq;
+    await loadSites(() => seq === depthSeq);
+    if (final) {
+      loadSurveys();
+      if (state.dataset) showDataset(state.dataset, document.querySelector(".ds.active"));
+    }
+  }, final ? 0 : STATIC ? 0 : 60);
+}
+$("prov").addEventListener("click", (e) => {
+  const el = e.target.closest(".crop");
+  if (!el || !state.dataset) return;
+  const i = +el.dataset.i;
+  el.outerHTML = sourceCrop(state.dataset, state.dataset.source_views[i], i, !el.classList.contains("whole"));
 });
+$("depth").addEventListener("input", (e) => setDepth(+e.target.value, false));
+$("depth").addEventListener("change", (e) => setDepth(+e.target.value, true));
 $("sigma").addEventListener("change", (e) => {
   state.sigma = e.target.checked;
   legend();
@@ -263,7 +313,7 @@ $("closeSection").addEventListener("click", () => ($("sectionPane").hidden = tru
 
 legend();
 loadSurveys();
-map.on("load", loadSites);
+map.on("load", () => loadSites());
 
 
 // Review: the decision is written to the dataset's source file by the API.

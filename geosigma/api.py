@@ -17,7 +17,7 @@ from .schema import Dataset
 from .store import DB_PATH, ROOT, set_status
 
 WEB_DIR = ROOT / "web"
-SOURCES_DIR = ROOT / "data" / "sources" / "pdf"  # local PDFs, not committed
+from .sources import SOURCES_DIR, views as source_views
 
 app = FastAPI(title="GeoSigma")
 
@@ -111,6 +111,7 @@ def dataset(dataset_id: str):
             "SELECT * FROM document WHERE survey=? AND id=?", (ds["survey"], ds["provenance"]["document"])
         ).fetchone()
     ds["document_info"] = dict(doc) if doc else None
+    ds["source_views"] = source_views(ds, doc["filename"] if doc else None)
     return ds
 
 

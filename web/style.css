@@ -29,7 +29,13 @@ h2 { font-size: 14px; margin: 12px 0 6px; }
 .plot { width: 100%; height: 420px; }
 .ds { padding: 6px 0; border-top: 1px solid var(--line); cursor: pointer; }
 .ds.active { font-weight: 600; }
-#prov img { width: 100%; border: 1px solid var(--line); margin-top: 6px; }
+#prov figure.src { margin: 8px 0 10px; }
+#prov figcaption { font-size: 12px; margin-bottom: 4px; }
+#prov .crop { position: relative; overflow: hidden; width: 100%; border: 1px solid var(--line); cursor: zoom-in; background: #fff; }
+#prov .crop.whole { cursor: zoom-out; }
+#prov .crop img { position: absolute; max-width: none; }
+#prov .ring { position: absolute; width: 34px; height: 34px; margin: -17px 0 0 -17px; border: 2px solid #e11d48;
+  border-radius: 50%; box-shadow: 0 0 0 2px #fff; pointer-events: none; }
 button { font: inherit; padding: 4px 10px; border: 1px solid var(--line); background: var(--bg); color: var(--text);
   border-radius: 4px; cursor: pointer; margin-top: 8px; }
 .legendbar { height: 12px; border-radius: 3px; margin: 4px 0; }

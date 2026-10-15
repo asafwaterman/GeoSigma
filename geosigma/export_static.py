@@ -2,8 +2,8 @@
 
 Every API answer the viewer asks for is computed here ahead of time: values and
 reliability at each depth step of the slider, coverage per depth, every dataset and
-every line section. Source-page images and review are left out (they need the local
-PDFs and the dataset files). The basemap is web/basemap.geojson, country outlines
+every line section. The source pages the datasets point at are rendered from the local
+PDFs as greyscale JPEGs, packed a few pages per file (``src/``); review is left out. The basemap is web/basemap.geojson, country outlines
 clipped from Natural Earth 1:10m (public domain), since a hosted page may not load
 map tiles.
 
@@ -80,6 +80,8 @@ SHIM = """
 (() => {
   const load = (f) => fetch(f).then((r) => { if (!r.ok) throw new Error(f + ": " + r.status); return r.json(); });
   const core = load("geosigma-core.json");
+  let pages = {};
+  core.then((c) => (pages = c.pages || {}));
   let datasets = null;
   const REL = { r: "reliable", u: "unknown_doi", b: "below_doi", x: "beyond_model", n: "no_model" };
   async function apiCall(path) {
@@ -111,7 +113,11 @@ SHIM = """
   style.layers[0].paint["background-color"] = tok("--sea") || "#dfe8f1";
   style.layers[1].paint["fill-color"] = tok("--land") || "#eceee9";
   style.layers[2].paint["line-color"] = tok("--borderline") || "#9aa196";
-  window.GEOSIGMA_STATIC = { api: apiCall, style };
+  const sourceImage = (survey, doc, page) => {
+    const e = pages[survey + "|" + doc + "|" + page];
+    return e && { src: e[0], x: e[1], y: e[2], w: e[3], h: e[4] };
+  };
+  window.GEOSIGMA_STATIC = { api: apiCall, style, sourceImage };
 })();
 </script>
 """
@@ -141,7 +147,7 @@ def page(core_style: dict, maplibre_css: str) -> str:
                         '<span class="sub">Resistivity of Israel, from GSI survey reports</span>'
                         '<span class="copynote">Read-only copy. Drafts, not yet reviewed.</span>')
     mlcss = maplibre_css
-    return ("<title>GeoSigma Viewer</title>\n"
+    return ('<meta charset="utf-8">\n<title>GeoSigma Viewer</title>\n'
             '<meta name="claude:viewport-fit-sides" content="cover">\n'
             f"<style>{mlcss}</style>\n<style>{(web / 'style.css').read_text()}{THEME}</style>\n"
             f"{body}\n"
@@ -161,7 +167,59 @@ def basemap_style() -> dict:
                         "paint": {"line-color": "#9aa196", "line-width": 0.8}}]}
 
 
-def export(out: Path, maplibre_css: Path | None = None) -> Path:
+PER_FILE = 4  # source pages per image file (a hosted copy may hold a few hundred files)
+
+
+def source_pages(datasets: dict, out: Path) -> dict:
+    """Render every page a dataset points at; return {"survey|doc|page": [file, x, y, w, h]}."""
+    import io
+
+    import pymupdf
+    from PIL import Image
+
+    from .sources import SOURCES_DIR
+
+    con = sqlite3.connect(DB_PATH)
+    files = {(r[0], r[1]): r[2] for r in con.execute("SELECT survey, id, filename FROM document")}
+    con.close()
+    want: dict[tuple, bool] = {}
+    for d in datasets.values():
+        for v in d.get("source_views") or []:
+            k = (d["survey"], v["document"], v["page"])
+            want[k] = want.get(k, False) or bool(v["zoom"])
+    groups: dict[tuple, list] = {}
+    for (survey, doc, page), zoom in sorted(want.items()):
+        path = SOURCES_DIR / files.get((survey, doc), "-")
+        if path.exists():
+            groups.setdefault((survey, doc), []).append((page, zoom))
+    (out / "src").mkdir(exist_ok=True)
+    index, n = {}, 0
+    for (survey, doc), pages in groups.items():
+        with pymupdf.open(SOURCES_DIR / files[(survey, doc)]) as pdf:
+            for i in range(0, len(pages), PER_FILE):
+                ims = []
+                for page, zoom in pages[i:i + PER_FILE]:
+                    if not 1 <= page <= len(pdf):
+                        continue
+                    pix = pdf[page - 1].get_pixmap(dpi=130 if zoom else 100, colorspace=pymupdf.csGRAY)
+                    ims.append((page, Image.frombytes("L", (pix.w, pix.h), pix.samples)))
+                if not ims:
+                    continue
+                W, H = max(im.width for _, im in ims), sum(im.height for _, im in ims)
+                sheet, y = Image.new("L", (W, H), 255), 0
+                name = f"src/{n:03d}.jpg"
+                for page, im in ims:
+                    sheet.paste(im, (0, y))
+                    index[f"{survey}|{doc}|{page}"] = [name, 0, round(y / H, 6), round(im.width / W, 6), round(im.height / H, 6)]
+                    y += im.height
+                buf = io.BytesIO()
+                sheet.save(buf, "JPEG", quality=45, optimize=True)
+                (out / name).write_bytes(buf.getvalue())
+                n += 1
+    return index
+
+
+def export(out: Path, maplibre_css: Path | None = None, pages: bool = True) -> Path:
     """``maplibre_css``: a local copy of maplibre-gl.css, else it is downloaded (a hosted
     page may only load scripts from a CDN, so the stylesheet is inlined)."""
     if maplibre_css:
@@ -172,6 +230,7 @@ def export(out: Path, maplibre_css: Path | None = None) -> Path:
         css = urllib.request.urlopen(MAPLIBRE_CSS, timeout=30).read().decode()
     out.mkdir(parents=True, exist_ok=True)
     core, datasets = core_data()
+    core["pages"] = source_pages(datasets, out) if pages else {}
     (out / "geosigma-core.json").write_text(json.dumps(core, separators=(",", ":")))
     (out / "geosigma-datasets.json").write_text(json.dumps(datasets, separators=(",", ":")))
     (out / "index.html").write_text(page(basemap_style(), css))

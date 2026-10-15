@@ -1,0 +1,167 @@
+"""Where on the source page each dataset was read: page, region and marks.
+
+``views(ds)`` returns one entry per page the viewer should show for a dataset:
+``{document, page, aspect, region, marks, zoom, caption}``. ``region`` is the part of the
+page the values come from, as page fractions [x0, y0, x1, y1] (None for the whole page);
+``marks`` are points on the page, as fractions, each tied to a site, so the viewer can
+ring the selected station; ``zoom`` asks the viewer to frame the selected site's mark.
+Regions and marks come from the extraction files (sheet quadrants, embedded plot
+rectangles, pixel positions at 200 dpi), so they point at what was actually read.
+"""
+from __future__ import annotations
+
+import json
+import re
+from functools import lru_cache
+
+from .store import ROOT, SURVEYS_DIR
+
+SOURCES_DIR = ROOT / "data" / "sources" / "pdf"  # local PDFs, not committed
+
+QUAD = {"TL": ([0, 0, 0.5, 0.5], "upper-left"), "TR": ([0.5, 0, 1, 0.5], "upper-right"),
+        "BL": ([0, 0.5, 0.5, 1], "lower-left"), "BR": ([0.5, 0.5, 1, 1], "lower-right")}
+PX_DPI = 200  # pixel positions in the extraction files are at 200 dpi
+
+
+@lru_cache(maxsize=None)
+def _extraction(survey: str, name: str):
+    p = SURVEYS_DIR / survey / "extraction" / name
+    return json.loads(p.read_text()) if p.exists() else None
+
+
+@lru_cache(maxsize=4096)
+def page_size(filename: str, page: int) -> tuple[float, float] | None:
+    """Page width and height in points, or None without the PDF."""
+    path = SOURCES_DIR / filename
+    if not path.exists():
+        return None
+    import pymupdf
+
+    with pymupdf.open(path) as doc:
+        if not 1 <= page <= len(doc):
+            return None
+        r = doc[page - 1].rect
+        return r.width, r.height
+
+
+@lru_cache(maxsize=4096)
+def _image_rects(filename: str, page: int) -> list:
+    import pymupdf
+
+    with pymupdf.open(SOURCES_DIR / filename) as doc:
+        pg = doc[page - 1]
+        out = []
+        for img in pg.get_images(full=True):
+            rs = pg.get_image_rects(img[0])
+            r = rs[0] if rs else None
+            out.append(None if r is None else [r.x0 / pg.rect.width, r.y0 / pg.rect.height,
+                                               r.x1 / pg.rect.width, r.y1 / pg.rect.height])
+        return out
+
+
+def _frac(size, x, y):
+    w, h = size
+    s = PX_DPI / 72
+    return round(x / (w * s), 4), round(y / (h * s), 4)
+
+
+def _what(prov: dict) -> str:
+    parts = [(prov.get("figure") or "").split(";")[0].strip() or None, ("values from the " + prov["table"]) if prov.get("table") else None]
+    return "; ".join(p for p in parts if p)
+
+
+def views(ds: dict, filename: str | None) -> list[dict]:
+    prov = ds.get("provenance") or {}
+    pages = prov.get("pages") or []
+    if not pages:
+        return []
+    survey, doc = ds["survey"], prov.get("document")
+    sizes = {p: page_size(filename, p) if filename else None for p in pages}
+
+    def view(page, caption, region=None, marks=None, zoom=False):
+        s = sizes.get(page) or (page_size(filename, page) if filename else None)
+        return {"document": doc, "page": page, "aspect": round(s[1] / s[0], 4) if s else None,
+                "region": region, "marks": marks or [], "zoom": zoom, "caption": caption}
+
+    what = _what(prov)
+    first = pages[0]
+
+    # Northern Arava Vol. 2: four sheets per page; the quadrant is in the notes.
+    m = re.search(r"Sheet at page (\d+) (TL|TR|BL|BR)", ds.get("notes") or "")
+    if m:
+        region, word = QUAD[m.group(2)]
+        return [view(first, f"Page {first}, {word} sheet: {what}. The layer values are the numbers in the box row "
+                                "under the curve; the footer gives D.P., coordinates and elevation", region)]
+
+    # Afek Appendix C: two embedded plots per page.
+    if survey == "afek-2013-csamt" and filename and sizes.get(first):
+        line, st = ds["site"].rsplit("-", 1)
+        for e in _extraction(survey, "plot_map.json") or []:
+            if e["page"] == first and e["line"] == line and str(e["station"]) == st:
+                i = int(e["file"].rsplit("_", 1)[1].split(".")[0])
+                rects = _image_rects(filename, first)
+                if i < len(rects) and rects[i]:
+                    return [view(first, f"Page {first}, plot for line {line}, station {st}: "
+                                        "the model panel is the right-hand column", rects[i])]
+
+    # Southern Arava iso-resistivity maps: ring the sounding on each map it appears on.
+    if survey == "paparo-1969-southern-arava" and ds["site"].startswith("map-") and filename:
+        from .extract.arava_maps import SLICES, norm_label
+
+        mp = _extraction(survey, "map_points.json") or {"pages": {}}
+        out = []
+        for p in sorted(mp["pages"], key=int):
+            s = page_size(filename, int(p))
+            pts = [q for q in mp["pages"][p]["points"]
+                   if q.get("label") is not None and f"map-{norm_label(q['label'])}" == ds["site"]]
+            if not pts or not s:
+                continue
+            ref, depth = SLICES[int(p)]
+            where = f"{depth} m below sea level" if ref == "below_sea_level" else f"{depth} m depth"
+            marks = [{"site": ds["site"], "x": fx, "y": fy} for fx, fy in (_frac(s, q["x"], q["y"]) for q in pts)]
+            vals = ", ".join(f"{q['value']:g} ohm.cm" for q in pts if q.get("value") is not None) or "no value printed"
+            out.append(view(int(p), f"Page {p}, iso-resistivity map at {where}: value printed at the "
+                                    f"ringed sounding ({vals})", marks=marks, zoom=True))
+        if out:
+            return out
+
+    # Yizreel-Harod roving-dipole maps: one map per source, ring the selected station.
+    if ds.get("representation") == "map_grid" and filename and sizes.get(first):
+        rd = _extraction(survey, "roving_dipole.json") or {"pages": {}}
+        page = rd["pages"].get(str(first))
+        if page:
+            marks = [{"site": f"RD-{q['station']}", "x": fx, "y": fy}
+                     for q in page["points"] for fx, fy in [_frac(sizes[first], q["x"], q["y"])]]
+            return [view(first, f"Page {first}: {what}. The value printed beside the ringed station is "
+                                "the one shown here", marks=marks, zoom=True)]
+
+    # Geoelectric Atlas: several plot panels per page; frame the panel, mark each reading.
+    if ds.get("representation") == "profile" and survey == "paparo-1982-geoelectric-atlas" and sizes.get(first):
+        pr = (_extraction(survey, "plot_readings.json") or {}).get(str(first)) or []
+        from .extract.atlas_build import STYLE_WORD
+
+        fig = prov.get("figure") or ""
+        style = next((k for k, w in STYLE_WORD.items() if fig.endswith(f", {w} curve")), None)
+        for sr in pr:
+            if sr["spacing"] == ds.get("spacing_m") and (style is None or sr["style"] == style):
+                px = sr["pixels"]
+                xs, ys = [p[0] for p in px], [p[1] for p in px] + [sr["panel_axis_y"]]
+                x0, y0 = _frac(sizes[first], min(xs) - 230, min(ys) - 80)
+                x1, y1 = _frac(sizes[first], max(xs) + 60, max(ys) + 40)
+                marks = [{"site": q["site"], "x": fx, "y": fy}
+                         for q, (x, y) in zip(ds["profile"], px) for fx, fy in [_frac(sizes[first], x, y)]]
+                out = [view(first, f"Page {first}, plot panel for a = {sr['spacing']} m"
+                                   + (f" ({STYLE_WORD[style]} curve)" if style else "") + f": {what}",
+                            [max(0, x0), max(0, y0), min(1, x1), min(1, y1)], marks)]
+                out += [view(p, f"Page {p}: location map of the line") for p in pages[1:]]
+                return out
+
+    # Default: a whole field sheet or table page, then any figure it was checked against.
+    figs = [f.strip() for f in (prov.get("figure") or "").split(";")]
+    if (prov.get("figure") or "").startswith("VES sheet") or "RES. band" in (prov.get("table") or ""):
+        what += ". The layer values are the numbers in the box row under the curve; the footer gives D.P., coordinates and elevation"
+    out = [view(first, f"Page {first}: {what}" if what else f"Page {first}")]
+    for i, p in enumerate(pages[1:], 1):
+        label = figs[i] if i < len(figs) and figs[i] else "also cited for these values"
+        out.append(view(p, f"Page {p}: {label} (used to check the reading)" if i < len(figs) else f"Page {p}: {label}"))
+    return out
