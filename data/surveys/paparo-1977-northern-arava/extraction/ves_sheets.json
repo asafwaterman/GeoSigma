@@ -1,0 +1,5824 @@
+[
+{
+"page": 5,
+"quad": "TL",
+"dp": "724",
+"file": "224",
+"job": null,
+"x": "16560",
+"y": "96540",
+"elev": 170,
+"rho": [
+100.0,
+18.0,
+45.0,
+30.0
+],
+"edges_m": [
+2.9,
+18,
+90
+],
+"sure": true,
+"note": "job line cut off in image"
+},
+{
+"page": 5,
+"quad": "TR",
+"dp": "725",
+"file": "224",
+"job": null,
+"x": "16440",
+"y": "96540",
+"elev": 170,
+"rho": [
+300.0,
+90.0,
+21.0,
+52.0
+],
+"edges_m": [
+2.4,
+9.0,
+59
+],
+"sure": true,
+"note": "job line cut off in image"
+},
+{
+"page": 5,
+"quad": "BL",
+"dp": "726",
+"file": "224",
+"job": "249/76",
+"x": "16395",
+"y": "96525",
+"elev": 180,
+"rho": [
+30.0,
+105.0,
+20.0,
+36.0,
+18.0
+],
+"edges_m": [
+1.0,
+11,
+40,
+150
+],
+"sure": true,
+"note": "first box 30.00 written sideways, sits left of the AB/2=1 frame; its right edge is at the frame (~1.0 m). Job printed with Hebrew prefix"
+},
+{
+"page": 5,
+"quad": "BR",
+"dp": "728",
+"file": "224",
+"job": "249/76",
+"x": "1623",
+"y": "9655",
+"elev": 200,
+"rho": [
+100.0,
+20.0,
+8.0,
+16.0,
+8.0
+],
+"edges_m": [
+1.0,
+8.9,
+20,
+100
+],
+"sure": false,
+"note": "first box 100.00 sideways left of frame (edge ~1.0 m); boundary between 20.00 and 8.00 is a dashed line at ~8.9 m; coordinates printed with only 4 digits as shown. Job printed with Hebrew prefix"
+},
+{
+"page": 6,
+"quad": "TL",
+"dp": "722",
+"file": "224",
+"job": "249/76",
+"x": "16700",
+"y": "96545",
+"elev": 190,
+"rho": [
+700.0,
+210.0,
+21.0
+],
+"edges_m": [
+1.9,
+10
+],
+"sure": true,
+"note": "job printed with Hebrew prefix"
+},
+{
+"page": 6,
+"quad": "TR",
+"dp": "723",
+"file": "224",
+"job": "249/76",
+"x": "16630",
+"y": "96545",
+"elev": 160,
+"rho": [
+900.0,
+150.0,
+10.5,
+21.0
+],
+"edges_m": [
+1.9,
+11,
+82
+],
+"sure": true,
+"note": "boundary between 10.50 and 21.00 is a dashed line (~82 m)"
+},
+{
+"page": 6,
+"quad": "BL",
+"dp": "764",
+"file": "224",
+"job": "249/76",
+"x": "16900",
+"y": "09645",
+"elev": 215,
+"rho": [
+900.0,
+240.0,
+24.0
+],
+"edges_m": [
+6.0,
+30
+],
+"sure": true,
+"note": "y printed as 09645"
+},
+{
+"page": 6,
+"quad": "BR",
+"dp": "763",
+"file": "224",
+"job": "249/76",
+"x": "16800",
+"y": "09655",
+"elev": 200,
+"rho": [
+180.0,
+300.0,
+22.0
+],
+"edges_m": [
+2.5,
+14
+],
+"sure": false,
+"note": "DP middle digit smudged, read 763 (neighbour is 764); y printed as 09655"
+},
+{
+"page": 7,
+"quad": "TL",
+"partial": true,
+"dp": null,
+"file": null,
+"job": null,
+"x": null,
+"y": null,
+"elev": null,
+"rho": [],
+"edges_m": [],
+"sure": false,
+"note": "Quadrant holds only the upper part (rho 10^4-10^5 decades) of a tall left-column sheet whose bottom and footer are in BL (DP 718); no CAL.RES band or footer here"
+},
+{
+"page": 7,
+"quad": "BL",
+"dp": "718",
+"file": "224",
+"job": "249/76",
+"x": "16400",
+"y": "96930",
+"elev": 170,
+"rho": [
+8000.0,
+7.5,
+38.5,
+4.85
+],
+"edges_m": [
+1.1,
+23,
+140
+],
+"sure": false,
+"note": "Bottom of a tall sheet that spans TL+BL. First box is very narrow just right of the frame (~1-1.1 m) with value written sideways, read 8000.00 (first digit partly hidden by line)"
+},
+{
+"page": 7,
+"quad": "BR",
+"dp": "765",
+"file": "224",
+"job": "249/76",
+"x": "17000",
+"y": "09655",
+"elev": 230,
+"rho": [
+1150.0,
+140.0,
+80.0,
+20.0
+],
+"edges_m": [
+1.5,
+11,
+49
+],
+"sure": true,
+"note": "y printed as 09655"
+},
+{
+"page": 8,
+"quad": "TL",
+"dp": "716",
+"file": "224",
+"job": "249/76",
+"x": "16500",
+"y": "96925",
+"elev": 155,
+"rho": [
+50.0,
+37.0,
+46.0,
+18.4
+],
+"edges_m": [
+4.2,
+12,
+40
+],
+"sure": true,
+"note": ""
+},
+{
+"page": 8,
+"quad": "TR",
+"dp": "717",
+"file": "224",
+"job": "249/76",
+"x": "16450",
+"y": "96925",
+"elev": 160,
+"rho": [
+800.0,
+80.0,
+240.0,
+36.0,
+14.0,
+18.0
+],
+"edges_m": [
+1.0,
+2.2,
+3.0,
+13,
+30
+],
+"sure": false,
+"note": "800.00 written sideways squeezed at left edge of band with no boundary line; its edge assumed at frame (1.0 m). Boundary 36.00/14.00 is dashed (~13 m)"
+},
+{
+"page": 8,
+"quad": "BL",
+"dp": "714",
+"file": "224",
+"job": "249/76",
+"x": "16585",
+"y": "96920",
+"elev": 150,
+"rho": [
+75.0,
+37.5,
+17.6,
+44.0
+],
+"edges_m": [
+3.6,
+17,
+46
+],
+"sure": true,
+"note": ""
+},
+{
+"page": 8,
+"quad": "BR",
+"dp": "715",
+"file": "224",
+"job": "249/76",
+"x": "1654",
+"y": "9694",
+"elev": 150,
+"rho": [
+200.0,
+10.0,
+40.0
+],
+"edges_m": [
+1.6,
+26
+],
+"sure": true,
+"note": "coordinates printed with 4 digits as shown"
+},
+{
+"page": 9,
+"quad": "TL",
+"dp": "712",
+"file": "224",
+"job": "249/76",
+"x": "16695",
+"y": "96925",
+"elev": 160,
+"rho": [
+380.0,
+58.0,
+85.0,
+15.6
+],
+"edges_m": [
+3.2,
+16,
+64
+],
+"sure": true,
+"note": ""
+},
+{
+"page": 9,
+"quad": "TR",
+"dp": "713",
+"file": "224",
+"job": "249/76",
+"x": "16640",
+"y": "96925",
+"elev": 155,
+"rho": [
+750.0,
+38.0,
+8.0,
+40.0
+],
+"edges_m": [
+3.4,
+40,
+85
+],
+"sure": true,
+"note": ""
+},
+{
+"page": 9,
+"quad": "BL",
+"dp": "710",
+"file": "224",
+"job": "249/76",
+"x": "16790",
+"y": "96935",
+"elev": 170,
+"rho": [
+900.0,
+135.0,
+11.2,
+27.5
+],
+"edges_m": [
+2.1,
+14,
+150
+],
+"sure": true,
+"note": ""
+},
+{
+"page": 9,
+"quad": "BR",
+"dp": "711",
+"file": "224",
+"job": "249/76",
+"x": "16735",
+"y": "96930",
+"elev": 165,
+"rho": [
+1000.0,
+400.0,
+25.0,
+9.0,
+36.0
+],
+"edges_m": [
+1.4,
+6.0,
+39,
+118
+],
+"sure": true,
+"note": ""
+},
+{
+"page": 10,
+"quad": "BL",
+"dp": "761",
+"file": "224",
+"job": "249/76",
+"x": "16900",
+"y": "96950",
+"elev": 172,
+"rho": [
+160.0,
+34.0,
+50.0,
+25.0
+],
+"edges_m": [
+3.2,
+15,
+50
+],
+"sure": true,
+"note": ""
+},
+{
+"page": 10,
+"quad": "BR",
+"dp": "762",
+"file": "224",
+"job": "249/76",
+"x": "17000",
+"y": "09695",
+"elev": 180,
+"rho": [
+1100.0,
+540.0,
+null,
+310.0,
+14.0,
+40.0
+],
+"edges_m": [
+1.2,
+7.5,
+11,
+34,
+170
+],
+"sure": false,
+"note": "first value overlaps the CAL.RES label, read 1100.00 (leading 1 uncertain); third box value printed as '?'; boundary 540.00/? is dashed (~7.5 m); y printed as 09695"
+},
+{
+"page": 12,
+"quad": "TL",
+"dp": "304",
+"file": "224",
+"job": "249/76",
+"x": "14610",
+"y": "97100",
+"elev": 242,
+"rho": [
+900.0,
+180.0,
+42.0,
+12.0
+],
+"edges_m": [
+1.5,
+6.5,
+27
+],
+"sure": true,
+"note": "job line partly cut off"
+},
+{
+"page": 12,
+"quad": "TR",
+"dp": "305",
+"file": "224",
+"job": "249/76",
+"x": "14590",
+"y": "97080",
+"elev": 245,
+"rho": [
+1000.0,
+180.0,
+40.0,
+12.0
+],
+"edges_m": [
+3.0,
+10,
+25
+],
+"sure": true,
+"note": "job line partly cut off"
+},
+{
+"page": 12,
+"quad": "BL",
+"dp": "301",
+"file": "224",
+"job": "249/76",
+"x": "14652",
+"y": "97140",
+"elev": 235,
+"rho": [
+1000.0,
+200.0,
+14.0
+],
+"edges_m": [
+2.8,
+19
+],
+"sure": true,
+"note": ""
+},
+{
+"page": 12,
+"quad": "BR",
+"dp": "303",
+"file": "224",
+"job": "249/76",
+"x": "14630",
+"y": "97124",
+"elev": 240,
+"rho": [
+1200.0,
+180.0,
+40.0,
+14.0
+],
+"edges_m": [
+1.5,
+6.9,
+13
+],
+"sure": true,
+"note": ""
+},
+{
+"page": 13,
+"quad": "TL",
+"dp": "294",
+"file": "224",
+"job": null,
+"x": "14680",
+"y": "97160",
+"elev": 238,
+"rho": [
+140.0,
+360.0,
+44.0
+],
+"edges_m": [
+5.6,
+21
+],
+"sure": false,
+"note": "coordinates line cut at bottom of image; x/y read from top halves of digits (guess, consistent with neighbours DP 295/296); job line cut off"
+},
+{
+"page": 13,
+"quad": "TR",
+"dp": "177",
+"file": "224",
+"job": null,
+"x": "14670",
+"y": "97150",
+"elev": 240,
+"rho": [
+21.0,
+400.0,
+40.0,
+12.0
+],
+"edges_m": [
+1.0,
+15,
+56
+],
+"sure": false,
+"note": "21.00 written sideways in the left margin beside CAL.RES with no own boundary line; edge assumed at the frame (~1 m). DP clearly reads 177 though neighbours are 294-296; job line cut off"
+},
+{
+"page": 13,
+"quad": "BL",
+"dp": "296",
+"file": "224",
+"job": "249/76",
+"x": "14702",
+"y": "97181",
+"elev": 240,
+"rho": [
+36.0,
+250.0,
+48.0
+],
+"edges_m": [
+4.0,
+28
+],
+"sure": true,
+"note": ""
+},
+{
+"page": 13,
+"quad": "BR",
+"dp": "295",
+"file": "224",
+"job": "249/76",
+"x": "14690",
+"y": "97170",
+"elev": 240,
+"rho": [
+480.0,
+190.0,
+48.0
+],
+"edges_m": [
+7.0,
+26
+],
+"sure": true,
+"note": ""
+},
+{
+"page": 14,
+"quad": "TL",
+"dp": "178",
+"file": "224",
+"job": null,
+"x": "14688",
+"y": "97134",
+"elev": 238,
+"rho": [
+4800.0,
+480.0,
+54.0,
+27.0
+],
+"edges_m": [
+2.2,
+9.9,
+70
+],
+"sure": true,
+"note": "job line cut off"
+},
+{
+"page": 14,
+"quad": "TR",
+"dp": "297",
+"file": "224",
+"job": null,
+"x": "14717",
+"y": "97195",
+"elev": 243,
+"rho": [
+50.0,
+20.0,
+54.0
+],
+"edges_m": [
+1.0,
+2.7
+],
+"sure": false,
+"note": "50.00 printed in the left margin outside the band beside CAL.RES (no own box); its edge assumed at ~1 m (band border sits at the frame). Job line cut off"
+},
+{
+"page": 14,
+"quad": "BL",
+"dp": "180",
+"file": "224",
+"job": "249/76",
+"x": "14720",
+"y": "97110",
+"elev": 235,
+"rho": [
+580.0,
+230.0,
+24.0
+],
+"edges_m": [
+2.0,
+6.9
+],
+"sure": true,
+"note": ""
+},
+{
+"page": 14,
+"quad": "BR",
+"dp": "179",
+"file": "224",
+"job": "249/76",
+"x": "14706",
+"y": "97120",
+"elev": 237,
+"rho": [
+780.0,
+155.0,
+27.0
+],
+"edges_m": [
+2.1,
+7.5
+],
+"sure": true,
+"note": ""
+},
+{
+"page": 16,
+"quad": "TR",
+"partial": true,
+"dp": null,
+"file": null,
+"job": null,
+"x": null,
+"y": null,
+"elev": null,
+"rho": [],
+"edges_m": [],
+"sure": false,
+"note": "Quadrant holds only blank space and the top (10^4 decade) of a tall right-column sheet whose bottom and footer are in BR (DP 43); no CAL.RES band or footer here"
+},
+{
+"page": 16,
+"quad": "BL",
+"dp": "42",
+"file": "224",
+"job": "249/76",
+"x": "15430",
+"y": "97280",
+"elev": 190,
+"rho": [
+2000.0,
+220.0,
+23.0
+],
+"edges_m": [
+2.5,
+21
+],
+"sure": true,
+"note": ""
+},
+{
+"page": 16,
+"quad": "BR",
+"dp": "43",
+"file": "224",
+"job": "249/76",
+"x": "15670",
+"y": "97350",
+"elev": 165,
+"rho": [
+1450.0,
+220.0,
+19.0
+],
+"edges_m": [
+2.6,
+9.5
+],
+"sure": true,
+"note": "bottom of a tall sheet spanning TR+BR"
+},
+{
+"page": 17,
+"quad": "TL",
+"dp": "170",
+"file": "224",
+"job": null,
+"x": "15900",
+"y": "97330",
+"elev": 142,
+"rho": [
+1500.0,
+300.0,
+85.0
+],
+"edges_m": [
+6.0,
+27
+],
+"sure": true,
+"note": "job line cut off"
+},
+{
+"page": 17,
+"quad": "TR",
+"dp": "169",
+"file": "224",
+"job": null,
+"x": "1590",
+"y": "9728",
+"elev": 147,
+"rho": [
+340.0,
+60.0,
+100.0,
+40.0,
+170.0
+],
+"edges_m": [
+1.3,
+4.0,
+20,
+76
+],
+"sure": true,
+"note": "coordinates printed with 4 digits as shown; job line cut off"
+},
+{
+"page": 17,
+"quad": "BL",
+"dp": "172",
+"file": "224",
+"job": "249/76",
+"x": "1590",
+"y": "9738",
+"elev": 138,
+"rho": [
+1050.0,
+170.0
+],
+"edges_m": [
+11
+],
+"sure": true,
+"note": "coordinates printed with 4 digits as shown"
+},
+{
+"page": 17,
+"quad": "BR",
+"dp": "171",
+"file": "224",
+"job": "249/76",
+"x": "15900",
+"y": "97350",
+"elev": 140,
+"rho": [
+1200.0,
+300.0,
+700.0,
+90.0
+],
+"edges_m": [
+3.0,
+7.1,
+36
+],
+"sure": true,
+"note": ""
+},
+{
+"page": 18,
+"quad": "TL",
+"dp": "174",
+"file": "224",
+"job": "249/76",
+"x": "1590",
+"y": "9743",
+"elev": 134,
+"rho": [
+1540.0,
+300.0,
+100.0,
+60.0
+],
+"edges_m": [
+1.1,
+8.5,
+32
+],
+"sure": false,
+"note": "first box very narrow (frame to ~1.1 m), value sideways read 1540.00; leading 1 is faint, could be 540.00. Coordinates printed with 4 digits as shown"
+},
+{
+"page": 18,
+"quad": "TR",
+"dp": "173",
+"file": "224",
+"job": "249/76",
+"x": "15900",
+"y": "97400",
+"elev": 136,
+"rho": [
+200.0,
+700.0,
+120.0
+],
+"edges_m": [
+4.0,
+32
+],
+"sure": true,
+"note": ""
+},
+{
+"page": 18,
+"quad": "BL",
+"dp": "176",
+"file": "224",
+"job": "249/76",
+"x": "15900",
+"y": "97480",
+"elev": 132,
+"rho": [
+870.0,
+40.0
+],
+"edges_m": [
+5.3
+],
+"sure": true,
+"note": ""
+},
+{
+"page": 18,
+"quad": "BR",
+"dp": "175",
+"file": "224",
+"job": "249/76",
+"x": "15900",
+"y": "97450",
+"elev": 133,
+"rho": [
+700.0,
+210.0,
+95.0,
+48.0
+],
+"edges_m": [
+1.7,
+3.7,
+11
+],
+"sure": true,
+"note": ""
+},
+{
+"page": 20,
+"quad": "TL",
+"dp": "695",
+"file": "224",
+"job": null,
+"x": "16820",
+"y": "97400",
+"elev": 115,
+"rho": [
+400.0,
+1400.0,
+240.0,
+25.0
+],
+"edges_m": [
+3.0,
+6.6,
+70
+],
+"sure": true,
+"note": "B: 25 deg printed; job line cut off"
+},
+{
+"page": 20,
+"quad": "TR",
+"dp": "145",
+"file": "224",
+"job": null,
+"x": "16660",
+"y": "97330",
+"elev": 140,
+"rho": [
+60.0,
+9.0,
+30.0
+],
+"edges_m": [
+4.0,
+36
+],
+"sure": true,
+"note": "job line cut off"
+},
+{
+"page": 20,
+"quad": "BL",
+"dp": "334",
+"file": "224",
+"job": "249/76",
+"x": "16618",
+"y": "97440",
+"elev": 128,
+"rho": [
+70.0,
+10.6
+],
+"edges_m": [
+9.2
+],
+"sure": true,
+"note": "B: EEN printed"
+},
+{
+"page": 20,
+"quad": "BR",
+"dp": "693",
+"file": "224",
+"job": "249/76",
+"x": "16900",
+"y": "97450",
+"elev": 117,
+"rho": [
+320.0,
+130.0,
+25.0
+],
+"edges_m": [
+2.6,
+19
+],
+"sure": true,
+"note": "B: 0 deg printed"
+},
+{
+"page": 21,
+"quad": "TL",
+"dp": "634",
+"file": "224",
+"job": null,
+"x": "16725",
+"y": "97600",
+"elev": 101,
+"rho": [
+600.0,
+220.0,
+60.0,
+300.0
+],
+"edges_m": [
+7.0,
+27,
+230
+],
+"sure": false,
+"note": "last value printed as '300.00 ?' (questioned on the sheet); B: 140 deg printed; job line cut off"
+},
+{
+"page": 21,
+"quad": "TR",
+"dp": "153",
+"file": "224",
+"job": null,
+"x": "16604",
+"y": "97500",
+"elev": 124,
+"rho": [
+900.0,
+56.0,
+95.0,
+20.0
+],
+"edges_m": [
+3.6,
+10,
+43
+],
+"sure": true,
+"note": "job line cut off"
+},
+{
+"page": 21,
+"quad": "BL",
+"dp": "632",
+"file": "224",
+"job": "249/76",
+"x": "16955",
+"y": "97745",
+"elev": 113,
+"rho": [
+1300.0,
+400.0,
+140.0,
+12.0,
+300.0
+],
+"edges_m": [
+1.3,
+5.8,
+26,
+160
+],
+"sure": true,
+"note": "B: 90 deg printed"
+},
+{
+"page": 21,
+"quad": "BR",
+"dp": "633",
+"file": "224",
+"job": "249/76",
+"x": "16850",
+"y": "97680",
+"elev": 110,
+"rho": [
+600.0,
+320.0,
+60.0,
+300.0
+],
+"edges_m": [
+2.5,
+20,
+120
+],
+"sure": false,
+"note": "last value printed as '300.00 ?' (questioned on the sheet); B: 90 deg printed"
+},
+{
+"page": 22,
+"quad": "TL",
+"dp": "19",
+"file": "224",
+"job": "249/76",
+"x": "16470",
+"y": "97870",
+"elev": null,
+"rho": [
+600.0,
+300.0,
+50.0
+],
+"edges_m": [
+2.0,
+30.0
+],
+"sure": true,
+"note": "elevation field blank; coordinates line half-cut by crop but readable; job printed with handwritten prefix before 249/76"
+},
+{
+"page": 22,
+"quad": "TR",
+"dp": "157",
+"file": "224",
+"job": "249/76",
+"x": "16450",
+"y": "97860",
+"elev": 106,
+"rho": [
+750.0,
+600.0,
+44.0
+],
+"edges_m": [
+1.0,
+15.0
+],
+"sure": false,
+"note": "first box 750.00 written sideways left of the AB/2=1 frame line, so its edge is at or below 1 m (edge 1.0 is a placeholder)"
+},
+{
+"page": 22,
+"quad": "BL",
+"dp": "623",
+"file": "224",
+"job": "249/76",
+"x": "16650",
+"y": "97875",
+"elev": 83,
+"rho": [
+1000.0,
+500.0,
+750.0,
+300.0,
+50.0
+],
+"edges_m": [
+3.0,
+5.4,
+18.0,
+30.0
+],
+"sure": true,
+"note": ""
+},
+{
+"page": 22,
+"quad": "BR",
+"dp": "143",
+"file": "224",
+"job": "249/76",
+"x": "16620",
+"y": "97880",
+"elev": 84,
+"rho": [
+1000.0,
+300.0,
+50.0
+],
+"edges_m": [
+3.6,
+22.0
+],
+"sure": true,
+"note": "coordinates printed as 16620 - 97880"
+},
+{
+"page": 23,
+"quad": "TL",
+"dp": "624",
+"file": "224",
+"job": "249/76",
+"x": "16700",
+"y": "97875",
+"elev": 57,
+"rho": [
+290.0,
+1400.0,
+105.0
+],
+"edges_m": [
+1.5,
+30.0
+],
+"sure": true,
+"note": ""
+},
+{
+"page": 23,
+"quad": "BL",
+"dp": "625",
+"file": "224",
+"job": "249/76",
+"x": "16750",
+"y": "97875",
+"elev": 94,
+"rho": [
+440.0,
+132.0,
+26.0,
+90.0
+],
+"edges_m": [
+6.4,
+24.0,
+120.0
+],
+"sure": true,
+"note": ""
+},
+{
+"page": 23,
+"quad": "BR",
+"dp": "626",
+"file": "224",
+"job": "249/76",
+"x": "16810",
+"y": "97875",
+"elev": 98,
+"rho": [
+1800.0,
+3600.0,
+300.0,
+38.0
+],
+"edges_m": [
+1.0,
+4.9,
+29.0
+],
+"sure": false,
+"note": "first box 1800.00 written sideways at the far left of the band (outside the AB/2=1 frame), so its edge is at or below 1 m (1.0 is a placeholder)"
+},
+{
+"page": 25,
+"quad": "TL",
+"dp": "16",
+"file": "354",
+"job": "249/76",
+"x": "14290",
+"y": "98670",
+"elev": 385,
+"rho": [
+300.0,
+35.0
+],
+"edges_m": [
+14.0
+],
+"sure": true,
+"note": ""
+},
+{
+"page": 25,
+"quad": "TR",
+"dp": "17",
+"file": "354",
+"job": "249/76",
+"x": "14240",
+"y": "98660",
+"elev": 388,
+"rho": [
+160.0,
+250.0,
+37.0
+],
+"edges_m": [
+1.4,
+13.0
+],
+"sure": true,
+"note": ""
+},
+{
+"page": 25,
+"quad": "BL",
+"dp": "14",
+"file": "354",
+"job": "249/76",
+"x": "14410",
+"y": "98680",
+"elev": 380,
+"rho": [
+82.0,
+24.0
+],
+"edges_m": [
+8.0
+],
+"sure": true,
+"note": ""
+},
+{
+"page": 25,
+"quad": "BR",
+"dp": "15",
+"file": "354",
+"job": "249/76",
+"x": "14350",
+"y": "98660",
+"elev": 382,
+"rho": [
+350.0,
+35.0
+],
+"edges_m": [
+9.4
+],
+"sure": true,
+"note": ""
+},
+{
+"page": 26,
+"quad": "TL",
+"dp": "12",
+"file": "354",
+"job": "249/76",
+"x": "14520",
+"y": "98700",
+"elev": 375,
+"rho": [
+240.0,
+120.0,
+65.0,
+24.0
+],
+"edges_m": [
+1.2,
+7.1,
+42.0
+],
+"sure": true,
+"note": ""
+},
+{
+"page": 26,
+"quad": "TR",
+"dp": "13",
+"file": "354",
+"job": "249/76",
+"x": "14470",
+"y": "98690",
+"elev": 377,
+"rho": [
+380.0,
+75.0,
+700.0,
+21.0
+],
+"edges_m": [
+1.5,
+6.0,
+14.0
+],
+"sure": true,
+"note": ""
+},
+{
+"page": 26,
+"quad": "BL",
+"dp": "10",
+"file": "354",
+"job": "249/76",
+"x": "14630",
+"y": "98720",
+"elev": 371,
+"rho": [
+120.0,
+24.0
+],
+"edges_m": [
+4.4
+],
+"sure": true,
+"note": ""
+},
+{
+"page": 26,
+"quad": "BR",
+"dp": "11",
+"file": "354",
+"job": "249/76",
+"x": "14580",
+"y": "98710",
+"elev": 373,
+"rho": [
+300.0,
+110.0,
+26.0
+],
+"edges_m": [
+1.2,
+12.0
+],
+"sure": true,
+"note": ""
+},
+{
+"page": 28,
+"quad": "TL",
+"dp": "620",
+"file": "224",
+"job": "249/76",
+"x": "16610",
+"y": "98295",
+"elev": 57,
+"rho": [
+150.0,
+27.0,
+40.0
+],
+"edges_m": [
+5.5,
+35.0
+],
+"sure": true,
+"note": ""
+},
+{
+"page": 28,
+"quad": "TR",
+"dp": "619",
+"file": "224",
+"job": "249/76",
+"x": "16525",
+"y": "98300",
+"elev": 57,
+"rho": [
+1050.0,
+650.0,
+140.0,
+24.0
+],
+"edges_m": [
+3.6,
+17.0,
+57.0
+],
+"sure": true,
+"note": ""
+},
+{
+"page": 28,
+"quad": "BL",
+"dp": "128",
+"file": "224",
+"job": "249/76",
+"x": "16720",
+"y": "98950",
+"elev": 18,
+"rho": [
+500.0,
+115.0,
+35.0
+],
+"edges_m": [
+1.2,
+23.0
+],
+"sure": false,
+"note": "elevation printed as \"~18\" (approximate)"
+},
+{
+"page": 28,
+"quad": "BR",
+"dp": "11",
+"file": "224",
+"job": "249/76",
+"x": "16700",
+"y": "98960",
+"elev": null,
+"rho": [
+230.0,
+45.0,
+12.0,
+240.0
+],
+"edges_m": [
+3.1,
+16.0,
+23.0
+],
+"sure": false,
+"note": "elevation blank; a dashed vertical line at ~115 m closes the 240.00 box and is followed by an empty box (no value), so the 240 layer may be bounded at ~115 m with an unspecified layer below"
+},
+{
+"page": 29,
+"quad": "TL",
+"dp": "16",
+"file": "224",
+"job": "249/76",
+"x": "16740",
+"y": "98950",
+"elev": null,
+"rho": [
+380.0,
+950.0,
+50.0
+],
+"edges_m": [
+4.2,
+15.0
+],
+"sure": true,
+"note": "elevation blank"
+},
+{
+"page": 29,
+"quad": "TR",
+"dp": "120",
+"file": "224",
+"job": "249/76",
+"x": "16730",
+"y": "98950",
+"elev": 12,
+"rho": [
+950.0,
+400.0,
+40.0
+],
+"edges_m": [
+2.5,
+20.0
+],
+"sure": true,
+"note": ""
+},
+{
+"page": 29,
+"quad": "BL",
+"dp": "610",
+"file": "224",
+"job": "249/76",
+"x": "16850",
+"y": "98915",
+"elev": 21,
+"rho": [
+1000.0,
+320.0,
+32.0,
+64.0,
+25.0
+],
+"edges_m": [
+2.2,
+7.0,
+50.0,
+90.0
+],
+"sure": true,
+"note": ""
+},
+{
+"page": 29,
+"quad": "BR",
+"dp": "609",
+"file": "224",
+"job": "249/76",
+"x": "168000",
+"y": "98935",
+"elev": 15,
+"rho": [
+400.0,
+34.0
+],
+"edges_m": [
+6.0
+],
+"sure": true,
+"note": "x printed as \"168000\" (six digits, likely 16800)"
+},
+{
+"page": 31,
+"quad": "TL",
+"dp": "13",
+"file": "224",
+"job": "249/76",
+"x": "16740",
+"y": "99100",
+"elev": 342,
+"rho": [
+1500.0,
+260.0,
+65.0
+],
+"edges_m": [
+1.0,
+42.0
+],
+"sure": false,
+"note": "first box 1500.00 written sideways outside the band, left of the AB/2=1 frame, so its edge is at or below 1 m (1.0 is a placeholder); elevation 342 printed (looks high for the area but is as printed)"
+},
+{
+"page": 31,
+"quad": "TR",
+"dp": "12",
+"file": "224",
+"job": "249/76",
+"x": "16710",
+"y": "99100",
+"elev": null,
+"rho": [
+150.0,
+15.0,
+140.0
+],
+"edges_m": [
+4.2,
+30.0
+],
+"sure": true,
+"note": "elevation blank"
+},
+{
+"page": 31,
+"quad": "BL",
+"dp": "112",
+"file": "224",
+"job": "249/76",
+"x": "16795",
+"y": "99094",
+"elev": 3,
+"rho": [
+750.0,
+150.0,
+17.0
+],
+"edges_m": [
+5.2,
+11.0
+],
+"sure": true,
+"note": ""
+},
+{
+"page": 31,
+"quad": "BR",
+"dp": "113",
+"file": "224",
+"job": "249/76",
+"x": "16764",
+"y": "99096",
+"elev": 4,
+"rho": [
+1500.0,
+600.0,
+22.0
+],
+"edges_m": [
+1.6,
+14.0
+],
+"sure": true,
+"note": ""
+},
+{
+"page": 32,
+"quad": "TL",
+"dp": "554",
+"file": "224",
+"job": "249/76",
+"x": "1683",
+"y": "99300",
+"elev": -4,
+"rho": [
+450.0,
+26.0
+],
+"edges_m": [
+17.0
+],
+"sure": true,
+"note": "x printed as \"1683\" (four digits, likely 16830)"
+},
+{
+"page": 32,
+"quad": "BL",
+"dp": "605",
+"file": "224",
+"job": "249/76",
+"x": "16925",
+"y": "99315",
+"elev": 1,
+"rho": [
+1100.0,
+165.0,
+380.0,
+58.0
+],
+"edges_m": [
+2.0,
+15.0,
+53.0
+],
+"sure": true,
+"note": "first value printed \"1100 00\" (decimal point faint)"
+},
+{
+"page": 32,
+"quad": "BR",
+"dp": "604",
+"file": "224",
+"job": "249/76",
+"x": "16870",
+"y": "99305",
+"elev": 4,
+"rho": [
+2700.0,
+400.0,
+25.0,
+60.0
+],
+"edges_m": [
+5.5,
+17.0,
+70.0
+],
+"sure": true,
+"note": "boundary between 25.00 and 60.00 drawn as a dashed line; coordinates printed \"16 870 / 99305\""
+},
+{
+"page": 33,
+"quad": "BR",
+"dp": "606",
+"file": "224",
+"job": "249/76",
+"x": "17000",
+"y": "99330",
+"elev": 8,
+"rho": [
+330.0,
+50.0,
+27.0,
+34.0,
+15.0,
+null
+],
+"edges_m": [
+2.7,
+25.0,
+64.0,
+180.0,
+250.0
+],
+"sure": true,
+"note": "infinity: last box shows the infinity sign"
+},
+{
+"page": 35,
+"quad": "TL",
+"dp": "540",
+"file": "224",
+"job": "249/76",
+"x": "16800",
+"y": "00000",
+"elev": -30,
+"rho": [
+155.0,
+90.0,
+40.0,
+150.0,
+29.0,
+300.0
+],
+"edges_m": [
+1.3,
+4.6,
+9.0,
+39.0,
+110.0
+],
+"sure": true,
+"note": "y printed as \"00000\""
+},
+{
+"page": 35,
+"quad": "TR",
+"dp": "",
+"file": "",
+"job": "",
+"x": "",
+"y": "",
+"elev": null,
+"rho": [],
+"edges_m": [],
+"sure": false,
+"note": "quadrant holds only the upper part (y 10^4-10^5 decades) of a tall sheet that continues into BR (D.P. 541); no CAL. RES band or footer here",
+"partial": true
+},
+{
+"page": 35,
+"quad": "BL",
+"dp": "542",
+"file": "224",
+"job": "249/76",
+"x": "16980",
+"y": "00000",
+"elev": -50,
+"rho": [
+1300.0,
+600.0,
+29.0
+],
+"edges_m": [
+10.0,
+42.0
+],
+"sure": true,
+"note": "y printed as \"00000\"; boundary at ~10 m drawn dashed"
+},
+{
+"page": 35,
+"quad": "BR",
+"dp": "541",
+"file": "224",
+"job": "249/76",
+"x": "16900",
+"y": "00000",
+"elev": -40,
+"rho": [
+4200.0,
+300.0,
+600.0,
+29.0
+],
+"edges_m": [
+2.1,
+13.0,
+27.0
+],
+"sure": true,
+"note": "y printed as \"00000\"; this tall sheet starts in the TR quadrant (upper decades)"
+},
+{
+"page": 36,
+"quad": "TL",
+"dp": "69",
+"file": "224",
+"job": "249/76",
+"x": "16510",
+"y": "0072",
+"elev": 2,
+"rho": [
+1000.0,
+360.0,
+28.0
+],
+"edges_m": [
+4.2,
+21.0
+],
+"sure": true,
+"note": "y printed as \"0072\" (four digits)"
+},
+{
+"page": 36,
+"quad": "TR",
+"dp": "",
+"file": "",
+"job": "",
+"x": "",
+"y": "",
+"elev": null,
+"rho": [],
+"edges_m": [],
+"sure": false,
+"note": "quadrant holds only the upper part (upper decades) of a tall sheet that continues into BR (D.P. 68); no CAL. RES band or footer here",
+"partial": true
+},
+{
+"page": 36,
+"quad": "BL",
+"dp": "67",
+"file": "224",
+"job": "249/76",
+"x": "16700",
+"y": "00685",
+"elev": -18,
+"rho": [
+600.0,
+180.0,
+30.0
+],
+"edges_m": [
+1.2,
+10.0
+],
+"sure": true,
+"note": ""
+},
+{
+"page": 36,
+"quad": "BR",
+"dp": "68",
+"file": "224",
+"job": "249/76",
+"x": "16610",
+"y": "00700",
+"elev": -9,
+"rho": [
+3400.0,
+1000.0,
+23.0
+],
+"edges_m": [
+2.3,
+6.0
+],
+"sure": true,
+"note": "this tall sheet starts in the TR quadrant (upper decades)"
+},
+{
+"page": 37,
+"quad": "TL",
+"dp": "70",
+"file": "224",
+"job": "249/76",
+"x": "1688",
+"y": "0062",
+"elev": -56,
+"rho": [
+1300.0,
+240.0,
+29.0
+],
+"edges_m": [
+3.0,
+24.0
+],
+"sure": true,
+"note": "coordinates printed \"1688 / 0062\" (four digits each)"
+},
+{
+"page": 37,
+"quad": "TR",
+"dp": "74",
+"file": "224",
+"job": "249/76",
+"x": "16800",
+"y": "00630",
+"elev": -49,
+"rho": [
+1200.0,
+600.0,
+25.0
+],
+"edges_m": [
+1.0,
+9.6
+],
+"sure": false,
+"note": "first box 1200.00 written sideways left of the AB/2=1 frame, so its edge is at or below 1 m (1.0 is a placeholder)"
+},
+{
+"page": 37,
+"quad": "BL",
+"dp": "61",
+"file": "224",
+"job": "249/76",
+"x": "16975",
+"y": "00630",
+"elev": -65,
+"rho": [
+700.0,
+28.5
+],
+"edges_m": [
+10.0
+],
+"sure": true,
+"note": ""
+},
+{
+"page": 37,
+"quad": "BR",
+"dp": "350",
+"file": "224",
+"job": "249/76",
+"x": "17050",
+"y": "00600",
+"elev": -54,
+"rho": [
+900.0,
+360.0,
+22.0
+],
+"edges_m": [
+4.0,
+27.0
+],
+"sure": true,
+"note": ""
+},
+{
+"page": 38,
+"quad": "TL",
+"dp": "596",
+"file": "224",
+"job": "249/76",
+"x": "17165",
+"y": "00575",
+"elev": -68,
+"rho": [
+120.0,
+300.0,
+32.0,
+150.0
+],
+"edges_m": [
+4.0,
+22.0,
+120.0
+],
+"sure": true,
+"note": ""
+},
+{
+"page": 38,
+"quad": "TR",
+"dp": "753",
+"file": "224",
+"job": "249/76",
+"x": "17475",
+"y": "00530",
+"elev": -72,
+"rho": [
+190.0,
+29.0,
+18.0,
+27.0
+],
+"edges_m": [
+1.0,
+16.0,
+76.0
+],
+"sure": false,
+"note": "first box 190.00 written sideways left of the AB/2=1 frame, so its edge is at or below 1 m (1.0 is a placeholder)"
+},
+{
+"page": 38,
+"quad": "BL",
+"dp": "752",
+"file": "224",
+"job": "249/76",
+"x": "17320",
+"y": "00530",
+"elev": -80,
+"rho": [
+100.0,
+160.0,
+24.0,
+54.0
+],
+"edges_m": [
+1.3,
+5.4,
+34.0
+],
+"sure": true,
+"note": ""
+},
+{
+"page": 38,
+"quad": "BR",
+"dp": "505",
+"file": "224",
+"job": "249/76",
+"x": "17200",
+"y": "00900",
+"elev": -86,
+"rho": [
+230.0,
+42.0,
+60.0,
+27.0
+],
+"edges_m": [
+1.0,
+14.0,
+39.0
+],
+"sure": false,
+"note": "first box 230.00 written sideways left of the AB/2=1 frame, so its edge is at or below 1 m (1.0 is a placeholder)"
+},
+{
+"page": 39,
+"quad": "TL",
+"dp": "53",
+"file": "224",
+"job": "249/76",
+"x": "17300",
+"y": "00900",
+"elev": -100,
+"rho": [
+1200.0,
+450.0,
+180.0,
+16.0,
+50.0,
+16.0
+],
+"edges_m": [
+1.1,
+5.4,
+15.0,
+32.0,
+50.0
+],
+"sure": false,
+"note": "first value 1200.00 written sideways outside the band at the AB/2=1 frame; the band's own left line sits at ~1.1 m, taken as the first edge"
+},
+{
+"page": 39,
+"quad": "TR",
+"dp": "51",
+"file": "224",
+"job": "249/76",
+"x": "17400",
+"y": "00910",
+"elev": -107,
+"rho": [
+750.0,
+17.0,
+33.0,
+11.0
+],
+"edges_m": [
+2.2,
+24.0,
+34.0
+],
+"sure": true,
+"note": ""
+},
+{
+"page": 39,
+"quad": "BL",
+"dp": "52",
+"file": "224",
+"job": "249/76",
+"x": "17350",
+"y": "00910",
+"elev": -104,
+"rho": [
+900.0,
+18.0,
+36.0,
+14.5
+],
+"edges_m": [
+3.0,
+34.0,
+50.0
+],
+"sure": true,
+"note": ""
+},
+{
+"page": 39,
+"quad": "BR",
+"dp": "591",
+"file": "224",
+"job": "249/76",
+"x": "17435",
+"y": "00900",
+"elev": -108,
+"rho": [
+100.0,
+56.0,
+17.0,
+null
+],
+"edges_m": [
+8.0,
+19.0,
+180.0
+],
+"sure": true,
+"note": "infinity: last box shows the infinity sign; boundary at ~8 m drawn dashed"
+},
+{
+"page": 40,
+"quad": "TL",
+"dp": "592",
+"file": "224",
+"job": "249/76",
+"x": "17530",
+"y": "00900",
+"elev": -105,
+"rho": [
+300.0,
+40.0,
+52.0,
+15.5,
+37.5
+],
+"edges_m": [
+1.0,
+8.0,
+13.0,
+64.0
+],
+"sure": false,
+"note": "first box 300.00 written sideways left of the AB/2=1 frame, so its edge is at or below 1 m (1.0 is a placeholder)"
+},
+{
+"page": 40,
+"quad": "BL",
+"dp": "593",
+"file": "224",
+"job": "249/76",
+"x": "17600",
+"y": "00900",
+"elev": -110,
+"rho": [
+600.0,
+100.0,
+40.0,
+70.0,
+20.0,
+null
+],
+"edges_m": [
+1.0,
+3.2,
+7.5,
+18.0,
+250.0
+],
+"sure": false,
+"note": "first box 600.00 written sideways left of the AB/2=1 frame, so its edge is at or below 1 m (1.0 is a placeholder); infinity: last box shows the infinity sign"
+},
+{
+"page": 40,
+"quad": "BR",
+"dp": "594",
+"file": "224",
+"job": "249/76",
+"x": "17665",
+"y": "00900",
+"elev": -115,
+"rho": [
+700.0,
+140.0,
+340.0,
+130.0,
+260.0
+],
+"edges_m": [
+1.0,
+3.2,
+15.0,
+70.0
+],
+"sure": false,
+"note": "first box 700.00 written sideways left of the AB/2=1 frame, so its edge is at or below 1 m (1.0 is a placeholder)"
+},
+{
+"page": 42,
+"quad": "TL",
+"dp": "365",
+"file": "224",
+"job": "",
+"x": "17330",
+"y": "01220",
+"elev": -107,
+"rho": [
+58.0,
+145.0,
+17.0
+],
+"edges_m": [
+1.5,
+22
+],
+"sure": true,
+"note": "job number line not visible in crop"
+},
+{
+"page": 42,
+"quad": "BL",
+"dp": "430",
+"file": "224",
+"job": "249/76",
+"x": "17450",
+"y": "01190",
+"elev": -111,
+"rho": [
+1200.0,
+90.0,
+200.0,
+20.0
+],
+"edges_m": [
+1.2,
+8.7,
+39
+],
+"sure": true,
+"note": ""
+},
+{
+"page": 42,
+"quad": "BR",
+"dp": "428",
+"file": "224",
+"job": "249/76",
+"x": "17620",
+"y": "01200",
+"elev": -130,
+"rho": [
+900.0,
+70.0,
+440.0,
+20.0
+],
+"edges_m": [
+9.4,
+21,
+28
+],
+"sure": true,
+"note": ""
+},
+{
+"page": 43,
+"quad": "TL",
+"dp": "587",
+"file": "224",
+"job": "249/76",
+"x": "17725",
+"y": "01180",
+"elev": -135,
+"rho": [
+540.0,
+240.0,
+320.0,
+95.0,
+320.0
+],
+"edges_m": [
+1.4,
+24,
+120,
+160
+],
+"sure": true,
+"note": "job number line cut at crop bottom, partly visible"
+},
+{
+"page": 43,
+"quad": "BL",
+"dp": "588",
+"file": "224",
+"job": "249/76",
+"x": "1780",
+"y": "0120",
+"elev": -130,
+"rho": [
+70.0,
+240.0,
+85.0,
+360.0,
+95.0,
+320.0
+],
+"edges_m": [
+3.5,
+7.4,
+21,
+93,
+140
+],
+"sure": true,
+"note": "coordinates printed as 1780 / 0120 (4 digits each)"
+},
+{
+"page": 43,
+"quad": "BR",
+"dp": "586",
+"file": "224",
+"job": "249/76",
+"x": "17660",
+"y": "01205",
+"elev": -130,
+"rho": [
+1900.0,
+850.0,
+95.0,
+15.0
+],
+"edges_m": [
+1.1,
+6.1,
+80
+],
+"sure": true,
+"note": "first box 1900.00 written sideways in narrow box"
+},
+{
+"page": 44,
+"quad": "TL",
+"dp": "357",
+"file": "224",
+"job": "",
+"x": "16790",
+"y": "01490",
+"elev": -62,
+"rho": [
+32.0,
+18.0,
+58.0
+],
+"edges_m": [
+7.5,
+50
+],
+"sure": true,
+"note": "job line not visible in crop; y printed with a stray mark before it ('01490)"
+},
+{
+"page": 44,
+"quad": "TR",
+"dp": "359",
+"file": "224",
+"job": "",
+"x": "16990",
+"y": "01490",
+"elev": -86,
+"rho": [
+270.0,
+13.5,
+21.0,
+18.0
+],
+"edges_m": [
+4.5,
+28,
+44
+],
+"sure": true,
+"note": "job line not visible in crop"
+},
+{
+"page": 44,
+"quad": "BL",
+"dp": "358",
+"file": "224",
+"job": "249/76",
+"x": "16890",
+"y": "01490",
+"elev": -81,
+"rho": [
+80.0,
+32.0,
+16.0
+],
+"edges_m": [
+5.9,
+32
+],
+"sure": true,
+"note": ""
+},
+{
+"page": 44,
+"quad": "BR",
+"dp": "360",
+"file": "224",
+"job": "249/76",
+"x": "17090",
+"y": "01490",
+"elev": -100,
+"rho": [
+270.0,
+21.0
+],
+"edges_m": [
+14
+],
+"sure": true,
+"note": ""
+},
+{
+"page": 45,
+"quad": "TL",
+"dp": "361",
+"file": "224",
+"job": "249/76",
+"x": "17190",
+"y": "01490",
+"elev": -115,
+"rho": [
+260.0,
+13.0,
+21.0,
+14.5
+],
+"edges_m": [
+3.5,
+27,
+39
+],
+"sure": true,
+"note": "job line cut at crop bottom, partly visible"
+},
+{
+"page": 45,
+"quad": "TR",
+"dp": "427",
+"file": "224",
+"job": "249/76",
+"x": "17360",
+"y": "01520",
+"elev": -100,
+"rho": [
+210.0,
+21.0,
+42.0,
+13.0
+],
+"edges_m": [
+12,
+30,
+83
+],
+"sure": true,
+"note": "job line cut at crop bottom, partly visible"
+},
+{
+"page": 45,
+"quad": "BL",
+"dp": "362",
+"file": "224",
+"job": "249/76",
+"x": "17280",
+"y": "01490",
+"elev": -133,
+"rho": [
+800.0,
+260.0,
+13.0
+],
+"edges_m": [
+2.2,
+31
+],
+"sure": true,
+"note": ""
+},
+{
+"page": 45,
+"quad": "BR",
+"dp": "520",
+"file": "224",
+"job": "249/76",
+"x": "17460",
+"y": "01540",
+"elev": -110,
+"rho": [
+1700.0,
+120.0,
+40.0
+],
+"edges_m": [
+7.0,
+30
+],
+"sure": true,
+"note": "job prefix is a different Hebrew abbreviation"
+},
+{
+"page": 46,
+"quad": "TL",
+"dp": "517",
+"file": "224",
+"job": "249/76",
+"x": "17560",
+"y": "01540",
+"elev": -130,
+"rho": [
+40.0,
+800.0,
+42.0,
+13.0
+],
+"edges_m": [
+2.7,
+29,
+170
+],
+"sure": true,
+"note": "job line cut at crop bottom, partly visible"
+},
+{
+"page": 46,
+"quad": "BL",
+"dp": "519",
+"file": "224",
+"job": "249/76",
+"x": "17770",
+"y": "01540",
+"elev": -148,
+"rho": [
+950.0,
+500.0,
+320.0,
+40.0
+],
+"edges_m": [
+7.0,
+25,
+66
+],
+"sure": true,
+"note": "boundary between 500 and 320 boxes drawn as dashed line"
+},
+{
+"page": 46,
+"quad": "BR",
+"dp": "518",
+"file": "224",
+"job": "249/76",
+"x": "17710",
+"y": "01540",
+"elev": null,
+"rho": [
+2000.0,
+140.0,
+320.0,
+38.0
+],
+"edges_m": [
+5.5,
+20,
+32
+],
+"sure": true,
+"note": "elevation field blank"
+},
+{
+"page": 47,
+"quad": "TL",
+"dp": "580",
+"file": "224",
+"job": "",
+"x": "17800",
+"y": "01550",
+"elev": null,
+"rho": [
+460.0,
+690.0,
+130.0,
+320.0
+],
+"edges_m": [
+1.8,
+29,
+150
+],
+"sure": true,
+"note": "elevation field blank; job line not visible in crop"
+},
+{
+"page": 47,
+"quad": "TR",
+"partial": true,
+"dp": "",
+"file": "",
+"job": "",
+"x": "",
+"y": "",
+"elev": null,
+"rho": [],
+"edges_m": [],
+"sure": false,
+"note": "quadrant holds only the top of one sheet placed low on the page; the same sheet continues into BR (DP 810), footer and CAL. RES. read there"
+},
+{
+"page": 47,
+"quad": "BL",
+"dp": "581",
+"file": "224",
+"job": "249/76",
+"x": "17845",
+"y": "01550",
+"elev": -148,
+"rho": [
+500.0,
+320.0,
+470.0,
+140.0
+],
+"edges_m": [
+5.1,
+23,
+67
+],
+"sure": true,
+"note": ""
+},
+{
+"page": 47,
+"quad": "BR",
+"dp": "810",
+"file": "224",
+"job": "249/76",
+"x": "17920",
+"y": "01560",
+"elev": -140,
+"rho": [
+3.0,
+140.0,
+320.0,
+13.0
+],
+"edges_m": [
+2.4,
+28,
+230
+],
+"sure": true,
+"note": "sheet is offset upward and spans TR+BR; resistivity axis here 1-1000; first-layer 3.00 as printed; B:150 deg"
+},
+{
+"page": 48,
+"quad": "TL",
+"dp": "811",
+"file": "224",
+"job": "",
+"x": "18010",
+"y": "01590",
+"elev": -135,
+"rho": [
+9.0,
+130.0,
+320.0,
+13.0
+],
+"edges_m": [
+2.2,
+30,
+220
+],
+"sure": true,
+"note": "first value printed 9.000; job line not visible in crop; B: 30 deg"
+},
+{
+"page": 48,
+"quad": "TR",
+"dp": "571",
+"file": "224",
+"job": "",
+"x": "17445",
+"y": "01650",
+"elev": -110,
+"rho": [
+300.0,
+30.0,
+60.0,
+12.0
+],
+"edges_m": [
+1.0,
+37,
+110
+],
+"sure": false,
+"note": "300.00 written sideways at far left beside CAL.RES label (squeezed first box); its right edge coincides with band start at about AB/2=1, so first edge is a guess; job line not visible"
+},
+{
+"page": 48,
+"quad": "BL",
+"dp": "361",
+"file": "224",
+"job": "249/76",
+"x": "17190",
+"y": "01490",
+"elev": -115,
+"rho": [
+260.0,
+13.0,
+21.0,
+14.5
+],
+"edges_m": [
+4.1,
+33,
+41
+],
+"sure": true,
+"note": "same DP 361 as p45 TL (another copy, B:E); edges read here slightly differ from p45 TL"
+},
+{
+"page": 48,
+"quad": "BR",
+"dp": "522",
+"file": "224",
+"job": "249/76",
+"x": "17560",
+"y": "01740",
+"elev": -140,
+"rho": [
+25.0,
+90.0,
+34.0
+],
+"edges_m": [
+3.2,
+25
+],
+"sure": true,
+"note": "B:65 deg"
+},
+{
+"page": 49,
+"quad": "TL",
+"dp": "458",
+"file": "224",
+"job": "",
+"x": "17665",
+"y": "01842",
+"elev": 147,
+"rho": [
+54.0,
+75.0,
+7.5,
+50.0
+],
+"edges_m": [
+1.8,
+10,
+70
+],
+"sure": true,
+"note": "elevation printed 147 with no minus sign; job line not visible in crop"
+},
+{
+"page": 49,
+"quad": "TR",
+"dp": "556",
+"file": "224",
+"job": "",
+"x": "17810",
+"y": "02005",
+"elev": -200,
+"rho": [
+440.0,
+200.0,
+500.0,
+150.0,
+54.0
+],
+"edges_m": [
+3.0,
+4.2,
+42,
+180
+],
+"sure": true,
+"note": "job line not visible in crop; B:360 deg"
+},
+{
+"page": 49,
+"quad": "BL",
+"dp": "452",
+"file": "224",
+"job": "249/76",
+"x": "17748",
+"y": "01925",
+"elev": 163,
+"rho": [
+440.0,
+100.0,
+340.0,
+62.0
+],
+"edges_m": [
+2.4,
+42,
+270
+],
+"sure": true,
+"note": "elevation printed 163 with no minus sign; y-axis starts at 10^2"
+},
+{
+"page": 49,
+"quad": "BR",
+"dp": "371",
+"file": "224",
+"job": "249/76",
+"x": "16700",
+"y": "01740",
+"elev": -45,
+"rho": [
+36.0,
+50.0,
+22.0,
+50.0,
+20.0
+],
+"edges_m": [
+3.0,
+10,
+38,
+43
+],
+"sure": true,
+"note": "fourth box 50.00 written sideways in narrow box"
+},
+{
+"page": 50,
+"quad": "TL",
+"dp": "370",
+"file": "224",
+"job": "",
+"x": "16800",
+"y": "01750",
+"elev": -57,
+"rho": [
+115.0,
+26.0,
+50.0,
+26.0
+],
+"edges_m": [
+4.1,
+29,
+35
+],
+"sure": true,
+"note": "third box 50.00 written sideways in narrow box; job line not visible in crop"
+},
+{
+"page": 50,
+"quad": "TR",
+"dp": "368",
+"file": "224",
+"job": "",
+"x": "01700",
+"y": "01750",
+"elev": -88,
+"rho": [
+170.0,
+12.0,
+42.0
+],
+"edges_m": [
+15,
+74
+],
+"sure": true,
+"note": "x printed as 01700 (looks odd, kept as printed; neighbours suggest ~16700); job line not visible in crop"
+},
+{
+"page": 50,
+"quad": "BL",
+"dp": "369",
+"file": "224",
+"job": "249/76",
+"x": "16900",
+"y": "01750",
+"elev": -72,
+"rho": [
+260.0,
+13.0,
+26.0
+],
+"edges_m": [
+10,
+50
+],
+"sure": true,
+"note": ""
+},
+{
+"page": 50,
+"quad": "BR",
+"dp": "78",
+"file": "224",
+"job": "249/76",
+"x": "17100",
+"y": "01750",
+"elev": -100,
+"rho": [
+300.0,
+60.0,
+20.0
+],
+"edges_m": [
+8.6,
+27
+],
+"sure": true,
+"note": ""
+},
+{
+"page": 51,
+"quad": "TL",
+"dp": "77",
+"file": "224",
+"job": "249/76",
+"x": "17150",
+"y": "01760",
+"elev": -106,
+"rho": [
+1400.0,
+65.0,
+120.0,
+24.0
+],
+"edges_m": [
+1.1,
+8.8,
+17
+],
+"sure": true,
+"note": "first box 1400.00 written sideways in narrow box; job line cut at crop bottom, partly visible"
+},
+{
+"page": 51,
+"quad": "TR",
+"dp": "80",
+"file": "224",
+"job": "249/76",
+"x": "17250",
+"y": "01780",
+"elev": -119,
+"rho": [
+1600.0,
+620.0,
+105.0,
+250.0,
+15.0
+],
+"edges_m": [
+1.0,
+4.5,
+11,
+25
+],
+"sure": false,
+"note": "1600.00 written sideways at far left beside CAL.RES label with no visible box line; first edge assumed at about AB/2=1 (guess); job line cut at crop bottom"
+},
+{
+"page": 51,
+"quad": "BL",
+"dp": "79",
+"file": "224",
+"job": "249/76",
+"x": "17200",
+"y": "01770",
+"elev": -112,
+"rho": [
+170.0,
+17.0,
+62.0,
+22.0
+],
+"edges_m": [
+7.2,
+10.5,
+25
+],
+"sure": true,
+"note": "job year blurred (looks like 78), taken as 249/76"
+},
+{
+"page": 51,
+"quad": "BR",
+"dp": "81",
+"file": "224",
+"job": "249/76",
+"x": "17300",
+"y": "01790",
+"elev": -124,
+"rho": [
+460.0,
+56.0,
+24.0
+],
+"edges_m": [
+2.5,
+26
+],
+"sure": true,
+"note": ""
+},
+{
+"page": 52,
+"quad": "TL",
+"dp": "82",
+"file": "224",
+"job": "",
+"x": "17350",
+"y": "01800",
+"elev": -128,
+"rho": [
+400.0,
+20.0
+],
+"edges_m": [
+7.4
+],
+"sure": true,
+"note": "job line not visible in crop"
+},
+{
+"page": 52,
+"quad": "TR",
+"dp": "84",
+"file": "224",
+"job": "",
+"x": "17440",
+"y": "01820",
+"elev": -138,
+"rho": [
+480.0,
+120.0,
+18.0
+],
+"edges_m": [
+1.4,
+5.1
+],
+"sure": true,
+"note": "job line not visible in crop"
+},
+{
+"page": 52,
+"quad": "BL",
+"dp": "83",
+"file": "224",
+"job": "245/76",
+"x": "17400",
+"y": "01810",
+"elev": -133,
+"rho": [
+95.0,
+9.5,
+25.0
+],
+"edges_m": [
+9.5,
+49
+],
+"sure": true,
+"note": "job printed 245/76 (others 249/76), kept as printed"
+},
+{
+"page": 52,
+"quad": "BR",
+"dp": "85",
+"file": "224",
+"job": "249/76",
+"x": "17490",
+"y": "01830",
+"elev": -142,
+"rho": [
+240.0,
+16.0
+],
+"edges_m": [
+7.5
+],
+"sure": true,
+"note": ""
+},
+{
+"page": 53,
+"quad": "TL",
+"dp": "86",
+"file": "224",
+"job": "249/76",
+"x": "17540",
+"y": "01840",
+"elev": -144,
+"rho": [
+23.0,
+80.0,
+30.0,
+80.0,
+18.0
+],
+"edges_m": [
+1.0,
+3.0,
+5.5,
+29
+],
+"sure": false,
+"note": "23.00 written sideways at far left beside CAL.RES label with no box line; first edge assumed about AB/2=1 (guess); job line cut at crop bottom"
+},
+{
+"page": 53,
+"quad": "TR",
+"dp": "88",
+"file": "224",
+"job": "249/76",
+"x": "17640",
+"y": "01850",
+"elev": -153,
+"rho": [
+13.0,
+60.0,
+15.0
+],
+"edges_m": [
+1.0,
+4.4
+],
+"sure": false,
+"note": "13.00 written sideways at far left beside CAL.RES label with no box line; first edge assumed about AB/2=1 (guess); job line cut at crop bottom"
+},
+{
+"page": 53,
+"quad": "BL",
+"dp": "87",
+"file": "224",
+"job": "249/76",
+"x": "17590",
+"y": "01840",
+"elev": -150,
+"rho": [
+36.0,
+120.0,
+36.0,
+120.0,
+16.0
+],
+"edges_m": [
+1.0,
+8.4,
+13,
+27
+],
+"sure": false,
+"note": "36.00 written sideways at far left beside CAL.RES label with no box line; first edge assumed about AB/2=1 (guess); boundary 120|36 at 8.4 is a solid line, 36|120 boundary dashed"
+},
+{
+"page": 53,
+"quad": "BR",
+"dp": "89",
+"file": "224",
+"job": "249/76",
+"x": "17690",
+"y": "01860",
+"elev": -158,
+"rho": [
+36.0,
+10.0,
+70.0,
+20.0
+],
+"edges_m": [
+1.1,
+13,
+47
+],
+"sure": true,
+"note": "first box 36.00 written sideways in narrow box"
+},
+{
+"page": 54,
+"quad": "TL",
+"dp": "90",
+"file": "224",
+"job": "249/76",
+"x": "17740",
+"y": "01870",
+"elev": -161,
+"rho": [
+180.0,
+18.0,
+62.0,
+5.6
+],
+"edges_m": [
+1.8,
+9.6,
+77
+],
+"sure": true,
+"note": "job line cut at crop bottom, partly visible"
+},
+{
+"page": 54,
+"quad": "TR",
+"dp": "93",
+"file": "224",
+"job": "249/76",
+"x": "17870",
+"y": "01910",
+"elev": -177,
+"rho": [
+750.0,
+135.0,
+15.0
+],
+"edges_m": [
+4.0,
+13
+],
+"sure": true,
+"note": "job line cut at crop bottom, partly visible"
+},
+{
+"page": 54,
+"quad": "BL",
+"dp": "558",
+"file": "224",
+"job": "249/76",
+"x": "17810",
+"y": "01870",
+"elev": -200,
+"rho": [
+200.0,
+1000.0,
+140.0,
+165.0
+],
+"edges_m": [
+1.0,
+8.9,
+120
+],
+"sure": false,
+"note": "200.00 written sideways at far left beside CAL.RES label with no box line; first edge assumed about AB/2=1 (guess)"
+},
+{
+"page": 54,
+"quad": "BR",
+"dp": "576",
+"file": "224",
+"job": "249/76",
+"x": "17880",
+"y": "01905",
+"elev": -175,
+"rho": [
+440.0,
+700.0,
+120.0
+],
+"edges_m": [
+2.1,
+40
+],
+"sure": true,
+"note": ""
+},
+{
+"page": 55,
+"quad": "TL",
+"dp": "805",
+"file": "224",
+"job": "249/76",
+"x": "18000",
+"y": "01900",
+"elev": -158,
+"rho": [
+40.0,
+140.0,
+33.0,
+320.0,
+13.0
+],
+"edges_m": [
+4.7,
+19,
+39,
+240
+],
+"sure": true,
+"note": "job line cut at crop bottom, partly visible"
+},
+{
+"page": 55,
+"quad": "TR",
+"partial": true,
+"dp": "",
+"file": "",
+"job": "",
+"x": "",
+"y": "",
+"elev": null,
+"rho": [],
+"edges_m": [],
+"sure": false,
+"note": "quadrant holds only the top of one sheet placed low on the page; the same sheet continues into BR (DP 804), footer and CAL. RES. read there"
+},
+{
+"page": 55,
+"quad": "BL",
+"dp": "803",
+"file": "224",
+"job": "249/76",
+"x": "18100",
+"y": "01900",
+"elev": -158,
+"rho": [
+28.0,
+100.0,
+38.0,
+200.0
+],
+"edges_m": [
+3.4,
+5.4,
+24
+],
+"sure": true,
+"note": ""
+},
+{
+"page": 55,
+"quad": "BR",
+"dp": "804",
+"file": "224",
+"job": "249/76",
+"x": "18150",
+"y": "01890",
+"elev": -156,
+"rho": [
+4000.0,
+31.0,
+110.0,
+31.0,
+310.0,
+13.0
+],
+"edges_m": [
+1.4,
+9.6,
+15,
+46,
+190
+],
+"sure": true,
+"note": "sheet is offset upward and spans TR+BR; resistivity axis here 10-10^4"
+},
+{
+"page": 56,
+"quad": "TL",
+"dp": "395",
+"file": "224",
+"job": null,
+"x": "17120",
+"y": "01945",
+"elev": -116,
+"rho": [
+560.0,
+34.0,
+85.0
+],
+"edges_m": [
+2.0,
+20
+],
+"sure": true,
+"note": "job row cut off by crop"
+},
+{
+"page": 56,
+"quad": "TR",
+"dp": "420",
+"file": "224",
+"job": null,
+"x": "17450",
+"y": "01980",
+"elev": null,
+"rho": [
+62.0,
+10.0,
+22.0
+],
+"edges_m": [
+2.0,
+12.5
+],
+"sure": true,
+"note": "elevation blank on sheet; job row cut off by crop"
+},
+{
+"page": 56,
+"quad": "BL",
+"dp": "421",
+"file": "224",
+"job": "249/76",
+"x": "17350",
+"y": "01960",
+"elev": -135,
+"rho": [
+105.0,
+145.0,
+18.0
+],
+"edges_m": [
+3.5,
+11.5
+],
+"sure": true,
+"note": ""
+},
+{
+"page": 56,
+"quad": "BR",
+"dp": "523",
+"file": "224",
+"job": "249/76",
+"x": "17560",
+"y": "02000",
+"elev": -151,
+"rho": [
+260.0,
+520.0,
+26.5
+],
+"edges_m": [
+5.0,
+6.6
+],
+"sure": true,
+"note": "footer also shows B: NE"
+},
+{
+"page": 57,
+"quad": "TL",
+"dp": "418",
+"file": "224",
+"job": null,
+"x": "17650",
+"y": "02010",
+"elev": -152,
+"rho": [
+52.0,
+26.0,
+3.15,
+30.0,
+15.0
+],
+"edges_m": [
+2.1,
+11,
+17,
+50
+],
+"sure": true,
+"note": "job row cut off by crop"
+},
+{
+"page": 57,
+"quad": "TR",
+"dp": "367",
+"file": "224",
+"job": null,
+"x": "17420",
+"y": "01050",
+"elev": -103,
+"rho": [
+1080.0,
+108.0,
+17.0
+],
+"edges_m": [
+3.5,
+40
+],
+"sure": true,
+"note": "job row cut off by crop"
+},
+{
+"page": 57,
+"quad": "BL",
+"dp": "569",
+"file": "224",
+"job": "249/76",
+"x": "17740",
+"y": "02020",
+"elev": -158,
+"rho": [
+1200.0,
+25.0,
+120.0,
+25.0
+],
+"edges_m": [
+1.0,
+12,
+400
+],
+"sure": false,
+"note": "first box is a sliver at the frame (AB/2~1) with value written sideways, read as 1,200.00 (leading 1 unclear, could be 200.00); last box printed as '25'; footer also shows B:183 deg"
+},
+{
+"page": 57,
+"quad": "BR",
+"dp": "429",
+"file": "224",
+"job": "249/76",
+"x": "17490",
+"y": "01100",
+"elev": -125,
+"rho": [
+62.0,
+620.0,
+26.0
+],
+"edges_m": [
+1.9,
+11
+],
+"sure": true,
+"note": ""
+},
+{
+"page": 58,
+"quad": "TL",
+"dp": "510",
+"file": "224",
+"job": null,
+"x": "17560",
+"y": "01140",
+"elev": -131,
+"rho": [
+540.0,
+26.0
+],
+"edges_m": [
+18
+],
+"sure": true,
+"note": "job row cut off by crop; only two boxes printed although curve starts near 180 ohm.m at AB/2=1"
+},
+{
+"page": 58,
+"quad": "BL",
+"dp": "584",
+"file": "224",
+"job": "249/76",
+"x": "17740",
+"y": "01335",
+"elev": -142,
+"rho": [
+640.0,
+320.0,
+85.0
+],
+"edges_m": [
+4.8,
+18
+],
+"sure": true,
+"note": "footer also shows B: N-S"
+},
+{
+"page": 58,
+"quad": "BR",
+"dp": "583",
+"file": "224",
+"job": "249/76",
+"x": "17820",
+"y": "01435",
+"elev": -144,
+"rho": [
+2000.0,
+300.0,
+850.0,
+240.0
+],
+"edges_m": [
+2.2,
+17,
+42
+],
+"sure": true,
+"note": "footer also shows B: E-W; y-axis of this sheet reaches 10^2 at bottom"
+},
+{
+"page": 59,
+"quad": "TL",
+"partial": true,
+"dp": "808",
+"file": null,
+"job": null,
+"x": null,
+"y": null,
+"elev": null,
+"rho": [],
+"edges_m": [],
+"sure": false,
+"note": "TL holds only the top (10^4 decade) of a tall 4-decade sheet that continues into BL; its band and footer (D.P. 808) are in BL. No values here."
+},
+{
+"page": 59,
+"quad": "BL",
+"dp": "808",
+"file": "224",
+"job": "249/76",
+"x": "18080",
+"y": "01710",
+"elev": -152,
+"rho": [
+40000.0,
+1000.0,
+260.0,
+140.0,
+14.0
+],
+"edges_m": [
+1.0,
+4.6,
+17,
+92
+],
+"sure": false,
+"note": "sheet spans TL+BL (tall sheet). First value 40000.00 written sideways at the far left of the band (left of CAL.RES label), box has no visible width, edge set to frame ~1.0 m (guess)"
+},
+{
+"page": 59,
+"quad": "BR",
+"dp": "806",
+"file": "224",
+"job": "249/76",
+"x": "18150",
+"y": "01800",
+"elev": -147,
+"rho": [
+940.0,
+94.0,
+50.0,
+150.0,
+280.0,
+13.0
+],
+"edges_m": [
+1.0,
+3.9,
+10,
+44,
+200
+],
+"sure": false,
+"note": "first value 940.00 written sideways left of CAL.RES label, no visible box width, edge set to frame ~1.0 m (guess); third value printed '15000' read as 150.00"
+},
+{
+"page": 61,
+"quad": "TL",
+"dp": "384",
+"file": "224",
+"job": "249/76",
+"x": "16780",
+"y": "02280",
+"elev": -96,
+"rho": [
+38.0,
+19.0,
+4.8,
+16.5,
+80.0
+],
+"edges_m": [
+1.4,
+7.8,
+16,
+74
+],
+"sure": true,
+"note": ""
+},
+{
+"page": 61,
+"quad": "TR",
+"dp": "386",
+"file": "224",
+"job": "249/76",
+"x": "17000",
+"y": "02270",
+"elev": -126,
+"rho": [
+500.0,
+150.0,
+27.0,
+16.0
+],
+"edges_m": [
+3.0,
+12,
+40
+],
+"sure": true,
+"note": ""
+},
+{
+"page": 61,
+"quad": "BL",
+"dp": "385",
+"file": "224",
+"job": "249/76",
+"x": "16900",
+"y": "02270",
+"elev": -114,
+"rho": [
+420.0,
+85.0,
+16.0,
+32.0
+],
+"edges_m": [
+1.6,
+5.1,
+42
+],
+"sure": true,
+"note": ""
+},
+{
+"page": 61,
+"quad": "BR",
+"dp": "387",
+"file": "224",
+"job": "249/76",
+"x": "17100",
+"y": "02260",
+"elev": -146,
+"rho": [
+700.0,
+56.0,
+7.5,
+17.5
+],
+"edges_m": [
+1.0,
+5.0,
+19
+],
+"sure": false,
+"note": "first value 700.00 written sideways in the CAL.RES label column left of the frame; box has no visible width, edge set to ~1.0 m (guess)"
+},
+{
+"page": 62,
+"quad": "TL",
+"dp": "388",
+"file": "224",
+"job": "249/76",
+"x": "17200",
+"y": "02260",
+"elev": -156,
+"rho": [
+500.0,
+90.0,
+18.0,
+13.5
+],
+"edges_m": [
+1.2,
+5.2,
+31
+],
+"sure": false,
+"note": "first box narrow, value squeezed at left edge and cut by box line, read as 500.00; second value printed '90.000' read as 90.0"
+},
+{
+"page": 62,
+"quad": "TR",
+"dp": "390",
+"file": "224",
+"job": "249/76",
+"x": "17400",
+"y": "02260",
+"elev": -167,
+"rho": [
+170.0,
+29.0,
+14.5
+],
+"edges_m": [
+1.3,
+19
+],
+"sure": true,
+"note": ""
+},
+{
+"page": 62,
+"quad": "BL",
+"dp": "389",
+"file": "224",
+"job": "249/76",
+"x": "17300",
+"y": "02260",
+"elev": -162,
+"rho": [
+100.0,
+10.0,
+17.0
+],
+"edges_m": [
+4.0,
+34
+],
+"sure": true,
+"note": ""
+},
+{
+"page": 62,
+"quad": "BR",
+"dp": "15",
+"file": "369",
+"job": "249/76",
+"x": "17580",
+"y": "02280",
+"elev": -171,
+"rho": [
+75.0,
+30.0,
+75.0,
+11.5
+],
+"edges_m": [
+2.2,
+41,
+58
+],
+"sure": true,
+"note": "file number printed 369 (not 224)"
+},
+{
+"page": 63,
+"quad": "TL",
+"dp": "16",
+"file": "369",
+"job": "249/76",
+"x": "17610",
+"y": "02260",
+"elev": -194,
+"rho": [
+100.0,
+8.0,
+39.0,
+13.0,
+19.0
+],
+"edges_m": [
+1.0,
+3.7,
+6.9,
+27
+],
+"sure": false,
+"note": "boundaries drawn dashed; first box is a sliver at the frame with 100.00 written sideways, edge ~1.0 m (approximate)"
+},
+{
+"page": 63,
+"quad": "TR",
+"dp": "564",
+"file": "224",
+"job": "249/76",
+"x": "17840",
+"y": "02300",
+"elev": 168,
+"rho": [
+13.0,
+70.0,
+850.0,
+320.0
+],
+"edges_m": [
+3.9,
+18,
+59
+],
+"sure": true,
+"note": "elevation printed as 168 without minus sign"
+},
+{
+"page": 63,
+"quad": "BL",
+"dp": "565",
+"file": "224",
+"job": "249/76",
+"x": "17720",
+"y": "02270",
+"elev": 180,
+"rho": [
+1000.0,
+100.0,
+13.0,
+null
+],
+"edges_m": [
+1.5,
+39,
+91
+],
+"sure": true,
+"note": "infinity (last layer); elevation printed as 180 without minus sign"
+},
+{
+"page": 63,
+"quad": "BR",
+"dp": "801",
+"file": "224",
+"job": "249/76",
+"x": "18000",
+"y": "02300",
+"elev": -215,
+"rho": [
+700.0,
+1700.0,
+900.0,
+420.0,
+13.0
+],
+"edges_m": [
+5.4,
+9.4,
+40,
+250
+],
+"sure": true,
+"note": "footer also shows B:45 deg; y-axis bottom 10^2"
+},
+{
+"page": 64,
+"quad": "TL",
+"dp": "466",
+"file": "224",
+"job": "249/76",
+"x": "17510",
+"y": "0267",
+"elev": -160,
+"rho": [
+170.0,
+11.0,
+24.0,
+9.6
+],
+"edges_m": [
+4.3,
+30,
+270
+],
+"sure": true,
+"note": "y coordinate printed with only 4 digits '0267' (as printed)"
+},
+{
+"page": 64,
+"quad": "TR",
+"dp": "468",
+"file": "224",
+"job": "249/76",
+"x": "17700",
+"y": "02700",
+"elev": -180,
+"rho": [
+130.0,
+39.0,
+75.0,
+23.0
+],
+"edges_m": [
+8.4,
+100,
+160
+],
+"sure": true,
+"note": ""
+},
+{
+"page": 64,
+"quad": "BL",
+"dp": "467",
+"file": "224",
+"job": "249/76",
+"x": "17600",
+"y": "02700",
+"elev": -173,
+"rho": [
+80.0,
+8.0
+],
+"edges_m": [
+14
+],
+"sure": true,
+"note": "y-axis bottom labelled 1"
+},
+{
+"page": 64,
+"quad": "BR",
+"dp": "469",
+"file": "224",
+"job": "249/76",
+"x": "17800",
+"y": "02700",
+"elev": -200,
+"rho": [
+100.0,
+9.0,
+32.0,
+14.0
+],
+"edges_m": [
+2.6,
+36,
+200
+],
+"sure": true,
+"note": ""
+},
+{
+"page": 65,
+"quad": "BL",
+"dp": "440",
+"file": "224",
+"job": "249/76",
+"x": "18100",
+"y": "02700",
+"elev": -240,
+"rho": [
+1230.0,
+500.0,
+108.0
+],
+"edges_m": [
+15,
+64
+],
+"sure": true,
+"note": "footer also shows B:N; y-axis bottom 10^2"
+},
+{
+"page": 65,
+"quad": "BR",
+"dp": "436",
+"file": "224",
+"job": "249/76",
+"x": "18200",
+"y": "02700",
+"elev": -255,
+"rho": [
+420.0,
+10.5,
+100.0,
+26.0
+],
+"edges_m": [
+3.0,
+28,
+41
+],
+"sure": false,
+"note": "elevation last digit unclear: -255 or -253; footer also shows B:N"
+},
+{
+"page": 66,
+"quad": "TL",
+"dp": "1",
+"file": "369",
+"job": "249/76",
+"x": "16740",
+"y": "02880",
+"elev": 30,
+"rho": [
+180.0,
+25.0,
+62.0,
+13.0,
+200.0,
+13.0,
+110.0
+],
+"edges_m": [
+2.5,
+32,
+40,
+62,
+110,
+140
+],
+"sure": false,
+"note": "6th box narrow, value squeezed against its left line, looks like '113.00', read as 13.00 (other sheets on this page have 13.00 here); elevation printed 30 without sign"
+},
+{
+"page": 66,
+"quad": "TR",
+"dp": "4",
+"file": "369",
+"job": "249/76",
+"x": "16870",
+"y": "02810",
+"elev": -11,
+"rho": [
+2000.0,
+500.0,
+1250.0,
+64.0,
+200.0,
+13.0,
+110.0
+],
+"edges_m": [
+1.0,
+9.8,
+25,
+110,
+140,
+160
+],
+"sure": false,
+"note": "first value 2000.00 written outside the band to the left of CAL.RES label, no box width, edge set ~1.0 m (guess); 13.00 written sideways in a narrow dashed box"
+},
+{
+"page": 66,
+"quad": "BL",
+"dp": "3",
+"file": "369",
+"job": "249/76",
+"x": "1680",
+"y": "0285",
+"elev": 11,
+"rho": [
+125.0,
+8.5,
+25.0,
+58.0,
+320.0,
+13.0,
+110.0
+],
+"edges_m": [
+2.6,
+44,
+50,
+90,
+140,
+160
+],
+"sure": false,
+"note": "coordinates printed '1680/0285' (digits as printed, apparently one digit short each); 25.00 and 13.00 written sideways in narrow boxes; some boundaries dashed; y-axis bottom labelled 1"
+},
+{
+"page": 66,
+"quad": "BR",
+"dp": "6",
+"file": "369",
+"job": "249/76",
+"x": "16990",
+"y": "02730",
+"elev": -81,
+"rho": [
+320.0,
+64.0,
+14.0,
+64.0,
+200.0,
+13.0,
+110.0
+],
+"edges_m": [
+1.8,
+16,
+22,
+53,
+130,
+170
+],
+"sure": true,
+"note": ""
+},
+{
+"page": 67,
+"quad": "TL",
+"dp": "7",
+"file": "369",
+"job": "249/76",
+"x": "17130",
+"y": "02640",
+"elev": -93,
+"rho": [
+100.0,
+170.0,
+13.0,
+200.0,
+13.0,
+110.0
+],
+"edges_m": [
+12,
+19,
+110,
+170,
+220
+],
+"sure": true,
+"note": ""
+},
+{
+"page": 67,
+"quad": "TR",
+"dp": "9",
+"file": "369",
+"job": "249/76",
+"x": "17250",
+"y": "02550",
+"elev": -121,
+"rho": [
+180.0,
+54.0,
+8.5,
+200.0,
+13.0,
+null
+],
+"edges_m": [
+6.1,
+40,
+75,
+160,
+350
+],
+"sure": true,
+"note": "infinity (last layer)"
+},
+{
+"page": 67,
+"quad": "BL",
+"dp": "8",
+"file": "369",
+"job": "249/76",
+"x": "17190",
+"y": "02600",
+"elev": -116,
+"rho": [
+300.0,
+54.0,
+16.0,
+8.5,
+200.0,
+13.0,
+null
+],
+"edges_m": [
+3.6,
+19,
+110,
+150,
+200,
+290
+],
+"sure": true,
+"note": "infinity (last layer); two boundaries dashed; job prefix letters differ but number 249/76"
+},
+{
+"page": 67,
+"quad": "BR",
+"dp": "10",
+"file": "369",
+"job": "249/76",
+"x": "1729",
+"y": "0250",
+"elev": -134,
+"rho": [
+150.0,
+12.0,
+200.0,
+13.0,
+null
+],
+"edges_m": [
+22,
+170,
+240,
+340
+],
+"sure": true,
+"note": "infinity (last layer); coordinates printed '1729/0250' (as printed, apparently one digit short each)"
+},
+{
+"page": 68,
+"quad": "TL",
+"dp": "11",
+"file": "369",
+"job": "249/76",
+"x": "17330",
+"y": "02430",
+"elev": -147,
+"rho": [
+15.0,
+8.0,
+200.0,
+13.0,
+null
+],
+"edges_m": [
+1.5,
+130,
+340,
+380
+],
+"sure": true,
+"note": "infinity (last layer); 13.00 written sideways in a narrow box with dashed left edge; y-axis bottom labelled 1"
+},
+{
+"page": 68,
+"quad": "TR",
+"dp": "13",
+"file": "369",
+"job": "249/76",
+"x": "17460",
+"y": "02350",
+"elev": -162,
+"rho": [
+62.0,
+140.0,
+42.0,
+14.0,
+200.0,
+13.0,
+null
+],
+"edges_m": [
+2.5,
+9.4,
+27,
+230,
+370,
+530
+],
+"sure": true,
+"note": "infinity (last layer)"
+},
+{
+"page": 68,
+"quad": "BL",
+"dp": "12",
+"file": "369",
+"job": "249/76",
+"x": "17390",
+"y": "02390",
+"elev": -157,
+"rho": [
+100.0,
+42.0,
+8.0,
+14.0,
+200.0,
+13.0,
+null
+],
+"edges_m": [
+1.4,
+29,
+86,
+190,
+370,
+450
+],
+"sure": true,
+"note": "infinity (last layer); 13.00 written sideways in a narrow box; one boundary dashed; y-axis bottom labelled 1"
+},
+{
+"page": 68,
+"quad": "BR",
+"dp": "14",
+"file": "369",
+"job": "249/76",
+"x": "17510",
+"y": "02290",
+"elev": -163,
+"rho": [
+105.0,
+16.0,
+20.0,
+13.0,
+44.0,
+11.5,
+360.0,
+14.0,
+null
+],
+"edges_m": [
+2.9,
+11,
+42,
+130,
+200,
+290,
+390,
+590
+],
+"sure": true,
+"note": "infinity (last layer); third value printed '20.0'"
+},
+{
+"page": 69,
+"quad": "TL",
+"dp": "407a",
+"file": "224",
+"job": "249/76",
+"x": "17750",
+"y": "02130",
+"elev": -166,
+"rho": [
+70.0,
+30.0,
+120.0,
+36.0,
+200.0,
+13.0,
+360.0
+],
+"edges_m": [
+2.0,
+13,
+27,
+55,
+69,
+150
+],
+"sure": true,
+"note": "D.P. printed '407a'; 200.00 written sideways in a narrow box"
+},
+{
+"page": 69,
+"quad": "TR",
+"dp": "5",
+"file": "369",
+"job": "249/76",
+"x": "16910",
+"y": "02740",
+"elev": -33,
+"rho": [
+440.0,
+60.0,
+210.0
+],
+"edges_m": [
+4.2,
+110
+],
+"sure": true,
+"note": ""
+},
+{
+"page": 69,
+"quad": "BL",
+"dp": "568",
+"file": "224",
+"job": "249/76",
+"x": "17800",
+"y": "02100",
+"elev": -170,
+"rho": [
+800.0,
+120.0,
+36.0,
+360.0,
+13.0
+],
+"edges_m": [
+1.4,
+9.4,
+22,
+90
+],
+"sure": true,
+"note": "y-axis bottom 10^2"
+},
+{
+"page": 69,
+"quad": "BR",
+"dp": "465",
+"file": "224",
+"job": "249/76",
+"x": "17400",
+"y": "02700",
+"elev": -140,
+"rho": [
+34.0,
+7.0,
+23.0,
+5.4
+],
+"edges_m": [
+2.5,
+96,
+250
+],
+"sure": true,
+"note": "y-axis bottom labelled 1"
+},
+{
+"page": 71,
+"quad": "TL",
+"dp": "77",
+"file": "223",
+"job": "249/76",
+"x": "18460",
+"y": "03840",
+"elev": -336,
+"rho": [
+84.0,
+140.0,
+10.0,
+2.5
+],
+"edges_m": [
+2.7,
+20,
+50
+],
+"sure": true,
+"note": "job row partly cut by crop (249/76 legible at top edge); y-axis bottom labelled 1"
+},
+{
+"page": 71,
+"quad": "TR",
+"dp": "9",
+"file": "819",
+"job": null,
+"x": "18600",
+"y": "03790",
+"elev": -353,
+"rho": [
+800.0,
+80.0,
+9.5
+],
+"edges_m": [
+1.0,
+15
+],
+"sure": false,
+"note": "job row cut off by crop; first value 800.00 written sideways in CAL.RES label column left of the frame, no box width, edge set ~1.0 m (guess)"
+},
+{
+"page": 71,
+"quad": "BL",
+"dp": "12",
+"file": "819",
+"job": "249/76",
+"x": "18580",
+"y": "03790",
+"elev": -353,
+"rho": [
+50.0,
+22.0,
+9.5
+],
+"edges_m": [
+2.2,
+15
+],
+"sure": true,
+"note": "y-axis bottom labelled 1"
+},
+{
+"page": 71,
+"quad": "BR",
+"dp": "10",
+"file": "819",
+"job": "249/76",
+"x": "18620",
+"y": "03780",
+"elev": -353,
+"rho": [
+310.0,
+95.0,
+9.8
+],
+"edges_m": [
+2.0,
+11
+],
+"sure": true,
+"note": ""
+},
+{
+"page": 72,
+"quad": "TL",
+"dp": "11",
+"file": "819",
+"job": "249/76",
+"x": "18630",
+"y": "03770",
+"elev": -352,
+"rho": [
+36.0,
+18.0,
+90.0,
+10.0
+],
+"edges_m": [
+1.8,
+15,
+25
+],
+"sure": true,
+"note": ""
+},
+{
+"page": 72,
+"quad": "TR",
+"dp": "28",
+"file": "819",
+"job": "249/76",
+"x": "18620",
+"y": "03871",
+"elev": -352,
+"rho": [
+12.0,
+4.8,
+12.0,
+8.25
+],
+"edges_m": [
+5.3,
+16,
+45
+],
+"sure": true,
+"note": ""
+},
+{
+"page": 72,
+"quad": "BL",
+"dp": "29",
+"file": "819",
+"job": "249/76",
+"x": "18530",
+"y": "03877",
+"elev": -343,
+"rho": [
+34.0,
+22.0,
+44.0,
+8.0
+],
+"edges_m": [
+4.6,
+20,
+27
+],
+"sure": true,
+"note": "boundary 22/44 drawn dashed"
+},
+{
+"page": 72,
+"quad": "BR",
+"dp": "20",
+"file": "819",
+"job": "249/76",
+"x": "18730",
+"y": "03864",
+"elev": -355,
+"rho": [
+3.8,
+2.3,
+11.5,
+2.3
+],
+"edges_m": [
+1.1,
+7.3,
+120
+],
+"sure": true,
+"note": ""
+},
+{
+"page": 73,
+"quad": "TL",
+"dp": "748",
+"file": "224",
+"job": "249",
+"x": "18200",
+"y": "03000",
+"elev": -270,
+"rho": [
+520.0,
+1300.0,
+250.0,
+26.0
+],
+"edges_m": [
+2.0,
+23,
+140
+],
+"sure": true,
+"note": ""
+},
+{
+"page": 73,
+"quad": "BL",
+"dp": "742",
+"file": "224",
+"job": "249",
+"x": "18275",
+"y": "03250",
+"elev": -292,
+"rho": [
+950.0,
+80.0,
+13.5
+],
+"edges_m": [
+8.9,
+100
+],
+"sure": true,
+"note": ""
+},
+{
+"page": 73,
+"quad": "BR",
+"dp": "743",
+"file": "224",
+"job": "249",
+"x": "18265",
+"y": "03157",
+"elev": -285,
+"rho": [
+2800.0,
+1800.0,
+2500.0,
+500.0,
+14.0
+],
+"edges_m": [
+1.1,
+3.0,
+15,
+79
+],
+"sure": false,
+"note": "first box value written sideways in narrow box, looks like '28000' (read as 2800.0); could be 28000"
+},
+{
+"page": 74,
+"quad": "TL",
+"dp": "741",
+"file": "224",
+"job": "249",
+"x": "18275",
+"y": "03320",
+"elev": -298,
+"rho": [
+1100.0,
+440.0,
+77.0,
+13.5
+],
+"edges_m": [
+4.4,
+20,
+110
+],
+"sure": true,
+"note": "job line cut at crop bottom, partly visible"
+},
+{
+"page": 74,
+"quad": "BL",
+"dp": "738",
+"file": "224",
+"job": "249",
+"x": "18335",
+"y": "03500",
+"elev": -310,
+"rho": [
+1000.0,
+130.0,
+11.5
+],
+"edges_m": [
+1.9,
+19
+],
+"sure": true,
+"note": "first value printed 1,000.00"
+},
+{
+"page": 74,
+"quad": "BR",
+"dp": "739",
+"file": "224",
+"job": "249",
+"x": "18310",
+"y": "03420",
+"elev": -305,
+"rho": [
+1300.0,
+260.0,
+15.0,
+9.0
+],
+"edges_m": [
+5.3,
+12,
+97
+],
+"sure": true,
+"note": ""
+},
+{
+"page": 75,
+"quad": "TL",
+"partial": true,
+"dp": "736",
+"file": null,
+"job": null,
+"x": null,
+"y": null,
+"elev": null,
+"rho": [],
+"edges_m": [],
+"sure": false,
+"note": "TL holds only the upper part of a tall left-column sheet (rho 10^3-10^4 decades) whose band and footer are in BL (DP 736); no values here"
+},
+{
+"page": 75,
+"quad": "TR",
+"partial": true,
+"dp": "733",
+"file": null,
+"job": null,
+"x": null,
+"y": null,
+"elev": null,
+"rho": [],
+"edges_m": [],
+"sure": false,
+"note": "TR holds only the upper part of a tall right-column sheet whose band and footer are in BR (DP 733); no values here"
+},
+{
+"page": 75,
+"quad": "BL",
+"dp": "736",
+"file": "224",
+"job": "249",
+"x": "18375",
+"y": "03600",
+"elev": -320,
+"rho": [
+6000.0,
+420.0,
+10.0,
+5.5
+],
+"edges_m": [
+3.0,
+15,
+130
+],
+"sure": true,
+"note": "bottom of tall sheet spanning TL+BL; last value printed 5.50 with faint decimal point"
+},
+{
+"page": 75,
+"quad": "BR",
+"dp": "733",
+"file": "224",
+"job": "249",
+"x": "18445",
+"y": "03655",
+"elev": -326,
+"rho": [
+1200.0,
+1500.0,
+42.0,
+7.0
+],
+"edges_m": [
+1.0,
+8.2,
+64
+],
+"sure": false,
+"note": "bottom of tall sheet spanning TR+BR; 1200.00 written sideways in the CAL.RES label column left of the frame with no visible box width, edge set to ~1.0 m (guess)"
+},
+{
+"page": 76,
+"quad": "TL",
+"partial": true,
+"dp": "732",
+"file": null,
+"job": null,
+"x": null,
+"y": null,
+"elev": null,
+"rho": [],
+"edges_m": [],
+"sure": false,
+"note": "TL holds only the upper part of a tall left-column sheet whose band and footer are in BL (DP 732); no values here"
+},
+{
+"page": 76,
+"quad": "TR",
+"partial": true,
+"dp": "730",
+"file": null,
+"job": null,
+"x": null,
+"y": null,
+"elev": null,
+"rho": [],
+"edges_m": [],
+"sure": false,
+"note": "TR holds only the upper part of a tall right-column sheet whose band and footer are in BR (DP 730); no values here"
+},
+{
+"page": 76,
+"quad": "BL",
+"dp": "732",
+"file": "224",
+"job": "249",
+"x": "18460",
+"y": "03700",
+"elev": -330,
+"rho": [
+6800.0,
+12.0,
+5.6
+],
+"edges_m": [
+3.2,
+62
+],
+"sure": true,
+"note": "bottom of tall sheet spanning TL+BL"
+},
+{
+"page": 76,
+"quad": "BR",
+"dp": "730",
+"file": "224",
+"job": "249",
+"x": "18555",
+"y": "03737",
+"elev": -340,
+"rho": [
+1100.0,
+23.0,
+7.5,
+4.0
+],
+"edges_m": [
+1.1,
+9.2,
+82
+],
+"sure": true,
+"note": "bottom of tall sheet spanning TR+BR; first box 1100.00 written sideways in narrow box"
+},
+{
+"page": 78,
+"quad": "TL",
+"dp": "4",
+"file": "776",
+"job": "249/76",
+"x": "16170",
+"y": "04970",
+"elev": 390,
+"rho": [
+100.0,
+250.0,
+40.0,
+600.0
+],
+"edges_m": [
+1.8,
+23,
+37
+],
+"sure": true,
+"note": "elevation printed as ~390 (approximate); job printed with Hebrew prefix, partly cut"
+},
+{
+"page": 78,
+"quad": "TR",
+"dp": "2",
+"file": "776",
+"job": "249/76",
+"x": "16485",
+"y": "04985",
+"elev": 410,
+"rho": [
+230.0,
+11.5,
+290.0
+],
+"edges_m": [
+2.2,
+9.2
+],
+"sure": true,
+"note": "elevation printed as ~410 (approximate); job line cut at crop bottom"
+},
+{
+"page": 78,
+"quad": "BL",
+"dp": "6",
+"file": "776",
+"job": "249/76",
+"x": "16245",
+"y": "04975",
+"elev": 385,
+"rho": [
+140.0,
+240.0,
+600.0,
+48.0
+],
+"edges_m": [
+2.0,
+37,
+100
+],
+"sure": true,
+"note": "elevation printed as ~385 (approximate); job printed with Hebrew prefix"
+},
+{
+"page": 78,
+"quad": "BR",
+"dp": "1",
+"file": "776",
+"job": "249/76",
+"x": "16680",
+"y": "04980",
+"elev": 420,
+"rho": [
+80.0,
+135.0,
+27.0,
+337.0
+],
+"edges_m": [
+1.1,
+8.1,
+49
+],
+"sure": true,
+"note": "first box 80.00 squeezed at left edge of band; elevation printed as ~420 (approximate); job printed with Hebrew prefix"
+},
+{
+"page": 80,
+"quad": "TL",
+"dp": "20",
+"file": "223",
+"job": "249/76",
+"x": "18360",
+"y": "04752",
+"elev": -349,
+"rho": [
+660.0,
+15.5
+],
+"edges_m": [
+4.4
+],
+"sure": true,
+"note": "job printed with Hebrew prefix"
+},
+{
+"page": 80,
+"quad": "TR",
+"partial": true,
+"dp": "3",
+"file": null,
+"job": null,
+"x": null,
+"y": null,
+"elev": null,
+"rho": [],
+"edges_m": [],
+"sure": false,
+"note": "TR holds only the upper part (10^3 decade) of a tall right-column sheet placed low on the page; band and footer are in BR (DP 3); no values here"
+},
+{
+"page": 80,
+"quad": "BL",
+"dp": "13",
+"file": "109",
+"job": "249/76",
+"x": "18505",
+"y": "04362",
+"elev": -377,
+"rho": [
+0.46,
+30.0,
+0.46,
+1.0,
+null
+],
+"edges_m": [
+2.1,
+8.2,
+40,
+240
+],
+"sure": true,
+"note": "last box infinity; resistivity axis bottom 0.1; job printed with Hebrew prefix"
+},
+{
+"page": 80,
+"quad": "BR",
+"dp": "3",
+"file": "109",
+"job": "249/76",
+"x": "18182",
+"y": "04380",
+"elev": -290,
+"rho": [
+600.0,
+240.0,
+30.0,
+7.5,
+0.48,
+null
+],
+"edges_m": [
+1.4,
+9.3,
+43,
+260,
+410
+],
+"sure": true,
+"note": "bottom of tall sheet spanning TR+BR; last box infinity; footer also shows B: N45 deg E; job printed with Hebrew prefix"
+},
+{
+"page": 81,
+"quad": "TL",
+"dp": "6",
+"file": "109",
+"job": "249/76",
+"x": "18660",
+"y": "04360",
+"elev": -380,
+"rho": [
+1.5,
+1.15,
+2.7,
+0.46,
+null
+],
+"edges_m": [
+1.1,
+7.5,
+44,
+120
+],
+"sure": true,
+"note": "first box 1.50 squeezed at left edge of band (narrow box); last box infinity; job printed with Hebrew prefix"
+},
+{
+"page": 81,
+"quad": "TR",
+"dp": "7",
+"file": "109",
+"job": "249/76",
+"x": "18882",
+"y": "04445",
+"elev": -380,
+"rho": [
+1.4,
+0.7,
+1.0,
+0.45,
+null
+],
+"edges_m": [
+9.2,
+31,
+47,
+83
+],
+"sure": true,
+"note": "last box infinity; footer also shows B: E 20 deg N; job line partly cut"
+},
+{
+"page": 81,
+"quad": "BL",
+"dp": "32",
+"file": "109",
+"job": "249/76",
+"x": "18800",
+"y": "04418",
+"elev": -380,
+"rho": [
+1.2,
+3.0,
+0.48,
+null
+],
+"edges_m": [
+5.1,
+40,
+91
+],
+"sure": true,
+"note": "last box infinity; job printed with Hebrew prefix"
+},
+{
+"page": 81,
+"quad": "BR",
+"dp": "30",
+"file": "109",
+"job": "249/76",
+"x": "18925",
+"y": "04460",
+"elev": -380,
+"rho": [
+0.35,
+0.7,
+0.44,
+null
+],
+"edges_m": [
+3.5,
+11,
+92
+],
+"sure": true,
+"note": "last box infinity; job printed with Hebrew prefix"
+},
+{
+"page": 82,
+"quad": "TL",
+"dp": "11",
+"file": "109",
+"job": "249/76",
+"x": "18965",
+"y": "04480",
+"elev": -380,
+"rho": [
+0.43,
+null
+],
+"edges_m": [
+86
+],
+"sure": true,
+"note": "last box infinity; only two boxes; job printed with Hebrew prefix"
+},
+{
+"page": 82,
+"quad": "TR",
+"dp": "26",
+"file": "223",
+"job": "249/76",
+"x": "18220",
+"y": "0446",
+"elev": -361,
+"rho": [
+800.0,
+320.0,
+0.0
+],
+"edges_m": [
+1.6,
+12
+],
+"sure": true,
+"note": "last box printed as 0; y printed with 4 digits (0446) as shown; job printed with Hebrew prefix"
+},
+{
+"page": 82,
+"quad": "BL",
+"dp": "31",
+"file": "109",
+"job": "249/76",
+"x": "19012",
+"y": "04485",
+"elev": -380,
+"rho": [
+0.42,
+0.24,
+3.5
+],
+"edges_m": [
+1.5,
+44
+],
+"sure": true,
+"note": "job printed with Hebrew prefix"
+},
+{
+"page": 82,
+"quad": "BR",
+"dp": "27",
+"file": "223",
+"job": "249/76",
+"x": "18300",
+"y": "04510",
+"elev": -368,
+"rho": [
+1500.0,
+750.0,
+0.0
+],
+"edges_m": [
+2.2,
+21
+],
+"sure": false,
+"note": "last box printed as 0; elevation last digit blotted, read -368 (could be -369); job printed with Hebrew prefix"
+},
+{
+"page": 83,
+"quad": "TL",
+"dp": "28",
+"file": "223",
+"job": "249/76",
+"x": "18330",
+"y": "04570",
+"elev": -372,
+"rho": [
+900.0,
+750.0,
+20.0
+],
+"edges_m": [
+1.5,
+14
+],
+"sure": true,
+"note": "job printed with Hebrew prefix"
+},
+{
+"page": 83,
+"quad": "TR",
+"dp": "23",
+"file": "223",
+"job": "249/76",
+"x": "18310",
+"y": "04450",
+"elev": -363,
+"rho": [
+380.0,
+1500.0,
+64.0,
+null
+],
+"edges_m": [
+7.2,
+22,
+43
+],
+"sure": false,
+"note": "last box (from ~43 m) is blank, no value printed; job printed with Hebrew prefix"
+},
+{
+"page": 83,
+"quad": "BL",
+"dp": "21",
+"file": "223",
+"job": "249/76",
+"x": "18290",
+"y": "04450",
+"elev": -360,
+"rho": [
+800.0,
+20.0,
+0.0
+],
+"edges_m": [
+2.5,
+45
+],
+"sure": true,
+"note": "last box printed as 0; job printed with Hebrew prefix"
+},
+{
+"page": 83,
+"quad": "BR",
+"dp": "29",
+"file": "223",
+"job": "249/76",
+"x": "18340",
+"y": "04460",
+"elev": -366,
+"rho": [
+1600.0,
+950.0,
+48.0,
+null
+],
+"edges_m": [
+5.1,
+24,
+48
+],
+"sure": false,
+"note": "last box (from ~48 m) is blank, no value printed; job printed with Hebrew prefix"
+},
+{
+"page": 84,
+"quad": "TL",
+"dp": "30",
+"file": "223",
+"job": "249/76",
+"x": "18350",
+"y": "04490",
+"elev": -369,
+"rho": [
+210.0,
+1100.0,
+54.0,
+0.0
+],
+"edges_m": [
+2.6,
+19,
+58
+],
+"sure": true,
+"note": "last box printed as 0; job printed with Hebrew prefix"
+},
+{
+"page": 84,
+"quad": "BL",
+"dp": "24",
+"file": "223",
+"job": "249/76",
+"x": "18370",
+"y": "04500",
+"elev": -372,
+"rho": [
+750.0,
+1500.0,
+850.0,
+44.0,
+0.0
+],
+"edges_m": [
+2.4,
+6.1,
+18,
+55
+],
+"sure": true,
+"note": "last box printed as 0; job printed with Hebrew prefix"
+},
+{
+"page": 84,
+"quad": "BR",
+"dp": "25",
+"file": "223",
+"job": "249/76",
+"x": "18450",
+"y": "04540",
+"elev": -380,
+"rho": [
+300.0,
+90.0,
+13.0,
+0.0
+],
+"edges_m": [
+1.1,
+4.1,
+89
+],
+"sure": true,
+"note": "first box 300.00 written sideways in narrow box at the frame; last box printed as 0; job printed with Hebrew prefix"
+},
+{
+"page": 86,
+"quad": "TL",
+"dp": "3",
+"file": "223",
+"job": "249/76",
+"x": "18240",
+"y": "05380",
+"elev": -220,
+"rho": [
+120.0,
+60.0,
+1200.0
+],
+"edges_m": [
+1.0,
+6.2
+],
+"sure": false,
+"note": "120.00 written sideways squeezed at far left beside CAL.RES label, its box line sits at about AB/2=1, so first edge ~1.0 m (guess); job printed with Hebrew prefix"
+},
+{
+"page": 86,
+"quad": "TR",
+"dp": "9",
+"file": "223",
+"job": "249/76",
+"x": "18280",
+"y": "05380",
+"elev": -240,
+"rho": [
+75.0,
+30.0,
+5.0
+],
+"edges_m": [
+2.3,
+62
+],
+"sure": true,
+"note": "footer also shows B:0; job line partly cut"
+},
+{
+"page": 86,
+"quad": "BL",
+"dp": "5",
+"file": "223",
+"job": "249/76",
+"x": "18250",
+"y": "05380",
+"elev": -225,
+"rho": [
+460.0,
+92.0,
+460.0
+],
+"edges_m": [
+1.2,
+15
+],
+"sure": true,
+"note": "first box 460.00 written sideways in narrow box at the frame; job printed with Hebrew prefix"
+},
+{
+"page": 86,
+"quad": "BR",
+"dp": "26",
+"file": "109",
+"job": "249/76",
+"x": "18360",
+"y": "05370",
+"elev": -260,
+"rho": [
+110.0,
+11.0,
+18.0,
+4.4
+],
+"edges_m": [
+1.4,
+6.3,
+160
+],
+"sure": true,
+"note": "footer also shows B: 168 deg; job printed with Hebrew prefix"
+},
+{
+"page": 87,
+"quad": "TL",
+"dp": "29",
+"file": "109",
+"job": "249/76",
+"x": "18541",
+"y": "05335",
+"elev": -260,
+"rho": [
+26.0,
+8.0,
+2.5,
+3.7,
+1.15
+],
+"edges_m": [
+6.0,
+20,
+86,
+160
+],
+"sure": true,
+"note": "footer also shows B:0; job printed with Hebrew prefix"
+},
+{
+"page": 87,
+"quad": "TR",
+"dp": "14",
+"file": "109",
+"job": "249/76",
+"x": "18675",
+"y": "05330",
+"elev": -190,
+"rho": [
+21.0,
+2.1,
+null
+],
+"edges_m": [
+2.3,
+37
+],
+"sure": true,
+"note": "last box infinity; footer also shows B: 12 deg; job printed with Hebrew prefix"
+},
+{
+"page": 87,
+"quad": "BL",
+"dp": "22",
+"file": "109",
+"job": "249/76",
+"x": "18580",
+"y": "05320",
+"elev": -243,
+"rho": [
+66.0,
+9.0,
+4.0,
+10.0,
+1.4
+],
+"edges_m": [
+2.7,
+46,
+190,
+250
+],
+"sure": true,
+"note": "job printed with Hebrew prefix"
+},
+{
+"page": 87,
+"quad": "BR",
+"dp": "17",
+"file": "109",
+"job": "249/76",
+"x": "18780",
+"y": "05370",
+"elev": -390,
+"rho": [
+850.0,
+3.0,
+10.5
+],
+"edges_m": [
+3.5,
+45
+],
+"sure": true,
+"note": "job printed with Hebrew prefix"
+}
+]

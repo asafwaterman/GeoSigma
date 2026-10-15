@@ -29,5 +29,1994 @@ documents:
   - he
   scanned: true
   role: figures
-extraction_status: registered
-notes: 444 geoelectric points. Vol. 2 over the connector size limit.
+  sha256: 34f54eadf99030f8251c0661d78935951cecb08488010331fb937b7e360ba1a3
+  pages: 88
+extraction_status: complete
+notes: '444 geoelectric points per the report. Vol. 2 has 248 readable VES field sheets (files 224, 223, 109, 354,
+  369, 776, 819), all extracted: box values and edges read by eye from 300 dpi crops (edges +-10 %). Sheets whose
+  first value is written sideways at the frame have that boundary set near AB/2 = 1 m and confidence C.'
+sites:
+- id: 224-726
+  name: VES 726 (job 224)
+  elevation_m: 180
+  coords:
+    x: 163950
+    y: 965250
+    crs: EPSG:28193
+    source: table
+- id: 224-728
+  name: VES 728 (job 224)
+  elevation_m: 200
+  coords:
+    x: 162300
+    y: 965500
+    crs: EPSG:28193
+    source: table
+- id: 224-724
+  name: VES 724 (job 224)
+  elevation_m: 170
+  coords:
+    x: 165600
+    y: 965400
+    crs: EPSG:28193
+    source: table
+- id: 224-725
+  name: VES 725 (job 224)
+  elevation_m: 170
+  coords:
+    x: 164400
+    y: 965400
+    crs: EPSG:28193
+    source: table
+- id: 224-764
+  name: VES 764 (job 224)
+  elevation_m: 215
+  coords:
+    x: 169000
+    y: 964500
+    crs: EPSG:28193
+    source: table
+- id: 224-763
+  name: VES 763 (job 224)
+  elevation_m: 200
+  coords:
+    x: 168000
+    y: 965500
+    crs: EPSG:28193
+    source: table
+- id: 224-722
+  name: VES 722 (job 224)
+  elevation_m: 190
+  coords:
+    x: 167000
+    y: 965450
+    crs: EPSG:28193
+    source: table
+- id: 224-723
+  name: VES 723 (job 224)
+  elevation_m: 160
+  coords:
+    x: 166300
+    y: 965450
+    crs: EPSG:28193
+    source: table
+- id: 224-718
+  name: VES 718 (job 224)
+  elevation_m: 170
+  coords:
+    x: 164000
+    y: 969300
+    crs: EPSG:28193
+    source: table
+- id: 224-765
+  name: VES 765 (job 224)
+  elevation_m: 230
+  coords:
+    x: 170000
+    y: 965500
+    crs: EPSG:28193
+    source: table
+- id: 224-714
+  name: VES 714 (job 224)
+  elevation_m: 150
+  coords:
+    x: 165850
+    y: 969200
+    crs: EPSG:28193
+    source: table
+- id: 224-715
+  name: VES 715 (job 224)
+  elevation_m: 150
+  coords:
+    x: 165400
+    y: 969400
+    crs: EPSG:28193
+    source: table
+- id: 224-716
+  name: VES 716 (job 224)
+  elevation_m: 155
+  coords:
+    x: 165000
+    y: 969250
+    crs: EPSG:28193
+    source: table
+- id: 224-717
+  name: VES 717 (job 224)
+  elevation_m: 160
+  coords:
+    x: 164500
+    y: 969250
+    crs: EPSG:28193
+    source: table
+- id: 224-710
+  name: VES 710 (job 224)
+  elevation_m: 170
+  coords:
+    x: 167900
+    y: 969350
+    crs: EPSG:28193
+    source: table
+- id: 224-711
+  name: VES 711 (job 224)
+  elevation_m: 165
+  coords:
+    x: 167350
+    y: 969300
+    crs: EPSG:28193
+    source: table
+- id: 224-712
+  name: VES 712 (job 224)
+  elevation_m: 160
+  coords:
+    x: 166950
+    y: 969250
+    crs: EPSG:28193
+    source: table
+- id: 224-713
+  name: VES 713 (job 224)
+  elevation_m: 155
+  coords:
+    x: 166400
+    y: 969250
+    crs: EPSG:28193
+    source: table
+- id: 224-761
+  name: VES 761 (job 224)
+  elevation_m: 172
+  coords:
+    x: 169000
+    y: 969500
+    crs: EPSG:28193
+    source: table
+- id: 224-762
+  name: VES 762 (job 224)
+  elevation_m: 180
+  coords:
+    x: 170000
+    y: 969500
+    crs: EPSG:28193
+    source: table
+- id: 224-301
+  name: VES 301 (job 224)
+  elevation_m: 235
+  coords:
+    x: 146520
+    y: 971400
+    crs: EPSG:28193
+    source: table
+- id: 224-303
+  name: VES 303 (job 224)
+  elevation_m: 240
+  coords:
+    x: 146300
+    y: 971240
+    crs: EPSG:28193
+    source: table
+- id: 224-304
+  name: VES 304 (job 224)
+  elevation_m: 242
+  coords:
+    x: 146100
+    y: 971000
+    crs: EPSG:28193
+    source: table
+- id: 224-305
+  name: VES 305 (job 224)
+  elevation_m: 245
+  coords:
+    x: 145900
+    y: 970800
+    crs: EPSG:28193
+    source: table
+- id: 224-296
+  name: VES 296 (job 224)
+  elevation_m: 240
+  coords:
+    x: 147020
+    y: 971810
+    crs: EPSG:28193
+    source: table
+- id: 224-295
+  name: VES 295 (job 224)
+  elevation_m: 240
+  coords:
+    x: 146900
+    y: 971700
+    crs: EPSG:28193
+    source: table
+- id: 224-294
+  name: VES 294 (job 224)
+  elevation_m: 238
+  coords:
+    x: 146800
+    y: 971600
+    crs: EPSG:28193
+    source: table
+- id: 224-177
+  name: VES 177 (job 224)
+  elevation_m: 240
+  coords:
+    x: 146700
+    y: 971500
+    crs: EPSG:28193
+    source: table
+- id: 224-180
+  name: VES 180 (job 224)
+  elevation_m: 235
+  coords:
+    x: 147200
+    y: 971100
+    crs: EPSG:28193
+    source: table
+- id: 224-179
+  name: VES 179 (job 224)
+  elevation_m: 237
+  coords:
+    x: 147060
+    y: 971200
+    crs: EPSG:28193
+    source: table
+- id: 224-178
+  name: VES 178 (job 224)
+  elevation_m: 238
+  coords:
+    x: 146880
+    y: 971340
+    crs: EPSG:28193
+    source: table
+- id: 224-297
+  name: VES 297 (job 224)
+  elevation_m: 243
+  coords:
+    x: 147170
+    y: 971950
+    crs: EPSG:28193
+    source: table
+- id: 224-42
+  name: VES 42 (job 224)
+  elevation_m: 190
+  coords:
+    x: 154300
+    y: 972800
+    crs: EPSG:28193
+    source: table
+- id: 224-43
+  name: VES 43 (job 224)
+  elevation_m: 165
+  coords:
+    x: 156700
+    y: 973500
+    crs: EPSG:28193
+    source: table
+- id: 224-172
+  name: VES 172 (job 224)
+  elevation_m: 138
+  coords:
+    x: 159000
+    y: 973800
+    crs: EPSG:28193
+    source: table
+- id: 224-171
+  name: VES 171 (job 224)
+  elevation_m: 140
+  coords:
+    x: 159000
+    y: 973500
+    crs: EPSG:28193
+    source: table
+- id: 224-170
+  name: VES 170 (job 224)
+  elevation_m: 142
+  coords:
+    x: 159000
+    y: 973300
+    crs: EPSG:28193
+    source: table
+- id: 224-169
+  name: VES 169 (job 224)
+  elevation_m: 147
+  coords:
+    x: 159000
+    y: 972800
+    crs: EPSG:28193
+    source: table
+- id: 224-176
+  name: VES 176 (job 224)
+  elevation_m: 132
+  coords:
+    x: 159000
+    y: 974800
+    crs: EPSG:28193
+    source: table
+- id: 224-175
+  name: VES 175 (job 224)
+  elevation_m: 133
+  coords:
+    x: 159000
+    y: 974500
+    crs: EPSG:28193
+    source: table
+- id: 224-174
+  name: VES 174 (job 224)
+  elevation_m: 134
+  coords:
+    x: 159000
+    y: 974300
+    crs: EPSG:28193
+    source: table
+- id: 224-173
+  name: VES 173 (job 224)
+  elevation_m: 136
+  coords:
+    x: 159000
+    y: 974000
+    crs: EPSG:28193
+    source: table
+- id: 224-334
+  name: VES 334 (job 224)
+  elevation_m: 128
+  coords:
+    x: 166180
+    y: 974400
+    crs: EPSG:28193
+    source: table
+- id: 224-693
+  name: VES 693 (job 224)
+  elevation_m: 117
+  coords:
+    x: 169000
+    y: 974500
+    crs: EPSG:28193
+    source: table
+- id: 224-695
+  name: VES 695 (job 224)
+  elevation_m: 115
+  coords:
+    x: 168200
+    y: 974000
+    crs: EPSG:28193
+    source: table
+- id: 224-145
+  name: VES 145 (job 224)
+  elevation_m: 140
+  coords:
+    x: 166600
+    y: 973300
+    crs: EPSG:28193
+    source: table
+- id: 224-632
+  name: VES 632 (job 224)
+  elevation_m: 113
+  coords:
+    x: 169550
+    y: 977450
+    crs: EPSG:28193
+    source: table
+- id: 224-633
+  name: VES 633 (job 224)
+  elevation_m: 110
+  coords:
+    x: 168500
+    y: 976800
+    crs: EPSG:28193
+    source: table
+- id: 224-634
+  name: VES 634 (job 224)
+  elevation_m: 101
+  coords:
+    x: 167250
+    y: 976000
+    crs: EPSG:28193
+    source: table
+- id: 224-153
+  name: VES 153 (job 224)
+  elevation_m: 124
+  coords:
+    x: 166040
+    y: 975000
+    crs: EPSG:28193
+    source: table
+- id: 224-623
+  name: VES 623 (job 224)
+  elevation_m: 83
+  coords:
+    x: 166500
+    y: 978750
+    crs: EPSG:28193
+    source: table
+- id: 224-143
+  name: VES 143 (job 224)
+  elevation_m: 84
+  coords:
+    x: 166200
+    y: 978800
+    crs: EPSG:28193
+    source: table
+- id: 224-19
+  name: VES 19 (job 224)
+  elevation_m: null
+  coords:
+    x: 164700
+    y: 978700
+    crs: EPSG:28193
+    source: table
+- id: 224-157
+  name: VES 157 (job 224)
+  elevation_m: 106
+  coords:
+    x: 164500
+    y: 978600
+    crs: EPSG:28193
+    source: table
+- id: 224-625
+  name: VES 625 (job 224)
+  elevation_m: 94
+  coords:
+    x: 167500
+    y: 978750
+    crs: EPSG:28193
+    source: table
+- id: 224-626
+  name: VES 626 (job 224)
+  elevation_m: 98
+  coords:
+    x: 168100
+    y: 978750
+    crs: EPSG:28193
+    source: table
+- id: 224-624
+  name: VES 624 (job 224)
+  elevation_m: 57
+  coords:
+    x: 167000
+    y: 978750
+    crs: EPSG:28193
+    source: table
+- id: 354-14
+  name: VES 14 (job 354)
+  elevation_m: 380
+  coords:
+    x: 144100
+    y: 986800
+    crs: EPSG:28193
+    source: table
+- id: 354-15
+  name: VES 15 (job 354)
+  elevation_m: 382
+  coords:
+    x: 143500
+    y: 986600
+    crs: EPSG:28193
+    source: table
+- id: 354-16
+  name: VES 16 (job 354)
+  elevation_m: 385
+  coords:
+    x: 142900
+    y: 986700
+    crs: EPSG:28193
+    source: table
+- id: 354-17
+  name: VES 17 (job 354)
+  elevation_m: 388
+  coords:
+    x: 142400
+    y: 986600
+    crs: EPSG:28193
+    source: table
+- id: 354-10
+  name: VES 10 (job 354)
+  elevation_m: 371
+  coords:
+    x: 146300
+    y: 987200
+    crs: EPSG:28193
+    source: table
+- id: 354-11
+  name: VES 11 (job 354)
+  elevation_m: 373
+  coords:
+    x: 145800
+    y: 987100
+    crs: EPSG:28193
+    source: table
+- id: 354-12
+  name: VES 12 (job 354)
+  elevation_m: 375
+  coords:
+    x: 145200
+    y: 987000
+    crs: EPSG:28193
+    source: table
+- id: 354-13
+  name: VES 13 (job 354)
+  elevation_m: 377
+  coords:
+    x: 144700
+    y: 986900
+    crs: EPSG:28193
+    source: table
+- id: 224-128
+  name: VES 128 (job 224)
+  elevation_m: 18
+  coords:
+    x: 167200
+    y: 989500
+    crs: EPSG:28193
+    source: table
+- id: 224-11
+  name: VES 11 (job 224)
+  elevation_m: null
+  coords:
+    x: 167000
+    y: 989600
+    crs: EPSG:28193
+    source: table
+- id: 224-620
+  name: VES 620 (job 224)
+  elevation_m: 57
+  coords:
+    x: 166100
+    y: 982950
+    crs: EPSG:28193
+    source: table
+- id: 224-619
+  name: VES 619 (job 224)
+  elevation_m: 57
+  coords:
+    x: 165250
+    y: 983000
+    crs: EPSG:28193
+    source: table
+- id: 224-610
+  name: VES 610 (job 224)
+  elevation_m: 21
+  coords:
+    x: 168500
+    y: 989150
+    crs: EPSG:28193
+    source: table
+- id: 224-609
+  name: VES 609 (job 224)
+  elevation_m: 15
+  coords:
+    x: 168000
+    y: 989350
+    crs: EPSG:28193
+    source: table
+- id: 224-16
+  name: VES 16 (job 224)
+  elevation_m: null
+  coords:
+    x: 167400
+    y: 989500
+    crs: EPSG:28193
+    source: table
+- id: 224-120
+  name: VES 120 (job 224)
+  elevation_m: 12
+  coords:
+    x: 167300
+    y: 989500
+    crs: EPSG:28193
+    source: table
+- id: 224-112
+  name: VES 112 (job 224)
+  elevation_m: 3
+  coords:
+    x: 167950
+    y: 990940
+    crs: EPSG:28193
+    source: table
+- id: 224-113
+  name: VES 113 (job 224)
+  elevation_m: 4
+  coords:
+    x: 167640
+    y: 990960
+    crs: EPSG:28193
+    source: table
+- id: 224-13
+  name: VES 13 (job 224)
+  elevation_m: 342
+  coords:
+    x: 167400
+    y: 991000
+    crs: EPSG:28193
+    source: table
+- id: 224-12
+  name: VES 12 (job 224)
+  elevation_m: null
+  coords:
+    x: 167100
+    y: 991000
+    crs: EPSG:28193
+    source: table
+- id: 224-605
+  name: VES 605 (job 224)
+  elevation_m: 1
+  coords:
+    x: 169250
+    y: 993150
+    crs: EPSG:28193
+    source: table
+- id: 224-604
+  name: VES 604 (job 224)
+  elevation_m: 4
+  coords:
+    x: 168700
+    y: 993050
+    crs: EPSG:28193
+    source: table
+- id: 224-554
+  name: VES 554 (job 224)
+  elevation_m: -4
+  coords:
+    x: 168300
+    y: 993000
+    crs: EPSG:28193
+    source: table
+- id: 224-606
+  name: VES 606 (job 224)
+  elevation_m: 8
+  coords:
+    x: 170000
+    y: 993300
+    crs: EPSG:28193
+    source: table
+- id: 224-542
+  name: VES 542 (job 224)
+  elevation_m: -50
+  coords:
+    x: 169800
+    y: 0
+    crs: EPSG:28193
+    source: table
+- id: 224-541
+  name: VES 541 (job 224)
+  elevation_m: -40
+  coords:
+    x: 169000
+    y: 0
+    crs: EPSG:28193
+    source: table
+- id: 224-540
+  name: VES 540 (job 224)
+  elevation_m: -30
+  coords:
+    x: 168000
+    y: 0
+    crs: EPSG:28193
+    source: table
+- id: 224-67
+  name: VES 67 (job 224)
+  elevation_m: -18
+  coords:
+    x: 167000
+    y: 6850
+    crs: EPSG:28193
+    source: table
+- id: 224-68
+  name: VES 68 (job 224)
+  elevation_m: -9
+  coords:
+    x: 166100
+    y: 7000
+    crs: EPSG:28193
+    source: table
+- id: 224-69
+  name: VES 69 (job 224)
+  elevation_m: 2
+  coords:
+    x: 165100
+    y: 7200
+    crs: EPSG:28193
+    source: table
+- id: 224-61
+  name: VES 61 (job 224)
+  elevation_m: -65
+  coords:
+    x: 169750
+    y: 6300
+    crs: EPSG:28193
+    source: table
+- id: 224-350
+  name: VES 350 (job 224)
+  elevation_m: -54
+  coords:
+    x: 170500
+    y: 6000
+    crs: EPSG:28193
+    source: table
+- id: 224-70
+  name: VES 70 (job 224)
+  elevation_m: -56
+  coords:
+    x: 168800
+    y: 6200
+    crs: EPSG:28193
+    source: table
+- id: 224-74
+  name: VES 74 (job 224)
+  elevation_m: -49
+  coords:
+    x: 168000
+    y: 6300
+    crs: EPSG:28193
+    source: table
+- id: 224-752
+  name: VES 752 (job 224)
+  elevation_m: -80
+  coords:
+    x: 173200
+    y: 5300
+    crs: EPSG:28193
+    source: table
+- id: 224-505
+  name: VES 505 (job 224)
+  elevation_m: -86
+  coords:
+    x: 172000
+    y: 9000
+    crs: EPSG:28193
+    source: table
+- id: 224-596
+  name: VES 596 (job 224)
+  elevation_m: -68
+  coords:
+    x: 171650
+    y: 5750
+    crs: EPSG:28193
+    source: table
+- id: 224-753
+  name: VES 753 (job 224)
+  elevation_m: -72
+  coords:
+    x: 174750
+    y: 5300
+    crs: EPSG:28193
+    source: table
+- id: 224-52
+  name: VES 52 (job 224)
+  elevation_m: -104
+  coords:
+    x: 173500
+    y: 9100
+    crs: EPSG:28193
+    source: table
+- id: 224-591
+  name: VES 591 (job 224)
+  elevation_m: -108
+  coords:
+    x: 174350
+    y: 9000
+    crs: EPSG:28193
+    source: table
+- id: 224-53
+  name: VES 53 (job 224)
+  elevation_m: -100
+  coords:
+    x: 173000
+    y: 9000
+    crs: EPSG:28193
+    source: table
+- id: 224-51
+  name: VES 51 (job 224)
+  elevation_m: -107
+  coords:
+    x: 174000
+    y: 9100
+    crs: EPSG:28193
+    source: table
+- id: 224-593
+  name: VES 593 (job 224)
+  elevation_m: -110
+  coords:
+    x: 176000
+    y: 9000
+    crs: EPSG:28193
+    source: table
+- id: 224-594
+  name: VES 594 (job 224)
+  elevation_m: -115
+  coords:
+    x: 176650
+    y: 9000
+    crs: EPSG:28193
+    source: table
+- id: 224-592
+  name: VES 592 (job 224)
+  elevation_m: -105
+  coords:
+    x: 175300
+    y: 9000
+    crs: EPSG:28193
+    source: table
+- id: 224-430
+  name: VES 430 (job 224)
+  elevation_m: -111
+  coords:
+    x: 174500
+    y: 11900
+    crs: EPSG:28193
+    source: table
+- id: 224-428
+  name: VES 428 (job 224)
+  elevation_m: -130
+  coords:
+    x: 176200
+    y: 12000
+    crs: EPSG:28193
+    source: table
+- id: 224-365
+  name: VES 365 (job 224)
+  elevation_m: -107
+  coords:
+    x: 173300
+    y: 12200
+    crs: EPSG:28193
+    source: table
+- id: 224-588
+  name: VES 588 (job 224)
+  elevation_m: -130
+  coords:
+    x: 178000
+    y: 12000
+    crs: EPSG:28193
+    source: table
+- id: 224-586
+  name: VES 586 (job 224)
+  elevation_m: -130
+  coords:
+    x: 176600
+    y: 12050
+    crs: EPSG:28193
+    source: table
+- id: 224-587
+  name: VES 587 (job 224)
+  elevation_m: -135
+  coords:
+    x: 177250
+    y: 11800
+    crs: EPSG:28193
+    source: table
+- id: 224-358
+  name: VES 358 (job 224)
+  elevation_m: -81
+  coords:
+    x: 168900
+    y: 14900
+    crs: EPSG:28193
+    source: table
+- id: 224-360
+  name: VES 360 (job 224)
+  elevation_m: -100
+  coords:
+    x: 170900
+    y: 14900
+    crs: EPSG:28193
+    source: table
+- id: 224-357
+  name: VES 357 (job 224)
+  elevation_m: -62
+  coords:
+    x: 167900
+    y: 14900
+    crs: EPSG:28193
+    source: table
+- id: 224-359
+  name: VES 359 (job 224)
+  elevation_m: -86
+  coords:
+    x: 169900
+    y: 14900
+    crs: EPSG:28193
+    source: table
+- id: 224-362
+  name: VES 362 (job 224)
+  elevation_m: -133
+  coords:
+    x: 172800
+    y: 14900
+    crs: EPSG:28193
+    source: table
+- id: 224-520
+  name: VES 520 (job 224)
+  elevation_m: -110
+  coords:
+    x: 174600
+    y: 15400
+    crs: EPSG:28193
+    source: table
+- id: 224-361
+  name: VES 361 (job 224)
+  elevation_m: -115
+  coords:
+    x: 171900
+    y: 14900
+    crs: EPSG:28193
+    source: table
+- id: 224-427
+  name: VES 427 (job 224)
+  elevation_m: -100
+  coords:
+    x: 173600
+    y: 15200
+    crs: EPSG:28193
+    source: table
+- id: 224-519
+  name: VES 519 (job 224)
+  elevation_m: -148
+  coords:
+    x: 177700
+    y: 15400
+    crs: EPSG:28193
+    source: table
+- id: 224-518
+  name: VES 518 (job 224)
+  elevation_m: null
+  coords:
+    x: 177100
+    y: 15400
+    crs: EPSG:28193
+    source: table
+- id: 224-517
+  name: VES 517 (job 224)
+  elevation_m: -130
+  coords:
+    x: 175600
+    y: 15400
+    crs: EPSG:28193
+    source: table
+- id: 224-581
+  name: VES 581 (job 224)
+  elevation_m: -148
+  coords:
+    x: 178450
+    y: 15500
+    crs: EPSG:28193
+    source: table
+- id: 224-810
+  name: VES 810 (job 224)
+  elevation_m: -140
+  coords:
+    x: 179200
+    y: 15600
+    crs: EPSG:28193
+    source: table
+- id: 224-580
+  name: VES 580 (job 224)
+  elevation_m: null
+  coords:
+    x: 178000
+    y: 15500
+    crs: EPSG:28193
+    source: table
+- id: 224-361b
+  name: VES 361b (job 224)
+  elevation_m: -115
+  coords:
+    x: 171900
+    y: 14900
+    crs: EPSG:28193
+    source: table
+- id: 224-522
+  name: VES 522 (job 224)
+  elevation_m: -140
+  coords:
+    x: 175600
+    y: 17400
+    crs: EPSG:28193
+    source: table
+- id: 224-811
+  name: VES 811 (job 224)
+  elevation_m: -135
+  coords:
+    x: 180100
+    y: 15900
+    crs: EPSG:28193
+    source: table
+- id: 224-571
+  name: VES 571 (job 224)
+  elevation_m: -110
+  coords:
+    x: 174450
+    y: 16500
+    crs: EPSG:28193
+    source: table
+- id: 224-452
+  name: VES 452 (job 224)
+  elevation_m: 163
+  coords:
+    x: 177480
+    y: 19250
+    crs: EPSG:28193
+    source: table
+- id: 224-371
+  name: VES 371 (job 224)
+  elevation_m: -45
+  coords:
+    x: 167000
+    y: 17400
+    crs: EPSG:28193
+    source: table
+- id: 224-458
+  name: VES 458 (job 224)
+  elevation_m: 147
+  coords:
+    x: 176650
+    y: 18420
+    crs: EPSG:28193
+    source: table
+- id: 224-556
+  name: VES 556 (job 224)
+  elevation_m: -200
+  coords:
+    x: 178100
+    y: 20050
+    crs: EPSG:28193
+    source: table
+- id: 224-369
+  name: VES 369 (job 224)
+  elevation_m: -72
+  coords:
+    x: 169000
+    y: 17500
+    crs: EPSG:28193
+    source: table
+- id: 224-78
+  name: VES 78 (job 224)
+  elevation_m: -100
+  coords:
+    x: 171000
+    y: 17500
+    crs: EPSG:28193
+    source: table
+- id: 224-370
+  name: VES 370 (job 224)
+  elevation_m: -57
+  coords:
+    x: 168000
+    y: 17500
+    crs: EPSG:28193
+    source: table
+- id: 224-368
+  name: VES 368 (job 224)
+  elevation_m: -88
+  coords:
+    x: 170000
+    y: 17500
+    crs: EPSG:28193
+    source: table
+- id: 224-79
+  name: VES 79 (job 224)
+  elevation_m: -112
+  coords:
+    x: 172000
+    y: 17700
+    crs: EPSG:28193
+    source: table
+- id: 224-81
+  name: VES 81 (job 224)
+  elevation_m: -124
+  coords:
+    x: 173000
+    y: 17900
+    crs: EPSG:28193
+    source: table
+- id: 224-77
+  name: VES 77 (job 224)
+  elevation_m: -106
+  coords:
+    x: 171500
+    y: 17600
+    crs: EPSG:28193
+    source: table
+- id: 224-80
+  name: VES 80 (job 224)
+  elevation_m: -119
+  coords:
+    x: 172500
+    y: 17800
+    crs: EPSG:28193
+    source: table
+- id: 224-83
+  name: VES 83 (job 224)
+  elevation_m: -133
+  coords:
+    x: 174000
+    y: 18100
+    crs: EPSG:28193
+    source: table
+- id: 224-85
+  name: VES 85 (job 224)
+  elevation_m: -142
+  coords:
+    x: 174900
+    y: 18300
+    crs: EPSG:28193
+    source: table
+- id: 224-82
+  name: VES 82 (job 224)
+  elevation_m: -128
+  coords:
+    x: 173500
+    y: 18000
+    crs: EPSG:28193
+    source: table
+- id: 224-84
+  name: VES 84 (job 224)
+  elevation_m: -138
+  coords:
+    x: 174400
+    y: 18200
+    crs: EPSG:28193
+    source: table
+- id: 224-87
+  name: VES 87 (job 224)
+  elevation_m: -150
+  coords:
+    x: 175900
+    y: 18400
+    crs: EPSG:28193
+    source: table
+- id: 224-89
+  name: VES 89 (job 224)
+  elevation_m: -158
+  coords:
+    x: 176900
+    y: 18600
+    crs: EPSG:28193
+    source: table
+- id: 224-86
+  name: VES 86 (job 224)
+  elevation_m: -144
+  coords:
+    x: 175400
+    y: 18400
+    crs: EPSG:28193
+    source: table
+- id: 224-88
+  name: VES 88 (job 224)
+  elevation_m: -153
+  coords:
+    x: 176400
+    y: 18500
+    crs: EPSG:28193
+    source: table
+- id: 224-558
+  name: VES 558 (job 224)
+  elevation_m: -200
+  coords:
+    x: 178100
+    y: 18700
+    crs: EPSG:28193
+    source: table
+- id: 224-576
+  name: VES 576 (job 224)
+  elevation_m: -175
+  coords:
+    x: 178800
+    y: 19050
+    crs: EPSG:28193
+    source: table
+- id: 224-90
+  name: VES 90 (job 224)
+  elevation_m: -161
+  coords:
+    x: 177400
+    y: 18700
+    crs: EPSG:28193
+    source: table
+- id: 224-93
+  name: VES 93 (job 224)
+  elevation_m: -177
+  coords:
+    x: 178700
+    y: 19100
+    crs: EPSG:28193
+    source: table
+- id: 224-803
+  name: VES 803 (job 224)
+  elevation_m: -158
+  coords:
+    x: 181000
+    y: 19000
+    crs: EPSG:28193
+    source: table
+- id: 224-804
+  name: VES 804 (job 224)
+  elevation_m: -156
+  coords:
+    x: 181500
+    y: 18900
+    crs: EPSG:28193
+    source: table
+- id: 224-805
+  name: VES 805 (job 224)
+  elevation_m: -158
+  coords:
+    x: 180000
+    y: 19000
+    crs: EPSG:28193
+    source: table
+- id: 224-421
+  name: VES 421 (job 224)
+  elevation_m: -135
+  coords:
+    x: 173500
+    y: 19600
+    crs: EPSG:28193
+    source: table
+- id: 224-523
+  name: VES 523 (job 224)
+  elevation_m: -151
+  coords:
+    x: 175600
+    y: 20000
+    crs: EPSG:28193
+    source: table
+- id: 224-395
+  name: VES 395 (job 224)
+  elevation_m: -116
+  coords:
+    x: 171200
+    y: 19450
+    crs: EPSG:28193
+    source: table
+- id: 224-420
+  name: VES 420 (job 224)
+  elevation_m: null
+  coords:
+    x: 174500
+    y: 19800
+    crs: EPSG:28193
+    source: table
+- id: 224-569
+  name: VES 569 (job 224)
+  elevation_m: -158
+  coords:
+    x: 177400
+    y: 20200
+    crs: EPSG:28193
+    source: table
+- id: 224-429
+  name: VES 429 (job 224)
+  elevation_m: -125
+  coords:
+    x: 174900
+    y: 11000
+    crs: EPSG:28193
+    source: table
+- id: 224-418
+  name: VES 418 (job 224)
+  elevation_m: -152
+  coords:
+    x: 176500
+    y: 20100
+    crs: EPSG:28193
+    source: table
+- id: 224-367
+  name: VES 367 (job 224)
+  elevation_m: -103
+  coords:
+    x: 174200
+    y: 10500
+    crs: EPSG:28193
+    source: table
+- id: 224-584
+  name: VES 584 (job 224)
+  elevation_m: -142
+  coords:
+    x: 177400
+    y: 13350
+    crs: EPSG:28193
+    source: table
+- id: 224-583
+  name: VES 583 (job 224)
+  elevation_m: -144
+  coords:
+    x: 178200
+    y: 14350
+    crs: EPSG:28193
+    source: table
+- id: 224-510
+  name: VES 510 (job 224)
+  elevation_m: -131
+  coords:
+    x: 175600
+    y: 11400
+    crs: EPSG:28193
+    source: table
+- id: 224-808
+  name: VES 808 (job 224)
+  elevation_m: -152
+  coords:
+    x: 180800
+    y: 17100
+    crs: EPSG:28193
+    source: table
+- id: 224-806
+  name: VES 806 (job 224)
+  elevation_m: -147
+  coords:
+    x: 181500
+    y: 18000
+    crs: EPSG:28193
+    source: table
+- id: 224-385
+  name: VES 385 (job 224)
+  elevation_m: -114
+  coords:
+    x: 169000
+    y: 22700
+    crs: EPSG:28193
+    source: table
+- id: 224-387
+  name: VES 387 (job 224)
+  elevation_m: -146
+  coords:
+    x: 171000
+    y: 22600
+    crs: EPSG:28193
+    source: table
+- id: 224-384
+  name: VES 384 (job 224)
+  elevation_m: -96
+  coords:
+    x: 167800
+    y: 22800
+    crs: EPSG:28193
+    source: table
+- id: 224-386
+  name: VES 386 (job 224)
+  elevation_m: -126
+  coords:
+    x: 170000
+    y: 22700
+    crs: EPSG:28193
+    source: table
+- id: 224-389
+  name: VES 389 (job 224)
+  elevation_m: -162
+  coords:
+    x: 173000
+    y: 22600
+    crs: EPSG:28193
+    source: table
+- id: 369-15
+  name: VES 15 (job 369)
+  elevation_m: -171
+  coords:
+    x: 175800
+    y: 22800
+    crs: EPSG:28193
+    source: table
+- id: 224-388
+  name: VES 388 (job 224)
+  elevation_m: -156
+  coords:
+    x: 172000
+    y: 22600
+    crs: EPSG:28193
+    source: table
+- id: 224-390
+  name: VES 390 (job 224)
+  elevation_m: -167
+  coords:
+    x: 174000
+    y: 22600
+    crs: EPSG:28193
+    source: table
+- id: 224-565
+  name: VES 565 (job 224)
+  elevation_m: 180
+  coords:
+    x: 177200
+    y: 22700
+    crs: EPSG:28193
+    source: table
+- id: 224-801
+  name: VES 801 (job 224)
+  elevation_m: -215
+  coords:
+    x: 180000
+    y: 23000
+    crs: EPSG:28193
+    source: table
+- id: 369-16
+  name: VES 16 (job 369)
+  elevation_m: -194
+  coords:
+    x: 176100
+    y: 22600
+    crs: EPSG:28193
+    source: table
+- id: 224-564
+  name: VES 564 (job 224)
+  elevation_m: 168
+  coords:
+    x: 178400
+    y: 23000
+    crs: EPSG:28193
+    source: table
+- id: 224-467
+  name: VES 467 (job 224)
+  elevation_m: -173
+  coords:
+    x: 176000
+    y: 27000
+    crs: EPSG:28193
+    source: table
+- id: 224-469
+  name: VES 469 (job 224)
+  elevation_m: -200
+  coords:
+    x: 178000
+    y: 27000
+    crs: EPSG:28193
+    source: table
+- id: 224-466
+  name: VES 466 (job 224)
+  elevation_m: -160
+  coords:
+    x: 175100
+    y: 26700
+    crs: EPSG:28193
+    source: table
+- id: 224-468
+  name: VES 468 (job 224)
+  elevation_m: -180
+  coords:
+    x: 177000
+    y: 27000
+    crs: EPSG:28193
+    source: table
+- id: 224-440
+  name: VES 440 (job 224)
+  elevation_m: -240
+  coords:
+    x: 181000
+    y: 27000
+    crs: EPSG:28193
+    source: table
+- id: 224-436
+  name: VES 436 (job 224)
+  elevation_m: -255
+  coords:
+    x: 182000
+    y: 27000
+    crs: EPSG:28193
+    source: table
+- id: 369-3
+  name: VES 3 (job 369)
+  elevation_m: 11
+  coords:
+    x: 168000
+    y: 28500
+    crs: EPSG:28193
+    source: table
+- id: 369-6
+  name: VES 6 (job 369)
+  elevation_m: -81
+  coords:
+    x: 169900
+    y: 27300
+    crs: EPSG:28193
+    source: table
+- id: 369-1
+  name: VES 1 (job 369)
+  elevation_m: 30
+  coords:
+    x: 167400
+    y: 28800
+    crs: EPSG:28193
+    source: table
+- id: 369-4
+  name: VES 4 (job 369)
+  elevation_m: -11
+  coords:
+    x: 168700
+    y: 28100
+    crs: EPSG:28193
+    source: table
+- id: 369-8
+  name: VES 8 (job 369)
+  elevation_m: -116
+  coords:
+    x: 171900
+    y: 26000
+    crs: EPSG:28193
+    source: table
+- id: 369-10
+  name: VES 10 (job 369)
+  elevation_m: -134
+  coords:
+    x: 172900
+    y: 25000
+    crs: EPSG:28193
+    source: table
+- id: 369-7
+  name: VES 7 (job 369)
+  elevation_m: -93
+  coords:
+    x: 171300
+    y: 26400
+    crs: EPSG:28193
+    source: table
+- id: 369-9
+  name: VES 9 (job 369)
+  elevation_m: -121
+  coords:
+    x: 172500
+    y: 25500
+    crs: EPSG:28193
+    source: table
+- id: 369-12
+  name: VES 12 (job 369)
+  elevation_m: -157
+  coords:
+    x: 173900
+    y: 23900
+    crs: EPSG:28193
+    source: table
+- id: 369-14
+  name: VES 14 (job 369)
+  elevation_m: -163
+  coords:
+    x: 175100
+    y: 22900
+    crs: EPSG:28193
+    source: table
+- id: 369-11
+  name: VES 11 (job 369)
+  elevation_m: -147
+  coords:
+    x: 173300
+    y: 24300
+    crs: EPSG:28193
+    source: table
+- id: 369-13
+  name: VES 13 (job 369)
+  elevation_m: -162
+  coords:
+    x: 174600
+    y: 23500
+    crs: EPSG:28193
+    source: table
+- id: 224-568
+  name: VES 568 (job 224)
+  elevation_m: -170
+  coords:
+    x: 178000
+    y: 21000
+    crs: EPSG:28193
+    source: table
+- id: 224-465
+  name: VES 465 (job 224)
+  elevation_m: -140
+  coords:
+    x: 174000
+    y: 27000
+    crs: EPSG:28193
+    source: table
+- id: 224-407a
+  name: VES 407a (job 224)
+  elevation_m: -166
+  coords:
+    x: 177500
+    y: 21300
+    crs: EPSG:28193
+    source: table
+- id: 369-5
+  name: VES 5 (job 369)
+  elevation_m: -33
+  coords:
+    x: 169100
+    y: 27400
+    crs: EPSG:28193
+    source: table
+- id: 819-12
+  name: VES 12 (job 819)
+  elevation_m: -353
+  coords:
+    x: 185800
+    y: 37900
+    crs: EPSG:28193
+    source: table
+- id: 819-10
+  name: VES 10 (job 819)
+  elevation_m: -353
+  coords:
+    x: 186200
+    y: 37800
+    crs: EPSG:28193
+    source: table
+- id: 223-77
+  name: VES 77 (job 223)
+  elevation_m: -336
+  coords:
+    x: 184600
+    y: 38400
+    crs: EPSG:28193
+    source: table
+- id: 819-9
+  name: VES 9 (job 819)
+  elevation_m: -353
+  coords:
+    x: 186000
+    y: 37900
+    crs: EPSG:28193
+    source: table
+- id: 819-29
+  name: VES 29 (job 819)
+  elevation_m: -343
+  coords:
+    x: 185300
+    y: 38770
+    crs: EPSG:28193
+    source: table
+- id: 819-20
+  name: VES 20 (job 819)
+  elevation_m: -355
+  coords:
+    x: 187300
+    y: 38640
+    crs: EPSG:28193
+    source: table
+- id: 819-11
+  name: VES 11 (job 819)
+  elevation_m: -352
+  coords:
+    x: 186300
+    y: 37700
+    crs: EPSG:28193
+    source: table
+- id: 819-28
+  name: VES 28 (job 819)
+  elevation_m: -352
+  coords:
+    x: 186200
+    y: 38710
+    crs: EPSG:28193
+    source: table
+- id: 224-742
+  name: VES 742 (job 224)
+  elevation_m: -292
+  coords:
+    x: 182750
+    y: 32500
+    crs: EPSG:28193
+    source: table
+- id: 224-743
+  name: VES 743 (job 224)
+  elevation_m: -285
+  coords:
+    x: 182650
+    y: 31570
+    crs: EPSG:28193
+    source: table
+- id: 224-748
+  name: VES 748 (job 224)
+  elevation_m: -270
+  coords:
+    x: 182000
+    y: 30000
+    crs: EPSG:28193
+    source: table
+- id: 224-738
+  name: VES 738 (job 224)
+  elevation_m: -310
+  coords:
+    x: 183350
+    y: 35000
+    crs: EPSG:28193
+    source: table
+- id: 224-739
+  name: VES 739 (job 224)
+  elevation_m: -305
+  coords:
+    x: 183100
+    y: 34200
+    crs: EPSG:28193
+    source: table
+- id: 224-741
+  name: VES 741 (job 224)
+  elevation_m: -298
+  coords:
+    x: 182750
+    y: 33200
+    crs: EPSG:28193
+    source: table
+- id: 224-736
+  name: VES 736 (job 224)
+  elevation_m: -320
+  coords:
+    x: 183750
+    y: 36000
+    crs: EPSG:28193
+    source: table
+- id: 224-733
+  name: VES 733 (job 224)
+  elevation_m: -326
+  coords:
+    x: 184450
+    y: 36550
+    crs: EPSG:28193
+    source: table
+- id: 224-732
+  name: VES 732 (job 224)
+  elevation_m: -330
+  coords:
+    x: 184600
+    y: 37000
+    crs: EPSG:28193
+    source: table
+- id: 224-730
+  name: VES 730 (job 224)
+  elevation_m: -340
+  coords:
+    x: 185550
+    y: 37370
+    crs: EPSG:28193
+    source: table
+- id: 776-6
+  name: VES 6 (job 776)
+  elevation_m: 385
+  coords:
+    x: 162450
+    y: 49750
+    crs: EPSG:28193
+    source: table
+- id: 776-1
+  name: VES 1 (job 776)
+  elevation_m: 420
+  coords:
+    x: 166800
+    y: 49800
+    crs: EPSG:28193
+    source: table
+- id: 776-4
+  name: VES 4 (job 776)
+  elevation_m: 390
+  coords:
+    x: 161700
+    y: 49700
+    crs: EPSG:28193
+    source: table
+- id: 776-2
+  name: VES 2 (job 776)
+  elevation_m: 410
+  coords:
+    x: 164850
+    y: 49850
+    crs: EPSG:28193
+    source: table
+- id: 109-13
+  name: VES 13 (job 109)
+  elevation_m: -377
+  coords:
+    x: 185050
+    y: 43620
+    crs: EPSG:28193
+    source: table
+- id: 109-3
+  name: VES 3 (job 109)
+  elevation_m: -290
+  coords:
+    x: 181820
+    y: 43800
+    crs: EPSG:28193
+    source: table
+- id: 223-20
+  name: VES 20 (job 223)
+  elevation_m: -349
+  coords:
+    x: 183600
+    y: 47520
+    crs: EPSG:28193
+    source: table
+- id: 109-32
+  name: VES 32 (job 109)
+  elevation_m: -380
+  coords:
+    x: 188000
+    y: 44180
+    crs: EPSG:28193
+    source: table
+- id: 109-30
+  name: VES 30 (job 109)
+  elevation_m: -380
+  coords:
+    x: 189250
+    y: 44600
+    crs: EPSG:28193
+    source: table
+- id: 109-6
+  name: VES 6 (job 109)
+  elevation_m: -380
+  coords:
+    x: 186600
+    y: 43600
+    crs: EPSG:28193
+    source: table
+- id: 109-7
+  name: VES 7 (job 109)
+  elevation_m: -380
+  coords:
+    x: 188820
+    y: 44450
+    crs: EPSG:28193
+    source: table
+- id: 109-31
+  name: VES 31 (job 109)
+  elevation_m: -380
+  coords:
+    x: 190120
+    y: 44850
+    crs: EPSG:28193
+    source: table
+- id: 223-27
+  name: VES 27 (job 223)
+  elevation_m: -368
+  coords:
+    x: 183000
+    y: 45100
+    crs: EPSG:28193
+    source: table
+- id: 109-11
+  name: VES 11 (job 109)
+  elevation_m: -380
+  coords:
+    x: 189650
+    y: 44800
+    crs: EPSG:28193
+    source: table
+- id: 223-26
+  name: VES 26 (job 223)
+  elevation_m: -361
+  coords:
+    x: 182200
+    y: 44600
+    crs: EPSG:28193
+    source: table
+- id: 223-21
+  name: VES 21 (job 223)
+  elevation_m: -360
+  coords:
+    x: 182900
+    y: 44500
+    crs: EPSG:28193
+    source: table
+- id: 223-29
+  name: VES 29 (job 223)
+  elevation_m: -366
+  coords:
+    x: 183400
+    y: 44600
+    crs: EPSG:28193
+    source: table
+- id: 223-28
+  name: VES 28 (job 223)
+  elevation_m: -372
+  coords:
+    x: 183300
+    y: 45700
+    crs: EPSG:28193
+    source: table
+- id: 223-23
+  name: VES 23 (job 223)
+  elevation_m: -363
+  coords:
+    x: 183100
+    y: 44500
+    crs: EPSG:28193
+    source: table
+- id: 223-24
+  name: VES 24 (job 223)
+  elevation_m: -372
+  coords:
+    x: 183700
+    y: 45000
+    crs: EPSG:28193
+    source: table
+- id: 223-25
+  name: VES 25 (job 223)
+  elevation_m: -380
+  coords:
+    x: 184500
+    y: 45400
+    crs: EPSG:28193
+    source: table
+- id: 223-30
+  name: VES 30 (job 223)
+  elevation_m: -369
+  coords:
+    x: 183500
+    y: 44900
+    crs: EPSG:28193
+    source: table
+- id: 223-5
+  name: VES 5 (job 223)
+  elevation_m: -225
+  coords:
+    x: 182500
+    y: 53800
+    crs: EPSG:28193
+    source: table
+- id: 109-26
+  name: VES 26 (job 109)
+  elevation_m: -260
+  coords:
+    x: 183600
+    y: 53700
+    crs: EPSG:28193
+    source: table
+- id: 223-3
+  name: VES 3 (job 223)
+  elevation_m: -220
+  coords:
+    x: 182400
+    y: 53800
+    crs: EPSG:28193
+    source: table
+- id: 223-9
+  name: VES 9 (job 223)
+  elevation_m: -240
+  coords:
+    x: 182800
+    y: 53800
+    crs: EPSG:28193
+    source: table
+- id: 109-22
+  name: VES 22 (job 109)
+  elevation_m: -243
+  coords:
+    x: 185800
+    y: 53200
+    crs: EPSG:28193
+    source: table
+- id: 109-17
+  name: VES 17 (job 109)
+  elevation_m: -390
+  coords:
+    x: 187800
+    y: 53700
+    crs: EPSG:28193
+    source: table
+- id: 109-29
+  name: VES 29 (job 109)
+  elevation_m: -260
+  coords:
+    x: 185410
+    y: 53350
+    crs: EPSG:28193
+    source: table
+- id: 109-14
+  name: VES 14 (job 109)
+  elevation_m: -190
+  coords:
+    x: 186750
+    y: 53300
+    crs: EPSG:28193
+    source: table

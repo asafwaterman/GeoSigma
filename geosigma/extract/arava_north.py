@@ -7,8 +7,11 @@ file, job, coordinates, elevation), the box values and the AB/2 of the box edges
 read by eye from 300 dpi crops (edges against the printed axis labels, about +-10 %).
 
 This script turns them into ``extraction/ves_readings.yaml`` and runs ``build_ves``.
-Coordinates are printed in units of 10 m (5 digits) or 100 m (4 digits); both are
-written as 10 m units. Sites are named file-D.P. as on the index (e.g. 224-728).
+Coordinates are printed in units of 10 m (5 digits) or 100 m (4 digits, or 5 digits
+starting "09" next to sheets at 965 km); both are written as 10 m units. Northings run
+from about 964 km across 1000 km, so values like "01490" are 1014.9 km (the grid's
+false origin is added later). Sheet 224-368 prints x as "01700"; its neighbours put it
+at 17000. Sites are named file-D.P. as on the index (e.g. 224-728).
 
 Run: ``python -m geosigma.extract.arava_north``.
 """
@@ -29,7 +32,7 @@ PDF = "Paparo-Levitte-Analysis-Northern-Arava-Electrical-Resistivity-Measurement
 
 def ten_m(v: str) -> int | None:
     digits = re.sub(r"\D", "", str(v or ""))
-    if len(digits) == 4 or (len(digits) == 5 and digits[0] == "0"):  # 100 m units, sometimes with a leading 0
+    if len(digits) == 4 or digits.startswith("09") and len(digits) == 5:  # 100 m units ("09655" = 965.5 km)
         return int(digits) * 10
     if len(digits) in (5, 6):
         return int(digits)
@@ -43,6 +46,8 @@ def readings() -> tuple[list[dict], list[str]]:
         where = f"page {s['page']} {s['quad']}"
         rho, edges = s.get("rho") or [], s.get("edges_m") or []
         x, y = ten_m(s.get("x")), ten_m(s.get("y"))
+        if s.get("x") == "01700" and str(s.get("dp")) == "368":  # misprint, see the docstring
+            x = 17000
         if s.get("partial") or not rho or len(edges) != len(rho) - 1 or x is None or y is None:
             skipped.append(f"{where}: {s.get('note') or 'incomplete'}")
             continue
@@ -57,6 +62,8 @@ def readings() -> tuple[list[dict], list[str]]:
             "elev": s.get("elev"), "rho": rho, "confidence": "B" if s.get("sure", True) else "C",
             "note": " ".join(filter(None, [f"Sheet at {where} of Vol. 2; job {s.get('job') or '?'}.", s.get("note")])),
         })
+        if None in rho and "infinity" not in (s.get("note") or "").lower():
+            out[-1]["null_means"] = "no value printed, or printed as '?'"
     return out, skipped
 
 
