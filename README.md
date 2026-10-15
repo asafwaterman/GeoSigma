@@ -7,7 +7,7 @@ a web interface.
 ## Run
 
 ```
-pip install -e .[dev]
+pip install -e '.[dev]'
 python -m geosigma check      # validate all survey and dataset files
 python -m geosigma build      # rebuild build/geosigma.sqlite
 python -m geosigma serve      # http://127.0.0.1:8000
