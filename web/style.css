@@ -64,3 +64,32 @@ a.dl:hover { text-decoration: underline; }
 .areapop .area + .area { border-top: 1px solid var(--line); margin-top: 6px; padding-top: 6px; }
 .sitenote { margin: 8px 0; padding: 8px 10px; border-left: 3px solid var(--warn); background: var(--bg);
   font-size: 12.5px; line-height: 1.45; }
+
+/* Phones: the map fills the screen; the legend and survey list open as a panel, and a
+   chosen site's details slide up from the bottom. */
+.mobile-only { display: none; }
+@media (max-width: 760px) {
+  body { height: 100dvh; }
+  header { gap: 6px 10px; padding: 6px 10px; }
+  header h1 { font-size: 16px; }
+  header .sub, header .copynote { display: none; }
+  .depth { margin-left: 0; flex: 1 1 auto; order: 3; }
+  .depth input { width: auto; flex: 1; min-width: 0; }
+  label.sigma { order: 4; }
+  .wide-only { display: none; }
+  .mobile-only { display: inline-block; }
+  #openLeft { margin: 0 0 0 auto; order: 2; }
+  button.close { float: right; margin: 0 0 6px 8px; }
+  main { position: relative; display: block; }
+  #map { position: absolute; inset: 0; min-height: 0; }
+  #left { position: absolute; inset: 0; width: auto; max-height: none; z-index: 6; border: 0; display: none; }
+  body.show-left #left { display: block; }
+  #right { position: absolute; left: 0; right: 0; bottom: 0; width: auto; max-height: 62%; z-index: 4;
+    border: 1px solid var(--line); border-radius: 12px 12px 0 0; box-shadow: 0 -4px 16px rgba(0,0,0,.15);
+    padding-bottom: max(12px, env(safe-area-inset-bottom, 0px)); }
+  #detailEmpty { font-size: 13px; }
+  #detailEmpty .area + .area { border-top: 1px solid var(--line); margin-top: 6px; padding-top: 6px; }
+  #detailEmpty .area b { color: var(--text); }
+  .plot { height: 300px; }
+  #sectionPane { left: 6px; right: 6px; bottom: 6px; height: 60dvh; z-index: 7; }
+}

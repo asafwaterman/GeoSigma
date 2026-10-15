@@ -6,6 +6,8 @@ const state = { depth: 500, sigma: false, hidden: new Set(), site: null, dataset
 const $ = (id) => document.getElementById(id);
 // A read-only web copy (geosigma.export_static) sets GEOSIGMA_STATIC with its own api and basemap.
 const STATIC = window.GEOSIGMA_STATIC || null;
+const TOUCH = matchMedia("(hover: none), (pointer: coarse)").matches;
+const TAP_HINT = "Tap a site on the map to see its models and where they came from.";
 const api = STATIC ? STATIC.api : (path) => fetch(path).then((r) => (r.ok ? r.json() : Promise.reject(r.statusText)));
 
 // Colour ramp on log10(rho), 1 to 1000 ohm.m: conductive red to resistive blue.
@@ -68,6 +70,12 @@ async function loadSites(current = () => true) {
     paint: { "circle-radius": 11, "circle-color": "rgba(0,0,0,0)", "circle-stroke-width": 2, "circle-stroke-color": "#111" },
   });
   map.on("click", "sites", (e) => selectSite(e.features[0].properties));
+  map.on("click", (e) => {  // a fingertip is wider than a site dot
+    if (map.queryRenderedFeatures(e.point, { layers: ["sites"] }).length) return;
+    const { x, y } = e.point, r = 14;
+    const f = map.queryRenderedFeatures([[x - r, y - r], [x + r, y + r]], { layers: ["sites"] })[0];
+    if (f) selectSite(f.properties);
+  });
   map.on("mouseenter", "sites", () => (map.getCanvas().style.cursor = "pointer"));
   map.on("mouseleave", "sites", () => (map.getCanvas().style.cursor = ""));
   const popup = new maplibregl.Popup({ closeButton: false, closeOnClick: false });
@@ -115,25 +123,41 @@ function showAreas() {
   areaPopup = new maplibregl.Popup({ closeButton: false, closeOnClick: false, maxWidth: "340px", className: "areapop", offset: 10, focusAfterOpen: false });
   // The popup stays put while the pointer is over the same surveys, so it can be reached and clicked.
   const el = () => areaPopup.getElement();
-  const hide = () => { areaKey = ""; areaPopup.remove(); hoverAreas([]); };
-  map.on("mousemove", (e) => {
+  const hide = () => {
+    areaKey = ""; areaPopup.remove(); hoverAreas([]);
+    if (TOUCH && $("detailEmpty").dataset.areas) { delete $("detailEmpty").dataset.areas; $("detailEmpty").textContent = TAP_HINT; }
+  };
+  const showAt = (e) => {
     if (!$("showAreas").checked) return;
-    const overSite = map.getLayer("sites") && map.queryRenderedFeatures(e.point, { layers: ["sites"] }).length;
+    const { x, y } = e.point, r = TOUCH ? 14 : 0;  // as for site taps below
+    const overSite = map.getLayer("sites") && map.queryRenderedFeatures([[x - r, y - r], [x + r, y + r]], { layers: ["sites"] }).length;
     const ids = overSite ? [] : map.queryRenderedFeatures(e.point, { layers: ["areas-fill"] })
       .sort((a, b) => a.properties.area - b.properties.area).map((f) => f.properties.id);
     const key = ids.join("|");
     if (key === areaKey) { clearTimeout(areaTimer); return; }
     clearTimeout(areaTimer);
-    if (!ids.length) { areaTimer = setTimeout(hide, 250); return; }
+    if (!ids.length) { if (TOUCH) hide(); else areaTimer = setTimeout(hide, 250); return; }
     areaKey = key;
     hoverAreas(ids);
     const html = ids.map((id) => state.surveys.find((s) => s.id === id)).map((s) =>
       `<div class="area"><b>${s.name}</b> <span class="muted">${s.year}</span>${docLinks(s)}</div>`).join("");
+    if (TOUCH) {  // on a phone the list goes in the bottom panel, where it has room
+      $("detail").hidden = true;
+      $("detailEmpty").hidden = false;
+      $("detailEmpty").dataset.areas = "1";
+      $("detailEmpty").innerHTML = html;
+      return;
+    }
     areaPopup.setLngLat(e.lngLat).setHTML(html).addTo(map);
     el().onmouseenter = () => clearTimeout(areaTimer);
     el().onmouseleave = () => (areaTimer = setTimeout(hide, 250));
-  });
-  map.getCanvas().addEventListener("mouseleave", () => (areaTimer = setTimeout(hide, 250)));
+  };
+  // Touch screens have no hover: a tap on a survey area opens its list, a tap elsewhere closes it.
+  map.on("click", showAt);
+  if (!TOUCH) {
+    map.on("mousemove", showAt);
+    map.getCanvas().addEventListener("mouseleave", () => (areaTimer = setTimeout(hide, 250)));
+  }
   setAreasVisible();
 }
 function hoverAreas(ids) {
@@ -216,7 +240,9 @@ async function selectSite(p) {
   state.site = p;
   map.setFilter("selected", ["all", ["==", ["get", "site"], p.site], ["==", ["get", "survey"], p.survey]]);
   $("detailEmpty").hidden = true;
+  if ($("detailEmpty").dataset.areas) { delete $("detailEmpty").dataset.areas; $("detailEmpty").textContent = TAP_HINT; }
   $("detail").hidden = false;
+  $("right").scrollTop = 0;
   $("siteTitle").textContent = p.name || p.site;
   const survey = state.surveys.find((s) => s.id === p.survey);
   $("siteMeta").textContent = `${survey ? survey.name : p.survey} · ${p.orig}`;
@@ -427,3 +453,11 @@ legend();
 loadSurveys();
 map.on("load", () => { loadSites(); if (state.surveys.length) showAreas(); });
 $("showAreas").addEventListener("change", setAreasVisible);
+// Phone layout (style.css): open and close the legend panel and the site details.
+$("openLeft").addEventListener("click", () => document.body.classList.add("show-left"));
+$("closeLeft").addEventListener("click", () => document.body.classList.remove("show-left"));
+$("closeDetail").addEventListener("click", () => { $("detail").hidden = true; $("detailEmpty").hidden = false; });
+if (TOUCH) {
+  $("areasHint").textContent = "tap a rectangle to download its reports";
+  $("detailEmpty").textContent = TAP_HINT;
+}
