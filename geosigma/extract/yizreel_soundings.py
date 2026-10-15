@@ -68,6 +68,23 @@ def run() -> list[dict]:
                 "notes": " ".join(filter(None, ["Report: these soundings could in general not be interpreted.",
                                                 sh.get("note")])),
             })
+        m = sh.get("model")
+        if m and m.get("rho") and len(m.get("edges_m") or []) == len(m["rho"]) - 1:
+            tops = [0.0] + [float(e) for e in m["edges_m"]]
+            ds.append({
+                "id": f"{SURVEY}-ds-{sh['dp']}-model" + ("" if sid == f"DS-{sh['dp']}" else f"-p{sh['page']}"),
+                "survey": SURVEY, "site": sid, "method": "VES", "level": "L2", "representation": "model_1d",
+                "model_type": "layered", "measured_on": None, "confidence": "C", "status": "draft",
+                "depth_max_m": round(tops[-1] * 1.5),
+                "layers": [{"top_m": tops[i], "bottom_m": tops[i + 1] if i + 1 < len(tops) else None,
+                            "rho_ohmm": float(r)} for i, r in enumerate(m["rho"]) if r is not None],
+                "digitisation_error": "interface +-15 % (box edge read on the distance axis)",
+                "provenance": {"document": "main", "pages": [sh["page"]], "figure": f"D.P. {sh['dp']} sounding sheet",
+                               "table": "CAL. RES. band", "method": "digitised_manual",
+                               "tool": "geosigma.extract.yizreel_soundings (read by eye)", "extracted_on": today,
+                               "notes": "Interface depth taken as the distance of the box edge, as on the other IPRG sheets."},
+                "notes": "One of the few soundings the report says could be interpreted.",
+            })
     survey["sites"] = sites
     main = next(d for d in survey["documents"] if d["id"] == "main")
     main.update(sha256="562f029aef8835ec6ad46e6427f879adc9b36bf532da63f941867b5f1f9ae1c4", pages=83)
