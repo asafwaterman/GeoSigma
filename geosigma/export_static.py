@@ -117,7 +117,10 @@ SHIM = """
     const e = pages[survey + "|" + doc + "|" + page];
     return e && { src: e[0], x: e[1], y: e[2], w: e[3], h: e[4] };
   };
-  window.GEOSIGMA_STATIC = { api: apiCall, style, sourceImage };
+  // The PDFs are too large for this copy; downloads come from the GitHub repository.
+  const pdfUrl = (survey, doc, filename) =>
+    "https://github.com/asafwaterman/GeoSigma/raw/main/data/sources/pdf/" + encodeURIComponent(filename);
+  window.GEOSIGMA_STATIC = { api: apiCall, style, sourceImage, pdfUrl };
 })();
 </script>
 """

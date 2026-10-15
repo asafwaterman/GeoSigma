@@ -61,3 +61,12 @@ button { font: inherit; padding: 4px 10px; border: 1px solid var(--line); backgr
 #review input { flex: 1 1 140px; min-width: 0; font: inherit; padding: 3px 6px; border-radius: 6px;
   border: 1px solid var(--border, #c9ced6); background: transparent; color: inherit; }
 #prov .hl { position: absolute; border: 2px solid #e11d48; border-radius: 3px; pointer-events: none; }
+label.areas { display: block; margin: 8px 0 4px; }
+label.areas small { display: block; margin-left: 22px; }
+a.dl { display: block; color: var(--accent); text-decoration: none; font-size: 12px; padding: 2px 0; }
+a.dl:hover { text-decoration: underline; }
+.survey details.docs { margin-left: 22px; font-size: 12px; }
+.survey details.docs summary { color: var(--muted); cursor: pointer; }
+.areapop .maplibregl-popup-content { background: var(--panel); color: var(--text); font-size: 13px; max-height: 50vh; overflow: auto; }
+.areapop .maplibregl-popup-tip { display: none; }
+.areapop .area + .area { border-top: 1px solid var(--line); margin-top: 6px; padding-top: 6px; }

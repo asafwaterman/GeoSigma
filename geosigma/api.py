@@ -37,10 +37,18 @@ def surveys():
             "SELECT s.*, (SELECT COUNT(*) FROM site WHERE survey=s.id) AS n_sites,"
             " (SELECT COUNT(*) FROM dataset WHERE survey=s.id) AS n_datasets FROM survey s ORDER BY year"
         ).fetchall()
+        boxes = {r[0]: list(r[1:]) for r in con.execute(
+            "SELECT survey, MIN(lon), MIN(lat), MAX(lon), MAX(lat) FROM site WHERE lon IS NOT NULL GROUP BY survey")}
+        docs = con.execute("SELECT survey, id, title, filename, role FROM document").fetchall()
     out = []
     for r in rows:
         d = dict(r)
         d["detail"] = json.loads(d.pop("json"))
+        d["bbox"] = boxes.get(d["id"])  # [west, south, east, north] of the survey's sites
+        d["documents"] = [
+            {"id": x["id"], "title": x["title"], "filename": x["filename"], "role": x["role"],
+             "mb": round(f.stat().st_size / 1e6, 1) if (f := SOURCES_DIR / x["filename"]).exists() else None}
+            for x in docs if x["survey"] == d["id"]]
         out.append(d)
     return out
 
@@ -217,6 +225,19 @@ def source_page(survey: str, document: str, page: int, dpi: int = 100):
     if not path.exists():
         raise HTTPException(404, f"source PDF not available locally: {doc['filename']}")
     return Response(_render_page(str(path), page, min(dpi, 200)), media_type="image/png")
+
+
+@app.get("/api/pdf/{survey}/{document}")
+def source_pdf(survey: str, document: str):
+    """Download the original report."""
+    with _db() as con:
+        doc = con.execute("SELECT filename FROM document WHERE survey=? AND id=?", (survey, document)).fetchone()
+    if not doc:
+        raise HTTPException(404, "unknown document")
+    path = SOURCES_DIR / doc["filename"]
+    if not path.exists():
+        raise HTTPException(404, f"source PDF not available locally: {doc['filename']}")
+    return FileResponse(path, media_type="application/pdf", filename=doc["filename"])
 
 
 @app.get("/")

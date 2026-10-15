@@ -16,7 +16,7 @@ from functools import lru_cache
 
 from .store import ROOT, SURVEYS_DIR
 
-SOURCES_DIR = ROOT / "data" / "sources" / "pdf"  # local PDFs, not committed
+SOURCES_DIR = ROOT / "data" / "sources" / "pdf"  # the original reports
 
 QUAD = {"TL": ([0, 0, 0.5, 0.5], "upper-left"), "TR": ([0.5, 0, 1, 0.5], "upper-right"),
         "BL": ([0, 0.5, 0.5, 1], "lower-left"), "BR": ([0.5, 0.5, 1, 1], "lower-right")}

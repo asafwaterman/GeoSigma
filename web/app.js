@@ -81,6 +81,69 @@ async function loadSites(current = () => true) {
   fitTo(gj);
 }
 
+// Survey areas: a rectangle around each survey's sites, with its reports to download on hover.
+const PAD = 0.012;  // degrees, about 1 km, so the smallest surveys still show
+const pdfUrl = (survey, doc) => STATIC ? STATIC.pdfUrl(survey, doc.id, doc.filename)
+  : `/api/pdf/${survey}/${encodeURIComponent(doc.id)}`;
+const docLinks = (s) => s.documents.map((d) => `<a class="dl" href="${pdfUrl(s.id, d)}" target="_blank" rel="noopener"
+  download="${d.filename}" title="${d.filename}">⬇ ${d.title}${d.mb ? ` <span class="muted">${d.mb} MB</span>` : ""}</a>`).join("");
+
+function areasData() {
+  const features = state.surveys.filter((s) => s.bbox && !state.hidden.has(s.id)).map((s) => {
+    const [w, so, e, n] = [s.bbox[0] - PAD, s.bbox[1] - PAD, s.bbox[2] + PAD, s.bbox[3] + PAD];
+    return { type: "Feature", properties: { id: s.id, area: (e - w) * (n - so) },
+      geometry: { type: "Polygon", coordinates: [[[w, so], [e, so], [e, n], [w, n], [w, so]]] } };
+  });
+  return { type: "FeatureCollection", features };
+}
+
+let areaPopup = null, areaKey = "", areaTimer = null;
+function showAreas() {
+  if (!map.loaded() && !map.isStyleLoaded()) return;
+  const gj = areasData();
+  if (map.getSource("areas")) { map.getSource("areas").setData(gj); return; }
+  map.addSource("areas", { type: "geojson", data: gj });
+  const before = map.getLayer("sites") ? "sites" : undefined;
+  map.addLayer({ id: "areas-fill", type: "fill", source: "areas", paint: { "fill-color": "#1f5fa8", "fill-opacity": 0.03 } }, before);
+  map.addLayer({ id: "areas-line", type: "line", source: "areas",
+    paint: { "line-color": "#1f5fa8", "line-width": 1.2, "line-opacity": 0.7, "line-dasharray": [3, 2] } }, before);
+  map.addLayer({ id: "areas-hover", type: "line", source: "areas", filter: ["in", ["get", "id"], ["literal", []]],
+    paint: { "line-color": "#1f5fa8", "line-width": 2.5 } }, before);
+  map.addLayer({ id: "areas-hover-fill", type: "fill", source: "areas", filter: ["in", ["get", "id"], ["literal", []]],
+    paint: { "fill-color": "#1f5fa8", "fill-opacity": 0.08 } }, before);
+  areaPopup = new maplibregl.Popup({ closeButton: false, closeOnClick: false, maxWidth: "340px", className: "areapop", offset: 10, focusAfterOpen: false });
+  // The popup stays put while the pointer is over the same surveys, so it can be reached and clicked.
+  const el = () => areaPopup.getElement();
+  const hide = () => { areaKey = ""; areaPopup.remove(); hoverAreas([]); };
+  map.on("mousemove", (e) => {
+    if (!$("showAreas").checked) return;
+    const overSite = map.getLayer("sites") && map.queryRenderedFeatures(e.point, { layers: ["sites"] }).length;
+    const ids = overSite ? [] : map.queryRenderedFeatures(e.point, { layers: ["areas-fill"] })
+      .sort((a, b) => a.properties.area - b.properties.area).map((f) => f.properties.id);
+    const key = ids.join("|");
+    if (key === areaKey) { clearTimeout(areaTimer); return; }
+    clearTimeout(areaTimer);
+    if (!ids.length) { areaTimer = setTimeout(hide, 250); return; }
+    areaKey = key;
+    hoverAreas(ids);
+    const html = ids.map((id) => state.surveys.find((s) => s.id === id)).map((s) =>
+      `<div class="area"><b>${s.name}</b> <span class="muted">${s.year}</span>${docLinks(s)}</div>`).join("");
+    areaPopup.setLngLat(e.lngLat).setHTML(html).addTo(map);
+    el().onmouseenter = () => clearTimeout(areaTimer);
+    el().onmouseleave = () => (areaTimer = setTimeout(hide, 250));
+  });
+  map.getCanvas().addEventListener("mouseleave", () => (areaTimer = setTimeout(hide, 250)));
+  setAreasVisible();
+}
+function hoverAreas(ids) {
+  for (const l of ["areas-hover", "areas-hover-fill"]) map.setFilter(l, ["in", ["get", "id"], ["literal", ids]]);
+}
+function setAreasVisible() {
+  const v = $("showAreas").checked ? "visible" : "none";
+  for (const l of ["areas-fill", "areas-line", "areas-hover", "areas-hover-fill"]) if (map.getLayer(l)) map.setLayoutProperty(l, "visibility", v);
+  if (v === "none" && areaPopup) { areaKey = ""; areaPopup.remove(); }
+}
+
 function fitTo(gj) {
   if (!gj.features.length) return;
   const b = new maplibregl.LngLatBounds();
@@ -97,11 +160,14 @@ async function loadSurveys() {
     const ok = (c.reliable || 0) + (c.unknown_doi || 0);
     return `<div class="survey"><label><input type="checkbox" data-s="${s.id}" ${state.hidden.has(s.id) ? "" : "checked"}>
       ${s.name}</label><small>${s.year} · ${s.methods} · ${s.n_sites} sites, ${n} datasets` +
-      (c ? ` · ${ok} models reach ${state.depth} m` : "") + ` · ${s.extraction_status}</small></div>`;
+      (c ? ` · ${ok} models reach ${state.depth} m` : "") + ` · ${s.extraction_status}</small>
+      <details class="docs"><summary>Original report${s.documents.length > 1 ? "s" : ""} (PDF)</summary>${docLinks(s)}</details></div>`;
   }).join("") || '<p class="muted">No surveys in the database yet.</p>';
+  if (map.isStyleLoaded()) showAreas();
   document.querySelectorAll("[data-s]").forEach((cb) => cb.addEventListener("change", () => {
     cb.checked ? state.hidden.delete(cb.dataset.s) : state.hidden.add(cb.dataset.s);
     loadSites();
+    if (map.getSource("areas")) map.getSource("areas").setData(areasData());
   }));
 }
 
@@ -328,7 +394,8 @@ $("closeSection").addEventListener("click", () => ($("sectionPane").hidden = tru
 
 legend();
 loadSurveys();
-map.on("load", () => loadSites());
+map.on("load", () => { loadSites(); if (state.surveys.length) showAreas(); });
+$("showAreas").addEventListener("change", setAreasVisible);
 
 
 // Review: the decision is written to the dataset's source file by the API.
