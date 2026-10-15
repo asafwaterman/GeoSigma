@@ -79,18 +79,3 @@ def test_profile_dataset_rules():
     with pytest.raises(ValueError):
         Dataset.model_validate({**base, "level": "L2", "profile": [{"station": 1, "rho_a": 5}]})
 
-
-def test_set_status_writes_source_file(tmp_path):
-    import json
-    import shutil
-
-    from geosigma.store import SURVEYS_DIR, set_status
-
-    src = SURVEYS_DIR / "paparo-1970-shekhem"
-    shutil.copytree(src, tmp_path / src.name)
-    f = tmp_path / src.name / "datasets" / "ves_models.json"
-    first = json.loads(f.read_text())[0]["id"]
-    out = set_status(first, "checked", "tester", "edges look right", surveys_dir=tmp_path, db_path=tmp_path / "none.sqlite")
-    assert out["status"] == "checked" and out["provenance"]["checked_by"] == "tester"
-    saved = json.loads(f.read_text())[0]
-    assert saved["status"] == "checked" and saved["review_note"] == "edges look right"

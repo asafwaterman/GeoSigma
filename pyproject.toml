@@ -4,7 +4,7 @@ version = "0.1.0"
 description = "Unified geophysical resistivity database and viewer for Israel"
 requires-python = ">=3.11"
 dependencies = [
-  "pydantic>=2", "pyyaml", "pyproj", "fastapi", "uvicorn", "pymupdf", "numpy",
+  "pydantic>=2", "pyyaml", "pyproj", "fastapi", "uvicorn", "pymupdf", "numpy", "pillow",
 ]
 
 [project.optional-dependencies]
