@@ -1,0 +1,719 @@
+[
+ {
+  "id": "paparo-1977-tel-dan-ves-331-1",
+  "survey": "paparo-1977-tel-dan",
+  "site": "331-1",
+  "method": "VES",
+  "level": "L2",
+  "representation": "model_1d",
+  "measured_on": null,
+  "confidence": "B",
+  "status": "draft",
+  "model_type": "layered",
+  "depth_max_m": 123,
+  "layers": [
+   {
+    "top_m": 0.0,
+    "bottom_m": 4.9,
+    "rho_ohmm": 32.0
+   },
+   {
+    "top_m": 4.9,
+    "bottom_m": 39.0,
+    "rho_ohmm": 160.0
+   },
+   {
+    "top_m": 39.0,
+    "bottom_m": 82.0,
+    "rho_ohmm": 35.0
+   },
+   {
+    "top_m": 82.0,
+    "bottom_m": null,
+    "rho_ohmm": 250.0
+   }
+  ],
+  "digitisation_error": "interfaces +-5% (box edges read on the AB/2 axis)",
+  "provenance": {
+   "document": "main",
+   "pages": [
+    16
+   ],
+   "figure": "VES sheet D.P. 1, job 331",
+   "method": "digitised_manual",
+   "tool": "reading by eye (values and edges)",
+   "extracted_on": "2026-10-15",
+   "notes": "Interface depths taken as the AB/2 of the box edges under the curve."
+  },
+  "notes": "The last layer is open-ended; the model does not state a DOI."
+ },
+ {
+  "id": "paparo-1977-tel-dan-ves-331-2",
+  "survey": "paparo-1977-tel-dan",
+  "site": "331-2",
+  "method": "VES",
+  "level": "L2",
+  "representation": "model_1d",
+  "measured_on": null,
+  "confidence": "B",
+  "status": "draft",
+  "model_type": "layered",
+  "depth_max_m": 129,
+  "layers": [
+   {
+    "top_m": 0.0,
+    "bottom_m": 5.5,
+    "rho_ohmm": 9.2
+   },
+   {
+    "top_m": 5.5,
+    "bottom_m": 7.9,
+    "rho_ohmm": 92.0
+   },
+   {
+    "top_m": 7.9,
+    "bottom_m": 86.0,
+    "rho_ohmm": 46.0
+   },
+   {
+    "top_m": 86.0,
+    "bottom_m": null,
+    "rho_ohmm": 250.0
+   }
+  ],
+  "digitisation_error": "interfaces +-5% (box edges read on the AB/2 axis)",
+  "provenance": {
+   "document": "main",
+   "pages": [
+    17
+   ],
+   "figure": "VES sheet D.P. 2, job 331",
+   "method": "digitised_manual",
+   "tool": "reading by eye (values and edges)",
+   "extracted_on": "2026-10-15",
+   "notes": "Interface depths taken as the AB/2 of the box edges under the curve."
+  },
+  "notes": "The last layer is open-ended; the model does not state a DOI."
+ },
+ {
+  "id": "paparo-1977-tel-dan-ves-331-3",
+  "survey": "paparo-1977-tel-dan",
+  "site": "331-3",
+  "method": "VES",
+  "level": "L2",
+  "representation": "model_1d",
+  "measured_on": null,
+  "confidence": "B",
+  "status": "draft",
+  "model_type": "layered",
+  "depth_max_m": 486,
+  "layers": [
+   {
+    "top_m": 0.0,
+    "bottom_m": 2.1,
+    "rho_ohmm": 130.0
+   },
+   {
+    "top_m": 2.1,
+    "bottom_m": 11.7,
+    "rho_ohmm": 13.0
+   },
+   {
+    "top_m": 11.7,
+    "bottom_m": 27.0,
+    "rho_ohmm": 32.0
+   },
+   {
+    "top_m": 27.0,
+    "bottom_m": 47.0,
+    "rho_ohmm": 12.0
+   },
+   {
+    "top_m": 47.0,
+    "bottom_m": 254.0,
+    "rho_ohmm": 98.0
+   },
+   {
+    "top_m": 254.0,
+    "bottom_m": 324.0,
+    "rho_ohmm": 32.6
+   },
+   {
+    "top_m": 324.0,
+    "bottom_m": null,
+    "rho_ohmm": 230.0
+   }
+  ],
+  "digitisation_error": "interfaces +-5% (box edges read on the AB/2 axis)",
+  "provenance": {
+   "document": "main",
+   "pages": [
+    18
+   ],
+   "figure": "VES sheet D.P. 3, job 331",
+   "method": "digitised_manual",
+   "tool": "reading by eye (values and edges)",
+   "extracted_on": "2026-10-15",
+   "notes": "Interface depths taken as the AB/2 of the box edges under the curve."
+  },
+  "notes": "The last layer is open-ended; the model does not state a DOI."
+ },
+ {
+  "id": "paparo-1977-tel-dan-ves-331-4",
+  "survey": "paparo-1977-tel-dan",
+  "site": "331-4",
+  "method": "VES",
+  "level": "L2",
+  "representation": "model_1d",
+  "measured_on": null,
+  "confidence": "B",
+  "status": "draft",
+  "model_type": "layered",
+  "depth_max_m": 334,
+  "layers": [
+   {
+    "top_m": 0.0,
+    "bottom_m": 1.27,
+    "rho_ohmm": 13.0
+   },
+   {
+    "top_m": 1.27,
+    "bottom_m": 6.8,
+    "rho_ohmm": 65.0
+   },
+   {
+    "top_m": 6.8,
+    "bottom_m": 46.0,
+    "rho_ohmm": 16.0
+   },
+   {
+    "top_m": 46.0,
+    "bottom_m": 126.0,
+    "rho_ohmm": 100.0
+   },
+   {
+    "top_m": 126.0,
+    "bottom_m": 223.0,
+    "rho_ohmm": 26.0
+   },
+   {
+    "top_m": 223.0,
+    "bottom_m": null,
+    "rho_ohmm": 183.0
+   }
+  ],
+  "digitisation_error": "interfaces +-5% (box edges read on the AB/2 axis)",
+  "provenance": {
+   "document": "main",
+   "pages": [
+    19
+   ],
+   "figure": "VES sheet D.P. 4, job 331",
+   "method": "digitised_manual",
+   "tool": "reading by eye (values and edges)",
+   "extracted_on": "2026-10-15",
+   "notes": "Interface depths taken as the AB/2 of the box edges under the curve."
+  },
+  "notes": "The last layer is open-ended; the model does not state a DOI."
+ },
+ {
+  "id": "paparo-1977-tel-dan-ves-331-5",
+  "survey": "paparo-1977-tel-dan",
+  "site": "331-5",
+  "method": "VES",
+  "level": "L2",
+  "representation": "model_1d",
+  "measured_on": null,
+  "confidence": "B",
+  "status": "draft",
+  "model_type": "layered",
+  "depth_max_m": 236,
+  "layers": [
+   {
+    "top_m": 0.0,
+    "bottom_m": 1.4,
+    "rho_ohmm": 12.0
+   },
+   {
+    "top_m": 1.4,
+    "bottom_m": 2.5,
+    "rho_ohmm": 30.0
+   },
+   {
+    "top_m": 2.5,
+    "bottom_m": 19.7,
+    "rho_ohmm": 16.0
+   },
+   {
+    "top_m": 19.7,
+    "bottom_m": 98.0,
+    "rho_ohmm": 94.0
+   },
+   {
+    "top_m": 98.0,
+    "bottom_m": 157.0,
+    "rho_ohmm": 33.0
+   },
+   {
+    "top_m": 157.0,
+    "bottom_m": null,
+    "rho_ohmm": 235.0
+   }
+  ],
+  "digitisation_error": "interfaces +-5% (box edges read on the AB/2 axis)",
+  "provenance": {
+   "document": "main",
+   "pages": [
+    20
+   ],
+   "figure": "VES sheet D.P. 5, job 331",
+   "method": "digitised_manual",
+   "tool": "reading by eye (values and edges)",
+   "extracted_on": "2026-10-15",
+   "notes": "Interface depths taken as the AB/2 of the box edges under the curve."
+  },
+  "notes": "The last layer is open-ended; the model does not state a DOI."
+ },
+ {
+  "id": "paparo-1977-tel-dan-ves-331-6",
+  "survey": "paparo-1977-tel-dan",
+  "site": "331-6",
+  "method": "VES",
+  "level": "L2",
+  "representation": "model_1d",
+  "measured_on": null,
+  "confidence": "B",
+  "status": "draft",
+  "model_type": "layered",
+  "depth_max_m": 100,
+  "layers": [
+   {
+    "top_m": 0.0,
+    "bottom_m": 1.09,
+    "rho_ohmm": 16.0
+   },
+   {
+    "top_m": 1.09,
+    "bottom_m": 20.3,
+    "rho_ohmm": 26.0
+   },
+   {
+    "top_m": 20.3,
+    "bottom_m": 33.0,
+    "rho_ohmm": 160.0
+   },
+   {
+    "top_m": 33.0,
+    "bottom_m": 67.0,
+    "rho_ohmm": 35.0
+   },
+   {
+    "top_m": 67.0,
+    "bottom_m": null,
+    "rho_ohmm": 250.0
+   }
+  ],
+  "digitisation_error": "interfaces +-5% (box edges read on the AB/2 axis)",
+  "provenance": {
+   "document": "main",
+   "pages": [
+    21
+   ],
+   "figure": "VES sheet D.P. 6, job 331",
+   "method": "digitised_manual",
+   "tool": "reading by eye (values and edges)",
+   "extracted_on": "2026-10-15",
+   "notes": "Interface depths taken as the AB/2 of the box edges under the curve."
+  },
+  "notes": "The last layer is open-ended; the model does not state a DOI."
+ },
+ {
+  "id": "paparo-1977-tel-dan-ves-331-7",
+  "survey": "paparo-1977-tel-dan",
+  "site": "331-7",
+  "method": "VES",
+  "level": "L2",
+  "representation": "model_1d",
+  "measured_on": null,
+  "confidence": "B",
+  "status": "draft",
+  "model_type": "layered",
+  "depth_max_m": 308,
+  "layers": [
+   {
+    "top_m": 0.0,
+    "bottom_m": 1.45,
+    "rho_ohmm": 38.0
+   },
+   {
+    "top_m": 1.45,
+    "bottom_m": 9.3,
+    "rho_ohmm": 30.0
+   },
+   {
+    "top_m": 9.3,
+    "bottom_m": 145.0,
+    "rho_ohmm": 135.0
+   },
+   {
+    "top_m": 145.0,
+    "bottom_m": 205.0,
+    "rho_ohmm": 35.0
+   },
+   {
+    "top_m": 205.0,
+    "bottom_m": null,
+    "rho_ohmm": 250.0
+   }
+  ],
+  "digitisation_error": "interfaces +-5% (box edges read on the AB/2 axis)",
+  "provenance": {
+   "document": "main",
+   "pages": [
+    22
+   ],
+   "figure": "VES sheet D.P. 7, job 331",
+   "method": "digitised_manual",
+   "tool": "reading by eye (values and edges)",
+   "extracted_on": "2026-10-15",
+   "notes": "Interface depths taken as the AB/2 of the box edges under the curve."
+  },
+  "notes": "The last layer is open-ended; the model does not state a DOI."
+ },
+ {
+  "id": "paparo-1977-tel-dan-ves-331-8",
+  "survey": "paparo-1977-tel-dan",
+  "site": "331-8",
+  "method": "VES",
+  "level": "L2",
+  "representation": "model_1d",
+  "measured_on": null,
+  "confidence": "B",
+  "status": "draft",
+  "model_type": "layered",
+  "depth_max_m": 96,
+  "layers": [
+   {
+    "top_m": 0.0,
+    "bottom_m": 6.8,
+    "rho_ohmm": 25.0
+   },
+   {
+    "top_m": 6.8,
+    "bottom_m": 28.4,
+    "rho_ohmm": 120.0
+   },
+   {
+    "top_m": 28.4,
+    "bottom_m": 64.0,
+    "rho_ohmm": 36.0
+   },
+   {
+    "top_m": 64.0,
+    "bottom_m": null,
+    "rho_ohmm": null,
+    "note": "printed as '?'",
+    "rho_min": 36.0
+   }
+  ],
+  "digitisation_error": "interfaces +-5% (box edges read on the AB/2 axis)",
+  "provenance": {
+   "document": "main",
+   "pages": [
+    23
+   ],
+   "figure": "VES sheet D.P. 8, job 331",
+   "method": "digitised_manual",
+   "tool": "reading by eye (values and edges)",
+   "extracted_on": "2026-10-15",
+   "notes": "Interface depths taken as the AB/2 of the box edges under the curve."
+  },
+  "notes": "The last layer is open-ended; the model does not state a DOI."
+ },
+ {
+  "id": "paparo-1977-tel-dan-ves-309-15",
+  "survey": "paparo-1977-tel-dan",
+  "site": "309-15",
+  "method": "VES",
+  "level": "L2",
+  "representation": "model_1d",
+  "measured_on": null,
+  "confidence": "C",
+  "status": "draft",
+  "model_type": "layered",
+  "depth_max_m": 645,
+  "layers": [
+   {
+    "top_m": 0.0,
+    "bottom_m": 2.6,
+    "rho_ohmm": 66.0
+   },
+   {
+    "top_m": 2.6,
+    "bottom_m": 15.4,
+    "rho_ohmm": 26.4
+   },
+   {
+    "top_m": 15.4,
+    "bottom_m": 187.0,
+    "rho_ohmm": 66.0
+   },
+   {
+    "top_m": 187.0,
+    "bottom_m": 340.0,
+    "rho_ohmm": 33.0
+   },
+   {
+    "top_m": 340.0,
+    "bottom_m": 385.0,
+    "rho_ohmm": 100.0
+   },
+   {
+    "top_m": 385.0,
+    "bottom_m": 430.0,
+    "rho_ohmm": 35.0
+   },
+   {
+    "top_m": 430.0,
+    "bottom_m": null,
+    "rho_ohmm": null,
+    "note": "drawn as infinity (resistive basement)",
+    "rho_min": 35.0
+   }
+  ],
+  "digitisation_error": "interfaces +-5% (box edges read on the AB/2 axis)",
+  "provenance": {
+   "document": "main",
+   "pages": [
+    24
+   ],
+   "figure": "VES sheet D.P. 15, job 309",
+   "method": "digitised_manual",
+   "tool": "reading by eye (values and edges)",
+   "extracted_on": "2026-10-15",
+   "notes": "Interface depths taken as the AB/2 of the box edges under the curve."
+  },
+  "notes": "Footer faint: coordinates read as 2109/29226 or 28226, taken as 21109/29226. The last layer is open-ended; the model does not state a DOI."
+ },
+ {
+  "id": "paparo-1977-tel-dan-ves-309-16",
+  "survey": "paparo-1977-tel-dan",
+  "site": "309-16",
+  "method": "VES",
+  "level": "L2",
+  "representation": "model_1d",
+  "measured_on": null,
+  "confidence": "B",
+  "status": "draft",
+  "model_type": "layered",
+  "depth_max_m": 386,
+  "layers": [
+   {
+    "top_m": 0.0,
+    "bottom_m": 16.4,
+    "rho_ohmm": 160.0
+   },
+   {
+    "top_m": 16.4,
+    "bottom_m": 257.0,
+    "rho_ohmm": 32.0
+   },
+   {
+    "top_m": 257.0,
+    "bottom_m": null,
+    "rho_ohmm": null,
+    "note": "drawn as infinity (resistive basement)",
+    "rho_min": 32.0
+   }
+  ],
+  "digitisation_error": "interfaces +-5% (box edges read on the AB/2 axis)",
+  "provenance": {
+   "document": "main",
+   "pages": [
+    25
+   ],
+   "figure": "VES sheet D.P. 16, job 309",
+   "method": "digitised_manual",
+   "tool": "reading by eye (values and edges)",
+   "extracted_on": "2026-10-15",
+   "notes": "Interface depths taken as the AB/2 of the box edges under the curve."
+  },
+  "notes": "The last layer is open-ended; the model does not state a DOI."
+ },
+ {
+  "id": "paparo-1977-tel-dan-ves-524-17",
+  "survey": "paparo-1977-tel-dan",
+  "site": "524-17",
+  "method": "VES",
+  "level": "L2",
+  "representation": "model_1d",
+  "measured_on": null,
+  "confidence": "B",
+  "status": "draft",
+  "model_type": "layered",
+  "depth_max_m": 540,
+  "layers": [
+   {
+    "top_m": 0.0,
+    "bottom_m": 1.37,
+    "rho_ohmm": 82.5
+   },
+   {
+    "top_m": 1.37,
+    "bottom_m": 21.4,
+    "rho_ohmm": 124.0
+   },
+   {
+    "top_m": 21.4,
+    "bottom_m": 134.0,
+    "rho_ohmm": 33.0
+   },
+   {
+    "top_m": 134.0,
+    "bottom_m": 202.0,
+    "rho_ohmm": 150.0
+   },
+   {
+    "top_m": 202.0,
+    "bottom_m": 299.0,
+    "rho_ohmm": 33.0
+   },
+   {
+    "top_m": 299.0,
+    "bottom_m": 325.0,
+    "rho_ohmm": 100.0
+   },
+   {
+    "top_m": 325.0,
+    "bottom_m": 360.0,
+    "rho_ohmm": 35.0
+   },
+   {
+    "top_m": 360.0,
+    "bottom_m": null,
+    "rho_ohmm": 250.0
+   }
+  ],
+  "digitisation_error": "interfaces +-5% (box edges read on the AB/2 axis)",
+  "provenance": {
+   "document": "main",
+   "pages": [
+    26
+   ],
+   "figure": "VES sheet D.P. 17, job 524",
+   "method": "digitised_manual",
+   "tool": "reading by eye (values and edges)",
+   "extracted_on": "2026-10-15",
+   "notes": "Interface depths taken as the AB/2 of the box edges under the curve."
+  },
+  "notes": "The last layer is open-ended; the model does not state a DOI."
+ },
+ {
+  "id": "paparo-1977-tel-dan-ves-309-18",
+  "survey": "paparo-1977-tel-dan",
+  "site": "309-18",
+  "method": "VES",
+  "level": "L2",
+  "representation": "model_1d",
+  "measured_on": null,
+  "confidence": "B",
+  "status": "draft",
+  "model_type": "layered",
+  "depth_max_m": 442,
+  "layers": [
+   {
+    "top_m": 0.0,
+    "bottom_m": 28.0,
+    "rho_ohmm": 32.0
+   },
+   {
+    "top_m": 28.0,
+    "bottom_m": 199.0,
+    "rho_ohmm": 110.0
+   },
+   {
+    "top_m": 199.0,
+    "bottom_m": 295.0,
+    "rho_ohmm": 33.0
+   },
+   {
+    "top_m": 295.0,
+    "bottom_m": null,
+    "rho_ohmm": 1320.0
+   }
+  ],
+  "digitisation_error": "interfaces +-5% (box edges read on the AB/2 axis)",
+  "provenance": {
+   "document": "main",
+   "pages": [
+    27
+   ],
+   "figure": "VES sheet D.P. 18, job 309",
+   "method": "digitised_manual",
+   "tool": "reading by eye (values and edges)",
+   "extracted_on": "2026-10-15",
+   "notes": "Interface depths taken as the AB/2 of the box edges under the curve."
+  },
+  "notes": "x printed as 211170. The last layer is open-ended; the model does not state a DOI."
+ },
+ {
+  "id": "paparo-1977-tel-dan-ves-309-19",
+  "survey": "paparo-1977-tel-dan",
+  "site": "309-19",
+  "method": "VES",
+  "level": "L2",
+  "representation": "model_1d",
+  "measured_on": null,
+  "confidence": "B",
+  "status": "draft",
+  "model_type": "layered",
+  "depth_max_m": 558,
+  "layers": [
+   {
+    "top_m": 0.0,
+    "bottom_m": 4.3,
+    "rho_ohmm": 11.5
+   },
+   {
+    "top_m": 4.3,
+    "bottom_m": 93.0,
+    "rho_ohmm": 70.0
+   },
+   {
+    "top_m": 93.0,
+    "bottom_m": 155.0,
+    "rho_ohmm": 40.0
+   },
+   {
+    "top_m": 155.0,
+    "bottom_m": 267.0,
+    "rho_ohmm": 140.0
+   },
+   {
+    "top_m": 267.0,
+    "bottom_m": 372.0,
+    "rho_ohmm": 30.0
+   },
+   {
+    "top_m": 372.0,
+    "bottom_m": null,
+    "rho_ohmm": null,
+    "note": "drawn as infinity (resistive basement)",
+    "rho_min": 30.0
+   }
+  ],
+  "digitisation_error": "interfaces +-5% (box edges read on the AB/2 axis)",
+  "provenance": {
+   "document": "main",
+   "pages": [
+    28
+   ],
+   "figure": "VES sheet D.P. 19, job 309",
+   "method": "digitised_manual",
+   "tool": "reading by eye (values and edges)",
+   "extracted_on": "2026-10-15",
+   "notes": "Interface depths taken as the AB/2 of the box edges under the curve."
+  },
+  "notes": "The last layer is open-ended; the model does not state a DOI."
+ }
+]

@@ -18,5 +18,114 @@ documents:
   - he
   scanned: true
   role: main_report
-extraction_status: blocked
-notes: PDF over the connector size limit.
+  sha256: 5c475c6d86bde8b4448625e779f987ea15d9112e407ea4ba498ecbeadfcd0af6
+  pages: 31
+extraction_status: complete
+notes: 8 Schlumberger soundings at Tel Dan (job 331/76) for the Water Commission, plus 5 soundings labelled Shamir
+  (DP 15-19) in the same appendix. Box values typed by eye; box edges read by eye (+-10 %). Text in Hebrew; geoelectric
+  sections (Figs 3-8) not extracted.
+sites:
+- id: 331-1
+  name: VES 1 (job 331)
+  elevation_m: 265
+  coords:
+    x: 212100
+    y: 296280
+    crs: EPSG:28193
+    source: table
+- id: 331-2
+  name: VES 2 (job 331)
+  elevation_m: 240
+  coords:
+    x: 212000
+    y: 296000
+    crs: EPSG:28193
+    source: table
+- id: 331-3
+  name: VES 3 (job 331)
+  elevation_m: 210
+  coords:
+    x: 211980
+    y: 294700
+    crs: EPSG:28193
+    source: table
+- id: 331-4
+  name: VES 4 (job 331)
+  elevation_m: 185
+  coords:
+    x: 211500
+    y: 294200
+    crs: EPSG:28193
+    source: table
+- id: 331-5
+  name: VES 5 (job 331)
+  elevation_m: 160
+  coords:
+    x: 210700
+    y: 293600
+    crs: EPSG:28193
+    source: table
+- id: 331-6
+  name: VES 6 (job 331)
+  elevation_m: 255
+  coords:
+    x: 211280
+    y: 296350
+    crs: EPSG:28193
+    source: table
+- id: 331-7
+  name: VES 7 (job 331)
+  elevation_m: null
+  coords:
+    x: 210320
+    y: 296100
+    crs: EPSG:28193
+    source: table
+- id: 331-8
+  name: VES 8 (job 331)
+  elevation_m: 215
+  coords:
+    x: 211200
+    y: 295400
+    crs: EPSG:28193
+    source: table
+- id: 309-15
+  name: VES 15 (job 309)
+  elevation_m: null
+  coords:
+    x: 211090
+    y: 292260
+    crs: EPSG:28193
+    source: table
+- id: 309-16
+  name: VES 16 (job 309)
+  elevation_m: null
+  coords:
+    x: 211780
+    y: 292930
+    crs: EPSG:28193
+    source: table
+- id: 524-17
+  name: VES 17 (job 524)
+  elevation_m: 190
+  coords:
+    x: 212200
+    y: 293900
+    crs: EPSG:28193
+    source: table
+- id: 309-18
+  name: VES 18 (job 309)
+  elevation_m: null
+  coords:
+    x: 211700
+    y: 294650
+    crs: EPSG:28193
+    source: table
+- id: 309-19
+  name: VES 19 (job 309)
+  elevation_m: null
+  coords:
+    x: 211440
+    y: 293640
+    crs: EPSG:28193
+    source: table

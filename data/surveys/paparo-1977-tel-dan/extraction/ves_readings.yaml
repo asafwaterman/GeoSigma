@@ -1,0 +1,20 @@
+# Read by eye from the VES field sheets (PDF pages 16-28; all but page 17 are scanned
+# upside down). Box resistivities in ohm.m (null = drawn as infinity, or "?" where
+# noted). Coordinates are printed in units of 10 m (Old Israel Grid). DP 1-8 are the
+# Tel Dan soundings of job 331/76; DP 15-19 are labelled Shamir (job 309/76, one sheet
+# 524/76) and are included in the same appendix. Elevation null where unreadable.
+# edges_m: AB/2 of the box edges, read by eye against the printed axis labels (+-10 %);
+# the sheet detector does not find the axis on these scans.
+- {page: 16, edges_m: [4.9, 39, 82], rotate: 180, job: 331, dp: 1, x: 21210, y: 29628, elev: 265, rho: [32.00, 160.00, 35.00, 250.00]}
+- {page: 17, edges_m: [5.5, 7.9, 86], job: 331, dp: 2, x: 21200, y: 29600, elev: 240, rho: [9.20, 92.00, 46.00, 250.00]}
+- {page: 18, edges_m: [2.1, 11.7, 27, 47, 254, 324], rotate: 180, job: 331, dp: 3, x: 21198, y: 29470, elev: 210, rho: [130.00, 13.00, 32.00, 12.00, 98.00, 32.60, 230.00]}
+- {page: 19, edges_m: [1.27, 6.8, 46, 126, 223], rotate: 180, job: 331, dp: 4, x: 21150, y: 29420, elev: 185, rho: [13.00, 65.00, 16.00, 100.00, 26.00, 183.00]}
+- {page: 20, edges_m: [1.4, 2.5, 19.7, 98, 157], rotate: 180, job: 331, dp: 5, x: 21070, y: 29360, elev: 160, rho: [12.00, 30.00, 16.00, 94.00, 33.00, 235.00]}
+- {page: 21, edges_m: [1.09, 20.3, 33, 67], rotate: 180, job: 331, dp: 6, x: 21128, y: 29635, elev: 255, rho: [16.00, 26.00, 160.00, 35.00, 250.00]}
+- {page: 22, edges_m: [1.45, 9.3, 145, 205], rotate: 180, job: 331, dp: 7, x: 21032, y: 29610, elev: null, rho: [38.00, 30.00, 135.00, 35.00, 250.00]}
+- {page: 23, edges_m: [6.8, 28.4, 64], rotate: 180, job: 331, dp: 8, x: 21120, y: 29540, elev: 215, rho: [25.00, 120.00, 36.00, null], null_means: "printed as '?'"}
+- {page: 24, edges_m: [2.6, 15.4, 187, 340, 385, 430], rotate: 180, job: 309, dp: 15, x: 21109, y: 29226, elev: null, rho: [66.00, 26.40, 66.00, 33.00, 100.00, 35.00, null], confidence: C, note: "Footer faint: coordinates read as 2109/29226 or 28226, taken as 21109/29226."}
+- {page: 25, edges_m: [16.4, 257], rotate: 180, job: 309, dp: 16, x: 21178, y: 29293, elev: null, rho: [160.00, 32.00, null]}
+- {page: 26, edges_m: [1.37, 21.4, 134, 202, 299, 325, 360], rotate: 180, job: 524, dp: 17, x: 21220, y: 29390, elev: 190, rho: [82.50, 124.00, 33.00, 150.00, 33.00, 100.00, 35.00, 250.00]}
+- {page: 27, edges_m: [28, 199, 295], rotate: 180, job: 309, dp: 18, x: 21170, y: 29465, elev: null, rho: [32.00, 110.00, 33.00, 1320.00], note: "x printed as 211170."}
+- {page: 28, edges_m: [4.3, 93, 155, 267, 372], rotate: 180, job: 309, dp: 19, x: 21144, y: 29364, elev: null, rho: [11.50, 70.00, 40.00, 140.00, 30.00, null]}
