@@ -20,5 +20,49 @@ documents:
   - en
   scanned: true
   role: main_report
-extraction_status: blocked
-notes: 4 soundings. PDF over the connector size limit.
+  sha256: 7c3faf70f05ba9b5c6070b7ed9fd13241b3e27118af93122344d25d0fc939cd0
+  pages: 23
+extraction_status: complete
+notes: 4 soundings, 12-17 May 1974, along a line south of Netanya. Layered models typed from the field sheets (ohm.m)
+  and checked against Figure 3; sounding 1 has models A and B. Curves not traced.
+sites:
+- id: SN-1
+  name: MT sounding 1 (South Netanya)
+  coords:
+    x: 135200
+    y: 188700
+    crs: EPSG:28193
+    source: table
+    accuracy_m: 50
+  elevation_m: 40.0
+  line: S-Netanya
+- id: SN-2
+  name: MT sounding 2 (South Netanya)
+  coords:
+    x: 138700
+    y: 189950
+    crs: EPSG:28193
+    source: table
+    accuracy_m: 50
+  elevation_m: 30.0
+  line: S-Netanya
+- id: SN-3
+  name: MT sounding 3 (South Netanya)
+  coords:
+    x: 140400
+    y: 190400
+    crs: EPSG:28193
+    source: table
+    accuracy_m: 50
+  elevation_m: 40.0
+  line: S-Netanya
+- id: SN-4
+  name: MT sounding 4 (South Netanya)
+  coords:
+    x: 143050
+    y: 189150
+    crs: EPSG:28193
+    source: table
+    accuracy_m: 50
+  elevation_m: 50.0
+  line: S-Netanya

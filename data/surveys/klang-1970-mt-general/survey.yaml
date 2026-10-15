@@ -20,5 +20,210 @@ documents:
   - en
   scanned: true
   role: main_report
-extraction_status: blocked
-notes: 22 soundings. PDF over the Drive connector size limit; waiting for a copy.
+  sha256: 1774b3265979683d6a820267b286d8b3db881a83ccdb0869d90b27273dcbea85
+  pages: 59
+extraction_status: partial
+notes: 20 MT soundings along the Afiq-Lot traverse, 1969. Layered models typed from the field sheets (ohm.cm, stored
+  in ohm.m) and checked against Figure 9. Soundings 3, 18 and 23 have no sheet in the appendix. Apparent-resistivity
+  curves not traced yet.
+sites:
+- id: AL-1
+  name: MT sounding 1 (Gilat)
+  line: Afiq-Lot
+  coords:
+    x: 115250
+    y: 89600
+    crs: EPSG:28193
+    source: table
+    accuracy_m: 50
+  elevation_m: 140.0
+- id: AL-2
+  name: MT sounding 2 (Gilat)
+  line: Afiq-Lot
+  coords:
+    x: 112500
+    y: 87950
+    crs: EPSG:28193
+    source: table
+    accuracy_m: 50
+  elevation_m: 128.0
+- id: AL-4
+  name: MT sounding 4 (Sharsheret)
+  line: Afiq-Lot
+  coords:
+    x: 109160
+    y: 87430
+    crs: EPSG:28193
+    source: table
+    accuracy_m: 50
+  elevation_m: 91.0
+- id: AL-5
+  name: MT sounding 5 (Sharsheret)
+  line: Afiq-Lot
+  coords:
+    x: 108415
+    y: 88735
+    crs: EPSG:28193
+    source: table
+    accuracy_m: 50
+  elevation_m: 103.0
+- id: AL-6
+  name: MT sounding 6 (Sharsheret)
+  line: Afiq-Lot
+  coords:
+    x: 107100
+    y: 89850
+    crs: EPSG:28193
+    source: table
+    accuracy_m: 50
+  elevation_m: 105.0
+- id: AL-7
+  name: MT sounding 7 (Gerar)
+  line: Afiq-Lot
+  coords:
+    x: 117200
+    y: 89650
+    crs: EPSG:28193
+    source: table
+    accuracy_m: 50
+  elevation_m: 140.0
+- id: AL-8
+  name: MT sounding 8 (Gerar)
+  line: Afiq-Lot
+  coords:
+    x: 116600
+    y: 91600
+    crs: EPSG:28193
+    source: table
+    accuracy_m: 50
+  elevation_m: 155.0
+- id: AL-9
+  name: MT sounding 9 (Afiq)
+  line: Afiq-Lot
+  coords:
+    x: 103386
+    y: 94304
+    crs: EPSG:28193
+    source: table
+    accuracy_m: 50
+  elevation_m: 87.0
+- id: AL-10
+  name: MT sounding 10 (Shoval)
+  line: Afiq-Lot
+  coords:
+    x: 125750
+    y: 88700
+    crs: EPSG:28193
+    source: table
+    accuracy_m: 50
+  elevation_m: 225.0
+- id: AL-11
+  name: MT sounding 11 (Ziqlag)
+  line: Afiq-Lot
+  coords:
+    x: 135940
+    y: 90555
+    crs: EPSG:28193
+    source: table
+    accuracy_m: 50
+  elevation_m: 340.0
+- id: AL-12
+  name: MT sounding 12 (Lahav)
+  line: Afiq-Lot
+  coords:
+    x: 139100
+    y: 80750
+    crs: EPSG:28193
+    source: table
+    accuracy_m: 50
+  elevation_m: 370.0
+- id: AL-13
+  name: MT sounding 13 (Shoket)
+  line: Afiq-Lot
+  coords:
+    x: 142800
+    y: 75700
+    crs: EPSG:28193
+    source: table
+    accuracy_m: 50
+  elevation_m: 370.0
+- id: AL-14
+  name: MT sounding 14 (Shoket)
+  line: Afiq-Lot
+  coords:
+    x: 149800
+    y: 74200
+    crs: EPSG:28193
+    source: table
+    accuracy_m: 50
+  elevation_m: 485.0
+- id: AL-15
+  name: MT sounding 15 (Kasif)
+  line: Afiq-Lot
+  coords:
+    x: 156300
+    y: 72750
+    crs: EPSG:28193
+    source: table
+    accuracy_m: 50
+  elevation_m: 475.0
+- id: AL-16
+  name: MT sounding 16 (Arad)
+  line: Afiq-Lot
+  coords:
+    x: 164850
+    y: 74900
+    crs: EPSG:28193
+    source: table
+    accuracy_m: 50
+  elevation_m: 510.0
+- id: AL-17
+  name: MT sounding 17 (Tamrur)
+  line: Afiq-Lot
+  coords:
+    x: 180850
+    y: 65250
+    crs: EPSG:28193
+    source: table
+    accuracy_m: 50
+  elevation_m: 105.0
+- id: AL-19
+  name: MT sounding 19 (Kidod)
+  line: Afiq-Lot
+  coords:
+    x: 171900
+    y: 76750
+    crs: EPSG:28193
+    source: table
+    accuracy_m: 50
+  elevation_m: 600.0
+- id: AL-20
+  name: MT sounding 20 (Lot)
+  line: Afiq-Lot
+  coords:
+    x: 185300
+    y: 59650
+    crs: EPSG:28193
+    source: table
+    accuracy_m: 50
+  elevation_m: -360.0
+- id: AL-21
+  name: MT sounding 21 (Shoval)
+  line: Afiq-Lot
+  coords:
+    x: 121150
+    y: 90450
+    crs: EPSG:28193
+    source: table
+    accuracy_m: 50
+  elevation_m: 170.0
+- id: AL-22
+  name: MT sounding 22 (Lahav)
+  line: Afiq-Lot
+  coords:
+    x: 132050
+    y: 90000
+    crs: EPSG:28193
+    source: table
+    accuracy_m: 50
+  elevation_m: 290.0

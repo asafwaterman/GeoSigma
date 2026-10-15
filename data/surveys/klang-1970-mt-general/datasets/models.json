@@ -1,0 +1,1030 @@
+[
+ {
+  "id": "klang1970-afiqlot-1-layered",
+  "survey": "klang-1970-mt-general",
+  "site": "AL-1",
+  "method": "MT",
+  "level": "L2",
+  "representation": "model_1d",
+  "measured_on": "1969",
+  "model_type": "layered",
+  "depth_max_m": 3900.0,
+  "confidence": "B",
+  "status": "draft",
+  "layers": [
+   {
+    "top_m": 0.0,
+    "bottom_m": 160.0,
+    "rho_ohmm": 3.0
+   },
+   {
+    "top_m": 160.0,
+    "bottom_m": 3400.0,
+    "rho_ohmm": 150.0
+   },
+   {
+    "top_m": 3400.0,
+    "bottom_m": 3900.0,
+    "rho_ohmm": 1.0
+   },
+   {
+    "top_m": 3900.0,
+    "bottom_m": null,
+    "rho_min": 1.0,
+    "note": "printed as infinity"
+   }
+  ],
+  "line": "Afiq-Lot",
+  "provenance": {
+   "document": "main",
+   "pages": [
+    38,
+    33
+   ],
+   "figure": "M.T.P. No. 1 field sheet; Figure 9",
+   "table": "CALC. RES. band",
+   "method": "manual",
+   "tool": "geosigma.extract.klang_general",
+   "extracted_on": "2026-10-15",
+   "notes": "Printed in ohm.cm; divided by 100. Depths below ground."
+  },
+  "notes": ""
+ },
+ {
+  "id": "klang1970-afiqlot-2-layered",
+  "survey": "klang-1970-mt-general",
+  "site": "AL-2",
+  "method": "MT",
+  "level": "L2",
+  "representation": "model_1d",
+  "measured_on": "1969",
+  "model_type": "layered",
+  "depth_max_m": 5000.0,
+  "confidence": "B",
+  "status": "draft",
+  "layers": [
+   {
+    "top_m": 0.0,
+    "bottom_m": 200.0,
+    "rho_ohmm": 4.0
+   },
+   {
+    "top_m": 200.0,
+    "bottom_m": 4200.0,
+    "rho_ohmm": 100.0
+   },
+   {
+    "top_m": 4200.0,
+    "bottom_m": 5000.0,
+    "rho_ohmm": 1.0
+   },
+   {
+    "top_m": 5000.0,
+    "bottom_m": null,
+    "rho_min": 1.0,
+    "note": "printed as infinity"
+   }
+  ],
+  "line": "Afiq-Lot",
+  "provenance": {
+   "document": "main",
+   "pages": [
+    39,
+    33
+   ],
+   "figure": "M.T.P. No. 2 field sheet; Figure 9",
+   "table": "CALC. RES. band",
+   "method": "manual",
+   "tool": "geosigma.extract.klang_general",
+   "extracted_on": "2026-10-15",
+   "notes": "Printed in ohm.cm; divided by 100. Depths below ground."
+  },
+  "notes": ""
+ },
+ {
+  "id": "klang1970-afiqlot-4-layered",
+  "survey": "klang-1970-mt-general",
+  "site": "AL-4",
+  "method": "MT",
+  "level": "L2",
+  "representation": "model_1d",
+  "measured_on": "1969",
+  "model_type": "layered",
+  "depth_max_m": 5200.0,
+  "confidence": "B",
+  "status": "draft",
+  "layers": [
+   {
+    "top_m": 0.0,
+    "bottom_m": 150.0,
+    "rho_ohmm": 2.0
+   },
+   {
+    "top_m": 150.0,
+    "bottom_m": 4000.0,
+    "rho_ohmm": 100.0
+   },
+   {
+    "top_m": 4000.0,
+    "bottom_m": 5200.0,
+    "rho_ohmm": 2.0
+   },
+   {
+    "top_m": 5200.0,
+    "bottom_m": null,
+    "rho_min": 2.0,
+    "note": "printed as infinity"
+   }
+  ],
+  "line": "Afiq-Lot",
+  "provenance": {
+   "document": "main",
+   "pages": [
+    40,
+    33
+   ],
+   "figure": "M.T.P. No. 4 field sheet; Figure 9",
+   "table": "CALC. RES. band",
+   "method": "manual",
+   "tool": "geosigma.extract.klang_general",
+   "extracted_on": "2026-10-15",
+   "notes": "Printed in ohm.cm; divided by 100. Depths below ground."
+  },
+  "notes": ""
+ },
+ {
+  "id": "klang1970-afiqlot-5-layered",
+  "survey": "klang-1970-mt-general",
+  "site": "AL-5",
+  "method": "MT",
+  "level": "L2",
+  "representation": "model_1d",
+  "measured_on": "1969",
+  "model_type": "layered",
+  "depth_max_m": 4300.0,
+  "confidence": "B",
+  "status": "draft",
+  "layers": [
+   {
+    "top_m": 0.0,
+    "bottom_m": 280.0,
+    "rho_ohmm": 4.0
+   },
+   {
+    "top_m": 280.0,
+    "bottom_m": 2520.0,
+    "rho_ohmm": 40.0
+   },
+   {
+    "top_m": 2520.0,
+    "bottom_m": 4300.0,
+    "rho_ohmm": 4.0
+   },
+   {
+    "top_m": 4300.0,
+    "bottom_m": null,
+    "rho_ohmm": 1000.0
+   }
+  ],
+  "line": "Afiq-Lot",
+  "provenance": {
+   "document": "main",
+   "pages": [
+    41,
+    33
+   ],
+   "figure": "M.T.P. No. 5 field sheet; Figure 9",
+   "table": "CALC. RES. band",
+   "method": "manual",
+   "tool": "geosigma.extract.klang_general",
+   "extracted_on": "2026-10-15",
+   "notes": "Printed in ohm.cm; divided by 100. Depths below ground."
+  },
+  "notes": ""
+ },
+ {
+  "id": "klang1970-afiqlot-6-layered",
+  "survey": "klang-1970-mt-general",
+  "site": "AL-6",
+  "method": "MT",
+  "level": "L2",
+  "representation": "model_1d",
+  "measured_on": "1969",
+  "model_type": "layered",
+  "depth_max_m": 4400.0,
+  "confidence": "B",
+  "status": "draft",
+  "layers": [
+   {
+    "top_m": 0.0,
+    "bottom_m": 250.0,
+    "rho_ohmm": 2.3
+   },
+   {
+    "top_m": 250.0,
+    "bottom_m": 2750.0,
+    "rho_ohmm": 115.0
+   },
+   {
+    "top_m": 2750.0,
+    "bottom_m": 4400.0,
+    "rho_ohmm": 2.3
+   },
+   {
+    "top_m": 4400.0,
+    "bottom_m": null,
+    "rho_min": 2.3,
+    "note": "printed as infinity"
+   }
+  ],
+  "line": "Afiq-Lot",
+  "provenance": {
+   "document": "main",
+   "pages": [
+    42,
+    33
+   ],
+   "figure": "M.T.P. No. 6 field sheet; Figure 9",
+   "table": "CALC. RES. band",
+   "method": "manual",
+   "tool": "geosigma.extract.klang_general",
+   "extracted_on": "2026-10-15",
+   "notes": "Printed in ohm.cm; divided by 100. Depths below ground."
+  },
+  "notes": ""
+ },
+ {
+  "id": "klang1970-afiqlot-7-layered",
+  "survey": "klang-1970-mt-general",
+  "site": "AL-7",
+  "method": "MT",
+  "level": "L2",
+  "representation": "model_1d",
+  "measured_on": "1969",
+  "model_type": "layered",
+  "depth_max_m": 5350.0,
+  "confidence": "B",
+  "status": "draft",
+  "layers": [
+   {
+    "top_m": 0.0,
+    "bottom_m": 310.0,
+    "rho_ohmm": 6.0
+   },
+   {
+    "top_m": 310.0,
+    "bottom_m": 4350.0,
+    "rho_ohmm": 1200.0
+   },
+   {
+    "top_m": 4350.0,
+    "bottom_m": 5350.0,
+    "rho_ohmm": 6.0
+   },
+   {
+    "top_m": 5350.0,
+    "bottom_m": null,
+    "rho_min": 6.0,
+    "note": "printed as infinity"
+   }
+  ],
+  "line": "Afiq-Lot",
+  "provenance": {
+   "document": "main",
+   "pages": [
+    43,
+    33
+   ],
+   "figure": "M.T.P. No. 7 field sheet; Figure 9",
+   "table": "CALC. RES. band",
+   "method": "manual",
+   "tool": "geosigma.extract.klang_general",
+   "extracted_on": "2026-10-15",
+   "notes": "Printed in ohm.cm; divided by 100. Depths below ground."
+  },
+  "notes": ""
+ },
+ {
+  "id": "klang1970-afiqlot-8-layered",
+  "survey": "klang-1970-mt-general",
+  "site": "AL-8",
+  "method": "MT",
+  "level": "L2",
+  "representation": "model_1d",
+  "measured_on": "1969",
+  "model_type": "layered",
+  "depth_max_m": 5200.0,
+  "confidence": "B",
+  "status": "draft",
+  "layers": [
+   {
+    "top_m": 0.0,
+    "bottom_m": 350.0,
+    "rho_ohmm": 6.0
+   },
+   {
+    "top_m": 350.0,
+    "bottom_m": 4000.0,
+    "rho_ohmm": 600.0
+   },
+   {
+    "top_m": 4000.0,
+    "bottom_m": 5200.0,
+    "rho_ohmm": 2.0
+   },
+   {
+    "top_m": 5200.0,
+    "bottom_m": null,
+    "rho_min": 2.0,
+    "note": "printed as infinity"
+   }
+  ],
+  "line": "Afiq-Lot",
+  "provenance": {
+   "document": "main",
+   "pages": [
+    44,
+    33
+   ],
+   "figure": "M.T.P. No. 8 field sheet; Figure 9",
+   "table": "CALC. RES. band",
+   "method": "manual",
+   "tool": "geosigma.extract.klang_general",
+   "extracted_on": "2026-10-15",
+   "notes": "Printed in ohm.cm; divided by 100. Depths below ground."
+  },
+  "notes": ""
+ },
+ {
+  "id": "klang1970-afiqlot-9-layered",
+  "survey": "klang-1970-mt-general",
+  "site": "AL-9",
+  "method": "MT",
+  "level": "L2",
+  "representation": "model_1d",
+  "measured_on": "1969",
+  "model_type": "layered",
+  "depth_max_m": 2650.0,
+  "confidence": "B",
+  "status": "draft",
+  "layers": [
+   {
+    "top_m": 0.0,
+    "bottom_m": 840.0,
+    "rho_ohmm": 9.0
+   },
+   {
+    "top_m": 840.0,
+    "bottom_m": 2650.0,
+    "rho_ohmm": 2.0
+   },
+   {
+    "top_m": 2650.0,
+    "bottom_m": null,
+    "rho_ohmm": 225.0
+   }
+  ],
+  "line": "Afiq-Lot",
+  "provenance": {
+   "document": "main",
+   "pages": [
+    45,
+    33
+   ],
+   "figure": "M.T.P. No. 9 field sheet; Figure 9",
+   "table": "CALC. RES. band",
+   "method": "manual",
+   "tool": "geosigma.extract.klang_general",
+   "extracted_on": "2026-10-15",
+   "notes": "Printed in ohm.cm; divided by 100. Depths below ground."
+  },
+  "notes": ""
+ },
+ {
+  "id": "klang1970-afiqlot-10-layered",
+  "survey": "klang-1970-mt-general",
+  "site": "AL-10",
+  "method": "MT",
+  "level": "L2",
+  "representation": "model_1d",
+  "measured_on": "1969",
+  "model_type": "layered",
+  "depth_max_m": 5700.0,
+  "confidence": "C",
+  "status": "draft",
+  "layers": [
+   {
+    "top_m": 0.0,
+    "bottom_m": 20.0,
+    "rho_ohmm": 3.2
+   },
+   {
+    "top_m": 20.0,
+    "bottom_m": 720.0,
+    "rho_ohmm": 16.0
+   },
+   {
+    "top_m": 720.0,
+    "bottom_m": 2800.0,
+    "rho_ohmm": 80.0
+   },
+   {
+    "top_m": 2800.0,
+    "bottom_m": 5700.0,
+    "rho_ohmm": 10.0
+   },
+   {
+    "top_m": 5700.0,
+    "bottom_m": null,
+    "rho_ohmm": 80.0
+   }
+  ],
+  "line": "Afiq-Lot",
+  "provenance": {
+   "document": "main",
+   "pages": [
+    46,
+    33
+   ],
+   "figure": "M.T.P. No. 10 field sheet; Figure 9",
+   "table": "CALC. RES. band",
+   "method": "manual",
+   "tool": "geosigma.extract.klang_general",
+   "extracted_on": "2026-10-15",
+   "notes": "Printed in ohm.cm; divided by 100. Depths below ground."
+  },
+  "notes": "The 2800 and 5700 m boundaries are written over the band lines and read from Figure 9 (+-100 m)."
+ },
+ {
+  "id": "klang1970-afiqlot-11-layered",
+  "survey": "klang-1970-mt-general",
+  "site": "AL-11",
+  "method": "MT",
+  "level": "L2",
+  "representation": "model_1d",
+  "measured_on": "1969",
+  "model_type": "layered",
+  "depth_max_m": 6750.0,
+  "confidence": "B",
+  "status": "draft",
+  "layers": [
+   {
+    "top_m": 0.0,
+    "bottom_m": 150.0,
+    "rho_ohmm": 8.0
+   },
+   {
+    "top_m": 150.0,
+    "bottom_m": 1350.0,
+    "rho_ohmm": 24.0
+   },
+   {
+    "top_m": 1350.0,
+    "bottom_m": 6750.0,
+    "rho_ohmm": 8.0
+   },
+   {
+    "top_m": 6750.0,
+    "bottom_m": null,
+    "rho_min": 8.0,
+    "note": "printed as infinity"
+   }
+  ],
+  "line": "Afiq-Lot",
+  "provenance": {
+   "document": "main",
+   "pages": [
+    47,
+    33
+   ],
+   "figure": "M.T.P. No. 11 field sheet; Figure 9",
+   "table": "CALC. RES. band",
+   "method": "manual",
+   "tool": "geosigma.extract.klang_general",
+   "extracted_on": "2026-10-15",
+   "notes": "Printed in ohm.cm; divided by 100. Depths below ground."
+  },
+  "notes": ""
+ },
+ {
+  "id": "klang1970-afiqlot-12-layered",
+  "survey": "klang-1970-mt-general",
+  "site": "AL-12",
+  "method": "MT",
+  "level": "L2",
+  "representation": "model_1d",
+  "measured_on": "1969",
+  "model_type": "layered",
+  "depth_max_m": 8500.0,
+  "confidence": "B",
+  "status": "draft",
+  "layers": [
+   {
+    "top_m": 0.0,
+    "bottom_m": 55.0,
+    "rho_ohmm": 2.2
+   },
+   {
+    "top_m": 55.0,
+    "bottom_m": 1700.0,
+    "rho_ohmm": 55.0
+   },
+   {
+    "top_m": 1700.0,
+    "bottom_m": 8500.0,
+    "rho_ohmm": 15.0
+   },
+   {
+    "top_m": 8500.0,
+    "bottom_m": null,
+    "rho_ohmm": 1375.0
+   }
+  ],
+  "line": "Afiq-Lot",
+  "provenance": {
+   "document": "main",
+   "pages": [
+    48,
+    33
+   ],
+   "figure": "M.T.P. No. 12 field sheet; Figure 9",
+   "table": "CALC. RES. band",
+   "method": "manual",
+   "tool": "geosigma.extract.klang_general",
+   "extracted_on": "2026-10-15",
+   "notes": "Printed in ohm.cm; divided by 100. Depths below ground."
+  },
+  "notes": ""
+ },
+ {
+  "id": "klang1970-afiqlot-13-layered",
+  "survey": "klang-1970-mt-general",
+  "site": "AL-13",
+  "method": "MT",
+  "level": "L2",
+  "representation": "model_1d",
+  "measured_on": "1969",
+  "model_type": "layered",
+  "depth_max_m": 2000.0,
+  "confidence": "B",
+  "status": "draft",
+  "layers": [
+   {
+    "top_m": 0.0,
+    "bottom_m": 60.0,
+    "rho_ohmm": 2.4
+   },
+   {
+    "top_m": 60.0,
+    "bottom_m": 660.0,
+    "rho_ohmm": 120.0
+   },
+   {
+    "top_m": 660.0,
+    "bottom_m": 2000.0,
+    "rho_ohmm": 2.4
+   },
+   {
+    "top_m": 2000.0,
+    "bottom_m": null,
+    "rho_ohmm": 120.0
+   }
+  ],
+  "line": "Afiq-Lot",
+  "provenance": {
+   "document": "main",
+   "pages": [
+    49,
+    33
+   ],
+   "figure": "M.T.P. No. 13 field sheet; Figure 9",
+   "table": "CALC. RES. band",
+   "method": "manual",
+   "tool": "geosigma.extract.klang_general",
+   "extracted_on": "2026-10-15",
+   "notes": "Printed in ohm.cm; divided by 100. Depths below ground."
+  },
+  "notes": ""
+ },
+ {
+  "id": "klang1970-afiqlot-14-layered",
+  "survey": "klang-1970-mt-general",
+  "site": "AL-14",
+  "method": "MT",
+  "level": "L2",
+  "representation": "model_1d",
+  "measured_on": "1969",
+  "model_type": "layered",
+  "depth_max_m": 4500.0,
+  "confidence": "B",
+  "status": "draft",
+  "layers": [
+   {
+    "top_m": 0.0,
+    "bottom_m": 360.0,
+    "rho_ohmm": 75.0
+   },
+   {
+    "top_m": 360.0,
+    "bottom_m": 2600.0,
+    "rho_ohmm": 150.0
+   },
+   {
+    "top_m": 2600.0,
+    "bottom_m": 4500.0,
+    "rho_ohmm": 7.5
+   },
+   {
+    "top_m": 4500.0,
+    "bottom_m": null,
+    "rho_ohmm": 3750.0
+   }
+  ],
+  "line": "Afiq-Lot",
+  "provenance": {
+   "document": "main",
+   "pages": [
+    50,
+    33
+   ],
+   "figure": "M.T.P. No. 14 field sheet; Figure 9",
+   "table": "CALC. RES. band",
+   "method": "manual",
+   "tool": "geosigma.extract.klang_general",
+   "extracted_on": "2026-10-15",
+   "notes": "Printed in ohm.cm; divided by 100. Depths below ground."
+  },
+  "notes": ""
+ },
+ {
+  "id": "klang1970-afiqlot-15-layered",
+  "survey": "klang-1970-mt-general",
+  "site": "AL-15",
+  "method": "MT",
+  "level": "L2",
+  "representation": "model_1d",
+  "measured_on": "1969",
+  "model_type": "layered",
+  "depth_max_m": 4500.0,
+  "confidence": "B",
+  "status": "draft",
+  "layers": [
+   {
+    "top_m": 0.0,
+    "bottom_m": 150.0,
+    "rho_ohmm": 16.0
+   },
+   {
+    "top_m": 150.0,
+    "bottom_m": 900.0,
+    "rho_ohmm": 233.0
+   },
+   {
+    "top_m": 900.0,
+    "bottom_m": 4500.0,
+    "rho_ohmm": 16.0
+   },
+   {
+    "top_m": 4500.0,
+    "bottom_m": null,
+    "rho_min": 16.0,
+    "note": "printed as infinity"
+   }
+  ],
+  "line": "Afiq-Lot",
+  "provenance": {
+   "document": "main",
+   "pages": [
+    51,
+    33
+   ],
+   "figure": "M.T.P. No. 15 field sheet; Figure 9",
+   "table": "CALC. RES. band",
+   "method": "manual",
+   "tool": "geosigma.extract.klang_general",
+   "extracted_on": "2026-10-15",
+   "notes": "Printed in ohm.cm; divided by 100. Depths below ground."
+  },
+  "notes": ""
+ },
+ {
+  "id": "klang1970-afiqlot-16-layered",
+  "survey": "klang-1970-mt-general",
+  "site": "AL-16",
+  "method": "MT",
+  "level": "L2",
+  "representation": "model_1d",
+  "measured_on": "1969",
+  "model_type": "layered",
+  "depth_max_m": 5250.0,
+  "confidence": "B",
+  "status": "draft",
+  "layers": [
+   {
+    "top_m": 0.0,
+    "bottom_m": 150.0,
+    "rho_ohmm": 7.0
+   },
+   {
+    "top_m": 150.0,
+    "bottom_m": 750.0,
+    "rho_ohmm": 70.0
+   },
+   {
+    "top_m": 750.0,
+    "bottom_m": 5250.0,
+    "rho_ohmm": 7.0
+   },
+   {
+    "top_m": 5250.0,
+    "bottom_m": null,
+    "rho_min": 7.0,
+    "note": "printed as infinity"
+   }
+  ],
+  "line": "Afiq-Lot",
+  "provenance": {
+   "document": "main",
+   "pages": [
+    52,
+    33
+   ],
+   "figure": "M.T.P. No. 16 field sheet; Figure 9",
+   "table": "CALC. RES. band",
+   "method": "manual",
+   "tool": "geosigma.extract.klang_general",
+   "extracted_on": "2026-10-15",
+   "notes": "Printed in ohm.cm; divided by 100. Depths below ground."
+  },
+  "notes": ""
+ },
+ {
+  "id": "klang1970-afiqlot-17-layered",
+  "survey": "klang-1970-mt-general",
+  "site": "AL-17",
+  "method": "MT",
+  "level": "L2",
+  "representation": "model_1d",
+  "measured_on": "1969",
+  "model_type": "layered",
+  "depth_max_m": 3400.0,
+  "confidence": "B",
+  "status": "draft",
+  "layers": [
+   {
+    "top_m": 0.0,
+    "bottom_m": 770.0,
+    "rho_ohmm": 15.0
+   },
+   {
+    "top_m": 770.0,
+    "bottom_m": 2310.0,
+    "rho_ohmm": 225.0
+   },
+   {
+    "top_m": 2310.0,
+    "bottom_m": 3400.0,
+    "rho_ohmm": 3.0
+   },
+   {
+    "top_m": 3400.0,
+    "bottom_m": null,
+    "rho_ohmm": 3375.0
+   }
+  ],
+  "line": "Afiq-Lot",
+  "provenance": {
+   "document": "main",
+   "pages": [
+    53,
+    33
+   ],
+   "figure": "M.T.P. No. 17 field sheet; Figure 9",
+   "table": "CALC. RES. band",
+   "method": "manual",
+   "tool": "geosigma.extract.klang_general",
+   "extracted_on": "2026-10-15",
+   "notes": "Printed in ohm.cm; divided by 100. Depths below ground."
+  },
+  "notes": ""
+ },
+ {
+  "id": "klang1970-afiqlot-19-layered",
+  "survey": "klang-1970-mt-general",
+  "site": "AL-19",
+  "method": "MT",
+  "level": "L2",
+  "representation": "model_1d",
+  "measured_on": "1969",
+  "model_type": "layered",
+  "depth_max_m": 5300.0,
+  "confidence": "B",
+  "status": "draft",
+  "layers": [
+   {
+    "top_m": 0.0,
+    "bottom_m": 200.0,
+    "rho_ohmm": 17.0
+   },
+   {
+    "top_m": 200.0,
+    "bottom_m": 500.0,
+    "rho_ohmm": 3.4
+   },
+   {
+    "top_m": 500.0,
+    "bottom_m": 5000.0,
+    "rho_ohmm": 425.0
+   },
+   {
+    "top_m": 5000.0,
+    "bottom_m": 5300.0,
+    "rho_ohmm": 0.3
+   },
+   {
+    "top_m": 5300.0,
+    "bottom_m": null,
+    "rho_min": 0.3,
+    "note": "printed as infinity"
+   }
+  ],
+  "line": "Afiq-Lot",
+  "provenance": {
+   "document": "main",
+   "pages": [
+    54,
+    33
+   ],
+   "figure": "M.T.P. No. 19 field sheet; Figure 9",
+   "table": "CALC. RES. band",
+   "method": "manual",
+   "tool": "geosigma.extract.klang_general",
+   "extracted_on": "2026-10-15",
+   "notes": "Printed in ohm.cm; divided by 100. Depths below ground."
+  },
+  "notes": ""
+ },
+ {
+  "id": "klang1970-afiqlot-20-layered",
+  "survey": "klang-1970-mt-general",
+  "site": "AL-20",
+  "method": "MT",
+  "level": "L2",
+  "representation": "model_1d",
+  "measured_on": "1969",
+  "model_type": "layered",
+  "depth_max_m": 3600.0,
+  "confidence": "B",
+  "status": "draft",
+  "layers": [
+   {
+    "top_m": 0.0,
+    "bottom_m": 80.0,
+    "rho_ohmm": 4.5
+   },
+   {
+    "top_m": 80.0,
+    "bottom_m": 140.0,
+    "rho_ohmm": 0.45
+   },
+   {
+    "top_m": 140.0,
+    "bottom_m": 3000.0,
+    "rho_ohmm": 67.5
+   },
+   {
+    "top_m": 3000.0,
+    "bottom_m": 3600.0,
+    "rho_ohmm": 0.45
+   },
+   {
+    "top_m": 3600.0,
+    "bottom_m": null,
+    "rho_min": 0.45,
+    "note": "printed as infinity"
+   }
+  ],
+  "line": "Afiq-Lot",
+  "provenance": {
+   "document": "main",
+   "pages": [
+    55,
+    33
+   ],
+   "figure": "M.T.P. No. 20 field sheet; Figure 9",
+   "table": "CALC. RES. band",
+   "method": "manual",
+   "tool": "geosigma.extract.klang_general",
+   "extracted_on": "2026-10-15",
+   "notes": "Printed in ohm.cm; divided by 100. Depths below ground."
+  },
+  "notes": ""
+ },
+ {
+  "id": "klang1970-afiqlot-21-layered",
+  "survey": "klang-1970-mt-general",
+  "site": "AL-21",
+  "method": "MT",
+  "level": "L2",
+  "representation": "model_1d",
+  "measured_on": "1969",
+  "model_type": "layered",
+  "depth_max_m": 7500.0,
+  "confidence": "B",
+  "status": "draft",
+  "layers": [
+   {
+    "top_m": 0.0,
+    "bottom_m": 140.0,
+    "rho_ohmm": 3.0
+   },
+   {
+    "top_m": 140.0,
+    "bottom_m": 1000.0,
+    "rho_ohmm": 15.0
+   },
+   {
+    "top_m": 1000.0,
+    "bottom_m": 7000.0,
+    "rho_ohmm": 300.0
+   },
+   {
+    "top_m": 7000.0,
+    "bottom_m": 7500.0,
+    "rho_ohmm": 0.6
+   },
+   {
+    "top_m": 7500.0,
+    "bottom_m": null,
+    "rho_min": 0.6,
+    "note": "printed as infinity"
+   }
+  ],
+  "line": "Afiq-Lot",
+  "provenance": {
+   "document": "main",
+   "pages": [
+    56,
+    33
+   ],
+   "figure": "M.T.P. No. 21 field sheet; Figure 9",
+   "table": "CALC. RES. band",
+   "method": "manual",
+   "tool": "geosigma.extract.klang_general",
+   "extracted_on": "2026-10-15",
+   "notes": "Printed in ohm.cm; divided by 100. Depths below ground."
+  },
+  "notes": ""
+ },
+ {
+  "id": "klang1970-afiqlot-22-layered",
+  "survey": "klang-1970-mt-general",
+  "site": "AL-22",
+  "method": "MT",
+  "level": "L2",
+  "representation": "model_1d",
+  "measured_on": "1969",
+  "model_type": "layered",
+  "depth_max_m": 5100.0,
+  "confidence": "B",
+  "status": "draft",
+  "layers": [
+   {
+    "top_m": 0.0,
+    "bottom_m": 160.0,
+    "rho_ohmm": 4.5
+   },
+   {
+    "top_m": 160.0,
+    "bottom_m": 4500.0,
+    "rho_ohmm": 27.0
+   },
+   {
+    "top_m": 4500.0,
+    "bottom_m": 5100.0,
+    "rho_ohmm": 1.0
+   },
+   {
+    "top_m": 5100.0,
+    "bottom_m": null,
+    "rho_min": 1.0,
+    "note": "printed as infinity"
+   }
+  ],
+  "line": "Afiq-Lot",
+  "provenance": {
+   "document": "main",
+   "pages": [
+    57,
+    33
+   ],
+   "figure": "M.T.P. No. 22 field sheet; Figure 9",
+   "table": "CALC. RES. band",
+   "method": "manual",
+   "tool": "geosigma.extract.klang_general",
+   "extracted_on": "2026-10-15",
+   "notes": "Printed in ohm.cm; divided by 100. Depths below ground."
+  },
+  "notes": ""
+ }
+]
