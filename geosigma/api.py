@@ -12,7 +12,7 @@ from fastapi import Body, FastAPI, HTTPException, Query
 from fastapi.responses import FileResponse, Response
 from fastapi.staticfiles import StaticFiles
 
-from .derived import reliability_at_depth, value_at_depth
+from .derived import model_reach, reliability_at_depth, value_at_depth
 from .schema import Dataset
 from .store import DB_PATH, ROOT, set_status
 
@@ -85,6 +85,10 @@ def sites(
             "has_model": any(r["representation"] == "model_1d" for r in dss),
             "orig": f'{s["orig_x"]:.0f}, {s["orig_y"]:.0f} ({s["orig_crs"]})',
         }
+        reach = [model_reach(Dataset.model_validate_json(r["json"])) for r in dss if r["representation"] == "model_1d"]
+        reach = [z for z in reach if z is not None and z != float("inf")]
+        if reach:
+            props["model_reach_m"] = round(max(reach))
         if depth is not None:
             best = None
             for r in dss:

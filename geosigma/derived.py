@@ -29,8 +29,8 @@ def value_at_depth(ds: Dataset, depth_m: float) -> Optional[float]:
     return s[-1].rho_ohmm
 
 
-def reliability_at_depth(ds: Dataset, depth_m: float) -> str:
-    """'reliable', 'below_doi', 'beyond_model' or 'unknown_doi'."""
+def model_reach(ds: Dataset) -> Optional[float]:
+    """Deepest depth the model covers (inf for an open half-space), or None if not stated."""
     deepest = ds.depth_max_m
     if deepest is None:
         if ds.samples:
@@ -38,6 +38,12 @@ def reliability_at_depth(ds: Dataset, depth_m: float) -> str:
         elif ds.layers:
             last = ds.layers[-1]
             deepest = last.bottom_m if last.bottom_m is not None else math.inf
+    return deepest
+
+
+def reliability_at_depth(ds: Dataset, depth_m: float) -> str:
+    """'reliable', 'below_doi', 'beyond_model' or 'unknown_doi'."""
+    deepest = model_reach(ds)
     if deepest is not None and depth_m > deepest:
         return "beyond_model"
     if ds.doi_m is None:

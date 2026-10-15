@@ -74,8 +74,9 @@ async function loadSites(current = () => true) {
   map.on("mousemove", "sites", (e) => {
     const p = e.features[0].properties;
     popup.setLngLat(e.lngLat).setHTML(
-      `<b>${p.name || p.site}</b><br>${fmt(p.rho_at_depth === "null" ? null : p.rho_at_depth)} at ${state.depth} m` +
-      `<br><span style="color:#687385">${RELIABILITY[p.reliability] || ""}</span>`).addTo(map);
+      `<b>${p.name || p.site}</b><br>${whyNoValue(p) ||
+        fmt(p.rho_at_depth === "null" ? null : p.rho_at_depth) + ` at ${state.depth} m` +
+        `<br><span style="color:#687385">${RELIABILITY[p.reliability] || ""}</span>`}`).addTo(map);
   });
   map.on("mouseleave", "sites", () => popup.remove());
   fitTo(gj);
@@ -142,6 +143,16 @@ function setAreasVisible() {
   const v = $("showAreas").checked ? "visible" : "none";
   for (const l of ["areas-fill", "areas-line", "areas-hover", "areas-hover-fill"]) if (map.getLayer(l)) map.setLayoutProperty(l, "visibility", v);
   if (v === "none" && areaPopup) { areaKey = ""; areaPopup.remove(); }
+}
+
+// Say why a site has no value at this depth rather than just "n/a".
+function whyNoValue(p) {
+  const muted = (t) => `<span style="color:#687385">${t}</span>`;
+  if (p.reliability === "no_model" || p.has_model === false || p.has_model === "false")
+    return muted("Measured data only: the report gives no interpreted model here.");
+  if (p.reliability === "beyond_model" && p.model_reach_m != null)
+    return muted(`The author's model only reaches ${p.model_reach_m} m; move the depth above that.`);
+  return "";
 }
 
 function fitTo(gj) {
