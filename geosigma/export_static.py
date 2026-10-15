@@ -25,6 +25,12 @@ DEPTHS = list(range(0, 3001, 25))  # the slider's steps
 REL = {"reliable": "r", "unknown_doi": "u", "below_doi": "b", "beyond_model": "x", "no_model": "n"}
 RANK = {"reliable": 0, "unknown_doi": 1, "below_doi": 2, "beyond_model": 3}
 MAPLIBRE_CSS = "https://unpkg.com/maplibre-gl@4.7.1/dist/maplibre-gl.css"
+CDN_SCRIPTS = ('<script src="https://unpkg.com/maplibre-gl@4.7.1/dist/maplibre-gl.js"></script>\n'
+               '<script src="https://cdnjs.cloudflare.com/ajax/libs/plotly.js/2.35.2/plotly.min.js"></script>\n')
+# With --libs the two libraries are copied next to the page (lib/), so a hosted site
+# does not depend on a CDN carrying them.
+LIB_FILES = ("maplibre-gl.js", "maplibre-gl.css", "plotly.min.js")
+LOCAL_SCRIPTS = '<script src="lib/maplibre-gl.js"></script>\n<script src="lib/plotly.min.js"></script>\n'
 
 
 def _sig(v):
@@ -141,7 +147,7 @@ header, aside { padding-left: max(12px, env(safe-area-inset-left, 0px)); }
 """
 
 
-def page(core_style: dict, maplibre_css: str) -> str:
+def page(core_style: dict, maplibre_css: str, local_libs: bool = False) -> str:
     web = ROOT / "web"
     idx = (web / "index.html").read_text()
     body = idx[idx.index("<body>") + 6:idx.index("</body>")]
@@ -155,8 +161,7 @@ def page(core_style: dict, maplibre_css: str) -> str:
             '<meta name="claude:viewport-fit-sides" content="cover">\n'
             f"<style>{mlcss}</style>\n<style>{(web / 'style.css').read_text()}{THEME}</style>\n</head>\n<body>\n"
             f"{body}\n"
-            '<script src="https://unpkg.com/maplibre-gl@4.7.1/dist/maplibre-gl.js"></script>\n'
-            '<script src="https://cdnjs.cloudflare.com/ajax/libs/plotly.js/2.35.2/plotly.min.js"></script>\n'
+            + (LOCAL_SCRIPTS if local_libs else CDN_SCRIPTS)
             + SHIM.replace("__STYLE__", json.dumps(core_style))
             + f"<script>{(web / 'app.js').read_text()}</script>\n</body>\n</html>\n")
 
@@ -223,9 +228,17 @@ def source_pages(datasets: dict, out: Path) -> dict:
     return index
 
 
-def export(out: Path, maplibre_css: Path | None = None, pages: bool = True) -> Path:
+def export(out: Path, maplibre_css: Path | None = None, pages: bool = True, libs: Path | None = None) -> Path:
     """``maplibre_css``: a local copy of maplibre-gl.css, else it is downloaded (a hosted
-    page may only load scripts from a CDN, so the stylesheet is inlined)."""
+    page may only load scripts from a CDN, so the stylesheet is inlined). ``libs``: a
+    folder holding LIB_FILES, copied to ``out/lib/`` and loaded from there."""
+    if libs:
+        import shutil
+
+        (out / "lib").mkdir(parents=True, exist_ok=True)
+        for f in LIB_FILES:
+            shutil.copyfile(libs / f, out / "lib" / f)
+        maplibre_css = libs / "maplibre-gl.css"
     if maplibre_css:
         css = maplibre_css.read_text()
     else:
@@ -237,5 +250,5 @@ def export(out: Path, maplibre_css: Path | None = None, pages: bool = True) -> P
     core["pages"] = source_pages(datasets, out) if pages else {}
     (out / "geosigma-core.json").write_text(json.dumps(core, separators=(",", ":")))
     (out / "geosigma-datasets.json").write_text(json.dumps(datasets, separators=(",", ":")))
-    (out / "index.html").write_text(page(basemap_style(), css))
+    (out / "index.html").write_text(page(basemap_style(), css, local_libs=bool(libs)))
     return out

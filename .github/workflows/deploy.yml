@@ -28,7 +28,13 @@ jobs:
       - run: python -m geosigma check
       - run: python -m pytest -q
       - run: python -m geosigma build
-      - run: python -m geosigma export-static build/static
+      - name: Fetch the map and chart libraries, so the site does not depend on a CDN
+        run: |
+          mkdir -p build/libs && cd build/libs
+          npm pack --silent maplibre-gl@4.7.1 plotly.js-dist-min@2.35.2
+          for f in *.tgz; do tar xzf "$f" && mv package "${f%.tgz}"; done
+          cp maplibre-gl-4.7.1/dist/maplibre-gl.js maplibre-gl-4.7.1/dist/maplibre-gl.css plotly.js-dist-min-2.35.2/plotly.min.js .
+      - run: python -m geosigma export-static build/static --libs build/libs
       - uses: actions/upload-pages-artifact@v3
         with:
           path: build/static
