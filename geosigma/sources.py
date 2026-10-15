@@ -179,9 +179,10 @@ def views(ds: dict, filename: str | None) -> list[dict]:
             where = f"{depth} m below sea level" if ref == "below_sea_level" else f"{depth} m depth"
             marks = [{"site": ds["site"], "x": fx, "y": fy} for fx, fy in (_frac(s, q["x"], q["y"]) for q in pts)]
             vals = ", ".join(f"{q['value']:g} ohm.cm" for q in pts if q.get("value") is not None) or "no value printed"
-            out.append(view(int(p), f"Page {p}, the author's interpreted iso-resistivity map at {where}: the value "
-                                    f"printed at the ringed sounding ({vals}) is the model resistivity used here",
-                            marks=marks, zoom=True))
+            out.append(view(int(p), f"Page {p}, the author's iso-resistivity map titled {where}: the value printed "
+                                    f"at the ringed sounding ({vals}). These map values follow the measured "
+                                    "apparent-resistivity curve, not the layered model, so they are shown as "
+                                    "measured data", marks=marks, zoom=True))
         if out:
             return out
 

@@ -79,3 +79,50 @@ def test_profile_dataset_rules():
     with pytest.raises(ValueError):
         Dataset.model_validate({**base, "level": "L2", "profile": [{"station": 1, "rho_a": 5}]})
 
+
+
+# --- Guards from the 2026-10-15 data verification (docs/verification-2026-10.md) ---
+
+# Unit printed in each source, with where it is stated. Surveys printed in ohm.cm must
+# say on every dataset that the values were divided by 100.
+OHM_CM_SURVEYS = {
+    "klang-1970-mt-general": "sheet axis 'APPARENT RESISTIVITY ohm.cm' and Fig. 9 legend",
+    "klang-1970-mt-timna-ramon": "CALC. RES. band labelled ohm.cm",
+    "paparo-1969-southern-arava": "map legend: contour interval 1000 ohm.cm",
+    "paparo-1970-shekhem": "report section 2.0 gives formation values in ohm.cm",
+}
+
+
+def test_ohm_cm_sources_are_converted():
+    for ds in load_catalogue().datasets:
+        if ds.survey in OHM_CM_SURVEYS and ds.representation.value not in ("qualitative",):
+            assert "divided by 100" in (ds.provenance.notes or ""), ds.id
+
+
+def test_resistivities_physically_plausible_or_flagged():
+    # below 0.1 ohm.m is lower than brine-saturated rock; above 1e5 is beyond dry rock
+    for ds in load_catalogue().datasets:
+        vals = [l.rho_ohmm for l in ds.layers if l.rho_ohmm is not None] + [s.rho_ohmm for s in ds.samples]
+        vals += [c.rho_a for c in ds.curve] + [p.rho_a for p in ds.profile]
+        if vals and (min(vals) < 0.1 or max(vals) > 1e5):
+            assert ds.confidence.value == "C" and "artefact" in (ds.notes or ""), ds.id
+
+
+def test_sea_level_models_stay_off_the_depth_axis():
+    ds = _ds(depth_ref="below_sea_level", samples=[{"depth_m": 25, "rho_ohmm": 10}])
+    assert value_at_depth(ds, 25) is None
+
+
+def test_southern_arava_map_values_are_measured_data():
+    # the iso-resistivity maps follow the apparent-resistivity curve, not the layered models
+    for ds in load_catalogue().datasets:
+        if ds.id.startswith("paparo-1969-southern-arava-maps-"):
+            assert ds.level.value == "L1" and ds.representation.value != "model_1d", ds.id
+
+
+def test_layers_are_contiguous_from_the_surface():
+    for ds in load_catalogue().datasets:
+        if ds.layers:
+            assert ds.layers[0].top_m == 0, ds.id
+            for a, b in zip(ds.layers, ds.layers[1:]):
+                assert a.bottom_m == b.top_m and a.bottom_m > a.top_m, ds.id

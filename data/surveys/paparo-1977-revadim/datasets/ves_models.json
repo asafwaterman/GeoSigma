@@ -6,6 +6,7 @@
   "method": "VES",
   "level": "L2",
   "representation": "model_1d",
+  "measured_on": null,
   "confidence": "B",
   "status": "draft",
   "model_type": "layered",
@@ -13,6 +14,11 @@
   "layers": [
    {
     "top_m": 0.0,
+    "bottom_m": 1.0,
+    "rho_ohmm": 16.0
+   },
+   {
+    "top_m": 1.0,
     "bottom_m": 7.5,
     "rho_ohmm": 4.8
    },
@@ -35,7 +41,8 @@
     "top_m": 318.1,
     "bottom_m": null,
     "rho_ohmm": null,
-    "note": "drawn as infinity (resistive basement)"
+    "note": "drawn as infinity (resistive basement)",
+    "rho_min": 7.6
    }
   ],
   "digitisation_error": "interfaces +-5% (box edges read on the AB/2 axis)",
@@ -46,11 +53,11 @@
    ],
    "figure": "VES sheet D.P. 1, job 373",
    "method": "digitised_manual",
-   "tool": "geosigma.extract.ves_sheet (edges) + reading by eye",
-   "extracted_on": "2026-10-13",
+   "tool": "reading by eye (values and edges)",
+   "extracted_on": "2026-10-15",
    "notes": "Interface depths taken as the AB/2 of the box edges under the curve."
   },
-  "notes": "The last layer is open-ended; the model does not state a DOI."
+  "notes": "First box (16.00) is written sideways left of the AB/2 = 1 m frame: layer 0-1 m. Other edges as detected by geosigma.extract.ves_sheet. The last layer is open-ended; the model does not state a DOI."
  },
  {
   "id": "paparo-1977-revadim-ves-373-2",
@@ -59,6 +66,7 @@
   "method": "VES",
   "level": "L2",
   "representation": "model_1d",
+  "measured_on": null,
   "confidence": "B",
   "status": "draft",
   "model_type": "layered",
@@ -66,6 +74,11 @@
   "layers": [
    {
     "top_m": 0.0,
+    "bottom_m": 1.0,
+    "rho_ohmm": 22.0
+   },
+   {
+    "top_m": 1.0,
     "bottom_m": 7.0,
     "rho_ohmm": 4.4
    },
@@ -88,7 +101,8 @@
     "top_m": 356.0,
     "bottom_m": null,
     "rho_ohmm": null,
-    "note": "drawn as infinity (resistive basement)"
+    "note": "drawn as infinity (resistive basement)",
+    "rho_min": 10.8
    }
   ],
   "digitisation_error": "interfaces +-5% (box edges read on the AB/2 axis)",
@@ -99,11 +113,11 @@
    ],
    "figure": "VES sheet D.P. 2, job 373",
    "method": "digitised_manual",
-   "tool": "geosigma.extract.ves_sheet (edges) + reading by eye",
-   "extracted_on": "2026-10-13",
+   "tool": "reading by eye (values and edges)",
+   "extracted_on": "2026-10-15",
    "notes": "Interface depths taken as the AB/2 of the box edges under the curve."
   },
-  "notes": "The last layer is open-ended; the model does not state a DOI."
+  "notes": "First box (22.00) is written sideways left of the AB/2 = 1 m frame: layer 0-1 m. Other edges as detected by geosigma.extract.ves_sheet. The last layer is open-ended; the model does not state a DOI."
  },
  {
   "id": "paparo-1977-revadim-ves-373-3",
@@ -112,6 +126,7 @@
   "method": "VES",
   "level": "L2",
   "representation": "model_1d",
+  "measured_on": null,
   "confidence": "B",
   "status": "draft",
   "model_type": "layered",
@@ -146,7 +161,8 @@
     "top_m": 259.0,
     "bottom_m": null,
     "rho_ohmm": null,
-    "note": "drawn as infinity (resistive basement)"
+    "note": "drawn as infinity (resistive basement)",
+    "rho_min": 5.1
    }
   ],
   "digitisation_error": "interfaces +-5% (box edges read on the AB/2 axis)",
@@ -158,7 +174,7 @@
    "figure": "VES sheet D.P. 3, job 373",
    "method": "digitised_manual",
    "tool": "geosigma.extract.ves_sheet (edges) + reading by eye",
-   "extracted_on": "2026-10-13",
+   "extracted_on": "2026-10-15",
    "notes": "Interface depths taken as the AB/2 of the box edges under the curve."
   },
   "notes": "The last layer is open-ended; the model does not state a DOI."
@@ -170,6 +186,7 @@
   "method": "VES",
   "level": "L2",
   "representation": "model_1d",
+  "measured_on": null,
   "confidence": "B",
   "status": "draft",
   "model_type": "layered",
@@ -205,7 +222,7 @@
    "figure": "VES sheet D.P. 19, job 736",
    "method": "digitised_manual",
    "tool": "geosigma.extract.ves_sheet (edges) + reading by eye",
-   "extracted_on": "2026-10-13",
+   "extracted_on": "2026-10-15",
    "notes": "Interface depths taken as the AB/2 of the box edges under the curve."
   },
   "notes": "The last layer is open-ended; the model does not state a DOI."
@@ -217,6 +234,7 @@
   "method": "VES",
   "level": "L2",
   "representation": "model_1d",
+  "measured_on": null,
   "confidence": "B",
   "status": "draft",
   "model_type": "layered",
@@ -251,7 +269,8 @@
     "top_m": 491.5,
     "bottom_m": null,
     "rho_ohmm": null,
-    "note": "drawn as infinity (resistive basement)"
+    "note": "drawn as infinity (resistive basement)",
+    "rho_min": 6.6
    }
   ],
   "digitisation_error": "interfaces +-5% (box edges read on the AB/2 axis)",
@@ -263,7 +282,7 @@
    "figure": "VES sheet D.P. 20, job 736",
    "method": "digitised_manual",
    "tool": "geosigma.extract.ves_sheet (edges) + reading by eye",
-   "extracted_on": "2026-10-13",
+   "extracted_on": "2026-10-15",
    "notes": "Interface depths taken as the AB/2 of the box edges under the curve."
   },
   "notes": "The last layer is open-ended; the model does not state a DOI."
@@ -275,6 +294,7 @@
   "method": "VES",
   "level": "L2",
   "representation": "model_1d",
+  "measured_on": null,
   "confidence": "B",
   "status": "draft",
   "model_type": "layered",
@@ -314,7 +334,8 @@
     "top_m": 394.0,
     "bottom_m": null,
     "rho_ohmm": null,
-    "note": "drawn as infinity (resistive basement)"
+    "note": "drawn as infinity (resistive basement)",
+    "rho_min": 7.0
    }
   ],
   "digitisation_error": "interfaces +-5% (box edges read on the AB/2 axis)",
@@ -326,7 +347,7 @@
    "figure": "VES sheet D.P. 22, job 736",
    "method": "digitised_manual",
    "tool": "geosigma.extract.ves_sheet (edges) + reading by eye",
-   "extracted_on": "2026-10-13",
+   "extracted_on": "2026-10-15",
    "notes": "Interface depths taken as the AB/2 of the box edges under the curve."
   },
   "notes": "The last layer is open-ended; the model does not state a DOI."
@@ -338,6 +359,7 @@
   "method": "VES",
   "level": "L2",
   "representation": "model_1d",
+  "measured_on": null,
   "confidence": "B",
   "status": "draft",
   "model_type": "layered",
@@ -367,7 +389,8 @@
     "top_m": 249.9,
     "bottom_m": null,
     "rho_ohmm": null,
-    "note": "drawn as infinity (resistive basement)"
+    "note": "drawn as infinity (resistive basement)",
+    "rho_min": 7.0
    }
   ],
   "digitisation_error": "interfaces +-5% (box edges read on the AB/2 axis)",
@@ -379,7 +402,7 @@
    "figure": "VES sheet D.P. 25, job 736",
    "method": "digitised_manual",
    "tool": "geosigma.extract.ves_sheet (edges) + reading by eye",
-   "extracted_on": "2026-10-13",
+   "extracted_on": "2026-10-15",
    "notes": "Interface depths taken as the AB/2 of the box edges under the curve."
   },
   "notes": "The last layer is open-ended; the model does not state a DOI."
@@ -391,6 +414,7 @@
   "method": "VES",
   "level": "L2",
   "representation": "model_1d",
+  "measured_on": null,
   "confidence": "B",
   "status": "draft",
   "model_type": "layered",
@@ -415,7 +439,8 @@
     "top_m": 240.1,
     "bottom_m": null,
     "rho_ohmm": null,
-    "note": "drawn as infinity (resistive basement)"
+    "note": "drawn as infinity (resistive basement)",
+    "rho_min": 10.4
    }
   ],
   "digitisation_error": "interfaces +-5% (box edges read on the AB/2 axis)",
@@ -427,7 +452,7 @@
    "figure": "VES sheet D.P. 12, job 777",
    "method": "digitised_manual",
    "tool": "geosigma.extract.ves_sheet (edges) + reading by eye",
-   "extracted_on": "2026-10-13",
+   "extracted_on": "2026-10-15",
    "notes": "Interface depths taken as the AB/2 of the box edges under the curve."
   },
   "notes": "The last layer is open-ended; the model does not state a DOI."
