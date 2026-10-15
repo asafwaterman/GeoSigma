@@ -82,7 +82,8 @@ def build(survey: str, pdf: str, doc_id: str) -> int:
             "provenance": {"document": doc_id, "pages": [r["page"]], "figure": f"VES sheet D.P. {r['dp']}, job {r['job']}",
                            "method": "digitised_manual", "tool": tool,
                            "extracted_on": date.today().isoformat(),
-                           "notes": "Interface depths taken as the AB/2 of the box edges under the curve."},
+                           "notes": "Interface depths taken as the AB/2 of the box edges under the curve."
+                                    + (" Resistivities printed in ohm.cm; divided by 100." if scale != 1 else "")},
             "notes": " ".join(filter(None, [r.get("note"),
                                             "The first layer is under about 1.5 m thick and its base is approximate."
                                             if r.get("narrow_first") else None, "The last layer is open-ended; the model does not state a DOI."])),
