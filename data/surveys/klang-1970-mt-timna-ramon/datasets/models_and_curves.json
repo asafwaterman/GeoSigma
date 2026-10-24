@@ -48,7 +48,7 @@
    "table": "CALC. RES. band",
    "method": "manual",
    "tool": "geosigma.extract.klang_timna",
-   "extracted_on": "2026-10-14",
+   "extracted_on": "2026-10-15",
    "notes": "Printed in ohm.cm; divided by 100. Depths below ground."
   },
   "notes": "Deepest boundary printed as '30000 ?'; the last complex is 'very high'."
@@ -167,8 +167,8 @@
    "figure": "M.T.P. No. 24 field sheet",
    "method": "digitised_auto",
    "tool": "geosigma.extract.klang_timna",
-   "extracted_on": "2026-10-14",
-   "notes": "Smoothed field curve as drawn; period T = (sqrt T)^2. Bottom decade taken as 1000 ohm.cm."
+   "extracted_on": "2026-10-15",
+   "notes": "Smoothed field curve as drawn; period T = (sqrt T)^2. Bottom decade taken as 1000 ohm.cm. Values divided by 100 to ohm.m."
   }
  },
  {
@@ -220,7 +220,7 @@
    "table": "CALC. RES. band",
    "method": "manual",
    "tool": "geosigma.extract.klang_timna",
-   "extracted_on": "2026-10-14",
+   "extracted_on": "2026-10-15",
    "notes": "Printed in ohm.cm; divided by 100. Depths below ground."
   },
   "notes": "Deepest boundary printed as '38500 ?'; the last complex is 'very high'."
@@ -331,8 +331,8 @@
    "figure": "M.T.P. No. 25 field sheet",
    "method": "digitised_auto",
    "tool": "geosigma.extract.klang_timna",
-   "extracted_on": "2026-10-14",
-   "notes": "Smoothed field curve as drawn; period T = (sqrt T)^2. Bottom decade taken as 1000 ohm.cm."
+   "extracted_on": "2026-10-15",
+   "notes": "Smoothed field curve as drawn; period T = (sqrt T)^2. Bottom decade taken as 1000 ohm.cm. Values divided by 100 to ohm.m."
   }
  },
  {
@@ -368,7 +368,7 @@
    "table": "CALC. RES. band",
    "method": "manual",
    "tool": "geosigma.extract.klang_timna",
-   "extracted_on": "2026-10-14",
+   "extracted_on": "2026-10-15",
    "notes": "Printed in ohm.cm; divided by 100. Depths below ground."
   },
   "notes": "Report: low-frequency data insufficient, so the model stays in the sedimentary section."
@@ -427,8 +427,8 @@
    "figure": "M.T.P. No. 26 field sheet",
    "method": "digitised_auto",
    "tool": "geosigma.extract.klang_timna",
-   "extracted_on": "2026-10-14",
-   "notes": "Smoothed field curve as drawn; period T = (sqrt T)^2. Bottom decade taken as 100 ohm.cm."
+   "extracted_on": "2026-10-15",
+   "notes": "Smoothed field curve as drawn; period T = (sqrt T)^2. Bottom decade taken as 100 ohm.cm. Values divided by 100 to ohm.m."
   }
  },
  {
@@ -474,7 +474,7 @@
    "table": "CALC. RES. band",
    "method": "manual",
    "tool": "geosigma.extract.klang_timna",
-   "extracted_on": "2026-10-14",
+   "extracted_on": "2026-10-15",
    "notes": "Printed in ohm.cm; divided by 100. Depths below ground."
   },
   "notes": "Report: basement known at about 50-80 m here; the first complex mixes sediments and basement."
@@ -581,8 +581,8 @@
    "figure": "M.T.P. No. 27 field sheet",
    "method": "digitised_auto",
    "tool": "geosigma.extract.klang_timna",
-   "extracted_on": "2026-10-14",
-   "notes": "Smoothed field curve as drawn; period T = (sqrt T)^2. Bottom decade taken as 1000 ohm.cm."
+   "extracted_on": "2026-10-15",
+   "notes": "Smoothed field curve as drawn; period T = (sqrt T)^2. Bottom decade taken as 1000 ohm.cm. Values divided by 100 to ohm.m."
   }
  },
  {
@@ -628,7 +628,7 @@
    "table": "CALC. RES. band",
    "method": "manual",
    "tool": "geosigma.extract.klang_timna",
-   "extracted_on": "2026-10-14",
+   "extracted_on": "2026-10-15",
    "notes": "Printed in ohm.cm; divided by 100. Depths below ground."
   },
   "notes": "Report: basement known at about 50-80 m here; the first complex mixes sediments and basement."
@@ -739,8 +739,8 @@
    "figure": "M.T.P. No. 28 field sheet",
    "method": "digitised_auto",
    "tool": "geosigma.extract.klang_timna",
-   "extracted_on": "2026-10-14",
-   "notes": "Smoothed field curve as drawn; period T = (sqrt T)^2. Bottom decade taken as 1000 ohm.cm."
+   "extracted_on": "2026-10-15",
+   "notes": "Smoothed field curve as drawn; period T = (sqrt T)^2. Bottom decade taken as 1000 ohm.cm. Values divided by 100 to ohm.m."
   }
  },
  {
@@ -781,7 +781,7 @@
    "table": "CALC. RES. band",
    "method": "manual",
    "tool": "geosigma.extract.klang_timna",
-   "extracted_on": "2026-10-14",
+   "extracted_on": "2026-10-15",
    "notes": "Printed in ohm.cm; divided by 100. Depths below ground."
   },
   "notes": "Near the Ramon 1 well (TD 3439 m in arkose). Report: no basement can be told apart under the arkose."
@@ -872,8 +872,8 @@
    "figure": "M.T.P. No. 29 field sheet",
    "method": "digitised_auto",
    "tool": "geosigma.extract.klang_timna",
-   "extracted_on": "2026-10-14",
-   "notes": "Smoothed field curve as drawn; period T = (sqrt T)^2. Bottom decade taken as 100 ohm.cm."
+   "extracted_on": "2026-10-15",
+   "notes": "Smoothed field curve as drawn; period T = (sqrt T)^2. Bottom decade taken as 100 ohm.cm. Values divided by 100 to ohm.m."
   }
  }
 ]

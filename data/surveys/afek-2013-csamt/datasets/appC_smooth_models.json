@@ -9260,7 +9260,7 @@
    "extracted_on": "2026-10-13",
    "notes": "Zonge SCS2D smooth-model 1D inversion, TM mode (report p. 25)."
   },
-  "notes": "DOI not given in the report; plot depth is the model extent, not a DOI. The report says the model fit on this line is very poor (cultural noise or off-line effects) and leaves it out of the App. D sections."
+  "notes": "DOI not given in the report; plot depth is the model extent, not a DOI. The report says the model fit on this line is very poor (cultural noise or off-line effects) and leaves it out of the App. D sections. From 1471 m the plotted model drops below 0.1 ohm.m (to 0.035), lower than any brine-saturated rock: an inversion artefact; do not use those depths."
  },
  {
   "id": "afek-csamt-B2-300-scs2d",
@@ -52702,7 +52702,7 @@
    "extracted_on": "2026-10-13",
    "notes": "Zonge SCS2D smooth-model 1D inversion, TM mode (report p. 25)."
   },
-  "notes": "DOI not given in the report; plot depth is the model extent, not a DOI. The report says the model fit on this line is very poor (cultural noise or off-line effects) and leaves it out of the App. D sections."
+  "notes": "DOI not given in the report; plot depth is the model extent, not a DOI. The report says the model fit on this line is very poor (cultural noise or off-line effects) and leaves it out of the App. D sections. From 248 m the plotted model drops below 0.1 ohm.m (to 0.00014), lower than any brine-saturated rock: an inversion artefact; do not use those depths."
  },
  {
   "id": "afek-csamt-E2-6-100-scs2d",
@@ -72789,7 +72789,7 @@
   "representation": "model_1d",
   "measured_on": "2013",
   "depth_max_m": 1778.0,
-  "confidence": "B",
+  "confidence": "C",
   "status": "draft",
   "model_type": "smooth",
   "samples": [
@@ -73166,7 +73166,7 @@
    "extracted_on": "2026-10-13",
    "notes": "Zonge SCS2D smooth-model 1D inversion, TM mode (report p. 25)."
   },
-  "notes": "DOI not given in the report; plot depth is the model extent, not a DOI."
+  "notes": "DOI not given in the report; plot depth is the model extent, not a DOI. From 1730 m the plotted model drops below 0.1 ohm.m (to 0.012), lower than any brine-saturated rock: an inversion artefact; do not use those depths."
  },
  {
   "id": "afek-csamt-K4-12-300-scs2d",
@@ -74141,7 +74141,7 @@
   "representation": "model_1d",
   "measured_on": "2013",
   "depth_max_m": 1976.0,
-  "confidence": "B",
+  "confidence": "C",
   "status": "draft",
   "model_type": "smooth",
   "samples": [
@@ -74590,7 +74590,7 @@
    "extracted_on": "2026-10-13",
    "notes": "Zonge SCS2D smooth-model 1D inversion, TM mode (report p. 25)."
   },
-  "notes": "DOI not given in the report; plot depth is the model extent, not a DOI."
+  "notes": "DOI not given in the report; plot depth is the model extent, not a DOI. From 1119 m the plotted model drops below 0.1 ohm.m (to 0.061), lower than any brine-saturated rock: an inversion artefact; do not use those depths."
  },
  {
   "id": "afek-csamt-L1-200-Ey-scs2d",
@@ -74602,7 +74602,7 @@
   "representation": "model_1d",
   "measured_on": "2013",
   "depth_max_m": 1976.0,
-  "confidence": "B",
+  "confidence": "C",
   "status": "draft",
   "model_type": "smooth",
   "samples": [
@@ -75115,7 +75115,7 @@
    "extracted_on": "2026-10-13",
    "notes": "Zonge SCS2D smooth-model 1D inversion, TM mode (report p. 25)."
   },
-  "notes": "DOI not given in the report; plot depth is the model extent, not a DOI."
+  "notes": "DOI not given in the report; plot depth is the model extent, not a DOI. From 1115 m the plotted model drops below 0.1 ohm.m (to 0.044), lower than any brine-saturated rock: an inversion artefact; do not use those depths."
  },
  {
   "id": "afek-csamt-L1-300-scs2d",
@@ -75127,7 +75127,7 @@
   "representation": "model_1d",
   "measured_on": "2013",
   "depth_max_m": 1976.0,
-  "confidence": "B",
+  "confidence": "C",
   "status": "draft",
   "model_type": "smooth",
   "samples": [
@@ -75836,7 +75836,7 @@
    "extracted_on": "2026-10-13",
    "notes": "Zonge SCS2D smooth-model 1D inversion, TM mode (report p. 25)."
   },
-  "notes": "DOI not given in the report; plot depth is the model extent, not a DOI."
+  "notes": "DOI not given in the report; plot depth is the model extent, not a DOI. From 1110 m the plotted model drops below 0.1 ohm.m (to 0.031), lower than any brine-saturated rock: an inversion artefact; do not use those depths."
  },
  {
   "id": "afek-csamt-L2-100-scs2d",

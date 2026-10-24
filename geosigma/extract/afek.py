@@ -180,6 +180,7 @@ def run() -> list[dict]:
             d["confidence"] = "C"
             d["notes"] += f" Plot is identical to the one for {other} in App. C; the report may repeat a plot."
     mark_poor_fits(datasets)
+    mark_implausible(datasets)
     out = SDIR / "datasets" / "appC_smooth_models.json"
     out.parent.mkdir(parents=True, exist_ok=True)
     out.write_text(json.dumps(datasets, indent=1))
@@ -195,6 +196,20 @@ def mark_poor_fits(datasets: list[dict]) -> None:
             d["confidence"] = "C"
             d["notes"] += (" The report says the model fit on this line is very poor (cultural noise or"
                            " off-line effects) and leaves it out of the App. D sections.")
+
+
+IMPLAUSIBLE_OHMM = 0.1  # below brine-saturated sediment: an inversion artefact, not rock
+
+
+def mark_implausible(datasets: list[dict]) -> None:
+    """Flag models that the author's plot takes below 0.1 ohm.m (values kept as drawn)."""
+    for d in datasets:
+        low = [s for s in d["samples"] if s["rho_ohmm"] < IMPLAUSIBLE_OHMM]
+        if low and "below 0.1 ohm.m" not in d["notes"]:
+            d["confidence"] = "C"
+            d["notes"] += (f" From {low[0]['depth_m']:.0f} m the plotted model drops below 0.1 ohm.m (to "
+                           f"{min(s['rho_ohmm'] for s in low):.2g}), lower than any brine-saturated rock: an "
+                           "inversion artefact; do not use those depths.")
 
 
 if __name__ == "__main__":

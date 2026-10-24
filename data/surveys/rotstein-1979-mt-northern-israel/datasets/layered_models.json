@@ -42,7 +42,7 @@
    "figure": "Figure 2, KFM inset",
    "method": "digitised_manual",
    "tool": "geosigma.extract.rotstein_mt (pixel readings)",
-   "extracted_on": "2026-10-13",
+   "extracted_on": "2026-10-15",
    "notes": "1D inversion of TE data. Top of plot is 0.1 km; the first layer is extended to the surface."
   },
   "notes": "Report Table 2: crustal low-resistivity layer from 16 km. Report warns of strong 2D/3D effects; layer depths may be off by tens of percent."
@@ -90,7 +90,7 @@
    "figure": "Figure 2, BTN inset",
    "method": "digitised_manual",
    "tool": "geosigma.extract.rotstein_mt (pixel readings)",
-   "extracted_on": "2026-10-13",
+   "extracted_on": "2026-10-15",
    "notes": "1D inversion of TE data. Top of plot is 0.1 km; the first layer is extended to the surface."
   },
   "notes": "Report warns of strong 2D/3D effects; layer depths may be off by tens of percent."
@@ -103,7 +103,7 @@
   "level": "L2",
   "representation": "model_1d",
   "measured_on": "1977",
-  "depth_max_m": 66200.0,
+  "depth_max_m": 48000.0,
   "confidence": "C",
   "status": "draft",
   "model_type": "layered",
@@ -120,11 +120,11 @@
    },
    {
     "top_m": 3840.0,
-    "bottom_m": 26790.0,
+    "bottom_m": 22650.0,
     "rho_ohmm": 74.0
    },
    {
-    "top_m": 26790.0,
+    "top_m": 22650.0,
     "bottom_m": null,
     "rho_ohmm": 8.9
    }
@@ -138,7 +138,7 @@
    "figure": "Figure 2, BCH inset",
    "method": "digitised_manual",
    "tool": "geosigma.extract.rotstein_mt (pixel readings)",
-   "extracted_on": "2026-10-13",
+   "extracted_on": "2026-10-15",
    "notes": "1D inversion of TE data. Top of plot is 0.1 km; the first layer is extended to the surface."
   },
   "notes": "Report Table 2: crustal low-resistivity layer from 22 km. Report warns of strong 2D/3D effects; layer depths may be off by tens of percent."
@@ -201,7 +201,7 @@
    "figure": "Figure 2, RAL inset",
    "method": "digitised_manual",
    "tool": "geosigma.extract.rotstein_mt (pixel readings)",
-   "extracted_on": "2026-10-13",
+   "extracted_on": "2026-10-15",
    "notes": "1D inversion of TE data. Top of plot is 0.1 km; the first layer is extended to the surface."
   },
   "notes": "Report Table 2: crustal low-resistivity layer from 13 km. Report rates this sounding among the most reliable."
@@ -254,7 +254,7 @@
    "figure": "Figure 3, MRG inset",
    "method": "digitised_manual",
    "tool": "geosigma.extract.rotstein_mt (pixel readings)",
-   "extracted_on": "2026-10-13",
+   "extracted_on": "2026-10-15",
    "notes": "1D inversion of TE data. Top of plot is 0.1 km; the first layer is extended to the surface."
   },
   "notes": "Report Table 2: crustal low-resistivity layer from 14 km. Report warns of strong 2D/3D effects; layer depths may be off by tens of percent."
@@ -307,7 +307,7 @@
    "figure": "Figure 3, DAZ inset",
    "method": "digitised_manual",
    "tool": "geosigma.extract.rotstein_mt (pixel readings)",
-   "extracted_on": "2026-10-13",
+   "extracted_on": "2026-10-15",
    "notes": "1D inversion of TE data. Top of plot is 0.1 km; the first layer is extended to the surface."
   },
   "notes": "Report Table 2: crustal low-resistivity layer from 12 km. Report warns of strong 2D/3D effects; layer depths may be off by tens of percent."
@@ -360,7 +360,7 @@
    "figure": "Figure 3, KAR inset",
    "method": "digitised_manual",
    "tool": "geosigma.extract.rotstein_mt (pixel readings)",
-   "extracted_on": "2026-10-13",
+   "extracted_on": "2026-10-15",
    "notes": "1D inversion of TE data. Top of plot is 0.1 km; the first layer is extended to the surface."
   },
   "notes": "Report Table 2: crustal low-resistivity layer from 23 km. Report rates this sounding among the most reliable."
@@ -413,7 +413,7 @@
    "figure": "Figure 3, JOU inset",
    "method": "digitised_manual",
    "tool": "geosigma.extract.rotstein_mt (pixel readings)",
-   "extracted_on": "2026-10-13",
+   "extracted_on": "2026-10-15",
    "notes": "1D inversion of TE data. Top of plot is 0.1 km; the first layer is extended to the surface."
   },
   "notes": "Report Table 2: crustal low-resistivity layer from 13 km. Report rates this sounding among the most reliable."

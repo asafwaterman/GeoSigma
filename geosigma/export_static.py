@@ -17,7 +17,7 @@ import sqlite3
 from pathlib import Path
 
 from . import api
-from .derived import reliability_at_depth, value_at_depth
+from .derived import on_ground_depths, reliability_at_depth, value_at_depth
 from .schema import Dataset
 from .store import DB_PATH, ROOT
 
@@ -49,7 +49,7 @@ def core_data() -> tuple[dict, dict]:
     sites = api.sites(depth=None)
     depth = []  # per feature: null, or [values per depth, reliability codes]
     for f in sites["features"]:
-        ms = [models[i] for i in f["properties"]["datasets"] if i in models]
+        ms = [models[i] for i in f["properties"]["datasets"] if i in models and on_ground_depths(models[i])]
         if not ms:
             depth.append(None)
             continue
