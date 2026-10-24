@@ -1,0 +1,2550 @@
+# Goldman 1995, IPRG L10/151/95. Layered models read by eye from the appendix printouts (pages 16-73) at 400 dpi;
+# every row checked against the printed elevation (running depth) and conductance; half-spaces re-read on a zoomed crop.
+# Station order (HS300-HS358, no HS342) confirmed by the Table 1A cross-check. Tables 1A/1B typed from the page.
+document: main
+unit: ohm.m
+method: TEM
+prefix: goldman1995
+measured_on: '1995'
+confidence: A
+crs: EPSG:28193
+xy_scale: 10
+site_word: TDEM station
+coord_source: table
+accuracy_m: 50
+table: 'Appendix (layered inversion printout: resistivity, thickness, elevation, conductance)'
+interface_kinds:
+  upper: 'top of the upper low-resistivity unit (author, Table 1A: associated with seawater intrusion)'
+  lower: 'top of the lower low-resistivity unit (author, Table 1A: associated with seawater intrusion)'
+box_caption: 'The boxed row is the author''s Table 1A entry for this station: resistivity (ohm.m) and depth (m)
+  of the upper and lower low-resistivity units'
+prov_notes: Coordinates from Tables 1A and 1B (pages 9-11), Old Israel Grid in units of 10 m. Depth = running sum
+  of the printed thicknesses; each row was checked against the printed elevation and conductance.
+sites:
+- id: HS300
+  name: TDEM station HS300 (Ashdod, Mediterranean coastal aquifer)
+  xy:
+  - 11390
+  - 13115
+  page: 16
+  box:
+  - 0.11099999999999999
+  - 0.237
+  - 0.9440000000000001
+  - 0.451
+  layers:
+  - - 0.0
+    - 33.79
+    - 36.6
+    - null
+    - thick: 33.79
+  - - 33.79
+    - 141.89
+    - 1.62
+    - null
+    - thick: 108.1
+  - - 141.89
+    - null
+    - 4.01
+- id: HS300-t1
+  site: HS300
+  model_id: HS300
+  page: 9
+  table: Table 1A
+  box:
+  - 0.06
+  - 0.242
+  - 0.91
+  - 0.262
+  interfaces:
+  - - 34.0
+    - upper
+  notes: Upper unit resistivity 1.6 ohm.m.
+- id: HS301
+  name: TDEM station HS301 (Ashdod, Mediterranean coastal aquifer)
+  xy:
+  - 11425
+  - 13088
+  page: 17
+  box:
+  - 0.07800000000000001
+  - 0.17
+  - 0.911
+  - 0.384
+  layers:
+  - - 0.0
+    - 74.68
+    - 68.93
+    - null
+    - thick: 74.68
+  - - 74.68
+    - 148.81
+    - 2.08
+    - null
+    - thick: 74.13
+  - - 148.81
+    - 186.82
+    - 43.64
+    - null
+    - thick: 38.01
+  - - 186.82
+    - null
+    - 2.12
+- id: HS301-t1
+  site: HS301
+  model_id: HS301
+  page: 9
+  table: Table 1A
+  box:
+  - 0.06
+  - 0.2576
+  - 0.91
+  - 0.2776
+  interfaces:
+  - - 75.0
+    - upper
+  notes: Upper unit resistivity 2.1 ohm.m.
+- id: HS302
+  name: TDEM station HS302 (Nitzanim, Mediterranean coastal aquifer)
+  xy:
+  - 11355
+  - 12902
+  page: 18
+  box:
+  - 0.196
+  - 0.163
+  - 1.0
+  - 0.377
+  layers:
+  - - 0.0
+    - 94.5
+    - 67.07
+    - null
+    - thick: 94.5
+  - - 94.5
+    - 130.85
+    - 2.19
+    - null
+    - thick: 36.35
+  - - 130.85
+    - 176.47
+    - 40.48
+    - null
+    - thick: 45.62
+  - - 176.47
+    - null
+    - 1.32
+- id: HS302-t1
+  site: HS302
+  model_id: HS302
+  page: 9
+  table: Table 1A
+  box:
+  - 0.06
+  - 0.2728
+  - 0.91
+  - 0.2928
+  interfaces:
+  - - 95.0
+    - upper
+  - - 176.0
+    - lower
+  notes: Upper unit resistivity 2.2 ohm.m. Lower unit resistivity 1.3 ohm.m.
+- id: HS303
+  name: TDEM station HS303 (Nitzanim Sands, Mediterranean coastal aquifer)
+  xy:
+  - 11115
+  - 12442
+  page: 19
+  box:
+  - 0.05099999999999999
+  - 0.166
+  - 0.883
+  - 0.38
+  layers:
+  - - 0.0
+    - 9.0
+    - 16.63
+    - null
+    - thick: 9.0
+  - - 9.0
+    - 122.5
+    - 86.27
+    - null
+    - thick: 113.5
+  - - 122.5
+    - 200.67
+    - 4.4
+    - null
+    - thick: 78.17
+  - - 200.67
+    - null
+    - 1.44
+- id: HS303-t1
+  site: HS303
+  model_id: HS303
+  page: 9
+  table: Table 1A
+  box:
+  - 0.06
+  - 0.2881
+  - 0.91
+  - 0.3081
+  interfaces:
+  - - 201.0
+    - upper
+  notes: Upper unit resistivity 1.4 ohm.m.
+- id: HS304
+  name: TDEM station HS304 (Hof Rishon, Mediterranean coastal aquifer)
+  xy:
+  - 12506
+  - 15659
+  page: 20
+  box:
+  - 0.187
+  - 0.173
+  - 1.0
+  - 0.388
+  layers:
+  - - 0.0
+    - 44.84
+    - 67.19
+    - null
+    - thick: 44.84
+  - - 44.84
+    - 85.98
+    - 2.14
+    - null
+    - thick: 41.14
+  - - 85.98
+    - 195.08
+    - 178.4
+    - null
+    - thick: 109.1
+  - - 195.08
+    - null
+    - 2.1
+- id: HS304-t1
+  site: HS304
+  model_id: HS304
+  page: 9
+  table: Table 1A
+  box:
+  - 0.06
+  - 0.3034
+  - 0.91
+  - 0.3234
+  interfaces:
+  - - 45.0
+    - upper
+  - - 195.0
+    - lower
+  notes: Upper unit resistivity 2.1 ohm.m. Lower unit resistivity 2.1 ohm.m.
+- id: HS305
+  name: TDEM station HS305 (Hof Rishon, Mediterranean coastal aquifer)
+  xy:
+  - 12530
+  - 15651
+  page: 21
+  box:
+  - 0.08799999999999997
+  - 0.192
+  - 0.921
+  - 0.406
+  layers:
+  - - 0.0
+    - 66.81
+    - 33.73
+    - null
+    - thick: 66.81
+  - - 66.81
+    - 196.31
+    - 14.22
+    - null
+    - thick: 129.5
+  - - 196.31
+    - null
+    - 2.1
+- id: HS305-t1
+  site: HS305
+  model_id: HS305
+  page: 9
+  table: Table 1A
+  box:
+  - 0.06
+  - 0.319
+  - 0.91
+  - 0.339
+  interfaces:
+  - - 196.0
+    - upper
+  notes: Upper unit resistivity 2.1 ohm.m.
+- id: HS306
+  name: TDEM station HS306 (Tel Baruch, Mediterranean coastal aquifer)
+  xy:
+  - 13010
+  - 16913
+  page: 22
+  box:
+  - 0.121
+  - 0.216
+  - 0.9540000000000001
+  - 0.43
+  layers:
+  - - 0.0
+    - 46.29
+    - 55.34
+    - null
+    - thick: 46.29
+  - - 46.29
+    - 96.64
+    - 21.64
+    - null
+    - thick: 50.35
+  - - 96.64
+    - 213.54
+    - 5.27
+    - null
+    - thick: 116.9
+  - - 213.54
+    - null
+    - 2.05
+  confidence: B
+  notes: 'Author''s remark: Tx loop too small compared to depth.'
+- id: HS306-t1
+  site: HS306
+  model_id: HS306
+  page: 9
+  table: Table 1A
+  box:
+  - 0.06
+  - 0.3346
+  - 0.91
+  - 0.3546
+  interfaces:
+  - - 214.0
+    - upper
+  notes: 'Upper unit resistivity 2.0 ohm.m. Author''s remark: Tx loop too small compared to depth.'
+  confidence: B
+- id: HS307
+  name: TDEM station HS307 (Nof Yam, Mediterranean coastal aquifer)
+  xy:
+  - 13247
+  - 17756
+  page: 23
+  box:
+  - 0.08999999999999997
+  - 0.217
+  - 0.922
+  - 0.431
+  layers:
+  - - 0.0
+    - 3.63
+    - 15.27
+    - null
+    - thick: 3.63
+  - - 3.63
+    - 24.06
+    - 118.7
+    - null
+    - thick: 20.43
+  - - 24.06
+    - 71.87
+    - 29.94
+    - null
+    - thick: 47.81
+  - - 71.87
+    - 119.85
+    - 2.05
+    - null
+    - thick: 47.98
+  - - 119.85
+    - null
+    - 26.99
+- id: HS307-t1
+  site: HS307
+  model_id: HS307
+  page: 9
+  table: Table 1A
+  box:
+  - 0.06
+  - 0.3499
+  - 0.91
+  - 0.3699
+  interfaces:
+  - - 72.0
+    - upper
+  notes: Upper unit resistivity 2.0 ohm.m.
+- id: HS308
+  name: TDEM station HS308 (Sidna-Ali, Mediterranean coastal aquifer)
+  xy:
+  - 13187
+  - 17741
+  page: 24
+  box:
+  - 0.05199999999999999
+  - 0.166
+  - 0.885
+  - 0.38
+  layers:
+  - - 0.0
+    - 7.05
+    - 9.16
+    - null
+    - thick: 7.05
+  - - 7.05
+    - 59.09
+    - 24.82
+    - null
+    - thick: 52.04
+  - - 59.09
+    - null
+    - 0.978
+  confidence: B
+  notes: 'Author''s remark: Noisy data.'
+- id: HS308-t1
+  site: HS308
+  model_id: HS308
+  page: 9
+  table: Table 1A
+  box:
+  - 0.06
+  - 0.3655
+  - 0.91
+  - 0.3855
+  interfaces:
+  - - 59.0
+    - upper
+  notes: 'Upper unit resistivity 0.98 ohm.m. Author''s remark: Noisy data.'
+  confidence: B
+- id: HS309
+  name: TDEM station HS309 (South Netanya, Mediterranean coastal aquifer)
+  xy:
+  - 13525
+  - 18870
+  page: 25
+  box:
+  - 0.16799999999999998
+  - 0.179
+  - 0.857
+  - 0.394
+  layers:
+  - - 0.0
+    - 48.91
+    - 334.2
+    - null
+    - thick: 48.91
+  - - 48.91
+    - 74.02
+    - 2.81
+    - null
+    - thick: 25.11
+  - - 74.02
+    - null
+    - 1.1
+  confidence: B
+  notes: 'Author''s remark: Noisy data; possibly gradient layer.'
+- id: HS309-t1
+  site: HS309
+  model_id: HS309
+  page: 9
+  table: Table 1A
+  box:
+  - 0.06
+  - 0.3811
+  - 0.91
+  - 0.4011
+  interfaces:
+  - - 52.0
+    - upper
+  notes: 'Upper unit: two sub-layers, 2.4 ohm.m from 52 m and 1.1 ohm.m from 75 m; the shallower depth is stored.
+    The printout puts 2.81 ohm.m at 48.9 m and 1.10 ohm.m at 74.0 m; Table 1A gives 2.4 ohm.m at 52 m for the first
+    sub-layer. Author''s remark: Noisy data; possibly gradient layer.'
+  confidence: B
+- id: HS310
+  name: TDEM station HS310 (North Netanya, Mediterranean coastal aquifer)
+  xy:
+  - 13652
+  - 19474
+  page: 26
+  box:
+  - 0.10799999999999998
+  - 0.187
+  - 0.797
+  - 0.401
+  layers:
+  - - 0.0
+    - 53.12
+    - 37.57
+    - null
+    - thick: 53.12
+  - - 53.12
+    - 70.63
+    - 2.34
+    - null
+    - thick: 17.51
+  - - 70.63
+    - null
+    - 0.934
+  notes: 'Author''s remark: Possibly gradient layer.'
+- id: HS310-t1
+  site: HS310
+  model_id: HS310
+  page: 9
+  table: Table 1A
+  box:
+  - 0.06
+  - 0.3967
+  - 0.91
+  - 0.4167
+  interfaces:
+  - - 53.0
+    - upper
+  notes: 'Upper unit: two sub-layers, 2.3 ohm.m from 53 m and 0.9 ohm.m from 71 m; the shallower depth is stored.
+    Author''s remark: Possibly gradient layer.'
+- id: HS311
+  name: TDEM station HS311 (Beitan Aharon, Mediterranean coastal aquifer)
+  xy:
+  - 13740
+  - 19687
+  page: 27
+  box:
+  - 0.065
+  - 0.157
+  - 0.897
+  - 0.371
+  layers:
+  - - 0.0
+    - 4.13
+    - 7.64
+    - null
+    - thick: 4.13
+  - - 4.13
+    - 58.44
+    - 44.1
+    - null
+    - thick: 54.31
+  - - 58.44
+    - 99.19
+    - 1.65
+    - null
+    - thick: 40.75
+  - - 99.19
+    - null
+    - 24.86
+- id: HS311-t1
+  site: HS311
+  model_id: HS311
+  page: 9
+  table: Table 1A
+  box:
+  - 0.06
+  - 0.4126
+  - 0.91
+  - 0.4326
+  interfaces:
+  - - 58.0
+    - upper
+  notes: Upper unit resistivity 1.6 ohm.m.
+- id: HS312
+  name: TDEM station HS312 (Nahsholim, Mediterranean coastal aquifer)
+  xy:
+  - 14320
+  - 22519
+  page: 28
+  box:
+  - 0.07200000000000001
+  - 0.169
+  - 0.905
+  - 0.384
+  layers:
+  - - 0.0
+    - 6.19
+    - 97.98
+    - null
+    - thick: 6.19
+  - - 6.19
+    - 104.29
+    - 15.81
+    - null
+    - thick: 98.1
+  - - 104.29
+    - 172.5
+    - 6.31
+    - null
+    - thick: 68.21
+  - - 172.5
+    - null
+    - 0.946
+  confidence: B
+  notes: 'Author''s remark: Tx loop too small compared to depth.'
+- id: HS312-t1
+  site: HS312
+  model_id: HS312
+  page: 9
+  table: Table 1A
+  box:
+  - 0.06
+  - 0.4282
+  - 0.91
+  - 0.4482
+  interfaces:
+  - - 172.0
+    - upper
+  notes: 'Upper unit resistivity 0.9 ohm.m. Author''s remark: Tx loop too small compared to depth.'
+  confidence: B
+- id: HS313
+  name: TDEM station HS313 (Habonim, Mediterranean coastal aquifer)
+  xy:
+  - 14324
+  - 22673
+  page: 29
+  box:
+  - 0.059
+  - 0.208
+  - 0.891
+  - 0.422
+  layers:
+  - - 0.0
+    - 9.0
+    - 5.78
+    - null
+    - thick: 9.0
+  - - 9.0
+    - 32.34
+    - 68.75
+    - null
+    - thick: 23.34
+  - - 32.34
+    - 366.14
+    - 17.12
+    - null
+    - thick: 333.8
+  - - 366.14
+    - null
+    - 129.7
+  notes: 'Author''s remark: No interface (Table 1B).'
+- id: HS314
+  name: TDEM station HS314 (Neve Yam, Mediterranean coastal aquifer)
+  xy:
+  - 14372
+  - 23131
+  page: 30
+  box:
+  - 0.127
+  - 0.213
+  - 0.96
+  - 0.427
+  layers:
+  - - 0.0
+    - 5.43
+    - 5.16
+    - null
+    - thick: 5.43
+  - - 5.43
+    - 32.15
+    - 46.8
+    - null
+    - thick: 26.72
+  - - 32.15
+    - 45.71
+    - 2.17
+    - null
+    - thick: 13.56
+  - - 45.71
+    - 112.45
+    - 22.39
+    - null
+    - thick: 66.74
+  - - 112.45
+    - null
+    - 7.12
+- id: HS314-t1
+  site: HS314
+  model_id: HS314
+  page: 9
+  table: Table 1A
+  box:
+  - 0.06
+  - 0.4438
+  - 0.91
+  - 0.4638
+  interfaces:
+  - - 32.0
+    - upper
+  notes: Upper unit resistivity 2.2 ohm.m.
+- id: HS315
+  name: TDEM station HS315 (Kfar Samir, Mediterranean coastal aquifer)
+  xy:
+  - 14647
+  - 24435
+  page: 31
+  box:
+  - 0.08300000000000002
+  - 0.224
+  - 0.916
+  - 0.438
+  layers:
+  - - 0.0
+    - 5.48
+    - 6.38
+    - null
+    - thick: 5.48
+  - - 5.48
+    - 40.41
+    - 15.43
+    - null
+    - thick: 34.93
+  - - 40.41
+    - 96.45
+    - 2.52
+    - null
+    - thick: 56.04
+  - - 96.45
+    - null
+    - 112.4
+- id: HS315-t1
+  site: HS315
+  model_id: HS315
+  page: 9
+  table: Table 1A
+  box:
+  - 0.06
+  - 0.4591
+  - 0.91
+  - 0.4791
+  interfaces:
+  - - 40.0
+    - upper
+  notes: Upper unit resistivity 2.5 ohm.m.
+- id: HS316
+  name: TDEM station HS316 (Ashqelon, Mediterranean coastal aquifer)
+  xy:
+  - 10806
+  - 12063
+  page: 32
+  box:
+  - 0.194
+  - 0.154
+  - 1.0
+  - 0.369
+  layers:
+  - - 0.0
+    - 12.58
+    - 10.81
+    - null
+    - thick: 12.58
+  - - 12.58
+    - 46.92
+    - 40.02
+    - null
+    - thick: 34.34
+  - - 46.92
+    - 149.32
+    - 1.82
+    - null
+    - thick: 102.4
+  - - 149.32
+    - null
+    - 4.42
+- id: HS316-t1
+  site: HS316
+  model_id: HS316
+  page: 9
+  table: Table 1A
+  box:
+  - 0.06
+  - 0.4757
+  - 0.91
+  - 0.4957
+  interfaces:
+  - - 47.0
+    - upper
+  notes: Upper unit resistivity 1.8 ohm.m.
+- id: HS317
+  name: TDEM station HS317 (Barnea, Mediterranean coastal aquifer)
+  xy:
+  - 10892
+  - 12168
+  page: 33
+  box:
+  - 0.14899999999999997
+  - 0.215
+  - 0.982
+  - 0.429
+  layers:
+  - - 0.0
+    - 62.77
+    - 34.08
+    - null
+    - thick: 62.77
+  - - 62.77
+    - 164.07
+    - 1.93
+    - null
+    - thick: 101.3
+  - - 164.07
+    - null
+    - 39.4
+- id: HS317-t1
+  site: HS317
+  model_id: HS317
+  page: 9
+  table: Table 1A
+  box:
+  - 0.06
+  - 0.491
+  - 0.91
+  - 0.511
+  interfaces:
+  - - 63.0
+    - upper
+  notes: Upper unit resistivity 1.9 ohm.m.
+- id: HS318
+  name: TDEM station HS318 (Barnea, Mediterranean coastal aquifer)
+  xy:
+  - 10870
+  - 12180
+  page: 34
+  box:
+  - 0.118
+  - 0.222
+  - 0.9510000000000001
+  - 0.437
+  layers:
+  - - 0.0
+    - 4.66
+    - 27.84
+    - null
+    - thick: 4.66
+  - - 4.66
+    - 45.42
+    - 46.57
+    - null
+    - thick: 40.76
+  - - 45.42
+    - null
+    - 1.52
+- id: HS318-t1
+  site: HS318
+  model_id: HS318
+  page: 9
+  table: Table 1A
+  box:
+  - 0.06
+  - 0.5066
+  - 0.91
+  - 0.5266
+  interfaces:
+  - - 45.0
+    - upper
+  notes: Upper unit resistivity 1.5 ohm.m.
+- id: HS319
+  name: TDEM station HS319 (Barnea, Mediterranean coastal aquifer)
+  xy:
+  - 11010
+  - 12277
+  page: 35
+  box:
+  - 0.184
+  - 0.165
+  - 1.0
+  - 0.38
+  layers:
+  - - 0.0
+    - 7.16
+    - 15.16
+    - null
+    - thick: 7.16
+  - - 7.16
+    - 115.46
+    - 64.38
+    - null
+    - thick: 108.3
+  - - 115.46
+    - 170.3
+    - 3.9
+    - null
+    - thick: 54.84
+  - - 170.3
+    - null
+    - 1.52
+- id: HS319-t1
+  site: HS319
+  model_id: HS319
+  page: 9
+  table: Table 1A
+  box:
+  - 0.06
+  - 0.5222
+  - 0.91
+  - 0.5422
+  interfaces:
+  - - 170.0
+    - upper
+  notes: Upper unit resistivity 1.5 ohm.m.
+- id: HS320
+  name: TDEM station HS320 (Barnea, Mediterranean coastal aquifer)
+  xy:
+  - 10956
+  - 12304
+  page: 36
+  box:
+  - 0.07600000000000001
+  - 0.213
+  - 0.909
+  - 0.428
+  layers:
+  - - 0.0
+    - 39.82
+    - 104.0
+    - null
+    - thick: 39.82
+  - - 39.82
+    - 67.01
+    - 5.99
+    - null
+    - thick: 27.19
+  - - 67.01
+    - null
+    - 1.1
+- id: HS320-t1
+  site: HS320
+  model_id: HS320
+  page: 9
+  table: Table 1A
+  box:
+  - 0.06
+  - 0.5371
+  - 0.91
+  - 0.5571
+  interfaces:
+  - - 67.0
+    - upper
+  notes: Upper unit resistivity 1.1 ohm.m.
+- id: HS321
+  name: TDEM station HS321 (Barnea, Mediterranean coastal aquifer)
+  xy:
+  - 10941
+  - 12316
+  page: 37
+  box:
+  - 0.11299999999999999
+  - 0.211
+  - 0.999
+  - 0.426
+  layers:
+  - - 0.0
+    - 34.74
+    - 45.37
+    - null
+    - thick: 34.74
+  - - 34.74
+    - null
+    - 1.5
+- id: HS321-t1
+  site: HS321
+  model_id: HS321
+  page: 9
+  table: Table 1A
+  box:
+  - 0.06
+  - 0.5527
+  - 0.91
+  - 0.5727
+  interfaces:
+  - - 35.0
+    - upper
+  notes: Upper unit resistivity 1.5 ohm.m.
+- id: HS322
+  name: TDEM station HS322 (Nitzanim Sands, Mediterranean coastal aquifer)
+  xy:
+  - 11017
+  - 12446
+  page: 38
+  box:
+  - 0.07800000000000001
+  - 0.184
+  - 0.911
+  - 0.398
+  layers:
+  - - 0.0
+    - 33.7
+    - 16.63
+    - null
+    - thick: 33.7
+  - - 33.7
+    - null
+    - 1.42
+- id: HS322-t1
+  site: HS322
+  model_id: HS322
+  page: 9
+  table: Table 1A
+  box:
+  - 0.06
+  - 0.5683
+  - 0.91
+  - 0.5883
+  interfaces:
+  - - 34.0
+    - upper
+  notes: Upper unit resistivity 1.4 ohm.m.
+- id: HS323
+  name: TDEM station HS323 (Nitzanim Sands, Mediterranean coastal aquifer)
+  xy:
+  - 11035
+  - 12412
+  page: 39
+  box:
+  - 0.08100000000000002
+  - 0.178
+  - 0.914
+  - 0.393
+  layers:
+  - - 0.0
+    - 76.4
+    - 77.52
+    - null
+    - thick: 76.4
+  - - 76.4
+    - 118.22
+    - 1.39
+    - null
+    - thick: 41.82
+  - - 118.22
+    - null
+    - 3.07
+- id: HS323-t1
+  site: HS323
+  model_id: HS323
+  page: 9
+  table: Table 1A
+  box:
+  - 0.06
+  - 0.5836
+  - 0.91
+  - 0.6036
+  interfaces:
+  - - 76.0
+    - upper
+  notes: Upper unit resistivity 1.4 ohm.m.
+- id: HS324
+  name: TDEM station HS324 (Nitzanim Sands, Mediterranean coastal aquifer)
+  xy:
+  - 11086
+  - 12475
+  page: 40
+  box:
+  - 0.16699999999999998
+  - 0.151
+  - 1.0
+  - 0.365
+  layers:
+  - - 0.0
+    - 76.34
+    - 65.89
+    - null
+    - thick: 76.34
+  - - 76.34
+    - 156.68
+    - 2.5
+    - null
+    - thick: 80.34
+  - - 156.68
+    - 189.09
+    - 8.97
+    - null
+    - thick: 32.41
+  - - 189.09
+    - null
+    - 1.37
+- id: HS324-t1
+  site: HS324
+  model_id: HS324
+  page: 9
+  table: Table 1A
+  box:
+  - 0.06
+  - 0.5995
+  - 0.91
+  - 0.6195
+  interfaces:
+  - - 76.0
+    - upper
+  - - 189.0
+    - lower
+  notes: Upper unit resistivity 2.5 ohm.m. Lower unit resistivity 1.4 ohm.m.
+- id: HS325
+  name: TDEM station HS325 (Nitzanim Sands, Mediterranean coastal aquifer)
+  xy:
+  - 11049
+  - 12500
+  page: 41
+  box:
+  - 0.125
+  - 0.219
+  - 0.958
+  - 0.434
+  layers:
+  - - 0.0
+    - 42.53
+    - 37.56
+    - null
+    - thick: 42.53
+  - - 42.53
+    - null
+    - 1.63
+  confidence: B
+  notes: 'Author''s remark: Noisy data.'
+- id: HS325-t1
+  site: HS325
+  model_id: HS325
+  page: 9
+  table: Table 1A
+  box:
+  - 0.06
+  - 0.6151
+  - 0.91
+  - 0.6351
+  interfaces:
+  - - 42.0
+    - upper
+  notes: 'Upper unit resistivity 1.6 ohm.m. Author''s remark: Noisy data.'
+  confidence: B
+- id: HS326
+  name: TDEM station HS326 (Nitzanim, Mediterranean coastal aquifer)
+  xy:
+  - 11266
+  - 12798
+  page: 42
+  box:
+  - 0.118
+  - 0.225
+  - 0.9500000000000001
+  - 0.44
+  layers:
+  - - 0.0
+    - 1.47
+    - 10.84
+    - null
+    - thick: 1.47
+  - - 1.47
+    - 66.2
+    - 43.72
+    - null
+    - thick: 64.73
+  - - 66.2
+    - 141.87
+    - 1.73
+    - null
+    - thick: 75.67
+  - - 141.87
+    - 180.48
+    - 8.81
+    - null
+    - thick: 38.61
+  - - 180.48
+    - null
+    - 1.47
+- id: HS326-t1
+  site: HS326
+  model_id: HS326
+  page: 9
+  table: Table 1A
+  box:
+  - 0.06
+  - 0.6314
+  - 0.91
+  - 0.6514
+  interfaces:
+  - - 66.0
+    - upper
+  - - 180.0
+    - lower
+  notes: Upper unit resistivity 1.7 ohm.m. Lower unit resistivity 1.5 ohm.m.
+- id: HS327
+  name: TDEM station HS327 (Nitzanim, Mediterranean coastal aquifer)
+  xy:
+  - 11285
+  - 12805
+  page: 43
+  box:
+  - 0.07400000000000001
+  - 0.215
+  - 0.908
+  - 0.43
+  layers:
+  - - 0.0
+    - 85.36
+    - 49.85
+    - null
+    - thick: 85.36
+  - - 85.36
+    - 158.1
+    - 1.66
+    - null
+    - thick: 72.74
+  - - 158.1
+    - null
+    - 7.87
+- id: HS327-t1
+  site: HS327
+  model_id: HS327
+  page: 9
+  table: Table 1A
+  box:
+  - 0.06
+  - 0.647
+  - 0.91
+  - 0.667
+  interfaces:
+  - - 85.0
+    - upper
+  notes: Upper unit resistivity 1.7 ohm.m.
+- id: HS328
+  name: TDEM station HS328 (Nitzanim, Mediterranean coastal aquifer)
+  xy:
+  - 11250
+  - 12825
+  page: 44
+  box:
+  - 0.11699999999999999
+  - 0.219
+  - 0.9500000000000001
+  - 0.434
+  layers:
+  - - 0.0
+    - 4.18
+    - 19.81
+    - null
+    - thick: 4.18
+  - - 4.18
+    - 54.21
+    - 38.05
+    - null
+    - thick: 50.03
+  - - 54.21
+    - 122.67
+    - 1.44
+    - null
+    - thick: 68.46
+  - - 122.67
+    - 172.6
+    - 10.1
+    - null
+    - thick: 49.93
+  - - 172.6
+    - null
+    - 1.0
+- id: HS328-t1
+  site: HS328
+  model_id: HS328
+  page: 9
+  table: Table 1A
+  box:
+  - 0.06
+  - 0.6626
+  - 0.91
+  - 0.6826
+  interfaces:
+  - - 54.0
+    - upper
+  - - 173.0
+    - lower
+  notes: Upper unit resistivity 1.4 ohm.m. Lower unit resistivity 1.0 ohm.m.
+- id: HS329
+  name: TDEM station HS329 (Nitzanim, Mediterranean coastal aquifer)
+  xy:
+  - 11326
+  - 12923
+  page: 45
+  box:
+  - 0.09299999999999997
+  - 0.164
+  - 0.925
+  - 0.379
+  layers:
+  - - 0.0
+    - 4.35
+    - 13.67
+    - null
+    - thick: 4.35
+  - - 4.35
+    - 51.87
+    - 312.1
+    - null
+    - thick: 47.52
+  - - 51.87
+    - 68.14
+    - 13.12
+    - null
+    - thick: 16.27
+  - - 68.14
+    - 105.14
+    - 1.29
+    - null
+    - thick: 37.0
+  - - 105.14
+    - null
+    - 3.07
+- id: HS329-t1
+  site: HS329
+  model_id: HS329
+  page: 9
+  table: Table 1A
+  box:
+  - 0.06
+  - 0.6782
+  - 0.91
+  - 0.6982
+  interfaces:
+  - - 68.0
+    - upper
+  notes: Upper unit resistivity 1.3 ohm.m.
+- id: HS330
+  name: TDEM station HS330 (Nitzanim, Mediterranean coastal aquifer)
+  xy:
+  - 11285
+  - 12924
+  page: 46
+  box:
+  - 0.07800000000000001
+  - 0.163
+  - 0.91
+  - 0.378
+  layers:
+  - - 0.0
+    - 3.28
+    - 17.24
+    - null
+    - thick: 3.28
+  - - 3.28
+    - 34.05
+    - 120.4
+    - null
+    - thick: 30.77
+  - - 34.05
+    - 134.85
+    - 1.5
+    - null
+    - thick: 100.8
+  - - 134.85
+    - null
+    - 3.81
+- id: HS330-t1
+  site: HS330
+  model_id: HS330
+  page: 9
+  table: Table 1A
+  box:
+  - 0.06
+  - 0.6938
+  - 0.91
+  - 0.7138
+  interfaces:
+  - - 34.0
+    - upper
+  notes: Upper unit resistivity 1.5 ohm.m.
+- id: HS331
+  name: TDEM station HS331 (Nitzanim, Mediterranean coastal aquifer)
+  xy:
+  - 11230
+  - 12835
+  page: 47
+  box:
+  - 0.07600000000000001
+  - 0.15
+  - 0.909
+  - 0.365
+  layers:
+  - - 0.0
+    - 6.23
+    - 4.4
+    - null
+    - thick: 6.23
+  - - 6.23
+    - 16.67
+    - 66.14
+    - null
+    - thick: 10.44
+  - - 16.67
+    - 40.4
+    - 1.41
+    - null
+    - thick: 23.73
+  - - 40.4
+    - 53.15
+    - 9.59
+    - null
+    - thick: 12.75
+  - - 53.15
+    - null
+    - 1.08
+  confidence: B
+  notes: 'Author''s remark: Noisy data.'
+- id: HS331-t1
+  site: HS331
+  model_id: HS331
+  page: 9
+  table: Table 1A
+  box:
+  - 0.06
+  - 0.71
+  - 0.91
+  - 0.73
+  interfaces:
+  - - 17.0
+    - upper
+  - - 53.0
+    - lower
+  notes: 'Upper unit resistivity 1.4 ohm.m. Lower unit resistivity 1.1 ohm.m. Author''s remark: Noisy data.'
+  confidence: B
+- id: HS332
+  name: TDEM station HS332 (Palmahim, Mediterranean coastal aquifer)
+  xy:
+  - 12161
+  - 14812
+  page: 48
+  box:
+  - 0.09299999999999997
+  - 0.141
+  - 0.924
+  - 0.357
+  layers:
+  - - 0.0
+    - 0.84
+    - 3.03
+    - null
+    - thick: 0.842
+  - - 0.84
+    - 41.7
+    - 224.6
+    - null
+    - thick: 40.86
+  - - 41.7
+    - 74.79
+    - 2.89
+    - null
+    - thick: 33.09
+  - - 74.79
+    - 105.29
+    - 1.6
+    - null
+    - thick: 30.5
+  - - 105.29
+    - 215.79
+    - 55.31
+    - null
+    - thick: 110.5
+  - - 215.79
+    - null
+    - 0.957
+  notes: 'Author''s remark: Possibly gradient layer.'
+- id: HS332-t1
+  site: HS332
+  model_id: HS332
+  page: 9
+  table: Table 1A
+  box:
+  - 0.06
+  - 0.7259
+  - 0.91
+  - 0.7459
+  interfaces:
+  - - 42.0
+    - upper
+  - - 216.0
+    - lower
+  notes: 'Upper unit: two sub-layers, 2.9 ohm.m from 42 m and 1.6 ohm.m from 75 m; the shallower depth is stored.
+    Lower unit resistivity 0.96 ohm.m. Author''s remark: Possibly gradient layer.'
+- id: HS333
+  name: TDEM station HS333 (Shefayim, Mediterranean coastal aquifer)
+  xy:
+  - 13379
+  - 18097
+  page: 49
+  box:
+  - 0.10299999999999998
+  - 0.147
+  - 0.937
+  - 0.362
+  layers:
+  - - 0.0
+    - 3.24
+    - 16.75
+    - null
+    - thick: 3.24
+  - - 3.24
+    - 42.1
+    - 102.4
+    - null
+    - thick: 38.86
+  - - 42.1
+    - 93.54
+    - 26.96
+    - null
+    - thick: 51.44
+  - - 93.54
+    - 120.18
+    - 1.36
+    - null
+    - thick: 26.64
+  - - 120.18
+    - 178.9
+    - 99.14
+    - null
+    - thick: 58.72
+  - - 178.9
+    - null
+    - 2.01
+- id: HS333-t1
+  site: HS333
+  model_id: HS333
+  page: 9
+  table: Table 1A
+  box:
+  - 0.06
+  - 0.7412
+  - 0.91
+  - 0.7612
+  interfaces:
+  - - 94.0
+    - upper
+  - - 179.0
+    - lower
+  notes: Upper unit resistivity 1.4 ohm.m. Lower unit resistivity 2.0 ohm.m.
+- id: HS334
+  name: TDEM station HS334 (Shefayim, Mediterranean coastal aquifer)
+  xy:
+  - 13335
+  - 18075
+  page: 50
+  box:
+  - 0.055999999999999994
+  - 0.156
+  - 0.889
+  - 0.372
+  layers:
+  - - 0.0
+    - 56.11
+    - 74.66
+    - null
+    - thick: 56.11
+  - - 56.11
+    - 68.03
+    - 48.63
+    - null
+    - thick: 11.92
+  - - 68.03
+    - 86.49
+    - 7.98
+    - null
+    - thick: 18.46
+  - - 86.49
+    - 137.67
+    - 1.95
+    - null
+    - thick: 51.18
+  - - 137.67
+    - null
+    - 5.02
+- id: HS334-t1
+  site: HS334
+  model_id: HS334
+  page: 9
+  table: Table 1A
+  box:
+  - 0.06
+  - 0.7571
+  - 0.91
+  - 0.7771
+  interfaces:
+  - - 86.0
+    - upper
+  notes: Upper unit resistivity 1.9 ohm.m.
+- id: HS335
+  name: TDEM station HS335 (Yaqum, Mediterranean coastal aquifer)
+  xy:
+  - 13450
+  - 18400
+  page: 51
+  box:
+  - 0.09299999999999997
+  - 0.155
+  - 0.927
+  - 0.371
+  layers:
+  - - 0.0
+    - 1.27
+    - 4.84
+    - null
+    - thick: 1.27
+  - - 1.27
+    - 65.48
+    - 41.51
+    - null
+    - thick: 64.21
+  - - 65.48
+    - 96.95
+    - 1.51
+    - null
+    - thick: 31.47
+  - - 96.95
+    - 169.92
+    - 32.18
+    - null
+    - thick: 72.97
+  - - 169.92
+    - null
+    - 1.01
+- id: HS335-t1
+  site: HS335
+  model_id: HS335
+  page: 9
+  table: Table 1A
+  box:
+  - 0.06
+  - 0.773
+  - 0.91
+  - 0.793
+  interfaces:
+  - - 65.0
+    - upper
+  - - 170.0
+    - lower
+  notes: Upper unit resistivity 1.5 ohm.m. Lower unit resistivity 1.0 ohm.m.
+- id: HS336
+  name: TDEM station HS336 (Yaqum, Mediterranean coastal aquifer)
+  xy:
+  - 13395
+  - 18405
+  page: 52
+  box:
+  - 0.10299999999999998
+  - 0.161
+  - 0.9380000000000001
+  - 0.376
+  layers:
+  - - 0.0
+    - 3.26
+    - 12.18
+    - null
+    - thick: 3.26
+  - - 3.26
+    - 63.77
+    - 268.4
+    - null
+    - thick: 60.51
+  - - 63.77
+    - 88.09
+    - 2.37
+    - null
+    - thick: 24.32
+  - - 88.09
+    - 129.34
+    - 1.23
+    - null
+    - thick: 41.25
+  - - 129.34
+    - null
+    - 4.21
+  notes: 'Author''s remark: Possibly gradient layer.'
+- id: HS336-t1
+  site: HS336
+  model_id: HS336
+  page: 9
+  table: Table 1A
+  box:
+  - 0.06
+  - 0.788
+  - 0.91
+  - 0.808
+  interfaces:
+  - - 66.0
+    - upper
+  notes: 'Upper unit: two sub-layers, 2.4 ohm.m from 66 m and 1.2 ohm.m from 88 m; the shallower depth is stored.
+    The printout puts 2.37 ohm.m at 63.8 m; Table 1A gives 2.4 ohm.m at 66 m. Author''s remark: Possibly gradient
+    layer.'
+- id: HS337
+  name: TDEM station HS337 (South Netanya, Mediterranean coastal aquifer)
+  xy:
+  - 13545
+  - 18855
+  page: 53
+  box:
+  - 0.03899999999999998
+  - 0.206
+  - 0.874
+  - 0.421
+  layers:
+  - - 0.0
+    - 81.85
+    - 46.51
+    - null
+    - thick: 81.85
+  - - 81.85
+    - 116.47
+    - 1.57
+    - null
+    - thick: 34.62
+  - - 116.47
+    - 196.13
+    - 143.7
+    - null
+    - thick: 79.66
+  - - 196.13
+    - null
+    - 1.39
+- id: HS337-t1
+  site: HS337
+  model_id: HS337
+  page: 9
+  table: Table 1A
+  box:
+  - 0.06
+  - 0.8036
+  - 0.91
+  - 0.8236
+  interfaces:
+  - - 82.0
+    - upper
+  - - 196.0
+    - lower
+  notes: Upper unit resistivity 1.6 ohm.m. Lower unit resistivity 1.4 ohm.m.
+- id: HS338
+  name: TDEM station HS338 (Beit Yanai, Mediterranean coastal aquifer)
+  xy:
+  - 13803
+  - 19886
+  page: 54
+  box:
+  - 0.09099999999999997
+  - 0.158
+  - 0.924
+  - 0.373
+  layers:
+  - - 0.0
+    - 3.09
+    - 93.06
+    - null
+    - thick: 3.09
+  - - 3.09
+    - 59.21
+    - 24.86
+    - null
+    - thick: 56.12
+  - - 59.21
+    - null
+    - 1.42
+- id: HS338-t1
+  site: HS338
+  model_id: HS338
+  page: 9
+  table: Table 1A
+  box:
+  - 0.06
+  - 0.8195
+  - 0.91
+  - 0.8395
+  interfaces:
+  - - 59.0
+    - upper
+  notes: Upper unit resistivity 1.4 ohm.m.
+- id: HS339
+  name: TDEM station HS339 (Giv'at Olga, Mediterranean coastal aquifer)
+  xy:
+  - 13908
+  - 20464
+  page: 55
+  box:
+  - 0.09499999999999997
+  - 0.154
+  - 0.93
+  - 0.369
+  layers:
+  - - 0.0
+    - 1.33
+    - 4.49
+    - null
+    - thick: 1.33
+  - - 1.33
+    - 50.95
+    - 88.29
+    - null
+    - thick: 49.62
+  - - 50.95
+    - 90.79
+    - 1.45
+    - null
+    - thick: 39.84
+  - - 90.79
+    - 138.68
+    - 19.6
+    - null
+    - thick: 47.89
+  - - 138.68
+    - null
+    - 3.06
+- id: HS339-t1
+  site: HS339
+  model_id: HS339
+  page: 9
+  table: Table 1A
+  box:
+  - 0.06
+  - 0.8354
+  - 0.91
+  - 0.8554
+  interfaces:
+  - - 51.0
+    - upper
+  notes: Upper unit resistivity 1.4 ohm.m.
+- id: HS340
+  name: TDEM station HS340 (Giv'at Olga, Mediterranean coastal aquifer)
+  xy:
+  - 13890
+  - 20480
+  page: 56
+  box:
+  - 0.10299999999999998
+  - 0.203
+  - 0.937
+  - 0.419
+  layers:
+  - - 0.0
+    - 27.34
+    - 52.19
+    - null
+    - thick: 27.34
+  - - 27.34
+    - 41.52
+    - 5.36
+    - null
+    - thick: 14.18
+  - - 41.52
+    - 82.41
+    - 1.45
+    - null
+    - thick: 40.89
+  - - 82.41
+    - 125.13
+    - 8.93
+    - null
+    - thick: 42.72
+  - - 125.13
+    - null
+    - 1.84
+- id: HS340-t1
+  site: HS340
+  model_id: HS340
+  page: 9
+  table: Table 1A
+  box:
+  - 0.06
+  - 0.851
+  - 0.91
+  - 0.871
+  interfaces:
+  - - 41.0
+    - upper
+  - - 125.0
+    - lower
+  notes: Upper unit resistivity 1.4 ohm.m. Lower unit resistivity 1.8 ohm.m.
+- id: HS341
+  name: TDEM station HS341 (Hadera, Mediterranean coastal aquifer)
+  xy:
+  - 13970
+  - 20750
+  page: 57
+  box:
+  - 0.09699999999999998
+  - 0.18
+  - 0.933
+  - 0.396
+  layers:
+  - - 0.0
+    - 48.78
+    - 48.8
+    - null
+    - thick: 48.78
+  - - 48.78
+    - 80.08
+    - 2.8
+    - null
+    - thick: 31.3
+  - - 80.08
+    - null
+    - 2.22
+  notes: 'Author''s remark: Possibly gradient layer.'
+- id: HS341-t1
+  site: HS341
+  model_id: HS341
+  page: 9
+  table: Table 1A
+  box:
+  - 0.06
+  - 0.8669
+  - 0.91
+  - 0.8869
+  interfaces:
+  - - 49.0
+    - upper
+  notes: 'Upper unit: two sub-layers, 2.8 ohm.m from 49 m and 2.2 ohm.m from 80 m; the shallower depth is stored.
+    Author''s remark: Possibly gradient layer.'
+- id: HS343
+  name: TDEM station HS343 (Ein Fascha, Dead Sea, Ein Fashkha)
+  xy:
+  - 19290
+  - 12510
+  page: 58
+  box:
+  - 0.09699999999999998
+  - 0.177
+  - 0.929
+  - 0.392
+  layers:
+  - - 0.0
+    - 7.27
+    - 8.31
+    - null
+    - thick: 7.27
+  - - 7.27
+    - 12.91
+    - 3.2
+    - null
+    - thick: 5.64
+  - - 12.91
+    - 45.57
+    - 8.18
+    - null
+    - thick: 32.66
+  - - 45.57
+    - 110.01
+    - 1.38
+    - null
+    - thick: 64.44
+  - - 110.01
+    - null
+    - 0.587
+- id: HS343-t1
+  site: HS343
+  model_id: HS343
+  page: 10
+  table: Table 1A
+  box:
+  - 0.06
+  - 0.3349
+  - 0.91
+  - 0.3549
+  interfaces:
+  - - 46.0
+    - upper
+  - - 110.0
+    - lower
+  notes: Upper unit resistivity 1.4 ohm.m. Lower unit resistivity 0.6 ohm.m.
+- id: HS344
+  name: TDEM station HS344 (Ein Fascha, Dead Sea, Ein Fashkha)
+  xy:
+  - 19340
+  - 12500
+  page: 59
+  box:
+  - 0.07900000000000001
+  - 0.193
+  - 0.912
+  - 0.408
+  layers:
+  - - 0.0
+    - 42.58
+    - 2.14
+    - null
+    - thick: 42.58
+  - - 42.58
+    - null
+    - 0.466
+  notes: 'Author''s remark: Possibly gradient layer.'
+- id: HS344-t1
+  site: HS344
+  model_id: HS344
+  page: 10
+  table: Table 1A
+  box:
+  - 0.06
+  - 0.3508
+  - 0.91
+  - 0.3708
+  interfaces:
+  - - 0.0
+    - upper
+  notes: 'Upper unit: two sub-layers, 2.1 ohm.m from 0 m and 0.5 ohm.m from 43 m; the shallower depth is stored.
+    Author''s remark: Possibly gradient layer.'
+- id: HS345
+  name: TDEM station HS345 (Ein Fascha, Dead Sea, Ein Fashkha)
+  xy:
+  - 19317
+  - 12450
+  page: 60
+  box:
+  - 0.07100000000000001
+  - 0.167
+  - 0.904
+  - 0.382
+  layers:
+  - - 0.0
+    - 7.75
+    - 4.0
+    - null
+    - thick: 7.75
+  - - 7.75
+    - 15.97
+    - 0.753
+    - null
+    - thick: 8.22
+  - - 15.97
+    - 43.29
+    - 0.355
+    - null
+    - thick: 27.32
+  - - 43.29
+    - null
+    - 4.39
+  notes: 'Author''s remark: Possibly gradient layer.'
+- id: HS345-t1
+  site: HS345
+  model_id: HS345
+  page: 10
+  table: Table 1A
+  box:
+  - 0.06
+  - 0.3664
+  - 0.91
+  - 0.3864
+  interfaces:
+  - - 8.0
+    - upper
+  notes: 'Upper unit: two sub-layers, 0.7 ohm.m from 8 m and 0.3 ohm.m from 16 m; the shallower depth is stored.
+    Author''s remark: Possibly gradient layer.'
+- id: HS346
+  name: TDEM station HS346 (Ein Fascha, Dead Sea, Ein Fashkha)
+  xy:
+  - 19300
+  - 12455
+  page: 61
+  box:
+  - 0.08599999999999997
+  - 0.227
+  - 0.918
+  - 0.443
+  layers:
+  - - 0.0
+    - 1.34
+    - 1.74
+    - null
+    - thick: 1.34
+  - - 1.34
+    - 12.64
+    - 20.13
+    - null
+    - thick: 11.3
+  - - 12.64
+    - 19.94
+    - 0.437
+    - null
+    - thick: 7.3
+  - - 19.94
+    - 31.0
+    - 6.96
+    - null
+    - thick: 11.06
+  - - 31.0
+    - null
+    - 1.79
+- id: HS346-t1
+  site: HS346
+  model_id: HS346
+  page: 10
+  table: Table 1A
+  box:
+  - 0.06
+  - 0.3823
+  - 0.91
+  - 0.4023
+  interfaces:
+  - - 13.0
+    - upper
+  - - 31.0
+    - lower
+  notes: Upper unit resistivity 0.4 ohm.m. Lower unit resistivity 1.8 ohm.m.
+- id: HS347
+  name: TDEM station HS347 (Ein Fascha, Dead Sea, Ein Fashkha)
+  xy:
+  - 19325
+  - 12415
+  page: 62
+  box:
+  - 0.07300000000000001
+  - 0.187
+  - 0.906
+  - 0.403
+  layers:
+  - - 0.0
+    - 1.01
+    - 0.133
+    - null
+    - thick: 1.01
+  - - 1.01
+    - null
+    - 0.261
+  confidence: C
+  notes: 'Author''s remark: Tx loop is too close to sea; distorted (Table 1B).'
+- id: HS348
+  name: TDEM station HS348 (Ein Fascha, Dead Sea, Ein Fashkha)
+  xy:
+  - 19270
+  - 12302
+  page: 63
+  box:
+  - 0.11599999999999999
+  - 0.236
+  - 0.9530000000000001
+  - 0.452
+  layers:
+  - - 0.0
+    - 5.43
+    - 7.47
+    - null
+    - thick: 5.43
+  - - 5.43
+    - null
+    - 0.839
+- id: HS348-t1
+  site: HS348
+  model_id: HS348
+  page: 10
+  table: Table 1A
+  box:
+  - 0.06
+  - 0.3969
+  - 0.91
+  - 0.4169
+  interfaces:
+  - - 5.0
+    - upper
+  notes: Upper unit resistivity 0.8 ohm.m.
+- id: HS349
+  name: TDEM station HS349 (Bustan Hagalil, western Galilee coast)
+  xy:
+  - 15840
+  - 26110
+  page: 64
+  box:
+  - 0.131
+  - 0.157
+  - 0.966
+  - 0.373
+  layers:
+  - - 0.0
+    - 3.09
+    - 4.82
+    - null
+    - thick: 3.09
+  - - 3.09
+    - 42.88
+    - 11.45
+    - null
+    - thick: 39.79
+  - - 42.88
+    - 60.92
+    - 1.23
+    - null
+    - thick: 18.04
+  - - 60.92
+    - 173.52
+    - 0.673
+    - null
+    - thick: 112.6
+  - - 173.52
+    - null
+    - 35.5
+  notes: 'Author''s remark: Possibly gradient layer.'
+- id: HS349-t1
+  site: HS349
+  model_id: HS349
+  page: 10
+  table: Table 1A
+  box:
+  - 0.06
+  - 0.1804
+  - 0.91
+  - 0.2004
+  interfaces:
+  - - 43.0
+    - upper
+  notes: 'Upper unit: two sub-layers, 1.2 ohm.m from 43 m and 0.7 ohm.m from 61 m; the shallower depth is stored.
+    Author''s remark: Possibly gradient layer.'
+- id: HS350
+  name: TDEM station HS350 (Bustan Hagalil, western Galilee coast)
+  xy:
+  - 15780
+  - 26160
+  page: 65
+  box:
+  - 0.11399999999999999
+  - 0.197
+  - 0.9490000000000001
+  - 0.412
+  layers:
+  - - 0.0
+    - 15.57
+    - 3.44
+    - null
+    - thick: 15.57
+  - - 15.57
+    - 42.47
+    - 4.57
+    - null
+    - thick: 26.9
+  - - 42.47
+    - 92.02
+    - 1.89
+    - null
+    - thick: 49.55
+  - - 92.02
+    - null
+    - 1.18
+  notes: 'Author''s remark: Possibly gradient layer.'
+- id: HS350-t1
+  site: HS350
+  model_id: HS350
+  page: 10
+  table: Table 1A
+  box:
+  - 0.06
+  - 0.1963
+  - 0.91
+  - 0.2163
+  interfaces:
+  - - 42.0
+    - upper
+  notes: 'Upper unit: two sub-layers, 1.9 ohm.m from 42 m and 1.2 ohm.m from 92 m; the shallower depth is stored.
+    Author''s remark: Possibly gradient layer.'
+- id: HS351
+  name: TDEM station HS351 (Bustan Hagalil, western Galilee coast)
+  xy:
+  - 15746
+  - 26260
+  page: 66
+  box:
+  - 0.124
+  - 0.235
+  - 0.959
+  - 0.451
+  layers:
+  - - 0.0
+    - 17.43
+    - 2.98
+    - null
+    - thick: 17.43
+  - - 17.43
+    - 27.16
+    - 1.15
+    - null
+    - thick: 9.73
+  - - 27.16
+    - 35.25
+    - 30.3
+    - null
+    - thick: 8.09
+  - - 35.25
+    - 63.53
+    - 2.06
+    - null
+    - thick: 28.28
+  - - 63.53
+    - null
+    - 4.51
+  notes: 'Author''s remark: Possibly gradient layer.'
+- id: HS351-t1
+  site: HS351
+  model_id: HS351
+  page: 10
+  table: Table 1A
+  box:
+  - 0.06
+  - 0.211
+  - 0.91
+  - 0.231
+  interfaces:
+  - - 0.0
+    - upper
+  - - 35.0
+    - lower
+  notes: 'Upper unit: two sub-layers, 3.0 ohm.m from 0 m and 1.1 ohm.m from 17 m; the shallower depth is stored.
+    Lower unit resistivity 2.1 ohm.m. Author''s remark: Possibly gradient layer.'
+- id: HS352
+  name: TDEM station HS352 (Shvei Zion, western Galilee coast)
+  xy:
+  - 15780
+  - 26422
+  page: 67
+  box:
+  - 0.14
+  - 0.242
+  - 0.974
+  - 0.457
+  layers:
+  - - 0.0
+    - 7.21
+    - 4.36
+    - null
+    - thick: 7.21
+  - - 7.21
+    - 18.23
+    - 11.42
+    - null
+    - thick: 11.02
+  - - 18.23
+    - 34.33
+    - 1.65
+    - null
+    - thick: 16.1
+  - - 34.33
+    - 125.59
+    - 4.55
+    - null
+    - thick: 91.26
+  - - 125.59
+    - null
+    - 2.58
+- id: HS352-t1
+  site: HS352
+  model_id: HS352
+  page: 10
+  table: Table 1A
+  box:
+  - 0.06
+  - 0.2263
+  - 0.91
+  - 0.2463
+  interfaces:
+  - - 18.0
+    - upper
+  - - 126.0
+    - lower
+  notes: Upper unit resistivity 1.6 ohm.m. Lower unit resistivity 2.6 ohm.m.
+- id: HS353
+  name: TDEM station HS353 (Nahariya, western Galilee coast)
+  xy:
+  - 15929
+  - 27057
+  page: 68
+  box:
+  - 0.119
+  - 0.218
+  - 0.9550000000000001
+  - 0.433
+  layers:
+  - - 0.0
+    - 6.75
+    - 27.38
+    - null
+    - thick: 6.75
+  - - 6.75
+    - 82.72
+    - 5.37
+    - null
+    - thick: 75.97
+  - - 82.72
+    - null
+    - 2.73
+- id: HS353-t1
+  site: HS353
+  model_id: HS353
+  page: 10
+  table: Table 1A
+  box:
+  - 0.06
+  - 0.2422
+  - 0.91
+  - 0.2622
+  interfaces:
+  - - 83.0
+    - upper
+  notes: Upper unit resistivity 2.7 ohm.m.
+- id: HS354
+  name: TDEM station HS354 (Betzet, western Galilee coast)
+  xy:
+  - 16074
+  - 27505
+  page: 69
+  box:
+  - 0.08599999999999997
+  - 0.143
+  - 0.92
+  - 0.359
+  layers:
+  - - 0.0
+    - 4.9
+    - 3.84
+    - null
+    - thick: 4.9
+  - - 4.9
+    - 39.23
+    - 21.66
+    - null
+    - thick: 34.33
+  - - 39.23
+    - 105.47
+    - 1.85
+    - null
+    - thick: 66.24
+  - - 105.47
+    - null
+    - 9.98
+- id: HS354-t1
+  site: HS354
+  model_id: HS354
+  page: 10
+  table: Table 1A
+  box:
+  - 0.06
+  - 0.2575
+  - 0.91
+  - 0.2775
+  interfaces:
+  - - 39.0
+    - upper
+  notes: Upper unit resistivity 1.8 ohm.m.
+- id: HS355
+  name: TDEM station HS355 (Rosh Hanikra, western Galilee coast)
+  xy:
+  - 16043
+  - 27629
+  page: 70
+  box:
+  - 0.11699999999999999
+  - 0.223
+  - 0.9520000000000001
+  - 0.438
+  layers:
+  - - 0.0
+    - 25.7
+    - 9.58
+    - null
+    - thick: 25.7
+  - - 25.7
+    - 129.0
+    - 20.09
+    - null
+    - thick: 103.3
+  - - 129.0
+    - null
+    - 4.74
+  notes: 'Author''s remark: No interface (Table 1B).'
+- id: HS356
+  name: TDEM station HS356 (Shvei Zion, western Galilee coast)
+  xy:
+  - 15810
+  - 26423
+  page: 71
+  box:
+  - 0.10099999999999998
+  - 0.208
+  - 0.934
+  - 0.424
+  layers:
+  - - 0.0
+    - 8.89
+    - 4.98
+    - null
+    - thick: 8.89
+  - - 8.89
+    - 20.22
+    - 27.66
+    - null
+    - thick: 11.33
+  - - 20.22
+    - 128.62
+    - 5.85
+    - null
+    - thick: 108.4
+  - - 128.62
+    - null
+    - 3.23
+  notes: 'Author''s remark: No interface (Table 1B).'
+- id: HS357
+  name: TDEM station HS357 (Rosh Hanikra, western Galilee coast)
+  xy:
+  - 16079
+  - 27618
+  page: 72
+  box:
+  - 0.04799999999999999
+  - 0.183
+  - 0.937
+  - 0.398
+  layers:
+  - - 0.0
+    - 21.88
+    - 5.58
+    - null
+    - thick: 21.88
+  - - 21.88
+    - 34.9
+    - 22.67
+    - null
+    - thick: 13.02
+  - - 34.9
+    - 91.69
+    - 2.85
+    - null
+    - thick: 56.79
+  - - 91.69
+    - null
+    - 108.1
+- id: HS357-t1
+  site: HS357
+  model_id: HS357
+  page: 10
+  table: Table 1A
+  box:
+  - 0.06
+  - 0.2728
+  - 0.91
+  - 0.2928
+  interfaces:
+  - - 35.0
+    - upper
+  notes: Upper unit resistivity 2.8 ohm.m.
+- id: HS358
+  name: TDEM station HS358 (Rosh Hanikra, western Galilee coast)
+  xy:
+  - 16234
+  - 27598
+  page: 73
+  box:
+  - 0.07300000000000001
+  - 0.166
+  - 0.961
+  - 0.382
+  layers:
+  - - 0.0
+    - 10.22
+    - 8.49
+    - null
+    - thick: 10.22
+  - - 10.22
+    - 75.65
+    - 12.2
+    - null
+    - thick: 65.43
+  - - 75.65
+    - 160.5
+    - 3.81
+    - null
+    - thick: 84.85
+  - - 160.5
+    - null
+    - 114.4
+  notes: 'Author''s remark: No interface (Table 1B).'
