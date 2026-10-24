@@ -1,0 +1,593 @@
+id: goldman-1998-tdem-coastal-monitoring
+name: Electromagnetic survey to monitor the interfaces in the coastal aquifer
+organisation: Geophysical Institute of Israel (GII)
+client: Hydrological Service
+authors:
+- M. Goldman
+- D. Gilad
+- M. Ezersky
+report_number: GII 909/169/96
+year: 1998
+acquired: '1997'
+methods:
+- TEM
+region: Mediterranean coast, Alei Sinai and Ashqelon to Caesarea
+purpose: Depth to the low-resistivity unit(s) associated with seawater intrusion and/or the Saqiye clays
+geometry: stations
+depth_reach: about 200-230 m (deepest layer boundary)
+acquisition:
+  instruments: Geonics PROTEM
+  loops: 50 x 50 m to 200 x 200 m transmitter loops (Table 1)
+documents:
+- id: main
+  title: Electromagnetic survey to monitor the interfaces in the coastal aquifer (in Hebrew, January 1998; tables
+    and appendix in English)
+  filename: Goldman-M-Electromagnetic-Survey-Monitor-Interfaces-Coastal-Aquifer-GII-Rep-909-169-96-1998.pdf
+  drive_id: 1vBLgKaUFISsx1a04nUorO8PamQpYC_50
+  language:
+  - he
+  - en
+  scanned: true
+  role: main_report
+  sha256: 2caec0117c188ef7f330d75407dfba14b2aef0f5a2a98a256a51e2353ab30a33
+  pages: 40
+notes: Stations HS403-HS462. Table 1 (pages 4-5) gives the coordinates and elevations, Table 2 (pages 6-7) the author's
+  depths and resistivities of the upper and lower low-resistivity units, and the appendix (pages 9-38) the layered
+  inversion printout of each interpreted station. The layered models were typed from the printouts; Table 2 depths
+  are stored as separate interface depths and agree with the printouts to within rounding, except where the dataset
+  notes say otherwise. Not stored as models are HS410, HS412, HS421 and HS446 (noisy, not interpreted), HS429 and
+  HS430 (no printout; only their Table 2 depths are stored). The printout on page 30 under HS446 repeats HS445's
+  model and is marked not interpreted, so it is not used. Stations the author marks as noisy are at confidence C.
+extraction_status: complete
+sites:
+- id: HS403
+  name: TDEM station HS403 (Ashdod)
+  coords:
+    x: 118446
+    y: 140421
+    crs: EPSG:28193
+    source: table
+    accuracy_m: 10
+  elevation_m: 4.0
+- id: HS404
+  name: TDEM station HS404 (Ashdod (N))
+  coords:
+    x: 118275
+    y: 140503
+    crs: EPSG:28193
+    source: table
+    accuracy_m: 10
+  elevation_m: 2.5
+- id: HS405
+  name: TDEM station HS405 (Ashdod)
+  coords:
+    x: 117014
+    y: 135989
+    crs: EPSG:28193
+    source: table
+    accuracy_m: 10
+  elevation_m: 16.0
+- id: HS406
+  name: TDEM station HS406 (Ashdod)
+  coords:
+    x: 115916
+    y: 135178
+    crs: EPSG:28193
+    source: table
+    accuracy_m: 10
+  elevation_m: 4.5
+- id: HS407
+  name: TDEM station HS407 (Ashdod)
+  coords:
+    x: 115257
+    y: 133498
+    crs: EPSG:28193
+    source: table
+    accuracy_m: 10
+  elevation_m: 13.5
+- id: HS408
+  name: TDEM station HS408 (Ashdod)
+  coords:
+    x: 115079
+    y: 133542
+    crs: EPSG:28193
+    source: table
+    accuracy_m: 10
+  elevation_m: 0.5
+- id: HS409
+  name: TDEM station HS409 (Ashdod)
+  coords:
+    x: 114314
+    y: 131660
+    crs: EPSG:28193
+    source: table
+    accuracy_m: 100
+  elevation_m: 12.0
+  notes: Table 1 prints this station's coordinate with 5 digits (units of 10 m) instead of the 6-digit metres used
+    for GPS-located stations, so the position is less precise.
+- id: HS411A
+  name: TDEM station HS411A (Rishpon)
+  coords:
+    x: 133200
+    y: 179250
+    crs: EPSG:28193
+    source: table
+    accuracy_m: 100
+  elevation_m: 41.0
+  notes: Table 1 prints this station's coordinates with 5 digits (units of 10 m) instead of the 6-digit metres used
+    for GPS-located stations, so the position is less precise. The printout footer gives 133200/179350, about 100
+    m north of the Table 1 position used here.
+- id: HS413
+  name: TDEM station HS413 (Rishpon (beach))
+  coords:
+    x: 132645
+    y: 179682
+    crs: EPSG:28193
+    source: table
+    accuracy_m: 350
+  elevation_m: 41.5
+  notes: The printout footer gives 132638/179361, about 320 m south of the Table 1 position used here.
+- id: HS414
+  name: TDEM station HS414 (Rishpon)
+  coords:
+    x: 133492
+    y: 179517
+    crs: EPSG:28193
+    source: table
+    accuracy_m: 10
+  elevation_m: 37.5
+- id: HS415
+  name: TDEM station HS415 (Ga'ash)
+  coords:
+    x: 134185
+    y: 182860
+    crs: EPSG:28193
+    source: table
+    accuracy_m: 100
+  elevation_m: 25.5
+  notes: Table 1 prints this station's coordinate with 5 digits (units of 10 m) instead of the 6-digit metres used
+    for GPS-located stations, so the position is less precise.
+- id: HS416
+  name: TDEM station HS416 (Ashqelon)
+  coords:
+    x: 107224
+    y: 117580
+    crs: EPSG:28193
+    source: table
+    accuracy_m: 100
+  elevation_m: 41.5
+  notes: Table 1 prints this station's coordinate with 5 digits (units of 10 m) instead of the 6-digit metres used
+    for GPS-located stations, so the position is less precise.
+- id: HS417
+  name: TDEM station HS417 (Ashqelon)
+  coords:
+    x: 107264
+    y: 118085
+    crs: EPSG:28193
+    source: table
+    accuracy_m: 10
+  elevation_m: 38.0
+- id: HS418
+  name: TDEM station HS418 (Ashqelon)
+  coords:
+    x: 107212
+    y: 117838
+    crs: EPSG:28193
+    source: table
+    accuracy_m: 10
+  elevation_m: 40.5
+- id: HS419
+  name: TDEM station HS419 (Bat-Yam)
+  coords:
+    x: 125427
+    y: 157190
+    crs: EPSG:28193
+    source: table
+    accuracy_m: 100
+  elevation_m: 7.5
+  notes: Table 1 prints this station's coordinate with 5 digits (units of 10 m) instead of the 6-digit metres used
+    for GPS-located stations, so the position is less precise.
+- id: HS420
+  name: TDEM station HS420 (Bat-Yam)
+  coords:
+    x: 126746
+    y: 158051
+    crs: EPSG:28193
+    source: table
+    accuracy_m: 10
+  elevation_m: 31.5
+- id: HS422
+  name: TDEM station HS422 (Palmakhim)
+  coords:
+    x: 121610
+    y: 148120
+    crs: EPSG:28193
+    source: table
+    accuracy_m: 100
+  elevation_m: 13.0
+  notes: Table 1 prints this station's coordinates with 5 digits (units of 10 m) instead of the 6-digit metres used
+    for GPS-located stations, so the position is less precise.
+- id: HS423
+  name: TDEM station HS423 (Sde-Dov)
+  coords:
+    x: 129430
+    y: 169120
+    crs: EPSG:28193
+    source: table
+    accuracy_m: 100
+  elevation_m: 4.0
+  notes: Table 1 prints this station's coordinates with 5 digits (units of 10 m) instead of the 6-digit metres used
+    for GPS-located stations, so the position is less precise.
+- id: HS424
+  name: TDEM station HS424 (Hertzliya (S))
+  coords:
+    x: 130991
+    y: 173280
+    crs: EPSG:28193
+    source: table
+    accuracy_m: 100
+  elevation_m: 19.0
+  notes: Table 1 prints this station's coordinate with 5 digits (units of 10 m) instead of the 6-digit metres used
+    for GPS-located stations, so the position is less precise.
+- id: HS425
+  name: TDEM station HS425 (Kiryat Khinukh)
+  coords:
+    x: 130250
+    y: 171170
+    crs: EPSG:28193
+    source: table
+    accuracy_m: 100
+  elevation_m: 19.0
+  notes: Table 1 prints this station's coordinates with 5 digits (units of 10 m) instead of the 6-digit metres used
+    for GPS-located stations, so the position is less precise.
+- id: HS426
+  name: TDEM station HS426 (Hertzliya (S))
+  coords:
+    x: 131177
+    y: 173230
+    crs: EPSG:28193
+    source: table
+    accuracy_m: 100
+  elevation_m: 22.5
+  notes: Table 1 prints this station's coordinate with 5 digits (units of 10 m) instead of the 6-digit metres used
+    for GPS-located stations, so the position is less precise.
+- id: HS427
+  name: TDEM station HS427 (Hertzliya)
+  coords:
+    x: 131580
+    y: 174620
+    crs: EPSG:28193
+    source: table
+    accuracy_m: 100
+  elevation_m: 14.0
+  notes: Table 1 prints this station's coordinates with 5 digits (units of 10 m) instead of the 6-digit metres used
+    for GPS-located stations, so the position is less precise.
+- id: HS428
+  name: TDEM station HS428 (Hertzliya)
+  coords:
+    x: 131250
+    y: 174680
+    crs: EPSG:28193
+    source: table
+    accuracy_m: 100
+  elevation_m: 9.0
+  notes: Table 1 prints this station's coordinates with 5 digits (units of 10 m) instead of the 6-digit metres used
+    for GPS-located stations, so the position is less precise.
+- id: HS431
+  name: TDEM station HS431 (Hof Zikim)
+  coords:
+    x: 103116
+    y: 113504
+    crs: EPSG:28193
+    source: table
+    accuracy_m: 10
+  elevation_m: 2.5
+- id: HS432
+  name: TDEM station HS432 (Hof Zikim)
+  coords:
+    x: 103363
+    y: 113428
+    crs: EPSG:28193
+    source: table
+    accuracy_m: 10
+  elevation_m: 3.0
+- id: HS433
+  name: TDEM station HS433 (Zikim)
+  coords:
+    x: 103954
+    y: 114487
+    crs: EPSG:28193
+    source: table
+    accuracy_m: 10
+  elevation_m: 5.0
+- id: HS434
+  name: TDEM station HS434 (Zikim)
+  coords:
+    x: 104122
+    y: 114378
+    crs: EPSG:28193
+    source: table
+    accuracy_m: 10
+  elevation_m: 11.0
+- id: HS435
+  name: TDEM station HS435 (Netanya (S))
+  coords:
+    x: 135505
+    y: 188555
+    crs: EPSG:28193
+    source: table
+    accuracy_m: 10
+  elevation_m: 41.5
+- id: HS436
+  name: TDEM station HS436 (Netanya (S))
+  coords:
+    x: 136280
+    y: 190674
+    crs: EPSG:28193
+    source: table
+    accuracy_m: 100
+  elevation_m: 47.0
+  notes: Table 1 prints this station's coordinate with 5 digits (units of 10 m) instead of the 6-digit metres used
+    for GPS-located stations, so the position is less precise.
+- id: HS437
+  name: TDEM station HS437 (Netanya (S))
+  coords:
+    x: 135898
+    y: 190983
+    crs: EPSG:28193
+    source: table
+    accuracy_m: 10
+  elevation_m: 40.0
+- id: HS438
+  name: TDEM station HS438 (Rishpon)
+  coords:
+    x: 133824
+    y: 179514
+    crs: EPSG:28193
+    source: table
+    accuracy_m: 10
+  elevation_m: 45.0
+- id: HS439
+  name: TDEM station HS439 (Netanya (N))
+  coords:
+    x: 137297
+    y: 194806
+    crs: EPSG:28193
+    source: table
+    accuracy_m: 10
+  elevation_m: 20.5
+- id: HS440
+  name: TDEM station HS440 (Beitan Aharon)
+  coords:
+    x: 137468
+    y: 196850
+    crs: EPSG:28193
+    source: table
+    accuracy_m: 100
+  elevation_m: 13.0
+  notes: Table 1 prints this station's coordinate with 5 digits (units of 10 m) instead of the 6-digit metres used
+    for GPS-located stations, so the position is less precise.
+- id: HS441
+  name: TDEM station HS441 (Bet Yanai)
+  coords:
+    x: 137888
+    y: 199255
+    crs: EPSG:28193
+    source: table
+    accuracy_m: 10
+  elevation_m: 6.0
+- id: HS442
+  name: TDEM station HS442 (Givat Olga)
+  coords:
+    x: 139081
+    y: 204636
+    crs: EPSG:28193
+    source: table
+    accuracy_m: 10
+  elevation_m: 15.0
+- id: HS443
+  name: TDEM station HS443 (Givat Olga)
+  coords:
+    x: 139304
+    y: 204138
+    crs: EPSG:28193
+    source: table
+    accuracy_m: 10
+  elevation_m: 14.0
+- id: HS444
+  name: TDEM station HS444 (Takhanat Koakh Hadera)
+  coords:
+    x: 139800
+    y: 207700
+    crs: EPSG:28193
+    source: table
+    accuracy_m: 100
+  elevation_m: 6.5
+  notes: Table 1 prints this station's coordinates with 5 digits (units of 10 m) instead of the 6-digit metres used
+    for GPS-located stations, so the position is less precise.
+- id: HS445
+  name: TDEM station HS445 (Takhanat Koakh Hadera)
+  coords:
+    x: 139900
+    y: 207113
+    crs: EPSG:28193
+    source: table
+    accuracy_m: 100
+  elevation_m: 12.0
+  notes: Table 1 prints this station's coordinate with 5 digits (units of 10 m) instead of the 6-digit metres used
+    for GPS-located stations, so the position is less precise.
+- id: HS447
+  name: TDEM station HS447 (Poleg, Hof Hayarok)
+  coords:
+    x: 134670
+    y: 187122
+    crs: EPSG:28193
+    source: table
+    accuracy_m: 100
+  elevation_m: 8.5
+  notes: Table 1 prints this station's coordinate with 5 digits (units of 10 m) instead of the 6-digit metres used
+    for GPS-located stations, so the position is less precise.
+- id: HS448
+  name: TDEM station HS448 (Poleg)
+  coords:
+    x: 134820
+    y: 187100
+    crs: EPSG:28193
+    source: table
+    accuracy_m: 100
+  notes: Table 1 prints this station's coordinates with 5 digits (units of 10 m) instead of the 6-digit metres used
+    for GPS-located stations, so the position is less precise.
+- id: HS449
+  name: TDEM station HS449 (Poleg)
+  coords:
+    x: 135057
+    y: 187070
+    crs: EPSG:28193
+    source: table
+    accuracy_m: 100
+  elevation_m: 9.5
+  notes: Table 1 prints this station's coordinate with 5 digits (units of 10 m) instead of the 6-digit metres used
+    for GPS-located stations, so the position is less precise.
+- id: HS450
+  name: TDEM station HS450 (Ga'ash)
+  coords:
+    x: 134536
+    y: 182581
+    crs: EPSG:28193
+    source: table
+    accuracy_m: 10
+  elevation_m: 29.5
+- id: HS451
+  name: TDEM station HS451 (Netanya (S))
+  coords:
+    x: 135638
+    y: 188408
+    crs: EPSG:28193
+    source: table
+    accuracy_m: 10
+  elevation_m: 34.5
+- id: HS452
+  name: TDEM station HS452 (Betan Aharon)
+  coords:
+    x: 137651
+    y: 196937
+    crs: EPSG:28193
+    source: table
+    accuracy_m: 10
+  elevation_m: 14.5
+- id: HS453
+  name: TDEM station HS453 (Hofit)
+  coords:
+    x: 138030
+    y: 198800
+    crs: EPSG:28193
+    source: table
+    accuracy_m: 100
+  elevation_m: 9.0
+  notes: Table 1 prints this station's coordinates with 5 digits (units of 10 m) instead of the 6-digit metres used
+    for GPS-located stations, so the position is less precise.
+- id: HS454
+  name: TDEM station HS454 (Mikhmoret)
+  coords:
+    x: 138410
+    y: 200230
+    crs: EPSG:28193
+    source: table
+    accuracy_m: 100
+  elevation_m: 6.0
+  notes: Table 1 prints this station's coordinates with 5 digits (units of 10 m) instead of the 6-digit metres used
+    for GPS-located stations, so the position is less precise.
+- id: HS455
+  name: TDEM station HS455 (Katza (Ashqelon))
+  coords:
+    x: 105293
+    y: 115825
+    crs: EPSG:28193
+    source: table
+    accuracy_m: 10
+  elevation_m: 14.0
+- id: HS456
+  name: TDEM station HS456 (Katza (Ashqelon))
+  coords:
+    x: 105579
+    y: 115881
+    crs: EPSG:28193
+    source: table
+    accuracy_m: 10
+  elevation_m: 21.0
+- id: HS457
+  name: TDEM station HS457 (Ashqelon (S))
+  coords:
+    x: 104507
+    y: 114266
+    crs: EPSG:28193
+    source: table
+    accuracy_m: 10
+  elevation_m: 22.5
+- id: HS458
+  name: TDEM station HS458 (Ashdod)
+  coords:
+    x: 115492
+    y: 133317
+    crs: EPSG:28193
+    source: table
+    accuracy_m: 10
+  elevation_m: 14.5
+- id: HS459
+  name: TDEM station HS459 (Caesaria)
+  coords:
+    x: 140302
+    y: 211513
+    crs: EPSG:28193
+    source: table
+    accuracy_m: 10
+  elevation_m: 7.0
+- id: HS460
+  name: TDEM station HS460 (Mikhmoret)
+  coords:
+    x: 139275
+    y: 202471
+    crs: EPSG:28193
+    source: table
+    accuracy_m: 10
+  elevation_m: 21.5
+- id: HS461
+  name: TDEM station HS461 (Mikhmoret)
+  coords:
+    x: 138567
+    y: 202743
+    crs: EPSG:28193
+    source: table
+    accuracy_m: 10
+  elevation_m: 14.0
+- id: HS462
+  name: TDEM station HS462 (Mikhmoret)
+  coords:
+    x: 138108
+    y: 200442
+    crs: EPSG:28193
+    source: table
+    accuracy_m: 10
+  elevation_m: 4.0
+- id: HS429
+  name: TDEM station HS429 (Nof-Yam)
+  coords:
+    x: 132234
+    y: 177480
+    crs: EPSG:28193
+    source: table
+    accuracy_m: 100
+  elevation_m: 20.5
+  notes: Table 1 prints this station's coordinate with 5 digits (units of 10 m) instead of the 6-digit metres used
+    for GPS-located stations, so the position is less precise. No layered model is printed for this station; only
+    its Table 2 depths are stored.
+- id: HS430
+  name: TDEM station HS430 (Yakum)
+  coords:
+    x: 134805
+    y: 184085
+    crs: EPSG:28193
+    source: table
+    accuracy_m: 10
+  elevation_m: 18.5
+  notes: No layered model is printed for this station; only its Table 2 depths are stored.

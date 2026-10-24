@@ -1,0 +1,4706 @@
+[
+ {
+  "id": "goldman1998-HS403-layered",
+  "survey": "goldman-1998-tdem-coastal-monitoring",
+  "site": "HS403",
+  "method": "TEM",
+  "level": "L2",
+  "representation": "model_1d",
+  "measured_on": "1997",
+  "depth_max_m": 173.54,
+  "confidence": "A",
+  "status": "draft",
+  "model_type": "layered",
+  "layers": [
+   {
+    "top_m": 0.0,
+    "bottom_m": 10.86,
+    "rho_ohmm": 19.1961
+   },
+   {
+    "top_m": 10.86,
+    "bottom_m": 56.12,
+    "rho_ohmm": 112.636
+   },
+   {
+    "top_m": 56.12,
+    "bottom_m": 101.9,
+    "rho_ohmm": 3.02895
+   },
+   {
+    "top_m": 101.9,
+    "bottom_m": 173.54,
+    "rho_ohmm": 31.7397
+   },
+   {
+    "top_m": 173.54,
+    "bottom_m": null,
+    "rho_ohmm": 1.78282
+   }
+  ],
+  "provenance": {
+   "document": "main",
+   "pages": [
+    9
+   ],
+   "method": "manual",
+   "tool": "typed from the page at 200 dpi; geosigma.extract.printed_tables",
+   "extracted_on": "2026-10-24",
+   "notes": "Coordinates and elevations from Table 1 (pages 4-5). Depth = running sum of the printed thicknesses.",
+   "table": "Appendix (layered inversion printout: LAYER / RESISTIVITY / THICKNESS)"
+  }
+ },
+ {
+  "id": "goldman1998-HS404-layered",
+  "survey": "goldman-1998-tdem-coastal-monitoring",
+  "site": "HS404",
+  "method": "TEM",
+  "level": "L2",
+  "representation": "model_1d",
+  "measured_on": "1997",
+  "depth_max_m": 84.26,
+  "confidence": "A",
+  "status": "draft",
+  "model_type": "layered",
+  "layers": [
+   {
+    "top_m": 0.0,
+    "bottom_m": 13.19,
+    "rho_ohmm": 104.545
+   },
+   {
+    "top_m": 13.19,
+    "bottom_m": 22.24,
+    "rho_ohmm": 5.31156
+   },
+   {
+    "top_m": 22.24,
+    "bottom_m": 84.26,
+    "rho_ohmm": 1.63247
+   },
+   {
+    "top_m": 84.26,
+    "bottom_m": null,
+    "rho_ohmm": 19.0813
+   }
+  ],
+  "provenance": {
+   "document": "main",
+   "pages": [
+    9
+   ],
+   "method": "manual",
+   "tool": "typed from the page at 200 dpi; geosigma.extract.printed_tables",
+   "extracted_on": "2026-10-24",
+   "notes": "Coordinates and elevations from Table 1 (pages 4-5). Depth = running sum of the printed thicknesses.",
+   "table": "Appendix (layered inversion printout: LAYER / RESISTIVITY / THICKNESS)"
+  }
+ },
+ {
+  "id": "goldman1998-HS405-layered",
+  "survey": "goldman-1998-tdem-coastal-monitoring",
+  "site": "HS405",
+  "method": "TEM",
+  "level": "L2",
+  "representation": "model_1d",
+  "measured_on": "1997",
+  "depth_max_m": 155.84,
+  "confidence": "A",
+  "status": "draft",
+  "model_type": "layered",
+  "layers": [
+   {
+    "top_m": 0.0,
+    "bottom_m": 34.42,
+    "rho_ohmm": 61.0805
+   },
+   {
+    "top_m": 34.42,
+    "bottom_m": 69.65,
+    "rho_ohmm": 89.1458
+   },
+   {
+    "top_m": 69.65,
+    "bottom_m": 155.84,
+    "rho_ohmm": 10.2593
+   },
+   {
+    "top_m": 155.84,
+    "bottom_m": null,
+    "rho_ohmm": 4.61726
+   }
+  ],
+  "provenance": {
+   "document": "main",
+   "pages": [
+    10
+   ],
+   "method": "manual",
+   "tool": "typed from the page at 200 dpi; geosigma.extract.printed_tables",
+   "extracted_on": "2026-10-24",
+   "notes": "Coordinates and elevations from Table 1 (pages 4-5). Depth = running sum of the printed thicknesses.",
+   "table": "Appendix (layered inversion printout: LAYER / RESISTIVITY / THICKNESS)"
+  }
+ },
+ {
+  "id": "goldman1998-HS406-layered",
+  "survey": "goldman-1998-tdem-coastal-monitoring",
+  "site": "HS406",
+  "method": "TEM",
+  "level": "L2",
+  "representation": "model_1d",
+  "measured_on": "1997",
+  "depth_max_m": 107.12,
+  "confidence": "A",
+  "status": "draft",
+  "model_type": "layered",
+  "layers": [
+   {
+    "top_m": 0.0,
+    "bottom_m": 5.57,
+    "rho_ohmm": 20.1745
+   },
+   {
+    "top_m": 5.57,
+    "bottom_m": 26.84,
+    "rho_ohmm": 45.3367
+   },
+   {
+    "top_m": 26.84,
+    "bottom_m": 32.09,
+    "rho_ohmm": 11.7822
+   },
+   {
+    "top_m": 32.09,
+    "bottom_m": 66.48,
+    "rho_ohmm": 0.914608
+   },
+   {
+    "top_m": 66.48,
+    "bottom_m": 107.12,
+    "rho_ohmm": 1.81204
+   },
+   {
+    "top_m": 107.12,
+    "bottom_m": null,
+    "rho_ohmm": 1.17262
+   }
+  ],
+  "provenance": {
+   "document": "main",
+   "pages": [
+    10
+   ],
+   "method": "manual",
+   "tool": "typed from the page at 200 dpi; geosigma.extract.printed_tables",
+   "extracted_on": "2026-10-24",
+   "notes": "Coordinates and elevations from Table 1 (pages 4-5). Depth = running sum of the printed thicknesses.",
+   "table": "Appendix (layered inversion printout: LAYER / RESISTIVITY / THICKNESS)"
+  }
+ },
+ {
+  "id": "goldman1998-HS407-layered",
+  "survey": "goldman-1998-tdem-coastal-monitoring",
+  "site": "HS407",
+  "method": "TEM",
+  "level": "L2",
+  "representation": "model_1d",
+  "measured_on": "1997",
+  "depth_max_m": 155.86,
+  "confidence": "A",
+  "status": "draft",
+  "model_type": "layered",
+  "layers": [
+   {
+    "top_m": 0.0,
+    "bottom_m": 7.54,
+    "rho_ohmm": 26.1385
+   },
+   {
+    "top_m": 7.54,
+    "bottom_m": 46.65,
+    "rho_ohmm": 966.251
+   },
+   {
+    "top_m": 46.65,
+    "bottom_m": 124.22,
+    "rho_ohmm": 2.51584
+   },
+   {
+    "top_m": 124.22,
+    "bottom_m": 155.86,
+    "rho_ohmm": 14.4678
+   },
+   {
+    "top_m": 155.86,
+    "bottom_m": null,
+    "rho_ohmm": 2.90254
+   }
+  ],
+  "provenance": {
+   "document": "main",
+   "pages": [
+    11
+   ],
+   "method": "manual",
+   "tool": "typed from the page at 200 dpi; geosigma.extract.printed_tables",
+   "extracted_on": "2026-10-24",
+   "notes": "Coordinates and elevations from Table 1 (pages 4-5). Depth = running sum of the printed thicknesses.",
+   "table": "Appendix (layered inversion printout: LAYER / RESISTIVITY / THICKNESS)"
+  }
+ },
+ {
+  "id": "goldman1998-HS408-layered",
+  "survey": "goldman-1998-tdem-coastal-monitoring",
+  "site": "HS408",
+  "method": "TEM",
+  "level": "L2",
+  "representation": "model_1d",
+  "measured_on": "1997",
+  "depth_max_m": 145.56,
+  "confidence": "A",
+  "status": "draft",
+  "model_type": "layered",
+  "layers": [
+   {
+    "top_m": 0.0,
+    "bottom_m": 3.38,
+    "rho_ohmm": 7.28386
+   },
+   {
+    "top_m": 3.38,
+    "bottom_m": 27.32,
+    "rho_ohmm": 176.816
+   },
+   {
+    "top_m": 27.32,
+    "bottom_m": 36.12,
+    "rho_ohmm": 1.08489
+   },
+   {
+    "top_m": 36.12,
+    "bottom_m": 103.08,
+    "rho_ohmm": 1.93747
+   },
+   {
+    "top_m": 103.08,
+    "bottom_m": 145.56,
+    "rho_ohmm": 8.05217
+   },
+   {
+    "top_m": 145.56,
+    "bottom_m": null,
+    "rho_ohmm": 1.24225
+   }
+  ],
+  "provenance": {
+   "document": "main",
+   "pages": [
+    11
+   ],
+   "method": "manual",
+   "tool": "typed from the page at 200 dpi; geosigma.extract.printed_tables",
+   "extracted_on": "2026-10-24",
+   "notes": "Coordinates and elevations from Table 1 (pages 4-5). Depth = running sum of the printed thicknesses.",
+   "table": "Appendix (layered inversion printout: LAYER / RESISTIVITY / THICKNESS)"
+  }
+ },
+ {
+  "id": "goldman1998-HS409-layered",
+  "survey": "goldman-1998-tdem-coastal-monitoring",
+  "site": "HS409",
+  "method": "TEM",
+  "level": "L2",
+  "representation": "model_1d",
+  "measured_on": "1997",
+  "depth_max_m": 128.78,
+  "confidence": "A",
+  "status": "draft",
+  "model_type": "layered",
+  "layers": [
+   {
+    "top_m": 0.0,
+    "bottom_m": 2.27,
+    "rho_ohmm": 21.4358
+   },
+   {
+    "top_m": 2.27,
+    "bottom_m": 50.32,
+    "rho_ohmm": 153.331
+   },
+   {
+    "top_m": 50.32,
+    "bottom_m": 71.06,
+    "rho_ohmm": 3.0644
+   },
+   {
+    "top_m": 71.06,
+    "bottom_m": 128.78,
+    "rho_ohmm": 1.81673
+   },
+   {
+    "top_m": 128.78,
+    "bottom_m": null,
+    "rho_ohmm": 3.19146
+   }
+  ],
+  "provenance": {
+   "document": "main",
+   "pages": [
+    12
+   ],
+   "method": "manual",
+   "tool": "typed from the page at 200 dpi; geosigma.extract.printed_tables",
+   "extracted_on": "2026-10-24",
+   "notes": "Coordinates and elevations from Table 1 (pages 4-5). Depth = running sum of the printed thicknesses.",
+   "table": "Appendix (layered inversion printout: LAYER / RESISTIVITY / THICKNESS)"
+  }
+ },
+ {
+  "id": "goldman1998-HS411A-layered",
+  "survey": "goldman-1998-tdem-coastal-monitoring",
+  "site": "HS411A",
+  "method": "TEM",
+  "level": "L2",
+  "representation": "model_1d",
+  "measured_on": "1997",
+  "depth_max_m": 228.95,
+  "confidence": "A",
+  "status": "draft",
+  "model_type": "layered",
+  "layers": [
+   {
+    "top_m": 0.0,
+    "bottom_m": 52.21,
+    "rho_ohmm": 90.0079
+   },
+   {
+    "top_m": 52.21,
+    "bottom_m": 91.15,
+    "rho_ohmm": 27.2401
+   },
+   {
+    "top_m": 91.15,
+    "bottom_m": 138.85,
+    "rho_ohmm": 1.5707
+   },
+   {
+    "top_m": 138.85,
+    "bottom_m": 228.95,
+    "rho_ohmm": 7.67975
+   },
+   {
+    "top_m": 228.95,
+    "bottom_m": null,
+    "rho_ohmm": 1.48528
+   }
+  ],
+  "provenance": {
+   "document": "main",
+   "pages": [
+    13
+   ],
+   "method": "manual",
+   "tool": "typed from the page at 200 dpi; geosigma.extract.printed_tables",
+   "extracted_on": "2026-10-24",
+   "notes": "Coordinates and elevations from Table 1 (pages 4-5). Depth = running sum of the printed thicknesses.",
+   "table": "Appendix (layered inversion printout: LAYER / RESISTIVITY / THICKNESS)"
+  }
+ },
+ {
+  "id": "goldman1998-HS413-layered",
+  "survey": "goldman-1998-tdem-coastal-monitoring",
+  "site": "HS413",
+  "method": "TEM",
+  "level": "L2",
+  "representation": "model_1d",
+  "measured_on": "1997",
+  "depth_max_m": 140.12,
+  "confidence": "A",
+  "status": "draft",
+  "model_type": "layered",
+  "layers": [
+   {
+    "top_m": 0.0,
+    "bottom_m": 44.19,
+    "rho_ohmm": 108.565
+   },
+   {
+    "top_m": 44.19,
+    "bottom_m": 73.26,
+    "rho_ohmm": 24.7204
+   },
+   {
+    "top_m": 73.26,
+    "bottom_m": 140.12,
+    "rho_ohmm": 1.37505
+   },
+   {
+    "top_m": 140.12,
+    "bottom_m": null,
+    "rho_ohmm": 3.40815
+   }
+  ],
+  "provenance": {
+   "document": "main",
+   "pages": [
+    14
+   ],
+   "method": "manual",
+   "tool": "typed from the page at 200 dpi; geosigma.extract.printed_tables",
+   "extracted_on": "2026-10-24",
+   "notes": "Coordinates and elevations from Table 1 (pages 4-5). Depth = running sum of the printed thicknesses.",
+   "table": "Appendix (layered inversion printout: LAYER / RESISTIVITY / THICKNESS)"
+  }
+ },
+ {
+  "id": "goldman1998-HS414-layered",
+  "survey": "goldman-1998-tdem-coastal-monitoring",
+  "site": "HS414",
+  "method": "TEM",
+  "level": "L2",
+  "representation": "model_1d",
+  "measured_on": "1997",
+  "depth_max_m": 198.97,
+  "confidence": "C",
+  "status": "draft",
+  "model_type": "layered",
+  "layers": [
+   {
+    "top_m": 0.0,
+    "bottom_m": 95.08,
+    "rho_ohmm": 32.1224
+   },
+   {
+    "top_m": 95.08,
+    "bottom_m": 121.89,
+    "rho_ohmm": 1.11716
+   },
+   {
+    "top_m": 121.89,
+    "bottom_m": 198.97,
+    "rho_ohmm": 99.0782
+   },
+   {
+    "top_m": 198.97,
+    "bottom_m": null,
+    "rho_ohmm": 1.26446
+   }
+  ],
+  "provenance": {
+   "document": "main",
+   "pages": [
+    14
+   ],
+   "method": "manual",
+   "tool": "typed from the page at 200 dpi; geosigma.extract.printed_tables",
+   "extracted_on": "2026-10-24",
+   "notes": "Coordinates and elevations from Table 1 (pages 4-5). Depth = running sum of the printed thicknesses.",
+   "table": "Appendix (layered inversion printout: LAYER / RESISTIVITY / THICKNESS)"
+  },
+  "notes": "The author marks this sounding as noisy (Table 1 or Table 2)."
+ },
+ {
+  "id": "goldman1998-HS415-layered",
+  "survey": "goldman-1998-tdem-coastal-monitoring",
+  "site": "HS415",
+  "method": "TEM",
+  "level": "L2",
+  "representation": "model_1d",
+  "measured_on": "1997",
+  "depth_max_m": 159.12,
+  "confidence": "A",
+  "status": "draft",
+  "model_type": "layered",
+  "layers": [
+   {
+    "top_m": 0.0,
+    "bottom_m": 81.11,
+    "rho_ohmm": 46.5761
+   },
+   {
+    "top_m": 81.11,
+    "bottom_m": 99.46,
+    "rho_ohmm": 1.18211
+   },
+   {
+    "top_m": 99.46,
+    "bottom_m": 159.12,
+    "rho_ohmm": 51.7579
+   },
+   {
+    "top_m": 159.12,
+    "bottom_m": null,
+    "rho_ohmm": 2.1515
+   }
+  ],
+  "provenance": {
+   "document": "main",
+   "pages": [
+    15
+   ],
+   "method": "manual",
+   "tool": "typed from the page at 200 dpi; geosigma.extract.printed_tables",
+   "extracted_on": "2026-10-24",
+   "notes": "Coordinates and elevations from Table 1 (pages 4-5). Depth = running sum of the printed thicknesses.",
+   "table": "Appendix (layered inversion printout: LAYER / RESISTIVITY / THICKNESS)"
+  }
+ },
+ {
+  "id": "goldman1998-HS416-layered",
+  "survey": "goldman-1998-tdem-coastal-monitoring",
+  "site": "HS416",
+  "method": "TEM",
+  "level": "L2",
+  "representation": "model_1d",
+  "measured_on": "1997",
+  "depth_max_m": 203.06,
+  "confidence": "A",
+  "status": "draft",
+  "model_type": "layered",
+  "layers": [
+   {
+    "top_m": 0.0,
+    "bottom_m": 4.64,
+    "rho_ohmm": 14.3252
+   },
+   {
+    "top_m": 4.64,
+    "bottom_m": 122.76,
+    "rho_ohmm": 215.117
+   },
+   {
+    "top_m": 122.76,
+    "bottom_m": 189.43,
+    "rho_ohmm": 5.99377
+   },
+   {
+    "top_m": 189.43,
+    "bottom_m": 203.06,
+    "rho_ohmm": 21.9305
+   },
+   {
+    "top_m": 203.06,
+    "bottom_m": null,
+    "rho_ohmm": 2.23958
+   }
+  ],
+  "provenance": {
+   "document": "main",
+   "pages": [
+    15
+   ],
+   "method": "manual",
+   "tool": "typed from the page at 200 dpi; geosigma.extract.printed_tables",
+   "extracted_on": "2026-10-24",
+   "notes": "Coordinates and elevations from Table 1 (pages 4-5). Depth = running sum of the printed thicknesses.",
+   "table": "Appendix (layered inversion printout: LAYER / RESISTIVITY / THICKNESS)"
+  }
+ },
+ {
+  "id": "goldman1998-HS417-layered",
+  "survey": "goldman-1998-tdem-coastal-monitoring",
+  "site": "HS417",
+  "method": "TEM",
+  "level": "L2",
+  "representation": "model_1d",
+  "measured_on": "1997",
+  "depth_max_m": 209.46,
+  "confidence": "A",
+  "status": "draft",
+  "model_type": "layered",
+  "layers": [
+   {
+    "top_m": 0.0,
+    "bottom_m": 5.61,
+    "rho_ohmm": 21.2901
+   },
+   {
+    "top_m": 5.61,
+    "bottom_m": 101.33,
+    "rho_ohmm": 216.767
+   },
+   {
+    "top_m": 101.33,
+    "bottom_m": 112.73,
+    "rho_ohmm": 5.23811
+   },
+   {
+    "top_m": 112.73,
+    "bottom_m": 136.02,
+    "rho_ohmm": 1.35093
+   },
+   {
+    "top_m": 136.02,
+    "bottom_m": 209.46,
+    "rho_ohmm": 22.7717
+   },
+   {
+    "top_m": 209.46,
+    "bottom_m": null,
+    "rho_ohmm": 1.20625
+   }
+  ],
+  "provenance": {
+   "document": "main",
+   "pages": [
+    16
+   ],
+   "method": "manual",
+   "tool": "typed from the page at 200 dpi; geosigma.extract.printed_tables",
+   "extracted_on": "2026-10-24",
+   "notes": "Coordinates and elevations from Table 1 (pages 4-5). Depth = running sum of the printed thicknesses.",
+   "table": "Appendix (layered inversion printout: LAYER / RESISTIVITY / THICKNESS)"
+  }
+ },
+ {
+  "id": "goldman1998-HS418-layered",
+  "survey": "goldman-1998-tdem-coastal-monitoring",
+  "site": "HS418",
+  "method": "TEM",
+  "level": "L2",
+  "representation": "model_1d",
+  "measured_on": "1997",
+  "depth_max_m": 204.8,
+  "confidence": "A",
+  "status": "draft",
+  "model_type": "layered",
+  "layers": [
+   {
+    "top_m": 0.0,
+    "bottom_m": 5.82,
+    "rho_ohmm": 21.71
+   },
+   {
+    "top_m": 5.82,
+    "bottom_m": 108.15,
+    "rho_ohmm": 232.759
+   },
+   {
+    "top_m": 108.15,
+    "bottom_m": 123.63,
+    "rho_ohmm": 5.84977
+   },
+   {
+    "top_m": 123.63,
+    "bottom_m": 148.93,
+    "rho_ohmm": 2.09058
+   },
+   {
+    "top_m": 148.93,
+    "bottom_m": 204.8,
+    "rho_ohmm": 21.7959
+   },
+   {
+    "top_m": 204.8,
+    "bottom_m": null,
+    "rho_ohmm": 1.40537
+   }
+  ],
+  "provenance": {
+   "document": "main",
+   "pages": [
+    16
+   ],
+   "method": "manual",
+   "tool": "typed from the page at 200 dpi; geosigma.extract.printed_tables",
+   "extracted_on": "2026-10-24",
+   "notes": "Coordinates and elevations from Table 1 (pages 4-5). Depth = running sum of the printed thicknesses.",
+   "table": "Appendix (layered inversion printout: LAYER / RESISTIVITY / THICKNESS)"
+  }
+ },
+ {
+  "id": "goldman1998-HS419-layered",
+  "survey": "goldman-1998-tdem-coastal-monitoring",
+  "site": "HS419",
+  "method": "TEM",
+  "level": "L2",
+  "representation": "model_1d",
+  "measured_on": "1997",
+  "depth_max_m": 215.6,
+  "confidence": "A",
+  "status": "draft",
+  "model_type": "layered",
+  "layers": [
+   {
+    "top_m": 0.0,
+    "bottom_m": 8.86,
+    "rho_ohmm": 11.8717
+   },
+   {
+    "top_m": 8.86,
+    "bottom_m": 50.29,
+    "rho_ohmm": 112.865
+   },
+   {
+    "top_m": 50.29,
+    "bottom_m": 81.99,
+    "rho_ohmm": 2.33072
+   },
+   {
+    "top_m": 81.99,
+    "bottom_m": 215.6,
+    "rho_ohmm": 174.501
+   },
+   {
+    "top_m": 215.6,
+    "bottom_m": null,
+    "rho_ohmm": 2.58661
+   }
+  ],
+  "provenance": {
+   "document": "main",
+   "pages": [
+    17
+   ],
+   "method": "manual",
+   "tool": "typed from the page at 200 dpi; geosigma.extract.printed_tables",
+   "extracted_on": "2026-10-24",
+   "notes": "Coordinates and elevations from Table 1 (pages 4-5). Depth = running sum of the printed thicknesses.",
+   "table": "Appendix (layered inversion printout: LAYER / RESISTIVITY / THICKNESS)"
+  }
+ },
+ {
+  "id": "goldman1998-HS420-layered",
+  "survey": "goldman-1998-tdem-coastal-monitoring",
+  "site": "HS420",
+  "method": "TEM",
+  "level": "L2",
+  "representation": "model_1d",
+  "measured_on": "1997",
+  "depth_max_m": 72.23,
+  "confidence": "C",
+  "status": "draft",
+  "model_type": "layered",
+  "layers": [
+   {
+    "top_m": 0.0,
+    "bottom_m": 1.9,
+    "rho_ohmm": 3.85571
+   },
+   {
+    "top_m": 1.9,
+    "bottom_m": 32.98,
+    "rho_ohmm": 351.876
+   },
+   {
+    "top_m": 32.98,
+    "bottom_m": 72.23,
+    "rho_ohmm": 3.85039
+   },
+   {
+    "top_m": 72.23,
+    "bottom_m": null,
+    "rho_ohmm": 0.443271
+   }
+  ],
+  "provenance": {
+   "document": "main",
+   "pages": [
+    17
+   ],
+   "method": "manual",
+   "tool": "typed from the page at 200 dpi; geosigma.extract.printed_tables",
+   "extracted_on": "2026-10-24",
+   "notes": "Coordinates and elevations from Table 1 (pages 4-5). Depth = running sum of the printed thicknesses.",
+   "table": "Appendix (layered inversion printout: LAYER / RESISTIVITY / THICKNESS)"
+  },
+  "notes": "The author marks this sounding as noisy (Table 1 or Table 2)."
+ },
+ {
+  "id": "goldman1998-HS422-layered",
+  "survey": "goldman-1998-tdem-coastal-monitoring",
+  "site": "HS422",
+  "method": "TEM",
+  "level": "L2",
+  "representation": "model_1d",
+  "measured_on": "1997",
+  "depth_max_m": 216.31,
+  "confidence": "A",
+  "status": "draft",
+  "model_type": "layered",
+  "layers": [
+   {
+    "top_m": 0.0,
+    "bottom_m": 40.58,
+    "rho_ohmm": 221.366
+   },
+   {
+    "top_m": 40.58,
+    "bottom_m": 62.89,
+    "rho_ohmm": 2.83486
+   },
+   {
+    "top_m": 62.89,
+    "bottom_m": 102.21,
+    "rho_ohmm": 1.59828
+   },
+   {
+    "top_m": 102.21,
+    "bottom_m": 216.31,
+    "rho_ohmm": 54.2781
+   },
+   {
+    "top_m": 216.31,
+    "bottom_m": null,
+    "rho_ohmm": 1.03666
+   }
+  ],
+  "provenance": {
+   "document": "main",
+   "pages": [
+    18
+   ],
+   "method": "manual",
+   "tool": "typed from the page at 200 dpi; geosigma.extract.printed_tables",
+   "extracted_on": "2026-10-24",
+   "notes": "Coordinates and elevations from Table 1 (pages 4-5). Depth = running sum of the printed thicknesses.",
+   "table": "Appendix (layered inversion printout: LAYER / RESISTIVITY / THICKNESS)"
+  }
+ },
+ {
+  "id": "goldman1998-HS423-layered",
+  "survey": "goldman-1998-tdem-coastal-monitoring",
+  "site": "HS423",
+  "method": "TEM",
+  "level": "L2",
+  "representation": "model_1d",
+  "measured_on": "1997",
+  "depth_max_m": 157.45,
+  "confidence": "A",
+  "status": "draft",
+  "model_type": "layered",
+  "layers": [
+   {
+    "top_m": 0.0,
+    "bottom_m": 2.17,
+    "rho_ohmm": 3.08434
+   },
+   {
+    "top_m": 2.17,
+    "bottom_m": 17.27,
+    "rho_ohmm": 145.137
+   },
+   {
+    "top_m": 17.27,
+    "bottom_m": 37.68,
+    "rho_ohmm": 1.29388
+   },
+   {
+    "top_m": 37.68,
+    "bottom_m": 54.26,
+    "rho_ohmm": 18.8959
+   },
+   {
+    "top_m": 54.26,
+    "bottom_m": 157.45,
+    "rho_ohmm": 1.35036
+   },
+   {
+    "top_m": 157.45,
+    "bottom_m": null,
+    "rho_ohmm": 0.593745
+   }
+  ],
+  "provenance": {
+   "document": "main",
+   "pages": [
+    19
+   ],
+   "method": "manual",
+   "tool": "typed from the page at 200 dpi; geosigma.extract.printed_tables",
+   "extracted_on": "2026-10-24",
+   "notes": "Coordinates and elevations from Table 1 (pages 4-5). Depth = running sum of the printed thicknesses.",
+   "table": "Appendix (layered inversion printout: LAYER / RESISTIVITY / THICKNESS)"
+  }
+ },
+ {
+  "id": "goldman1998-HS424-layered",
+  "survey": "goldman-1998-tdem-coastal-monitoring",
+  "site": "HS424",
+  "method": "TEM",
+  "level": "L2",
+  "representation": "model_1d",
+  "measured_on": "1997",
+  "depth_max_m": 195.85,
+  "confidence": "C",
+  "status": "draft",
+  "model_type": "layered",
+  "layers": [
+   {
+    "top_m": 0.0,
+    "bottom_m": 0.77,
+    "rho_ohmm": 1.85878
+   },
+   {
+    "top_m": 0.77,
+    "bottom_m": 45.09,
+    "rho_ohmm": 176.838
+   },
+   {
+    "top_m": 45.09,
+    "bottom_m": 85.46,
+    "rho_ohmm": 8.17503
+   },
+   {
+    "top_m": 85.46,
+    "bottom_m": 195.85,
+    "rho_ohmm": 4.31734
+   },
+   {
+    "top_m": 195.85,
+    "bottom_m": null,
+    "rho_ohmm": 1.10956
+   }
+  ],
+  "provenance": {
+   "document": "main",
+   "pages": [
+    19
+   ],
+   "method": "manual",
+   "tool": "typed from the page at 200 dpi; geosigma.extract.printed_tables",
+   "extracted_on": "2026-10-24",
+   "notes": "Coordinates and elevations from Table 1 (pages 4-5). Depth = running sum of the printed thicknesses.",
+   "table": "Appendix (layered inversion printout: LAYER / RESISTIVITY / THICKNESS)"
+  },
+  "notes": "The author marks this sounding as noisy (Table 1 or Table 2)."
+ },
+ {
+  "id": "goldman1998-HS425-layered",
+  "survey": "goldman-1998-tdem-coastal-monitoring",
+  "site": "HS425",
+  "method": "TEM",
+  "level": "L2",
+  "representation": "model_1d",
+  "measured_on": "1997",
+  "depth_max_m": 138.55,
+  "confidence": "C",
+  "status": "draft",
+  "model_type": "layered",
+  "layers": [
+   {
+    "top_m": 0.0,
+    "bottom_m": 1.19,
+    "rho_ohmm": 4.85516
+   },
+   {
+    "top_m": 1.19,
+    "bottom_m": 45.82,
+    "rho_ohmm": 85.016
+   },
+   {
+    "top_m": 45.82,
+    "bottom_m": 138.55,
+    "rho_ohmm": 2.67036
+   },
+   {
+    "top_m": 138.55,
+    "bottom_m": null,
+    "rho_ohmm": 5.67609
+   }
+  ],
+  "provenance": {
+   "document": "main",
+   "pages": [
+    20
+   ],
+   "method": "manual",
+   "tool": "typed from the page at 200 dpi; geosigma.extract.printed_tables",
+   "extracted_on": "2026-10-24",
+   "notes": "Coordinates and elevations from Table 1 (pages 4-5). Depth = running sum of the printed thicknesses.",
+   "table": "Appendix (layered inversion printout: LAYER / RESISTIVITY / THICKNESS)"
+  },
+  "notes": "The author marks this sounding as noisy (Table 1 or Table 2)."
+ },
+ {
+  "id": "goldman1998-HS426-layered",
+  "survey": "goldman-1998-tdem-coastal-monitoring",
+  "site": "HS426",
+  "method": "TEM",
+  "level": "L2",
+  "representation": "model_1d",
+  "measured_on": "1997",
+  "depth_max_m": 192.52,
+  "confidence": "C",
+  "status": "draft",
+  "model_type": "layered",
+  "layers": [
+   {
+    "top_m": 0.0,
+    "bottom_m": 2.65,
+    "rho_ohmm": 9.96773
+   },
+   {
+    "top_m": 2.65,
+    "bottom_m": 96.13,
+    "rho_ohmm": 57.6847
+   },
+   {
+    "top_m": 96.13,
+    "bottom_m": 192.52,
+    "rho_ohmm": 9.34851
+   },
+   {
+    "top_m": 192.52,
+    "bottom_m": null,
+    "rho_ohmm": 1.76156
+   }
+  ],
+  "provenance": {
+   "document": "main",
+   "pages": [
+    20
+   ],
+   "method": "manual",
+   "tool": "typed from the page at 200 dpi; geosigma.extract.printed_tables",
+   "extracted_on": "2026-10-24",
+   "notes": "Coordinates and elevations from Table 1 (pages 4-5). Depth = running sum of the printed thicknesses.",
+   "table": "Appendix (layered inversion printout: LAYER / RESISTIVITY / THICKNESS)"
+  },
+  "notes": "The author marks this sounding as noisy (Table 1 or Table 2)."
+ },
+ {
+  "id": "goldman1998-HS427-layered",
+  "survey": "goldman-1998-tdem-coastal-monitoring",
+  "site": "HS427",
+  "method": "TEM",
+  "level": "L2",
+  "representation": "model_1d",
+  "measured_on": "1997",
+  "depth_max_m": 62.86,
+  "confidence": "A",
+  "status": "draft",
+  "model_type": "layered",
+  "layers": [
+   {
+    "top_m": 0.0,
+    "bottom_m": 2.27,
+    "rho_ohmm": 7.13239
+   },
+   {
+    "top_m": 2.27,
+    "bottom_m": 39.01,
+    "rho_ohmm": 68.1023
+   },
+   {
+    "top_m": 39.01,
+    "bottom_m": 62.86,
+    "rho_ohmm": 7.30659
+   },
+   {
+    "top_m": 62.86,
+    "bottom_m": null,
+    "rho_ohmm": 2.88998
+   }
+  ],
+  "provenance": {
+   "document": "main",
+   "pages": [
+    21
+   ],
+   "method": "manual",
+   "tool": "typed from the page at 200 dpi; geosigma.extract.printed_tables",
+   "extracted_on": "2026-10-24",
+   "notes": "Coordinates and elevations from Table 1 (pages 4-5). Depth = running sum of the printed thicknesses.",
+   "table": "Appendix (layered inversion printout: LAYER / RESISTIVITY / THICKNESS)"
+  }
+ },
+ {
+  "id": "goldman1998-HS428-layered",
+  "survey": "goldman-1998-tdem-coastal-monitoring",
+  "site": "HS428",
+  "method": "TEM",
+  "level": "L2",
+  "representation": "model_1d",
+  "measured_on": "1997",
+  "depth_max_m": 51.67,
+  "confidence": "C",
+  "status": "draft",
+  "model_type": "layered",
+  "layers": [
+   {
+    "top_m": 0.0,
+    "bottom_m": 0.93,
+    "rho_ohmm": 1.21119
+   },
+   {
+    "top_m": 0.93,
+    "bottom_m": 32.88,
+    "rho_ohmm": 192.285
+   },
+   {
+    "top_m": 32.88,
+    "bottom_m": 51.67,
+    "rho_ohmm": 1.11537
+   },
+   {
+    "top_m": 51.67,
+    "bottom_m": null,
+    "rho_ohmm": 0.60848
+   }
+  ],
+  "provenance": {
+   "document": "main",
+   "pages": [
+    21
+   ],
+   "method": "manual",
+   "tool": "typed from the page at 200 dpi; geosigma.extract.printed_tables",
+   "extracted_on": "2026-10-24",
+   "notes": "Coordinates and elevations from Table 1 (pages 4-5). Depth = running sum of the printed thicknesses.",
+   "table": "Appendix (layered inversion printout: LAYER / RESISTIVITY / THICKNESS)"
+  },
+  "notes": "The author marks this sounding as noisy (Table 1 or Table 2)."
+ },
+ {
+  "id": "goldman1998-HS431-layered",
+  "survey": "goldman-1998-tdem-coastal-monitoring",
+  "site": "HS431",
+  "method": "TEM",
+  "level": "L2",
+  "representation": "model_1d",
+  "measured_on": "1997",
+  "depth_max_m": 147.99,
+  "confidence": "A",
+  "status": "draft",
+  "model_type": "layered",
+  "layers": [
+   {
+    "top_m": 0.0,
+    "bottom_m": 0.89,
+    "rho_ohmm": 4.12189
+   },
+   {
+    "top_m": 0.89,
+    "bottom_m": 16.89,
+    "rho_ohmm": 57.5365
+   },
+   {
+    "top_m": 16.89,
+    "bottom_m": 32.28,
+    "rho_ohmm": 5.65466
+   },
+   {
+    "top_m": 32.28,
+    "bottom_m": 147.99,
+    "rho_ohmm": 2.99914
+   },
+   {
+    "top_m": 147.99,
+    "bottom_m": null,
+    "rho_ohmm": 1.64056
+   }
+  ],
+  "provenance": {
+   "document": "main",
+   "pages": [
+    22
+   ],
+   "method": "manual",
+   "tool": "typed from the page at 200 dpi; geosigma.extract.printed_tables",
+   "extracted_on": "2026-10-24",
+   "notes": "Coordinates and elevations from Table 1 (pages 4-5). Depth = running sum of the printed thicknesses.",
+   "table": "Appendix (layered inversion printout: LAYER / RESISTIVITY / THICKNESS)"
+  }
+ },
+ {
+  "id": "goldman1998-HS432-layered",
+  "survey": "goldman-1998-tdem-coastal-monitoring",
+  "site": "HS432",
+  "method": "TEM",
+  "level": "L2",
+  "representation": "model_1d",
+  "measured_on": "1997",
+  "depth_max_m": 167.22,
+  "confidence": "A",
+  "status": "draft",
+  "model_type": "layered",
+  "layers": [
+   {
+    "top_m": 0.0,
+    "bottom_m": 22.62,
+    "rho_ohmm": 59.9732
+   },
+   {
+    "top_m": 22.62,
+    "bottom_m": 167.22,
+    "rho_ohmm": 5.29819
+   },
+   {
+    "top_m": 167.22,
+    "bottom_m": null,
+    "rho_ohmm": 1.32479
+   }
+  ],
+  "provenance": {
+   "document": "main",
+   "pages": [
+    22
+   ],
+   "method": "manual",
+   "tool": "typed from the page at 200 dpi; geosigma.extract.printed_tables",
+   "extracted_on": "2026-10-24",
+   "notes": "Coordinates and elevations from Table 1 (pages 4-5). Depth = running sum of the printed thicknesses.",
+   "table": "Appendix (layered inversion printout: LAYER / RESISTIVITY / THICKNESS)"
+  }
+ },
+ {
+  "id": "goldman1998-HS433-layered",
+  "survey": "goldman-1998-tdem-coastal-monitoring",
+  "site": "HS433",
+  "method": "TEM",
+  "level": "L2",
+  "representation": "model_1d",
+  "measured_on": "1997",
+  "depth_max_m": 143.06,
+  "confidence": "A",
+  "status": "draft",
+  "model_type": "layered",
+  "layers": [
+   {
+    "top_m": 0.0,
+    "bottom_m": 0.27,
+    "rho_ohmm": 0.774038
+   },
+   {
+    "top_m": 0.27,
+    "bottom_m": 32.13,
+    "rho_ohmm": 98.7867
+   },
+   {
+    "top_m": 32.13,
+    "bottom_m": 43.81,
+    "rho_ohmm": 5.18061
+   },
+   {
+    "top_m": 43.81,
+    "bottom_m": 102.25,
+    "rho_ohmm": 1.52073
+   },
+   {
+    "top_m": 102.25,
+    "bottom_m": 143.06,
+    "rho_ohmm": 54.9948
+   },
+   {
+    "top_m": 143.06,
+    "bottom_m": null,
+    "rho_ohmm": 1.48619
+   }
+  ],
+  "provenance": {
+   "document": "main",
+   "pages": [
+    23
+   ],
+   "method": "manual",
+   "tool": "typed from the page at 200 dpi; geosigma.extract.printed_tables",
+   "extracted_on": "2026-10-24",
+   "notes": "Coordinates and elevations from Table 1 (pages 4-5). Depth = running sum of the printed thicknesses.",
+   "table": "Appendix (layered inversion printout: LAYER / RESISTIVITY / THICKNESS)"
+  }
+ },
+ {
+  "id": "goldman1998-HS434-layered",
+  "survey": "goldman-1998-tdem-coastal-monitoring",
+  "site": "HS434",
+  "method": "TEM",
+  "level": "L2",
+  "representation": "model_1d",
+  "measured_on": "1997",
+  "depth_max_m": 164.67,
+  "confidence": "A",
+  "status": "draft",
+  "model_type": "layered",
+  "layers": [
+   {
+    "top_m": 0.0,
+    "bottom_m": 0.43,
+    "rho_ohmm": 1.39768
+   },
+   {
+    "top_m": 0.43,
+    "bottom_m": 48.95,
+    "rho_ohmm": 371.294
+   },
+   {
+    "top_m": 48.95,
+    "bottom_m": 76.76,
+    "rho_ohmm": 3.27036
+   },
+   {
+    "top_m": 76.76,
+    "bottom_m": 118.3,
+    "rho_ohmm": 2.01738
+   },
+   {
+    "top_m": 118.3,
+    "bottom_m": 164.67,
+    "rho_ohmm": 63.3274
+   },
+   {
+    "top_m": 164.67,
+    "bottom_m": null,
+    "rho_ohmm": 1.1822
+   }
+  ],
+  "provenance": {
+   "document": "main",
+   "pages": [
+    23
+   ],
+   "method": "manual",
+   "tool": "typed from the page at 200 dpi; geosigma.extract.printed_tables",
+   "extracted_on": "2026-10-24",
+   "notes": "Coordinates and elevations from Table 1 (pages 4-5). Depth = running sum of the printed thicknesses.",
+   "table": "Appendix (layered inversion printout: LAYER / RESISTIVITY / THICKNESS)"
+  }
+ },
+ {
+  "id": "goldman1998-HS435-layered",
+  "survey": "goldman-1998-tdem-coastal-monitoring",
+  "site": "HS435",
+  "method": "TEM",
+  "level": "L2",
+  "representation": "model_1d",
+  "measured_on": "1997",
+  "depth_max_m": 208.97,
+  "confidence": "A",
+  "status": "draft",
+  "model_type": "layered",
+  "layers": [
+   {
+    "top_m": 0.0,
+    "bottom_m": 4.34,
+    "rho_ohmm": 21.0564
+   },
+   {
+    "top_m": 4.34,
+    "bottom_m": 76.39,
+    "rho_ohmm": 141.994
+   },
+   {
+    "top_m": 76.39,
+    "bottom_m": 125.19,
+    "rho_ohmm": 1.97229
+   },
+   {
+    "top_m": 125.19,
+    "bottom_m": 208.97,
+    "rho_ohmm": 141.51
+   },
+   {
+    "top_m": 208.97,
+    "bottom_m": null,
+    "rho_ohmm": 1.58363
+   }
+  ],
+  "provenance": {
+   "document": "main",
+   "pages": [
+    24
+   ],
+   "method": "manual",
+   "tool": "typed from the page at 200 dpi; geosigma.extract.printed_tables",
+   "extracted_on": "2026-10-24",
+   "notes": "Coordinates and elevations from Table 1 (pages 4-5). Depth = running sum of the printed thicknesses.",
+   "table": "Appendix (layered inversion printout: LAYER / RESISTIVITY / THICKNESS)"
+  }
+ },
+ {
+  "id": "goldman1998-HS436-layered",
+  "survey": "goldman-1998-tdem-coastal-monitoring",
+  "site": "HS436",
+  "method": "TEM",
+  "level": "L2",
+  "representation": "model_1d",
+  "measured_on": "1997",
+  "depth_max_m": 205.56,
+  "confidence": "A",
+  "status": "draft",
+  "model_type": "layered",
+  "layers": [
+   {
+    "top_m": 0.0,
+    "bottom_m": 4.44,
+    "rho_ohmm": 22.6644
+   },
+   {
+    "top_m": 4.44,
+    "bottom_m": 83.21,
+    "rho_ohmm": 190.831
+   },
+   {
+    "top_m": 83.21,
+    "bottom_m": 160.22,
+    "rho_ohmm": 5.85512
+   },
+   {
+    "top_m": 160.22,
+    "bottom_m": 205.56,
+    "rho_ohmm": 132.754
+   },
+   {
+    "top_m": 205.56,
+    "bottom_m": null,
+    "rho_ohmm": 1.28037
+   }
+  ],
+  "provenance": {
+   "document": "main",
+   "pages": [
+    24
+   ],
+   "method": "manual",
+   "tool": "typed from the page at 200 dpi; geosigma.extract.printed_tables",
+   "extracted_on": "2026-10-24",
+   "notes": "Coordinates and elevations from Table 1 (pages 4-5). Depth = running sum of the printed thicknesses.",
+   "table": "Appendix (layered inversion printout: LAYER / RESISTIVITY / THICKNESS)"
+  }
+ },
+ {
+  "id": "goldman1998-HS437-layered",
+  "survey": "goldman-1998-tdem-coastal-monitoring",
+  "site": "HS437",
+  "method": "TEM",
+  "level": "L2",
+  "representation": "model_1d",
+  "measured_on": "1997",
+  "depth_max_m": 225.48,
+  "confidence": "A",
+  "status": "draft",
+  "model_type": "layered",
+  "layers": [
+   {
+    "top_m": 0.0,
+    "bottom_m": 3.18,
+    "rho_ohmm": 21.163
+   },
+   {
+    "top_m": 3.18,
+    "bottom_m": 62.55,
+    "rho_ohmm": 160.429
+   },
+   {
+    "top_m": 62.55,
+    "bottom_m": 101.14,
+    "rho_ohmm": 3.98603
+   },
+   {
+    "top_m": 101.14,
+    "bottom_m": 144.92,
+    "rho_ohmm": 1.41587
+   },
+   {
+    "top_m": 144.92,
+    "bottom_m": 225.48,
+    "rho_ohmm": 14.0711
+   },
+   {
+    "top_m": 225.48,
+    "bottom_m": null,
+    "rho_ohmm": 1.72104
+   }
+  ],
+  "provenance": {
+   "document": "main",
+   "pages": [
+    25
+   ],
+   "method": "manual",
+   "tool": "typed from the page at 200 dpi; geosigma.extract.printed_tables",
+   "extracted_on": "2026-10-24",
+   "notes": "Coordinates and elevations from Table 1 (pages 4-5). Depth = running sum of the printed thicknesses.",
+   "table": "Appendix (layered inversion printout: LAYER / RESISTIVITY / THICKNESS)"
+  }
+ },
+ {
+  "id": "goldman1998-HS438-layered",
+  "survey": "goldman-1998-tdem-coastal-monitoring",
+  "site": "HS438",
+  "method": "TEM",
+  "level": "L2",
+  "representation": "model_1d",
+  "measured_on": "1997",
+  "depth_max_m": 345.98,
+  "confidence": "A",
+  "status": "draft",
+  "model_type": "layered",
+  "layers": [
+   {
+    "top_m": 0.0,
+    "bottom_m": 3.27,
+    "rho_ohmm": 24.1492
+   },
+   {
+    "top_m": 3.27,
+    "bottom_m": 75.34,
+    "rho_ohmm": 83.4109
+   },
+   {
+    "top_m": 75.34,
+    "bottom_m": 182.21,
+    "rho_ohmm": 11.7937
+   },
+   {
+    "top_m": 182.21,
+    "bottom_m": 311.53,
+    "rho_ohmm": 2.80363
+   },
+   {
+    "top_m": 311.53,
+    "bottom_m": 345.98,
+    "rho_ohmm": 10.3194
+   },
+   {
+    "top_m": 345.98,
+    "bottom_m": null,
+    "rho_ohmm": 2.73749
+   }
+  ],
+  "provenance": {
+   "document": "main",
+   "pages": [
+    25
+   ],
+   "method": "manual",
+   "tool": "typed from the page at 200 dpi; geosigma.extract.printed_tables",
+   "extracted_on": "2026-10-24",
+   "notes": "Coordinates and elevations from Table 1 (pages 4-5). Depth = running sum of the printed thicknesses.",
+   "table": "Appendix (layered inversion printout: LAYER / RESISTIVITY / THICKNESS)"
+  }
+ },
+ {
+  "id": "goldman1998-HS439-layered",
+  "survey": "goldman-1998-tdem-coastal-monitoring",
+  "site": "HS439",
+  "method": "TEM",
+  "level": "L2",
+  "representation": "model_1d",
+  "measured_on": "1997",
+  "depth_max_m": 97.77,
+  "confidence": "C",
+  "status": "draft",
+  "model_type": "layered",
+  "layers": [
+   {
+    "top_m": 0.0,
+    "bottom_m": 45.39,
+    "rho_ohmm": 86.4953
+   },
+   {
+    "top_m": 45.39,
+    "bottom_m": 97.77,
+    "rho_ohmm": 15.9432
+   },
+   {
+    "top_m": 97.77,
+    "bottom_m": null,
+    "rho_ohmm": 5.58337
+   }
+  ],
+  "provenance": {
+   "document": "main",
+   "pages": [
+    26
+   ],
+   "method": "manual",
+   "tool": "typed from the page at 200 dpi; geosigma.extract.printed_tables",
+   "extracted_on": "2026-10-24",
+   "notes": "Coordinates and elevations from Table 1 (pages 4-5). Depth = running sum of the printed thicknesses.",
+   "table": "Appendix (layered inversion printout: LAYER / RESISTIVITY / THICKNESS)"
+  },
+  "notes": "The author marks this sounding as noisy (Table 1 or Table 2)."
+ },
+ {
+  "id": "goldman1998-HS440-layered",
+  "survey": "goldman-1998-tdem-coastal-monitoring",
+  "site": "HS440",
+  "method": "TEM",
+  "level": "L2",
+  "representation": "model_1d",
+  "measured_on": "1997",
+  "depth_max_m": 164.59,
+  "confidence": "A",
+  "status": "draft",
+  "model_type": "layered",
+  "layers": [
+   {
+    "top_m": 0.0,
+    "bottom_m": 10.11,
+    "rho_ohmm": 13.1175
+   },
+   {
+    "top_m": 10.11,
+    "bottom_m": 58.02,
+    "rho_ohmm": 92.8621
+   },
+   {
+    "top_m": 58.02,
+    "bottom_m": 100.54,
+    "rho_ohmm": 1.66435
+   },
+   {
+    "top_m": 100.54,
+    "bottom_m": 164.59,
+    "rho_ohmm": 200.135
+   },
+   {
+    "top_m": 164.59,
+    "bottom_m": null,
+    "rho_ohmm": 2.36161
+   }
+  ],
+  "provenance": {
+   "document": "main",
+   "pages": [
+    27
+   ],
+   "method": "manual",
+   "tool": "typed from the page at 200 dpi; geosigma.extract.printed_tables",
+   "extracted_on": "2026-10-24",
+   "notes": "Coordinates and elevations from Table 1 (pages 4-5). Depth = running sum of the printed thicknesses.",
+   "table": "Appendix (layered inversion printout: LAYER / RESISTIVITY / THICKNESS)"
+  }
+ },
+ {
+  "id": "goldman1998-HS441-layered",
+  "survey": "goldman-1998-tdem-coastal-monitoring",
+  "site": "HS441",
+  "method": "TEM",
+  "level": "L2",
+  "representation": "model_1d",
+  "measured_on": "1997",
+  "depth_max_m": 84.91,
+  "confidence": "C",
+  "status": "draft",
+  "model_type": "layered",
+  "layers": [
+   {
+    "top_m": 0.0,
+    "bottom_m": 1.31,
+    "rho_ohmm": 17.5609
+   },
+   {
+    "top_m": 1.31,
+    "bottom_m": 52.87,
+    "rho_ohmm": 127.295
+   },
+   {
+    "top_m": 52.87,
+    "bottom_m": 84.91,
+    "rho_ohmm": 1.21934
+   },
+   {
+    "top_m": 84.91,
+    "bottom_m": null,
+    "rho_ohmm": 2.46412
+   }
+  ],
+  "provenance": {
+   "document": "main",
+   "pages": [
+    27
+   ],
+   "method": "manual",
+   "tool": "typed from the page at 200 dpi; geosigma.extract.printed_tables",
+   "extracted_on": "2026-10-24",
+   "notes": "Coordinates and elevations from Table 1 (pages 4-5). Depth = running sum of the printed thicknesses.",
+   "table": "Appendix (layered inversion printout: LAYER / RESISTIVITY / THICKNESS)"
+  },
+  "notes": "The author marks this sounding as noisy (Table 1 or Table 2)."
+ },
+ {
+  "id": "goldman1998-HS442-layered",
+  "survey": "goldman-1998-tdem-coastal-monitoring",
+  "site": "HS442",
+  "method": "TEM",
+  "level": "L2",
+  "representation": "model_1d",
+  "measured_on": "1997",
+  "depth_max_m": 148.06,
+  "confidence": "A",
+  "status": "draft",
+  "model_type": "layered",
+  "layers": [
+   {
+    "top_m": 0.0,
+    "bottom_m": 1.11,
+    "rho_ohmm": 3.67535
+   },
+   {
+    "top_m": 1.11,
+    "bottom_m": 50.15,
+    "rho_ohmm": 143.892
+   },
+   {
+    "top_m": 50.15,
+    "bottom_m": 89.76,
+    "rho_ohmm": 1.40926
+   },
+   {
+    "top_m": 89.76,
+    "bottom_m": 148.06,
+    "rho_ohmm": 21.1039
+   },
+   {
+    "top_m": 148.06,
+    "bottom_m": null,
+    "rho_ohmm": 1.29968
+   }
+  ],
+  "provenance": {
+   "document": "main",
+   "pages": [
+    28
+   ],
+   "method": "manual",
+   "tool": "typed from the page at 200 dpi; geosigma.extract.printed_tables",
+   "extracted_on": "2026-10-24",
+   "notes": "Coordinates and elevations from Table 1 (pages 4-5). Depth = running sum of the printed thicknesses.",
+   "table": "Appendix (layered inversion printout: LAYER / RESISTIVITY / THICKNESS)"
+  }
+ },
+ {
+  "id": "goldman1998-HS443-layered",
+  "survey": "goldman-1998-tdem-coastal-monitoring",
+  "site": "HS443",
+  "method": "TEM",
+  "level": "L2",
+  "representation": "model_1d",
+  "measured_on": "1997",
+  "depth_max_m": 152.94,
+  "confidence": "A",
+  "status": "draft",
+  "model_type": "layered",
+  "layers": [
+   {
+    "top_m": 0.0,
+    "bottom_m": 1.41,
+    "rho_ohmm": 5.19366
+   },
+   {
+    "top_m": 1.41,
+    "bottom_m": 49.79,
+    "rho_ohmm": 41.8355
+   },
+   {
+    "top_m": 49.79,
+    "bottom_m": 91.69,
+    "rho_ohmm": 1.52685
+   },
+   {
+    "top_m": 91.69,
+    "bottom_m": 152.94,
+    "rho_ohmm": 21.1183
+   },
+   {
+    "top_m": 152.94,
+    "bottom_m": null,
+    "rho_ohmm": 1.21491
+   }
+  ],
+  "provenance": {
+   "document": "main",
+   "pages": [
+    28
+   ],
+   "method": "manual",
+   "tool": "typed from the page at 200 dpi; geosigma.extract.printed_tables",
+   "extracted_on": "2026-10-24",
+   "notes": "Coordinates and elevations from Table 1 (pages 4-5). Depth = running sum of the printed thicknesses.",
+   "table": "Appendix (layered inversion printout: LAYER / RESISTIVITY / THICKNESS)"
+  }
+ },
+ {
+  "id": "goldman1998-HS444-layered",
+  "survey": "goldman-1998-tdem-coastal-monitoring",
+  "site": "HS444",
+  "method": "TEM",
+  "level": "L2",
+  "representation": "model_1d",
+  "measured_on": "1997",
+  "depth_max_m": 91.65,
+  "confidence": "A",
+  "status": "draft",
+  "model_type": "layered",
+  "layers": [
+   {
+    "top_m": 0.0,
+    "bottom_m": 0.97,
+    "rho_ohmm": 5.79678
+   },
+   {
+    "top_m": 0.97,
+    "bottom_m": 46.15,
+    "rho_ohmm": 64.9007
+   },
+   {
+    "top_m": 46.15,
+    "bottom_m": 91.65,
+    "rho_ohmm": 2.09197
+   },
+   {
+    "top_m": 91.65,
+    "bottom_m": null,
+    "rho_ohmm": 1.85389
+   }
+  ],
+  "provenance": {
+   "document": "main",
+   "pages": [
+    29
+   ],
+   "method": "manual",
+   "tool": "typed from the page at 200 dpi; geosigma.extract.printed_tables",
+   "extracted_on": "2026-10-24",
+   "notes": "Coordinates and elevations from Table 1 (pages 4-5). Depth = running sum of the printed thicknesses.",
+   "table": "Appendix (layered inversion printout: LAYER / RESISTIVITY / THICKNESS)"
+  }
+ },
+ {
+  "id": "goldman1998-HS445-layered",
+  "survey": "goldman-1998-tdem-coastal-monitoring",
+  "site": "HS445",
+  "method": "TEM",
+  "level": "L2",
+  "representation": "model_1d",
+  "measured_on": "1997",
+  "depth_max_m": 103.97,
+  "confidence": "A",
+  "status": "draft",
+  "model_type": "layered",
+  "layers": [
+   {
+    "top_m": 0.0,
+    "bottom_m": 1.44,
+    "rho_ohmm": 7.2947
+   },
+   {
+    "top_m": 1.44,
+    "bottom_m": 49.88,
+    "rho_ohmm": 77.1996
+   },
+   {
+    "top_m": 49.88,
+    "bottom_m": 69.84,
+    "rho_ohmm": 4.70504
+   },
+   {
+    "top_m": 69.84,
+    "bottom_m": 103.97,
+    "rho_ohmm": 32.1554
+   },
+   {
+    "top_m": 103.97,
+    "bottom_m": null,
+    "rho_ohmm": 2.2947
+   }
+  ],
+  "provenance": {
+   "document": "main",
+   "pages": [
+    29
+   ],
+   "method": "manual",
+   "tool": "typed from the page at 200 dpi; geosigma.extract.printed_tables",
+   "extracted_on": "2026-10-24",
+   "notes": "Coordinates and elevations from Table 1 (pages 4-5). Depth = running sum of the printed thicknesses.",
+   "table": "Appendix (layered inversion printout: LAYER / RESISTIVITY / THICKNESS)"
+  }
+ },
+ {
+  "id": "goldman1998-HS447-layered",
+  "survey": "goldman-1998-tdem-coastal-monitoring",
+  "site": "HS447",
+  "method": "TEM",
+  "level": "L2",
+  "representation": "model_1d",
+  "measured_on": "1997",
+  "depth_max_m": 95.55,
+  "confidence": "A",
+  "status": "draft",
+  "model_type": "layered",
+  "layers": [
+   {
+    "top_m": 0.0,
+    "bottom_m": 2.0,
+    "rho_ohmm": 5.50024
+   },
+   {
+    "top_m": 2.0,
+    "bottom_m": 32.6,
+    "rho_ohmm": 89.4156
+   },
+   {
+    "top_m": 32.6,
+    "bottom_m": 95.55,
+    "rho_ohmm": 1.45706
+   },
+   {
+    "top_m": 95.55,
+    "bottom_m": null,
+    "rho_ohmm": 3.17512
+   }
+  ],
+  "provenance": {
+   "document": "main",
+   "pages": [
+    30
+   ],
+   "method": "manual",
+   "tool": "typed from the page at 200 dpi; geosigma.extract.printed_tables",
+   "extracted_on": "2026-10-24",
+   "notes": "Coordinates and elevations from Table 1 (pages 4-5). Depth = running sum of the printed thicknesses.",
+   "table": "Appendix (layered inversion printout: LAYER / RESISTIVITY / THICKNESS)"
+  }
+ },
+ {
+  "id": "goldman1998-HS448-layered",
+  "survey": "goldman-1998-tdem-coastal-monitoring",
+  "site": "HS448",
+  "method": "TEM",
+  "level": "L2",
+  "representation": "model_1d",
+  "measured_on": "1997",
+  "depth_max_m": 180.55,
+  "confidence": "A",
+  "status": "draft",
+  "model_type": "layered",
+  "layers": [
+   {
+    "top_m": 0.0,
+    "bottom_m": 0.95,
+    "rho_ohmm": 2.7817
+   },
+   {
+    "top_m": 0.95,
+    "bottom_m": 42.0,
+    "rho_ohmm": 106.555
+   },
+   {
+    "top_m": 42.0,
+    "bottom_m": 96.84,
+    "rho_ohmm": 1.43809
+   },
+   {
+    "top_m": 96.84,
+    "bottom_m": 180.55,
+    "rho_ohmm": 10.2064
+   },
+   {
+    "top_m": 180.55,
+    "bottom_m": null,
+    "rho_ohmm": 1.28324
+   }
+  ],
+  "provenance": {
+   "document": "main",
+   "pages": [
+    31
+   ],
+   "method": "manual",
+   "tool": "typed from the page at 200 dpi; geosigma.extract.printed_tables",
+   "extracted_on": "2026-10-24",
+   "notes": "Coordinates and elevations from Table 1 (pages 4-5). Depth = running sum of the printed thicknesses.",
+   "table": "Appendix (layered inversion printout: LAYER / RESISTIVITY / THICKNESS)"
+  }
+ },
+ {
+  "id": "goldman1998-HS449-layered",
+  "survey": "goldman-1998-tdem-coastal-monitoring",
+  "site": "HS449",
+  "method": "TEM",
+  "level": "L2",
+  "representation": "model_1d",
+  "measured_on": "1997",
+  "depth_max_m": 175.33,
+  "confidence": "A",
+  "status": "draft",
+  "model_type": "layered",
+  "layers": [
+   {
+    "top_m": 0.0,
+    "bottom_m": 53.07,
+    "rho_ohmm": 104.492
+   },
+   {
+    "top_m": 53.07,
+    "bottom_m": 82.1,
+    "rho_ohmm": 1.28147
+   },
+   {
+    "top_m": 82.1,
+    "bottom_m": 175.33,
+    "rho_ohmm": 13.6896
+   },
+   {
+    "top_m": 175.33,
+    "bottom_m": null,
+    "rho_ohmm": 1.4103
+   }
+  ],
+  "provenance": {
+   "document": "main",
+   "pages": [
+    31
+   ],
+   "method": "manual",
+   "tool": "typed from the page at 200 dpi; geosigma.extract.printed_tables",
+   "extracted_on": "2026-10-24",
+   "notes": "Coordinates and elevations from Table 1 (pages 4-5). Depth = running sum of the printed thicknesses.",
+   "table": "Appendix (layered inversion printout: LAYER / RESISTIVITY / THICKNESS)"
+  }
+ },
+ {
+  "id": "goldman1998-HS450-layered",
+  "survey": "goldman-1998-tdem-coastal-monitoring",
+  "site": "HS450",
+  "method": "TEM",
+  "level": "L2",
+  "representation": "model_1d",
+  "measured_on": "1997",
+  "depth_max_m": 143.31,
+  "confidence": "C",
+  "status": "draft",
+  "model_type": "layered",
+  "layers": [
+   {
+    "top_m": 0.0,
+    "bottom_m": 143.31,
+    "rho_ohmm": 27.6834
+   },
+   {
+    "top_m": 143.31,
+    "bottom_m": null,
+    "rho_ohmm": 2.21207
+   }
+  ],
+  "provenance": {
+   "document": "main",
+   "pages": [
+    32
+   ],
+   "method": "manual",
+   "tool": "typed from the page at 200 dpi; geosigma.extract.printed_tables",
+   "extracted_on": "2026-10-24",
+   "notes": "Coordinates and elevations from Table 1 (pages 4-5). Depth = running sum of the printed thicknesses.",
+   "table": "Appendix (layered inversion printout: LAYER / RESISTIVITY / THICKNESS)"
+  },
+  "notes": "The author marks this sounding as noisy (Table 1 or Table 2)."
+ },
+ {
+  "id": "goldman1998-HS451-layered",
+  "survey": "goldman-1998-tdem-coastal-monitoring",
+  "site": "HS451",
+  "method": "TEM",
+  "level": "L2",
+  "representation": "model_1d",
+  "measured_on": "1997",
+  "depth_max_m": 167.18,
+  "confidence": "A",
+  "status": "draft",
+  "model_type": "layered",
+  "layers": [
+   {
+    "top_m": 0.0,
+    "bottom_m": 0.7,
+    "rho_ohmm": 1.75073
+   },
+   {
+    "top_m": 0.7,
+    "bottom_m": 75.21,
+    "rho_ohmm": 1477.58
+   },
+   {
+    "top_m": 75.21,
+    "bottom_m": 134.26,
+    "rho_ohmm": 5.67094
+   },
+   {
+    "top_m": 134.26,
+    "bottom_m": 167.18,
+    "rho_ohmm": 95.7443
+   },
+   {
+    "top_m": 167.18,
+    "bottom_m": null,
+    "rho_ohmm": 2.04779
+   }
+  ],
+  "provenance": {
+   "document": "main",
+   "pages": [
+    32
+   ],
+   "method": "manual",
+   "tool": "typed from the page at 200 dpi; geosigma.extract.printed_tables",
+   "extracted_on": "2026-10-24",
+   "notes": "Coordinates and elevations from Table 1 (pages 4-5). Depth = running sum of the printed thicknesses.",
+   "table": "Appendix (layered inversion printout: LAYER / RESISTIVITY / THICKNESS)"
+  }
+ },
+ {
+  "id": "goldman1998-HS452-layered",
+  "survey": "goldman-1998-tdem-coastal-monitoring",
+  "site": "HS452",
+  "method": "TEM",
+  "level": "L2",
+  "representation": "model_1d",
+  "measured_on": "1997",
+  "depth_max_m": 171.71,
+  "confidence": "A",
+  "status": "draft",
+  "model_type": "layered",
+  "layers": [
+   {
+    "top_m": 0.0,
+    "bottom_m": 3.64,
+    "rho_ohmm": 5.56327
+   },
+   {
+    "top_m": 3.64,
+    "bottom_m": 36.89,
+    "rho_ohmm": 41.8475
+   },
+   {
+    "top_m": 36.89,
+    "bottom_m": 62.4,
+    "rho_ohmm": 19.6658
+   },
+   {
+    "top_m": 62.4,
+    "bottom_m": 84.17,
+    "rho_ohmm": 1.76283
+   },
+   {
+    "top_m": 84.17,
+    "bottom_m": 171.71,
+    "rho_ohmm": 202.78
+   },
+   {
+    "top_m": 171.71,
+    "bottom_m": null,
+    "rho_ohmm": 2.34299
+   }
+  ],
+  "provenance": {
+   "document": "main",
+   "pages": [
+    33
+   ],
+   "method": "manual",
+   "tool": "typed from the page at 200 dpi; geosigma.extract.printed_tables",
+   "extracted_on": "2026-10-24",
+   "notes": "Coordinates and elevations from Table 1 (pages 4-5). Depth = running sum of the printed thicknesses.",
+   "table": "Appendix (layered inversion printout: LAYER / RESISTIVITY / THICKNESS)"
+  }
+ },
+ {
+  "id": "goldman1998-HS453-layered",
+  "survey": "goldman-1998-tdem-coastal-monitoring",
+  "site": "HS453",
+  "method": "TEM",
+  "level": "L2",
+  "representation": "model_1d",
+  "measured_on": "1997",
+  "depth_max_m": 55.77,
+  "confidence": "A",
+  "status": "draft",
+  "model_type": "layered",
+  "layers": [
+   {
+    "top_m": 0.0,
+    "bottom_m": 0.51,
+    "rho_ohmm": 6.82954
+   },
+   {
+    "top_m": 0.51,
+    "bottom_m": 55.77,
+    "rho_ohmm": 27.115
+   },
+   {
+    "top_m": 55.77,
+    "bottom_m": null,
+    "rho_ohmm": 1.34874
+   }
+  ],
+  "provenance": {
+   "document": "main",
+   "pages": [
+    33
+   ],
+   "method": "manual",
+   "tool": "typed from the page at 200 dpi; geosigma.extract.printed_tables",
+   "extracted_on": "2026-10-24",
+   "notes": "Coordinates and elevations from Table 1 (pages 4-5). Depth = running sum of the printed thicknesses.",
+   "table": "Appendix (layered inversion printout: LAYER / RESISTIVITY / THICKNESS)"
+  }
+ },
+ {
+  "id": "goldman1998-HS454-layered",
+  "survey": "goldman-1998-tdem-coastal-monitoring",
+  "site": "HS454",
+  "method": "TEM",
+  "level": "L2",
+  "representation": "model_1d",
+  "measured_on": "1997",
+  "depth_max_m": 139.92,
+  "confidence": "A",
+  "status": "draft",
+  "model_type": "layered",
+  "layers": [
+   {
+    "top_m": 0.0,
+    "bottom_m": 1.2,
+    "rho_ohmm": 22.5988
+   },
+   {
+    "top_m": 1.2,
+    "bottom_m": 2.93,
+    "rho_ohmm": 5.96242
+   },
+   {
+    "top_m": 2.93,
+    "bottom_m": 52.04,
+    "rho_ohmm": 323.168
+   },
+   {
+    "top_m": 52.04,
+    "bottom_m": 93.33,
+    "rho_ohmm": 1.52487
+   },
+   {
+    "top_m": 93.33,
+    "bottom_m": 139.92,
+    "rho_ohmm": 5.88642
+   },
+   {
+    "top_m": 139.92,
+    "bottom_m": null,
+    "rho_ohmm": 2.01544
+   }
+  ],
+  "provenance": {
+   "document": "main",
+   "pages": [
+    34
+   ],
+   "method": "manual",
+   "tool": "typed from the page at 200 dpi; geosigma.extract.printed_tables",
+   "extracted_on": "2026-10-24",
+   "notes": "Coordinates and elevations from Table 1 (pages 4-5). Depth = running sum of the printed thicknesses.",
+   "table": "Appendix (layered inversion printout: LAYER / RESISTIVITY / THICKNESS)"
+  }
+ },
+ {
+  "id": "goldman1998-HS455-layered",
+  "survey": "goldman-1998-tdem-coastal-monitoring",
+  "site": "HS455",
+  "method": "TEM",
+  "level": "L2",
+  "representation": "model_1d",
+  "measured_on": "1997",
+  "depth_max_m": 122.81,
+  "confidence": "A",
+  "status": "draft",
+  "model_type": "layered",
+  "layers": [
+   {
+    "top_m": 0.0,
+    "bottom_m": 7.23,
+    "rho_ohmm": 14.5596
+   },
+   {
+    "top_m": 7.23,
+    "bottom_m": 66.51,
+    "rho_ohmm": 70.5413
+   },
+   {
+    "top_m": 66.51,
+    "bottom_m": 122.81,
+    "rho_ohmm": 1.77685
+   },
+   {
+    "top_m": 122.81,
+    "bottom_m": null,
+    "rho_ohmm": 6.67521
+   }
+  ],
+  "provenance": {
+   "document": "main",
+   "pages": [
+    34
+   ],
+   "method": "manual",
+   "tool": "typed from the page at 200 dpi; geosigma.extract.printed_tables",
+   "extracted_on": "2026-10-24",
+   "notes": "Coordinates and elevations from Table 1 (pages 4-5). Depth = running sum of the printed thicknesses.",
+   "table": "Appendix (layered inversion printout: LAYER / RESISTIVITY / THICKNESS)"
+  }
+ },
+ {
+  "id": "goldman1998-HS456-layered",
+  "survey": "goldman-1998-tdem-coastal-monitoring",
+  "site": "HS456",
+  "method": "TEM",
+  "level": "L2",
+  "representation": "model_1d",
+  "measured_on": "1997",
+  "depth_max_m": 190.09,
+  "confidence": "A",
+  "status": "draft",
+  "model_type": "layered",
+  "layers": [
+   {
+    "top_m": 0.0,
+    "bottom_m": 2.76,
+    "rho_ohmm": 22.6699
+   },
+   {
+    "top_m": 2.76,
+    "bottom_m": 88.42,
+    "rho_ohmm": 67.4528
+   },
+   {
+    "top_m": 88.42,
+    "bottom_m": 122.41,
+    "rho_ohmm": 1.67679
+   },
+   {
+    "top_m": 122.41,
+    "bottom_m": 190.09,
+    "rho_ohmm": 8.60007
+   },
+   {
+    "top_m": 190.09,
+    "bottom_m": null,
+    "rho_ohmm": 1.09506
+   }
+  ],
+  "provenance": {
+   "document": "main",
+   "pages": [
+    35
+   ],
+   "method": "manual",
+   "tool": "typed from the page at 200 dpi; geosigma.extract.printed_tables",
+   "extracted_on": "2026-10-24",
+   "notes": "Coordinates and elevations from Table 1 (pages 4-5). Depth = running sum of the printed thicknesses.",
+   "table": "Appendix (layered inversion printout: LAYER / RESISTIVITY / THICKNESS)"
+  }
+ },
+ {
+  "id": "goldman1998-HS457-layered",
+  "survey": "goldman-1998-tdem-coastal-monitoring",
+  "site": "HS457",
+  "method": "TEM",
+  "level": "L2",
+  "representation": "model_1d",
+  "measured_on": "1997",
+  "depth_max_m": 200.43,
+  "confidence": "A",
+  "status": "draft",
+  "model_type": "layered",
+  "layers": [
+   {
+    "top_m": 0.0,
+    "bottom_m": 3.02,
+    "rho_ohmm": 9.22114
+   },
+   {
+    "top_m": 3.02,
+    "bottom_m": 80.36,
+    "rho_ohmm": 85.9404
+   },
+   {
+    "top_m": 80.36,
+    "bottom_m": 121.96,
+    "rho_ohmm": 2.17823
+   },
+   {
+    "top_m": 121.96,
+    "bottom_m": 200.43,
+    "rho_ohmm": 9.3502
+   },
+   {
+    "top_m": 200.43,
+    "bottom_m": null,
+    "rho_ohmm": 1.06772
+   }
+  ],
+  "provenance": {
+   "document": "main",
+   "pages": [
+    35
+   ],
+   "method": "manual",
+   "tool": "typed from the page at 200 dpi; geosigma.extract.printed_tables",
+   "extracted_on": "2026-10-24",
+   "notes": "Coordinates and elevations from Table 1 (pages 4-5). Depth = running sum of the printed thicknesses.",
+   "table": "Appendix (layered inversion printout: LAYER / RESISTIVITY / THICKNESS)"
+  }
+ },
+ {
+  "id": "goldman1998-HS458-layered",
+  "survey": "goldman-1998-tdem-coastal-monitoring",
+  "site": "HS458",
+  "method": "TEM",
+  "level": "L2",
+  "representation": "model_1d",
+  "measured_on": "1997",
+  "depth_max_m": 138.94,
+  "confidence": "C",
+  "status": "draft",
+  "model_type": "layered",
+  "layers": [
+   {
+    "top_m": 0.0,
+    "bottom_m": 2.98,
+    "rho_ohmm": 8.70962
+   },
+   {
+    "top_m": 2.98,
+    "bottom_m": 71.52,
+    "rho_ohmm": 913.907
+   },
+   {
+    "top_m": 71.52,
+    "bottom_m": 138.94,
+    "rho_ohmm": 5.29491
+   },
+   {
+    "top_m": 138.94,
+    "bottom_m": null,
+    "rho_ohmm": 2.08785
+   }
+  ],
+  "provenance": {
+   "document": "main",
+   "pages": [
+    36
+   ],
+   "method": "manual",
+   "tool": "typed from the page at 200 dpi; geosigma.extract.printed_tables",
+   "extracted_on": "2026-10-24",
+   "notes": "Coordinates and elevations from Table 1 (pages 4-5). Depth = running sum of the printed thicknesses.",
+   "table": "Appendix (layered inversion printout: LAYER / RESISTIVITY / THICKNESS)"
+  },
+  "notes": "The author marks this sounding as noisy (Table 1 or Table 2)."
+ },
+ {
+  "id": "goldman1998-HS459-layered",
+  "survey": "goldman-1998-tdem-coastal-monitoring",
+  "site": "HS459",
+  "method": "TEM",
+  "level": "L2",
+  "representation": "model_1d",
+  "measured_on": "1997",
+  "depth_max_m": 108.34,
+  "confidence": "A",
+  "status": "draft",
+  "model_type": "layered",
+  "layers": [
+   {
+    "top_m": 0.0,
+    "bottom_m": 53.27,
+    "rho_ohmm": 33.6901
+   },
+   {
+    "top_m": 53.27,
+    "bottom_m": 83.32,
+    "rho_ohmm": 1.47243
+   },
+   {
+    "top_m": 83.32,
+    "bottom_m": 108.34,
+    "rho_ohmm": 6.65926
+   },
+   {
+    "top_m": 108.34,
+    "bottom_m": null,
+    "rho_ohmm": 2.25591
+   }
+  ],
+  "provenance": {
+   "document": "main",
+   "pages": [
+    36
+   ],
+   "method": "manual",
+   "tool": "typed from the page at 200 dpi; geosigma.extract.printed_tables",
+   "extracted_on": "2026-10-24",
+   "notes": "Coordinates and elevations from Table 1 (pages 4-5). Depth = running sum of the printed thicknesses.",
+   "table": "Appendix (layered inversion printout: LAYER / RESISTIVITY / THICKNESS)"
+  }
+ },
+ {
+  "id": "goldman1998-HS460-layered",
+  "survey": "goldman-1998-tdem-coastal-monitoring",
+  "site": "HS460",
+  "method": "TEM",
+  "level": "L2",
+  "representation": "model_1d",
+  "measured_on": "1997",
+  "depth_max_m": 168.82,
+  "confidence": "A",
+  "status": "draft",
+  "model_type": "layered",
+  "layers": [
+   {
+    "top_m": 0.0,
+    "bottom_m": 1.68,
+    "rho_ohmm": 7.92098
+   },
+   {
+    "top_m": 1.68,
+    "bottom_m": 64.48,
+    "rho_ohmm": 89.2091
+   },
+   {
+    "top_m": 64.48,
+    "bottom_m": 85.77,
+    "rho_ohmm": 2.48589
+   },
+   {
+    "top_m": 85.77,
+    "bottom_m": 168.82,
+    "rho_ohmm": 11.3503
+   },
+   {
+    "top_m": 168.82,
+    "bottom_m": null,
+    "rho_ohmm": 1.37893
+   }
+  ],
+  "provenance": {
+   "document": "main",
+   "pages": [
+    37
+   ],
+   "method": "manual",
+   "tool": "typed from the page at 200 dpi; geosigma.extract.printed_tables",
+   "extracted_on": "2026-10-24",
+   "notes": "Coordinates and elevations from Table 1 (pages 4-5). Depth = running sum of the printed thicknesses.",
+   "table": "Appendix (layered inversion printout: LAYER / RESISTIVITY / THICKNESS)"
+  }
+ },
+ {
+  "id": "goldman1998-HS461-layered",
+  "survey": "goldman-1998-tdem-coastal-monitoring",
+  "site": "HS461",
+  "method": "TEM",
+  "level": "L2",
+  "representation": "model_1d",
+  "measured_on": "1997",
+  "depth_max_m": 86.74,
+  "confidence": "A",
+  "status": "draft",
+  "model_type": "layered",
+  "layers": [
+   {
+    "top_m": 0.0,
+    "bottom_m": 0.79,
+    "rho_ohmm": 5.72423
+   },
+   {
+    "top_m": 0.79,
+    "bottom_m": 47.84,
+    "rho_ohmm": 55.7902
+   },
+   {
+    "top_m": 47.84,
+    "bottom_m": 86.74,
+    "rho_ohmm": 1.37302
+   },
+   {
+    "top_m": 86.74,
+    "bottom_m": null,
+    "rho_ohmm": 3.14806
+   }
+  ],
+  "provenance": {
+   "document": "main",
+   "pages": [
+    37
+   ],
+   "method": "manual",
+   "tool": "typed from the page at 200 dpi; geosigma.extract.printed_tables",
+   "extracted_on": "2026-10-24",
+   "notes": "Coordinates and elevations from Table 1 (pages 4-5). Depth = running sum of the printed thicknesses.",
+   "table": "Appendix (layered inversion printout: LAYER / RESISTIVITY / THICKNESS)"
+  }
+ },
+ {
+  "id": "goldman1998-HS462-layered",
+  "survey": "goldman-1998-tdem-coastal-monitoring",
+  "site": "HS462",
+  "method": "TEM",
+  "level": "L2",
+  "representation": "model_1d",
+  "measured_on": "1997",
+  "depth_max_m": 88.78,
+  "confidence": "A",
+  "status": "draft",
+  "model_type": "layered",
+  "layers": [
+   {
+    "top_m": 0.0,
+    "bottom_m": 0.84,
+    "rho_ohmm": 1.73098
+   },
+   {
+    "top_m": 0.84,
+    "bottom_m": 43.77,
+    "rho_ohmm": 104.499
+   },
+   {
+    "top_m": 43.77,
+    "bottom_m": 88.78,
+    "rho_ohmm": 1.48353
+   },
+   {
+    "top_m": 88.78,
+    "bottom_m": null,
+    "rho_ohmm": 2.90867
+   }
+  ],
+  "provenance": {
+   "document": "main",
+   "pages": [
+    38
+   ],
+   "method": "manual",
+   "tool": "typed from the page at 200 dpi; geosigma.extract.printed_tables",
+   "extracted_on": "2026-10-24",
+   "notes": "Coordinates and elevations from Table 1 (pages 4-5). Depth = running sum of the printed thicknesses.",
+   "table": "Appendix (layered inversion printout: LAYER / RESISTIVITY / THICKNESS)"
+  }
+ },
+ {
+  "id": "goldman1998-HS403-upper",
+  "survey": "goldman-1998-tdem-coastal-monitoring",
+  "site": "HS403",
+  "method": "TEM",
+  "level": "L3",
+  "representation": "interface_depth",
+  "measured_on": "1997",
+  "confidence": "A",
+  "status": "draft",
+  "interface_depth_m": 56.0,
+  "criterion": "top of the upper low-resistivity unit (author, Table 2: associated with seawater intrusion and/or the Saqiye clays)",
+  "provenance": {
+   "document": "main",
+   "pages": [
+    6
+   ],
+   "method": "manual",
+   "tool": "typed from the page at 200 dpi; geosigma.extract.printed_tables",
+   "extracted_on": "2026-10-24",
+   "notes": "Coordinates and elevations from Table 1 (pages 4-5). Depth = running sum of the printed thicknesses.",
+   "table": "Table 2"
+  },
+  "notes": "Upper unit resistivity 3.0 ohm.m. Lower unit resistivity 1.8 ohm.m. Author's comment: High resistivity. Hydrological strip 118."
+ },
+ {
+  "id": "goldman1998-HS403-lower",
+  "survey": "goldman-1998-tdem-coastal-monitoring",
+  "site": "HS403",
+  "method": "TEM",
+  "level": "L3",
+  "representation": "interface_depth",
+  "measured_on": "1997",
+  "confidence": "A",
+  "status": "draft",
+  "interface_depth_m": 174.0,
+  "criterion": "top of the lower low-resistivity unit (author, Table 2: associated with seawater intrusion and/or the Saqiye clays)",
+  "provenance": {
+   "document": "main",
+   "pages": [
+    6
+   ],
+   "method": "manual",
+   "tool": "typed from the page at 200 dpi; geosigma.extract.printed_tables",
+   "extracted_on": "2026-10-24",
+   "notes": "Coordinates and elevations from Table 1 (pages 4-5). Depth = running sum of the printed thicknesses.",
+   "table": "Table 2"
+  },
+  "notes": "Upper unit resistivity 3.0 ohm.m. Lower unit resistivity 1.8 ohm.m. Author's comment: High resistivity. Hydrological strip 118."
+ },
+ {
+  "id": "goldman1998-HS404-upper",
+  "survey": "goldman-1998-tdem-coastal-monitoring",
+  "site": "HS404",
+  "method": "TEM",
+  "level": "L3",
+  "representation": "interface_depth",
+  "measured_on": "1997",
+  "confidence": "A",
+  "status": "draft",
+  "interface_depth_m": 22.0,
+  "criterion": "top of the upper low-resistivity unit (author, Table 2: associated with seawater intrusion and/or the Saqiye clays)",
+  "provenance": {
+   "document": "main",
+   "pages": [
+    6
+   ],
+   "method": "manual",
+   "tool": "typed from the page at 200 dpi; geosigma.extract.printed_tables",
+   "extracted_on": "2026-10-24",
+   "notes": "Coordinates and elevations from Table 1 (pages 4-5). Depth = running sum of the printed thicknesses.",
+   "table": "Table 2"
+  },
+  "notes": "Upper unit resistivity 1.6 ohm.m. Hydrological strip 118."
+ },
+ {
+  "id": "goldman1998-HS406-upper",
+  "survey": "goldman-1998-tdem-coastal-monitoring",
+  "site": "HS406",
+  "method": "TEM",
+  "level": "L3",
+  "representation": "interface_depth",
+  "measured_on": "1997",
+  "confidence": "A",
+  "status": "draft",
+  "interface_depth_m": 27.0,
+  "criterion": "top of the upper low-resistivity unit (author, Table 2: associated with seawater intrusion and/or the Saqiye clays)",
+  "provenance": {
+   "document": "main",
+   "pages": [
+    6
+   ],
+   "method": "manual",
+   "tool": "typed from the page at 200 dpi; geosigma.extract.printed_tables",
+   "extracted_on": "2026-10-24",
+   "notes": "Coordinates and elevations from Table 1 (pages 4-5). Depth = running sum of the printed thicknesses.",
+   "table": "Table 2"
+  },
+  "notes": "Upper unit: two sub-layers, 1.2 ohm.m from 27 m and 0.9 ohm.m from 32 m; the shallower depth is stored. The printout has 11.8 ohm.m from 26.8 m and 0.91 ohm.m from 32.1 m; Table 2 gives 1.2 ohm.m at 27 m for the first. Hydrological strip 115."
+ },
+ {
+  "id": "goldman1998-HS407-upper",
+  "survey": "goldman-1998-tdem-coastal-monitoring",
+  "site": "HS407",
+  "method": "TEM",
+  "level": "L3",
+  "representation": "interface_depth",
+  "measured_on": "1997",
+  "confidence": "A",
+  "status": "draft",
+  "interface_depth_m": 46.0,
+  "criterion": "top of the upper low-resistivity unit (author, Table 2: associated with seawater intrusion and/or the Saqiye clays)",
+  "provenance": {
+   "document": "main",
+   "pages": [
+    6
+   ],
+   "method": "manual",
+   "tool": "typed from the page at 200 dpi; geosigma.extract.printed_tables",
+   "extracted_on": "2026-10-24",
+   "notes": "Coordinates and elevations from Table 1 (pages 4-5). Depth = running sum of the printed thicknesses.",
+   "table": "Table 2"
+  },
+  "notes": "Upper unit resistivity 2.5 ohm.m. Lower unit resistivity 2.9 ohm.m. Author's comment: Two subaquifers. Hydrological strip 114."
+ },
+ {
+  "id": "goldman1998-HS407-lower",
+  "survey": "goldman-1998-tdem-coastal-monitoring",
+  "site": "HS407",
+  "method": "TEM",
+  "level": "L3",
+  "representation": "interface_depth",
+  "measured_on": "1997",
+  "confidence": "A",
+  "status": "draft",
+  "interface_depth_m": 155.0,
+  "criterion": "top of the lower low-resistivity unit (author, Table 2: associated with seawater intrusion and/or the Saqiye clays)",
+  "provenance": {
+   "document": "main",
+   "pages": [
+    6
+   ],
+   "method": "manual",
+   "tool": "typed from the page at 200 dpi; geosigma.extract.printed_tables",
+   "extracted_on": "2026-10-24",
+   "notes": "Coordinates and elevations from Table 1 (pages 4-5). Depth = running sum of the printed thicknesses.",
+   "table": "Table 2"
+  },
+  "notes": "Upper unit resistivity 2.5 ohm.m. Lower unit resistivity 2.9 ohm.m. Author's comment: Two subaquifers. Hydrological strip 114."
+ },
+ {
+  "id": "goldman1998-HS408-upper",
+  "survey": "goldman-1998-tdem-coastal-monitoring",
+  "site": "HS408",
+  "method": "TEM",
+  "level": "L3",
+  "representation": "interface_depth",
+  "measured_on": "1997",
+  "confidence": "A",
+  "status": "draft",
+  "interface_depth_m": 27.0,
+  "criterion": "top of the upper low-resistivity unit (author, Table 2: associated with seawater intrusion and/or the Saqiye clays)",
+  "provenance": {
+   "document": "main",
+   "pages": [
+    6
+   ],
+   "method": "manual",
+   "tool": "typed from the page at 200 dpi; geosigma.extract.printed_tables",
+   "extracted_on": "2026-10-24",
+   "notes": "Coordinates and elevations from Table 1 (pages 4-5). Depth = running sum of the printed thicknesses.",
+   "table": "Table 2"
+  },
+  "notes": "Upper unit resistivity 1.1 ohm.m. Lower unit resistivity 1.2 ohm.m. Author's comment: Two subaquifers. Hydrological strip 114."
+ },
+ {
+  "id": "goldman1998-HS408-lower",
+  "survey": "goldman-1998-tdem-coastal-monitoring",
+  "site": "HS408",
+  "method": "TEM",
+  "level": "L3",
+  "representation": "interface_depth",
+  "measured_on": "1997",
+  "confidence": "A",
+  "status": "draft",
+  "interface_depth_m": 145.0,
+  "criterion": "top of the lower low-resistivity unit (author, Table 2: associated with seawater intrusion and/or the Saqiye clays)",
+  "provenance": {
+   "document": "main",
+   "pages": [
+    6
+   ],
+   "method": "manual",
+   "tool": "typed from the page at 200 dpi; geosigma.extract.printed_tables",
+   "extracted_on": "2026-10-24",
+   "notes": "Coordinates and elevations from Table 1 (pages 4-5). Depth = running sum of the printed thicknesses.",
+   "table": "Table 2"
+  },
+  "notes": "Upper unit resistivity 1.1 ohm.m. Lower unit resistivity 1.2 ohm.m. Author's comment: Two subaquifers. Hydrological strip 114."
+ },
+ {
+  "id": "goldman1998-HS409-upper",
+  "survey": "goldman-1998-tdem-coastal-monitoring",
+  "site": "HS409",
+  "method": "TEM",
+  "level": "L3",
+  "representation": "interface_depth",
+  "measured_on": "1997",
+  "confidence": "A",
+  "status": "draft",
+  "interface_depth_m": 50.0,
+  "criterion": "top of the upper low-resistivity unit (author, Table 2: associated with seawater intrusion and/or the Saqiye clays)",
+  "provenance": {
+   "document": "main",
+   "pages": [
+    6
+   ],
+   "method": "manual",
+   "tool": "typed from the page at 200 dpi; geosigma.extract.printed_tables",
+   "extracted_on": "2026-10-24",
+   "notes": "Coordinates and elevations from Table 1 (pages 4-5). Depth = running sum of the printed thicknesses.",
+   "table": "Table 2"
+  },
+  "notes": "Upper unit: two sub-layers, 3.1 ohm.m from 50 m and 1.8 ohm.m from 71 m; the shallower depth is stored. Hydrological strip 113."
+ },
+ {
+  "id": "goldman1998-HS411A-upper",
+  "survey": "goldman-1998-tdem-coastal-monitoring",
+  "site": "HS411A",
+  "method": "TEM",
+  "level": "L3",
+  "representation": "interface_depth",
+  "measured_on": "1997",
+  "confidence": "A",
+  "status": "draft",
+  "interface_depth_m": 91.0,
+  "criterion": "top of the upper low-resistivity unit (author, Table 2: associated with seawater intrusion and/or the Saqiye clays)",
+  "provenance": {
+   "document": "main",
+   "pages": [
+    6
+   ],
+   "method": "manual",
+   "tool": "typed from the page at 200 dpi; geosigma.extract.printed_tables",
+   "extracted_on": "2026-10-24",
+   "notes": "Coordinates and elevations from Table 1 (pages 4-5). Depth = running sum of the printed thicknesses.",
+   "table": "Table 2"
+  },
+  "notes": "Upper unit resistivity 1.6 ohm.m. Lower unit resistivity 1.5 ohm.m. Hydrological strip 138."
+ },
+ {
+  "id": "goldman1998-HS411A-lower",
+  "survey": "goldman-1998-tdem-coastal-monitoring",
+  "site": "HS411A",
+  "method": "TEM",
+  "level": "L3",
+  "representation": "interface_depth",
+  "measured_on": "1997",
+  "confidence": "A",
+  "status": "draft",
+  "interface_depth_m": 229.0,
+  "criterion": "top of the lower low-resistivity unit (author, Table 2: associated with seawater intrusion and/or the Saqiye clays)",
+  "provenance": {
+   "document": "main",
+   "pages": [
+    6
+   ],
+   "method": "manual",
+   "tool": "typed from the page at 200 dpi; geosigma.extract.printed_tables",
+   "extracted_on": "2026-10-24",
+   "notes": "Coordinates and elevations from Table 1 (pages 4-5). Depth = running sum of the printed thicknesses.",
+   "table": "Table 2"
+  },
+  "notes": "Upper unit resistivity 1.6 ohm.m. Lower unit resistivity 1.5 ohm.m. Hydrological strip 138."
+ },
+ {
+  "id": "goldman1998-HS413-upper",
+  "survey": "goldman-1998-tdem-coastal-monitoring",
+  "site": "HS413",
+  "method": "TEM",
+  "level": "L3",
+  "representation": "interface_depth",
+  "measured_on": "1997",
+  "confidence": "A",
+  "status": "draft",
+  "interface_depth_m": 73.0,
+  "criterion": "top of the upper low-resistivity unit (author, Table 2: associated with seawater intrusion and/or the Saqiye clays)",
+  "provenance": {
+   "document": "main",
+   "pages": [
+    6
+   ],
+   "method": "manual",
+   "tool": "typed from the page at 200 dpi; geosigma.extract.printed_tables",
+   "extracted_on": "2026-10-24",
+   "notes": "Coordinates and elevations from Table 1 (pages 4-5). Depth = running sum of the printed thicknesses.",
+   "table": "Table 2"
+  },
+  "notes": "Upper unit resistivity 1.4 ohm.m. Hydrological strip 138."
+ },
+ {
+  "id": "goldman1998-HS414-upper",
+  "survey": "goldman-1998-tdem-coastal-monitoring",
+  "site": "HS414",
+  "method": "TEM",
+  "level": "L3",
+  "representation": "interface_depth",
+  "measured_on": "1997",
+  "confidence": "C",
+  "status": "draft",
+  "interface_depth_m": 95.0,
+  "criterion": "top of the upper low-resistivity unit (author, Table 2: associated with seawater intrusion and/or the Saqiye clays)",
+  "provenance": {
+   "document": "main",
+   "pages": [
+    6
+   ],
+   "method": "manual",
+   "tool": "typed from the page at 200 dpi; geosigma.extract.printed_tables",
+   "extracted_on": "2026-10-24",
+   "notes": "Coordinates and elevations from Table 1 (pages 4-5). Depth = running sum of the printed thicknesses.",
+   "table": "Table 2"
+  },
+  "notes": "Upper unit resistivity 1.1 ohm.m. Lower unit resistivity 1.3 ohm.m. Author's comment: Noisy. Hydrological strip 138."
+ },
+ {
+  "id": "goldman1998-HS414-lower",
+  "survey": "goldman-1998-tdem-coastal-monitoring",
+  "site": "HS414",
+  "method": "TEM",
+  "level": "L3",
+  "representation": "interface_depth",
+  "measured_on": "1997",
+  "confidence": "C",
+  "status": "draft",
+  "interface_depth_m": 199.0,
+  "criterion": "top of the lower low-resistivity unit (author, Table 2: associated with seawater intrusion and/or the Saqiye clays)",
+  "provenance": {
+   "document": "main",
+   "pages": [
+    6
+   ],
+   "method": "manual",
+   "tool": "typed from the page at 200 dpi; geosigma.extract.printed_tables",
+   "extracted_on": "2026-10-24",
+   "notes": "Coordinates and elevations from Table 1 (pages 4-5). Depth = running sum of the printed thicknesses.",
+   "table": "Table 2"
+  },
+  "notes": "Upper unit resistivity 1.1 ohm.m. Lower unit resistivity 1.3 ohm.m. Author's comment: Noisy. Hydrological strip 138."
+ },
+ {
+  "id": "goldman1998-HS415-upper",
+  "survey": "goldman-1998-tdem-coastal-monitoring",
+  "site": "HS415",
+  "method": "TEM",
+  "level": "L3",
+  "representation": "interface_depth",
+  "measured_on": "1997",
+  "confidence": "A",
+  "status": "draft",
+  "interface_depth_m": 81.0,
+  "criterion": "top of the upper low-resistivity unit (author, Table 2: associated with seawater intrusion and/or the Saqiye clays)",
+  "provenance": {
+   "document": "main",
+   "pages": [
+    6
+   ],
+   "method": "manual",
+   "tool": "typed from the page at 200 dpi; geosigma.extract.printed_tables",
+   "extracted_on": "2026-10-24",
+   "notes": "Coordinates and elevations from Table 1 (pages 4-5). Depth = running sum of the printed thicknesses.",
+   "table": "Table 2"
+  },
+  "notes": "Upper unit resistivity 1.2 ohm.m. Lower unit resistivity 2.1 ohm.m. Hydrological strip 140."
+ },
+ {
+  "id": "goldman1998-HS415-lower",
+  "survey": "goldman-1998-tdem-coastal-monitoring",
+  "site": "HS415",
+  "method": "TEM",
+  "level": "L3",
+  "representation": "interface_depth",
+  "measured_on": "1997",
+  "confidence": "A",
+  "status": "draft",
+  "interface_depth_m": 159.0,
+  "criterion": "top of the lower low-resistivity unit (author, Table 2: associated with seawater intrusion and/or the Saqiye clays)",
+  "provenance": {
+   "document": "main",
+   "pages": [
+    6
+   ],
+   "method": "manual",
+   "tool": "typed from the page at 200 dpi; geosigma.extract.printed_tables",
+   "extracted_on": "2026-10-24",
+   "notes": "Coordinates and elevations from Table 1 (pages 4-5). Depth = running sum of the printed thicknesses.",
+   "table": "Table 2"
+  },
+  "notes": "Upper unit resistivity 1.2 ohm.m. Lower unit resistivity 2.1 ohm.m. Hydrological strip 140."
+ },
+ {
+  "id": "goldman1998-HS416-lower",
+  "survey": "goldman-1998-tdem-coastal-monitoring",
+  "site": "HS416",
+  "method": "TEM",
+  "level": "L3",
+  "representation": "interface_depth",
+  "measured_on": "1997",
+  "confidence": "A",
+  "status": "draft",
+  "interface_depth_m": 204.0,
+  "criterion": "top of the lower low-resistivity unit (author, Table 2: associated with seawater intrusion and/or the Saqiye clays)",
+  "provenance": {
+   "document": "main",
+   "pages": [
+    6
+   ],
+   "method": "manual",
+   "tool": "typed from the page at 200 dpi; geosigma.extract.printed_tables",
+   "extracted_on": "2026-10-24",
+   "notes": "Coordinates and elevations from Table 1 (pages 4-5). Depth = running sum of the printed thicknesses.",
+   "table": "Table 2"
+  },
+  "notes": "Lower unit resistivity 2.2 ohm.m. Hydrological strip 105."
+ },
+ {
+  "id": "goldman1998-HS417-upper",
+  "survey": "goldman-1998-tdem-coastal-monitoring",
+  "site": "HS417",
+  "method": "TEM",
+  "level": "L3",
+  "representation": "interface_depth",
+  "measured_on": "1997",
+  "confidence": "A",
+  "status": "draft",
+  "interface_depth_m": 113.0,
+  "criterion": "top of the upper low-resistivity unit (author, Table 2: associated with seawater intrusion and/or the Saqiye clays)",
+  "provenance": {
+   "document": "main",
+   "pages": [
+    6
+   ],
+   "method": "manual",
+   "tool": "typed from the page at 200 dpi; geosigma.extract.printed_tables",
+   "extracted_on": "2026-10-24",
+   "notes": "Coordinates and elevations from Table 1 (pages 4-5). Depth = running sum of the printed thicknesses.",
+   "table": "Table 2"
+  },
+  "notes": "Upper unit resistivity 1.3 ohm.m. Lower unit resistivity 1.2 ohm.m. Hydrological strip 105."
+ },
+ {
+  "id": "goldman1998-HS417-lower",
+  "survey": "goldman-1998-tdem-coastal-monitoring",
+  "site": "HS417",
+  "method": "TEM",
+  "level": "L3",
+  "representation": "interface_depth",
+  "measured_on": "1997",
+  "confidence": "A",
+  "status": "draft",
+  "interface_depth_m": 209.0,
+  "criterion": "top of the lower low-resistivity unit (author, Table 2: associated with seawater intrusion and/or the Saqiye clays)",
+  "provenance": {
+   "document": "main",
+   "pages": [
+    6
+   ],
+   "method": "manual",
+   "tool": "typed from the page at 200 dpi; geosigma.extract.printed_tables",
+   "extracted_on": "2026-10-24",
+   "notes": "Coordinates and elevations from Table 1 (pages 4-5). Depth = running sum of the printed thicknesses.",
+   "table": "Table 2"
+  },
+  "notes": "Upper unit resistivity 1.3 ohm.m. Lower unit resistivity 1.2 ohm.m. Hydrological strip 105."
+ },
+ {
+  "id": "goldman1998-HS418-upper",
+  "survey": "goldman-1998-tdem-coastal-monitoring",
+  "site": "HS418",
+  "method": "TEM",
+  "level": "L3",
+  "representation": "interface_depth",
+  "measured_on": "1997",
+  "confidence": "A",
+  "status": "draft",
+  "interface_depth_m": 123.0,
+  "criterion": "top of the upper low-resistivity unit (author, Table 2: associated with seawater intrusion and/or the Saqiye clays)",
+  "provenance": {
+   "document": "main",
+   "pages": [
+    6
+   ],
+   "method": "manual",
+   "tool": "typed from the page at 200 dpi; geosigma.extract.printed_tables",
+   "extracted_on": "2026-10-24",
+   "notes": "Coordinates and elevations from Table 1 (pages 4-5). Depth = running sum of the printed thicknesses.",
+   "table": "Table 2"
+  },
+  "notes": "Upper unit resistivity 2.1 ohm.m. Lower unit resistivity 1.4 ohm.m. Hydrological strip 105."
+ },
+ {
+  "id": "goldman1998-HS418-lower",
+  "survey": "goldman-1998-tdem-coastal-monitoring",
+  "site": "HS418",
+  "method": "TEM",
+  "level": "L3",
+  "representation": "interface_depth",
+  "measured_on": "1997",
+  "confidence": "A",
+  "status": "draft",
+  "interface_depth_m": 204.0,
+  "criterion": "top of the lower low-resistivity unit (author, Table 2: associated with seawater intrusion and/or the Saqiye clays)",
+  "provenance": {
+   "document": "main",
+   "pages": [
+    6
+   ],
+   "method": "manual",
+   "tool": "typed from the page at 200 dpi; geosigma.extract.printed_tables",
+   "extracted_on": "2026-10-24",
+   "notes": "Coordinates and elevations from Table 1 (pages 4-5). Depth = running sum of the printed thicknesses.",
+   "table": "Table 2"
+  },
+  "notes": "Upper unit resistivity 2.1 ohm.m. Lower unit resistivity 1.4 ohm.m. Hydrological strip 105."
+ },
+ {
+  "id": "goldman1998-HS419-upper",
+  "survey": "goldman-1998-tdem-coastal-monitoring",
+  "site": "HS419",
+  "method": "TEM",
+  "level": "L3",
+  "representation": "interface_depth",
+  "measured_on": "1997",
+  "confidence": "A",
+  "status": "draft",
+  "interface_depth_m": 50.0,
+  "criterion": "top of the upper low-resistivity unit (author, Table 2: associated with seawater intrusion and/or the Saqiye clays)",
+  "provenance": {
+   "document": "main",
+   "pages": [
+    6
+   ],
+   "method": "manual",
+   "tool": "typed from the page at 200 dpi; geosigma.extract.printed_tables",
+   "extracted_on": "2026-10-24",
+   "notes": "Coordinates and elevations from Table 1 (pages 4-5). Depth = running sum of the printed thicknesses.",
+   "table": "Table 2"
+  },
+  "notes": "Upper unit resistivity 2.3 ohm.m. Lower unit resistivity 2.6 ohm.m. Hydrological strip 127."
+ },
+ {
+  "id": "goldman1998-HS419-lower",
+  "survey": "goldman-1998-tdem-coastal-monitoring",
+  "site": "HS419",
+  "method": "TEM",
+  "level": "L3",
+  "representation": "interface_depth",
+  "measured_on": "1997",
+  "confidence": "A",
+  "status": "draft",
+  "interface_depth_m": 215.0,
+  "criterion": "top of the lower low-resistivity unit (author, Table 2: associated with seawater intrusion and/or the Saqiye clays)",
+  "provenance": {
+   "document": "main",
+   "pages": [
+    6
+   ],
+   "method": "manual",
+   "tool": "typed from the page at 200 dpi; geosigma.extract.printed_tables",
+   "extracted_on": "2026-10-24",
+   "notes": "Coordinates and elevations from Table 1 (pages 4-5). Depth = running sum of the printed thicknesses.",
+   "table": "Table 2"
+  },
+  "notes": "Upper unit resistivity 2.3 ohm.m. Lower unit resistivity 2.6 ohm.m. Hydrological strip 127."
+ },
+ {
+  "id": "goldman1998-HS420-upper",
+  "survey": "goldman-1998-tdem-coastal-monitoring",
+  "site": "HS420",
+  "method": "TEM",
+  "level": "L3",
+  "representation": "interface_depth",
+  "measured_on": "1997",
+  "confidence": "C",
+  "status": "draft",
+  "interface_depth_m": 33.0,
+  "criterion": "top of the upper low-resistivity unit (author, Table 2: associated with seawater intrusion and/or the Saqiye clays)",
+  "provenance": {
+   "document": "main",
+   "pages": [
+    6
+   ],
+   "method": "manual",
+   "tool": "typed from the page at 200 dpi; geosigma.extract.printed_tables",
+   "extracted_on": "2026-10-24",
+   "notes": "Coordinates and elevations from Table 1 (pages 4-5). Depth = running sum of the printed thicknesses.",
+   "table": "Table 2"
+  },
+  "notes": "Upper unit: two sub-layers, 3.8 ohm.m from 33 m and 0.4 ohm.m from 72 m; the shallower depth is stored. Author's comment: Noisy, not reliable. Hydrological strip 128."
+ },
+ {
+  "id": "goldman1998-HS422-upper",
+  "survey": "goldman-1998-tdem-coastal-monitoring",
+  "site": "HS422",
+  "method": "TEM",
+  "level": "L3",
+  "representation": "interface_depth",
+  "measured_on": "1997",
+  "confidence": "A",
+  "status": "draft",
+  "interface_depth_m": 41.0,
+  "criterion": "top of the upper low-resistivity unit (author, Table 2: associated with seawater intrusion and/or the Saqiye clays)",
+  "provenance": {
+   "document": "main",
+   "pages": [
+    6
+   ],
+   "method": "manual",
+   "tool": "typed from the page at 200 dpi; geosigma.extract.printed_tables",
+   "extracted_on": "2026-10-24",
+   "notes": "Coordinates and elevations from Table 1 (pages 4-5). Depth = running sum of the printed thicknesses.",
+   "table": "Table 2"
+  },
+  "notes": "Upper unit: two sub-layers, 2.8 ohm.m from 41 m and 1.6 ohm.m from 63 m; the shallower depth is stored. Lower unit resistivity 1.0 ohm.m. Hydrological strip 122."
+ },
+ {
+  "id": "goldman1998-HS422-lower",
+  "survey": "goldman-1998-tdem-coastal-monitoring",
+  "site": "HS422",
+  "method": "TEM",
+  "level": "L3",
+  "representation": "interface_depth",
+  "measured_on": "1997",
+  "confidence": "A",
+  "status": "draft",
+  "interface_depth_m": 216.0,
+  "criterion": "top of the lower low-resistivity unit (author, Table 2: associated with seawater intrusion and/or the Saqiye clays)",
+  "provenance": {
+   "document": "main",
+   "pages": [
+    6
+   ],
+   "method": "manual",
+   "tool": "typed from the page at 200 dpi; geosigma.extract.printed_tables",
+   "extracted_on": "2026-10-24",
+   "notes": "Coordinates and elevations from Table 1 (pages 4-5). Depth = running sum of the printed thicknesses.",
+   "table": "Table 2"
+  },
+  "notes": "Upper unit: two sub-layers, 2.8 ohm.m from 41 m and 1.6 ohm.m from 63 m; the shallower depth is stored. Lower unit resistivity 1.0 ohm.m. Hydrological strip 122."
+ },
+ {
+  "id": "goldman1998-HS423-upper",
+  "survey": "goldman-1998-tdem-coastal-monitoring",
+  "site": "HS423",
+  "method": "TEM",
+  "level": "L3",
+  "representation": "interface_depth",
+  "measured_on": "1997",
+  "confidence": "A",
+  "status": "draft",
+  "interface_depth_m": 17.0,
+  "criterion": "top of the upper low-resistivity unit (author, Table 2: associated with seawater intrusion and/or the Saqiye clays)",
+  "provenance": {
+   "document": "main",
+   "pages": [
+    6
+   ],
+   "method": "manual",
+   "tool": "typed from the page at 200 dpi; geosigma.extract.printed_tables",
+   "extracted_on": "2026-10-24",
+   "notes": "Coordinates and elevations from Table 1 (pages 4-5). Depth = running sum of the printed thicknesses.",
+   "table": "Table 2"
+  },
+  "notes": "Upper unit resistivity 1.3 ohm.m. Lower unit resistivity 1.3 ohm.m. Author's comment: Two subaquifers. The printout puts the lower unit (1.35 ohm.m) at 54.3 m; Table 2 gives 53 m. Hydrological strip 133."
+ },
+ {
+  "id": "goldman1998-HS423-lower",
+  "survey": "goldman-1998-tdem-coastal-monitoring",
+  "site": "HS423",
+  "method": "TEM",
+  "level": "L3",
+  "representation": "interface_depth",
+  "measured_on": "1997",
+  "confidence": "A",
+  "status": "draft",
+  "interface_depth_m": 53.0,
+  "criterion": "top of the lower low-resistivity unit (author, Table 2: associated with seawater intrusion and/or the Saqiye clays)",
+  "provenance": {
+   "document": "main",
+   "pages": [
+    6
+   ],
+   "method": "manual",
+   "tool": "typed from the page at 200 dpi; geosigma.extract.printed_tables",
+   "extracted_on": "2026-10-24",
+   "notes": "Coordinates and elevations from Table 1 (pages 4-5). Depth = running sum of the printed thicknesses.",
+   "table": "Table 2"
+  },
+  "notes": "Upper unit resistivity 1.3 ohm.m. Lower unit resistivity 1.3 ohm.m. Author's comment: Two subaquifers. The printout puts the lower unit (1.35 ohm.m) at 54.3 m; Table 2 gives 53 m. Hydrological strip 133."
+ },
+ {
+  "id": "goldman1998-HS424-lower",
+  "survey": "goldman-1998-tdem-coastal-monitoring",
+  "site": "HS424",
+  "method": "TEM",
+  "level": "L3",
+  "representation": "interface_depth",
+  "measured_on": "1997",
+  "confidence": "C",
+  "status": "draft",
+  "interface_depth_m": 195.0,
+  "criterion": "top of the lower low-resistivity unit (author, Table 2: associated with seawater intrusion and/or the Saqiye clays)",
+  "provenance": {
+   "document": "main",
+   "pages": [
+    6
+   ],
+   "method": "manual",
+   "tool": "typed from the page at 200 dpi; geosigma.extract.printed_tables",
+   "extracted_on": "2026-10-24",
+   "notes": "Coordinates and elevations from Table 1 (pages 4-5). Depth = running sum of the printed thicknesses.",
+   "table": "Table 2"
+  },
+  "notes": "Lower unit resistivity 1.0 ohm.m. The printout gives 1.11 ohm.m for the lower unit; Table 2 gives 1.0 ohm.m. Hydrological strip 135."
+ },
+ {
+  "id": "goldman1998-HS425-upper",
+  "survey": "goldman-1998-tdem-coastal-monitoring",
+  "site": "HS425",
+  "method": "TEM",
+  "level": "L3",
+  "representation": "interface_depth",
+  "measured_on": "1997",
+  "confidence": "C",
+  "status": "draft",
+  "interface_depth_m": 46.0,
+  "criterion": "top of the upper low-resistivity unit (author, Table 2: associated with seawater intrusion and/or the Saqiye clays)",
+  "provenance": {
+   "document": "main",
+   "pages": [
+    6
+   ],
+   "method": "manual",
+   "tool": "typed from the page at 200 dpi; geosigma.extract.printed_tables",
+   "extracted_on": "2026-10-24",
+   "notes": "Coordinates and elevations from Table 1 (pages 4-5). Depth = running sum of the printed thicknesses.",
+   "table": "Table 2"
+  },
+  "notes": "Upper unit resistivity 2.7 ohm.m. Author's comment: Noisy. Hydrological strip 134."
+ },
+ {
+  "id": "goldman1998-HS426-lower",
+  "survey": "goldman-1998-tdem-coastal-monitoring",
+  "site": "HS426",
+  "method": "TEM",
+  "level": "L3",
+  "representation": "interface_depth",
+  "measured_on": "1997",
+  "confidence": "C",
+  "status": "draft",
+  "interface_depth_m": 192.0,
+  "criterion": "top of the lower low-resistivity unit (author, Table 2: associated with seawater intrusion and/or the Saqiye clays)",
+  "provenance": {
+   "document": "main",
+   "pages": [
+    6
+   ],
+   "method": "manual",
+   "tool": "typed from the page at 200 dpi; geosigma.extract.printed_tables",
+   "extracted_on": "2026-10-24",
+   "notes": "Coordinates and elevations from Table 1 (pages 4-5). Depth = running sum of the printed thicknesses.",
+   "table": "Table 2"
+  },
+  "notes": "Lower unit resistivity 1.8 ohm.m. Author's comment: Noisy. Hydrological strip 135."
+ },
+ {
+  "id": "goldman1998-HS427-upper",
+  "survey": "goldman-1998-tdem-coastal-monitoring",
+  "site": "HS427",
+  "method": "TEM",
+  "level": "L3",
+  "representation": "interface_depth",
+  "measured_on": "1997",
+  "confidence": "A",
+  "status": "draft",
+  "interface_depth_m": 63.0,
+  "criterion": "top of the upper low-resistivity unit (author, Table 2: associated with seawater intrusion and/or the Saqiye clays)",
+  "provenance": {
+   "document": "main",
+   "pages": [
+    6
+   ],
+   "method": "manual",
+   "tool": "typed from the page at 200 dpi; geosigma.extract.printed_tables",
+   "extracted_on": "2026-10-24",
+   "notes": "Coordinates and elevations from Table 1 (pages 4-5). Depth = running sum of the printed thicknesses.",
+   "table": "Table 2"
+  },
+  "notes": "Upper unit resistivity 2.9 ohm.m. Hydrological strip 136."
+ },
+ {
+  "id": "goldman1998-HS428-upper",
+  "survey": "goldman-1998-tdem-coastal-monitoring",
+  "site": "HS428",
+  "method": "TEM",
+  "level": "L3",
+  "representation": "interface_depth",
+  "measured_on": "1997",
+  "confidence": "C",
+  "status": "draft",
+  "interface_depth_m": 33.0,
+  "criterion": "top of the upper low-resistivity unit (author, Table 2: associated with seawater intrusion and/or the Saqiye clays)",
+  "provenance": {
+   "document": "main",
+   "pages": [
+    6
+   ],
+   "method": "manual",
+   "tool": "typed from the page at 200 dpi; geosigma.extract.printed_tables",
+   "extracted_on": "2026-10-24",
+   "notes": "Coordinates and elevations from Table 1 (pages 4-5). Depth = running sum of the printed thicknesses.",
+   "table": "Table 2"
+  },
+  "notes": "Upper unit resistivity 1.1 ohm.m. Author's comment: Noisy. Hydrological strip 136."
+ },
+ {
+  "id": "goldman1998-HS429-upper",
+  "survey": "goldman-1998-tdem-coastal-monitoring",
+  "site": "HS429",
+  "method": "TEM",
+  "level": "L3",
+  "representation": "interface_depth",
+  "measured_on": "1997",
+  "confidence": "C",
+  "status": "draft",
+  "interface_depth_m": 61.0,
+  "criterion": "top of the upper low-resistivity unit (author, Table 2: associated with seawater intrusion and/or the Saqiye clays)",
+  "provenance": {
+   "document": "main",
+   "pages": [
+    6
+   ],
+   "method": "manual",
+   "tool": "typed from the page at 200 dpi; geosigma.extract.printed_tables",
+   "extracted_on": "2026-10-24",
+   "notes": "Coordinates and elevations from Table 1 (pages 4-5). Depth = running sum of the printed thicknesses.",
+   "table": "Table 2"
+  },
+  "notes": "Upper unit resistivity 1.7 ohm.m. Author's comment: Noisy. Hydrological strip 137."
+ },
+ {
+  "id": "goldman1998-HS430-lower",
+  "survey": "goldman-1998-tdem-coastal-monitoring",
+  "site": "HS430",
+  "method": "TEM",
+  "level": "L3",
+  "representation": "interface_depth",
+  "measured_on": "1997",
+  "confidence": "A",
+  "status": "draft",
+  "interface_depth_m": 157.0,
+  "criterion": "top of the lower low-resistivity unit (author, Table 2: associated with seawater intrusion and/or the Saqiye clays)",
+  "provenance": {
+   "document": "main",
+   "pages": [
+    6
+   ],
+   "method": "manual",
+   "tool": "typed from the page at 200 dpi; geosigma.extract.printed_tables",
+   "extracted_on": "2026-10-24",
+   "notes": "Coordinates and elevations from Table 1 (pages 4-5). Depth = running sum of the printed thicknesses.",
+   "table": "Table 2"
+  },
+  "notes": "Lower unit resistivity 2.4 ohm.m. Author's comment: Two subaquifers. Hydrological strip 141."
+ },
+ {
+  "id": "goldman1998-HS431-upper",
+  "survey": "goldman-1998-tdem-coastal-monitoring",
+  "site": "HS431",
+  "method": "TEM",
+  "level": "L3",
+  "representation": "interface_depth",
+  "measured_on": "1997",
+  "confidence": "A",
+  "status": "draft",
+  "interface_depth_m": 32.0,
+  "criterion": "top of the upper low-resistivity unit (author, Table 2: associated with seawater intrusion and/or the Saqiye clays)",
+  "provenance": {
+   "document": "main",
+   "pages": [
+    6
+   ],
+   "method": "manual",
+   "tool": "typed from the page at 200 dpi; geosigma.extract.printed_tables",
+   "extracted_on": "2026-10-24",
+   "notes": "Coordinates and elevations from Table 1 (pages 4-5). Depth = running sum of the printed thicknesses.",
+   "table": "Table 2"
+  },
+  "notes": "Upper unit resistivity 3.0 ohm.m. Lower unit resistivity 1.6 ohm.m. Author's comment: High resistivity. Hydrological strip 102."
+ },
+ {
+  "id": "goldman1998-HS431-lower",
+  "survey": "goldman-1998-tdem-coastal-monitoring",
+  "site": "HS431",
+  "method": "TEM",
+  "level": "L3",
+  "representation": "interface_depth",
+  "measured_on": "1997",
+  "confidence": "A",
+  "status": "draft",
+  "interface_depth_m": 148.0,
+  "criterion": "top of the lower low-resistivity unit (author, Table 2: associated with seawater intrusion and/or the Saqiye clays)",
+  "provenance": {
+   "document": "main",
+   "pages": [
+    6
+   ],
+   "method": "manual",
+   "tool": "typed from the page at 200 dpi; geosigma.extract.printed_tables",
+   "extracted_on": "2026-10-24",
+   "notes": "Coordinates and elevations from Table 1 (pages 4-5). Depth = running sum of the printed thicknesses.",
+   "table": "Table 2"
+  },
+  "notes": "Upper unit resistivity 3.0 ohm.m. Lower unit resistivity 1.6 ohm.m. Author's comment: High resistivity. Hydrological strip 102."
+ },
+ {
+  "id": "goldman1998-HS432-lower",
+  "survey": "goldman-1998-tdem-coastal-monitoring",
+  "site": "HS432",
+  "method": "TEM",
+  "level": "L3",
+  "representation": "interface_depth",
+  "measured_on": "1997",
+  "confidence": "A",
+  "status": "draft",
+  "interface_depth_m": 167.0,
+  "criterion": "top of the lower low-resistivity unit (author, Table 2: associated with seawater intrusion and/or the Saqiye clays)",
+  "provenance": {
+   "document": "main",
+   "pages": [
+    6
+   ],
+   "method": "manual",
+   "tool": "typed from the page at 200 dpi; geosigma.extract.printed_tables",
+   "extracted_on": "2026-10-24",
+   "notes": "Coordinates and elevations from Table 1 (pages 4-5). Depth = running sum of the printed thicknesses.",
+   "table": "Table 2"
+  },
+  "notes": "Lower unit resistivity 1.3 ohm.m. Author's comment: Lower subaquifer. Hydrological strip 102."
+ },
+ {
+  "id": "goldman1998-HS433-upper",
+  "survey": "goldman-1998-tdem-coastal-monitoring",
+  "site": "HS433",
+  "method": "TEM",
+  "level": "L3",
+  "representation": "interface_depth",
+  "measured_on": "1997",
+  "confidence": "A",
+  "status": "draft",
+  "interface_depth_m": 44.0,
+  "criterion": "top of the upper low-resistivity unit (author, Table 2: associated with seawater intrusion and/or the Saqiye clays)",
+  "provenance": {
+   "document": "main",
+   "pages": [
+    6
+   ],
+   "method": "manual",
+   "tool": "typed from the page at 200 dpi; geosigma.extract.printed_tables",
+   "extracted_on": "2026-10-24",
+   "notes": "Coordinates and elevations from Table 1 (pages 4-5). Depth = running sum of the printed thicknesses.",
+   "table": "Table 2"
+  },
+  "notes": "Upper unit resistivity 1.5 ohm.m. Lower unit resistivity 1.5 ohm.m. Author's comment: Two subaquifers. Hydrological strip 103."
+ },
+ {
+  "id": "goldman1998-HS433-lower",
+  "survey": "goldman-1998-tdem-coastal-monitoring",
+  "site": "HS433",
+  "method": "TEM",
+  "level": "L3",
+  "representation": "interface_depth",
+  "measured_on": "1997",
+  "confidence": "A",
+  "status": "draft",
+  "interface_depth_m": 143.0,
+  "criterion": "top of the lower low-resistivity unit (author, Table 2: associated with seawater intrusion and/or the Saqiye clays)",
+  "provenance": {
+   "document": "main",
+   "pages": [
+    6
+   ],
+   "method": "manual",
+   "tool": "typed from the page at 200 dpi; geosigma.extract.printed_tables",
+   "extracted_on": "2026-10-24",
+   "notes": "Coordinates and elevations from Table 1 (pages 4-5). Depth = running sum of the printed thicknesses.",
+   "table": "Table 2"
+  },
+  "notes": "Upper unit resistivity 1.5 ohm.m. Lower unit resistivity 1.5 ohm.m. Author's comment: Two subaquifers. Hydrological strip 103."
+ },
+ {
+  "id": "goldman1998-HS434-upper",
+  "survey": "goldman-1998-tdem-coastal-monitoring",
+  "site": "HS434",
+  "method": "TEM",
+  "level": "L3",
+  "representation": "interface_depth",
+  "measured_on": "1997",
+  "confidence": "A",
+  "status": "draft",
+  "interface_depth_m": 49.0,
+  "criterion": "top of the upper low-resistivity unit (author, Table 2: associated with seawater intrusion and/or the Saqiye clays)",
+  "provenance": {
+   "document": "main",
+   "pages": [
+    6
+   ],
+   "method": "manual",
+   "tool": "typed from the page at 200 dpi; geosigma.extract.printed_tables",
+   "extracted_on": "2026-10-24",
+   "notes": "Coordinates and elevations from Table 1 (pages 4-5). Depth = running sum of the printed thicknesses.",
+   "table": "Table 2"
+  },
+  "notes": "Upper unit: two sub-layers, 3.3 ohm.m from 49 m and 2.0 ohm.m from 77 m; the shallower depth is stored. Lower unit resistivity 1.2 ohm.m. Author's comment: Two subaquifers. Hydrological strip 103."
+ },
+ {
+  "id": "goldman1998-HS434-lower",
+  "survey": "goldman-1998-tdem-coastal-monitoring",
+  "site": "HS434",
+  "method": "TEM",
+  "level": "L3",
+  "representation": "interface_depth",
+  "measured_on": "1997",
+  "confidence": "A",
+  "status": "draft",
+  "interface_depth_m": 164.0,
+  "criterion": "top of the lower low-resistivity unit (author, Table 2: associated with seawater intrusion and/or the Saqiye clays)",
+  "provenance": {
+   "document": "main",
+   "pages": [
+    6
+   ],
+   "method": "manual",
+   "tool": "typed from the page at 200 dpi; geosigma.extract.printed_tables",
+   "extracted_on": "2026-10-24",
+   "notes": "Coordinates and elevations from Table 1 (pages 4-5). Depth = running sum of the printed thicknesses.",
+   "table": "Table 2"
+  },
+  "notes": "Upper unit: two sub-layers, 3.3 ohm.m from 49 m and 2.0 ohm.m from 77 m; the shallower depth is stored. Lower unit resistivity 1.2 ohm.m. Author's comment: Two subaquifers. Hydrological strip 103."
+ },
+ {
+  "id": "goldman1998-HS435-upper",
+  "survey": "goldman-1998-tdem-coastal-monitoring",
+  "site": "HS435",
+  "method": "TEM",
+  "level": "L3",
+  "representation": "interface_depth",
+  "measured_on": "1997",
+  "confidence": "A",
+  "status": "draft",
+  "interface_depth_m": 76.0,
+  "criterion": "top of the upper low-resistivity unit (author, Table 2: associated with seawater intrusion and/or the Saqiye clays)",
+  "provenance": {
+   "document": "main",
+   "pages": [
+    6
+   ],
+   "method": "manual",
+   "tool": "typed from the page at 200 dpi; geosigma.extract.printed_tables",
+   "extracted_on": "2026-10-24",
+   "notes": "Coordinates and elevations from Table 1 (pages 4-5). Depth = running sum of the printed thicknesses.",
+   "table": "Table 2"
+  },
+  "notes": "Upper unit resistivity 2.0 ohm.m. Lower unit resistivity 1.6 ohm.m. Hydrological strip 143."
+ },
+ {
+  "id": "goldman1998-HS435-lower",
+  "survey": "goldman-1998-tdem-coastal-monitoring",
+  "site": "HS435",
+  "method": "TEM",
+  "level": "L3",
+  "representation": "interface_depth",
+  "measured_on": "1997",
+  "confidence": "A",
+  "status": "draft",
+  "interface_depth_m": 209.0,
+  "criterion": "top of the lower low-resistivity unit (author, Table 2: associated with seawater intrusion and/or the Saqiye clays)",
+  "provenance": {
+   "document": "main",
+   "pages": [
+    6
+   ],
+   "method": "manual",
+   "tool": "typed from the page at 200 dpi; geosigma.extract.printed_tables",
+   "extracted_on": "2026-10-24",
+   "notes": "Coordinates and elevations from Table 1 (pages 4-5). Depth = running sum of the printed thicknesses.",
+   "table": "Table 2"
+  },
+  "notes": "Upper unit resistivity 2.0 ohm.m. Lower unit resistivity 1.6 ohm.m. Hydrological strip 143."
+ },
+ {
+  "id": "goldman1998-HS436-lower",
+  "survey": "goldman-1998-tdem-coastal-monitoring",
+  "site": "HS436",
+  "method": "TEM",
+  "level": "L3",
+  "representation": "interface_depth",
+  "measured_on": "1997",
+  "confidence": "A",
+  "status": "draft",
+  "interface_depth_m": 205.0,
+  "criterion": "top of the lower low-resistivity unit (author, Table 2: associated with seawater intrusion and/or the Saqiye clays)",
+  "provenance": {
+   "document": "main",
+   "pages": [
+    6
+   ],
+   "method": "manual",
+   "tool": "typed from the page at 200 dpi; geosigma.extract.printed_tables",
+   "extracted_on": "2026-10-24",
+   "notes": "Coordinates and elevations from Table 1 (pages 4-5). Depth = running sum of the printed thicknesses.",
+   "table": "Table 2"
+  },
+  "notes": "Lower unit resistivity 1.3 ohm.m. Hydrological strip 144."
+ },
+ {
+  "id": "goldman1998-HS437-upper",
+  "survey": "goldman-1998-tdem-coastal-monitoring",
+  "site": "HS437",
+  "method": "TEM",
+  "level": "L3",
+  "representation": "interface_depth",
+  "measured_on": "1997",
+  "confidence": "A",
+  "status": "draft",
+  "interface_depth_m": 101.0,
+  "criterion": "top of the upper low-resistivity unit (author, Table 2: associated with seawater intrusion and/or the Saqiye clays)",
+  "provenance": {
+   "document": "main",
+   "pages": [
+    6
+   ],
+   "method": "manual",
+   "tool": "typed from the page at 200 dpi; geosigma.extract.printed_tables",
+   "extracted_on": "2026-10-24",
+   "notes": "Coordinates and elevations from Table 1 (pages 4-5). Depth = running sum of the printed thicknesses.",
+   "table": "Table 2"
+  },
+  "notes": "Upper unit resistivity 1.4 ohm.m. Lower unit resistivity 1.7 ohm.m. Hydrological strip 144."
+ },
+ {
+  "id": "goldman1998-HS437-lower",
+  "survey": "goldman-1998-tdem-coastal-monitoring",
+  "site": "HS437",
+  "method": "TEM",
+  "level": "L3",
+  "representation": "interface_depth",
+  "measured_on": "1997",
+  "confidence": "A",
+  "status": "draft",
+  "interface_depth_m": 226.0,
+  "criterion": "top of the lower low-resistivity unit (author, Table 2: associated with seawater intrusion and/or the Saqiye clays)",
+  "provenance": {
+   "document": "main",
+   "pages": [
+    6
+   ],
+   "method": "manual",
+   "tool": "typed from the page at 200 dpi; geosigma.extract.printed_tables",
+   "extracted_on": "2026-10-24",
+   "notes": "Coordinates and elevations from Table 1 (pages 4-5). Depth = running sum of the printed thicknesses.",
+   "table": "Table 2"
+  },
+  "notes": "Upper unit resistivity 1.4 ohm.m. Lower unit resistivity 1.7 ohm.m. Hydrological strip 144."
+ },
+ {
+  "id": "goldman1998-HS438-lower",
+  "survey": "goldman-1998-tdem-coastal-monitoring",
+  "site": "HS438",
+  "method": "TEM",
+  "level": "L3",
+  "representation": "interface_depth",
+  "measured_on": "1997",
+  "confidence": "A",
+  "status": "draft",
+  "interface_depth_m": 182.0,
+  "criterion": "top of the lower low-resistivity unit (author, Table 2: associated with seawater intrusion and/or the Saqiye clays)",
+  "provenance": {
+   "document": "main",
+   "pages": [
+    6
+   ],
+   "method": "manual",
+   "tool": "typed from the page at 200 dpi; geosigma.extract.printed_tables",
+   "extracted_on": "2026-10-24",
+   "notes": "Coordinates and elevations from Table 1 (pages 4-5). Depth = running sum of the printed thicknesses.",
+   "table": "Table 2"
+  },
+  "notes": "Lower unit resistivity 2.8 ohm.m. Hydrological strip 138."
+ },
+ {
+  "id": "goldman1998-HS440-upper",
+  "survey": "goldman-1998-tdem-coastal-monitoring",
+  "site": "HS440",
+  "method": "TEM",
+  "level": "L3",
+  "representation": "interface_depth",
+  "measured_on": "1997",
+  "confidence": "A",
+  "status": "draft",
+  "interface_depth_m": 58.0,
+  "criterion": "top of the upper low-resistivity unit (author, Table 2: associated with seawater intrusion and/or the Saqiye clays)",
+  "provenance": {
+   "document": "main",
+   "pages": [
+    6
+   ],
+   "method": "manual",
+   "tool": "typed from the page at 200 dpi; geosigma.extract.printed_tables",
+   "extracted_on": "2026-10-24",
+   "notes": "Coordinates and elevations from Table 1 (pages 4-5). Depth = running sum of the printed thicknesses.",
+   "table": "Table 2"
+  },
+  "notes": "Upper unit resistivity 1.7 ohm.m. Lower unit resistivity 2.4 ohm.m. Hydrological strip 147."
+ },
+ {
+  "id": "goldman1998-HS440-lower",
+  "survey": "goldman-1998-tdem-coastal-monitoring",
+  "site": "HS440",
+  "method": "TEM",
+  "level": "L3",
+  "representation": "interface_depth",
+  "measured_on": "1997",
+  "confidence": "A",
+  "status": "draft",
+  "interface_depth_m": 164.0,
+  "criterion": "top of the lower low-resistivity unit (author, Table 2: associated with seawater intrusion and/or the Saqiye clays)",
+  "provenance": {
+   "document": "main",
+   "pages": [
+    6
+   ],
+   "method": "manual",
+   "tool": "typed from the page at 200 dpi; geosigma.extract.printed_tables",
+   "extracted_on": "2026-10-24",
+   "notes": "Coordinates and elevations from Table 1 (pages 4-5). Depth = running sum of the printed thicknesses.",
+   "table": "Table 2"
+  },
+  "notes": "Upper unit resistivity 1.7 ohm.m. Lower unit resistivity 2.4 ohm.m. Hydrological strip 147."
+ },
+ {
+  "id": "goldman1998-HS441-upper",
+  "survey": "goldman-1998-tdem-coastal-monitoring",
+  "site": "HS441",
+  "method": "TEM",
+  "level": "L3",
+  "representation": "interface_depth",
+  "measured_on": "1997",
+  "confidence": "C",
+  "status": "draft",
+  "interface_depth_m": 53.0,
+  "criterion": "top of the upper low-resistivity unit (author, Table 2: associated with seawater intrusion and/or the Saqiye clays)",
+  "provenance": {
+   "document": "main",
+   "pages": [
+    6
+   ],
+   "method": "manual",
+   "tool": "typed from the page at 200 dpi; geosigma.extract.printed_tables",
+   "extracted_on": "2026-10-24",
+   "notes": "Coordinates and elevations from Table 1 (pages 4-5). Depth = running sum of the printed thicknesses.",
+   "table": "Table 2"
+  },
+  "notes": "Upper unit resistivity 1.2 ohm.m. Author's comment: Noisy. Hydrological strip 148."
+ },
+ {
+  "id": "goldman1998-HS442-upper",
+  "survey": "goldman-1998-tdem-coastal-monitoring",
+  "site": "HS442",
+  "method": "TEM",
+  "level": "L3",
+  "representation": "interface_depth",
+  "measured_on": "1997",
+  "confidence": "A",
+  "status": "draft",
+  "interface_depth_m": 50.0,
+  "criterion": "top of the upper low-resistivity unit (author, Table 2: associated with seawater intrusion and/or the Saqiye clays)",
+  "provenance": {
+   "document": "main",
+   "pages": [
+    6
+   ],
+   "method": "manual",
+   "tool": "typed from the page at 200 dpi; geosigma.extract.printed_tables",
+   "extracted_on": "2026-10-24",
+   "notes": "Coordinates and elevations from Table 1 (pages 4-5). Depth = running sum of the printed thicknesses.",
+   "table": "Table 2"
+  },
+  "notes": "Upper unit resistivity 1.4 ohm.m. Lower unit resistivity 1.3 ohm.m. Hydrological strip 151."
+ },
+ {
+  "id": "goldman1998-HS442-lower",
+  "survey": "goldman-1998-tdem-coastal-monitoring",
+  "site": "HS442",
+  "method": "TEM",
+  "level": "L3",
+  "representation": "interface_depth",
+  "measured_on": "1997",
+  "confidence": "A",
+  "status": "draft",
+  "interface_depth_m": 148.0,
+  "criterion": "top of the lower low-resistivity unit (author, Table 2: associated with seawater intrusion and/or the Saqiye clays)",
+  "provenance": {
+   "document": "main",
+   "pages": [
+    6
+   ],
+   "method": "manual",
+   "tool": "typed from the page at 200 dpi; geosigma.extract.printed_tables",
+   "extracted_on": "2026-10-24",
+   "notes": "Coordinates and elevations from Table 1 (pages 4-5). Depth = running sum of the printed thicknesses.",
+   "table": "Table 2"
+  },
+  "notes": "Upper unit resistivity 1.4 ohm.m. Lower unit resistivity 1.3 ohm.m. Hydrological strip 151."
+ },
+ {
+  "id": "goldman1998-HS443-upper",
+  "survey": "goldman-1998-tdem-coastal-monitoring",
+  "site": "HS443",
+  "method": "TEM",
+  "level": "L3",
+  "representation": "interface_depth",
+  "measured_on": "1997",
+  "confidence": "A",
+  "status": "draft",
+  "interface_depth_m": 50.0,
+  "criterion": "top of the upper low-resistivity unit (author, Table 2: associated with seawater intrusion and/or the Saqiye clays)",
+  "provenance": {
+   "document": "main",
+   "pages": [
+    6
+   ],
+   "method": "manual",
+   "tool": "typed from the page at 200 dpi; geosigma.extract.printed_tables",
+   "extracted_on": "2026-10-24",
+   "notes": "Coordinates and elevations from Table 1 (pages 4-5). Depth = running sum of the printed thicknesses.",
+   "table": "Table 2"
+  },
+  "notes": "Upper unit resistivity 1.5 ohm.m. Lower unit resistivity 1.2 ohm.m. Hydrological strip 151."
+ },
+ {
+  "id": "goldman1998-HS443-lower",
+  "survey": "goldman-1998-tdem-coastal-monitoring",
+  "site": "HS443",
+  "method": "TEM",
+  "level": "L3",
+  "representation": "interface_depth",
+  "measured_on": "1997",
+  "confidence": "A",
+  "status": "draft",
+  "interface_depth_m": 153.0,
+  "criterion": "top of the lower low-resistivity unit (author, Table 2: associated with seawater intrusion and/or the Saqiye clays)",
+  "provenance": {
+   "document": "main",
+   "pages": [
+    6
+   ],
+   "method": "manual",
+   "tool": "typed from the page at 200 dpi; geosigma.extract.printed_tables",
+   "extracted_on": "2026-10-24",
+   "notes": "Coordinates and elevations from Table 1 (pages 4-5). Depth = running sum of the printed thicknesses.",
+   "table": "Table 2"
+  },
+  "notes": "Upper unit resistivity 1.5 ohm.m. Lower unit resistivity 1.2 ohm.m. Hydrological strip 151."
+ },
+ {
+  "id": "goldman1998-HS444-upper",
+  "survey": "goldman-1998-tdem-coastal-monitoring",
+  "site": "HS444",
+  "method": "TEM",
+  "level": "L3",
+  "representation": "interface_depth",
+  "measured_on": "1997",
+  "confidence": "A",
+  "status": "draft",
+  "interface_depth_m": 46.0,
+  "criterion": "top of the upper low-resistivity unit (author, Table 2: associated with seawater intrusion and/or the Saqiye clays)",
+  "provenance": {
+   "document": "main",
+   "pages": [
+    6
+   ],
+   "method": "manual",
+   "tool": "typed from the page at 200 dpi; geosigma.extract.printed_tables",
+   "extracted_on": "2026-10-24",
+   "notes": "Coordinates and elevations from Table 1 (pages 4-5). Depth = running sum of the printed thicknesses.",
+   "table": "Table 2"
+  },
+  "notes": "Upper unit resistivity 2.1 ohm.m. Hydrological strip 153."
+ },
+ {
+  "id": "goldman1998-HS445-lower",
+  "survey": "goldman-1998-tdem-coastal-monitoring",
+  "site": "HS445",
+  "method": "TEM",
+  "level": "L3",
+  "representation": "interface_depth",
+  "measured_on": "1997",
+  "confidence": "A",
+  "status": "draft",
+  "interface_depth_m": 103.0,
+  "criterion": "top of the lower low-resistivity unit (author, Table 2: associated with seawater intrusion and/or the Saqiye clays)",
+  "provenance": {
+   "document": "main",
+   "pages": [
+    7
+   ],
+   "method": "manual",
+   "tool": "typed from the page at 200 dpi; geosigma.extract.printed_tables",
+   "extracted_on": "2026-10-24",
+   "notes": "Coordinates and elevations from Table 1 (pages 4-5). Depth = running sum of the printed thicknesses.",
+   "table": "Table 2"
+  },
+  "notes": "Lower unit resistivity 2.3 ohm.m. Hydrological strip 153."
+ },
+ {
+  "id": "goldman1998-HS447-upper",
+  "survey": "goldman-1998-tdem-coastal-monitoring",
+  "site": "HS447",
+  "method": "TEM",
+  "level": "L3",
+  "representation": "interface_depth",
+  "measured_on": "1997",
+  "confidence": "A",
+  "status": "draft",
+  "interface_depth_m": 33.0,
+  "criterion": "top of the upper low-resistivity unit (author, Table 2: associated with seawater intrusion and/or the Saqiye clays)",
+  "provenance": {
+   "document": "main",
+   "pages": [
+    7
+   ],
+   "method": "manual",
+   "tool": "typed from the page at 200 dpi; geosigma.extract.printed_tables",
+   "extracted_on": "2026-10-24",
+   "notes": "Coordinates and elevations from Table 1 (pages 4-5). Depth = running sum of the printed thicknesses.",
+   "table": "Table 2"
+  },
+  "notes": "Upper unit resistivity 1.5 ohm.m. Hydrological strip 142."
+ },
+ {
+  "id": "goldman1998-HS448-upper",
+  "survey": "goldman-1998-tdem-coastal-monitoring",
+  "site": "HS448",
+  "method": "TEM",
+  "level": "L3",
+  "representation": "interface_depth",
+  "measured_on": "1997",
+  "confidence": "A",
+  "status": "draft",
+  "interface_depth_m": 42.0,
+  "criterion": "top of the upper low-resistivity unit (author, Table 2: associated with seawater intrusion and/or the Saqiye clays)",
+  "provenance": {
+   "document": "main",
+   "pages": [
+    7
+   ],
+   "method": "manual",
+   "tool": "typed from the page at 200 dpi; geosigma.extract.printed_tables",
+   "extracted_on": "2026-10-24",
+   "notes": "Coordinates and elevations from Table 1 (pages 4-5). Depth = running sum of the printed thicknesses.",
+   "table": "Table 2"
+  },
+  "notes": "Upper unit resistivity 1.4 ohm.m. Lower unit resistivity 1.3 ohm.m. Hydrological strip 142."
+ },
+ {
+  "id": "goldman1998-HS448-lower",
+  "survey": "goldman-1998-tdem-coastal-monitoring",
+  "site": "HS448",
+  "method": "TEM",
+  "level": "L3",
+  "representation": "interface_depth",
+  "measured_on": "1997",
+  "confidence": "A",
+  "status": "draft",
+  "interface_depth_m": 181.0,
+  "criterion": "top of the lower low-resistivity unit (author, Table 2: associated with seawater intrusion and/or the Saqiye clays)",
+  "provenance": {
+   "document": "main",
+   "pages": [
+    7
+   ],
+   "method": "manual",
+   "tool": "typed from the page at 200 dpi; geosigma.extract.printed_tables",
+   "extracted_on": "2026-10-24",
+   "notes": "Coordinates and elevations from Table 1 (pages 4-5). Depth = running sum of the printed thicknesses.",
+   "table": "Table 2"
+  },
+  "notes": "Upper unit resistivity 1.4 ohm.m. Lower unit resistivity 1.3 ohm.m. Hydrological strip 142."
+ },
+ {
+  "id": "goldman1998-HS449-upper",
+  "survey": "goldman-1998-tdem-coastal-monitoring",
+  "site": "HS449",
+  "method": "TEM",
+  "level": "L3",
+  "representation": "interface_depth",
+  "measured_on": "1997",
+  "confidence": "A",
+  "status": "draft",
+  "interface_depth_m": 53.0,
+  "criterion": "top of the upper low-resistivity unit (author, Table 2: associated with seawater intrusion and/or the Saqiye clays)",
+  "provenance": {
+   "document": "main",
+   "pages": [
+    7
+   ],
+   "method": "manual",
+   "tool": "typed from the page at 200 dpi; geosigma.extract.printed_tables",
+   "extracted_on": "2026-10-24",
+   "notes": "Coordinates and elevations from Table 1 (pages 4-5). Depth = running sum of the printed thicknesses.",
+   "table": "Table 2"
+  },
+  "notes": "Upper unit resistivity 1.3 ohm.m. Lower unit resistivity 1.4 ohm.m. Hydrological strip 142."
+ },
+ {
+  "id": "goldman1998-HS449-lower",
+  "survey": "goldman-1998-tdem-coastal-monitoring",
+  "site": "HS449",
+  "method": "TEM",
+  "level": "L3",
+  "representation": "interface_depth",
+  "measured_on": "1997",
+  "confidence": "A",
+  "status": "draft",
+  "interface_depth_m": 175.0,
+  "criterion": "top of the lower low-resistivity unit (author, Table 2: associated with seawater intrusion and/or the Saqiye clays)",
+  "provenance": {
+   "document": "main",
+   "pages": [
+    7
+   ],
+   "method": "manual",
+   "tool": "typed from the page at 200 dpi; geosigma.extract.printed_tables",
+   "extracted_on": "2026-10-24",
+   "notes": "Coordinates and elevations from Table 1 (pages 4-5). Depth = running sum of the printed thicknesses.",
+   "table": "Table 2"
+  },
+  "notes": "Upper unit resistivity 1.3 ohm.m. Lower unit resistivity 1.4 ohm.m. Hydrological strip 142."
+ },
+ {
+  "id": "goldman1998-HS450-lower",
+  "survey": "goldman-1998-tdem-coastal-monitoring",
+  "site": "HS450",
+  "method": "TEM",
+  "level": "L3",
+  "representation": "interface_depth",
+  "measured_on": "1997",
+  "confidence": "C",
+  "status": "draft",
+  "interface_depth_m": 143.0,
+  "criterion": "top of the lower low-resistivity unit (author, Table 2: associated with seawater intrusion and/or the Saqiye clays)",
+  "provenance": {
+   "document": "main",
+   "pages": [
+    7
+   ],
+   "method": "manual",
+   "tool": "typed from the page at 200 dpi; geosigma.extract.printed_tables",
+   "extracted_on": "2026-10-24",
+   "notes": "Coordinates and elevations from Table 1 (pages 4-5). Depth = running sum of the printed thicknesses.",
+   "table": "Table 2"
+  },
+  "notes": "Lower unit resistivity 2.2 ohm.m. Author's comment: Noisy. Hydrological strip 140."
+ },
+ {
+  "id": "goldman1998-HS451-lower",
+  "survey": "goldman-1998-tdem-coastal-monitoring",
+  "site": "HS451",
+  "method": "TEM",
+  "level": "L3",
+  "representation": "interface_depth",
+  "measured_on": "1997",
+  "confidence": "A",
+  "status": "draft",
+  "interface_depth_m": 167.0,
+  "criterion": "top of the lower low-resistivity unit (author, Table 2: associated with seawater intrusion and/or the Saqiye clays)",
+  "provenance": {
+   "document": "main",
+   "pages": [
+    7
+   ],
+   "method": "manual",
+   "tool": "typed from the page at 200 dpi; geosigma.extract.printed_tables",
+   "extracted_on": "2026-10-24",
+   "notes": "Coordinates and elevations from Table 1 (pages 4-5). Depth = running sum of the printed thicknesses.",
+   "table": "Table 2"
+  },
+  "notes": "Lower unit resistivity 2.0 ohm.m. Hydrological strip 143."
+ },
+ {
+  "id": "goldman1998-HS452-upper",
+  "survey": "goldman-1998-tdem-coastal-monitoring",
+  "site": "HS452",
+  "method": "TEM",
+  "level": "L3",
+  "representation": "interface_depth",
+  "measured_on": "1997",
+  "confidence": "A",
+  "status": "draft",
+  "interface_depth_m": 62.0,
+  "criterion": "top of the upper low-resistivity unit (author, Table 2: associated with seawater intrusion and/or the Saqiye clays)",
+  "provenance": {
+   "document": "main",
+   "pages": [
+    7
+   ],
+   "method": "manual",
+   "tool": "typed from the page at 200 dpi; geosigma.extract.printed_tables",
+   "extracted_on": "2026-10-24",
+   "notes": "Coordinates and elevations from Table 1 (pages 4-5). Depth = running sum of the printed thicknesses.",
+   "table": "Table 2"
+  },
+  "notes": "Upper unit resistivity 1.8 ohm.m. Lower unit resistivity 2.3 ohm.m. Hydrological strip 147."
+ },
+ {
+  "id": "goldman1998-HS452-lower",
+  "survey": "goldman-1998-tdem-coastal-monitoring",
+  "site": "HS452",
+  "method": "TEM",
+  "level": "L3",
+  "representation": "interface_depth",
+  "measured_on": "1997",
+  "confidence": "A",
+  "status": "draft",
+  "interface_depth_m": 171.0,
+  "criterion": "top of the lower low-resistivity unit (author, Table 2: associated with seawater intrusion and/or the Saqiye clays)",
+  "provenance": {
+   "document": "main",
+   "pages": [
+    7
+   ],
+   "method": "manual",
+   "tool": "typed from the page at 200 dpi; geosigma.extract.printed_tables",
+   "extracted_on": "2026-10-24",
+   "notes": "Coordinates and elevations from Table 1 (pages 4-5). Depth = running sum of the printed thicknesses.",
+   "table": "Table 2"
+  },
+  "notes": "Upper unit resistivity 1.8 ohm.m. Lower unit resistivity 2.3 ohm.m. Hydrological strip 147."
+ },
+ {
+  "id": "goldman1998-HS453-upper",
+  "survey": "goldman-1998-tdem-coastal-monitoring",
+  "site": "HS453",
+  "method": "TEM",
+  "level": "L3",
+  "representation": "interface_depth",
+  "measured_on": "1997",
+  "confidence": "A",
+  "status": "draft",
+  "interface_depth_m": 56.0,
+  "criterion": "top of the upper low-resistivity unit (author, Table 2: associated with seawater intrusion and/or the Saqiye clays)",
+  "provenance": {
+   "document": "main",
+   "pages": [
+    7
+   ],
+   "method": "manual",
+   "tool": "typed from the page at 200 dpi; geosigma.extract.printed_tables",
+   "extracted_on": "2026-10-24",
+   "notes": "Coordinates and elevations from Table 1 (pages 4-5). Depth = running sum of the printed thicknesses.",
+   "table": "Table 2"
+  },
+  "notes": "Upper unit resistivity 1.3 ohm.m. Hydrological strip 148."
+ },
+ {
+  "id": "goldman1998-HS454-upper",
+  "survey": "goldman-1998-tdem-coastal-monitoring",
+  "site": "HS454",
+  "method": "TEM",
+  "level": "L3",
+  "representation": "interface_depth",
+  "measured_on": "1997",
+  "confidence": "A",
+  "status": "draft",
+  "interface_depth_m": 52.0,
+  "criterion": "top of the upper low-resistivity unit (author, Table 2: associated with seawater intrusion and/or the Saqiye clays)",
+  "provenance": {
+   "document": "main",
+   "pages": [
+    7
+   ],
+   "method": "manual",
+   "tool": "typed from the page at 200 dpi; geosigma.extract.printed_tables",
+   "extracted_on": "2026-10-24",
+   "notes": "Coordinates and elevations from Table 1 (pages 4-5). Depth = running sum of the printed thicknesses.",
+   "table": "Table 2"
+  },
+  "notes": "Upper unit resistivity 1.5 ohm.m. Lower unit resistivity 2.0 ohm.m. Hydrological strip 149."
+ },
+ {
+  "id": "goldman1998-HS454-lower",
+  "survey": "goldman-1998-tdem-coastal-monitoring",
+  "site": "HS454",
+  "method": "TEM",
+  "level": "L3",
+  "representation": "interface_depth",
+  "measured_on": "1997",
+  "confidence": "A",
+  "status": "draft",
+  "interface_depth_m": 140.0,
+  "criterion": "top of the lower low-resistivity unit (author, Table 2: associated with seawater intrusion and/or the Saqiye clays)",
+  "provenance": {
+   "document": "main",
+   "pages": [
+    7
+   ],
+   "method": "manual",
+   "tool": "typed from the page at 200 dpi; geosigma.extract.printed_tables",
+   "extracted_on": "2026-10-24",
+   "notes": "Coordinates and elevations from Table 1 (pages 4-5). Depth = running sum of the printed thicknesses.",
+   "table": "Table 2"
+  },
+  "notes": "Upper unit resistivity 1.5 ohm.m. Lower unit resistivity 2.0 ohm.m. Hydrological strip 149."
+ },
+ {
+  "id": "goldman1998-HS455-upper",
+  "survey": "goldman-1998-tdem-coastal-monitoring",
+  "site": "HS455",
+  "method": "TEM",
+  "level": "L3",
+  "representation": "interface_depth",
+  "measured_on": "1997",
+  "confidence": "A",
+  "status": "draft",
+  "interface_depth_m": 66.0,
+  "criterion": "top of the upper low-resistivity unit (author, Table 2: associated with seawater intrusion and/or the Saqiye clays)",
+  "provenance": {
+   "document": "main",
+   "pages": [
+    7
+   ],
+   "method": "manual",
+   "tool": "typed from the page at 200 dpi; geosigma.extract.printed_tables",
+   "extracted_on": "2026-10-24",
+   "notes": "Coordinates and elevations from Table 1 (pages 4-5). Depth = running sum of the printed thicknesses.",
+   "table": "Table 2"
+  },
+  "notes": "Upper unit resistivity 1.8 ohm.m. Hydrological strip 104."
+ },
+ {
+  "id": "goldman1998-HS456-upper",
+  "survey": "goldman-1998-tdem-coastal-monitoring",
+  "site": "HS456",
+  "method": "TEM",
+  "level": "L3",
+  "representation": "interface_depth",
+  "measured_on": "1997",
+  "confidence": "A",
+  "status": "draft",
+  "interface_depth_m": 89.0,
+  "criterion": "top of the upper low-resistivity unit (author, Table 2: associated with seawater intrusion and/or the Saqiye clays)",
+  "provenance": {
+   "document": "main",
+   "pages": [
+    7
+   ],
+   "method": "manual",
+   "tool": "typed from the page at 200 dpi; geosigma.extract.printed_tables",
+   "extracted_on": "2026-10-24",
+   "notes": "Coordinates and elevations from Table 1 (pages 4-5). Depth = running sum of the printed thicknesses.",
+   "table": "Table 2"
+  },
+  "notes": "Upper unit resistivity 1.7 ohm.m. Lower unit resistivity 1.1 ohm.m. Hydrological strip 104."
+ },
+ {
+  "id": "goldman1998-HS456-lower",
+  "survey": "goldman-1998-tdem-coastal-monitoring",
+  "site": "HS456",
+  "method": "TEM",
+  "level": "L3",
+  "representation": "interface_depth",
+  "measured_on": "1997",
+  "confidence": "A",
+  "status": "draft",
+  "interface_depth_m": 190.0,
+  "criterion": "top of the lower low-resistivity unit (author, Table 2: associated with seawater intrusion and/or the Saqiye clays)",
+  "provenance": {
+   "document": "main",
+   "pages": [
+    7
+   ],
+   "method": "manual",
+   "tool": "typed from the page at 200 dpi; geosigma.extract.printed_tables",
+   "extracted_on": "2026-10-24",
+   "notes": "Coordinates and elevations from Table 1 (pages 4-5). Depth = running sum of the printed thicknesses.",
+   "table": "Table 2"
+  },
+  "notes": "Upper unit resistivity 1.7 ohm.m. Lower unit resistivity 1.1 ohm.m. Hydrological strip 104."
+ },
+ {
+  "id": "goldman1998-HS457-upper",
+  "survey": "goldman-1998-tdem-coastal-monitoring",
+  "site": "HS457",
+  "method": "TEM",
+  "level": "L3",
+  "representation": "interface_depth",
+  "measured_on": "1997",
+  "confidence": "A",
+  "status": "draft",
+  "interface_depth_m": 80.0,
+  "criterion": "top of the upper low-resistivity unit (author, Table 2: associated with seawater intrusion and/or the Saqiye clays)",
+  "provenance": {
+   "document": "main",
+   "pages": [
+    7
+   ],
+   "method": "manual",
+   "tool": "typed from the page at 200 dpi; geosigma.extract.printed_tables",
+   "extracted_on": "2026-10-24",
+   "notes": "Coordinates and elevations from Table 1 (pages 4-5). Depth = running sum of the printed thicknesses.",
+   "table": "Table 2"
+  },
+  "notes": "Upper unit resistivity 2.2 ohm.m. Lower unit resistivity 1.1 ohm.m. Hydrological strip 103."
+ },
+ {
+  "id": "goldman1998-HS457-lower",
+  "survey": "goldman-1998-tdem-coastal-monitoring",
+  "site": "HS457",
+  "method": "TEM",
+  "level": "L3",
+  "representation": "interface_depth",
+  "measured_on": "1997",
+  "confidence": "A",
+  "status": "draft",
+  "interface_depth_m": 200.0,
+  "criterion": "top of the lower low-resistivity unit (author, Table 2: associated with seawater intrusion and/or the Saqiye clays)",
+  "provenance": {
+   "document": "main",
+   "pages": [
+    7
+   ],
+   "method": "manual",
+   "tool": "typed from the page at 200 dpi; geosigma.extract.printed_tables",
+   "extracted_on": "2026-10-24",
+   "notes": "Coordinates and elevations from Table 1 (pages 4-5). Depth = running sum of the printed thicknesses.",
+   "table": "Table 2"
+  },
+  "notes": "Upper unit resistivity 2.2 ohm.m. Lower unit resistivity 1.1 ohm.m. Hydrological strip 103."
+ },
+ {
+  "id": "goldman1998-HS458-lower",
+  "survey": "goldman-1998-tdem-coastal-monitoring",
+  "site": "HS458",
+  "method": "TEM",
+  "level": "L3",
+  "representation": "interface_depth",
+  "measured_on": "1997",
+  "confidence": "C",
+  "status": "draft",
+  "interface_depth_m": 138.0,
+  "criterion": "top of the lower low-resistivity unit (author, Table 2: associated with seawater intrusion and/or the Saqiye clays)",
+  "provenance": {
+   "document": "main",
+   "pages": [
+    7
+   ],
+   "method": "manual",
+   "tool": "typed from the page at 200 dpi; geosigma.extract.printed_tables",
+   "extracted_on": "2026-10-24",
+   "notes": "Coordinates and elevations from Table 1 (pages 4-5). Depth = running sum of the printed thicknesses.",
+   "table": "Table 2"
+  },
+  "notes": "Lower unit resistivity 2.1 ohm.m. Author's comment: Lower subaquifer, noisy. Hydrological strip 114."
+ },
+ {
+  "id": "goldman1998-HS459-upper",
+  "survey": "goldman-1998-tdem-coastal-monitoring",
+  "site": "HS459",
+  "method": "TEM",
+  "level": "L3",
+  "representation": "interface_depth",
+  "measured_on": "1997",
+  "confidence": "A",
+  "status": "draft",
+  "interface_depth_m": 53.0,
+  "criterion": "top of the upper low-resistivity unit (author, Table 2: associated with seawater intrusion and/or the Saqiye clays)",
+  "provenance": {
+   "document": "main",
+   "pages": [
+    7
+   ],
+   "method": "manual",
+   "tool": "typed from the page at 200 dpi; geosigma.extract.printed_tables",
+   "extracted_on": "2026-10-24",
+   "notes": "Coordinates and elevations from Table 1 (pages 4-5). Depth = running sum of the printed thicknesses.",
+   "table": "Table 2"
+  },
+  "notes": "Upper unit resistivity 1.5 ohm.m. Lower unit resistivity 2.2 ohm.m. Hydrological strip 155."
+ },
+ {
+  "id": "goldman1998-HS459-lower",
+  "survey": "goldman-1998-tdem-coastal-monitoring",
+  "site": "HS459",
+  "method": "TEM",
+  "level": "L3",
+  "representation": "interface_depth",
+  "measured_on": "1997",
+  "confidence": "A",
+  "status": "draft",
+  "interface_depth_m": 108.0,
+  "criterion": "top of the lower low-resistivity unit (author, Table 2: associated with seawater intrusion and/or the Saqiye clays)",
+  "provenance": {
+   "document": "main",
+   "pages": [
+    7
+   ],
+   "method": "manual",
+   "tool": "typed from the page at 200 dpi; geosigma.extract.printed_tables",
+   "extracted_on": "2026-10-24",
+   "notes": "Coordinates and elevations from Table 1 (pages 4-5). Depth = running sum of the printed thicknesses.",
+   "table": "Table 2"
+  },
+  "notes": "Upper unit resistivity 1.5 ohm.m. Lower unit resistivity 2.2 ohm.m. Hydrological strip 155."
+ },
+ {
+  "id": "goldman1998-HS460-upper",
+  "survey": "goldman-1998-tdem-coastal-monitoring",
+  "site": "HS460",
+  "method": "TEM",
+  "level": "L3",
+  "representation": "interface_depth",
+  "measured_on": "1997",
+  "confidence": "A",
+  "status": "draft",
+  "interface_depth_m": 65.0,
+  "criterion": "top of the upper low-resistivity unit (author, Table 2: associated with seawater intrusion and/or the Saqiye clays)",
+  "provenance": {
+   "document": "main",
+   "pages": [
+    7
+   ],
+   "method": "manual",
+   "tool": "typed from the page at 200 dpi; geosigma.extract.printed_tables",
+   "extracted_on": "2026-10-24",
+   "notes": "Coordinates and elevations from Table 1 (pages 4-5). Depth = running sum of the printed thicknesses.",
+   "table": "Table 2"
+  },
+  "notes": "Upper unit resistivity 2.5 ohm.m. Lower unit resistivity 1.4 ohm.m. Hydrological strip 150."
+ },
+ {
+  "id": "goldman1998-HS460-lower",
+  "survey": "goldman-1998-tdem-coastal-monitoring",
+  "site": "HS460",
+  "method": "TEM",
+  "level": "L3",
+  "representation": "interface_depth",
+  "measured_on": "1997",
+  "confidence": "A",
+  "status": "draft",
+  "interface_depth_m": 169.0,
+  "criterion": "top of the lower low-resistivity unit (author, Table 2: associated with seawater intrusion and/or the Saqiye clays)",
+  "provenance": {
+   "document": "main",
+   "pages": [
+    7
+   ],
+   "method": "manual",
+   "tool": "typed from the page at 200 dpi; geosigma.extract.printed_tables",
+   "extracted_on": "2026-10-24",
+   "notes": "Coordinates and elevations from Table 1 (pages 4-5). Depth = running sum of the printed thicknesses.",
+   "table": "Table 2"
+  },
+  "notes": "Upper unit resistivity 2.5 ohm.m. Lower unit resistivity 1.4 ohm.m. Hydrological strip 150."
+ },
+ {
+  "id": "goldman1998-HS461-upper",
+  "survey": "goldman-1998-tdem-coastal-monitoring",
+  "site": "HS461",
+  "method": "TEM",
+  "level": "L3",
+  "representation": "interface_depth",
+  "measured_on": "1997",
+  "confidence": "A",
+  "status": "draft",
+  "interface_depth_m": 48.0,
+  "criterion": "top of the upper low-resistivity unit (author, Table 2: associated with seawater intrusion and/or the Saqiye clays)",
+  "provenance": {
+   "document": "main",
+   "pages": [
+    7
+   ],
+   "method": "manual",
+   "tool": "typed from the page at 200 dpi; geosigma.extract.printed_tables",
+   "extracted_on": "2026-10-24",
+   "notes": "Coordinates and elevations from Table 1 (pages 4-5). Depth = running sum of the printed thicknesses.",
+   "table": "Table 2"
+  },
+  "notes": "Upper unit resistivity 1.4 ohm.m. Hydrological strip 150."
+ },
+ {
+  "id": "goldman1998-HS462-upper",
+  "survey": "goldman-1998-tdem-coastal-monitoring",
+  "site": "HS462",
+  "method": "TEM",
+  "level": "L3",
+  "representation": "interface_depth",
+  "measured_on": "1997",
+  "confidence": "A",
+  "status": "draft",
+  "interface_depth_m": 44.0,
+  "criterion": "top of the upper low-resistivity unit (author, Table 2: associated with seawater intrusion and/or the Saqiye clays)",
+  "provenance": {
+   "document": "main",
+   "pages": [
+    7
+   ],
+   "method": "manual",
+   "tool": "typed from the page at 200 dpi; geosigma.extract.printed_tables",
+   "extracted_on": "2026-10-24",
+   "notes": "Coordinates and elevations from Table 1 (pages 4-5). Depth = running sum of the printed thicknesses.",
+   "table": "Table 2"
+  },
+  "notes": "Upper unit resistivity 1.4 ohm.m. Hydrological strip 149."
+ }
+]
