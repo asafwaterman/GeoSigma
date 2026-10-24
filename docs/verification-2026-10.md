@@ -80,3 +80,27 @@ Status key: **Verified** means values were re-read and match the source. **Sampl
   - The earlier extraction had five real errors, two of them structural (fixes 3 and 4) rather than misread numbers. More of the same kind could remain in surveys that were only sampled.
   - The largest unchecked blocks are N. Arava (248 models) and Yizreel (about 590 stations).
   - Coordinates were checked only as plausible locations, not station by station.
+
+## 7. Reports added from Drive (2026-10-24)
+
+The same rules applied: only the author's interpreted models are stored, each with its page and a boxed crop, and every PDF is checked against its checksum in `data/sources/manifest.json` (now all 44 files).
+
+| Report | Stored | Checks | Status |
+|---|---|---|---|
+| Goldman 1987 TDEM feasibility | 28 layered models | Read from the figures | Sampled |
+| Goldman et al. 1990, stage B | 59 layered models | Every value re-read at 300 dpi; depths equal the running thickness sum | Verified; GS-5, GS-6 half-spaces of 0.01 Ω·m flagged as artefacts |
+| Goldman & Ezersky 1999, N. Arava | 24 models traced from plots | Axes checked against tick labels; depths agree with the text | Verified |
+| Bartov 1998, N. Arava | 137 boundary depths | Typed from the report tables | Sampled |
+| Goldman, Gilad & Ezersky 1998, coast | 54 models, 81 interface depths | Two independent readings per row; Table 2 against printouts | Verified; HS406, HS423, HS424 differ, noted |
+| Rabinovich et al. 1993, coast and Dead Sea | 64 models, 86 interface depths | Every row against printed elevation and conductance; Table 2 against printouts | Verified |
+| Goldman 1995, Mediterranean and Dead Sea | 58 models, 68 interface depths | Read by eye at 400 dpi (OCR too poor); every row against depth and conductance | Verified; HS309, HS336 differ from Table 1A, noted |
+| Goldman 1996, Ashqelon | 2 models | As above; positions from the 1993 stations they repeat | Verified |
+| Goldman 2001, Nahal Hever South | 5 models | As above; positions from the location map (±5 m) | Verified |
+
+Registered without values, because the source has no usable numeric model or no position:
+
+- **Nahal Hever North 2001:** colour cross-sections only. The 6 stations are placed from the map.
+- **Zafrir et al. 1991, Ramon:** drillhole verification, with no resistivities. Table 1 misprints two hole positions (6 is printed 10 km south), so the positions for 7-A and 6 are taken from Fig. 1.
+- **Meidav 1963, Qiryat Hayyim:** 4 interpreted sections in ohm·cm, but the map has no grid, so they cannot be placed.
+- **Meqbel et al. 2013, Dead Sea MT:** a 2-D colour section to about 20 km, which would need digitising and georeferencing.
+- **Meidav & Klang 1965, Ezersky et al. 2011, Goldman & Kafri 2021:** a telluric study, a paper without station coordinates, and a review chapter.
