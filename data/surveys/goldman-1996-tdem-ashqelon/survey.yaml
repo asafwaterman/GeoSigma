@@ -1,0 +1,55 @@
+id: goldman-1996-tdem-ashqelon
+name: TDEM depth measurements to locate the freshwater-seawater interface in the Ashqelon area
+organisation: Institute for Petroleum Research and Geophysics (IPRG)
+client: Tahal (Water Planning for Israel)
+authors:
+- M. Goldman
+report_number: IPRG 905/88/96
+year: 1996
+acquired: '1996'
+methods:
+- TEM
+region: Ashqelon coast
+purpose: Repeat the 1993 stations HS273 and HS274 and track the depth of the freshwater-seawater interface
+geometry: stations
+depth_reach: about 200 m (deepest layer boundary)
+acquisition:
+  instruments: Geonics EM-47 and EM-37 (PROTEM receiver)
+  loops: 100 x 100 m transmitter loop
+documents:
+- id: main
+  title: TDEM depth measurements to locate the interface in the Ashqelon area (in Hebrew, July 1996)
+  filename: Goldman-M-Depth-Measurements-TDEM-Interfaces-Ashkelon-Area-IPRG-Rep-905-88-1996.pdf
+  drive_id: 1tIDrPQs5OxChQUEqGoBxL9Jc8JjLduXI
+  language:
+  - he
+  - en
+  scanned: true
+  role: main_report
+  sha256: 0309cf3f4319bba461ce75ada2651ef1336d0bd019c6087b31c5b76a42e5be48
+  pages: 9
+notes: Three stations; the layered printouts are on pages 6-8. The printouts carry no coordinates. The text (pages
+  3-4) places TH1 about 3 m south of station HS273 and TH2 about 3 m north of HS274 of the 1993 survey, so they
+  use those stations' coordinates from Rabinovich et al. 1993, Table 2. TH3 lies about 11 m south-west of the Kidud
+  borehole (N.K.T. 2), whose coordinates the report does not give, so it is not stored. Handwritten numbers on the
+  printouts (the 1993 values for comparison) are not used.
+extraction_status: complete
+sites:
+- id: TH1
+  name: TDEM station TH1 (South Ashqelon, next to HS273)
+  coords:
+    x: 107050
+    y: 118200
+    crs: EPSG:28193
+    source: text
+    accuracy_m: 50
+  notes: About 3 m south of 1993 station HS273 (report text, page 3); coordinates are HS273's.
+- id: TH2
+  name: TDEM station TH2 (South Ashqelon, next to HS274)
+  coords:
+    x: 106800
+    y: 118400
+    crs: EPSG:28193
+    source: text
+    accuracy_m: 50
+  notes: About 3 m north of 1993 station HS274 (report text, page 4); coordinates are HS274's.

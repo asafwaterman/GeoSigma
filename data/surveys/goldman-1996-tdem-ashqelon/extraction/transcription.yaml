@@ -1,0 +1,42 @@
+# Goldman 1996, IPRG 905/88/96. Layered models typed by eye from the printouts (pages 6-7) at 200 dpi; every row
+# checked against the printed elevation (running depth) and conductance (thickness / resistivity).
+document: main
+unit: ohm.m
+method: TEM
+prefix: goldman1996
+measured_on: '1996'
+confidence: A
+crs: EPSG:28193
+xy_scale: 10
+site_word: TDEM station
+coord_source: text
+accuracy_m: 50
+table: Printout (resistivity, thickness, elevation, conductance)
+prov_notes: Position from the report text (pages 3-4), taken as that of the adjacent 1993 station (Rabinovich et al.
+  1993, Table 2; Old Israel Grid in units of 10 m). Depth = running sum of the printed thicknesses.
+sites:
+- id: TH1
+  name: TDEM station TH1 (South Ashqelon, next to HS273)
+  xy: [10705, 11820]
+  site_notes: About 3 m south of 1993 station HS273 (report text, page 3); coordinates are HS273's.
+  page: 6
+  box: [0.38, 0.10, 0.95, 0.42]
+  layers:
+  - [0, 7.24, 24.98, null, {thick: 7.24}]
+  - [7.24, 83.85, 216.3, null, {thick: 76.61}]
+  - [83.85, 99.51, 4.06, null, {thick: 15.66}]
+  - [99.51, 131.43, 1.24, null, {thick: 31.92}]
+  - [131.43, 200.36, 29.4, null, {thick: 68.93}]
+  - [200.36, null, 0.879]
+- id: TH2
+  name: TDEM station TH2 (South Ashqelon, next to HS274)
+  xy: [10680, 11840]
+  site_notes: About 3 m north of 1993 station HS274 (report text, page 4); coordinates are HS274's.
+  page: 7
+  box: [0.25, 0.10, 0.95, 0.42]
+  layers:
+  - [0, 4.58, 33.86, null, {thick: 4.58}]
+  - [4.58, 65.39, 115.8, null, {thick: 60.81}]
+  - [65.39, 87.48, 2.97, null, {thick: 22.09}]
+  - [87.48, 121.57, 1.51, null, {thick: 34.09}]
+  - [121.57, null, 2.76]
