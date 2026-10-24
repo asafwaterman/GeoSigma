@@ -1,0 +1,1204 @@
+# Bartov et al. 1998 TR-GSI/2/98, Tables 2 and 4 (TDEM columns), typed from the page at 200 dpi.
+# Table 1 coordinates are Old Israel Grid in units of 10 m (17610/02085 = 176.10 km E, 1020.85 km N).
+document: main
+unit: ohm.m
+method: TEM
+prefix: bartov1998
+confidence: A
+crs: EPSG:28193
+xy_scale: 1
+site_word: TDEM station
+coord_source: table
+accuracy_m: 50
+interface_kinds:
+  hazeva-top: 'top of the low-resistivity layer (author: top of the Hazeva Formation)'
+  hazeva-base: 'top of the high-resistivity layer below the Hazeva (author: base of the Hazeva Formation)'
+  avdat-base: 'top of the low-resistivity layer below the Avedat Group (author: base of the Avedat Group, top of the Taqiye
+    Formation)'
+  arav-top: 'top of the high-resistivity layer (author: top of the Arav Formation)'
+box_caption: The boxed row is the author's interpreted depth (m below ground) to each geoelectric boundary at this station,
+  as printed
+prov_notes: Coordinates and elevations from Table 1 (pages 15-17). Depths are the author's TDEM interpretation. Values printed
+  with '>' (a lower bound only) are not stored.
+sites:
+- id: GS161
+  xy:
+  - 179800
+  - 23000
+  elev: -215
+  page: 19
+  table: Table 2 (TDEM depths next to boreholes)
+  box:
+  - 0.13
+  - 0.3818
+  - 0.89
+  - 0.4054
+  interfaces:
+  - - 78
+    - hazeva-top
+- id: GS174
+  xy:
+  - 179800
+  - 23000
+  elev: -215
+  page: 19
+  table: Table 2 (TDEM depths next to boreholes)
+  box:
+  - 0.13
+  - 0.4056
+  - 0.89
+  - 0.4292
+  interfaces:
+  - - 78
+    - hazeva-top
+- id: GS194
+  xy:
+  - 175500
+  - 21250
+  elev: -175
+  page: 19
+  table: Table 2 (TDEM depths next to boreholes)
+  box:
+  - 0.13
+  - 0.4309
+  - 0.89
+  - 0.4545
+  interfaces:
+  - - 15
+    - hazeva-top
+- id: GS127
+  xy:
+  - 179000
+  - 17000
+  elev: -142
+  page: 19
+  table: Table 2 (TDEM depths next to boreholes)
+  box:
+  - 0.13
+  - 0.4781
+  - 0.89
+  - 0.5018
+  interfaces:
+  - - 122
+    - hazeva-top
+  - - 382
+    - hazeva-base
+    - '?'
+  - - 571
+    - avdat-base
+- id: GS128
+  xy:
+  - 179000
+  - 17000
+  page: 19
+  table: Table 2 (TDEM depths next to boreholes)
+  box:
+  - 0.13
+  - 0.502
+  - 0.89
+  - 0.5256
+  interfaces:
+  - - 121
+    - hazeva-top
+  - - 310
+    - hazeva-base
+    - '?'
+- id: GS112
+  xy:
+  - 178200
+  - 14700
+  elev: -140
+  page: 19
+  table: Table 2 (TDEM depths next to boreholes)
+  box:
+  - 0.13
+  - 0.5269
+  - 0.89
+  - 0.5506
+  interfaces:
+  - - 48
+    - hazeva-top
+- id: GS195
+  xy:
+  - 175120
+  - 11290
+  elev: -121
+  page: 19
+  table: Table 2 (TDEM depths next to boreholes)
+  box:
+  - 0.13
+  - 0.5745
+  - 0.89
+  - 0.5982
+  interfaces:
+  - - 18
+    - hazeva-top
+- id: GS196
+  xy:
+  - 175120
+  - 11290
+  elev: -121
+  page: 19
+  table: Table 2 (TDEM depths next to boreholes)
+  box:
+  - 0.13
+  - 0.5984
+  - 0.89
+  - 0.622
+  interfaces:
+  - - 9
+    - hazeva-top
+- id: GS191
+  xy:
+  - 172600
+  - 9200
+  elev: -95
+  page: 19
+  table: Table 2 (TDEM depths next to boreholes)
+  box:
+  - 0.13
+  - 0.6233
+  - 0.89
+  - 0.6469
+  interfaces:
+  - - 23
+    - hazeva-top
+- id: GS113
+  xy:
+  - 172560
+  - 8090
+  elev: -95
+  page: 19
+  table: Table 2 (TDEM depths next to boreholes)
+  box:
+  - 0.13
+  - 0.6714
+  - 0.89
+  - 0.695
+  interfaces:
+  - - 27
+    - hazeva-top
+  - - 103
+    - hazeva-base
+  - - 152
+    - avdat-base
+  - - 207
+    - arav-top
+- id: GS114
+  xy:
+  - 172560
+  - 8090
+  elev: -95
+  page: 19
+  table: Table 2 (TDEM depths next to boreholes)
+  box:
+  - 0.13
+  - 0.6954
+  - 0.89
+  - 0.719
+  interfaces:
+  - - 27
+    - hazeva-top
+  - - 100
+    - hazeva-base
+  - - 147
+    - avdat-base
+  - - 200
+    - arav-top
+- id: GS113-GS114-joint
+  model_id: GS113-GS114-joint
+  site: GS113
+  prov_notes: 'Row ''+'': the author''s joint solution of the concentric soundings GS113 and GS114.'
+  page: 19
+  table: Table 2 (TDEM depths next to boreholes)
+  box:
+  - 0.13
+  - 0.719
+  - 0.89
+  - 0.7426
+  interfaces:
+  - - 27
+    - hazeva-top
+  - - 100
+    - hazeva-base
+  - - 147
+    - avdat-base
+  - - 200
+    - arav-top
+- id: GS171
+  xy:
+  - 173100
+  - 5500
+  elev: -87
+  page: 19
+  table: Table 2 (TDEM depths next to boreholes)
+  box:
+  - 0.13
+  - 0.7436
+  - 0.89
+  - 0.7672
+  interfaces:
+  - - 63
+    - hazeva-top
+    - '?'
+- id: GS136
+  xy:
+  - 170500
+  - 995700
+  elev: 3
+  page: 19
+  table: Table 2 (TDEM depths next to boreholes)
+  box:
+  - 0.13
+  - 0.7914
+  - 0.89
+  - 0.815
+  interfaces:
+  - - 32
+    - hazeva-top
+  - - 257
+    - hazeva-base
+- id: GS120
+  xy:
+  - 172420
+  - 994480
+  elev: 9
+  page: 19
+  table: Table 2 (TDEM depths next to boreholes)
+  box:
+  - 0.13
+  - 0.8388
+  - 0.89
+  - 0.8624
+  interfaces:
+  - - 20
+    - hazeva-top
+  - - 253
+    - hazeva-base
+    - '?'
+- id: GS119
+  xy:
+  - 172420
+  - 994480
+  elev: 9
+  page: 19
+  table: Table 2 (TDEM depths next to boreholes)
+  box:
+  - 0.13
+  - 0.8629
+  - 0.89
+  - 0.8865
+  interfaces:
+  - - 18
+    - hazeva-top
+  - - 340
+    - hazeva-base
+- id: GS119-GS120-joint
+  model_id: GS119-GS120-joint
+  site: GS119
+  prov_notes: 'Row ''+'': the author''s joint solution of the concentric soundings GS119 and GS120.'
+  page: 19
+  table: Table 2 (TDEM depths next to boreholes)
+  box:
+  - 0.13
+  - 0.8871
+  - 0.89
+  - 0.9107
+  interfaces:
+  - - 20
+    - hazeva-top
+  - - 253
+    - hazeva-base
+    - '?'
+- id: GS122
+  xy:
+  - 169300
+  - 993100
+  elev: -4
+  page: 20
+  table: Table 2 (TDEM depths next to boreholes)
+  box:
+  - 0.13
+  - 0.1999
+  - 0.89
+  - 0.2235
+  interfaces:
+  - - 35
+    - hazeva-top
+  - - 343
+    - hazeva-base
+    - '?'
+- id: GS123
+  xy:
+  - 169300
+  - 993100
+  elev: -4
+  page: 20
+  table: Table 2 (TDEM depths next to boreholes)
+  box:
+  - 0.13
+  - 0.2237
+  - 0.89
+  - 0.2473
+  interfaces:
+  - - 41
+    - hazeva-top
+- id: GS122-GS123-joint
+  model_id: GS122-GS123-joint
+  site: GS122
+  prov_notes: 'Row ''+'': the author''s joint solution of the concentric soundings GS122 and GS123.'
+  page: 20
+  table: Table 2 (TDEM depths next to boreholes)
+  box:
+  - 0.13
+  - 0.2463
+  - 0.89
+  - 0.2699
+  interfaces:
+  - - 41
+    - hazeva-top
+  - - 379
+    - hazeva-base
+    - '?'
+- id: GS106
+  xy:
+  - 171650
+  - 992980
+  elev: 8
+  page: 20
+  table: Table 2 (TDEM depths next to boreholes)
+  box:
+  - 0.13
+  - 0.2939
+  - 0.89
+  - 0.3175
+  interfaces:
+  - - 25
+    - hazeva-top
+  - - 287
+    - hazeva-base
+- id: GS107
+  xy:
+  - 171650
+  - 992980
+  page: 20
+  table: Table 2 (TDEM depths next to boreholes)
+  box:
+  - 0.13
+  - 0.3173
+  - 0.89
+  - 0.3409
+  interfaces:
+  - - 30
+    - hazeva-top
+    - '?'
+  - - 276
+    - hazeva-base
+- id: GS106-GS107-joint
+  model_id: GS106-GS107-joint
+  site: GS106
+  prov_notes: 'Row ''+'': the author''s joint solution of the concentric soundings GS106 and GS107.'
+  page: 20
+  table: Table 2 (TDEM depths next to boreholes)
+  box:
+  - 0.13
+  - 0.3398
+  - 0.89
+  - 0.3635
+  interfaces:
+  - - 30
+    - hazeva-top
+    - '?'
+  - - 276
+    - hazeva-base
+- id: GS104
+  xy:
+  - 172200
+  - 990300
+  elev: 36
+  page: 20
+  table: Table 2 (TDEM depths next to boreholes)
+  box:
+  - 0.13
+  - 0.3645
+  - 0.89
+  - 0.3881
+  interfaces:
+  - - 32
+    - hazeva-top
+  - - 202
+    - hazeva-base
+  - - 462
+    - avdat-base
+  - - 485
+    - arav-top
+- id: GS105
+  xy:
+  - 172200
+  - 990300
+  page: 20
+  table: Table 2 (TDEM depths next to boreholes)
+  box:
+  - 0.13
+  - 0.3884
+  - 0.89
+  - 0.412
+  interfaces:
+  - - 35
+    - hazeva-top
+  - - 235
+    - hazeva-base
+- id: GS104-GS105-joint
+  model_id: GS104-GS105-joint
+  site: GS104
+  prov_notes: 'Row ''+'': the author''s joint solution of the concentric soundings GS104 and GS105.'
+  page: 20
+  table: Table 2 (TDEM depths next to boreholes)
+  box:
+  - 0.13
+  - 0.4119
+  - 0.89
+  - 0.4355
+  interfaces:
+  - - 35
+    - hazeva-top
+  - - 212
+    - hazeva-base
+  - - 393
+    - avdat-base
+  - - 440
+    - arav-top
+- id: GS108
+  xy:
+  - 169150
+  - 983150
+  elev: 153
+  page: 20
+  table: Table 2 (TDEM depths next to boreholes)
+  box:
+  - 0.13
+  - 0.4369
+  - 0.89
+  - 0.4605
+  interfaces:
+  - - 6
+    - hazeva-top
+- id: GS109
+  xy:
+  - 169150
+  - 983150
+  elev: 153
+  page: 20
+  table: Table 2 (TDEM depths next to boreholes)
+  box:
+  - 0.13
+  - 0.4609
+  - 0.89
+  - 0.4845
+  interfaces:
+  - - 5
+    - hazeva-top
+- id: GS137
+  xy:
+  - 170400
+  - 981700
+  elev: 90
+  page: 20
+  table: Table 2 (TDEM depths next to boreholes)
+  box:
+  - 0.13
+  - 0.4859
+  - 0.89
+  - 0.5096
+  interfaces:
+  - - 32
+    - hazeva-top
+- id: GS164
+  xy:
+  - 170400
+  - 981700
+  elev: 90
+  page: 20
+  table: Table 2 (TDEM depths next to boreholes)
+  box:
+  - 0.13
+  - 0.51
+  - 0.89
+  - 0.5337
+  interfaces:
+  - - 27
+    - hazeva-top
+  - - 275
+    - hazeva-base
+- id: GS121
+  xy:
+  - 166150
+  - 982900
+  elev: 55
+  page: 20
+  table: Table 2 (TDEM depths next to boreholes)
+  box:
+  - 0.13
+  - 0.5347
+  - 0.89
+  - 0.5584
+  interfaces:
+  - - 35
+    - hazeva-top
+  - - 151
+    - hazeva-base
+  - - 276
+    - avdat-base
+- id: GS103
+  xy:
+  - 167570
+  - 981500
+  page: 20
+  table: Table 2 (TDEM depths next to boreholes)
+  box:
+  - 0.13
+  - 0.6055
+  - 0.89
+  - 0.6291
+  interfaces:
+  - - 27
+    - hazeva-top
+- id: GS102
+  xy:
+  - 167570
+  - 981500
+  elev: 82
+  page: 20
+  table: Table 2 (TDEM depths next to boreholes)
+  box:
+  - 0.13
+  - 0.6289
+  - 0.89
+  - 0.6525
+  interfaces:
+  - - 22
+    - hazeva-top
+  - - 402
+    - hazeva-base
+- id: GS102-GS103-joint
+  model_id: GS102-GS103-joint
+  site: GS102
+  prov_notes: 'Row ''+'': the author''s joint solution of the concentric soundings GS102 and GS103.'
+  page: 20
+  table: Table 2 (TDEM depths next to boreholes)
+  box:
+  - 0.13
+  - 0.652
+  - 0.89
+  - 0.6756
+  interfaces:
+  - - 27
+    - hazeva-top
+  - - 441
+    - hazeva-base
+- id: GS134
+  xy:
+  - 168250
+  - 978420
+  elev: 100
+  page: 20
+  table: Table 2 (TDEM depths next to boreholes)
+  box:
+  - 0.13
+  - 0.6775
+  - 0.89
+  - 0.7012
+  interfaces:
+  - - 46
+    - hazeva-top
+- id: GS51
+  xy:
+  - 145170
+  - 970640
+  page: 23
+  table: Table 4 (depths at the other stations)
+  box:
+  - 0.12
+  - 0.2106
+  - 0.89
+  - 0.2342
+  interfaces:
+  - - 134
+    - hazeva-base
+- id: GS52
+  xy:
+  - 147050
+  - 971460
+  page: 23
+  table: Table 4 (depths at the other stations)
+  box:
+  - 0.12
+  - 0.2349
+  - 0.89
+  - 0.2586
+  interfaces:
+  - - 71
+    - hazeva-base
+  - - 222
+    - avdat-base
+- id: GS94A
+  xy:
+  - 176100
+  - 20850
+  elev: -160
+  page: 23
+  table: Table 4 (depths at the other stations)
+  box:
+  - 0.12
+  - 0.2592
+  - 0.89
+  - 0.2828
+  interfaces:
+  - - 10
+    - hazeva-top
+- id: GS94B
+  xy:
+  - 176100
+  - 20850
+  elev: -160
+  page: 23
+  table: Table 4 (depths at the other stations)
+  box:
+  - 0.12
+  - 0.2835
+  - 0.89
+  - 0.3071
+  interfaces:
+  - - 10
+    - hazeva-top
+- id: GS115
+  xy:
+  - 170500
+  - 5900
+  elev: -58
+  page: 23
+  table: Table 4 (depths at the other stations)
+  box:
+  - 0.12
+  - 0.3077
+  - 0.89
+  - 0.3313
+  interfaces:
+  - - 17
+    - hazeva-top
+  - - 224
+    - hazeva-base
+- id: GS116
+  xy:
+  - 170500
+  - 5900
+  elev: -58
+  page: 23
+  table: Table 4 (depths at the other stations)
+  box:
+  - 0.12
+  - 0.3319
+  - 0.89
+  - 0.3555
+  interfaces:
+  - - 22
+    - hazeva-top
+  - - 218
+    - hazeva-base
+- id: GS115-GS116-joint
+  model_id: GS115-GS116-joint
+  site: GS115
+  prov_notes: 'Row ''+'': the author''s joint solution of the concentric soundings GS115 and GS116.'
+  page: 23
+  table: Table 4 (depths at the other stations)
+  box:
+  - 0.12
+  - 0.3545
+  - 0.89
+  - 0.3781
+  interfaces:
+  - - 23
+    - hazeva-top
+  - - 219
+    - hazeva-base
+- id: GS117
+  xy:
+  - 168750
+  - 997000
+  elev: 0
+  page: 23
+  table: Table 4 (depths at the other stations)
+  box:
+  - 0.12
+  - 0.3792
+  - 0.89
+  - 0.4028
+  interfaces:
+  - - 27
+    - hazeva-top
+  - - 95
+    - hazeva-base
+  - - 198
+    - avdat-base
+  - - 241
+    - arav-top
+- id: GS118
+  xy:
+  - 168750
+  - 997000
+  elev: 0
+  page: 23
+  table: Table 4 (depths at the other stations)
+  box:
+  - 0.12
+  - 0.4034
+  - 0.89
+  - 0.427
+  interfaces:
+  - - 27
+    - hazeva-top
+  - - 95
+    - hazeva-base
+  - - 197
+    - avdat-base
+  - - 237
+    - arav-top
+- id: GS117-GS118-joint
+  model_id: GS117-GS118-joint
+  site: GS117
+  prov_notes: 'Row ''+'': the author''s joint solution of the concentric soundings GS117 and GS118.'
+  page: 23
+  table: Table 4 (depths at the other stations)
+  box:
+  - 0.12
+  - 0.4268
+  - 0.89
+  - 0.4504
+  interfaces:
+  - - 27
+    - hazeva-top
+  - - 95
+    - hazeva-base
+  - - 197
+    - avdat-base
+  - - 241
+    - arav-top
+- id: GS133
+  xy:
+  - 171050
+  - 977300
+  elev: 130
+  page: 23
+  table: Table 4 (depths at the other stations)
+  box:
+  - 0.12
+  - 0.4516
+  - 0.89
+  - 0.4752
+  interfaces:
+  - - 52
+    - hazeva-top
+- id: GS141
+  xy:
+  - 174100
+  - 992600
+  elev: 40
+  page: 23
+  table: Table 4 (depths at the other stations)
+  box:
+  - 0.12
+  - 0.4765
+  - 0.89
+  - 0.5001
+  interfaces:
+  - - 22
+    - hazeva-top
+- id: GS142
+  xy:
+  - 174100
+  - 992600
+  elev: 40
+  page: 23
+  table: Table 4 (depths at the other stations)
+  box:
+  - 0.12
+  - 0.5
+  - 0.89
+  - 0.5236
+  interfaces:
+  - - 25
+    - hazeva-top
+- id: GS143
+  xy:
+  - 171600
+  - 996200
+  elev: -5
+  page: 23
+  table: Table 4 (depths at the other stations)
+  box:
+  - 0.12
+  - 0.5247
+  - 0.89
+  - 0.5483
+  interfaces:
+  - - 25
+    - hazeva-top
+- id: GS165
+  xy:
+  - 171600
+  - 996200
+  elev: -5
+  page: 23
+  table: Table 4 (depths at the other stations)
+  box:
+  - 0.12
+  - 0.5494
+  - 0.89
+  - 0.573
+  interfaces:
+  - - 22
+    - hazeva-top
+- id: GS154
+  xy:
+  - 167950
+  - 962500
+  elev: 215
+  page: 23
+  table: Table 4 (depths at the other stations)
+  box:
+  - 0.12
+  - 0.5737
+  - 0.89
+  - 0.5973
+  interfaces:
+  - - 51
+    - hazeva-top
+  - - 95
+    - hazeva-base
+  - - 108
+    - avdat-base
+  - - 147
+    - arav-top
+- id: GS155
+  xy:
+  - 167950
+  - 962500
+  elev: 215
+  page: 23
+  table: Table 4 (depths at the other stations)
+  box:
+  - 0.12
+  - 0.5978
+  - 0.89
+  - 0.6214
+  interfaces:
+  - - 55
+    - hazeva-top
+  - - 94
+    - hazeva-base
+  - - 108
+    - avdat-base
+  - - 150
+    - arav-top
+- id: GS156
+  xy:
+  - 166900
+  - 969000
+  elev: 160
+  page: 23
+  table: Table 4 (depths at the other stations)
+  box:
+  - 0.12
+  - 0.6225
+  - 0.89
+  - 0.6461
+  interfaces:
+  - - 31
+    - hazeva-top
+  - - 166
+    - hazeva-base
+  - - 266
+    - avdat-base
+- id: GS157
+  xy:
+  - 168700
+  - 969000
+  elev: 176
+  page: 23
+  table: Table 4 (depths at the other stations)
+  box:
+  - 0.12
+  - 0.6473
+  - 0.89
+  - 0.6709
+  interfaces:
+  - - 48
+    - hazeva-top
+  - - 210
+    - hazeva-base
+  - - 429
+    - avdat-base
+- id: GS158
+  xy:
+  - 170850
+  - 972400
+  elev: 160
+  page: 23
+  table: Table 4 (depths at the other stations)
+  box:
+  - 0.12
+  - 0.6721
+  - 0.89
+  - 0.6957
+  interfaces:
+  - - 35
+    - hazeva-top
+- id: GS162
+  xy:
+  - 171050
+  - 977300
+  elev: 130
+  page: 23
+  table: Table 4 (depths at the other stations)
+  box:
+  - 0.12
+  - 0.697
+  - 0.89
+  - 0.7206
+  interfaces:
+  - - 48
+    - hazeva-top
+    - '?'
+  - - 97
+    - hazeva-base
+    - '?'
+- id: GS163
+  xy:
+  - 172200
+  - 982950
+  elev: 95
+  page: 23
+  table: Table 4 (depths at the other stations)
+  box:
+  - 0.12
+  - 0.7219
+  - 0.89
+  - 0.7456
+  interfaces:
+  - - 47
+    - hazeva-top
+- id: GS166
+  xy:
+  - 172100
+  - 998800
+  elev: -10
+  page: 23
+  table: Table 4 (depths at the other stations)
+  box:
+  - 0.12
+  - 0.7465
+  - 0.89
+  - 0.7701
+  interfaces:
+  - - 47
+    - hazeva-top
+- id: GS172
+  xy:
+  - 175300
+  - 9100
+  elev: -110
+  page: 23
+  table: Table 4 (depths at the other stations)
+  box:
+  - 0.12
+  - 0.7713
+  - 0.89
+  - 0.7949
+  interfaces:
+  - - 18
+    - hazeva-top
+  - - 238
+    - hazeva-base
+  - - 390
+    - avdat-base
+- id: GS183
+  xy:
+  - 177800
+  - 23900
+  elev: -175
+  page: 23
+  table: Table 4 (depths at the other stations)
+  box:
+  - 0.12
+  - 0.7966
+  - 0.89
+  - 0.8202
+  interfaces:
+  - - 36
+    - hazeva-top
+- id: GS185
+  xy:
+  - 175850
+  - 12090
+  elev: -128
+  page: 23
+  table: Table 4 (depths at the other stations)
+  box:
+  - 0.12
+  - 0.8215
+  - 0.89
+  - 0.8451
+  interfaces:
+  - - 7
+    - hazeva-top
+- id: GS186
+  xy:
+  - 175850
+  - 12090
+  elev: -128
+  page: 23
+  table: Table 4 (depths at the other stations)
+  box:
+  - 0.12
+  - 0.8453
+  - 0.89
+  - 0.8689
+  interfaces:
+  - - 16
+    - hazeva-top
+- id: GS192
+  xy:
+  - 171950
+  - 17500
+  elev: -110
+  page: 23
+  table: Table 4 (depths at the other stations)
+  box:
+  - 0.12
+  - 0.8697
+  - 0.89
+  - 0.8933
+  interfaces:
+  - - 24
+    - hazeva-top
+- id: GS198
+  xy:
+  - 177900
+  - 10200
+  elev: -124
+  page: 24
+  table: Table 4 (depths at the other stations)
+  box:
+  - 0.12
+  - 0.2241
+  - 0.89
+  - 0.2477
+  interfaces:
+  - - 32
+    - hazeva-top
+- id: GS199
+  xy:
+  - 177900
+  - 10200
+  elev: -124
+  page: 24
+  table: Table 4 (depths at the other stations)
+  box:
+  - 0.12
+  - 0.2476
+  - 0.89
+  - 0.2712
+  interfaces:
+  - - 18
+    - hazeva-top
+- id: GS205
+  xy:
+  - 168850
+  - 967400
+  elev: 200
+  page: 24
+  table: Table 4 (depths at the other stations)
+  box:
+  - 0.12
+  - 0.3457
+  - 0.89
+  - 0.3694
+  interfaces:
+  - - 14
+    - hazeva-top
+  - - 21
+    - hazeva-base
+  - - 53
+    - avdat-base
+  - - 151
+    - arav-top
+- id: GS206
+  xy:
+  - 168850
+  - 967400
+  elev: 200
+  page: 24
+  table: Table 4 (depths at the other stations)
+  box:
+  - 0.12
+  - 0.3689
+  - 0.89
+  - 0.3925
+  interfaces:
+  - - 14
+    - hazeva-top
+  - - 21
+    - hazeva-base
+  - - 53
+    - avdat-base
+- id: GS207
+  xy:
+  - 167200
+  - 965400
+  elev: 193
+  page: 24
+  table: Table 4 (depths at the other stations)
+  box:
+  - 0.12
+  - 0.3936
+  - 0.89
+  - 0.4172
+  interfaces:
+  - - 32
+    - hazeva-top
+  - - 97
+    - hazeva-base
+  - - 185
+    - avdat-base
+- id: GS320
+  xy:
+  - 169800
+  - 969800
+  elev: 100
+  page: 24
+  table: Table 4 (depths at the other stations)
+  box:
+  - 0.12
+  - 0.418
+  - 0.89
+  - 0.4416
+  interfaces:
+  - - 5
+    - hazeva-top
+  - - 244
+    - hazeva-base
+- id: GS324
+  xy:
+  - 172400
+  - 994200
+  elev: 6
+  page: 24
+  table: Table 4 (depths at the other stations)
+  box:
+  - 0.12
+  - 0.4426
+  - 0.89
+  - 0.4662
+  interfaces:
+  - - 18
+    - hazeva-top

@@ -1,0 +1,588 @@
+id: bartov-1998-tdem-northern-arava
+name: TDEM survey in the northern Arava, interim report
+organisation: Geological Survey of Israel (GSI) and Geophysical Institute of Israel (GII)
+authors:
+- Y. Bartov
+- M. Goldman
+- R. Calvo
+- Ronen
+report_number: TR-GSI/2/98 (GII L11/188/95)
+year: 1998
+acquired: null
+methods:
+- TEM
+region: Northern and central Arava, Paran to Hazeva and Idan
+purpose: Depth of the Hazeva Formation and underlying units from TDEM, calibrated at boreholes
+geometry: scattered
+depth_reach: up to about 570 m (deepest boundary given)
+documents:
+- id: main
+  title: TDEM survey in the northern Arava, interim report (in Hebrew, January 1998)
+  filename: Bartov-Y-Northern-Arava-TDEM-Survey-Interim-Report-TR-GSI-02-1998.pdf
+  drive_id: 1a9svsgc6AUKyhrtuhVTnYpo9mp3ANzKn
+  language:
+  - he
+  scanned: true
+  role: main_report
+  sha256: 5d48cc6a71cdecad7eb19f00738faafaf121b53b0b24a1b20d605d27bc6c0188
+  pages: 28
+notes: The report prints no layered models. It gives the author's TDEM depths to four boundaries (top and base of
+  the Hazeva Formation, base of the Avedat Group, top of the Arav Formation) in Table 2 (stations next to boreholes,
+  pages 19-20) and Table 4 (other stations, pages 23-24); these are stored as interface depths. Where two concentric
+  loops were measured, the author's joint solution is a separate dataset ("joint"). Table 3 gives per-unit resistivities
+  without layer depths and is not stored. Values printed only as a lower bound (">") are not stored. The measurement
+  date is not given (report dated January 1998).
+extraction_status: complete
+sites:
+- id: GS161
+  name: TDEM station GS161
+  coords:
+    x: 179800
+    y: 23000
+    crs: EPSG:28193
+    source: table
+    accuracy_m: 50
+  elevation_m: -215
+- id: GS174
+  name: TDEM station GS174
+  coords:
+    x: 179800
+    y: 23000
+    crs: EPSG:28193
+    source: table
+    accuracy_m: 50
+  elevation_m: -215
+- id: GS194
+  name: TDEM station GS194
+  coords:
+    x: 175500
+    y: 21250
+    crs: EPSG:28193
+    source: table
+    accuracy_m: 50
+  elevation_m: -175
+- id: GS127
+  name: TDEM station GS127
+  coords:
+    x: 179000
+    y: 17000
+    crs: EPSG:28193
+    source: table
+    accuracy_m: 50
+  elevation_m: -142
+- id: GS128
+  name: TDEM station GS128
+  coords:
+    x: 179000
+    y: 17000
+    crs: EPSG:28193
+    source: table
+    accuracy_m: 50
+- id: GS112
+  name: TDEM station GS112
+  coords:
+    x: 178200
+    y: 14700
+    crs: EPSG:28193
+    source: table
+    accuracy_m: 50
+  elevation_m: -140
+- id: GS195
+  name: TDEM station GS195
+  coords:
+    x: 175120
+    y: 11290
+    crs: EPSG:28193
+    source: table
+    accuracy_m: 50
+  elevation_m: -121
+- id: GS196
+  name: TDEM station GS196
+  coords:
+    x: 175120
+    y: 11290
+    crs: EPSG:28193
+    source: table
+    accuracy_m: 50
+  elevation_m: -121
+- id: GS191
+  name: TDEM station GS191
+  coords:
+    x: 172600
+    y: 9200
+    crs: EPSG:28193
+    source: table
+    accuracy_m: 50
+  elevation_m: -95
+- id: GS113
+  name: TDEM station GS113
+  coords:
+    x: 172560
+    y: 8090
+    crs: EPSG:28193
+    source: table
+    accuracy_m: 50
+  elevation_m: -95
+- id: GS114
+  name: TDEM station GS114
+  coords:
+    x: 172560
+    y: 8090
+    crs: EPSG:28193
+    source: table
+    accuracy_m: 50
+  elevation_m: -95
+- id: GS171
+  name: TDEM station GS171
+  coords:
+    x: 173100
+    y: 5500
+    crs: EPSG:28193
+    source: table
+    accuracy_m: 50
+  elevation_m: -87
+- id: GS136
+  name: TDEM station GS136
+  coords:
+    x: 170500
+    y: 995700
+    crs: EPSG:28193
+    source: table
+    accuracy_m: 50
+  elevation_m: 3
+- id: GS120
+  name: TDEM station GS120
+  coords:
+    x: 172420
+    y: 994480
+    crs: EPSG:28193
+    source: table
+    accuracy_m: 50
+  elevation_m: 9
+- id: GS119
+  name: TDEM station GS119
+  coords:
+    x: 172420
+    y: 994480
+    crs: EPSG:28193
+    source: table
+    accuracy_m: 50
+  elevation_m: 9
+- id: GS122
+  name: TDEM station GS122
+  coords:
+    x: 169300
+    y: 993100
+    crs: EPSG:28193
+    source: table
+    accuracy_m: 50
+  elevation_m: -4
+- id: GS123
+  name: TDEM station GS123
+  coords:
+    x: 169300
+    y: 993100
+    crs: EPSG:28193
+    source: table
+    accuracy_m: 50
+  elevation_m: -4
+- id: GS106
+  name: TDEM station GS106
+  coords:
+    x: 171650
+    y: 992980
+    crs: EPSG:28193
+    source: table
+    accuracy_m: 50
+  elevation_m: 8
+- id: GS107
+  name: TDEM station GS107
+  coords:
+    x: 171650
+    y: 992980
+    crs: EPSG:28193
+    source: table
+    accuracy_m: 50
+- id: GS104
+  name: TDEM station GS104
+  coords:
+    x: 172200
+    y: 990300
+    crs: EPSG:28193
+    source: table
+    accuracy_m: 50
+  elevation_m: 36
+- id: GS105
+  name: TDEM station GS105
+  coords:
+    x: 172200
+    y: 990300
+    crs: EPSG:28193
+    source: table
+    accuracy_m: 50
+- id: GS108
+  name: TDEM station GS108
+  coords:
+    x: 169150
+    y: 983150
+    crs: EPSG:28193
+    source: table
+    accuracy_m: 50
+  elevation_m: 153
+- id: GS109
+  name: TDEM station GS109
+  coords:
+    x: 169150
+    y: 983150
+    crs: EPSG:28193
+    source: table
+    accuracy_m: 50
+  elevation_m: 153
+- id: GS137
+  name: TDEM station GS137
+  coords:
+    x: 170400
+    y: 981700
+    crs: EPSG:28193
+    source: table
+    accuracy_m: 50
+  elevation_m: 90
+- id: GS164
+  name: TDEM station GS164
+  coords:
+    x: 170400
+    y: 981700
+    crs: EPSG:28193
+    source: table
+    accuracy_m: 50
+  elevation_m: 90
+- id: GS121
+  name: TDEM station GS121
+  coords:
+    x: 166150
+    y: 982900
+    crs: EPSG:28193
+    source: table
+    accuracy_m: 50
+  elevation_m: 55
+- id: GS103
+  name: TDEM station GS103
+  coords:
+    x: 167570
+    y: 981500
+    crs: EPSG:28193
+    source: table
+    accuracy_m: 50
+- id: GS102
+  name: TDEM station GS102
+  coords:
+    x: 167570
+    y: 981500
+    crs: EPSG:28193
+    source: table
+    accuracy_m: 50
+  elevation_m: 82
+- id: GS134
+  name: TDEM station GS134
+  coords:
+    x: 168250
+    y: 978420
+    crs: EPSG:28193
+    source: table
+    accuracy_m: 50
+  elevation_m: 100
+- id: GS51
+  name: TDEM station GS51
+  coords:
+    x: 145170
+    y: 970640
+    crs: EPSG:28193
+    source: table
+    accuracy_m: 50
+- id: GS52
+  name: TDEM station GS52
+  coords:
+    x: 147050
+    y: 971460
+    crs: EPSG:28193
+    source: table
+    accuracy_m: 50
+- id: GS94A
+  name: TDEM station GS94A
+  coords:
+    x: 176100
+    y: 20850
+    crs: EPSG:28193
+    source: table
+    accuracy_m: 50
+  elevation_m: -160
+- id: GS94B
+  name: TDEM station GS94B
+  coords:
+    x: 176100
+    y: 20850
+    crs: EPSG:28193
+    source: table
+    accuracy_m: 50
+  elevation_m: -160
+- id: GS115
+  name: TDEM station GS115
+  coords:
+    x: 170500
+    y: 5900
+    crs: EPSG:28193
+    source: table
+    accuracy_m: 50
+  elevation_m: -58
+- id: GS116
+  name: TDEM station GS116
+  coords:
+    x: 170500
+    y: 5900
+    crs: EPSG:28193
+    source: table
+    accuracy_m: 50
+  elevation_m: -58
+- id: GS117
+  name: TDEM station GS117
+  coords:
+    x: 168750
+    y: 997000
+    crs: EPSG:28193
+    source: table
+    accuracy_m: 50
+  elevation_m: 0
+- id: GS118
+  name: TDEM station GS118
+  coords:
+    x: 168750
+    y: 997000
+    crs: EPSG:28193
+    source: table
+    accuracy_m: 50
+  elevation_m: 0
+- id: GS133
+  name: TDEM station GS133
+  coords:
+    x: 171050
+    y: 977300
+    crs: EPSG:28193
+    source: table
+    accuracy_m: 50
+  elevation_m: 130
+- id: GS141
+  name: TDEM station GS141
+  coords:
+    x: 174100
+    y: 992600
+    crs: EPSG:28193
+    source: table
+    accuracy_m: 50
+  elevation_m: 40
+- id: GS142
+  name: TDEM station GS142
+  coords:
+    x: 174100
+    y: 992600
+    crs: EPSG:28193
+    source: table
+    accuracy_m: 50
+  elevation_m: 40
+- id: GS143
+  name: TDEM station GS143
+  coords:
+    x: 171600
+    y: 996200
+    crs: EPSG:28193
+    source: table
+    accuracy_m: 50
+  elevation_m: -5
+- id: GS165
+  name: TDEM station GS165
+  coords:
+    x: 171600
+    y: 996200
+    crs: EPSG:28193
+    source: table
+    accuracy_m: 50
+  elevation_m: -5
+- id: GS154
+  name: TDEM station GS154
+  coords:
+    x: 167950
+    y: 962500
+    crs: EPSG:28193
+    source: table
+    accuracy_m: 50
+  elevation_m: 215
+- id: GS155
+  name: TDEM station GS155
+  coords:
+    x: 167950
+    y: 962500
+    crs: EPSG:28193
+    source: table
+    accuracy_m: 50
+  elevation_m: 215
+- id: GS156
+  name: TDEM station GS156
+  coords:
+    x: 166900
+    y: 969000
+    crs: EPSG:28193
+    source: table
+    accuracy_m: 50
+  elevation_m: 160
+- id: GS157
+  name: TDEM station GS157
+  coords:
+    x: 168700
+    y: 969000
+    crs: EPSG:28193
+    source: table
+    accuracy_m: 50
+  elevation_m: 176
+- id: GS158
+  name: TDEM station GS158
+  coords:
+    x: 170850
+    y: 972400
+    crs: EPSG:28193
+    source: table
+    accuracy_m: 50
+  elevation_m: 160
+- id: GS162
+  name: TDEM station GS162
+  coords:
+    x: 171050
+    y: 977300
+    crs: EPSG:28193
+    source: table
+    accuracy_m: 50
+  elevation_m: 130
+- id: GS163
+  name: TDEM station GS163
+  coords:
+    x: 172200
+    y: 982950
+    crs: EPSG:28193
+    source: table
+    accuracy_m: 50
+  elevation_m: 95
+- id: GS166
+  name: TDEM station GS166
+  coords:
+    x: 172100
+    y: 998800
+    crs: EPSG:28193
+    source: table
+    accuracy_m: 50
+  elevation_m: -10
+- id: GS172
+  name: TDEM station GS172
+  coords:
+    x: 175300
+    y: 9100
+    crs: EPSG:28193
+    source: table
+    accuracy_m: 50
+  elevation_m: -110
+- id: GS183
+  name: TDEM station GS183
+  coords:
+    x: 177800
+    y: 23900
+    crs: EPSG:28193
+    source: table
+    accuracy_m: 50
+  elevation_m: -175
+- id: GS185
+  name: TDEM station GS185
+  coords:
+    x: 175850
+    y: 12090
+    crs: EPSG:28193
+    source: table
+    accuracy_m: 50
+  elevation_m: -128
+- id: GS186
+  name: TDEM station GS186
+  coords:
+    x: 175850
+    y: 12090
+    crs: EPSG:28193
+    source: table
+    accuracy_m: 50
+  elevation_m: -128
+- id: GS192
+  name: TDEM station GS192
+  coords:
+    x: 171950
+    y: 17500
+    crs: EPSG:28193
+    source: table
+    accuracy_m: 50
+  elevation_m: -110
+- id: GS198
+  name: TDEM station GS198
+  coords:
+    x: 177900
+    y: 10200
+    crs: EPSG:28193
+    source: table
+    accuracy_m: 50
+  elevation_m: -124
+- id: GS199
+  name: TDEM station GS199
+  coords:
+    x: 177900
+    y: 10200
+    crs: EPSG:28193
+    source: table
+    accuracy_m: 50
+  elevation_m: -124
+- id: GS205
+  name: TDEM station GS205
+  coords:
+    x: 168850
+    y: 967400
+    crs: EPSG:28193
+    source: table
+    accuracy_m: 50
+  elevation_m: 200
+- id: GS206
+  name: TDEM station GS206
+  coords:
+    x: 168850
+    y: 967400
+    crs: EPSG:28193
+    source: table
+    accuracy_m: 50
+  elevation_m: 200
+- id: GS207
+  name: TDEM station GS207
+  coords:
+    x: 167200
+    y: 965400
+    crs: EPSG:28193
+    source: table
+    accuracy_m: 50
+  elevation_m: 193
+- id: GS320
+  name: TDEM station GS320
+  coords:
+    x: 169800
+    y: 969800
+    crs: EPSG:28193
+    source: table
+    accuracy_m: 50
+  elevation_m: 100
+- id: GS324
+  name: TDEM station GS324
+  coords:
+    x: 172400
+    y: 994200
+    crs: EPSG:28193
+    source: table
+    accuracy_m: 50
+  elevation_m: 6

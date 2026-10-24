@@ -34,6 +34,12 @@ Transcription format (one file per survey)::
 
 A layer row may carry ``{thick: ..}`` or ``{cond: ..}`` as a fifth element.
 
+Where the report prints only the author's depth to a boundary (no layered
+model), a site lists ``interfaces`` instead: ``[depth, name, flag]`` where
+``name`` is a key of the top-level ``interface_kinds`` map (``{name: criterion}``)
+and ``flag`` is ``"?"`` when the author queried the value (stored at confidence C).
+Each becomes an L3 ``interface_depth`` dataset.
+
 Run: ``python -m geosigma.extract.printed_tables <survey-id> [...]``.
 """
 from __future__ import annotations
@@ -101,6 +107,30 @@ def build(survey: str) -> list[dict]:
             if s.get("site_notes"):
                 site["notes"] = s["site_notes"]
             sites.append(site)
+        for depth, name, *flag in s.get("interfaces", []):
+            queried = "?" in flag
+            notes = [tr.get("prov_notes"), s.get("prov_notes")]
+            prov = {"document": s.get("document", tr["document"]), "pages": s.get("pages") or [s["page"]],
+                    "method": tr.get("extraction_method", "manual"),
+                    "tool": "typed from the page at 200 dpi; geosigma.extract.printed_tables", "extracted_on": today,
+                    "notes": " ".join(n for n in notes if n) or None}
+            table = s.get("table") or tr.get("table")
+            if table:
+                prov["table"] = table
+            n = " ".join(x for x in (tr.get("notes"), s.get("notes"),
+                                     "The author printed this depth with a question mark." if queried else None) if x)
+            d = {"id": f"{tr['prefix']}-{s.get('model_id', s['id'])}-{name}", "survey": survey,
+                 "site": s.get("site", s["id"]), "method": s.get("method", tr["method"]), "level": "L3",
+                 "representation": "interface_depth", "measured_on": s.get("measured_on", tr.get("measured_on")),
+                 "confidence": "C" if queried else s.get("confidence", tr.get("confidence", "A")), "status": "draft",
+                 "interface_depth_m": depth, "criterion": tr["interface_kinds"][name], "provenance": prov}
+            if n:
+                d["notes"] = n
+            ds.append(d)
+            if s.get("box"):
+                boxes[d["id"]] = {"page": prov["pages"][0], "box": s["box"]}
+                if tr.get("box_caption"):
+                    boxes[d["id"]]["caption"] = tr["box_caption"]
         if not s.get("layers"):
             continue
         layers, probs = _layers(s, factor)

@@ -241,7 +241,9 @@ def views(ds: dict, filename: str | None) -> list[dict]:
         src = prov.get("table") or prov.get("figure") or "the printed table"
         cap = (f"Page {tb['page']}, {src}. The author's interpreted model is the boxed rows: the depth interval "
                "(or thickness) and resistivity of each layer, as printed")
-        if ds.get("representation") == "interface_depth":
+        if tb.get("caption"):
+            cap = f"Page {tb['page']}, {src}. {tb['caption']}"
+        elif ds.get("representation") == "interface_depth":
             cap += "; the interface depth is derived from it"
         out = [view(tb["page"], cap, region, boxes=[b])]
         figs = [f.strip() for f in (prov.get("figure") or "").split(";")]
