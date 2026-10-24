@@ -1,0 +1,83 @@
+id: zafrir-1991-ramon-drillholes
+name: Drillholes to verify TDEM results around the quartz syenite bodies, southern Makhtesh Ramon
+organisation: Geological Survey of Israel (GSI) and Soreq Nuclear Research Center
+authors:
+- H. Zafrir
+- G. Steinitz
+- A. Itamar
+report_number: TR-GSI/3/91 (Z.D./153/91)
+year: 1991
+acquired: '1990/1991'
+methods:
+- TEM
+region: Gevanim dome, southern Makhtesh Ramon
+purpose: Verify by drilling the TDEM-predicted depth to the buried quartz syenite
+geometry: stations
+documents:
+- id: main
+  title: Drillholes to verify TDEM survey results around the quartz syenite bodies in southern Makhtesh Ramon (progress
+    report, April 1991)
+  filename: Zafrir-H-Drillholes-Verification-TDEM-Results-Quartz-Syenite-Bodies-Ramon-Rep-TR-GSI-03-1991.pdf
+  drive_id: 1k1kmRfB7SDlgAHw31nUHiXDwE2Xk9LTp
+  language:
+  - he
+  scanned: true
+  role: main_report
+  sha256: d77f7adc02ea8803d13867a04f069a361d18810e3070a03ed9f7febafd99bd23
+  pages: 12
+notes: A drilling report, not a resistivity survey. Table 1 (page 6) lists five drillholes with the depth to syenite
+  predicted by TDEM, the drilled depth and the depth where the contact was met (only holes 10 at 55 m and 7-A at 88
+  m reached it). The TDEM models behind the predictions are in Goldman et al. 1990 (stations GS64-GS66), so no
+  resistivity values are stored here. Pages 8-10 are gamma logs. Hole positions come from Table 1 where the location
+  map (Fig. 1, page 5) agrees within about 150 m; for 7-A and 6 the table disagrees with the map (7-A is printed
+  13740/99950, about 500 m north of its map position, and 6 is printed 13725/98880, 10 km south, evidently a typo for
+  99880), so the map positions are used for those two.
+extraction_status: registered
+sites:
+- id: '12-A'
+  name: Drillhole 12-A
+  coords:
+    x: 137750
+    y: 999740
+    crs: EPSG:28193
+    source: table
+    accuracy_m: 100
+  notes: 'Table 1: TDEM-predicted depth to syenite 30-40 m; drilled to 60.5 m; contact not reached.'
+- id: '11-A'
+  name: Drillhole 11-A
+  coords:
+    x: 137900
+    y: 999600
+    crs: EPSG:28193
+    source: table
+    accuracy_m: 100
+  notes: 'Table 1: TDEM-predicted depth to syenite 30-40 m; drilled to 61.5 m; contact not reached.'
+- id: '10'
+  name: Drillhole 10
+  coords:
+    x: 138000
+    y: 999500
+    crs: EPSG:28193
+    source: table
+    accuracy_m: 100
+  notes: 'Table 1: TDEM-predicted depth to syenite less than 20 m; drilled to 68.5 m; contact at 55 m.'
+- id: 7-A
+  name: Drillhole 7-A
+  coords:
+    x: 137370
+    y: 998980
+    crs: EPSG:28193
+    source: map
+    accuracy_m: 100
+  notes: 'Table 1: TDEM-predicted depth to syenite 60 m; drilled to 91 m; contact at 88 m. Position from Fig. 1 (the
+    table prints 13740/99950).'
+- id: '6'
+  name: Drillhole 6
+  coords:
+    x: 137260
+    y: 998770
+    crs: EPSG:28193
+    source: map
+    accuracy_m: 100
+  notes: 'Table 1: TDEM-predicted depth to syenite 65 m; drilled to 103 m; contact not reached. Position from Fig. 1
+    (the table prints 13725/98880).'
