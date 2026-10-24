@@ -1,0 +1,308 @@
+[
+ {
+  "id": "gvirtzman1972-33-layered",
+  "survey": "gvirtzman-1972-mt-heletz-ashqelon",
+  "site": "33",
+  "method": "MT",
+  "level": "L2",
+  "representation": "model_1d",
+  "measured_on": null,
+  "depth_max_m": 3640,
+  "confidence": "A",
+  "status": "draft",
+  "model_type": "layered",
+  "layers": [
+   {
+    "top_m": 0,
+    "bottom_m": 290,
+    "rho_ohmm": 7.5,
+    "note": "MT unit A"
+   },
+   {
+    "top_m": 290,
+    "bottom_m": 2600,
+    "rho_ohmm": 37.5,
+    "note": "MT unit C"
+   },
+   {
+    "top_m": 2600,
+    "bottom_m": 3640,
+    "rho_ohmm": 0.27,
+    "note": "MT unit D"
+   },
+   {
+    "top_m": 3640,
+    "bottom_m": null,
+    "rho_ohmm": 95.0,
+    "note": "MT unit E; bottom deeper than 11,600 m (printed thickness > 7,960 m)"
+   }
+  ],
+  "provenance": {
+   "document": "main",
+   "pages": [
+    12
+   ],
+   "method": "manual",
+   "tool": "typed from the page at 200 dpi; geosigma.extract.printed_tables",
+   "extracted_on": "2026-10-24",
+   "notes": "Printed in ohm.cm; values divided by 100 to give ohm.m. Unit printed in the table header (\"Resistivity, ohm-cm\"). Checked against Table 2 (same page), whose per-unit ranges in ohm-cm (A 300-950, B 6,650-8,250, C 2,100-4,500, D 27-74, E 9,500-16,000, F 200-314, G 25,000-27,000) contain every value here, and against the text, which gives basement resistivities of 18-46 x 10^3 ohm-cm. The 1971 report (page 31) prints the same table but labels station 38's third layer \"E\"; the 1972 \"F\" is used because 200 ohm-cm lies in the F range, not the E range.",
+   "table": "Table 1 (results of magneto-telluric measurements)"
+  },
+  "notes": "Layer notes give the authors' magneto-telluric unit (A-G, Table 2). Last layer is the half-space."
+ },
+ {
+  "id": "gvirtzman1972-34-layered",
+  "survey": "gvirtzman-1972-mt-heletz-ashqelon",
+  "site": "34",
+  "method": "MT",
+  "level": "L2",
+  "representation": "model_1d",
+  "measured_on": null,
+  "depth_max_m": 2800,
+  "confidence": "A",
+  "status": "draft",
+  "model_type": "layered",
+  "layers": [
+   {
+    "top_m": 0,
+    "bottom_m": 160,
+    "rho_ohmm": 7.0,
+    "note": "MT unit A"
+   },
+   {
+    "top_m": 160,
+    "bottom_m": 2000,
+    "rho_ohmm": 21.0,
+    "note": "MT unit C"
+   },
+   {
+    "top_m": 2000,
+    "bottom_m": 2800,
+    "rho_ohmm": 0.36,
+    "note": "MT unit D"
+   },
+   {
+    "top_m": 2800,
+    "bottom_m": null,
+    "rho_ohmm": 120.0,
+    "note": "MT unit E; bottom deeper than 11,300 m (printed thickness > 8,500 m)"
+   }
+  ],
+  "provenance": {
+   "document": "main",
+   "pages": [
+    12
+   ],
+   "method": "manual",
+   "tool": "typed from the page at 200 dpi; geosigma.extract.printed_tables",
+   "extracted_on": "2026-10-24",
+   "notes": "Printed in ohm.cm; values divided by 100 to give ohm.m. Unit printed in the table header (\"Resistivity, ohm-cm\"). Checked against Table 2 (same page), whose per-unit ranges in ohm-cm (A 300-950, B 6,650-8,250, C 2,100-4,500, D 27-74, E 9,500-16,000, F 200-314, G 25,000-27,000) contain every value here, and against the text, which gives basement resistivities of 18-46 x 10^3 ohm-cm. The 1971 report (page 31) prints the same table but labels station 38's third layer \"E\"; the 1972 \"F\" is used because 200 ohm-cm lies in the F range, not the E range.",
+   "table": "Table 1 (results of magneto-telluric measurements)"
+  },
+  "notes": "Layer notes give the authors' magneto-telluric unit (A-G, Table 2). Last layer is the half-space."
+ },
+ {
+  "id": "gvirtzman1972-35-layered",
+  "survey": "gvirtzman-1972-mt-heletz-ashqelon",
+  "site": "35",
+  "method": "MT",
+  "level": "L2",
+  "representation": "model_1d",
+  "measured_on": null,
+  "depth_max_m": 2620,
+  "confidence": "A",
+  "status": "draft",
+  "model_type": "layered",
+  "layers": [
+   {
+    "top_m": 0,
+    "bottom_m": 290,
+    "rho_ohmm": 3.0,
+    "note": "MT unit A"
+   },
+   {
+    "top_m": 290,
+    "bottom_m": 1450,
+    "rho_ohmm": 30.0,
+    "note": "MT unit C"
+   },
+   {
+    "top_m": 1450,
+    "bottom_m": 2620,
+    "rho_ohmm": 0.74,
+    "note": "MT unit D"
+   },
+   {
+    "top_m": 2620,
+    "bottom_m": null,
+    "rho_ohmm": 160.0,
+    "note": "MT unit E; bottom deeper than 11,100 m (printed thickness > 8,480 m)"
+   }
+  ],
+  "provenance": {
+   "document": "main",
+   "pages": [
+    12
+   ],
+   "method": "manual",
+   "tool": "typed from the page at 200 dpi; geosigma.extract.printed_tables",
+   "extracted_on": "2026-10-24",
+   "notes": "Printed in ohm.cm; values divided by 100 to give ohm.m. Unit printed in the table header (\"Resistivity, ohm-cm\"). Checked against Table 2 (same page), whose per-unit ranges in ohm-cm (A 300-950, B 6,650-8,250, C 2,100-4,500, D 27-74, E 9,500-16,000, F 200-314, G 25,000-27,000) contain every value here, and against the text, which gives basement resistivities of 18-46 x 10^3 ohm-cm. The 1971 report (page 31) prints the same table but labels station 38's third layer \"E\"; the 1972 \"F\" is used because 200 ohm-cm lies in the F range, not the E range.",
+   "table": "Table 1 (results of magneto-telluric measurements)"
+  },
+  "notes": "Layer notes give the authors' magneto-telluric unit (A-G, Table 2). Last layer is the half-space."
+ },
+ {
+  "id": "gvirtzman1972-37-layered",
+  "survey": "gvirtzman-1972-mt-heletz-ashqelon",
+  "site": "37",
+  "method": "MT",
+  "level": "L2",
+  "representation": "model_1d",
+  "measured_on": null,
+  "depth_max_m": 2600,
+  "confidence": "A",
+  "status": "draft",
+  "model_type": "layered",
+  "layers": [
+   {
+    "top_m": 0,
+    "bottom_m": 190,
+    "rho_ohmm": 5.5,
+    "note": "MT unit A"
+   },
+   {
+    "top_m": 190,
+    "bottom_m": 2100,
+    "rho_ohmm": 45.0,
+    "note": "MT unit C"
+   },
+   {
+    "top_m": 2100,
+    "bottom_m": 2600,
+    "rho_ohmm": 0.3,
+    "note": "MT unit D"
+   },
+   {
+    "top_m": 2600,
+    "bottom_m": null,
+    "rho_ohmm": 100.0,
+    "note": "MT unit E; bottom deeper than 10,600 m (printed thickness > 8,000 m)"
+   }
+  ],
+  "provenance": {
+   "document": "main",
+   "pages": [
+    12
+   ],
+   "method": "manual",
+   "tool": "typed from the page at 200 dpi; geosigma.extract.printed_tables",
+   "extracted_on": "2026-10-24",
+   "notes": "Printed in ohm.cm; values divided by 100 to give ohm.m. Unit printed in the table header (\"Resistivity, ohm-cm\"). Checked against Table 2 (same page), whose per-unit ranges in ohm-cm (A 300-950, B 6,650-8,250, C 2,100-4,500, D 27-74, E 9,500-16,000, F 200-314, G 25,000-27,000) contain every value here, and against the text, which gives basement resistivities of 18-46 x 10^3 ohm-cm. The 1971 report (page 31) prints the same table but labels station 38's third layer \"E\"; the 1972 \"F\" is used because 200 ohm-cm lies in the F range, not the E range.",
+   "table": "Table 1 (results of magneto-telluric measurements)"
+  },
+  "notes": "Layer notes give the authors' magneto-telluric unit (A-G, Table 2). Last layer is the half-space."
+ },
+ {
+  "id": "gvirtzman1972-38-layered",
+  "survey": "gvirtzman-1972-mt-heletz-ashqelon",
+  "site": "38",
+  "method": "MT",
+  "level": "L2",
+  "representation": "model_1d",
+  "measured_on": null,
+  "depth_max_m": 8500,
+  "confidence": "A",
+  "status": "draft",
+  "model_type": "layered",
+  "layers": [
+   {
+    "top_m": 0,
+    "bottom_m": 320,
+    "rho_ohmm": 5.5,
+    "note": "MT unit A"
+   },
+   {
+    "top_m": 320,
+    "bottom_m": 7100,
+    "rho_ohmm": 82.5,
+    "note": "MT unit B"
+   },
+   {
+    "top_m": 7100,
+    "bottom_m": 8500,
+    "rho_ohmm": 2.0,
+    "note": "MT unit F (the 1971 report prints E)"
+   },
+   {
+    "top_m": 8500,
+    "bottom_m": null,
+    "rho_ohmm": 270.0,
+    "note": "MT unit G, Precambrian basement"
+   }
+  ],
+  "provenance": {
+   "document": "main",
+   "pages": [
+    12
+   ],
+   "method": "manual",
+   "tool": "typed from the page at 200 dpi; geosigma.extract.printed_tables",
+   "extracted_on": "2026-10-24",
+   "notes": "Printed in ohm.cm; values divided by 100 to give ohm.m. Unit printed in the table header (\"Resistivity, ohm-cm\"). Checked against Table 2 (same page), whose per-unit ranges in ohm-cm (A 300-950, B 6,650-8,250, C 2,100-4,500, D 27-74, E 9,500-16,000, F 200-314, G 25,000-27,000) contain every value here, and against the text, which gives basement resistivities of 18-46 x 10^3 ohm-cm. The 1971 report (page 31) prints the same table but labels station 38's third layer \"E\"; the 1972 \"F\" is used because 200 ohm-cm lies in the F range, not the E range.",
+   "table": "Table 1 (results of magneto-telluric measurements)"
+  },
+  "notes": "Layer notes give the authors' magneto-telluric unit (A-G, Table 2). Last layer is the half-space."
+ },
+ {
+  "id": "gvirtzman1972-39-layered",
+  "survey": "gvirtzman-1972-mt-heletz-ashqelon",
+  "site": "39",
+  "method": "MT",
+  "level": "L2",
+  "representation": "model_1d",
+  "measured_on": null,
+  "depth_max_m": 6300,
+  "confidence": "B",
+  "status": "draft",
+  "model_type": "layered",
+  "layers": [
+   {
+    "top_m": 0,
+    "bottom_m": 280,
+    "rho_ohmm": 9.5,
+    "note": "MT unit A"
+   },
+   {
+    "top_m": 280,
+    "bottom_m": 4500,
+    "rho_ohmm": 66.5,
+    "note": "MT unit B"
+   },
+   {
+    "top_m": 4500,
+    "bottom_m": 6300,
+    "rho_ohmm": 3.14,
+    "note": "MT unit F"
+   },
+   {
+    "top_m": 6300,
+    "bottom_m": null,
+    "rho_ohmm": 250.0,
+    "note": "MT unit G, Precambrian basement; value printed with a query (\"? 25,000\")"
+   }
+  ],
+  "provenance": {
+   "document": "main",
+   "pages": [
+    12
+   ],
+   "method": "manual",
+   "tool": "typed from the page at 200 dpi; geosigma.extract.printed_tables",
+   "extracted_on": "2026-10-24",
+   "notes": "Printed in ohm.cm; values divided by 100 to give ohm.m. Unit printed in the table header (\"Resistivity, ohm-cm\"). Checked against Table 2 (same page), whose per-unit ranges in ohm-cm (A 300-950, B 6,650-8,250, C 2,100-4,500, D 27-74, E 9,500-16,000, F 200-314, G 25,000-27,000) contain every value here, and against the text, which gives basement resistivities of 18-46 x 10^3 ohm-cm. The 1971 report (page 31) prints the same table but labels station 38's third layer \"E\"; the 1972 \"F\" is used because 200 ohm-cm lies in the F range, not the E range.",
+   "table": "Table 1 (results of magneto-telluric measurements)"
+  },
+  "notes": "Layer notes give the authors' magneto-telluric unit (A-G, Table 2). Last layer is the half-space. Confidence B because the author printed the basement resistivity with a question mark."
+ }
+]

@@ -90,6 +90,7 @@ OHM_CM_SURVEYS = {
     "klang-1970-mt-timna-ramon": "CALC. RES. band labelled ohm.cm",
     "paparo-1969-southern-arava": "map legend: contour interval 1000 ohm.cm",
     "paparo-1970-shekhem": "report section 2.0 gives formation values in ohm.cm",
+    "gvirtzman-1972-mt-heletz-ashqelon": "Table 1 header 'Resistivity, ohm-cm'; Table 2 ranges in ohm-cm",
 }
 
 

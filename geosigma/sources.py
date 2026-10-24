@@ -233,6 +233,22 @@ def views(ds: dict, filename: str | None) -> list[dict]:
                             marks=[{"site": ds["site"], "x": x, "y": 0.123}]))
         return out
 
+    # Models typed from printed tables and printouts (extract.printed_tables): box the site's rows.
+    tb = (_extraction(survey, "table_boxes.json") or {}).get(ds["id"])
+    if tb:
+        b = tb["box"]
+        region = [max(0, b[0] - 0.05), max(0, b[1] - 0.12), min(1, b[2] + 0.05), min(1, b[3] + 0.06)]
+        src = prov.get("table") or prov.get("figure") or "the printed table"
+        cap = (f"Page {tb['page']}, {src}. The author's interpreted model is the boxed rows: the depth interval "
+               "(or thickness) and resistivity of each layer, as printed")
+        if ds.get("representation") == "interface_depth":
+            cap += "; the interface depth is derived from it"
+        out = [view(tb["page"], cap, region, boxes=[b])]
+        figs = [f.strip() for f in (prov.get("figure") or "").split(";")]
+        for i, p in enumerate(pages[1:], 1):
+            out.append(view(p, f"Page {p}: {figs[i] if i < len(figs) and figs[i] else 'also cited for these values'}"))
+        return out
+
     # Default: a whole field sheet or table page, then any figure it was checked against.
     figs = [f.strip() for f in (prov.get("figure") or "").split(";")]
     boxes, rep = None, ds.get("representation")

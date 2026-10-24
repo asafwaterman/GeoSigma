@@ -1,0 +1,100 @@
+id: gvirtzman-1972-mt-heletz-ashqelon
+name: Structural and depositional hinge-line along the Coastal Plain, from magneto-telluric measurements
+organisation: Geological Survey of Israel (GSI) and IPRG
+authors:
+- G. Gvirtzman
+- A. Klang
+report_number: GSI Bulletin 55
+year: 1972
+acquired: null
+methods:
+- MT
+region: Coastal Plain, Heletz to Ziqim (Ashqelon area)
+purpose: Basement configuration and the longitudinal fault zone of the Coastal Plain
+geometry: profile
+depth_reach: about 6-11 km (Precambrian basement at stations 38 and 39)
+documents:
+- id: main
+  title: A structural and depositional hinge-line along the Coastal Plain of Israel, evidenced by magneto-tellurics
+  filename: Gvirtzman-Gedaliya-Structural-Depositional-Hinge-Line-Coastal-Plain-of-Israel-GSI-Bull-55-1972.pdf
+  drive_id: 1jh0qY5b0KnAC6BcsKoWywsjKN-VkpJjI
+  language:
+  - en
+  scanned: true
+  role: main_report
+  sha256: b5e28dd9c8962bb1c93b4c3cef8d0929b2d3162c2f0394ca6f9ea588f3bc11c9
+  pages: 25
+- id: report1971
+  title: Geological history of the Israel Coastal Plain longitudinal fault zone; the basement configuration indicated
+    by magneto-telluric measurements (GSI report, August 1971)
+  filename: Gvirtzman-G-Geological-History-Israel-Coastal-Plain-Magneto-Telluric-GSI-1971.pdf
+  drive_id: 1W_oI1_TG1cuw1YFAz2oFITupeWMNFiHE
+  language:
+  - en
+  scanned: true
+  role: appendix
+  sha256: b3b849f6b3fb40148b9f59af5870d9019af9b3be70e67ec2b71c3ef5d4c78694
+  pages: 42
+notes: Eight MT stations on a NW-SE line from Ziqim to Heletz; stations 32 and 36 gave no usable model, so Table
+  1 (page 12 of the 1972 bulletin) has six. The August 1971 GSI report is the earlier version of the same study
+  with the same Table 1 (its page 31); values were taken from the published 1972 bulletin. The measurement date
+  is not given (before August 1971). Units A-G are the authors' magneto-telluric units (Table 2).
+extraction_status: complete
+sites:
+- id: '33'
+  name: MT station 33
+  coords:
+    x: 104800
+    y: 114270
+    crs: EPSG:28193
+    source: table
+    accuracy_m: 100
+  elevation_m: 22
+  notes: Near the Ziqim 1 well.
+- id: '34'
+  name: MT station 34
+  coords:
+    x: 106800
+    y: 114000
+    crs: EPSG:28193
+    source: table
+    accuracy_m: 100
+  elevation_m: 25
+- id: '35'
+  name: MT station 35
+  coords:
+    x: 107500
+    y: 111950
+    crs: EPSG:28193
+    source: table
+    accuracy_m: 100
+  elevation_m: 25
+- id: '37'
+  name: MT station 37
+  coords:
+    x: 110054
+    y: 110075
+    crs: EPSG:28193
+    source: table
+    accuracy_m: 100
+  elevation_m: 51
+  notes: Near the Shim'on 1 well.
+- id: '38'
+  name: MT station 38
+  coords:
+    x: 111500
+    y: 109400
+    crs: EPSG:28193
+    source: table
+    accuracy_m: 100
+  elevation_m: 75
+- id: '39'
+  name: MT station 39
+  coords:
+    x: 112750
+    y: 109000
+    crs: EPSG:28193
+    source: table
+    accuracy_m: 100
+  elevation_m: 75
+  notes: Near the Heletz 34 well.
