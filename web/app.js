@@ -187,6 +187,19 @@ function fitTo(gj) {
   map.fitBounds(b, { padding: 60, maxZoom: 11, duration: 0 });
 }
 
+// Each survey method links to its entry in the Methods panel (index.html).
+const METHOD_ANCHOR = { VES: "m-dc", PROFILING: "m-dc", DIPOLE: "m-dc", ERT: "m-dc", MT: "m-mt", AMT: "m-mt",
+  CSAMT: "m-csamt", TEM: "m-tdem" };
+function methodLinks(methods) {
+  return String(methods).split(",").map((m) => METHOD_ANCHOR[m]
+    ? `<a href="#${METHOD_ANCHOR[m]}" class="mlink" data-m="${METHOD_ANCHOR[m]}">${m}</a>` : m).join(", ");
+}
+function openMethods(anchor) {
+  $("methodsPane").hidden = false;
+  const target = anchor && document.getElementById(anchor);
+  if (target) target.scrollIntoView(); else $("methodsPane").scrollTop = 0;
+}
+
 async function loadSurveys() {
   state.surveys = await api("/api/surveys");
   const cov = await api(`/api/coverage?depth=${state.depth}`);
@@ -195,7 +208,7 @@ async function loadSurveys() {
     const n = s.n_datasets;
     const ok = (c.reliable || 0) + (c.unknown_doi || 0);
     return `<div class="survey"><label><input type="checkbox" data-s="${s.id}" ${state.hidden.has(s.id) ? "" : "checked"}>
-      ${s.name}</label><small>${s.year} · ${s.methods} · ${s.n_sites} sites, ${n} datasets` +
+      ${s.name}</label><small>${s.year} · ${methodLinks(s.methods)} · ${s.n_sites} sites, ${n} datasets` +
       (c ? ` · ${ok} models reach ${state.depth} m` : "") + ` · ${s.extraction_status}</small>
       <details class="docs"><summary>Original report${s.documents.length > 1 ? "s" : ""} (PDF)</summary>${docLinks(s)}</details></div>`;
   }).join("") || '<p class="muted">No surveys in the database yet.</p>';
@@ -459,6 +472,18 @@ $("showAreas").addEventListener("change", setAreasVisible);
 // Phone layout (style.css): open and close the legend panel and the site details.
 $("openLeft").addEventListener("click", () => document.body.classList.add("show-left"));
 $("closeLeft").addEventListener("click", () => document.body.classList.remove("show-left"));
+$("openMethods").addEventListener("click", () => openMethods());
+$("closeMethods").addEventListener("click", () => ($("methodsPane").hidden = true));
+$("methodsPane").addEventListener("click", (e) => {
+  if (e.target.id === "methodsPane") $("methodsPane").hidden = true;
+  const a = e.target.closest(".mtoc a");
+  if (a) { e.preventDefault(); openMethods(a.getAttribute("href").slice(1)); }
+});
+document.addEventListener("keydown", (e) => { if (e.key === "Escape") $("methodsPane").hidden = true; });
+$("surveys").addEventListener("click", (e) => {
+  const a = e.target.closest("a.mlink");
+  if (a) { e.preventDefault(); openMethods(a.dataset.m); }
+});
 $("closeDetail").addEventListener("click", () => { $("detail").hidden = true; $("detailEmpty").hidden = false; });
 if (TOUCH) {
   $("areasHint").textContent = "tap a rectangle to download its reports";

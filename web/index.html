@@ -17,6 +17,7 @@
   <label class="depth">Depth <input id="depth" type="range" min="0" max="3000" step="25" value="500">
     <output id="depthOut">500 m</output></label>
   <label class="sigma"><input type="checkbox" id="sigma"> <span class="wide-only">show conductivity </span>(σ)</label>
+  <button id="openMethods">Methods</button>
   <button id="openLeft" class="mobile-only">Legend &amp; surveys</button>
 </header>
 <main>
@@ -47,6 +48,133 @@
 <div id="sectionPane" hidden>
   <div class="bar"><b id="sectionTitle"></b><button id="closeSection">Close</button></div>
   <div id="section" class="plot"></div>
+</div>
+<div id="methodsPane" hidden role="dialog" aria-labelledby="methodsTitle">
+  <article class="methods">
+    <button id="closeMethods" class="close">Close</button>
+    <h2 id="methodsTitle">How the surveys measured resistivity</h2>
+    <p class="muted">The reports on this map use four method families. Each summary below is taken from the
+      cited literature and from the survey reports themselves; numbers in brackets point to the references.
+      Conductivity σ is the inverse of resistivity ρ (σ = 1/ρ).</p>
+    <nav class="mtoc"><a href="#m-dc">DC resistivity</a> <a href="#m-mt">Magnetotellurics (MT)</a>
+      <a href="#m-csamt">CSAMT</a> <a href="#m-tdem">TDEM</a> <a href="#m-refs">References</a></nav>
+
+    <section id="m-dc">
+      <h3>DC resistivity (VES, profiling, dipole mapping)</h3>
+      <p><b>Principle.</b> A direct current is injected through one pair of electrodes and the potential difference
+        is measured with a second pair. The surface potential depends on how resistivity is distributed below, so
+        the measurements are converted to apparent resistivity (the resistivity of a uniform half-space that would
+        give the same reading) and then inverted to true resistivity versus depth [1].</p>
+      <p><b>Measurement.</b> Depth is gained by widening the electrode separation, which should be several times
+        (at least about 3×) the target depth [1]. Wenner moves all four electrodes at a fixed equal spacing (best
+        signal, slowest); Schlumberger moves only the current electrodes (more depth per cable length, faster);
+        dipole-dipole needs the least cable but has the weakest signal [1]. Multi-electrode 2-D/3-D imaging
+        resolves structures that 1-D soundings cannot [2].</p>
+      <p><b>Uses and limits.</b> Simple, cheap and widely used for groundwater, environmental, engineering and mining
+        work [1, 2]; in Israel mainly to map aquifers and saline water [1]. Grounding is hard in dry sand or hard
+        rock, long arrays lower lateral resolution, and arrays that cross faults mix blocks and mislead 1-D
+        interpretation [1].</p>
+      <p><b>On this map.</b> <i>VES</i>: Schlumberger soundings (Paparo, Carmel) and modified-Schlumberger and
+        monopole soundings, whose probing depth is taken as the distance OB [R1]. <i>Profiling</i>: fixed-spacing
+        Wenner readings repeated over time (Geoelectric Atlas). <i>Roving dipole</i> (Yizreel-Harod): a fixed
+        2-3 km source dipole and L-shaped receiver dipoles moved around it give an apparent-resistivity map for
+        fast reconnaissance of large conductive bodies [R1]; the array is easy to run but sensitive to small
+        lateral inhomogeneities [3]. Dipole-dipole pseudo-sections plot separation, not depth [R1].</p>
+    </section>
+
+    <section id="m-mt">
+      <h3>Magnetotellurics (MT)</h3>
+      <p><b>Principle.</b> Natural electromagnetic variations, from the ionosphere and from lightning, induce currents
+        in the Earth [6]; below about 1 Hz the source is mainly ionospheric and above it worldwide thunderstorms [5].
+        The ratio of orthogonal horizontal electric and magnetic fields, with their phase, is diagnostic of the
+        true resistivities of the layers below [4]. Penetration grows with period and falls with conductivity, so
+        long periods see deeper [4, 5].</p>
+      <p><b>Measurement.</b> E is recorded with non-polarising electrodes and B with induction coils; the impedance
+        tensor computed from them is shown as apparent resistivity and phase versus period [6]. Cagniard's form is
+        ρ<sub>a</sub> = 0.2·T·|E/H|² (T in s, E in mV/km, H in gamma = nT) [R2]. Klang's IPRG equipment covered
+        0.002-150 Hz [R2]; the 2006 Dead Sea transect 1 kHz-1 mHz [6]. Simple layered interpretation assumes plane
+        waves and a horizontally layered earth [R2].</p>
+      <p><b>Uses and limits.</b> Needs no current source or long cables and reaches great depth [4]; suited to
+        sedimentary basins [4, 5] and the only method that reliably reaches several kilometres [9]. Near-surface
+        bodies cause static shift, a frequency-independent offset of apparent resistivity that leaves phase
+        unchanged [6]; TEM soundings are used to correct it [9]. Topography and lateral changes distort the
+        fields [5], and MT sees large structures rather than single fractures [9].</p>
+      <p><b>On this map.</b> Klang 1970-1979 (Afiq-Lot, Timna-Ramon, South Netanya, Tamar) and Rotstein 1979
+        (northern Israel); deepest models, to several km.</p>
+    </section>
+
+    <section id="m-csamt">
+      <h3>Controlled-source audio-frequency MT (CSAMT)</h3>
+      <p><b>Principle.</b> MT with an artificial source, a horizontal electric dipole on the surface, which avoids the
+        weak natural signal [7]. Far from the source (the far field) Cagniard resistivity is computed from
+        orthogonal E and H as in MT; in the near field and transition zone it is distorted and does not show true
+        resistivity [7].</p>
+      <p><b>Measurement.</b> At Afek a 1500 m grounded transmitter sat several km from 800 m receiver lines with
+        200 m dipoles, recording 8192-0.0625 Hz; scalar mode measures along-line E<sub>x</sub> and across-line
+        H<sub>y</sub> [R3]. The in-line (end-on) layout was chosen as more sensitive to a deep resistive layer,
+        seen as a "notch" in the transition zone [R3]. Results are 1-D smooth models of resistivity versus depth
+        [R3].</p>
+      <p><b>Uses and limits.</b> Used in mineral, engineering and hydrology surveys; a recent field example reached
+        about 50 m to 2 km [7]. Source-receiver distance controls signal strength and which zone a reading falls in
+        [7].</p>
+      <p><b>On this map.</b> Afek 2013, southern Golan (247 sites).</p>
+    </section>
+
+    <section id="m-tdem">
+      <h3>Time-domain electromagnetics (TDEM / TEM)</h3>
+      <p><b>Principle.</b> Current in a transmitter loop is switched on and off. Each fast switch-off induces eddy
+        currents in the ground (Faraday's law) whose strength depends on resistivity; their decaying secondary
+        magnetic field is measured at the surface [1]. No electrodes are needed, and depth is set by the time after
+        switch-off, not by the transmitter-receiver distance [1, 8].</p>
+      <p><b>Measurement.</b> In the common central-loop array a receiver coil sits inside a square loop and targets two
+        to three times the loop size can be detected [1]. Late-time apparent resistivities are inverted to 1-D
+        layered models [1]. Long-offset TEM (LOTEM) uses a grounded line source far from the receivers for deep
+        work [1].</p>
+      <p><b>Uses and limits.</b> Best for conductive targets, with very good vertical resolution [8]; widely used to
+        map groundwater salinity and saline bodies from tens of metres to kilometres [1]. Best lateral resolution of
+        the 1-D sounding methods, works on almost any terrain and is little affected by neighbouring blocks; the
+        drawbacks are a fast-decaying, noisy signal and costly equipment [1]. Unaffected by near-surface static
+        shift [9].</p>
+      <p><b>On this map.</b> Goldman 2000, coastal aquifer (seawater interface, about 100-200 m).</p>
+    </section>
+
+    <section id="m-refs">
+      <h3>References</h3>
+      <ol class="refs">
+        <li>Goldman, M. &amp; Kafri, U. (2021). Geoelectric, geoelectromagnetic and combined geophysical methods in
+          groundwater exploration in Israel. In Kafri &amp; Yechieli (eds), <i>The Many Facets of Israel's
+          Hydrogeology</i>, Springer, 299-393. <a href="https://doi.org/10.1007/978-3-030-51148-7_16">doi:10.1007/978-3-030-51148-7_16</a></li>
+        <li>Loke, M.H., Chambers, J.E., Rucker, D.F., Kuras, O. &amp; Wilkinson, P.B. (2013). Recent developments in
+          the direct-current geoelectrical imaging method. <i>J. Applied Geophysics</i> 95, 135-156.
+          <a href="https://doi.org/10.1016/j.jappgeo.2013.02.017">doi:10.1016/j.jappgeo.2013.02.017</a></li>
+        <li>Keller, G.V. (1975). DC resistivity methods for determining resistivity in the Earth's crust.
+          <i>Physics of the Earth and Planetary Interiors</i> 10, 201-208.</li>
+        <li>Cagniard, L. (1953). Basic theory of the magneto-telluric method of geophysical prospecting.
+          <i>Geophysics</i> 18, 605-635. <a href="https://doi.org/10.1190/1.1437915">doi:10.1190/1.1437915</a></li>
+        <li>Vozoff, K. (1972). The magnetotelluric method in the exploration of sedimentary basins.
+          <i>Geophysics</i> 37, 98-141.</li>
+        <li>Meqbel, N.M., Ritter, O. &amp; DESIRE Group (2013). A magnetotelluric transect across the Dead Sea Basin:
+          electrical properties of geological and hydrological units of the upper crust. <i>Geophys. J. Int.</i>
+          193, 1415-1431. <a href="https://doi.org/10.1093/gji/ggt051">doi:10.1093/gji/ggt051</a></li>
+        <li>Wang, J., Wang, M., Liu, W. &amp; Lin, P. (2022). The full-field apparent resistivity of CSAMT defined by
+          the magnetic field y-component and an application in the Xiong'an New Area, China. <i>Bull. Geophysics
+          and Oceanography</i> 63, 311-324. <a href="https://doi.org/10.4430/bgo00373">doi:10.4430/bgo00373</a></li>
+        <li>Fitterman, D.V. &amp; Stewart, M.T. (1986). Transient electromagnetic sounding for groundwater.
+          <i>Geophysics</i> 51, 995-1005. <a href="https://doi.org/10.1190/1.1442158">doi:10.1190/1.1442158</a></li>
+        <li>Muñoz, G. (2014). Exploring for geothermal resources with electromagnetic methods. <i>Surveys in
+          Geophysics</i> 35, 101-122. <a href="https://doi.org/10.1007/s10712-013-9236-0">doi:10.1007/s10712-013-9236-0</a></li>
+      </ol>
+      <p class="muted">Survey reports (download from the survey list):</p>
+      <ol class="refs rep">
+        <li>Rotstein, Y., Klang, A. &amp; Levanon (1977). Yizreel and Harod valleys electrical
+          resistivity survey, IPRG GT/149/74(2), section 4.</li>
+        <li>Klang, A. (1970). General aspects and initial results of magnetotelluric surveys in Israel,
+          IPRG 1044.</li>
+        <li>Northwest Geophysical Associates (2013). CSAMT survey on the Afek Project, Survey Methods
+          section.</li>
+      </ol>
+    </section>
+  </article>
 </div>
 <script src="/static/app.js"></script>
 </body>
