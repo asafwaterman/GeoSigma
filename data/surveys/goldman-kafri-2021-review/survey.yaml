@@ -1,0 +1,27 @@
+id: goldman-kafri-2021-review
+name: Geoelectric, geoelectromagnetic and combined geophysical methods in groundwater exploration in Israel
+organisation: Geophysical Institute of Israel (GII)
+authors:
+- M. Goldman
+- U. Kafri
+report_number: Book chapter, The Many Facets of Israel's Hydrogeology (Springer, 2021)
+year: 2021
+methods:
+- TEM
+- VES
+region: Israel (review)
+purpose: Review of resistivity methods in Israeli groundwater work
+documents:
+- id: main
+  title: Geoelectric, geoelectromagnetic and combined geophysical methods in groundwater exploration in Israel
+  filename: Goldman-Kafri-Geoelectric-Methods-Groundwater-Many-Facets-Israel-Hydrogeology-Springer-2021.pdf
+  drive_id: 1NkGTi21SGNgonrYnUfXx69q0SNz5FZuu
+  language:
+  - en
+  scanned: false
+  role: main_report
+  sha256: 2580ff3e6d1aed79d12a45f0edff72d62dc17b96a7b0e071f44fdde3feb2807f
+  pages: 95
+notes: A review chapter that summarises earlier surveys, most of which are already in the dataset from the original
+  reports. Kept as a reference; no values are taken from it, to avoid duplicating the primary sources.
+extraction_status: registered

@@ -1,0 +1,30 @@
+id: meqbel-2013-mt-dead-sea
+name: Deep electrical resistivity structure of the Dead Sea Basin from a magnetotelluric transect
+organisation: GFZ Potsdam and partners
+authors:
+- N. M. M. Meqbel
+- O. Ritter
+- DESIRE Group
+report_number: Geophys. J. Int. 193 (2013) 1415-1431, doi:10.1093/gji/ggt051
+year: 2013
+methods:
+- MT
+region: Dead Sea Basin (about 110 km E-W transect, plus a 20 km In-Basin profile)
+purpose: Deep electrical structure of the Dead Sea Basin
+geometry: profile
+depth_reach: about 20 km
+documents:
+- id: main
+  title: 'A magnetotelluric transect across the Dead Sea Basin: electrical properties of geological and hydrological units of the upper crust'
+  filename: Meqbel-NMM-Magnetotelluric-Transect-Dead-Sea-Basin-Electrical-Properties-Geophys-J-Int-Vol-193-2013.pdf
+  drive_id: 1u0KDXSEbivw-0B5BOOJqv3hHGYsYAbPF
+  language:
+  - en
+  scanned: false
+  role: main_report
+  sha256: f90428f2663ab791a5c3e0d3f000aaacf08d20f80b40df79637eed47b0ebf972
+  pages: 17
+notes: 153 broadband MT stations on two profiles. The author's model is a 2-D inversion section shown as a colour
+  image (Fig. 4, to about 20 km depth), and station positions are shown only on a map (Fig. 1b), with no table. Plotting it needs the
+  section to be digitised and the profile to be georeferenced, which is not done yet.
+extraction_status: registered
