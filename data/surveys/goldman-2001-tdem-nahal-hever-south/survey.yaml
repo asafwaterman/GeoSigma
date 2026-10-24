@@ -1,0 +1,81 @@
+id: goldman-2001-tdem-nahal-hever-south
+name: Repeated TDEM measurements at the Nahal Hever South site
+organisation: Geophysical Institute of Israel (GII)
+client: Geological Survey of Israel
+authors:
+- M. Goldman
+report_number: GII 909/100/01 (1)
+year: 2001
+acquired: '2001'
+methods:
+- TEM
+region: Dead Sea shore, Nahal Hever South (sinkhole site)
+purpose: Fresh water below the saline Dead Sea brine at the sinkhole site
+geometry: stations
+depth_reach: about 90 m (deepest layer boundary)
+acquisition:
+  instruments: Geonics PROTEM
+  loops: 50 x 50 m transmitter loop, central receiver
+documents:
+- id: main
+  title: Repeated TDEM measurements at the Nahal Hever South site, location map and interpretation results (intermediate
+    report, November 2001)
+  filename: Goldman-M-TDEM-Measurements-Nahal-Hever-South-Site-Location-Map-GII-Rep-909-100-01-1-2001.pdf
+  drive_id: 1WHh6d2BvF4-QKLygb7t13iuTaH353oit
+  language:
+  - en
+  scanned: true
+  role: main_report
+  sha256: 6ac9dd8e829c7ed84d02c03a75c561b121935bb55d27827ac10439157263556c
+  pages: 13
+notes: Five stations. The location map (page 2) gives positions in Old Israel Grid metres and marks NH5_1R and NH5_W
+  as saline water and NH5_2R, NH5_4R and NH5_E as fresh water below saline. Each station's layered model is printed
+  on pages 3-11. The printout headers are a software template (client, county, date 01-DEC-92 and the local sounding
+  coordinates are not survey data), so the positions come from the map.
+extraction_status: complete
+sites:
+- id: NH5_1R
+  name: TDEM station NH5_1R (Nahal Hever South)
+  coords:
+    x: 187069
+    y: 89366
+    crs: EPSG:28193
+    source: map
+    accuracy_m: 5
+  notes: The author's map marks this station as saline water.
+- id: NH5_W
+  name: TDEM station NH5_W (Nahal Hever South)
+  coords:
+    x: 187008
+    y: 89370
+    crs: EPSG:28193
+    source: map
+    accuracy_m: 5
+  notes: The author's map marks this station as saline water.
+- id: NH5_2R
+  name: TDEM station NH5_2R (Nahal Hever South)
+  coords:
+    x: 187032
+    y: 89317
+    crs: EPSG:28193
+    source: map
+    accuracy_m: 5
+  notes: The author's map marks this station as fresh water below saline.
+- id: NH5_4R
+  name: TDEM station NH5_4R (Nahal Hever South)
+  coords:
+    x: 187008
+    y: 89269
+    crs: EPSG:28193
+    source: map
+    accuracy_m: 5
+  notes: The author's map marks this station as fresh water below saline.
+- id: NH5_E
+  name: TDEM station NH5_E (Nahal Hever South)
+  coords:
+    x: 187085
+    y: 89300
+    crs: EPSG:28193
+    source: map
+    accuracy_m: 5
+  notes: The author's map marks this station as fresh water below saline.

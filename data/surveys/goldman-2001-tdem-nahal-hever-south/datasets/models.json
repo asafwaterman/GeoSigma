@@ -1,0 +1,287 @@
+[
+ {
+  "id": "goldman2001s-NH5_1R-layered",
+  "survey": "goldman-2001-tdem-nahal-hever-south",
+  "site": "NH5_1R",
+  "method": "TEM",
+  "level": "L2",
+  "representation": "model_1d",
+  "measured_on": "2001",
+  "depth_max_m": 88.99,
+  "confidence": "A",
+  "status": "draft",
+  "model_type": "layered",
+  "layers": [
+   {
+    "top_m": 0,
+    "bottom_m": 8.91,
+    "rho_ohmm": 3.5
+   },
+   {
+    "top_m": 8.91,
+    "bottom_m": 20.23,
+    "rho_ohmm": 10.28
+   },
+   {
+    "top_m": 20.23,
+    "bottom_m": 28.09,
+    "rho_ohmm": 0.434
+   },
+   {
+    "top_m": 28.09,
+    "bottom_m": 38.05,
+    "rho_ohmm": 1.09
+   },
+   {
+    "top_m": 38.05,
+    "bottom_m": 48.49,
+    "rho_ohmm": 0.274
+   },
+   {
+    "top_m": 48.49,
+    "bottom_m": 88.99,
+    "rho_ohmm": 0.662
+   },
+   {
+    "top_m": 88.99,
+    "bottom_m": null,
+    "rho_ohmm": 0.38
+   }
+  ],
+  "provenance": {
+   "document": "main",
+   "pages": [
+    3
+   ],
+   "method": "manual",
+   "tool": "typed from the page at 200 dpi; geosigma.extract.printed_tables",
+   "extracted_on": "2026-10-24",
+   "notes": "Position from the location map (page 2), Old Israel Grid. Depth = running sum of the printed thicknesses.",
+   "table": "Printout (resistivity, thickness, elevation, conductance)"
+  }
+ },
+ {
+  "id": "goldman2001s-NH5_W-layered",
+  "survey": "goldman-2001-tdem-nahal-hever-south",
+  "site": "NH5_W",
+  "method": "TEM",
+  "level": "L2",
+  "representation": "model_1d",
+  "measured_on": "2001",
+  "depth_max_m": 89.07,
+  "confidence": "A",
+  "status": "draft",
+  "model_type": "layered",
+  "layers": [
+   {
+    "top_m": 0,
+    "bottom_m": 9.03,
+    "rho_ohmm": 3.91
+   },
+   {
+    "top_m": 9.03,
+    "bottom_m": 19.81,
+    "rho_ohmm": 10.31
+   },
+   {
+    "top_m": 19.81,
+    "bottom_m": 26.6,
+    "rho_ohmm": 0.517
+   },
+   {
+    "top_m": 26.6,
+    "bottom_m": 34.15,
+    "rho_ohmm": 1.01
+   },
+   {
+    "top_m": 34.15,
+    "bottom_m": 43.64,
+    "rho_ohmm": 0.276
+   },
+   {
+    "top_m": 43.64,
+    "bottom_m": 89.07,
+    "rho_ohmm": 0.62
+   },
+   {
+    "top_m": 89.07,
+    "bottom_m": null,
+    "rho_ohmm": 0.411
+   }
+  ],
+  "provenance": {
+   "document": "main",
+   "pages": [
+    5
+   ],
+   "method": "manual",
+   "tool": "typed from the page at 200 dpi; geosigma.extract.printed_tables",
+   "extracted_on": "2026-10-24",
+   "notes": "Position from the location map (page 2), Old Israel Grid. Depth = running sum of the printed thicknesses.",
+   "table": "Printout (resistivity, thickness, elevation, conductance)"
+  }
+ },
+ {
+  "id": "goldman2001s-NH5_2R-layered",
+  "survey": "goldman-2001-tdem-nahal-hever-south",
+  "site": "NH5_2R",
+  "method": "TEM",
+  "level": "L2",
+  "representation": "model_1d",
+  "measured_on": "2001",
+  "depth_max_m": 88.85,
+  "confidence": "A",
+  "status": "draft",
+  "model_type": "layered",
+  "layers": [
+   {
+    "top_m": 0,
+    "bottom_m": 8.19,
+    "rho_ohmm": 4.55
+   },
+   {
+    "top_m": 8.19,
+    "bottom_m": 14.82,
+    "rho_ohmm": 9.3
+   },
+   {
+    "top_m": 14.82,
+    "bottom_m": 24.61,
+    "rho_ohmm": 1.39
+   },
+   {
+    "top_m": 24.61,
+    "bottom_m": 52.37,
+    "rho_ohmm": 0.294
+   },
+   {
+    "top_m": 52.37,
+    "bottom_m": 88.85,
+    "rho_ohmm": 2.88
+   },
+   {
+    "top_m": 88.85,
+    "bottom_m": null,
+    "rho_ohmm": 0.248
+   }
+  ],
+  "provenance": {
+   "document": "main",
+   "pages": [
+    7
+   ],
+   "method": "manual",
+   "tool": "typed from the page at 200 dpi; geosigma.extract.printed_tables",
+   "extracted_on": "2026-10-24",
+   "notes": "Position from the location map (page 2), Old Israel Grid. Depth = running sum of the printed thicknesses.",
+   "table": "Printout (resistivity, thickness, elevation, conductance)"
+  }
+ },
+ {
+  "id": "goldman2001s-NH5_4R-layered",
+  "survey": "goldman-2001-tdem-nahal-hever-south",
+  "site": "NH5_4R",
+  "method": "TEM",
+  "level": "L2",
+  "representation": "model_1d",
+  "measured_on": "2001",
+  "depth_max_m": 71.13,
+  "confidence": "A",
+  "status": "draft",
+  "model_type": "layered",
+  "layers": [
+   {
+    "top_m": 0,
+    "bottom_m": 1.09,
+    "rho_ohmm": 1.64
+   },
+   {
+    "top_m": 1.09,
+    "bottom_m": 13.21,
+    "rho_ohmm": 46.68
+   },
+   {
+    "top_m": 13.21,
+    "bottom_m": 20.37,
+    "rho_ohmm": 0.843
+   },
+   {
+    "top_m": 20.37,
+    "bottom_m": 43.0,
+    "rho_ohmm": 0.27
+   },
+   {
+    "top_m": 43.0,
+    "bottom_m": 71.13,
+    "rho_ohmm": 3.0
+   },
+   {
+    "top_m": 71.13,
+    "bottom_m": null,
+    "rho_ohmm": 0.482
+   }
+  ],
+  "provenance": {
+   "document": "main",
+   "pages": [
+    9
+   ],
+   "method": "manual",
+   "tool": "typed from the page at 200 dpi; geosigma.extract.printed_tables",
+   "extracted_on": "2026-10-24",
+   "notes": "Position from the location map (page 2), Old Israel Grid. Depth = running sum of the printed thicknesses.",
+   "table": "Printout (resistivity, thickness, elevation, conductance)"
+  }
+ },
+ {
+  "id": "goldman2001s-NH5_E-layered",
+  "survey": "goldman-2001-tdem-nahal-hever-south",
+  "site": "NH5_E",
+  "method": "TEM",
+  "level": "L2",
+  "representation": "model_1d",
+  "measured_on": "2001",
+  "depth_max_m": 88.53,
+  "confidence": "A",
+  "status": "draft",
+  "model_type": "layered",
+  "layers": [
+   {
+    "top_m": 0,
+    "bottom_m": 5.82,
+    "rho_ohmm": 0.927
+   },
+   {
+    "top_m": 5.82,
+    "bottom_m": 19.75,
+    "rho_ohmm": 47.53
+   },
+   {
+    "top_m": 19.75,
+    "bottom_m": 54.31,
+    "rho_ohmm": 0.336
+   },
+   {
+    "top_m": 54.31,
+    "bottom_m": 88.53,
+    "rho_ohmm": 3.1
+   },
+   {
+    "top_m": 88.53,
+    "bottom_m": null,
+    "rho_ohmm": 0.292
+   }
+  ],
+  "provenance": {
+   "document": "main",
+   "pages": [
+    11
+   ],
+   "method": "manual",
+   "tool": "typed from the page at 200 dpi; geosigma.extract.printed_tables",
+   "extracted_on": "2026-10-24",
+   "notes": "Position from the location map (page 2), Old Israel Grid. Depth = running sum of the printed thicknesses.",
+   "table": "Printout (resistivity, thickness, elevation, conductance)"
+  }
+ }
+]

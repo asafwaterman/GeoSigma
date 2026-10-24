@@ -1,0 +1,83 @@
+# Goldman 2001, GII 909/100/01(1). Layered models typed by eye from the printouts (pages 3, 5, 7, 9, 11) at 110 dpi;
+# every row checked against the printed elevation (running depth) and conductance (thickness / resistivity).
+# Positions measured on the location map (page 2): square centres located in the page, calibrated on the axis labels.
+document: main
+unit: ohm.m
+method: TEM
+prefix: goldman2001s
+measured_on: '2001'
+confidence: A
+crs: EPSG:28193
+xy_scale: 1
+site_word: TDEM station
+coord_source: map
+accuracy_m: 5
+table: Printout (resistivity, thickness, elevation, conductance)
+prov_notes: Position from the location map (page 2), Old Israel Grid. Depth = running sum of the printed thicknesses.
+sites:
+- id: NH5_1R
+  name: TDEM station NH5_1R (Nahal Hever South)
+  xy: [187069, 89366]
+  site_notes: The author's map marks this station as saline water.
+  page: 3
+  box: [0.05, 0.05, 0.95, 0.5]
+  layers:
+  - [0, 8.91, 3.5, null, {thick: 8.91}]
+  - [8.91, 20.23, 10.28, null, {thick: 11.32}]
+  - [20.23, 28.09, 0.434, null, {thick: 7.86}]
+  - [28.09, 38.05, 1.09, null, {thick: 9.96}]
+  - [38.05, 48.49, 0.274, null, {thick: 10.44}]
+  - [48.49, 88.99, 0.662, null, {thick: 40.5}]
+  - [88.99, null, 0.38]
+- id: NH5_W
+  name: TDEM station NH5_W (Nahal Hever South)
+  xy: [187008, 89370]
+  site_notes: The author's map marks this station as saline water.
+  page: 5
+  box: [0.05, 0.05, 0.95, 0.5]
+  layers:
+  - [0, 9.03, 3.91, null, {thick: 9.03}]
+  - [9.03, 19.81, 10.31, null, {thick: 10.78}]
+  - [19.81, 26.6, 0.517, null, {thick: 6.79}]
+  - [26.6, 34.15, 1.01, null, {thick: 7.55}]
+  - [34.15, 43.64, 0.276, null, {thick: 9.49}]
+  - [43.64, 89.07, 0.62, null, {thick: 45.43}]
+  - [89.07, null, 0.411]
+- id: NH5_2R
+  name: TDEM station NH5_2R (Nahal Hever South)
+  xy: [187032, 89317]
+  site_notes: The author's map marks this station as fresh water below saline.
+  page: 7
+  box: [0.05, 0.05, 0.95, 0.5]
+  layers:
+  - [0, 8.19, 4.55, null, {thick: 8.19}]
+  - [8.19, 14.82, 9.3, null, {thick: 6.63}]
+  - [14.82, 24.61, 1.39, null, {thick: 9.79}]
+  - [24.61, 52.37, 0.294, null, {thick: 27.76}]
+  - [52.37, 88.85, 2.88, null, {thick: 36.48}]
+  - [88.85, null, 0.248]
+- id: NH5_4R
+  name: TDEM station NH5_4R (Nahal Hever South)
+  xy: [187008, 89269]
+  site_notes: The author's map marks this station as fresh water below saline.
+  page: 9
+  box: [0.05, 0.05, 0.95, 0.5]
+  layers:
+  - [0, 1.09, 1.64, null, {thick: 1.09}]
+  - [1.09, 13.21, 46.68, null, {thick: 12.12}]
+  - [13.21, 20.37, 0.843, null, {thick: 7.16}]
+  - [20.37, 43.0, 0.27, null, {thick: 22.63}]
+  - [43.0, 71.13, 3.0, null, {thick: 28.13}]
+  - [71.13, null, 0.482]
+- id: NH5_E
+  name: TDEM station NH5_E (Nahal Hever South)
+  xy: [187085, 89300]
+  site_notes: The author's map marks this station as fresh water below saline.
+  page: 11
+  box: [0.05, 0.05, 0.95, 0.5]
+  layers:
+  - [0, 5.82, 0.927, null, {thick: 5.82}]
+  - [5.82, 19.75, 47.53, null, {thick: 13.93}]
+  - [19.75, 54.31, 0.336, null, {thick: 34.56}]
+  - [54.31, 88.53, 3.1, null, {thick: 34.22}]
+  - [88.53, null, 0.292]
