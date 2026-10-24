@@ -1,0 +1,134 @@
+id: goldman-1999-tdem-arava-reservoirs
+name: TDEM survey of the water reservoirs area, northern Arava
+organisation: Geophysical Institute of Israel (GII)
+client: Water Commission
+authors:
+- M. Goldman
+- M. Ezersky
+report_number: GII 822/90/98(3)
+year: 1999
+acquired: null
+methods:
+- TEM
+region: Northern Arava, Ne'ot Tamarim, Idan and Hazeva reservoirs, the Arava-1 borehole, and Zofar
+purpose: Depth to the very conductive layer (below about 2 ohm.m) identified with saline groundwater or salt
+geometry: scattered
+depth_reach: up to about 700 m (deepest plot axis)
+acquisition:
+  instruments: Geonics EM-47 and EM-67
+  loops: 50 x 50 m to 500 x 500 m transmitter loops, central receiver coil
+documents:
+- id: main
+  title: TDEM survey in the water reservoirs area, northern Arava (in Hebrew, July 1999)
+  filename: Goldman-M-TDEM-Survey-Water-Reservoirs-Northern-Arava-GII-Rep-822-90-98-3-1999.pdf
+  drive_id: 1a0ik0SMucLu8olHTUDD_QTbN_OTqpDdZ
+  language:
+  - he
+  scanned: true
+  role: main_report
+  sha256: 9743a23511d0aa049d6fb37670a29088c6aaa389ab7ca254672ad390df611736
+  pages: 32
+notes: The report prints no model tables. The author's layered and smooth (Occam) inversion models are plotted for
+  each of the 12 stations in the appendix (pages 9-32) and were traced from those plots. The text (pages 4-5) gives
+  the coordinates and the author's depths to the conductive layer, which the traced models match (Arava-1 about
+  315 m; Hazeva-4, 6, 7 about 320-340 m; Hazeva-3, 5, 2 about 360-380 m; Hazeva and Hazeva-1 about 420 m layered
+  and 450 m smooth). The author notes Zofar-2 lies near a high-voltage line and its data are distorted. The measurement
+  date is not given.
+extraction_status: complete
+sites:
+- id: ARAVA-1
+  name: TDEM station ARAVA-1
+  coords:
+    x: 178520
+    y: 1032670
+    crs: EPSG:28193
+    source: text
+    accuracy_m: 10
+- id: HAZEVA-4
+  name: TDEM station HAZEVA-4
+  coords:
+    x: 181490
+    y: 1030760
+    crs: EPSG:28193
+    source: text
+    accuracy_m: 10
+- id: HAZEVA-6
+  name: TDEM station HAZEVA-6
+  coords:
+    x: 180680
+    y: 1029450
+    crs: EPSG:28193
+    source: text
+    accuracy_m: 10
+- id: HAZEVA-7
+  name: TDEM station HAZEVA-7
+  coords:
+    x: 179450
+    y: 1028820
+    crs: EPSG:28193
+    source: text
+    accuracy_m: 10
+- id: HAZEVA-3
+  name: TDEM station HAZEVA-3
+  coords:
+    x: 181680
+    y: 1025240
+    crs: EPSG:28193
+    source: text
+    accuracy_m: 10
+- id: HAZEVA-5
+  name: TDEM station HAZEVA-5
+  coords:
+    x: 181040
+    y: 1024420
+    crs: EPSG:28193
+    source: text
+    accuracy_m: 10
+- id: HAZEVA-2
+  name: TDEM station HAZEVA-2
+  coords:
+    x: 179990
+    y: 1023390
+    crs: EPSG:28193
+    source: text
+    accuracy_m: 10
+- id: HAZEVA
+  name: TDEM station HAZEVA
+  coords:
+    x: 178460
+    y: 1021200
+    crs: EPSG:28193
+    source: text
+    accuracy_m: 10
+- id: HAZEVA-1
+  name: TDEM station HAZEVA-1
+  coords:
+    x: 179780
+    y: 1020390
+    crs: EPSG:28193
+    source: text
+    accuracy_m: 10
+- id: ZOFAR-1
+  name: TDEM station ZOFAR-1
+  coords:
+    x: 167470
+    y: 990650
+    crs: EPSG:28193
+    source: text
+    accuracy_m: 10
+- id: ZOFAR-2
+  name: TDEM station ZOFAR-2
+  coords:
+    x: 167020
+    y: 989030
+    crs: EPSG:28193
+    source: text
+    accuracy_m: 10
+- id: ZOFAR-3
+  name: TDEM station ZOFAR-3
+  coords:
+    x: 167210
+    y: 989010
+    crs: EPSG:28193
+    source: text
+    accuracy_m: 10

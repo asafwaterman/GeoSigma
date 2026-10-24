@@ -1,0 +1,242 @@
+{
+ "goldman1999-ARAVA-1-layered": {
+  "page": 9,
+  "box": [
+   0.5587,
+   0.2396,
+   0.9372,
+   0.9401
+  ],
+  "caption": "The boxed panel is the author's layered inversion model for station ARAVA-1 (resistivity against depth in hundreds of metres); the left panel is the measured curve and its fit. Values were traced from the plot"
+ },
+ "goldman1999-ARAVA-1-smooth": {
+  "page": 10,
+  "box": [
+   0.5567,
+   0.2598,
+   0.9389,
+   0.944
+  ],
+  "caption": "The boxed panel is the author's smooth inversion model for station ARAVA-1 (resistivity against depth in hundreds of metres); the left panel is the measured curve and its fit. Values were traced from the plot"
+ },
+ "goldman1999-HAZEVA-4-layered": {
+  "page": 11,
+  "box": [
+   0.0679,
+   0.469,
+   0.8341,
+   0.7929
+  ],
+  "caption": "The boxed panel is the author's layered inversion model for station HAZEVA-4 (resistivity against depth in hundreds of metres); the left panel is the measured curve and its fit. Values were traced from the plot. The page is printed sideways"
+ },
+ "goldman1999-HAZEVA-4-smooth": {
+  "page": 12,
+  "box": [
+   0.4866,
+   0.1431,
+   0.8194,
+   0.9411
+  ],
+  "caption": "The boxed panel is the author's smooth inversion model for station HAZEVA-4 (resistivity against depth in hundreds of metres); the left panel is the measured curve and its fit. Values were traced from the plot"
+ },
+ "goldman1999-HAZEVA-6-layered": {
+  "page": 13,
+  "box": [
+   0.4911,
+   0.1403,
+   0.8423,
+   0.9402
+  ],
+  "caption": "The boxed panel is the author's layered inversion model for station HAZEVA-6 (resistivity against depth in hundreds of metres); the left panel is the measured curve and its fit. Values were traced from the plot"
+ },
+ "goldman1999-HAZEVA-6-smooth": {
+  "page": 14,
+  "box": [
+   0.4903,
+   0.1486,
+   0.8247,
+   0.9309
+  ],
+  "caption": "The boxed panel is the author's smooth inversion model for station HAZEVA-6 (resistivity against depth in hundreds of metres); the left panel is the measured curve and its fit. Values were traced from the plot"
+ },
+ "goldman1999-HAZEVA-7-layered": {
+  "page": 15,
+  "box": [
+   0.5521,
+   0.1873,
+   0.9295,
+   0.9305
+  ],
+  "caption": "The boxed panel is the author's layered inversion model for station HAZEVA-7 (resistivity against depth in hundreds of metres); the left panel is the measured curve and its fit. Values were traced from the plot"
+ },
+ "goldman1999-HAZEVA-7-smooth": {
+  "page": 16,
+  "box": [
+   0.5441,
+   0.2277,
+   0.9334,
+   0.9043
+  ],
+  "caption": "The boxed panel is the author's smooth inversion model for station HAZEVA-7 (resistivity against depth in hundreds of metres); the left panel is the measured curve and its fit. Values were traced from the plot"
+ },
+ "goldman1999-HAZEVA-3-layered": {
+  "page": 17,
+  "box": [
+   0.5538,
+   0.2318,
+   0.9387,
+   0.9191
+  ],
+  "caption": "The boxed panel is the author's layered inversion model for station HAZEVA-3 (resistivity against depth in hundreds of metres); the left panel is the measured curve and its fit. Values were traced from the plot"
+ },
+ "goldman1999-HAZEVA-3-smooth": {
+  "page": 18,
+  "box": [
+   0.5479,
+   0.2423,
+   0.9313,
+   0.9261
+  ],
+  "caption": "The boxed panel is the author's smooth inversion model for station HAZEVA-3 (resistivity against depth in hundreds of metres); the left panel is the measured curve and its fit. Values were traced from the plot"
+ },
+ "goldman1999-HAZEVA-5-layered": {
+  "page": 19,
+  "box": [
+   0.4606,
+   0.1426,
+   0.8657,
+   0.913
+  ],
+  "caption": "The boxed panel is the author's layered inversion model for station HAZEVA-5 (resistivity against depth in hundreds of metres); the left panel is the measured curve and its fit. Values were traced from the plot"
+ },
+ "goldman1999-HAZEVA-5-smooth": {
+  "page": 20,
+  "box": [
+   0.4687,
+   0.1333,
+   0.876,
+   0.9092
+  ],
+  "caption": "The boxed panel is the author's smooth inversion model for station HAZEVA-5 (resistivity against depth in hundreds of metres); the left panel is the measured curve and its fit. Values were traced from the plot"
+ },
+ "goldman1999-HAZEVA-2-layered": {
+  "page": 21,
+  "box": [
+   0.4916,
+   0.1411,
+   0.8389,
+   0.9177
+  ],
+  "caption": "The boxed panel is the author's layered inversion model for station HAZEVA-2 (resistivity against depth in hundreds of metres); the left panel is the measured curve and its fit. Values were traced from the plot"
+ },
+ "goldman1999-HAZEVA-2-smooth": {
+  "page": 22,
+  "box": [
+   0.4977,
+   0.1268,
+   0.8423,
+   0.9292
+  ],
+  "caption": "The boxed panel is the author's smooth inversion model for station HAZEVA-2 (resistivity against depth in hundreds of metres); the left panel is the measured curve and its fit. Values were traced from the plot"
+ },
+ "goldman1999-HAZEVA-layered": {
+  "page": 23,
+  "box": [
+   0.4835,
+   0.1341,
+   0.8237,
+   0.9164
+  ],
+  "caption": "The boxed panel is the author's layered inversion model for station HAZEVA (resistivity against depth in hundreds of metres); the left panel is the measured curve and its fit. Values were traced from the plot"
+ },
+ "goldman1999-HAZEVA-smooth": {
+  "page": 24,
+  "box": [
+   0.4812,
+   0.1434,
+   0.8226,
+   0.9171
+  ],
+  "caption": "The boxed panel is the author's smooth inversion model for station HAZEVA (resistivity against depth in hundreds of metres); the left panel is the measured curve and its fit. Values were traced from the plot"
+ },
+ "goldman1999-HAZEVA-1-layered": {
+  "page": 25,
+  "box": [
+   0.4296,
+   0.1466,
+   0.9075,
+   0.923
+  ],
+  "caption": "The boxed panel is the author's layered inversion model for station HAZEVA-1 (resistivity against depth in hundreds of metres); the left panel is the measured curve and its fit. Values were traced from the plot"
+ },
+ "goldman1999-HAZEVA-1-smooth": {
+  "page": 26,
+  "box": [
+   0.4262,
+   0.132,
+   0.8943,
+   0.9166
+  ],
+  "caption": "The boxed panel is the author's smooth inversion model for station HAZEVA-1 (resistivity against depth in hundreds of metres); the left panel is the measured curve and its fit. Values were traced from the plot"
+ },
+ "goldman1999-ZOFAR-1-layered": {
+  "page": 27,
+  "box": [
+   0.5852,
+   0.2605,
+   0.9408,
+   0.9267
+  ],
+  "caption": "The boxed panel is the author's layered inversion model for station ZOFAR-1 (resistivity against depth in hundreds of metres); the left panel is the measured curve and its fit. Values were traced from the plot"
+ },
+ "goldman1999-ZOFAR-1-smooth": {
+  "page": 28,
+  "box": [
+   0.6101,
+   0.2409,
+   0.8797,
+   0.9199
+  ],
+  "caption": "The boxed panel is the author's smooth inversion model for station ZOFAR-1 (resistivity against depth in hundreds of metres); the left panel is the measured curve and its fit. Values were traced from the plot"
+ },
+ "goldman1999-ZOFAR-2-layered": {
+  "page": 29,
+  "box": [
+   0.5772,
+   0.2712,
+   0.9333,
+   0.9296
+  ],
+  "caption": "The boxed panel is the author's layered inversion model for station ZOFAR-2 (resistivity against depth in hundreds of metres); the left panel is the measured curve and its fit. Values were traced from the plot"
+ },
+ "goldman1999-ZOFAR-2-smooth": {
+  "page": 30,
+  "box": [
+   0.5903,
+   0.2593,
+   0.856,
+   0.9283
+  ],
+  "caption": "The boxed panel is the author's smooth inversion model for station ZOFAR-2 (resistivity against depth in hundreds of metres); the left panel is the measured curve and its fit. Values were traced from the plot"
+ },
+ "goldman1999-ZOFAR-3-layered": {
+  "page": 31,
+  "box": [
+   0.5818,
+   0.2339,
+   0.935,
+   0.9137
+  ],
+  "caption": "The boxed panel is the author's layered inversion model for station ZOFAR-3 (resistivity against depth in hundreds of metres); the left panel is the measured curve and its fit. Values were traced from the plot"
+ },
+ "goldman1999-ZOFAR-3-smooth": {
+  "page": 32,
+  "box": [
+   0.6289,
+   0.26,
+   0.9198,
+   0.9393
+  ],
+  "caption": "The boxed panel is the author's smooth inversion model for station ZOFAR-3 (resistivity against depth in hundreds of metres); the left panel is the measured curve and its fit. Values were traced from the plot"
+ }
+}
