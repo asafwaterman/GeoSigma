@@ -187,7 +187,7 @@
   "representation": "model_1d",
   "measured_on": null,
   "depth_max_m": 61.3,
-  "confidence": "A",
+  "confidence": "C",
   "status": "draft",
   "model_type": "layered",
   "layers": [
@@ -223,7 +223,7 @@
    "notes": "Station coordinates are printed with the model. The target text (borehole and geology) is the author's.",
    "table": "Appendix 1 (layered models, Resist. / Thick. / Depth)"
   },
-  "notes": "The author notes that R4 was measured as 0.001 ohm.m (?); the table gives 0.01."
+  "notes": "The author notes that R4 was measured as 0.001 ohm.m (?); the table gives 0.01. The deepest layer is printed as 0.01 ohm.m, below any rock or brine; it is likely an inversion artefact (the target there is salt)."
  },
  {
   "id": "goldman1990-GS-6-layered",
@@ -234,7 +234,7 @@
   "representation": "model_1d",
   "measured_on": null,
   "depth_max_m": 81.56,
-  "confidence": "A",
+  "confidence": "C",
   "status": "draft",
   "model_type": "layered",
   "layers": [
@@ -264,7 +264,8 @@
    "extracted_on": "2026-10-24",
    "notes": "Station coordinates are printed with the model. The target text (borehole and geology) is the author's.",
    "table": "Appendix 1 (layered models, Resist. / Thick. / Depth)"
-  }
+  },
+  "notes": "The deepest layer is printed as 0.01 ohm.m, below any rock or brine; it is likely an inversion artefact (the target there is salt)."
  },
  {
   "id": "goldman1990-GS-7-layered",
