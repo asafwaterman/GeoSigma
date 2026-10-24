@@ -1,0 +1,1292 @@
+# Goldman et al. 1990, ES-42-90, Appendix 1 (pages 25-32): layered TDEM models typed from the page at 200 dpi
+# and every value re-read at 300 dpi. Depth = running sum of the thicknesses for every row (checked).
+# Coordinates: Old Israel Grid in units of 10 m (18710/05350 = 187.10 km E, 1053.50 km N).
+document: main
+unit: ohm.m
+method: TEM
+prefix: goldman1990
+confidence: A
+crs: EPSG:28193
+xy_scale: 10
+coord_source: table
+accuracy_m: 10
+table: Appendix 1 (layered models, Resist. / Thick. / Depth)
+box_caption: The boxed rows are the author's layered model for this station (resistivity in ohm.m, thickness and depth in m), as printed
+prov_notes: Station coordinates are printed with the model. The target text (borehole and geology) is the author's.
+sites:
+  - id: GS-1
+    name: TDEM station GS-1 (Har Sdom, Top; SE 3)
+    xy: [18710, 5350]
+    page: 25
+    box: [0.04, 0.212, 0.93, 0.2934]
+    site_notes: 'Target in the report: Har Sdom, Top; SE 3; Cap Rock. Salt 41 meters. Clay content increase 91m & 150m. WT 101m.'
+    layers:
+    - - 0
+      - 91.28
+      - 66.57
+      - null
+      - {thick: 91.28}
+    - - 91.28
+      - 206.68
+      - 14.62
+      - null
+      - {thick: 115.4}
+    - [206.68, null, 83.0]
+  - id: GS-2
+    name: TDEM station GS-2 (Har Sdom, Top; SE2)
+    xy: [18700, 5350]
+    page: 25
+    box: [0.04, 0.3141, 0.93, 0.3808]
+    site_notes: 'Target in the report: Har Sdom, Top; SE2; Cap Rock. Salt 54 meters. Clay 260m. WT 144m.'
+    layers:
+    - - 0
+      - 105.5
+      - 90.8
+      - null
+      - {thick: 105.5}
+    - - 105.5
+      - 248.5
+      - 22.8
+      - null
+      - {thick: 143.0}
+    - [248.5, null, 146.0]
+  - id: GS-3
+    name: TDEM station GS-3 (Har Sdom, Top)
+    xy: [18750, 5350]
+    page: 25
+    box: [0.04, 0.4021, 0.93, 0.4829]
+    site_notes: 'Target in the report: Har Sdom, Top; Cap Rock. Salt'
+    layers:
+    - - 0
+      - 2.2
+      - 18.4
+      - null
+      - {thick: 2.2}
+    - - 2.2
+      - 16.8
+      - 35.5
+      - null
+      - {thick: 14.6}
+    - - 16.8
+      - 76.2
+      - 83.6
+      - null
+      - {thick: 59.4}
+    - - 76.2
+      - 135.7
+      - 17.7
+      - null
+      - {thick: 59.5}
+    - [135.7, null, 89.0]
+  - id: GS-4
+    name: TDEM station GS-4 (Sdom 1)
+    xy: [18608, 5329]
+    page: 25
+    box: [0.04, 0.5045, 0.93, 0.5703]
+    site_notes: 'Target in the report: Sdom 1; Lisan. Salt; 247 meters'
+    layers:
+    - - 0
+      - 15.3
+      - 149.0
+      - null
+      - {thick: 15.3}
+    - - 15.3
+      - 23.39
+      - 1.56
+      - null
+      - {thick: 8.09}
+    - - 23.39
+      - 84.69
+      - 4.15
+      - null
+      - {thick: 61.3}
+    - [84.69, null, 121.0]
+  - id: GS-5
+    name: TDEM station GS-5 (Har Sdom)
+    xy: [18620, 5230]
+    page: 25
+    box: [0.04, 0.5913, 0.93, 0.673]
+    site_notes: 'Target in the report: Har Sdom; Cap Rock/ Lisan ?. Salt. R4 was measured as 0.001 ohm-m (?)'
+    layers:
+    - - 0
+      - 16.5
+      - 25.4
+      - null
+      - {thick: 16.5}
+    - - 16.5
+      - 42.7
+      - 1.54
+      - null
+      - {thick: 26.2}
+    - - 42.7
+      - 61.3
+      - 100.0
+      - null
+      - {thick: 18.6}
+    - [61.3, null, 0.01]
+    notes: The author notes that R4 was measured as 0.001 ohm.m (?); the table gives 0.01.
+  - id: GS-6
+    name: TDEM station GS-6 (Har Sdom 1)
+    xy: [18749, 5244]
+    page: 25
+    box: [0.04, 0.6934, 0.93, 0.7595]
+    site_notes: 'Target in the report: Har Sdom 1; Lisan. Salt; 65 meters'
+    layers:
+    - - 0
+      - 30.16
+      - 1.68
+      - null
+      - {thick: 30.16}
+    - - 30.16
+      - 81.56
+      - 116.0
+      - null
+      - {thick: 51.4}
+    - [81.56, null, 0.01]
+  - id: GS-7
+    name: TDEM station GS-7 (Sdom 2)
+    xy: [18437, 5064]
+    page: 25
+    box: [0.04, 0.7808, 0.93, 0.846]
+    site_notes: 'Target in the report: Sdom 2; Lisan. Salt'
+    layers:
+    - - 0
+      - 4.2
+      - 2.59
+      - null
+      - {thick: 4.2}
+    - - 4.2
+      - 31.4
+      - 1.1
+      - null
+      - {thick: 27.2}
+    - [31.4, null, 0.4]
+  - id: GS-8
+    name: TDEM station GS-8 (Sdom; J-9)
+    xy: [18253, 4970]
+    page: 25
+    box: [0.04, 0.8662, 0.93, 0.932]
+    site_notes: 'Target in the report: Sdom; J-9; Lisan. Salt; 100 meters'
+    layers:
+    - - 0
+      - 18.4
+      - 14.7
+      - null
+      - {thick: 18.4}
+    - - 18.4
+      - 59.2
+      - 4.85
+      - null
+      - {thick: 40.8}
+    - [59.2, null, 5.01]
+  - id: GS-9
+    name: TDEM station GS-9 (Sdom; SH-7)
+    xy: [18220, 5080]
+    page: 26
+    box: [0.04, 0.1832, 0.93, 0.25]
+    site_notes: 'Target in the report: Sdom; SH-7; Lisan. Salt'
+    layers:
+    - - 0
+      - 19.5
+      - 22.06
+      - null
+      - {thick: 19.5}
+    - - 19.5
+      - 40.6
+      - 2.32
+      - null
+      - {thick: 21.1}
+    - - 40.6
+      - 117.5
+      - 98.3
+      - null
+      - {thick: 76.9}
+    - [117.5, null, 7.1]
+  - id: GS-10
+    name: TDEM station GS-10 (Nahal Heimar)
+    xy: [18550, 6080]
+    page: 26
+    box: [0.04, 0.2711, 0.93, 0.3371]
+    site_notes: 'Target in the report: Nahal Heimar; Gravel. Salt'
+    layers:
+    - - 0
+      - 11.17
+      - 19.76
+      - null
+      - {thick: 11.17}
+    - - 11.17
+      - 27.94
+      - 2.05
+      - null
+      - {thick: 16.77}
+    - [27.94, null, 1.11]
+  - id: GS-11
+    name: TDEM station GS-11 (Amiaz 1)
+    xy: [18480, 5560]
+    page: 26
+    box: [0.04, 0.3582, 0.93, 0.4247]
+    site_notes: 'Target in the report: Amiaz 1; Lisan. Salt'
+    layers:
+    - - 0
+      - 11.2
+      - 132.0
+      - null
+      - {thick: 11.2}
+    - - 11.2
+      - 62.2
+      - 0.81
+      - null
+      - {thick: 51.0}
+    - - 62.2
+      - 137.2
+      - 100.0
+      - null
+      - {thick: 75.0}
+    - [137.2, null, 0.52]
+  - id: GS-12
+    name: TDEM station GS-12 (Amiaz Plain)
+    xy: [18560, 5280]
+    page: 26
+    box: [0.04, 0.4462, 0.93, 0.5121]
+    site_notes: 'Target in the report: Amiaz Plain; Lisan. Salt'
+    layers:
+    - - 0
+      - 16.2
+      - 382.0
+      - null
+      - {thick: 16.2}
+    - - 16.2
+      - 82.21
+      - 1.43
+      - null
+      - {thick: 66.01}
+    - - 82.21
+      - 92.61
+      - 19.1
+      - null
+      - {thick: 10.4}
+    - [92.61, null, 1.15]
+  - id: GS-13
+    name: TDEM station GS-13 (SH-6)
+    xy: [18640, 7950]
+    page: 26
+    box: [0.04, 0.5335, 0.93, 0.5995]
+    site_notes: 'Target in the report: SH-6; Gravel. Salt; 430 meters'
+    layers:
+    - - 0
+      - 24.8
+      - 0.51
+      - null
+      - {thick: 24.8}
+    - [24.8, null, 0.19]
+  - id: GS-14
+    name: TDEM station GS-14 (Shfelat Lod 24)
+    xy: [14104, 16374]
+    page: 26
+    box: [0.04, 0.6203, 0.93, 0.6865]
+    site_notes: 'Target in the report: Shfelat Lod 24; Soil'
+    layers:
+    - - 0
+      - 5.03
+      - 5.99
+      - null
+      - {thick: 5.03}
+    - - 5.03
+      - 68.07
+      - 12.46
+      - null
+      - {thick: 63.04}
+    - - 68.07
+      - 201.37
+      - 4.75
+      - null
+      - {thick: 133.3}
+    - [201.37, null, 119.9]
+  - id: GS-15
+    name: TDEM station GS-15 (Kfar Sirkin)
+    xy: [14120, 16545]
+    page: 26
+    box: [0.04, 0.7074, 0.93, 0.7733]
+    site_notes: 'Target in the report: Kfar Sirkin'
+    layers:
+    - - 0
+      - 5.31
+      - 7.11
+      - null
+      - {thick: 5.31}
+    - - 5.31
+      - 62.94
+      - 15.42
+      - null
+      - {thick: 57.63}
+    - - 62.94
+      - 133.64
+      - 4.85
+      - null
+      - {thick: 70.7}
+    - [133.64, null, 31.07]
+  - id: GS-19
+    name: TDEM station GS-19 (N. Givat Hashlosha - Rosh Ha'ain 4)
+    xy: [14245, 16750]
+    page: 27
+    box: [0.04, 0.2764, 0.93, 0.357]
+    site_notes: 'Target in the report: N. Givat Hashlosha - Rosh Ha''ain 4; Soil and clay. Turonian limestone 23m.'
+    layers:
+    - - 0
+      - 25.58
+      - 6.45
+      - null
+      - {thick: 25.58}
+    - - 25.58
+      - 30.3
+      - 7.84
+      - null
+      - {thick: 4.72}
+    - - 30.3
+      - 105.8
+      - 1167.0
+      - null
+      - {thick: 75.5}
+    - [105.8, null, 5.01]
+  - id: GS-20
+    name: TDEM station GS-20 (Kfar Baptistim 35/6)
+    xy: [14142, 16962]
+    page: 27
+    box: [0.04, 0.3781, 0.93, 0.4441]
+    site_notes: 'Target in the report: Kfar Baptistim 35/6; Soil'
+    layers:
+    - - 0
+      - 4.24
+      - 84.0
+      - null
+      - {thick: 4.24}
+    - - 4.24
+      - 13.08
+      - 5.37
+      - null
+      - {thick: 8.84}
+    - - 13.08
+      - 177.08
+      - 7.11
+      - null
+      - {thick: 164.0}
+    - [177.08, null, 97.6]
+  - id: GS-21
+    name: TDEM station GS-21 (Adanim 36/6 - Magdiel Shanti)
+    xy: [14255, 17195]
+    page: 27
+    box: [0.04, 0.4649, 0.93, 0.546]
+    site_notes: 'Target in the report: Adanim 36/6 - Magdiel Shanti; Soil. Calcareous sandstone 43m. Chalky lmst. 100m. Dolomite 140m.'
+    layers:
+    - - 0
+      - 38.3
+      - 6.12
+      - null
+      - {thick: 38.3}
+    - - 38.3
+      - 40.8
+      - 3.64
+      - null
+      - {thick: 2.5}
+    - - 40.8
+      - 104.1
+      - 1002.0
+      - null
+      - {thick: 63.3}
+    - - 104.1
+      - 136.7
+      - 3.91
+      - null
+      - {thick: 32.6}
+    - [136.7, null, 235.0]
+  - id: GS-23
+    name: TDEM station GS-23 (Kfar Saba 37/5)
+    xy: [14043, 17780]
+    page: 27
+    box: [0.04, 0.639, 0.93, 0.7047]
+    site_notes: 'Target in the report: Kfar Saba 37/5; Clay. Sandstone 28m.'
+    layers:
+    - - 0
+      - 20.85
+      - 26.52
+      - null
+      - {thick: 20.85}
+    - - 20.85
+      - 109.24
+      - 46.46
+      - null
+      - {thick: 88.39}
+    - [109.24, null, 5.83]
+  - id: GS-24
+    name: TDEM station GS-24 (Raanana; Sharon D/9)
+    xy: [13871, 17558]
+    page: 27
+    box: [0.04, 0.7249, 0.93, 0.8058]
+    site_notes: 'Target in the report: Raanana; Sharon D/9; Soil. Clay; 118 meters'
+    layers:
+    - - 0
+      - 29.92
+      - 15.97
+      - null
+      - {thick: 29.92}
+    - - 29.92
+      - 64.43
+      - 18.28
+      - null
+      - {thick: 34.51}
+    - - 64.43
+      - 71.62
+      - 9.2
+      - null
+      - {thick: 7.19}
+    - - 71.62
+      - 80.44
+      - 5.07
+      - null
+      - {thick: 8.82}
+    - [80.44, null, 2.85]
+  - id: GS-25
+    name: TDEM station GS-25 (Givat Hen)
+    xy: [13845, 17496]
+    page: 27
+    box: [0.04, 0.8258, 0.93, 0.8922]
+    site_notes: 'Target in the report: Givat Hen; Soil. Calcareous sandstone 113m.'
+    layers:
+    - - 0
+      - 75.34
+      - 15.67
+      - null
+      - {thick: 75.34}
+    - - 75.34
+      - 139.64
+      - 314.9
+      - null
+      - {thick: 64.3}
+    - [139.64, null, 2.08]
+  - id: GS-26
+    name: TDEM station GS-26 (Raanana; Sharon D/8a)
+    xy: [13688, 17588]
+    page: 28
+    box: [0.04, 0.1898, 0.93, 0.2554]
+    site_notes: 'Target in the report: Raanana; Sharon D/8a; Sand and clay. Clay 142 meters'
+    layers:
+    - - 0
+      - 61.27
+      - 27.71
+      - null
+      - {thick: 61.27}
+    - - 61.27
+      - 101.23
+      - 42.86
+      - null
+      - {thick: 39.96}
+    - [101.23, null, 2.93]
+  - id: GS-27
+    name: TDEM station GS-27 (Kfar Batya; B/15 - Sharon D/30)
+    xy: [13557, 17700]
+    page: 28
+    box: [0.04, 0.2765, 0.93, 0.3576]
+    site_notes: 'Target in the report: Kfar Batya; B/15 - Sharon D/30; Soil. Clay 141m'
+    layers:
+    - - 0
+      - 101.04
+      - 47.11
+      - null
+      - {thick: 101.04}
+    - - 101.04
+      - 147.26
+      - 10.56
+      - null
+      - {thick: 46.22}
+    - [147.26, null, 3.89]
+  - id: GS-28
+    name: TDEM station GS-28 (Raanana; Sharon D/31)
+    xy: [13701, 17826]
+    page: 28
+    box: [0.04, 0.3786, 0.93, 0.4451]
+    site_notes: 'Target in the report: Raanana; Sharon D/31; Loam 46m; Clay 150m'
+    layers:
+    - - 0
+      - 43.67
+      - 46.52
+      - null
+      - {thick: 43.67}
+    - - 43.67
+      - 135.7
+      - 23.34
+      - null
+      - {thick: 92.03}
+    - - 135.7
+      - 162.76
+      - 199.17
+      - null
+      - {thick: 27.06}
+    - [162.76, null, 2.58]
+  - id: GS-29
+    name: TDEM station GS-29 (Herzeliya airport)
+    xy: [13470, 17730]
+    page: 28
+    box: [0.04, 0.4656, 0.93, 0.5315]
+    site_notes: 'Target in the report: Herzeliya airport'
+    layers:
+    - - 0
+      - 39.21
+      - 65.65
+      - null
+      - {thick: 39.21}
+    - - 39.21
+      - 129.57
+      - 33.37
+      - null
+      - {thick: 90.36}
+    - - 129.57
+      - 147.94
+      - 68.91
+      - null
+      - {thick: 18.37}
+    - [147.94, null, 3.43]
+  - id: GS-30
+    name: TDEM station GS-30 (Kfar Shmaryahu 37/1)
+    xy: [13400, 17740]
+    page: 28
+    box: [0.04, 0.5526, 0.93, 0.6182]
+    site_notes: 'Target in the report: Kfar Shmaryahu 37/1; Clay. Kurkar 13m. Clay 110m.'
+    layers:
+    - - 0
+      - 10.46
+      - 8.22
+      - null
+      - {thick: 10.46}
+    - - 10.46
+      - 109.5
+      - 29.96
+      - null
+      - {thick: 99.04}
+    - [109.5, null, 4.66]
+  - id: GS-31
+    name: TDEM station GS-31 (Tul Karem intersect.)
+    xy: [15170, 19060]
+    page: 28
+    box: [0.04, 0.6392, 0.93, 0.7054]
+    site_notes: 'Target in the report: Tul Karem intersect.; Soil. WT 26m. Turonian limestone 66m'
+    layers:
+    - - 0
+      - 22.7
+      - 5.33
+      - null
+      - {thick: 22.7}
+    - - 22.7
+      - 41.52
+      - 21.54
+      - null
+      - {thick: 18.82}
+    - - 41.52
+      - 69.12
+      - 2.86
+      - null
+      - {thick: 27.6}
+    - [69.12, null, 556.0]
+  - id: GS-32
+    name: TDEM station GS-32 (Kh. Burin)
+    xy: [14852, 19075]
+    page: 28
+    box: [0.04, 0.7259, 0.93, 0.8067]
+    site_notes: 'Target in the report: Kh. Burin; Sandy clay. Eocene chalk 20m. Noisy; Well Olesh 47/7'
+    layers:
+    - - 0
+      - 25.3
+      - 5.82
+      - null
+      - {thick: 25.3}
+    - - 25.3
+      - 49.83
+      - 16.63
+      - null
+      - {thick: 24.53}
+    - - 49.83
+      - 90.92
+      - 83.53
+      - null
+      - {thick: 41.09}
+    - - 90.92
+      - 169.82
+      - 7.38
+      - null
+      - {thick: 78.9}
+    - [169.82, null, 88.7]
+    confidence: C
+    notes: The author marks this sounding as noisy.
+  - id: GS-33
+    name: TDEM station GS-33 (Nizanei Oz)
+    xy: [15000, 19100]
+    page: 28
+    box: [0.04, 0.8266, 0.93, 0.892]
+    site_notes: 'Target in the report: Nizanei Oz; Alluvium. Avedat Chalk 25m.'
+    layers:
+    - - 0
+      - 34.42
+      - 7.81
+      - null
+      - {thick: 34.42}
+    - - 34.42
+      - 57.25
+      - 10.94
+      - null
+      - {thick: 22.83}
+    - - 57.25
+      - 83.89
+      - 33.83
+      - null
+      - {thick: 26.64}
+    - [83.89, null, 15.03]
+  - id: GS-34
+    name: TDEM station GS-34 (Mitzpe Ramon)
+    xy: [13260, 560]
+    page: 29
+    box: [0.04, 0.1862, 0.93, 0.2517]
+    site_notes: 'Target in the report: Mitzpe Ramon; Hazera Fm. Bentonite 112m; Nubian sandstone 143m.'
+    layers:
+    - - 0
+      - 110.6
+      - 45.5
+      - null
+      - {thick: 110.6}
+    - - 110.6
+      - 275.4
+      - 11.94
+      - null
+      - {thick: 164.8}
+    - [275.4, null, 2.76]
+  - id: GS-35
+    name: TDEM station GS-35 (Mitzpe Ramon)
+    xy: [13245, 455]
+    page: 29
+    box: [0.04, 0.2727, 0.93, 0.3522]
+    site_notes: 'Target in the report: Mitzpe Ramon; Hazera Fm. Bentonite 100m. Nubian sandstone 130m.'
+    layers:
+    - - 0
+      - 15.85
+      - 12.86
+      - null
+      - {thick: 15.85}
+    - - 15.85
+      - 118.55
+      - 32.88
+      - null
+      - {thick: 102.7}
+    - - 118.55
+      - 149.4
+      - 6.6
+      - null
+      - {thick: 30.85}
+    - - 149.4
+      - 251.4
+      - 100.0
+      - null
+      - {thick: 102.0}
+    - [251.4, null, 21.1]
+  - id: GS-36
+    name: TDEM station GS-36 (Nahal Gevanim)
+    xy: [14180, 71]
+    page: 29
+    box: [0.04, 0.3735, 0.93, 0.4387]
+    site_notes: 'Target in the report: Nahal Gevanim; Lmst., Mohila Fm. Qz. Syenite'
+    layers:
+    - - 0
+      - 169.6
+      - 17.12
+      - null
+      - {thick: 169.6}
+    - - 169.6
+      - 282.4
+      - 6.4
+      - null
+      - {thick: 112.8}
+    - [282.4, null, 22.2]
+  - id: GS-37
+    name: TDEM station GS-37 (M. Ramon, in caldera)
+    xy: [14595, 380]
+    page: 29
+    box: [0.04, 0.4595, 0.93, 0.5247]
+    site_notes: 'Target in the report: M. Ramon, in caldera; Sandstone. Basalt'
+    layers:
+    - - 0
+      - 21.46
+      - 11.78
+      - null
+      - {thick: 21.46}
+    - - 21.46
+      - 87.76
+      - 5.42
+      - null
+      - {thick: 66.3}
+    - [87.76, null, 502.0]
+  - id: GS-38
+    name: TDEM station GS-38 (M. Ramon, out calder)
+    xy: [14645, 380]
+    page: 29
+    box: [0.04, 0.5452, 0.93, 0.6251]
+    site_notes: 'Target in the report: M. Ramon, out calder; Inmar Fm. Basalt'
+    layers:
+    - - 0
+      - 18.6
+      - 46.03
+      - null
+      - {thick: 18.6}
+    - - 18.6
+      - 85.7
+      - 100.4
+      - null
+      - {thick: 67.1}
+    - - 85.7
+      - 199.5
+      - 13.1
+      - null
+      - {thick: 113.8}
+    - - 199.5
+      - 332.5
+      - 47.8
+      - null
+      - {thick: 133.0}
+    - [332.5, null, 12.2]
+  - id: GS-40
+    name: TDEM station GS-40 (M. Ramon, Bab sill)
+    xy: [13000, 99716]
+    page: 29
+    box: [0.04, 0.7463, 0.93, 0.8116]
+    site_notes: 'Target in the report: M. Ramon, Bab sill; Gravel. Qz syenite'
+    layers:
+    - - 0
+      - 51.75
+      - 9.58
+      - null
+      - {thick: 51.75}
+    - - 51.75
+      - 219.05
+      - 181.4
+      - null
+      - {thick: 167.3}
+    - [219.05, null, 13.16]
+  - id: GS-41
+    name: TDEM station GS-41 (Mizpe Ramon cemetary)
+    xy: [13130, 340]
+    page: 29
+    box: [0.04, 0.8315, 0.93, 0.9106]
+    site_notes: 'Target in the report: Mizpe Ramon cemetary; Hazera Fm. Bentonite 150m; Nubian sandstone 180m.'
+    layers:
+    - - 0
+      - 74.19
+      - 22.51
+      - null
+      - {thick: 74.19}
+    - - 74.19
+      - 133.92
+      - 61.44
+      - null
+      - {thick: 59.73}
+    - - 133.92
+      - 175.27
+      - 6.34
+      - null
+      - {thick: 41.35}
+    - - 175.27
+      - 266.25
+      - 59.19
+      - null
+      - {thick: 90.98}
+    - [266.25, null, 4.88]
+  - id: GS-42
+    name: TDEM station GS-42 (Timna; FD/28 - Timna 5)
+    xy: [15178, 91103]
+    page: 30
+    box: [0.04, 0.1918, 0.93, 0.2729]
+    site_notes: 'Target in the report: Timna; FD/28 - Timna 5; Gravel. WT 56m. Mazar Fm.; Nubian sst. 271m (...Nimra Fm.)'
+    layers:
+    - - 0
+      - 81.18
+      - 45.4
+      - null
+      - {thick: 81.18}
+    - - 81.18
+      - 266.21
+      - 13.39
+      - null
+      - {thick: 185.03}
+    - [266.21, null, 2.56]
+  - id: GS-43
+    name: TDEM station GS-43 (Beer Ora)
+    xy: [14760, 90380]
+    page: 30
+    box: [0.04, 0.2942, 0.93, 0.3601]
+    site_notes: 'Target in the report: Beer Ora; Gerofit Fm. Top Ora 20m. Top Hathira Fm. 250m.'
+    layers:
+    - - 0
+      - 17.43
+      - 36.46
+      - null
+      - {thick: 17.43}
+    - - 17.43
+      - 255.43
+      - 16.34
+      - null
+      - {thick: 238.0}
+    - [255.43, null, 24.7]
+  - id: GS-44
+    name: TDEM station GS-44 (Timna; IC/3)
+    xy: [14850, 90510]
+    page: 30
+    box: [0.04, 0.3814, 0.93, 0.4619]
+    site_notes: 'Target in the report: Timna; IC/3; Gravel. Mazar Fm.; Avedat 151m; ... Ghareb - 301 m.'
+    layers:
+    - - 0
+      - 49.63
+      - 61.38
+      - null
+      - {thick: 49.63}
+    - - 49.63
+      - 328.63
+      - 20.67
+      - null
+      - {thick: 279.0}
+    - [328.63, null, 111.0]
+  - id: GS-45
+    name: TDEM station GS-45 (En Evrona - Evrona T/2)
+    xy: [14100, 89855]
+    page: 30
+    box: [0.04, 0.4683, 0.93, 0.5494]
+    site_notes: 'Target in the report: En Evrona - Evrona T/2; Alluvium. Mazar Fm. 189m. (?)'
+    layers:
+    - - 0
+      - 5.99
+      - 32.51
+      - null
+      - {thick: 5.99}
+    - - 5.99
+      - 91.45
+      - 5.97
+      - null
+      - {thick: 85.46}
+    - - 91.45
+      - 137.85
+      - 100.0
+      - null
+      - {thick: 46.4}
+    - [137.85, null, 7.69]
+  - id: GS-48
+    name: TDEM station GS-48 (Hirbet Burgata - Haniel)
+    xy: [14480, 19215]
+    page: 30
+    box: [0.04, 0.5698, 0.93, 0.6515]
+    site_notes: 'Target in the report: Hirbet Burgata - Haniel; Soil. Hamra 57m.'
+    layers:
+    - - 0
+      - 55.28
+      - 58.44
+      - null
+      - {thick: 55.28}
+    - - 55.28
+      - 148.82
+      - 10.69
+      - null
+      - {thick: 93.54}
+    - [148.82, null, 4.92]
+  - id: GS-49
+    name: TDEM station GS-49 (Natanya, Ganot Hadar - Sharon Dromi 14,15)
+    xy: [13990, 19210]
+    page: 30
+    box: [0.04, 0.6722, 0.93, 0.7525]
+    site_notes: 'Target in the report: Natanya, Ganot Hadar - Sharon Dromi 14,15; Clay 142m.'
+    layers:
+    - - 0
+      - 8.56
+      - 58.19
+      - null
+      - {thick: 8.56}
+    - - 8.56
+      - 52.48
+      - 41.22
+      - null
+      - {thick: 43.92}
+    - - 52.48
+      - 90.44
+      - 95.24
+      - null
+      - {thick: 37.96}
+    - - 90.44
+      - 146.53
+      - 19.94
+      - null
+      - {thick: 56.09}
+    - [146.53, null, 3.5]
+  - id: GS-50
+    name: TDEM station GS-50 (Kfar Yona cemetary)
+    xy: [14290, 19260]
+    page: 30
+    box: [0.04, 0.7732, 0.93, 0.853]
+    site_notes: 'Target in the report: Kfar Yona cemetary; Clay 109m.'
+    layers:
+    - - 0
+      - 27.75
+      - 81.94
+      - null
+      - {thick: 27.75}
+    - - 27.75
+      - 52.77
+      - 17.01
+      - null
+      - {thick: 25.02}
+    - - 52.77
+      - 132.61
+      - 66.96
+      - null
+      - {thick: 79.84}
+    - - 132.61
+      - 229.9
+      - 2.97
+      - null
+      - {thick: 97.29}
+    - [229.9, null, 5.67]
+  - id: GS-51
+    name: TDEM station GS-51 (N. Paran, W. of road)
+    xy: [14517, 97064]
+    page: 30
+    box: [0.04, 0.8736, 0.93, 0.953]
+    site_notes: 'Target in the report: N. Paran, W. of road; Hazeva Fm.'
+    layers:
+    - - 0
+      - 48.5
+      - 37.36
+      - null
+      - {thick: 48.5}
+    - - 48.5
+      - 69.57
+      - 8.95
+      - null
+      - {thick: 21.07}
+    - - 69.57
+      - 134.52
+      - 27.89
+      - null
+      - {thick: 64.95}
+    - - 134.52
+      - 259.89
+      - 44.18
+      - null
+      - {thick: 125.37}
+    - [259.89, null, 41.64]
+  - id: GS-52
+    name: TDEM station GS-52 (N. Paran, E. of road)
+    xy: [14705, 97146]
+    page: 31
+    box: [0.04, 0.1799, 0.93, 0.2307]
+    site_notes: 'Target in the report: N. Paran, E. of road; Hazeva Fm.'
+    layers:
+    - - 0
+      - 71.55
+      - 25.47
+      - null
+      - {thick: 71.55}
+    - - 71.55
+      - 222.47
+      - 82.59
+      - null
+      - {thick: 150.92}
+    - [222.47, null, 12.09]
+  - id: GS-53
+    name: TDEM station GS-53 (Timna; T/7A)
+    xy: [15013, 90517]
+    page: 31
+    box: [0.04, 0.2518, 0.93, 0.3175]
+    site_notes: 'Target in the report: Timna; T/7A; Gravel. WT 67m.'
+    layers:
+    - - 0
+      - 95.45
+      - 87.69
+      - null
+      - {thick: 95.45}
+    - - 95.45
+      - 145.26
+      - 9.81
+      - null
+      - {thick: 49.81}
+    - [145.26, null, 6.42]
+  - id: GS-54
+    name: TDEM station GS-54 (S. Arava; Dekel Dom)
+    xy: [15020, 89550]
+    page: 31
+    box: [0.04, 0.3391, 0.93, 0.3899]
+    site_notes: 'Target in the report: S. Arava; Dekel Dom; Distorted'
+    layers:
+    - - 0
+      - 98.9
+      - 6.4
+      - null
+      - {thick: 98.9}
+    - - 98.9
+      - 118.3
+      - 4.2
+      - null
+      - {thick: 19.4}
+    - [118.3, null, null, Not given in the table]
+    confidence: C
+    notes: The author marks this sounding as distorted.
+  - id: GS-55
+    name: TDEM station GS-55 (Timna; T/3A)
+    xy: [15105, 90575]
+    page: 31
+    box: [0.04, 0.4115, 0.93, 0.4916]
+    site_notes: 'Target in the report: Timna; T/3A; WT 51.4m.'
+    layers:
+    - - 0
+      - 5.59
+      - 11.88
+      - null
+      - {thick: 5.59}
+    - - 5.59
+      - 60.48
+      - 66.45
+      - null
+      - {thick: 54.89}
+    - - 60.48
+      - 129.93
+      - 19.93
+      - null
+      - {thick: 69.45}
+    - - 129.93
+      - 146.08
+      - 38.86
+      - null
+      - {thick: 16.15}
+    - [146.08, null, 9.31]
+  - id: GS-56
+    name: TDEM station GS-56 (Timna; T/4)
+    xy: [15110, 90690]
+    page: 31
+    box: [0.04, 0.5129, 0.93, 0.5786]
+    site_notes: 'Target in the report: Timna; T/4; WT 55.5'
+    layers:
+    - - 0
+      - 58.19
+      - 58.97
+      - null
+      - {thick: 58.19}
+    - [58.19, null, 16.07]
+  - id: GS-57
+    name: TDEM station GS-57 (Timna; T/1B)
+    xy: [15150, 90800]
+    page: 31
+    box: [0.04, 0.6002, 0.93, 0.6513]
+    site_notes: 'Target in the report: Timna; T/1B; WT 44 - 59m.'
+    layers:
+    - - 0
+      - 56.8
+      - 44.9
+      - null
+      - {thick: 56.8}
+    - - 56.8
+      - 240.3
+      - 16.3
+      - null
+      - {thick: 183.5}
+    - [240.3, null, 7.44]
+  - id: GS-58
+    name: TDEM station GS-58 (Timna; T/5A)
+    xy: [15171, 91162]
+    page: 31
+    box: [0.04, 0.6864, 0.93, 0.7375]
+    site_notes: 'Target in the report: Timna; T/5A; WT 56m.'
+    layers:
+    - - 0
+      - 65.9
+      - 48.84
+      - null
+      - {thick: 65.9}
+    - - 65.9
+      - 208.7
+      - 11.62
+      - null
+      - {thick: 142.8}
+    - [208.7, null, 2.24]
+  - id: GS-59
+    name: TDEM station GS-59 (Yotvata Shoot. Range)
+    xy: [15430, 92400]
+    page: 31
+    box: [0.04, 0.7586, 0.93, 0.8378]
+    site_notes: 'Target in the report: Yotvata Shoot. Range; Hazera Fm. Nubian sst. 125m; marl 65m... clay 195m.'
+    layers:
+    - - 0
+      - 65.22
+      - 80.47
+      - null
+      - {thick: 65.22}
+    - - 65.22
+      - 168.42
+      - 18.79
+      - null
+      - {thick: 103.2}
+    - [168.42, null, 11.9]
+  - id: GS-60
+    name: TDEM station GS-60 (Yotvata 10)
+    xy: [15610, 92650]
+    page: 31
+    box: [0.04, 0.8582, 0.93, 0.9234]
+    site_notes: 'Target in the report: Yotvata 10; Distorted'
+    layers:
+    - - 0
+      - 34.54
+      - 12.66
+      - null
+      - {thick: 34.54}
+    - - 34.54
+      - 96.68
+      - 63.99
+      - null
+      - {thick: 62.14}
+    - - 96.68
+      - 185.78
+      - 13.63
+      - null
+      - {thick: 89.1}
+    - [185.78, null, 35.42]
+    confidence: C
+    notes: The author marks this sounding as distorted.
+  - id: GS-61
+    name: TDEM station GS-61 (Zukim)
+    xy: [16520, 98700]
+    page: 32
+    box: [0.04, 0.1928, 0.93, 0.259]
+    site_notes: 'Target in the report: Zukim; Hazeva Fm. Distorted'
+    layers:
+    - - 0
+      - 31.64
+      - 5.08
+      - null
+      - {thick: 31.64}
+    - - 31.64
+      - 156.14
+      - 121.08
+      - null
+      - {thick: 124.5}
+    - [156.14, null, 8.75]
+    confidence: C
+    notes: The author marks this sounding as distorted.
+  - id: GS-62
+    name: TDEM station GS-62 (Mitzpe Ramon)
+    xy: [13130, 440]
+    page: 32
+    box: [0.04, 0.2801, 0.93, 0.3472]
+    site_notes: 'Target in the report: Mitzpe Ramon; Hazera Fm. Bentonite 165m; Nubian sandstone 195m.'
+    layers:
+    - - 0
+      - 127.0
+      - 51.4
+      - null
+      - {thick: 127.0}
+    - - 127.0
+      - 158.57
+      - 10.78
+      - null
+      - {thick: 31.57}
+    - - 158.57
+      - 191.87
+      - 31.56
+      - null
+      - {thick: 33.3}
+    - [191.87, null, 13.7]
+  - id: GS-63
+    name: TDEM station GS-63 (Mitzpe Ramon)
+    xy: [13140, 540]
+    page: 32
+    box: [0.04, 0.3677, 0.93, 0.4474]
+    site_notes: 'Target in the report: Mitzpe Ramon; Hazera Fm. Bentonite 180m; Nubian sandstone 210m.'
+    layers:
+    - - 0
+      - 5.39
+      - 14.87
+      - null
+      - {thick: 5.39}
+    - - 5.39
+      - 168.29
+      - 62.78
+      - null
+      - {thick: 162.9}
+    - - 168.29
+      - 219.49
+      - 8.37
+      - null
+      - {thick: 51.2}
+    - - 219.49
+      - 273.94
+      - 37.15
+      - null
+      - {thick: 54.45}
+    - [273.94, null, 12.31]
+  - id: GS-64
+    name: TDEM station GS-64 (M. Ramon; 10A)
+    xy: [13800, 99950]
+    page: 32
+    box: [0.04, 0.4547, 0.93, 0.5355]
+    site_notes: 'Target in the report: M. Ramon; 10A; Gevanim Fm. Qz syenite. Very distorted'
+    layers:
+    - - 0
+      - 12.66
+      - 23.77
+      - null
+      - {thick: 12.66}
+    - - 12.66
+      - 25.14
+      - 3.68
+      - null
+      - {thick: 12.48}
+    - - 25.14
+      - 44.64
+      - 4.9
+      - null
+      - {thick: 19.5}
+    - [44.64, null, null, Not given in the table]
+    confidence: C
+    notes: The author marks this sounding as very distorted.
+  - id: GS-65
+    name: TDEM station GS-65 (M. Ramon; 7A)
+    xy: [13740, 99905]
+    page: 32
+    box: [0.04, 0.5417, 0.93, 0.6077]
+    site_notes: 'Target in the report: M. Ramon; 7A; Gevanim Fm. Qz syenite'
+    layers:
+    - - 0
+      - 16.5
+      - 21.27
+      - null
+      - {thick: 16.5}
+    - - 16.5
+      - 32.86
+      - 5.65
+      - null
+      - {thick: 16.36}
+    - [32.86, null, 115.3]
+  - id: GS-66
+    name: TDEM station GS-66 (M. Ramon; 6)
+    xy: [13725, 99880]
+    page: 32
+    box: [0.04, 0.6287, 0.93, 0.7087]
+    site_notes: 'Target in the report: M. Ramon; 6; Saharonim Fm. Qz Syenite. Distorted'
+    layers:
+    - - 0
+      - 16.69
+      - 19.25
+      - null
+      - {thick: 16.69}
+    - - 16.69
+      - 51.44
+      - 6.59
+      - null
+      - {thick: 34.75}
+    - - 51.44
+      - 399.54
+      - 398.5
+      - null
+      - {thick: 348.1}
+    - [399.54, null, 28.9]
+    confidence: C
+    notes: The author marks this sounding as distorted.
+  
