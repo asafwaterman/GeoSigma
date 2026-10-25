@@ -1,0 +1,506 @@
+id: goldman-1995-tdem-coastal-interface
+name: Electromagnetic survey of the freshwater-seawater interface on the Mediterranean and Dead Sea coasts
+organisation: Institute for Petroleum Research and Geophysics (IPRG)
+client: Hydrological Service
+authors:
+- M. Goldman
+report_number: IPRG L10/151/95
+year: 1995
+acquired: '1995'
+methods:
+- TEM
+region: Mediterranean coast (Ashqelon to Hadera), the western Galilee coast (Shavei Zion to Rosh HaNikra), and the
+  Tzukim (Ein Fashkha) springs on the Dead Sea shore
+purpose: Depth to the low-resistivity unit(s) associated with seawater intrusion
+geometry: stations
+depth_reach: about 370 m (deepest layer boundary)
+acquisition:
+  instruments: Geonics PROTEM (printouts)
+  loops: 25 x 25 m to 200 x 200 m transmitter loops (Table 1A)
+documents:
+- id: main
+  title: Electromagnetic survey of the interface on the Mediterranean and Dead Sea coasts (in Hebrew, 1995; tables
+    and printouts in English)
+  filename: Goldman-M-Electromagnetic-Survey-Interface-Mediterranean-Dead-Seas-IPRG-Rep-L10-151-1995.pdf
+  drive_id: 1PKV7pelDAm1sb4Pi9KoNBD8PJsz55bFz
+  language:
+  - he
+  - en
+  scanned: true
+  role: main_report
+  sha256: c8f01554df2e724747c661ab062c68734abc856a87b70468a6df513b6ec2ea37
+  pages: 75
+notes: Measured March-May 1995. Table 1A (pages 9-10) gives each station's coordinates and the author's resistivity
+  and depth of the upper and lower low-resistivity units; Table 1B (page 11) lists the stations with no interface;
+  the appendix (pages 16-73) prints the layered inversion of each station. Both the layered models and the Table
+  1A depths are stored. The printouts were read by eye at 400 dpi (the scans are too poor for OCR alone) and every
+  row was checked against its printed depth and conductance. Table 1A agrees with the printouts except at HS309
+  and HS336 (noted on those datasets). HS342 (noisy, no coordinates) is not stored. Stations the author marks noisy
+  or with a transmitter loop too small for the depth are at confidence B; HS347 (distorted) is at C. Tables 2-3
+  (comparisons with older surveys and wells) are not stored.
+extraction_status: complete
+sites:
+- id: HS300
+  name: TDEM station HS300 (Ashdod, Mediterranean coastal aquifer)
+  coords:
+    x: 113900
+    y: 131150
+    crs: EPSG:28193
+    source: table
+    accuracy_m: 50
+- id: HS301
+  name: TDEM station HS301 (Ashdod, Mediterranean coastal aquifer)
+  coords:
+    x: 114250
+    y: 130880
+    crs: EPSG:28193
+    source: table
+    accuracy_m: 50
+- id: HS302
+  name: TDEM station HS302 (Nitzanim, Mediterranean coastal aquifer)
+  coords:
+    x: 113550
+    y: 129020
+    crs: EPSG:28193
+    source: table
+    accuracy_m: 50
+- id: HS303
+  name: TDEM station HS303 (Nitzanim Sands, Mediterranean coastal aquifer)
+  coords:
+    x: 111150
+    y: 124420
+    crs: EPSG:28193
+    source: table
+    accuracy_m: 50
+- id: HS304
+  name: TDEM station HS304 (Hof Rishon, Mediterranean coastal aquifer)
+  coords:
+    x: 125060
+    y: 156590
+    crs: EPSG:28193
+    source: table
+    accuracy_m: 50
+- id: HS305
+  name: TDEM station HS305 (Hof Rishon, Mediterranean coastal aquifer)
+  coords:
+    x: 125300
+    y: 156510
+    crs: EPSG:28193
+    source: table
+    accuracy_m: 50
+- id: HS306
+  name: TDEM station HS306 (Tel Baruch, Mediterranean coastal aquifer)
+  coords:
+    x: 130100
+    y: 169130
+    crs: EPSG:28193
+    source: table
+    accuracy_m: 50
+- id: HS307
+  name: TDEM station HS307 (Nof Yam, Mediterranean coastal aquifer)
+  coords:
+    x: 132470
+    y: 177560
+    crs: EPSG:28193
+    source: table
+    accuracy_m: 50
+- id: HS308
+  name: TDEM station HS308 (Sidna-Ali, Mediterranean coastal aquifer)
+  coords:
+    x: 131870
+    y: 177410
+    crs: EPSG:28193
+    source: table
+    accuracy_m: 50
+- id: HS309
+  name: TDEM station HS309 (South Netanya, Mediterranean coastal aquifer)
+  coords:
+    x: 135250
+    y: 188700
+    crs: EPSG:28193
+    source: table
+    accuracy_m: 50
+- id: HS310
+  name: TDEM station HS310 (North Netanya, Mediterranean coastal aquifer)
+  coords:
+    x: 136520
+    y: 194740
+    crs: EPSG:28193
+    source: table
+    accuracy_m: 50
+- id: HS311
+  name: TDEM station HS311 (Beitan Aharon, Mediterranean coastal aquifer)
+  coords:
+    x: 137400
+    y: 196870
+    crs: EPSG:28193
+    source: table
+    accuracy_m: 50
+- id: HS312
+  name: TDEM station HS312 (Nahsholim, Mediterranean coastal aquifer)
+  coords:
+    x: 143200
+    y: 225190
+    crs: EPSG:28193
+    source: table
+    accuracy_m: 50
+- id: HS313
+  name: TDEM station HS313 (Habonim, Mediterranean coastal aquifer)
+  coords:
+    x: 143240
+    y: 226730
+    crs: EPSG:28193
+    source: table
+    accuracy_m: 50
+- id: HS314
+  name: TDEM station HS314 (Neve Yam, Mediterranean coastal aquifer)
+  coords:
+    x: 143720
+    y: 231310
+    crs: EPSG:28193
+    source: table
+    accuracy_m: 50
+- id: HS315
+  name: TDEM station HS315 (Kfar Samir, Mediterranean coastal aquifer)
+  coords:
+    x: 146470
+    y: 244350
+    crs: EPSG:28193
+    source: table
+    accuracy_m: 50
+- id: HS316
+  name: TDEM station HS316 (Ashqelon, Mediterranean coastal aquifer)
+  coords:
+    x: 108060
+    y: 120630
+    crs: EPSG:28193
+    source: table
+    accuracy_m: 50
+- id: HS317
+  name: TDEM station HS317 (Barnea, Mediterranean coastal aquifer)
+  coords:
+    x: 108920
+    y: 121680
+    crs: EPSG:28193
+    source: table
+    accuracy_m: 50
+- id: HS318
+  name: TDEM station HS318 (Barnea, Mediterranean coastal aquifer)
+  coords:
+    x: 108700
+    y: 121800
+    crs: EPSG:28193
+    source: table
+    accuracy_m: 50
+- id: HS319
+  name: TDEM station HS319 (Barnea, Mediterranean coastal aquifer)
+  coords:
+    x: 110100
+    y: 122770
+    crs: EPSG:28193
+    source: table
+    accuracy_m: 50
+- id: HS320
+  name: TDEM station HS320 (Barnea, Mediterranean coastal aquifer)
+  coords:
+    x: 109560
+    y: 123040
+    crs: EPSG:28193
+    source: table
+    accuracy_m: 50
+- id: HS321
+  name: TDEM station HS321 (Barnea, Mediterranean coastal aquifer)
+  coords:
+    x: 109410
+    y: 123160
+    crs: EPSG:28193
+    source: table
+    accuracy_m: 50
+- id: HS322
+  name: TDEM station HS322 (Nitzanim Sands, Mediterranean coastal aquifer)
+  coords:
+    x: 110170
+    y: 124460
+    crs: EPSG:28193
+    source: table
+    accuracy_m: 50
+- id: HS323
+  name: TDEM station HS323 (Nitzanim Sands, Mediterranean coastal aquifer)
+  coords:
+    x: 110350
+    y: 124120
+    crs: EPSG:28193
+    source: table
+    accuracy_m: 50
+- id: HS324
+  name: TDEM station HS324 (Nitzanim Sands, Mediterranean coastal aquifer)
+  coords:
+    x: 110860
+    y: 124750
+    crs: EPSG:28193
+    source: table
+    accuracy_m: 50
+- id: HS325
+  name: TDEM station HS325 (Nitzanim Sands, Mediterranean coastal aquifer)
+  coords:
+    x: 110490
+    y: 125000
+    crs: EPSG:28193
+    source: table
+    accuracy_m: 50
+- id: HS326
+  name: TDEM station HS326 (Nitzanim, Mediterranean coastal aquifer)
+  coords:
+    x: 112660
+    y: 127980
+    crs: EPSG:28193
+    source: table
+    accuracy_m: 50
+- id: HS327
+  name: TDEM station HS327 (Nitzanim, Mediterranean coastal aquifer)
+  coords:
+    x: 112850
+    y: 128050
+    crs: EPSG:28193
+    source: table
+    accuracy_m: 50
+- id: HS328
+  name: TDEM station HS328 (Nitzanim, Mediterranean coastal aquifer)
+  coords:
+    x: 112500
+    y: 128250
+    crs: EPSG:28193
+    source: table
+    accuracy_m: 50
+- id: HS329
+  name: TDEM station HS329 (Nitzanim, Mediterranean coastal aquifer)
+  coords:
+    x: 113260
+    y: 129230
+    crs: EPSG:28193
+    source: table
+    accuracy_m: 50
+- id: HS330
+  name: TDEM station HS330 (Nitzanim, Mediterranean coastal aquifer)
+  coords:
+    x: 112850
+    y: 129240
+    crs: EPSG:28193
+    source: table
+    accuracy_m: 50
+- id: HS331
+  name: TDEM station HS331 (Nitzanim, Mediterranean coastal aquifer)
+  coords:
+    x: 112300
+    y: 128350
+    crs: EPSG:28193
+    source: table
+    accuracy_m: 50
+- id: HS332
+  name: TDEM station HS332 (Palmahim, Mediterranean coastal aquifer)
+  coords:
+    x: 121610
+    y: 148120
+    crs: EPSG:28193
+    source: table
+    accuracy_m: 50
+- id: HS333
+  name: TDEM station HS333 (Shefayim, Mediterranean coastal aquifer)
+  coords:
+    x: 133790
+    y: 180970
+    crs: EPSG:28193
+    source: table
+    accuracy_m: 50
+- id: HS334
+  name: TDEM station HS334 (Shefayim, Mediterranean coastal aquifer)
+  coords:
+    x: 133350
+    y: 180750
+    crs: EPSG:28193
+    source: table
+    accuracy_m: 50
+- id: HS335
+  name: TDEM station HS335 (Yaqum, Mediterranean coastal aquifer)
+  coords:
+    x: 134500
+    y: 184000
+    crs: EPSG:28193
+    source: table
+    accuracy_m: 50
+- id: HS336
+  name: TDEM station HS336 (Yaqum, Mediterranean coastal aquifer)
+  coords:
+    x: 133950
+    y: 184050
+    crs: EPSG:28193
+    source: table
+    accuracy_m: 50
+- id: HS337
+  name: TDEM station HS337 (South Netanya, Mediterranean coastal aquifer)
+  coords:
+    x: 135450
+    y: 188550
+    crs: EPSG:28193
+    source: table
+    accuracy_m: 50
+- id: HS338
+  name: TDEM station HS338 (Beit Yanai, Mediterranean coastal aquifer)
+  coords:
+    x: 138030
+    y: 198860
+    crs: EPSG:28193
+    source: table
+    accuracy_m: 50
+- id: HS339
+  name: TDEM station HS339 (Giv'at Olga, Mediterranean coastal aquifer)
+  coords:
+    x: 139080
+    y: 204640
+    crs: EPSG:28193
+    source: table
+    accuracy_m: 50
+- id: HS340
+  name: TDEM station HS340 (Giv'at Olga, Mediterranean coastal aquifer)
+  coords:
+    x: 138900
+    y: 204800
+    crs: EPSG:28193
+    source: table
+    accuracy_m: 50
+- id: HS341
+  name: TDEM station HS341 (Hadera, Mediterranean coastal aquifer)
+  coords:
+    x: 139700
+    y: 207500
+    crs: EPSG:28193
+    source: table
+    accuracy_m: 50
+- id: HS343
+  name: TDEM station HS343 (Ein Fascha, Dead Sea, Ein Fashkha)
+  coords:
+    x: 192900
+    y: 125100
+    crs: EPSG:28193
+    source: table
+    accuracy_m: 50
+- id: HS344
+  name: TDEM station HS344 (Ein Fascha, Dead Sea, Ein Fashkha)
+  coords:
+    x: 193400
+    y: 125000
+    crs: EPSG:28193
+    source: table
+    accuracy_m: 50
+- id: HS345
+  name: TDEM station HS345 (Ein Fascha, Dead Sea, Ein Fashkha)
+  coords:
+    x: 193170
+    y: 124500
+    crs: EPSG:28193
+    source: table
+    accuracy_m: 50
+- id: HS346
+  name: TDEM station HS346 (Ein Fascha, Dead Sea, Ein Fashkha)
+  coords:
+    x: 193000
+    y: 124550
+    crs: EPSG:28193
+    source: table
+    accuracy_m: 50
+- id: HS347
+  name: TDEM station HS347 (Ein Fascha, Dead Sea, Ein Fashkha)
+  coords:
+    x: 193250
+    y: 124150
+    crs: EPSG:28193
+    source: table
+    accuracy_m: 50
+- id: HS348
+  name: TDEM station HS348 (Ein Fascha, Dead Sea, Ein Fashkha)
+  coords:
+    x: 192700
+    y: 123020
+    crs: EPSG:28193
+    source: table
+    accuracy_m: 50
+- id: HS349
+  name: TDEM station HS349 (Bustan Hagalil, western Galilee coast)
+  coords:
+    x: 158400
+    y: 261100
+    crs: EPSG:28193
+    source: table
+    accuracy_m: 50
+- id: HS350
+  name: TDEM station HS350 (Bustan Hagalil, western Galilee coast)
+  coords:
+    x: 157800
+    y: 261600
+    crs: EPSG:28193
+    source: table
+    accuracy_m: 50
+- id: HS351
+  name: TDEM station HS351 (Bustan Hagalil, western Galilee coast)
+  coords:
+    x: 157460
+    y: 262600
+    crs: EPSG:28193
+    source: table
+    accuracy_m: 50
+- id: HS352
+  name: TDEM station HS352 (Shvei Zion, western Galilee coast)
+  coords:
+    x: 157800
+    y: 264220
+    crs: EPSG:28193
+    source: table
+    accuracy_m: 50
+- id: HS353
+  name: TDEM station HS353 (Nahariya, western Galilee coast)
+  coords:
+    x: 159290
+    y: 270570
+    crs: EPSG:28193
+    source: table
+    accuracy_m: 50
+- id: HS354
+  name: TDEM station HS354 (Betzet, western Galilee coast)
+  coords:
+    x: 160740
+    y: 275050
+    crs: EPSG:28193
+    source: table
+    accuracy_m: 50
+- id: HS355
+  name: TDEM station HS355 (Rosh Hanikra, western Galilee coast)
+  coords:
+    x: 160430
+    y: 276290
+    crs: EPSG:28193
+    source: table
+    accuracy_m: 50
+- id: HS356
+  name: TDEM station HS356 (Shvei Zion, western Galilee coast)
+  coords:
+    x: 158100
+    y: 264230
+    crs: EPSG:28193
+    source: table
+    accuracy_m: 50
+- id: HS357
+  name: TDEM station HS357 (Rosh Hanikra, western Galilee coast)
+  coords:
+    x: 160790
+    y: 276180
+    crs: EPSG:28193
+    source: table
+    accuracy_m: 50
+- id: HS358
+  name: TDEM station HS358 (Rosh Hanikra, western Galilee coast)
+  coords:
+    x: 162340
+    y: 275980
+    crs: EPSG:28193
+    source: table
+    accuracy_m: 50

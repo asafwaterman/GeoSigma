@@ -1,0 +1,1761 @@
+[
+ {
+  "id": "goldman1999-ARAVA-1-layered",
+  "survey": "goldman-1999-tdem-arava-reservoirs",
+  "site": "ARAVA-1",
+  "method": "TEM",
+  "level": "L2",
+  "representation": "model_1d",
+  "measured_on": null,
+  "depth_max_m": 400.0,
+  "confidence": "B",
+  "status": "draft",
+  "model_type": "layered",
+  "layers": [
+   {
+    "top_m": 0.0,
+    "bottom_m": 32.0,
+    "rho_ohmm": 14.9
+   },
+   {
+    "top_m": 32.0,
+    "bottom_m": 113.3,
+    "rho_ohmm": 11.7
+   },
+   {
+    "top_m": 113.3,
+    "bottom_m": 315.2,
+    "rho_ohmm": 5.5
+   },
+   {
+    "top_m": 315.2,
+    "bottom_m": null,
+    "rho_ohmm": 0.629
+   }
+  ],
+  "digitisation_error": "+-0.03 log10 rho, +-3 m (line width and axis fit)",
+  "provenance": {
+   "document": "main",
+   "pages": [
+    9,
+    4
+   ],
+   "figure": "Appendix, layered inversion plot ARAVA-1 (right panel); text with the coordinates",
+   "method": "digitised_auto",
+   "tool": "geosigma.extract.goldman_1999 (staircase trace, 300 dpi)",
+   "extracted_on": "2026-10-24",
+   "notes": "Axis values read from the labels and checked against the tick marks; the station's coordinates are printed in the text."
+  }
+ },
+ {
+  "id": "goldman1999-ARAVA-1-smooth",
+  "survey": "goldman-1999-tdem-arava-reservoirs",
+  "site": "ARAVA-1",
+  "method": "TEM",
+  "level": "L2",
+  "representation": "model_1d",
+  "measured_on": null,
+  "depth_max_m": 500.0,
+  "confidence": "B",
+  "status": "draft",
+  "model_type": "smooth",
+  "layers": [
+   {
+    "top_m": 0.0,
+    "bottom_m": 23.8,
+    "rho_ohmm": 16.5
+   },
+   {
+    "top_m": 23.8,
+    "bottom_m": 30.0,
+    "rho_ohmm": 13.1
+   },
+   {
+    "top_m": 30.0,
+    "bottom_m": 46.5,
+    "rho_ohmm": 11.3
+   },
+   {
+    "top_m": 46.5,
+    "bottom_m": 57.6,
+    "rho_ohmm": 12.2
+   },
+   {
+    "top_m": 57.6,
+    "bottom_m": 89.8,
+    "rho_ohmm": 13.2
+   },
+   {
+    "top_m": 89.8,
+    "bottom_m": 112.1,
+    "rho_ohmm": 10.7
+   },
+   {
+    "top_m": 112.1,
+    "bottom_m": 139.6,
+    "rho_ohmm": 6.27
+   },
+   {
+    "top_m": 139.6,
+    "bottom_m": 173.0,
+    "rho_ohmm": 4.2
+   },
+   {
+    "top_m": 173.0,
+    "bottom_m": 216.5,
+    "rho_ohmm": 7.69
+   },
+   {
+    "top_m": 216.5,
+    "bottom_m": 269.4,
+    "rho_ohmm": 6.92
+   },
+   {
+    "top_m": 269.4,
+    "bottom_m": 336.2,
+    "rho_ohmm": 1.37
+   },
+   {
+    "top_m": 336.2,
+    "bottom_m": null,
+    "rho_ohmm": 0.441
+   }
+  ],
+  "digitisation_error": "+-0.03 log10 rho, +-3 m (line width and axis fit)",
+  "provenance": {
+   "document": "main",
+   "pages": [
+    10,
+    4
+   ],
+   "figure": "Appendix, smooth inversion plot ARAVA-1 (right panel); text with the coordinates",
+   "method": "digitised_auto",
+   "tool": "geosigma.extract.goldman_1999 (staircase trace, 300 dpi)",
+   "extracted_on": "2026-10-24",
+   "notes": "Axis values read from the labels and checked against the tick marks; the station's coordinates are printed in the text."
+  }
+ },
+ {
+  "id": "goldman1999-HAZEVA-4-layered",
+  "survey": "goldman-1999-tdem-arava-reservoirs",
+  "site": "HAZEVA-4",
+  "method": "TEM",
+  "level": "L2",
+  "representation": "model_1d",
+  "measured_on": null,
+  "depth_max_m": 400.0,
+  "confidence": "B",
+  "status": "draft",
+  "model_type": "layered",
+  "layers": [
+   {
+    "top_m": 0.0,
+    "bottom_m": 55.2,
+    "rho_ohmm": 32.0
+   },
+   {
+    "top_m": 55.2,
+    "bottom_m": 191.9,
+    "rho_ohmm": 13.7
+   },
+   {
+    "top_m": 191.9,
+    "bottom_m": 309.7,
+    "rho_ohmm": 6.61
+   },
+   {
+    "top_m": 309.7,
+    "bottom_m": null,
+    "rho_ohmm": 0.93
+   }
+  ],
+  "digitisation_error": "+-0.03 log10 rho, +-3 m (line width and axis fit)",
+  "provenance": {
+   "document": "main",
+   "pages": [
+    11,
+    4
+   ],
+   "figure": "Appendix, layered inversion plot HAZEVA-4 (right panel); text with the coordinates",
+   "method": "digitised_auto",
+   "tool": "geosigma.extract.goldman_1999 (staircase trace, 300 dpi)",
+   "extracted_on": "2026-10-24",
+   "notes": "Axis values read from the labels and checked against the tick marks; the station's coordinates are printed in the text."
+  }
+ },
+ {
+  "id": "goldman1999-HAZEVA-4-smooth",
+  "survey": "goldman-1999-tdem-arava-reservoirs",
+  "site": "HAZEVA-4",
+  "method": "TEM",
+  "level": "L2",
+  "representation": "model_1d",
+  "measured_on": null,
+  "depth_max_m": 500.0,
+  "confidence": "B",
+  "status": "draft",
+  "model_type": "smooth",
+  "layers": [
+   {
+    "top_m": 0.0,
+    "bottom_m": 30.7,
+    "rho_ohmm": 35.2
+   },
+   {
+    "top_m": 30.7,
+    "bottom_m": 37.1,
+    "rho_ohmm": 30.7
+   },
+   {
+    "top_m": 37.1,
+    "bottom_m": 45.1,
+    "rho_ohmm": 35.8
+   },
+   {
+    "top_m": 45.1,
+    "bottom_m": 54.8,
+    "rho_ohmm": 15.7
+   },
+   {
+    "top_m": 54.8,
+    "bottom_m": 66.6,
+    "rho_ohmm": 17.5
+   },
+   {
+    "top_m": 66.6,
+    "bottom_m": 80.6,
+    "rho_ohmm": 20.1
+   },
+   {
+    "top_m": 80.6,
+    "bottom_m": 119.5,
+    "rho_ohmm": 12.3
+   },
+   {
+    "top_m": 119.5,
+    "bottom_m": 145.5,
+    "rho_ohmm": 16.3
+   },
+   {
+    "top_m": 145.5,
+    "bottom_m": 176.6,
+    "rho_ohmm": 11.1
+   },
+   {
+    "top_m": 176.6,
+    "bottom_m": 215.3,
+    "rho_ohmm": 8.86
+   },
+   {
+    "top_m": 215.3,
+    "bottom_m": 262.0,
+    "rho_ohmm": 9.58
+   },
+   {
+    "top_m": 262.0,
+    "bottom_m": 318.9,
+    "rho_ohmm": 2.43
+   },
+   {
+    "top_m": 318.9,
+    "bottom_m": 388.0,
+    "rho_ohmm": 0.797
+   },
+   {
+    "top_m": 388.0,
+    "bottom_m": null,
+    "rho_ohmm": 0.648
+   }
+  ],
+  "digitisation_error": "+-0.03 log10 rho, +-3 m (line width and axis fit)",
+  "provenance": {
+   "document": "main",
+   "pages": [
+    12,
+    4
+   ],
+   "figure": "Appendix, smooth inversion plot HAZEVA-4 (right panel); text with the coordinates",
+   "method": "digitised_auto",
+   "tool": "geosigma.extract.goldman_1999 (staircase trace, 300 dpi)",
+   "extracted_on": "2026-10-24",
+   "notes": "Axis values read from the labels and checked against the tick marks; the station's coordinates are printed in the text."
+  }
+ },
+ {
+  "id": "goldman1999-HAZEVA-6-layered",
+  "survey": "goldman-1999-tdem-arava-reservoirs",
+  "site": "HAZEVA-6",
+  "method": "TEM",
+  "level": "L2",
+  "representation": "model_1d",
+  "measured_on": null,
+  "depth_max_m": 400.0,
+  "confidence": "B",
+  "status": "draft",
+  "model_type": "layered",
+  "layers": [
+   {
+    "top_m": 0.0,
+    "bottom_m": 44.3,
+    "rho_ohmm": 55.2
+   },
+   {
+    "top_m": 44.3,
+    "bottom_m": 243.8,
+    "rho_ohmm": 11.4
+   },
+   {
+    "top_m": 243.8,
+    "bottom_m": 313.2,
+    "rho_ohmm": 2.52
+   },
+   {
+    "top_m": 313.2,
+    "bottom_m": null,
+    "rho_ohmm": 0.651
+   }
+  ],
+  "digitisation_error": "+-0.03 log10 rho, +-3 m (line width and axis fit)",
+  "provenance": {
+   "document": "main",
+   "pages": [
+    13,
+    4
+   ],
+   "figure": "Appendix, layered inversion plot HAZEVA-6 (right panel); text with the coordinates",
+   "method": "digitised_auto",
+   "tool": "geosigma.extract.goldman_1999 (staircase trace, 300 dpi)",
+   "extracted_on": "2026-10-24",
+   "notes": "Axis values read from the labels and checked against the tick marks; the station's coordinates are printed in the text."
+  }
+ },
+ {
+  "id": "goldman1999-HAZEVA-6-smooth",
+  "survey": "goldman-1999-tdem-arava-reservoirs",
+  "site": "HAZEVA-6",
+  "method": "TEM",
+  "level": "L2",
+  "representation": "model_1d",
+  "measured_on": null,
+  "depth_max_m": 600.0,
+  "confidence": "B",
+  "status": "draft",
+  "model_type": "smooth",
+  "layers": [
+   {
+    "top_m": 0.0,
+    "bottom_m": 29.6,
+    "rho_ohmm": 49.6
+   },
+   {
+    "top_m": 29.6,
+    "bottom_m": 37.2,
+    "rho_ohmm": 39.4
+   },
+   {
+    "top_m": 37.2,
+    "bottom_m": 46.0,
+    "rho_ohmm": 27.5
+   },
+   {
+    "top_m": 46.0,
+    "bottom_m": 57.4,
+    "rho_ohmm": 19.0
+   },
+   {
+    "top_m": 57.4,
+    "bottom_m": 71.6,
+    "rho_ohmm": 12.2
+   },
+   {
+    "top_m": 71.6,
+    "bottom_m": 88.9,
+    "rho_ohmm": 9.15
+   },
+   {
+    "top_m": 88.9,
+    "bottom_m": 110.7,
+    "rho_ohmm": 10.7
+   },
+   {
+    "top_m": 110.7,
+    "bottom_m": 172.8,
+    "rho_ohmm": 12.2
+   },
+   {
+    "top_m": 172.8,
+    "bottom_m": 215.0,
+    "rho_ohmm": 10.6
+   },
+   {
+    "top_m": 215.0,
+    "bottom_m": 268.5,
+    "rho_ohmm": 7.97
+   },
+   {
+    "top_m": 268.5,
+    "bottom_m": 335.4,
+    "rho_ohmm": 1.43
+   },
+   {
+    "top_m": 335.4,
+    "bottom_m": 417.7,
+    "rho_ohmm": 0.626
+   },
+   {
+    "top_m": 417.7,
+    "bottom_m": null,
+    "rho_ohmm": 0.767
+   }
+  ],
+  "digitisation_error": "+-0.03 log10 rho, +-3 m (line width and axis fit)",
+  "provenance": {
+   "document": "main",
+   "pages": [
+    14,
+    4
+   ],
+   "figure": "Appendix, smooth inversion plot HAZEVA-6 (right panel); text with the coordinates",
+   "method": "digitised_auto",
+   "tool": "geosigma.extract.goldman_1999 (staircase trace, 300 dpi)",
+   "extracted_on": "2026-10-24",
+   "notes": "Axis values read from the labels and checked against the tick marks; the station's coordinates are printed in the text."
+  }
+ },
+ {
+  "id": "goldman1999-HAZEVA-7-layered",
+  "survey": "goldman-1999-tdem-arava-reservoirs",
+  "site": "HAZEVA-7",
+  "method": "TEM",
+  "level": "L2",
+  "representation": "model_1d",
+  "measured_on": null,
+  "depth_max_m": 400.0,
+  "confidence": "B",
+  "status": "draft",
+  "model_type": "layered",
+  "layers": [
+   {
+    "top_m": 0.0,
+    "bottom_m": 24.2,
+    "rho_ohmm": 14.1
+   },
+   {
+    "top_m": 24.2,
+    "bottom_m": 34.9,
+    "rho_ohmm": 3.27
+   },
+   {
+    "top_m": 34.9,
+    "bottom_m": 80.8,
+    "rho_ohmm": 21.4
+   },
+   {
+    "top_m": 80.8,
+    "bottom_m": 120.5,
+    "rho_ohmm": 9.48
+   },
+   {
+    "top_m": 120.5,
+    "bottom_m": 225.8,
+    "rho_ohmm": 16.4
+   },
+   {
+    "top_m": 225.8,
+    "bottom_m": 321.2,
+    "rho_ohmm": 2.55
+   },
+   {
+    "top_m": 321.2,
+    "bottom_m": null,
+    "rho_ohmm": 0.912
+   }
+  ],
+  "digitisation_error": "+-0.03 log10 rho, +-3 m (line width and axis fit)",
+  "provenance": {
+   "document": "main",
+   "pages": [
+    15,
+    4
+   ],
+   "figure": "Appendix, layered inversion plot HAZEVA-7 (right panel); text with the coordinates",
+   "method": "digitised_auto",
+   "tool": "geosigma.extract.goldman_1999 (staircase trace, 300 dpi)",
+   "extracted_on": "2026-10-24",
+   "notes": "Axis values read from the labels and checked against the tick marks; the station's coordinates are printed in the text."
+  }
+ },
+ {
+  "id": "goldman1999-HAZEVA-7-smooth",
+  "survey": "goldman-1999-tdem-arava-reservoirs",
+  "site": "HAZEVA-7",
+  "method": "TEM",
+  "level": "L2",
+  "representation": "model_1d",
+  "measured_on": null,
+  "depth_max_m": 500.0,
+  "confidence": "B",
+  "status": "draft",
+  "model_type": "smooth",
+  "layers": [
+   {
+    "top_m": 0.0,
+    "bottom_m": 23.4,
+    "rho_ohmm": 14.0
+   },
+   {
+    "top_m": 23.4,
+    "bottom_m": 29.2,
+    "rho_ohmm": 3.82
+   },
+   {
+    "top_m": 29.2,
+    "bottom_m": 35.6,
+    "rho_ohmm": 4.12
+   },
+   {
+    "top_m": 35.6,
+    "bottom_m": 43.2,
+    "rho_ohmm": 9.92
+   },
+   {
+    "top_m": 43.2,
+    "bottom_m": 53.4,
+    "rho_ohmm": 21.1
+   },
+   {
+    "top_m": 53.4,
+    "bottom_m": 65.3,
+    "rho_ohmm": 26.0
+   },
+   {
+    "top_m": 65.3,
+    "bottom_m": 80.2,
+    "rho_ohmm": 19.9
+   },
+   {
+    "top_m": 80.2,
+    "bottom_m": 98.1,
+    "rho_ohmm": 11.8
+   },
+   {
+    "top_m": 98.1,
+    "bottom_m": 120.4,
+    "rho_ohmm": 9.55
+   },
+   {
+    "top_m": 120.4,
+    "bottom_m": 147.9,
+    "rho_ohmm": 13.7
+   },
+   {
+    "top_m": 147.9,
+    "bottom_m": 181.1,
+    "rho_ohmm": 19.6
+   },
+   {
+    "top_m": 181.1,
+    "bottom_m": 222.8,
+    "rho_ohmm": 13.2
+   },
+   {
+    "top_m": 222.8,
+    "bottom_m": 273.1,
+    "rho_ohmm": 3.11
+   },
+   {
+    "top_m": 273.1,
+    "bottom_m": 335.4,
+    "rho_ohmm": 1.75
+   },
+   {
+    "top_m": 335.4,
+    "bottom_m": null,
+    "rho_ohmm": 0.822
+   }
+  ],
+  "digitisation_error": "+-0.03 log10 rho, +-3 m (line width and axis fit)",
+  "provenance": {
+   "document": "main",
+   "pages": [
+    16,
+    4
+   ],
+   "figure": "Appendix, smooth inversion plot HAZEVA-7 (right panel); text with the coordinates",
+   "method": "digitised_auto",
+   "tool": "geosigma.extract.goldman_1999 (staircase trace, 300 dpi)",
+   "extracted_on": "2026-10-24",
+   "notes": "Axis values read from the labels and checked against the tick marks; the station's coordinates are printed in the text."
+  }
+ },
+ {
+  "id": "goldman1999-HAZEVA-3-layered",
+  "survey": "goldman-1999-tdem-arava-reservoirs",
+  "site": "HAZEVA-3",
+  "method": "TEM",
+  "level": "L2",
+  "representation": "model_1d",
+  "measured_on": null,
+  "depth_max_m": 400.0,
+  "confidence": "B",
+  "status": "draft",
+  "model_type": "layered",
+  "layers": [
+   {
+    "top_m": 0.0,
+    "bottom_m": 81.4,
+    "rho_ohmm": 23.1
+   },
+   {
+    "top_m": 81.4,
+    "bottom_m": 273.0,
+    "rho_ohmm": 17.5
+   },
+   {
+    "top_m": 273.0,
+    "bottom_m": 312.4,
+    "rho_ohmm": 6.83
+   },
+   {
+    "top_m": 312.4,
+    "bottom_m": 379.6,
+    "rho_ohmm": 1.12
+   },
+   {
+    "top_m": 379.6,
+    "bottom_m": null,
+    "rho_ohmm": 0.528
+   }
+  ],
+  "digitisation_error": "+-0.03 log10 rho, +-3 m (line width and axis fit)",
+  "provenance": {
+   "document": "main",
+   "pages": [
+    17,
+    4
+   ],
+   "figure": "Appendix, layered inversion plot HAZEVA-3 (right panel); text with the coordinates",
+   "method": "digitised_auto",
+   "tool": "geosigma.extract.goldman_1999 (staircase trace, 300 dpi)",
+   "extracted_on": "2026-10-24",
+   "notes": "Axis values read from the labels and checked against the tick marks; the station's coordinates are printed in the text."
+  }
+ },
+ {
+  "id": "goldman1999-HAZEVA-3-smooth",
+  "survey": "goldman-1999-tdem-arava-reservoirs",
+  "site": "HAZEVA-3",
+  "method": "TEM",
+  "level": "L2",
+  "representation": "model_1d",
+  "measured_on": null,
+  "depth_max_m": 600.0,
+  "confidence": "B",
+  "status": "draft",
+  "model_type": "smooth",
+  "layers": [
+   {
+    "top_m": 0.0,
+    "bottom_m": 40.5,
+    "rho_ohmm": 22.9
+   },
+   {
+    "top_m": 40.5,
+    "bottom_m": 49.4,
+    "rho_ohmm": 30.3
+   },
+   {
+    "top_m": 49.4,
+    "bottom_m": 59.8,
+    "rho_ohmm": 34.5
+   },
+   {
+    "top_m": 59.8,
+    "bottom_m": 73.2,
+    "rho_ohmm": 31.5
+   },
+   {
+    "top_m": 73.2,
+    "bottom_m": 88.0,
+    "rho_ohmm": 22.9
+   },
+   {
+    "top_m": 88.0,
+    "bottom_m": 107.6,
+    "rho_ohmm": 14.5
+   },
+   {
+    "top_m": 107.6,
+    "bottom_m": 131.3,
+    "rho_ohmm": 12.5
+   },
+   {
+    "top_m": 131.3,
+    "bottom_m": 159.5,
+    "rho_ohmm": 19.2
+   },
+   {
+    "top_m": 159.5,
+    "bottom_m": 193.6,
+    "rho_ohmm": 28.8
+   },
+   {
+    "top_m": 193.6,
+    "bottom_m": 235.7,
+    "rho_ohmm": 26.2
+   },
+   {
+    "top_m": 235.7,
+    "bottom_m": 287.6,
+    "rho_ohmm": 10.5
+   },
+   {
+    "top_m": 287.6,
+    "bottom_m": 349.9,
+    "rho_ohmm": 1.82
+   },
+   {
+    "top_m": 349.9,
+    "bottom_m": 425.8,
+    "rho_ohmm": 0.517
+   },
+   {
+    "top_m": 425.8,
+    "bottom_m": null,
+    "rho_ohmm": 0.38
+   }
+  ],
+  "digitisation_error": "+-0.03 log10 rho, +-3 m (line width and axis fit)",
+  "provenance": {
+   "document": "main",
+   "pages": [
+    18,
+    4
+   ],
+   "figure": "Appendix, smooth inversion plot HAZEVA-3 (right panel); text with the coordinates",
+   "method": "digitised_auto",
+   "tool": "geosigma.extract.goldman_1999 (staircase trace, 300 dpi)",
+   "extracted_on": "2026-10-24",
+   "notes": "Axis values read from the labels and checked against the tick marks; the station's coordinates are printed in the text."
+  }
+ },
+ {
+  "id": "goldman1999-HAZEVA-5-layered",
+  "survey": "goldman-1999-tdem-arava-reservoirs",
+  "site": "HAZEVA-5",
+  "method": "TEM",
+  "level": "L2",
+  "representation": "model_1d",
+  "measured_on": null,
+  "depth_max_m": 400.0,
+  "confidence": "B",
+  "status": "draft",
+  "model_type": "layered",
+  "layers": [
+   {
+    "top_m": 0.0,
+    "bottom_m": 42.5,
+    "rho_ohmm": 197.0
+   },
+   {
+    "top_m": 42.5,
+    "bottom_m": 86.2,
+    "rho_ohmm": 44.2
+   },
+   {
+    "top_m": 86.2,
+    "bottom_m": 128.4,
+    "rho_ohmm": 10.2
+   },
+   {
+    "top_m": 128.4,
+    "bottom_m": 290.5,
+    "rho_ohmm": 23.6
+   },
+   {
+    "top_m": 290.5,
+    "bottom_m": 373.9,
+    "rho_ohmm": 3.1
+   },
+   {
+    "top_m": 373.9,
+    "bottom_m": null,
+    "rho_ohmm": 0.845
+   }
+  ],
+  "digitisation_error": "+-0.03 log10 rho, +-3 m (line width and axis fit)",
+  "provenance": {
+   "document": "main",
+   "pages": [
+    19,
+    4
+   ],
+   "figure": "Appendix, layered inversion plot HAZEVA-5 (right panel); text with the coordinates",
+   "method": "digitised_auto",
+   "tool": "geosigma.extract.goldman_1999 (staircase trace, 300 dpi)",
+   "extracted_on": "2026-10-24",
+   "notes": "Axis values read from the labels and checked against the tick marks; the station's coordinates are printed in the text."
+  }
+ },
+ {
+  "id": "goldman1999-HAZEVA-5-smooth",
+  "survey": "goldman-1999-tdem-arava-reservoirs",
+  "site": "HAZEVA-5",
+  "method": "TEM",
+  "level": "L2",
+  "representation": "model_1d",
+  "measured_on": null,
+  "depth_max_m": 700.0,
+  "confidence": "B",
+  "status": "draft",
+  "model_type": "smooth",
+  "layers": [
+   {
+    "top_m": 0.0,
+    "bottom_m": 38.9,
+    "rho_ohmm": 216.0
+   },
+   {
+    "top_m": 38.9,
+    "bottom_m": 47.5,
+    "rho_ohmm": 135.0
+   },
+   {
+    "top_m": 47.5,
+    "bottom_m": 58.5,
+    "rho_ohmm": 71.0
+   },
+   {
+    "top_m": 58.5,
+    "bottom_m": 71.6,
+    "rho_ohmm": 35.3
+   },
+   {
+    "top_m": 71.6,
+    "bottom_m": 88.2,
+    "rho_ohmm": 19.1
+   },
+   {
+    "top_m": 88.2,
+    "bottom_m": 131.7,
+    "rho_ohmm": 10.9
+   },
+   {
+    "top_m": 131.7,
+    "bottom_m": 161.4,
+    "rho_ohmm": 18.8
+   },
+   {
+    "top_m": 161.4,
+    "bottom_m": 242.7,
+    "rho_ohmm": 26.8
+   },
+   {
+    "top_m": 242.7,
+    "bottom_m": 298.3,
+    "rho_ohmm": 15.6
+   },
+   {
+    "top_m": 298.3,
+    "bottom_m": 366.6,
+    "rho_ohmm": 3.74
+   },
+   {
+    "top_m": 366.6,
+    "bottom_m": 449.3,
+    "rho_ohmm": 1.22
+   },
+   {
+    "top_m": 449.3,
+    "bottom_m": 551.5,
+    "rho_ohmm": 0.957
+   },
+   {
+    "top_m": 551.5,
+    "bottom_m": null,
+    "rho_ohmm": 1.77
+   }
+  ],
+  "digitisation_error": "+-0.03 log10 rho, +-3 m (line width and axis fit)",
+  "provenance": {
+   "document": "main",
+   "pages": [
+    20,
+    4
+   ],
+   "figure": "Appendix, smooth inversion plot HAZEVA-5 (right panel); text with the coordinates",
+   "method": "digitised_auto",
+   "tool": "geosigma.extract.goldman_1999 (staircase trace, 300 dpi)",
+   "extracted_on": "2026-10-24",
+   "notes": "Axis values read from the labels and checked against the tick marks; the station's coordinates are printed in the text."
+  }
+ },
+ {
+  "id": "goldman1999-HAZEVA-2-layered",
+  "survey": "goldman-1999-tdem-arava-reservoirs",
+  "site": "HAZEVA-2",
+  "method": "TEM",
+  "level": "L2",
+  "representation": "model_1d",
+  "measured_on": null,
+  "depth_max_m": 400.0,
+  "confidence": "B",
+  "status": "draft",
+  "model_type": "layered",
+  "layers": [
+   {
+    "top_m": 0.0,
+    "bottom_m": 56.1,
+    "rho_ohmm": 341.0
+   },
+   {
+    "top_m": 56.1,
+    "bottom_m": 296.2,
+    "rho_ohmm": 19.3
+   },
+   {
+    "top_m": 296.2,
+    "bottom_m": 361.3,
+    "rho_ohmm": 3.49
+   },
+   {
+    "top_m": 361.3,
+    "bottom_m": null,
+    "rho_ohmm": 1.25
+   }
+  ],
+  "digitisation_error": "+-0.03 log10 rho, +-3 m (line width and axis fit)",
+  "provenance": {
+   "document": "main",
+   "pages": [
+    21,
+    4
+   ],
+   "figure": "Appendix, layered inversion plot HAZEVA-2 (right panel); text with the coordinates",
+   "method": "digitised_auto",
+   "tool": "geosigma.extract.goldman_1999 (staircase trace, 300 dpi)",
+   "extracted_on": "2026-10-24",
+   "notes": "Axis values read from the labels and checked against the tick marks; the station's coordinates are printed in the text."
+  }
+ },
+ {
+  "id": "goldman1999-HAZEVA-2-smooth",
+  "survey": "goldman-1999-tdem-arava-reservoirs",
+  "site": "HAZEVA-2",
+  "method": "TEM",
+  "level": "L2",
+  "representation": "model_1d",
+  "measured_on": null,
+  "depth_max_m": 700.0,
+  "confidence": "B",
+  "status": "draft",
+  "model_type": "smooth",
+  "layers": [
+   {
+    "top_m": 0.0,
+    "bottom_m": 38.5,
+    "rho_ohmm": 333.0
+   },
+   {
+    "top_m": 38.5,
+    "bottom_m": 48.1,
+    "rho_ohmm": 150.0
+   },
+   {
+    "top_m": 48.1,
+    "bottom_m": 60.2,
+    "rho_ohmm": 62.0
+   },
+   {
+    "top_m": 60.2,
+    "bottom_m": 75.4,
+    "rho_ohmm": 26.4
+   },
+   {
+    "top_m": 75.4,
+    "bottom_m": 94.3,
+    "rho_ohmm": 15.0
+   },
+   {
+    "top_m": 94.3,
+    "bottom_m": 116.5,
+    "rho_ohmm": 16.5
+   },
+   {
+    "top_m": 116.5,
+    "bottom_m": 181.6,
+    "rho_ohmm": 21.1
+   },
+   {
+    "top_m": 181.6,
+    "bottom_m": 225.7,
+    "rho_ohmm": 23.5
+   },
+   {
+    "top_m": 225.7,
+    "bottom_m": 281.5,
+    "rho_ohmm": 16.9
+   },
+   {
+    "top_m": 281.5,
+    "bottom_m": 350.9,
+    "rho_ohmm": 4.74
+   },
+   {
+    "top_m": 350.9,
+    "bottom_m": 437.0,
+    "rho_ohmm": 1.33
+   },
+   {
+    "top_m": 437.0,
+    "bottom_m": null,
+    "rho_ohmm": 1.14
+   }
+  ],
+  "digitisation_error": "+-0.03 log10 rho, +-3 m (line width and axis fit)",
+  "provenance": {
+   "document": "main",
+   "pages": [
+    22,
+    4
+   ],
+   "figure": "Appendix, smooth inversion plot HAZEVA-2 (right panel); text with the coordinates",
+   "method": "digitised_auto",
+   "tool": "geosigma.extract.goldman_1999 (staircase trace, 300 dpi)",
+   "extracted_on": "2026-10-24",
+   "notes": "Axis values read from the labels and checked against the tick marks; the station's coordinates are printed in the text."
+  }
+ },
+ {
+  "id": "goldman1999-HAZEVA-layered",
+  "survey": "goldman-1999-tdem-arava-reservoirs",
+  "site": "HAZEVA",
+  "method": "TEM",
+  "level": "L2",
+  "representation": "model_1d",
+  "measured_on": null,
+  "depth_max_m": 500.0,
+  "confidence": "B",
+  "status": "draft",
+  "model_type": "layered",
+  "layers": [
+   {
+    "top_m": 0.0,
+    "bottom_m": 130.3,
+    "rho_ohmm": 46.9
+   },
+   {
+    "top_m": 130.3,
+    "bottom_m": 269.0,
+    "rho_ohmm": 14.0
+   },
+   {
+    "top_m": 269.0,
+    "bottom_m": 349.1,
+    "rho_ohmm": 47.5
+   },
+   {
+    "top_m": 349.1,
+    "bottom_m": 414.9,
+    "rho_ohmm": 1.19
+   },
+   {
+    "top_m": 414.9,
+    "bottom_m": null,
+    "rho_ohmm": 0.652
+   }
+  ],
+  "digitisation_error": "+-0.03 log10 rho, +-3 m (line width and axis fit)",
+  "provenance": {
+   "document": "main",
+   "pages": [
+    23,
+    4
+   ],
+   "figure": "Appendix, layered inversion plot HAZEVA (right panel); text with the coordinates",
+   "method": "digitised_auto",
+   "tool": "geosigma.extract.goldman_1999 (staircase trace, 300 dpi)",
+   "extracted_on": "2026-10-24",
+   "notes": "Axis values read from the labels and checked against the tick marks; the station's coordinates are printed in the text."
+  }
+ },
+ {
+  "id": "goldman1999-HAZEVA-smooth",
+  "survey": "goldman-1999-tdem-arava-reservoirs",
+  "site": "HAZEVA",
+  "method": "TEM",
+  "level": "L2",
+  "representation": "model_1d",
+  "measured_on": null,
+  "depth_max_m": 700.0,
+  "confidence": "B",
+  "status": "draft",
+  "model_type": "smooth",
+  "layers": [
+   {
+    "top_m": 0.0,
+    "bottom_m": 39.1,
+    "rho_ohmm": 40.3
+   },
+   {
+    "top_m": 39.1,
+    "bottom_m": 48.6,
+    "rho_ohmm": 56.6
+   },
+   {
+    "top_m": 48.6,
+    "bottom_m": 75.9,
+    "rho_ohmm": 76.6
+   },
+   {
+    "top_m": 75.9,
+    "bottom_m": 94.4,
+    "rho_ohmm": 59.8
+   },
+   {
+    "top_m": 94.4,
+    "bottom_m": 116.8,
+    "rho_ohmm": 35.1
+   },
+   {
+    "top_m": 116.8,
+    "bottom_m": 145.7,
+    "rho_ohmm": 18.3
+   },
+   {
+    "top_m": 145.7,
+    "bottom_m": 182.1,
+    "rho_ohmm": 15.4
+   },
+   {
+    "top_m": 182.1,
+    "bottom_m": 226.4,
+    "rho_ohmm": 13.1
+   },
+   {
+    "top_m": 226.4,
+    "bottom_m": 281.9,
+    "rho_ohmm": 24.5
+   },
+   {
+    "top_m": 281.9,
+    "bottom_m": 351.7,
+    "rho_ohmm": 32.6
+   },
+   {
+    "top_m": 351.7,
+    "bottom_m": 438.5,
+    "rho_ohmm": 1.95
+   },
+   {
+    "top_m": 438.5,
+    "bottom_m": 547.2,
+    "rho_ohmm": 0.937
+   },
+   {
+    "top_m": 547.2,
+    "bottom_m": null,
+    "rho_ohmm": 2.26
+   }
+  ],
+  "digitisation_error": "+-0.03 log10 rho, +-3 m (line width and axis fit)",
+  "provenance": {
+   "document": "main",
+   "pages": [
+    24,
+    4
+   ],
+   "figure": "Appendix, smooth inversion plot HAZEVA (right panel); text with the coordinates",
+   "method": "digitised_auto",
+   "tool": "geosigma.extract.goldman_1999 (staircase trace, 300 dpi)",
+   "extracted_on": "2026-10-24",
+   "notes": "Axis values read from the labels and checked against the tick marks; the station's coordinates are printed in the text."
+  }
+ },
+ {
+  "id": "goldman1999-HAZEVA-1-layered",
+  "survey": "goldman-1999-tdem-arava-reservoirs",
+  "site": "HAZEVA-1",
+  "method": "TEM",
+  "level": "L2",
+  "representation": "model_1d",
+  "measured_on": null,
+  "depth_max_m": 500.0,
+  "confidence": "B",
+  "status": "draft",
+  "model_type": "layered",
+  "layers": [
+   {
+    "top_m": 0.0,
+    "bottom_m": 129.5,
+    "rho_ohmm": 40.3
+   },
+   {
+    "top_m": 129.5,
+    "bottom_m": 357.5,
+    "rho_ohmm": 8.29
+   },
+   {
+    "top_m": 357.5,
+    "bottom_m": 428.7,
+    "rho_ohmm": 3.63
+   },
+   {
+    "top_m": 428.7,
+    "bottom_m": null,
+    "rho_ohmm": 0.284
+   }
+  ],
+  "digitisation_error": "+-0.03 log10 rho, +-3 m (line width and axis fit)",
+  "provenance": {
+   "document": "main",
+   "pages": [
+    25,
+    4
+   ],
+   "figure": "Appendix, layered inversion plot HAZEVA-1 (right panel); text with the coordinates",
+   "method": "digitised_auto",
+   "tool": "geosigma.extract.goldman_1999 (staircase trace, 300 dpi)",
+   "extracted_on": "2026-10-24",
+   "notes": "Axis values read from the labels and checked against the tick marks; the station's coordinates are printed in the text."
+  }
+ },
+ {
+  "id": "goldman1999-HAZEVA-1-smooth",
+  "survey": "goldman-1999-tdem-arava-reservoirs",
+  "site": "HAZEVA-1",
+  "method": "TEM",
+  "level": "L2",
+  "representation": "model_1d",
+  "measured_on": null,
+  "depth_max_m": 600.0,
+  "confidence": "B",
+  "status": "draft",
+  "model_type": "smooth",
+  "layers": [
+   {
+    "top_m": 0.0,
+    "bottom_m": 112.3,
+    "rho_ohmm": 42.2
+   },
+   {
+    "top_m": 112.3,
+    "bottom_m": 126.1,
+    "rho_ohmm": 19.8
+   },
+   {
+    "top_m": 126.1,
+    "bottom_m": 142.3,
+    "rho_ohmm": 10.7
+   },
+   {
+    "top_m": 142.3,
+    "bottom_m": 179.6,
+    "rho_ohmm": 8.07
+   },
+   {
+    "top_m": 179.6,
+    "bottom_m": 201.8,
+    "rho_ohmm": 9.32
+   },
+   {
+    "top_m": 201.8,
+    "bottom_m": 227.7,
+    "rho_ohmm": 10.4
+   },
+   {
+    "top_m": 227.7,
+    "bottom_m": 255.9,
+    "rho_ohmm": 9.44
+   },
+   {
+    "top_m": 255.9,
+    "bottom_m": 365.3,
+    "rho_ohmm": 7.92
+   },
+   {
+    "top_m": 365.3,
+    "bottom_m": 411.0,
+    "rho_ohmm": 7.45
+   },
+   {
+    "top_m": 411.0,
+    "bottom_m": 462.9,
+    "rho_ohmm": 3.06
+   },
+   {
+    "top_m": 462.9,
+    "bottom_m": 520.2,
+    "rho_ohmm": 0.312
+   },
+   {
+    "top_m": 520.2,
+    "bottom_m": null,
+    "rho_ohmm": 0.669
+   }
+  ],
+  "digitisation_error": "+-0.03 log10 rho, +-3 m (line width and axis fit)",
+  "provenance": {
+   "document": "main",
+   "pages": [
+    26,
+    4
+   ],
+   "figure": "Appendix, smooth inversion plot HAZEVA-1 (right panel); text with the coordinates",
+   "method": "digitised_auto",
+   "tool": "geosigma.extract.goldman_1999 (staircase trace, 300 dpi)",
+   "extracted_on": "2026-10-24",
+   "notes": "Axis values read from the labels and checked against the tick marks; the station's coordinates are printed in the text."
+  }
+ },
+ {
+  "id": "goldman1999-ZOFAR-1-layered",
+  "survey": "goldman-1999-tdem-arava-reservoirs",
+  "site": "ZOFAR-1",
+  "method": "TEM",
+  "level": "L2",
+  "representation": "model_1d",
+  "measured_on": null,
+  "depth_max_m": 400.0,
+  "confidence": "B",
+  "status": "draft",
+  "model_type": "layered",
+  "layers": [
+   {
+    "top_m": 0.0,
+    "bottom_m": 27.8,
+    "rho_ohmm": 67.2
+   },
+   {
+    "top_m": 27.8,
+    "bottom_m": 55.7,
+    "rho_ohmm": 12.4
+   },
+   {
+    "top_m": 55.7,
+    "bottom_m": 100.8,
+    "rho_ohmm": 49.2
+   },
+   {
+    "top_m": 100.8,
+    "bottom_m": 260.7,
+    "rho_ohmm": 14.1
+   },
+   {
+    "top_m": 260.7,
+    "bottom_m": 315.3,
+    "rho_ohmm": 2.22
+   },
+   {
+    "top_m": 315.3,
+    "bottom_m": null,
+    "rho_ohmm": 103.0
+   }
+  ],
+  "digitisation_error": "+-0.03 log10 rho, +-3 m (line width and axis fit)",
+  "provenance": {
+   "document": "main",
+   "pages": [
+    27,
+    5
+   ],
+   "figure": "Appendix, layered inversion plot ZOFAR-1 (right panel); text with the coordinates",
+   "method": "digitised_auto",
+   "tool": "geosigma.extract.goldman_1999 (staircase trace, 300 dpi)",
+   "extracted_on": "2026-10-24",
+   "notes": "Axis values read from the labels and checked against the tick marks; the station's coordinates are printed in the text."
+  }
+ },
+ {
+  "id": "goldman1999-ZOFAR-1-smooth",
+  "survey": "goldman-1999-tdem-arava-reservoirs",
+  "site": "ZOFAR-1",
+  "method": "TEM",
+  "level": "L2",
+  "representation": "model_1d",
+  "measured_on": null,
+  "depth_max_m": 300.0,
+  "confidence": "B",
+  "status": "draft",
+  "model_type": "smooth",
+  "layers": [
+   {
+    "top_m": 0.0,
+    "bottom_m": 12.6,
+    "rho_ohmm": 68.9
+   },
+   {
+    "top_m": 12.6,
+    "bottom_m": 20.6,
+    "rho_ohmm": 76.5
+   },
+   {
+    "top_m": 20.6,
+    "bottom_m": 26.1,
+    "rho_ohmm": 44.8
+   },
+   {
+    "top_m": 26.1,
+    "bottom_m": 33.4,
+    "rho_ohmm": 17.2
+   },
+   {
+    "top_m": 33.4,
+    "bottom_m": 42.4,
+    "rho_ohmm": 10.5
+   },
+   {
+    "top_m": 42.4,
+    "bottom_m": 53.4,
+    "rho_ohmm": 13.9
+   },
+   {
+    "top_m": 53.4,
+    "bottom_m": 68.0,
+    "rho_ohmm": 33.9
+   },
+   {
+    "top_m": 68.0,
+    "bottom_m": 86.0,
+    "rho_ohmm": 49.6
+   },
+   {
+    "top_m": 86.0,
+    "bottom_m": 109.3,
+    "rho_ohmm": 27.0
+   },
+   {
+    "top_m": 109.3,
+    "bottom_m": 139.0,
+    "rho_ohmm": 12.0
+   },
+   {
+    "top_m": 139.0,
+    "bottom_m": 175.8,
+    "rho_ohmm": 15.9
+   },
+   {
+    "top_m": 175.8,
+    "bottom_m": 222.7,
+    "rho_ohmm": 11.2
+   },
+   {
+    "top_m": 222.7,
+    "bottom_m": null,
+    "rho_ohmm": 3.26
+   }
+  ],
+  "digitisation_error": "+-0.03 log10 rho, +-3 m (line width and axis fit)",
+  "provenance": {
+   "document": "main",
+   "pages": [
+    28,
+    5
+   ],
+   "figure": "Appendix, smooth inversion plot ZOFAR-1 (right panel); text with the coordinates",
+   "method": "digitised_auto",
+   "tool": "geosigma.extract.goldman_1999 (staircase trace, 300 dpi)",
+   "extracted_on": "2026-10-24",
+   "notes": "Axis values read from the labels and checked against the tick marks; the station's coordinates are printed in the text."
+  }
+ },
+ {
+  "id": "goldman1999-ZOFAR-2-layered",
+  "survey": "goldman-1999-tdem-arava-reservoirs",
+  "site": "ZOFAR-2",
+  "method": "TEM",
+  "level": "L2",
+  "representation": "model_1d",
+  "measured_on": null,
+  "depth_max_m": 400.0,
+  "confidence": "C",
+  "status": "draft",
+  "model_type": "layered",
+  "layers": [
+   {
+    "top_m": 0.0,
+    "bottom_m": 11.5,
+    "rho_ohmm": 20.5
+   },
+   {
+    "top_m": 11.5,
+    "bottom_m": 19.0,
+    "rho_ohmm": 10.5
+   },
+   {
+    "top_m": 19.0,
+    "bottom_m": 91.1,
+    "rho_ohmm": 52.6
+   },
+   {
+    "top_m": 91.1,
+    "bottom_m": 303.4,
+    "rho_ohmm": 23.4
+   },
+   {
+    "top_m": 303.4,
+    "bottom_m": 347.7,
+    "rho_ohmm": 3.5
+   },
+   {
+    "top_m": 347.7,
+    "bottom_m": null,
+    "rho_ohmm": 112.0
+   }
+  ],
+  "notes": "The author says this station lies near a high-voltage line and its data are distorted; Zofar-3 was measured 200 m east to replace it.",
+  "digitisation_error": "+-0.03 log10 rho, +-3 m (line width and axis fit)",
+  "provenance": {
+   "document": "main",
+   "pages": [
+    29,
+    5
+   ],
+   "figure": "Appendix, layered inversion plot ZOFAR-2 (right panel); text with the coordinates",
+   "method": "digitised_auto",
+   "tool": "geosigma.extract.goldman_1999 (staircase trace, 300 dpi)",
+   "extracted_on": "2026-10-24",
+   "notes": "Axis values read from the labels and checked against the tick marks; the station's coordinates are printed in the text."
+  }
+ },
+ {
+  "id": "goldman1999-ZOFAR-2-smooth",
+  "survey": "goldman-1999-tdem-arava-reservoirs",
+  "site": "ZOFAR-2",
+  "method": "TEM",
+  "level": "L2",
+  "representation": "model_1d",
+  "measured_on": null,
+  "depth_max_m": 500.0,
+  "confidence": "C",
+  "status": "draft",
+  "model_type": "smooth",
+  "layers": [
+   {
+    "top_m": 0.0,
+    "bottom_m": 11.6,
+    "rho_ohmm": 21.6
+   },
+   {
+    "top_m": 11.6,
+    "bottom_m": 15.1,
+    "rho_ohmm": 13.2
+   },
+   {
+    "top_m": 15.1,
+    "bottom_m": 19.4,
+    "rho_ohmm": 10.7
+   },
+   {
+    "top_m": 19.4,
+    "bottom_m": 25.0,
+    "rho_ohmm": 34.3
+   },
+   {
+    "top_m": 25.0,
+    "bottom_m": 33.7,
+    "rho_ohmm": 58.4
+   },
+   {
+    "top_m": 33.7,
+    "bottom_m": 58.9,
+    "rho_ohmm": 90.2
+   },
+   {
+    "top_m": 58.9,
+    "bottom_m": 78.6,
+    "rho_ohmm": 48.5
+   },
+   {
+    "top_m": 78.6,
+    "bottom_m": 137.8,
+    "rho_ohmm": 25.2
+   },
+   {
+    "top_m": 137.8,
+    "bottom_m": 183.2,
+    "rho_ohmm": 37.6
+   },
+   {
+    "top_m": 183.2,
+    "bottom_m": 243.8,
+    "rho_ohmm": 25.2
+   },
+   {
+    "top_m": 243.8,
+    "bottom_m": 323.6,
+    "rho_ohmm": 7.25
+   },
+   {
+    "top_m": 323.6,
+    "bottom_m": null,
+    "rho_ohmm": 29.6
+   }
+  ],
+  "notes": "The author says this station lies near a high-voltage line and its data are distorted; Zofar-3 was measured 200 m east to replace it.",
+  "digitisation_error": "+-0.03 log10 rho, +-3 m (line width and axis fit)",
+  "provenance": {
+   "document": "main",
+   "pages": [
+    30,
+    5
+   ],
+   "figure": "Appendix, smooth inversion plot ZOFAR-2 (right panel); text with the coordinates",
+   "method": "digitised_auto",
+   "tool": "geosigma.extract.goldman_1999 (staircase trace, 300 dpi)",
+   "extracted_on": "2026-10-24",
+   "notes": "Axis values read from the labels and checked against the tick marks; the station's coordinates are printed in the text."
+  }
+ },
+ {
+  "id": "goldman1999-ZOFAR-3-layered",
+  "survey": "goldman-1999-tdem-arava-reservoirs",
+  "site": "ZOFAR-3",
+  "method": "TEM",
+  "level": "L2",
+  "representation": "model_1d",
+  "measured_on": null,
+  "depth_max_m": 400.0,
+  "confidence": "B",
+  "status": "draft",
+  "model_type": "layered",
+  "layers": [
+   {
+    "top_m": 0.0,
+    "bottom_m": 11.4,
+    "rho_ohmm": 39.6
+   },
+   {
+    "top_m": 11.4,
+    "bottom_m": 23.3,
+    "rho_ohmm": 7.03
+   },
+   {
+    "top_m": 23.3,
+    "bottom_m": 127.8,
+    "rho_ohmm": 79.3
+   },
+   {
+    "top_m": 127.8,
+    "bottom_m": 302.4,
+    "rho_ohmm": 28.2
+   },
+   {
+    "top_m": 302.4,
+    "bottom_m": 351.5,
+    "rho_ohmm": 3.47
+   },
+   {
+    "top_m": 351.5,
+    "bottom_m": null,
+    "rho_ohmm": 105.0
+   }
+  ],
+  "digitisation_error": "+-0.03 log10 rho, +-3 m (line width and axis fit)",
+  "provenance": {
+   "document": "main",
+   "pages": [
+    31,
+    5
+   ],
+   "figure": "Appendix, layered inversion plot ZOFAR-3 (right panel); text with the coordinates",
+   "method": "digitised_auto",
+   "tool": "geosigma.extract.goldman_1999 (staircase trace, 300 dpi)",
+   "extracted_on": "2026-10-24",
+   "notes": "Axis values read from the labels and checked against the tick marks; the station's coordinates are printed in the text."
+  }
+ },
+ {
+  "id": "goldman1999-ZOFAR-3-smooth",
+  "survey": "goldman-1999-tdem-arava-reservoirs",
+  "site": "ZOFAR-3",
+  "method": "TEM",
+  "level": "L2",
+  "representation": "model_1d",
+  "measured_on": null,
+  "depth_max_m": 300.0,
+  "confidence": "B",
+  "status": "draft",
+  "model_type": "smooth",
+  "layers": [
+   {
+    "top_m": 0.0,
+    "bottom_m": 10.1,
+    "rho_ohmm": 40.0
+   },
+   {
+    "top_m": 10.1,
+    "bottom_m": 13.0,
+    "rho_ohmm": 9.97
+   },
+   {
+    "top_m": 13.0,
+    "bottom_m": 16.7,
+    "rho_ohmm": 5.32
+   },
+   {
+    "top_m": 16.7,
+    "bottom_m": 20.9,
+    "rho_ohmm": 8.68
+   },
+   {
+    "top_m": 20.9,
+    "bottom_m": 26.6,
+    "rho_ohmm": 18.3
+   },
+   {
+    "top_m": 26.6,
+    "bottom_m": 33.7,
+    "rho_ohmm": 36.0
+   },
+   {
+    "top_m": 33.7,
+    "bottom_m": 42.9,
+    "rho_ohmm": 56.3
+   },
+   {
+    "top_m": 42.9,
+    "bottom_m": 87.9,
+    "rho_ohmm": 80.2
+   },
+   {
+    "top_m": 87.9,
+    "bottom_m": 111.4,
+    "rho_ohmm": 66.0
+   },
+   {
+    "top_m": 111.4,
+    "bottom_m": 141.1,
+    "rho_ohmm": 52.8
+   },
+   {
+    "top_m": 141.1,
+    "bottom_m": 179.1,
+    "rho_ohmm": 43.7
+   },
+   {
+    "top_m": 179.1,
+    "bottom_m": 226.9,
+    "rho_ohmm": 28.4
+   },
+   {
+    "top_m": 226.9,
+    "bottom_m": null,
+    "rho_ohmm": 9.48
+   }
+  ],
+  "digitisation_error": "+-0.03 log10 rho, +-3 m (line width and axis fit)",
+  "provenance": {
+   "document": "main",
+   "pages": [
+    32,
+    5
+   ],
+   "figure": "Appendix, smooth inversion plot ZOFAR-3 (right panel); text with the coordinates",
+   "method": "digitised_auto",
+   "tool": "geosigma.extract.goldman_1999 (staircase trace, 300 dpi)",
+   "extracted_on": "2026-10-24",
+   "notes": "Axis values read from the labels and checked against the tick marks; the station's coordinates are printed in the text."
+  }
+ }
+]

@@ -1,0 +1,3048 @@
+# Rabinovich et al. 1993, IPRG 735/296/92. Layered models from the appendix printouts (pages 12-77): tesseract at 400 dpi,
+# rows that did not parse read by eye; every row checked against the printed elevation (running depth) and
+# conductance (thickness / resistivity); half-spaces double-read (tesseract and the PDF text layer, or by eye).
+# Table 2 typed from the page and cross-checked with the text layer, the printout coordinates and the printout models.
+document: main
+unit: ohm.m
+method: TEM
+prefix: rabinovich1993
+measured_on: '1993'
+confidence: A
+crs: EPSG:28193
+xy_scale: 10
+site_word: TDEM station
+coord_source: table
+accuracy_m: 50
+table: 'Appendix (layered inversion printout: resistivity, thickness, elevation, conductance)'
+interface_kinds:
+  first: top of the first low-resistivity layer (author, Table 2)
+  second: top of the second low-resistivity layer (author, Table 2)
+box_caption: 'The boxed row is the author''s Table 2 entry for this station: resistivity (ohm.m) and depth H (m)
+  of the first and second low-resistivity layers'
+prov_notes: Coordinates from Table 2 (pages 7-8), Old Israel Grid in units of 10 m. Depth = running sum of the printed
+  thicknesses; each row was checked against the printed elevation and conductance.
+sites:
+- id: HS233
+  name: TDEM station HS233 (Mediterranean coastal aquifer)
+  xy:
+  - 11820
+  - 13930
+  page: 12
+  box:
+  - 0.1
+  - 0.036
+  - 0.95
+  - 0.303
+  layers:
+  - - 0.0
+    - 61.3
+    - 53.65
+    - null
+    - thick: 61.3
+  - - 61.3
+    - 72.63
+    - 5.25
+    - null
+    - thick: 11.33
+  - - 72.63
+    - 168.93
+    - 20.13
+    - null
+    - thick: 96.3
+  - - 168.93
+    - null
+    - 4.02
+  confidence: B
+  notes: 'Author''s remark in Table 2: Noise (EM-37 only).'
+- id: HS233-t2
+  site: HS233
+  model_id: HS233
+  page: 7
+  table: Table 2
+  box:
+  - 0.04
+  - 0.2406
+  - 0.93
+  - 0.2611
+  interfaces:
+  - - 61.0
+    - first
+  - - 169.0
+    - second
+  notes: 'First low-resistivity layer 5.2 ohm.m. Second low-resistivity layer 4.0 ohm.m. Author''s remark in Table
+    2: Noise (EM-37 only).'
+  confidence: B
+- id: HS234
+  name: TDEM station HS234 (Mediterranean coastal aquifer)
+  xy:
+  - 11601
+  - 13572
+  page: 13
+  box:
+  - 0.1
+  - 0.042
+  - 0.95
+  - 0.304
+  layers:
+  - - 0.0
+    - 12.68
+    - 18.13
+    - null
+    - thick: 12.68
+  - - 12.68
+    - 29.84
+    - 46.77
+    - null
+    - thick: 17.16
+  - - 29.84
+    - 105.46
+    - 1.72
+    - null
+    - thick: 75.62
+  - - 105.46
+    - null
+    - 116.3
+- id: HS234-t2
+  site: HS234
+  model_id: HS234
+  page: 7
+  table: Table 2
+  box:
+  - 0.04
+  - 0.2551
+  - 0.93
+  - 0.2756
+  interfaces:
+  - - 30.0
+    - first
+  notes: First low-resistivity layer 1.7 ohm.m.
+- id: HS235
+  name: TDEM station HS235 (Mediterranean coastal aquifer)
+  xy:
+  - 12945
+  - 16912
+  page: 14
+  box:
+  - 0.1
+  - 0.05
+  - 0.95
+  - 0.336
+  layers:
+  - - 0.0
+    - 12.8
+    - 10.42
+    - null
+    - thick: 12.8
+  - - 12.8
+    - 34.05
+    - 162.2
+    - null
+    - thick: 21.25
+  - - 34.05
+    - 41.24
+    - 1.42
+    - null
+    - thick: 7.19
+  - - 41.24
+    - 67.89
+    - 20.85
+    - null
+    - thick: 26.65
+  - - 67.89
+    - 97.11
+    - 1.49
+    - null
+    - thick: 29.22
+  - - 97.11
+    - null
+    - 2.58
+  confidence: C
+  notes: 'Printout data set HS235A. Author''s remark in Table 2: Not reliable.'
+- id: HS235-t2
+  site: HS235
+  model_id: HS235
+  page: 7
+  table: Table 2
+  box:
+  - 0.04
+  - 0.2696
+  - 0.93
+  - 0.2901
+  interfaces:
+  - - 34.0
+    - first
+  - - 68.0
+    - second
+  notes: 'First low-resistivity layer 1.4 ohm.m. Second low-resistivity layer 1.5 ohm.m. Author''s remark in Table
+    2: Not reliable.'
+  confidence: C
+- id: HS236
+  name: TDEM station HS236 (Mediterranean coastal aquifer)
+  xy:
+  - 13025
+  - 17117
+  page: 15
+  box:
+  - 0.1
+  - 0.03
+  - 0.95
+  - 0.291
+  layers:
+  - - 0.0
+    - 45.37
+    - 46.38
+    - null
+    - thick: 45.37
+  - - 45.37
+    - 95.71
+    - 2.34
+    - null
+    - thick: 50.34
+  - - 95.71
+    - null
+    - 4.27
+- id: HS236-t2
+  site: HS236
+  model_id: HS236
+  page: 7
+  table: Table 2
+  box:
+  - 0.04
+  - 0.2838
+  - 0.93
+  - 0.3043
+  interfaces:
+  - - 45.0
+    - first
+  notes: First low-resistivity layer 2.3 ohm.m.
+- id: HS237
+  name: TDEM station HS237 (Mediterranean coastal aquifer)
+  xy:
+  - 13100
+  - 17300
+  page: 16
+  box:
+  - 0.1
+  - 0.033
+  - 0.95
+  - 0.317
+  layers:
+  - - 0.0
+    - 79.37
+    - 54.86
+    - null
+    - thick: 79.37
+  - - 79.37
+    - 87.83
+    - 5.59
+    - null
+    - thick: 8.46
+  - - 87.83
+    - 107.72
+    - 115.6
+    - null
+    - thick: 19.89
+  - - 107.72
+    - 190.89
+    - 7.39
+    - null
+    - thick: 83.17
+  - - 190.89
+    - null
+    - 1.82
+- id: HS237-t2
+  site: HS237
+  model_id: HS237
+  page: 7
+  table: Table 2
+  box:
+  - 0.04
+  - 0.2982
+  - 0.93
+  - 0.3187
+  interfaces:
+  - - 191.0
+    - first
+  notes: First low-resistivity layer 1.8 ohm.m.
+- id: HS238
+  name: TDEM station HS238 (Mediterranean coastal aquifer)
+  xy:
+  - 13129
+  - 17465
+  page: 17
+  box:
+  - 0.1
+  - 0.05
+  - 0.95
+  - 0.322
+  layers:
+  - - 0.0
+    - 2.07
+    - 2.64
+    - null
+    - thick: 2.07
+  - - 2.07
+    - 30.31
+    - 196.4
+    - null
+    - thick: 28.24
+  - - 30.31
+    - 100.27
+    - 1.8
+    - null
+    - thick: 69.96
+  - - 100.27
+    - null
+    - 8.45
+- id: HS238-t2
+  site: HS238
+  model_id: HS238
+  page: 7
+  table: Table 2
+  box:
+  - 0.04
+  - 0.3137
+  - 0.93
+  - 0.3342
+  interfaces:
+  - - 30.0
+    - first
+  notes: First low-resistivity layer 1.8 ohm.m.
+- id: HS239
+  name: TDEM station HS239 (Mediterranean coastal aquifer)
+  xy:
+  - 13158
+  - 17462
+  page: 18
+  box:
+  - 0.1
+  - 0.031
+  - 0.95
+  - 0.302
+  layers:
+  - - 0.0
+    - 2.99
+    - 11.32
+    - null
+    - thick: 2.99
+  - - 2.99
+    - 56.18
+    - 47.29
+    - null
+    - thick: 53.19
+  - - 56.18
+    - 93.21
+    - 3.6
+    - null
+    - thick: 37.03
+  - - 93.21
+    - null
+    - 0.894
+  confidence: C
+  notes: 'Author''s remark in Table 2: Not reliable.'
+- id: HS239-t2
+  site: HS239
+  model_id: HS239
+  page: 7
+  table: Table 2
+  box:
+  - 0.04
+  - 0.3285
+  - 0.93
+  - 0.349
+  interfaces:
+  - - 93.0
+    - first
+  notes: 'First low-resistivity layer 0.9 ohm.m. Author''s remark in Table 2: Not reliable.'
+  confidence: C
+- id: HS240
+  name: TDEM station HS240 (Mediterranean coastal aquifer)
+  xy:
+  - 13192
+  - 17704
+  page: 19
+  box:
+  - 0.1
+  - 0.025
+  - 0.95
+  - 0.3
+  layers:
+  - - 0.0
+    - 37.29
+    - 52.63
+    - null
+    - thick: 37.29
+  - - 37.29
+    - 49.83
+    - 0.973
+    - null
+    - thick: 12.54
+  - - 49.83
+    - 67.17
+    - 0.227
+    - null
+    - thick: 17.34
+  - - 67.17
+    - null
+    - 26.49
+  confidence: C
+  notes: 'Author''s remark in Table 2: Not reliable.'
+- id: HS240-t2
+  site: HS240
+  model_id: HS240
+  page: 7
+  table: Table 2
+  box:
+  - 0.04
+  - 0.3433
+  - 0.93
+  - 0.3638
+  interfaces:
+  - - 37.0
+    - first
+  notes: 'First low-resistivity layer 1.0 ohm.m. Author''s remark in Table 2: Not reliable.'
+  confidence: C
+- id: HS241
+  name: TDEM station HS241 (Mediterranean coastal aquifer)
+  xy:
+  - 13320
+  - 17935
+  page: 22
+  box:
+  - 0.1
+  - 0.029
+  - 0.95
+  - 0.306
+  layers:
+  - - 0.0
+    - 53.43
+    - 74.87
+    - null
+    - thick: 53.43
+  - - 53.43
+    - 91.11
+    - 28.32
+    - null
+    - thick: 37.68
+  - - 91.11
+    - 135.21
+    - 1.66
+    - null
+    - thick: 44.1
+  - - 135.21
+    - null
+    - 9.02
+  confidence: B
+  notes: 'Author''s remark in Table 2: Noise (EM-37 only).'
+- id: HS241-t2
+  site: HS241
+  model_id: HS241
+  page: 7
+  table: Table 2
+  box:
+  - 0.04
+  - 0.3578
+  - 0.93
+  - 0.3783
+  interfaces:
+  - - 91.0
+    - first
+  notes: 'First low-resistivity layer 1.7 ohm.m. Author''s remark in Table 2: Noise (EM-37 only).'
+  confidence: B
+- id: HS242
+  name: TDEM station HS242 (Mediterranean coastal aquifer)
+  xy:
+  - 13225
+  - 17745
+  page: 23
+  box:
+  - 0.1
+  - 0.05
+  - 0.95
+  - 0.299
+  layers:
+  - - 0.0
+    - 15.52
+    - 105.5
+    - null
+    - thick: 15.52
+  - - 15.52
+    - 57.79
+    - 21.69
+    - null
+    - thick: 42.27
+  - - 57.79
+    - 126.5
+    - 1.75
+    - null
+    - thick: 68.71
+  - - 126.5
+    - null
+    - 54.54
+  confidence: B
+  notes: 'Author''s remark in Table 2: Noise (EM-37 only).'
+- id: HS242-t2
+  site: HS242
+  model_id: HS242
+  page: 7
+  table: Table 2
+  box:
+  - 0.04
+  - 0.3716
+  - 0.93
+  - 0.3921
+  interfaces:
+  - - 58.0
+    - first
+  notes: 'First low-resistivity layer 1.8 ohm.m. Author''s remark in Table 2: Noise (EM-37 only).'
+  confidence: B
+- id: HS243
+  name: TDEM station HS243 (Mediterranean coastal aquifer)
+  xy:
+  - 13267
+  - 17969
+  page: 24
+  box:
+  - 0.1
+  - 0.03
+  - 0.95
+  - 0.304
+  layers:
+  - - 0.0
+    - 42.32
+    - 109.9
+    - null
+    - thick: 42.32
+  - - 42.32
+    - 73.22
+    - 24.01
+    - null
+    - thick: 30.9
+  - - 73.22
+    - 146.72
+    - 1.42
+    - null
+    - thick: 73.5
+  - - 146.72
+    - null
+    - 3.97
+  confidence: B
+  notes: 'Author''s remark in Table 2: Noise (EM-37 only).'
+- id: HS243-t2
+  site: HS243
+  model_id: HS243
+  page: 7
+  table: Table 2
+  box:
+  - 0.04
+  - 0.3871
+  - 0.93
+  - 0.4076
+  interfaces:
+  - - 73.0
+    - first
+  notes: 'First low-resistivity layer 1.4 ohm.m. Author''s remark in Table 2: Noise (EM-37 only).'
+  confidence: B
+- id: HS244
+  name: TDEM station HS244 (Mediterranean coastal aquifer)
+  xy:
+  - 13420
+  - 18285
+  page: 25
+  box:
+  - 0.1
+  - 0.05
+  - 0.95
+  - 0.303
+  layers:
+  - - 0.0
+    - 80.86
+    - 40.26
+    - null
+    - thick: 80.86
+  - - 80.86
+    - 98.84
+    - 1.13
+    - null
+    - thick: 17.98
+  - - 98.84
+    - 162.51
+    - 51.73
+    - null
+    - thick: 63.67
+  - - 162.51
+    - null
+    - 2.08
+  notes: 'Author''s remark in Table 2: EM-37.'
+- id: HS244-t2
+  site: HS244
+  model_id: HS244
+  page: 7
+  table: Table 2
+  box:
+  - 0.04
+  - 0.4019
+  - 0.93
+  - 0.4224
+  interfaces:
+  - - 81.0
+    - first
+  - - 162.0
+    - second
+  notes: 'First low-resistivity layer 1.1 ohm.m. Second low-resistivity layer 2.1 ohm.m. Author''s remark in Table
+    2: EM-37.'
+- id: HS245
+  name: TDEM station HS245 (Mediterranean coastal aquifer)
+  xy:
+  - 13340
+  - 17935
+  page: 26
+  box:
+  - 0.1
+  - 0.036
+  - 0.95
+  - 0.364
+  layers:
+  - - 0.0
+    - 71.28
+    - 45.56
+    - null
+    - thick: 71.28
+  - - 71.28
+    - 118.64
+    - 1.89
+    - null
+    - thick: 47.36
+  - - 118.64
+    - null
+    - 6.3
+  notes: 'Author''s remark in Table 2: EM-37.'
+- id: HS245-t2
+  site: HS245
+  model_id: HS245
+  page: 7
+  table: Table 2
+  box:
+  - 0.04
+  - 0.4157
+  - 0.93
+  - 0.4362
+  interfaces:
+  - - 71.0
+    - first
+  notes: 'First low-resistivity layer 1.9 ohm.m. Author''s remark in Table 2: EM-37.'
+- id: HS246
+  name: TDEM station HS246 (Mediterranean coastal aquifer)
+  xy:
+  - 13478
+  - 18412
+  page: 27
+  box:
+  - 0.1
+  - 0.033
+  - 0.95
+  - 0.318
+  layers:
+  - - 0.0
+    - 0.94
+    - 2.49
+    - null
+    - thick: 0.937
+  - - 0.94
+    - 45.21
+    - 92.7
+    - null
+    - thick: 44.27
+  - - 45.21
+    - 53.27
+    - 25.89
+    - null
+    - thick: 8.06
+  - - 53.27
+    - 153.27
+    - 9.39
+    - null
+    - thick: 100.0
+  - - 153.27
+    - null
+    - 2.83
+- id: HS246-t2
+  site: HS246
+  model_id: HS246
+  page: 7
+  table: Table 2
+  box:
+  - 0.04
+  - 0.4302
+  - 0.93
+  - 0.4507
+  interfaces:
+  - - 153.0
+    - first
+  notes: First low-resistivity layer 2.8 ohm.m.
+- id: HS247
+  name: TDEM station HS247 (Mediterranean coastal aquifer)
+  xy:
+  - 13470
+  - 18710
+  page: 28
+  box:
+  - 0.1
+  - 0.034
+  - 0.95
+  - 0.303
+  layers:
+  - - 0.0
+    - 2.23
+    - 8.2
+    - null
+    - thick: 2.23
+  - - 2.23
+    - 31.27
+    - 37.82
+    - null
+    - thick: 29.04
+  - - 31.27
+    - 92.92
+    - 1.4
+    - null
+    - thick: 61.65
+  - - 92.92
+    - null
+    - 4.05
+- id: HS247-t2
+  site: HS247
+  model_id: HS247
+  page: 7
+  table: Table 2
+  box:
+  - 0.04
+  - 0.4456
+  - 0.93
+  - 0.4661
+  interfaces:
+  - - 31.0
+    - first
+  notes: First low-resistivity layer 1.4 ohm.m.
+- id: HS248
+  name: TDEM station HS248 (Mediterranean coastal aquifer)
+  xy:
+  - 13772
+  - 19910
+  page: 29
+  box:
+  - 0.1
+  - 0.042
+  - 0.95
+  - 0.325
+  layers:
+  - - 0.0
+    - 1.45
+    - 15.7
+    - null
+    - thick: 1.45
+  - - 1.45
+    - 52.85
+    - 51.07
+    - null
+    - thick: 51.4
+  - - 52.85
+    - 108.48
+    - 1.35
+    - null
+    - thick: 55.63
+  - - 108.48
+    - null
+    - 6.49
+- id: HS248-t2
+  site: HS248
+  model_id: HS248
+  page: 7
+  table: Table 2
+  box:
+  - 0.04
+  - 0.4598
+  - 0.93
+  - 0.4803
+  interfaces:
+  - - 53.0
+    - first
+  notes: First low-resistivity layer 1.4 ohm.m.
+- id: HS249
+  name: TDEM station HS249 (Mediterranean coastal aquifer)
+  xy:
+  - 13846
+  - 20024
+  page: 30
+  box:
+  - 0.1
+  - 0.032
+  - 0.95
+  - 0.309
+  layers:
+  - - 0.0
+    - 5.85
+    - 9.55
+    - null
+    - thick: 5.85
+  - - 5.85
+    - 51.85
+    - 250.5
+    - null
+    - thick: 46.0
+  - - 51.85
+    - 81.99
+    - 1.4
+    - null
+    - thick: 30.14
+  - - 81.99
+    - null
+    - 3.22
+  confidence: B
+  notes: 'Author''s remark in Table 2: Geological noise.'
+- id: HS249-t2
+  site: HS249
+  model_id: HS249
+  page: 7
+  table: Table 2
+  box:
+  - 0.04
+  - 0.4752
+  - 0.93
+  - 0.4957
+  interfaces:
+  - - 52.0
+    - first
+  notes: 'First low-resistivity layer 1.4 ohm.m. Author''s remark in Table 2: Geological noise.'
+  confidence: B
+- id: HS250
+  name: TDEM station HS250 (Mediterranean coastal aquifer)
+  xy:
+  - 14045
+  - 20910
+  page: 31
+  box:
+  - 0.1
+  - 0.051
+  - 0.95
+  - 0.322
+  layers:
+  - - 0.0
+    - 3.8
+    - 6.79
+    - null
+    - thick: 3.8
+  - - 3.8
+    - 65.31
+    - 209.8
+    - null
+    - thick: 61.51
+  - - 65.31
+    - 104.69
+    - 10.4
+    - null
+    - thick: 39.38
+  - - 104.69
+    - null
+    - 3.33
+- id: HS250-t2
+  site: HS250
+  model_id: HS250
+  page: 7
+  table: Table 2
+  box:
+  - 0.04
+  - 0.4891
+  - 0.93
+  - 0.5096
+  interfaces:
+  - - 105.0
+    - first
+  notes: First low-resistivity layer 3.3 ohm.m.
+- id: HS251
+  name: TDEM station HS251 (Mediterranean coastal aquifer)
+  xy:
+  - 14023
+  - 21019
+  page: 32
+  box:
+  - 0.1
+  - 0.058
+  - 0.95
+  - 0.334
+  layers:
+  - - 0.0
+    - 5.38
+    - 10.51
+    - null
+    - thick: 5.38
+  - - 5.38
+    - 50.31
+    - 75.98
+    - null
+    - thick: 44.93
+  - - 50.31
+    - 68.46
+    - 19.72
+    - null
+    - thick: 18.15
+  - - 68.46
+    - null
+    - 3.27
+- id: HS251-t2
+  site: HS251
+  model_id: HS251
+  page: 7
+  table: Table 2
+  box:
+  - 0.04
+  - 0.5039
+  - 0.93
+  - 0.5244
+  interfaces:
+  - - 68.0
+    - first
+  notes: First low-resistivity layer 3.3 ohm.m.
+- id: HS252
+  name: TDEM station HS252 (Mediterranean coastal aquifer)
+  xy:
+  - 13970
+  - 20986
+  page: 33
+  box:
+  - 0.1
+  - 0.035
+  - 0.95
+  - 0.3
+  layers:
+  - - 0.0
+    - 41.71
+    - 27.64
+    - null
+    - thick: 41.71
+  - - 41.71
+    - 110.83
+    - 1.47
+    - null
+    - thick: 69.12
+  - - 110.83
+    - null
+    - 2.56
+- id: HS252-t2
+  site: HS252
+  model_id: HS252
+  page: 7
+  table: Table 2
+  box:
+  - 0.04
+  - 0.5193
+  - 0.93
+  - 0.5398
+  interfaces:
+  - - 42.0
+    - first
+  notes: First low-resistivity layer 1.5 ohm.m.
+- id: HS253
+  name: TDEM station HS253 (Mediterranean coastal aquifer)
+  xy:
+  - 14062
+  - 21328
+  page: 34
+  box:
+  - 0.1
+  - 0.061
+  - 0.95
+  - 0.324
+  layers:
+  - - 0.0
+    - 2.58
+    - 7.58
+    - null
+    - thick: 2.58
+  - - 2.58
+    - 48.18
+    - 24.64
+    - null
+    - thick: 45.6
+  - - 48.18
+    - null
+    - 3.22
+- id: HS253-t2
+  site: HS253
+  model_id: HS253
+  page: 7
+  table: Table 2
+  box:
+  - 0.04
+  - 0.5335
+  - 0.93
+  - 0.554
+  interfaces:
+  - - 48.0
+    - first
+  notes: First low-resistivity layer 3.2 ohm.m.
+- id: HS254
+  name: TDEM station HS254 (Mediterranean coastal aquifer)
+  xy:
+  - 13810
+  - 20045
+  page: 35
+  box:
+  - 0.1
+  - 0.055
+  - 0.95
+  - 0.328
+  layers:
+  - - 0.0
+    - 2.12
+    - 5.12
+    - null
+    - thick: 2.12
+  - - 2.12
+    - 45.89
+    - 88.86
+    - null
+    - thick: 43.77
+  - - 45.89
+    - 86.7
+    - 1.38
+    - null
+    - thick: 40.81
+  - - 86.7
+    - null
+    - 2.83
+- id: HS254-t2
+  site: HS254
+  model_id: HS254
+  page: 7
+  table: Table 2
+  box:
+  - 0.04
+  - 0.5482
+  - 0.93
+  - 0.5687
+  interfaces:
+  - - 46.0
+    - first
+  notes: First low-resistivity layer 1.4 ohm.m.
+- id: HS255
+  name: TDEM station HS255 (Mediterranean coastal aquifer)
+  xy:
+  - 13920
+  - 20250
+  page: 36
+  box:
+  - 0.1
+  - 0.04
+  - 0.95
+  - 0.316
+  layers:
+  - - 0.0
+    - 1.96
+    - 9.06
+    - null
+    - thick: 1.96
+  - - 1.96
+    - 62.04
+    - 83.99
+    - null
+    - thick: 60.08
+  - - 62.04
+    - 82.28
+    - 2.43
+    - null
+    - thick: 20.24
+  - - 82.28
+    - 168.97
+    - 9.11
+    - null
+    - thick: 86.69
+  - - 168.97
+    - null
+    - 1.62
+- id: HS255-t2
+  site: HS255
+  model_id: HS255
+  page: 7
+  table: Table 2
+  box:
+  - 0.04
+  - 0.5637
+  - 0.93
+  - 0.5842
+  interfaces:
+  - - 62.0
+    - first
+  - - 169.0
+    - second
+  notes: First low-resistivity layer 2.4 ohm.m. Second low-resistivity layer 1.6 ohm.m.
+- id: HS256
+  name: TDEM station HS256 (Mediterranean coastal aquifer)
+  xy:
+  - 13850
+  - 20270
+  page: 37
+  box:
+  - 0.1
+  - 0.055
+  - 0.95
+  - 0.328
+  layers:
+  - - 0.0
+    - 1.03
+    - 4.42
+    - null
+    - thick: 1.03
+  - - 1.03
+    - 44.71
+    - 71.3
+    - null
+    - thick: 43.68
+  - - 44.71
+    - 93.48
+    - 1.49
+    - null
+    - thick: 48.77
+  - - 93.48
+    - null
+    - 3.54
+- id: HS256-t2
+  site: HS256
+  model_id: HS256
+  page: 7
+  table: Table 2
+  box:
+  - 0.04
+  - 0.5778
+  - 0.93
+  - 0.5983
+  interfaces:
+  - - 45.0
+    - first
+  notes: First low-resistivity layer 1.5 ohm.m.
+- id: HS257
+  name: TDEM station HS257 (Mediterranean coastal aquifer)
+  xy:
+  - 13915
+  - 20465
+  page: 38
+  box:
+  - 0.1
+  - 0.035
+  - 0.95
+  - 0.322
+  layers:
+  - - 0.0
+    - 1.03
+    - 2.54
+    - null
+    - thick: 1.03
+  - - 1.03
+    - 48.92
+    - 200.8
+    - null
+    - thick: 47.89
+  - - 48.92
+    - 90.21
+    - 1.43
+    - null
+    - thick: 41.29
+  - - 90.21
+    - 148.35
+    - 21.0
+    - null
+    - thick: 58.14
+  - - 148.35
+    - null
+    - 1.29
+- id: HS257-t2
+  site: HS257
+  model_id: HS257
+  page: 7
+  table: Table 2
+  box:
+  - 0.04
+  - 0.5936
+  - 0.93
+  - 0.6141
+  interfaces:
+  - - 49.0
+    - first
+  - - 148.0
+    - second
+  notes: First low-resistivity layer 1.4 ohm.m. Second low-resistivity layer 1.3 ohm.m.
+- id: HS258
+  name: TDEM station HS258 (Mediterranean coastal aquifer)
+  xy:
+  - 13935
+  - 20420
+  page: 39
+  box:
+  - 0.1
+  - 0.041
+  - 0.95
+  - 0.307
+  layers:
+  - - 0.0
+    - 52.66
+    - 29.7
+    - null
+    - thick: 52.66
+  - - 52.66
+    - 84.96
+    - 1.5
+    - null
+    - thick: 32.3
+  - - 84.96
+    - 158.66
+    - 11.4
+    - null
+    - thick: 73.7
+  - - 158.66
+    - null
+    - 1.35
+  confidence: B
+  notes: 'Author''s remark in Table 2: Noise (EM-37 only).'
+- id: HS258-t2
+  site: HS258
+  model_id: HS258
+  page: 7
+  table: Table 2
+  box:
+  - 0.04
+  - 0.6081
+  - 0.93
+  - 0.6286
+  interfaces:
+  - - 53.0
+    - first
+  - - 159.0
+    - second
+  notes: 'First low-resistivity layer 1.5 ohm.m. Second low-resistivity layer 1.4 ohm.m. Author''s remark in Table
+    2: Noise (EM-37 only).'
+  confidence: B
+- id: HS259
+  name: TDEM station HS259 (Mediterranean coastal aquifer)
+  xy:
+  - 13545
+  - 18855
+  page: 40
+  box:
+  - 0.1
+  - 0.033
+  - 0.95
+  - 0.299
+  layers:
+  - - 0.0
+    - 75.81
+    - 45.41
+    - null
+    - thick: 75.81
+  - - 75.81
+    - 119.81
+    - 1.88
+    - null
+    - thick: 44.0
+  - - 119.81
+    - null
+    - 138.8
+  confidence: B
+  notes: 'Author''s remark in Table 2: Noise (EM-37 only).'
+- id: HS259-t2
+  site: HS259
+  model_id: HS259
+  page: 7
+  table: Table 2
+  box:
+  - 0.04
+  - 0.6235
+  - 0.93
+  - 0.644
+  interfaces:
+  - - 76.0
+    - first
+  notes: 'First low-resistivity layer 1.9 ohm.m. Author''s remark in Table 2: Noise (EM-37 only).'
+  confidence: B
+- id: HS260
+  name: TDEM station HS260 (Mediterranean coastal aquifer)
+  xy:
+  - 13570
+  - 18840
+  page: 41
+  box:
+  - 0.1
+  - 0.058
+  - 0.95
+  - 0.318
+  layers:
+  - - 0.0
+    - 64.49
+    - 78.83
+    - null
+    - thick: 64.49
+  - - 64.49
+    - 181.09
+    - 12.57
+    - null
+    - thick: 116.6
+  - - 181.09
+    - null
+    - 2.32
+  confidence: B
+  notes: 'Author''s remark in Table 2: Noise (EM-37 only).'
+- id: HS260-t2
+  site: HS260
+  model_id: HS260
+  page: 7
+  table: Table 2
+  box:
+  - 0.04
+  - 0.6377
+  - 0.93
+  - 0.6582
+  interfaces:
+  - - 181.0
+    - first
+  notes: 'First low-resistivity layer 2.3 ohm.m. Author''s remark in Table 2: Noise (EM-37 only).'
+  confidence: B
+- id: HS261
+  name: TDEM station HS261 (Mediterranean coastal aquifer)
+  xy:
+  - 13750
+  - 19470
+  page: 42
+  box:
+  - 0.1
+  - 0.039
+  - 0.95
+  - 0.306
+  layers:
+  - - 0.0
+    - 51.86
+    - 31.26
+    - null
+    - thick: 51.86
+  - - 51.86
+    - 120.94
+    - 10.56
+    - null
+    - thick: 69.08
+  - - 120.94
+    - null
+    - 1.45
+  confidence: C
+  notes: 'Author''s remark in Table 2: Not reliable.'
+- id: HS261-t2
+  site: HS261
+  model_id: HS261
+  page: 7
+  table: Table 2
+  box:
+  - 0.04
+  - 0.6531
+  - 0.93
+  - 0.6736
+  interfaces:
+  - - 121.0
+    - first
+  notes: 'First low-resistivity layer 1.4 ohm.m. Author''s remark in Table 2: Not reliable.'
+  confidence: C
+- id: HS262
+  name: TDEM station HS262 (Mediterranean coastal aquifer)
+  xy:
+  - 13589
+  - 19098
+  page: 43
+  box:
+  - 0.1
+  - 0.034
+  - 0.95
+  - 0.312
+  layers:
+  - - 0.0
+    - 57.84
+    - 170.6
+    - null
+    - thick: 57.84
+  - - 57.84
+    - 82.48
+    - 8.51
+    - null
+    - thick: 24.64
+  - - 82.48
+    - 143.87
+    - 1.76
+    - null
+    - thick: 61.39
+  - - 143.87
+    - null
+    - 11.81
+  confidence: B
+  notes: 'Author''s remark in Table 2: Noise (EM-37 only).'
+- id: HS262-t2
+  site: HS262
+  model_id: HS262
+  page: 7
+  table: Table 2
+  box:
+  - 0.04
+  - 0.6679
+  - 0.93
+  - 0.6884
+  interfaces:
+  - - 82.0
+    - first
+  notes: 'First low-resistivity layer 1.8 ohm.m. Author''s remark in Table 2: Noise (EM-37 only).'
+  confidence: B
+- id: HS263
+  name: TDEM station HS263 (Mediterranean coastal aquifer)
+  xy:
+  - 14096
+  - 21377
+  page: 44
+  box:
+  - 0.1
+  - 0.053
+  - 0.95
+  - 0.327
+  layers:
+  - - 0.0
+    - 0.53
+    - 1.92
+    - null
+    - thick: 0.527
+  - - 0.53
+    - 23.27
+    - 154.8
+    - null
+    - thick: 22.74
+  - - 23.27
+    - 152.57
+    - 6.91
+    - null
+    - thick: 129.3
+  - - 152.57
+    - null
+    - 2.8
+- id: HS263-t2
+  site: HS263
+  model_id: HS263
+  page: 7
+  table: Table 2
+  box:
+  - 0.04
+  - 0.6821
+  - 0.93
+  - 0.7026
+  interfaces:
+  - - 153.0
+    - first
+  notes: First low-resistivity layer 2.8 ohm.m.
+- id: HS264
+  name: TDEM station HS264 (Mediterranean coastal aquifer)
+  xy:
+  - 13930
+  - 20585
+  page: 45
+  box:
+  - 0.1
+  - 0.041
+  - 0.95
+  - 0.327
+  layers:
+  - - 0.0
+    - 1.64
+    - 6.97
+    - null
+    - thick: 1.64
+  - - 1.64
+    - 36.36
+    - 86.67
+    - null
+    - thick: 34.72
+  - - 36.36
+    - 47.98
+    - 5.34
+    - null
+    - thick: 11.62
+  - - 47.98
+    - 91.56
+    - 1.86
+    - null
+    - thick: 43.58
+  - - 91.56
+    - 135.94
+    - 16.83
+    - null
+    - thick: 44.38
+  - - 135.94
+    - null
+    - 1.83
+- id: HS264-t2
+  site: HS264
+  model_id: HS264
+  page: 7
+  table: Table 2
+  box:
+  - 0.04
+  - 0.6978
+  - 0.93
+  - 0.7183
+  interfaces:
+  - - 48.0
+    - first
+  - - 136.0
+    - second
+  notes: First low-resistivity layer 1.9 ohm.m. Second low-resistivity layer 1.8 ohm.m.
+- id: HS265
+  name: TDEM station HS265 (Mediterranean coastal aquifer)
+  xy:
+  - 13975
+  - 20570
+  page: 46
+  box:
+  - 0.1
+  - 0.033
+  - 0.95
+  - 0.317
+  layers:
+  - - 0.0
+    - 41.23
+    - 47.11
+    - null
+    - thick: 41.23
+  - - 41.23
+    - 70.09
+    - 17.76
+    - null
+    - thick: 28.86
+  - - 70.09
+    - 84.68
+    - 1.7
+    - null
+    - thick: 14.59
+  - - 84.68
+    - 199.18
+    - 25.03
+    - null
+    - thick: 114.5
+  - - 199.18
+    - null
+    - 3.55
+  confidence: C
+  notes: 'Author''s remark in Table 2: Erroneous measurement.'
+- id: HS265-t2
+  site: HS265
+  model_id: HS265
+  page: 7
+  table: Table 2
+  box:
+  - 0.04
+  - 0.7126
+  - 0.93
+  - 0.7331
+  interfaces:
+  - - 70.0
+    - first
+  - - 199.0
+    - second
+  notes: 'First low-resistivity layer 1.7 ohm.m. Second low-resistivity layer 3.6 ohm.m. Author''s remark in Table
+    2: Erroneous measurement.'
+  confidence: C
+- id: HS266
+  name: TDEM station HS266 (Mediterranean coastal aquifer)
+  xy:
+  - 13970
+  - 20750
+  page: 47
+  box:
+  - 0.1
+  - 0.044
+  - 0.95
+  - 0.329
+  layers:
+  - - 0.0
+    - 50.84
+    - 30.65
+    - null
+    - thick: 50.84
+  - - 50.84
+    - 101.19
+    - 2.42
+    - null
+    - thick: 50.35
+  - - 101.19
+    - 142.3
+    - 1.56
+    - null
+    - thick: 41.11
+  - - 142.3
+    - 160.34
+    - 7.88
+    - null
+    - thick: 18.04
+  - - 160.34
+    - null
+    - 1.35
+  confidence: B
+  notes: 'Author''s remark in Table 2: Noise (EM-37 only).'
+- id: HS266-t2
+  site: HS266
+  model_id: HS266
+  page: 7
+  table: Table 2
+  box:
+  - 0.04
+  - 0.7271
+  - 0.93
+  - 0.7476
+  interfaces:
+  - - 101.0
+    - first
+  - - 160.0
+    - second
+  notes: 'First low-resistivity layer 1.6 ohm.m. Second low-resistivity layer 1.4 ohm.m. Author''s remark in Table
+    2: Noise (EM-37 only).'
+  confidence: B
+- id: HS267
+  name: TDEM station HS267 (Mediterranean coastal aquifer)
+  xy:
+  - 11550
+  - 13415
+  page: 48
+  box:
+  - 0.1
+  - 0.036
+  - 0.95
+  - 0.296
+  layers:
+  - - 0.0
+    - 45.32
+    - 27.62
+    - null
+    - thick: 45.32
+  - - 45.32
+    - 93.57
+    - 1.95
+    - null
+    - thick: 48.25
+  - - 93.57
+    - null
+    - 6.56
+  confidence: B
+  notes: 'Printout data set HS267A. Author''s remark in Table 2: Noise (EM-37 only).'
+- id: HS267-t2
+  site: HS267
+  model_id: HS267
+  page: 8
+  table: Table 2
+  box:
+  - 0.04
+  - 0.2042
+  - 0.93
+  - 0.2247
+  interfaces:
+  - - 45.0
+    - first
+  notes: 'First low-resistivity layer 2.0 ohm.m. Author''s remark in Table 2: Noise (EM-37 only).'
+  confidence: B
+- id: HS268
+  name: TDEM station HS268 (Mediterranean coastal aquifer)
+  xy:
+  - 12533
+  - 15681
+  page: 49
+  box:
+  - 0.1
+  - 0.05
+  - 0.95
+  - 0.329
+  layers:
+  - - 0.0
+    - 1.93
+    - 2.88
+    - null
+    - thick: 1.93
+  - - 1.93
+    - 43.27
+    - 98.22
+    - null
+    - thick: 41.34
+  - - 43.27
+    - 78.75
+    - 3.27
+    - null
+    - thick: 35.48
+  - - 78.75
+    - 139.59
+    - 0.693
+    - null
+    - thick: 60.84
+  - - 139.59
+    - null
+    - 99.08
+- id: HS268-t2
+  site: HS268
+  model_id: HS268
+  page: 8
+  table: Table 2
+  box:
+  - 0.04
+  - 0.219
+  - 0.93
+  - 0.2395
+  interfaces:
+  - - 43.0
+    - first
+  - - 79.0
+    - second
+  notes: First low-resistivity layer 3.3 ohm.m. Second low-resistivity layer 0.7 ohm.m.
+- id: HS269
+  name: TDEM station HS269 (Mediterranean coastal aquifer)
+  xy:
+  - 11442
+  - 13163
+  page: 50
+  box:
+  - 0.1
+  - 0.033
+  - 0.95
+  - 0.316
+  layers:
+  - - 0.0
+    - 2.17
+    - 23.66
+    - null
+    - thick: 2.17
+  - - 2.17
+    - 49.22
+    - 125.1
+    - null
+    - thick: 47.05
+  - - 49.22
+    - 75.99
+    - 3.18
+    - null
+    - thick: 26.77
+  - - 75.99
+    - 136.5
+    - 1.69
+    - null
+    - thick: 60.51
+  - - 136.5
+    - null
+    - 3.18
+- id: HS269-t2
+  site: HS269
+  model_id: HS269
+  page: 8
+  table: Table 2
+  box:
+  - 0.04
+  - 0.2341
+  - 0.93
+  - 0.2546
+  interfaces:
+  - - 76.0
+    - first
+  notes: First low-resistivity layer 1.7 ohm.m.
+- id: HS270
+  name: TDEM station HS270 (Mediterranean coastal aquifer)
+  xy:
+  - 11155
+  - 12450
+  page: 51
+  box:
+  - 0.1
+  - 0.042
+  - 0.95
+  - 0.307
+  layers:
+  - - 0.0
+    - 163.4
+    - 82.13
+    - null
+    - thick: 163.4
+  - - 163.4
+    - 231.3
+    - 7.63
+    - null
+    - thick: 67.9
+  - - 231.3
+    - null
+    - 1.63
+  notes: 'Author''s remark in Table 2: EM-37.'
+- id: HS270-t2
+  site: HS270
+  model_id: HS270
+  page: 8
+  table: Table 2
+  box:
+  - 0.04
+  - 0.2485
+  - 0.93
+  - 0.269
+  interfaces:
+  - - 231.0
+    - first
+  notes: 'First low-resistivity layer 1.6 ohm.m. Author''s remark in Table 2: EM-37.'
+- id: HS271
+  name: TDEM station HS271 (Mediterranean coastal aquifer)
+  xy:
+  - 10830
+  - 12027
+  page: 52
+  box:
+  - 0.1
+  - 0.034
+  - 0.95
+  - 0.297
+  layers:
+  - - 0.0
+    - 6.86
+    - 20.51
+    - null
+    - thick: 6.86
+  - - 6.86
+    - 71.19
+    - 44.03
+    - null
+    - thick: 64.33
+  - - 71.19
+    - 118.19
+    - 1.02
+    - null
+    - thick: 47.0
+  - - 118.19
+    - null
+    - 6.57
+  confidence: C
+  notes: 'Printout data set HS271A. Author''s remark in Table 2: Not reliable.'
+- id: HS271-t2
+  site: HS271
+  model_id: HS271
+  page: 8
+  table: Table 2
+  box:
+  - 0.04
+  - 0.2642
+  - 0.93
+  - 0.2847
+  interfaces:
+  - - 71.0
+    - first
+  notes: 'First low-resistivity layer 1.0 ohm.m. Author''s remark in Table 2: Not reliable.'
+  confidence: C
+- id: HS272
+  name: TDEM station HS272 (Mediterranean coastal aquifer)
+  xy:
+  - 10815
+  - 11970
+  page: 53
+  box:
+  - 0.1
+  - 0.047
+  - 0.95
+  - 0.33
+  layers:
+  - - 0.0
+    - 9.84
+    - 51.08
+    - null
+    - thick: 9.84
+  - - 9.84
+    - 70.45
+    - 105.6
+    - null
+    - thick: 60.61
+  - - 70.45
+    - 94.22
+    - 9.21
+    - null
+    - thick: 23.77
+  - - 94.22
+    - 128.68
+    - 1.85
+    - null
+    - thick: 34.46
+  - - 128.68
+    - null
+    - 7.73
+  notes: Printout data set HS272A.
+- id: HS272-t2
+  site: HS272
+  model_id: HS272
+  page: 8
+  table: Table 2
+  box:
+  - 0.04
+  - 0.2783
+  - 0.93
+  - 0.2988
+  interfaces:
+  - - 94.0
+    - first
+  notes: First low-resistivity layer 1.8 ohm.m.
+- id: HS273
+  name: TDEM station HS273 (Mediterranean coastal aquifer)
+  xy:
+  - 10705
+  - 11820
+  page: 54
+  box:
+  - 0.1
+  - 0.047
+  - 0.95
+  - 0.334
+  layers:
+  - - 0.0
+    - 5.36
+    - 14.57
+    - null
+    - thick: 5.36
+  - - 5.36
+    - 83.97
+    - 806.0
+    - null
+    - thick: 78.61
+  - - 83.97
+    - 98.87
+    - 4.64
+    - null
+    - thick: 14.9
+  - - 98.87
+    - 138.35
+    - 1.55
+    - null
+    - thick: 39.48
+  - - 138.35
+    - 202.31
+    - 14.52
+    - null
+    - thick: 63.96
+  - - 202.31
+    - null
+    - 1.67
+  notes: Printout data set HS273A.
+- id: HS273-t2
+  site: HS273
+  model_id: HS273
+  page: 8
+  table: Table 2
+  box:
+  - 0.04
+  - 0.2931
+  - 0.93
+  - 0.3136
+  interfaces:
+  - - 99.0
+    - first
+  - - 202.0
+    - second
+  notes: First low-resistivity layer 1.6 ohm.m. Second low-resistivity layer 1.7 ohm.m.
+- id: HS274
+  name: TDEM station HS274 (Mediterranean coastal aquifer)
+  xy:
+  - 10680
+  - 11840
+  page: 55
+  box:
+  - 0.1
+  - 0.053
+  - 0.95
+  - 0.336
+  layers:
+  - - 0.0
+    - 4.08
+    - 28.18
+    - null
+    - thick: 4.08
+  - - 4.08
+    - 61.14
+    - 108.2
+    - null
+    - thick: 57.06
+  - - 61.14
+    - 80.51
+    - 2.76
+    - null
+    - thick: 19.37
+  - - 80.51
+    - 130.92
+    - 1.5
+    - null
+    - thick: 50.41
+  - - 130.92
+    - null
+    - 3.48
+  notes: Printout data set HS274A.
+- id: HS274-t2
+  site: HS274
+  model_id: HS274
+  page: 8
+  table: Table 2
+  box:
+  - 0.04
+  - 0.3075
+  - 0.93
+  - 0.328
+  interfaces:
+  - - 80.0
+    - first
+  notes: First low-resistivity layer 1.5 ohm.m.
+- id: HS275
+  name: TDEM station HS275 (Mediterranean coastal aquifer)
+  xy:
+  - 10415
+  - 11440
+  page: 56
+  box:
+  - 0.1
+  - 0.052
+  - 0.95
+  - 0.34
+  layers:
+  - - 0.0
+    - 1.84
+    - 7.49
+    - null
+    - thick: 1.84
+  - - 1.84
+    - 51.21
+    - 136.5
+    - null
+    - thick: 49.37
+  - - 51.21
+    - 72.98
+    - 4.37
+    - null
+    - thick: 21.77
+  - - 72.98
+    - 116.61
+    - 1.91
+    - null
+    - thick: 43.63
+  - - 116.61
+    - 157.12
+    - 62.63
+    - null
+    - thick: 40.51
+  - - 157.12
+    - null
+    - 1.49
+  notes: Printout data set HS275A.
+- id: HS275-t2
+  site: HS275
+  model_id: HS275
+  page: 8
+  table: Table 2
+  box:
+  - 0.04
+  - 0.3223
+  - 0.93
+  - 0.3428
+  interfaces:
+  - - 73.0
+    - first
+  - - 157.0
+    - second
+  notes: First low-resistivity layer 1.9 ohm.m. Second low-resistivity layer 1.5 ohm.m.
+- id: HS276
+  name: TDEM station HS276 (Mediterranean coastal aquifer)
+  xy:
+  - 10390
+  - 11447
+  page: 57
+  box:
+  - 0.1
+  - 0.017
+  - 0.95
+  - 0.312
+  layers:
+  - - 0.0
+    - 0.28
+    - 0.952
+    - null
+    - thick: 0.278
+  - - 0.28
+    - 30.74
+    - 143.1
+    - null
+    - thick: 30.46
+  - - 30.74
+    - 41.37
+    - 3.37
+    - null
+    - thick: 10.63
+  - - 41.37
+    - 93.23
+    - 1.49
+    - null
+    - thick: 51.86
+  - - 93.23
+    - 133.32
+    - 54.89
+    - null
+    - thick: 40.09
+  - - 133.32
+    - null
+    - 1.9
+- id: HS276-t2
+  site: HS276
+  model_id: HS276
+  page: 8
+  table: Table 2
+  box:
+  - 0.04
+  - 0.337
+  - 0.93
+  - 0.3575
+  interfaces:
+  - - 41.0
+    - first
+  - - 133.0
+    - second
+  notes: First low-resistivity layer 1.5 ohm.m. Second low-resistivity layer 1.9 ohm.m.
+- id: HS277
+  name: TDEM station HS277 (Mediterranean coastal aquifer)
+  xy:
+  - 11730
+  - 13775
+  page: 58
+  box:
+  - 0.1
+  - 0.024
+  - 0.95
+  - 0.326
+  layers:
+  - - 0.0
+    - 0.81
+    - 1.22
+    - null
+    - thick: 0.805
+  - - 0.81
+    - 32.31
+    - 263.9
+    - null
+    - thick: 31.5
+  - - 32.31
+    - 42.65
+    - 1.33
+    - null
+    - thick: 10.34
+  - - 42.65
+    - 86.39
+    - 3.69
+    - null
+    - thick: 43.74
+  - - 86.39
+    - 121.62
+    - 149.6
+    - null
+    - thick: 35.23
+  - - 121.62
+    - null
+    - 2.61
+- id: HS277-t2
+  site: HS277
+  model_id: HS277
+  page: 8
+  table: Table 2
+  box:
+  - 0.04
+  - 0.3518
+  - 0.93
+  - 0.3723
+  interfaces:
+  - - 32.0
+    - first
+  - - 122.0
+    - second
+  notes: First low-resistivity layer 1.3 ohm.m. Second low-resistivity layer 2.6 ohm.m.
+- id: HS278
+  name: TDEM station HS278 (Mediterranean coastal aquifer)
+  xy:
+  - 11752
+  - 13760
+  page: 59
+  box:
+  - 0.1
+  - 0.032
+  - 0.95
+  - 0.325
+  layers:
+  - - 0.0
+    - 4.89
+    - 53.34
+    - null
+    - thick: 4.89
+  - - 4.89
+    - 37.53
+    - 30.98
+    - null
+    - thick: 32.64
+  - - 37.53
+    - 73.84
+    - 4.86
+    - null
+    - thick: 36.31
+  - - 73.84
+    - 113.74
+    - 2.13
+    - null
+    - thick: 39.9
+  - - 113.74
+    - null
+    - 0.279
+  confidence: B
+  notes: 'Author''s remark in Table 2: Noise (EM-37 only).'
+- id: HS278-t2
+  site: HS278
+  model_id: HS278
+  page: 8
+  table: Table 2
+  box:
+  - 0.04
+  - 0.3666
+  - 0.93
+  - 0.3871
+  interfaces:
+  - - 74.0
+    - first
+  - - 114.0
+    - second
+  notes: 'First low-resistivity layer 2.1 ohm.m. Second low-resistivity layer 0.3 ohm.m. Author''s remark in Table
+    2: Noise (EM-37 only).'
+  confidence: B
+- id: HS279
+  name: TDEM station HS279 (Mediterranean coastal aquifer)
+  xy:
+  - 10233
+  - 11184
+  page: 60
+  box:
+  - 0.1
+  - 0.044
+  - 0.95
+  - 0.322
+  layers:
+  - - 0.0
+    - 3.97
+    - 22.68
+    - null
+    - thick: 3.97
+  - - 3.97
+    - 49.78
+    - 646.1
+    - null
+    - thick: 45.81
+  - - 49.78
+    - 85.26
+    - 3.96
+    - null
+    - thick: 35.48
+  - - 85.26
+    - 153.07
+    - 19.51
+    - null
+    - thick: 67.81
+  - - 153.07
+    - null
+    - 1.89
+  confidence: B
+  notes: 'Author''s remark in Table 2: Noise (EM-37 only).'
+- id: HS279-t2
+  site: HS279
+  model_id: HS279
+  page: 8
+  table: Table 2
+  box:
+  - 0.04
+  - 0.3819
+  - 0.93
+  - 0.4024
+  interfaces:
+  - - 153.0
+    - first
+  notes: 'First low-resistivity layer 1.9 ohm.m. Author''s remark in Table 2: Noise (EM-37 only).'
+  confidence: B
+- id: HS280
+  name: TDEM station HS280 (Mediterranean coastal aquifer)
+  xy:
+  - 11817
+  - 13981
+  page: 61
+  box:
+  - 0.1
+  - 0.036
+  - 0.95
+  - 0.322
+  layers:
+  - - 0.0
+    - 4.25
+    - 12.85
+    - null
+    - thick: 4.25
+  - - 4.25
+    - 46.85
+    - 138.2
+    - null
+    - thick: 42.6
+  - - 46.85
+    - 69.45
+    - 4.55
+    - null
+    - thick: 22.6
+  - - 69.45
+    - 95.17
+    - 1.79
+    - null
+    - thick: 25.72
+  - - 95.17
+    - null
+    - 21.87
+- id: HS280-t2
+  site: HS280
+  model_id: HS280
+  page: 8
+  table: Table 2
+  box:
+  - 0.04
+  - 0.3967
+  - 0.93
+  - 0.4172
+  interfaces:
+  - - 69.0
+    - first
+  notes: First low-resistivity layer 1.8 ohm.m.
+- id: HS281
+  name: TDEM station HS281 (Mediterranean coastal aquifer)
+  xy:
+  - 14025
+  - 20540
+  page: 62
+  box:
+  - 0.1
+  - 0.035
+  - 0.95
+  - 0.308
+  layers:
+  - - 0.0
+    - 2.07
+    - 7.32
+    - null
+    - thick: 2.07
+  - - 2.07
+    - 120.67
+    - 21.27
+    - null
+    - thick: 118.6
+  - - 120.67
+    - null
+    - 2.45
+- id: HS281-t2
+  site: HS281
+  model_id: HS281
+  page: 8
+  table: Table 2
+  box:
+  - 0.04
+  - 0.4105
+  - 0.93
+  - 0.431
+  interfaces:
+  - - 121.0
+    - first
+  notes: First low-resistivity layer 2.4 ohm.m.
+- id: HS282
+  name: TDEM station HS282 (Carmel coast)
+  xy:
+  - 14183
+  - 21913
+  page: 63
+  box:
+  - 0.1
+  - 0.037
+  - 0.95
+  - 0.308
+  layers:
+  - - 0.0
+    - 15.93
+    - 7.76
+    - null
+    - thick: 15.93
+  - - 15.93
+    - 119.53
+    - 13.18
+    - null
+    - thick: 103.6
+  - - 119.53
+    - 155.84
+    - 6.18
+    - null
+    - thick: 36.31
+  - - 155.84
+    - null
+    - 12.14
+  notes: 'Author''s remark in Table 2: EM-37.'
+- id: HS282-t2
+  site: HS282
+  model_id: HS282
+  page: 8
+  table: Table 2
+  box:
+  - 0.04
+  - 0.4699
+  - 0.93
+  - 0.4904
+  interfaces:
+  - - 120.0
+    - first
+  notes: 'First low-resistivity layer 6.2 ohm.m. Author''s remark in Table 2: EM-37.'
+- id: HS283
+  name: TDEM station HS283 (Carmel coast)
+  xy:
+  - 14140
+  - 21718
+  page: 64
+  box:
+  - 0.1
+  - 0.036
+  - 0.95
+  - 0.287
+  layers:
+  - - 0.0
+    - 5.45
+    - 7.04
+    - null
+    - thick: 5.45
+  - - 5.45
+    - 129.95
+    - 8.09
+    - null
+    - thick: 124.5
+  - - 129.95
+    - null
+    - 11.8
+- id: HS283-t2
+  site: HS283
+  model_id: HS283
+  page: 8
+  table: Table 2
+  box:
+  - 0.04
+  - 0.4843
+  - 0.93
+  - 0.5048
+  interfaces:
+  - - 6.0
+    - first
+  notes: First low-resistivity layer 8.1 ohm.m.
+- id: HS284
+  name: TDEM station HS284 (Carmel coast)
+  xy:
+  - 14252
+  - 22310
+  page: 65
+  box:
+  - 0.1
+  - 0.035
+  - 0.95
+  - 0.319
+  layers:
+  - - 0.0
+    - 1.06
+    - 2.57
+    - null
+    - thick: 1.06
+  - - 1.06
+    - 14.85
+    - 47.22
+    - null
+    - thick: 13.79
+  - - 14.85
+    - 46.19
+    - 15.92
+    - null
+    - thick: 31.34
+  - - 46.19
+    - 78.97
+    - 9.62
+    - null
+    - thick: 32.78
+  - - 78.97
+    - null
+    - 6.76
+- id: HS284-t2
+  site: HS284
+  model_id: HS284
+  page: 8
+  table: Table 2
+  box:
+  - 0.04
+  - 0.4989
+  - 0.93
+  - 0.5193
+  interfaces:
+  - - 79.0
+    - first
+  notes: First low-resistivity layer 6.8 ohm.m.
+- id: HS285
+  name: TDEM station HS285 (Carmel coast)
+  xy:
+  - 14385
+  - 22530
+  accuracy_m: 1000
+  site_notes: A later handwritten mark on Table 2 and on the printout changes the easting 14385 to 14285 (1 km west);
+    the printed 14385 is used.
+  page: 66
+  box:
+  - 0.1
+  - 0.042
+  - 0.95
+  - 0.321
+  layers:
+  - - 0.0
+    - 3.3
+    - 7.64
+    - null
+    - thick: 3.3
+  - - 3.3
+    - 20.82
+    - 53.17
+    - null
+    - thick: 17.52
+  - - 20.82
+    - 27.7
+    - 2.52
+    - null
+    - thick: 6.88
+  - - 27.7
+    - 69.71
+    - 14.1
+    - null
+    - thick: 42.01
+  - - 69.71
+    - null
+    - 7.24
+- id: HS285-t2
+  site: HS285
+  model_id: HS285
+  page: 8
+  table: Table 2
+  box:
+  - 0.04
+  - 0.5134
+  - 0.93
+  - 0.5339
+  interfaces:
+  - - 21.0
+    - first
+  notes: First low-resistivity layer 2.5 ohm.m.
+- id: HS286
+  name: TDEM station HS286 (Carmel coast)
+  xy:
+  - 14358
+  - 22933
+  page: 67
+  box:
+  - 0.1
+  - 0.032
+  - 0.95
+  - 0.304
+  layers:
+  - - 0.0
+    - 9.99
+    - 7.6
+    - null
+    - thick: 9.99
+  - - 9.99
+    - 13.89
+    - 1.22
+    - null
+    - thick: 3.9
+  - - 13.89
+    - 39.42
+    - 7.28
+    - null
+    - thick: 25.53
+  - - 39.42
+    - 122.11
+    - 1.65
+    - null
+    - thick: 82.69
+  - - 122.11
+    - null
+    - 11.75
+- id: HS286-t2
+  site: HS286
+  model_id: HS286
+  page: 8
+  table: Table 2
+  box:
+  - 0.04
+  - 0.528
+  - 0.93
+  - 0.5484
+  interfaces:
+  - - 10.0
+    - first
+  - - 39.0
+    - second
+  notes: First low-resistivity layer 1.2 ohm.m. Second low-resistivity layer 1.6 ohm.m.
+- id: HS287
+  name: TDEM station HS287 (Carmel coast)
+  xy:
+  - 14390
+  - 22930
+  page: 68
+  box:
+  - 0.1
+  - 0.03
+  - 0.95
+  - 0.295
+  layers:
+  - - 0.0
+    - 1.72
+    - 4.75
+    - null
+    - thick: 1.72
+  - - 1.72
+    - 26.1
+    - 19.75
+    - null
+    - thick: 24.38
+  - - 26.1
+    - 106.83
+    - 3.68
+    - null
+    - thick: 80.73
+  - - 106.83
+    - null
+    - 14.49
+- id: HS287-t2
+  site: HS287
+  model_id: HS287
+  page: 8
+  table: Table 2
+  box:
+  - 0.04
+  - 0.5425
+  - 0.93
+  - 0.563
+  interfaces:
+  - - 26.0
+    - first
+  notes: First low-resistivity layer 3.7 ohm.m.
+- id: HS288
+  name: TDEM station HS288 (Carmel coast)
+  xy:
+  - 14550
+  - 23560
+  page: 69
+  box:
+  - 0.1
+  - 0.044
+  - 0.95
+  - 0.31
+  layers:
+  - - 0.0
+    - 26.71
+    - 5.64
+    - null
+    - thick: 26.71
+  - - 26.71
+    - 202.11
+    - 15.01
+    - null
+    - thick: 175.4
+  - - 202.11
+    - null
+    - 5.97
+  notes: 'Author''s remark in Table 2: EM-37.'
+- id: HS288-t2
+  site: HS288
+  model_id: HS288
+  page: 8
+  table: Table 2
+  box:
+  - 0.04
+  - 0.5571
+  - 0.93
+  - 0.5776
+  interfaces:
+  - - 202.0
+    - first
+  notes: 'First low-resistivity layer 6.0 ohm.m. Author''s remark in Table 2: EM-37.'
+- id: HS289
+  name: TDEM station HS289 (Carmel coast)
+  xy:
+  - 14590
+  - 23805
+  page: 70
+  box:
+  - 0.1
+  - 0.034
+  - 0.95
+  - 0.298
+  layers:
+  - - 0.0
+    - 62.08
+    - 4.6
+    - null
+    - thick: 62.08
+  - - 62.08
+    - 198.98
+    - 26.03
+    - null
+    - thick: 136.9
+  - - 198.98
+    - null
+    - 6.48
+  notes: 'Author''s remark in Table 2: EM-37.'
+- id: HS289-t2
+  site: HS289
+  model_id: HS289
+  page: 8
+  table: Table 2
+  box:
+  - 0.04
+  - 0.5716
+  - 0.93
+  - 0.5921
+  interfaces:
+  - - 199.0
+    - first
+  notes: 'First low-resistivity layer 6.5 ohm.m. Author''s remark in Table 2: EM-37.'
+- id: HS290
+  name: TDEM station HS290 (Carmel coast)
+  xy:
+  - 14687
+  - 24422
+  page: 71
+  box:
+  - 0.1
+  - 0.038
+  - 0.95
+  - 0.312
+  layers:
+  - - 0.0
+    - 31.19
+    - 9.35
+    - null
+    - thick: 31.19
+  - - 31.19
+    - 76.32
+    - 43.7
+    - null
+    - thick: 45.13
+  - - 76.32
+    - 133.55
+    - 2.83
+    - null
+    - thick: 57.23
+  - - 133.55
+    - null
+    - 0.838
+  notes: 'Author''s remark in Table 2: EM-37.'
+- id: HS290-t2
+  site: HS290
+  model_id: HS290
+  page: 8
+  table: Table 2
+  box:
+  - 0.04
+  - 0.587
+  - 0.93
+  - 0.6075
+  interfaces:
+  - - 76.0
+    - first
+  - - 134.0
+    - second
+  notes: 'First low-resistivity layer 2.8 ohm.m. Second low-resistivity layer 0.8 ohm.m. Author''s remark in Table
+    2: EM-37.'
+- id: HS291
+  name: TDEM station HS291 (Dead Sea, Tzukim springs)
+  xy:
+  - 19240
+  - 12500
+  page: 72
+  box:
+  - 0.1
+  - 0.039
+  - 0.95
+  - 0.282
+  layers:
+  - - 0.0
+    - 41.66
+    - 2.37
+    - null
+    - thick: 41.66
+  - - 41.66
+    - null
+    - 0.623
+- id: HS291-t2
+  site: HS291
+  model_id: HS291
+  page: 8
+  table: Table 2
+  box:
+  - 0.04
+  - 0.6463
+  - 0.93
+  - 0.6668
+  interfaces:
+  - - 42.0
+    - first
+  notes: First low-resistivity layer 0.6 ohm.m.
+- id: HS291-2
+  site: HS291
+  model_id: HS291-2
+  page: 73
+  box:
+  - 0.1
+  - 0.032
+  - 0.95
+  - 0.298
+  layers:
+  - - 0.0
+    - 4.49
+    - 3.05
+    - null
+    - thick: 4.49
+  - - 4.49
+    - 23.91
+    - 2.01
+    - null
+    - thick: 19.42
+  - - 23.91
+    - 37.57
+    - 9.83
+    - null
+    - thick: 13.66
+  - - 37.57
+    - null
+    - 0.643
+  notes: Second sounding at this station (the second Table 2 row).
+- id: HS291-2-t2
+  site: HS291
+  model_id: HS291-2
+  page: 8
+  table: Table 2
+  box:
+  - 0.04
+  - 0.6611
+  - 0.93
+  - 0.6816
+  interfaces:
+  - - 4.0
+    - first
+  - - 38.0
+    - second
+  notes: First low-resistivity layer 2.0 ohm.m. Second low-resistivity layer 0.6 ohm.m. Second sounding at this
+    station (the second Table 2 row).
+- id: HS292
+  name: TDEM station HS292 (Dead Sea, Tzukim springs)
+  xy:
+  - 19304
+  - 12448
+  page: 74
+  box:
+  - 0.1
+  - 0.032
+  - 0.95
+  - 0.32
+  layers:
+  - - 0.0
+    - 1.42
+    - 1.94
+    - null
+    - thick: 1.42
+  - - 1.42
+    - 13.81
+    - 20.23
+    - null
+    - thick: 12.39
+  - - 13.81
+    - 17.7
+    - 0.261
+    - null
+    - thick: 3.89
+  - - 17.7
+    - 42.39
+    - 9.32
+    - null
+    - thick: 24.69
+  - - 42.39
+    - null
+    - 1.43
+- id: HS292-t2
+  site: HS292
+  model_id: HS292
+  page: 8
+  table: Table 2
+  box:
+  - 0.04
+  - 0.6758
+  - 0.93
+  - 0.6963
+  interfaces:
+  - - 14.0
+    - first
+  - - 42.0
+    - second
+  notes: First low-resistivity layer 0.3 ohm.m. Second low-resistivity layer 1.4 ohm.m.
+- id: HS293
+  name: TDEM station HS293 (Dead Sea, Tzukim springs)
+  xy:
+  - 19317
+  - 12450
+  page: 75
+  box:
+  - 0.1
+  - 0.051
+  - 0.95
+  - 0.323
+  layers:
+  - - 0.0
+    - 5.2
+    - 3.56
+    - null
+    - thick: 5.2
+  - - 5.2
+    - 15.9
+    - 0.849
+    - null
+    - thick: 10.7
+  - - 15.9
+    - 42.14
+    - 0.331
+    - null
+    - thick: 26.24
+  - - 42.14
+    - null
+    - 1.4
+- id: HS293-t2
+  site: HS293
+  model_id: HS293
+  page: 8
+  table: Table 2
+  box:
+  - 0.04
+  - 0.6906
+  - 0.93
+  - 0.7111
+  interfaces:
+  - - 16.0
+    - first
+  - - 42.0
+    - second
+  notes: First low-resistivity layer 0.3 ohm.m. Second low-resistivity layer 1.4 ohm.m.
+- id: HS293-2
+  site: HS293
+  model_id: HS293-2
+  page: 76
+  box:
+  - 0.1
+  - 0.033
+  - 0.95
+  - 0.343
+  layers:
+  - - 0.0
+    - 1.17
+    - 1.73
+    - null
+    - thick: 1.17
+  - - 1.17
+    - 5.04
+    - 18.8
+    - null
+    - thick: 3.87
+  - - 5.04
+    - 9.92
+    - 0.665
+    - null
+    - thick: 4.88
+  - - 9.92
+    - 13.79
+    - 5.63
+    - null
+    - thick: 3.87
+  - - 13.79
+    - 41.1
+    - 0.338
+    - null
+    - thick: 27.31
+  - - 41.1
+    - null
+    - 1.39
+  notes: Second sounding at this station (the second Table 2 row).
+- id: HS293-2-t2
+  site: HS293
+  model_id: HS293-2
+  page: 8
+  table: Table 2
+  box:
+  - 0.04
+  - 0.7054
+  - 0.93
+  - 0.7259
+  interfaces:
+  - - 5.0
+    - first
+  - - 14.0
+    - second
+  notes: First low-resistivity layer 0.7 ohm.m. Second low-resistivity layer 0.3 ohm.m. Second sounding at this
+    station (the second Table 2 row).
+- id: HS294
+  name: TDEM station HS294 (Dead Sea, Tzukim springs)
+  xy:
+  - 19290
+  - 12510
+  page: 77
+  box:
+  - 0.1
+  - 0.032
+  - 0.95
+  - 0.314
+  layers:
+  - - 0.0
+    - 7.39
+    - 8.86
+    - null
+    - thick: 7.39
+  - - 7.39
+    - 13.93
+    - 3.54
+    - null
+    - thick: 6.54
+  - - 13.93
+    - 48.1
+    - 8.56
+    - null
+    - thick: 34.17
+  - - 48.1
+    - 122.44
+    - 1.46
+    - null
+    - thick: 74.34
+  - - 122.44
+    - null
+    - 0.493
+- id: HS294-t2
+  site: HS294
+  model_id: HS294
+  page: 8
+  table: Table 2
+  box:
+  - 0.04
+  - 0.7201
+  - 0.93
+  - 0.7406
+  interfaces:
+  - - 48.0
+    - first
+  - - 122.0
+    - second
+  notes: First low-resistivity layer 1.5 ohm.m. Second low-resistivity layer 0.5 ohm.m.

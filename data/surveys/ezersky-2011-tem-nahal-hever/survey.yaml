@@ -1,0 +1,33 @@
+id: ezersky-2011-tem-nahal-hever
+name: TEM study of the geoelectrical structure and groundwater salinity of the Nahal Hever sinkhole site
+organisation: Geophysical Institute of Israel (GII) and partners
+authors:
+- M. Ezersky
+- A. Legchenko
+- A. Al-Zoubi
+- E. Levi
+- E. Akkawi
+- K. Chalikakis
+report_number: Journal of Applied Geophysics 75 (2011) 99-112
+year: 2011
+methods:
+- TEM
+region: Dead Sea shore, Nahal Hever sinkhole site
+purpose: Groundwater salinity and the salt layer at the sinkhole site
+geometry: stations
+documents:
+- id: main
+  title: TEM study of the geoelectrical structure and groundwater salinity of the Nahal Hever sinkhole site, Dead Sea
+    shore, Israel
+  filename: Ezersky-M-TEM-Geoelectrical-Structure-Nahal-Hever-Sinkhole-Dead-Sea-Shore-J-Appl-Geophys-Vol-75-2011.pdf
+  drive_id: 1GIxqZzjbz8wcRtchL_Epc1TfImwmd3IN
+  language:
+  - en
+  scanned: false
+  role: main_report
+  sha256: aae8210586d1e1c022620d90dacf0532d89c54c4666fb45d59b19645e7626ee2
+  pages: 14
+notes: Journal paper. Results are colour cross-sections and maps; station coordinates are not given. The only table of
+  model values (Table 1) is an equivalence analysis of a single 6-layer model (sounding 11-10 in Fig. 7, near borehole
+  HS-2), so nothing is plotted. Kept as a source document.
+extraction_status: registered

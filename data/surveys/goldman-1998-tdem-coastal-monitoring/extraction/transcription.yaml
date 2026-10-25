@@ -1,0 +1,2816 @@
+# Goldman, Gilad and Ezersky 1998, GII 909/169/96. Layered models typed from the appendix printouts (pages 9-38):
+# read with tesseract at 400 dpi and against the PDF text layer; every disagreement checked on the page image.
+# Table 2 depths (pages 6-7) were checked automatically against the printout layers (see survey notes).
+# Table 1 coordinates: 6 digits = metres, 5 digits = units of 10 m (converted here), Old Israel Grid.
+document: main
+unit: ohm.m
+method: TEM
+prefix: goldman1998
+measured_on: '1997'
+confidence: A
+crs: EPSG:28193
+xy_scale: 1
+site_word: TDEM station
+coord_source: table
+accuracy_m: 10
+table: 'Appendix (layered inversion printout: LAYER / RESISTIVITY / THICKNESS)'
+interface_kinds:
+  upper: 'top of the upper low-resistivity unit (author, Table 2: associated with seawater intrusion and/or the
+    Saqiye clays)'
+  lower: 'top of the lower low-resistivity unit (author, Table 2: associated with seawater intrusion and/or the
+    Saqiye clays)'
+box_caption: 'The boxed row is the author''s Table 2 entry for this station: resistivity (ohm.m) and depth (m) of
+  the upper and lower low-resistivity units'
+prov_notes: Coordinates and elevations from Table 1 (pages 4-5). Depth = running sum of the printed thicknesses.
+sites:
+- id: HS403
+  name: TDEM station HS403 (Ashdod)
+  xy:
+  - 118446
+  - 140421
+  elev: 4.0
+  page: 9
+  box:
+  - 0.178
+  - 0.078
+  - 0.821
+  - 0.178
+  layers:
+  - - 0.0
+    - 10.86
+    - 19.1961
+    - null
+    - thick: 10.859
+  - - 10.86
+    - 56.12
+    - 112.636
+    - null
+    - thick: 45.256
+  - - 56.12
+    - 101.9
+    - 3.02895
+    - null
+    - thick: 45.776
+  - - 101.9
+    - 173.54
+    - 31.7397
+    - null
+    - thick: 71.643
+  - - 173.54
+    - null
+    - 1.78282
+- id: HS404
+  name: TDEM station HS404 (Ashdod (N))
+  xy:
+  - 118275
+  - 140503
+  elev: 2.5
+  page: 9
+  box:
+  - 0.176
+  - 0.504
+  - 0.811
+  - 0.593
+  layers:
+  - - 0.0
+    - 13.19
+    - 104.545
+    - null
+    - thick: 13.191
+  - - 13.19
+    - 22.24
+    - 5.31156
+    - null
+    - thick: 9.049
+  - - 22.24
+    - 84.26
+    - 1.63247
+    - null
+    - thick: 62.018
+  - - 84.26
+    - null
+    - 19.0813
+- id: HS405
+  name: TDEM station HS405 (Ashdod)
+  xy:
+  - 117014
+  - 135989
+  elev: 16.0
+  page: 10
+  box:
+  - 0.183
+  - 0.059
+  - 0.856
+  - 0.148
+  layers:
+  - - 0.0
+    - 34.42
+    - 61.0805
+    - null
+    - thick: 34.419
+  - - 34.42
+    - 69.65
+    - 89.1458
+    - null
+    - thick: 35.229
+  - - 69.65
+    - 155.84
+    - 10.2593
+    - null
+    - thick: 86.195
+  - - 155.84
+    - null
+    - 4.61726
+- id: HS406
+  name: TDEM station HS406 (Ashdod)
+  xy:
+  - 115916
+  - 135178
+  elev: 4.5
+  page: 10
+  box:
+  - 0.179
+  - 0.48
+  - 0.857
+  - 0.588
+  layers:
+  - - 0.0
+    - 5.57
+    - 20.1745
+    - null
+    - thick: 5.568
+  - - 5.57
+    - 26.84
+    - 45.3367
+    - null
+    - thick: 21.274
+  - - 26.84
+    - 32.09
+    - 11.7822
+    - null
+    - thick: 5.251
+  - - 32.09
+    - 66.48
+    - 0.914608
+    - null
+    - thick: 34.391
+  - - 66.48
+    - 107.12
+    - 1.81204
+    - null
+    - thick: 40.637
+  - - 107.12
+    - null
+    - 1.17262
+- id: HS407
+  name: TDEM station HS407 (Ashdod)
+  xy:
+  - 115257
+  - 133498
+  elev: 13.5
+  page: 11
+  box:
+  - 0.143
+  - 0.056
+  - 0.828
+  - 0.155
+  layers:
+  - - 0.0
+    - 7.54
+    - 26.1385
+    - null
+    - thick: 7.543
+  - - 7.54
+    - 46.65
+    - 966.251
+    - null
+    - thick: 39.109
+  - - 46.65
+    - 124.22
+    - 2.51584
+    - null
+    - thick: 77.569
+  - - 124.22
+    - 155.86
+    - 14.4678
+    - null
+    - thick: 31.644
+  - - 155.86
+    - null
+    - 2.90254
+- id: HS408
+  name: TDEM station HS408 (Ashdod)
+  xy:
+  - 115079
+  - 133542
+  elev: 0.5
+  page: 11
+  box:
+  - 0.145
+  - 0.476
+  - 0.831
+  - 0.584
+  layers:
+  - - 0.0
+    - 3.38
+    - 7.28386
+    - null
+    - thick: 3.382
+  - - 3.38
+    - 27.32
+    - 176.816
+    - null
+    - thick: 23.939
+  - - 27.32
+    - 36.12
+    - 1.08489
+    - null
+    - thick: 8.801
+  - - 36.12
+    - 103.08
+    - 1.93747
+    - null
+    - thick: 66.962
+  - - 103.08
+    - 145.56
+    - 8.05217
+    - null
+    - thick: 42.478
+  - - 145.56
+    - null
+    - 1.24225
+- id: HS409
+  name: TDEM station HS409 (Ashdod)
+  xy:
+  - 114314
+  - 131660
+  elev: 12.0
+  accuracy_m: 100
+  site_notes: Table 1 prints this station's coordinate with 5 digits (units of 10 m) instead of the 6-digit metres
+    used for GPS-located stations, so the position is less precise.
+  page: 12
+  box:
+  - 0.155
+  - 0.051
+  - 0.829
+  - 0.149
+  layers:
+  - - 0.0
+    - 2.27
+    - 21.4358
+    - null
+    - thick: 2.267
+  - - 2.27
+    - 50.32
+    - 153.331
+    - null
+    - thick: 48.051
+  - - 50.32
+    - 71.06
+    - 3.0644
+    - null
+    - thick: 20.745
+  - - 71.06
+    - 128.78
+    - 1.81673
+    - null
+    - thick: 57.716
+  - - 128.78
+    - null
+    - 3.19146
+- id: HS411A
+  name: TDEM station HS411A (Rishpon)
+  xy:
+  - 133200
+  - 179250
+  elev: 41.0
+  accuracy_m: 100
+  site_notes: Table 1 prints this station's coordinates with 5 digits (units of 10 m) instead of the 6-digit metres
+    used for GPS-located stations, so the position is less precise. The printout footer gives 133200/179350, about
+    100 m north of the Table 1 position used here.
+  page: 13
+  box:
+  - 0.175
+  - 0.043
+  - 0.792
+  - 0.142
+  layers:
+  - - 0.0
+    - 52.21
+    - 90.0079
+    - null
+    - thick: 52.209
+  - - 52.21
+    - 91.15
+    - 27.2401
+    - null
+    - thick: 38.941
+  - - 91.15
+    - 138.85
+    - 1.5707
+    - null
+    - thick: 47.703
+  - - 138.85
+    - 228.95
+    - 7.67975
+    - null
+    - thick: 90.099
+  - - 228.95
+    - null
+    - 1.48528
+- id: HS413
+  name: TDEM station HS413 (Rishpon (beach))
+  xy:
+  - 132645
+  - 179682
+  elev: 41.5
+  page: 14
+  box:
+  - 0.151
+  - 0.065
+  - 0.832
+  - 0.155
+  layers:
+  - - 0.0
+    - 44.19
+    - 108.565
+    - null
+    - thick: 44.189
+  - - 44.19
+    - 73.26
+    - 24.7204
+    - null
+    - thick: 29.069
+  - - 73.26
+    - 140.12
+    - 1.37505
+    - null
+    - thick: 66.857
+  - - 140.12
+    - null
+    - 3.40815
+  site_notes: The printout footer gives 132638/179361, about 320 m south of the Table 1 position used here.
+  accuracy_m: 350
+- id: HS414
+  name: TDEM station HS414 (Rishpon)
+  xy:
+  - 133492
+  - 179517
+  elev: 37.5
+  page: 14
+  box:
+  - 0.153
+  - 0.496
+  - 0.823
+  - 0.586
+  layers:
+  - - 0.0
+    - 95.08
+    - 32.1224
+    - null
+    - thick: 95.075
+  - - 95.08
+    - 121.89
+    - 1.11716
+    - null
+    - thick: 26.813
+  - - 121.89
+    - 198.97
+    - 99.0782
+    - null
+    - thick: 77.081
+  - - 198.97
+    - null
+    - 1.26446
+  confidence: C
+  notes: The author marks this sounding as noisy (Table 1 or Table 2).
+- id: HS415
+  name: TDEM station HS415 (Ga'ash)
+  xy:
+  - 134185
+  - 182860
+  elev: 25.5
+  accuracy_m: 100
+  site_notes: Table 1 prints this station's coordinate with 5 digits (units of 10 m) instead of the 6-digit metres
+    used for GPS-located stations, so the position is less precise.
+  page: 15
+  box:
+  - 0.114
+  - 0.055
+  - 0.819
+  - 0.145
+  layers:
+  - - 0.0
+    - 81.11
+    - 46.5761
+    - null
+    - thick: 81.112
+  - - 81.11
+    - 99.46
+    - 1.18211
+    - null
+    - thick: 18.353
+  - - 99.46
+    - 159.12
+    - 51.7579
+    - null
+    - thick: 59.66
+  - - 159.12
+    - null
+    - 2.1515
+- id: HS416
+  name: TDEM station HS416 (Ashqelon)
+  xy:
+  - 107224
+  - 117580
+  elev: 41.5
+  accuracy_m: 100
+  site_notes: Table 1 prints this station's coordinate with 5 digits (units of 10 m) instead of the 6-digit metres
+    used for GPS-located stations, so the position is less precise.
+  page: 15
+  box:
+  - 0.141
+  - 0.502
+  - 0.81
+  - 0.601
+  layers:
+  - - 0.0
+    - 4.64
+    - 14.3252
+    - null
+    - thick: 4.643
+  - - 4.64
+    - 122.76
+    - 215.117
+    - null
+    - thick: 118.12
+  - - 122.76
+    - 189.43
+    - 5.99377
+    - null
+    - thick: 66.674
+  - - 189.43
+    - 203.06
+    - 21.9305
+    - null
+    - thick: 13.626
+  - - 203.06
+    - null
+    - 2.23958
+- id: HS417
+  name: TDEM station HS417 (Ashqelon)
+  xy:
+  - 107264
+  - 118085
+  elev: 38.0
+  page: 16
+  box:
+  - 0.195
+  - 0.068
+  - 0.878
+  - 0.176
+  layers:
+  - - 0.0
+    - 5.61
+    - 21.2901
+    - null
+    - thick: 5.611
+  - - 5.61
+    - 101.33
+    - 216.767
+    - null
+    - thick: 95.725
+  - - 101.33
+    - 112.73
+    - 5.23811
+    - null
+    - thick: 11.396
+  - - 112.73
+    - 136.02
+    - 1.35093
+    - null
+    - thick: 23.288
+  - - 136.02
+    - 209.46
+    - 22.7717
+    - null
+    - thick: 73.442
+  - - 209.46
+    - null
+    - 1.20625
+- id: HS418
+  name: TDEM station HS418 (Ashqelon)
+  xy:
+  - 107212
+  - 117838
+  elev: 40.5
+  page: 16
+  box:
+  - 0.191
+  - 0.492
+  - 0.882
+  - 0.6
+  layers:
+  - - 0.0
+    - 5.82
+    - 21.71
+    - null
+    - thick: 5.82
+  - - 5.82
+    - 108.15
+    - 232.759
+    - null
+    - thick: 102.334
+  - - 108.15
+    - 123.63
+    - 5.84977
+    - null
+    - thick: 15.482
+  - - 123.63
+    - 148.93
+    - 2.09058
+    - null
+    - thick: 25.302
+  - - 148.93
+    - 204.8
+    - 21.7959
+    - null
+    - thick: 55.867
+  - - 204.8
+    - null
+    - 1.40537
+- id: HS419
+  name: TDEM station HS419 (Bat-Yam)
+  xy:
+  - 125427
+  - 157190
+  elev: 7.5
+  accuracy_m: 100
+  site_notes: Table 1 prints this station's coordinate with 5 digits (units of 10 m) instead of the 6-digit metres
+    used for GPS-located stations, so the position is less precise.
+  page: 17
+  box:
+  - 0.137
+  - 0.038
+  - 0.815
+  - 0.137
+  layers:
+  - - 0.0
+    - 8.86
+    - 11.8717
+    - null
+    - thick: 8.859
+  - - 8.86
+    - 50.29
+    - 112.865
+    - null
+    - thick: 41.427
+  - - 50.29
+    - 81.99
+    - 2.33072
+    - null
+    - thick: 31.698
+  - - 81.99
+    - 215.6
+    - 174.501
+    - null
+    - thick: 133.613
+  - - 215.6
+    - null
+    - 2.58661
+- id: HS420
+  name: TDEM station HS420 (Bat-Yam)
+  xy:
+  - 126746
+  - 158051
+  elev: 31.5
+  page: 17
+  box:
+  - 0.133
+  - 0.465
+  - 0.815
+  - 0.554
+  layers:
+  - - 0.0
+    - 1.9
+    - 3.85571
+    - null
+    - thick: 1.9
+  - - 1.9
+    - 32.98
+    - 351.876
+    - null
+    - thick: 31.079
+  - - 32.98
+    - 72.23
+    - 3.85039
+    - null
+    - thick: 39.251
+  - - 72.23
+    - null
+    - 0.443271
+  confidence: C
+  notes: The author marks this sounding as noisy (Table 1 or Table 2).
+- id: HS422
+  name: TDEM station HS422 (Palmakhim)
+  xy:
+  - 121610
+  - 148120
+  elev: 13.0
+  accuracy_m: 100
+  site_notes: Table 1 prints this station's coordinates with 5 digits (units of 10 m) instead of the 6-digit metres
+    used for GPS-located stations, so the position is less precise.
+  page: 18
+  box:
+  - 0.212
+  - 0.462
+  - 0.895
+  - 0.56
+  layers:
+  - - 0.0
+    - 40.58
+    - 221.366
+    - null
+    - thick: 40.583
+  - - 40.58
+    - 62.89
+    - 2.83486
+    - null
+    - thick: 22.31
+  - - 62.89
+    - 102.21
+    - 1.59828
+    - null
+    - thick: 39.318
+  - - 102.21
+    - 216.31
+    - 54.2781
+    - null
+    - thick: 114.099
+  - - 216.31
+    - null
+    - 1.03666
+- id: HS423
+  name: TDEM station HS423 (Sde-Dov)
+  xy:
+  - 129430
+  - 169120
+  elev: 4.0
+  accuracy_m: 100
+  site_notes: Table 1 prints this station's coordinates with 5 digits (units of 10 m) instead of the 6-digit metres
+    used for GPS-located stations, so the position is less precise.
+  page: 19
+  box:
+  - 0.174
+  - 0.05
+  - 0.861
+  - 0.159
+  layers:
+  - - 0.0
+    - 2.17
+    - 3.08434
+    - null
+    - thick: 2.166
+  - - 2.17
+    - 17.27
+    - 145.137
+    - null
+    - thick: 15.1
+  - - 17.27
+    - 37.68
+    - 1.29388
+    - null
+    - thick: 20.415
+  - - 37.68
+    - 54.26
+    - 18.8959
+    - null
+    - thick: 16.582
+  - - 54.26
+    - 157.45
+    - 1.35036
+    - null
+    - thick: 103.192
+  - - 157.45
+    - null
+    - 0.593745
+- id: HS424
+  name: TDEM station HS424 (Hertzliya (S))
+  xy:
+  - 130991
+  - 173280
+  elev: 19.0
+  accuracy_m: 100
+  site_notes: Table 1 prints this station's coordinate with 5 digits (units of 10 m) instead of the 6-digit metres
+    used for GPS-located stations, so the position is less precise.
+  page: 19
+  box:
+  - 0.179
+  - 0.485
+  - 0.859
+  - 0.583
+  layers:
+  - - 0.0
+    - 0.77
+    - 1.85878
+    - null
+    - thick: 0.772
+  - - 0.77
+    - 45.09
+    - 176.838
+    - null
+    - thick: 44.32
+  - - 45.09
+    - 85.46
+    - 8.17503
+    - null
+    - thick: 40.369
+  - - 85.46
+    - 195.85
+    - 4.31734
+    - null
+    - thick: 110.39
+  - - 195.85
+    - null
+    - 1.10956
+  confidence: C
+  notes: The author marks this sounding as noisy (Table 1 or Table 2).
+- id: HS425
+  name: TDEM station HS425 (Kiryat Khinukh)
+  xy:
+  - 130250
+  - 171170
+  elev: 19.0
+  accuracy_m: 100
+  site_notes: Table 1 prints this station's coordinates with 5 digits (units of 10 m) instead of the 6-digit metres
+    used for GPS-located stations, so the position is less precise.
+  page: 20
+  box:
+  - 0.126
+  - 0.056
+  - 0.846
+  - 0.145
+  layers:
+  - - 0.0
+    - 1.19
+    - 4.85516
+    - null
+    - thick: 1.188
+  - - 1.19
+    - 45.82
+    - 85.016
+    - null
+    - thick: 44.634
+  - - 45.82
+    - 138.55
+    - 2.67036
+    - null
+    - thick: 92.726
+  - - 138.55
+    - null
+    - 5.67609
+  confidence: C
+  notes: The author marks this sounding as noisy (Table 1 or Table 2).
+- id: HS426
+  name: TDEM station HS426 (Hertzliya (S))
+  xy:
+  - 131177
+  - 173230
+  elev: 22.5
+  accuracy_m: 100
+  site_notes: Table 1 prints this station's coordinate with 5 digits (units of 10 m) instead of the 6-digit metres
+    used for GPS-located stations, so the position is less precise.
+  page: 20
+  box:
+  - 0.137
+  - 0.49
+  - 0.859
+  - 0.579
+  layers:
+  - - 0.0
+    - 2.65
+    - 9.96773
+    - null
+    - thick: 2.647
+  - - 2.65
+    - 96.13
+    - 57.6847
+    - null
+    - thick: 93.481
+  - - 96.13
+    - 192.52
+    - 9.34851
+    - null
+    - thick: 96.394
+  - - 192.52
+    - null
+    - 1.76156
+  confidence: C
+  notes: The author marks this sounding as noisy (Table 1 or Table 2).
+- id: HS427
+  name: TDEM station HS427 (Hertzliya)
+  xy:
+  - 131580
+  - 174620
+  elev: 14.0
+  accuracy_m: 100
+  site_notes: Table 1 prints this station's coordinates with 5 digits (units of 10 m) instead of the 6-digit metres
+    used for GPS-located stations, so the position is less precise.
+  page: 21
+  box:
+  - 0.154
+  - 0.066
+  - 0.831
+  - 0.156
+  layers:
+  - - 0.0
+    - 2.27
+    - 7.13239
+    - null
+    - thick: 2.275
+  - - 2.27
+    - 39.01
+    - 68.1023
+    - null
+    - thick: 36.739
+  - - 39.01
+    - 62.86
+    - 7.30659
+    - null
+    - thick: 23.855
+  - - 62.86
+    - null
+    - 2.88998
+- id: HS428
+  name: TDEM station HS428 (Hertzliya)
+  xy:
+  - 131250
+  - 174680
+  elev: 9.0
+  accuracy_m: 100
+  site_notes: Table 1 prints this station's coordinates with 5 digits (units of 10 m) instead of the 6-digit metres
+    used for GPS-located stations, so the position is less precise.
+  page: 21
+  box:
+  - 0.152
+  - 0.482
+  - 0.829
+  - 0.571
+  layers:
+  - - 0.0
+    - 0.93
+    - 1.21119
+    - null
+    - thick: 0.928
+  - - 0.93
+    - 32.88
+    - 192.285
+    - null
+    - thick: 31.948
+  - - 32.88
+    - 51.67
+    - 1.11537
+    - null
+    - thick: 18.791
+  - - 51.67
+    - null
+    - 0.60848
+  confidence: C
+  notes: The author marks this sounding as noisy (Table 1 or Table 2).
+- id: HS431
+  name: TDEM station HS431 (Hof Zikim)
+  xy:
+  - 103116
+  - 113504
+  elev: 2.5
+  page: 22
+  box:
+  - 0.18
+  - 0.059
+  - 0.864
+  - 0.158
+  layers:
+  - - 0.0
+    - 0.89
+    - 4.12189
+    - null
+    - thick: 0.893
+  - - 0.89
+    - 16.89
+    - 57.5365
+    - null
+    - thick: 16.002
+  - - 16.89
+    - 32.28
+    - 5.65466
+    - null
+    - thick: 15.386
+  - - 32.28
+    - 147.99
+    - 2.99914
+    - null
+    - thick: 115.713
+  - - 147.99
+    - null
+    - 1.64056
+- id: HS432
+  name: TDEM station HS432 (Hof Zikim)
+  xy:
+  - 103363
+  - 113428
+  elev: 3.0
+  page: 22
+  box:
+  - 0.165
+  - 0.509
+  - 0.863
+  - 0.588
+  layers:
+  - - 0.0
+    - 22.62
+    - 59.9732
+    - null
+    - thick: 22.625
+  - - 22.62
+    - 167.22
+    - 5.29819
+    - null
+    - thick: 144.599
+  - - 167.22
+    - null
+    - 1.32479
+- id: HS433
+  name: TDEM station HS433 (Zikim)
+  xy:
+  - 103954
+  - 114487
+  elev: 5.0
+  page: 23
+  box:
+  - 0.195
+  - 0.06
+  - 0.851
+  - 0.168
+  layers:
+  - - 0.0
+    - 0.27
+    - 0.774038
+    - null
+    - thick: 0.273
+  - - 0.27
+    - 32.13
+    - 98.7867
+    - null
+    - thick: 31.86
+  - - 32.13
+    - 43.81
+    - 5.18061
+    - null
+    - thick: 11.683
+  - - 43.81
+    - 102.25
+    - 1.52073
+    - null
+    - thick: 58.441
+  - - 102.25
+    - 143.06
+    - 54.9948
+    - null
+    - thick: 40.814
+  - - 143.06
+    - null
+    - 1.48619
+- id: HS434
+  name: TDEM station HS434 (Zikim)
+  xy:
+  - 104122
+  - 114378
+  elev: 11.0
+  page: 23
+  box:
+  - 0.207
+  - 0.481
+  - 0.851
+  - 0.589
+  layers:
+  - - 0.0
+    - 0.43
+    - 1.39768
+    - null
+    - thick: 0.428
+  - - 0.43
+    - 48.95
+    - 371.294
+    - null
+    - thick: 48.523
+  - - 48.95
+    - 76.76
+    - 3.27036
+    - null
+    - thick: 27.809
+  - - 76.76
+    - 118.3
+    - 2.01738
+    - null
+    - thick: 41.537
+  - - 118.3
+    - 164.67
+    - 63.3274
+    - null
+    - thick: 46.371
+  - - 164.67
+    - null
+    - 1.1822
+- id: HS435
+  name: TDEM station HS435 (Netanya (S))
+  xy:
+  - 135505
+  - 188555
+  elev: 41.5
+  page: 24
+  box:
+  - 0.177
+  - 0.054
+  - 0.862
+  - 0.153
+  layers:
+  - - 0.0
+    - 4.34
+    - 21.0564
+    - null
+    - thick: 4.336
+  - - 4.34
+    - 76.39
+    - 141.994
+    - null
+    - thick: 72.053
+  - - 76.39
+    - 125.19
+    - 1.97229
+    - null
+    - thick: 48.8
+  - - 125.19
+    - 208.97
+    - 141.51
+    - null
+    - thick: 83.783
+  - - 208.97
+    - null
+    - 1.58363
+- id: HS436
+  name: TDEM station HS436 (Netanya (S))
+  xy:
+  - 136280
+  - 190674
+  elev: 47.0
+  accuracy_m: 100
+  site_notes: Table 1 prints this station's coordinate with 5 digits (units of 10 m) instead of the 6-digit metres
+    used for GPS-located stations, so the position is less precise.
+  page: 24
+  box:
+  - 0.172
+  - 0.489
+  - 0.855
+  - 0.588
+  layers:
+  - - 0.0
+    - 4.44
+    - 22.6644
+    - null
+    - thick: 4.444
+  - - 4.44
+    - 83.21
+    - 190.831
+    - null
+    - thick: 78.767
+  - - 83.21
+    - 160.22
+    - 5.85512
+    - null
+    - thick: 77.008
+  - - 160.22
+    - 205.56
+    - 132.754
+    - null
+    - thick: 45.34
+  - - 205.56
+    - null
+    - 1.28037
+- id: HS437
+  name: TDEM station HS437 (Netanya (S))
+  xy:
+  - 135898
+  - 190983
+  elev: 40.0
+  page: 25
+  box:
+  - 0.176
+  - 0.046
+  - 0.858
+  - 0.155
+  layers:
+  - - 0.0
+    - 3.18
+    - 21.163
+    - null
+    - thick: 3.184
+  - - 3.18
+    - 62.55
+    - 160.429
+    - null
+    - thick: 59.372
+  - - 62.55
+    - 101.14
+    - 3.98603
+    - null
+    - thick: 38.585
+  - - 101.14
+    - 144.92
+    - 1.41587
+    - null
+    - thick: 43.78
+  - - 144.92
+    - 225.48
+    - 14.0711
+    - null
+    - thick: 80.56
+  - - 225.48
+    - null
+    - 1.72104
+- id: HS438
+  name: TDEM station HS438 (Rishpon)
+  xy:
+  - 133824
+  - 179514
+  elev: 45.0
+  page: 25
+  box:
+  - 0.176
+  - 0.478
+  - 0.865
+  - 0.587
+  layers:
+  - - 0.0
+    - 3.27
+    - 24.1492
+    - null
+    - thick: 3.266
+  - - 3.27
+    - 75.34
+    - 83.4109
+    - null
+    - thick: 72.073
+  - - 75.34
+    - 182.21
+    - 11.7937
+    - null
+    - thick: 106.874
+  - - 182.21
+    - 311.53
+    - 2.80363
+    - null
+    - thick: 129.319
+  - - 311.53
+    - 345.98
+    - 10.3194
+    - null
+    - thick: 34.446
+  - - 345.98
+    - null
+    - 2.73749
+- id: HS439
+  name: TDEM station HS439 (Netanya (N))
+  xy:
+  - 137297
+  - 194806
+  elev: 20.5
+  page: 26
+  box:
+  - 0.137
+  - 0.107
+  - 0.863
+  - 0.187
+  layers:
+  - - 0.0
+    - 45.39
+    - 86.4953
+    - null
+    - thick: 45.395
+  - - 45.39
+    - 97.77
+    - 15.9432
+    - null
+    - thick: 52.383
+  - - 97.77
+    - null
+    - 5.58337
+  confidence: C
+  notes: The author marks this sounding as noisy (Table 1 or Table 2).
+- id: HS440
+  name: TDEM station HS440 (Beitan Aharon)
+  xy:
+  - 137468
+  - 196850
+  elev: 13.0
+  accuracy_m: 100
+  site_notes: Table 1 prints this station's coordinate with 5 digits (units of 10 m) instead of the 6-digit metres
+    used for GPS-located stations, so the position is less precise.
+  page: 27
+  box:
+  - 0.193
+  - 0.07
+  - 0.825
+  - 0.179
+  layers:
+  - - 0.0
+    - 10.11
+    - 13.1175
+    - null
+    - thick: 10.106
+  - - 10.11
+    - 58.02
+    - 92.8621
+    - null
+    - thick: 47.914
+  - - 58.02
+    - 100.54
+    - 1.66435
+    - null
+    - thick: 42.52
+  - - 100.54
+    - 164.59
+    - 200.135
+    - null
+    - thick: 64.046
+  - - 164.59
+    - null
+    - 2.36161
+- id: HS441
+  name: TDEM station HS441 (Bet Yanai)
+  xy:
+  - 137888
+  - 199255
+  elev: 6.0
+  page: 27
+  box:
+  - 0.195
+  - 0.497
+  - 0.823
+  - 0.586
+  layers:
+  - - 0.0
+    - 1.31
+    - 17.5609
+    - null
+    - thick: 1.313
+  - - 1.31
+    - 52.87
+    - 127.295
+    - null
+    - thick: 51.557
+  - - 52.87
+    - 84.91
+    - 1.21934
+    - null
+    - thick: 32.042
+  - - 84.91
+    - null
+    - 2.46412
+  confidence: C
+  notes: The author marks this sounding as noisy (Table 1 or Table 2).
+- id: HS442
+  name: TDEM station HS442 (Givat Olga)
+  xy:
+  - 139081
+  - 204636
+  elev: 15.0
+  page: 28
+  box:
+  - 0.221
+  - 0.054
+  - 0.841
+  - 0.154
+  layers:
+  - - 0.0
+    - 1.11
+    - 3.67535
+    - null
+    - thick: 1.112
+  - - 1.11
+    - 50.15
+    - 143.892
+    - null
+    - thick: 49.044
+  - - 50.15
+    - 89.76
+    - 1.40926
+    - null
+    - thick: 39.609
+  - - 89.76
+    - 148.06
+    - 21.1039
+    - null
+    - thick: 58.295
+  - - 148.06
+    - null
+    - 1.29968
+- id: HS443
+  name: TDEM station HS443 (Givat Olga)
+  xy:
+  - 139304
+  - 204138
+  elev: 14.0
+  page: 28
+  box:
+  - 0.229
+  - 0.468
+  - 0.848
+  - 0.567
+  layers:
+  - - 0.0
+    - 1.41
+    - 5.19366
+    - null
+    - thick: 1.415
+  - - 1.41
+    - 49.79
+    - 41.8355
+    - null
+    - thick: 48.382
+  - - 49.79
+    - 91.69
+    - 1.52685
+    - null
+    - thick: 41.901
+  - - 91.69
+    - 152.94
+    - 21.1183
+    - null
+    - thick: 61.249
+  - - 152.94
+    - null
+    - 1.21491
+- id: HS444
+  name: TDEM station HS444 (Takhanat Koakh Hadera)
+  xy:
+  - 139800
+  - 207700
+  elev: 6.5
+  accuracy_m: 100
+  site_notes: Table 1 prints this station's coordinates with 5 digits (units of 10 m) instead of the 6-digit metres
+    used for GPS-located stations, so the position is less precise.
+  page: 29
+  box:
+  - 0.16
+  - 0.038
+  - 0.834
+  - 0.128
+  layers:
+  - - 0.0
+    - 0.97
+    - 5.79678
+    - null
+    - thick: 0.969
+  - - 0.97
+    - 46.15
+    - 64.9007
+    - null
+    - thick: 45.182
+  - - 46.15
+    - 91.65
+    - 2.09197
+    - null
+    - thick: 45.504
+  - - 91.65
+    - null
+    - 1.85389
+- id: HS445
+  name: TDEM station HS445 (Takhanat Koakh Hadera)
+  xy:
+  - 139900
+  - 207113
+  elev: 12.0
+  accuracy_m: 100
+  site_notes: Table 1 prints this station's coordinate with 5 digits (units of 10 m) instead of the 6-digit metres
+    used for GPS-located stations, so the position is less precise.
+  page: 29
+  box:
+  - 0.167
+  - 0.463
+  - 0.844
+  - 0.562
+  layers:
+  - - 0.0
+    - 1.44
+    - 7.2947
+    - null
+    - thick: 1.441
+  - - 1.44
+    - 49.88
+    - 77.1996
+    - null
+    - thick: 48.443
+  - - 49.88
+    - 69.84
+    - 4.70504
+    - null
+    - thick: 19.962
+  - - 69.84
+    - 103.97
+    - 32.1554
+    - null
+    - thick: 34.133
+  - - 103.97
+    - null
+    - 2.2947
+- id: HS447
+  name: TDEM station HS447 (Poleg, Hof Hayarok)
+  xy:
+  - 134670
+  - 187122
+  elev: 8.5
+  accuracy_m: 100
+  site_notes: Table 1 prints this station's coordinate with 5 digits (units of 10 m) instead of the 6-digit metres
+    used for GPS-located stations, so the position is less precise.
+  page: 30
+  box:
+  - 0.194
+  - 0.499
+  - 0.878
+  - 0.588
+  layers:
+  - - 0.0
+    - 2.0
+    - 5.50024
+    - null
+    - thick: 1.997
+  - - 2.0
+    - 32.6
+    - 89.4156
+    - null
+    - thick: 30.598
+  - - 32.6
+    - 95.55
+    - 1.45706
+    - null
+    - thick: 62.95
+  - - 95.55
+    - null
+    - 3.17512
+- id: HS448
+  name: TDEM station HS448 (Poleg)
+  xy:
+  - 134820
+  - 187100
+  accuracy_m: 100
+  site_notes: Table 1 prints this station's coordinates with 5 digits (units of 10 m) instead of the 6-digit metres
+    used for GPS-located stations, so the position is less precise.
+  page: 31
+  box:
+  - 0.201
+  - 0.054
+  - 0.86
+  - 0.154
+  layers:
+  - - 0.0
+    - 0.95
+    - 2.7817
+    - null
+    - thick: 0.948
+  - - 0.95
+    - 42.0
+    - 106.555
+    - null
+    - thick: 41.046
+  - - 42.0
+    - 96.84
+    - 1.43809
+    - null
+    - thick: 54.842
+  - - 96.84
+    - 180.55
+    - 10.2064
+    - null
+    - thick: 83.713
+  - - 180.55
+    - null
+    - 1.28324
+- id: HS449
+  name: TDEM station HS449 (Poleg)
+  xy:
+  - 135057
+  - 187070
+  elev: 9.5
+  accuracy_m: 100
+  site_notes: Table 1 prints this station's coordinate with 5 digits (units of 10 m) instead of the 6-digit metres
+    used for GPS-located stations, so the position is less precise.
+  page: 31
+  box:
+  - 0.204
+  - 0.487
+  - 0.861
+  - 0.576
+  layers:
+  - - 0.0
+    - 53.07
+    - 104.492
+    - null
+    - thick: 53.071
+  - - 53.07
+    - 82.1
+    - 1.28147
+    - null
+    - thick: 29.027
+  - - 82.1
+    - 175.33
+    - 13.6896
+    - null
+    - thick: 93.225
+  - - 175.33
+    - null
+    - 1.4103
+- id: HS450
+  name: TDEM station HS450 (Ga'ash)
+  xy:
+  - 134536
+  - 182581
+  elev: 29.5
+  page: 32
+  box:
+  - 0.174
+  - 0.045
+  - 0.835
+  - 0.127
+  layers:
+  - - 0.0
+    - 143.31
+    - 27.6834
+    - null
+    - thick: 143.315
+  - - 143.31
+    - null
+    - 2.21207
+  confidence: C
+  notes: The author marks this sounding as noisy (Table 1 or Table 2).
+- id: HS451
+  name: TDEM station HS451 (Netanya (S))
+  xy:
+  - 135638
+  - 188408
+  elev: 34.5
+  page: 32
+  box:
+  - 0.18
+  - 0.459
+  - 0.833
+  - 0.578
+  layers:
+  - - 0.0
+    - 0.7
+    - 1.75073
+    - null
+    - thick: 0.703
+  - - 0.7
+    - 75.21
+    - 1477.58
+    - null
+    - thick: 74.506
+  - - 75.21
+    - 134.26
+    - 5.67094
+    - null
+    - thick: 59.049
+  - - 134.26
+    - 167.18
+    - 95.7443
+    - null
+    - thick: 32.921
+  - - 167.18
+    - null
+    - 2.04779
+- id: HS452
+  name: TDEM station HS452 (Betan Aharon)
+  xy:
+  - 137651
+  - 196937
+  elev: 14.5
+  page: 33
+  box:
+  - 0.193
+  - 0.052
+  - 0.845
+  - 0.183
+  layers:
+  - - 0.0
+    - 3.64
+    - 5.56327
+    - null
+    - thick: 3.635
+  - - 3.64
+    - 36.89
+    - 41.8475
+    - null
+    - thick: 33.253
+  - - 36.89
+    - 62.4
+    - 19.6658
+    - null
+    - thick: 25.508
+  - - 62.4
+    - 84.17
+    - 1.76283
+    - null
+    - thick: 21.775
+  - - 84.17
+    - 171.71
+    - 202.78
+    - null
+    - thick: 87.543
+  - - 171.71
+    - null
+    - 2.34299
+- id: HS453
+  name: TDEM station HS453 (Hofit)
+  xy:
+  - 138030
+  - 198800
+  elev: 9.0
+  accuracy_m: 100
+  site_notes: Table 1 prints this station's coordinates with 5 digits (units of 10 m) instead of the 6-digit metres
+    used for GPS-located stations, so the position is less precise.
+  page: 33
+  box:
+  - 0.201
+  - 0.501
+  - 0.835
+  - 0.595
+  layers:
+  - - 0.0
+    - 0.51
+    - 6.82954
+    - null
+    - thick: 0.514
+  - - 0.51
+    - 55.77
+    - 27.115
+    - null
+    - thick: 55.262
+  - - 55.77
+    - null
+    - 1.34874
+- id: HS454
+  name: TDEM station HS454 (Mikhmoret)
+  xy:
+  - 138410
+  - 200230
+  elev: 6.0
+  accuracy_m: 100
+  site_notes: Table 1 prints this station's coordinates with 5 digits (units of 10 m) instead of the 6-digit metres
+    used for GPS-located stations, so the position is less precise.
+  page: 34
+  box:
+  - 0.18
+  - 0.046
+  - 0.83
+  - 0.177
+  layers:
+  - - 0.0
+    - 1.2
+    - 22.5988
+    - null
+    - thick: 1.2
+  - - 1.2
+    - 2.93
+    - 5.96242
+    - null
+    - thick: 1.735
+  - - 2.93
+    - 52.04
+    - 323.168
+    - null
+    - thick: 49.11
+  - - 52.04
+    - 93.33
+    - 1.52487
+    - null
+    - thick: 41.287
+  - - 93.33
+    - 139.92
+    - 5.88642
+    - null
+    - thick: 46.585
+  - - 139.92
+    - null
+    - 2.01544
+- id: HS455
+  name: TDEM station HS455 (Katza (Ashqelon))
+  xy:
+  - 105293
+  - 115825
+  elev: 14.0
+  page: 34
+  box:
+  - 0.187
+  - 0.496
+  - 0.825
+  - 0.603
+  layers:
+  - - 0.0
+    - 7.23
+    - 14.5596
+    - null
+    - thick: 7.23
+  - - 7.23
+    - 66.51
+    - 70.5413
+    - null
+    - thick: 59.282
+  - - 66.51
+    - 122.81
+    - 1.77685
+    - null
+    - thick: 56.297
+  - - 122.81
+    - null
+    - 6.67521
+- id: HS456
+  name: TDEM station HS456 (Katza (Ashqelon))
+  xy:
+  - 105579
+  - 115881
+  elev: 21.0
+  page: 35
+  box:
+  - 0.165
+  - 0.031
+  - 0.803
+  - 0.15
+  layers:
+  - - 0.0
+    - 2.76
+    - 22.6699
+    - null
+    - thick: 2.761
+  - - 2.76
+    - 88.42
+    - 67.4528
+    - null
+    - thick: 85.659
+  - - 88.42
+    - 122.41
+    - 1.67679
+    - null
+    - thick: 33.989
+  - - 122.41
+    - 190.09
+    - 8.60007
+    - null
+    - thick: 67.681
+  - - 190.09
+    - null
+    - 1.09506
+- id: HS457
+  name: TDEM station HS457 (Ashqelon (S))
+  xy:
+  - 104507
+  - 114266
+  elev: 22.5
+  page: 35
+  box:
+  - 0.17
+  - 0.46
+  - 0.823
+  - 0.579
+  layers:
+  - - 0.0
+    - 3.02
+    - 9.22114
+    - null
+    - thick: 3.018
+  - - 3.02
+    - 80.36
+    - 85.9404
+    - null
+    - thick: 77.344
+  - - 80.36
+    - 121.96
+    - 2.17823
+    - null
+    - thick: 41.601
+  - - 121.96
+    - 200.43
+    - 9.3502
+    - null
+    - thick: 78.469
+  - - 200.43
+    - null
+    - 1.06772
+- id: HS458
+  name: TDEM station HS458 (Ashdod)
+  xy:
+  - 115492
+  - 133317
+  elev: 14.5
+  page: 36
+  box:
+  - 0.192
+  - 0.056
+  - 0.848
+  - 0.164
+  layers:
+  - - 0.0
+    - 2.98
+    - 8.70962
+    - null
+    - thick: 2.982
+  - - 2.98
+    - 71.52
+    - 913.907
+    - null
+    - thick: 68.541
+  - - 71.52
+    - 138.94
+    - 5.29491
+    - null
+    - thick: 67.418
+  - - 138.94
+    - null
+    - 2.08785
+  confidence: C
+  notes: The author marks this sounding as noisy (Table 1 or Table 2).
+- id: HS459
+  name: TDEM station HS459 (Caesaria)
+  xy:
+  - 140302
+  - 211513
+  elev: 7.0
+  page: 36
+  box:
+  - 0.196
+  - 0.483
+  - 0.85
+  - 0.591
+  layers:
+  - - 0.0
+    - 53.27
+    - 33.6901
+    - null
+    - thick: 53.265
+  - - 53.27
+    - 83.32
+    - 1.47243
+    - null
+    - thick: 30.045
+  - - 83.32
+    - 108.34
+    - 6.65926
+    - null
+    - thick: 25.015
+  - - 108.34
+    - null
+    - 2.25591
+- id: HS460
+  name: TDEM station HS460 (Mikhmoret)
+  xy:
+  - 139275
+  - 202471
+  elev: 21.5
+  page: 37
+  box:
+  - 0.184
+  - 0.038
+  - 0.824
+  - 0.157
+  layers:
+  - - 0.0
+    - 1.68
+    - 7.92098
+    - null
+    - thick: 1.675
+  - - 1.68
+    - 64.48
+    - 89.2091
+    - null
+    - thick: 62.799
+  - - 64.48
+    - 85.77
+    - 2.48589
+    - null
+    - thick: 21.29
+  - - 85.77
+    - 168.82
+    - 11.3503
+    - null
+    - thick: 83.053
+  - - 168.82
+    - null
+    - 1.37893
+- id: HS461
+  name: TDEM station HS461 (Mikhmoret)
+  xy:
+  - 138567
+  - 202743
+  elev: 14.0
+  page: 37
+  box:
+  - 0.193
+  - 0.472
+  - 0.828
+  - 0.578
+  layers:
+  - - 0.0
+    - 0.79
+    - 5.72423
+    - null
+    - thick: 0.79
+  - - 0.79
+    - 47.84
+    - 55.7902
+    - null
+    - thick: 47.054
+  - - 47.84
+    - 86.74
+    - 1.37302
+    - null
+    - thick: 38.9
+  - - 86.74
+    - null
+    - 3.14806
+- id: HS462
+  name: TDEM station HS462 (Mikhmoret)
+  xy:
+  - 138108
+  - 200442
+  elev: 4.0
+  page: 38
+  box:
+  - 0.155
+  - 0.078
+  - 0.799
+  - 0.184
+  layers:
+  - - 0.0
+    - 0.84
+    - 1.73098
+    - null
+    - thick: 0.843
+  - - 0.84
+    - 43.77
+    - 104.499
+    - null
+    - thick: 42.931
+  - - 43.77
+    - 88.78
+    - 1.48353
+    - null
+    - thick: 45.014
+  - - 88.78
+    - null
+    - 2.90867
+- id: HS403-t2
+  page: 6
+  table: Table 2
+  box:
+  - 0.06
+  - 0.1975
+  - 0.95
+  - 0.215
+  site: HS403
+  model_id: HS403
+  interfaces:
+  - - 56.0
+    - upper
+  - - 174.0
+    - lower
+  notes: 'Upper unit resistivity 3.0 ohm.m. Lower unit resistivity 1.8 ohm.m. Author''s comment: High resistivity.
+    Hydrological strip 118.'
+- id: HS404-t2
+  page: 6
+  table: Table 2
+  box:
+  - 0.06
+  - 0.2128
+  - 0.95
+  - 0.2303
+  site: HS404
+  model_id: HS404
+  interfaces:
+  - - 22.0
+    - upper
+  notes: Upper unit resistivity 1.6 ohm.m. Hydrological strip 118.
+- id: HS406-t2
+  page: 6
+  table: Table 2
+  box:
+  - 0.06
+  - 0.2435
+  - 0.95
+  - 0.261
+  site: HS406
+  model_id: HS406
+  interfaces:
+  - - 27.0
+    - upper
+  notes: 'Upper unit: two sub-layers, 1.2 ohm.m from 27 m and 0.9 ohm.m from 32 m; the shallower depth is stored.
+    The printout has 11.8 ohm.m from 26.8 m and 0.91 ohm.m from 32.1 m; Table 2 gives 1.2 ohm.m at 27 m for the
+    first. Hydrological strip 115.'
+- id: HS407-t2
+  page: 6
+  table: Table 2
+  box:
+  - 0.06
+  - 0.2588
+  - 0.95
+  - 0.2763
+  site: HS407
+  model_id: HS407
+  interfaces:
+  - - 46.0
+    - upper
+  - - 155.0
+    - lower
+  notes: 'Upper unit resistivity 2.5 ohm.m. Lower unit resistivity 2.9 ohm.m. Author''s comment: Two subaquifers.
+    Hydrological strip 114.'
+- id: HS408-t2
+  page: 6
+  table: Table 2
+  box:
+  - 0.06
+  - 0.2745
+  - 0.95
+  - 0.292
+  site: HS408
+  model_id: HS408
+  interfaces:
+  - - 27.0
+    - upper
+  - - 145.0
+    - lower
+  notes: 'Upper unit resistivity 1.1 ohm.m. Lower unit resistivity 1.2 ohm.m. Author''s comment: Two subaquifers.
+    Hydrological strip 114.'
+- id: HS409-t2
+  page: 6
+  table: Table 2
+  box:
+  - 0.06
+  - 0.2898
+  - 0.95
+  - 0.3073
+  site: HS409
+  model_id: HS409
+  interfaces:
+  - - 50.0
+    - upper
+  notes: 'Upper unit: two sub-layers, 3.1 ohm.m from 50 m and 1.8 ohm.m from 71 m; the shallower depth is stored.
+    Hydrological strip 113.'
+- id: HS411A-t2
+  page: 6
+  table: Table 2
+  box:
+  - 0.06
+  - 0.3208
+  - 0.95
+  - 0.3383
+  site: HS411A
+  model_id: HS411A
+  interfaces:
+  - - 91.0
+    - upper
+  - - 229.0
+    - lower
+  notes: Upper unit resistivity 1.6 ohm.m. Lower unit resistivity 1.5 ohm.m. Hydrological strip 138.
+- id: HS413-t2
+  page: 6
+  table: Table 2
+  box:
+  - 0.06
+  - 0.3517
+  - 0.95
+  - 0.3692
+  site: HS413
+  model_id: HS413
+  interfaces:
+  - - 73.0
+    - upper
+  notes: Upper unit resistivity 1.4 ohm.m. Hydrological strip 138.
+- id: HS414-t2
+  page: 6
+  table: Table 2
+  box:
+  - 0.06
+  - 0.3668
+  - 0.95
+  - 0.3843
+  site: HS414
+  model_id: HS414
+  interfaces:
+  - - 95.0
+    - upper
+  - - 199.0
+    - lower
+  notes: 'Upper unit resistivity 1.1 ohm.m. Lower unit resistivity 1.3 ohm.m. Author''s comment: Noisy. Hydrological
+    strip 138.'
+  confidence: C
+- id: HS415-t2
+  page: 6
+  table: Table 2
+  box:
+  - 0.06
+  - 0.3821
+  - 0.95
+  - 0.3996
+  site: HS415
+  model_id: HS415
+  interfaces:
+  - - 81.0
+    - upper
+  - - 159.0
+    - lower
+  notes: Upper unit resistivity 1.2 ohm.m. Lower unit resistivity 2.1 ohm.m. Hydrological strip 140.
+- id: HS416-t2
+  page: 6
+  table: Table 2
+  box:
+  - 0.06
+  - 0.3978
+  - 0.95
+  - 0.4153
+  site: HS416
+  model_id: HS416
+  interfaces:
+  - - 204.0
+    - lower
+  notes: Lower unit resistivity 2.2 ohm.m. Hydrological strip 105.
+- id: HS417-t2
+  page: 6
+  table: Table 2
+  box:
+  - 0.06
+  - 0.4131
+  - 0.95
+  - 0.4306
+  site: HS417
+  model_id: HS417
+  interfaces:
+  - - 113.0
+    - upper
+  - - 209.0
+    - lower
+  notes: Upper unit resistivity 1.3 ohm.m. Lower unit resistivity 1.2 ohm.m. Hydrological strip 105.
+- id: HS418-t2
+  page: 6
+  table: Table 2
+  box:
+  - 0.06
+  - 0.4284
+  - 0.95
+  - 0.4459
+  site: HS418
+  model_id: HS418
+  interfaces:
+  - - 123.0
+    - upper
+  - - 204.0
+    - lower
+  notes: Upper unit resistivity 2.1 ohm.m. Lower unit resistivity 1.4 ohm.m. Hydrological strip 105.
+- id: HS419-t2
+  page: 6
+  table: Table 2
+  box:
+  - 0.06
+  - 0.4441
+  - 0.95
+  - 0.4616
+  site: HS419
+  model_id: HS419
+  interfaces:
+  - - 50.0
+    - upper
+  - - 215.0
+    - lower
+  notes: Upper unit resistivity 2.3 ohm.m. Lower unit resistivity 2.6 ohm.m. Hydrological strip 127.
+- id: HS420-t2
+  page: 6
+  table: Table 2
+  box:
+  - 0.06
+  - 0.4594
+  - 0.95
+  - 0.4769
+  site: HS420
+  model_id: HS420
+  interfaces:
+  - - 33.0
+    - upper
+  notes: 'Upper unit: two sub-layers, 3.8 ohm.m from 33 m and 0.4 ohm.m from 72 m; the shallower depth is stored.
+    Author''s comment: Noisy, not reliable. Hydrological strip 128.'
+  confidence: C
+- id: HS422-t2
+  page: 6
+  table: Table 2
+  box:
+  - 0.06
+  - 0.4901
+  - 0.95
+  - 0.5076
+  site: HS422
+  model_id: HS422
+  interfaces:
+  - - 41.0
+    - upper
+  - - 216.0
+    - lower
+  notes: 'Upper unit: two sub-layers, 2.8 ohm.m from 41 m and 1.6 ohm.m from 63 m; the shallower depth is stored.
+    Lower unit resistivity 1.0 ohm.m. Hydrological strip 122.'
+- id: HS423-t2
+  page: 6
+  table: Table 2
+  box:
+  - 0.06
+  - 0.5054
+  - 0.95
+  - 0.5229
+  site: HS423
+  model_id: HS423
+  interfaces:
+  - - 17.0
+    - upper
+  - - 53.0
+    - lower
+  notes: 'Upper unit resistivity 1.3 ohm.m. Lower unit resistivity 1.3 ohm.m. Author''s comment: Two subaquifers.
+    The printout puts the lower unit (1.35 ohm.m) at 54.3 m; Table 2 gives 53 m. Hydrological strip 133.'
+- id: HS424-t2
+  page: 6
+  table: Table 2
+  box:
+  - 0.06
+  - 0.5208
+  - 0.95
+  - 0.5383
+  site: HS424
+  model_id: HS424
+  interfaces:
+  - - 195.0
+    - lower
+  notes: Lower unit resistivity 1.0 ohm.m. The printout gives 1.11 ohm.m for the lower unit; Table 2 gives 1.0 ohm.m.
+    Hydrological strip 135.
+  confidence: C
+- id: HS425-t2
+  page: 6
+  table: Table 2
+  box:
+  - 0.06
+  - 0.5361
+  - 0.95
+  - 0.5536
+  site: HS425
+  model_id: HS425
+  interfaces:
+  - - 46.0
+    - upper
+  notes: 'Upper unit resistivity 2.7 ohm.m. Author''s comment: Noisy. Hydrological strip 134.'
+  confidence: C
+- id: HS426-t2
+  page: 6
+  table: Table 2
+  box:
+  - 0.06
+  - 0.5514
+  - 0.95
+  - 0.5689
+  site: HS426
+  model_id: HS426
+  interfaces:
+  - - 192.0
+    - lower
+  notes: 'Lower unit resistivity 1.8 ohm.m. Author''s comment: Noisy. Hydrological strip 135.'
+  confidence: C
+- id: HS427-t2
+  page: 6
+  table: Table 2
+  box:
+  - 0.06
+  - 0.5668
+  - 0.95
+  - 0.5843
+  site: HS427
+  model_id: HS427
+  interfaces:
+  - - 63.0
+    - upper
+  notes: Upper unit resistivity 2.9 ohm.m. Hydrological strip 136.
+- id: HS428-t2
+  page: 6
+  table: Table 2
+  box:
+  - 0.06
+  - 0.5821
+  - 0.95
+  - 0.5996
+  site: HS428
+  model_id: HS428
+  interfaces:
+  - - 33.0
+    - upper
+  notes: 'Upper unit resistivity 1.1 ohm.m. Author''s comment: Noisy. Hydrological strip 136.'
+  confidence: C
+- id: HS429
+  page: 6
+  table: Table 2
+  box:
+  - 0.06
+  - 0.5978
+  - 0.95
+  - 0.6152
+  name: TDEM station HS429 (Nof-Yam)
+  xy:
+  - 132234
+  - 177480
+  elev: 20.5
+  accuracy_m: 100
+  site_notes: Table 1 prints this station's coordinate with 5 digits (units of 10 m) instead of the 6-digit metres
+    used for GPS-located stations, so the position is less precise. No layered model is printed for this station;
+    only its Table 2 depths are stored.
+  model_id: HS429
+  interfaces:
+  - - 61.0
+    - upper
+  notes: 'Upper unit resistivity 1.7 ohm.m. Author''s comment: Noisy. Hydrological strip 137.'
+  confidence: C
+- id: HS430
+  page: 6
+  table: Table 2
+  box:
+  - 0.06
+  - 0.6131
+  - 0.95
+  - 0.6306
+  name: TDEM station HS430 (Yakum)
+  xy:
+  - 134805
+  - 184085
+  elev: 18.5
+  site_notes: No layered model is printed for this station; only its Table 2 depths are stored.
+  model_id: HS430
+  interfaces:
+  - - 157.0
+    - lower
+  notes: 'Lower unit resistivity 2.4 ohm.m. Author''s comment: Two subaquifers. Hydrological strip 141.'
+- id: HS431-t2
+  page: 6
+  table: Table 2
+  box:
+  - 0.06
+  - 0.6284
+  - 0.95
+  - 0.6459
+  site: HS431
+  model_id: HS431
+  interfaces:
+  - - 32.0
+    - upper
+  - - 148.0
+    - lower
+  notes: 'Upper unit resistivity 3.0 ohm.m. Lower unit resistivity 1.6 ohm.m. Author''s comment: High resistivity.
+    Hydrological strip 102.'
+- id: HS432-t2
+  page: 6
+  table: Table 2
+  box:
+  - 0.06
+  - 0.6438
+  - 0.95
+  - 0.6613
+  site: HS432
+  model_id: HS432
+  interfaces:
+  - - 167.0
+    - lower
+  notes: 'Lower unit resistivity 1.3 ohm.m. Author''s comment: Lower subaquifer. Hydrological strip 102.'
+- id: HS433-t2
+  page: 6
+  table: Table 2
+  box:
+  - 0.06
+  - 0.6591
+  - 0.95
+  - 0.6766
+  site: HS433
+  model_id: HS433
+  interfaces:
+  - - 44.0
+    - upper
+  - - 143.0
+    - lower
+  notes: 'Upper unit resistivity 1.5 ohm.m. Lower unit resistivity 1.5 ohm.m. Author''s comment: Two subaquifers.
+    Hydrological strip 103.'
+- id: HS434-t2
+  page: 6
+  table: Table 2
+  box:
+  - 0.06
+  - 0.6745
+  - 0.95
+  - 0.6919
+  site: HS434
+  model_id: HS434
+  interfaces:
+  - - 49.0
+    - upper
+  - - 164.0
+    - lower
+  notes: 'Upper unit: two sub-layers, 3.3 ohm.m from 49 m and 2.0 ohm.m from 77 m; the shallower depth is stored.
+    Lower unit resistivity 1.2 ohm.m. Author''s comment: Two subaquifers. Hydrological strip 103.'
+- id: HS435-t2
+  page: 6
+  table: Table 2
+  box:
+  - 0.06
+  - 0.6898
+  - 0.95
+  - 0.7073
+  site: HS435
+  model_id: HS435
+  interfaces:
+  - - 76.0
+    - upper
+  - - 209.0
+    - lower
+  notes: Upper unit resistivity 2.0 ohm.m. Lower unit resistivity 1.6 ohm.m. Hydrological strip 143.
+- id: HS436-t2
+  page: 6
+  table: Table 2
+  box:
+  - 0.06
+  - 0.7051
+  - 0.95
+  - 0.7226
+  site: HS436
+  model_id: HS436
+  interfaces:
+  - - 205.0
+    - lower
+  notes: Lower unit resistivity 1.3 ohm.m. Hydrological strip 144.
+- id: HS437-t2
+  page: 6
+  table: Table 2
+  box:
+  - 0.06
+  - 0.7208
+  - 0.95
+  - 0.7383
+  site: HS437
+  model_id: HS437
+  interfaces:
+  - - 101.0
+    - upper
+  - - 226.0
+    - lower
+  notes: Upper unit resistivity 1.4 ohm.m. Lower unit resistivity 1.7 ohm.m. Hydrological strip 144.
+- id: HS438-t2
+  page: 6
+  table: Table 2
+  box:
+  - 0.06
+  - 0.7358
+  - 0.95
+  - 0.7533
+  site: HS438
+  model_id: HS438
+  interfaces:
+  - - 182.0
+    - lower
+  notes: Lower unit resistivity 2.8 ohm.m. Hydrological strip 138.
+- id: HS440-t2
+  page: 6
+  table: Table 2
+  box:
+  - 0.06
+  - 0.7668
+  - 0.95
+  - 0.7843
+  site: HS440
+  model_id: HS440
+  interfaces:
+  - - 58.0
+    - upper
+  - - 164.0
+    - lower
+  notes: Upper unit resistivity 1.7 ohm.m. Lower unit resistivity 2.4 ohm.m. Hydrological strip 147.
+- id: HS441-t2
+  page: 6
+  table: Table 2
+  box:
+  - 0.06
+  - 0.7818
+  - 0.95
+  - 0.7993
+  site: HS441
+  model_id: HS441
+  interfaces:
+  - - 53.0
+    - upper
+  notes: 'Upper unit resistivity 1.2 ohm.m. Author''s comment: Noisy. Hydrological strip 148.'
+  confidence: C
+- id: HS442-t2
+  page: 6
+  table: Table 2
+  box:
+  - 0.06
+  - 0.7972
+  - 0.95
+  - 0.8147
+  site: HS442
+  model_id: HS442
+  interfaces:
+  - - 50.0
+    - upper
+  - - 148.0
+    - lower
+  notes: Upper unit resistivity 1.4 ohm.m. Lower unit resistivity 1.3 ohm.m. Hydrological strip 151.
+- id: HS443-t2
+  page: 6
+  table: Table 2
+  box:
+  - 0.06
+  - 0.8128
+  - 0.95
+  - 0.8303
+  site: HS443
+  model_id: HS443
+  interfaces:
+  - - 50.0
+    - upper
+  - - 153.0
+    - lower
+  notes: Upper unit resistivity 1.5 ohm.m. Lower unit resistivity 1.2 ohm.m. Hydrological strip 151.
+- id: HS444-t2
+  page: 6
+  table: Table 2
+  box:
+  - 0.06
+  - 0.8279
+  - 0.95
+  - 0.8454
+  site: HS444
+  model_id: HS444
+  interfaces:
+  - - 46.0
+    - upper
+  notes: Upper unit resistivity 2.1 ohm.m. Hydrological strip 153.
+- id: HS445-t2
+  page: 7
+  table: Table 2
+  box:
+  - 0.06
+  - 0.2355
+  - 0.95
+  - 0.2529
+  site: HS445
+  model_id: HS445
+  interfaces:
+  - - 103.0
+    - lower
+  notes: Lower unit resistivity 2.3 ohm.m. Hydrological strip 153.
+- id: HS447-t2
+  page: 7
+  table: Table 2
+  box:
+  - 0.06
+  - 0.2664
+  - 0.95
+  - 0.2839
+  site: HS447
+  model_id: HS447
+  interfaces:
+  - - 33.0
+    - upper
+  notes: Upper unit resistivity 1.5 ohm.m. Hydrological strip 142.
+- id: HS448-t2
+  page: 7
+  table: Table 2
+  box:
+  - 0.06
+  - 0.2817
+  - 0.95
+  - 0.2991
+  site: HS448
+  model_id: HS448
+  interfaces:
+  - - 42.0
+    - upper
+  - - 181.0
+    - lower
+  notes: Upper unit resistivity 1.4 ohm.m. Lower unit resistivity 1.3 ohm.m. Hydrological strip 142.
+- id: HS449-t2
+  page: 7
+  table: Table 2
+  box:
+  - 0.06
+  - 0.297
+  - 0.95
+  - 0.3145
+  site: HS449
+  model_id: HS449
+  interfaces:
+  - - 53.0
+    - upper
+  - - 175.0
+    - lower
+  notes: Upper unit resistivity 1.3 ohm.m. Lower unit resistivity 1.4 ohm.m. Hydrological strip 142.
+- id: HS450-t2
+  page: 7
+  table: Table 2
+  box:
+  - 0.06
+  - 0.3126
+  - 0.95
+  - 0.3301
+  site: HS450
+  model_id: HS450
+  interfaces:
+  - - 143.0
+    - lower
+  notes: 'Lower unit resistivity 2.2 ohm.m. Author''s comment: Noisy. Hydrological strip 140.'
+  confidence: C
+- id: HS451-t2
+  page: 7
+  table: Table 2
+  box:
+  - 0.06
+  - 0.3279
+  - 0.95
+  - 0.3454
+  site: HS451
+  model_id: HS451
+  interfaces:
+  - - 167.0
+    - lower
+  notes: Lower unit resistivity 2.0 ohm.m. Hydrological strip 143.
+- id: HS452-t2
+  page: 7
+  table: Table 2
+  box:
+  - 0.06
+  - 0.3432
+  - 0.95
+  - 0.3607
+  site: HS452
+  model_id: HS452
+  interfaces:
+  - - 62.0
+    - upper
+  - - 171.0
+    - lower
+  notes: Upper unit resistivity 1.8 ohm.m. Lower unit resistivity 2.3 ohm.m. Hydrological strip 147.
+- id: HS453-t2
+  page: 7
+  table: Table 2
+  box:
+  - 0.06
+  - 0.3585
+  - 0.95
+  - 0.376
+  site: HS453
+  model_id: HS453
+  interfaces:
+  - - 56.0
+    - upper
+  notes: Upper unit resistivity 1.3 ohm.m. Hydrological strip 148.
+- id: HS454-t2
+  page: 7
+  table: Table 2
+  box:
+  - 0.06
+  - 0.3738
+  - 0.95
+  - 0.3913
+  site: HS454
+  model_id: HS454
+  interfaces:
+  - - 52.0
+    - upper
+  - - 140.0
+    - lower
+  notes: Upper unit resistivity 1.5 ohm.m. Lower unit resistivity 2.0 ohm.m. Hydrological strip 149.
+- id: HS455-t2
+  page: 7
+  table: Table 2
+  box:
+  - 0.06
+  - 0.3892
+  - 0.95
+  - 0.4066
+  site: HS455
+  model_id: HS455
+  interfaces:
+  - - 66.0
+    - upper
+  notes: Upper unit resistivity 1.8 ohm.m. Hydrological strip 104.
+- id: HS456-t2
+  page: 7
+  table: Table 2
+  box:
+  - 0.06
+  - 0.4045
+  - 0.95
+  - 0.4219
+  site: HS456
+  model_id: HS456
+  interfaces:
+  - - 89.0
+    - upper
+  - - 190.0
+    - lower
+  notes: Upper unit resistivity 1.7 ohm.m. Lower unit resistivity 1.1 ohm.m. Hydrological strip 104.
+- id: HS457-t2
+  page: 7
+  table: Table 2
+  box:
+  - 0.06
+  - 0.4198
+  - 0.95
+  - 0.4372
+  site: HS457
+  model_id: HS457
+  interfaces:
+  - - 80.0
+    - upper
+  - - 200.0
+    - lower
+  notes: Upper unit resistivity 2.2 ohm.m. Lower unit resistivity 1.1 ohm.m. Hydrological strip 103.
+- id: HS458-t2
+  page: 7
+  table: Table 2
+  box:
+  - 0.06
+  - 0.4351
+  - 0.95
+  - 0.4664
+  site: HS458
+  model_id: HS458
+  interfaces:
+  - - 138.0
+    - lower
+  notes: 'Lower unit resistivity 2.1 ohm.m. Author''s comment: Lower subaquifer, noisy. Hydrological strip 114.'
+  confidence: C
+- id: HS459-t2
+  page: 7
+  table: Table 2
+  box:
+  - 0.06
+  - 0.4651
+  - 0.95
+  - 0.4826
+  site: HS459
+  model_id: HS459
+  interfaces:
+  - - 53.0
+    - upper
+  - - 108.0
+    - lower
+  notes: Upper unit resistivity 1.5 ohm.m. Lower unit resistivity 2.2 ohm.m. Hydrological strip 155.
+- id: HS460-t2
+  page: 7
+  table: Table 2
+  box:
+  - 0.06
+  - 0.4804
+  - 0.95
+  - 0.4979
+  site: HS460
+  model_id: HS460
+  interfaces:
+  - - 65.0
+    - upper
+  - - 169.0
+    - lower
+  notes: Upper unit resistivity 2.5 ohm.m. Lower unit resistivity 1.4 ohm.m. Hydrological strip 150.
+- id: HS461-t2
+  page: 7
+  table: Table 2
+  box:
+  - 0.06
+  - 0.4957
+  - 0.95
+  - 0.5132
+  site: HS461
+  model_id: HS461
+  interfaces:
+  - - 48.0
+    - upper
+  notes: Upper unit resistivity 1.4 ohm.m. Hydrological strip 150.
+- id: HS462-t2
+  page: 7
+  table: Table 2
+  box:
+  - 0.06
+  - 0.5108
+  - 0.95
+  - 0.5282
+  site: HS462
+  model_id: HS462
+  interfaces:
+  - - 44.0
+    - upper
+  notes: Upper unit resistivity 1.4 ohm.m. Hydrological strip 149.

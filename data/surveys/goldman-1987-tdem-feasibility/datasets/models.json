@@ -1,0 +1,1218 @@
+[
+ {
+  "id": "goldman1987-M1-layered",
+  "survey": "goldman-1987-tdem-feasibility",
+  "site": "M1",
+  "method": "TEM",
+  "level": "L2",
+  "representation": "model_1d",
+  "measured_on": "1987",
+  "depth_max_m": 165.7,
+  "confidence": "A",
+  "status": "draft",
+  "model_type": "layered",
+  "layers": [
+   {
+    "top_m": 0.0,
+    "bottom_m": 20.2,
+    "rho_ohmm": 93.5
+   },
+   {
+    "top_m": 20.2,
+    "bottom_m": 165.7,
+    "rho_ohmm": 15.3
+   },
+   {
+    "top_m": 165.7,
+    "bottom_m": null,
+    "rho_ohmm": 159.2
+   }
+  ],
+  "provenance": {
+   "document": "main",
+   "pages": [
+    44
+   ],
+   "method": "manual",
+   "tool": "typed from the page at 200 dpi; geosigma.extract.printed_tables",
+   "extracted_on": "2026-10-24",
+   "notes": "Read from the 'estimated parameter values' table printed on each figure (rho in ohm-m, h = layer thickness in m); depths are cumulative thicknesses. Plot label: X5M1 (GEONICS CORR.).",
+   "figure": "Figure 16"
+  },
+  "notes": "Central-loop TDEM (Geonics EM-37), 1-D inversion by the author. Last layer is the half-space."
+ },
+ {
+  "id": "goldman1987-M3-layered",
+  "survey": "goldman-1987-tdem-feasibility",
+  "site": "M3",
+  "method": "TEM",
+  "level": "L2",
+  "representation": "model_1d",
+  "measured_on": "1987",
+  "depth_max_m": 193.8,
+  "confidence": "A",
+  "status": "draft",
+  "model_type": "layered",
+  "layers": [
+   {
+    "top_m": 0.0,
+    "bottom_m": 98.1,
+    "rho_ohmm": 30.3
+   },
+   {
+    "top_m": 98.1,
+    "bottom_m": 193.8,
+    "rho_ohmm": 24.6
+   },
+   {
+    "top_m": 193.8,
+    "bottom_m": null,
+    "rho_ohmm": 198.7
+   }
+  ],
+  "provenance": {
+   "document": "main",
+   "pages": [
+    46
+   ],
+   "method": "manual",
+   "tool": "typed from the page at 200 dpi; geosigma.extract.printed_tables",
+   "extracted_on": "2026-10-24",
+   "notes": "Read from the 'estimated parameter values' table printed on each figure (rho in ohm-m, h = layer thickness in m); depths are cumulative thicknesses. Plot label: X5M3 (GEONICS CORR.).",
+   "figure": "Figure 18"
+  },
+  "notes": "Central-loop TDEM (Geonics EM-37), 1-D inversion by the author. Last layer is the half-space."
+ },
+ {
+  "id": "goldman1987-M4-layered",
+  "survey": "goldman-1987-tdem-feasibility",
+  "site": "M4",
+  "method": "TEM",
+  "level": "L2",
+  "representation": "model_1d",
+  "measured_on": "1987",
+  "depth_max_m": 199.05,
+  "confidence": "A",
+  "status": "draft",
+  "model_type": "layered",
+  "layers": [
+   {
+    "top_m": 0.0,
+    "bottom_m": 31.15,
+    "rho_ohmm": 26.82
+   },
+   {
+    "top_m": 31.15,
+    "bottom_m": 199.05,
+    "rho_ohmm": 20.94
+   },
+   {
+    "top_m": 199.05,
+    "bottom_m": null,
+    "rho_ohmm": 205.8
+   }
+  ],
+  "provenance": {
+   "document": "main",
+   "pages": [
+    47
+   ],
+   "method": "manual",
+   "tool": "typed from the page at 200 dpi; geosigma.extract.printed_tables",
+   "extracted_on": "2026-10-24",
+   "notes": "Read from the 'estimated parameter values' table printed on each figure (rho in ohm-m, h = layer thickness in m); depths are cumulative thicknesses. Plot label: X5M4 (RAMP INVERSION).",
+   "figure": "Figure 19"
+  },
+  "notes": "Central-loop TDEM (Geonics EM-37), 1-D inversion by the author. Last layer is the half-space."
+ },
+ {
+  "id": "goldman1987-M5-layered",
+  "survey": "goldman-1987-tdem-feasibility",
+  "site": "M5",
+  "method": "TEM",
+  "level": "L2",
+  "representation": "model_1d",
+  "measured_on": "1987",
+  "depth_max_m": 79.6,
+  "confidence": "A",
+  "status": "draft",
+  "model_type": "layered",
+  "layers": [
+   {
+    "top_m": 0.0,
+    "bottom_m": 25.2,
+    "rho_ohmm": 20.1
+   },
+   {
+    "top_m": 25.2,
+    "bottom_m": 79.6,
+    "rho_ohmm": 9.2
+   },
+   {
+    "top_m": 79.6,
+    "bottom_m": null,
+    "rho_ohmm": 146.1
+   }
+  ],
+  "provenance": {
+   "document": "main",
+   "pages": [
+    48
+   ],
+   "method": "manual",
+   "tool": "typed from the page at 200 dpi; geosigma.extract.printed_tables",
+   "extracted_on": "2026-10-24",
+   "notes": "Read from the 'estimated parameter values' table printed on each figure (rho in ohm-m, h = layer thickness in m); depths are cumulative thicknesses. Plot label: X5M5 (GEONICS CORR.).",
+   "figure": "Figure 20"
+  },
+  "notes": "Central-loop TDEM (Geonics EM-37), 1-D inversion by the author. Last layer is the half-space."
+ },
+ {
+  "id": "goldman1987-M6-layered",
+  "survey": "goldman-1987-tdem-feasibility",
+  "site": "M6",
+  "method": "TEM",
+  "level": "L2",
+  "representation": "model_1d",
+  "measured_on": "1987",
+  "depth_max_m": 64.61,
+  "confidence": "A",
+  "status": "draft",
+  "model_type": "layered",
+  "layers": [
+   {
+    "top_m": 0.0,
+    "bottom_m": 11.1,
+    "rho_ohmm": 38.84
+   },
+   {
+    "top_m": 11.1,
+    "bottom_m": 64.61,
+    "rho_ohmm": 8.905
+   },
+   {
+    "top_m": 64.61,
+    "bottom_m": null,
+    "rho_ohmm": 301.1
+   }
+  ],
+  "provenance": {
+   "document": "main",
+   "pages": [
+    49
+   ],
+   "method": "manual",
+   "tool": "typed from the page at 200 dpi; geosigma.extract.printed_tables",
+   "extracted_on": "2026-10-24",
+   "notes": "Read from the 'estimated parameter values' table printed on each figure (rho in ohm-m, h = layer thickness in m); depths are cumulative thicknesses. Plot label: X5M6 (RAMP INVERSION).",
+   "figure": "Figure 21"
+  },
+  "notes": "Central-loop TDEM (Geonics EM-37), 1-D inversion by the author. Last layer is the half-space."
+ },
+ {
+  "id": "goldman1987-M7-layered",
+  "survey": "goldman-1987-tdem-feasibility",
+  "site": "M7",
+  "method": "TEM",
+  "level": "L2",
+  "representation": "model_1d",
+  "measured_on": "1987",
+  "depth_max_m": 368.78,
+  "confidence": "A",
+  "status": "draft",
+  "model_type": "layered",
+  "layers": [
+   {
+    "top_m": 0.0,
+    "bottom_m": 61.78,
+    "rho_ohmm": 13.38
+   },
+   {
+    "top_m": 61.78,
+    "bottom_m": 368.78,
+    "rho_ohmm": 159.7
+   },
+   {
+    "top_m": 368.78,
+    "bottom_m": null,
+    "rho_ohmm": 3.52
+   }
+  ],
+  "provenance": {
+   "document": "main",
+   "pages": [
+    50
+   ],
+   "method": "manual",
+   "tool": "typed from the page at 200 dpi; geosigma.extract.printed_tables",
+   "extracted_on": "2026-10-24",
+   "notes": "Read from the 'estimated parameter values' table printed on each figure (rho in ohm-m, h = layer thickness in m); depths are cumulative thicknesses. Plot label: X5M7 (GEONICS CORR.).",
+   "figure": "Figure 22"
+  },
+  "notes": "Central-loop TDEM (Geonics EM-37), 1-D inversion by the author. Last layer is the half-space."
+ },
+ {
+  "id": "goldman1987-M11-layered",
+  "survey": "goldman-1987-tdem-feasibility",
+  "site": "M11",
+  "method": "TEM",
+  "level": "L2",
+  "representation": "model_1d",
+  "measured_on": "1987",
+  "depth_max_m": 41.4,
+  "confidence": "A",
+  "status": "draft",
+  "model_type": "layered",
+  "layers": [
+   {
+    "top_m": 0.0,
+    "bottom_m": 22.8,
+    "rho_ohmm": 12.8
+   },
+   {
+    "top_m": 22.8,
+    "bottom_m": 41.4,
+    "rho_ohmm": 5.8
+   },
+   {
+    "top_m": 41.4,
+    "bottom_m": null,
+    "rho_ohmm": 285.7
+   }
+  ],
+  "provenance": {
+   "document": "main",
+   "pages": [
+    54
+   ],
+   "method": "manual",
+   "tool": "typed from the page at 200 dpi; geosigma.extract.printed_tables",
+   "extracted_on": "2026-10-24",
+   "notes": "Read from the 'estimated parameter values' table printed on each figure (rho in ohm-m, h = layer thickness in m); depths are cumulative thicknesses. Plot label: X5M11 (GEONICS CORR.).",
+   "figure": "Figure 26"
+  },
+  "notes": "Central-loop TDEM (Geonics EM-37), 1-D inversion by the author. Last layer is the half-space."
+ },
+ {
+  "id": "goldman1987-M12-layered",
+  "survey": "goldman-1987-tdem-feasibility",
+  "site": "M12",
+  "method": "TEM",
+  "level": "L2",
+  "representation": "model_1d",
+  "measured_on": "1987",
+  "depth_max_m": 28.1,
+  "confidence": "A",
+  "status": "draft",
+  "model_type": "layered",
+  "layers": [
+   {
+    "top_m": 0.0,
+    "bottom_m": 22.37,
+    "rho_ohmm": 18.56
+   },
+   {
+    "top_m": 22.37,
+    "bottom_m": 28.1,
+    "rho_ohmm": 1.077
+   },
+   {
+    "top_m": 28.1,
+    "bottom_m": null,
+    "rho_ohmm": 82.87
+   }
+  ],
+  "provenance": {
+   "document": "main",
+   "pages": [
+    55
+   ],
+   "method": "manual",
+   "tool": "typed from the page at 200 dpi; geosigma.extract.printed_tables",
+   "extracted_on": "2026-10-24",
+   "notes": "Read from the 'estimated parameter values' table printed on each figure (rho in ohm-m, h = layer thickness in m); depths are cumulative thicknesses. Plot label: X5M12 (RAMP INVERSION).",
+   "figure": "Figure 27"
+  },
+  "notes": "Central-loop TDEM (Geonics EM-37), 1-D inversion by the author. Last layer is the half-space."
+ },
+ {
+  "id": "goldman1987-M13-layered",
+  "survey": "goldman-1987-tdem-feasibility",
+  "site": "M13",
+  "method": "TEM",
+  "level": "L2",
+  "representation": "model_1d",
+  "measured_on": "1987",
+  "depth_max_m": 36.5,
+  "confidence": "A",
+  "status": "draft",
+  "model_type": "layered",
+  "layers": [
+   {
+    "top_m": 0.0,
+    "bottom_m": 7.3,
+    "rho_ohmm": 21.7
+   },
+   {
+    "top_m": 7.3,
+    "bottom_m": 36.5,
+    "rho_ohmm": 3.9
+   },
+   {
+    "top_m": 36.5,
+    "bottom_m": null,
+    "rho_ohmm": 248.1
+   }
+  ],
+  "provenance": {
+   "document": "main",
+   "pages": [
+    56
+   ],
+   "method": "manual",
+   "tool": "typed from the page at 200 dpi; geosigma.extract.printed_tables",
+   "extracted_on": "2026-10-24",
+   "notes": "Read from the 'estimated parameter values' table printed on each figure (rho in ohm-m, h = layer thickness in m); depths are cumulative thicknesses. Plot label: X5M13 (GEONICS CORR.).",
+   "figure": "Figure 28"
+  },
+  "notes": "Central-loop TDEM (Geonics EM-37), 1-D inversion by the author. Last layer is the half-space. Model printed as a layer sketch (rho1, h1, ...) instead of a table."
+ },
+ {
+  "id": "goldman1987-M15-layered",
+  "survey": "goldman-1987-tdem-feasibility",
+  "site": "M15",
+  "method": "TEM",
+  "level": "L2",
+  "representation": "model_1d",
+  "measured_on": "1987",
+  "depth_max_m": 60.7,
+  "confidence": "A",
+  "status": "draft",
+  "model_type": "layered",
+  "layers": [
+   {
+    "top_m": 0.0,
+    "bottom_m": 18.4,
+    "rho_ohmm": 34.3
+   },
+   {
+    "top_m": 18.4,
+    "bottom_m": 60.7,
+    "rho_ohmm": 6.5
+   },
+   {
+    "top_m": 60.7,
+    "bottom_m": null,
+    "rho_ohmm": 99.8
+   }
+  ],
+  "provenance": {
+   "document": "main",
+   "pages": [
+    58
+   ],
+   "method": "manual",
+   "tool": "typed from the page at 200 dpi; geosigma.extract.printed_tables",
+   "extracted_on": "2026-10-24",
+   "notes": "Read from the 'estimated parameter values' table printed on each figure (rho in ohm-m, h = layer thickness in m); depths are cumulative thicknesses. Plot label: X5M15 (GEONICS CORR.).",
+   "figure": "Figure 30"
+  },
+  "notes": "Central-loop TDEM (Geonics EM-37), 1-D inversion by the author. Last layer is the half-space."
+ },
+ {
+  "id": "goldman1987-Z14-layered",
+  "survey": "goldman-1987-tdem-feasibility",
+  "site": "Z14",
+  "method": "TEM",
+  "level": "L2",
+  "representation": "model_1d",
+  "measured_on": "1987",
+  "depth_max_m": 99.6,
+  "confidence": "A",
+  "status": "draft",
+  "model_type": "layered",
+  "layers": [
+   {
+    "top_m": 0.0,
+    "bottom_m": 33.36,
+    "rho_ohmm": 14.99
+   },
+   {
+    "top_m": 33.36,
+    "bottom_m": 99.6,
+    "rho_ohmm": 5.33
+   },
+   {
+    "top_m": 99.6,
+    "bottom_m": null,
+    "rho_ohmm": 498.0
+   }
+  ],
+  "provenance": {
+   "document": "main",
+   "pages": [
+    63
+   ],
+   "method": "manual",
+   "tool": "typed from the page at 200 dpi; geosigma.extract.printed_tables",
+   "extracted_on": "2026-10-24",
+   "notes": "Read from the 'estimated parameter values' table printed on each figure (rho in ohm-m, h = layer thickness in m); depths are cumulative thicknesses. Plot label: X5Z14 (RAMP INVERSION).",
+   "figure": "Figure 58"
+  },
+  "notes": "Central-loop TDEM (Geonics EM-37), 1-D inversion by the author. Last layer is the half-space."
+ },
+ {
+  "id": "goldman1987-RG1-layered",
+  "survey": "goldman-1987-tdem-feasibility",
+  "site": "RG1",
+  "method": "TEM",
+  "level": "L2",
+  "representation": "model_1d",
+  "measured_on": "1987",
+  "depth_max_m": 264.09,
+  "confidence": "A",
+  "status": "draft",
+  "model_type": "layered",
+  "layers": [
+   {
+    "top_m": 0.0,
+    "bottom_m": 19.55,
+    "rho_ohmm": 11.58
+   },
+   {
+    "top_m": 19.55,
+    "bottom_m": 172.55,
+    "rho_ohmm": 240.6
+   },
+   {
+    "top_m": 172.55,
+    "bottom_m": 264.09,
+    "rho_ohmm": 11.76
+   },
+   {
+    "top_m": 264.09,
+    "bottom_m": null,
+    "rho_ohmm": 431.8
+   }
+  ],
+  "provenance": {
+   "document": "main",
+   "pages": [
+    72
+   ],
+   "method": "manual",
+   "tool": "typed from the page at 200 dpi; geosigma.extract.printed_tables",
+   "extracted_on": "2026-10-24",
+   "notes": "Read from the 'estimated parameter values' table printed on each figure (rho in ohm-m, h = layer thickness in m); depths are cumulative thicknesses. Plot label: X5RG1 (RAMP INVERSION).",
+   "figure": "Figure 34"
+  },
+  "notes": "Central-loop TDEM (Geonics EM-37), 1-D inversion by the author. Last layer is the half-space. Table 1 lists breaks at 19, 173 and 267 m; the model's interfaces are at 19.6, 172.6 and 264.1 m."
+ },
+ {
+  "id": "goldman1987-RG2-layered",
+  "survey": "goldman-1987-tdem-feasibility",
+  "site": "RG2",
+  "method": "TEM",
+  "level": "L2",
+  "representation": "model_1d",
+  "measured_on": "1987",
+  "depth_max_m": 232.76,
+  "confidence": "A",
+  "status": "draft",
+  "model_type": "layered",
+  "layers": [
+   {
+    "top_m": 0.0,
+    "bottom_m": 81.85,
+    "rho_ohmm": 21.97
+   },
+   {
+    "top_m": 81.85,
+    "bottom_m": 196.95,
+    "rho_ohmm": 78.73
+   },
+   {
+    "top_m": 196.95,
+    "bottom_m": 232.76,
+    "rho_ohmm": 5.844
+   },
+   {
+    "top_m": 232.76,
+    "bottom_m": null,
+    "rho_ohmm": 700.5
+   }
+  ],
+  "provenance": {
+   "document": "main",
+   "pages": [
+    73
+   ],
+   "method": "manual",
+   "tool": "typed from the page at 200 dpi; geosigma.extract.printed_tables",
+   "extracted_on": "2026-10-24",
+   "notes": "Read from the 'estimated parameter values' table printed on each figure (rho in ohm-m, h = layer thickness in m); depths are cumulative thicknesses. Plot label: X5RG2 (RAMP INVERSION).",
+   "figure": "Figure 35"
+  },
+  "notes": "Central-loop TDEM (Geonics EM-37), 1-D inversion by the author. Last layer is the half-space."
+ },
+ {
+  "id": "goldman1987-RG3-layered",
+  "survey": "goldman-1987-tdem-feasibility",
+  "site": "RG3",
+  "method": "TEM",
+  "level": "L2",
+  "representation": "model_1d",
+  "measured_on": "1987",
+  "depth_max_m": 378.4,
+  "confidence": "A",
+  "status": "draft",
+  "model_type": "layered",
+  "layers": [
+   {
+    "top_m": 0.0,
+    "bottom_m": 18.21,
+    "rho_ohmm": 7.15
+   },
+   {
+    "top_m": 18.21,
+    "bottom_m": 68.9,
+    "rho_ohmm": 95.03
+   },
+   {
+    "top_m": 68.9,
+    "bottom_m": 155.0,
+    "rho_ohmm": 15.67
+   },
+   {
+    "top_m": 155.0,
+    "bottom_m": 378.4,
+    "rho_ohmm": 126.9
+   },
+   {
+    "top_m": 378.4,
+    "bottom_m": null,
+    "rho_ohmm": 3.45
+   }
+  ],
+  "provenance": {
+   "document": "main",
+   "pages": [
+    74
+   ],
+   "method": "manual",
+   "tool": "typed from the page at 200 dpi; geosigma.extract.printed_tables",
+   "extracted_on": "2026-10-24",
+   "notes": "Read from the 'estimated parameter values' table printed on each figure (rho in ohm-m, h = layer thickness in m); depths are cumulative thicknesses. Plot label: X5RG3 (REAL DATA).",
+   "figure": "Figure 36"
+  },
+  "notes": "Central-loop TDEM (Geonics EM-37), 1-D inversion by the author. Last layer is the half-space."
+ },
+ {
+  "id": "goldman1987-RG4-layered",
+  "survey": "goldman-1987-tdem-feasibility",
+  "site": "RG4",
+  "method": "TEM",
+  "level": "L2",
+  "representation": "model_1d",
+  "measured_on": "1987",
+  "depth_max_m": 334.1,
+  "confidence": "A",
+  "status": "draft",
+  "model_type": "layered",
+  "layers": [
+   {
+    "top_m": 0.0,
+    "bottom_m": 174.8,
+    "rho_ohmm": 35.7
+   },
+   {
+    "top_m": 174.8,
+    "bottom_m": 334.1,
+    "rho_ohmm": 61.39
+   },
+   {
+    "top_m": 334.1,
+    "bottom_m": null,
+    "rho_ohmm": 4.28
+   }
+  ],
+  "provenance": {
+   "document": "main",
+   "pages": [
+    75
+   ],
+   "method": "manual",
+   "tool": "typed from the page at 200 dpi; geosigma.extract.printed_tables",
+   "extracted_on": "2026-10-24",
+   "notes": "Read from the 'estimated parameter values' table printed on each figure (rho in ohm-m, h = layer thickness in m); depths are cumulative thicknesses. Plot label: X5RG4 (REAL DATA).",
+   "figure": "Figure 37"
+  },
+  "notes": "Central-loop TDEM (Geonics EM-37), 1-D inversion by the author. Last layer is the half-space."
+ },
+ {
+  "id": "goldman1987-RG5-layered",
+  "survey": "goldman-1987-tdem-feasibility",
+  "site": "RG5",
+  "method": "TEM",
+  "level": "L2",
+  "representation": "model_1d",
+  "measured_on": "1987",
+  "depth_max_m": 214.0,
+  "confidence": "A",
+  "status": "draft",
+  "model_type": "layered",
+  "layers": [
+   {
+    "top_m": 0.0,
+    "bottom_m": 31.0,
+    "rho_ohmm": 16.7
+   },
+   {
+    "top_m": 31.0,
+    "bottom_m": 214.0,
+    "rho_ohmm": 12.5
+   },
+   {
+    "top_m": 214.0,
+    "bottom_m": null,
+    "rho_ohmm": 5.5
+   }
+  ],
+  "provenance": {
+   "document": "main",
+   "pages": [
+    76
+   ],
+   "method": "manual",
+   "tool": "typed from the page at 200 dpi; geosigma.extract.printed_tables",
+   "extracted_on": "2026-10-24",
+   "notes": "Read from the 'estimated parameter values' table printed on each figure (rho in ohm-m, h = layer thickness in m); depths are cumulative thicknesses. Plot label: X5RG5 (REAL DATA).",
+   "figure": "Figure 38"
+  },
+  "notes": "Central-loop TDEM (Geonics EM-37), 1-D inversion by the author. Last layer is the half-space."
+ },
+ {
+  "id": "goldman1987-RG6-layered",
+  "survey": "goldman-1987-tdem-feasibility",
+  "site": "RG6",
+  "method": "TEM",
+  "level": "L2",
+  "representation": "model_1d",
+  "measured_on": "1987",
+  "depth_max_m": 393.2,
+  "confidence": "A",
+  "status": "draft",
+  "model_type": "layered",
+  "layers": [
+   {
+    "top_m": 0.0,
+    "bottom_m": 221.6,
+    "rho_ohmm": 46.6
+   },
+   {
+    "top_m": 221.6,
+    "bottom_m": 393.2,
+    "rho_ohmm": 31.67
+   },
+   {
+    "top_m": 393.2,
+    "bottom_m": null,
+    "rho_ohmm": 3.0
+   }
+  ],
+  "provenance": {
+   "document": "main",
+   "pages": [
+    77
+   ],
+   "method": "manual",
+   "tool": "typed from the page at 200 dpi; geosigma.extract.printed_tables",
+   "extracted_on": "2026-10-24",
+   "notes": "Read from the 'estimated parameter values' table printed on each figure (rho in ohm-m, h = layer thickness in m); depths are cumulative thicknesses. Plot label: X5RG6 (RAMP INVERSION).",
+   "figure": "Figure 39"
+  },
+  "notes": "Central-loop TDEM (Geonics EM-37), 1-D inversion by the author. Last layer is the half-space."
+ },
+ {
+  "id": "goldman1987-RG7-layered",
+  "survey": "goldman-1987-tdem-feasibility",
+  "site": "RG7",
+  "method": "TEM",
+  "level": "L2",
+  "representation": "model_1d",
+  "measured_on": "1987",
+  "depth_max_m": 326.5,
+  "confidence": "A",
+  "status": "draft",
+  "model_type": "layered",
+  "layers": [
+   {
+    "top_m": 0.0,
+    "bottom_m": 106.8,
+    "rho_ohmm": 14.12
+   },
+   {
+    "top_m": 106.8,
+    "bottom_m": 326.5,
+    "rho_ohmm": 102.2
+   },
+   {
+    "top_m": 326.5,
+    "bottom_m": null,
+    "rho_ohmm": 6.797
+   }
+  ],
+  "provenance": {
+   "document": "main",
+   "pages": [
+    78
+   ],
+   "method": "manual",
+   "tool": "typed from the page at 200 dpi; geosigma.extract.printed_tables",
+   "extracted_on": "2026-10-24",
+   "notes": "Read from the 'estimated parameter values' table printed on each figure (rho in ohm-m, h = layer thickness in m); depths are cumulative thicknesses. Plot label: X5RG7 (RAMP INVERSION).",
+   "figure": "Figure 40"
+  },
+  "notes": "Central-loop TDEM (Geonics EM-37), 1-D inversion by the author. Last layer is the half-space."
+ },
+ {
+  "id": "goldman1987-RG8-layered",
+  "survey": "goldman-1987-tdem-feasibility",
+  "site": "RG8",
+  "method": "TEM",
+  "level": "L2",
+  "representation": "model_1d",
+  "measured_on": "1987",
+  "depth_max_m": 274.17,
+  "confidence": "A",
+  "status": "draft",
+  "model_type": "layered",
+  "layers": [
+   {
+    "top_m": 0.0,
+    "bottom_m": 37.81,
+    "rho_ohmm": 26.12
+   },
+   {
+    "top_m": 37.81,
+    "bottom_m": 108.07,
+    "rho_ohmm": 38.73
+   },
+   {
+    "top_m": 108.07,
+    "bottom_m": 148.07,
+    "rho_ohmm": 7.0
+   },
+   {
+    "top_m": 148.07,
+    "bottom_m": 274.17,
+    "rho_ohmm": 312.7
+   },
+   {
+    "top_m": 274.17,
+    "bottom_m": null,
+    "rho_ohmm": 0.8
+   }
+  ],
+  "provenance": {
+   "document": "main",
+   "pages": [
+    79
+   ],
+   "method": "manual",
+   "tool": "typed from the page at 200 dpi; geosigma.extract.printed_tables",
+   "extracted_on": "2026-10-24",
+   "notes": "Read from the 'estimated parameter values' table printed on each figure (rho in ohm-m, h = layer thickness in m); depths are cumulative thicknesses. Plot label: X5RG8 (REAL DATA).",
+   "figure": "Figure 41"
+  },
+  "notes": "Central-loop TDEM (Geonics EM-37), 1-D inversion by the author. Last layer is the half-space. Table 1 lists breaks at 108, 154 and 280 m; the model's interfaces are at 37.8, 108.1, 148.1 and 274.2 m. The author calls the 280 m break questionable."
+ },
+ {
+  "id": "goldman1987-RG9-layered",
+  "survey": "goldman-1987-tdem-feasibility",
+  "site": "RG9",
+  "method": "TEM",
+  "level": "L2",
+  "representation": "model_1d",
+  "measured_on": "1987",
+  "depth_max_m": 186.67,
+  "confidence": "A",
+  "status": "draft",
+  "model_type": "layered",
+  "layers": [
+   {
+    "top_m": 0.0,
+    "bottom_m": 85.77,
+    "rho_ohmm": 36.12
+   },
+   {
+    "top_m": 85.77,
+    "bottom_m": 186.67,
+    "rho_ohmm": 76.24
+   },
+   {
+    "top_m": 186.67,
+    "bottom_m": null,
+    "rho_ohmm": 6.46
+   }
+  ],
+  "provenance": {
+   "document": "main",
+   "pages": [
+    80
+   ],
+   "method": "manual",
+   "tool": "typed from the page at 200 dpi; geosigma.extract.printed_tables",
+   "extracted_on": "2026-10-24",
+   "notes": "Read from the 'estimated parameter values' table printed on each figure (rho in ohm-m, h = layer thickness in m); depths are cumulative thicknesses. Plot label: X5RG9 (REAL DATA).",
+   "figure": "Figure 42"
+  },
+  "notes": "Central-loop TDEM (Geonics EM-37), 1-D inversion by the author. Last layer is the half-space."
+ },
+ {
+  "id": "goldman1987-RG10-layered",
+  "survey": "goldman-1987-tdem-feasibility",
+  "site": "RG10",
+  "method": "TEM",
+  "level": "L2",
+  "representation": "model_1d",
+  "measured_on": "1987",
+  "depth_max_m": 366.92,
+  "confidence": "A",
+  "status": "draft",
+  "model_type": "layered",
+  "layers": [
+   {
+    "top_m": 0.0,
+    "bottom_m": 70.76,
+    "rho_ohmm": 43.73
+   },
+   {
+    "top_m": 70.76,
+    "bottom_m": 172.96,
+    "rho_ohmm": 29.61
+   },
+   {
+    "top_m": 172.96,
+    "bottom_m": 213.12,
+    "rho_ohmm": 36.71
+   },
+   {
+    "top_m": 213.12,
+    "bottom_m": 366.92,
+    "rho_ohmm": 202.2
+   },
+   {
+    "top_m": 366.92,
+    "bottom_m": null,
+    "rho_ohmm": 3.62
+   }
+  ],
+  "provenance": {
+   "document": "main",
+   "pages": [
+    81
+   ],
+   "method": "manual",
+   "tool": "typed from the page at 200 dpi; geosigma.extract.printed_tables",
+   "extracted_on": "2026-10-24",
+   "notes": "Read from the 'estimated parameter values' table printed on each figure (rho in ohm-m, h = layer thickness in m); depths are cumulative thicknesses. Plot label: X5RG10 (RAMP INVERSION).",
+   "figure": "Figure 43"
+  },
+  "notes": "Central-loop TDEM (Geonics EM-37), 1-D inversion by the author. Last layer is the half-space."
+ },
+ {
+  "id": "goldman1987-K1-layered",
+  "survey": "goldman-1987-tdem-feasibility",
+  "site": "K1",
+  "method": "TEM",
+  "level": "L2",
+  "representation": "model_1d",
+  "measured_on": "1987",
+  "depth_max_m": 229.52,
+  "confidence": "A",
+  "status": "draft",
+  "model_type": "layered",
+  "layers": [
+   {
+    "top_m": 0.0,
+    "bottom_m": 29.15,
+    "rho_ohmm": 22.07
+   },
+   {
+    "top_m": 29.15,
+    "bottom_m": 109.82,
+    "rho_ohmm": 7.672
+   },
+   {
+    "top_m": 109.82,
+    "bottom_m": 229.52,
+    "rho_ohmm": 149.4
+   },
+   {
+    "top_m": 229.52,
+    "bottom_m": null,
+    "rho_ohmm": 0.6274
+   }
+  ],
+  "provenance": {
+   "document": "main",
+   "pages": [
+    92
+   ],
+   "method": "manual",
+   "tool": "typed from the page at 200 dpi; geosigma.extract.printed_tables",
+   "extracted_on": "2026-10-24",
+   "notes": "Read from the 'estimated parameter values' table printed on each figure (rho in ohm-m, h = layer thickness in m); depths are cumulative thicknesses. Plot label: X5K1 (RAMP INVERSION).",
+   "figure": "Figure 48"
+  },
+  "notes": "Central-loop TDEM (Geonics EM-37), 1-D inversion by the author. Last layer is the half-space."
+ },
+ {
+  "id": "goldman1987-K2-layered",
+  "survey": "goldman-1987-tdem-feasibility",
+  "site": "K2",
+  "method": "TEM",
+  "level": "L2",
+  "representation": "model_1d",
+  "measured_on": "1987",
+  "depth_max_m": 110.82,
+  "confidence": "A",
+  "status": "draft",
+  "model_type": "layered",
+  "layers": [
+   {
+    "top_m": 0.0,
+    "bottom_m": 55.68,
+    "rho_ohmm": 14.18
+   },
+   {
+    "top_m": 55.68,
+    "bottom_m": 110.82,
+    "rho_ohmm": 6.302
+   },
+   {
+    "top_m": 110.82,
+    "bottom_m": null,
+    "rho_ohmm": 0.8879
+   }
+  ],
+  "provenance": {
+   "document": "main",
+   "pages": [
+    93
+   ],
+   "method": "manual",
+   "tool": "typed from the page at 200 dpi; geosigma.extract.printed_tables",
+   "extracted_on": "2026-10-24",
+   "notes": "Read from the 'estimated parameter values' table printed on each figure (rho in ohm-m, h = layer thickness in m); depths are cumulative thicknesses. Plot label: X5K2 (RAMP INVERSION).",
+   "figure": "Figure 49"
+  },
+  "notes": "Central-loop TDEM (Geonics EM-37), 1-D inversion by the author. Last layer is the half-space."
+ },
+ {
+  "id": "goldman1987-K3-layered",
+  "survey": "goldman-1987-tdem-feasibility",
+  "site": "K3",
+  "method": "TEM",
+  "level": "L2",
+  "representation": "model_1d",
+  "measured_on": "1987",
+  "depth_max_m": 99.7,
+  "confidence": "A",
+  "status": "draft",
+  "model_type": "layered",
+  "layers": [
+   {
+    "top_m": 0.0,
+    "bottom_m": 99.7,
+    "rho_ohmm": 24.6
+   },
+   {
+    "top_m": 99.7,
+    "bottom_m": null,
+    "rho_ohmm": 3.9
+   }
+  ],
+  "provenance": {
+   "document": "main",
+   "pages": [
+    94
+   ],
+   "method": "manual",
+   "tool": "typed from the page at 200 dpi; geosigma.extract.printed_tables",
+   "extracted_on": "2026-10-24",
+   "notes": "Read from the 'estimated parameter values' table printed on each figure (rho in ohm-m, h = layer thickness in m); depths are cumulative thicknesses. Plot label: X5K3 (REAL DATA).",
+   "figure": "Figure 50"
+  },
+  "notes": "Central-loop TDEM (Geonics EM-37), 1-D inversion by the author. Last layer is the half-space. Two-layer model; the sounding did not reach the expected seawater interface at about 200 m (text, page 91)."
+ },
+ {
+  "id": "goldman1987-N1-layered",
+  "survey": "goldman-1987-tdem-feasibility",
+  "site": "N1",
+  "method": "TEM",
+  "level": "L2",
+  "representation": "model_1d",
+  "measured_on": "1987",
+  "depth_max_m": 103.76,
+  "confidence": "A",
+  "status": "draft",
+  "model_type": "layered",
+  "layers": [
+   {
+    "top_m": 0.0,
+    "bottom_m": 55.22,
+    "rho_ohmm": 41.88
+   },
+   {
+    "top_m": 55.22,
+    "bottom_m": 103.76,
+    "rho_ohmm": 1.528
+   },
+   {
+    "top_m": 103.76,
+    "bottom_m": null,
+    "rho_ohmm": 6.792
+   }
+  ],
+  "provenance": {
+   "document": "main",
+   "pages": [
+    101
+   ],
+   "method": "manual",
+   "tool": "typed from the page at 200 dpi; geosigma.extract.printed_tables",
+   "extracted_on": "2026-10-24",
+   "notes": "Read from the 'estimated parameter values' table printed on each figure (rho in ohm-m, h = layer thickness in m); depths are cumulative thicknesses. Plot label: X5N1 (RAMP INVERSION).",
+   "figure": "Figure 53"
+  },
+  "notes": "Central-loop TDEM (Geonics EM-37), 1-D inversion by the author. Last layer is the half-space. Sounding N1 and N2 are at the same site (100 x 100 m and 50 x 50 m loops); only the N1 model is printed."
+ },
+ {
+  "id": "goldman1987-N3-layered",
+  "survey": "goldman-1987-tdem-feasibility",
+  "site": "N3",
+  "method": "TEM",
+  "level": "L2",
+  "representation": "model_1d",
+  "measured_on": "1987",
+  "depth_max_m": 93.72,
+  "confidence": "A",
+  "status": "draft",
+  "model_type": "layered",
+  "layers": [
+   {
+    "top_m": 0.0,
+    "bottom_m": 36.53,
+    "rho_ohmm": 18.27
+   },
+   {
+    "top_m": 36.53,
+    "bottom_m": 93.72,
+    "rho_ohmm": 1.73
+   },
+   {
+    "top_m": 93.72,
+    "bottom_m": null,
+    "rho_ohmm": 5.475
+   }
+  ],
+  "provenance": {
+   "document": "main",
+   "pages": [
+    102
+   ],
+   "method": "manual",
+   "tool": "typed from the page at 200 dpi; geosigma.extract.printed_tables",
+   "extracted_on": "2026-10-24",
+   "notes": "Read from the 'estimated parameter values' table printed on each figure (rho in ohm-m, h = layer thickness in m); depths are cumulative thicknesses. Plot label: X5N3 (RAMP INVERSION).",
+   "figure": "Figure 54"
+  },
+  "notes": "Central-loop TDEM (Geonics EM-37), 1-D inversion by the author. Last layer is the half-space."
+ },
+ {
+  "id": "goldman1987-N4-layered",
+  "survey": "goldman-1987-tdem-feasibility",
+  "site": "N4",
+  "method": "TEM",
+  "level": "L2",
+  "representation": "model_1d",
+  "measured_on": "1987",
+  "depth_max_m": 126.71,
+  "confidence": "A",
+  "status": "draft",
+  "model_type": "layered",
+  "layers": [
+   {
+    "top_m": 0.0,
+    "bottom_m": 70.09,
+    "rho_ohmm": 36.1
+   },
+   {
+    "top_m": 70.09,
+    "bottom_m": 126.71,
+    "rho_ohmm": 1.778
+   },
+   {
+    "top_m": 126.71,
+    "bottom_m": null,
+    "rho_ohmm": 3.545
+   }
+  ],
+  "provenance": {
+   "document": "main",
+   "pages": [
+    103
+   ],
+   "method": "manual",
+   "tool": "typed from the page at 200 dpi; geosigma.extract.printed_tables",
+   "extracted_on": "2026-10-24",
+   "notes": "Read from the 'estimated parameter values' table printed on each figure (rho in ohm-m, h = layer thickness in m); depths are cumulative thicknesses. Plot label: X5N4 (RAMP INVERSION).",
+   "figure": "Figure 55"
+  },
+  "notes": "Central-loop TDEM (Geonics EM-37), 1-D inversion by the author. Last layer is the half-space."
+ },
+ {
+  "id": "goldman1987-N5-layered",
+  "survey": "goldman-1987-tdem-feasibility",
+  "site": "N5",
+  "method": "TEM",
+  "level": "L2",
+  "representation": "model_1d",
+  "measured_on": "1987",
+  "depth_max_m": 117.11,
+  "confidence": "A",
+  "status": "draft",
+  "model_type": "layered",
+  "layers": [
+   {
+    "top_m": 0.0,
+    "bottom_m": 88.74,
+    "rho_ohmm": 49.89
+   },
+   {
+    "top_m": 88.74,
+    "bottom_m": 117.11,
+    "rho_ohmm": 1.38
+   },
+   {
+    "top_m": 117.11,
+    "bottom_m": null,
+    "rho_ohmm": 3.625
+   }
+  ],
+  "provenance": {
+   "document": "main",
+   "pages": [
+    104
+   ],
+   "method": "manual",
+   "tool": "typed from the page at 200 dpi; geosigma.extract.printed_tables",
+   "extracted_on": "2026-10-24",
+   "notes": "Read from the 'estimated parameter values' table printed on each figure (rho in ohm-m, h = layer thickness in m); depths are cumulative thicknesses. Plot label: X5N5 (RAMP INVERSION).",
+   "figure": "Figure 56"
+  },
+  "notes": "Central-loop TDEM (Geonics EM-37), 1-D inversion by the author. Last layer is the half-space."
+ }
+]

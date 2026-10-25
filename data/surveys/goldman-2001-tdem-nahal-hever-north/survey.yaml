@@ -1,0 +1,85 @@
+id: goldman-2001-tdem-nahal-hever-north
+name: TDEM geophysical survey at the Nahal Hever North site
+organisation: Geophysical Institute of Israel (GII)
+client: Geological Survey of Israel
+authors:
+- M. Goldman
+- M. Gendler
+report_number: GII 909/100/01
+year: 2001
+acquired: '2001'
+methods:
+- TEM
+region: Dead Sea shore, Nahal Hever North (sinkhole site)
+purpose: Dead Sea brine and fresher water below the sinkhole site
+geometry: profile
+depth_reach: about 100 m (deepest part of the cross-sections)
+acquisition:
+  instruments: Geonics EM-47 and EM-67
+  loops: adjacent 50 x 50 m central loops
+documents:
+- id: main
+  title: TDEM geophysical survey at the Nahal Hever North site (March 2001)
+  filename: Goldman-M-TDEM-Geophysical-Survey-Nahal-Hever-North-Site-GII-Rep-909-100-01-2001.pdf
+  drive_id: 1YQRC4H1YqGD0gkRdnfyA42Btph6aP8ww
+  language:
+  - en
+  scanned: true
+  role: main_report
+  sha256: c44d20e86d1eb3bc919e15ed453fc21acaeb7bcc56ddbd6475abf9e9babc5899
+  pages: 8
+notes: Six stations along a NW-SE profile. The results are given only as colour pseudo-2D cross-sections (Figs 2-3,
+  layered and smooth inversions) with four colour classes and no numeric tables or per-station models, so no
+  resistivity values are stored. The cross-sections show about 18 m of high-resistivity sediment over Dead Sea
+  brine-saturated sediment (below 1 ohm.m) down to about 100 m. Station positions are read from the location map
+  (Fig. 1, page 5), which shows the receiver coils in Old Israel Grid metres.
+extraction_status: registered
+sites:
+- id: NHN1
+  name: TDEM station NHN1 (Nahal Hever North)
+  coords:
+    x: 186580
+    y: 91343
+    crs: EPSG:28193
+    source: map
+    accuracy_m: 5
+- id: NHN2
+  name: TDEM station NHN2 (Nahal Hever North)
+  coords:
+    x: 186618
+    y: 91319
+    crs: EPSG:28193
+    source: map
+    accuracy_m: 5
+- id: NHN3
+  name: TDEM station NHN3 (Nahal Hever North)
+  coords:
+    x: 186668
+    y: 91300
+    crs: EPSG:28193
+    source: map
+    accuracy_m: 5
+- id: NHN4
+  name: TDEM station NHN4 (Nahal Hever North)
+  coords:
+    x: 186714
+    y: 91273
+    crs: EPSG:28193
+    source: map
+    accuracy_m: 5
+- id: NHN5
+  name: TDEM station NHN5 (Nahal Hever North)
+  coords:
+    x: 186743
+    y: 91232
+    crs: EPSG:28193
+    source: map
+    accuracy_m: 5
+- id: NHN6
+  name: TDEM station NHN6 (Nahal Hever North)
+  coords:
+    x: 186776
+    y: 91203
+    crs: EPSG:28193
+    source: map
+    accuracy_m: 5

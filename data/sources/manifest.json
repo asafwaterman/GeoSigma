@@ -9,7 +9,9 @@
  {
   "drive_id": "19PuTxQ7Q1tzgdongEtnZv7w9hKLXk16i",
   "filename": "Paparo-Levitte-Analysis-Northern-Arava-Electrical-Resistivity-Measurements-Vol-2-GSI-05-77-IPRG-PK-249-76-1977.pdf",
-  "status": "not_downloaded (over 10 MB connector limit)"
+  "sha256": "34f54eadf99030f8251c0661d78935951cecb08488010331fb937b7e360ba1a3",
+  "bytes": 48401237,
+  "pages": 88
  },
  {
   "drive_id": "135Cl7Cf30X0tlwSj3WwXYrTcqQuwj3xE",
@@ -49,12 +51,16 @@
  {
   "drive_id": "1YyRB_-7iZ0m_-eya2Mo_AEoNib7QzrbI",
   "filename": "Paparo-H-Reinterpretation-Electrical-Resistivity-Measurements-Southern-Arava-IPRG-Rep-GK-625-68-1969.pdf",
-  "status": "not_downloaded (over 10 MB connector limit)"
+  "sha256": "4b08b5f59d83342b9fc774e15780ca64fc0a4c56096a581b937ba5747894be4e",
+  "bytes": 95451420,
+  "pages": 83
  },
  {
   "drive_id": "1H6008QktgdHYADCXr4oWCYTmAUwaX4wM",
   "filename": "Paparo-H-Reinterpretation-Electrical-Resistivity-Measurements-Southern-Arava-IPRG-Rep-GK-625-68-1969-Figs.pdf",
-  "status": "not_downloaded (over 10 MB connector limit)"
+  "sha256": "49bd2e9b28c556c5755f42cb68f8e047bf7af271dbd6fdb864a827777f96fd08",
+  "bytes": 96062059,
+  "pages": 40
  },
  {
   "drive_id": "1HSYR9xZ_t4gCAmoAVibCUew_Gw1n5Sv_",
@@ -87,7 +93,9 @@
  {
   "drive_id": "1OGO0YYNflvBrIMht4IyVLcL5R7VGHCMi",
   "filename": "Paparo-H-Report-Electrical-Resistance-Measurements-Tel-Dan-Area-IPRG-Rep-GKS-331-77-1977.pdf",
-  "status": "not_downloaded (over 10 MB connector limit)"
+  "sha256": "5c475c6d86bde8b4448625e779f987ea15d9112e407ea4ba498ecbeadfcd0af6",
+  "bytes": 7295293,
+  "pages": 31
  },
  {
   "drive_id": "16fPZyoUXmn8DHQAsOdJ2cXboTt8C-587",
@@ -106,7 +114,9 @@
  {
   "drive_id": "18Ty89u3CLyoqsQ84aeumM8hZiLm056OS",
   "filename": "Rotstein-Y-Yizreel-Harod-Valleys-Electrical-Resistivity-Survey-IPRG-GT-149-74-2-1977-Maps.pdf",
-  "status": "not_downloaded (over 10 MB connector limit)"
+  "sha256": "f801daad3e579ff8869044f9abe697638f9fbfb756b4194ea3fa1a0ff17079a0",
+  "bytes": 53137403,
+  "pages": 43
  },
  {
   "drive_id": "1CyV0cysx-aLLpNXDjshjhuQ35aovzixt",
@@ -118,17 +128,23 @@
  {
   "drive_id": "1vBYMJ8xKchz02sU6N8IfAicovRwUnU1k",
   "filename": "Rotstein-Y-Yizreel-Harod-Valleys-Electrical-Resistivity-Survey-IPRG-GT-149-74-2-1977.pdf",
-  "status": "not_downloaded (over 10 MB connector limit)"
+  "sha256": "562f029aef8835ec6ad46e6427f879adc9b36bf532da63f941867b5f1f9ae1c4",
+  "bytes": 10556700,
+  "pages": 83
  },
  {
   "drive_id": "1TK62PjNazj8ulZMO-jbuf8QRsLV1X7HU",
   "filename": "Klang-A-General-Aspects-Initial-Results-Magnetotelluric-Surveys-Israel-IPRG-Rep-1044-1970.pdf",
-  "status": "not_downloaded (over 10 MB connector limit)"
+  "sha256": "1774b3265979683d6a820267b286d8b3db881a83ccdb0869d90b27273dcbea85",
+  "bytes": 12126416,
+  "pages": 59
  },
  {
   "drive_id": "15dZLkOF0HUaQ1nhY_ZeKNBS48n8S6wxX",
   "filename": "Klang-A-Timna-Ramon-Area-Magneto-Telluric-Measurements-IPRG-MT-665-69-1970.pdf",
-  "status": "not_downloaded (over 10 MB connector limit)"
+  "sha256": "44f4cecb7f48c28ba53204b282c47270d43cb34f5f0136aaa0f0d606de6120b2",
+  "bytes": 22015189,
+  "pages": 15
  },
  {
   "drive_id": "1SzV3ru9-XiqEpFtCKxScIjqgZDVC3prc",
@@ -147,6 +163,148 @@
  {
   "drive_id": "1UMgXRKOw4v37N8X196n0bO8J4fasGPEI",
   "filename": "Klang-A-South-Netanya-Magnetotelluric-Study-First-Phase-IPRG-MT-118-1974.pdf",
-  "status": "not_downloaded (over 10 MB connector limit)"
+  "sha256": "7c3faf70f05ba9b5c6070b7ed9fd13241b3e27118af93122344d25d0fc939cd0",
+  "bytes": 8772170,
+  "pages": 23
+ },
+ {
+  "drive_id": "1a9svsgc6AUKyhrtuhVTnYpo9mp3ANzKn",
+  "filename": "Bartov-Y-Northern-Arava-TDEM-Survey-Interim-Report-TR-GSI-02-1998.pdf",
+  "sha256": "5d48cc6a71cdecad7eb19f00738faafaf121b53b0b24a1b20d605d27bc6c0188",
+  "bytes": 3131330,
+  "pages": 28
+ },
+ {
+  "drive_id": "1GIxqZzjbz8wcRtchL_Epc1TfImwmd3IN",
+  "filename": "Ezersky-M-TEM-Geoelectrical-Structure-Nahal-Hever-Sinkhole-Dead-Sea-Shore-J-Appl-Geophys-Vol-75-2011.pdf",
+  "sha256": "aae8210586d1e1c022620d90dacf0532d89c54c4666fb45d59b19645e7626ee2",
+  "bytes": 3446173,
+  "pages": 14
+ },
+ {
+  "drive_id": "1Ux4K0GVY-1qhNZoTJyQq7GHVRtM8a3Nn",
+  "filename": "Goldman-Bartov-TDEM-Measurements-in-the-Tzenifim-Khiun-Area-May-2004.pdf",
+  "sha256": "52ce1fc2e27a00d958ba1c6ffca0cabed467d8e082ed78b1faff166ae3f25fde",
+  "bytes": 300836,
+  "pages": 5
+ },
+ {
+  "drive_id": "1NkGTi21SGNgonrYnUfXx69q0SNz5FZuu",
+  "filename": "Goldman-Kafri-Geoelectric-Methods-Groundwater-Many-Facets-Israel-Hydrogeology-Springer-2021.pdf",
+  "sha256": "2580ff3e6d1aed79d12a45f0edff72d62dc17b96a7b0e071f44fdde3feb2807f",
+  "bytes": 8109258,
+  "pages": 95
+ },
+ {
+  "drive_id": "1hCn4RYWkBPrVUQrBUwzQ3Zs1hS7T3lKo",
+  "filename": "Goldman-M-Applications-Time-Domain-Electromatic-Method-TDEM-Israel-IPRG-X5-1715-1987.pdf",
+  "sha256": "7f427e3b10f0b5b66b6a963706cccffe919a3a88721b83482bb9e19967b0f575",
+  "bytes": 4946903,
+  "pages": 111
+ },
+ {
+  "drive_id": "1tIDrPQs5OxChQUEqGoBxL9Jc8JjLduXI",
+  "filename": "Goldman-M-Depth-Measurements-TDEM-Interfaces-Ashkelon-Area-IPRG-Rep-905-88-1996.pdf",
+  "sha256": "0309cf3f4319bba461ce75ada2651ef1336d0bd019c6087b31c5b76a42e5be48",
+  "bytes": 1323149,
+  "pages": 9
+ },
+ {
+  "drive_id": "1PKV7pelDAm1sb4Pi9KoNBD8PJsz55bFz",
+  "filename": "Goldman-M-Electromagnetic-Survey-Interface-Mediterranean-Dead-Seas-IPRG-Rep-L10-151-1995.pdf",
+  "sha256": "c8f01554df2e724747c661ab062c68734abc856a87b70468a6df513b6ec2ea37",
+  "bytes": 3518985,
+  "pages": 75
+ },
+ {
+  "drive_id": "1vBLgKaUFISsx1a04nUorO8PamQpYC_50",
+  "filename": "Goldman-M-Electromagnetic-Survey-Monitor-Interfaces-Coastal-Aquifer-GII-Rep-909-169-96-1998.pdf",
+  "sha256": "2caec0117c188ef7f330d75407dfba14b2aef0f5a2a98a256a51e2353ab30a33",
+  "bytes": 2520205,
+  "pages": 40
+ },
+ {
+  "drive_id": "1YLR3IcMaaGlF6lhbJRN0vA6SuxeK-N6e",
+  "filename": "Goldman-M-Feasibility-Study-TDEM-Method-IPRG-854-70-89-GSI-38-1990.pdf",
+  "sha256": "13a431586229cb658ed2455b9b2375bc8e814de5943a027ef2837eaf33a832c4",
+  "bytes": 3824714,
+  "pages": 98
+ },
+ {
+  "drive_id": "1YQRC4H1YqGD0gkRdnfyA42Btph6aP8ww",
+  "filename": "Goldman-M-TDEM-Geophysical-Survey-Nahal-Hever-North-Site-GII-Rep-909-100-01-2001.pdf",
+  "sha256": "c44d20e86d1eb3bc919e15ed453fc21acaeb7bcc56ddbd6475abf9e9babc5899",
+  "bytes": 1312248,
+  "pages": 8
+ },
+ {
+  "drive_id": "1WHh6d2BvF4-QKLygb7t13iuTaH353oit",
+  "filename": "Goldman-M-TDEM-Measurements-Nahal-Hever-South-Site-Location-Map-GII-Rep-909-100-01-1-2001.pdf",
+  "sha256": "6ac9dd8e829c7ed84d02c03a75c561b121935bb55d27827ac10439157263556c",
+  "bytes": 914309,
+  "pages": 13
+ },
+ {
+  "drive_id": "1a0ik0SMucLu8olHTUDD_QTbN_OTqpDdZ",
+  "filename": "Goldman-M-TDEM-Survey-Water-Reservoirs-Northern-Arava-GII-Rep-822-90-98-3-1999.pdf",
+  "sha256": "9743a23511d0aa049d6fb37670a29088c6aaa389ab7ca254672ad390df611736",
+  "bytes": 730701,
+  "pages": 32
+ },
+ {
+  "drive_id": "1W_oI1_TG1cuw1YFAz2oFITupeWMNFiHE",
+  "filename": "Gvirtzman-G-Geological-History-Israel-Coastal-Plain-Magneto-Telluric-GSI-1971.pdf",
+  "sha256": "b3b849f6b3fb40148b9f59af5870d9019af9b3be70e67ec2b71c3ef5d4c78694",
+  "bytes": 2638253,
+  "pages": 42
+ },
+ {
+  "drive_id": "1jh0qY5b0KnAC6BcsKoWywsjKN-VkpJjI",
+  "filename": "Gvirtzman-Gedaliya-Structural-Depositional-Hinge-Line-Coastal-Plain-of-Israel-GSI-Bull-55-1972.pdf",
+  "sha256": "b5e28dd9c8962bb1c93b4c3cef8d0929b2d3162c2f0394ca6f9ea588f3bc11c9",
+  "bytes": 3252800,
+  "pages": 25
+ },
+ {
+  "drive_id": "16Lgaxyu9-FCxZwQMZk1YPcH2lwmffGtk",
+  "filename": "Meidav-T-Report-Geoelectric-Measurements-Conducted-Qiryat Hayyim-Area-IPRG-Rep-1963.pdf",
+  "sha256": "e479b2bc1e71c43ec36b6c6850728df0d1cd08374c698e84007ddfc13c08871d",
+  "bytes": 3320165,
+  "pages": 12
+ },
+ {
+  "drive_id": "1v7LmRyMYYQ4yHtmdSH1gj7nyUZM17Z9h",
+  "filename": "Meidav-Z-General-Aspects-Initial-Results-Tellurometric-Experiments-Israel-IPRG-TM-390-1965.pdf",
+  "sha256": "50fedfdea1a948a8d38440ddc65a2bf59a091aecc08653f4b1eb5ba12ddf5026",
+  "bytes": 4216620,
+  "pages": 53
+ },
+ {
+  "drive_id": "1u0KDXSEbivw-0B5BOOJqv3hHGYsYAbPF",
+  "filename": "Meqbel-NMM-Magnetotelluric-Transect-Dead-Sea-Basin-Electrical-Properties-Geophys-J-Int-Vol-193-2013.pdf",
+  "sha256": "f90428f2663ab791a5c3e0d3f000aaacf08d20f80b40df79637eed47b0ebf972",
+  "bytes": 6731912,
+  "pages": 17
+ },
+ {
+  "drive_id": "1QHj_MDLd46O8vbC7OkM5nXKOnBXAaN-1",
+  "filename": "Rabinovich-B-Electromagnetic-Survey-Locating-Seawater-Interface-Coastal-Aquifer-IPRG-Rep-735-296-92-1993.pdf",
+  "sha256": "0a92dac0425c5d9d33fee7d066a1c153036a618cc1ae9079d3e0ba900284a14a",
+  "bytes": 4721730,
+  "pages": 78
+ },
+ {
+  "drive_id": "1ReVzDlPw2S1_qE7Q4zt8q2EX8NADApA1",
+  "filename": "Weissbrod-Klang-Configuration-Buried-Surface-Precambrian-GSI-Bull-60-1974.pdf",
+  "sha256": "feaed67a038015479f88c9bbb1bd4013ae9f2e492c0f3f845bbb52c1051abe22",
+  "bytes": 3961655,
+  "pages": 22
+ },
+ {
+  "drive_id": "1k1kmRfB7SDlgAHw31nUHiXDwE2Xk9LTp",
+  "filename": "Zafrir-H-Drillholes-Verification-TDEM-Results-Quartz-Syenite-Bodies-Ramon-Rep-TR-GSI-03-1991.pdf",
+  "sha256": "d77f7adc02ea8803d13867a04f069a361d18810e3070a03ed9f7febafd99bd23",
+  "bytes": 1342065,
+  "pages": 12
  }
 ]

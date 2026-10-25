@@ -1,0 +1,44 @@
+# Goldman & Ezersky 1999, GII 822/90/98(3): one inversion plot per appendix page (pages 9-32).
+# Right-hand panel = the author's model (resistivity against depth). Axis values read from the printed labels:
+# rho at the left and right frame edges, and the depth (m) at the bottom frame edge. The extractor checks these
+# against the tick marks. Page 11 is printed sideways; rotate = degrees anticlockwise to make it upright.
+# Coordinates: text pages 3-4 (Old Israel Grid, metres, northing printed without the leading 1); they agree with
+# the location map (Fig. 1, page 6).
+stations:
+  ARAVA-1: {xy: [178520, 1032670], text_page: 4}
+  HAZEVA-4: {xy: [181490, 1030760], text_page: 4}
+  HAZEVA-6: {xy: [180680, 1029450], text_page: 4}
+  HAZEVA-7: {xy: [179450, 1028820], text_page: 4}
+  HAZEVA-3: {xy: [181680, 1025240], text_page: 4}
+  HAZEVA-5: {xy: [181040, 1024420], text_page: 4}
+  HAZEVA-2: {xy: [179990, 1023390], text_page: 4}
+  HAZEVA: {xy: [178460, 1021200], text_page: 4}
+  HAZEVA-1: {xy: [179780, 1020390], text_page: 4}
+  ZOFAR-1: {xy: [167470, 990650], text_page: 5}
+  ZOFAR-2: {xy: [167020, 989030], text_page: 5}
+  ZOFAR-3: {xy: [167210, 989010], text_page: 5}
+plots:
+  - {page: 9, station: ARAVA-1, model: layered, rho: [0.1, 100], depth_max: 400}
+  - {page: 10, station: ARAVA-1, model: smooth, rho: [0.1, 100], depth_max: 500}
+  - {page: 11, station: HAZEVA-4, model: layered, rho: [0.1, 100], depth_max: 400, rotate: 90}
+  - {page: 12, station: HAZEVA-4, model: smooth, rho: [0.1, 100], depth_max: 500}
+  - {page: 13, station: HAZEVA-6, model: layered, rho: [0.1, 100], depth_max: 400}
+  - {page: 14, station: HAZEVA-6, model: smooth, rho: [0.1, 100], depth_max: 600}
+  - {page: 15, station: HAZEVA-7, model: layered, rho: [0.1, 100], depth_max: 400}
+  - {page: 16, station: HAZEVA-7, model: smooth, rho: [0.1, 100], depth_max: 500}
+  - {page: 17, station: HAZEVA-3, model: layered, rho: [0.1, 100], depth_max: 400}
+  - {page: 18, station: HAZEVA-3, model: smooth, rho: [0.1, 100], depth_max: 600}
+  - {page: 19, station: HAZEVA-5, model: layered, rho: [0.1, 1000], depth_max: 400}
+  - {page: 20, station: HAZEVA-5, model: smooth, rho: [0.1, 1000], depth_max: 700}
+  - {page: 21, station: HAZEVA-2, model: layered, rho: [1, 1000], depth_max: 400}
+  - {page: 22, station: HAZEVA-2, model: smooth, rho: [1, 1000], depth_max: 700}
+  - {page: 23, station: HAZEVA, model: layered, rho: [0.1, 100], depth_max: 500}
+  - {page: 24, station: HAZEVA, model: smooth, rho: [0.1, 100], depth_max: 700}
+  - {page: 25, station: HAZEVA-1, model: layered, rho: [0.1, 100], depth_max: 500}
+  - {page: 26, station: HAZEVA-1, model: smooth, rho: [0.1, 100], depth_max: 600}
+  - {page: 27, station: ZOFAR-1, model: layered, rho: [1, 1000], depth_max: 400}
+  - {page: 28, station: ZOFAR-1, model: smooth, rho: [1, 100], depth_max: 300}
+  - {page: 29, station: ZOFAR-2, confidence: C, notes: "The author says this station lies near a high-voltage line and its data are distorted; Zofar-3 was measured 200 m east to replace it.", model: layered, rho: [1, 1000], depth_max: 400}
+  - {page: 30, station: ZOFAR-2, confidence: C, notes: "The author says this station lies near a high-voltage line and its data are distorted; Zofar-3 was measured 200 m east to replace it.", model: smooth, rho: [1, 100], depth_max: 500}
+  - {page: 31, station: ZOFAR-3, model: layered, rho: [1, 1000], depth_max: 400}
+  - {page: 32, station: ZOFAR-3, model: smooth, rho: [1, 100], depth_max: 300}

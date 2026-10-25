@@ -1,0 +1,62 @@
+# Table 1 "Results of magneto-telluric measurements", page 12 (printed page 7), typed from the page at 200 dpi.
+# Coordinates are printed in units of 10 m on the Old Israel Grid (14575/98505 = 145.75 km E, 985.05 km N);
+# the Sinaf 1 borehole is labelled 136228/948831 (metres) on Figures 3 and 4, on the same grid.
+# Interval is in metres below ground (each site starts at 0); the last row is the open-ended deepest unit.
+# Each layer row: [top, bottom, rho, unit, {thick: printed thickness}]
+document: main
+unit: ohm.m
+method: MT
+prefix: weissbrod1974
+measured_on: "1970"
+confidence: A
+table: Table 1 (results of magneto-telluric measurements)
+crs: EPSG:28193
+xy_scale: 10
+site_word: MT site
+prov_notes: Unit printed in the table header ("Resistivity (ohm-m)"); the text gives the range "4 to 460 ohm-m", which
+  matches the lowest (site 64) and highest (site 46) values.
+notes: The authors give a 20-25% composite error on depths and resistivities. Layer notes give the authors'
+  magneto-telluric unit (A-E). Last layer is the half-space.
+sites:
+- {id: "41", xy: [14575, 98505], elev: 365, page: 12, box: [0.52, 0.362, 0.895, 0.406], layers: [
+    [0, 270, 33, "MT unit B", {thick: 270}], [270, 800, 66, "MT unit C", {thick: 530}],
+    [800, 2400, 25, "MT unit D", {thick: 1600}], [2400, null, 105, "MT unit E"]]}
+- {id: "43", xy: [14665, 99163], elev: 376, page: 12, box: [0.52, 0.403, 0.895, 0.45], layers: [
+    [0, 190, 19, "MT unit D", {thick: 190}], [190, 550, 54, "MT unit Da", {thick: 360}],
+    [550, 1300, 10, "MT unit D", {thick: 750}], [1300, null, 195, "MT unit E"]]}
+- {id: "44", xy: [14085, 97155], elev: 283, page: 12, box: [0.52, 0.448, 0.895, 0.506], layers: [
+    [0, 230, 15, "MT unit A", {thick: 230}], [230, 450, 10, "MT unit B", {thick: 220}],
+    [450, 1700, 36, "MT unit C", {thick: 1250}], [1700, 3700, 9.4, "MT unit D", {thick: 2000}],
+    [3700, null, 77, "MT unit E"]]}
+- {id: "46", xy: [13610, 94990], elev: 565, page: 12, box: [0.52, 0.503, 0.895, 0.541], layers: [
+    [0, 330, 14, "MT unit C", {thick: 330}], [330, 1000, 42, "MT unit D", {thick: 670}],
+    [1000, null, 460, "MT unit E"]]}
+- {id: "63", xy: [13925, 96485], elev: 450, page: 12, box: [0.52, 0.541, 0.895, 0.578], layers: [
+    [0, 175, 16, "MT unit B", {thick: 175}], [175, 1400, 24, "MT unit C+D", {thick: 1225}],
+    [1400, null, 250, "MT unit E"]]}
+- {id: "64", xy: [13715, 96710], elev: 325, page: 12, box: [0.52, 0.573, 0.895, 0.623], layers: [
+    [0, 190, 13.5, "MT unit B", {thick: 190}], [190, 380, 40.5, "MT unit C", {thick: 190}],
+    [380, 1000, 4, "MT unit D", {thick: 620}], [1000, null, 80, "MT unit E"]]}
+- {id: "65", xy: [13935, 96810], elev: 415, coord_source: map, accuracy_m: 1000,
+   site_notes: "Table 1 prints 13035/96810, which falls 8.5 km west of the traverse. Figure 1 puts site 65 between
+     sites 63 and 66 at about 139.4 km E (other sites read from Figure 1 agree with Table 1 within about 1 km),
+     so the easting is taken as 13935, a one-digit misprint.", page: 12, box: [0.52, 0.619, 0.895, 0.67], layers: [
+    [0, 140, 10, "MT unit B", {thick: 140}], [140, 320, 20, "MT unit C", {thick: 180}],
+    [320, 800, 9, "MT unit C", {thick: 480}], [800, null, 50, "MT unit D"]]}
+- {id: "66", xy: [13855, 97095], elev: 300, page: 12, box: [0.52, 0.665, 0.895, 0.716], layers: [
+    [0, 230, 15, "MT unit B", {thick: 230}], [230, 920, 30, "MT unit C", {thick: 690}],
+    [920, 1840, 16, "MT unit D", {thick: 920}], [1840, null, 126, "MT unit E"]]}
+- {id: "70", xy: [14085, 97980], elev: 395, page: 12, box: [0.52, 0.713, 0.895, 0.761], layers: [
+    [0, 175, 16, "MT unit B", {thick: 175}], [175, 620, 80, "MT unit C", {thick: 445}],
+    [620, 2300, 24, "MT unit D", {thick: 1680}], [2300, null, 196, "MT unit E"]]}
+- {id: "88", xy: [14000, 97135], elev: 282, page: 12, box: [0.52, 0.758, 0.895, 0.816], layers: [
+    [0, 370, 18, "MT unit A", {thick: 370}], [370, 600, 12, "MT unit B", {thick: 230}],
+    [600, 1600, 22.5, "MT unit C", {thick: 1000}], [1600, 3520, 6.4, "MT unit D", {thick: 1920}],
+    [3520, null, 73.5, "MT unit E"]]}
+- {id: "89", xy: [14270, 97480], elev: 305, page: 12, box: [0.52, 0.813, 0.895, 0.871], layers: [
+    [0, 390, 26, "MT unit A", {thick: 390}], [390, 590, 9, "MT unit B", {thick: 200}],
+    [590, 1950, 112, "MT unit C", {thick: 1360}], [1950, 4300, 8.4, "MT unit D", {thick: 2350}],
+    [4300, null, 130, "MT unit E"]]}
+- {id: "90", xy: [14125, 97850], elev: 400, page: 12, box: [0.52, 0.868, 0.895, 0.917], layers: [
+    [0, 240, 14, "MT unit B", {thick: 240}], [240, 750, 28, "MT unit C", {thick: 510}],
+    [750, 3000, 13, "MT unit D", {thick: 2250}], [3000, null, 105, "MT unit E"]]}

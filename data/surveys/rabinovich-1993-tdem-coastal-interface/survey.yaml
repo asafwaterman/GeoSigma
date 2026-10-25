@@ -1,0 +1,542 @@
+id: rabinovich-1993-tdem-coastal-interface
+name: Electromagnetic survey to locate the freshwater-seawater interface in the coastal aquifer
+organisation: Institute for Petroleum Research and Geophysics (IPRG)
+client: Hydrological Service, Water Commission
+authors:
+- B. Rabinovich
+- M. Goldman
+- M. Rabinovich
+- A. Ronen
+report_number: IPRG 735/296/92
+year: 1993
+acquired: '1993'
+methods:
+- TEM
+region: Mediterranean coast (Ashqelon to Mikhmoret, and the Carmel coast) and the Tzukim springs on the Dead Sea
+  shore
+purpose: Depth to the low-resistivity layer(s) of the seawater interface in the coastal aquifer
+geometry: stations
+depth_reach: about 230 m (deepest layer boundary)
+acquisition:
+  instruments: Geonics EM-47 and EM-37 (PROTEM receiver)
+  loops: 50 x 50 m to 200 x 200 m transmitter loops (printouts)
+documents:
+- id: main
+  title: Electromagnetic survey to locate the interface in the coastal aquifer (in Hebrew, June 1993; tables and
+    printouts in English)
+  filename: Rabinovich-B-Electromagnetic-Survey-Locating-Seawater-Interface-Coastal-Aquifer-IPRG-Rep-735-296-92-1993.pdf
+  drive_id: 1QHj_MDLd46O8vbC7OkM5nXKOnBXAaN-1
+  language:
+  - he
+  - en
+  scanned: true
+  role: main_report
+  sha256: 0a92dac0425c5d9d33fee7d066a1c153036a618cc1ae9079d3e0ba900284a14a
+  pages: 78
+notes: Table 2 (pages 7-8) gives each station's coordinates and the author's resistivity and depth of the first
+  and second low-resistivity layers; the appendix (pages 12-77) prints the layered inversion of every sounding with
+  its thickness, depth (elevation) and conductance. Both are stored, and the Table 2 values agree with the printouts
+  at every station. HS291 and HS293 (Dead Sea) have two soundings each. Many printouts carry later handwritten notes
+  (comparisons with older stations); the printed values are used and the handwriting is not. Table 3 (a reinterpretation
+  of older EM-37 data) is not stored. Stations the author marks not reliable or erroneous are at confidence C, and
+  those marked noisy at B.
+extraction_status: complete
+sites:
+- id: HS233
+  name: TDEM station HS233 (Mediterranean coastal aquifer)
+  coords:
+    x: 118200
+    y: 139300
+    crs: EPSG:28193
+    source: table
+    accuracy_m: 50
+- id: HS234
+  name: TDEM station HS234 (Mediterranean coastal aquifer)
+  coords:
+    x: 116010
+    y: 135720
+    crs: EPSG:28193
+    source: table
+    accuracy_m: 50
+- id: HS235
+  name: TDEM station HS235 (Mediterranean coastal aquifer)
+  coords:
+    x: 129450
+    y: 169120
+    crs: EPSG:28193
+    source: table
+    accuracy_m: 50
+- id: HS236
+  name: TDEM station HS236 (Mediterranean coastal aquifer)
+  coords:
+    x: 130250
+    y: 171170
+    crs: EPSG:28193
+    source: table
+    accuracy_m: 50
+- id: HS237
+  name: TDEM station HS237 (Mediterranean coastal aquifer)
+  coords:
+    x: 131000
+    y: 173000
+    crs: EPSG:28193
+    source: table
+    accuracy_m: 50
+- id: HS238
+  name: TDEM station HS238 (Mediterranean coastal aquifer)
+  coords:
+    x: 131290
+    y: 174650
+    crs: EPSG:28193
+    source: table
+    accuracy_m: 50
+- id: HS239
+  name: TDEM station HS239 (Mediterranean coastal aquifer)
+  coords:
+    x: 131580
+    y: 174620
+    crs: EPSG:28193
+    source: table
+    accuracy_m: 50
+- id: HS240
+  name: TDEM station HS240 (Mediterranean coastal aquifer)
+  coords:
+    x: 131920
+    y: 177040
+    crs: EPSG:28193
+    source: table
+    accuracy_m: 50
+- id: HS241
+  name: TDEM station HS241 (Mediterranean coastal aquifer)
+  coords:
+    x: 133200
+    y: 179350
+    crs: EPSG:28193
+    source: table
+    accuracy_m: 50
+- id: HS242
+  name: TDEM station HS242 (Mediterranean coastal aquifer)
+  coords:
+    x: 132250
+    y: 177450
+    crs: EPSG:28193
+    source: table
+    accuracy_m: 50
+- id: HS243
+  name: TDEM station HS243 (Mediterranean coastal aquifer)
+  coords:
+    x: 132670
+    y: 179690
+    crs: EPSG:28193
+    source: table
+    accuracy_m: 50
+- id: HS244
+  name: TDEM station HS244 (Mediterranean coastal aquifer)
+  coords:
+    x: 134200
+    y: 182850
+    crs: EPSG:28193
+    source: table
+    accuracy_m: 50
+- id: HS245
+  name: TDEM station HS245 (Mediterranean coastal aquifer)
+  coords:
+    x: 133400
+    y: 179350
+    crs: EPSG:28193
+    source: table
+    accuracy_m: 50
+- id: HS246
+  name: TDEM station HS246 (Mediterranean coastal aquifer)
+  coords:
+    x: 134780
+    y: 184120
+    crs: EPSG:28193
+    source: table
+    accuracy_m: 50
+- id: HS247
+  name: TDEM station HS247 (Mediterranean coastal aquifer)
+  coords:
+    x: 134700
+    y: 187100
+    crs: EPSG:28193
+    source: table
+    accuracy_m: 50
+- id: HS248
+  name: TDEM station HS248 (Mediterranean coastal aquifer)
+  coords:
+    x: 137720
+    y: 199100
+    crs: EPSG:28193
+    source: table
+    accuracy_m: 50
+- id: HS249
+  name: TDEM station HS249 (Mediterranean coastal aquifer)
+  coords:
+    x: 138460
+    y: 200240
+    crs: EPSG:28193
+    source: table
+    accuracy_m: 50
+- id: HS250
+  name: TDEM station HS250 (Mediterranean coastal aquifer)
+  coords:
+    x: 140450
+    y: 209100
+    crs: EPSG:28193
+    source: table
+    accuracy_m: 50
+- id: HS251
+  name: TDEM station HS251 (Mediterranean coastal aquifer)
+  coords:
+    x: 140230
+    y: 210190
+    crs: EPSG:28193
+    source: table
+    accuracy_m: 50
+- id: HS252
+  name: TDEM station HS252 (Mediterranean coastal aquifer)
+  coords:
+    x: 139700
+    y: 209860
+    crs: EPSG:28193
+    source: table
+    accuracy_m: 50
+- id: HS253
+  name: TDEM station HS253 (Mediterranean coastal aquifer)
+  coords:
+    x: 140620
+    y: 213280
+    crs: EPSG:28193
+    source: table
+    accuracy_m: 50
+- id: HS254
+  name: TDEM station HS254 (Mediterranean coastal aquifer)
+  coords:
+    x: 138100
+    y: 200450
+    crs: EPSG:28193
+    source: table
+    accuracy_m: 50
+- id: HS255
+  name: TDEM station HS255 (Mediterranean coastal aquifer)
+  coords:
+    x: 139200
+    y: 202500
+    crs: EPSG:28193
+    source: table
+    accuracy_m: 50
+- id: HS256
+  name: TDEM station HS256 (Mediterranean coastal aquifer)
+  coords:
+    x: 138500
+    y: 202700
+    crs: EPSG:28193
+    source: table
+    accuracy_m: 50
+- id: HS257
+  name: TDEM station HS257 (Mediterranean coastal aquifer)
+  coords:
+    x: 139150
+    y: 204650
+    crs: EPSG:28193
+    source: table
+    accuracy_m: 50
+- id: HS258
+  name: TDEM station HS258 (Mediterranean coastal aquifer)
+  coords:
+    x: 139350
+    y: 204200
+    crs: EPSG:28193
+    source: table
+    accuracy_m: 50
+- id: HS259
+  name: TDEM station HS259 (Mediterranean coastal aquifer)
+  coords:
+    x: 135450
+    y: 188550
+    crs: EPSG:28193
+    source: table
+    accuracy_m: 50
+- id: HS260
+  name: TDEM station HS260 (Mediterranean coastal aquifer)
+  coords:
+    x: 135700
+    y: 188400
+    crs: EPSG:28193
+    source: table
+    accuracy_m: 50
+- id: HS261
+  name: TDEM station HS261 (Mediterranean coastal aquifer)
+  coords:
+    x: 137500
+    y: 194700
+    crs: EPSG:28193
+    source: table
+    accuracy_m: 50
+- id: HS262
+  name: TDEM station HS262 (Mediterranean coastal aquifer)
+  coords:
+    x: 135890
+    y: 190980
+    crs: EPSG:28193
+    source: table
+    accuracy_m: 50
+- id: HS263
+  name: TDEM station HS263 (Mediterranean coastal aquifer)
+  coords:
+    x: 140960
+    y: 213770
+    crs: EPSG:28193
+    source: table
+    accuracy_m: 50
+- id: HS264
+  name: TDEM station HS264 (Mediterranean coastal aquifer)
+  coords:
+    x: 139300
+    y: 205850
+    crs: EPSG:28193
+    source: table
+    accuracy_m: 50
+- id: HS265
+  name: TDEM station HS265 (Mediterranean coastal aquifer)
+  coords:
+    x: 139750
+    y: 205700
+    crs: EPSG:28193
+    source: table
+    accuracy_m: 50
+- id: HS266
+  name: TDEM station HS266 (Mediterranean coastal aquifer)
+  coords:
+    x: 139700
+    y: 207500
+    crs: EPSG:28193
+    source: table
+    accuracy_m: 50
+- id: HS267
+  name: TDEM station HS267 (Mediterranean coastal aquifer)
+  coords:
+    x: 115500
+    y: 134150
+    crs: EPSG:28193
+    source: table
+    accuracy_m: 50
+- id: HS268
+  name: TDEM station HS268 (Mediterranean coastal aquifer)
+  coords:
+    x: 125330
+    y: 156810
+    crs: EPSG:28193
+    source: table
+    accuracy_m: 50
+- id: HS269
+  name: TDEM station HS269 (Mediterranean coastal aquifer)
+  coords:
+    x: 114420
+    y: 131630
+    crs: EPSG:28193
+    source: table
+    accuracy_m: 50
+- id: HS270
+  name: TDEM station HS270 (Mediterranean coastal aquifer)
+  coords:
+    x: 111550
+    y: 124500
+    crs: EPSG:28193
+    source: table
+    accuracy_m: 50
+- id: HS271
+  name: TDEM station HS271 (Mediterranean coastal aquifer)
+  coords:
+    x: 108300
+    y: 120270
+    crs: EPSG:28193
+    source: table
+    accuracy_m: 50
+- id: HS272
+  name: TDEM station HS272 (Mediterranean coastal aquifer)
+  coords:
+    x: 108150
+    y: 119700
+    crs: EPSG:28193
+    source: table
+    accuracy_m: 50
+- id: HS273
+  name: TDEM station HS273 (Mediterranean coastal aquifer)
+  coords:
+    x: 107050
+    y: 118200
+    crs: EPSG:28193
+    source: table
+    accuracy_m: 50
+- id: HS274
+  name: TDEM station HS274 (Mediterranean coastal aquifer)
+  coords:
+    x: 106800
+    y: 118400
+    crs: EPSG:28193
+    source: table
+    accuracy_m: 50
+- id: HS275
+  name: TDEM station HS275 (Mediterranean coastal aquifer)
+  coords:
+    x: 104150
+    y: 114400
+    crs: EPSG:28193
+    source: table
+    accuracy_m: 50
+- id: HS276
+  name: TDEM station HS276 (Mediterranean coastal aquifer)
+  coords:
+    x: 103900
+    y: 114470
+    crs: EPSG:28193
+    source: table
+    accuracy_m: 50
+- id: HS277
+  name: TDEM station HS277 (Mediterranean coastal aquifer)
+  coords:
+    x: 117300
+    y: 137750
+    crs: EPSG:28193
+    source: table
+    accuracy_m: 50
+- id: HS278
+  name: TDEM station HS278 (Mediterranean coastal aquifer)
+  coords:
+    x: 117520
+    y: 137600
+    crs: EPSG:28193
+    source: table
+    accuracy_m: 50
+- id: HS279
+  name: TDEM station HS279 (Mediterranean coastal aquifer)
+  coords:
+    x: 102330
+    y: 111840
+    crs: EPSG:28193
+    source: table
+    accuracy_m: 50
+- id: HS280
+  name: TDEM station HS280 (Mediterranean coastal aquifer)
+  coords:
+    x: 118170
+    y: 139810
+    crs: EPSG:28193
+    source: table
+    accuracy_m: 50
+- id: HS281
+  name: TDEM station HS281 (Mediterranean coastal aquifer)
+  coords:
+    x: 140250
+    y: 205400
+    crs: EPSG:28193
+    source: table
+    accuracy_m: 50
+- id: HS282
+  name: TDEM station HS282 (Carmel coast)
+  coords:
+    x: 141830
+    y: 219130
+    crs: EPSG:28193
+    source: table
+    accuracy_m: 50
+- id: HS283
+  name: TDEM station HS283 (Carmel coast)
+  coords:
+    x: 141400
+    y: 217180
+    crs: EPSG:28193
+    source: table
+    accuracy_m: 50
+- id: HS284
+  name: TDEM station HS284 (Carmel coast)
+  coords:
+    x: 142520
+    y: 223100
+    crs: EPSG:28193
+    source: table
+    accuracy_m: 50
+- id: HS285
+  name: TDEM station HS285 (Carmel coast)
+  coords:
+    x: 143850
+    y: 225300
+    crs: EPSG:28193
+    source: table
+    accuracy_m: 1000
+  notes: A later handwritten mark on Table 2 and on the printout changes the easting 14385 to 14285 (1 km west);
+    the printed 14385 is used.
+- id: HS286
+  name: TDEM station HS286 (Carmel coast)
+  coords:
+    x: 143580
+    y: 229330
+    crs: EPSG:28193
+    source: table
+    accuracy_m: 50
+- id: HS287
+  name: TDEM station HS287 (Carmel coast)
+  coords:
+    x: 143900
+    y: 229300
+    crs: EPSG:28193
+    source: table
+    accuracy_m: 50
+- id: HS288
+  name: TDEM station HS288 (Carmel coast)
+  coords:
+    x: 145500
+    y: 235600
+    crs: EPSG:28193
+    source: table
+    accuracy_m: 50
+- id: HS289
+  name: TDEM station HS289 (Carmel coast)
+  coords:
+    x: 145900
+    y: 238050
+    crs: EPSG:28193
+    source: table
+    accuracy_m: 50
+- id: HS290
+  name: TDEM station HS290 (Carmel coast)
+  coords:
+    x: 146870
+    y: 244220
+    crs: EPSG:28193
+    source: table
+    accuracy_m: 50
+- id: HS291
+  name: TDEM station HS291 (Dead Sea, Tzukim springs)
+  coords:
+    x: 192400
+    y: 125000
+    crs: EPSG:28193
+    source: table
+    accuracy_m: 50
+- id: HS292
+  name: TDEM station HS292 (Dead Sea, Tzukim springs)
+  coords:
+    x: 193040
+    y: 124480
+    crs: EPSG:28193
+    source: table
+    accuracy_m: 50
+- id: HS293
+  name: TDEM station HS293 (Dead Sea, Tzukim springs)
+  coords:
+    x: 193170
+    y: 124500
+    crs: EPSG:28193
+    source: table
+    accuracy_m: 50
+- id: HS294
+  name: TDEM station HS294 (Dead Sea, Tzukim springs)
+  coords:
+    x: 192900
+    y: 125100
+    crs: EPSG:28193
+    source: table
+    accuracy_m: 50

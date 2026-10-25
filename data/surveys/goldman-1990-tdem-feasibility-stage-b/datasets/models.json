@@ -1,0 +1,2629 @@
+[
+ {
+  "id": "goldman1990-GS-1-layered",
+  "survey": "goldman-1990-tdem-feasibility-stage-b",
+  "site": "GS-1",
+  "method": "TEM",
+  "level": "L2",
+  "representation": "model_1d",
+  "measured_on": null,
+  "depth_max_m": 206.68,
+  "confidence": "A",
+  "status": "draft",
+  "model_type": "layered",
+  "layers": [
+   {
+    "top_m": 0,
+    "bottom_m": 91.28,
+    "rho_ohmm": 66.57
+   },
+   {
+    "top_m": 91.28,
+    "bottom_m": 206.68,
+    "rho_ohmm": 14.62
+   },
+   {
+    "top_m": 206.68,
+    "bottom_m": null,
+    "rho_ohmm": 83.0
+   }
+  ],
+  "provenance": {
+   "document": "main",
+   "pages": [
+    25
+   ],
+   "method": "manual",
+   "tool": "typed from the page at 200 dpi; geosigma.extract.printed_tables",
+   "extracted_on": "2026-10-24",
+   "notes": "Station coordinates are printed with the model. The target text (borehole and geology) is the author's.",
+   "table": "Appendix 1 (layered models, Resist. / Thick. / Depth)"
+  }
+ },
+ {
+  "id": "goldman1990-GS-2-layered",
+  "survey": "goldman-1990-tdem-feasibility-stage-b",
+  "site": "GS-2",
+  "method": "TEM",
+  "level": "L2",
+  "representation": "model_1d",
+  "measured_on": null,
+  "depth_max_m": 248.5,
+  "confidence": "A",
+  "status": "draft",
+  "model_type": "layered",
+  "layers": [
+   {
+    "top_m": 0,
+    "bottom_m": 105.5,
+    "rho_ohmm": 90.8
+   },
+   {
+    "top_m": 105.5,
+    "bottom_m": 248.5,
+    "rho_ohmm": 22.8
+   },
+   {
+    "top_m": 248.5,
+    "bottom_m": null,
+    "rho_ohmm": 146.0
+   }
+  ],
+  "provenance": {
+   "document": "main",
+   "pages": [
+    25
+   ],
+   "method": "manual",
+   "tool": "typed from the page at 200 dpi; geosigma.extract.printed_tables",
+   "extracted_on": "2026-10-24",
+   "notes": "Station coordinates are printed with the model. The target text (borehole and geology) is the author's.",
+   "table": "Appendix 1 (layered models, Resist. / Thick. / Depth)"
+  }
+ },
+ {
+  "id": "goldman1990-GS-3-layered",
+  "survey": "goldman-1990-tdem-feasibility-stage-b",
+  "site": "GS-3",
+  "method": "TEM",
+  "level": "L2",
+  "representation": "model_1d",
+  "measured_on": null,
+  "depth_max_m": 135.7,
+  "confidence": "A",
+  "status": "draft",
+  "model_type": "layered",
+  "layers": [
+   {
+    "top_m": 0,
+    "bottom_m": 2.2,
+    "rho_ohmm": 18.4
+   },
+   {
+    "top_m": 2.2,
+    "bottom_m": 16.8,
+    "rho_ohmm": 35.5
+   },
+   {
+    "top_m": 16.8,
+    "bottom_m": 76.2,
+    "rho_ohmm": 83.6
+   },
+   {
+    "top_m": 76.2,
+    "bottom_m": 135.7,
+    "rho_ohmm": 17.7
+   },
+   {
+    "top_m": 135.7,
+    "bottom_m": null,
+    "rho_ohmm": 89.0
+   }
+  ],
+  "provenance": {
+   "document": "main",
+   "pages": [
+    25
+   ],
+   "method": "manual",
+   "tool": "typed from the page at 200 dpi; geosigma.extract.printed_tables",
+   "extracted_on": "2026-10-24",
+   "notes": "Station coordinates are printed with the model. The target text (borehole and geology) is the author's.",
+   "table": "Appendix 1 (layered models, Resist. / Thick. / Depth)"
+  }
+ },
+ {
+  "id": "goldman1990-GS-4-layered",
+  "survey": "goldman-1990-tdem-feasibility-stage-b",
+  "site": "GS-4",
+  "method": "TEM",
+  "level": "L2",
+  "representation": "model_1d",
+  "measured_on": null,
+  "depth_max_m": 84.69,
+  "confidence": "A",
+  "status": "draft",
+  "model_type": "layered",
+  "layers": [
+   {
+    "top_m": 0,
+    "bottom_m": 15.3,
+    "rho_ohmm": 149.0
+   },
+   {
+    "top_m": 15.3,
+    "bottom_m": 23.39,
+    "rho_ohmm": 1.56
+   },
+   {
+    "top_m": 23.39,
+    "bottom_m": 84.69,
+    "rho_ohmm": 4.15
+   },
+   {
+    "top_m": 84.69,
+    "bottom_m": null,
+    "rho_ohmm": 121.0
+   }
+  ],
+  "provenance": {
+   "document": "main",
+   "pages": [
+    25
+   ],
+   "method": "manual",
+   "tool": "typed from the page at 200 dpi; geosigma.extract.printed_tables",
+   "extracted_on": "2026-10-24",
+   "notes": "Station coordinates are printed with the model. The target text (borehole and geology) is the author's.",
+   "table": "Appendix 1 (layered models, Resist. / Thick. / Depth)"
+  }
+ },
+ {
+  "id": "goldman1990-GS-5-layered",
+  "survey": "goldman-1990-tdem-feasibility-stage-b",
+  "site": "GS-5",
+  "method": "TEM",
+  "level": "L2",
+  "representation": "model_1d",
+  "measured_on": null,
+  "depth_max_m": 61.3,
+  "confidence": "C",
+  "status": "draft",
+  "model_type": "layered",
+  "layers": [
+   {
+    "top_m": 0,
+    "bottom_m": 16.5,
+    "rho_ohmm": 25.4
+   },
+   {
+    "top_m": 16.5,
+    "bottom_m": 42.7,
+    "rho_ohmm": 1.54
+   },
+   {
+    "top_m": 42.7,
+    "bottom_m": 61.3,
+    "rho_ohmm": 100.0
+   },
+   {
+    "top_m": 61.3,
+    "bottom_m": null,
+    "rho_ohmm": 0.01
+   }
+  ],
+  "provenance": {
+   "document": "main",
+   "pages": [
+    25
+   ],
+   "method": "manual",
+   "tool": "typed from the page at 200 dpi; geosigma.extract.printed_tables",
+   "extracted_on": "2026-10-24",
+   "notes": "Station coordinates are printed with the model. The target text (borehole and geology) is the author's.",
+   "table": "Appendix 1 (layered models, Resist. / Thick. / Depth)"
+  },
+  "notes": "The author notes that R4 was measured as 0.001 ohm.m (?); the table gives 0.01. The deepest layer is printed as 0.01 ohm.m, below any rock or brine; it is likely an inversion artefact (the target there is salt)."
+ },
+ {
+  "id": "goldman1990-GS-6-layered",
+  "survey": "goldman-1990-tdem-feasibility-stage-b",
+  "site": "GS-6",
+  "method": "TEM",
+  "level": "L2",
+  "representation": "model_1d",
+  "measured_on": null,
+  "depth_max_m": 81.56,
+  "confidence": "C",
+  "status": "draft",
+  "model_type": "layered",
+  "layers": [
+   {
+    "top_m": 0,
+    "bottom_m": 30.16,
+    "rho_ohmm": 1.68
+   },
+   {
+    "top_m": 30.16,
+    "bottom_m": 81.56,
+    "rho_ohmm": 116.0
+   },
+   {
+    "top_m": 81.56,
+    "bottom_m": null,
+    "rho_ohmm": 0.01
+   }
+  ],
+  "provenance": {
+   "document": "main",
+   "pages": [
+    25
+   ],
+   "method": "manual",
+   "tool": "typed from the page at 200 dpi; geosigma.extract.printed_tables",
+   "extracted_on": "2026-10-24",
+   "notes": "Station coordinates are printed with the model. The target text (borehole and geology) is the author's.",
+   "table": "Appendix 1 (layered models, Resist. / Thick. / Depth)"
+  },
+  "notes": "The deepest layer is printed as 0.01 ohm.m, below any rock or brine; it is likely an inversion artefact (the target there is salt)."
+ },
+ {
+  "id": "goldman1990-GS-7-layered",
+  "survey": "goldman-1990-tdem-feasibility-stage-b",
+  "site": "GS-7",
+  "method": "TEM",
+  "level": "L2",
+  "representation": "model_1d",
+  "measured_on": null,
+  "depth_max_m": 31.4,
+  "confidence": "A",
+  "status": "draft",
+  "model_type": "layered",
+  "layers": [
+   {
+    "top_m": 0,
+    "bottom_m": 4.2,
+    "rho_ohmm": 2.59
+   },
+   {
+    "top_m": 4.2,
+    "bottom_m": 31.4,
+    "rho_ohmm": 1.1
+   },
+   {
+    "top_m": 31.4,
+    "bottom_m": null,
+    "rho_ohmm": 0.4
+   }
+  ],
+  "provenance": {
+   "document": "main",
+   "pages": [
+    25
+   ],
+   "method": "manual",
+   "tool": "typed from the page at 200 dpi; geosigma.extract.printed_tables",
+   "extracted_on": "2026-10-24",
+   "notes": "Station coordinates are printed with the model. The target text (borehole and geology) is the author's.",
+   "table": "Appendix 1 (layered models, Resist. / Thick. / Depth)"
+  }
+ },
+ {
+  "id": "goldman1990-GS-8-layered",
+  "survey": "goldman-1990-tdem-feasibility-stage-b",
+  "site": "GS-8",
+  "method": "TEM",
+  "level": "L2",
+  "representation": "model_1d",
+  "measured_on": null,
+  "depth_max_m": 59.2,
+  "confidence": "A",
+  "status": "draft",
+  "model_type": "layered",
+  "layers": [
+   {
+    "top_m": 0,
+    "bottom_m": 18.4,
+    "rho_ohmm": 14.7
+   },
+   {
+    "top_m": 18.4,
+    "bottom_m": 59.2,
+    "rho_ohmm": 4.85
+   },
+   {
+    "top_m": 59.2,
+    "bottom_m": null,
+    "rho_ohmm": 5.01
+   }
+  ],
+  "provenance": {
+   "document": "main",
+   "pages": [
+    25
+   ],
+   "method": "manual",
+   "tool": "typed from the page at 200 dpi; geosigma.extract.printed_tables",
+   "extracted_on": "2026-10-24",
+   "notes": "Station coordinates are printed with the model. The target text (borehole and geology) is the author's.",
+   "table": "Appendix 1 (layered models, Resist. / Thick. / Depth)"
+  }
+ },
+ {
+  "id": "goldman1990-GS-9-layered",
+  "survey": "goldman-1990-tdem-feasibility-stage-b",
+  "site": "GS-9",
+  "method": "TEM",
+  "level": "L2",
+  "representation": "model_1d",
+  "measured_on": null,
+  "depth_max_m": 117.5,
+  "confidence": "A",
+  "status": "draft",
+  "model_type": "layered",
+  "layers": [
+   {
+    "top_m": 0,
+    "bottom_m": 19.5,
+    "rho_ohmm": 22.06
+   },
+   {
+    "top_m": 19.5,
+    "bottom_m": 40.6,
+    "rho_ohmm": 2.32
+   },
+   {
+    "top_m": 40.6,
+    "bottom_m": 117.5,
+    "rho_ohmm": 98.3
+   },
+   {
+    "top_m": 117.5,
+    "bottom_m": null,
+    "rho_ohmm": 7.1
+   }
+  ],
+  "provenance": {
+   "document": "main",
+   "pages": [
+    26
+   ],
+   "method": "manual",
+   "tool": "typed from the page at 200 dpi; geosigma.extract.printed_tables",
+   "extracted_on": "2026-10-24",
+   "notes": "Station coordinates are printed with the model. The target text (borehole and geology) is the author's.",
+   "table": "Appendix 1 (layered models, Resist. / Thick. / Depth)"
+  }
+ },
+ {
+  "id": "goldman1990-GS-10-layered",
+  "survey": "goldman-1990-tdem-feasibility-stage-b",
+  "site": "GS-10",
+  "method": "TEM",
+  "level": "L2",
+  "representation": "model_1d",
+  "measured_on": null,
+  "depth_max_m": 27.94,
+  "confidence": "A",
+  "status": "draft",
+  "model_type": "layered",
+  "layers": [
+   {
+    "top_m": 0,
+    "bottom_m": 11.17,
+    "rho_ohmm": 19.76
+   },
+   {
+    "top_m": 11.17,
+    "bottom_m": 27.94,
+    "rho_ohmm": 2.05
+   },
+   {
+    "top_m": 27.94,
+    "bottom_m": null,
+    "rho_ohmm": 1.11
+   }
+  ],
+  "provenance": {
+   "document": "main",
+   "pages": [
+    26
+   ],
+   "method": "manual",
+   "tool": "typed from the page at 200 dpi; geosigma.extract.printed_tables",
+   "extracted_on": "2026-10-24",
+   "notes": "Station coordinates are printed with the model. The target text (borehole and geology) is the author's.",
+   "table": "Appendix 1 (layered models, Resist. / Thick. / Depth)"
+  }
+ },
+ {
+  "id": "goldman1990-GS-11-layered",
+  "survey": "goldman-1990-tdem-feasibility-stage-b",
+  "site": "GS-11",
+  "method": "TEM",
+  "level": "L2",
+  "representation": "model_1d",
+  "measured_on": null,
+  "depth_max_m": 137.2,
+  "confidence": "A",
+  "status": "draft",
+  "model_type": "layered",
+  "layers": [
+   {
+    "top_m": 0,
+    "bottom_m": 11.2,
+    "rho_ohmm": 132.0
+   },
+   {
+    "top_m": 11.2,
+    "bottom_m": 62.2,
+    "rho_ohmm": 0.81
+   },
+   {
+    "top_m": 62.2,
+    "bottom_m": 137.2,
+    "rho_ohmm": 100.0
+   },
+   {
+    "top_m": 137.2,
+    "bottom_m": null,
+    "rho_ohmm": 0.52
+   }
+  ],
+  "provenance": {
+   "document": "main",
+   "pages": [
+    26
+   ],
+   "method": "manual",
+   "tool": "typed from the page at 200 dpi; geosigma.extract.printed_tables",
+   "extracted_on": "2026-10-24",
+   "notes": "Station coordinates are printed with the model. The target text (borehole and geology) is the author's.",
+   "table": "Appendix 1 (layered models, Resist. / Thick. / Depth)"
+  }
+ },
+ {
+  "id": "goldman1990-GS-12-layered",
+  "survey": "goldman-1990-tdem-feasibility-stage-b",
+  "site": "GS-12",
+  "method": "TEM",
+  "level": "L2",
+  "representation": "model_1d",
+  "measured_on": null,
+  "depth_max_m": 92.61,
+  "confidence": "A",
+  "status": "draft",
+  "model_type": "layered",
+  "layers": [
+   {
+    "top_m": 0,
+    "bottom_m": 16.2,
+    "rho_ohmm": 382.0
+   },
+   {
+    "top_m": 16.2,
+    "bottom_m": 82.21,
+    "rho_ohmm": 1.43
+   },
+   {
+    "top_m": 82.21,
+    "bottom_m": 92.61,
+    "rho_ohmm": 19.1
+   },
+   {
+    "top_m": 92.61,
+    "bottom_m": null,
+    "rho_ohmm": 1.15
+   }
+  ],
+  "provenance": {
+   "document": "main",
+   "pages": [
+    26
+   ],
+   "method": "manual",
+   "tool": "typed from the page at 200 dpi; geosigma.extract.printed_tables",
+   "extracted_on": "2026-10-24",
+   "notes": "Station coordinates are printed with the model. The target text (borehole and geology) is the author's.",
+   "table": "Appendix 1 (layered models, Resist. / Thick. / Depth)"
+  }
+ },
+ {
+  "id": "goldman1990-GS-13-layered",
+  "survey": "goldman-1990-tdem-feasibility-stage-b",
+  "site": "GS-13",
+  "method": "TEM",
+  "level": "L2",
+  "representation": "model_1d",
+  "measured_on": null,
+  "depth_max_m": 24.8,
+  "confidence": "A",
+  "status": "draft",
+  "model_type": "layered",
+  "layers": [
+   {
+    "top_m": 0,
+    "bottom_m": 24.8,
+    "rho_ohmm": 0.51
+   },
+   {
+    "top_m": 24.8,
+    "bottom_m": null,
+    "rho_ohmm": 0.19
+   }
+  ],
+  "provenance": {
+   "document": "main",
+   "pages": [
+    26
+   ],
+   "method": "manual",
+   "tool": "typed from the page at 200 dpi; geosigma.extract.printed_tables",
+   "extracted_on": "2026-10-24",
+   "notes": "Station coordinates are printed with the model. The target text (borehole and geology) is the author's.",
+   "table": "Appendix 1 (layered models, Resist. / Thick. / Depth)"
+  }
+ },
+ {
+  "id": "goldman1990-GS-14-layered",
+  "survey": "goldman-1990-tdem-feasibility-stage-b",
+  "site": "GS-14",
+  "method": "TEM",
+  "level": "L2",
+  "representation": "model_1d",
+  "measured_on": null,
+  "depth_max_m": 201.37,
+  "confidence": "A",
+  "status": "draft",
+  "model_type": "layered",
+  "layers": [
+   {
+    "top_m": 0,
+    "bottom_m": 5.03,
+    "rho_ohmm": 5.99
+   },
+   {
+    "top_m": 5.03,
+    "bottom_m": 68.07,
+    "rho_ohmm": 12.46
+   },
+   {
+    "top_m": 68.07,
+    "bottom_m": 201.37,
+    "rho_ohmm": 4.75
+   },
+   {
+    "top_m": 201.37,
+    "bottom_m": null,
+    "rho_ohmm": 119.9
+   }
+  ],
+  "provenance": {
+   "document": "main",
+   "pages": [
+    26
+   ],
+   "method": "manual",
+   "tool": "typed from the page at 200 dpi; geosigma.extract.printed_tables",
+   "extracted_on": "2026-10-24",
+   "notes": "Station coordinates are printed with the model. The target text (borehole and geology) is the author's.",
+   "table": "Appendix 1 (layered models, Resist. / Thick. / Depth)"
+  }
+ },
+ {
+  "id": "goldman1990-GS-15-layered",
+  "survey": "goldman-1990-tdem-feasibility-stage-b",
+  "site": "GS-15",
+  "method": "TEM",
+  "level": "L2",
+  "representation": "model_1d",
+  "measured_on": null,
+  "depth_max_m": 133.64,
+  "confidence": "A",
+  "status": "draft",
+  "model_type": "layered",
+  "layers": [
+   {
+    "top_m": 0,
+    "bottom_m": 5.31,
+    "rho_ohmm": 7.11
+   },
+   {
+    "top_m": 5.31,
+    "bottom_m": 62.94,
+    "rho_ohmm": 15.42
+   },
+   {
+    "top_m": 62.94,
+    "bottom_m": 133.64,
+    "rho_ohmm": 4.85
+   },
+   {
+    "top_m": 133.64,
+    "bottom_m": null,
+    "rho_ohmm": 31.07
+   }
+  ],
+  "provenance": {
+   "document": "main",
+   "pages": [
+    26
+   ],
+   "method": "manual",
+   "tool": "typed from the page at 200 dpi; geosigma.extract.printed_tables",
+   "extracted_on": "2026-10-24",
+   "notes": "Station coordinates are printed with the model. The target text (borehole and geology) is the author's.",
+   "table": "Appendix 1 (layered models, Resist. / Thick. / Depth)"
+  }
+ },
+ {
+  "id": "goldman1990-GS-19-layered",
+  "survey": "goldman-1990-tdem-feasibility-stage-b",
+  "site": "GS-19",
+  "method": "TEM",
+  "level": "L2",
+  "representation": "model_1d",
+  "measured_on": null,
+  "depth_max_m": 105.8,
+  "confidence": "A",
+  "status": "draft",
+  "model_type": "layered",
+  "layers": [
+   {
+    "top_m": 0,
+    "bottom_m": 25.58,
+    "rho_ohmm": 6.45
+   },
+   {
+    "top_m": 25.58,
+    "bottom_m": 30.3,
+    "rho_ohmm": 7.84
+   },
+   {
+    "top_m": 30.3,
+    "bottom_m": 105.8,
+    "rho_ohmm": 1167.0
+   },
+   {
+    "top_m": 105.8,
+    "bottom_m": null,
+    "rho_ohmm": 5.01
+   }
+  ],
+  "provenance": {
+   "document": "main",
+   "pages": [
+    27
+   ],
+   "method": "manual",
+   "tool": "typed from the page at 200 dpi; geosigma.extract.printed_tables",
+   "extracted_on": "2026-10-24",
+   "notes": "Station coordinates are printed with the model. The target text (borehole and geology) is the author's.",
+   "table": "Appendix 1 (layered models, Resist. / Thick. / Depth)"
+  }
+ },
+ {
+  "id": "goldman1990-GS-20-layered",
+  "survey": "goldman-1990-tdem-feasibility-stage-b",
+  "site": "GS-20",
+  "method": "TEM",
+  "level": "L2",
+  "representation": "model_1d",
+  "measured_on": null,
+  "depth_max_m": 177.08,
+  "confidence": "A",
+  "status": "draft",
+  "model_type": "layered",
+  "layers": [
+   {
+    "top_m": 0,
+    "bottom_m": 4.24,
+    "rho_ohmm": 84.0
+   },
+   {
+    "top_m": 4.24,
+    "bottom_m": 13.08,
+    "rho_ohmm": 5.37
+   },
+   {
+    "top_m": 13.08,
+    "bottom_m": 177.08,
+    "rho_ohmm": 7.11
+   },
+   {
+    "top_m": 177.08,
+    "bottom_m": null,
+    "rho_ohmm": 97.6
+   }
+  ],
+  "provenance": {
+   "document": "main",
+   "pages": [
+    27
+   ],
+   "method": "manual",
+   "tool": "typed from the page at 200 dpi; geosigma.extract.printed_tables",
+   "extracted_on": "2026-10-24",
+   "notes": "Station coordinates are printed with the model. The target text (borehole and geology) is the author's.",
+   "table": "Appendix 1 (layered models, Resist. / Thick. / Depth)"
+  }
+ },
+ {
+  "id": "goldman1990-GS-21-layered",
+  "survey": "goldman-1990-tdem-feasibility-stage-b",
+  "site": "GS-21",
+  "method": "TEM",
+  "level": "L2",
+  "representation": "model_1d",
+  "measured_on": null,
+  "depth_max_m": 136.7,
+  "confidence": "A",
+  "status": "draft",
+  "model_type": "layered",
+  "layers": [
+   {
+    "top_m": 0,
+    "bottom_m": 38.3,
+    "rho_ohmm": 6.12
+   },
+   {
+    "top_m": 38.3,
+    "bottom_m": 40.8,
+    "rho_ohmm": 3.64
+   },
+   {
+    "top_m": 40.8,
+    "bottom_m": 104.1,
+    "rho_ohmm": 1002.0
+   },
+   {
+    "top_m": 104.1,
+    "bottom_m": 136.7,
+    "rho_ohmm": 3.91
+   },
+   {
+    "top_m": 136.7,
+    "bottom_m": null,
+    "rho_ohmm": 235.0
+   }
+  ],
+  "provenance": {
+   "document": "main",
+   "pages": [
+    27
+   ],
+   "method": "manual",
+   "tool": "typed from the page at 200 dpi; geosigma.extract.printed_tables",
+   "extracted_on": "2026-10-24",
+   "notes": "Station coordinates are printed with the model. The target text (borehole and geology) is the author's.",
+   "table": "Appendix 1 (layered models, Resist. / Thick. / Depth)"
+  }
+ },
+ {
+  "id": "goldman1990-GS-23-layered",
+  "survey": "goldman-1990-tdem-feasibility-stage-b",
+  "site": "GS-23",
+  "method": "TEM",
+  "level": "L2",
+  "representation": "model_1d",
+  "measured_on": null,
+  "depth_max_m": 109.24,
+  "confidence": "A",
+  "status": "draft",
+  "model_type": "layered",
+  "layers": [
+   {
+    "top_m": 0,
+    "bottom_m": 20.85,
+    "rho_ohmm": 26.52
+   },
+   {
+    "top_m": 20.85,
+    "bottom_m": 109.24,
+    "rho_ohmm": 46.46
+   },
+   {
+    "top_m": 109.24,
+    "bottom_m": null,
+    "rho_ohmm": 5.83
+   }
+  ],
+  "provenance": {
+   "document": "main",
+   "pages": [
+    27
+   ],
+   "method": "manual",
+   "tool": "typed from the page at 200 dpi; geosigma.extract.printed_tables",
+   "extracted_on": "2026-10-24",
+   "notes": "Station coordinates are printed with the model. The target text (borehole and geology) is the author's.",
+   "table": "Appendix 1 (layered models, Resist. / Thick. / Depth)"
+  }
+ },
+ {
+  "id": "goldman1990-GS-24-layered",
+  "survey": "goldman-1990-tdem-feasibility-stage-b",
+  "site": "GS-24",
+  "method": "TEM",
+  "level": "L2",
+  "representation": "model_1d",
+  "measured_on": null,
+  "depth_max_m": 80.44,
+  "confidence": "A",
+  "status": "draft",
+  "model_type": "layered",
+  "layers": [
+   {
+    "top_m": 0,
+    "bottom_m": 29.92,
+    "rho_ohmm": 15.97
+   },
+   {
+    "top_m": 29.92,
+    "bottom_m": 64.43,
+    "rho_ohmm": 18.28
+   },
+   {
+    "top_m": 64.43,
+    "bottom_m": 71.62,
+    "rho_ohmm": 9.2
+   },
+   {
+    "top_m": 71.62,
+    "bottom_m": 80.44,
+    "rho_ohmm": 5.07
+   },
+   {
+    "top_m": 80.44,
+    "bottom_m": null,
+    "rho_ohmm": 2.85
+   }
+  ],
+  "provenance": {
+   "document": "main",
+   "pages": [
+    27
+   ],
+   "method": "manual",
+   "tool": "typed from the page at 200 dpi; geosigma.extract.printed_tables",
+   "extracted_on": "2026-10-24",
+   "notes": "Station coordinates are printed with the model. The target text (borehole and geology) is the author's.",
+   "table": "Appendix 1 (layered models, Resist. / Thick. / Depth)"
+  }
+ },
+ {
+  "id": "goldman1990-GS-25-layered",
+  "survey": "goldman-1990-tdem-feasibility-stage-b",
+  "site": "GS-25",
+  "method": "TEM",
+  "level": "L2",
+  "representation": "model_1d",
+  "measured_on": null,
+  "depth_max_m": 139.64,
+  "confidence": "A",
+  "status": "draft",
+  "model_type": "layered",
+  "layers": [
+   {
+    "top_m": 0,
+    "bottom_m": 75.34,
+    "rho_ohmm": 15.67
+   },
+   {
+    "top_m": 75.34,
+    "bottom_m": 139.64,
+    "rho_ohmm": 314.9
+   },
+   {
+    "top_m": 139.64,
+    "bottom_m": null,
+    "rho_ohmm": 2.08
+   }
+  ],
+  "provenance": {
+   "document": "main",
+   "pages": [
+    27
+   ],
+   "method": "manual",
+   "tool": "typed from the page at 200 dpi; geosigma.extract.printed_tables",
+   "extracted_on": "2026-10-24",
+   "notes": "Station coordinates are printed with the model. The target text (borehole and geology) is the author's.",
+   "table": "Appendix 1 (layered models, Resist. / Thick. / Depth)"
+  }
+ },
+ {
+  "id": "goldman1990-GS-26-layered",
+  "survey": "goldman-1990-tdem-feasibility-stage-b",
+  "site": "GS-26",
+  "method": "TEM",
+  "level": "L2",
+  "representation": "model_1d",
+  "measured_on": null,
+  "depth_max_m": 101.23,
+  "confidence": "A",
+  "status": "draft",
+  "model_type": "layered",
+  "layers": [
+   {
+    "top_m": 0,
+    "bottom_m": 61.27,
+    "rho_ohmm": 27.71
+   },
+   {
+    "top_m": 61.27,
+    "bottom_m": 101.23,
+    "rho_ohmm": 42.86
+   },
+   {
+    "top_m": 101.23,
+    "bottom_m": null,
+    "rho_ohmm": 2.93
+   }
+  ],
+  "provenance": {
+   "document": "main",
+   "pages": [
+    28
+   ],
+   "method": "manual",
+   "tool": "typed from the page at 200 dpi; geosigma.extract.printed_tables",
+   "extracted_on": "2026-10-24",
+   "notes": "Station coordinates are printed with the model. The target text (borehole and geology) is the author's.",
+   "table": "Appendix 1 (layered models, Resist. / Thick. / Depth)"
+  }
+ },
+ {
+  "id": "goldman1990-GS-27-layered",
+  "survey": "goldman-1990-tdem-feasibility-stage-b",
+  "site": "GS-27",
+  "method": "TEM",
+  "level": "L2",
+  "representation": "model_1d",
+  "measured_on": null,
+  "depth_max_m": 147.26,
+  "confidence": "A",
+  "status": "draft",
+  "model_type": "layered",
+  "layers": [
+   {
+    "top_m": 0,
+    "bottom_m": 101.04,
+    "rho_ohmm": 47.11
+   },
+   {
+    "top_m": 101.04,
+    "bottom_m": 147.26,
+    "rho_ohmm": 10.56
+   },
+   {
+    "top_m": 147.26,
+    "bottom_m": null,
+    "rho_ohmm": 3.89
+   }
+  ],
+  "provenance": {
+   "document": "main",
+   "pages": [
+    28
+   ],
+   "method": "manual",
+   "tool": "typed from the page at 200 dpi; geosigma.extract.printed_tables",
+   "extracted_on": "2026-10-24",
+   "notes": "Station coordinates are printed with the model. The target text (borehole and geology) is the author's.",
+   "table": "Appendix 1 (layered models, Resist. / Thick. / Depth)"
+  }
+ },
+ {
+  "id": "goldman1990-GS-28-layered",
+  "survey": "goldman-1990-tdem-feasibility-stage-b",
+  "site": "GS-28",
+  "method": "TEM",
+  "level": "L2",
+  "representation": "model_1d",
+  "measured_on": null,
+  "depth_max_m": 162.76,
+  "confidence": "A",
+  "status": "draft",
+  "model_type": "layered",
+  "layers": [
+   {
+    "top_m": 0,
+    "bottom_m": 43.67,
+    "rho_ohmm": 46.52
+   },
+   {
+    "top_m": 43.67,
+    "bottom_m": 135.7,
+    "rho_ohmm": 23.34
+   },
+   {
+    "top_m": 135.7,
+    "bottom_m": 162.76,
+    "rho_ohmm": 199.17
+   },
+   {
+    "top_m": 162.76,
+    "bottom_m": null,
+    "rho_ohmm": 2.58
+   }
+  ],
+  "provenance": {
+   "document": "main",
+   "pages": [
+    28
+   ],
+   "method": "manual",
+   "tool": "typed from the page at 200 dpi; geosigma.extract.printed_tables",
+   "extracted_on": "2026-10-24",
+   "notes": "Station coordinates are printed with the model. The target text (borehole and geology) is the author's.",
+   "table": "Appendix 1 (layered models, Resist. / Thick. / Depth)"
+  }
+ },
+ {
+  "id": "goldman1990-GS-29-layered",
+  "survey": "goldman-1990-tdem-feasibility-stage-b",
+  "site": "GS-29",
+  "method": "TEM",
+  "level": "L2",
+  "representation": "model_1d",
+  "measured_on": null,
+  "depth_max_m": 147.94,
+  "confidence": "A",
+  "status": "draft",
+  "model_type": "layered",
+  "layers": [
+   {
+    "top_m": 0,
+    "bottom_m": 39.21,
+    "rho_ohmm": 65.65
+   },
+   {
+    "top_m": 39.21,
+    "bottom_m": 129.57,
+    "rho_ohmm": 33.37
+   },
+   {
+    "top_m": 129.57,
+    "bottom_m": 147.94,
+    "rho_ohmm": 68.91
+   },
+   {
+    "top_m": 147.94,
+    "bottom_m": null,
+    "rho_ohmm": 3.43
+   }
+  ],
+  "provenance": {
+   "document": "main",
+   "pages": [
+    28
+   ],
+   "method": "manual",
+   "tool": "typed from the page at 200 dpi; geosigma.extract.printed_tables",
+   "extracted_on": "2026-10-24",
+   "notes": "Station coordinates are printed with the model. The target text (borehole and geology) is the author's.",
+   "table": "Appendix 1 (layered models, Resist. / Thick. / Depth)"
+  }
+ },
+ {
+  "id": "goldman1990-GS-30-layered",
+  "survey": "goldman-1990-tdem-feasibility-stage-b",
+  "site": "GS-30",
+  "method": "TEM",
+  "level": "L2",
+  "representation": "model_1d",
+  "measured_on": null,
+  "depth_max_m": 109.5,
+  "confidence": "A",
+  "status": "draft",
+  "model_type": "layered",
+  "layers": [
+   {
+    "top_m": 0,
+    "bottom_m": 10.46,
+    "rho_ohmm": 8.22
+   },
+   {
+    "top_m": 10.46,
+    "bottom_m": 109.5,
+    "rho_ohmm": 29.96
+   },
+   {
+    "top_m": 109.5,
+    "bottom_m": null,
+    "rho_ohmm": 4.66
+   }
+  ],
+  "provenance": {
+   "document": "main",
+   "pages": [
+    28
+   ],
+   "method": "manual",
+   "tool": "typed from the page at 200 dpi; geosigma.extract.printed_tables",
+   "extracted_on": "2026-10-24",
+   "notes": "Station coordinates are printed with the model. The target text (borehole and geology) is the author's.",
+   "table": "Appendix 1 (layered models, Resist. / Thick. / Depth)"
+  }
+ },
+ {
+  "id": "goldman1990-GS-31-layered",
+  "survey": "goldman-1990-tdem-feasibility-stage-b",
+  "site": "GS-31",
+  "method": "TEM",
+  "level": "L2",
+  "representation": "model_1d",
+  "measured_on": null,
+  "depth_max_m": 69.12,
+  "confidence": "A",
+  "status": "draft",
+  "model_type": "layered",
+  "layers": [
+   {
+    "top_m": 0,
+    "bottom_m": 22.7,
+    "rho_ohmm": 5.33
+   },
+   {
+    "top_m": 22.7,
+    "bottom_m": 41.52,
+    "rho_ohmm": 21.54
+   },
+   {
+    "top_m": 41.52,
+    "bottom_m": 69.12,
+    "rho_ohmm": 2.86
+   },
+   {
+    "top_m": 69.12,
+    "bottom_m": null,
+    "rho_ohmm": 556.0
+   }
+  ],
+  "provenance": {
+   "document": "main",
+   "pages": [
+    28
+   ],
+   "method": "manual",
+   "tool": "typed from the page at 200 dpi; geosigma.extract.printed_tables",
+   "extracted_on": "2026-10-24",
+   "notes": "Station coordinates are printed with the model. The target text (borehole and geology) is the author's.",
+   "table": "Appendix 1 (layered models, Resist. / Thick. / Depth)"
+  }
+ },
+ {
+  "id": "goldman1990-GS-32-layered",
+  "survey": "goldman-1990-tdem-feasibility-stage-b",
+  "site": "GS-32",
+  "method": "TEM",
+  "level": "L2",
+  "representation": "model_1d",
+  "measured_on": null,
+  "depth_max_m": 169.82,
+  "confidence": "C",
+  "status": "draft",
+  "model_type": "layered",
+  "layers": [
+   {
+    "top_m": 0,
+    "bottom_m": 25.3,
+    "rho_ohmm": 5.82
+   },
+   {
+    "top_m": 25.3,
+    "bottom_m": 49.83,
+    "rho_ohmm": 16.63
+   },
+   {
+    "top_m": 49.83,
+    "bottom_m": 90.92,
+    "rho_ohmm": 83.53
+   },
+   {
+    "top_m": 90.92,
+    "bottom_m": 169.82,
+    "rho_ohmm": 7.38
+   },
+   {
+    "top_m": 169.82,
+    "bottom_m": null,
+    "rho_ohmm": 88.7
+   }
+  ],
+  "provenance": {
+   "document": "main",
+   "pages": [
+    28
+   ],
+   "method": "manual",
+   "tool": "typed from the page at 200 dpi; geosigma.extract.printed_tables",
+   "extracted_on": "2026-10-24",
+   "notes": "Station coordinates are printed with the model. The target text (borehole and geology) is the author's.",
+   "table": "Appendix 1 (layered models, Resist. / Thick. / Depth)"
+  },
+  "notes": "The author marks this sounding as noisy."
+ },
+ {
+  "id": "goldman1990-GS-33-layered",
+  "survey": "goldman-1990-tdem-feasibility-stage-b",
+  "site": "GS-33",
+  "method": "TEM",
+  "level": "L2",
+  "representation": "model_1d",
+  "measured_on": null,
+  "depth_max_m": 83.89,
+  "confidence": "A",
+  "status": "draft",
+  "model_type": "layered",
+  "layers": [
+   {
+    "top_m": 0,
+    "bottom_m": 34.42,
+    "rho_ohmm": 7.81
+   },
+   {
+    "top_m": 34.42,
+    "bottom_m": 57.25,
+    "rho_ohmm": 10.94
+   },
+   {
+    "top_m": 57.25,
+    "bottom_m": 83.89,
+    "rho_ohmm": 33.83
+   },
+   {
+    "top_m": 83.89,
+    "bottom_m": null,
+    "rho_ohmm": 15.03
+   }
+  ],
+  "provenance": {
+   "document": "main",
+   "pages": [
+    28
+   ],
+   "method": "manual",
+   "tool": "typed from the page at 200 dpi; geosigma.extract.printed_tables",
+   "extracted_on": "2026-10-24",
+   "notes": "Station coordinates are printed with the model. The target text (borehole and geology) is the author's.",
+   "table": "Appendix 1 (layered models, Resist. / Thick. / Depth)"
+  }
+ },
+ {
+  "id": "goldman1990-GS-34-layered",
+  "survey": "goldman-1990-tdem-feasibility-stage-b",
+  "site": "GS-34",
+  "method": "TEM",
+  "level": "L2",
+  "representation": "model_1d",
+  "measured_on": null,
+  "depth_max_m": 275.4,
+  "confidence": "A",
+  "status": "draft",
+  "model_type": "layered",
+  "layers": [
+   {
+    "top_m": 0,
+    "bottom_m": 110.6,
+    "rho_ohmm": 45.5
+   },
+   {
+    "top_m": 110.6,
+    "bottom_m": 275.4,
+    "rho_ohmm": 11.94
+   },
+   {
+    "top_m": 275.4,
+    "bottom_m": null,
+    "rho_ohmm": 2.76
+   }
+  ],
+  "provenance": {
+   "document": "main",
+   "pages": [
+    29
+   ],
+   "method": "manual",
+   "tool": "typed from the page at 200 dpi; geosigma.extract.printed_tables",
+   "extracted_on": "2026-10-24",
+   "notes": "Station coordinates are printed with the model. The target text (borehole and geology) is the author's.",
+   "table": "Appendix 1 (layered models, Resist. / Thick. / Depth)"
+  }
+ },
+ {
+  "id": "goldman1990-GS-35-layered",
+  "survey": "goldman-1990-tdem-feasibility-stage-b",
+  "site": "GS-35",
+  "method": "TEM",
+  "level": "L2",
+  "representation": "model_1d",
+  "measured_on": null,
+  "depth_max_m": 251.4,
+  "confidence": "A",
+  "status": "draft",
+  "model_type": "layered",
+  "layers": [
+   {
+    "top_m": 0,
+    "bottom_m": 15.85,
+    "rho_ohmm": 12.86
+   },
+   {
+    "top_m": 15.85,
+    "bottom_m": 118.55,
+    "rho_ohmm": 32.88
+   },
+   {
+    "top_m": 118.55,
+    "bottom_m": 149.4,
+    "rho_ohmm": 6.6
+   },
+   {
+    "top_m": 149.4,
+    "bottom_m": 251.4,
+    "rho_ohmm": 100.0
+   },
+   {
+    "top_m": 251.4,
+    "bottom_m": null,
+    "rho_ohmm": 21.1
+   }
+  ],
+  "provenance": {
+   "document": "main",
+   "pages": [
+    29
+   ],
+   "method": "manual",
+   "tool": "typed from the page at 200 dpi; geosigma.extract.printed_tables",
+   "extracted_on": "2026-10-24",
+   "notes": "Station coordinates are printed with the model. The target text (borehole and geology) is the author's.",
+   "table": "Appendix 1 (layered models, Resist. / Thick. / Depth)"
+  }
+ },
+ {
+  "id": "goldman1990-GS-36-layered",
+  "survey": "goldman-1990-tdem-feasibility-stage-b",
+  "site": "GS-36",
+  "method": "TEM",
+  "level": "L2",
+  "representation": "model_1d",
+  "measured_on": null,
+  "depth_max_m": 282.4,
+  "confidence": "A",
+  "status": "draft",
+  "model_type": "layered",
+  "layers": [
+   {
+    "top_m": 0,
+    "bottom_m": 169.6,
+    "rho_ohmm": 17.12
+   },
+   {
+    "top_m": 169.6,
+    "bottom_m": 282.4,
+    "rho_ohmm": 6.4
+   },
+   {
+    "top_m": 282.4,
+    "bottom_m": null,
+    "rho_ohmm": 22.2
+   }
+  ],
+  "provenance": {
+   "document": "main",
+   "pages": [
+    29
+   ],
+   "method": "manual",
+   "tool": "typed from the page at 200 dpi; geosigma.extract.printed_tables",
+   "extracted_on": "2026-10-24",
+   "notes": "Station coordinates are printed with the model. The target text (borehole and geology) is the author's.",
+   "table": "Appendix 1 (layered models, Resist. / Thick. / Depth)"
+  }
+ },
+ {
+  "id": "goldman1990-GS-37-layered",
+  "survey": "goldman-1990-tdem-feasibility-stage-b",
+  "site": "GS-37",
+  "method": "TEM",
+  "level": "L2",
+  "representation": "model_1d",
+  "measured_on": null,
+  "depth_max_m": 87.76,
+  "confidence": "A",
+  "status": "draft",
+  "model_type": "layered",
+  "layers": [
+   {
+    "top_m": 0,
+    "bottom_m": 21.46,
+    "rho_ohmm": 11.78
+   },
+   {
+    "top_m": 21.46,
+    "bottom_m": 87.76,
+    "rho_ohmm": 5.42
+   },
+   {
+    "top_m": 87.76,
+    "bottom_m": null,
+    "rho_ohmm": 502.0
+   }
+  ],
+  "provenance": {
+   "document": "main",
+   "pages": [
+    29
+   ],
+   "method": "manual",
+   "tool": "typed from the page at 200 dpi; geosigma.extract.printed_tables",
+   "extracted_on": "2026-10-24",
+   "notes": "Station coordinates are printed with the model. The target text (borehole and geology) is the author's.",
+   "table": "Appendix 1 (layered models, Resist. / Thick. / Depth)"
+  }
+ },
+ {
+  "id": "goldman1990-GS-38-layered",
+  "survey": "goldman-1990-tdem-feasibility-stage-b",
+  "site": "GS-38",
+  "method": "TEM",
+  "level": "L2",
+  "representation": "model_1d",
+  "measured_on": null,
+  "depth_max_m": 332.5,
+  "confidence": "A",
+  "status": "draft",
+  "model_type": "layered",
+  "layers": [
+   {
+    "top_m": 0,
+    "bottom_m": 18.6,
+    "rho_ohmm": 46.03
+   },
+   {
+    "top_m": 18.6,
+    "bottom_m": 85.7,
+    "rho_ohmm": 100.4
+   },
+   {
+    "top_m": 85.7,
+    "bottom_m": 199.5,
+    "rho_ohmm": 13.1
+   },
+   {
+    "top_m": 199.5,
+    "bottom_m": 332.5,
+    "rho_ohmm": 47.8
+   },
+   {
+    "top_m": 332.5,
+    "bottom_m": null,
+    "rho_ohmm": 12.2
+   }
+  ],
+  "provenance": {
+   "document": "main",
+   "pages": [
+    29
+   ],
+   "method": "manual",
+   "tool": "typed from the page at 200 dpi; geosigma.extract.printed_tables",
+   "extracted_on": "2026-10-24",
+   "notes": "Station coordinates are printed with the model. The target text (borehole and geology) is the author's.",
+   "table": "Appendix 1 (layered models, Resist. / Thick. / Depth)"
+  }
+ },
+ {
+  "id": "goldman1990-GS-40-layered",
+  "survey": "goldman-1990-tdem-feasibility-stage-b",
+  "site": "GS-40",
+  "method": "TEM",
+  "level": "L2",
+  "representation": "model_1d",
+  "measured_on": null,
+  "depth_max_m": 219.05,
+  "confidence": "A",
+  "status": "draft",
+  "model_type": "layered",
+  "layers": [
+   {
+    "top_m": 0,
+    "bottom_m": 51.75,
+    "rho_ohmm": 9.58
+   },
+   {
+    "top_m": 51.75,
+    "bottom_m": 219.05,
+    "rho_ohmm": 181.4
+   },
+   {
+    "top_m": 219.05,
+    "bottom_m": null,
+    "rho_ohmm": 13.16
+   }
+  ],
+  "provenance": {
+   "document": "main",
+   "pages": [
+    29
+   ],
+   "method": "manual",
+   "tool": "typed from the page at 200 dpi; geosigma.extract.printed_tables",
+   "extracted_on": "2026-10-24",
+   "notes": "Station coordinates are printed with the model. The target text (borehole and geology) is the author's.",
+   "table": "Appendix 1 (layered models, Resist. / Thick. / Depth)"
+  }
+ },
+ {
+  "id": "goldman1990-GS-41-layered",
+  "survey": "goldman-1990-tdem-feasibility-stage-b",
+  "site": "GS-41",
+  "method": "TEM",
+  "level": "L2",
+  "representation": "model_1d",
+  "measured_on": null,
+  "depth_max_m": 266.25,
+  "confidence": "A",
+  "status": "draft",
+  "model_type": "layered",
+  "layers": [
+   {
+    "top_m": 0,
+    "bottom_m": 74.19,
+    "rho_ohmm": 22.51
+   },
+   {
+    "top_m": 74.19,
+    "bottom_m": 133.92,
+    "rho_ohmm": 61.44
+   },
+   {
+    "top_m": 133.92,
+    "bottom_m": 175.27,
+    "rho_ohmm": 6.34
+   },
+   {
+    "top_m": 175.27,
+    "bottom_m": 266.25,
+    "rho_ohmm": 59.19
+   },
+   {
+    "top_m": 266.25,
+    "bottom_m": null,
+    "rho_ohmm": 4.88
+   }
+  ],
+  "provenance": {
+   "document": "main",
+   "pages": [
+    29
+   ],
+   "method": "manual",
+   "tool": "typed from the page at 200 dpi; geosigma.extract.printed_tables",
+   "extracted_on": "2026-10-24",
+   "notes": "Station coordinates are printed with the model. The target text (borehole and geology) is the author's.",
+   "table": "Appendix 1 (layered models, Resist. / Thick. / Depth)"
+  }
+ },
+ {
+  "id": "goldman1990-GS-42-layered",
+  "survey": "goldman-1990-tdem-feasibility-stage-b",
+  "site": "GS-42",
+  "method": "TEM",
+  "level": "L2",
+  "representation": "model_1d",
+  "measured_on": null,
+  "depth_max_m": 266.21,
+  "confidence": "A",
+  "status": "draft",
+  "model_type": "layered",
+  "layers": [
+   {
+    "top_m": 0,
+    "bottom_m": 81.18,
+    "rho_ohmm": 45.4
+   },
+   {
+    "top_m": 81.18,
+    "bottom_m": 266.21,
+    "rho_ohmm": 13.39
+   },
+   {
+    "top_m": 266.21,
+    "bottom_m": null,
+    "rho_ohmm": 2.56
+   }
+  ],
+  "provenance": {
+   "document": "main",
+   "pages": [
+    30
+   ],
+   "method": "manual",
+   "tool": "typed from the page at 200 dpi; geosigma.extract.printed_tables",
+   "extracted_on": "2026-10-24",
+   "notes": "Station coordinates are printed with the model. The target text (borehole and geology) is the author's.",
+   "table": "Appendix 1 (layered models, Resist. / Thick. / Depth)"
+  }
+ },
+ {
+  "id": "goldman1990-GS-43-layered",
+  "survey": "goldman-1990-tdem-feasibility-stage-b",
+  "site": "GS-43",
+  "method": "TEM",
+  "level": "L2",
+  "representation": "model_1d",
+  "measured_on": null,
+  "depth_max_m": 255.43,
+  "confidence": "A",
+  "status": "draft",
+  "model_type": "layered",
+  "layers": [
+   {
+    "top_m": 0,
+    "bottom_m": 17.43,
+    "rho_ohmm": 36.46
+   },
+   {
+    "top_m": 17.43,
+    "bottom_m": 255.43,
+    "rho_ohmm": 16.34
+   },
+   {
+    "top_m": 255.43,
+    "bottom_m": null,
+    "rho_ohmm": 24.7
+   }
+  ],
+  "provenance": {
+   "document": "main",
+   "pages": [
+    30
+   ],
+   "method": "manual",
+   "tool": "typed from the page at 200 dpi; geosigma.extract.printed_tables",
+   "extracted_on": "2026-10-24",
+   "notes": "Station coordinates are printed with the model. The target text (borehole and geology) is the author's.",
+   "table": "Appendix 1 (layered models, Resist. / Thick. / Depth)"
+  }
+ },
+ {
+  "id": "goldman1990-GS-44-layered",
+  "survey": "goldman-1990-tdem-feasibility-stage-b",
+  "site": "GS-44",
+  "method": "TEM",
+  "level": "L2",
+  "representation": "model_1d",
+  "measured_on": null,
+  "depth_max_m": 328.63,
+  "confidence": "A",
+  "status": "draft",
+  "model_type": "layered",
+  "layers": [
+   {
+    "top_m": 0,
+    "bottom_m": 49.63,
+    "rho_ohmm": 61.38
+   },
+   {
+    "top_m": 49.63,
+    "bottom_m": 328.63,
+    "rho_ohmm": 20.67
+   },
+   {
+    "top_m": 328.63,
+    "bottom_m": null,
+    "rho_ohmm": 111.0
+   }
+  ],
+  "provenance": {
+   "document": "main",
+   "pages": [
+    30
+   ],
+   "method": "manual",
+   "tool": "typed from the page at 200 dpi; geosigma.extract.printed_tables",
+   "extracted_on": "2026-10-24",
+   "notes": "Station coordinates are printed with the model. The target text (borehole and geology) is the author's.",
+   "table": "Appendix 1 (layered models, Resist. / Thick. / Depth)"
+  }
+ },
+ {
+  "id": "goldman1990-GS-45-layered",
+  "survey": "goldman-1990-tdem-feasibility-stage-b",
+  "site": "GS-45",
+  "method": "TEM",
+  "level": "L2",
+  "representation": "model_1d",
+  "measured_on": null,
+  "depth_max_m": 137.85,
+  "confidence": "A",
+  "status": "draft",
+  "model_type": "layered",
+  "layers": [
+   {
+    "top_m": 0,
+    "bottom_m": 5.99,
+    "rho_ohmm": 32.51
+   },
+   {
+    "top_m": 5.99,
+    "bottom_m": 91.45,
+    "rho_ohmm": 5.97
+   },
+   {
+    "top_m": 91.45,
+    "bottom_m": 137.85,
+    "rho_ohmm": 100.0
+   },
+   {
+    "top_m": 137.85,
+    "bottom_m": null,
+    "rho_ohmm": 7.69
+   }
+  ],
+  "provenance": {
+   "document": "main",
+   "pages": [
+    30
+   ],
+   "method": "manual",
+   "tool": "typed from the page at 200 dpi; geosigma.extract.printed_tables",
+   "extracted_on": "2026-10-24",
+   "notes": "Station coordinates are printed with the model. The target text (borehole and geology) is the author's.",
+   "table": "Appendix 1 (layered models, Resist. / Thick. / Depth)"
+  }
+ },
+ {
+  "id": "goldman1990-GS-48-layered",
+  "survey": "goldman-1990-tdem-feasibility-stage-b",
+  "site": "GS-48",
+  "method": "TEM",
+  "level": "L2",
+  "representation": "model_1d",
+  "measured_on": null,
+  "depth_max_m": 148.82,
+  "confidence": "A",
+  "status": "draft",
+  "model_type": "layered",
+  "layers": [
+   {
+    "top_m": 0,
+    "bottom_m": 55.28,
+    "rho_ohmm": 58.44
+   },
+   {
+    "top_m": 55.28,
+    "bottom_m": 148.82,
+    "rho_ohmm": 10.69
+   },
+   {
+    "top_m": 148.82,
+    "bottom_m": null,
+    "rho_ohmm": 4.92
+   }
+  ],
+  "provenance": {
+   "document": "main",
+   "pages": [
+    30
+   ],
+   "method": "manual",
+   "tool": "typed from the page at 200 dpi; geosigma.extract.printed_tables",
+   "extracted_on": "2026-10-24",
+   "notes": "Station coordinates are printed with the model. The target text (borehole and geology) is the author's.",
+   "table": "Appendix 1 (layered models, Resist. / Thick. / Depth)"
+  }
+ },
+ {
+  "id": "goldman1990-GS-49-layered",
+  "survey": "goldman-1990-tdem-feasibility-stage-b",
+  "site": "GS-49",
+  "method": "TEM",
+  "level": "L2",
+  "representation": "model_1d",
+  "measured_on": null,
+  "depth_max_m": 146.53,
+  "confidence": "A",
+  "status": "draft",
+  "model_type": "layered",
+  "layers": [
+   {
+    "top_m": 0,
+    "bottom_m": 8.56,
+    "rho_ohmm": 58.19
+   },
+   {
+    "top_m": 8.56,
+    "bottom_m": 52.48,
+    "rho_ohmm": 41.22
+   },
+   {
+    "top_m": 52.48,
+    "bottom_m": 90.44,
+    "rho_ohmm": 95.24
+   },
+   {
+    "top_m": 90.44,
+    "bottom_m": 146.53,
+    "rho_ohmm": 19.94
+   },
+   {
+    "top_m": 146.53,
+    "bottom_m": null,
+    "rho_ohmm": 3.5
+   }
+  ],
+  "provenance": {
+   "document": "main",
+   "pages": [
+    30
+   ],
+   "method": "manual",
+   "tool": "typed from the page at 200 dpi; geosigma.extract.printed_tables",
+   "extracted_on": "2026-10-24",
+   "notes": "Station coordinates are printed with the model. The target text (borehole and geology) is the author's.",
+   "table": "Appendix 1 (layered models, Resist. / Thick. / Depth)"
+  }
+ },
+ {
+  "id": "goldman1990-GS-50-layered",
+  "survey": "goldman-1990-tdem-feasibility-stage-b",
+  "site": "GS-50",
+  "method": "TEM",
+  "level": "L2",
+  "representation": "model_1d",
+  "measured_on": null,
+  "depth_max_m": 229.9,
+  "confidence": "A",
+  "status": "draft",
+  "model_type": "layered",
+  "layers": [
+   {
+    "top_m": 0,
+    "bottom_m": 27.75,
+    "rho_ohmm": 81.94
+   },
+   {
+    "top_m": 27.75,
+    "bottom_m": 52.77,
+    "rho_ohmm": 17.01
+   },
+   {
+    "top_m": 52.77,
+    "bottom_m": 132.61,
+    "rho_ohmm": 66.96
+   },
+   {
+    "top_m": 132.61,
+    "bottom_m": 229.9,
+    "rho_ohmm": 2.97
+   },
+   {
+    "top_m": 229.9,
+    "bottom_m": null,
+    "rho_ohmm": 5.67
+   }
+  ],
+  "provenance": {
+   "document": "main",
+   "pages": [
+    30
+   ],
+   "method": "manual",
+   "tool": "typed from the page at 200 dpi; geosigma.extract.printed_tables",
+   "extracted_on": "2026-10-24",
+   "notes": "Station coordinates are printed with the model. The target text (borehole and geology) is the author's.",
+   "table": "Appendix 1 (layered models, Resist. / Thick. / Depth)"
+  }
+ },
+ {
+  "id": "goldman1990-GS-51-layered",
+  "survey": "goldman-1990-tdem-feasibility-stage-b",
+  "site": "GS-51",
+  "method": "TEM",
+  "level": "L2",
+  "representation": "model_1d",
+  "measured_on": null,
+  "depth_max_m": 259.89,
+  "confidence": "A",
+  "status": "draft",
+  "model_type": "layered",
+  "layers": [
+   {
+    "top_m": 0,
+    "bottom_m": 48.5,
+    "rho_ohmm": 37.36
+   },
+   {
+    "top_m": 48.5,
+    "bottom_m": 69.57,
+    "rho_ohmm": 8.95
+   },
+   {
+    "top_m": 69.57,
+    "bottom_m": 134.52,
+    "rho_ohmm": 27.89
+   },
+   {
+    "top_m": 134.52,
+    "bottom_m": 259.89,
+    "rho_ohmm": 44.18
+   },
+   {
+    "top_m": 259.89,
+    "bottom_m": null,
+    "rho_ohmm": 41.64
+   }
+  ],
+  "provenance": {
+   "document": "main",
+   "pages": [
+    30
+   ],
+   "method": "manual",
+   "tool": "typed from the page at 200 dpi; geosigma.extract.printed_tables",
+   "extracted_on": "2026-10-24",
+   "notes": "Station coordinates are printed with the model. The target text (borehole and geology) is the author's.",
+   "table": "Appendix 1 (layered models, Resist. / Thick. / Depth)"
+  }
+ },
+ {
+  "id": "goldman1990-GS-52-layered",
+  "survey": "goldman-1990-tdem-feasibility-stage-b",
+  "site": "GS-52",
+  "method": "TEM",
+  "level": "L2",
+  "representation": "model_1d",
+  "measured_on": null,
+  "depth_max_m": 222.47,
+  "confidence": "A",
+  "status": "draft",
+  "model_type": "layered",
+  "layers": [
+   {
+    "top_m": 0,
+    "bottom_m": 71.55,
+    "rho_ohmm": 25.47
+   },
+   {
+    "top_m": 71.55,
+    "bottom_m": 222.47,
+    "rho_ohmm": 82.59
+   },
+   {
+    "top_m": 222.47,
+    "bottom_m": null,
+    "rho_ohmm": 12.09
+   }
+  ],
+  "provenance": {
+   "document": "main",
+   "pages": [
+    31
+   ],
+   "method": "manual",
+   "tool": "typed from the page at 200 dpi; geosigma.extract.printed_tables",
+   "extracted_on": "2026-10-24",
+   "notes": "Station coordinates are printed with the model. The target text (borehole and geology) is the author's.",
+   "table": "Appendix 1 (layered models, Resist. / Thick. / Depth)"
+  }
+ },
+ {
+  "id": "goldman1990-GS-53-layered",
+  "survey": "goldman-1990-tdem-feasibility-stage-b",
+  "site": "GS-53",
+  "method": "TEM",
+  "level": "L2",
+  "representation": "model_1d",
+  "measured_on": null,
+  "depth_max_m": 145.26,
+  "confidence": "A",
+  "status": "draft",
+  "model_type": "layered",
+  "layers": [
+   {
+    "top_m": 0,
+    "bottom_m": 95.45,
+    "rho_ohmm": 87.69
+   },
+   {
+    "top_m": 95.45,
+    "bottom_m": 145.26,
+    "rho_ohmm": 9.81
+   },
+   {
+    "top_m": 145.26,
+    "bottom_m": null,
+    "rho_ohmm": 6.42
+   }
+  ],
+  "provenance": {
+   "document": "main",
+   "pages": [
+    31
+   ],
+   "method": "manual",
+   "tool": "typed from the page at 200 dpi; geosigma.extract.printed_tables",
+   "extracted_on": "2026-10-24",
+   "notes": "Station coordinates are printed with the model. The target text (borehole and geology) is the author's.",
+   "table": "Appendix 1 (layered models, Resist. / Thick. / Depth)"
+  }
+ },
+ {
+  "id": "goldman1990-GS-54-layered",
+  "survey": "goldman-1990-tdem-feasibility-stage-b",
+  "site": "GS-54",
+  "method": "TEM",
+  "level": "L2",
+  "representation": "model_1d",
+  "measured_on": null,
+  "depth_max_m": 118.3,
+  "confidence": "C",
+  "status": "draft",
+  "model_type": "layered",
+  "layers": [
+   {
+    "top_m": 0,
+    "bottom_m": 98.9,
+    "rho_ohmm": 6.4
+   },
+   {
+    "top_m": 98.9,
+    "bottom_m": 118.3,
+    "rho_ohmm": 4.2
+   },
+   {
+    "top_m": 118.3,
+    "bottom_m": null,
+    "note": "Not given in the table"
+   }
+  ],
+  "provenance": {
+   "document": "main",
+   "pages": [
+    31
+   ],
+   "method": "manual",
+   "tool": "typed from the page at 200 dpi; geosigma.extract.printed_tables",
+   "extracted_on": "2026-10-24",
+   "notes": "Station coordinates are printed with the model. The target text (borehole and geology) is the author's.",
+   "table": "Appendix 1 (layered models, Resist. / Thick. / Depth)"
+  },
+  "notes": "The author marks this sounding as distorted."
+ },
+ {
+  "id": "goldman1990-GS-55-layered",
+  "survey": "goldman-1990-tdem-feasibility-stage-b",
+  "site": "GS-55",
+  "method": "TEM",
+  "level": "L2",
+  "representation": "model_1d",
+  "measured_on": null,
+  "depth_max_m": 146.08,
+  "confidence": "A",
+  "status": "draft",
+  "model_type": "layered",
+  "layers": [
+   {
+    "top_m": 0,
+    "bottom_m": 5.59,
+    "rho_ohmm": 11.88
+   },
+   {
+    "top_m": 5.59,
+    "bottom_m": 60.48,
+    "rho_ohmm": 66.45
+   },
+   {
+    "top_m": 60.48,
+    "bottom_m": 129.93,
+    "rho_ohmm": 19.93
+   },
+   {
+    "top_m": 129.93,
+    "bottom_m": 146.08,
+    "rho_ohmm": 38.86
+   },
+   {
+    "top_m": 146.08,
+    "bottom_m": null,
+    "rho_ohmm": 9.31
+   }
+  ],
+  "provenance": {
+   "document": "main",
+   "pages": [
+    31
+   ],
+   "method": "manual",
+   "tool": "typed from the page at 200 dpi; geosigma.extract.printed_tables",
+   "extracted_on": "2026-10-24",
+   "notes": "Station coordinates are printed with the model. The target text (borehole and geology) is the author's.",
+   "table": "Appendix 1 (layered models, Resist. / Thick. / Depth)"
+  }
+ },
+ {
+  "id": "goldman1990-GS-56-layered",
+  "survey": "goldman-1990-tdem-feasibility-stage-b",
+  "site": "GS-56",
+  "method": "TEM",
+  "level": "L2",
+  "representation": "model_1d",
+  "measured_on": null,
+  "depth_max_m": 58.19,
+  "confidence": "A",
+  "status": "draft",
+  "model_type": "layered",
+  "layers": [
+   {
+    "top_m": 0,
+    "bottom_m": 58.19,
+    "rho_ohmm": 58.97
+   },
+   {
+    "top_m": 58.19,
+    "bottom_m": null,
+    "rho_ohmm": 16.07
+   }
+  ],
+  "provenance": {
+   "document": "main",
+   "pages": [
+    31
+   ],
+   "method": "manual",
+   "tool": "typed from the page at 200 dpi; geosigma.extract.printed_tables",
+   "extracted_on": "2026-10-24",
+   "notes": "Station coordinates are printed with the model. The target text (borehole and geology) is the author's.",
+   "table": "Appendix 1 (layered models, Resist. / Thick. / Depth)"
+  }
+ },
+ {
+  "id": "goldman1990-GS-57-layered",
+  "survey": "goldman-1990-tdem-feasibility-stage-b",
+  "site": "GS-57",
+  "method": "TEM",
+  "level": "L2",
+  "representation": "model_1d",
+  "measured_on": null,
+  "depth_max_m": 240.3,
+  "confidence": "A",
+  "status": "draft",
+  "model_type": "layered",
+  "layers": [
+   {
+    "top_m": 0,
+    "bottom_m": 56.8,
+    "rho_ohmm": 44.9
+   },
+   {
+    "top_m": 56.8,
+    "bottom_m": 240.3,
+    "rho_ohmm": 16.3
+   },
+   {
+    "top_m": 240.3,
+    "bottom_m": null,
+    "rho_ohmm": 7.44
+   }
+  ],
+  "provenance": {
+   "document": "main",
+   "pages": [
+    31
+   ],
+   "method": "manual",
+   "tool": "typed from the page at 200 dpi; geosigma.extract.printed_tables",
+   "extracted_on": "2026-10-24",
+   "notes": "Station coordinates are printed with the model. The target text (borehole and geology) is the author's.",
+   "table": "Appendix 1 (layered models, Resist. / Thick. / Depth)"
+  }
+ },
+ {
+  "id": "goldman1990-GS-58-layered",
+  "survey": "goldman-1990-tdem-feasibility-stage-b",
+  "site": "GS-58",
+  "method": "TEM",
+  "level": "L2",
+  "representation": "model_1d",
+  "measured_on": null,
+  "depth_max_m": 208.7,
+  "confidence": "A",
+  "status": "draft",
+  "model_type": "layered",
+  "layers": [
+   {
+    "top_m": 0,
+    "bottom_m": 65.9,
+    "rho_ohmm": 48.84
+   },
+   {
+    "top_m": 65.9,
+    "bottom_m": 208.7,
+    "rho_ohmm": 11.62
+   },
+   {
+    "top_m": 208.7,
+    "bottom_m": null,
+    "rho_ohmm": 2.24
+   }
+  ],
+  "provenance": {
+   "document": "main",
+   "pages": [
+    31
+   ],
+   "method": "manual",
+   "tool": "typed from the page at 200 dpi; geosigma.extract.printed_tables",
+   "extracted_on": "2026-10-24",
+   "notes": "Station coordinates are printed with the model. The target text (borehole and geology) is the author's.",
+   "table": "Appendix 1 (layered models, Resist. / Thick. / Depth)"
+  }
+ },
+ {
+  "id": "goldman1990-GS-59-layered",
+  "survey": "goldman-1990-tdem-feasibility-stage-b",
+  "site": "GS-59",
+  "method": "TEM",
+  "level": "L2",
+  "representation": "model_1d",
+  "measured_on": null,
+  "depth_max_m": 168.42,
+  "confidence": "A",
+  "status": "draft",
+  "model_type": "layered",
+  "layers": [
+   {
+    "top_m": 0,
+    "bottom_m": 65.22,
+    "rho_ohmm": 80.47
+   },
+   {
+    "top_m": 65.22,
+    "bottom_m": 168.42,
+    "rho_ohmm": 18.79
+   },
+   {
+    "top_m": 168.42,
+    "bottom_m": null,
+    "rho_ohmm": 11.9
+   }
+  ],
+  "provenance": {
+   "document": "main",
+   "pages": [
+    31
+   ],
+   "method": "manual",
+   "tool": "typed from the page at 200 dpi; geosigma.extract.printed_tables",
+   "extracted_on": "2026-10-24",
+   "notes": "Station coordinates are printed with the model. The target text (borehole and geology) is the author's.",
+   "table": "Appendix 1 (layered models, Resist. / Thick. / Depth)"
+  }
+ },
+ {
+  "id": "goldman1990-GS-60-layered",
+  "survey": "goldman-1990-tdem-feasibility-stage-b",
+  "site": "GS-60",
+  "method": "TEM",
+  "level": "L2",
+  "representation": "model_1d",
+  "measured_on": null,
+  "depth_max_m": 185.78,
+  "confidence": "C",
+  "status": "draft",
+  "model_type": "layered",
+  "layers": [
+   {
+    "top_m": 0,
+    "bottom_m": 34.54,
+    "rho_ohmm": 12.66
+   },
+   {
+    "top_m": 34.54,
+    "bottom_m": 96.68,
+    "rho_ohmm": 63.99
+   },
+   {
+    "top_m": 96.68,
+    "bottom_m": 185.78,
+    "rho_ohmm": 13.63
+   },
+   {
+    "top_m": 185.78,
+    "bottom_m": null,
+    "rho_ohmm": 35.42
+   }
+  ],
+  "provenance": {
+   "document": "main",
+   "pages": [
+    31
+   ],
+   "method": "manual",
+   "tool": "typed from the page at 200 dpi; geosigma.extract.printed_tables",
+   "extracted_on": "2026-10-24",
+   "notes": "Station coordinates are printed with the model. The target text (borehole and geology) is the author's.",
+   "table": "Appendix 1 (layered models, Resist. / Thick. / Depth)"
+  },
+  "notes": "The author marks this sounding as distorted."
+ },
+ {
+  "id": "goldman1990-GS-61-layered",
+  "survey": "goldman-1990-tdem-feasibility-stage-b",
+  "site": "GS-61",
+  "method": "TEM",
+  "level": "L2",
+  "representation": "model_1d",
+  "measured_on": null,
+  "depth_max_m": 156.14,
+  "confidence": "C",
+  "status": "draft",
+  "model_type": "layered",
+  "layers": [
+   {
+    "top_m": 0,
+    "bottom_m": 31.64,
+    "rho_ohmm": 5.08
+   },
+   {
+    "top_m": 31.64,
+    "bottom_m": 156.14,
+    "rho_ohmm": 121.08
+   },
+   {
+    "top_m": 156.14,
+    "bottom_m": null,
+    "rho_ohmm": 8.75
+   }
+  ],
+  "provenance": {
+   "document": "main",
+   "pages": [
+    32
+   ],
+   "method": "manual",
+   "tool": "typed from the page at 200 dpi; geosigma.extract.printed_tables",
+   "extracted_on": "2026-10-24",
+   "notes": "Station coordinates are printed with the model. The target text (borehole and geology) is the author's.",
+   "table": "Appendix 1 (layered models, Resist. / Thick. / Depth)"
+  },
+  "notes": "The author marks this sounding as distorted."
+ },
+ {
+  "id": "goldman1990-GS-62-layered",
+  "survey": "goldman-1990-tdem-feasibility-stage-b",
+  "site": "GS-62",
+  "method": "TEM",
+  "level": "L2",
+  "representation": "model_1d",
+  "measured_on": null,
+  "depth_max_m": 191.87,
+  "confidence": "A",
+  "status": "draft",
+  "model_type": "layered",
+  "layers": [
+   {
+    "top_m": 0,
+    "bottom_m": 127.0,
+    "rho_ohmm": 51.4
+   },
+   {
+    "top_m": 127.0,
+    "bottom_m": 158.57,
+    "rho_ohmm": 10.78
+   },
+   {
+    "top_m": 158.57,
+    "bottom_m": 191.87,
+    "rho_ohmm": 31.56
+   },
+   {
+    "top_m": 191.87,
+    "bottom_m": null,
+    "rho_ohmm": 13.7
+   }
+  ],
+  "provenance": {
+   "document": "main",
+   "pages": [
+    32
+   ],
+   "method": "manual",
+   "tool": "typed from the page at 200 dpi; geosigma.extract.printed_tables",
+   "extracted_on": "2026-10-24",
+   "notes": "Station coordinates are printed with the model. The target text (borehole and geology) is the author's.",
+   "table": "Appendix 1 (layered models, Resist. / Thick. / Depth)"
+  }
+ },
+ {
+  "id": "goldman1990-GS-63-layered",
+  "survey": "goldman-1990-tdem-feasibility-stage-b",
+  "site": "GS-63",
+  "method": "TEM",
+  "level": "L2",
+  "representation": "model_1d",
+  "measured_on": null,
+  "depth_max_m": 273.94,
+  "confidence": "A",
+  "status": "draft",
+  "model_type": "layered",
+  "layers": [
+   {
+    "top_m": 0,
+    "bottom_m": 5.39,
+    "rho_ohmm": 14.87
+   },
+   {
+    "top_m": 5.39,
+    "bottom_m": 168.29,
+    "rho_ohmm": 62.78
+   },
+   {
+    "top_m": 168.29,
+    "bottom_m": 219.49,
+    "rho_ohmm": 8.37
+   },
+   {
+    "top_m": 219.49,
+    "bottom_m": 273.94,
+    "rho_ohmm": 37.15
+   },
+   {
+    "top_m": 273.94,
+    "bottom_m": null,
+    "rho_ohmm": 12.31
+   }
+  ],
+  "provenance": {
+   "document": "main",
+   "pages": [
+    32
+   ],
+   "method": "manual",
+   "tool": "typed from the page at 200 dpi; geosigma.extract.printed_tables",
+   "extracted_on": "2026-10-24",
+   "notes": "Station coordinates are printed with the model. The target text (borehole and geology) is the author's.",
+   "table": "Appendix 1 (layered models, Resist. / Thick. / Depth)"
+  }
+ },
+ {
+  "id": "goldman1990-GS-64-layered",
+  "survey": "goldman-1990-tdem-feasibility-stage-b",
+  "site": "GS-64",
+  "method": "TEM",
+  "level": "L2",
+  "representation": "model_1d",
+  "measured_on": null,
+  "depth_max_m": 44.64,
+  "confidence": "C",
+  "status": "draft",
+  "model_type": "layered",
+  "layers": [
+   {
+    "top_m": 0,
+    "bottom_m": 12.66,
+    "rho_ohmm": 23.77
+   },
+   {
+    "top_m": 12.66,
+    "bottom_m": 25.14,
+    "rho_ohmm": 3.68
+   },
+   {
+    "top_m": 25.14,
+    "bottom_m": 44.64,
+    "rho_ohmm": 4.9
+   },
+   {
+    "top_m": 44.64,
+    "bottom_m": null,
+    "note": "Not given in the table"
+   }
+  ],
+  "provenance": {
+   "document": "main",
+   "pages": [
+    32
+   ],
+   "method": "manual",
+   "tool": "typed from the page at 200 dpi; geosigma.extract.printed_tables",
+   "extracted_on": "2026-10-24",
+   "notes": "Station coordinates are printed with the model. The target text (borehole and geology) is the author's.",
+   "table": "Appendix 1 (layered models, Resist. / Thick. / Depth)"
+  },
+  "notes": "The author marks this sounding as very distorted."
+ },
+ {
+  "id": "goldman1990-GS-65-layered",
+  "survey": "goldman-1990-tdem-feasibility-stage-b",
+  "site": "GS-65",
+  "method": "TEM",
+  "level": "L2",
+  "representation": "model_1d",
+  "measured_on": null,
+  "depth_max_m": 32.86,
+  "confidence": "A",
+  "status": "draft",
+  "model_type": "layered",
+  "layers": [
+   {
+    "top_m": 0,
+    "bottom_m": 16.5,
+    "rho_ohmm": 21.27
+   },
+   {
+    "top_m": 16.5,
+    "bottom_m": 32.86,
+    "rho_ohmm": 5.65
+   },
+   {
+    "top_m": 32.86,
+    "bottom_m": null,
+    "rho_ohmm": 115.3
+   }
+  ],
+  "provenance": {
+   "document": "main",
+   "pages": [
+    32
+   ],
+   "method": "manual",
+   "tool": "typed from the page at 200 dpi; geosigma.extract.printed_tables",
+   "extracted_on": "2026-10-24",
+   "notes": "Station coordinates are printed with the model. The target text (borehole and geology) is the author's.",
+   "table": "Appendix 1 (layered models, Resist. / Thick. / Depth)"
+  }
+ },
+ {
+  "id": "goldman1990-GS-66-layered",
+  "survey": "goldman-1990-tdem-feasibility-stage-b",
+  "site": "GS-66",
+  "method": "TEM",
+  "level": "L2",
+  "representation": "model_1d",
+  "measured_on": null,
+  "depth_max_m": 399.54,
+  "confidence": "C",
+  "status": "draft",
+  "model_type": "layered",
+  "layers": [
+   {
+    "top_m": 0,
+    "bottom_m": 16.69,
+    "rho_ohmm": 19.25
+   },
+   {
+    "top_m": 16.69,
+    "bottom_m": 51.44,
+    "rho_ohmm": 6.59
+   },
+   {
+    "top_m": 51.44,
+    "bottom_m": 399.54,
+    "rho_ohmm": 398.5
+   },
+   {
+    "top_m": 399.54,
+    "bottom_m": null,
+    "rho_ohmm": 28.9
+   }
+  ],
+  "provenance": {
+   "document": "main",
+   "pages": [
+    32
+   ],
+   "method": "manual",
+   "tool": "typed from the page at 200 dpi; geosigma.extract.printed_tables",
+   "extracted_on": "2026-10-24",
+   "notes": "Station coordinates are printed with the model. The target text (borehole and geology) is the author's.",
+   "table": "Appendix 1 (layered models, Resist. / Thick. / Depth)"
+  },
+  "notes": "The author marks this sounding as distorted."
+ }
+]

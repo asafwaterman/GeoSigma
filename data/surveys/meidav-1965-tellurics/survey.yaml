@@ -1,0 +1,28 @@
+id: meidav-1965-tellurics
+name: General aspects and initial results of tellurometric experiments in Israel
+organisation: IPRG
+authors:
+- T. Meidav
+- A. Klang
+report_number: TM/390/65
+year: 1965
+acquired: '1965'
+methods:
+- OTHER
+region: Negba-Kokhav and Ofakim-Pattish-Urim areas
+purpose: Test the telluric current method in Israel
+geometry: profile
+documents:
+- id: main
+  title: General aspects and initial results of tellurometric experiments in Israel (August 1965)
+  filename: Meidav-Z-General-Aspects-Initial-Results-Tellurometric-Experiments-Israel-IPRG-TM-390-1965.pdf
+  drive_id: 1v7LmRyMYYQ4yHtmdSH1gj7nyUZM17Z9h
+  language:
+  - en
+  scanned: true
+  role: main_report
+  sha256: 50fedfdea1a948a8d38440ddc65a2bf59a091aecc08653f4b1eb5ba12ddf5026
+  pages: 53
+notes: Telluric current experiments. The results are relative field intensities and ellipse parameters, not
+  resistivities, so there is nothing to plot. Kept as a source document.
+extraction_status: registered

@@ -90,6 +90,7 @@ OHM_CM_SURVEYS = {
     "klang-1970-mt-timna-ramon": "CALC. RES. band labelled ohm.cm",
     "paparo-1969-southern-arava": "map legend: contour interval 1000 ohm.cm",
     "paparo-1970-shekhem": "report section 2.0 gives formation values in ohm.cm",
+    "gvirtzman-1972-mt-heletz-ashqelon": "Table 1 header 'Resistivity, ohm-cm'; Table 2 ranges in ohm-cm",
 }
 
 
@@ -126,3 +127,52 @@ def test_layers_are_contiguous_from_the_surface():
             assert ds.layers[0].top_m == 0, ds.id
             for a, b in zip(ds.layers, ds.layers[1:]):
                 assert a.bottom_m == b.top_m and a.bottom_m > a.top_m, ds.id
+
+
+# --- Guards from the 2026-10 Drive additions (TDEM reports and source-only entries) ---
+
+NEW_TDEM_COUNTS = {
+    ("goldman-1987-tdem-feasibility", "model_1d"): 28,
+    ("goldman-1990-tdem-feasibility-stage-b", "model_1d"): 59,
+    ("goldman-1999-tdem-arava-reservoirs", "model_1d"): 24,
+    ("bartov-1998-tdem-northern-arava", "interface_depth"): 137,
+    ("goldman-1998-tdem-coastal-monitoring", "model_1d"): 54,
+    ("goldman-1998-tdem-coastal-monitoring", "interface_depth"): 81,
+    ("rabinovich-1993-tdem-coastal-interface", "model_1d"): 64,
+    ("rabinovich-1993-tdem-coastal-interface", "interface_depth"): 86,
+    ("goldman-1995-tdem-coastal-interface", "model_1d"): 58,
+    ("goldman-1995-tdem-coastal-interface", "interface_depth"): 68,
+    ("goldman-1996-tdem-ashqelon", "model_1d"): 2,
+    ("goldman-2001-tdem-nahal-hever-south", "model_1d"): 5,
+}
+
+# half-space of each model as printed in the source (checked twice by eye)
+NEW_TDEM_HALF_SPACES = {
+    "rabinovich1993-HS239-layered": (93.21, 0.894),
+    "goldman1995-HS317-layered": (164.07, 39.4),
+    "goldman1996-TH1-layered": (200.36, 0.879),
+    "goldman2001s-NH5_E-layered": (88.53, 0.292),
+}
+
+
+def test_new_tdem_reports_counts_and_spot_values():
+    from collections import Counter
+
+    cat = load_catalogue()
+    counts = Counter((d.survey, d.representation.value) for d in cat.datasets)
+    for key, n in NEW_TDEM_COUNTS.items():
+        assert counts[key] == n, key
+    by_id = {d.id: d for d in cat.datasets}
+    for ds_id, (top, rho) in NEW_TDEM_HALF_SPACES.items():
+        last = by_id[ds_id].layers[-1]
+        assert last.bottom_m is None and last.top_m == pytest.approx(top) and last.rho_ohmm == pytest.approx(rho)
+
+
+def test_source_only_reports_carry_no_values():
+    cat = load_catalogue()
+    source_only = {"ezersky-2011-tem-nahal-hever", "goldman-2001-tdem-nahal-hever-north", "goldman-kafri-2021-review",
+                   "meidav-1963-qiryat-hayyim", "meidav-1965-tellurics", "meqbel-2013-mt-dead-sea",
+                   "zafrir-1991-ramon-drillholes"}
+    status = {s.id: s.extraction_status for s in cat.surveys}
+    assert all(status[s] == "registered" for s in source_only)
+    assert not [d.id for d in cat.datasets if d.survey in source_only]

@@ -1,0 +1,5213 @@
+[
+ {
+  "id": "rabinovich1993-HS233-layered",
+  "survey": "rabinovich-1993-tdem-coastal-interface",
+  "site": "HS233",
+  "method": "TEM",
+  "level": "L2",
+  "representation": "model_1d",
+  "measured_on": "1993",
+  "depth_max_m": 168.93,
+  "confidence": "B",
+  "status": "draft",
+  "model_type": "layered",
+  "layers": [
+   {
+    "top_m": 0.0,
+    "bottom_m": 61.3,
+    "rho_ohmm": 53.65
+   },
+   {
+    "top_m": 61.3,
+    "bottom_m": 72.63,
+    "rho_ohmm": 5.25
+   },
+   {
+    "top_m": 72.63,
+    "bottom_m": 168.93,
+    "rho_ohmm": 20.13
+   },
+   {
+    "top_m": 168.93,
+    "bottom_m": null,
+    "rho_ohmm": 4.02
+   }
+  ],
+  "provenance": {
+   "document": "main",
+   "pages": [
+    12
+   ],
+   "method": "manual",
+   "tool": "typed from the page at 200 dpi; geosigma.extract.printed_tables",
+   "extracted_on": "2026-10-24",
+   "notes": "Coordinates from Table 2 (pages 7-8), Old Israel Grid in units of 10 m. Depth = running sum of the printed thicknesses; each row was checked against the printed elevation and conductance.",
+   "table": "Appendix (layered inversion printout: resistivity, thickness, elevation, conductance)"
+  },
+  "notes": "Author's remark in Table 2: Noise (EM-37 only)."
+ },
+ {
+  "id": "rabinovich1993-HS233-first",
+  "survey": "rabinovich-1993-tdem-coastal-interface",
+  "site": "HS233",
+  "method": "TEM",
+  "level": "L3",
+  "representation": "interface_depth",
+  "measured_on": "1993",
+  "confidence": "B",
+  "status": "draft",
+  "interface_depth_m": 61.0,
+  "criterion": "top of the first low-resistivity layer (author, Table 2)",
+  "provenance": {
+   "document": "main",
+   "pages": [
+    7
+   ],
+   "method": "manual",
+   "tool": "typed from the page at 200 dpi; geosigma.extract.printed_tables",
+   "extracted_on": "2026-10-24",
+   "notes": "Coordinates from Table 2 (pages 7-8), Old Israel Grid in units of 10 m. Depth = running sum of the printed thicknesses; each row was checked against the printed elevation and conductance.",
+   "table": "Table 2"
+  },
+  "notes": "First low-resistivity layer 5.2 ohm.m. Second low-resistivity layer 4.0 ohm.m. Author's remark in Table 2: Noise (EM-37 only)."
+ },
+ {
+  "id": "rabinovich1993-HS233-second",
+  "survey": "rabinovich-1993-tdem-coastal-interface",
+  "site": "HS233",
+  "method": "TEM",
+  "level": "L3",
+  "representation": "interface_depth",
+  "measured_on": "1993",
+  "confidence": "B",
+  "status": "draft",
+  "interface_depth_m": 169.0,
+  "criterion": "top of the second low-resistivity layer (author, Table 2)",
+  "provenance": {
+   "document": "main",
+   "pages": [
+    7
+   ],
+   "method": "manual",
+   "tool": "typed from the page at 200 dpi; geosigma.extract.printed_tables",
+   "extracted_on": "2026-10-24",
+   "notes": "Coordinates from Table 2 (pages 7-8), Old Israel Grid in units of 10 m. Depth = running sum of the printed thicknesses; each row was checked against the printed elevation and conductance.",
+   "table": "Table 2"
+  },
+  "notes": "First low-resistivity layer 5.2 ohm.m. Second low-resistivity layer 4.0 ohm.m. Author's remark in Table 2: Noise (EM-37 only)."
+ },
+ {
+  "id": "rabinovich1993-HS234-layered",
+  "survey": "rabinovich-1993-tdem-coastal-interface",
+  "site": "HS234",
+  "method": "TEM",
+  "level": "L2",
+  "representation": "model_1d",
+  "measured_on": "1993",
+  "depth_max_m": 105.46,
+  "confidence": "A",
+  "status": "draft",
+  "model_type": "layered",
+  "layers": [
+   {
+    "top_m": 0.0,
+    "bottom_m": 12.68,
+    "rho_ohmm": 18.13
+   },
+   {
+    "top_m": 12.68,
+    "bottom_m": 29.84,
+    "rho_ohmm": 46.77
+   },
+   {
+    "top_m": 29.84,
+    "bottom_m": 105.46,
+    "rho_ohmm": 1.72
+   },
+   {
+    "top_m": 105.46,
+    "bottom_m": null,
+    "rho_ohmm": 116.3
+   }
+  ],
+  "provenance": {
+   "document": "main",
+   "pages": [
+    13
+   ],
+   "method": "manual",
+   "tool": "typed from the page at 200 dpi; geosigma.extract.printed_tables",
+   "extracted_on": "2026-10-24",
+   "notes": "Coordinates from Table 2 (pages 7-8), Old Israel Grid in units of 10 m. Depth = running sum of the printed thicknesses; each row was checked against the printed elevation and conductance.",
+   "table": "Appendix (layered inversion printout: resistivity, thickness, elevation, conductance)"
+  }
+ },
+ {
+  "id": "rabinovich1993-HS234-first",
+  "survey": "rabinovich-1993-tdem-coastal-interface",
+  "site": "HS234",
+  "method": "TEM",
+  "level": "L3",
+  "representation": "interface_depth",
+  "measured_on": "1993",
+  "confidence": "A",
+  "status": "draft",
+  "interface_depth_m": 30.0,
+  "criterion": "top of the first low-resistivity layer (author, Table 2)",
+  "provenance": {
+   "document": "main",
+   "pages": [
+    7
+   ],
+   "method": "manual",
+   "tool": "typed from the page at 200 dpi; geosigma.extract.printed_tables",
+   "extracted_on": "2026-10-24",
+   "notes": "Coordinates from Table 2 (pages 7-8), Old Israel Grid in units of 10 m. Depth = running sum of the printed thicknesses; each row was checked against the printed elevation and conductance.",
+   "table": "Table 2"
+  },
+  "notes": "First low-resistivity layer 1.7 ohm.m."
+ },
+ {
+  "id": "rabinovich1993-HS235-layered",
+  "survey": "rabinovich-1993-tdem-coastal-interface",
+  "site": "HS235",
+  "method": "TEM",
+  "level": "L2",
+  "representation": "model_1d",
+  "measured_on": "1993",
+  "depth_max_m": 97.11,
+  "confidence": "C",
+  "status": "draft",
+  "model_type": "layered",
+  "layers": [
+   {
+    "top_m": 0.0,
+    "bottom_m": 12.8,
+    "rho_ohmm": 10.42
+   },
+   {
+    "top_m": 12.8,
+    "bottom_m": 34.05,
+    "rho_ohmm": 162.2
+   },
+   {
+    "top_m": 34.05,
+    "bottom_m": 41.24,
+    "rho_ohmm": 1.42
+   },
+   {
+    "top_m": 41.24,
+    "bottom_m": 67.89,
+    "rho_ohmm": 20.85
+   },
+   {
+    "top_m": 67.89,
+    "bottom_m": 97.11,
+    "rho_ohmm": 1.49
+   },
+   {
+    "top_m": 97.11,
+    "bottom_m": null,
+    "rho_ohmm": 2.58
+   }
+  ],
+  "provenance": {
+   "document": "main",
+   "pages": [
+    14
+   ],
+   "method": "manual",
+   "tool": "typed from the page at 200 dpi; geosigma.extract.printed_tables",
+   "extracted_on": "2026-10-24",
+   "notes": "Coordinates from Table 2 (pages 7-8), Old Israel Grid in units of 10 m. Depth = running sum of the printed thicknesses; each row was checked against the printed elevation and conductance.",
+   "table": "Appendix (layered inversion printout: resistivity, thickness, elevation, conductance)"
+  },
+  "notes": "Printout data set HS235A. Author's remark in Table 2: Not reliable."
+ },
+ {
+  "id": "rabinovich1993-HS235-first",
+  "survey": "rabinovich-1993-tdem-coastal-interface",
+  "site": "HS235",
+  "method": "TEM",
+  "level": "L3",
+  "representation": "interface_depth",
+  "measured_on": "1993",
+  "confidence": "C",
+  "status": "draft",
+  "interface_depth_m": 34.0,
+  "criterion": "top of the first low-resistivity layer (author, Table 2)",
+  "provenance": {
+   "document": "main",
+   "pages": [
+    7
+   ],
+   "method": "manual",
+   "tool": "typed from the page at 200 dpi; geosigma.extract.printed_tables",
+   "extracted_on": "2026-10-24",
+   "notes": "Coordinates from Table 2 (pages 7-8), Old Israel Grid in units of 10 m. Depth = running sum of the printed thicknesses; each row was checked against the printed elevation and conductance.",
+   "table": "Table 2"
+  },
+  "notes": "First low-resistivity layer 1.4 ohm.m. Second low-resistivity layer 1.5 ohm.m. Author's remark in Table 2: Not reliable."
+ },
+ {
+  "id": "rabinovich1993-HS235-second",
+  "survey": "rabinovich-1993-tdem-coastal-interface",
+  "site": "HS235",
+  "method": "TEM",
+  "level": "L3",
+  "representation": "interface_depth",
+  "measured_on": "1993",
+  "confidence": "C",
+  "status": "draft",
+  "interface_depth_m": 68.0,
+  "criterion": "top of the second low-resistivity layer (author, Table 2)",
+  "provenance": {
+   "document": "main",
+   "pages": [
+    7
+   ],
+   "method": "manual",
+   "tool": "typed from the page at 200 dpi; geosigma.extract.printed_tables",
+   "extracted_on": "2026-10-24",
+   "notes": "Coordinates from Table 2 (pages 7-8), Old Israel Grid in units of 10 m. Depth = running sum of the printed thicknesses; each row was checked against the printed elevation and conductance.",
+   "table": "Table 2"
+  },
+  "notes": "First low-resistivity layer 1.4 ohm.m. Second low-resistivity layer 1.5 ohm.m. Author's remark in Table 2: Not reliable."
+ },
+ {
+  "id": "rabinovich1993-HS236-layered",
+  "survey": "rabinovich-1993-tdem-coastal-interface",
+  "site": "HS236",
+  "method": "TEM",
+  "level": "L2",
+  "representation": "model_1d",
+  "measured_on": "1993",
+  "depth_max_m": 95.71,
+  "confidence": "A",
+  "status": "draft",
+  "model_type": "layered",
+  "layers": [
+   {
+    "top_m": 0.0,
+    "bottom_m": 45.37,
+    "rho_ohmm": 46.38
+   },
+   {
+    "top_m": 45.37,
+    "bottom_m": 95.71,
+    "rho_ohmm": 2.34
+   },
+   {
+    "top_m": 95.71,
+    "bottom_m": null,
+    "rho_ohmm": 4.27
+   }
+  ],
+  "provenance": {
+   "document": "main",
+   "pages": [
+    15
+   ],
+   "method": "manual",
+   "tool": "typed from the page at 200 dpi; geosigma.extract.printed_tables",
+   "extracted_on": "2026-10-24",
+   "notes": "Coordinates from Table 2 (pages 7-8), Old Israel Grid in units of 10 m. Depth = running sum of the printed thicknesses; each row was checked against the printed elevation and conductance.",
+   "table": "Appendix (layered inversion printout: resistivity, thickness, elevation, conductance)"
+  }
+ },
+ {
+  "id": "rabinovich1993-HS236-first",
+  "survey": "rabinovich-1993-tdem-coastal-interface",
+  "site": "HS236",
+  "method": "TEM",
+  "level": "L3",
+  "representation": "interface_depth",
+  "measured_on": "1993",
+  "confidence": "A",
+  "status": "draft",
+  "interface_depth_m": 45.0,
+  "criterion": "top of the first low-resistivity layer (author, Table 2)",
+  "provenance": {
+   "document": "main",
+   "pages": [
+    7
+   ],
+   "method": "manual",
+   "tool": "typed from the page at 200 dpi; geosigma.extract.printed_tables",
+   "extracted_on": "2026-10-24",
+   "notes": "Coordinates from Table 2 (pages 7-8), Old Israel Grid in units of 10 m. Depth = running sum of the printed thicknesses; each row was checked against the printed elevation and conductance.",
+   "table": "Table 2"
+  },
+  "notes": "First low-resistivity layer 2.3 ohm.m."
+ },
+ {
+  "id": "rabinovich1993-HS237-layered",
+  "survey": "rabinovich-1993-tdem-coastal-interface",
+  "site": "HS237",
+  "method": "TEM",
+  "level": "L2",
+  "representation": "model_1d",
+  "measured_on": "1993",
+  "depth_max_m": 190.89,
+  "confidence": "A",
+  "status": "draft",
+  "model_type": "layered",
+  "layers": [
+   {
+    "top_m": 0.0,
+    "bottom_m": 79.37,
+    "rho_ohmm": 54.86
+   },
+   {
+    "top_m": 79.37,
+    "bottom_m": 87.83,
+    "rho_ohmm": 5.59
+   },
+   {
+    "top_m": 87.83,
+    "bottom_m": 107.72,
+    "rho_ohmm": 115.6
+   },
+   {
+    "top_m": 107.72,
+    "bottom_m": 190.89,
+    "rho_ohmm": 7.39
+   },
+   {
+    "top_m": 190.89,
+    "bottom_m": null,
+    "rho_ohmm": 1.82
+   }
+  ],
+  "provenance": {
+   "document": "main",
+   "pages": [
+    16
+   ],
+   "method": "manual",
+   "tool": "typed from the page at 200 dpi; geosigma.extract.printed_tables",
+   "extracted_on": "2026-10-24",
+   "notes": "Coordinates from Table 2 (pages 7-8), Old Israel Grid in units of 10 m. Depth = running sum of the printed thicknesses; each row was checked against the printed elevation and conductance.",
+   "table": "Appendix (layered inversion printout: resistivity, thickness, elevation, conductance)"
+  }
+ },
+ {
+  "id": "rabinovich1993-HS237-first",
+  "survey": "rabinovich-1993-tdem-coastal-interface",
+  "site": "HS237",
+  "method": "TEM",
+  "level": "L3",
+  "representation": "interface_depth",
+  "measured_on": "1993",
+  "confidence": "A",
+  "status": "draft",
+  "interface_depth_m": 191.0,
+  "criterion": "top of the first low-resistivity layer (author, Table 2)",
+  "provenance": {
+   "document": "main",
+   "pages": [
+    7
+   ],
+   "method": "manual",
+   "tool": "typed from the page at 200 dpi; geosigma.extract.printed_tables",
+   "extracted_on": "2026-10-24",
+   "notes": "Coordinates from Table 2 (pages 7-8), Old Israel Grid in units of 10 m. Depth = running sum of the printed thicknesses; each row was checked against the printed elevation and conductance.",
+   "table": "Table 2"
+  },
+  "notes": "First low-resistivity layer 1.8 ohm.m."
+ },
+ {
+  "id": "rabinovich1993-HS238-layered",
+  "survey": "rabinovich-1993-tdem-coastal-interface",
+  "site": "HS238",
+  "method": "TEM",
+  "level": "L2",
+  "representation": "model_1d",
+  "measured_on": "1993",
+  "depth_max_m": 100.27,
+  "confidence": "A",
+  "status": "draft",
+  "model_type": "layered",
+  "layers": [
+   {
+    "top_m": 0.0,
+    "bottom_m": 2.07,
+    "rho_ohmm": 2.64
+   },
+   {
+    "top_m": 2.07,
+    "bottom_m": 30.31,
+    "rho_ohmm": 196.4
+   },
+   {
+    "top_m": 30.31,
+    "bottom_m": 100.27,
+    "rho_ohmm": 1.8
+   },
+   {
+    "top_m": 100.27,
+    "bottom_m": null,
+    "rho_ohmm": 8.45
+   }
+  ],
+  "provenance": {
+   "document": "main",
+   "pages": [
+    17
+   ],
+   "method": "manual",
+   "tool": "typed from the page at 200 dpi; geosigma.extract.printed_tables",
+   "extracted_on": "2026-10-24",
+   "notes": "Coordinates from Table 2 (pages 7-8), Old Israel Grid in units of 10 m. Depth = running sum of the printed thicknesses; each row was checked against the printed elevation and conductance.",
+   "table": "Appendix (layered inversion printout: resistivity, thickness, elevation, conductance)"
+  }
+ },
+ {
+  "id": "rabinovich1993-HS238-first",
+  "survey": "rabinovich-1993-tdem-coastal-interface",
+  "site": "HS238",
+  "method": "TEM",
+  "level": "L3",
+  "representation": "interface_depth",
+  "measured_on": "1993",
+  "confidence": "A",
+  "status": "draft",
+  "interface_depth_m": 30.0,
+  "criterion": "top of the first low-resistivity layer (author, Table 2)",
+  "provenance": {
+   "document": "main",
+   "pages": [
+    7
+   ],
+   "method": "manual",
+   "tool": "typed from the page at 200 dpi; geosigma.extract.printed_tables",
+   "extracted_on": "2026-10-24",
+   "notes": "Coordinates from Table 2 (pages 7-8), Old Israel Grid in units of 10 m. Depth = running sum of the printed thicknesses; each row was checked against the printed elevation and conductance.",
+   "table": "Table 2"
+  },
+  "notes": "First low-resistivity layer 1.8 ohm.m."
+ },
+ {
+  "id": "rabinovich1993-HS239-layered",
+  "survey": "rabinovich-1993-tdem-coastal-interface",
+  "site": "HS239",
+  "method": "TEM",
+  "level": "L2",
+  "representation": "model_1d",
+  "measured_on": "1993",
+  "depth_max_m": 93.21,
+  "confidence": "C",
+  "status": "draft",
+  "model_type": "layered",
+  "layers": [
+   {
+    "top_m": 0.0,
+    "bottom_m": 2.99,
+    "rho_ohmm": 11.32
+   },
+   {
+    "top_m": 2.99,
+    "bottom_m": 56.18,
+    "rho_ohmm": 47.29
+   },
+   {
+    "top_m": 56.18,
+    "bottom_m": 93.21,
+    "rho_ohmm": 3.6
+   },
+   {
+    "top_m": 93.21,
+    "bottom_m": null,
+    "rho_ohmm": 0.894
+   }
+  ],
+  "provenance": {
+   "document": "main",
+   "pages": [
+    18
+   ],
+   "method": "manual",
+   "tool": "typed from the page at 200 dpi; geosigma.extract.printed_tables",
+   "extracted_on": "2026-10-24",
+   "notes": "Coordinates from Table 2 (pages 7-8), Old Israel Grid in units of 10 m. Depth = running sum of the printed thicknesses; each row was checked against the printed elevation and conductance.",
+   "table": "Appendix (layered inversion printout: resistivity, thickness, elevation, conductance)"
+  },
+  "notes": "Author's remark in Table 2: Not reliable."
+ },
+ {
+  "id": "rabinovich1993-HS239-first",
+  "survey": "rabinovich-1993-tdem-coastal-interface",
+  "site": "HS239",
+  "method": "TEM",
+  "level": "L3",
+  "representation": "interface_depth",
+  "measured_on": "1993",
+  "confidence": "C",
+  "status": "draft",
+  "interface_depth_m": 93.0,
+  "criterion": "top of the first low-resistivity layer (author, Table 2)",
+  "provenance": {
+   "document": "main",
+   "pages": [
+    7
+   ],
+   "method": "manual",
+   "tool": "typed from the page at 200 dpi; geosigma.extract.printed_tables",
+   "extracted_on": "2026-10-24",
+   "notes": "Coordinates from Table 2 (pages 7-8), Old Israel Grid in units of 10 m. Depth = running sum of the printed thicknesses; each row was checked against the printed elevation and conductance.",
+   "table": "Table 2"
+  },
+  "notes": "First low-resistivity layer 0.9 ohm.m. Author's remark in Table 2: Not reliable."
+ },
+ {
+  "id": "rabinovich1993-HS240-layered",
+  "survey": "rabinovich-1993-tdem-coastal-interface",
+  "site": "HS240",
+  "method": "TEM",
+  "level": "L2",
+  "representation": "model_1d",
+  "measured_on": "1993",
+  "depth_max_m": 67.17,
+  "confidence": "C",
+  "status": "draft",
+  "model_type": "layered",
+  "layers": [
+   {
+    "top_m": 0.0,
+    "bottom_m": 37.29,
+    "rho_ohmm": 52.63
+   },
+   {
+    "top_m": 37.29,
+    "bottom_m": 49.83,
+    "rho_ohmm": 0.973
+   },
+   {
+    "top_m": 49.83,
+    "bottom_m": 67.17,
+    "rho_ohmm": 0.227
+   },
+   {
+    "top_m": 67.17,
+    "bottom_m": null,
+    "rho_ohmm": 26.49
+   }
+  ],
+  "provenance": {
+   "document": "main",
+   "pages": [
+    19
+   ],
+   "method": "manual",
+   "tool": "typed from the page at 200 dpi; geosigma.extract.printed_tables",
+   "extracted_on": "2026-10-24",
+   "notes": "Coordinates from Table 2 (pages 7-8), Old Israel Grid in units of 10 m. Depth = running sum of the printed thicknesses; each row was checked against the printed elevation and conductance.",
+   "table": "Appendix (layered inversion printout: resistivity, thickness, elevation, conductance)"
+  },
+  "notes": "Author's remark in Table 2: Not reliable."
+ },
+ {
+  "id": "rabinovich1993-HS240-first",
+  "survey": "rabinovich-1993-tdem-coastal-interface",
+  "site": "HS240",
+  "method": "TEM",
+  "level": "L3",
+  "representation": "interface_depth",
+  "measured_on": "1993",
+  "confidence": "C",
+  "status": "draft",
+  "interface_depth_m": 37.0,
+  "criterion": "top of the first low-resistivity layer (author, Table 2)",
+  "provenance": {
+   "document": "main",
+   "pages": [
+    7
+   ],
+   "method": "manual",
+   "tool": "typed from the page at 200 dpi; geosigma.extract.printed_tables",
+   "extracted_on": "2026-10-24",
+   "notes": "Coordinates from Table 2 (pages 7-8), Old Israel Grid in units of 10 m. Depth = running sum of the printed thicknesses; each row was checked against the printed elevation and conductance.",
+   "table": "Table 2"
+  },
+  "notes": "First low-resistivity layer 1.0 ohm.m. Author's remark in Table 2: Not reliable."
+ },
+ {
+  "id": "rabinovich1993-HS241-layered",
+  "survey": "rabinovich-1993-tdem-coastal-interface",
+  "site": "HS241",
+  "method": "TEM",
+  "level": "L2",
+  "representation": "model_1d",
+  "measured_on": "1993",
+  "depth_max_m": 135.21,
+  "confidence": "B",
+  "status": "draft",
+  "model_type": "layered",
+  "layers": [
+   {
+    "top_m": 0.0,
+    "bottom_m": 53.43,
+    "rho_ohmm": 74.87
+   },
+   {
+    "top_m": 53.43,
+    "bottom_m": 91.11,
+    "rho_ohmm": 28.32
+   },
+   {
+    "top_m": 91.11,
+    "bottom_m": 135.21,
+    "rho_ohmm": 1.66
+   },
+   {
+    "top_m": 135.21,
+    "bottom_m": null,
+    "rho_ohmm": 9.02
+   }
+  ],
+  "provenance": {
+   "document": "main",
+   "pages": [
+    22
+   ],
+   "method": "manual",
+   "tool": "typed from the page at 200 dpi; geosigma.extract.printed_tables",
+   "extracted_on": "2026-10-24",
+   "notes": "Coordinates from Table 2 (pages 7-8), Old Israel Grid in units of 10 m. Depth = running sum of the printed thicknesses; each row was checked against the printed elevation and conductance.",
+   "table": "Appendix (layered inversion printout: resistivity, thickness, elevation, conductance)"
+  },
+  "notes": "Author's remark in Table 2: Noise (EM-37 only)."
+ },
+ {
+  "id": "rabinovich1993-HS241-first",
+  "survey": "rabinovich-1993-tdem-coastal-interface",
+  "site": "HS241",
+  "method": "TEM",
+  "level": "L3",
+  "representation": "interface_depth",
+  "measured_on": "1993",
+  "confidence": "B",
+  "status": "draft",
+  "interface_depth_m": 91.0,
+  "criterion": "top of the first low-resistivity layer (author, Table 2)",
+  "provenance": {
+   "document": "main",
+   "pages": [
+    7
+   ],
+   "method": "manual",
+   "tool": "typed from the page at 200 dpi; geosigma.extract.printed_tables",
+   "extracted_on": "2026-10-24",
+   "notes": "Coordinates from Table 2 (pages 7-8), Old Israel Grid in units of 10 m. Depth = running sum of the printed thicknesses; each row was checked against the printed elevation and conductance.",
+   "table": "Table 2"
+  },
+  "notes": "First low-resistivity layer 1.7 ohm.m. Author's remark in Table 2: Noise (EM-37 only)."
+ },
+ {
+  "id": "rabinovich1993-HS242-layered",
+  "survey": "rabinovich-1993-tdem-coastal-interface",
+  "site": "HS242",
+  "method": "TEM",
+  "level": "L2",
+  "representation": "model_1d",
+  "measured_on": "1993",
+  "depth_max_m": 126.5,
+  "confidence": "B",
+  "status": "draft",
+  "model_type": "layered",
+  "layers": [
+   {
+    "top_m": 0.0,
+    "bottom_m": 15.52,
+    "rho_ohmm": 105.5
+   },
+   {
+    "top_m": 15.52,
+    "bottom_m": 57.79,
+    "rho_ohmm": 21.69
+   },
+   {
+    "top_m": 57.79,
+    "bottom_m": 126.5,
+    "rho_ohmm": 1.75
+   },
+   {
+    "top_m": 126.5,
+    "bottom_m": null,
+    "rho_ohmm": 54.54
+   }
+  ],
+  "provenance": {
+   "document": "main",
+   "pages": [
+    23
+   ],
+   "method": "manual",
+   "tool": "typed from the page at 200 dpi; geosigma.extract.printed_tables",
+   "extracted_on": "2026-10-24",
+   "notes": "Coordinates from Table 2 (pages 7-8), Old Israel Grid in units of 10 m. Depth = running sum of the printed thicknesses; each row was checked against the printed elevation and conductance.",
+   "table": "Appendix (layered inversion printout: resistivity, thickness, elevation, conductance)"
+  },
+  "notes": "Author's remark in Table 2: Noise (EM-37 only)."
+ },
+ {
+  "id": "rabinovich1993-HS242-first",
+  "survey": "rabinovich-1993-tdem-coastal-interface",
+  "site": "HS242",
+  "method": "TEM",
+  "level": "L3",
+  "representation": "interface_depth",
+  "measured_on": "1993",
+  "confidence": "B",
+  "status": "draft",
+  "interface_depth_m": 58.0,
+  "criterion": "top of the first low-resistivity layer (author, Table 2)",
+  "provenance": {
+   "document": "main",
+   "pages": [
+    7
+   ],
+   "method": "manual",
+   "tool": "typed from the page at 200 dpi; geosigma.extract.printed_tables",
+   "extracted_on": "2026-10-24",
+   "notes": "Coordinates from Table 2 (pages 7-8), Old Israel Grid in units of 10 m. Depth = running sum of the printed thicknesses; each row was checked against the printed elevation and conductance.",
+   "table": "Table 2"
+  },
+  "notes": "First low-resistivity layer 1.8 ohm.m. Author's remark in Table 2: Noise (EM-37 only)."
+ },
+ {
+  "id": "rabinovich1993-HS243-layered",
+  "survey": "rabinovich-1993-tdem-coastal-interface",
+  "site": "HS243",
+  "method": "TEM",
+  "level": "L2",
+  "representation": "model_1d",
+  "measured_on": "1993",
+  "depth_max_m": 146.72,
+  "confidence": "B",
+  "status": "draft",
+  "model_type": "layered",
+  "layers": [
+   {
+    "top_m": 0.0,
+    "bottom_m": 42.32,
+    "rho_ohmm": 109.9
+   },
+   {
+    "top_m": 42.32,
+    "bottom_m": 73.22,
+    "rho_ohmm": 24.01
+   },
+   {
+    "top_m": 73.22,
+    "bottom_m": 146.72,
+    "rho_ohmm": 1.42
+   },
+   {
+    "top_m": 146.72,
+    "bottom_m": null,
+    "rho_ohmm": 3.97
+   }
+  ],
+  "provenance": {
+   "document": "main",
+   "pages": [
+    24
+   ],
+   "method": "manual",
+   "tool": "typed from the page at 200 dpi; geosigma.extract.printed_tables",
+   "extracted_on": "2026-10-24",
+   "notes": "Coordinates from Table 2 (pages 7-8), Old Israel Grid in units of 10 m. Depth = running sum of the printed thicknesses; each row was checked against the printed elevation and conductance.",
+   "table": "Appendix (layered inversion printout: resistivity, thickness, elevation, conductance)"
+  },
+  "notes": "Author's remark in Table 2: Noise (EM-37 only)."
+ },
+ {
+  "id": "rabinovich1993-HS243-first",
+  "survey": "rabinovich-1993-tdem-coastal-interface",
+  "site": "HS243",
+  "method": "TEM",
+  "level": "L3",
+  "representation": "interface_depth",
+  "measured_on": "1993",
+  "confidence": "B",
+  "status": "draft",
+  "interface_depth_m": 73.0,
+  "criterion": "top of the first low-resistivity layer (author, Table 2)",
+  "provenance": {
+   "document": "main",
+   "pages": [
+    7
+   ],
+   "method": "manual",
+   "tool": "typed from the page at 200 dpi; geosigma.extract.printed_tables",
+   "extracted_on": "2026-10-24",
+   "notes": "Coordinates from Table 2 (pages 7-8), Old Israel Grid in units of 10 m. Depth = running sum of the printed thicknesses; each row was checked against the printed elevation and conductance.",
+   "table": "Table 2"
+  },
+  "notes": "First low-resistivity layer 1.4 ohm.m. Author's remark in Table 2: Noise (EM-37 only)."
+ },
+ {
+  "id": "rabinovich1993-HS244-layered",
+  "survey": "rabinovich-1993-tdem-coastal-interface",
+  "site": "HS244",
+  "method": "TEM",
+  "level": "L2",
+  "representation": "model_1d",
+  "measured_on": "1993",
+  "depth_max_m": 162.51,
+  "confidence": "A",
+  "status": "draft",
+  "model_type": "layered",
+  "layers": [
+   {
+    "top_m": 0.0,
+    "bottom_m": 80.86,
+    "rho_ohmm": 40.26
+   },
+   {
+    "top_m": 80.86,
+    "bottom_m": 98.84,
+    "rho_ohmm": 1.13
+   },
+   {
+    "top_m": 98.84,
+    "bottom_m": 162.51,
+    "rho_ohmm": 51.73
+   },
+   {
+    "top_m": 162.51,
+    "bottom_m": null,
+    "rho_ohmm": 2.08
+   }
+  ],
+  "provenance": {
+   "document": "main",
+   "pages": [
+    25
+   ],
+   "method": "manual",
+   "tool": "typed from the page at 200 dpi; geosigma.extract.printed_tables",
+   "extracted_on": "2026-10-24",
+   "notes": "Coordinates from Table 2 (pages 7-8), Old Israel Grid in units of 10 m. Depth = running sum of the printed thicknesses; each row was checked against the printed elevation and conductance.",
+   "table": "Appendix (layered inversion printout: resistivity, thickness, elevation, conductance)"
+  },
+  "notes": "Author's remark in Table 2: EM-37."
+ },
+ {
+  "id": "rabinovich1993-HS244-first",
+  "survey": "rabinovich-1993-tdem-coastal-interface",
+  "site": "HS244",
+  "method": "TEM",
+  "level": "L3",
+  "representation": "interface_depth",
+  "measured_on": "1993",
+  "confidence": "A",
+  "status": "draft",
+  "interface_depth_m": 81.0,
+  "criterion": "top of the first low-resistivity layer (author, Table 2)",
+  "provenance": {
+   "document": "main",
+   "pages": [
+    7
+   ],
+   "method": "manual",
+   "tool": "typed from the page at 200 dpi; geosigma.extract.printed_tables",
+   "extracted_on": "2026-10-24",
+   "notes": "Coordinates from Table 2 (pages 7-8), Old Israel Grid in units of 10 m. Depth = running sum of the printed thicknesses; each row was checked against the printed elevation and conductance.",
+   "table": "Table 2"
+  },
+  "notes": "First low-resistivity layer 1.1 ohm.m. Second low-resistivity layer 2.1 ohm.m. Author's remark in Table 2: EM-37."
+ },
+ {
+  "id": "rabinovich1993-HS244-second",
+  "survey": "rabinovich-1993-tdem-coastal-interface",
+  "site": "HS244",
+  "method": "TEM",
+  "level": "L3",
+  "representation": "interface_depth",
+  "measured_on": "1993",
+  "confidence": "A",
+  "status": "draft",
+  "interface_depth_m": 162.0,
+  "criterion": "top of the second low-resistivity layer (author, Table 2)",
+  "provenance": {
+   "document": "main",
+   "pages": [
+    7
+   ],
+   "method": "manual",
+   "tool": "typed from the page at 200 dpi; geosigma.extract.printed_tables",
+   "extracted_on": "2026-10-24",
+   "notes": "Coordinates from Table 2 (pages 7-8), Old Israel Grid in units of 10 m. Depth = running sum of the printed thicknesses; each row was checked against the printed elevation and conductance.",
+   "table": "Table 2"
+  },
+  "notes": "First low-resistivity layer 1.1 ohm.m. Second low-resistivity layer 2.1 ohm.m. Author's remark in Table 2: EM-37."
+ },
+ {
+  "id": "rabinovich1993-HS245-layered",
+  "survey": "rabinovich-1993-tdem-coastal-interface",
+  "site": "HS245",
+  "method": "TEM",
+  "level": "L2",
+  "representation": "model_1d",
+  "measured_on": "1993",
+  "depth_max_m": 118.64,
+  "confidence": "A",
+  "status": "draft",
+  "model_type": "layered",
+  "layers": [
+   {
+    "top_m": 0.0,
+    "bottom_m": 71.28,
+    "rho_ohmm": 45.56
+   },
+   {
+    "top_m": 71.28,
+    "bottom_m": 118.64,
+    "rho_ohmm": 1.89
+   },
+   {
+    "top_m": 118.64,
+    "bottom_m": null,
+    "rho_ohmm": 6.3
+   }
+  ],
+  "provenance": {
+   "document": "main",
+   "pages": [
+    26
+   ],
+   "method": "manual",
+   "tool": "typed from the page at 200 dpi; geosigma.extract.printed_tables",
+   "extracted_on": "2026-10-24",
+   "notes": "Coordinates from Table 2 (pages 7-8), Old Israel Grid in units of 10 m. Depth = running sum of the printed thicknesses; each row was checked against the printed elevation and conductance.",
+   "table": "Appendix (layered inversion printout: resistivity, thickness, elevation, conductance)"
+  },
+  "notes": "Author's remark in Table 2: EM-37."
+ },
+ {
+  "id": "rabinovich1993-HS245-first",
+  "survey": "rabinovich-1993-tdem-coastal-interface",
+  "site": "HS245",
+  "method": "TEM",
+  "level": "L3",
+  "representation": "interface_depth",
+  "measured_on": "1993",
+  "confidence": "A",
+  "status": "draft",
+  "interface_depth_m": 71.0,
+  "criterion": "top of the first low-resistivity layer (author, Table 2)",
+  "provenance": {
+   "document": "main",
+   "pages": [
+    7
+   ],
+   "method": "manual",
+   "tool": "typed from the page at 200 dpi; geosigma.extract.printed_tables",
+   "extracted_on": "2026-10-24",
+   "notes": "Coordinates from Table 2 (pages 7-8), Old Israel Grid in units of 10 m. Depth = running sum of the printed thicknesses; each row was checked against the printed elevation and conductance.",
+   "table": "Table 2"
+  },
+  "notes": "First low-resistivity layer 1.9 ohm.m. Author's remark in Table 2: EM-37."
+ },
+ {
+  "id": "rabinovich1993-HS246-layered",
+  "survey": "rabinovich-1993-tdem-coastal-interface",
+  "site": "HS246",
+  "method": "TEM",
+  "level": "L2",
+  "representation": "model_1d",
+  "measured_on": "1993",
+  "depth_max_m": 153.27,
+  "confidence": "A",
+  "status": "draft",
+  "model_type": "layered",
+  "layers": [
+   {
+    "top_m": 0.0,
+    "bottom_m": 0.94,
+    "rho_ohmm": 2.49
+   },
+   {
+    "top_m": 0.94,
+    "bottom_m": 45.21,
+    "rho_ohmm": 92.7
+   },
+   {
+    "top_m": 45.21,
+    "bottom_m": 53.27,
+    "rho_ohmm": 25.89
+   },
+   {
+    "top_m": 53.27,
+    "bottom_m": 153.27,
+    "rho_ohmm": 9.39
+   },
+   {
+    "top_m": 153.27,
+    "bottom_m": null,
+    "rho_ohmm": 2.83
+   }
+  ],
+  "provenance": {
+   "document": "main",
+   "pages": [
+    27
+   ],
+   "method": "manual",
+   "tool": "typed from the page at 200 dpi; geosigma.extract.printed_tables",
+   "extracted_on": "2026-10-24",
+   "notes": "Coordinates from Table 2 (pages 7-8), Old Israel Grid in units of 10 m. Depth = running sum of the printed thicknesses; each row was checked against the printed elevation and conductance.",
+   "table": "Appendix (layered inversion printout: resistivity, thickness, elevation, conductance)"
+  }
+ },
+ {
+  "id": "rabinovich1993-HS246-first",
+  "survey": "rabinovich-1993-tdem-coastal-interface",
+  "site": "HS246",
+  "method": "TEM",
+  "level": "L3",
+  "representation": "interface_depth",
+  "measured_on": "1993",
+  "confidence": "A",
+  "status": "draft",
+  "interface_depth_m": 153.0,
+  "criterion": "top of the first low-resistivity layer (author, Table 2)",
+  "provenance": {
+   "document": "main",
+   "pages": [
+    7
+   ],
+   "method": "manual",
+   "tool": "typed from the page at 200 dpi; geosigma.extract.printed_tables",
+   "extracted_on": "2026-10-24",
+   "notes": "Coordinates from Table 2 (pages 7-8), Old Israel Grid in units of 10 m. Depth = running sum of the printed thicknesses; each row was checked against the printed elevation and conductance.",
+   "table": "Table 2"
+  },
+  "notes": "First low-resistivity layer 2.8 ohm.m."
+ },
+ {
+  "id": "rabinovich1993-HS247-layered",
+  "survey": "rabinovich-1993-tdem-coastal-interface",
+  "site": "HS247",
+  "method": "TEM",
+  "level": "L2",
+  "representation": "model_1d",
+  "measured_on": "1993",
+  "depth_max_m": 92.92,
+  "confidence": "A",
+  "status": "draft",
+  "model_type": "layered",
+  "layers": [
+   {
+    "top_m": 0.0,
+    "bottom_m": 2.23,
+    "rho_ohmm": 8.2
+   },
+   {
+    "top_m": 2.23,
+    "bottom_m": 31.27,
+    "rho_ohmm": 37.82
+   },
+   {
+    "top_m": 31.27,
+    "bottom_m": 92.92,
+    "rho_ohmm": 1.4
+   },
+   {
+    "top_m": 92.92,
+    "bottom_m": null,
+    "rho_ohmm": 4.05
+   }
+  ],
+  "provenance": {
+   "document": "main",
+   "pages": [
+    28
+   ],
+   "method": "manual",
+   "tool": "typed from the page at 200 dpi; geosigma.extract.printed_tables",
+   "extracted_on": "2026-10-24",
+   "notes": "Coordinates from Table 2 (pages 7-8), Old Israel Grid in units of 10 m. Depth = running sum of the printed thicknesses; each row was checked against the printed elevation and conductance.",
+   "table": "Appendix (layered inversion printout: resistivity, thickness, elevation, conductance)"
+  }
+ },
+ {
+  "id": "rabinovich1993-HS247-first",
+  "survey": "rabinovich-1993-tdem-coastal-interface",
+  "site": "HS247",
+  "method": "TEM",
+  "level": "L3",
+  "representation": "interface_depth",
+  "measured_on": "1993",
+  "confidence": "A",
+  "status": "draft",
+  "interface_depth_m": 31.0,
+  "criterion": "top of the first low-resistivity layer (author, Table 2)",
+  "provenance": {
+   "document": "main",
+   "pages": [
+    7
+   ],
+   "method": "manual",
+   "tool": "typed from the page at 200 dpi; geosigma.extract.printed_tables",
+   "extracted_on": "2026-10-24",
+   "notes": "Coordinates from Table 2 (pages 7-8), Old Israel Grid in units of 10 m. Depth = running sum of the printed thicknesses; each row was checked against the printed elevation and conductance.",
+   "table": "Table 2"
+  },
+  "notes": "First low-resistivity layer 1.4 ohm.m."
+ },
+ {
+  "id": "rabinovich1993-HS248-layered",
+  "survey": "rabinovich-1993-tdem-coastal-interface",
+  "site": "HS248",
+  "method": "TEM",
+  "level": "L2",
+  "representation": "model_1d",
+  "measured_on": "1993",
+  "depth_max_m": 108.48,
+  "confidence": "A",
+  "status": "draft",
+  "model_type": "layered",
+  "layers": [
+   {
+    "top_m": 0.0,
+    "bottom_m": 1.45,
+    "rho_ohmm": 15.7
+   },
+   {
+    "top_m": 1.45,
+    "bottom_m": 52.85,
+    "rho_ohmm": 51.07
+   },
+   {
+    "top_m": 52.85,
+    "bottom_m": 108.48,
+    "rho_ohmm": 1.35
+   },
+   {
+    "top_m": 108.48,
+    "bottom_m": null,
+    "rho_ohmm": 6.49
+   }
+  ],
+  "provenance": {
+   "document": "main",
+   "pages": [
+    29
+   ],
+   "method": "manual",
+   "tool": "typed from the page at 200 dpi; geosigma.extract.printed_tables",
+   "extracted_on": "2026-10-24",
+   "notes": "Coordinates from Table 2 (pages 7-8), Old Israel Grid in units of 10 m. Depth = running sum of the printed thicknesses; each row was checked against the printed elevation and conductance.",
+   "table": "Appendix (layered inversion printout: resistivity, thickness, elevation, conductance)"
+  }
+ },
+ {
+  "id": "rabinovich1993-HS248-first",
+  "survey": "rabinovich-1993-tdem-coastal-interface",
+  "site": "HS248",
+  "method": "TEM",
+  "level": "L3",
+  "representation": "interface_depth",
+  "measured_on": "1993",
+  "confidence": "A",
+  "status": "draft",
+  "interface_depth_m": 53.0,
+  "criterion": "top of the first low-resistivity layer (author, Table 2)",
+  "provenance": {
+   "document": "main",
+   "pages": [
+    7
+   ],
+   "method": "manual",
+   "tool": "typed from the page at 200 dpi; geosigma.extract.printed_tables",
+   "extracted_on": "2026-10-24",
+   "notes": "Coordinates from Table 2 (pages 7-8), Old Israel Grid in units of 10 m. Depth = running sum of the printed thicknesses; each row was checked against the printed elevation and conductance.",
+   "table": "Table 2"
+  },
+  "notes": "First low-resistivity layer 1.4 ohm.m."
+ },
+ {
+  "id": "rabinovich1993-HS249-layered",
+  "survey": "rabinovich-1993-tdem-coastal-interface",
+  "site": "HS249",
+  "method": "TEM",
+  "level": "L2",
+  "representation": "model_1d",
+  "measured_on": "1993",
+  "depth_max_m": 81.99,
+  "confidence": "B",
+  "status": "draft",
+  "model_type": "layered",
+  "layers": [
+   {
+    "top_m": 0.0,
+    "bottom_m": 5.85,
+    "rho_ohmm": 9.55
+   },
+   {
+    "top_m": 5.85,
+    "bottom_m": 51.85,
+    "rho_ohmm": 250.5
+   },
+   {
+    "top_m": 51.85,
+    "bottom_m": 81.99,
+    "rho_ohmm": 1.4
+   },
+   {
+    "top_m": 81.99,
+    "bottom_m": null,
+    "rho_ohmm": 3.22
+   }
+  ],
+  "provenance": {
+   "document": "main",
+   "pages": [
+    30
+   ],
+   "method": "manual",
+   "tool": "typed from the page at 200 dpi; geosigma.extract.printed_tables",
+   "extracted_on": "2026-10-24",
+   "notes": "Coordinates from Table 2 (pages 7-8), Old Israel Grid in units of 10 m. Depth = running sum of the printed thicknesses; each row was checked against the printed elevation and conductance.",
+   "table": "Appendix (layered inversion printout: resistivity, thickness, elevation, conductance)"
+  },
+  "notes": "Author's remark in Table 2: Geological noise."
+ },
+ {
+  "id": "rabinovich1993-HS249-first",
+  "survey": "rabinovich-1993-tdem-coastal-interface",
+  "site": "HS249",
+  "method": "TEM",
+  "level": "L3",
+  "representation": "interface_depth",
+  "measured_on": "1993",
+  "confidence": "B",
+  "status": "draft",
+  "interface_depth_m": 52.0,
+  "criterion": "top of the first low-resistivity layer (author, Table 2)",
+  "provenance": {
+   "document": "main",
+   "pages": [
+    7
+   ],
+   "method": "manual",
+   "tool": "typed from the page at 200 dpi; geosigma.extract.printed_tables",
+   "extracted_on": "2026-10-24",
+   "notes": "Coordinates from Table 2 (pages 7-8), Old Israel Grid in units of 10 m. Depth = running sum of the printed thicknesses; each row was checked against the printed elevation and conductance.",
+   "table": "Table 2"
+  },
+  "notes": "First low-resistivity layer 1.4 ohm.m. Author's remark in Table 2: Geological noise."
+ },
+ {
+  "id": "rabinovich1993-HS250-layered",
+  "survey": "rabinovich-1993-tdem-coastal-interface",
+  "site": "HS250",
+  "method": "TEM",
+  "level": "L2",
+  "representation": "model_1d",
+  "measured_on": "1993",
+  "depth_max_m": 104.69,
+  "confidence": "A",
+  "status": "draft",
+  "model_type": "layered",
+  "layers": [
+   {
+    "top_m": 0.0,
+    "bottom_m": 3.8,
+    "rho_ohmm": 6.79
+   },
+   {
+    "top_m": 3.8,
+    "bottom_m": 65.31,
+    "rho_ohmm": 209.8
+   },
+   {
+    "top_m": 65.31,
+    "bottom_m": 104.69,
+    "rho_ohmm": 10.4
+   },
+   {
+    "top_m": 104.69,
+    "bottom_m": null,
+    "rho_ohmm": 3.33
+   }
+  ],
+  "provenance": {
+   "document": "main",
+   "pages": [
+    31
+   ],
+   "method": "manual",
+   "tool": "typed from the page at 200 dpi; geosigma.extract.printed_tables",
+   "extracted_on": "2026-10-24",
+   "notes": "Coordinates from Table 2 (pages 7-8), Old Israel Grid in units of 10 m. Depth = running sum of the printed thicknesses; each row was checked against the printed elevation and conductance.",
+   "table": "Appendix (layered inversion printout: resistivity, thickness, elevation, conductance)"
+  }
+ },
+ {
+  "id": "rabinovich1993-HS250-first",
+  "survey": "rabinovich-1993-tdem-coastal-interface",
+  "site": "HS250",
+  "method": "TEM",
+  "level": "L3",
+  "representation": "interface_depth",
+  "measured_on": "1993",
+  "confidence": "A",
+  "status": "draft",
+  "interface_depth_m": 105.0,
+  "criterion": "top of the first low-resistivity layer (author, Table 2)",
+  "provenance": {
+   "document": "main",
+   "pages": [
+    7
+   ],
+   "method": "manual",
+   "tool": "typed from the page at 200 dpi; geosigma.extract.printed_tables",
+   "extracted_on": "2026-10-24",
+   "notes": "Coordinates from Table 2 (pages 7-8), Old Israel Grid in units of 10 m. Depth = running sum of the printed thicknesses; each row was checked against the printed elevation and conductance.",
+   "table": "Table 2"
+  },
+  "notes": "First low-resistivity layer 3.3 ohm.m."
+ },
+ {
+  "id": "rabinovich1993-HS251-layered",
+  "survey": "rabinovich-1993-tdem-coastal-interface",
+  "site": "HS251",
+  "method": "TEM",
+  "level": "L2",
+  "representation": "model_1d",
+  "measured_on": "1993",
+  "depth_max_m": 68.46,
+  "confidence": "A",
+  "status": "draft",
+  "model_type": "layered",
+  "layers": [
+   {
+    "top_m": 0.0,
+    "bottom_m": 5.38,
+    "rho_ohmm": 10.51
+   },
+   {
+    "top_m": 5.38,
+    "bottom_m": 50.31,
+    "rho_ohmm": 75.98
+   },
+   {
+    "top_m": 50.31,
+    "bottom_m": 68.46,
+    "rho_ohmm": 19.72
+   },
+   {
+    "top_m": 68.46,
+    "bottom_m": null,
+    "rho_ohmm": 3.27
+   }
+  ],
+  "provenance": {
+   "document": "main",
+   "pages": [
+    32
+   ],
+   "method": "manual",
+   "tool": "typed from the page at 200 dpi; geosigma.extract.printed_tables",
+   "extracted_on": "2026-10-24",
+   "notes": "Coordinates from Table 2 (pages 7-8), Old Israel Grid in units of 10 m. Depth = running sum of the printed thicknesses; each row was checked against the printed elevation and conductance.",
+   "table": "Appendix (layered inversion printout: resistivity, thickness, elevation, conductance)"
+  }
+ },
+ {
+  "id": "rabinovich1993-HS251-first",
+  "survey": "rabinovich-1993-tdem-coastal-interface",
+  "site": "HS251",
+  "method": "TEM",
+  "level": "L3",
+  "representation": "interface_depth",
+  "measured_on": "1993",
+  "confidence": "A",
+  "status": "draft",
+  "interface_depth_m": 68.0,
+  "criterion": "top of the first low-resistivity layer (author, Table 2)",
+  "provenance": {
+   "document": "main",
+   "pages": [
+    7
+   ],
+   "method": "manual",
+   "tool": "typed from the page at 200 dpi; geosigma.extract.printed_tables",
+   "extracted_on": "2026-10-24",
+   "notes": "Coordinates from Table 2 (pages 7-8), Old Israel Grid in units of 10 m. Depth = running sum of the printed thicknesses; each row was checked against the printed elevation and conductance.",
+   "table": "Table 2"
+  },
+  "notes": "First low-resistivity layer 3.3 ohm.m."
+ },
+ {
+  "id": "rabinovich1993-HS252-layered",
+  "survey": "rabinovich-1993-tdem-coastal-interface",
+  "site": "HS252",
+  "method": "TEM",
+  "level": "L2",
+  "representation": "model_1d",
+  "measured_on": "1993",
+  "depth_max_m": 110.83,
+  "confidence": "A",
+  "status": "draft",
+  "model_type": "layered",
+  "layers": [
+   {
+    "top_m": 0.0,
+    "bottom_m": 41.71,
+    "rho_ohmm": 27.64
+   },
+   {
+    "top_m": 41.71,
+    "bottom_m": 110.83,
+    "rho_ohmm": 1.47
+   },
+   {
+    "top_m": 110.83,
+    "bottom_m": null,
+    "rho_ohmm": 2.56
+   }
+  ],
+  "provenance": {
+   "document": "main",
+   "pages": [
+    33
+   ],
+   "method": "manual",
+   "tool": "typed from the page at 200 dpi; geosigma.extract.printed_tables",
+   "extracted_on": "2026-10-24",
+   "notes": "Coordinates from Table 2 (pages 7-8), Old Israel Grid in units of 10 m. Depth = running sum of the printed thicknesses; each row was checked against the printed elevation and conductance.",
+   "table": "Appendix (layered inversion printout: resistivity, thickness, elevation, conductance)"
+  }
+ },
+ {
+  "id": "rabinovich1993-HS252-first",
+  "survey": "rabinovich-1993-tdem-coastal-interface",
+  "site": "HS252",
+  "method": "TEM",
+  "level": "L3",
+  "representation": "interface_depth",
+  "measured_on": "1993",
+  "confidence": "A",
+  "status": "draft",
+  "interface_depth_m": 42.0,
+  "criterion": "top of the first low-resistivity layer (author, Table 2)",
+  "provenance": {
+   "document": "main",
+   "pages": [
+    7
+   ],
+   "method": "manual",
+   "tool": "typed from the page at 200 dpi; geosigma.extract.printed_tables",
+   "extracted_on": "2026-10-24",
+   "notes": "Coordinates from Table 2 (pages 7-8), Old Israel Grid in units of 10 m. Depth = running sum of the printed thicknesses; each row was checked against the printed elevation and conductance.",
+   "table": "Table 2"
+  },
+  "notes": "First low-resistivity layer 1.5 ohm.m."
+ },
+ {
+  "id": "rabinovich1993-HS253-layered",
+  "survey": "rabinovich-1993-tdem-coastal-interface",
+  "site": "HS253",
+  "method": "TEM",
+  "level": "L2",
+  "representation": "model_1d",
+  "measured_on": "1993",
+  "depth_max_m": 48.18,
+  "confidence": "A",
+  "status": "draft",
+  "model_type": "layered",
+  "layers": [
+   {
+    "top_m": 0.0,
+    "bottom_m": 2.58,
+    "rho_ohmm": 7.58
+   },
+   {
+    "top_m": 2.58,
+    "bottom_m": 48.18,
+    "rho_ohmm": 24.64
+   },
+   {
+    "top_m": 48.18,
+    "bottom_m": null,
+    "rho_ohmm": 3.22
+   }
+  ],
+  "provenance": {
+   "document": "main",
+   "pages": [
+    34
+   ],
+   "method": "manual",
+   "tool": "typed from the page at 200 dpi; geosigma.extract.printed_tables",
+   "extracted_on": "2026-10-24",
+   "notes": "Coordinates from Table 2 (pages 7-8), Old Israel Grid in units of 10 m. Depth = running sum of the printed thicknesses; each row was checked against the printed elevation and conductance.",
+   "table": "Appendix (layered inversion printout: resistivity, thickness, elevation, conductance)"
+  }
+ },
+ {
+  "id": "rabinovich1993-HS253-first",
+  "survey": "rabinovich-1993-tdem-coastal-interface",
+  "site": "HS253",
+  "method": "TEM",
+  "level": "L3",
+  "representation": "interface_depth",
+  "measured_on": "1993",
+  "confidence": "A",
+  "status": "draft",
+  "interface_depth_m": 48.0,
+  "criterion": "top of the first low-resistivity layer (author, Table 2)",
+  "provenance": {
+   "document": "main",
+   "pages": [
+    7
+   ],
+   "method": "manual",
+   "tool": "typed from the page at 200 dpi; geosigma.extract.printed_tables",
+   "extracted_on": "2026-10-24",
+   "notes": "Coordinates from Table 2 (pages 7-8), Old Israel Grid in units of 10 m. Depth = running sum of the printed thicknesses; each row was checked against the printed elevation and conductance.",
+   "table": "Table 2"
+  },
+  "notes": "First low-resistivity layer 3.2 ohm.m."
+ },
+ {
+  "id": "rabinovich1993-HS254-layered",
+  "survey": "rabinovich-1993-tdem-coastal-interface",
+  "site": "HS254",
+  "method": "TEM",
+  "level": "L2",
+  "representation": "model_1d",
+  "measured_on": "1993",
+  "depth_max_m": 86.7,
+  "confidence": "A",
+  "status": "draft",
+  "model_type": "layered",
+  "layers": [
+   {
+    "top_m": 0.0,
+    "bottom_m": 2.12,
+    "rho_ohmm": 5.12
+   },
+   {
+    "top_m": 2.12,
+    "bottom_m": 45.89,
+    "rho_ohmm": 88.86
+   },
+   {
+    "top_m": 45.89,
+    "bottom_m": 86.7,
+    "rho_ohmm": 1.38
+   },
+   {
+    "top_m": 86.7,
+    "bottom_m": null,
+    "rho_ohmm": 2.83
+   }
+  ],
+  "provenance": {
+   "document": "main",
+   "pages": [
+    35
+   ],
+   "method": "manual",
+   "tool": "typed from the page at 200 dpi; geosigma.extract.printed_tables",
+   "extracted_on": "2026-10-24",
+   "notes": "Coordinates from Table 2 (pages 7-8), Old Israel Grid in units of 10 m. Depth = running sum of the printed thicknesses; each row was checked against the printed elevation and conductance.",
+   "table": "Appendix (layered inversion printout: resistivity, thickness, elevation, conductance)"
+  }
+ },
+ {
+  "id": "rabinovich1993-HS254-first",
+  "survey": "rabinovich-1993-tdem-coastal-interface",
+  "site": "HS254",
+  "method": "TEM",
+  "level": "L3",
+  "representation": "interface_depth",
+  "measured_on": "1993",
+  "confidence": "A",
+  "status": "draft",
+  "interface_depth_m": 46.0,
+  "criterion": "top of the first low-resistivity layer (author, Table 2)",
+  "provenance": {
+   "document": "main",
+   "pages": [
+    7
+   ],
+   "method": "manual",
+   "tool": "typed from the page at 200 dpi; geosigma.extract.printed_tables",
+   "extracted_on": "2026-10-24",
+   "notes": "Coordinates from Table 2 (pages 7-8), Old Israel Grid in units of 10 m. Depth = running sum of the printed thicknesses; each row was checked against the printed elevation and conductance.",
+   "table": "Table 2"
+  },
+  "notes": "First low-resistivity layer 1.4 ohm.m."
+ },
+ {
+  "id": "rabinovich1993-HS255-layered",
+  "survey": "rabinovich-1993-tdem-coastal-interface",
+  "site": "HS255",
+  "method": "TEM",
+  "level": "L2",
+  "representation": "model_1d",
+  "measured_on": "1993",
+  "depth_max_m": 168.97,
+  "confidence": "A",
+  "status": "draft",
+  "model_type": "layered",
+  "layers": [
+   {
+    "top_m": 0.0,
+    "bottom_m": 1.96,
+    "rho_ohmm": 9.06
+   },
+   {
+    "top_m": 1.96,
+    "bottom_m": 62.04,
+    "rho_ohmm": 83.99
+   },
+   {
+    "top_m": 62.04,
+    "bottom_m": 82.28,
+    "rho_ohmm": 2.43
+   },
+   {
+    "top_m": 82.28,
+    "bottom_m": 168.97,
+    "rho_ohmm": 9.11
+   },
+   {
+    "top_m": 168.97,
+    "bottom_m": null,
+    "rho_ohmm": 1.62
+   }
+  ],
+  "provenance": {
+   "document": "main",
+   "pages": [
+    36
+   ],
+   "method": "manual",
+   "tool": "typed from the page at 200 dpi; geosigma.extract.printed_tables",
+   "extracted_on": "2026-10-24",
+   "notes": "Coordinates from Table 2 (pages 7-8), Old Israel Grid in units of 10 m. Depth = running sum of the printed thicknesses; each row was checked against the printed elevation and conductance.",
+   "table": "Appendix (layered inversion printout: resistivity, thickness, elevation, conductance)"
+  }
+ },
+ {
+  "id": "rabinovich1993-HS255-first",
+  "survey": "rabinovich-1993-tdem-coastal-interface",
+  "site": "HS255",
+  "method": "TEM",
+  "level": "L3",
+  "representation": "interface_depth",
+  "measured_on": "1993",
+  "confidence": "A",
+  "status": "draft",
+  "interface_depth_m": 62.0,
+  "criterion": "top of the first low-resistivity layer (author, Table 2)",
+  "provenance": {
+   "document": "main",
+   "pages": [
+    7
+   ],
+   "method": "manual",
+   "tool": "typed from the page at 200 dpi; geosigma.extract.printed_tables",
+   "extracted_on": "2026-10-24",
+   "notes": "Coordinates from Table 2 (pages 7-8), Old Israel Grid in units of 10 m. Depth = running sum of the printed thicknesses; each row was checked against the printed elevation and conductance.",
+   "table": "Table 2"
+  },
+  "notes": "First low-resistivity layer 2.4 ohm.m. Second low-resistivity layer 1.6 ohm.m."
+ },
+ {
+  "id": "rabinovich1993-HS255-second",
+  "survey": "rabinovich-1993-tdem-coastal-interface",
+  "site": "HS255",
+  "method": "TEM",
+  "level": "L3",
+  "representation": "interface_depth",
+  "measured_on": "1993",
+  "confidence": "A",
+  "status": "draft",
+  "interface_depth_m": 169.0,
+  "criterion": "top of the second low-resistivity layer (author, Table 2)",
+  "provenance": {
+   "document": "main",
+   "pages": [
+    7
+   ],
+   "method": "manual",
+   "tool": "typed from the page at 200 dpi; geosigma.extract.printed_tables",
+   "extracted_on": "2026-10-24",
+   "notes": "Coordinates from Table 2 (pages 7-8), Old Israel Grid in units of 10 m. Depth = running sum of the printed thicknesses; each row was checked against the printed elevation and conductance.",
+   "table": "Table 2"
+  },
+  "notes": "First low-resistivity layer 2.4 ohm.m. Second low-resistivity layer 1.6 ohm.m."
+ },
+ {
+  "id": "rabinovich1993-HS256-layered",
+  "survey": "rabinovich-1993-tdem-coastal-interface",
+  "site": "HS256",
+  "method": "TEM",
+  "level": "L2",
+  "representation": "model_1d",
+  "measured_on": "1993",
+  "depth_max_m": 93.48,
+  "confidence": "A",
+  "status": "draft",
+  "model_type": "layered",
+  "layers": [
+   {
+    "top_m": 0.0,
+    "bottom_m": 1.03,
+    "rho_ohmm": 4.42
+   },
+   {
+    "top_m": 1.03,
+    "bottom_m": 44.71,
+    "rho_ohmm": 71.3
+   },
+   {
+    "top_m": 44.71,
+    "bottom_m": 93.48,
+    "rho_ohmm": 1.49
+   },
+   {
+    "top_m": 93.48,
+    "bottom_m": null,
+    "rho_ohmm": 3.54
+   }
+  ],
+  "provenance": {
+   "document": "main",
+   "pages": [
+    37
+   ],
+   "method": "manual",
+   "tool": "typed from the page at 200 dpi; geosigma.extract.printed_tables",
+   "extracted_on": "2026-10-24",
+   "notes": "Coordinates from Table 2 (pages 7-8), Old Israel Grid in units of 10 m. Depth = running sum of the printed thicknesses; each row was checked against the printed elevation and conductance.",
+   "table": "Appendix (layered inversion printout: resistivity, thickness, elevation, conductance)"
+  }
+ },
+ {
+  "id": "rabinovich1993-HS256-first",
+  "survey": "rabinovich-1993-tdem-coastal-interface",
+  "site": "HS256",
+  "method": "TEM",
+  "level": "L3",
+  "representation": "interface_depth",
+  "measured_on": "1993",
+  "confidence": "A",
+  "status": "draft",
+  "interface_depth_m": 45.0,
+  "criterion": "top of the first low-resistivity layer (author, Table 2)",
+  "provenance": {
+   "document": "main",
+   "pages": [
+    7
+   ],
+   "method": "manual",
+   "tool": "typed from the page at 200 dpi; geosigma.extract.printed_tables",
+   "extracted_on": "2026-10-24",
+   "notes": "Coordinates from Table 2 (pages 7-8), Old Israel Grid in units of 10 m. Depth = running sum of the printed thicknesses; each row was checked against the printed elevation and conductance.",
+   "table": "Table 2"
+  },
+  "notes": "First low-resistivity layer 1.5 ohm.m."
+ },
+ {
+  "id": "rabinovich1993-HS257-layered",
+  "survey": "rabinovich-1993-tdem-coastal-interface",
+  "site": "HS257",
+  "method": "TEM",
+  "level": "L2",
+  "representation": "model_1d",
+  "measured_on": "1993",
+  "depth_max_m": 148.35,
+  "confidence": "A",
+  "status": "draft",
+  "model_type": "layered",
+  "layers": [
+   {
+    "top_m": 0.0,
+    "bottom_m": 1.03,
+    "rho_ohmm": 2.54
+   },
+   {
+    "top_m": 1.03,
+    "bottom_m": 48.92,
+    "rho_ohmm": 200.8
+   },
+   {
+    "top_m": 48.92,
+    "bottom_m": 90.21,
+    "rho_ohmm": 1.43
+   },
+   {
+    "top_m": 90.21,
+    "bottom_m": 148.35,
+    "rho_ohmm": 21.0
+   },
+   {
+    "top_m": 148.35,
+    "bottom_m": null,
+    "rho_ohmm": 1.29
+   }
+  ],
+  "provenance": {
+   "document": "main",
+   "pages": [
+    38
+   ],
+   "method": "manual",
+   "tool": "typed from the page at 200 dpi; geosigma.extract.printed_tables",
+   "extracted_on": "2026-10-24",
+   "notes": "Coordinates from Table 2 (pages 7-8), Old Israel Grid in units of 10 m. Depth = running sum of the printed thicknesses; each row was checked against the printed elevation and conductance.",
+   "table": "Appendix (layered inversion printout: resistivity, thickness, elevation, conductance)"
+  }
+ },
+ {
+  "id": "rabinovich1993-HS257-first",
+  "survey": "rabinovich-1993-tdem-coastal-interface",
+  "site": "HS257",
+  "method": "TEM",
+  "level": "L3",
+  "representation": "interface_depth",
+  "measured_on": "1993",
+  "confidence": "A",
+  "status": "draft",
+  "interface_depth_m": 49.0,
+  "criterion": "top of the first low-resistivity layer (author, Table 2)",
+  "provenance": {
+   "document": "main",
+   "pages": [
+    7
+   ],
+   "method": "manual",
+   "tool": "typed from the page at 200 dpi; geosigma.extract.printed_tables",
+   "extracted_on": "2026-10-24",
+   "notes": "Coordinates from Table 2 (pages 7-8), Old Israel Grid in units of 10 m. Depth = running sum of the printed thicknesses; each row was checked against the printed elevation and conductance.",
+   "table": "Table 2"
+  },
+  "notes": "First low-resistivity layer 1.4 ohm.m. Second low-resistivity layer 1.3 ohm.m."
+ },
+ {
+  "id": "rabinovich1993-HS257-second",
+  "survey": "rabinovich-1993-tdem-coastal-interface",
+  "site": "HS257",
+  "method": "TEM",
+  "level": "L3",
+  "representation": "interface_depth",
+  "measured_on": "1993",
+  "confidence": "A",
+  "status": "draft",
+  "interface_depth_m": 148.0,
+  "criterion": "top of the second low-resistivity layer (author, Table 2)",
+  "provenance": {
+   "document": "main",
+   "pages": [
+    7
+   ],
+   "method": "manual",
+   "tool": "typed from the page at 200 dpi; geosigma.extract.printed_tables",
+   "extracted_on": "2026-10-24",
+   "notes": "Coordinates from Table 2 (pages 7-8), Old Israel Grid in units of 10 m. Depth = running sum of the printed thicknesses; each row was checked against the printed elevation and conductance.",
+   "table": "Table 2"
+  },
+  "notes": "First low-resistivity layer 1.4 ohm.m. Second low-resistivity layer 1.3 ohm.m."
+ },
+ {
+  "id": "rabinovich1993-HS258-layered",
+  "survey": "rabinovich-1993-tdem-coastal-interface",
+  "site": "HS258",
+  "method": "TEM",
+  "level": "L2",
+  "representation": "model_1d",
+  "measured_on": "1993",
+  "depth_max_m": 158.66,
+  "confidence": "B",
+  "status": "draft",
+  "model_type": "layered",
+  "layers": [
+   {
+    "top_m": 0.0,
+    "bottom_m": 52.66,
+    "rho_ohmm": 29.7
+   },
+   {
+    "top_m": 52.66,
+    "bottom_m": 84.96,
+    "rho_ohmm": 1.5
+   },
+   {
+    "top_m": 84.96,
+    "bottom_m": 158.66,
+    "rho_ohmm": 11.4
+   },
+   {
+    "top_m": 158.66,
+    "bottom_m": null,
+    "rho_ohmm": 1.35
+   }
+  ],
+  "provenance": {
+   "document": "main",
+   "pages": [
+    39
+   ],
+   "method": "manual",
+   "tool": "typed from the page at 200 dpi; geosigma.extract.printed_tables",
+   "extracted_on": "2026-10-24",
+   "notes": "Coordinates from Table 2 (pages 7-8), Old Israel Grid in units of 10 m. Depth = running sum of the printed thicknesses; each row was checked against the printed elevation and conductance.",
+   "table": "Appendix (layered inversion printout: resistivity, thickness, elevation, conductance)"
+  },
+  "notes": "Author's remark in Table 2: Noise (EM-37 only)."
+ },
+ {
+  "id": "rabinovich1993-HS258-first",
+  "survey": "rabinovich-1993-tdem-coastal-interface",
+  "site": "HS258",
+  "method": "TEM",
+  "level": "L3",
+  "representation": "interface_depth",
+  "measured_on": "1993",
+  "confidence": "B",
+  "status": "draft",
+  "interface_depth_m": 53.0,
+  "criterion": "top of the first low-resistivity layer (author, Table 2)",
+  "provenance": {
+   "document": "main",
+   "pages": [
+    7
+   ],
+   "method": "manual",
+   "tool": "typed from the page at 200 dpi; geosigma.extract.printed_tables",
+   "extracted_on": "2026-10-24",
+   "notes": "Coordinates from Table 2 (pages 7-8), Old Israel Grid in units of 10 m. Depth = running sum of the printed thicknesses; each row was checked against the printed elevation and conductance.",
+   "table": "Table 2"
+  },
+  "notes": "First low-resistivity layer 1.5 ohm.m. Second low-resistivity layer 1.4 ohm.m. Author's remark in Table 2: Noise (EM-37 only)."
+ },
+ {
+  "id": "rabinovich1993-HS258-second",
+  "survey": "rabinovich-1993-tdem-coastal-interface",
+  "site": "HS258",
+  "method": "TEM",
+  "level": "L3",
+  "representation": "interface_depth",
+  "measured_on": "1993",
+  "confidence": "B",
+  "status": "draft",
+  "interface_depth_m": 159.0,
+  "criterion": "top of the second low-resistivity layer (author, Table 2)",
+  "provenance": {
+   "document": "main",
+   "pages": [
+    7
+   ],
+   "method": "manual",
+   "tool": "typed from the page at 200 dpi; geosigma.extract.printed_tables",
+   "extracted_on": "2026-10-24",
+   "notes": "Coordinates from Table 2 (pages 7-8), Old Israel Grid in units of 10 m. Depth = running sum of the printed thicknesses; each row was checked against the printed elevation and conductance.",
+   "table": "Table 2"
+  },
+  "notes": "First low-resistivity layer 1.5 ohm.m. Second low-resistivity layer 1.4 ohm.m. Author's remark in Table 2: Noise (EM-37 only)."
+ },
+ {
+  "id": "rabinovich1993-HS259-layered",
+  "survey": "rabinovich-1993-tdem-coastal-interface",
+  "site": "HS259",
+  "method": "TEM",
+  "level": "L2",
+  "representation": "model_1d",
+  "measured_on": "1993",
+  "depth_max_m": 119.81,
+  "confidence": "B",
+  "status": "draft",
+  "model_type": "layered",
+  "layers": [
+   {
+    "top_m": 0.0,
+    "bottom_m": 75.81,
+    "rho_ohmm": 45.41
+   },
+   {
+    "top_m": 75.81,
+    "bottom_m": 119.81,
+    "rho_ohmm": 1.88
+   },
+   {
+    "top_m": 119.81,
+    "bottom_m": null,
+    "rho_ohmm": 138.8
+   }
+  ],
+  "provenance": {
+   "document": "main",
+   "pages": [
+    40
+   ],
+   "method": "manual",
+   "tool": "typed from the page at 200 dpi; geosigma.extract.printed_tables",
+   "extracted_on": "2026-10-24",
+   "notes": "Coordinates from Table 2 (pages 7-8), Old Israel Grid in units of 10 m. Depth = running sum of the printed thicknesses; each row was checked against the printed elevation and conductance.",
+   "table": "Appendix (layered inversion printout: resistivity, thickness, elevation, conductance)"
+  },
+  "notes": "Author's remark in Table 2: Noise (EM-37 only)."
+ },
+ {
+  "id": "rabinovich1993-HS259-first",
+  "survey": "rabinovich-1993-tdem-coastal-interface",
+  "site": "HS259",
+  "method": "TEM",
+  "level": "L3",
+  "representation": "interface_depth",
+  "measured_on": "1993",
+  "confidence": "B",
+  "status": "draft",
+  "interface_depth_m": 76.0,
+  "criterion": "top of the first low-resistivity layer (author, Table 2)",
+  "provenance": {
+   "document": "main",
+   "pages": [
+    7
+   ],
+   "method": "manual",
+   "tool": "typed from the page at 200 dpi; geosigma.extract.printed_tables",
+   "extracted_on": "2026-10-24",
+   "notes": "Coordinates from Table 2 (pages 7-8), Old Israel Grid in units of 10 m. Depth = running sum of the printed thicknesses; each row was checked against the printed elevation and conductance.",
+   "table": "Table 2"
+  },
+  "notes": "First low-resistivity layer 1.9 ohm.m. Author's remark in Table 2: Noise (EM-37 only)."
+ },
+ {
+  "id": "rabinovich1993-HS260-layered",
+  "survey": "rabinovich-1993-tdem-coastal-interface",
+  "site": "HS260",
+  "method": "TEM",
+  "level": "L2",
+  "representation": "model_1d",
+  "measured_on": "1993",
+  "depth_max_m": 181.09,
+  "confidence": "B",
+  "status": "draft",
+  "model_type": "layered",
+  "layers": [
+   {
+    "top_m": 0.0,
+    "bottom_m": 64.49,
+    "rho_ohmm": 78.83
+   },
+   {
+    "top_m": 64.49,
+    "bottom_m": 181.09,
+    "rho_ohmm": 12.57
+   },
+   {
+    "top_m": 181.09,
+    "bottom_m": null,
+    "rho_ohmm": 2.32
+   }
+  ],
+  "provenance": {
+   "document": "main",
+   "pages": [
+    41
+   ],
+   "method": "manual",
+   "tool": "typed from the page at 200 dpi; geosigma.extract.printed_tables",
+   "extracted_on": "2026-10-24",
+   "notes": "Coordinates from Table 2 (pages 7-8), Old Israel Grid in units of 10 m. Depth = running sum of the printed thicknesses; each row was checked against the printed elevation and conductance.",
+   "table": "Appendix (layered inversion printout: resistivity, thickness, elevation, conductance)"
+  },
+  "notes": "Author's remark in Table 2: Noise (EM-37 only)."
+ },
+ {
+  "id": "rabinovich1993-HS260-first",
+  "survey": "rabinovich-1993-tdem-coastal-interface",
+  "site": "HS260",
+  "method": "TEM",
+  "level": "L3",
+  "representation": "interface_depth",
+  "measured_on": "1993",
+  "confidence": "B",
+  "status": "draft",
+  "interface_depth_m": 181.0,
+  "criterion": "top of the first low-resistivity layer (author, Table 2)",
+  "provenance": {
+   "document": "main",
+   "pages": [
+    7
+   ],
+   "method": "manual",
+   "tool": "typed from the page at 200 dpi; geosigma.extract.printed_tables",
+   "extracted_on": "2026-10-24",
+   "notes": "Coordinates from Table 2 (pages 7-8), Old Israel Grid in units of 10 m. Depth = running sum of the printed thicknesses; each row was checked against the printed elevation and conductance.",
+   "table": "Table 2"
+  },
+  "notes": "First low-resistivity layer 2.3 ohm.m. Author's remark in Table 2: Noise (EM-37 only)."
+ },
+ {
+  "id": "rabinovich1993-HS261-layered",
+  "survey": "rabinovich-1993-tdem-coastal-interface",
+  "site": "HS261",
+  "method": "TEM",
+  "level": "L2",
+  "representation": "model_1d",
+  "measured_on": "1993",
+  "depth_max_m": 120.94,
+  "confidence": "C",
+  "status": "draft",
+  "model_type": "layered",
+  "layers": [
+   {
+    "top_m": 0.0,
+    "bottom_m": 51.86,
+    "rho_ohmm": 31.26
+   },
+   {
+    "top_m": 51.86,
+    "bottom_m": 120.94,
+    "rho_ohmm": 10.56
+   },
+   {
+    "top_m": 120.94,
+    "bottom_m": null,
+    "rho_ohmm": 1.45
+   }
+  ],
+  "provenance": {
+   "document": "main",
+   "pages": [
+    42
+   ],
+   "method": "manual",
+   "tool": "typed from the page at 200 dpi; geosigma.extract.printed_tables",
+   "extracted_on": "2026-10-24",
+   "notes": "Coordinates from Table 2 (pages 7-8), Old Israel Grid in units of 10 m. Depth = running sum of the printed thicknesses; each row was checked against the printed elevation and conductance.",
+   "table": "Appendix (layered inversion printout: resistivity, thickness, elevation, conductance)"
+  },
+  "notes": "Author's remark in Table 2: Not reliable."
+ },
+ {
+  "id": "rabinovich1993-HS261-first",
+  "survey": "rabinovich-1993-tdem-coastal-interface",
+  "site": "HS261",
+  "method": "TEM",
+  "level": "L3",
+  "representation": "interface_depth",
+  "measured_on": "1993",
+  "confidence": "C",
+  "status": "draft",
+  "interface_depth_m": 121.0,
+  "criterion": "top of the first low-resistivity layer (author, Table 2)",
+  "provenance": {
+   "document": "main",
+   "pages": [
+    7
+   ],
+   "method": "manual",
+   "tool": "typed from the page at 200 dpi; geosigma.extract.printed_tables",
+   "extracted_on": "2026-10-24",
+   "notes": "Coordinates from Table 2 (pages 7-8), Old Israel Grid in units of 10 m. Depth = running sum of the printed thicknesses; each row was checked against the printed elevation and conductance.",
+   "table": "Table 2"
+  },
+  "notes": "First low-resistivity layer 1.4 ohm.m. Author's remark in Table 2: Not reliable."
+ },
+ {
+  "id": "rabinovich1993-HS262-layered",
+  "survey": "rabinovich-1993-tdem-coastal-interface",
+  "site": "HS262",
+  "method": "TEM",
+  "level": "L2",
+  "representation": "model_1d",
+  "measured_on": "1993",
+  "depth_max_m": 143.87,
+  "confidence": "B",
+  "status": "draft",
+  "model_type": "layered",
+  "layers": [
+   {
+    "top_m": 0.0,
+    "bottom_m": 57.84,
+    "rho_ohmm": 170.6
+   },
+   {
+    "top_m": 57.84,
+    "bottom_m": 82.48,
+    "rho_ohmm": 8.51
+   },
+   {
+    "top_m": 82.48,
+    "bottom_m": 143.87,
+    "rho_ohmm": 1.76
+   },
+   {
+    "top_m": 143.87,
+    "bottom_m": null,
+    "rho_ohmm": 11.81
+   }
+  ],
+  "provenance": {
+   "document": "main",
+   "pages": [
+    43
+   ],
+   "method": "manual",
+   "tool": "typed from the page at 200 dpi; geosigma.extract.printed_tables",
+   "extracted_on": "2026-10-24",
+   "notes": "Coordinates from Table 2 (pages 7-8), Old Israel Grid in units of 10 m. Depth = running sum of the printed thicknesses; each row was checked against the printed elevation and conductance.",
+   "table": "Appendix (layered inversion printout: resistivity, thickness, elevation, conductance)"
+  },
+  "notes": "Author's remark in Table 2: Noise (EM-37 only)."
+ },
+ {
+  "id": "rabinovich1993-HS262-first",
+  "survey": "rabinovich-1993-tdem-coastal-interface",
+  "site": "HS262",
+  "method": "TEM",
+  "level": "L3",
+  "representation": "interface_depth",
+  "measured_on": "1993",
+  "confidence": "B",
+  "status": "draft",
+  "interface_depth_m": 82.0,
+  "criterion": "top of the first low-resistivity layer (author, Table 2)",
+  "provenance": {
+   "document": "main",
+   "pages": [
+    7
+   ],
+   "method": "manual",
+   "tool": "typed from the page at 200 dpi; geosigma.extract.printed_tables",
+   "extracted_on": "2026-10-24",
+   "notes": "Coordinates from Table 2 (pages 7-8), Old Israel Grid in units of 10 m. Depth = running sum of the printed thicknesses; each row was checked against the printed elevation and conductance.",
+   "table": "Table 2"
+  },
+  "notes": "First low-resistivity layer 1.8 ohm.m. Author's remark in Table 2: Noise (EM-37 only)."
+ },
+ {
+  "id": "rabinovich1993-HS263-layered",
+  "survey": "rabinovich-1993-tdem-coastal-interface",
+  "site": "HS263",
+  "method": "TEM",
+  "level": "L2",
+  "representation": "model_1d",
+  "measured_on": "1993",
+  "depth_max_m": 152.57,
+  "confidence": "A",
+  "status": "draft",
+  "model_type": "layered",
+  "layers": [
+   {
+    "top_m": 0.0,
+    "bottom_m": 0.53,
+    "rho_ohmm": 1.92
+   },
+   {
+    "top_m": 0.53,
+    "bottom_m": 23.27,
+    "rho_ohmm": 154.8
+   },
+   {
+    "top_m": 23.27,
+    "bottom_m": 152.57,
+    "rho_ohmm": 6.91
+   },
+   {
+    "top_m": 152.57,
+    "bottom_m": null,
+    "rho_ohmm": 2.8
+   }
+  ],
+  "provenance": {
+   "document": "main",
+   "pages": [
+    44
+   ],
+   "method": "manual",
+   "tool": "typed from the page at 200 dpi; geosigma.extract.printed_tables",
+   "extracted_on": "2026-10-24",
+   "notes": "Coordinates from Table 2 (pages 7-8), Old Israel Grid in units of 10 m. Depth = running sum of the printed thicknesses; each row was checked against the printed elevation and conductance.",
+   "table": "Appendix (layered inversion printout: resistivity, thickness, elevation, conductance)"
+  }
+ },
+ {
+  "id": "rabinovich1993-HS263-first",
+  "survey": "rabinovich-1993-tdem-coastal-interface",
+  "site": "HS263",
+  "method": "TEM",
+  "level": "L3",
+  "representation": "interface_depth",
+  "measured_on": "1993",
+  "confidence": "A",
+  "status": "draft",
+  "interface_depth_m": 153.0,
+  "criterion": "top of the first low-resistivity layer (author, Table 2)",
+  "provenance": {
+   "document": "main",
+   "pages": [
+    7
+   ],
+   "method": "manual",
+   "tool": "typed from the page at 200 dpi; geosigma.extract.printed_tables",
+   "extracted_on": "2026-10-24",
+   "notes": "Coordinates from Table 2 (pages 7-8), Old Israel Grid in units of 10 m. Depth = running sum of the printed thicknesses; each row was checked against the printed elevation and conductance.",
+   "table": "Table 2"
+  },
+  "notes": "First low-resistivity layer 2.8 ohm.m."
+ },
+ {
+  "id": "rabinovich1993-HS264-layered",
+  "survey": "rabinovich-1993-tdem-coastal-interface",
+  "site": "HS264",
+  "method": "TEM",
+  "level": "L2",
+  "representation": "model_1d",
+  "measured_on": "1993",
+  "depth_max_m": 135.94,
+  "confidence": "A",
+  "status": "draft",
+  "model_type": "layered",
+  "layers": [
+   {
+    "top_m": 0.0,
+    "bottom_m": 1.64,
+    "rho_ohmm": 6.97
+   },
+   {
+    "top_m": 1.64,
+    "bottom_m": 36.36,
+    "rho_ohmm": 86.67
+   },
+   {
+    "top_m": 36.36,
+    "bottom_m": 47.98,
+    "rho_ohmm": 5.34
+   },
+   {
+    "top_m": 47.98,
+    "bottom_m": 91.56,
+    "rho_ohmm": 1.86
+   },
+   {
+    "top_m": 91.56,
+    "bottom_m": 135.94,
+    "rho_ohmm": 16.83
+   },
+   {
+    "top_m": 135.94,
+    "bottom_m": null,
+    "rho_ohmm": 1.83
+   }
+  ],
+  "provenance": {
+   "document": "main",
+   "pages": [
+    45
+   ],
+   "method": "manual",
+   "tool": "typed from the page at 200 dpi; geosigma.extract.printed_tables",
+   "extracted_on": "2026-10-24",
+   "notes": "Coordinates from Table 2 (pages 7-8), Old Israel Grid in units of 10 m. Depth = running sum of the printed thicknesses; each row was checked against the printed elevation and conductance.",
+   "table": "Appendix (layered inversion printout: resistivity, thickness, elevation, conductance)"
+  }
+ },
+ {
+  "id": "rabinovich1993-HS264-first",
+  "survey": "rabinovich-1993-tdem-coastal-interface",
+  "site": "HS264",
+  "method": "TEM",
+  "level": "L3",
+  "representation": "interface_depth",
+  "measured_on": "1993",
+  "confidence": "A",
+  "status": "draft",
+  "interface_depth_m": 48.0,
+  "criterion": "top of the first low-resistivity layer (author, Table 2)",
+  "provenance": {
+   "document": "main",
+   "pages": [
+    7
+   ],
+   "method": "manual",
+   "tool": "typed from the page at 200 dpi; geosigma.extract.printed_tables",
+   "extracted_on": "2026-10-24",
+   "notes": "Coordinates from Table 2 (pages 7-8), Old Israel Grid in units of 10 m. Depth = running sum of the printed thicknesses; each row was checked against the printed elevation and conductance.",
+   "table": "Table 2"
+  },
+  "notes": "First low-resistivity layer 1.9 ohm.m. Second low-resistivity layer 1.8 ohm.m."
+ },
+ {
+  "id": "rabinovich1993-HS264-second",
+  "survey": "rabinovich-1993-tdem-coastal-interface",
+  "site": "HS264",
+  "method": "TEM",
+  "level": "L3",
+  "representation": "interface_depth",
+  "measured_on": "1993",
+  "confidence": "A",
+  "status": "draft",
+  "interface_depth_m": 136.0,
+  "criterion": "top of the second low-resistivity layer (author, Table 2)",
+  "provenance": {
+   "document": "main",
+   "pages": [
+    7
+   ],
+   "method": "manual",
+   "tool": "typed from the page at 200 dpi; geosigma.extract.printed_tables",
+   "extracted_on": "2026-10-24",
+   "notes": "Coordinates from Table 2 (pages 7-8), Old Israel Grid in units of 10 m. Depth = running sum of the printed thicknesses; each row was checked against the printed elevation and conductance.",
+   "table": "Table 2"
+  },
+  "notes": "First low-resistivity layer 1.9 ohm.m. Second low-resistivity layer 1.8 ohm.m."
+ },
+ {
+  "id": "rabinovich1993-HS265-layered",
+  "survey": "rabinovich-1993-tdem-coastal-interface",
+  "site": "HS265",
+  "method": "TEM",
+  "level": "L2",
+  "representation": "model_1d",
+  "measured_on": "1993",
+  "depth_max_m": 199.18,
+  "confidence": "C",
+  "status": "draft",
+  "model_type": "layered",
+  "layers": [
+   {
+    "top_m": 0.0,
+    "bottom_m": 41.23,
+    "rho_ohmm": 47.11
+   },
+   {
+    "top_m": 41.23,
+    "bottom_m": 70.09,
+    "rho_ohmm": 17.76
+   },
+   {
+    "top_m": 70.09,
+    "bottom_m": 84.68,
+    "rho_ohmm": 1.7
+   },
+   {
+    "top_m": 84.68,
+    "bottom_m": 199.18,
+    "rho_ohmm": 25.03
+   },
+   {
+    "top_m": 199.18,
+    "bottom_m": null,
+    "rho_ohmm": 3.55
+   }
+  ],
+  "provenance": {
+   "document": "main",
+   "pages": [
+    46
+   ],
+   "method": "manual",
+   "tool": "typed from the page at 200 dpi; geosigma.extract.printed_tables",
+   "extracted_on": "2026-10-24",
+   "notes": "Coordinates from Table 2 (pages 7-8), Old Israel Grid in units of 10 m. Depth = running sum of the printed thicknesses; each row was checked against the printed elevation and conductance.",
+   "table": "Appendix (layered inversion printout: resistivity, thickness, elevation, conductance)"
+  },
+  "notes": "Author's remark in Table 2: Erroneous measurement."
+ },
+ {
+  "id": "rabinovich1993-HS265-first",
+  "survey": "rabinovich-1993-tdem-coastal-interface",
+  "site": "HS265",
+  "method": "TEM",
+  "level": "L3",
+  "representation": "interface_depth",
+  "measured_on": "1993",
+  "confidence": "C",
+  "status": "draft",
+  "interface_depth_m": 70.0,
+  "criterion": "top of the first low-resistivity layer (author, Table 2)",
+  "provenance": {
+   "document": "main",
+   "pages": [
+    7
+   ],
+   "method": "manual",
+   "tool": "typed from the page at 200 dpi; geosigma.extract.printed_tables",
+   "extracted_on": "2026-10-24",
+   "notes": "Coordinates from Table 2 (pages 7-8), Old Israel Grid in units of 10 m. Depth = running sum of the printed thicknesses; each row was checked against the printed elevation and conductance.",
+   "table": "Table 2"
+  },
+  "notes": "First low-resistivity layer 1.7 ohm.m. Second low-resistivity layer 3.6 ohm.m. Author's remark in Table 2: Erroneous measurement."
+ },
+ {
+  "id": "rabinovich1993-HS265-second",
+  "survey": "rabinovich-1993-tdem-coastal-interface",
+  "site": "HS265",
+  "method": "TEM",
+  "level": "L3",
+  "representation": "interface_depth",
+  "measured_on": "1993",
+  "confidence": "C",
+  "status": "draft",
+  "interface_depth_m": 199.0,
+  "criterion": "top of the second low-resistivity layer (author, Table 2)",
+  "provenance": {
+   "document": "main",
+   "pages": [
+    7
+   ],
+   "method": "manual",
+   "tool": "typed from the page at 200 dpi; geosigma.extract.printed_tables",
+   "extracted_on": "2026-10-24",
+   "notes": "Coordinates from Table 2 (pages 7-8), Old Israel Grid in units of 10 m. Depth = running sum of the printed thicknesses; each row was checked against the printed elevation and conductance.",
+   "table": "Table 2"
+  },
+  "notes": "First low-resistivity layer 1.7 ohm.m. Second low-resistivity layer 3.6 ohm.m. Author's remark in Table 2: Erroneous measurement."
+ },
+ {
+  "id": "rabinovich1993-HS266-layered",
+  "survey": "rabinovich-1993-tdem-coastal-interface",
+  "site": "HS266",
+  "method": "TEM",
+  "level": "L2",
+  "representation": "model_1d",
+  "measured_on": "1993",
+  "depth_max_m": 160.34,
+  "confidence": "B",
+  "status": "draft",
+  "model_type": "layered",
+  "layers": [
+   {
+    "top_m": 0.0,
+    "bottom_m": 50.84,
+    "rho_ohmm": 30.65
+   },
+   {
+    "top_m": 50.84,
+    "bottom_m": 101.19,
+    "rho_ohmm": 2.42
+   },
+   {
+    "top_m": 101.19,
+    "bottom_m": 142.3,
+    "rho_ohmm": 1.56
+   },
+   {
+    "top_m": 142.3,
+    "bottom_m": 160.34,
+    "rho_ohmm": 7.88
+   },
+   {
+    "top_m": 160.34,
+    "bottom_m": null,
+    "rho_ohmm": 1.35
+   }
+  ],
+  "provenance": {
+   "document": "main",
+   "pages": [
+    47
+   ],
+   "method": "manual",
+   "tool": "typed from the page at 200 dpi; geosigma.extract.printed_tables",
+   "extracted_on": "2026-10-24",
+   "notes": "Coordinates from Table 2 (pages 7-8), Old Israel Grid in units of 10 m. Depth = running sum of the printed thicknesses; each row was checked against the printed elevation and conductance.",
+   "table": "Appendix (layered inversion printout: resistivity, thickness, elevation, conductance)"
+  },
+  "notes": "Author's remark in Table 2: Noise (EM-37 only)."
+ },
+ {
+  "id": "rabinovich1993-HS266-first",
+  "survey": "rabinovich-1993-tdem-coastal-interface",
+  "site": "HS266",
+  "method": "TEM",
+  "level": "L3",
+  "representation": "interface_depth",
+  "measured_on": "1993",
+  "confidence": "B",
+  "status": "draft",
+  "interface_depth_m": 101.0,
+  "criterion": "top of the first low-resistivity layer (author, Table 2)",
+  "provenance": {
+   "document": "main",
+   "pages": [
+    7
+   ],
+   "method": "manual",
+   "tool": "typed from the page at 200 dpi; geosigma.extract.printed_tables",
+   "extracted_on": "2026-10-24",
+   "notes": "Coordinates from Table 2 (pages 7-8), Old Israel Grid in units of 10 m. Depth = running sum of the printed thicknesses; each row was checked against the printed elevation and conductance.",
+   "table": "Table 2"
+  },
+  "notes": "First low-resistivity layer 1.6 ohm.m. Second low-resistivity layer 1.4 ohm.m. Author's remark in Table 2: Noise (EM-37 only)."
+ },
+ {
+  "id": "rabinovich1993-HS266-second",
+  "survey": "rabinovich-1993-tdem-coastal-interface",
+  "site": "HS266",
+  "method": "TEM",
+  "level": "L3",
+  "representation": "interface_depth",
+  "measured_on": "1993",
+  "confidence": "B",
+  "status": "draft",
+  "interface_depth_m": 160.0,
+  "criterion": "top of the second low-resistivity layer (author, Table 2)",
+  "provenance": {
+   "document": "main",
+   "pages": [
+    7
+   ],
+   "method": "manual",
+   "tool": "typed from the page at 200 dpi; geosigma.extract.printed_tables",
+   "extracted_on": "2026-10-24",
+   "notes": "Coordinates from Table 2 (pages 7-8), Old Israel Grid in units of 10 m. Depth = running sum of the printed thicknesses; each row was checked against the printed elevation and conductance.",
+   "table": "Table 2"
+  },
+  "notes": "First low-resistivity layer 1.6 ohm.m. Second low-resistivity layer 1.4 ohm.m. Author's remark in Table 2: Noise (EM-37 only)."
+ },
+ {
+  "id": "rabinovich1993-HS267-layered",
+  "survey": "rabinovich-1993-tdem-coastal-interface",
+  "site": "HS267",
+  "method": "TEM",
+  "level": "L2",
+  "representation": "model_1d",
+  "measured_on": "1993",
+  "depth_max_m": 93.57,
+  "confidence": "B",
+  "status": "draft",
+  "model_type": "layered",
+  "layers": [
+   {
+    "top_m": 0.0,
+    "bottom_m": 45.32,
+    "rho_ohmm": 27.62
+   },
+   {
+    "top_m": 45.32,
+    "bottom_m": 93.57,
+    "rho_ohmm": 1.95
+   },
+   {
+    "top_m": 93.57,
+    "bottom_m": null,
+    "rho_ohmm": 6.56
+   }
+  ],
+  "provenance": {
+   "document": "main",
+   "pages": [
+    48
+   ],
+   "method": "manual",
+   "tool": "typed from the page at 200 dpi; geosigma.extract.printed_tables",
+   "extracted_on": "2026-10-24",
+   "notes": "Coordinates from Table 2 (pages 7-8), Old Israel Grid in units of 10 m. Depth = running sum of the printed thicknesses; each row was checked against the printed elevation and conductance.",
+   "table": "Appendix (layered inversion printout: resistivity, thickness, elevation, conductance)"
+  },
+  "notes": "Printout data set HS267A. Author's remark in Table 2: Noise (EM-37 only)."
+ },
+ {
+  "id": "rabinovich1993-HS267-first",
+  "survey": "rabinovich-1993-tdem-coastal-interface",
+  "site": "HS267",
+  "method": "TEM",
+  "level": "L3",
+  "representation": "interface_depth",
+  "measured_on": "1993",
+  "confidence": "B",
+  "status": "draft",
+  "interface_depth_m": 45.0,
+  "criterion": "top of the first low-resistivity layer (author, Table 2)",
+  "provenance": {
+   "document": "main",
+   "pages": [
+    8
+   ],
+   "method": "manual",
+   "tool": "typed from the page at 200 dpi; geosigma.extract.printed_tables",
+   "extracted_on": "2026-10-24",
+   "notes": "Coordinates from Table 2 (pages 7-8), Old Israel Grid in units of 10 m. Depth = running sum of the printed thicknesses; each row was checked against the printed elevation and conductance.",
+   "table": "Table 2"
+  },
+  "notes": "First low-resistivity layer 2.0 ohm.m. Author's remark in Table 2: Noise (EM-37 only)."
+ },
+ {
+  "id": "rabinovich1993-HS268-layered",
+  "survey": "rabinovich-1993-tdem-coastal-interface",
+  "site": "HS268",
+  "method": "TEM",
+  "level": "L2",
+  "representation": "model_1d",
+  "measured_on": "1993",
+  "depth_max_m": 139.59,
+  "confidence": "A",
+  "status": "draft",
+  "model_type": "layered",
+  "layers": [
+   {
+    "top_m": 0.0,
+    "bottom_m": 1.93,
+    "rho_ohmm": 2.88
+   },
+   {
+    "top_m": 1.93,
+    "bottom_m": 43.27,
+    "rho_ohmm": 98.22
+   },
+   {
+    "top_m": 43.27,
+    "bottom_m": 78.75,
+    "rho_ohmm": 3.27
+   },
+   {
+    "top_m": 78.75,
+    "bottom_m": 139.59,
+    "rho_ohmm": 0.693
+   },
+   {
+    "top_m": 139.59,
+    "bottom_m": null,
+    "rho_ohmm": 99.08
+   }
+  ],
+  "provenance": {
+   "document": "main",
+   "pages": [
+    49
+   ],
+   "method": "manual",
+   "tool": "typed from the page at 200 dpi; geosigma.extract.printed_tables",
+   "extracted_on": "2026-10-24",
+   "notes": "Coordinates from Table 2 (pages 7-8), Old Israel Grid in units of 10 m. Depth = running sum of the printed thicknesses; each row was checked against the printed elevation and conductance.",
+   "table": "Appendix (layered inversion printout: resistivity, thickness, elevation, conductance)"
+  }
+ },
+ {
+  "id": "rabinovich1993-HS268-first",
+  "survey": "rabinovich-1993-tdem-coastal-interface",
+  "site": "HS268",
+  "method": "TEM",
+  "level": "L3",
+  "representation": "interface_depth",
+  "measured_on": "1993",
+  "confidence": "A",
+  "status": "draft",
+  "interface_depth_m": 43.0,
+  "criterion": "top of the first low-resistivity layer (author, Table 2)",
+  "provenance": {
+   "document": "main",
+   "pages": [
+    8
+   ],
+   "method": "manual",
+   "tool": "typed from the page at 200 dpi; geosigma.extract.printed_tables",
+   "extracted_on": "2026-10-24",
+   "notes": "Coordinates from Table 2 (pages 7-8), Old Israel Grid in units of 10 m. Depth = running sum of the printed thicknesses; each row was checked against the printed elevation and conductance.",
+   "table": "Table 2"
+  },
+  "notes": "First low-resistivity layer 3.3 ohm.m. Second low-resistivity layer 0.7 ohm.m."
+ },
+ {
+  "id": "rabinovich1993-HS268-second",
+  "survey": "rabinovich-1993-tdem-coastal-interface",
+  "site": "HS268",
+  "method": "TEM",
+  "level": "L3",
+  "representation": "interface_depth",
+  "measured_on": "1993",
+  "confidence": "A",
+  "status": "draft",
+  "interface_depth_m": 79.0,
+  "criterion": "top of the second low-resistivity layer (author, Table 2)",
+  "provenance": {
+   "document": "main",
+   "pages": [
+    8
+   ],
+   "method": "manual",
+   "tool": "typed from the page at 200 dpi; geosigma.extract.printed_tables",
+   "extracted_on": "2026-10-24",
+   "notes": "Coordinates from Table 2 (pages 7-8), Old Israel Grid in units of 10 m. Depth = running sum of the printed thicknesses; each row was checked against the printed elevation and conductance.",
+   "table": "Table 2"
+  },
+  "notes": "First low-resistivity layer 3.3 ohm.m. Second low-resistivity layer 0.7 ohm.m."
+ },
+ {
+  "id": "rabinovich1993-HS269-layered",
+  "survey": "rabinovich-1993-tdem-coastal-interface",
+  "site": "HS269",
+  "method": "TEM",
+  "level": "L2",
+  "representation": "model_1d",
+  "measured_on": "1993",
+  "depth_max_m": 136.5,
+  "confidence": "A",
+  "status": "draft",
+  "model_type": "layered",
+  "layers": [
+   {
+    "top_m": 0.0,
+    "bottom_m": 2.17,
+    "rho_ohmm": 23.66
+   },
+   {
+    "top_m": 2.17,
+    "bottom_m": 49.22,
+    "rho_ohmm": 125.1
+   },
+   {
+    "top_m": 49.22,
+    "bottom_m": 75.99,
+    "rho_ohmm": 3.18
+   },
+   {
+    "top_m": 75.99,
+    "bottom_m": 136.5,
+    "rho_ohmm": 1.69
+   },
+   {
+    "top_m": 136.5,
+    "bottom_m": null,
+    "rho_ohmm": 3.18
+   }
+  ],
+  "provenance": {
+   "document": "main",
+   "pages": [
+    50
+   ],
+   "method": "manual",
+   "tool": "typed from the page at 200 dpi; geosigma.extract.printed_tables",
+   "extracted_on": "2026-10-24",
+   "notes": "Coordinates from Table 2 (pages 7-8), Old Israel Grid in units of 10 m. Depth = running sum of the printed thicknesses; each row was checked against the printed elevation and conductance.",
+   "table": "Appendix (layered inversion printout: resistivity, thickness, elevation, conductance)"
+  }
+ },
+ {
+  "id": "rabinovich1993-HS269-first",
+  "survey": "rabinovich-1993-tdem-coastal-interface",
+  "site": "HS269",
+  "method": "TEM",
+  "level": "L3",
+  "representation": "interface_depth",
+  "measured_on": "1993",
+  "confidence": "A",
+  "status": "draft",
+  "interface_depth_m": 76.0,
+  "criterion": "top of the first low-resistivity layer (author, Table 2)",
+  "provenance": {
+   "document": "main",
+   "pages": [
+    8
+   ],
+   "method": "manual",
+   "tool": "typed from the page at 200 dpi; geosigma.extract.printed_tables",
+   "extracted_on": "2026-10-24",
+   "notes": "Coordinates from Table 2 (pages 7-8), Old Israel Grid in units of 10 m. Depth = running sum of the printed thicknesses; each row was checked against the printed elevation and conductance.",
+   "table": "Table 2"
+  },
+  "notes": "First low-resistivity layer 1.7 ohm.m."
+ },
+ {
+  "id": "rabinovich1993-HS270-layered",
+  "survey": "rabinovich-1993-tdem-coastal-interface",
+  "site": "HS270",
+  "method": "TEM",
+  "level": "L2",
+  "representation": "model_1d",
+  "measured_on": "1993",
+  "depth_max_m": 231.3,
+  "confidence": "A",
+  "status": "draft",
+  "model_type": "layered",
+  "layers": [
+   {
+    "top_m": 0.0,
+    "bottom_m": 163.4,
+    "rho_ohmm": 82.13
+   },
+   {
+    "top_m": 163.4,
+    "bottom_m": 231.3,
+    "rho_ohmm": 7.63
+   },
+   {
+    "top_m": 231.3,
+    "bottom_m": null,
+    "rho_ohmm": 1.63
+   }
+  ],
+  "provenance": {
+   "document": "main",
+   "pages": [
+    51
+   ],
+   "method": "manual",
+   "tool": "typed from the page at 200 dpi; geosigma.extract.printed_tables",
+   "extracted_on": "2026-10-24",
+   "notes": "Coordinates from Table 2 (pages 7-8), Old Israel Grid in units of 10 m. Depth = running sum of the printed thicknesses; each row was checked against the printed elevation and conductance.",
+   "table": "Appendix (layered inversion printout: resistivity, thickness, elevation, conductance)"
+  },
+  "notes": "Author's remark in Table 2: EM-37."
+ },
+ {
+  "id": "rabinovich1993-HS270-first",
+  "survey": "rabinovich-1993-tdem-coastal-interface",
+  "site": "HS270",
+  "method": "TEM",
+  "level": "L3",
+  "representation": "interface_depth",
+  "measured_on": "1993",
+  "confidence": "A",
+  "status": "draft",
+  "interface_depth_m": 231.0,
+  "criterion": "top of the first low-resistivity layer (author, Table 2)",
+  "provenance": {
+   "document": "main",
+   "pages": [
+    8
+   ],
+   "method": "manual",
+   "tool": "typed from the page at 200 dpi; geosigma.extract.printed_tables",
+   "extracted_on": "2026-10-24",
+   "notes": "Coordinates from Table 2 (pages 7-8), Old Israel Grid in units of 10 m. Depth = running sum of the printed thicknesses; each row was checked against the printed elevation and conductance.",
+   "table": "Table 2"
+  },
+  "notes": "First low-resistivity layer 1.6 ohm.m. Author's remark in Table 2: EM-37."
+ },
+ {
+  "id": "rabinovich1993-HS271-layered",
+  "survey": "rabinovich-1993-tdem-coastal-interface",
+  "site": "HS271",
+  "method": "TEM",
+  "level": "L2",
+  "representation": "model_1d",
+  "measured_on": "1993",
+  "depth_max_m": 118.19,
+  "confidence": "C",
+  "status": "draft",
+  "model_type": "layered",
+  "layers": [
+   {
+    "top_m": 0.0,
+    "bottom_m": 6.86,
+    "rho_ohmm": 20.51
+   },
+   {
+    "top_m": 6.86,
+    "bottom_m": 71.19,
+    "rho_ohmm": 44.03
+   },
+   {
+    "top_m": 71.19,
+    "bottom_m": 118.19,
+    "rho_ohmm": 1.02
+   },
+   {
+    "top_m": 118.19,
+    "bottom_m": null,
+    "rho_ohmm": 6.57
+   }
+  ],
+  "provenance": {
+   "document": "main",
+   "pages": [
+    52
+   ],
+   "method": "manual",
+   "tool": "typed from the page at 200 dpi; geosigma.extract.printed_tables",
+   "extracted_on": "2026-10-24",
+   "notes": "Coordinates from Table 2 (pages 7-8), Old Israel Grid in units of 10 m. Depth = running sum of the printed thicknesses; each row was checked against the printed elevation and conductance.",
+   "table": "Appendix (layered inversion printout: resistivity, thickness, elevation, conductance)"
+  },
+  "notes": "Printout data set HS271A. Author's remark in Table 2: Not reliable."
+ },
+ {
+  "id": "rabinovich1993-HS271-first",
+  "survey": "rabinovich-1993-tdem-coastal-interface",
+  "site": "HS271",
+  "method": "TEM",
+  "level": "L3",
+  "representation": "interface_depth",
+  "measured_on": "1993",
+  "confidence": "C",
+  "status": "draft",
+  "interface_depth_m": 71.0,
+  "criterion": "top of the first low-resistivity layer (author, Table 2)",
+  "provenance": {
+   "document": "main",
+   "pages": [
+    8
+   ],
+   "method": "manual",
+   "tool": "typed from the page at 200 dpi; geosigma.extract.printed_tables",
+   "extracted_on": "2026-10-24",
+   "notes": "Coordinates from Table 2 (pages 7-8), Old Israel Grid in units of 10 m. Depth = running sum of the printed thicknesses; each row was checked against the printed elevation and conductance.",
+   "table": "Table 2"
+  },
+  "notes": "First low-resistivity layer 1.0 ohm.m. Author's remark in Table 2: Not reliable."
+ },
+ {
+  "id": "rabinovich1993-HS272-layered",
+  "survey": "rabinovich-1993-tdem-coastal-interface",
+  "site": "HS272",
+  "method": "TEM",
+  "level": "L2",
+  "representation": "model_1d",
+  "measured_on": "1993",
+  "depth_max_m": 128.68,
+  "confidence": "A",
+  "status": "draft",
+  "model_type": "layered",
+  "layers": [
+   {
+    "top_m": 0.0,
+    "bottom_m": 9.84,
+    "rho_ohmm": 51.08
+   },
+   {
+    "top_m": 9.84,
+    "bottom_m": 70.45,
+    "rho_ohmm": 105.6
+   },
+   {
+    "top_m": 70.45,
+    "bottom_m": 94.22,
+    "rho_ohmm": 9.21
+   },
+   {
+    "top_m": 94.22,
+    "bottom_m": 128.68,
+    "rho_ohmm": 1.85
+   },
+   {
+    "top_m": 128.68,
+    "bottom_m": null,
+    "rho_ohmm": 7.73
+   }
+  ],
+  "provenance": {
+   "document": "main",
+   "pages": [
+    53
+   ],
+   "method": "manual",
+   "tool": "typed from the page at 200 dpi; geosigma.extract.printed_tables",
+   "extracted_on": "2026-10-24",
+   "notes": "Coordinates from Table 2 (pages 7-8), Old Israel Grid in units of 10 m. Depth = running sum of the printed thicknesses; each row was checked against the printed elevation and conductance.",
+   "table": "Appendix (layered inversion printout: resistivity, thickness, elevation, conductance)"
+  },
+  "notes": "Printout data set HS272A."
+ },
+ {
+  "id": "rabinovich1993-HS272-first",
+  "survey": "rabinovich-1993-tdem-coastal-interface",
+  "site": "HS272",
+  "method": "TEM",
+  "level": "L3",
+  "representation": "interface_depth",
+  "measured_on": "1993",
+  "confidence": "A",
+  "status": "draft",
+  "interface_depth_m": 94.0,
+  "criterion": "top of the first low-resistivity layer (author, Table 2)",
+  "provenance": {
+   "document": "main",
+   "pages": [
+    8
+   ],
+   "method": "manual",
+   "tool": "typed from the page at 200 dpi; geosigma.extract.printed_tables",
+   "extracted_on": "2026-10-24",
+   "notes": "Coordinates from Table 2 (pages 7-8), Old Israel Grid in units of 10 m. Depth = running sum of the printed thicknesses; each row was checked against the printed elevation and conductance.",
+   "table": "Table 2"
+  },
+  "notes": "First low-resistivity layer 1.8 ohm.m."
+ },
+ {
+  "id": "rabinovich1993-HS273-layered",
+  "survey": "rabinovich-1993-tdem-coastal-interface",
+  "site": "HS273",
+  "method": "TEM",
+  "level": "L2",
+  "representation": "model_1d",
+  "measured_on": "1993",
+  "depth_max_m": 202.31,
+  "confidence": "A",
+  "status": "draft",
+  "model_type": "layered",
+  "layers": [
+   {
+    "top_m": 0.0,
+    "bottom_m": 5.36,
+    "rho_ohmm": 14.57
+   },
+   {
+    "top_m": 5.36,
+    "bottom_m": 83.97,
+    "rho_ohmm": 806.0
+   },
+   {
+    "top_m": 83.97,
+    "bottom_m": 98.87,
+    "rho_ohmm": 4.64
+   },
+   {
+    "top_m": 98.87,
+    "bottom_m": 138.35,
+    "rho_ohmm": 1.55
+   },
+   {
+    "top_m": 138.35,
+    "bottom_m": 202.31,
+    "rho_ohmm": 14.52
+   },
+   {
+    "top_m": 202.31,
+    "bottom_m": null,
+    "rho_ohmm": 1.67
+   }
+  ],
+  "provenance": {
+   "document": "main",
+   "pages": [
+    54
+   ],
+   "method": "manual",
+   "tool": "typed from the page at 200 dpi; geosigma.extract.printed_tables",
+   "extracted_on": "2026-10-24",
+   "notes": "Coordinates from Table 2 (pages 7-8), Old Israel Grid in units of 10 m. Depth = running sum of the printed thicknesses; each row was checked against the printed elevation and conductance.",
+   "table": "Appendix (layered inversion printout: resistivity, thickness, elevation, conductance)"
+  },
+  "notes": "Printout data set HS273A."
+ },
+ {
+  "id": "rabinovich1993-HS273-first",
+  "survey": "rabinovich-1993-tdem-coastal-interface",
+  "site": "HS273",
+  "method": "TEM",
+  "level": "L3",
+  "representation": "interface_depth",
+  "measured_on": "1993",
+  "confidence": "A",
+  "status": "draft",
+  "interface_depth_m": 99.0,
+  "criterion": "top of the first low-resistivity layer (author, Table 2)",
+  "provenance": {
+   "document": "main",
+   "pages": [
+    8
+   ],
+   "method": "manual",
+   "tool": "typed from the page at 200 dpi; geosigma.extract.printed_tables",
+   "extracted_on": "2026-10-24",
+   "notes": "Coordinates from Table 2 (pages 7-8), Old Israel Grid in units of 10 m. Depth = running sum of the printed thicknesses; each row was checked against the printed elevation and conductance.",
+   "table": "Table 2"
+  },
+  "notes": "First low-resistivity layer 1.6 ohm.m. Second low-resistivity layer 1.7 ohm.m."
+ },
+ {
+  "id": "rabinovich1993-HS273-second",
+  "survey": "rabinovich-1993-tdem-coastal-interface",
+  "site": "HS273",
+  "method": "TEM",
+  "level": "L3",
+  "representation": "interface_depth",
+  "measured_on": "1993",
+  "confidence": "A",
+  "status": "draft",
+  "interface_depth_m": 202.0,
+  "criterion": "top of the second low-resistivity layer (author, Table 2)",
+  "provenance": {
+   "document": "main",
+   "pages": [
+    8
+   ],
+   "method": "manual",
+   "tool": "typed from the page at 200 dpi; geosigma.extract.printed_tables",
+   "extracted_on": "2026-10-24",
+   "notes": "Coordinates from Table 2 (pages 7-8), Old Israel Grid in units of 10 m. Depth = running sum of the printed thicknesses; each row was checked against the printed elevation and conductance.",
+   "table": "Table 2"
+  },
+  "notes": "First low-resistivity layer 1.6 ohm.m. Second low-resistivity layer 1.7 ohm.m."
+ },
+ {
+  "id": "rabinovich1993-HS274-layered",
+  "survey": "rabinovich-1993-tdem-coastal-interface",
+  "site": "HS274",
+  "method": "TEM",
+  "level": "L2",
+  "representation": "model_1d",
+  "measured_on": "1993",
+  "depth_max_m": 130.92,
+  "confidence": "A",
+  "status": "draft",
+  "model_type": "layered",
+  "layers": [
+   {
+    "top_m": 0.0,
+    "bottom_m": 4.08,
+    "rho_ohmm": 28.18
+   },
+   {
+    "top_m": 4.08,
+    "bottom_m": 61.14,
+    "rho_ohmm": 108.2
+   },
+   {
+    "top_m": 61.14,
+    "bottom_m": 80.51,
+    "rho_ohmm": 2.76
+   },
+   {
+    "top_m": 80.51,
+    "bottom_m": 130.92,
+    "rho_ohmm": 1.5
+   },
+   {
+    "top_m": 130.92,
+    "bottom_m": null,
+    "rho_ohmm": 3.48
+   }
+  ],
+  "provenance": {
+   "document": "main",
+   "pages": [
+    55
+   ],
+   "method": "manual",
+   "tool": "typed from the page at 200 dpi; geosigma.extract.printed_tables",
+   "extracted_on": "2026-10-24",
+   "notes": "Coordinates from Table 2 (pages 7-8), Old Israel Grid in units of 10 m. Depth = running sum of the printed thicknesses; each row was checked against the printed elevation and conductance.",
+   "table": "Appendix (layered inversion printout: resistivity, thickness, elevation, conductance)"
+  },
+  "notes": "Printout data set HS274A."
+ },
+ {
+  "id": "rabinovich1993-HS274-first",
+  "survey": "rabinovich-1993-tdem-coastal-interface",
+  "site": "HS274",
+  "method": "TEM",
+  "level": "L3",
+  "representation": "interface_depth",
+  "measured_on": "1993",
+  "confidence": "A",
+  "status": "draft",
+  "interface_depth_m": 80.0,
+  "criterion": "top of the first low-resistivity layer (author, Table 2)",
+  "provenance": {
+   "document": "main",
+   "pages": [
+    8
+   ],
+   "method": "manual",
+   "tool": "typed from the page at 200 dpi; geosigma.extract.printed_tables",
+   "extracted_on": "2026-10-24",
+   "notes": "Coordinates from Table 2 (pages 7-8), Old Israel Grid in units of 10 m. Depth = running sum of the printed thicknesses; each row was checked against the printed elevation and conductance.",
+   "table": "Table 2"
+  },
+  "notes": "First low-resistivity layer 1.5 ohm.m."
+ },
+ {
+  "id": "rabinovich1993-HS275-layered",
+  "survey": "rabinovich-1993-tdem-coastal-interface",
+  "site": "HS275",
+  "method": "TEM",
+  "level": "L2",
+  "representation": "model_1d",
+  "measured_on": "1993",
+  "depth_max_m": 157.12,
+  "confidence": "A",
+  "status": "draft",
+  "model_type": "layered",
+  "layers": [
+   {
+    "top_m": 0.0,
+    "bottom_m": 1.84,
+    "rho_ohmm": 7.49
+   },
+   {
+    "top_m": 1.84,
+    "bottom_m": 51.21,
+    "rho_ohmm": 136.5
+   },
+   {
+    "top_m": 51.21,
+    "bottom_m": 72.98,
+    "rho_ohmm": 4.37
+   },
+   {
+    "top_m": 72.98,
+    "bottom_m": 116.61,
+    "rho_ohmm": 1.91
+   },
+   {
+    "top_m": 116.61,
+    "bottom_m": 157.12,
+    "rho_ohmm": 62.63
+   },
+   {
+    "top_m": 157.12,
+    "bottom_m": null,
+    "rho_ohmm": 1.49
+   }
+  ],
+  "provenance": {
+   "document": "main",
+   "pages": [
+    56
+   ],
+   "method": "manual",
+   "tool": "typed from the page at 200 dpi; geosigma.extract.printed_tables",
+   "extracted_on": "2026-10-24",
+   "notes": "Coordinates from Table 2 (pages 7-8), Old Israel Grid in units of 10 m. Depth = running sum of the printed thicknesses; each row was checked against the printed elevation and conductance.",
+   "table": "Appendix (layered inversion printout: resistivity, thickness, elevation, conductance)"
+  },
+  "notes": "Printout data set HS275A."
+ },
+ {
+  "id": "rabinovich1993-HS275-first",
+  "survey": "rabinovich-1993-tdem-coastal-interface",
+  "site": "HS275",
+  "method": "TEM",
+  "level": "L3",
+  "representation": "interface_depth",
+  "measured_on": "1993",
+  "confidence": "A",
+  "status": "draft",
+  "interface_depth_m": 73.0,
+  "criterion": "top of the first low-resistivity layer (author, Table 2)",
+  "provenance": {
+   "document": "main",
+   "pages": [
+    8
+   ],
+   "method": "manual",
+   "tool": "typed from the page at 200 dpi; geosigma.extract.printed_tables",
+   "extracted_on": "2026-10-24",
+   "notes": "Coordinates from Table 2 (pages 7-8), Old Israel Grid in units of 10 m. Depth = running sum of the printed thicknesses; each row was checked against the printed elevation and conductance.",
+   "table": "Table 2"
+  },
+  "notes": "First low-resistivity layer 1.9 ohm.m. Second low-resistivity layer 1.5 ohm.m."
+ },
+ {
+  "id": "rabinovich1993-HS275-second",
+  "survey": "rabinovich-1993-tdem-coastal-interface",
+  "site": "HS275",
+  "method": "TEM",
+  "level": "L3",
+  "representation": "interface_depth",
+  "measured_on": "1993",
+  "confidence": "A",
+  "status": "draft",
+  "interface_depth_m": 157.0,
+  "criterion": "top of the second low-resistivity layer (author, Table 2)",
+  "provenance": {
+   "document": "main",
+   "pages": [
+    8
+   ],
+   "method": "manual",
+   "tool": "typed from the page at 200 dpi; geosigma.extract.printed_tables",
+   "extracted_on": "2026-10-24",
+   "notes": "Coordinates from Table 2 (pages 7-8), Old Israel Grid in units of 10 m. Depth = running sum of the printed thicknesses; each row was checked against the printed elevation and conductance.",
+   "table": "Table 2"
+  },
+  "notes": "First low-resistivity layer 1.9 ohm.m. Second low-resistivity layer 1.5 ohm.m."
+ },
+ {
+  "id": "rabinovich1993-HS276-layered",
+  "survey": "rabinovich-1993-tdem-coastal-interface",
+  "site": "HS276",
+  "method": "TEM",
+  "level": "L2",
+  "representation": "model_1d",
+  "measured_on": "1993",
+  "depth_max_m": 133.32,
+  "confidence": "A",
+  "status": "draft",
+  "model_type": "layered",
+  "layers": [
+   {
+    "top_m": 0.0,
+    "bottom_m": 0.28,
+    "rho_ohmm": 0.952
+   },
+   {
+    "top_m": 0.28,
+    "bottom_m": 30.74,
+    "rho_ohmm": 143.1
+   },
+   {
+    "top_m": 30.74,
+    "bottom_m": 41.37,
+    "rho_ohmm": 3.37
+   },
+   {
+    "top_m": 41.37,
+    "bottom_m": 93.23,
+    "rho_ohmm": 1.49
+   },
+   {
+    "top_m": 93.23,
+    "bottom_m": 133.32,
+    "rho_ohmm": 54.89
+   },
+   {
+    "top_m": 133.32,
+    "bottom_m": null,
+    "rho_ohmm": 1.9
+   }
+  ],
+  "provenance": {
+   "document": "main",
+   "pages": [
+    57
+   ],
+   "method": "manual",
+   "tool": "typed from the page at 200 dpi; geosigma.extract.printed_tables",
+   "extracted_on": "2026-10-24",
+   "notes": "Coordinates from Table 2 (pages 7-8), Old Israel Grid in units of 10 m. Depth = running sum of the printed thicknesses; each row was checked against the printed elevation and conductance.",
+   "table": "Appendix (layered inversion printout: resistivity, thickness, elevation, conductance)"
+  }
+ },
+ {
+  "id": "rabinovich1993-HS276-first",
+  "survey": "rabinovich-1993-tdem-coastal-interface",
+  "site": "HS276",
+  "method": "TEM",
+  "level": "L3",
+  "representation": "interface_depth",
+  "measured_on": "1993",
+  "confidence": "A",
+  "status": "draft",
+  "interface_depth_m": 41.0,
+  "criterion": "top of the first low-resistivity layer (author, Table 2)",
+  "provenance": {
+   "document": "main",
+   "pages": [
+    8
+   ],
+   "method": "manual",
+   "tool": "typed from the page at 200 dpi; geosigma.extract.printed_tables",
+   "extracted_on": "2026-10-24",
+   "notes": "Coordinates from Table 2 (pages 7-8), Old Israel Grid in units of 10 m. Depth = running sum of the printed thicknesses; each row was checked against the printed elevation and conductance.",
+   "table": "Table 2"
+  },
+  "notes": "First low-resistivity layer 1.5 ohm.m. Second low-resistivity layer 1.9 ohm.m."
+ },
+ {
+  "id": "rabinovich1993-HS276-second",
+  "survey": "rabinovich-1993-tdem-coastal-interface",
+  "site": "HS276",
+  "method": "TEM",
+  "level": "L3",
+  "representation": "interface_depth",
+  "measured_on": "1993",
+  "confidence": "A",
+  "status": "draft",
+  "interface_depth_m": 133.0,
+  "criterion": "top of the second low-resistivity layer (author, Table 2)",
+  "provenance": {
+   "document": "main",
+   "pages": [
+    8
+   ],
+   "method": "manual",
+   "tool": "typed from the page at 200 dpi; geosigma.extract.printed_tables",
+   "extracted_on": "2026-10-24",
+   "notes": "Coordinates from Table 2 (pages 7-8), Old Israel Grid in units of 10 m. Depth = running sum of the printed thicknesses; each row was checked against the printed elevation and conductance.",
+   "table": "Table 2"
+  },
+  "notes": "First low-resistivity layer 1.5 ohm.m. Second low-resistivity layer 1.9 ohm.m."
+ },
+ {
+  "id": "rabinovich1993-HS277-layered",
+  "survey": "rabinovich-1993-tdem-coastal-interface",
+  "site": "HS277",
+  "method": "TEM",
+  "level": "L2",
+  "representation": "model_1d",
+  "measured_on": "1993",
+  "depth_max_m": 121.62,
+  "confidence": "A",
+  "status": "draft",
+  "model_type": "layered",
+  "layers": [
+   {
+    "top_m": 0.0,
+    "bottom_m": 0.81,
+    "rho_ohmm": 1.22
+   },
+   {
+    "top_m": 0.81,
+    "bottom_m": 32.31,
+    "rho_ohmm": 263.9
+   },
+   {
+    "top_m": 32.31,
+    "bottom_m": 42.65,
+    "rho_ohmm": 1.33
+   },
+   {
+    "top_m": 42.65,
+    "bottom_m": 86.39,
+    "rho_ohmm": 3.69
+   },
+   {
+    "top_m": 86.39,
+    "bottom_m": 121.62,
+    "rho_ohmm": 149.6
+   },
+   {
+    "top_m": 121.62,
+    "bottom_m": null,
+    "rho_ohmm": 2.61
+   }
+  ],
+  "provenance": {
+   "document": "main",
+   "pages": [
+    58
+   ],
+   "method": "manual",
+   "tool": "typed from the page at 200 dpi; geosigma.extract.printed_tables",
+   "extracted_on": "2026-10-24",
+   "notes": "Coordinates from Table 2 (pages 7-8), Old Israel Grid in units of 10 m. Depth = running sum of the printed thicknesses; each row was checked against the printed elevation and conductance.",
+   "table": "Appendix (layered inversion printout: resistivity, thickness, elevation, conductance)"
+  }
+ },
+ {
+  "id": "rabinovich1993-HS277-first",
+  "survey": "rabinovich-1993-tdem-coastal-interface",
+  "site": "HS277",
+  "method": "TEM",
+  "level": "L3",
+  "representation": "interface_depth",
+  "measured_on": "1993",
+  "confidence": "A",
+  "status": "draft",
+  "interface_depth_m": 32.0,
+  "criterion": "top of the first low-resistivity layer (author, Table 2)",
+  "provenance": {
+   "document": "main",
+   "pages": [
+    8
+   ],
+   "method": "manual",
+   "tool": "typed from the page at 200 dpi; geosigma.extract.printed_tables",
+   "extracted_on": "2026-10-24",
+   "notes": "Coordinates from Table 2 (pages 7-8), Old Israel Grid in units of 10 m. Depth = running sum of the printed thicknesses; each row was checked against the printed elevation and conductance.",
+   "table": "Table 2"
+  },
+  "notes": "First low-resistivity layer 1.3 ohm.m. Second low-resistivity layer 2.6 ohm.m."
+ },
+ {
+  "id": "rabinovich1993-HS277-second",
+  "survey": "rabinovich-1993-tdem-coastal-interface",
+  "site": "HS277",
+  "method": "TEM",
+  "level": "L3",
+  "representation": "interface_depth",
+  "measured_on": "1993",
+  "confidence": "A",
+  "status": "draft",
+  "interface_depth_m": 122.0,
+  "criterion": "top of the second low-resistivity layer (author, Table 2)",
+  "provenance": {
+   "document": "main",
+   "pages": [
+    8
+   ],
+   "method": "manual",
+   "tool": "typed from the page at 200 dpi; geosigma.extract.printed_tables",
+   "extracted_on": "2026-10-24",
+   "notes": "Coordinates from Table 2 (pages 7-8), Old Israel Grid in units of 10 m. Depth = running sum of the printed thicknesses; each row was checked against the printed elevation and conductance.",
+   "table": "Table 2"
+  },
+  "notes": "First low-resistivity layer 1.3 ohm.m. Second low-resistivity layer 2.6 ohm.m."
+ },
+ {
+  "id": "rabinovich1993-HS278-layered",
+  "survey": "rabinovich-1993-tdem-coastal-interface",
+  "site": "HS278",
+  "method": "TEM",
+  "level": "L2",
+  "representation": "model_1d",
+  "measured_on": "1993",
+  "depth_max_m": 113.74,
+  "confidence": "B",
+  "status": "draft",
+  "model_type": "layered",
+  "layers": [
+   {
+    "top_m": 0.0,
+    "bottom_m": 4.89,
+    "rho_ohmm": 53.34
+   },
+   {
+    "top_m": 4.89,
+    "bottom_m": 37.53,
+    "rho_ohmm": 30.98
+   },
+   {
+    "top_m": 37.53,
+    "bottom_m": 73.84,
+    "rho_ohmm": 4.86
+   },
+   {
+    "top_m": 73.84,
+    "bottom_m": 113.74,
+    "rho_ohmm": 2.13
+   },
+   {
+    "top_m": 113.74,
+    "bottom_m": null,
+    "rho_ohmm": 0.279
+   }
+  ],
+  "provenance": {
+   "document": "main",
+   "pages": [
+    59
+   ],
+   "method": "manual",
+   "tool": "typed from the page at 200 dpi; geosigma.extract.printed_tables",
+   "extracted_on": "2026-10-24",
+   "notes": "Coordinates from Table 2 (pages 7-8), Old Israel Grid in units of 10 m. Depth = running sum of the printed thicknesses; each row was checked against the printed elevation and conductance.",
+   "table": "Appendix (layered inversion printout: resistivity, thickness, elevation, conductance)"
+  },
+  "notes": "Author's remark in Table 2: Noise (EM-37 only)."
+ },
+ {
+  "id": "rabinovich1993-HS278-first",
+  "survey": "rabinovich-1993-tdem-coastal-interface",
+  "site": "HS278",
+  "method": "TEM",
+  "level": "L3",
+  "representation": "interface_depth",
+  "measured_on": "1993",
+  "confidence": "B",
+  "status": "draft",
+  "interface_depth_m": 74.0,
+  "criterion": "top of the first low-resistivity layer (author, Table 2)",
+  "provenance": {
+   "document": "main",
+   "pages": [
+    8
+   ],
+   "method": "manual",
+   "tool": "typed from the page at 200 dpi; geosigma.extract.printed_tables",
+   "extracted_on": "2026-10-24",
+   "notes": "Coordinates from Table 2 (pages 7-8), Old Israel Grid in units of 10 m. Depth = running sum of the printed thicknesses; each row was checked against the printed elevation and conductance.",
+   "table": "Table 2"
+  },
+  "notes": "First low-resistivity layer 2.1 ohm.m. Second low-resistivity layer 0.3 ohm.m. Author's remark in Table 2: Noise (EM-37 only)."
+ },
+ {
+  "id": "rabinovich1993-HS278-second",
+  "survey": "rabinovich-1993-tdem-coastal-interface",
+  "site": "HS278",
+  "method": "TEM",
+  "level": "L3",
+  "representation": "interface_depth",
+  "measured_on": "1993",
+  "confidence": "B",
+  "status": "draft",
+  "interface_depth_m": 114.0,
+  "criterion": "top of the second low-resistivity layer (author, Table 2)",
+  "provenance": {
+   "document": "main",
+   "pages": [
+    8
+   ],
+   "method": "manual",
+   "tool": "typed from the page at 200 dpi; geosigma.extract.printed_tables",
+   "extracted_on": "2026-10-24",
+   "notes": "Coordinates from Table 2 (pages 7-8), Old Israel Grid in units of 10 m. Depth = running sum of the printed thicknesses; each row was checked against the printed elevation and conductance.",
+   "table": "Table 2"
+  },
+  "notes": "First low-resistivity layer 2.1 ohm.m. Second low-resistivity layer 0.3 ohm.m. Author's remark in Table 2: Noise (EM-37 only)."
+ },
+ {
+  "id": "rabinovich1993-HS279-layered",
+  "survey": "rabinovich-1993-tdem-coastal-interface",
+  "site": "HS279",
+  "method": "TEM",
+  "level": "L2",
+  "representation": "model_1d",
+  "measured_on": "1993",
+  "depth_max_m": 153.07,
+  "confidence": "B",
+  "status": "draft",
+  "model_type": "layered",
+  "layers": [
+   {
+    "top_m": 0.0,
+    "bottom_m": 3.97,
+    "rho_ohmm": 22.68
+   },
+   {
+    "top_m": 3.97,
+    "bottom_m": 49.78,
+    "rho_ohmm": 646.1
+   },
+   {
+    "top_m": 49.78,
+    "bottom_m": 85.26,
+    "rho_ohmm": 3.96
+   },
+   {
+    "top_m": 85.26,
+    "bottom_m": 153.07,
+    "rho_ohmm": 19.51
+   },
+   {
+    "top_m": 153.07,
+    "bottom_m": null,
+    "rho_ohmm": 1.89
+   }
+  ],
+  "provenance": {
+   "document": "main",
+   "pages": [
+    60
+   ],
+   "method": "manual",
+   "tool": "typed from the page at 200 dpi; geosigma.extract.printed_tables",
+   "extracted_on": "2026-10-24",
+   "notes": "Coordinates from Table 2 (pages 7-8), Old Israel Grid in units of 10 m. Depth = running sum of the printed thicknesses; each row was checked against the printed elevation and conductance.",
+   "table": "Appendix (layered inversion printout: resistivity, thickness, elevation, conductance)"
+  },
+  "notes": "Author's remark in Table 2: Noise (EM-37 only)."
+ },
+ {
+  "id": "rabinovich1993-HS279-first",
+  "survey": "rabinovich-1993-tdem-coastal-interface",
+  "site": "HS279",
+  "method": "TEM",
+  "level": "L3",
+  "representation": "interface_depth",
+  "measured_on": "1993",
+  "confidence": "B",
+  "status": "draft",
+  "interface_depth_m": 153.0,
+  "criterion": "top of the first low-resistivity layer (author, Table 2)",
+  "provenance": {
+   "document": "main",
+   "pages": [
+    8
+   ],
+   "method": "manual",
+   "tool": "typed from the page at 200 dpi; geosigma.extract.printed_tables",
+   "extracted_on": "2026-10-24",
+   "notes": "Coordinates from Table 2 (pages 7-8), Old Israel Grid in units of 10 m. Depth = running sum of the printed thicknesses; each row was checked against the printed elevation and conductance.",
+   "table": "Table 2"
+  },
+  "notes": "First low-resistivity layer 1.9 ohm.m. Author's remark in Table 2: Noise (EM-37 only)."
+ },
+ {
+  "id": "rabinovich1993-HS280-layered",
+  "survey": "rabinovich-1993-tdem-coastal-interface",
+  "site": "HS280",
+  "method": "TEM",
+  "level": "L2",
+  "representation": "model_1d",
+  "measured_on": "1993",
+  "depth_max_m": 95.17,
+  "confidence": "A",
+  "status": "draft",
+  "model_type": "layered",
+  "layers": [
+   {
+    "top_m": 0.0,
+    "bottom_m": 4.25,
+    "rho_ohmm": 12.85
+   },
+   {
+    "top_m": 4.25,
+    "bottom_m": 46.85,
+    "rho_ohmm": 138.2
+   },
+   {
+    "top_m": 46.85,
+    "bottom_m": 69.45,
+    "rho_ohmm": 4.55
+   },
+   {
+    "top_m": 69.45,
+    "bottom_m": 95.17,
+    "rho_ohmm": 1.79
+   },
+   {
+    "top_m": 95.17,
+    "bottom_m": null,
+    "rho_ohmm": 21.87
+   }
+  ],
+  "provenance": {
+   "document": "main",
+   "pages": [
+    61
+   ],
+   "method": "manual",
+   "tool": "typed from the page at 200 dpi; geosigma.extract.printed_tables",
+   "extracted_on": "2026-10-24",
+   "notes": "Coordinates from Table 2 (pages 7-8), Old Israel Grid in units of 10 m. Depth = running sum of the printed thicknesses; each row was checked against the printed elevation and conductance.",
+   "table": "Appendix (layered inversion printout: resistivity, thickness, elevation, conductance)"
+  }
+ },
+ {
+  "id": "rabinovich1993-HS280-first",
+  "survey": "rabinovich-1993-tdem-coastal-interface",
+  "site": "HS280",
+  "method": "TEM",
+  "level": "L3",
+  "representation": "interface_depth",
+  "measured_on": "1993",
+  "confidence": "A",
+  "status": "draft",
+  "interface_depth_m": 69.0,
+  "criterion": "top of the first low-resistivity layer (author, Table 2)",
+  "provenance": {
+   "document": "main",
+   "pages": [
+    8
+   ],
+   "method": "manual",
+   "tool": "typed from the page at 200 dpi; geosigma.extract.printed_tables",
+   "extracted_on": "2026-10-24",
+   "notes": "Coordinates from Table 2 (pages 7-8), Old Israel Grid in units of 10 m. Depth = running sum of the printed thicknesses; each row was checked against the printed elevation and conductance.",
+   "table": "Table 2"
+  },
+  "notes": "First low-resistivity layer 1.8 ohm.m."
+ },
+ {
+  "id": "rabinovich1993-HS281-layered",
+  "survey": "rabinovich-1993-tdem-coastal-interface",
+  "site": "HS281",
+  "method": "TEM",
+  "level": "L2",
+  "representation": "model_1d",
+  "measured_on": "1993",
+  "depth_max_m": 120.67,
+  "confidence": "A",
+  "status": "draft",
+  "model_type": "layered",
+  "layers": [
+   {
+    "top_m": 0.0,
+    "bottom_m": 2.07,
+    "rho_ohmm": 7.32
+   },
+   {
+    "top_m": 2.07,
+    "bottom_m": 120.67,
+    "rho_ohmm": 21.27
+   },
+   {
+    "top_m": 120.67,
+    "bottom_m": null,
+    "rho_ohmm": 2.45
+   }
+  ],
+  "provenance": {
+   "document": "main",
+   "pages": [
+    62
+   ],
+   "method": "manual",
+   "tool": "typed from the page at 200 dpi; geosigma.extract.printed_tables",
+   "extracted_on": "2026-10-24",
+   "notes": "Coordinates from Table 2 (pages 7-8), Old Israel Grid in units of 10 m. Depth = running sum of the printed thicknesses; each row was checked against the printed elevation and conductance.",
+   "table": "Appendix (layered inversion printout: resistivity, thickness, elevation, conductance)"
+  }
+ },
+ {
+  "id": "rabinovich1993-HS281-first",
+  "survey": "rabinovich-1993-tdem-coastal-interface",
+  "site": "HS281",
+  "method": "TEM",
+  "level": "L3",
+  "representation": "interface_depth",
+  "measured_on": "1993",
+  "confidence": "A",
+  "status": "draft",
+  "interface_depth_m": 121.0,
+  "criterion": "top of the first low-resistivity layer (author, Table 2)",
+  "provenance": {
+   "document": "main",
+   "pages": [
+    8
+   ],
+   "method": "manual",
+   "tool": "typed from the page at 200 dpi; geosigma.extract.printed_tables",
+   "extracted_on": "2026-10-24",
+   "notes": "Coordinates from Table 2 (pages 7-8), Old Israel Grid in units of 10 m. Depth = running sum of the printed thicknesses; each row was checked against the printed elevation and conductance.",
+   "table": "Table 2"
+  },
+  "notes": "First low-resistivity layer 2.4 ohm.m."
+ },
+ {
+  "id": "rabinovich1993-HS282-layered",
+  "survey": "rabinovich-1993-tdem-coastal-interface",
+  "site": "HS282",
+  "method": "TEM",
+  "level": "L2",
+  "representation": "model_1d",
+  "measured_on": "1993",
+  "depth_max_m": 155.84,
+  "confidence": "A",
+  "status": "draft",
+  "model_type": "layered",
+  "layers": [
+   {
+    "top_m": 0.0,
+    "bottom_m": 15.93,
+    "rho_ohmm": 7.76
+   },
+   {
+    "top_m": 15.93,
+    "bottom_m": 119.53,
+    "rho_ohmm": 13.18
+   },
+   {
+    "top_m": 119.53,
+    "bottom_m": 155.84,
+    "rho_ohmm": 6.18
+   },
+   {
+    "top_m": 155.84,
+    "bottom_m": null,
+    "rho_ohmm": 12.14
+   }
+  ],
+  "provenance": {
+   "document": "main",
+   "pages": [
+    63
+   ],
+   "method": "manual",
+   "tool": "typed from the page at 200 dpi; geosigma.extract.printed_tables",
+   "extracted_on": "2026-10-24",
+   "notes": "Coordinates from Table 2 (pages 7-8), Old Israel Grid in units of 10 m. Depth = running sum of the printed thicknesses; each row was checked against the printed elevation and conductance.",
+   "table": "Appendix (layered inversion printout: resistivity, thickness, elevation, conductance)"
+  },
+  "notes": "Author's remark in Table 2: EM-37."
+ },
+ {
+  "id": "rabinovich1993-HS282-first",
+  "survey": "rabinovich-1993-tdem-coastal-interface",
+  "site": "HS282",
+  "method": "TEM",
+  "level": "L3",
+  "representation": "interface_depth",
+  "measured_on": "1993",
+  "confidence": "A",
+  "status": "draft",
+  "interface_depth_m": 120.0,
+  "criterion": "top of the first low-resistivity layer (author, Table 2)",
+  "provenance": {
+   "document": "main",
+   "pages": [
+    8
+   ],
+   "method": "manual",
+   "tool": "typed from the page at 200 dpi; geosigma.extract.printed_tables",
+   "extracted_on": "2026-10-24",
+   "notes": "Coordinates from Table 2 (pages 7-8), Old Israel Grid in units of 10 m. Depth = running sum of the printed thicknesses; each row was checked against the printed elevation and conductance.",
+   "table": "Table 2"
+  },
+  "notes": "First low-resistivity layer 6.2 ohm.m. Author's remark in Table 2: EM-37."
+ },
+ {
+  "id": "rabinovich1993-HS283-layered",
+  "survey": "rabinovich-1993-tdem-coastal-interface",
+  "site": "HS283",
+  "method": "TEM",
+  "level": "L2",
+  "representation": "model_1d",
+  "measured_on": "1993",
+  "depth_max_m": 129.95,
+  "confidence": "A",
+  "status": "draft",
+  "model_type": "layered",
+  "layers": [
+   {
+    "top_m": 0.0,
+    "bottom_m": 5.45,
+    "rho_ohmm": 7.04
+   },
+   {
+    "top_m": 5.45,
+    "bottom_m": 129.95,
+    "rho_ohmm": 8.09
+   },
+   {
+    "top_m": 129.95,
+    "bottom_m": null,
+    "rho_ohmm": 11.8
+   }
+  ],
+  "provenance": {
+   "document": "main",
+   "pages": [
+    64
+   ],
+   "method": "manual",
+   "tool": "typed from the page at 200 dpi; geosigma.extract.printed_tables",
+   "extracted_on": "2026-10-24",
+   "notes": "Coordinates from Table 2 (pages 7-8), Old Israel Grid in units of 10 m. Depth = running sum of the printed thicknesses; each row was checked against the printed elevation and conductance.",
+   "table": "Appendix (layered inversion printout: resistivity, thickness, elevation, conductance)"
+  }
+ },
+ {
+  "id": "rabinovich1993-HS283-first",
+  "survey": "rabinovich-1993-tdem-coastal-interface",
+  "site": "HS283",
+  "method": "TEM",
+  "level": "L3",
+  "representation": "interface_depth",
+  "measured_on": "1993",
+  "confidence": "A",
+  "status": "draft",
+  "interface_depth_m": 6.0,
+  "criterion": "top of the first low-resistivity layer (author, Table 2)",
+  "provenance": {
+   "document": "main",
+   "pages": [
+    8
+   ],
+   "method": "manual",
+   "tool": "typed from the page at 200 dpi; geosigma.extract.printed_tables",
+   "extracted_on": "2026-10-24",
+   "notes": "Coordinates from Table 2 (pages 7-8), Old Israel Grid in units of 10 m. Depth = running sum of the printed thicknesses; each row was checked against the printed elevation and conductance.",
+   "table": "Table 2"
+  },
+  "notes": "First low-resistivity layer 8.1 ohm.m."
+ },
+ {
+  "id": "rabinovich1993-HS284-layered",
+  "survey": "rabinovich-1993-tdem-coastal-interface",
+  "site": "HS284",
+  "method": "TEM",
+  "level": "L2",
+  "representation": "model_1d",
+  "measured_on": "1993",
+  "depth_max_m": 78.97,
+  "confidence": "A",
+  "status": "draft",
+  "model_type": "layered",
+  "layers": [
+   {
+    "top_m": 0.0,
+    "bottom_m": 1.06,
+    "rho_ohmm": 2.57
+   },
+   {
+    "top_m": 1.06,
+    "bottom_m": 14.85,
+    "rho_ohmm": 47.22
+   },
+   {
+    "top_m": 14.85,
+    "bottom_m": 46.19,
+    "rho_ohmm": 15.92
+   },
+   {
+    "top_m": 46.19,
+    "bottom_m": 78.97,
+    "rho_ohmm": 9.62
+   },
+   {
+    "top_m": 78.97,
+    "bottom_m": null,
+    "rho_ohmm": 6.76
+   }
+  ],
+  "provenance": {
+   "document": "main",
+   "pages": [
+    65
+   ],
+   "method": "manual",
+   "tool": "typed from the page at 200 dpi; geosigma.extract.printed_tables",
+   "extracted_on": "2026-10-24",
+   "notes": "Coordinates from Table 2 (pages 7-8), Old Israel Grid in units of 10 m. Depth = running sum of the printed thicknesses; each row was checked against the printed elevation and conductance.",
+   "table": "Appendix (layered inversion printout: resistivity, thickness, elevation, conductance)"
+  }
+ },
+ {
+  "id": "rabinovich1993-HS284-first",
+  "survey": "rabinovich-1993-tdem-coastal-interface",
+  "site": "HS284",
+  "method": "TEM",
+  "level": "L3",
+  "representation": "interface_depth",
+  "measured_on": "1993",
+  "confidence": "A",
+  "status": "draft",
+  "interface_depth_m": 79.0,
+  "criterion": "top of the first low-resistivity layer (author, Table 2)",
+  "provenance": {
+   "document": "main",
+   "pages": [
+    8
+   ],
+   "method": "manual",
+   "tool": "typed from the page at 200 dpi; geosigma.extract.printed_tables",
+   "extracted_on": "2026-10-24",
+   "notes": "Coordinates from Table 2 (pages 7-8), Old Israel Grid in units of 10 m. Depth = running sum of the printed thicknesses; each row was checked against the printed elevation and conductance.",
+   "table": "Table 2"
+  },
+  "notes": "First low-resistivity layer 6.8 ohm.m."
+ },
+ {
+  "id": "rabinovich1993-HS285-layered",
+  "survey": "rabinovich-1993-tdem-coastal-interface",
+  "site": "HS285",
+  "method": "TEM",
+  "level": "L2",
+  "representation": "model_1d",
+  "measured_on": "1993",
+  "depth_max_m": 69.71,
+  "confidence": "A",
+  "status": "draft",
+  "model_type": "layered",
+  "layers": [
+   {
+    "top_m": 0.0,
+    "bottom_m": 3.3,
+    "rho_ohmm": 7.64
+   },
+   {
+    "top_m": 3.3,
+    "bottom_m": 20.82,
+    "rho_ohmm": 53.17
+   },
+   {
+    "top_m": 20.82,
+    "bottom_m": 27.7,
+    "rho_ohmm": 2.52
+   },
+   {
+    "top_m": 27.7,
+    "bottom_m": 69.71,
+    "rho_ohmm": 14.1
+   },
+   {
+    "top_m": 69.71,
+    "bottom_m": null,
+    "rho_ohmm": 7.24
+   }
+  ],
+  "provenance": {
+   "document": "main",
+   "pages": [
+    66
+   ],
+   "method": "manual",
+   "tool": "typed from the page at 200 dpi; geosigma.extract.printed_tables",
+   "extracted_on": "2026-10-24",
+   "notes": "Coordinates from Table 2 (pages 7-8), Old Israel Grid in units of 10 m. Depth = running sum of the printed thicknesses; each row was checked against the printed elevation and conductance.",
+   "table": "Appendix (layered inversion printout: resistivity, thickness, elevation, conductance)"
+  }
+ },
+ {
+  "id": "rabinovich1993-HS285-first",
+  "survey": "rabinovich-1993-tdem-coastal-interface",
+  "site": "HS285",
+  "method": "TEM",
+  "level": "L3",
+  "representation": "interface_depth",
+  "measured_on": "1993",
+  "confidence": "A",
+  "status": "draft",
+  "interface_depth_m": 21.0,
+  "criterion": "top of the first low-resistivity layer (author, Table 2)",
+  "provenance": {
+   "document": "main",
+   "pages": [
+    8
+   ],
+   "method": "manual",
+   "tool": "typed from the page at 200 dpi; geosigma.extract.printed_tables",
+   "extracted_on": "2026-10-24",
+   "notes": "Coordinates from Table 2 (pages 7-8), Old Israel Grid in units of 10 m. Depth = running sum of the printed thicknesses; each row was checked against the printed elevation and conductance.",
+   "table": "Table 2"
+  },
+  "notes": "First low-resistivity layer 2.5 ohm.m."
+ },
+ {
+  "id": "rabinovich1993-HS286-layered",
+  "survey": "rabinovich-1993-tdem-coastal-interface",
+  "site": "HS286",
+  "method": "TEM",
+  "level": "L2",
+  "representation": "model_1d",
+  "measured_on": "1993",
+  "depth_max_m": 122.11,
+  "confidence": "A",
+  "status": "draft",
+  "model_type": "layered",
+  "layers": [
+   {
+    "top_m": 0.0,
+    "bottom_m": 9.99,
+    "rho_ohmm": 7.6
+   },
+   {
+    "top_m": 9.99,
+    "bottom_m": 13.89,
+    "rho_ohmm": 1.22
+   },
+   {
+    "top_m": 13.89,
+    "bottom_m": 39.42,
+    "rho_ohmm": 7.28
+   },
+   {
+    "top_m": 39.42,
+    "bottom_m": 122.11,
+    "rho_ohmm": 1.65
+   },
+   {
+    "top_m": 122.11,
+    "bottom_m": null,
+    "rho_ohmm": 11.75
+   }
+  ],
+  "provenance": {
+   "document": "main",
+   "pages": [
+    67
+   ],
+   "method": "manual",
+   "tool": "typed from the page at 200 dpi; geosigma.extract.printed_tables",
+   "extracted_on": "2026-10-24",
+   "notes": "Coordinates from Table 2 (pages 7-8), Old Israel Grid in units of 10 m. Depth = running sum of the printed thicknesses; each row was checked against the printed elevation and conductance.",
+   "table": "Appendix (layered inversion printout: resistivity, thickness, elevation, conductance)"
+  }
+ },
+ {
+  "id": "rabinovich1993-HS286-first",
+  "survey": "rabinovich-1993-tdem-coastal-interface",
+  "site": "HS286",
+  "method": "TEM",
+  "level": "L3",
+  "representation": "interface_depth",
+  "measured_on": "1993",
+  "confidence": "A",
+  "status": "draft",
+  "interface_depth_m": 10.0,
+  "criterion": "top of the first low-resistivity layer (author, Table 2)",
+  "provenance": {
+   "document": "main",
+   "pages": [
+    8
+   ],
+   "method": "manual",
+   "tool": "typed from the page at 200 dpi; geosigma.extract.printed_tables",
+   "extracted_on": "2026-10-24",
+   "notes": "Coordinates from Table 2 (pages 7-8), Old Israel Grid in units of 10 m. Depth = running sum of the printed thicknesses; each row was checked against the printed elevation and conductance.",
+   "table": "Table 2"
+  },
+  "notes": "First low-resistivity layer 1.2 ohm.m. Second low-resistivity layer 1.6 ohm.m."
+ },
+ {
+  "id": "rabinovich1993-HS286-second",
+  "survey": "rabinovich-1993-tdem-coastal-interface",
+  "site": "HS286",
+  "method": "TEM",
+  "level": "L3",
+  "representation": "interface_depth",
+  "measured_on": "1993",
+  "confidence": "A",
+  "status": "draft",
+  "interface_depth_m": 39.0,
+  "criterion": "top of the second low-resistivity layer (author, Table 2)",
+  "provenance": {
+   "document": "main",
+   "pages": [
+    8
+   ],
+   "method": "manual",
+   "tool": "typed from the page at 200 dpi; geosigma.extract.printed_tables",
+   "extracted_on": "2026-10-24",
+   "notes": "Coordinates from Table 2 (pages 7-8), Old Israel Grid in units of 10 m. Depth = running sum of the printed thicknesses; each row was checked against the printed elevation and conductance.",
+   "table": "Table 2"
+  },
+  "notes": "First low-resistivity layer 1.2 ohm.m. Second low-resistivity layer 1.6 ohm.m."
+ },
+ {
+  "id": "rabinovich1993-HS287-layered",
+  "survey": "rabinovich-1993-tdem-coastal-interface",
+  "site": "HS287",
+  "method": "TEM",
+  "level": "L2",
+  "representation": "model_1d",
+  "measured_on": "1993",
+  "depth_max_m": 106.83,
+  "confidence": "A",
+  "status": "draft",
+  "model_type": "layered",
+  "layers": [
+   {
+    "top_m": 0.0,
+    "bottom_m": 1.72,
+    "rho_ohmm": 4.75
+   },
+   {
+    "top_m": 1.72,
+    "bottom_m": 26.1,
+    "rho_ohmm": 19.75
+   },
+   {
+    "top_m": 26.1,
+    "bottom_m": 106.83,
+    "rho_ohmm": 3.68
+   },
+   {
+    "top_m": 106.83,
+    "bottom_m": null,
+    "rho_ohmm": 14.49
+   }
+  ],
+  "provenance": {
+   "document": "main",
+   "pages": [
+    68
+   ],
+   "method": "manual",
+   "tool": "typed from the page at 200 dpi; geosigma.extract.printed_tables",
+   "extracted_on": "2026-10-24",
+   "notes": "Coordinates from Table 2 (pages 7-8), Old Israel Grid in units of 10 m. Depth = running sum of the printed thicknesses; each row was checked against the printed elevation and conductance.",
+   "table": "Appendix (layered inversion printout: resistivity, thickness, elevation, conductance)"
+  }
+ },
+ {
+  "id": "rabinovich1993-HS287-first",
+  "survey": "rabinovich-1993-tdem-coastal-interface",
+  "site": "HS287",
+  "method": "TEM",
+  "level": "L3",
+  "representation": "interface_depth",
+  "measured_on": "1993",
+  "confidence": "A",
+  "status": "draft",
+  "interface_depth_m": 26.0,
+  "criterion": "top of the first low-resistivity layer (author, Table 2)",
+  "provenance": {
+   "document": "main",
+   "pages": [
+    8
+   ],
+   "method": "manual",
+   "tool": "typed from the page at 200 dpi; geosigma.extract.printed_tables",
+   "extracted_on": "2026-10-24",
+   "notes": "Coordinates from Table 2 (pages 7-8), Old Israel Grid in units of 10 m. Depth = running sum of the printed thicknesses; each row was checked against the printed elevation and conductance.",
+   "table": "Table 2"
+  },
+  "notes": "First low-resistivity layer 3.7 ohm.m."
+ },
+ {
+  "id": "rabinovich1993-HS288-layered",
+  "survey": "rabinovich-1993-tdem-coastal-interface",
+  "site": "HS288",
+  "method": "TEM",
+  "level": "L2",
+  "representation": "model_1d",
+  "measured_on": "1993",
+  "depth_max_m": 202.11,
+  "confidence": "A",
+  "status": "draft",
+  "model_type": "layered",
+  "layers": [
+   {
+    "top_m": 0.0,
+    "bottom_m": 26.71,
+    "rho_ohmm": 5.64
+   },
+   {
+    "top_m": 26.71,
+    "bottom_m": 202.11,
+    "rho_ohmm": 15.01
+   },
+   {
+    "top_m": 202.11,
+    "bottom_m": null,
+    "rho_ohmm": 5.97
+   }
+  ],
+  "provenance": {
+   "document": "main",
+   "pages": [
+    69
+   ],
+   "method": "manual",
+   "tool": "typed from the page at 200 dpi; geosigma.extract.printed_tables",
+   "extracted_on": "2026-10-24",
+   "notes": "Coordinates from Table 2 (pages 7-8), Old Israel Grid in units of 10 m. Depth = running sum of the printed thicknesses; each row was checked against the printed elevation and conductance.",
+   "table": "Appendix (layered inversion printout: resistivity, thickness, elevation, conductance)"
+  },
+  "notes": "Author's remark in Table 2: EM-37."
+ },
+ {
+  "id": "rabinovich1993-HS288-first",
+  "survey": "rabinovich-1993-tdem-coastal-interface",
+  "site": "HS288",
+  "method": "TEM",
+  "level": "L3",
+  "representation": "interface_depth",
+  "measured_on": "1993",
+  "confidence": "A",
+  "status": "draft",
+  "interface_depth_m": 202.0,
+  "criterion": "top of the first low-resistivity layer (author, Table 2)",
+  "provenance": {
+   "document": "main",
+   "pages": [
+    8
+   ],
+   "method": "manual",
+   "tool": "typed from the page at 200 dpi; geosigma.extract.printed_tables",
+   "extracted_on": "2026-10-24",
+   "notes": "Coordinates from Table 2 (pages 7-8), Old Israel Grid in units of 10 m. Depth = running sum of the printed thicknesses; each row was checked against the printed elevation and conductance.",
+   "table": "Table 2"
+  },
+  "notes": "First low-resistivity layer 6.0 ohm.m. Author's remark in Table 2: EM-37."
+ },
+ {
+  "id": "rabinovich1993-HS289-layered",
+  "survey": "rabinovich-1993-tdem-coastal-interface",
+  "site": "HS289",
+  "method": "TEM",
+  "level": "L2",
+  "representation": "model_1d",
+  "measured_on": "1993",
+  "depth_max_m": 198.98,
+  "confidence": "A",
+  "status": "draft",
+  "model_type": "layered",
+  "layers": [
+   {
+    "top_m": 0.0,
+    "bottom_m": 62.08,
+    "rho_ohmm": 4.6
+   },
+   {
+    "top_m": 62.08,
+    "bottom_m": 198.98,
+    "rho_ohmm": 26.03
+   },
+   {
+    "top_m": 198.98,
+    "bottom_m": null,
+    "rho_ohmm": 6.48
+   }
+  ],
+  "provenance": {
+   "document": "main",
+   "pages": [
+    70
+   ],
+   "method": "manual",
+   "tool": "typed from the page at 200 dpi; geosigma.extract.printed_tables",
+   "extracted_on": "2026-10-24",
+   "notes": "Coordinates from Table 2 (pages 7-8), Old Israel Grid in units of 10 m. Depth = running sum of the printed thicknesses; each row was checked against the printed elevation and conductance.",
+   "table": "Appendix (layered inversion printout: resistivity, thickness, elevation, conductance)"
+  },
+  "notes": "Author's remark in Table 2: EM-37."
+ },
+ {
+  "id": "rabinovich1993-HS289-first",
+  "survey": "rabinovich-1993-tdem-coastal-interface",
+  "site": "HS289",
+  "method": "TEM",
+  "level": "L3",
+  "representation": "interface_depth",
+  "measured_on": "1993",
+  "confidence": "A",
+  "status": "draft",
+  "interface_depth_m": 199.0,
+  "criterion": "top of the first low-resistivity layer (author, Table 2)",
+  "provenance": {
+   "document": "main",
+   "pages": [
+    8
+   ],
+   "method": "manual",
+   "tool": "typed from the page at 200 dpi; geosigma.extract.printed_tables",
+   "extracted_on": "2026-10-24",
+   "notes": "Coordinates from Table 2 (pages 7-8), Old Israel Grid in units of 10 m. Depth = running sum of the printed thicknesses; each row was checked against the printed elevation and conductance.",
+   "table": "Table 2"
+  },
+  "notes": "First low-resistivity layer 6.5 ohm.m. Author's remark in Table 2: EM-37."
+ },
+ {
+  "id": "rabinovich1993-HS290-layered",
+  "survey": "rabinovich-1993-tdem-coastal-interface",
+  "site": "HS290",
+  "method": "TEM",
+  "level": "L2",
+  "representation": "model_1d",
+  "measured_on": "1993",
+  "depth_max_m": 133.55,
+  "confidence": "A",
+  "status": "draft",
+  "model_type": "layered",
+  "layers": [
+   {
+    "top_m": 0.0,
+    "bottom_m": 31.19,
+    "rho_ohmm": 9.35
+   },
+   {
+    "top_m": 31.19,
+    "bottom_m": 76.32,
+    "rho_ohmm": 43.7
+   },
+   {
+    "top_m": 76.32,
+    "bottom_m": 133.55,
+    "rho_ohmm": 2.83
+   },
+   {
+    "top_m": 133.55,
+    "bottom_m": null,
+    "rho_ohmm": 0.838
+   }
+  ],
+  "provenance": {
+   "document": "main",
+   "pages": [
+    71
+   ],
+   "method": "manual",
+   "tool": "typed from the page at 200 dpi; geosigma.extract.printed_tables",
+   "extracted_on": "2026-10-24",
+   "notes": "Coordinates from Table 2 (pages 7-8), Old Israel Grid in units of 10 m. Depth = running sum of the printed thicknesses; each row was checked against the printed elevation and conductance.",
+   "table": "Appendix (layered inversion printout: resistivity, thickness, elevation, conductance)"
+  },
+  "notes": "Author's remark in Table 2: EM-37."
+ },
+ {
+  "id": "rabinovich1993-HS290-first",
+  "survey": "rabinovich-1993-tdem-coastal-interface",
+  "site": "HS290",
+  "method": "TEM",
+  "level": "L3",
+  "representation": "interface_depth",
+  "measured_on": "1993",
+  "confidence": "A",
+  "status": "draft",
+  "interface_depth_m": 76.0,
+  "criterion": "top of the first low-resistivity layer (author, Table 2)",
+  "provenance": {
+   "document": "main",
+   "pages": [
+    8
+   ],
+   "method": "manual",
+   "tool": "typed from the page at 200 dpi; geosigma.extract.printed_tables",
+   "extracted_on": "2026-10-24",
+   "notes": "Coordinates from Table 2 (pages 7-8), Old Israel Grid in units of 10 m. Depth = running sum of the printed thicknesses; each row was checked against the printed elevation and conductance.",
+   "table": "Table 2"
+  },
+  "notes": "First low-resistivity layer 2.8 ohm.m. Second low-resistivity layer 0.8 ohm.m. Author's remark in Table 2: EM-37."
+ },
+ {
+  "id": "rabinovich1993-HS290-second",
+  "survey": "rabinovich-1993-tdem-coastal-interface",
+  "site": "HS290",
+  "method": "TEM",
+  "level": "L3",
+  "representation": "interface_depth",
+  "measured_on": "1993",
+  "confidence": "A",
+  "status": "draft",
+  "interface_depth_m": 134.0,
+  "criterion": "top of the second low-resistivity layer (author, Table 2)",
+  "provenance": {
+   "document": "main",
+   "pages": [
+    8
+   ],
+   "method": "manual",
+   "tool": "typed from the page at 200 dpi; geosigma.extract.printed_tables",
+   "extracted_on": "2026-10-24",
+   "notes": "Coordinates from Table 2 (pages 7-8), Old Israel Grid in units of 10 m. Depth = running sum of the printed thicknesses; each row was checked against the printed elevation and conductance.",
+   "table": "Table 2"
+  },
+  "notes": "First low-resistivity layer 2.8 ohm.m. Second low-resistivity layer 0.8 ohm.m. Author's remark in Table 2: EM-37."
+ },
+ {
+  "id": "rabinovich1993-HS291-layered",
+  "survey": "rabinovich-1993-tdem-coastal-interface",
+  "site": "HS291",
+  "method": "TEM",
+  "level": "L2",
+  "representation": "model_1d",
+  "measured_on": "1993",
+  "depth_max_m": 41.66,
+  "confidence": "A",
+  "status": "draft",
+  "model_type": "layered",
+  "layers": [
+   {
+    "top_m": 0.0,
+    "bottom_m": 41.66,
+    "rho_ohmm": 2.37
+   },
+   {
+    "top_m": 41.66,
+    "bottom_m": null,
+    "rho_ohmm": 0.623
+   }
+  ],
+  "provenance": {
+   "document": "main",
+   "pages": [
+    72
+   ],
+   "method": "manual",
+   "tool": "typed from the page at 200 dpi; geosigma.extract.printed_tables",
+   "extracted_on": "2026-10-24",
+   "notes": "Coordinates from Table 2 (pages 7-8), Old Israel Grid in units of 10 m. Depth = running sum of the printed thicknesses; each row was checked against the printed elevation and conductance.",
+   "table": "Appendix (layered inversion printout: resistivity, thickness, elevation, conductance)"
+  }
+ },
+ {
+  "id": "rabinovich1993-HS291-first",
+  "survey": "rabinovich-1993-tdem-coastal-interface",
+  "site": "HS291",
+  "method": "TEM",
+  "level": "L3",
+  "representation": "interface_depth",
+  "measured_on": "1993",
+  "confidence": "A",
+  "status": "draft",
+  "interface_depth_m": 42.0,
+  "criterion": "top of the first low-resistivity layer (author, Table 2)",
+  "provenance": {
+   "document": "main",
+   "pages": [
+    8
+   ],
+   "method": "manual",
+   "tool": "typed from the page at 200 dpi; geosigma.extract.printed_tables",
+   "extracted_on": "2026-10-24",
+   "notes": "Coordinates from Table 2 (pages 7-8), Old Israel Grid in units of 10 m. Depth = running sum of the printed thicknesses; each row was checked against the printed elevation and conductance.",
+   "table": "Table 2"
+  },
+  "notes": "First low-resistivity layer 0.6 ohm.m."
+ },
+ {
+  "id": "rabinovich1993-HS291-2-layered",
+  "survey": "rabinovich-1993-tdem-coastal-interface",
+  "site": "HS291",
+  "method": "TEM",
+  "level": "L2",
+  "representation": "model_1d",
+  "measured_on": "1993",
+  "depth_max_m": 37.57,
+  "confidence": "A",
+  "status": "draft",
+  "model_type": "layered",
+  "layers": [
+   {
+    "top_m": 0.0,
+    "bottom_m": 4.49,
+    "rho_ohmm": 3.05
+   },
+   {
+    "top_m": 4.49,
+    "bottom_m": 23.91,
+    "rho_ohmm": 2.01
+   },
+   {
+    "top_m": 23.91,
+    "bottom_m": 37.57,
+    "rho_ohmm": 9.83
+   },
+   {
+    "top_m": 37.57,
+    "bottom_m": null,
+    "rho_ohmm": 0.643
+   }
+  ],
+  "provenance": {
+   "document": "main",
+   "pages": [
+    73
+   ],
+   "method": "manual",
+   "tool": "typed from the page at 200 dpi; geosigma.extract.printed_tables",
+   "extracted_on": "2026-10-24",
+   "notes": "Coordinates from Table 2 (pages 7-8), Old Israel Grid in units of 10 m. Depth = running sum of the printed thicknesses; each row was checked against the printed elevation and conductance.",
+   "table": "Appendix (layered inversion printout: resistivity, thickness, elevation, conductance)"
+  },
+  "notes": "Second sounding at this station (the second Table 2 row)."
+ },
+ {
+  "id": "rabinovich1993-HS291-2-first",
+  "survey": "rabinovich-1993-tdem-coastal-interface",
+  "site": "HS291",
+  "method": "TEM",
+  "level": "L3",
+  "representation": "interface_depth",
+  "measured_on": "1993",
+  "confidence": "A",
+  "status": "draft",
+  "interface_depth_m": 4.0,
+  "criterion": "top of the first low-resistivity layer (author, Table 2)",
+  "provenance": {
+   "document": "main",
+   "pages": [
+    8
+   ],
+   "method": "manual",
+   "tool": "typed from the page at 200 dpi; geosigma.extract.printed_tables",
+   "extracted_on": "2026-10-24",
+   "notes": "Coordinates from Table 2 (pages 7-8), Old Israel Grid in units of 10 m. Depth = running sum of the printed thicknesses; each row was checked against the printed elevation and conductance.",
+   "table": "Table 2"
+  },
+  "notes": "First low-resistivity layer 2.0 ohm.m. Second low-resistivity layer 0.6 ohm.m. Second sounding at this station (the second Table 2 row)."
+ },
+ {
+  "id": "rabinovich1993-HS291-2-second",
+  "survey": "rabinovich-1993-tdem-coastal-interface",
+  "site": "HS291",
+  "method": "TEM",
+  "level": "L3",
+  "representation": "interface_depth",
+  "measured_on": "1993",
+  "confidence": "A",
+  "status": "draft",
+  "interface_depth_m": 38.0,
+  "criterion": "top of the second low-resistivity layer (author, Table 2)",
+  "provenance": {
+   "document": "main",
+   "pages": [
+    8
+   ],
+   "method": "manual",
+   "tool": "typed from the page at 200 dpi; geosigma.extract.printed_tables",
+   "extracted_on": "2026-10-24",
+   "notes": "Coordinates from Table 2 (pages 7-8), Old Israel Grid in units of 10 m. Depth = running sum of the printed thicknesses; each row was checked against the printed elevation and conductance.",
+   "table": "Table 2"
+  },
+  "notes": "First low-resistivity layer 2.0 ohm.m. Second low-resistivity layer 0.6 ohm.m. Second sounding at this station (the second Table 2 row)."
+ },
+ {
+  "id": "rabinovich1993-HS292-layered",
+  "survey": "rabinovich-1993-tdem-coastal-interface",
+  "site": "HS292",
+  "method": "TEM",
+  "level": "L2",
+  "representation": "model_1d",
+  "measured_on": "1993",
+  "depth_max_m": 42.39,
+  "confidence": "A",
+  "status": "draft",
+  "model_type": "layered",
+  "layers": [
+   {
+    "top_m": 0.0,
+    "bottom_m": 1.42,
+    "rho_ohmm": 1.94
+   },
+   {
+    "top_m": 1.42,
+    "bottom_m": 13.81,
+    "rho_ohmm": 20.23
+   },
+   {
+    "top_m": 13.81,
+    "bottom_m": 17.7,
+    "rho_ohmm": 0.261
+   },
+   {
+    "top_m": 17.7,
+    "bottom_m": 42.39,
+    "rho_ohmm": 9.32
+   },
+   {
+    "top_m": 42.39,
+    "bottom_m": null,
+    "rho_ohmm": 1.43
+   }
+  ],
+  "provenance": {
+   "document": "main",
+   "pages": [
+    74
+   ],
+   "method": "manual",
+   "tool": "typed from the page at 200 dpi; geosigma.extract.printed_tables",
+   "extracted_on": "2026-10-24",
+   "notes": "Coordinates from Table 2 (pages 7-8), Old Israel Grid in units of 10 m. Depth = running sum of the printed thicknesses; each row was checked against the printed elevation and conductance.",
+   "table": "Appendix (layered inversion printout: resistivity, thickness, elevation, conductance)"
+  }
+ },
+ {
+  "id": "rabinovich1993-HS292-first",
+  "survey": "rabinovich-1993-tdem-coastal-interface",
+  "site": "HS292",
+  "method": "TEM",
+  "level": "L3",
+  "representation": "interface_depth",
+  "measured_on": "1993",
+  "confidence": "A",
+  "status": "draft",
+  "interface_depth_m": 14.0,
+  "criterion": "top of the first low-resistivity layer (author, Table 2)",
+  "provenance": {
+   "document": "main",
+   "pages": [
+    8
+   ],
+   "method": "manual",
+   "tool": "typed from the page at 200 dpi; geosigma.extract.printed_tables",
+   "extracted_on": "2026-10-24",
+   "notes": "Coordinates from Table 2 (pages 7-8), Old Israel Grid in units of 10 m. Depth = running sum of the printed thicknesses; each row was checked against the printed elevation and conductance.",
+   "table": "Table 2"
+  },
+  "notes": "First low-resistivity layer 0.3 ohm.m. Second low-resistivity layer 1.4 ohm.m."
+ },
+ {
+  "id": "rabinovich1993-HS292-second",
+  "survey": "rabinovich-1993-tdem-coastal-interface",
+  "site": "HS292",
+  "method": "TEM",
+  "level": "L3",
+  "representation": "interface_depth",
+  "measured_on": "1993",
+  "confidence": "A",
+  "status": "draft",
+  "interface_depth_m": 42.0,
+  "criterion": "top of the second low-resistivity layer (author, Table 2)",
+  "provenance": {
+   "document": "main",
+   "pages": [
+    8
+   ],
+   "method": "manual",
+   "tool": "typed from the page at 200 dpi; geosigma.extract.printed_tables",
+   "extracted_on": "2026-10-24",
+   "notes": "Coordinates from Table 2 (pages 7-8), Old Israel Grid in units of 10 m. Depth = running sum of the printed thicknesses; each row was checked against the printed elevation and conductance.",
+   "table": "Table 2"
+  },
+  "notes": "First low-resistivity layer 0.3 ohm.m. Second low-resistivity layer 1.4 ohm.m."
+ },
+ {
+  "id": "rabinovich1993-HS293-layered",
+  "survey": "rabinovich-1993-tdem-coastal-interface",
+  "site": "HS293",
+  "method": "TEM",
+  "level": "L2",
+  "representation": "model_1d",
+  "measured_on": "1993",
+  "depth_max_m": 42.14,
+  "confidence": "A",
+  "status": "draft",
+  "model_type": "layered",
+  "layers": [
+   {
+    "top_m": 0.0,
+    "bottom_m": 5.2,
+    "rho_ohmm": 3.56
+   },
+   {
+    "top_m": 5.2,
+    "bottom_m": 15.9,
+    "rho_ohmm": 0.849
+   },
+   {
+    "top_m": 15.9,
+    "bottom_m": 42.14,
+    "rho_ohmm": 0.331
+   },
+   {
+    "top_m": 42.14,
+    "bottom_m": null,
+    "rho_ohmm": 1.4
+   }
+  ],
+  "provenance": {
+   "document": "main",
+   "pages": [
+    75
+   ],
+   "method": "manual",
+   "tool": "typed from the page at 200 dpi; geosigma.extract.printed_tables",
+   "extracted_on": "2026-10-24",
+   "notes": "Coordinates from Table 2 (pages 7-8), Old Israel Grid in units of 10 m. Depth = running sum of the printed thicknesses; each row was checked against the printed elevation and conductance.",
+   "table": "Appendix (layered inversion printout: resistivity, thickness, elevation, conductance)"
+  }
+ },
+ {
+  "id": "rabinovich1993-HS293-first",
+  "survey": "rabinovich-1993-tdem-coastal-interface",
+  "site": "HS293",
+  "method": "TEM",
+  "level": "L3",
+  "representation": "interface_depth",
+  "measured_on": "1993",
+  "confidence": "A",
+  "status": "draft",
+  "interface_depth_m": 16.0,
+  "criterion": "top of the first low-resistivity layer (author, Table 2)",
+  "provenance": {
+   "document": "main",
+   "pages": [
+    8
+   ],
+   "method": "manual",
+   "tool": "typed from the page at 200 dpi; geosigma.extract.printed_tables",
+   "extracted_on": "2026-10-24",
+   "notes": "Coordinates from Table 2 (pages 7-8), Old Israel Grid in units of 10 m. Depth = running sum of the printed thicknesses; each row was checked against the printed elevation and conductance.",
+   "table": "Table 2"
+  },
+  "notes": "First low-resistivity layer 0.3 ohm.m. Second low-resistivity layer 1.4 ohm.m."
+ },
+ {
+  "id": "rabinovich1993-HS293-second",
+  "survey": "rabinovich-1993-tdem-coastal-interface",
+  "site": "HS293",
+  "method": "TEM",
+  "level": "L3",
+  "representation": "interface_depth",
+  "measured_on": "1993",
+  "confidence": "A",
+  "status": "draft",
+  "interface_depth_m": 42.0,
+  "criterion": "top of the second low-resistivity layer (author, Table 2)",
+  "provenance": {
+   "document": "main",
+   "pages": [
+    8
+   ],
+   "method": "manual",
+   "tool": "typed from the page at 200 dpi; geosigma.extract.printed_tables",
+   "extracted_on": "2026-10-24",
+   "notes": "Coordinates from Table 2 (pages 7-8), Old Israel Grid in units of 10 m. Depth = running sum of the printed thicknesses; each row was checked against the printed elevation and conductance.",
+   "table": "Table 2"
+  },
+  "notes": "First low-resistivity layer 0.3 ohm.m. Second low-resistivity layer 1.4 ohm.m."
+ },
+ {
+  "id": "rabinovich1993-HS293-2-layered",
+  "survey": "rabinovich-1993-tdem-coastal-interface",
+  "site": "HS293",
+  "method": "TEM",
+  "level": "L2",
+  "representation": "model_1d",
+  "measured_on": "1993",
+  "depth_max_m": 41.1,
+  "confidence": "A",
+  "status": "draft",
+  "model_type": "layered",
+  "layers": [
+   {
+    "top_m": 0.0,
+    "bottom_m": 1.17,
+    "rho_ohmm": 1.73
+   },
+   {
+    "top_m": 1.17,
+    "bottom_m": 5.04,
+    "rho_ohmm": 18.8
+   },
+   {
+    "top_m": 5.04,
+    "bottom_m": 9.92,
+    "rho_ohmm": 0.665
+   },
+   {
+    "top_m": 9.92,
+    "bottom_m": 13.79,
+    "rho_ohmm": 5.63
+   },
+   {
+    "top_m": 13.79,
+    "bottom_m": 41.1,
+    "rho_ohmm": 0.338
+   },
+   {
+    "top_m": 41.1,
+    "bottom_m": null,
+    "rho_ohmm": 1.39
+   }
+  ],
+  "provenance": {
+   "document": "main",
+   "pages": [
+    76
+   ],
+   "method": "manual",
+   "tool": "typed from the page at 200 dpi; geosigma.extract.printed_tables",
+   "extracted_on": "2026-10-24",
+   "notes": "Coordinates from Table 2 (pages 7-8), Old Israel Grid in units of 10 m. Depth = running sum of the printed thicknesses; each row was checked against the printed elevation and conductance.",
+   "table": "Appendix (layered inversion printout: resistivity, thickness, elevation, conductance)"
+  },
+  "notes": "Second sounding at this station (the second Table 2 row)."
+ },
+ {
+  "id": "rabinovich1993-HS293-2-first",
+  "survey": "rabinovich-1993-tdem-coastal-interface",
+  "site": "HS293",
+  "method": "TEM",
+  "level": "L3",
+  "representation": "interface_depth",
+  "measured_on": "1993",
+  "confidence": "A",
+  "status": "draft",
+  "interface_depth_m": 5.0,
+  "criterion": "top of the first low-resistivity layer (author, Table 2)",
+  "provenance": {
+   "document": "main",
+   "pages": [
+    8
+   ],
+   "method": "manual",
+   "tool": "typed from the page at 200 dpi; geosigma.extract.printed_tables",
+   "extracted_on": "2026-10-24",
+   "notes": "Coordinates from Table 2 (pages 7-8), Old Israel Grid in units of 10 m. Depth = running sum of the printed thicknesses; each row was checked against the printed elevation and conductance.",
+   "table": "Table 2"
+  },
+  "notes": "First low-resistivity layer 0.7 ohm.m. Second low-resistivity layer 0.3 ohm.m. Second sounding at this station (the second Table 2 row)."
+ },
+ {
+  "id": "rabinovich1993-HS293-2-second",
+  "survey": "rabinovich-1993-tdem-coastal-interface",
+  "site": "HS293",
+  "method": "TEM",
+  "level": "L3",
+  "representation": "interface_depth",
+  "measured_on": "1993",
+  "confidence": "A",
+  "status": "draft",
+  "interface_depth_m": 14.0,
+  "criterion": "top of the second low-resistivity layer (author, Table 2)",
+  "provenance": {
+   "document": "main",
+   "pages": [
+    8
+   ],
+   "method": "manual",
+   "tool": "typed from the page at 200 dpi; geosigma.extract.printed_tables",
+   "extracted_on": "2026-10-24",
+   "notes": "Coordinates from Table 2 (pages 7-8), Old Israel Grid in units of 10 m. Depth = running sum of the printed thicknesses; each row was checked against the printed elevation and conductance.",
+   "table": "Table 2"
+  },
+  "notes": "First low-resistivity layer 0.7 ohm.m. Second low-resistivity layer 0.3 ohm.m. Second sounding at this station (the second Table 2 row)."
+ },
+ {
+  "id": "rabinovich1993-HS294-layered",
+  "survey": "rabinovich-1993-tdem-coastal-interface",
+  "site": "HS294",
+  "method": "TEM",
+  "level": "L2",
+  "representation": "model_1d",
+  "measured_on": "1993",
+  "depth_max_m": 122.44,
+  "confidence": "A",
+  "status": "draft",
+  "model_type": "layered",
+  "layers": [
+   {
+    "top_m": 0.0,
+    "bottom_m": 7.39,
+    "rho_ohmm": 8.86
+   },
+   {
+    "top_m": 7.39,
+    "bottom_m": 13.93,
+    "rho_ohmm": 3.54
+   },
+   {
+    "top_m": 13.93,
+    "bottom_m": 48.1,
+    "rho_ohmm": 8.56
+   },
+   {
+    "top_m": 48.1,
+    "bottom_m": 122.44,
+    "rho_ohmm": 1.46
+   },
+   {
+    "top_m": 122.44,
+    "bottom_m": null,
+    "rho_ohmm": 0.493
+   }
+  ],
+  "provenance": {
+   "document": "main",
+   "pages": [
+    77
+   ],
+   "method": "manual",
+   "tool": "typed from the page at 200 dpi; geosigma.extract.printed_tables",
+   "extracted_on": "2026-10-24",
+   "notes": "Coordinates from Table 2 (pages 7-8), Old Israel Grid in units of 10 m. Depth = running sum of the printed thicknesses; each row was checked against the printed elevation and conductance.",
+   "table": "Appendix (layered inversion printout: resistivity, thickness, elevation, conductance)"
+  }
+ },
+ {
+  "id": "rabinovich1993-HS294-first",
+  "survey": "rabinovich-1993-tdem-coastal-interface",
+  "site": "HS294",
+  "method": "TEM",
+  "level": "L3",
+  "representation": "interface_depth",
+  "measured_on": "1993",
+  "confidence": "A",
+  "status": "draft",
+  "interface_depth_m": 48.0,
+  "criterion": "top of the first low-resistivity layer (author, Table 2)",
+  "provenance": {
+   "document": "main",
+   "pages": [
+    8
+   ],
+   "method": "manual",
+   "tool": "typed from the page at 200 dpi; geosigma.extract.printed_tables",
+   "extracted_on": "2026-10-24",
+   "notes": "Coordinates from Table 2 (pages 7-8), Old Israel Grid in units of 10 m. Depth = running sum of the printed thicknesses; each row was checked against the printed elevation and conductance.",
+   "table": "Table 2"
+  },
+  "notes": "First low-resistivity layer 1.5 ohm.m. Second low-resistivity layer 0.5 ohm.m."
+ },
+ {
+  "id": "rabinovich1993-HS294-second",
+  "survey": "rabinovich-1993-tdem-coastal-interface",
+  "site": "HS294",
+  "method": "TEM",
+  "level": "L3",
+  "representation": "interface_depth",
+  "measured_on": "1993",
+  "confidence": "A",
+  "status": "draft",
+  "interface_depth_m": 122.0,
+  "criterion": "top of the second low-resistivity layer (author, Table 2)",
+  "provenance": {
+   "document": "main",
+   "pages": [
+    8
+   ],
+   "method": "manual",
+   "tool": "typed from the page at 200 dpi; geosigma.extract.printed_tables",
+   "extracted_on": "2026-10-24",
+   "notes": "Coordinates from Table 2 (pages 7-8), Old Israel Grid in units of 10 m. Depth = running sum of the printed thicknesses; each row was checked against the printed elevation and conductance.",
+   "table": "Table 2"
+  },
+  "notes": "First low-resistivity layer 1.5 ohm.m. Second low-resistivity layer 0.5 ohm.m."
+ }
+]

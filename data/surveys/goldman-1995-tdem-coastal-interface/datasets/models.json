@@ -1,0 +1,4360 @@
+[
+ {
+  "id": "goldman1995-HS300-layered",
+  "survey": "goldman-1995-tdem-coastal-interface",
+  "site": "HS300",
+  "method": "TEM",
+  "level": "L2",
+  "representation": "model_1d",
+  "measured_on": "1995",
+  "depth_max_m": 141.89,
+  "confidence": "A",
+  "status": "draft",
+  "model_type": "layered",
+  "layers": [
+   {
+    "top_m": 0.0,
+    "bottom_m": 33.79,
+    "rho_ohmm": 36.6
+   },
+   {
+    "top_m": 33.79,
+    "bottom_m": 141.89,
+    "rho_ohmm": 1.62
+   },
+   {
+    "top_m": 141.89,
+    "bottom_m": null,
+    "rho_ohmm": 4.01
+   }
+  ],
+  "provenance": {
+   "document": "main",
+   "pages": [
+    16
+   ],
+   "method": "manual",
+   "tool": "typed from the page at 200 dpi; geosigma.extract.printed_tables",
+   "extracted_on": "2026-10-24",
+   "notes": "Coordinates from Tables 1A and 1B (pages 9-11), Old Israel Grid in units of 10 m. Depth = running sum of the printed thicknesses; each row was checked against the printed elevation and conductance.",
+   "table": "Appendix (layered inversion printout: resistivity, thickness, elevation, conductance)"
+  }
+ },
+ {
+  "id": "goldman1995-HS300-upper",
+  "survey": "goldman-1995-tdem-coastal-interface",
+  "site": "HS300",
+  "method": "TEM",
+  "level": "L3",
+  "representation": "interface_depth",
+  "measured_on": "1995",
+  "confidence": "A",
+  "status": "draft",
+  "interface_depth_m": 34.0,
+  "criterion": "top of the upper low-resistivity unit (author, Table 1A: associated with seawater intrusion)",
+  "provenance": {
+   "document": "main",
+   "pages": [
+    9
+   ],
+   "method": "manual",
+   "tool": "typed from the page at 200 dpi; geosigma.extract.printed_tables",
+   "extracted_on": "2026-10-24",
+   "notes": "Coordinates from Tables 1A and 1B (pages 9-11), Old Israel Grid in units of 10 m. Depth = running sum of the printed thicknesses; each row was checked against the printed elevation and conductance.",
+   "table": "Table 1A"
+  },
+  "notes": "Upper unit resistivity 1.6 ohm.m."
+ },
+ {
+  "id": "goldman1995-HS301-layered",
+  "survey": "goldman-1995-tdem-coastal-interface",
+  "site": "HS301",
+  "method": "TEM",
+  "level": "L2",
+  "representation": "model_1d",
+  "measured_on": "1995",
+  "depth_max_m": 186.82,
+  "confidence": "A",
+  "status": "draft",
+  "model_type": "layered",
+  "layers": [
+   {
+    "top_m": 0.0,
+    "bottom_m": 74.68,
+    "rho_ohmm": 68.93
+   },
+   {
+    "top_m": 74.68,
+    "bottom_m": 148.81,
+    "rho_ohmm": 2.08
+   },
+   {
+    "top_m": 148.81,
+    "bottom_m": 186.82,
+    "rho_ohmm": 43.64
+   },
+   {
+    "top_m": 186.82,
+    "bottom_m": null,
+    "rho_ohmm": 2.12
+   }
+  ],
+  "provenance": {
+   "document": "main",
+   "pages": [
+    17
+   ],
+   "method": "manual",
+   "tool": "typed from the page at 200 dpi; geosigma.extract.printed_tables",
+   "extracted_on": "2026-10-24",
+   "notes": "Coordinates from Tables 1A and 1B (pages 9-11), Old Israel Grid in units of 10 m. Depth = running sum of the printed thicknesses; each row was checked against the printed elevation and conductance.",
+   "table": "Appendix (layered inversion printout: resistivity, thickness, elevation, conductance)"
+  }
+ },
+ {
+  "id": "goldman1995-HS301-upper",
+  "survey": "goldman-1995-tdem-coastal-interface",
+  "site": "HS301",
+  "method": "TEM",
+  "level": "L3",
+  "representation": "interface_depth",
+  "measured_on": "1995",
+  "confidence": "A",
+  "status": "draft",
+  "interface_depth_m": 75.0,
+  "criterion": "top of the upper low-resistivity unit (author, Table 1A: associated with seawater intrusion)",
+  "provenance": {
+   "document": "main",
+   "pages": [
+    9
+   ],
+   "method": "manual",
+   "tool": "typed from the page at 200 dpi; geosigma.extract.printed_tables",
+   "extracted_on": "2026-10-24",
+   "notes": "Coordinates from Tables 1A and 1B (pages 9-11), Old Israel Grid in units of 10 m. Depth = running sum of the printed thicknesses; each row was checked against the printed elevation and conductance.",
+   "table": "Table 1A"
+  },
+  "notes": "Upper unit resistivity 2.1 ohm.m."
+ },
+ {
+  "id": "goldman1995-HS302-layered",
+  "survey": "goldman-1995-tdem-coastal-interface",
+  "site": "HS302",
+  "method": "TEM",
+  "level": "L2",
+  "representation": "model_1d",
+  "measured_on": "1995",
+  "depth_max_m": 176.47,
+  "confidence": "A",
+  "status": "draft",
+  "model_type": "layered",
+  "layers": [
+   {
+    "top_m": 0.0,
+    "bottom_m": 94.5,
+    "rho_ohmm": 67.07
+   },
+   {
+    "top_m": 94.5,
+    "bottom_m": 130.85,
+    "rho_ohmm": 2.19
+   },
+   {
+    "top_m": 130.85,
+    "bottom_m": 176.47,
+    "rho_ohmm": 40.48
+   },
+   {
+    "top_m": 176.47,
+    "bottom_m": null,
+    "rho_ohmm": 1.32
+   }
+  ],
+  "provenance": {
+   "document": "main",
+   "pages": [
+    18
+   ],
+   "method": "manual",
+   "tool": "typed from the page at 200 dpi; geosigma.extract.printed_tables",
+   "extracted_on": "2026-10-24",
+   "notes": "Coordinates from Tables 1A and 1B (pages 9-11), Old Israel Grid in units of 10 m. Depth = running sum of the printed thicknesses; each row was checked against the printed elevation and conductance.",
+   "table": "Appendix (layered inversion printout: resistivity, thickness, elevation, conductance)"
+  }
+ },
+ {
+  "id": "goldman1995-HS302-upper",
+  "survey": "goldman-1995-tdem-coastal-interface",
+  "site": "HS302",
+  "method": "TEM",
+  "level": "L3",
+  "representation": "interface_depth",
+  "measured_on": "1995",
+  "confidence": "A",
+  "status": "draft",
+  "interface_depth_m": 95.0,
+  "criterion": "top of the upper low-resistivity unit (author, Table 1A: associated with seawater intrusion)",
+  "provenance": {
+   "document": "main",
+   "pages": [
+    9
+   ],
+   "method": "manual",
+   "tool": "typed from the page at 200 dpi; geosigma.extract.printed_tables",
+   "extracted_on": "2026-10-24",
+   "notes": "Coordinates from Tables 1A and 1B (pages 9-11), Old Israel Grid in units of 10 m. Depth = running sum of the printed thicknesses; each row was checked against the printed elevation and conductance.",
+   "table": "Table 1A"
+  },
+  "notes": "Upper unit resistivity 2.2 ohm.m. Lower unit resistivity 1.3 ohm.m."
+ },
+ {
+  "id": "goldman1995-HS302-lower",
+  "survey": "goldman-1995-tdem-coastal-interface",
+  "site": "HS302",
+  "method": "TEM",
+  "level": "L3",
+  "representation": "interface_depth",
+  "measured_on": "1995",
+  "confidence": "A",
+  "status": "draft",
+  "interface_depth_m": 176.0,
+  "criterion": "top of the lower low-resistivity unit (author, Table 1A: associated with seawater intrusion)",
+  "provenance": {
+   "document": "main",
+   "pages": [
+    9
+   ],
+   "method": "manual",
+   "tool": "typed from the page at 200 dpi; geosigma.extract.printed_tables",
+   "extracted_on": "2026-10-24",
+   "notes": "Coordinates from Tables 1A and 1B (pages 9-11), Old Israel Grid in units of 10 m. Depth = running sum of the printed thicknesses; each row was checked against the printed elevation and conductance.",
+   "table": "Table 1A"
+  },
+  "notes": "Upper unit resistivity 2.2 ohm.m. Lower unit resistivity 1.3 ohm.m."
+ },
+ {
+  "id": "goldman1995-HS303-layered",
+  "survey": "goldman-1995-tdem-coastal-interface",
+  "site": "HS303",
+  "method": "TEM",
+  "level": "L2",
+  "representation": "model_1d",
+  "measured_on": "1995",
+  "depth_max_m": 200.67,
+  "confidence": "A",
+  "status": "draft",
+  "model_type": "layered",
+  "layers": [
+   {
+    "top_m": 0.0,
+    "bottom_m": 9.0,
+    "rho_ohmm": 16.63
+   },
+   {
+    "top_m": 9.0,
+    "bottom_m": 122.5,
+    "rho_ohmm": 86.27
+   },
+   {
+    "top_m": 122.5,
+    "bottom_m": 200.67,
+    "rho_ohmm": 4.4
+   },
+   {
+    "top_m": 200.67,
+    "bottom_m": null,
+    "rho_ohmm": 1.44
+   }
+  ],
+  "provenance": {
+   "document": "main",
+   "pages": [
+    19
+   ],
+   "method": "manual",
+   "tool": "typed from the page at 200 dpi; geosigma.extract.printed_tables",
+   "extracted_on": "2026-10-24",
+   "notes": "Coordinates from Tables 1A and 1B (pages 9-11), Old Israel Grid in units of 10 m. Depth = running sum of the printed thicknesses; each row was checked against the printed elevation and conductance.",
+   "table": "Appendix (layered inversion printout: resistivity, thickness, elevation, conductance)"
+  }
+ },
+ {
+  "id": "goldman1995-HS303-upper",
+  "survey": "goldman-1995-tdem-coastal-interface",
+  "site": "HS303",
+  "method": "TEM",
+  "level": "L3",
+  "representation": "interface_depth",
+  "measured_on": "1995",
+  "confidence": "A",
+  "status": "draft",
+  "interface_depth_m": 201.0,
+  "criterion": "top of the upper low-resistivity unit (author, Table 1A: associated with seawater intrusion)",
+  "provenance": {
+   "document": "main",
+   "pages": [
+    9
+   ],
+   "method": "manual",
+   "tool": "typed from the page at 200 dpi; geosigma.extract.printed_tables",
+   "extracted_on": "2026-10-24",
+   "notes": "Coordinates from Tables 1A and 1B (pages 9-11), Old Israel Grid in units of 10 m. Depth = running sum of the printed thicknesses; each row was checked against the printed elevation and conductance.",
+   "table": "Table 1A"
+  },
+  "notes": "Upper unit resistivity 1.4 ohm.m."
+ },
+ {
+  "id": "goldman1995-HS304-layered",
+  "survey": "goldman-1995-tdem-coastal-interface",
+  "site": "HS304",
+  "method": "TEM",
+  "level": "L2",
+  "representation": "model_1d",
+  "measured_on": "1995",
+  "depth_max_m": 195.08,
+  "confidence": "A",
+  "status": "draft",
+  "model_type": "layered",
+  "layers": [
+   {
+    "top_m": 0.0,
+    "bottom_m": 44.84,
+    "rho_ohmm": 67.19
+   },
+   {
+    "top_m": 44.84,
+    "bottom_m": 85.98,
+    "rho_ohmm": 2.14
+   },
+   {
+    "top_m": 85.98,
+    "bottom_m": 195.08,
+    "rho_ohmm": 178.4
+   },
+   {
+    "top_m": 195.08,
+    "bottom_m": null,
+    "rho_ohmm": 2.1
+   }
+  ],
+  "provenance": {
+   "document": "main",
+   "pages": [
+    20
+   ],
+   "method": "manual",
+   "tool": "typed from the page at 200 dpi; geosigma.extract.printed_tables",
+   "extracted_on": "2026-10-24",
+   "notes": "Coordinates from Tables 1A and 1B (pages 9-11), Old Israel Grid in units of 10 m. Depth = running sum of the printed thicknesses; each row was checked against the printed elevation and conductance.",
+   "table": "Appendix (layered inversion printout: resistivity, thickness, elevation, conductance)"
+  }
+ },
+ {
+  "id": "goldman1995-HS304-upper",
+  "survey": "goldman-1995-tdem-coastal-interface",
+  "site": "HS304",
+  "method": "TEM",
+  "level": "L3",
+  "representation": "interface_depth",
+  "measured_on": "1995",
+  "confidence": "A",
+  "status": "draft",
+  "interface_depth_m": 45.0,
+  "criterion": "top of the upper low-resistivity unit (author, Table 1A: associated with seawater intrusion)",
+  "provenance": {
+   "document": "main",
+   "pages": [
+    9
+   ],
+   "method": "manual",
+   "tool": "typed from the page at 200 dpi; geosigma.extract.printed_tables",
+   "extracted_on": "2026-10-24",
+   "notes": "Coordinates from Tables 1A and 1B (pages 9-11), Old Israel Grid in units of 10 m. Depth = running sum of the printed thicknesses; each row was checked against the printed elevation and conductance.",
+   "table": "Table 1A"
+  },
+  "notes": "Upper unit resistivity 2.1 ohm.m. Lower unit resistivity 2.1 ohm.m."
+ },
+ {
+  "id": "goldman1995-HS304-lower",
+  "survey": "goldman-1995-tdem-coastal-interface",
+  "site": "HS304",
+  "method": "TEM",
+  "level": "L3",
+  "representation": "interface_depth",
+  "measured_on": "1995",
+  "confidence": "A",
+  "status": "draft",
+  "interface_depth_m": 195.0,
+  "criterion": "top of the lower low-resistivity unit (author, Table 1A: associated with seawater intrusion)",
+  "provenance": {
+   "document": "main",
+   "pages": [
+    9
+   ],
+   "method": "manual",
+   "tool": "typed from the page at 200 dpi; geosigma.extract.printed_tables",
+   "extracted_on": "2026-10-24",
+   "notes": "Coordinates from Tables 1A and 1B (pages 9-11), Old Israel Grid in units of 10 m. Depth = running sum of the printed thicknesses; each row was checked against the printed elevation and conductance.",
+   "table": "Table 1A"
+  },
+  "notes": "Upper unit resistivity 2.1 ohm.m. Lower unit resistivity 2.1 ohm.m."
+ },
+ {
+  "id": "goldman1995-HS305-layered",
+  "survey": "goldman-1995-tdem-coastal-interface",
+  "site": "HS305",
+  "method": "TEM",
+  "level": "L2",
+  "representation": "model_1d",
+  "measured_on": "1995",
+  "depth_max_m": 196.31,
+  "confidence": "A",
+  "status": "draft",
+  "model_type": "layered",
+  "layers": [
+   {
+    "top_m": 0.0,
+    "bottom_m": 66.81,
+    "rho_ohmm": 33.73
+   },
+   {
+    "top_m": 66.81,
+    "bottom_m": 196.31,
+    "rho_ohmm": 14.22
+   },
+   {
+    "top_m": 196.31,
+    "bottom_m": null,
+    "rho_ohmm": 2.1
+   }
+  ],
+  "provenance": {
+   "document": "main",
+   "pages": [
+    21
+   ],
+   "method": "manual",
+   "tool": "typed from the page at 200 dpi; geosigma.extract.printed_tables",
+   "extracted_on": "2026-10-24",
+   "notes": "Coordinates from Tables 1A and 1B (pages 9-11), Old Israel Grid in units of 10 m. Depth = running sum of the printed thicknesses; each row was checked against the printed elevation and conductance.",
+   "table": "Appendix (layered inversion printout: resistivity, thickness, elevation, conductance)"
+  }
+ },
+ {
+  "id": "goldman1995-HS305-upper",
+  "survey": "goldman-1995-tdem-coastal-interface",
+  "site": "HS305",
+  "method": "TEM",
+  "level": "L3",
+  "representation": "interface_depth",
+  "measured_on": "1995",
+  "confidence": "A",
+  "status": "draft",
+  "interface_depth_m": 196.0,
+  "criterion": "top of the upper low-resistivity unit (author, Table 1A: associated with seawater intrusion)",
+  "provenance": {
+   "document": "main",
+   "pages": [
+    9
+   ],
+   "method": "manual",
+   "tool": "typed from the page at 200 dpi; geosigma.extract.printed_tables",
+   "extracted_on": "2026-10-24",
+   "notes": "Coordinates from Tables 1A and 1B (pages 9-11), Old Israel Grid in units of 10 m. Depth = running sum of the printed thicknesses; each row was checked against the printed elevation and conductance.",
+   "table": "Table 1A"
+  },
+  "notes": "Upper unit resistivity 2.1 ohm.m."
+ },
+ {
+  "id": "goldman1995-HS306-layered",
+  "survey": "goldman-1995-tdem-coastal-interface",
+  "site": "HS306",
+  "method": "TEM",
+  "level": "L2",
+  "representation": "model_1d",
+  "measured_on": "1995",
+  "depth_max_m": 213.54,
+  "confidence": "B",
+  "status": "draft",
+  "model_type": "layered",
+  "layers": [
+   {
+    "top_m": 0.0,
+    "bottom_m": 46.29,
+    "rho_ohmm": 55.34
+   },
+   {
+    "top_m": 46.29,
+    "bottom_m": 96.64,
+    "rho_ohmm": 21.64
+   },
+   {
+    "top_m": 96.64,
+    "bottom_m": 213.54,
+    "rho_ohmm": 5.27
+   },
+   {
+    "top_m": 213.54,
+    "bottom_m": null,
+    "rho_ohmm": 2.05
+   }
+  ],
+  "provenance": {
+   "document": "main",
+   "pages": [
+    22
+   ],
+   "method": "manual",
+   "tool": "typed from the page at 200 dpi; geosigma.extract.printed_tables",
+   "extracted_on": "2026-10-24",
+   "notes": "Coordinates from Tables 1A and 1B (pages 9-11), Old Israel Grid in units of 10 m. Depth = running sum of the printed thicknesses; each row was checked against the printed elevation and conductance.",
+   "table": "Appendix (layered inversion printout: resistivity, thickness, elevation, conductance)"
+  },
+  "notes": "Author's remark: Tx loop too small compared to depth."
+ },
+ {
+  "id": "goldman1995-HS306-upper",
+  "survey": "goldman-1995-tdem-coastal-interface",
+  "site": "HS306",
+  "method": "TEM",
+  "level": "L3",
+  "representation": "interface_depth",
+  "measured_on": "1995",
+  "confidence": "B",
+  "status": "draft",
+  "interface_depth_m": 214.0,
+  "criterion": "top of the upper low-resistivity unit (author, Table 1A: associated with seawater intrusion)",
+  "provenance": {
+   "document": "main",
+   "pages": [
+    9
+   ],
+   "method": "manual",
+   "tool": "typed from the page at 200 dpi; geosigma.extract.printed_tables",
+   "extracted_on": "2026-10-24",
+   "notes": "Coordinates from Tables 1A and 1B (pages 9-11), Old Israel Grid in units of 10 m. Depth = running sum of the printed thicknesses; each row was checked against the printed elevation and conductance.",
+   "table": "Table 1A"
+  },
+  "notes": "Upper unit resistivity 2.0 ohm.m. Author's remark: Tx loop too small compared to depth."
+ },
+ {
+  "id": "goldman1995-HS307-layered",
+  "survey": "goldman-1995-tdem-coastal-interface",
+  "site": "HS307",
+  "method": "TEM",
+  "level": "L2",
+  "representation": "model_1d",
+  "measured_on": "1995",
+  "depth_max_m": 119.85,
+  "confidence": "A",
+  "status": "draft",
+  "model_type": "layered",
+  "layers": [
+   {
+    "top_m": 0.0,
+    "bottom_m": 3.63,
+    "rho_ohmm": 15.27
+   },
+   {
+    "top_m": 3.63,
+    "bottom_m": 24.06,
+    "rho_ohmm": 118.7
+   },
+   {
+    "top_m": 24.06,
+    "bottom_m": 71.87,
+    "rho_ohmm": 29.94
+   },
+   {
+    "top_m": 71.87,
+    "bottom_m": 119.85,
+    "rho_ohmm": 2.05
+   },
+   {
+    "top_m": 119.85,
+    "bottom_m": null,
+    "rho_ohmm": 26.99
+   }
+  ],
+  "provenance": {
+   "document": "main",
+   "pages": [
+    23
+   ],
+   "method": "manual",
+   "tool": "typed from the page at 200 dpi; geosigma.extract.printed_tables",
+   "extracted_on": "2026-10-24",
+   "notes": "Coordinates from Tables 1A and 1B (pages 9-11), Old Israel Grid in units of 10 m. Depth = running sum of the printed thicknesses; each row was checked against the printed elevation and conductance.",
+   "table": "Appendix (layered inversion printout: resistivity, thickness, elevation, conductance)"
+  }
+ },
+ {
+  "id": "goldman1995-HS307-upper",
+  "survey": "goldman-1995-tdem-coastal-interface",
+  "site": "HS307",
+  "method": "TEM",
+  "level": "L3",
+  "representation": "interface_depth",
+  "measured_on": "1995",
+  "confidence": "A",
+  "status": "draft",
+  "interface_depth_m": 72.0,
+  "criterion": "top of the upper low-resistivity unit (author, Table 1A: associated with seawater intrusion)",
+  "provenance": {
+   "document": "main",
+   "pages": [
+    9
+   ],
+   "method": "manual",
+   "tool": "typed from the page at 200 dpi; geosigma.extract.printed_tables",
+   "extracted_on": "2026-10-24",
+   "notes": "Coordinates from Tables 1A and 1B (pages 9-11), Old Israel Grid in units of 10 m. Depth = running sum of the printed thicknesses; each row was checked against the printed elevation and conductance.",
+   "table": "Table 1A"
+  },
+  "notes": "Upper unit resistivity 2.0 ohm.m."
+ },
+ {
+  "id": "goldman1995-HS308-layered",
+  "survey": "goldman-1995-tdem-coastal-interface",
+  "site": "HS308",
+  "method": "TEM",
+  "level": "L2",
+  "representation": "model_1d",
+  "measured_on": "1995",
+  "depth_max_m": 59.09,
+  "confidence": "B",
+  "status": "draft",
+  "model_type": "layered",
+  "layers": [
+   {
+    "top_m": 0.0,
+    "bottom_m": 7.05,
+    "rho_ohmm": 9.16
+   },
+   {
+    "top_m": 7.05,
+    "bottom_m": 59.09,
+    "rho_ohmm": 24.82
+   },
+   {
+    "top_m": 59.09,
+    "bottom_m": null,
+    "rho_ohmm": 0.978
+   }
+  ],
+  "provenance": {
+   "document": "main",
+   "pages": [
+    24
+   ],
+   "method": "manual",
+   "tool": "typed from the page at 200 dpi; geosigma.extract.printed_tables",
+   "extracted_on": "2026-10-24",
+   "notes": "Coordinates from Tables 1A and 1B (pages 9-11), Old Israel Grid in units of 10 m. Depth = running sum of the printed thicknesses; each row was checked against the printed elevation and conductance.",
+   "table": "Appendix (layered inversion printout: resistivity, thickness, elevation, conductance)"
+  },
+  "notes": "Author's remark: Noisy data."
+ },
+ {
+  "id": "goldman1995-HS308-upper",
+  "survey": "goldman-1995-tdem-coastal-interface",
+  "site": "HS308",
+  "method": "TEM",
+  "level": "L3",
+  "representation": "interface_depth",
+  "measured_on": "1995",
+  "confidence": "B",
+  "status": "draft",
+  "interface_depth_m": 59.0,
+  "criterion": "top of the upper low-resistivity unit (author, Table 1A: associated with seawater intrusion)",
+  "provenance": {
+   "document": "main",
+   "pages": [
+    9
+   ],
+   "method": "manual",
+   "tool": "typed from the page at 200 dpi; geosigma.extract.printed_tables",
+   "extracted_on": "2026-10-24",
+   "notes": "Coordinates from Tables 1A and 1B (pages 9-11), Old Israel Grid in units of 10 m. Depth = running sum of the printed thicknesses; each row was checked against the printed elevation and conductance.",
+   "table": "Table 1A"
+  },
+  "notes": "Upper unit resistivity 0.98 ohm.m. Author's remark: Noisy data."
+ },
+ {
+  "id": "goldman1995-HS309-layered",
+  "survey": "goldman-1995-tdem-coastal-interface",
+  "site": "HS309",
+  "method": "TEM",
+  "level": "L2",
+  "representation": "model_1d",
+  "measured_on": "1995",
+  "depth_max_m": 74.02,
+  "confidence": "B",
+  "status": "draft",
+  "model_type": "layered",
+  "layers": [
+   {
+    "top_m": 0.0,
+    "bottom_m": 48.91,
+    "rho_ohmm": 334.2
+   },
+   {
+    "top_m": 48.91,
+    "bottom_m": 74.02,
+    "rho_ohmm": 2.81
+   },
+   {
+    "top_m": 74.02,
+    "bottom_m": null,
+    "rho_ohmm": 1.1
+   }
+  ],
+  "provenance": {
+   "document": "main",
+   "pages": [
+    25
+   ],
+   "method": "manual",
+   "tool": "typed from the page at 200 dpi; geosigma.extract.printed_tables",
+   "extracted_on": "2026-10-24",
+   "notes": "Coordinates from Tables 1A and 1B (pages 9-11), Old Israel Grid in units of 10 m. Depth = running sum of the printed thicknesses; each row was checked against the printed elevation and conductance.",
+   "table": "Appendix (layered inversion printout: resistivity, thickness, elevation, conductance)"
+  },
+  "notes": "Author's remark: Noisy data; possibly gradient layer."
+ },
+ {
+  "id": "goldman1995-HS309-upper",
+  "survey": "goldman-1995-tdem-coastal-interface",
+  "site": "HS309",
+  "method": "TEM",
+  "level": "L3",
+  "representation": "interface_depth",
+  "measured_on": "1995",
+  "confidence": "B",
+  "status": "draft",
+  "interface_depth_m": 52.0,
+  "criterion": "top of the upper low-resistivity unit (author, Table 1A: associated with seawater intrusion)",
+  "provenance": {
+   "document": "main",
+   "pages": [
+    9
+   ],
+   "method": "manual",
+   "tool": "typed from the page at 200 dpi; geosigma.extract.printed_tables",
+   "extracted_on": "2026-10-24",
+   "notes": "Coordinates from Tables 1A and 1B (pages 9-11), Old Israel Grid in units of 10 m. Depth = running sum of the printed thicknesses; each row was checked against the printed elevation and conductance.",
+   "table": "Table 1A"
+  },
+  "notes": "Upper unit: two sub-layers, 2.4 ohm.m from 52 m and 1.1 ohm.m from 75 m; the shallower depth is stored. The printout puts 2.81 ohm.m at 48.9 m and 1.10 ohm.m at 74.0 m; Table 1A gives 2.4 ohm.m at 52 m for the first sub-layer. Author's remark: Noisy data; possibly gradient layer."
+ },
+ {
+  "id": "goldman1995-HS310-layered",
+  "survey": "goldman-1995-tdem-coastal-interface",
+  "site": "HS310",
+  "method": "TEM",
+  "level": "L2",
+  "representation": "model_1d",
+  "measured_on": "1995",
+  "depth_max_m": 70.63,
+  "confidence": "A",
+  "status": "draft",
+  "model_type": "layered",
+  "layers": [
+   {
+    "top_m": 0.0,
+    "bottom_m": 53.12,
+    "rho_ohmm": 37.57
+   },
+   {
+    "top_m": 53.12,
+    "bottom_m": 70.63,
+    "rho_ohmm": 2.34
+   },
+   {
+    "top_m": 70.63,
+    "bottom_m": null,
+    "rho_ohmm": 0.934
+   }
+  ],
+  "provenance": {
+   "document": "main",
+   "pages": [
+    26
+   ],
+   "method": "manual",
+   "tool": "typed from the page at 200 dpi; geosigma.extract.printed_tables",
+   "extracted_on": "2026-10-24",
+   "notes": "Coordinates from Tables 1A and 1B (pages 9-11), Old Israel Grid in units of 10 m. Depth = running sum of the printed thicknesses; each row was checked against the printed elevation and conductance.",
+   "table": "Appendix (layered inversion printout: resistivity, thickness, elevation, conductance)"
+  },
+  "notes": "Author's remark: Possibly gradient layer."
+ },
+ {
+  "id": "goldman1995-HS310-upper",
+  "survey": "goldman-1995-tdem-coastal-interface",
+  "site": "HS310",
+  "method": "TEM",
+  "level": "L3",
+  "representation": "interface_depth",
+  "measured_on": "1995",
+  "confidence": "A",
+  "status": "draft",
+  "interface_depth_m": 53.0,
+  "criterion": "top of the upper low-resistivity unit (author, Table 1A: associated with seawater intrusion)",
+  "provenance": {
+   "document": "main",
+   "pages": [
+    9
+   ],
+   "method": "manual",
+   "tool": "typed from the page at 200 dpi; geosigma.extract.printed_tables",
+   "extracted_on": "2026-10-24",
+   "notes": "Coordinates from Tables 1A and 1B (pages 9-11), Old Israel Grid in units of 10 m. Depth = running sum of the printed thicknesses; each row was checked against the printed elevation and conductance.",
+   "table": "Table 1A"
+  },
+  "notes": "Upper unit: two sub-layers, 2.3 ohm.m from 53 m and 0.9 ohm.m from 71 m; the shallower depth is stored. Author's remark: Possibly gradient layer."
+ },
+ {
+  "id": "goldman1995-HS311-layered",
+  "survey": "goldman-1995-tdem-coastal-interface",
+  "site": "HS311",
+  "method": "TEM",
+  "level": "L2",
+  "representation": "model_1d",
+  "measured_on": "1995",
+  "depth_max_m": 99.19,
+  "confidence": "A",
+  "status": "draft",
+  "model_type": "layered",
+  "layers": [
+   {
+    "top_m": 0.0,
+    "bottom_m": 4.13,
+    "rho_ohmm": 7.64
+   },
+   {
+    "top_m": 4.13,
+    "bottom_m": 58.44,
+    "rho_ohmm": 44.1
+   },
+   {
+    "top_m": 58.44,
+    "bottom_m": 99.19,
+    "rho_ohmm": 1.65
+   },
+   {
+    "top_m": 99.19,
+    "bottom_m": null,
+    "rho_ohmm": 24.86
+   }
+  ],
+  "provenance": {
+   "document": "main",
+   "pages": [
+    27
+   ],
+   "method": "manual",
+   "tool": "typed from the page at 200 dpi; geosigma.extract.printed_tables",
+   "extracted_on": "2026-10-24",
+   "notes": "Coordinates from Tables 1A and 1B (pages 9-11), Old Israel Grid in units of 10 m. Depth = running sum of the printed thicknesses; each row was checked against the printed elevation and conductance.",
+   "table": "Appendix (layered inversion printout: resistivity, thickness, elevation, conductance)"
+  }
+ },
+ {
+  "id": "goldman1995-HS311-upper",
+  "survey": "goldman-1995-tdem-coastal-interface",
+  "site": "HS311",
+  "method": "TEM",
+  "level": "L3",
+  "representation": "interface_depth",
+  "measured_on": "1995",
+  "confidence": "A",
+  "status": "draft",
+  "interface_depth_m": 58.0,
+  "criterion": "top of the upper low-resistivity unit (author, Table 1A: associated with seawater intrusion)",
+  "provenance": {
+   "document": "main",
+   "pages": [
+    9
+   ],
+   "method": "manual",
+   "tool": "typed from the page at 200 dpi; geosigma.extract.printed_tables",
+   "extracted_on": "2026-10-24",
+   "notes": "Coordinates from Tables 1A and 1B (pages 9-11), Old Israel Grid in units of 10 m. Depth = running sum of the printed thicknesses; each row was checked against the printed elevation and conductance.",
+   "table": "Table 1A"
+  },
+  "notes": "Upper unit resistivity 1.6 ohm.m."
+ },
+ {
+  "id": "goldman1995-HS312-layered",
+  "survey": "goldman-1995-tdem-coastal-interface",
+  "site": "HS312",
+  "method": "TEM",
+  "level": "L2",
+  "representation": "model_1d",
+  "measured_on": "1995",
+  "depth_max_m": 172.5,
+  "confidence": "B",
+  "status": "draft",
+  "model_type": "layered",
+  "layers": [
+   {
+    "top_m": 0.0,
+    "bottom_m": 6.19,
+    "rho_ohmm": 97.98
+   },
+   {
+    "top_m": 6.19,
+    "bottom_m": 104.29,
+    "rho_ohmm": 15.81
+   },
+   {
+    "top_m": 104.29,
+    "bottom_m": 172.5,
+    "rho_ohmm": 6.31
+   },
+   {
+    "top_m": 172.5,
+    "bottom_m": null,
+    "rho_ohmm": 0.946
+   }
+  ],
+  "provenance": {
+   "document": "main",
+   "pages": [
+    28
+   ],
+   "method": "manual",
+   "tool": "typed from the page at 200 dpi; geosigma.extract.printed_tables",
+   "extracted_on": "2026-10-24",
+   "notes": "Coordinates from Tables 1A and 1B (pages 9-11), Old Israel Grid in units of 10 m. Depth = running sum of the printed thicknesses; each row was checked against the printed elevation and conductance.",
+   "table": "Appendix (layered inversion printout: resistivity, thickness, elevation, conductance)"
+  },
+  "notes": "Author's remark: Tx loop too small compared to depth."
+ },
+ {
+  "id": "goldman1995-HS312-upper",
+  "survey": "goldman-1995-tdem-coastal-interface",
+  "site": "HS312",
+  "method": "TEM",
+  "level": "L3",
+  "representation": "interface_depth",
+  "measured_on": "1995",
+  "confidence": "B",
+  "status": "draft",
+  "interface_depth_m": 172.0,
+  "criterion": "top of the upper low-resistivity unit (author, Table 1A: associated with seawater intrusion)",
+  "provenance": {
+   "document": "main",
+   "pages": [
+    9
+   ],
+   "method": "manual",
+   "tool": "typed from the page at 200 dpi; geosigma.extract.printed_tables",
+   "extracted_on": "2026-10-24",
+   "notes": "Coordinates from Tables 1A and 1B (pages 9-11), Old Israel Grid in units of 10 m. Depth = running sum of the printed thicknesses; each row was checked against the printed elevation and conductance.",
+   "table": "Table 1A"
+  },
+  "notes": "Upper unit resistivity 0.9 ohm.m. Author's remark: Tx loop too small compared to depth."
+ },
+ {
+  "id": "goldman1995-HS313-layered",
+  "survey": "goldman-1995-tdem-coastal-interface",
+  "site": "HS313",
+  "method": "TEM",
+  "level": "L2",
+  "representation": "model_1d",
+  "measured_on": "1995",
+  "depth_max_m": 366.14,
+  "confidence": "A",
+  "status": "draft",
+  "model_type": "layered",
+  "layers": [
+   {
+    "top_m": 0.0,
+    "bottom_m": 9.0,
+    "rho_ohmm": 5.78
+   },
+   {
+    "top_m": 9.0,
+    "bottom_m": 32.34,
+    "rho_ohmm": 68.75
+   },
+   {
+    "top_m": 32.34,
+    "bottom_m": 366.14,
+    "rho_ohmm": 17.12
+   },
+   {
+    "top_m": 366.14,
+    "bottom_m": null,
+    "rho_ohmm": 129.7
+   }
+  ],
+  "provenance": {
+   "document": "main",
+   "pages": [
+    29
+   ],
+   "method": "manual",
+   "tool": "typed from the page at 200 dpi; geosigma.extract.printed_tables",
+   "extracted_on": "2026-10-24",
+   "notes": "Coordinates from Tables 1A and 1B (pages 9-11), Old Israel Grid in units of 10 m. Depth = running sum of the printed thicknesses; each row was checked against the printed elevation and conductance.",
+   "table": "Appendix (layered inversion printout: resistivity, thickness, elevation, conductance)"
+  },
+  "notes": "Author's remark: No interface (Table 1B)."
+ },
+ {
+  "id": "goldman1995-HS314-layered",
+  "survey": "goldman-1995-tdem-coastal-interface",
+  "site": "HS314",
+  "method": "TEM",
+  "level": "L2",
+  "representation": "model_1d",
+  "measured_on": "1995",
+  "depth_max_m": 112.45,
+  "confidence": "A",
+  "status": "draft",
+  "model_type": "layered",
+  "layers": [
+   {
+    "top_m": 0.0,
+    "bottom_m": 5.43,
+    "rho_ohmm": 5.16
+   },
+   {
+    "top_m": 5.43,
+    "bottom_m": 32.15,
+    "rho_ohmm": 46.8
+   },
+   {
+    "top_m": 32.15,
+    "bottom_m": 45.71,
+    "rho_ohmm": 2.17
+   },
+   {
+    "top_m": 45.71,
+    "bottom_m": 112.45,
+    "rho_ohmm": 22.39
+   },
+   {
+    "top_m": 112.45,
+    "bottom_m": null,
+    "rho_ohmm": 7.12
+   }
+  ],
+  "provenance": {
+   "document": "main",
+   "pages": [
+    30
+   ],
+   "method": "manual",
+   "tool": "typed from the page at 200 dpi; geosigma.extract.printed_tables",
+   "extracted_on": "2026-10-24",
+   "notes": "Coordinates from Tables 1A and 1B (pages 9-11), Old Israel Grid in units of 10 m. Depth = running sum of the printed thicknesses; each row was checked against the printed elevation and conductance.",
+   "table": "Appendix (layered inversion printout: resistivity, thickness, elevation, conductance)"
+  }
+ },
+ {
+  "id": "goldman1995-HS314-upper",
+  "survey": "goldman-1995-tdem-coastal-interface",
+  "site": "HS314",
+  "method": "TEM",
+  "level": "L3",
+  "representation": "interface_depth",
+  "measured_on": "1995",
+  "confidence": "A",
+  "status": "draft",
+  "interface_depth_m": 32.0,
+  "criterion": "top of the upper low-resistivity unit (author, Table 1A: associated with seawater intrusion)",
+  "provenance": {
+   "document": "main",
+   "pages": [
+    9
+   ],
+   "method": "manual",
+   "tool": "typed from the page at 200 dpi; geosigma.extract.printed_tables",
+   "extracted_on": "2026-10-24",
+   "notes": "Coordinates from Tables 1A and 1B (pages 9-11), Old Israel Grid in units of 10 m. Depth = running sum of the printed thicknesses; each row was checked against the printed elevation and conductance.",
+   "table": "Table 1A"
+  },
+  "notes": "Upper unit resistivity 2.2 ohm.m."
+ },
+ {
+  "id": "goldman1995-HS315-layered",
+  "survey": "goldman-1995-tdem-coastal-interface",
+  "site": "HS315",
+  "method": "TEM",
+  "level": "L2",
+  "representation": "model_1d",
+  "measured_on": "1995",
+  "depth_max_m": 96.45,
+  "confidence": "A",
+  "status": "draft",
+  "model_type": "layered",
+  "layers": [
+   {
+    "top_m": 0.0,
+    "bottom_m": 5.48,
+    "rho_ohmm": 6.38
+   },
+   {
+    "top_m": 5.48,
+    "bottom_m": 40.41,
+    "rho_ohmm": 15.43
+   },
+   {
+    "top_m": 40.41,
+    "bottom_m": 96.45,
+    "rho_ohmm": 2.52
+   },
+   {
+    "top_m": 96.45,
+    "bottom_m": null,
+    "rho_ohmm": 112.4
+   }
+  ],
+  "provenance": {
+   "document": "main",
+   "pages": [
+    31
+   ],
+   "method": "manual",
+   "tool": "typed from the page at 200 dpi; geosigma.extract.printed_tables",
+   "extracted_on": "2026-10-24",
+   "notes": "Coordinates from Tables 1A and 1B (pages 9-11), Old Israel Grid in units of 10 m. Depth = running sum of the printed thicknesses; each row was checked against the printed elevation and conductance.",
+   "table": "Appendix (layered inversion printout: resistivity, thickness, elevation, conductance)"
+  }
+ },
+ {
+  "id": "goldman1995-HS315-upper",
+  "survey": "goldman-1995-tdem-coastal-interface",
+  "site": "HS315",
+  "method": "TEM",
+  "level": "L3",
+  "representation": "interface_depth",
+  "measured_on": "1995",
+  "confidence": "A",
+  "status": "draft",
+  "interface_depth_m": 40.0,
+  "criterion": "top of the upper low-resistivity unit (author, Table 1A: associated with seawater intrusion)",
+  "provenance": {
+   "document": "main",
+   "pages": [
+    9
+   ],
+   "method": "manual",
+   "tool": "typed from the page at 200 dpi; geosigma.extract.printed_tables",
+   "extracted_on": "2026-10-24",
+   "notes": "Coordinates from Tables 1A and 1B (pages 9-11), Old Israel Grid in units of 10 m. Depth = running sum of the printed thicknesses; each row was checked against the printed elevation and conductance.",
+   "table": "Table 1A"
+  },
+  "notes": "Upper unit resistivity 2.5 ohm.m."
+ },
+ {
+  "id": "goldman1995-HS316-layered",
+  "survey": "goldman-1995-tdem-coastal-interface",
+  "site": "HS316",
+  "method": "TEM",
+  "level": "L2",
+  "representation": "model_1d",
+  "measured_on": "1995",
+  "depth_max_m": 149.32,
+  "confidence": "A",
+  "status": "draft",
+  "model_type": "layered",
+  "layers": [
+   {
+    "top_m": 0.0,
+    "bottom_m": 12.58,
+    "rho_ohmm": 10.81
+   },
+   {
+    "top_m": 12.58,
+    "bottom_m": 46.92,
+    "rho_ohmm": 40.02
+   },
+   {
+    "top_m": 46.92,
+    "bottom_m": 149.32,
+    "rho_ohmm": 1.82
+   },
+   {
+    "top_m": 149.32,
+    "bottom_m": null,
+    "rho_ohmm": 4.42
+   }
+  ],
+  "provenance": {
+   "document": "main",
+   "pages": [
+    32
+   ],
+   "method": "manual",
+   "tool": "typed from the page at 200 dpi; geosigma.extract.printed_tables",
+   "extracted_on": "2026-10-24",
+   "notes": "Coordinates from Tables 1A and 1B (pages 9-11), Old Israel Grid in units of 10 m. Depth = running sum of the printed thicknesses; each row was checked against the printed elevation and conductance.",
+   "table": "Appendix (layered inversion printout: resistivity, thickness, elevation, conductance)"
+  }
+ },
+ {
+  "id": "goldman1995-HS316-upper",
+  "survey": "goldman-1995-tdem-coastal-interface",
+  "site": "HS316",
+  "method": "TEM",
+  "level": "L3",
+  "representation": "interface_depth",
+  "measured_on": "1995",
+  "confidence": "A",
+  "status": "draft",
+  "interface_depth_m": 47.0,
+  "criterion": "top of the upper low-resistivity unit (author, Table 1A: associated with seawater intrusion)",
+  "provenance": {
+   "document": "main",
+   "pages": [
+    9
+   ],
+   "method": "manual",
+   "tool": "typed from the page at 200 dpi; geosigma.extract.printed_tables",
+   "extracted_on": "2026-10-24",
+   "notes": "Coordinates from Tables 1A and 1B (pages 9-11), Old Israel Grid in units of 10 m. Depth = running sum of the printed thicknesses; each row was checked against the printed elevation and conductance.",
+   "table": "Table 1A"
+  },
+  "notes": "Upper unit resistivity 1.8 ohm.m."
+ },
+ {
+  "id": "goldman1995-HS317-layered",
+  "survey": "goldman-1995-tdem-coastal-interface",
+  "site": "HS317",
+  "method": "TEM",
+  "level": "L2",
+  "representation": "model_1d",
+  "measured_on": "1995",
+  "depth_max_m": 164.07,
+  "confidence": "A",
+  "status": "draft",
+  "model_type": "layered",
+  "layers": [
+   {
+    "top_m": 0.0,
+    "bottom_m": 62.77,
+    "rho_ohmm": 34.08
+   },
+   {
+    "top_m": 62.77,
+    "bottom_m": 164.07,
+    "rho_ohmm": 1.93
+   },
+   {
+    "top_m": 164.07,
+    "bottom_m": null,
+    "rho_ohmm": 39.4
+   }
+  ],
+  "provenance": {
+   "document": "main",
+   "pages": [
+    33
+   ],
+   "method": "manual",
+   "tool": "typed from the page at 200 dpi; geosigma.extract.printed_tables",
+   "extracted_on": "2026-10-24",
+   "notes": "Coordinates from Tables 1A and 1B (pages 9-11), Old Israel Grid in units of 10 m. Depth = running sum of the printed thicknesses; each row was checked against the printed elevation and conductance.",
+   "table": "Appendix (layered inversion printout: resistivity, thickness, elevation, conductance)"
+  }
+ },
+ {
+  "id": "goldman1995-HS317-upper",
+  "survey": "goldman-1995-tdem-coastal-interface",
+  "site": "HS317",
+  "method": "TEM",
+  "level": "L3",
+  "representation": "interface_depth",
+  "measured_on": "1995",
+  "confidence": "A",
+  "status": "draft",
+  "interface_depth_m": 63.0,
+  "criterion": "top of the upper low-resistivity unit (author, Table 1A: associated with seawater intrusion)",
+  "provenance": {
+   "document": "main",
+   "pages": [
+    9
+   ],
+   "method": "manual",
+   "tool": "typed from the page at 200 dpi; geosigma.extract.printed_tables",
+   "extracted_on": "2026-10-24",
+   "notes": "Coordinates from Tables 1A and 1B (pages 9-11), Old Israel Grid in units of 10 m. Depth = running sum of the printed thicknesses; each row was checked against the printed elevation and conductance.",
+   "table": "Table 1A"
+  },
+  "notes": "Upper unit resistivity 1.9 ohm.m."
+ },
+ {
+  "id": "goldman1995-HS318-layered",
+  "survey": "goldman-1995-tdem-coastal-interface",
+  "site": "HS318",
+  "method": "TEM",
+  "level": "L2",
+  "representation": "model_1d",
+  "measured_on": "1995",
+  "depth_max_m": 45.42,
+  "confidence": "A",
+  "status": "draft",
+  "model_type": "layered",
+  "layers": [
+   {
+    "top_m": 0.0,
+    "bottom_m": 4.66,
+    "rho_ohmm": 27.84
+   },
+   {
+    "top_m": 4.66,
+    "bottom_m": 45.42,
+    "rho_ohmm": 46.57
+   },
+   {
+    "top_m": 45.42,
+    "bottom_m": null,
+    "rho_ohmm": 1.52
+   }
+  ],
+  "provenance": {
+   "document": "main",
+   "pages": [
+    34
+   ],
+   "method": "manual",
+   "tool": "typed from the page at 200 dpi; geosigma.extract.printed_tables",
+   "extracted_on": "2026-10-24",
+   "notes": "Coordinates from Tables 1A and 1B (pages 9-11), Old Israel Grid in units of 10 m. Depth = running sum of the printed thicknesses; each row was checked against the printed elevation and conductance.",
+   "table": "Appendix (layered inversion printout: resistivity, thickness, elevation, conductance)"
+  }
+ },
+ {
+  "id": "goldman1995-HS318-upper",
+  "survey": "goldman-1995-tdem-coastal-interface",
+  "site": "HS318",
+  "method": "TEM",
+  "level": "L3",
+  "representation": "interface_depth",
+  "measured_on": "1995",
+  "confidence": "A",
+  "status": "draft",
+  "interface_depth_m": 45.0,
+  "criterion": "top of the upper low-resistivity unit (author, Table 1A: associated with seawater intrusion)",
+  "provenance": {
+   "document": "main",
+   "pages": [
+    9
+   ],
+   "method": "manual",
+   "tool": "typed from the page at 200 dpi; geosigma.extract.printed_tables",
+   "extracted_on": "2026-10-24",
+   "notes": "Coordinates from Tables 1A and 1B (pages 9-11), Old Israel Grid in units of 10 m. Depth = running sum of the printed thicknesses; each row was checked against the printed elevation and conductance.",
+   "table": "Table 1A"
+  },
+  "notes": "Upper unit resistivity 1.5 ohm.m."
+ },
+ {
+  "id": "goldman1995-HS319-layered",
+  "survey": "goldman-1995-tdem-coastal-interface",
+  "site": "HS319",
+  "method": "TEM",
+  "level": "L2",
+  "representation": "model_1d",
+  "measured_on": "1995",
+  "depth_max_m": 170.3,
+  "confidence": "A",
+  "status": "draft",
+  "model_type": "layered",
+  "layers": [
+   {
+    "top_m": 0.0,
+    "bottom_m": 7.16,
+    "rho_ohmm": 15.16
+   },
+   {
+    "top_m": 7.16,
+    "bottom_m": 115.46,
+    "rho_ohmm": 64.38
+   },
+   {
+    "top_m": 115.46,
+    "bottom_m": 170.3,
+    "rho_ohmm": 3.9
+   },
+   {
+    "top_m": 170.3,
+    "bottom_m": null,
+    "rho_ohmm": 1.52
+   }
+  ],
+  "provenance": {
+   "document": "main",
+   "pages": [
+    35
+   ],
+   "method": "manual",
+   "tool": "typed from the page at 200 dpi; geosigma.extract.printed_tables",
+   "extracted_on": "2026-10-24",
+   "notes": "Coordinates from Tables 1A and 1B (pages 9-11), Old Israel Grid in units of 10 m. Depth = running sum of the printed thicknesses; each row was checked against the printed elevation and conductance.",
+   "table": "Appendix (layered inversion printout: resistivity, thickness, elevation, conductance)"
+  }
+ },
+ {
+  "id": "goldman1995-HS319-upper",
+  "survey": "goldman-1995-tdem-coastal-interface",
+  "site": "HS319",
+  "method": "TEM",
+  "level": "L3",
+  "representation": "interface_depth",
+  "measured_on": "1995",
+  "confidence": "A",
+  "status": "draft",
+  "interface_depth_m": 170.0,
+  "criterion": "top of the upper low-resistivity unit (author, Table 1A: associated with seawater intrusion)",
+  "provenance": {
+   "document": "main",
+   "pages": [
+    9
+   ],
+   "method": "manual",
+   "tool": "typed from the page at 200 dpi; geosigma.extract.printed_tables",
+   "extracted_on": "2026-10-24",
+   "notes": "Coordinates from Tables 1A and 1B (pages 9-11), Old Israel Grid in units of 10 m. Depth = running sum of the printed thicknesses; each row was checked against the printed elevation and conductance.",
+   "table": "Table 1A"
+  },
+  "notes": "Upper unit resistivity 1.5 ohm.m."
+ },
+ {
+  "id": "goldman1995-HS320-layered",
+  "survey": "goldman-1995-tdem-coastal-interface",
+  "site": "HS320",
+  "method": "TEM",
+  "level": "L2",
+  "representation": "model_1d",
+  "measured_on": "1995",
+  "depth_max_m": 67.01,
+  "confidence": "A",
+  "status": "draft",
+  "model_type": "layered",
+  "layers": [
+   {
+    "top_m": 0.0,
+    "bottom_m": 39.82,
+    "rho_ohmm": 104.0
+   },
+   {
+    "top_m": 39.82,
+    "bottom_m": 67.01,
+    "rho_ohmm": 5.99
+   },
+   {
+    "top_m": 67.01,
+    "bottom_m": null,
+    "rho_ohmm": 1.1
+   }
+  ],
+  "provenance": {
+   "document": "main",
+   "pages": [
+    36
+   ],
+   "method": "manual",
+   "tool": "typed from the page at 200 dpi; geosigma.extract.printed_tables",
+   "extracted_on": "2026-10-24",
+   "notes": "Coordinates from Tables 1A and 1B (pages 9-11), Old Israel Grid in units of 10 m. Depth = running sum of the printed thicknesses; each row was checked against the printed elevation and conductance.",
+   "table": "Appendix (layered inversion printout: resistivity, thickness, elevation, conductance)"
+  }
+ },
+ {
+  "id": "goldman1995-HS320-upper",
+  "survey": "goldman-1995-tdem-coastal-interface",
+  "site": "HS320",
+  "method": "TEM",
+  "level": "L3",
+  "representation": "interface_depth",
+  "measured_on": "1995",
+  "confidence": "A",
+  "status": "draft",
+  "interface_depth_m": 67.0,
+  "criterion": "top of the upper low-resistivity unit (author, Table 1A: associated with seawater intrusion)",
+  "provenance": {
+   "document": "main",
+   "pages": [
+    9
+   ],
+   "method": "manual",
+   "tool": "typed from the page at 200 dpi; geosigma.extract.printed_tables",
+   "extracted_on": "2026-10-24",
+   "notes": "Coordinates from Tables 1A and 1B (pages 9-11), Old Israel Grid in units of 10 m. Depth = running sum of the printed thicknesses; each row was checked against the printed elevation and conductance.",
+   "table": "Table 1A"
+  },
+  "notes": "Upper unit resistivity 1.1 ohm.m."
+ },
+ {
+  "id": "goldman1995-HS321-layered",
+  "survey": "goldman-1995-tdem-coastal-interface",
+  "site": "HS321",
+  "method": "TEM",
+  "level": "L2",
+  "representation": "model_1d",
+  "measured_on": "1995",
+  "depth_max_m": 34.74,
+  "confidence": "A",
+  "status": "draft",
+  "model_type": "layered",
+  "layers": [
+   {
+    "top_m": 0.0,
+    "bottom_m": 34.74,
+    "rho_ohmm": 45.37
+   },
+   {
+    "top_m": 34.74,
+    "bottom_m": null,
+    "rho_ohmm": 1.5
+   }
+  ],
+  "provenance": {
+   "document": "main",
+   "pages": [
+    37
+   ],
+   "method": "manual",
+   "tool": "typed from the page at 200 dpi; geosigma.extract.printed_tables",
+   "extracted_on": "2026-10-24",
+   "notes": "Coordinates from Tables 1A and 1B (pages 9-11), Old Israel Grid in units of 10 m. Depth = running sum of the printed thicknesses; each row was checked against the printed elevation and conductance.",
+   "table": "Appendix (layered inversion printout: resistivity, thickness, elevation, conductance)"
+  }
+ },
+ {
+  "id": "goldman1995-HS321-upper",
+  "survey": "goldman-1995-tdem-coastal-interface",
+  "site": "HS321",
+  "method": "TEM",
+  "level": "L3",
+  "representation": "interface_depth",
+  "measured_on": "1995",
+  "confidence": "A",
+  "status": "draft",
+  "interface_depth_m": 35.0,
+  "criterion": "top of the upper low-resistivity unit (author, Table 1A: associated with seawater intrusion)",
+  "provenance": {
+   "document": "main",
+   "pages": [
+    9
+   ],
+   "method": "manual",
+   "tool": "typed from the page at 200 dpi; geosigma.extract.printed_tables",
+   "extracted_on": "2026-10-24",
+   "notes": "Coordinates from Tables 1A and 1B (pages 9-11), Old Israel Grid in units of 10 m. Depth = running sum of the printed thicknesses; each row was checked against the printed elevation and conductance.",
+   "table": "Table 1A"
+  },
+  "notes": "Upper unit resistivity 1.5 ohm.m."
+ },
+ {
+  "id": "goldman1995-HS322-layered",
+  "survey": "goldman-1995-tdem-coastal-interface",
+  "site": "HS322",
+  "method": "TEM",
+  "level": "L2",
+  "representation": "model_1d",
+  "measured_on": "1995",
+  "depth_max_m": 33.7,
+  "confidence": "A",
+  "status": "draft",
+  "model_type": "layered",
+  "layers": [
+   {
+    "top_m": 0.0,
+    "bottom_m": 33.7,
+    "rho_ohmm": 16.63
+   },
+   {
+    "top_m": 33.7,
+    "bottom_m": null,
+    "rho_ohmm": 1.42
+   }
+  ],
+  "provenance": {
+   "document": "main",
+   "pages": [
+    38
+   ],
+   "method": "manual",
+   "tool": "typed from the page at 200 dpi; geosigma.extract.printed_tables",
+   "extracted_on": "2026-10-24",
+   "notes": "Coordinates from Tables 1A and 1B (pages 9-11), Old Israel Grid in units of 10 m. Depth = running sum of the printed thicknesses; each row was checked against the printed elevation and conductance.",
+   "table": "Appendix (layered inversion printout: resistivity, thickness, elevation, conductance)"
+  }
+ },
+ {
+  "id": "goldman1995-HS322-upper",
+  "survey": "goldman-1995-tdem-coastal-interface",
+  "site": "HS322",
+  "method": "TEM",
+  "level": "L3",
+  "representation": "interface_depth",
+  "measured_on": "1995",
+  "confidence": "A",
+  "status": "draft",
+  "interface_depth_m": 34.0,
+  "criterion": "top of the upper low-resistivity unit (author, Table 1A: associated with seawater intrusion)",
+  "provenance": {
+   "document": "main",
+   "pages": [
+    9
+   ],
+   "method": "manual",
+   "tool": "typed from the page at 200 dpi; geosigma.extract.printed_tables",
+   "extracted_on": "2026-10-24",
+   "notes": "Coordinates from Tables 1A and 1B (pages 9-11), Old Israel Grid in units of 10 m. Depth = running sum of the printed thicknesses; each row was checked against the printed elevation and conductance.",
+   "table": "Table 1A"
+  },
+  "notes": "Upper unit resistivity 1.4 ohm.m."
+ },
+ {
+  "id": "goldman1995-HS323-layered",
+  "survey": "goldman-1995-tdem-coastal-interface",
+  "site": "HS323",
+  "method": "TEM",
+  "level": "L2",
+  "representation": "model_1d",
+  "measured_on": "1995",
+  "depth_max_m": 118.22,
+  "confidence": "A",
+  "status": "draft",
+  "model_type": "layered",
+  "layers": [
+   {
+    "top_m": 0.0,
+    "bottom_m": 76.4,
+    "rho_ohmm": 77.52
+   },
+   {
+    "top_m": 76.4,
+    "bottom_m": 118.22,
+    "rho_ohmm": 1.39
+   },
+   {
+    "top_m": 118.22,
+    "bottom_m": null,
+    "rho_ohmm": 3.07
+   }
+  ],
+  "provenance": {
+   "document": "main",
+   "pages": [
+    39
+   ],
+   "method": "manual",
+   "tool": "typed from the page at 200 dpi; geosigma.extract.printed_tables",
+   "extracted_on": "2026-10-24",
+   "notes": "Coordinates from Tables 1A and 1B (pages 9-11), Old Israel Grid in units of 10 m. Depth = running sum of the printed thicknesses; each row was checked against the printed elevation and conductance.",
+   "table": "Appendix (layered inversion printout: resistivity, thickness, elevation, conductance)"
+  }
+ },
+ {
+  "id": "goldman1995-HS323-upper",
+  "survey": "goldman-1995-tdem-coastal-interface",
+  "site": "HS323",
+  "method": "TEM",
+  "level": "L3",
+  "representation": "interface_depth",
+  "measured_on": "1995",
+  "confidence": "A",
+  "status": "draft",
+  "interface_depth_m": 76.0,
+  "criterion": "top of the upper low-resistivity unit (author, Table 1A: associated with seawater intrusion)",
+  "provenance": {
+   "document": "main",
+   "pages": [
+    9
+   ],
+   "method": "manual",
+   "tool": "typed from the page at 200 dpi; geosigma.extract.printed_tables",
+   "extracted_on": "2026-10-24",
+   "notes": "Coordinates from Tables 1A and 1B (pages 9-11), Old Israel Grid in units of 10 m. Depth = running sum of the printed thicknesses; each row was checked against the printed elevation and conductance.",
+   "table": "Table 1A"
+  },
+  "notes": "Upper unit resistivity 1.4 ohm.m."
+ },
+ {
+  "id": "goldman1995-HS324-layered",
+  "survey": "goldman-1995-tdem-coastal-interface",
+  "site": "HS324",
+  "method": "TEM",
+  "level": "L2",
+  "representation": "model_1d",
+  "measured_on": "1995",
+  "depth_max_m": 189.09,
+  "confidence": "A",
+  "status": "draft",
+  "model_type": "layered",
+  "layers": [
+   {
+    "top_m": 0.0,
+    "bottom_m": 76.34,
+    "rho_ohmm": 65.89
+   },
+   {
+    "top_m": 76.34,
+    "bottom_m": 156.68,
+    "rho_ohmm": 2.5
+   },
+   {
+    "top_m": 156.68,
+    "bottom_m": 189.09,
+    "rho_ohmm": 8.97
+   },
+   {
+    "top_m": 189.09,
+    "bottom_m": null,
+    "rho_ohmm": 1.37
+   }
+  ],
+  "provenance": {
+   "document": "main",
+   "pages": [
+    40
+   ],
+   "method": "manual",
+   "tool": "typed from the page at 200 dpi; geosigma.extract.printed_tables",
+   "extracted_on": "2026-10-24",
+   "notes": "Coordinates from Tables 1A and 1B (pages 9-11), Old Israel Grid in units of 10 m. Depth = running sum of the printed thicknesses; each row was checked against the printed elevation and conductance.",
+   "table": "Appendix (layered inversion printout: resistivity, thickness, elevation, conductance)"
+  }
+ },
+ {
+  "id": "goldman1995-HS324-upper",
+  "survey": "goldman-1995-tdem-coastal-interface",
+  "site": "HS324",
+  "method": "TEM",
+  "level": "L3",
+  "representation": "interface_depth",
+  "measured_on": "1995",
+  "confidence": "A",
+  "status": "draft",
+  "interface_depth_m": 76.0,
+  "criterion": "top of the upper low-resistivity unit (author, Table 1A: associated with seawater intrusion)",
+  "provenance": {
+   "document": "main",
+   "pages": [
+    9
+   ],
+   "method": "manual",
+   "tool": "typed from the page at 200 dpi; geosigma.extract.printed_tables",
+   "extracted_on": "2026-10-24",
+   "notes": "Coordinates from Tables 1A and 1B (pages 9-11), Old Israel Grid in units of 10 m. Depth = running sum of the printed thicknesses; each row was checked against the printed elevation and conductance.",
+   "table": "Table 1A"
+  },
+  "notes": "Upper unit resistivity 2.5 ohm.m. Lower unit resistivity 1.4 ohm.m."
+ },
+ {
+  "id": "goldman1995-HS324-lower",
+  "survey": "goldman-1995-tdem-coastal-interface",
+  "site": "HS324",
+  "method": "TEM",
+  "level": "L3",
+  "representation": "interface_depth",
+  "measured_on": "1995",
+  "confidence": "A",
+  "status": "draft",
+  "interface_depth_m": 189.0,
+  "criterion": "top of the lower low-resistivity unit (author, Table 1A: associated with seawater intrusion)",
+  "provenance": {
+   "document": "main",
+   "pages": [
+    9
+   ],
+   "method": "manual",
+   "tool": "typed from the page at 200 dpi; geosigma.extract.printed_tables",
+   "extracted_on": "2026-10-24",
+   "notes": "Coordinates from Tables 1A and 1B (pages 9-11), Old Israel Grid in units of 10 m. Depth = running sum of the printed thicknesses; each row was checked against the printed elevation and conductance.",
+   "table": "Table 1A"
+  },
+  "notes": "Upper unit resistivity 2.5 ohm.m. Lower unit resistivity 1.4 ohm.m."
+ },
+ {
+  "id": "goldman1995-HS325-layered",
+  "survey": "goldman-1995-tdem-coastal-interface",
+  "site": "HS325",
+  "method": "TEM",
+  "level": "L2",
+  "representation": "model_1d",
+  "measured_on": "1995",
+  "depth_max_m": 42.53,
+  "confidence": "B",
+  "status": "draft",
+  "model_type": "layered",
+  "layers": [
+   {
+    "top_m": 0.0,
+    "bottom_m": 42.53,
+    "rho_ohmm": 37.56
+   },
+   {
+    "top_m": 42.53,
+    "bottom_m": null,
+    "rho_ohmm": 1.63
+   }
+  ],
+  "provenance": {
+   "document": "main",
+   "pages": [
+    41
+   ],
+   "method": "manual",
+   "tool": "typed from the page at 200 dpi; geosigma.extract.printed_tables",
+   "extracted_on": "2026-10-24",
+   "notes": "Coordinates from Tables 1A and 1B (pages 9-11), Old Israel Grid in units of 10 m. Depth = running sum of the printed thicknesses; each row was checked against the printed elevation and conductance.",
+   "table": "Appendix (layered inversion printout: resistivity, thickness, elevation, conductance)"
+  },
+  "notes": "Author's remark: Noisy data."
+ },
+ {
+  "id": "goldman1995-HS325-upper",
+  "survey": "goldman-1995-tdem-coastal-interface",
+  "site": "HS325",
+  "method": "TEM",
+  "level": "L3",
+  "representation": "interface_depth",
+  "measured_on": "1995",
+  "confidence": "B",
+  "status": "draft",
+  "interface_depth_m": 42.0,
+  "criterion": "top of the upper low-resistivity unit (author, Table 1A: associated with seawater intrusion)",
+  "provenance": {
+   "document": "main",
+   "pages": [
+    9
+   ],
+   "method": "manual",
+   "tool": "typed from the page at 200 dpi; geosigma.extract.printed_tables",
+   "extracted_on": "2026-10-24",
+   "notes": "Coordinates from Tables 1A and 1B (pages 9-11), Old Israel Grid in units of 10 m. Depth = running sum of the printed thicknesses; each row was checked against the printed elevation and conductance.",
+   "table": "Table 1A"
+  },
+  "notes": "Upper unit resistivity 1.6 ohm.m. Author's remark: Noisy data."
+ },
+ {
+  "id": "goldman1995-HS326-layered",
+  "survey": "goldman-1995-tdem-coastal-interface",
+  "site": "HS326",
+  "method": "TEM",
+  "level": "L2",
+  "representation": "model_1d",
+  "measured_on": "1995",
+  "depth_max_m": 180.48,
+  "confidence": "A",
+  "status": "draft",
+  "model_type": "layered",
+  "layers": [
+   {
+    "top_m": 0.0,
+    "bottom_m": 1.47,
+    "rho_ohmm": 10.84
+   },
+   {
+    "top_m": 1.47,
+    "bottom_m": 66.2,
+    "rho_ohmm": 43.72
+   },
+   {
+    "top_m": 66.2,
+    "bottom_m": 141.87,
+    "rho_ohmm": 1.73
+   },
+   {
+    "top_m": 141.87,
+    "bottom_m": 180.48,
+    "rho_ohmm": 8.81
+   },
+   {
+    "top_m": 180.48,
+    "bottom_m": null,
+    "rho_ohmm": 1.47
+   }
+  ],
+  "provenance": {
+   "document": "main",
+   "pages": [
+    42
+   ],
+   "method": "manual",
+   "tool": "typed from the page at 200 dpi; geosigma.extract.printed_tables",
+   "extracted_on": "2026-10-24",
+   "notes": "Coordinates from Tables 1A and 1B (pages 9-11), Old Israel Grid in units of 10 m. Depth = running sum of the printed thicknesses; each row was checked against the printed elevation and conductance.",
+   "table": "Appendix (layered inversion printout: resistivity, thickness, elevation, conductance)"
+  }
+ },
+ {
+  "id": "goldman1995-HS326-upper",
+  "survey": "goldman-1995-tdem-coastal-interface",
+  "site": "HS326",
+  "method": "TEM",
+  "level": "L3",
+  "representation": "interface_depth",
+  "measured_on": "1995",
+  "confidence": "A",
+  "status": "draft",
+  "interface_depth_m": 66.0,
+  "criterion": "top of the upper low-resistivity unit (author, Table 1A: associated with seawater intrusion)",
+  "provenance": {
+   "document": "main",
+   "pages": [
+    9
+   ],
+   "method": "manual",
+   "tool": "typed from the page at 200 dpi; geosigma.extract.printed_tables",
+   "extracted_on": "2026-10-24",
+   "notes": "Coordinates from Tables 1A and 1B (pages 9-11), Old Israel Grid in units of 10 m. Depth = running sum of the printed thicknesses; each row was checked against the printed elevation and conductance.",
+   "table": "Table 1A"
+  },
+  "notes": "Upper unit resistivity 1.7 ohm.m. Lower unit resistivity 1.5 ohm.m."
+ },
+ {
+  "id": "goldman1995-HS326-lower",
+  "survey": "goldman-1995-tdem-coastal-interface",
+  "site": "HS326",
+  "method": "TEM",
+  "level": "L3",
+  "representation": "interface_depth",
+  "measured_on": "1995",
+  "confidence": "A",
+  "status": "draft",
+  "interface_depth_m": 180.0,
+  "criterion": "top of the lower low-resistivity unit (author, Table 1A: associated with seawater intrusion)",
+  "provenance": {
+   "document": "main",
+   "pages": [
+    9
+   ],
+   "method": "manual",
+   "tool": "typed from the page at 200 dpi; geosigma.extract.printed_tables",
+   "extracted_on": "2026-10-24",
+   "notes": "Coordinates from Tables 1A and 1B (pages 9-11), Old Israel Grid in units of 10 m. Depth = running sum of the printed thicknesses; each row was checked against the printed elevation and conductance.",
+   "table": "Table 1A"
+  },
+  "notes": "Upper unit resistivity 1.7 ohm.m. Lower unit resistivity 1.5 ohm.m."
+ },
+ {
+  "id": "goldman1995-HS327-layered",
+  "survey": "goldman-1995-tdem-coastal-interface",
+  "site": "HS327",
+  "method": "TEM",
+  "level": "L2",
+  "representation": "model_1d",
+  "measured_on": "1995",
+  "depth_max_m": 158.1,
+  "confidence": "A",
+  "status": "draft",
+  "model_type": "layered",
+  "layers": [
+   {
+    "top_m": 0.0,
+    "bottom_m": 85.36,
+    "rho_ohmm": 49.85
+   },
+   {
+    "top_m": 85.36,
+    "bottom_m": 158.1,
+    "rho_ohmm": 1.66
+   },
+   {
+    "top_m": 158.1,
+    "bottom_m": null,
+    "rho_ohmm": 7.87
+   }
+  ],
+  "provenance": {
+   "document": "main",
+   "pages": [
+    43
+   ],
+   "method": "manual",
+   "tool": "typed from the page at 200 dpi; geosigma.extract.printed_tables",
+   "extracted_on": "2026-10-24",
+   "notes": "Coordinates from Tables 1A and 1B (pages 9-11), Old Israel Grid in units of 10 m. Depth = running sum of the printed thicknesses; each row was checked against the printed elevation and conductance.",
+   "table": "Appendix (layered inversion printout: resistivity, thickness, elevation, conductance)"
+  }
+ },
+ {
+  "id": "goldman1995-HS327-upper",
+  "survey": "goldman-1995-tdem-coastal-interface",
+  "site": "HS327",
+  "method": "TEM",
+  "level": "L3",
+  "representation": "interface_depth",
+  "measured_on": "1995",
+  "confidence": "A",
+  "status": "draft",
+  "interface_depth_m": 85.0,
+  "criterion": "top of the upper low-resistivity unit (author, Table 1A: associated with seawater intrusion)",
+  "provenance": {
+   "document": "main",
+   "pages": [
+    9
+   ],
+   "method": "manual",
+   "tool": "typed from the page at 200 dpi; geosigma.extract.printed_tables",
+   "extracted_on": "2026-10-24",
+   "notes": "Coordinates from Tables 1A and 1B (pages 9-11), Old Israel Grid in units of 10 m. Depth = running sum of the printed thicknesses; each row was checked against the printed elevation and conductance.",
+   "table": "Table 1A"
+  },
+  "notes": "Upper unit resistivity 1.7 ohm.m."
+ },
+ {
+  "id": "goldman1995-HS328-layered",
+  "survey": "goldman-1995-tdem-coastal-interface",
+  "site": "HS328",
+  "method": "TEM",
+  "level": "L2",
+  "representation": "model_1d",
+  "measured_on": "1995",
+  "depth_max_m": 172.6,
+  "confidence": "A",
+  "status": "draft",
+  "model_type": "layered",
+  "layers": [
+   {
+    "top_m": 0.0,
+    "bottom_m": 4.18,
+    "rho_ohmm": 19.81
+   },
+   {
+    "top_m": 4.18,
+    "bottom_m": 54.21,
+    "rho_ohmm": 38.05
+   },
+   {
+    "top_m": 54.21,
+    "bottom_m": 122.67,
+    "rho_ohmm": 1.44
+   },
+   {
+    "top_m": 122.67,
+    "bottom_m": 172.6,
+    "rho_ohmm": 10.1
+   },
+   {
+    "top_m": 172.6,
+    "bottom_m": null,
+    "rho_ohmm": 1.0
+   }
+  ],
+  "provenance": {
+   "document": "main",
+   "pages": [
+    44
+   ],
+   "method": "manual",
+   "tool": "typed from the page at 200 dpi; geosigma.extract.printed_tables",
+   "extracted_on": "2026-10-24",
+   "notes": "Coordinates from Tables 1A and 1B (pages 9-11), Old Israel Grid in units of 10 m. Depth = running sum of the printed thicknesses; each row was checked against the printed elevation and conductance.",
+   "table": "Appendix (layered inversion printout: resistivity, thickness, elevation, conductance)"
+  }
+ },
+ {
+  "id": "goldman1995-HS328-upper",
+  "survey": "goldman-1995-tdem-coastal-interface",
+  "site": "HS328",
+  "method": "TEM",
+  "level": "L3",
+  "representation": "interface_depth",
+  "measured_on": "1995",
+  "confidence": "A",
+  "status": "draft",
+  "interface_depth_m": 54.0,
+  "criterion": "top of the upper low-resistivity unit (author, Table 1A: associated with seawater intrusion)",
+  "provenance": {
+   "document": "main",
+   "pages": [
+    9
+   ],
+   "method": "manual",
+   "tool": "typed from the page at 200 dpi; geosigma.extract.printed_tables",
+   "extracted_on": "2026-10-24",
+   "notes": "Coordinates from Tables 1A and 1B (pages 9-11), Old Israel Grid in units of 10 m. Depth = running sum of the printed thicknesses; each row was checked against the printed elevation and conductance.",
+   "table": "Table 1A"
+  },
+  "notes": "Upper unit resistivity 1.4 ohm.m. Lower unit resistivity 1.0 ohm.m."
+ },
+ {
+  "id": "goldman1995-HS328-lower",
+  "survey": "goldman-1995-tdem-coastal-interface",
+  "site": "HS328",
+  "method": "TEM",
+  "level": "L3",
+  "representation": "interface_depth",
+  "measured_on": "1995",
+  "confidence": "A",
+  "status": "draft",
+  "interface_depth_m": 173.0,
+  "criterion": "top of the lower low-resistivity unit (author, Table 1A: associated with seawater intrusion)",
+  "provenance": {
+   "document": "main",
+   "pages": [
+    9
+   ],
+   "method": "manual",
+   "tool": "typed from the page at 200 dpi; geosigma.extract.printed_tables",
+   "extracted_on": "2026-10-24",
+   "notes": "Coordinates from Tables 1A and 1B (pages 9-11), Old Israel Grid in units of 10 m. Depth = running sum of the printed thicknesses; each row was checked against the printed elevation and conductance.",
+   "table": "Table 1A"
+  },
+  "notes": "Upper unit resistivity 1.4 ohm.m. Lower unit resistivity 1.0 ohm.m."
+ },
+ {
+  "id": "goldman1995-HS329-layered",
+  "survey": "goldman-1995-tdem-coastal-interface",
+  "site": "HS329",
+  "method": "TEM",
+  "level": "L2",
+  "representation": "model_1d",
+  "measured_on": "1995",
+  "depth_max_m": 105.14,
+  "confidence": "A",
+  "status": "draft",
+  "model_type": "layered",
+  "layers": [
+   {
+    "top_m": 0.0,
+    "bottom_m": 4.35,
+    "rho_ohmm": 13.67
+   },
+   {
+    "top_m": 4.35,
+    "bottom_m": 51.87,
+    "rho_ohmm": 312.1
+   },
+   {
+    "top_m": 51.87,
+    "bottom_m": 68.14,
+    "rho_ohmm": 13.12
+   },
+   {
+    "top_m": 68.14,
+    "bottom_m": 105.14,
+    "rho_ohmm": 1.29
+   },
+   {
+    "top_m": 105.14,
+    "bottom_m": null,
+    "rho_ohmm": 3.07
+   }
+  ],
+  "provenance": {
+   "document": "main",
+   "pages": [
+    45
+   ],
+   "method": "manual",
+   "tool": "typed from the page at 200 dpi; geosigma.extract.printed_tables",
+   "extracted_on": "2026-10-24",
+   "notes": "Coordinates from Tables 1A and 1B (pages 9-11), Old Israel Grid in units of 10 m. Depth = running sum of the printed thicknesses; each row was checked against the printed elevation and conductance.",
+   "table": "Appendix (layered inversion printout: resistivity, thickness, elevation, conductance)"
+  }
+ },
+ {
+  "id": "goldman1995-HS329-upper",
+  "survey": "goldman-1995-tdem-coastal-interface",
+  "site": "HS329",
+  "method": "TEM",
+  "level": "L3",
+  "representation": "interface_depth",
+  "measured_on": "1995",
+  "confidence": "A",
+  "status": "draft",
+  "interface_depth_m": 68.0,
+  "criterion": "top of the upper low-resistivity unit (author, Table 1A: associated with seawater intrusion)",
+  "provenance": {
+   "document": "main",
+   "pages": [
+    9
+   ],
+   "method": "manual",
+   "tool": "typed from the page at 200 dpi; geosigma.extract.printed_tables",
+   "extracted_on": "2026-10-24",
+   "notes": "Coordinates from Tables 1A and 1B (pages 9-11), Old Israel Grid in units of 10 m. Depth = running sum of the printed thicknesses; each row was checked against the printed elevation and conductance.",
+   "table": "Table 1A"
+  },
+  "notes": "Upper unit resistivity 1.3 ohm.m."
+ },
+ {
+  "id": "goldman1995-HS330-layered",
+  "survey": "goldman-1995-tdem-coastal-interface",
+  "site": "HS330",
+  "method": "TEM",
+  "level": "L2",
+  "representation": "model_1d",
+  "measured_on": "1995",
+  "depth_max_m": 134.85,
+  "confidence": "A",
+  "status": "draft",
+  "model_type": "layered",
+  "layers": [
+   {
+    "top_m": 0.0,
+    "bottom_m": 3.28,
+    "rho_ohmm": 17.24
+   },
+   {
+    "top_m": 3.28,
+    "bottom_m": 34.05,
+    "rho_ohmm": 120.4
+   },
+   {
+    "top_m": 34.05,
+    "bottom_m": 134.85,
+    "rho_ohmm": 1.5
+   },
+   {
+    "top_m": 134.85,
+    "bottom_m": null,
+    "rho_ohmm": 3.81
+   }
+  ],
+  "provenance": {
+   "document": "main",
+   "pages": [
+    46
+   ],
+   "method": "manual",
+   "tool": "typed from the page at 200 dpi; geosigma.extract.printed_tables",
+   "extracted_on": "2026-10-24",
+   "notes": "Coordinates from Tables 1A and 1B (pages 9-11), Old Israel Grid in units of 10 m. Depth = running sum of the printed thicknesses; each row was checked against the printed elevation and conductance.",
+   "table": "Appendix (layered inversion printout: resistivity, thickness, elevation, conductance)"
+  }
+ },
+ {
+  "id": "goldman1995-HS330-upper",
+  "survey": "goldman-1995-tdem-coastal-interface",
+  "site": "HS330",
+  "method": "TEM",
+  "level": "L3",
+  "representation": "interface_depth",
+  "measured_on": "1995",
+  "confidence": "A",
+  "status": "draft",
+  "interface_depth_m": 34.0,
+  "criterion": "top of the upper low-resistivity unit (author, Table 1A: associated with seawater intrusion)",
+  "provenance": {
+   "document": "main",
+   "pages": [
+    9
+   ],
+   "method": "manual",
+   "tool": "typed from the page at 200 dpi; geosigma.extract.printed_tables",
+   "extracted_on": "2026-10-24",
+   "notes": "Coordinates from Tables 1A and 1B (pages 9-11), Old Israel Grid in units of 10 m. Depth = running sum of the printed thicknesses; each row was checked against the printed elevation and conductance.",
+   "table": "Table 1A"
+  },
+  "notes": "Upper unit resistivity 1.5 ohm.m."
+ },
+ {
+  "id": "goldman1995-HS331-layered",
+  "survey": "goldman-1995-tdem-coastal-interface",
+  "site": "HS331",
+  "method": "TEM",
+  "level": "L2",
+  "representation": "model_1d",
+  "measured_on": "1995",
+  "depth_max_m": 53.15,
+  "confidence": "B",
+  "status": "draft",
+  "model_type": "layered",
+  "layers": [
+   {
+    "top_m": 0.0,
+    "bottom_m": 6.23,
+    "rho_ohmm": 4.4
+   },
+   {
+    "top_m": 6.23,
+    "bottom_m": 16.67,
+    "rho_ohmm": 66.14
+   },
+   {
+    "top_m": 16.67,
+    "bottom_m": 40.4,
+    "rho_ohmm": 1.41
+   },
+   {
+    "top_m": 40.4,
+    "bottom_m": 53.15,
+    "rho_ohmm": 9.59
+   },
+   {
+    "top_m": 53.15,
+    "bottom_m": null,
+    "rho_ohmm": 1.08
+   }
+  ],
+  "provenance": {
+   "document": "main",
+   "pages": [
+    47
+   ],
+   "method": "manual",
+   "tool": "typed from the page at 200 dpi; geosigma.extract.printed_tables",
+   "extracted_on": "2026-10-24",
+   "notes": "Coordinates from Tables 1A and 1B (pages 9-11), Old Israel Grid in units of 10 m. Depth = running sum of the printed thicknesses; each row was checked against the printed elevation and conductance.",
+   "table": "Appendix (layered inversion printout: resistivity, thickness, elevation, conductance)"
+  },
+  "notes": "Author's remark: Noisy data."
+ },
+ {
+  "id": "goldman1995-HS331-upper",
+  "survey": "goldman-1995-tdem-coastal-interface",
+  "site": "HS331",
+  "method": "TEM",
+  "level": "L3",
+  "representation": "interface_depth",
+  "measured_on": "1995",
+  "confidence": "B",
+  "status": "draft",
+  "interface_depth_m": 17.0,
+  "criterion": "top of the upper low-resistivity unit (author, Table 1A: associated with seawater intrusion)",
+  "provenance": {
+   "document": "main",
+   "pages": [
+    9
+   ],
+   "method": "manual",
+   "tool": "typed from the page at 200 dpi; geosigma.extract.printed_tables",
+   "extracted_on": "2026-10-24",
+   "notes": "Coordinates from Tables 1A and 1B (pages 9-11), Old Israel Grid in units of 10 m. Depth = running sum of the printed thicknesses; each row was checked against the printed elevation and conductance.",
+   "table": "Table 1A"
+  },
+  "notes": "Upper unit resistivity 1.4 ohm.m. Lower unit resistivity 1.1 ohm.m. Author's remark: Noisy data."
+ },
+ {
+  "id": "goldman1995-HS331-lower",
+  "survey": "goldman-1995-tdem-coastal-interface",
+  "site": "HS331",
+  "method": "TEM",
+  "level": "L3",
+  "representation": "interface_depth",
+  "measured_on": "1995",
+  "confidence": "B",
+  "status": "draft",
+  "interface_depth_m": 53.0,
+  "criterion": "top of the lower low-resistivity unit (author, Table 1A: associated with seawater intrusion)",
+  "provenance": {
+   "document": "main",
+   "pages": [
+    9
+   ],
+   "method": "manual",
+   "tool": "typed from the page at 200 dpi; geosigma.extract.printed_tables",
+   "extracted_on": "2026-10-24",
+   "notes": "Coordinates from Tables 1A and 1B (pages 9-11), Old Israel Grid in units of 10 m. Depth = running sum of the printed thicknesses; each row was checked against the printed elevation and conductance.",
+   "table": "Table 1A"
+  },
+  "notes": "Upper unit resistivity 1.4 ohm.m. Lower unit resistivity 1.1 ohm.m. Author's remark: Noisy data."
+ },
+ {
+  "id": "goldman1995-HS332-layered",
+  "survey": "goldman-1995-tdem-coastal-interface",
+  "site": "HS332",
+  "method": "TEM",
+  "level": "L2",
+  "representation": "model_1d",
+  "measured_on": "1995",
+  "depth_max_m": 215.79,
+  "confidence": "A",
+  "status": "draft",
+  "model_type": "layered",
+  "layers": [
+   {
+    "top_m": 0.0,
+    "bottom_m": 0.84,
+    "rho_ohmm": 3.03
+   },
+   {
+    "top_m": 0.84,
+    "bottom_m": 41.7,
+    "rho_ohmm": 224.6
+   },
+   {
+    "top_m": 41.7,
+    "bottom_m": 74.79,
+    "rho_ohmm": 2.89
+   },
+   {
+    "top_m": 74.79,
+    "bottom_m": 105.29,
+    "rho_ohmm": 1.6
+   },
+   {
+    "top_m": 105.29,
+    "bottom_m": 215.79,
+    "rho_ohmm": 55.31
+   },
+   {
+    "top_m": 215.79,
+    "bottom_m": null,
+    "rho_ohmm": 0.957
+   }
+  ],
+  "provenance": {
+   "document": "main",
+   "pages": [
+    48
+   ],
+   "method": "manual",
+   "tool": "typed from the page at 200 dpi; geosigma.extract.printed_tables",
+   "extracted_on": "2026-10-24",
+   "notes": "Coordinates from Tables 1A and 1B (pages 9-11), Old Israel Grid in units of 10 m. Depth = running sum of the printed thicknesses; each row was checked against the printed elevation and conductance.",
+   "table": "Appendix (layered inversion printout: resistivity, thickness, elevation, conductance)"
+  },
+  "notes": "Author's remark: Possibly gradient layer."
+ },
+ {
+  "id": "goldman1995-HS332-upper",
+  "survey": "goldman-1995-tdem-coastal-interface",
+  "site": "HS332",
+  "method": "TEM",
+  "level": "L3",
+  "representation": "interface_depth",
+  "measured_on": "1995",
+  "confidence": "A",
+  "status": "draft",
+  "interface_depth_m": 42.0,
+  "criterion": "top of the upper low-resistivity unit (author, Table 1A: associated with seawater intrusion)",
+  "provenance": {
+   "document": "main",
+   "pages": [
+    9
+   ],
+   "method": "manual",
+   "tool": "typed from the page at 200 dpi; geosigma.extract.printed_tables",
+   "extracted_on": "2026-10-24",
+   "notes": "Coordinates from Tables 1A and 1B (pages 9-11), Old Israel Grid in units of 10 m. Depth = running sum of the printed thicknesses; each row was checked against the printed elevation and conductance.",
+   "table": "Table 1A"
+  },
+  "notes": "Upper unit: two sub-layers, 2.9 ohm.m from 42 m and 1.6 ohm.m from 75 m; the shallower depth is stored. Lower unit resistivity 0.96 ohm.m. Author's remark: Possibly gradient layer."
+ },
+ {
+  "id": "goldman1995-HS332-lower",
+  "survey": "goldman-1995-tdem-coastal-interface",
+  "site": "HS332",
+  "method": "TEM",
+  "level": "L3",
+  "representation": "interface_depth",
+  "measured_on": "1995",
+  "confidence": "A",
+  "status": "draft",
+  "interface_depth_m": 216.0,
+  "criterion": "top of the lower low-resistivity unit (author, Table 1A: associated with seawater intrusion)",
+  "provenance": {
+   "document": "main",
+   "pages": [
+    9
+   ],
+   "method": "manual",
+   "tool": "typed from the page at 200 dpi; geosigma.extract.printed_tables",
+   "extracted_on": "2026-10-24",
+   "notes": "Coordinates from Tables 1A and 1B (pages 9-11), Old Israel Grid in units of 10 m. Depth = running sum of the printed thicknesses; each row was checked against the printed elevation and conductance.",
+   "table": "Table 1A"
+  },
+  "notes": "Upper unit: two sub-layers, 2.9 ohm.m from 42 m and 1.6 ohm.m from 75 m; the shallower depth is stored. Lower unit resistivity 0.96 ohm.m. Author's remark: Possibly gradient layer."
+ },
+ {
+  "id": "goldman1995-HS333-layered",
+  "survey": "goldman-1995-tdem-coastal-interface",
+  "site": "HS333",
+  "method": "TEM",
+  "level": "L2",
+  "representation": "model_1d",
+  "measured_on": "1995",
+  "depth_max_m": 178.9,
+  "confidence": "A",
+  "status": "draft",
+  "model_type": "layered",
+  "layers": [
+   {
+    "top_m": 0.0,
+    "bottom_m": 3.24,
+    "rho_ohmm": 16.75
+   },
+   {
+    "top_m": 3.24,
+    "bottom_m": 42.1,
+    "rho_ohmm": 102.4
+   },
+   {
+    "top_m": 42.1,
+    "bottom_m": 93.54,
+    "rho_ohmm": 26.96
+   },
+   {
+    "top_m": 93.54,
+    "bottom_m": 120.18,
+    "rho_ohmm": 1.36
+   },
+   {
+    "top_m": 120.18,
+    "bottom_m": 178.9,
+    "rho_ohmm": 99.14
+   },
+   {
+    "top_m": 178.9,
+    "bottom_m": null,
+    "rho_ohmm": 2.01
+   }
+  ],
+  "provenance": {
+   "document": "main",
+   "pages": [
+    49
+   ],
+   "method": "manual",
+   "tool": "typed from the page at 200 dpi; geosigma.extract.printed_tables",
+   "extracted_on": "2026-10-24",
+   "notes": "Coordinates from Tables 1A and 1B (pages 9-11), Old Israel Grid in units of 10 m. Depth = running sum of the printed thicknesses; each row was checked against the printed elevation and conductance.",
+   "table": "Appendix (layered inversion printout: resistivity, thickness, elevation, conductance)"
+  }
+ },
+ {
+  "id": "goldman1995-HS333-upper",
+  "survey": "goldman-1995-tdem-coastal-interface",
+  "site": "HS333",
+  "method": "TEM",
+  "level": "L3",
+  "representation": "interface_depth",
+  "measured_on": "1995",
+  "confidence": "A",
+  "status": "draft",
+  "interface_depth_m": 94.0,
+  "criterion": "top of the upper low-resistivity unit (author, Table 1A: associated with seawater intrusion)",
+  "provenance": {
+   "document": "main",
+   "pages": [
+    9
+   ],
+   "method": "manual",
+   "tool": "typed from the page at 200 dpi; geosigma.extract.printed_tables",
+   "extracted_on": "2026-10-24",
+   "notes": "Coordinates from Tables 1A and 1B (pages 9-11), Old Israel Grid in units of 10 m. Depth = running sum of the printed thicknesses; each row was checked against the printed elevation and conductance.",
+   "table": "Table 1A"
+  },
+  "notes": "Upper unit resistivity 1.4 ohm.m. Lower unit resistivity 2.0 ohm.m."
+ },
+ {
+  "id": "goldman1995-HS333-lower",
+  "survey": "goldman-1995-tdem-coastal-interface",
+  "site": "HS333",
+  "method": "TEM",
+  "level": "L3",
+  "representation": "interface_depth",
+  "measured_on": "1995",
+  "confidence": "A",
+  "status": "draft",
+  "interface_depth_m": 179.0,
+  "criterion": "top of the lower low-resistivity unit (author, Table 1A: associated with seawater intrusion)",
+  "provenance": {
+   "document": "main",
+   "pages": [
+    9
+   ],
+   "method": "manual",
+   "tool": "typed from the page at 200 dpi; geosigma.extract.printed_tables",
+   "extracted_on": "2026-10-24",
+   "notes": "Coordinates from Tables 1A and 1B (pages 9-11), Old Israel Grid in units of 10 m. Depth = running sum of the printed thicknesses; each row was checked against the printed elevation and conductance.",
+   "table": "Table 1A"
+  },
+  "notes": "Upper unit resistivity 1.4 ohm.m. Lower unit resistivity 2.0 ohm.m."
+ },
+ {
+  "id": "goldman1995-HS334-layered",
+  "survey": "goldman-1995-tdem-coastal-interface",
+  "site": "HS334",
+  "method": "TEM",
+  "level": "L2",
+  "representation": "model_1d",
+  "measured_on": "1995",
+  "depth_max_m": 137.67,
+  "confidence": "A",
+  "status": "draft",
+  "model_type": "layered",
+  "layers": [
+   {
+    "top_m": 0.0,
+    "bottom_m": 56.11,
+    "rho_ohmm": 74.66
+   },
+   {
+    "top_m": 56.11,
+    "bottom_m": 68.03,
+    "rho_ohmm": 48.63
+   },
+   {
+    "top_m": 68.03,
+    "bottom_m": 86.49,
+    "rho_ohmm": 7.98
+   },
+   {
+    "top_m": 86.49,
+    "bottom_m": 137.67,
+    "rho_ohmm": 1.95
+   },
+   {
+    "top_m": 137.67,
+    "bottom_m": null,
+    "rho_ohmm": 5.02
+   }
+  ],
+  "provenance": {
+   "document": "main",
+   "pages": [
+    50
+   ],
+   "method": "manual",
+   "tool": "typed from the page at 200 dpi; geosigma.extract.printed_tables",
+   "extracted_on": "2026-10-24",
+   "notes": "Coordinates from Tables 1A and 1B (pages 9-11), Old Israel Grid in units of 10 m. Depth = running sum of the printed thicknesses; each row was checked against the printed elevation and conductance.",
+   "table": "Appendix (layered inversion printout: resistivity, thickness, elevation, conductance)"
+  }
+ },
+ {
+  "id": "goldman1995-HS334-upper",
+  "survey": "goldman-1995-tdem-coastal-interface",
+  "site": "HS334",
+  "method": "TEM",
+  "level": "L3",
+  "representation": "interface_depth",
+  "measured_on": "1995",
+  "confidence": "A",
+  "status": "draft",
+  "interface_depth_m": 86.0,
+  "criterion": "top of the upper low-resistivity unit (author, Table 1A: associated with seawater intrusion)",
+  "provenance": {
+   "document": "main",
+   "pages": [
+    9
+   ],
+   "method": "manual",
+   "tool": "typed from the page at 200 dpi; geosigma.extract.printed_tables",
+   "extracted_on": "2026-10-24",
+   "notes": "Coordinates from Tables 1A and 1B (pages 9-11), Old Israel Grid in units of 10 m. Depth = running sum of the printed thicknesses; each row was checked against the printed elevation and conductance.",
+   "table": "Table 1A"
+  },
+  "notes": "Upper unit resistivity 1.9 ohm.m."
+ },
+ {
+  "id": "goldman1995-HS335-layered",
+  "survey": "goldman-1995-tdem-coastal-interface",
+  "site": "HS335",
+  "method": "TEM",
+  "level": "L2",
+  "representation": "model_1d",
+  "measured_on": "1995",
+  "depth_max_m": 169.92,
+  "confidence": "A",
+  "status": "draft",
+  "model_type": "layered",
+  "layers": [
+   {
+    "top_m": 0.0,
+    "bottom_m": 1.27,
+    "rho_ohmm": 4.84
+   },
+   {
+    "top_m": 1.27,
+    "bottom_m": 65.48,
+    "rho_ohmm": 41.51
+   },
+   {
+    "top_m": 65.48,
+    "bottom_m": 96.95,
+    "rho_ohmm": 1.51
+   },
+   {
+    "top_m": 96.95,
+    "bottom_m": 169.92,
+    "rho_ohmm": 32.18
+   },
+   {
+    "top_m": 169.92,
+    "bottom_m": null,
+    "rho_ohmm": 1.01
+   }
+  ],
+  "provenance": {
+   "document": "main",
+   "pages": [
+    51
+   ],
+   "method": "manual",
+   "tool": "typed from the page at 200 dpi; geosigma.extract.printed_tables",
+   "extracted_on": "2026-10-24",
+   "notes": "Coordinates from Tables 1A and 1B (pages 9-11), Old Israel Grid in units of 10 m. Depth = running sum of the printed thicknesses; each row was checked against the printed elevation and conductance.",
+   "table": "Appendix (layered inversion printout: resistivity, thickness, elevation, conductance)"
+  }
+ },
+ {
+  "id": "goldman1995-HS335-upper",
+  "survey": "goldman-1995-tdem-coastal-interface",
+  "site": "HS335",
+  "method": "TEM",
+  "level": "L3",
+  "representation": "interface_depth",
+  "measured_on": "1995",
+  "confidence": "A",
+  "status": "draft",
+  "interface_depth_m": 65.0,
+  "criterion": "top of the upper low-resistivity unit (author, Table 1A: associated with seawater intrusion)",
+  "provenance": {
+   "document": "main",
+   "pages": [
+    9
+   ],
+   "method": "manual",
+   "tool": "typed from the page at 200 dpi; geosigma.extract.printed_tables",
+   "extracted_on": "2026-10-24",
+   "notes": "Coordinates from Tables 1A and 1B (pages 9-11), Old Israel Grid in units of 10 m. Depth = running sum of the printed thicknesses; each row was checked against the printed elevation and conductance.",
+   "table": "Table 1A"
+  },
+  "notes": "Upper unit resistivity 1.5 ohm.m. Lower unit resistivity 1.0 ohm.m."
+ },
+ {
+  "id": "goldman1995-HS335-lower",
+  "survey": "goldman-1995-tdem-coastal-interface",
+  "site": "HS335",
+  "method": "TEM",
+  "level": "L3",
+  "representation": "interface_depth",
+  "measured_on": "1995",
+  "confidence": "A",
+  "status": "draft",
+  "interface_depth_m": 170.0,
+  "criterion": "top of the lower low-resistivity unit (author, Table 1A: associated with seawater intrusion)",
+  "provenance": {
+   "document": "main",
+   "pages": [
+    9
+   ],
+   "method": "manual",
+   "tool": "typed from the page at 200 dpi; geosigma.extract.printed_tables",
+   "extracted_on": "2026-10-24",
+   "notes": "Coordinates from Tables 1A and 1B (pages 9-11), Old Israel Grid in units of 10 m. Depth = running sum of the printed thicknesses; each row was checked against the printed elevation and conductance.",
+   "table": "Table 1A"
+  },
+  "notes": "Upper unit resistivity 1.5 ohm.m. Lower unit resistivity 1.0 ohm.m."
+ },
+ {
+  "id": "goldman1995-HS336-layered",
+  "survey": "goldman-1995-tdem-coastal-interface",
+  "site": "HS336",
+  "method": "TEM",
+  "level": "L2",
+  "representation": "model_1d",
+  "measured_on": "1995",
+  "depth_max_m": 129.34,
+  "confidence": "A",
+  "status": "draft",
+  "model_type": "layered",
+  "layers": [
+   {
+    "top_m": 0.0,
+    "bottom_m": 3.26,
+    "rho_ohmm": 12.18
+   },
+   {
+    "top_m": 3.26,
+    "bottom_m": 63.77,
+    "rho_ohmm": 268.4
+   },
+   {
+    "top_m": 63.77,
+    "bottom_m": 88.09,
+    "rho_ohmm": 2.37
+   },
+   {
+    "top_m": 88.09,
+    "bottom_m": 129.34,
+    "rho_ohmm": 1.23
+   },
+   {
+    "top_m": 129.34,
+    "bottom_m": null,
+    "rho_ohmm": 4.21
+   }
+  ],
+  "provenance": {
+   "document": "main",
+   "pages": [
+    52
+   ],
+   "method": "manual",
+   "tool": "typed from the page at 200 dpi; geosigma.extract.printed_tables",
+   "extracted_on": "2026-10-24",
+   "notes": "Coordinates from Tables 1A and 1B (pages 9-11), Old Israel Grid in units of 10 m. Depth = running sum of the printed thicknesses; each row was checked against the printed elevation and conductance.",
+   "table": "Appendix (layered inversion printout: resistivity, thickness, elevation, conductance)"
+  },
+  "notes": "Author's remark: Possibly gradient layer."
+ },
+ {
+  "id": "goldman1995-HS336-upper",
+  "survey": "goldman-1995-tdem-coastal-interface",
+  "site": "HS336",
+  "method": "TEM",
+  "level": "L3",
+  "representation": "interface_depth",
+  "measured_on": "1995",
+  "confidence": "A",
+  "status": "draft",
+  "interface_depth_m": 66.0,
+  "criterion": "top of the upper low-resistivity unit (author, Table 1A: associated with seawater intrusion)",
+  "provenance": {
+   "document": "main",
+   "pages": [
+    9
+   ],
+   "method": "manual",
+   "tool": "typed from the page at 200 dpi; geosigma.extract.printed_tables",
+   "extracted_on": "2026-10-24",
+   "notes": "Coordinates from Tables 1A and 1B (pages 9-11), Old Israel Grid in units of 10 m. Depth = running sum of the printed thicknesses; each row was checked against the printed elevation and conductance.",
+   "table": "Table 1A"
+  },
+  "notes": "Upper unit: two sub-layers, 2.4 ohm.m from 66 m and 1.2 ohm.m from 88 m; the shallower depth is stored. The printout puts 2.37 ohm.m at 63.8 m; Table 1A gives 2.4 ohm.m at 66 m. Author's remark: Possibly gradient layer."
+ },
+ {
+  "id": "goldman1995-HS337-layered",
+  "survey": "goldman-1995-tdem-coastal-interface",
+  "site": "HS337",
+  "method": "TEM",
+  "level": "L2",
+  "representation": "model_1d",
+  "measured_on": "1995",
+  "depth_max_m": 196.13,
+  "confidence": "A",
+  "status": "draft",
+  "model_type": "layered",
+  "layers": [
+   {
+    "top_m": 0.0,
+    "bottom_m": 81.85,
+    "rho_ohmm": 46.51
+   },
+   {
+    "top_m": 81.85,
+    "bottom_m": 116.47,
+    "rho_ohmm": 1.57
+   },
+   {
+    "top_m": 116.47,
+    "bottom_m": 196.13,
+    "rho_ohmm": 143.7
+   },
+   {
+    "top_m": 196.13,
+    "bottom_m": null,
+    "rho_ohmm": 1.39
+   }
+  ],
+  "provenance": {
+   "document": "main",
+   "pages": [
+    53
+   ],
+   "method": "manual",
+   "tool": "typed from the page at 200 dpi; geosigma.extract.printed_tables",
+   "extracted_on": "2026-10-24",
+   "notes": "Coordinates from Tables 1A and 1B (pages 9-11), Old Israel Grid in units of 10 m. Depth = running sum of the printed thicknesses; each row was checked against the printed elevation and conductance.",
+   "table": "Appendix (layered inversion printout: resistivity, thickness, elevation, conductance)"
+  }
+ },
+ {
+  "id": "goldman1995-HS337-upper",
+  "survey": "goldman-1995-tdem-coastal-interface",
+  "site": "HS337",
+  "method": "TEM",
+  "level": "L3",
+  "representation": "interface_depth",
+  "measured_on": "1995",
+  "confidence": "A",
+  "status": "draft",
+  "interface_depth_m": 82.0,
+  "criterion": "top of the upper low-resistivity unit (author, Table 1A: associated with seawater intrusion)",
+  "provenance": {
+   "document": "main",
+   "pages": [
+    9
+   ],
+   "method": "manual",
+   "tool": "typed from the page at 200 dpi; geosigma.extract.printed_tables",
+   "extracted_on": "2026-10-24",
+   "notes": "Coordinates from Tables 1A and 1B (pages 9-11), Old Israel Grid in units of 10 m. Depth = running sum of the printed thicknesses; each row was checked against the printed elevation and conductance.",
+   "table": "Table 1A"
+  },
+  "notes": "Upper unit resistivity 1.6 ohm.m. Lower unit resistivity 1.4 ohm.m."
+ },
+ {
+  "id": "goldman1995-HS337-lower",
+  "survey": "goldman-1995-tdem-coastal-interface",
+  "site": "HS337",
+  "method": "TEM",
+  "level": "L3",
+  "representation": "interface_depth",
+  "measured_on": "1995",
+  "confidence": "A",
+  "status": "draft",
+  "interface_depth_m": 196.0,
+  "criterion": "top of the lower low-resistivity unit (author, Table 1A: associated with seawater intrusion)",
+  "provenance": {
+   "document": "main",
+   "pages": [
+    9
+   ],
+   "method": "manual",
+   "tool": "typed from the page at 200 dpi; geosigma.extract.printed_tables",
+   "extracted_on": "2026-10-24",
+   "notes": "Coordinates from Tables 1A and 1B (pages 9-11), Old Israel Grid in units of 10 m. Depth = running sum of the printed thicknesses; each row was checked against the printed elevation and conductance.",
+   "table": "Table 1A"
+  },
+  "notes": "Upper unit resistivity 1.6 ohm.m. Lower unit resistivity 1.4 ohm.m."
+ },
+ {
+  "id": "goldman1995-HS338-layered",
+  "survey": "goldman-1995-tdem-coastal-interface",
+  "site": "HS338",
+  "method": "TEM",
+  "level": "L2",
+  "representation": "model_1d",
+  "measured_on": "1995",
+  "depth_max_m": 59.21,
+  "confidence": "A",
+  "status": "draft",
+  "model_type": "layered",
+  "layers": [
+   {
+    "top_m": 0.0,
+    "bottom_m": 3.09,
+    "rho_ohmm": 93.06
+   },
+   {
+    "top_m": 3.09,
+    "bottom_m": 59.21,
+    "rho_ohmm": 24.86
+   },
+   {
+    "top_m": 59.21,
+    "bottom_m": null,
+    "rho_ohmm": 1.42
+   }
+  ],
+  "provenance": {
+   "document": "main",
+   "pages": [
+    54
+   ],
+   "method": "manual",
+   "tool": "typed from the page at 200 dpi; geosigma.extract.printed_tables",
+   "extracted_on": "2026-10-24",
+   "notes": "Coordinates from Tables 1A and 1B (pages 9-11), Old Israel Grid in units of 10 m. Depth = running sum of the printed thicknesses; each row was checked against the printed elevation and conductance.",
+   "table": "Appendix (layered inversion printout: resistivity, thickness, elevation, conductance)"
+  }
+ },
+ {
+  "id": "goldman1995-HS338-upper",
+  "survey": "goldman-1995-tdem-coastal-interface",
+  "site": "HS338",
+  "method": "TEM",
+  "level": "L3",
+  "representation": "interface_depth",
+  "measured_on": "1995",
+  "confidence": "A",
+  "status": "draft",
+  "interface_depth_m": 59.0,
+  "criterion": "top of the upper low-resistivity unit (author, Table 1A: associated with seawater intrusion)",
+  "provenance": {
+   "document": "main",
+   "pages": [
+    9
+   ],
+   "method": "manual",
+   "tool": "typed from the page at 200 dpi; geosigma.extract.printed_tables",
+   "extracted_on": "2026-10-24",
+   "notes": "Coordinates from Tables 1A and 1B (pages 9-11), Old Israel Grid in units of 10 m. Depth = running sum of the printed thicknesses; each row was checked against the printed elevation and conductance.",
+   "table": "Table 1A"
+  },
+  "notes": "Upper unit resistivity 1.4 ohm.m."
+ },
+ {
+  "id": "goldman1995-HS339-layered",
+  "survey": "goldman-1995-tdem-coastal-interface",
+  "site": "HS339",
+  "method": "TEM",
+  "level": "L2",
+  "representation": "model_1d",
+  "measured_on": "1995",
+  "depth_max_m": 138.68,
+  "confidence": "A",
+  "status": "draft",
+  "model_type": "layered",
+  "layers": [
+   {
+    "top_m": 0.0,
+    "bottom_m": 1.33,
+    "rho_ohmm": 4.49
+   },
+   {
+    "top_m": 1.33,
+    "bottom_m": 50.95,
+    "rho_ohmm": 88.29
+   },
+   {
+    "top_m": 50.95,
+    "bottom_m": 90.79,
+    "rho_ohmm": 1.45
+   },
+   {
+    "top_m": 90.79,
+    "bottom_m": 138.68,
+    "rho_ohmm": 19.6
+   },
+   {
+    "top_m": 138.68,
+    "bottom_m": null,
+    "rho_ohmm": 3.06
+   }
+  ],
+  "provenance": {
+   "document": "main",
+   "pages": [
+    55
+   ],
+   "method": "manual",
+   "tool": "typed from the page at 200 dpi; geosigma.extract.printed_tables",
+   "extracted_on": "2026-10-24",
+   "notes": "Coordinates from Tables 1A and 1B (pages 9-11), Old Israel Grid in units of 10 m. Depth = running sum of the printed thicknesses; each row was checked against the printed elevation and conductance.",
+   "table": "Appendix (layered inversion printout: resistivity, thickness, elevation, conductance)"
+  }
+ },
+ {
+  "id": "goldman1995-HS339-upper",
+  "survey": "goldman-1995-tdem-coastal-interface",
+  "site": "HS339",
+  "method": "TEM",
+  "level": "L3",
+  "representation": "interface_depth",
+  "measured_on": "1995",
+  "confidence": "A",
+  "status": "draft",
+  "interface_depth_m": 51.0,
+  "criterion": "top of the upper low-resistivity unit (author, Table 1A: associated with seawater intrusion)",
+  "provenance": {
+   "document": "main",
+   "pages": [
+    9
+   ],
+   "method": "manual",
+   "tool": "typed from the page at 200 dpi; geosigma.extract.printed_tables",
+   "extracted_on": "2026-10-24",
+   "notes": "Coordinates from Tables 1A and 1B (pages 9-11), Old Israel Grid in units of 10 m. Depth = running sum of the printed thicknesses; each row was checked against the printed elevation and conductance.",
+   "table": "Table 1A"
+  },
+  "notes": "Upper unit resistivity 1.4 ohm.m."
+ },
+ {
+  "id": "goldman1995-HS340-layered",
+  "survey": "goldman-1995-tdem-coastal-interface",
+  "site": "HS340",
+  "method": "TEM",
+  "level": "L2",
+  "representation": "model_1d",
+  "measured_on": "1995",
+  "depth_max_m": 125.13,
+  "confidence": "A",
+  "status": "draft",
+  "model_type": "layered",
+  "layers": [
+   {
+    "top_m": 0.0,
+    "bottom_m": 27.34,
+    "rho_ohmm": 52.19
+   },
+   {
+    "top_m": 27.34,
+    "bottom_m": 41.52,
+    "rho_ohmm": 5.36
+   },
+   {
+    "top_m": 41.52,
+    "bottom_m": 82.41,
+    "rho_ohmm": 1.45
+   },
+   {
+    "top_m": 82.41,
+    "bottom_m": 125.13,
+    "rho_ohmm": 8.93
+   },
+   {
+    "top_m": 125.13,
+    "bottom_m": null,
+    "rho_ohmm": 1.84
+   }
+  ],
+  "provenance": {
+   "document": "main",
+   "pages": [
+    56
+   ],
+   "method": "manual",
+   "tool": "typed from the page at 200 dpi; geosigma.extract.printed_tables",
+   "extracted_on": "2026-10-24",
+   "notes": "Coordinates from Tables 1A and 1B (pages 9-11), Old Israel Grid in units of 10 m. Depth = running sum of the printed thicknesses; each row was checked against the printed elevation and conductance.",
+   "table": "Appendix (layered inversion printout: resistivity, thickness, elevation, conductance)"
+  }
+ },
+ {
+  "id": "goldman1995-HS340-upper",
+  "survey": "goldman-1995-tdem-coastal-interface",
+  "site": "HS340",
+  "method": "TEM",
+  "level": "L3",
+  "representation": "interface_depth",
+  "measured_on": "1995",
+  "confidence": "A",
+  "status": "draft",
+  "interface_depth_m": 41.0,
+  "criterion": "top of the upper low-resistivity unit (author, Table 1A: associated with seawater intrusion)",
+  "provenance": {
+   "document": "main",
+   "pages": [
+    9
+   ],
+   "method": "manual",
+   "tool": "typed from the page at 200 dpi; geosigma.extract.printed_tables",
+   "extracted_on": "2026-10-24",
+   "notes": "Coordinates from Tables 1A and 1B (pages 9-11), Old Israel Grid in units of 10 m. Depth = running sum of the printed thicknesses; each row was checked against the printed elevation and conductance.",
+   "table": "Table 1A"
+  },
+  "notes": "Upper unit resistivity 1.4 ohm.m. Lower unit resistivity 1.8 ohm.m."
+ },
+ {
+  "id": "goldman1995-HS340-lower",
+  "survey": "goldman-1995-tdem-coastal-interface",
+  "site": "HS340",
+  "method": "TEM",
+  "level": "L3",
+  "representation": "interface_depth",
+  "measured_on": "1995",
+  "confidence": "A",
+  "status": "draft",
+  "interface_depth_m": 125.0,
+  "criterion": "top of the lower low-resistivity unit (author, Table 1A: associated with seawater intrusion)",
+  "provenance": {
+   "document": "main",
+   "pages": [
+    9
+   ],
+   "method": "manual",
+   "tool": "typed from the page at 200 dpi; geosigma.extract.printed_tables",
+   "extracted_on": "2026-10-24",
+   "notes": "Coordinates from Tables 1A and 1B (pages 9-11), Old Israel Grid in units of 10 m. Depth = running sum of the printed thicknesses; each row was checked against the printed elevation and conductance.",
+   "table": "Table 1A"
+  },
+  "notes": "Upper unit resistivity 1.4 ohm.m. Lower unit resistivity 1.8 ohm.m."
+ },
+ {
+  "id": "goldman1995-HS341-layered",
+  "survey": "goldman-1995-tdem-coastal-interface",
+  "site": "HS341",
+  "method": "TEM",
+  "level": "L2",
+  "representation": "model_1d",
+  "measured_on": "1995",
+  "depth_max_m": 80.08,
+  "confidence": "A",
+  "status": "draft",
+  "model_type": "layered",
+  "layers": [
+   {
+    "top_m": 0.0,
+    "bottom_m": 48.78,
+    "rho_ohmm": 48.8
+   },
+   {
+    "top_m": 48.78,
+    "bottom_m": 80.08,
+    "rho_ohmm": 2.8
+   },
+   {
+    "top_m": 80.08,
+    "bottom_m": null,
+    "rho_ohmm": 2.22
+   }
+  ],
+  "provenance": {
+   "document": "main",
+   "pages": [
+    57
+   ],
+   "method": "manual",
+   "tool": "typed from the page at 200 dpi; geosigma.extract.printed_tables",
+   "extracted_on": "2026-10-24",
+   "notes": "Coordinates from Tables 1A and 1B (pages 9-11), Old Israel Grid in units of 10 m. Depth = running sum of the printed thicknesses; each row was checked against the printed elevation and conductance.",
+   "table": "Appendix (layered inversion printout: resistivity, thickness, elevation, conductance)"
+  },
+  "notes": "Author's remark: Possibly gradient layer."
+ },
+ {
+  "id": "goldman1995-HS341-upper",
+  "survey": "goldman-1995-tdem-coastal-interface",
+  "site": "HS341",
+  "method": "TEM",
+  "level": "L3",
+  "representation": "interface_depth",
+  "measured_on": "1995",
+  "confidence": "A",
+  "status": "draft",
+  "interface_depth_m": 49.0,
+  "criterion": "top of the upper low-resistivity unit (author, Table 1A: associated with seawater intrusion)",
+  "provenance": {
+   "document": "main",
+   "pages": [
+    9
+   ],
+   "method": "manual",
+   "tool": "typed from the page at 200 dpi; geosigma.extract.printed_tables",
+   "extracted_on": "2026-10-24",
+   "notes": "Coordinates from Tables 1A and 1B (pages 9-11), Old Israel Grid in units of 10 m. Depth = running sum of the printed thicknesses; each row was checked against the printed elevation and conductance.",
+   "table": "Table 1A"
+  },
+  "notes": "Upper unit: two sub-layers, 2.8 ohm.m from 49 m and 2.2 ohm.m from 80 m; the shallower depth is stored. Author's remark: Possibly gradient layer."
+ },
+ {
+  "id": "goldman1995-HS343-layered",
+  "survey": "goldman-1995-tdem-coastal-interface",
+  "site": "HS343",
+  "method": "TEM",
+  "level": "L2",
+  "representation": "model_1d",
+  "measured_on": "1995",
+  "depth_max_m": 110.01,
+  "confidence": "A",
+  "status": "draft",
+  "model_type": "layered",
+  "layers": [
+   {
+    "top_m": 0.0,
+    "bottom_m": 7.27,
+    "rho_ohmm": 8.31
+   },
+   {
+    "top_m": 7.27,
+    "bottom_m": 12.91,
+    "rho_ohmm": 3.2
+   },
+   {
+    "top_m": 12.91,
+    "bottom_m": 45.57,
+    "rho_ohmm": 8.18
+   },
+   {
+    "top_m": 45.57,
+    "bottom_m": 110.01,
+    "rho_ohmm": 1.38
+   },
+   {
+    "top_m": 110.01,
+    "bottom_m": null,
+    "rho_ohmm": 0.587
+   }
+  ],
+  "provenance": {
+   "document": "main",
+   "pages": [
+    58
+   ],
+   "method": "manual",
+   "tool": "typed from the page at 200 dpi; geosigma.extract.printed_tables",
+   "extracted_on": "2026-10-24",
+   "notes": "Coordinates from Tables 1A and 1B (pages 9-11), Old Israel Grid in units of 10 m. Depth = running sum of the printed thicknesses; each row was checked against the printed elevation and conductance.",
+   "table": "Appendix (layered inversion printout: resistivity, thickness, elevation, conductance)"
+  }
+ },
+ {
+  "id": "goldman1995-HS343-upper",
+  "survey": "goldman-1995-tdem-coastal-interface",
+  "site": "HS343",
+  "method": "TEM",
+  "level": "L3",
+  "representation": "interface_depth",
+  "measured_on": "1995",
+  "confidence": "A",
+  "status": "draft",
+  "interface_depth_m": 46.0,
+  "criterion": "top of the upper low-resistivity unit (author, Table 1A: associated with seawater intrusion)",
+  "provenance": {
+   "document": "main",
+   "pages": [
+    10
+   ],
+   "method": "manual",
+   "tool": "typed from the page at 200 dpi; geosigma.extract.printed_tables",
+   "extracted_on": "2026-10-24",
+   "notes": "Coordinates from Tables 1A and 1B (pages 9-11), Old Israel Grid in units of 10 m. Depth = running sum of the printed thicknesses; each row was checked against the printed elevation and conductance.",
+   "table": "Table 1A"
+  },
+  "notes": "Upper unit resistivity 1.4 ohm.m. Lower unit resistivity 0.6 ohm.m."
+ },
+ {
+  "id": "goldman1995-HS343-lower",
+  "survey": "goldman-1995-tdem-coastal-interface",
+  "site": "HS343",
+  "method": "TEM",
+  "level": "L3",
+  "representation": "interface_depth",
+  "measured_on": "1995",
+  "confidence": "A",
+  "status": "draft",
+  "interface_depth_m": 110.0,
+  "criterion": "top of the lower low-resistivity unit (author, Table 1A: associated with seawater intrusion)",
+  "provenance": {
+   "document": "main",
+   "pages": [
+    10
+   ],
+   "method": "manual",
+   "tool": "typed from the page at 200 dpi; geosigma.extract.printed_tables",
+   "extracted_on": "2026-10-24",
+   "notes": "Coordinates from Tables 1A and 1B (pages 9-11), Old Israel Grid in units of 10 m. Depth = running sum of the printed thicknesses; each row was checked against the printed elevation and conductance.",
+   "table": "Table 1A"
+  },
+  "notes": "Upper unit resistivity 1.4 ohm.m. Lower unit resistivity 0.6 ohm.m."
+ },
+ {
+  "id": "goldman1995-HS344-layered",
+  "survey": "goldman-1995-tdem-coastal-interface",
+  "site": "HS344",
+  "method": "TEM",
+  "level": "L2",
+  "representation": "model_1d",
+  "measured_on": "1995",
+  "depth_max_m": 42.58,
+  "confidence": "A",
+  "status": "draft",
+  "model_type": "layered",
+  "layers": [
+   {
+    "top_m": 0.0,
+    "bottom_m": 42.58,
+    "rho_ohmm": 2.14
+   },
+   {
+    "top_m": 42.58,
+    "bottom_m": null,
+    "rho_ohmm": 0.466
+   }
+  ],
+  "provenance": {
+   "document": "main",
+   "pages": [
+    59
+   ],
+   "method": "manual",
+   "tool": "typed from the page at 200 dpi; geosigma.extract.printed_tables",
+   "extracted_on": "2026-10-24",
+   "notes": "Coordinates from Tables 1A and 1B (pages 9-11), Old Israel Grid in units of 10 m. Depth = running sum of the printed thicknesses; each row was checked against the printed elevation and conductance.",
+   "table": "Appendix (layered inversion printout: resistivity, thickness, elevation, conductance)"
+  },
+  "notes": "Author's remark: Possibly gradient layer."
+ },
+ {
+  "id": "goldman1995-HS344-upper",
+  "survey": "goldman-1995-tdem-coastal-interface",
+  "site": "HS344",
+  "method": "TEM",
+  "level": "L3",
+  "representation": "interface_depth",
+  "measured_on": "1995",
+  "confidence": "A",
+  "status": "draft",
+  "interface_depth_m": 0.0,
+  "criterion": "top of the upper low-resistivity unit (author, Table 1A: associated with seawater intrusion)",
+  "provenance": {
+   "document": "main",
+   "pages": [
+    10
+   ],
+   "method": "manual",
+   "tool": "typed from the page at 200 dpi; geosigma.extract.printed_tables",
+   "extracted_on": "2026-10-24",
+   "notes": "Coordinates from Tables 1A and 1B (pages 9-11), Old Israel Grid in units of 10 m. Depth = running sum of the printed thicknesses; each row was checked against the printed elevation and conductance.",
+   "table": "Table 1A"
+  },
+  "notes": "Upper unit: two sub-layers, 2.1 ohm.m from 0 m and 0.5 ohm.m from 43 m; the shallower depth is stored. Author's remark: Possibly gradient layer."
+ },
+ {
+  "id": "goldman1995-HS345-layered",
+  "survey": "goldman-1995-tdem-coastal-interface",
+  "site": "HS345",
+  "method": "TEM",
+  "level": "L2",
+  "representation": "model_1d",
+  "measured_on": "1995",
+  "depth_max_m": 43.29,
+  "confidence": "A",
+  "status": "draft",
+  "model_type": "layered",
+  "layers": [
+   {
+    "top_m": 0.0,
+    "bottom_m": 7.75,
+    "rho_ohmm": 4.0
+   },
+   {
+    "top_m": 7.75,
+    "bottom_m": 15.97,
+    "rho_ohmm": 0.753
+   },
+   {
+    "top_m": 15.97,
+    "bottom_m": 43.29,
+    "rho_ohmm": 0.355
+   },
+   {
+    "top_m": 43.29,
+    "bottom_m": null,
+    "rho_ohmm": 4.39
+   }
+  ],
+  "provenance": {
+   "document": "main",
+   "pages": [
+    60
+   ],
+   "method": "manual",
+   "tool": "typed from the page at 200 dpi; geosigma.extract.printed_tables",
+   "extracted_on": "2026-10-24",
+   "notes": "Coordinates from Tables 1A and 1B (pages 9-11), Old Israel Grid in units of 10 m. Depth = running sum of the printed thicknesses; each row was checked against the printed elevation and conductance.",
+   "table": "Appendix (layered inversion printout: resistivity, thickness, elevation, conductance)"
+  },
+  "notes": "Author's remark: Possibly gradient layer."
+ },
+ {
+  "id": "goldman1995-HS345-upper",
+  "survey": "goldman-1995-tdem-coastal-interface",
+  "site": "HS345",
+  "method": "TEM",
+  "level": "L3",
+  "representation": "interface_depth",
+  "measured_on": "1995",
+  "confidence": "A",
+  "status": "draft",
+  "interface_depth_m": 8.0,
+  "criterion": "top of the upper low-resistivity unit (author, Table 1A: associated with seawater intrusion)",
+  "provenance": {
+   "document": "main",
+   "pages": [
+    10
+   ],
+   "method": "manual",
+   "tool": "typed from the page at 200 dpi; geosigma.extract.printed_tables",
+   "extracted_on": "2026-10-24",
+   "notes": "Coordinates from Tables 1A and 1B (pages 9-11), Old Israel Grid in units of 10 m. Depth = running sum of the printed thicknesses; each row was checked against the printed elevation and conductance.",
+   "table": "Table 1A"
+  },
+  "notes": "Upper unit: two sub-layers, 0.7 ohm.m from 8 m and 0.3 ohm.m from 16 m; the shallower depth is stored. Author's remark: Possibly gradient layer."
+ },
+ {
+  "id": "goldman1995-HS346-layered",
+  "survey": "goldman-1995-tdem-coastal-interface",
+  "site": "HS346",
+  "method": "TEM",
+  "level": "L2",
+  "representation": "model_1d",
+  "measured_on": "1995",
+  "depth_max_m": 31.0,
+  "confidence": "A",
+  "status": "draft",
+  "model_type": "layered",
+  "layers": [
+   {
+    "top_m": 0.0,
+    "bottom_m": 1.34,
+    "rho_ohmm": 1.74
+   },
+   {
+    "top_m": 1.34,
+    "bottom_m": 12.64,
+    "rho_ohmm": 20.13
+   },
+   {
+    "top_m": 12.64,
+    "bottom_m": 19.94,
+    "rho_ohmm": 0.437
+   },
+   {
+    "top_m": 19.94,
+    "bottom_m": 31.0,
+    "rho_ohmm": 6.96
+   },
+   {
+    "top_m": 31.0,
+    "bottom_m": null,
+    "rho_ohmm": 1.79
+   }
+  ],
+  "provenance": {
+   "document": "main",
+   "pages": [
+    61
+   ],
+   "method": "manual",
+   "tool": "typed from the page at 200 dpi; geosigma.extract.printed_tables",
+   "extracted_on": "2026-10-24",
+   "notes": "Coordinates from Tables 1A and 1B (pages 9-11), Old Israel Grid in units of 10 m. Depth = running sum of the printed thicknesses; each row was checked against the printed elevation and conductance.",
+   "table": "Appendix (layered inversion printout: resistivity, thickness, elevation, conductance)"
+  }
+ },
+ {
+  "id": "goldman1995-HS346-upper",
+  "survey": "goldman-1995-tdem-coastal-interface",
+  "site": "HS346",
+  "method": "TEM",
+  "level": "L3",
+  "representation": "interface_depth",
+  "measured_on": "1995",
+  "confidence": "A",
+  "status": "draft",
+  "interface_depth_m": 13.0,
+  "criterion": "top of the upper low-resistivity unit (author, Table 1A: associated with seawater intrusion)",
+  "provenance": {
+   "document": "main",
+   "pages": [
+    10
+   ],
+   "method": "manual",
+   "tool": "typed from the page at 200 dpi; geosigma.extract.printed_tables",
+   "extracted_on": "2026-10-24",
+   "notes": "Coordinates from Tables 1A and 1B (pages 9-11), Old Israel Grid in units of 10 m. Depth = running sum of the printed thicknesses; each row was checked against the printed elevation and conductance.",
+   "table": "Table 1A"
+  },
+  "notes": "Upper unit resistivity 0.4 ohm.m. Lower unit resistivity 1.8 ohm.m."
+ },
+ {
+  "id": "goldman1995-HS346-lower",
+  "survey": "goldman-1995-tdem-coastal-interface",
+  "site": "HS346",
+  "method": "TEM",
+  "level": "L3",
+  "representation": "interface_depth",
+  "measured_on": "1995",
+  "confidence": "A",
+  "status": "draft",
+  "interface_depth_m": 31.0,
+  "criterion": "top of the lower low-resistivity unit (author, Table 1A: associated with seawater intrusion)",
+  "provenance": {
+   "document": "main",
+   "pages": [
+    10
+   ],
+   "method": "manual",
+   "tool": "typed from the page at 200 dpi; geosigma.extract.printed_tables",
+   "extracted_on": "2026-10-24",
+   "notes": "Coordinates from Tables 1A and 1B (pages 9-11), Old Israel Grid in units of 10 m. Depth = running sum of the printed thicknesses; each row was checked against the printed elevation and conductance.",
+   "table": "Table 1A"
+  },
+  "notes": "Upper unit resistivity 0.4 ohm.m. Lower unit resistivity 1.8 ohm.m."
+ },
+ {
+  "id": "goldman1995-HS347-layered",
+  "survey": "goldman-1995-tdem-coastal-interface",
+  "site": "HS347",
+  "method": "TEM",
+  "level": "L2",
+  "representation": "model_1d",
+  "measured_on": "1995",
+  "depth_max_m": 1.01,
+  "confidence": "C",
+  "status": "draft",
+  "model_type": "layered",
+  "layers": [
+   {
+    "top_m": 0.0,
+    "bottom_m": 1.01,
+    "rho_ohmm": 0.133
+   },
+   {
+    "top_m": 1.01,
+    "bottom_m": null,
+    "rho_ohmm": 0.261
+   }
+  ],
+  "provenance": {
+   "document": "main",
+   "pages": [
+    62
+   ],
+   "method": "manual",
+   "tool": "typed from the page at 200 dpi; geosigma.extract.printed_tables",
+   "extracted_on": "2026-10-24",
+   "notes": "Coordinates from Tables 1A and 1B (pages 9-11), Old Israel Grid in units of 10 m. Depth = running sum of the printed thicknesses; each row was checked against the printed elevation and conductance.",
+   "table": "Appendix (layered inversion printout: resistivity, thickness, elevation, conductance)"
+  },
+  "notes": "Author's remark: Tx loop is too close to sea; distorted (Table 1B)."
+ },
+ {
+  "id": "goldman1995-HS348-layered",
+  "survey": "goldman-1995-tdem-coastal-interface",
+  "site": "HS348",
+  "method": "TEM",
+  "level": "L2",
+  "representation": "model_1d",
+  "measured_on": "1995",
+  "depth_max_m": 5.43,
+  "confidence": "A",
+  "status": "draft",
+  "model_type": "layered",
+  "layers": [
+   {
+    "top_m": 0.0,
+    "bottom_m": 5.43,
+    "rho_ohmm": 7.47
+   },
+   {
+    "top_m": 5.43,
+    "bottom_m": null,
+    "rho_ohmm": 0.839
+   }
+  ],
+  "provenance": {
+   "document": "main",
+   "pages": [
+    63
+   ],
+   "method": "manual",
+   "tool": "typed from the page at 200 dpi; geosigma.extract.printed_tables",
+   "extracted_on": "2026-10-24",
+   "notes": "Coordinates from Tables 1A and 1B (pages 9-11), Old Israel Grid in units of 10 m. Depth = running sum of the printed thicknesses; each row was checked against the printed elevation and conductance.",
+   "table": "Appendix (layered inversion printout: resistivity, thickness, elevation, conductance)"
+  }
+ },
+ {
+  "id": "goldman1995-HS348-upper",
+  "survey": "goldman-1995-tdem-coastal-interface",
+  "site": "HS348",
+  "method": "TEM",
+  "level": "L3",
+  "representation": "interface_depth",
+  "measured_on": "1995",
+  "confidence": "A",
+  "status": "draft",
+  "interface_depth_m": 5.0,
+  "criterion": "top of the upper low-resistivity unit (author, Table 1A: associated with seawater intrusion)",
+  "provenance": {
+   "document": "main",
+   "pages": [
+    10
+   ],
+   "method": "manual",
+   "tool": "typed from the page at 200 dpi; geosigma.extract.printed_tables",
+   "extracted_on": "2026-10-24",
+   "notes": "Coordinates from Tables 1A and 1B (pages 9-11), Old Israel Grid in units of 10 m. Depth = running sum of the printed thicknesses; each row was checked against the printed elevation and conductance.",
+   "table": "Table 1A"
+  },
+  "notes": "Upper unit resistivity 0.8 ohm.m."
+ },
+ {
+  "id": "goldman1995-HS349-layered",
+  "survey": "goldman-1995-tdem-coastal-interface",
+  "site": "HS349",
+  "method": "TEM",
+  "level": "L2",
+  "representation": "model_1d",
+  "measured_on": "1995",
+  "depth_max_m": 173.52,
+  "confidence": "A",
+  "status": "draft",
+  "model_type": "layered",
+  "layers": [
+   {
+    "top_m": 0.0,
+    "bottom_m": 3.09,
+    "rho_ohmm": 4.82
+   },
+   {
+    "top_m": 3.09,
+    "bottom_m": 42.88,
+    "rho_ohmm": 11.45
+   },
+   {
+    "top_m": 42.88,
+    "bottom_m": 60.92,
+    "rho_ohmm": 1.23
+   },
+   {
+    "top_m": 60.92,
+    "bottom_m": 173.52,
+    "rho_ohmm": 0.673
+   },
+   {
+    "top_m": 173.52,
+    "bottom_m": null,
+    "rho_ohmm": 35.5
+   }
+  ],
+  "provenance": {
+   "document": "main",
+   "pages": [
+    64
+   ],
+   "method": "manual",
+   "tool": "typed from the page at 200 dpi; geosigma.extract.printed_tables",
+   "extracted_on": "2026-10-24",
+   "notes": "Coordinates from Tables 1A and 1B (pages 9-11), Old Israel Grid in units of 10 m. Depth = running sum of the printed thicknesses; each row was checked against the printed elevation and conductance.",
+   "table": "Appendix (layered inversion printout: resistivity, thickness, elevation, conductance)"
+  },
+  "notes": "Author's remark: Possibly gradient layer."
+ },
+ {
+  "id": "goldman1995-HS349-upper",
+  "survey": "goldman-1995-tdem-coastal-interface",
+  "site": "HS349",
+  "method": "TEM",
+  "level": "L3",
+  "representation": "interface_depth",
+  "measured_on": "1995",
+  "confidence": "A",
+  "status": "draft",
+  "interface_depth_m": 43.0,
+  "criterion": "top of the upper low-resistivity unit (author, Table 1A: associated with seawater intrusion)",
+  "provenance": {
+   "document": "main",
+   "pages": [
+    10
+   ],
+   "method": "manual",
+   "tool": "typed from the page at 200 dpi; geosigma.extract.printed_tables",
+   "extracted_on": "2026-10-24",
+   "notes": "Coordinates from Tables 1A and 1B (pages 9-11), Old Israel Grid in units of 10 m. Depth = running sum of the printed thicknesses; each row was checked against the printed elevation and conductance.",
+   "table": "Table 1A"
+  },
+  "notes": "Upper unit: two sub-layers, 1.2 ohm.m from 43 m and 0.7 ohm.m from 61 m; the shallower depth is stored. Author's remark: Possibly gradient layer."
+ },
+ {
+  "id": "goldman1995-HS350-layered",
+  "survey": "goldman-1995-tdem-coastal-interface",
+  "site": "HS350",
+  "method": "TEM",
+  "level": "L2",
+  "representation": "model_1d",
+  "measured_on": "1995",
+  "depth_max_m": 92.02,
+  "confidence": "A",
+  "status": "draft",
+  "model_type": "layered",
+  "layers": [
+   {
+    "top_m": 0.0,
+    "bottom_m": 15.57,
+    "rho_ohmm": 3.44
+   },
+   {
+    "top_m": 15.57,
+    "bottom_m": 42.47,
+    "rho_ohmm": 4.57
+   },
+   {
+    "top_m": 42.47,
+    "bottom_m": 92.02,
+    "rho_ohmm": 1.89
+   },
+   {
+    "top_m": 92.02,
+    "bottom_m": null,
+    "rho_ohmm": 1.18
+   }
+  ],
+  "provenance": {
+   "document": "main",
+   "pages": [
+    65
+   ],
+   "method": "manual",
+   "tool": "typed from the page at 200 dpi; geosigma.extract.printed_tables",
+   "extracted_on": "2026-10-24",
+   "notes": "Coordinates from Tables 1A and 1B (pages 9-11), Old Israel Grid in units of 10 m. Depth = running sum of the printed thicknesses; each row was checked against the printed elevation and conductance.",
+   "table": "Appendix (layered inversion printout: resistivity, thickness, elevation, conductance)"
+  },
+  "notes": "Author's remark: Possibly gradient layer."
+ },
+ {
+  "id": "goldman1995-HS350-upper",
+  "survey": "goldman-1995-tdem-coastal-interface",
+  "site": "HS350",
+  "method": "TEM",
+  "level": "L3",
+  "representation": "interface_depth",
+  "measured_on": "1995",
+  "confidence": "A",
+  "status": "draft",
+  "interface_depth_m": 42.0,
+  "criterion": "top of the upper low-resistivity unit (author, Table 1A: associated with seawater intrusion)",
+  "provenance": {
+   "document": "main",
+   "pages": [
+    10
+   ],
+   "method": "manual",
+   "tool": "typed from the page at 200 dpi; geosigma.extract.printed_tables",
+   "extracted_on": "2026-10-24",
+   "notes": "Coordinates from Tables 1A and 1B (pages 9-11), Old Israel Grid in units of 10 m. Depth = running sum of the printed thicknesses; each row was checked against the printed elevation and conductance.",
+   "table": "Table 1A"
+  },
+  "notes": "Upper unit: two sub-layers, 1.9 ohm.m from 42 m and 1.2 ohm.m from 92 m; the shallower depth is stored. Author's remark: Possibly gradient layer."
+ },
+ {
+  "id": "goldman1995-HS351-layered",
+  "survey": "goldman-1995-tdem-coastal-interface",
+  "site": "HS351",
+  "method": "TEM",
+  "level": "L2",
+  "representation": "model_1d",
+  "measured_on": "1995",
+  "depth_max_m": 63.53,
+  "confidence": "A",
+  "status": "draft",
+  "model_type": "layered",
+  "layers": [
+   {
+    "top_m": 0.0,
+    "bottom_m": 17.43,
+    "rho_ohmm": 2.98
+   },
+   {
+    "top_m": 17.43,
+    "bottom_m": 27.16,
+    "rho_ohmm": 1.15
+   },
+   {
+    "top_m": 27.16,
+    "bottom_m": 35.25,
+    "rho_ohmm": 30.3
+   },
+   {
+    "top_m": 35.25,
+    "bottom_m": 63.53,
+    "rho_ohmm": 2.06
+   },
+   {
+    "top_m": 63.53,
+    "bottom_m": null,
+    "rho_ohmm": 4.51
+   }
+  ],
+  "provenance": {
+   "document": "main",
+   "pages": [
+    66
+   ],
+   "method": "manual",
+   "tool": "typed from the page at 200 dpi; geosigma.extract.printed_tables",
+   "extracted_on": "2026-10-24",
+   "notes": "Coordinates from Tables 1A and 1B (pages 9-11), Old Israel Grid in units of 10 m. Depth = running sum of the printed thicknesses; each row was checked against the printed elevation and conductance.",
+   "table": "Appendix (layered inversion printout: resistivity, thickness, elevation, conductance)"
+  },
+  "notes": "Author's remark: Possibly gradient layer."
+ },
+ {
+  "id": "goldman1995-HS351-upper",
+  "survey": "goldman-1995-tdem-coastal-interface",
+  "site": "HS351",
+  "method": "TEM",
+  "level": "L3",
+  "representation": "interface_depth",
+  "measured_on": "1995",
+  "confidence": "A",
+  "status": "draft",
+  "interface_depth_m": 0.0,
+  "criterion": "top of the upper low-resistivity unit (author, Table 1A: associated with seawater intrusion)",
+  "provenance": {
+   "document": "main",
+   "pages": [
+    10
+   ],
+   "method": "manual",
+   "tool": "typed from the page at 200 dpi; geosigma.extract.printed_tables",
+   "extracted_on": "2026-10-24",
+   "notes": "Coordinates from Tables 1A and 1B (pages 9-11), Old Israel Grid in units of 10 m. Depth = running sum of the printed thicknesses; each row was checked against the printed elevation and conductance.",
+   "table": "Table 1A"
+  },
+  "notes": "Upper unit: two sub-layers, 3.0 ohm.m from 0 m and 1.1 ohm.m from 17 m; the shallower depth is stored. Lower unit resistivity 2.1 ohm.m. Author's remark: Possibly gradient layer."
+ },
+ {
+  "id": "goldman1995-HS351-lower",
+  "survey": "goldman-1995-tdem-coastal-interface",
+  "site": "HS351",
+  "method": "TEM",
+  "level": "L3",
+  "representation": "interface_depth",
+  "measured_on": "1995",
+  "confidence": "A",
+  "status": "draft",
+  "interface_depth_m": 35.0,
+  "criterion": "top of the lower low-resistivity unit (author, Table 1A: associated with seawater intrusion)",
+  "provenance": {
+   "document": "main",
+   "pages": [
+    10
+   ],
+   "method": "manual",
+   "tool": "typed from the page at 200 dpi; geosigma.extract.printed_tables",
+   "extracted_on": "2026-10-24",
+   "notes": "Coordinates from Tables 1A and 1B (pages 9-11), Old Israel Grid in units of 10 m. Depth = running sum of the printed thicknesses; each row was checked against the printed elevation and conductance.",
+   "table": "Table 1A"
+  },
+  "notes": "Upper unit: two sub-layers, 3.0 ohm.m from 0 m and 1.1 ohm.m from 17 m; the shallower depth is stored. Lower unit resistivity 2.1 ohm.m. Author's remark: Possibly gradient layer."
+ },
+ {
+  "id": "goldman1995-HS352-layered",
+  "survey": "goldman-1995-tdem-coastal-interface",
+  "site": "HS352",
+  "method": "TEM",
+  "level": "L2",
+  "representation": "model_1d",
+  "measured_on": "1995",
+  "depth_max_m": 125.59,
+  "confidence": "A",
+  "status": "draft",
+  "model_type": "layered",
+  "layers": [
+   {
+    "top_m": 0.0,
+    "bottom_m": 7.21,
+    "rho_ohmm": 4.36
+   },
+   {
+    "top_m": 7.21,
+    "bottom_m": 18.23,
+    "rho_ohmm": 11.42
+   },
+   {
+    "top_m": 18.23,
+    "bottom_m": 34.33,
+    "rho_ohmm": 1.65
+   },
+   {
+    "top_m": 34.33,
+    "bottom_m": 125.59,
+    "rho_ohmm": 4.55
+   },
+   {
+    "top_m": 125.59,
+    "bottom_m": null,
+    "rho_ohmm": 2.58
+   }
+  ],
+  "provenance": {
+   "document": "main",
+   "pages": [
+    67
+   ],
+   "method": "manual",
+   "tool": "typed from the page at 200 dpi; geosigma.extract.printed_tables",
+   "extracted_on": "2026-10-24",
+   "notes": "Coordinates from Tables 1A and 1B (pages 9-11), Old Israel Grid in units of 10 m. Depth = running sum of the printed thicknesses; each row was checked against the printed elevation and conductance.",
+   "table": "Appendix (layered inversion printout: resistivity, thickness, elevation, conductance)"
+  }
+ },
+ {
+  "id": "goldman1995-HS352-upper",
+  "survey": "goldman-1995-tdem-coastal-interface",
+  "site": "HS352",
+  "method": "TEM",
+  "level": "L3",
+  "representation": "interface_depth",
+  "measured_on": "1995",
+  "confidence": "A",
+  "status": "draft",
+  "interface_depth_m": 18.0,
+  "criterion": "top of the upper low-resistivity unit (author, Table 1A: associated with seawater intrusion)",
+  "provenance": {
+   "document": "main",
+   "pages": [
+    10
+   ],
+   "method": "manual",
+   "tool": "typed from the page at 200 dpi; geosigma.extract.printed_tables",
+   "extracted_on": "2026-10-24",
+   "notes": "Coordinates from Tables 1A and 1B (pages 9-11), Old Israel Grid in units of 10 m. Depth = running sum of the printed thicknesses; each row was checked against the printed elevation and conductance.",
+   "table": "Table 1A"
+  },
+  "notes": "Upper unit resistivity 1.6 ohm.m. Lower unit resistivity 2.6 ohm.m."
+ },
+ {
+  "id": "goldman1995-HS352-lower",
+  "survey": "goldman-1995-tdem-coastal-interface",
+  "site": "HS352",
+  "method": "TEM",
+  "level": "L3",
+  "representation": "interface_depth",
+  "measured_on": "1995",
+  "confidence": "A",
+  "status": "draft",
+  "interface_depth_m": 126.0,
+  "criterion": "top of the lower low-resistivity unit (author, Table 1A: associated with seawater intrusion)",
+  "provenance": {
+   "document": "main",
+   "pages": [
+    10
+   ],
+   "method": "manual",
+   "tool": "typed from the page at 200 dpi; geosigma.extract.printed_tables",
+   "extracted_on": "2026-10-24",
+   "notes": "Coordinates from Tables 1A and 1B (pages 9-11), Old Israel Grid in units of 10 m. Depth = running sum of the printed thicknesses; each row was checked against the printed elevation and conductance.",
+   "table": "Table 1A"
+  },
+  "notes": "Upper unit resistivity 1.6 ohm.m. Lower unit resistivity 2.6 ohm.m."
+ },
+ {
+  "id": "goldman1995-HS353-layered",
+  "survey": "goldman-1995-tdem-coastal-interface",
+  "site": "HS353",
+  "method": "TEM",
+  "level": "L2",
+  "representation": "model_1d",
+  "measured_on": "1995",
+  "depth_max_m": 82.72,
+  "confidence": "A",
+  "status": "draft",
+  "model_type": "layered",
+  "layers": [
+   {
+    "top_m": 0.0,
+    "bottom_m": 6.75,
+    "rho_ohmm": 27.38
+   },
+   {
+    "top_m": 6.75,
+    "bottom_m": 82.72,
+    "rho_ohmm": 5.37
+   },
+   {
+    "top_m": 82.72,
+    "bottom_m": null,
+    "rho_ohmm": 2.73
+   }
+  ],
+  "provenance": {
+   "document": "main",
+   "pages": [
+    68
+   ],
+   "method": "manual",
+   "tool": "typed from the page at 200 dpi; geosigma.extract.printed_tables",
+   "extracted_on": "2026-10-24",
+   "notes": "Coordinates from Tables 1A and 1B (pages 9-11), Old Israel Grid in units of 10 m. Depth = running sum of the printed thicknesses; each row was checked against the printed elevation and conductance.",
+   "table": "Appendix (layered inversion printout: resistivity, thickness, elevation, conductance)"
+  }
+ },
+ {
+  "id": "goldman1995-HS353-upper",
+  "survey": "goldman-1995-tdem-coastal-interface",
+  "site": "HS353",
+  "method": "TEM",
+  "level": "L3",
+  "representation": "interface_depth",
+  "measured_on": "1995",
+  "confidence": "A",
+  "status": "draft",
+  "interface_depth_m": 83.0,
+  "criterion": "top of the upper low-resistivity unit (author, Table 1A: associated with seawater intrusion)",
+  "provenance": {
+   "document": "main",
+   "pages": [
+    10
+   ],
+   "method": "manual",
+   "tool": "typed from the page at 200 dpi; geosigma.extract.printed_tables",
+   "extracted_on": "2026-10-24",
+   "notes": "Coordinates from Tables 1A and 1B (pages 9-11), Old Israel Grid in units of 10 m. Depth = running sum of the printed thicknesses; each row was checked against the printed elevation and conductance.",
+   "table": "Table 1A"
+  },
+  "notes": "Upper unit resistivity 2.7 ohm.m."
+ },
+ {
+  "id": "goldman1995-HS354-layered",
+  "survey": "goldman-1995-tdem-coastal-interface",
+  "site": "HS354",
+  "method": "TEM",
+  "level": "L2",
+  "representation": "model_1d",
+  "measured_on": "1995",
+  "depth_max_m": 105.47,
+  "confidence": "A",
+  "status": "draft",
+  "model_type": "layered",
+  "layers": [
+   {
+    "top_m": 0.0,
+    "bottom_m": 4.9,
+    "rho_ohmm": 3.84
+   },
+   {
+    "top_m": 4.9,
+    "bottom_m": 39.23,
+    "rho_ohmm": 21.66
+   },
+   {
+    "top_m": 39.23,
+    "bottom_m": 105.47,
+    "rho_ohmm": 1.85
+   },
+   {
+    "top_m": 105.47,
+    "bottom_m": null,
+    "rho_ohmm": 9.98
+   }
+  ],
+  "provenance": {
+   "document": "main",
+   "pages": [
+    69
+   ],
+   "method": "manual",
+   "tool": "typed from the page at 200 dpi; geosigma.extract.printed_tables",
+   "extracted_on": "2026-10-24",
+   "notes": "Coordinates from Tables 1A and 1B (pages 9-11), Old Israel Grid in units of 10 m. Depth = running sum of the printed thicknesses; each row was checked against the printed elevation and conductance.",
+   "table": "Appendix (layered inversion printout: resistivity, thickness, elevation, conductance)"
+  }
+ },
+ {
+  "id": "goldman1995-HS354-upper",
+  "survey": "goldman-1995-tdem-coastal-interface",
+  "site": "HS354",
+  "method": "TEM",
+  "level": "L3",
+  "representation": "interface_depth",
+  "measured_on": "1995",
+  "confidence": "A",
+  "status": "draft",
+  "interface_depth_m": 39.0,
+  "criterion": "top of the upper low-resistivity unit (author, Table 1A: associated with seawater intrusion)",
+  "provenance": {
+   "document": "main",
+   "pages": [
+    10
+   ],
+   "method": "manual",
+   "tool": "typed from the page at 200 dpi; geosigma.extract.printed_tables",
+   "extracted_on": "2026-10-24",
+   "notes": "Coordinates from Tables 1A and 1B (pages 9-11), Old Israel Grid in units of 10 m. Depth = running sum of the printed thicknesses; each row was checked against the printed elevation and conductance.",
+   "table": "Table 1A"
+  },
+  "notes": "Upper unit resistivity 1.8 ohm.m."
+ },
+ {
+  "id": "goldman1995-HS355-layered",
+  "survey": "goldman-1995-tdem-coastal-interface",
+  "site": "HS355",
+  "method": "TEM",
+  "level": "L2",
+  "representation": "model_1d",
+  "measured_on": "1995",
+  "depth_max_m": 129.0,
+  "confidence": "A",
+  "status": "draft",
+  "model_type": "layered",
+  "layers": [
+   {
+    "top_m": 0.0,
+    "bottom_m": 25.7,
+    "rho_ohmm": 9.58
+   },
+   {
+    "top_m": 25.7,
+    "bottom_m": 129.0,
+    "rho_ohmm": 20.09
+   },
+   {
+    "top_m": 129.0,
+    "bottom_m": null,
+    "rho_ohmm": 4.74
+   }
+  ],
+  "provenance": {
+   "document": "main",
+   "pages": [
+    70
+   ],
+   "method": "manual",
+   "tool": "typed from the page at 200 dpi; geosigma.extract.printed_tables",
+   "extracted_on": "2026-10-24",
+   "notes": "Coordinates from Tables 1A and 1B (pages 9-11), Old Israel Grid in units of 10 m. Depth = running sum of the printed thicknesses; each row was checked against the printed elevation and conductance.",
+   "table": "Appendix (layered inversion printout: resistivity, thickness, elevation, conductance)"
+  },
+  "notes": "Author's remark: No interface (Table 1B)."
+ },
+ {
+  "id": "goldman1995-HS356-layered",
+  "survey": "goldman-1995-tdem-coastal-interface",
+  "site": "HS356",
+  "method": "TEM",
+  "level": "L2",
+  "representation": "model_1d",
+  "measured_on": "1995",
+  "depth_max_m": 128.62,
+  "confidence": "A",
+  "status": "draft",
+  "model_type": "layered",
+  "layers": [
+   {
+    "top_m": 0.0,
+    "bottom_m": 8.89,
+    "rho_ohmm": 4.98
+   },
+   {
+    "top_m": 8.89,
+    "bottom_m": 20.22,
+    "rho_ohmm": 27.66
+   },
+   {
+    "top_m": 20.22,
+    "bottom_m": 128.62,
+    "rho_ohmm": 5.85
+   },
+   {
+    "top_m": 128.62,
+    "bottom_m": null,
+    "rho_ohmm": 3.23
+   }
+  ],
+  "provenance": {
+   "document": "main",
+   "pages": [
+    71
+   ],
+   "method": "manual",
+   "tool": "typed from the page at 200 dpi; geosigma.extract.printed_tables",
+   "extracted_on": "2026-10-24",
+   "notes": "Coordinates from Tables 1A and 1B (pages 9-11), Old Israel Grid in units of 10 m. Depth = running sum of the printed thicknesses; each row was checked against the printed elevation and conductance.",
+   "table": "Appendix (layered inversion printout: resistivity, thickness, elevation, conductance)"
+  },
+  "notes": "Author's remark: No interface (Table 1B)."
+ },
+ {
+  "id": "goldman1995-HS357-layered",
+  "survey": "goldman-1995-tdem-coastal-interface",
+  "site": "HS357",
+  "method": "TEM",
+  "level": "L2",
+  "representation": "model_1d",
+  "measured_on": "1995",
+  "depth_max_m": 91.69,
+  "confidence": "A",
+  "status": "draft",
+  "model_type": "layered",
+  "layers": [
+   {
+    "top_m": 0.0,
+    "bottom_m": 21.88,
+    "rho_ohmm": 5.58
+   },
+   {
+    "top_m": 21.88,
+    "bottom_m": 34.9,
+    "rho_ohmm": 22.67
+   },
+   {
+    "top_m": 34.9,
+    "bottom_m": 91.69,
+    "rho_ohmm": 2.85
+   },
+   {
+    "top_m": 91.69,
+    "bottom_m": null,
+    "rho_ohmm": 108.1
+   }
+  ],
+  "provenance": {
+   "document": "main",
+   "pages": [
+    72
+   ],
+   "method": "manual",
+   "tool": "typed from the page at 200 dpi; geosigma.extract.printed_tables",
+   "extracted_on": "2026-10-24",
+   "notes": "Coordinates from Tables 1A and 1B (pages 9-11), Old Israel Grid in units of 10 m. Depth = running sum of the printed thicknesses; each row was checked against the printed elevation and conductance.",
+   "table": "Appendix (layered inversion printout: resistivity, thickness, elevation, conductance)"
+  }
+ },
+ {
+  "id": "goldman1995-HS357-upper",
+  "survey": "goldman-1995-tdem-coastal-interface",
+  "site": "HS357",
+  "method": "TEM",
+  "level": "L3",
+  "representation": "interface_depth",
+  "measured_on": "1995",
+  "confidence": "A",
+  "status": "draft",
+  "interface_depth_m": 35.0,
+  "criterion": "top of the upper low-resistivity unit (author, Table 1A: associated with seawater intrusion)",
+  "provenance": {
+   "document": "main",
+   "pages": [
+    10
+   ],
+   "method": "manual",
+   "tool": "typed from the page at 200 dpi; geosigma.extract.printed_tables",
+   "extracted_on": "2026-10-24",
+   "notes": "Coordinates from Tables 1A and 1B (pages 9-11), Old Israel Grid in units of 10 m. Depth = running sum of the printed thicknesses; each row was checked against the printed elevation and conductance.",
+   "table": "Table 1A"
+  },
+  "notes": "Upper unit resistivity 2.8 ohm.m."
+ },
+ {
+  "id": "goldman1995-HS358-layered",
+  "survey": "goldman-1995-tdem-coastal-interface",
+  "site": "HS358",
+  "method": "TEM",
+  "level": "L2",
+  "representation": "model_1d",
+  "measured_on": "1995",
+  "depth_max_m": 160.5,
+  "confidence": "A",
+  "status": "draft",
+  "model_type": "layered",
+  "layers": [
+   {
+    "top_m": 0.0,
+    "bottom_m": 10.22,
+    "rho_ohmm": 8.49
+   },
+   {
+    "top_m": 10.22,
+    "bottom_m": 75.65,
+    "rho_ohmm": 12.2
+   },
+   {
+    "top_m": 75.65,
+    "bottom_m": 160.5,
+    "rho_ohmm": 3.81
+   },
+   {
+    "top_m": 160.5,
+    "bottom_m": null,
+    "rho_ohmm": 114.4
+   }
+  ],
+  "provenance": {
+   "document": "main",
+   "pages": [
+    73
+   ],
+   "method": "manual",
+   "tool": "typed from the page at 200 dpi; geosigma.extract.printed_tables",
+   "extracted_on": "2026-10-24",
+   "notes": "Coordinates from Tables 1A and 1B (pages 9-11), Old Israel Grid in units of 10 m. Depth = running sum of the printed thicknesses; each row was checked against the printed elevation and conductance.",
+   "table": "Appendix (layered inversion printout: resistivity, thickness, elevation, conductance)"
+  },
+  "notes": "Author's remark: No interface (Table 1B)."
+ }
+]

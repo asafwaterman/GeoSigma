@@ -1,0 +1,571 @@
+id: goldman-1990-tdem-feasibility-stage-b
+name: Applicability of the TDEM method to geological problems, stage B
+organisation: Earth Sciences Administration; Oil Exploration (Investments) Ltd and Geological Survey of Israel
+authors:
+- M. Goldman
+- A. Ronen
+- Y. Bartov
+- G. Steinitz
+- G. Bar
+report_number: ES-42-90 (IPRG 854/70/89, GSI/38/1990)
+year: 1990
+acquired: null
+methods:
+- TEM
+region: Sedom and Amiaz (Dead Sea), Lod valley and Sharon, Makhtesh Ramon and Mitzpe Ramon, Paran, Timna and the
+  southern Arava
+purpose: Test whether TDEM resolves geological targets (salt, clay, aquifers, intrusions) next to boreholes
+geometry: scattered
+depth_reach: up to about 435 m (deepest layer boundary)
+documents:
+- id: main
+  title: Applicability of the TDEM method to geological problems, stage B (in Hebrew, July 1990; appendices in English)
+  filename: Goldman-M-Feasibility-Study-TDEM-Method-IPRG-854-70-89-GSI-38-1990.pdf
+  drive_id: 1YLR3IcMaaGlF6lhbJRN0vA6SuxeK-N6e
+  language:
+  - he
+  - en
+  scanned: true
+  role: main_report
+  sha256: 13a431586229cb658ed2455b9b2375bc8e814de5943a027ef2837eaf33a832c4
+  pages: 98
+notes: The author's layered models are printed in Appendix 1 (pages 25-32) with each station's coordinates and target
+  borehole; Appendix 2 (pages 34-95) plots the same soundings. Not stored are GS-16, 17, 18, 22 and 37-2 (noisy,
+  no model), GS-39 (no coordinates printed), and GS-67 (Shen Ramon; its printed coordinates are identical to GS-54
+  in the southern Arava, so its position is unknown). Stations the author marks as distorted or noisy are at confidence
+  C. The measurement dates are not given.
+extraction_status: complete
+sites:
+- id: GS-1
+  name: TDEM station GS-1 (Har Sdom, Top; SE 3)
+  coords:
+    x: 187100
+    y: 53500
+    crs: EPSG:28193
+    source: table
+    accuracy_m: 10
+  notes: 'Target in the report: Har Sdom, Top; SE 3; Cap Rock. Salt 41 meters. Clay content increase 91m & 150m.
+    WT 101m.'
+- id: GS-2
+  name: TDEM station GS-2 (Har Sdom, Top; SE2)
+  coords:
+    x: 187000
+    y: 53500
+    crs: EPSG:28193
+    source: table
+    accuracy_m: 10
+  notes: 'Target in the report: Har Sdom, Top; SE2; Cap Rock. Salt 54 meters. Clay 260m. WT 144m.'
+- id: GS-3
+  name: TDEM station GS-3 (Har Sdom, Top)
+  coords:
+    x: 187500
+    y: 53500
+    crs: EPSG:28193
+    source: table
+    accuracy_m: 10
+  notes: 'Target in the report: Har Sdom, Top; Cap Rock. Salt'
+- id: GS-4
+  name: TDEM station GS-4 (Sdom 1)
+  coords:
+    x: 186080
+    y: 53290
+    crs: EPSG:28193
+    source: table
+    accuracy_m: 10
+  notes: 'Target in the report: Sdom 1; Lisan. Salt; 247 meters'
+- id: GS-5
+  name: TDEM station GS-5 (Har Sdom)
+  coords:
+    x: 186200
+    y: 52300
+    crs: EPSG:28193
+    source: table
+    accuracy_m: 10
+  notes: 'Target in the report: Har Sdom; Cap Rock/ Lisan ?. Salt. R4 was measured as 0.001 ohm-m (?)'
+- id: GS-6
+  name: TDEM station GS-6 (Har Sdom 1)
+  coords:
+    x: 187490
+    y: 52440
+    crs: EPSG:28193
+    source: table
+    accuracy_m: 10
+  notes: 'Target in the report: Har Sdom 1; Lisan. Salt; 65 meters'
+- id: GS-7
+  name: TDEM station GS-7 (Sdom 2)
+  coords:
+    x: 184370
+    y: 50640
+    crs: EPSG:28193
+    source: table
+    accuracy_m: 10
+  notes: 'Target in the report: Sdom 2; Lisan. Salt'
+- id: GS-8
+  name: TDEM station GS-8 (Sdom; J-9)
+  coords:
+    x: 182530
+    y: 49700
+    crs: EPSG:28193
+    source: table
+    accuracy_m: 10
+  notes: 'Target in the report: Sdom; J-9; Lisan. Salt; 100 meters'
+- id: GS-9
+  name: TDEM station GS-9 (Sdom; SH-7)
+  coords:
+    x: 182200
+    y: 50800
+    crs: EPSG:28193
+    source: table
+    accuracy_m: 10
+  notes: 'Target in the report: Sdom; SH-7; Lisan. Salt'
+- id: GS-10
+  name: TDEM station GS-10 (Nahal Heimar)
+  coords:
+    x: 185500
+    y: 60800
+    crs: EPSG:28193
+    source: table
+    accuracy_m: 10
+  notes: 'Target in the report: Nahal Heimar; Gravel. Salt'
+- id: GS-11
+  name: TDEM station GS-11 (Amiaz 1)
+  coords:
+    x: 184800
+    y: 55600
+    crs: EPSG:28193
+    source: table
+    accuracy_m: 10
+  notes: 'Target in the report: Amiaz 1; Lisan. Salt'
+- id: GS-12
+  name: TDEM station GS-12 (Amiaz Plain)
+  coords:
+    x: 185600
+    y: 52800
+    crs: EPSG:28193
+    source: table
+    accuracy_m: 10
+  notes: 'Target in the report: Amiaz Plain; Lisan. Salt'
+- id: GS-13
+  name: TDEM station GS-13 (SH-6)
+  coords:
+    x: 186400
+    y: 79500
+    crs: EPSG:28193
+    source: table
+    accuracy_m: 10
+  notes: 'Target in the report: SH-6; Gravel. Salt; 430 meters'
+- id: GS-14
+  name: TDEM station GS-14 (Shfelat Lod 24)
+  coords:
+    x: 141040
+    y: 163740
+    crs: EPSG:28193
+    source: table
+    accuracy_m: 10
+  notes: 'Target in the report: Shfelat Lod 24; Soil'
+- id: GS-15
+  name: TDEM station GS-15 (Kfar Sirkin)
+  coords:
+    x: 141200
+    y: 165450
+    crs: EPSG:28193
+    source: table
+    accuracy_m: 10
+  notes: 'Target in the report: Kfar Sirkin'
+- id: GS-19
+  name: TDEM station GS-19 (N. Givat Hashlosha - Rosh Ha'ain 4)
+  coords:
+    x: 142450
+    y: 167500
+    crs: EPSG:28193
+    source: table
+    accuracy_m: 10
+  notes: 'Target in the report: N. Givat Hashlosha - Rosh Ha''ain 4; Soil and clay. Turonian limestone 23m.'
+- id: GS-20
+  name: TDEM station GS-20 (Kfar Baptistim 35/6)
+  coords:
+    x: 141420
+    y: 169620
+    crs: EPSG:28193
+    source: table
+    accuracy_m: 10
+  notes: 'Target in the report: Kfar Baptistim 35/6; Soil'
+- id: GS-21
+  name: TDEM station GS-21 (Adanim 36/6 - Magdiel Shanti)
+  coords:
+    x: 142550
+    y: 171950
+    crs: EPSG:28193
+    source: table
+    accuracy_m: 10
+  notes: 'Target in the report: Adanim 36/6 - Magdiel Shanti; Soil. Calcareous sandstone 43m. Chalky lmst. 100m.
+    Dolomite 140m.'
+- id: GS-23
+  name: TDEM station GS-23 (Kfar Saba 37/5)
+  coords:
+    x: 140430
+    y: 177800
+    crs: EPSG:28193
+    source: table
+    accuracy_m: 10
+  notes: 'Target in the report: Kfar Saba 37/5; Clay. Sandstone 28m.'
+- id: GS-24
+  name: TDEM station GS-24 (Raanana; Sharon D/9)
+  coords:
+    x: 138710
+    y: 175580
+    crs: EPSG:28193
+    source: table
+    accuracy_m: 10
+  notes: 'Target in the report: Raanana; Sharon D/9; Soil. Clay; 118 meters'
+- id: GS-25
+  name: TDEM station GS-25 (Givat Hen)
+  coords:
+    x: 138450
+    y: 174960
+    crs: EPSG:28193
+    source: table
+    accuracy_m: 10
+  notes: 'Target in the report: Givat Hen; Soil. Calcareous sandstone 113m.'
+- id: GS-26
+  name: TDEM station GS-26 (Raanana; Sharon D/8a)
+  coords:
+    x: 136880
+    y: 175880
+    crs: EPSG:28193
+    source: table
+    accuracy_m: 10
+  notes: 'Target in the report: Raanana; Sharon D/8a; Sand and clay. Clay 142 meters'
+- id: GS-27
+  name: TDEM station GS-27 (Kfar Batya; B/15 - Sharon D/30)
+  coords:
+    x: 135570
+    y: 177000
+    crs: EPSG:28193
+    source: table
+    accuracy_m: 10
+  notes: 'Target in the report: Kfar Batya; B/15 - Sharon D/30; Soil. Clay 141m'
+- id: GS-28
+  name: TDEM station GS-28 (Raanana; Sharon D/31)
+  coords:
+    x: 137010
+    y: 178260
+    crs: EPSG:28193
+    source: table
+    accuracy_m: 10
+  notes: 'Target in the report: Raanana; Sharon D/31; Loam 46m; Clay 150m'
+- id: GS-29
+  name: TDEM station GS-29 (Herzeliya airport)
+  coords:
+    x: 134700
+    y: 177300
+    crs: EPSG:28193
+    source: table
+    accuracy_m: 10
+  notes: 'Target in the report: Herzeliya airport'
+- id: GS-30
+  name: TDEM station GS-30 (Kfar Shmaryahu 37/1)
+  coords:
+    x: 134000
+    y: 177400
+    crs: EPSG:28193
+    source: table
+    accuracy_m: 10
+  notes: 'Target in the report: Kfar Shmaryahu 37/1; Clay. Kurkar 13m. Clay 110m.'
+- id: GS-31
+  name: TDEM station GS-31 (Tul Karem intersect.)
+  coords:
+    x: 151700
+    y: 190600
+    crs: EPSG:28193
+    source: table
+    accuracy_m: 10
+  notes: 'Target in the report: Tul Karem intersect.; Soil. WT 26m. Turonian limestone 66m'
+- id: GS-32
+  name: TDEM station GS-32 (Kh. Burin)
+  coords:
+    x: 148520
+    y: 190750
+    crs: EPSG:28193
+    source: table
+    accuracy_m: 10
+  notes: 'Target in the report: Kh. Burin; Sandy clay. Eocene chalk 20m. Noisy; Well Olesh 47/7'
+- id: GS-33
+  name: TDEM station GS-33 (Nizanei Oz)
+  coords:
+    x: 150000
+    y: 191000
+    crs: EPSG:28193
+    source: table
+    accuracy_m: 10
+  notes: 'Target in the report: Nizanei Oz; Alluvium. Avedat Chalk 25m.'
+- id: GS-34
+  name: TDEM station GS-34 (Mitzpe Ramon)
+  coords:
+    x: 132600
+    y: 5600
+    crs: EPSG:28193
+    source: table
+    accuracy_m: 10
+  notes: 'Target in the report: Mitzpe Ramon; Hazera Fm. Bentonite 112m; Nubian sandstone 143m.'
+- id: GS-35
+  name: TDEM station GS-35 (Mitzpe Ramon)
+  coords:
+    x: 132450
+    y: 4550
+    crs: EPSG:28193
+    source: table
+    accuracy_m: 10
+  notes: 'Target in the report: Mitzpe Ramon; Hazera Fm. Bentonite 100m. Nubian sandstone 130m.'
+- id: GS-36
+  name: TDEM station GS-36 (Nahal Gevanim)
+  coords:
+    x: 141800
+    y: 710
+    crs: EPSG:28193
+    source: table
+    accuracy_m: 10
+  notes: 'Target in the report: Nahal Gevanim; Lmst., Mohila Fm. Qz. Syenite'
+- id: GS-37
+  name: TDEM station GS-37 (M. Ramon, in caldera)
+  coords:
+    x: 145950
+    y: 3800
+    crs: EPSG:28193
+    source: table
+    accuracy_m: 10
+  notes: 'Target in the report: M. Ramon, in caldera; Sandstone. Basalt'
+- id: GS-38
+  name: TDEM station GS-38 (M. Ramon, out calder)
+  coords:
+    x: 146450
+    y: 3800
+    crs: EPSG:28193
+    source: table
+    accuracy_m: 10
+  notes: 'Target in the report: M. Ramon, out calder; Inmar Fm. Basalt'
+- id: GS-40
+  name: TDEM station GS-40 (M. Ramon, Bab sill)
+  coords:
+    x: 130000
+    y: 997160
+    crs: EPSG:28193
+    source: table
+    accuracy_m: 10
+  notes: 'Target in the report: M. Ramon, Bab sill; Gravel. Qz syenite'
+- id: GS-41
+  name: TDEM station GS-41 (Mizpe Ramon cemetary)
+  coords:
+    x: 131300
+    y: 3400
+    crs: EPSG:28193
+    source: table
+    accuracy_m: 10
+  notes: 'Target in the report: Mizpe Ramon cemetary; Hazera Fm. Bentonite 150m; Nubian sandstone 180m.'
+- id: GS-42
+  name: TDEM station GS-42 (Timna; FD/28 - Timna 5)
+  coords:
+    x: 151780
+    y: 911030
+    crs: EPSG:28193
+    source: table
+    accuracy_m: 10
+  notes: 'Target in the report: Timna; FD/28 - Timna 5; Gravel. WT 56m. Mazar Fm.; Nubian sst. 271m (...Nimra Fm.)'
+- id: GS-43
+  name: TDEM station GS-43 (Beer Ora)
+  coords:
+    x: 147600
+    y: 903800
+    crs: EPSG:28193
+    source: table
+    accuracy_m: 10
+  notes: 'Target in the report: Beer Ora; Gerofit Fm. Top Ora 20m. Top Hathira Fm. 250m.'
+- id: GS-44
+  name: TDEM station GS-44 (Timna; IC/3)
+  coords:
+    x: 148500
+    y: 905100
+    crs: EPSG:28193
+    source: table
+    accuracy_m: 10
+  notes: 'Target in the report: Timna; IC/3; Gravel. Mazar Fm.; Avedat 151m; ... Ghareb - 301 m.'
+- id: GS-45
+  name: TDEM station GS-45 (En Evrona - Evrona T/2)
+  coords:
+    x: 141000
+    y: 898550
+    crs: EPSG:28193
+    source: table
+    accuracy_m: 10
+  notes: 'Target in the report: En Evrona - Evrona T/2; Alluvium. Mazar Fm. 189m. (?)'
+- id: GS-48
+  name: TDEM station GS-48 (Hirbet Burgata - Haniel)
+  coords:
+    x: 144800
+    y: 192150
+    crs: EPSG:28193
+    source: table
+    accuracy_m: 10
+  notes: 'Target in the report: Hirbet Burgata - Haniel; Soil. Hamra 57m.'
+- id: GS-49
+  name: TDEM station GS-49 (Natanya, Ganot Hadar - Sharon Dromi 14,15)
+  coords:
+    x: 139900
+    y: 192100
+    crs: EPSG:28193
+    source: table
+    accuracy_m: 10
+  notes: 'Target in the report: Natanya, Ganot Hadar - Sharon Dromi 14,15; Clay 142m.'
+- id: GS-50
+  name: TDEM station GS-50 (Kfar Yona cemetary)
+  coords:
+    x: 142900
+    y: 192600
+    crs: EPSG:28193
+    source: table
+    accuracy_m: 10
+  notes: 'Target in the report: Kfar Yona cemetary; Clay 109m.'
+- id: GS-51
+  name: TDEM station GS-51 (N. Paran, W. of road)
+  coords:
+    x: 145170
+    y: 970640
+    crs: EPSG:28193
+    source: table
+    accuracy_m: 10
+  notes: 'Target in the report: N. Paran, W. of road; Hazeva Fm.'
+- id: GS-52
+  name: TDEM station GS-52 (N. Paran, E. of road)
+  coords:
+    x: 147050
+    y: 971460
+    crs: EPSG:28193
+    source: table
+    accuracy_m: 10
+  notes: 'Target in the report: N. Paran, E. of road; Hazeva Fm.'
+- id: GS-53
+  name: TDEM station GS-53 (Timna; T/7A)
+  coords:
+    x: 150130
+    y: 905170
+    crs: EPSG:28193
+    source: table
+    accuracy_m: 10
+  notes: 'Target in the report: Timna; T/7A; Gravel. WT 67m.'
+- id: GS-54
+  name: TDEM station GS-54 (S. Arava; Dekel Dom)
+  coords:
+    x: 150200
+    y: 895500
+    crs: EPSG:28193
+    source: table
+    accuracy_m: 10
+  notes: 'Target in the report: S. Arava; Dekel Dom; Distorted'
+- id: GS-55
+  name: TDEM station GS-55 (Timna; T/3A)
+  coords:
+    x: 151050
+    y: 905750
+    crs: EPSG:28193
+    source: table
+    accuracy_m: 10
+  notes: 'Target in the report: Timna; T/3A; WT 51.4m.'
+- id: GS-56
+  name: TDEM station GS-56 (Timna; T/4)
+  coords:
+    x: 151100
+    y: 906900
+    crs: EPSG:28193
+    source: table
+    accuracy_m: 10
+  notes: 'Target in the report: Timna; T/4; WT 55.5'
+- id: GS-57
+  name: TDEM station GS-57 (Timna; T/1B)
+  coords:
+    x: 151500
+    y: 908000
+    crs: EPSG:28193
+    source: table
+    accuracy_m: 10
+  notes: 'Target in the report: Timna; T/1B; WT 44 - 59m.'
+- id: GS-58
+  name: TDEM station GS-58 (Timna; T/5A)
+  coords:
+    x: 151710
+    y: 911620
+    crs: EPSG:28193
+    source: table
+    accuracy_m: 10
+  notes: 'Target in the report: Timna; T/5A; WT 56m.'
+- id: GS-59
+  name: TDEM station GS-59 (Yotvata Shoot. Range)
+  coords:
+    x: 154300
+    y: 924000
+    crs: EPSG:28193
+    source: table
+    accuracy_m: 10
+  notes: 'Target in the report: Yotvata Shoot. Range; Hazera Fm. Nubian sst. 125m; marl 65m... clay 195m.'
+- id: GS-60
+  name: TDEM station GS-60 (Yotvata 10)
+  coords:
+    x: 156100
+    y: 926500
+    crs: EPSG:28193
+    source: table
+    accuracy_m: 10
+  notes: 'Target in the report: Yotvata 10; Distorted'
+- id: GS-61
+  name: TDEM station GS-61 (Zukim)
+  coords:
+    x: 165200
+    y: 987000
+    crs: EPSG:28193
+    source: table
+    accuracy_m: 10
+  notes: 'Target in the report: Zukim; Hazeva Fm. Distorted'
+- id: GS-62
+  name: TDEM station GS-62 (Mitzpe Ramon)
+  coords:
+    x: 131300
+    y: 4400
+    crs: EPSG:28193
+    source: table
+    accuracy_m: 10
+  notes: 'Target in the report: Mitzpe Ramon; Hazera Fm. Bentonite 165m; Nubian sandstone 195m.'
+- id: GS-63
+  name: TDEM station GS-63 (Mitzpe Ramon)
+  coords:
+    x: 131400
+    y: 5400
+    crs: EPSG:28193
+    source: table
+    accuracy_m: 10
+  notes: 'Target in the report: Mitzpe Ramon; Hazera Fm. Bentonite 180m; Nubian sandstone 210m.'
+- id: GS-64
+  name: TDEM station GS-64 (M. Ramon; 10A)
+  coords:
+    x: 138000
+    y: 999500
+    crs: EPSG:28193
+    source: table
+    accuracy_m: 10
+  notes: 'Target in the report: M. Ramon; 10A; Gevanim Fm. Qz syenite. Very distorted'
+- id: GS-65
+  name: TDEM station GS-65 (M. Ramon; 7A)
+  coords:
+    x: 137400
+    y: 999050
+    crs: EPSG:28193
+    source: table
+    accuracy_m: 10
+  notes: 'Target in the report: M. Ramon; 7A; Gevanim Fm. Qz syenite'
+- id: GS-66
+  name: TDEM station GS-66 (M. Ramon; 6)
+  coords:
+    x: 137250
+    y: 998800
+    crs: EPSG:28193
+    source: table
+    accuracy_m: 10
+  notes: 'Target in the report: M. Ramon; 6; Saharonim Fm. Qz Syenite. Distorted'

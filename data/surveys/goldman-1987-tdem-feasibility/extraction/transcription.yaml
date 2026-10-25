@@ -1,0 +1,876 @@
+# Goldman 1987/88 IPRG X5/1715/87: per-figure layered models, read at 150 dpi and every value re-checked on 300 dpi crops
+# (the printout uses a slashed zero, so 0 and 8 were checked one by one). See notes in survey.yaml.
+document: main
+unit: ohm.m
+method: TEM
+prefix: goldman1987
+measured_on: '1987'
+confidence: A
+crs: EPSG:28193
+site_word: TDEM station
+prov_notes: Read from the 'estimated parameter values' table printed on each figure (rho in ohm-m, h = layer thickness in
+  m); depths are cumulative thicknesses.
+notes: Central-loop TDEM (Geonics EM-37), 1-D inversion by the author. Last layer is the half-space.
+sites:
+- id: M1
+  xy:
+  - 136048
+  - 998330
+  page: 44
+  figure: Figure 16
+  box:
+  - 0.623
+  - 0.48
+  - 0.863
+  - 0.743
+  coord_source: map
+  accuracy_m: 100
+  site_notes: Coordinates from Figure 15 location map (page 42), read off the 1 km grid.
+  layers:
+  - - 0.0
+    - 20.2
+    - 93.5
+    - null
+    - thick: 20.2
+  - - 20.2
+    - 165.7
+    - 15.3
+    - null
+    - thick: 145.5
+  - - 165.7
+    - null
+    - 159.2
+  prov_notes: 'Plot label: X5M1 (GEONICS CORR.).'
+- id: M3
+  xy:
+  - 137026
+  - 998368
+  page: 46
+  figure: Figure 18
+  box:
+  - 0.651
+  - 0.535
+  - 0.892
+  - 0.804
+  coord_source: map
+  accuracy_m: 100
+  site_notes: Coordinates from Figure 15 location map (page 42), read off the 1 km grid.
+  layers:
+  - - 0.0
+    - 98.1
+    - 30.3
+    - null
+    - thick: 98.1
+  - - 98.1
+    - 193.8
+    - 24.6
+    - null
+    - thick: 95.7
+  - - 193.8
+    - null
+    - 198.7
+  prov_notes: 'Plot label: X5M3 (GEONICS CORR.).'
+- id: M4
+  xy:
+  - 136678
+  - 998276
+  page: 47
+  figure: Figure 19
+  box:
+  - 0.618
+  - 0.51
+  - 0.858
+  - 0.774
+  coord_source: map
+  accuracy_m: 100
+  site_notes: Coordinates from Figure 15 location map (page 42), read off the 1 km grid.
+  layers:
+  - - 0.0
+    - 31.15
+    - 26.82
+    - null
+    - thick: 31.15
+  - - 31.15
+    - 199.05
+    - 20.94
+    - null
+    - thick: 167.9
+  - - 199.05
+    - null
+    - 205.8
+  prov_notes: 'Plot label: X5M4 (RAMP INVERSION).'
+- id: M5
+  xy:
+  - 137002
+  - 998587
+  page: 48
+  figure: Figure 20
+  box:
+  - 0.629
+  - 0.507
+  - 0.87
+  - 0.773
+  coord_source: map
+  accuracy_m: 100
+  site_notes: Coordinates from Figure 15 location map (page 42), read off the 1 km grid.
+  layers:
+  - - 0.0
+    - 25.2
+    - 20.1
+    - null
+    - thick: 25.2
+  - - 25.2
+    - 79.6
+    - 9.2
+    - null
+    - thick: 54.4
+  - - 79.6
+    - null
+    - 146.1
+  prov_notes: 'Plot label: X5M5 (GEONICS CORR.).'
+- id: M6
+  xy:
+  - 137264
+  - 998792
+  page: 49
+  figure: Figure 21
+  box:
+  - 0.618
+  - 0.56
+  - 0.858
+  - 0.826
+  coord_source: map
+  accuracy_m: 100
+  site_notes: Coordinates from Figure 15 location map (page 42), read off the 1 km grid.
+  layers:
+  - - 0.0
+    - 11.1
+    - 38.84
+    - null
+    - thick: 11.1
+  - - 11.1
+    - 64.61
+    - 8.905
+    - null
+    - thick: 53.51
+  - - 64.61
+    - null
+    - 301.1
+  prov_notes: 'Plot label: X5M6 (RAMP INVERSION).'
+- id: M7
+  xy:
+  - 137369
+  - 998998
+  page: 50
+  figure: Figure 22
+  box:
+  - 0.617
+  - 0.487
+  - 0.857
+  - 0.753
+  coord_source: map
+  accuracy_m: 100
+  site_notes: Coordinates from Figure 15 location map (page 42), read off the 1 km grid.
+  layers:
+  - - 0.0
+    - 61.78
+    - 13.38
+    - null
+    - thick: 61.78
+  - - 61.78
+    - 368.78
+    - 159.7
+    - null
+    - thick: 307
+  - - 368.78
+    - null
+    - 3.52
+  prov_notes: 'Plot label: X5M7 (GEONICS CORR.).'
+- id: M11
+  xy:
+  - 137945
+  - 999462
+  page: 54
+  figure: Figure 26
+  box:
+  - 0.652
+  - 0.523
+  - 0.891
+  - 0.778
+  coord_source: map
+  accuracy_m: 100
+  site_notes: Coordinates from Figure 15 location map (page 42), read off the 1 km grid.
+  layers:
+  - - 0.0
+    - 22.8
+    - 12.8
+    - null
+    - thick: 22.8
+  - - 22.8
+    - 41.4
+    - 5.8
+    - null
+    - thick: 18.6
+  - - 41.4
+    - null
+    - 285.7
+  prov_notes: 'Plot label: X5M11 (GEONICS CORR.).'
+- id: M12
+  xy:
+  - 137525
+  - 999708
+  page: 55
+  figure: Figure 27
+  box:
+  - 0.619
+  - 0.557
+  - 0.858
+  - 0.823
+  coord_source: map
+  accuracy_m: 100
+  site_notes: Coordinates from Figure 15 location map (page 42), read off the 1 km grid.
+  layers:
+  - - 0.0
+    - 22.37
+    - 18.56
+    - null
+    - thick: 22.37
+  - - 22.37
+    - 28.1
+    - 1.077
+    - null
+    - thick: 5.73
+  - - 28.1
+    - null
+    - 82.87
+  prov_notes: 'Plot label: X5M12 (RAMP INVERSION).'
+- id: M13
+  xy:
+  - 138660
+  - 999908
+  page: 56
+  figure: Figure 28
+  box:
+  - 0.65
+  - 0.568
+  - 0.88
+  - 0.871
+  coord_source: map
+  accuracy_m: 100
+  site_notes: Coordinates from Figure 15 location map (page 42), read off the 1 km grid.
+  layers:
+  - - 0.0
+    - 7.3
+    - 21.7
+    - null
+    - thick: 7.3
+  - - 7.3
+    - 36.5
+    - 3.9
+    - null
+    - thick: 29.2
+  - - 36.5
+    - null
+    - 248.1
+  prov_notes: 'Plot label: X5M13 (GEONICS CORR.).'
+  notes: Model printed as a layer sketch (rho1, h1, ...) instead of a table.
+- id: M15
+  xy:
+  - 136692
+  - 999009
+  page: 58
+  figure: Figure 30
+  box:
+  - 0.623
+  - 0.497
+  - 0.861
+  - 0.755
+  coord_source: map
+  accuracy_m: 100
+  site_notes: Coordinates from Figure 15 location map (page 42), read off the 1 km grid.
+  layers:
+  - - 0.0
+    - 18.4
+    - 34.3
+    - null
+    - thick: 18.4
+  - - 18.4
+    - 60.7
+    - 6.5
+    - null
+    - thick: 42.3
+  - - 60.7
+    - null
+    - 99.8
+  prov_notes: 'Plot label: X5M15 (GEONICS CORR.).'
+- id: Z14
+  xy:
+  - 145000
+  - 1003300
+  page: 63
+  figure: Figure 58
+  box:
+  - 0.64
+  - 0.523
+  - 0.878
+  - 0.778
+  coord_source: map
+  accuracy_m: 1000
+  site_notes: Coordinates from inset of Figure 57 (page 62); hatched area of the Red Valley.
+  layers:
+  - - 0.0
+    - 33.36
+    - 14.99
+    - null
+    - thick: 33.36
+  - - 33.36
+    - 99.6
+    - 5.33
+    - null
+    - thick: 66.24
+  - - 99.6
+    - null
+    - 498
+  prov_notes: 'Plot label: X5Z14 (RAMP INVERSION).'
+- id: RG1
+  xy:
+  - 205900
+  - 260600
+  page: 72
+  figure: Figure 34
+  box:
+  - 0.652
+  - 0.547
+  - 0.892
+  - 0.806
+  coord_source: table
+  accuracy_m: 100
+  site_notes: Coordinates from Table 1 (page 69), printed in units of 100 m.
+  layers:
+  - - 0.0
+    - 19.55
+    - 11.58
+    - null
+    - thick: 19.55
+  - - 19.55
+    - 172.55
+    - 240.6
+    - null
+    - thick: 153
+  - - 172.55
+    - 264.09
+    - 11.76
+    - null
+    - thick: 91.54
+  - - 264.09
+    - null
+    - 431.8
+  prov_notes: 'Plot label: X5RG1 (RAMP INVERSION).'
+  notes: Table 1 lists breaks at 19, 173 and 267 m; the model's interfaces are at 19.6, 172.6 and 264.1 m.
+- id: RG2
+  xy:
+  - 205800
+  - 265000
+  page: 73
+  figure: Figure 35
+  box:
+  - 0.647
+  - 0.523
+  - 0.885
+  - 0.777
+  coord_source: table
+  accuracy_m: 100
+  site_notes: Coordinates from Table 1 (page 69), printed in units of 100 m.
+  layers:
+  - - 0.0
+    - 81.85
+    - 21.97
+    - null
+    - thick: 81.85
+  - - 81.85
+    - 196.95
+    - 78.73
+    - null
+    - thick: 115.1
+  - - 196.95
+    - 232.76
+    - 5.844
+    - null
+    - thick: 35.81
+  - - 232.76
+    - null
+    - 700.5
+  prov_notes: 'Plot label: X5RG2 (RAMP INVERSION).'
+- id: RG3
+  xy:
+  - 204200
+  - 263000
+  page: 74
+  figure: Figure 36
+  box:
+  - 0.663
+  - 0.495
+  - 0.903
+  - 0.753
+  coord_source: table
+  accuracy_m: 100
+  site_notes: Coordinates from Table 1 (page 69), printed in units of 100 m.
+  layers:
+  - - 0.0
+    - 18.21
+    - 7.15
+    - null
+    - thick: 18.21
+  - - 18.21
+    - 68.9
+    - 95.03
+    - null
+    - thick: 50.69
+  - - 68.9
+    - 155.0
+    - 15.67
+    - null
+    - thick: 86.1
+  - - 155.0
+    - 378.4
+    - 126.9
+    - null
+    - thick: 223.4
+  - - 378.4
+    - null
+    - 3.45
+  prov_notes: 'Plot label: X5RG3 (REAL DATA).'
+- id: RG4
+  xy:
+  - 214000
+  - 266000
+  page: 75
+  figure: Figure 37
+  box:
+  - 0.651
+  - 0.495
+  - 0.89
+  - 0.754
+  coord_source: table
+  accuracy_m: 100
+  site_notes: Coordinates from Table 1 (page 69), printed in units of 100 m.
+  layers:
+  - - 0.0
+    - 174.8
+    - 35.7
+    - null
+    - thick: 174.8
+  - - 174.8
+    - 334.1
+    - 61.39
+    - null
+    - thick: 159.3
+  - - 334.1
+    - null
+    - 4.28
+  prov_notes: 'Plot label: X5RG4 (REAL DATA).'
+- id: RG5
+  xy:
+  - 209300
+  - 264000
+  page: 76
+  figure: Figure 38
+  box:
+  - 0.664
+  - 0.478
+  - 0.902
+  - 0.735
+  coord_source: table
+  accuracy_m: 100
+  site_notes: Coordinates from Table 1 (page 69), printed in units of 100 m.
+  layers:
+  - - 0.0
+    - 31.0
+    - 16.7
+    - null
+    - thick: 31
+  - - 31.0
+    - 214.0
+    - 12.5
+    - null
+    - thick: 183
+  - - 214.0
+    - null
+    - 5.5
+  prov_notes: 'Plot label: X5RG5 (REAL DATA).'
+- id: RG6
+  xy:
+  - 211300
+  - 264500
+  page: 77
+  figure: Figure 39
+  box:
+  - 0.571
+  - 0.477
+  - 0.81
+  - 0.734
+  coord_source: table
+  accuracy_m: 100
+  site_notes: Coordinates from Table 1 (page 69), printed in units of 100 m.
+  layers:
+  - - 0.0
+    - 221.6
+    - 46.6
+    - null
+    - thick: 221.6
+  - - 221.6
+    - 393.2
+    - 31.67
+    - null
+    - thick: 171.6
+  - - 393.2
+    - null
+    - 3
+  prov_notes: 'Plot label: X5RG6 (RAMP INVERSION).'
+- id: RG7
+  xy:
+  - 207500
+  - 264500
+  page: 78
+  figure: Figure 40
+  box:
+  - 0.566
+  - 0.543
+  - 0.805
+  - 0.808
+  coord_source: table
+  accuracy_m: 100
+  site_notes: Coordinates from Table 1 (page 69), printed in units of 100 m.
+  layers:
+  - - 0.0
+    - 106.8
+    - 14.12
+    - null
+    - thick: 106.8
+  - - 106.8
+    - 326.5
+    - 102.2
+    - null
+    - thick: 219.7
+  - - 326.5
+    - null
+    - 6.797
+  prov_notes: 'Plot label: X5RG7 (RAMP INVERSION).'
+- id: RG8
+  xy:
+  - 228700
+  - 270000
+  page: 79
+  figure: Figure 41
+  box:
+  - 0.616
+  - 0.533
+  - 0.857
+  - 0.804
+  coord_source: table
+  accuracy_m: 100
+  site_notes: Coordinates from Table 1 (page 69), printed in units of 100 m.
+  layers:
+  - - 0.0
+    - 37.81
+    - 26.12
+    - null
+    - thick: 37.81
+  - - 37.81
+    - 108.07
+    - 38.73
+    - null
+    - thick: 70.26
+  - - 108.07
+    - 148.07
+    - 7
+    - null
+    - thick: 40
+  - - 148.07
+    - 274.17
+    - 312.7
+    - null
+    - thick: 126.1
+  - - 274.17
+    - null
+    - 0.8
+  prov_notes: 'Plot label: X5RG8 (REAL DATA).'
+  notes: Table 1 lists breaks at 108, 154 and 280 m; the model's interfaces are at 37.8, 108.1, 148.1 and 274.2 m. The author
+    calls the 280 m break questionable.
+- id: RG9
+  xy:
+  - 228700
+  - 271000
+  page: 80
+  figure: Figure 42
+  box:
+  - 0.653
+  - 0.534
+  - 0.893
+  - 0.8
+  coord_source: table
+  accuracy_m: 100
+  site_notes: Coordinates from Table 1 (page 69), printed in units of 100 m.
+  layers:
+  - - 0.0
+    - 85.77
+    - 36.12
+    - null
+    - thick: 85.77
+  - - 85.77
+    - 186.67
+    - 76.24
+    - null
+    - thick: 100.9
+  - - 186.67
+    - null
+    - 6.46
+  prov_notes: 'Plot label: X5RG9 (REAL DATA).'
+- id: RG10
+  xy:
+  - 213000
+  - 265400
+  page: 81
+  figure: Figure 43
+  box:
+  - 0.607
+  - 0.494
+  - 0.846
+  - 0.768
+  coord_source: table
+  accuracy_m: 100
+  site_notes: Coordinates from Table 1 (page 69), printed in units of 100 m.
+  layers:
+  - - 0.0
+    - 70.76
+    - 43.73
+    - null
+    - thick: 70.76
+  - - 70.76
+    - 172.96
+    - 29.61
+    - null
+    - thick: 102.2
+  - - 172.96
+    - 213.12
+    - 36.71
+    - null
+    - thick: 40.16
+  - - 213.12
+    - 366.92
+    - 202.2
+    - null
+    - thick: 153.8
+  - - 366.92
+    - null
+    - 3.62
+  prov_notes: 'Plot label: X5RG10 (RAMP INVERSION).'
+- id: K1
+  xy:
+  - 148300
+  - 235500
+  page: 92
+  figure: Figure 48
+  box:
+  - 0.619
+  - 0.553
+  - 0.857
+  - 0.816
+  coord_source: table
+  accuracy_m: 100
+  site_notes: Coordinates from text of section 5.2 (pages 84-86), printed in units of 100 m.
+  layers:
+  - - 0.0
+    - 29.15
+    - 22.07
+    - null
+    - thick: 29.15
+  - - 29.15
+    - 109.82
+    - 7.672
+    - null
+    - thick: 80.67
+  - - 109.82
+    - 229.52
+    - 149.4
+    - null
+    - thick: 119.7
+  - - 229.52
+    - null
+    - 0.6274
+  prov_notes: 'Plot label: X5K1 (RAMP INVERSION).'
+- id: K2
+  xy:
+  - 146700
+  - 230600
+  page: 93
+  figure: Figure 49
+  box:
+  - 0.642
+  - 0.54
+  - 0.882
+  - 0.807
+  coord_source: table
+  accuracy_m: 100
+  site_notes: Coordinates from text of section 5.2 (pages 84-86), printed in units of 100 m.
+  layers:
+  - - 0.0
+    - 55.68
+    - 14.18
+    - null
+    - thick: 55.68
+  - - 55.68
+    - 110.82
+    - 6.302
+    - null
+    - thick: 55.14
+  - - 110.82
+    - null
+    - 0.8879
+  prov_notes: 'Plot label: X5K2 (RAMP INVERSION).'
+- id: K3
+  xy:
+  - 156300
+  - 239600
+  page: 94
+  figure: Figure 50
+  box:
+  - 0.638
+  - 0.529
+  - 0.878
+  - 0.795
+  coord_source: table
+  accuracy_m: 100
+  site_notes: Coordinates from text of section 5.2 (pages 84-86), printed in units of 100 m.
+  layers:
+  - - 0.0
+    - 99.7
+    - 24.6
+    - null
+    - thick: 99.7
+  - - 99.7
+    - null
+    - 3.9
+  prov_notes: 'Plot label: X5K3 (REAL DATA).'
+  notes: Two-layer model; the sounding did not reach the expected seawater interface at about 200 m (text, page 91).
+- id: N1
+  xy:
+  - 112650
+  - 128400
+  page: 101
+  figure: Figure 53
+  box:
+  - 0.622
+  - 0.506
+  - 0.862
+  - 0.785
+  coord_source: table
+  accuracy_m: 50
+  site_notes: Coordinates from Table 2 (page 98), printed in units of 10 m.
+  layers:
+  - - 0.0
+    - 55.22
+    - 41.88
+    - null
+    - thick: 55.22
+  - - 55.22
+    - 103.76
+    - 1.528
+    - null
+    - thick: 48.54
+  - - 103.76
+    - null
+    - 6.792
+  prov_notes: 'Plot label: X5N1 (RAMP INVERSION).'
+  elev: 4
+  notes: Sounding N1 and N2 are at the same site (100 x 100 m and 50 x 50 m loops); only the N1 model is printed.
+- id: N3
+  xy:
+  - 112490
+  - 128490
+  page: 102
+  figure: Figure 54
+  box:
+  - 0.619
+  - 0.5
+  - 0.859
+  - 0.778
+  coord_source: table
+  accuracy_m: 50
+  site_notes: Coordinates from Table 2 (page 98), printed in units of 10 m.
+  layers:
+  - - 0.0
+    - 36.53
+    - 18.27
+    - null
+    - thick: 36.53
+  - - 36.53
+    - 93.72
+    - 1.73
+    - null
+    - thick: 57.19
+  - - 93.72
+    - null
+    - 5.475
+  prov_notes: 'Plot label: X5N3 (RAMP INVERSION).'
+  elev: 1
+- id: N4
+  xy:
+  - 112660
+  - 128020
+  page: 103
+  figure: Figure 55
+  box:
+  - 0.615
+  - 0.503
+  - 0.854
+  - 0.779
+  coord_source: table
+  accuracy_m: 50
+  site_notes: Coordinates from Table 2 (page 98), printed in units of 10 m.
+  layers:
+  - - 0.0
+    - 70.09
+    - 36.1
+    - null
+    - thick: 70.09
+  - - 70.09
+    - 126.71
+    - 1.778
+    - null
+    - thick: 56.62
+  - - 126.71
+    - null
+    - 3.545
+  prov_notes: 'Plot label: X5N4 (RAMP INVERSION).'
+  elev: 4
+- id: N5
+  xy:
+  - 112880
+  - 128080
+  page: 104
+  figure: Figure 56
+  box:
+  - 0.654
+  - 0.514
+  - 0.895
+  - 0.796
+  coord_source: table
+  accuracy_m: 50
+  site_notes: Coordinates from Table 2 (page 98), printed in units of 10 m.
+  layers:
+  - - 0.0
+    - 88.74
+    - 49.89
+    - null
+    - thick: 88.74
+  - - 88.74
+    - 117.11
+    - 1.38
+    - null
+    - thick: 28.37
+  - - 117.11
+    - null
+    - 3.625
+  prov_notes: 'Plot label: X5N5 (RAMP INVERSION).'
+  elev: 10

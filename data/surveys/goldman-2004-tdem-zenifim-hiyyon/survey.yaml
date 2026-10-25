@@ -1,0 +1,60 @@
+id: goldman-2004-tdem-zenifim-hiyyon
+name: TDEM measurements in the Zenifim-Hiyyon area
+organisation: Geophysical Institute of Israel (GII) and Geological Survey of Israel (GSI)
+authors:
+- M. Goldman
+- Y. Bartov
+report_number: 2004-61 (number on the cover)
+year: 2004
+acquired: null
+methods:
+- TEM
+region: Southern Negev, Har Zenifim and the Hiyyon and Shizafon plains
+purpose: Resistivity of the Precambrian basement, calibrated at the Sinaf 1 well
+geometry: scattered
+depth_reach: about 1-1.1 km (top of the deepest layer)
+documents:
+- id: main
+  title: TDEM measurements in the Zenifim-Hiyyon areas (in Hebrew)
+  filename: Goldman-Bartov-TDEM-Measurements-in-the-Tzenifim-Khiun-Area-May-2004.pdf
+  drive_id: 1Ux4K0GVY-1qhNZoTJyQq7GHVRtM8a3Nn
+  language:
+  - he
+  scanned: true
+  role: main_report
+  sha256: 52ce1fc2e27a00d958ba1c6ffca0cabed467d8e082ed78b1faff166ae3f25fde
+  pages: 5
+notes: Three deep soundings with a Cycle-5M (SHOTEM) system and a 600 x 600 m transmitter loop. Table 1 (pages 3-4)
+  gives each layered model. The figures listed in the report (location map, well logs) are not in this 5-page copy.
+  The measurement date is not given (report dated May 2004).
+extraction_status: complete
+sites:
+- id: ZN-1
+  name: TDEM station ZN-1
+  coords:
+    x: 185339
+    y: 450724
+    crs: EPSG:2039
+    source: table
+    accuracy_m: 50
+  elevation_m: 511
+  notes: On the western slope of Har Zenifim, near the Sinaf 1 well (the loop could not be laid at the well).
+- id: ZN-2
+  name: TDEM station ZN-2
+  coords:
+    x: 195039
+    y: 444242
+    crs: EPSG:2039
+    source: table
+    accuracy_m: 50
+  elevation_m: 373
+  notes: Nahal Hiyyon area
+- id: ZN-3
+  name: TDEM station ZN-3
+  coords:
+    x: 203245
+    y: 450467
+    crs: EPSG:2039
+    source: table
+    accuracy_m: 50
+  notes: Near the Shizafon 1 well

@@ -1,0 +1,31 @@
+id: meidav-1963-qiryat-hayyim
+name: Geoelectric measurements in the Qiryat Hayyim area
+organisation: IPRG
+client: Qiryat Hayyim council water works
+authors:
+- T. Meidav
+report_number: IPRG job 457
+year: 1963
+acquired: '1963'
+methods:
+- VES
+region: Qiryat Hayyim (Haifa bay)
+purpose: Correlate resistivity soundings with wells before siting a new well
+geometry: stations
+depth_reach: 150 m
+documents:
+- id: main
+  title: Report on geoelectric measurements conducted in the Qiryat Hayyim area (15 December 1963)
+  filename: Meidav-T-Report-Geoelectric-Measurements-Conducted-Qiryat Hayyim-Area-IPRG-Rep-1963.pdf
+  drive_id: 16Lgaxyu9-FCxZwQMZk1YPcH2lwmffGtk
+  language:
+  - he
+  scanned: true
+  role: main_report
+  sha256: e479b2bc1e71c43ec36b6c6850728df0d1cd08374c698e84007ddfc13c08871d
+  pages: 12
+notes: Four soundings (457-1 to 457-4) next to wells, each with the author's interpreted section in the text (pages
+  2-4, in ohm.cm, to 110-150 m) and the sounding curves on pages 7-11. Not plotted yet because no coordinates are
+  given; the location map (page 5, 1:10,000) has no grid, and several layers are described only as "very low" or
+  "very high" resistivity.
+extraction_status: registered

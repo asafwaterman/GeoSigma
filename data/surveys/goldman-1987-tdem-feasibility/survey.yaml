@@ -1,0 +1,289 @@
+id: goldman-1987-tdem-feasibility
+name: New applications of the time domain electromagnetic method (TDEM) in Israel, feasibility study
+organisation: Institute for Petroleum Research and Geophysics (IPRG)
+authors:
+- M. Goldman
+report_number: IPRG X5/1715/87
+year: 1988
+acquired: 1987-04/1987-05
+methods:
+- TEM
+region: Southern and eastern Makhtesh Ramon, Ramat Korazim and central Golan, Mount Carmel, Nitzanim coast
+purpose: Feasibility of TDEM for basement, intrusions, basalt/clastic contacts and the freshwater/seawater interface
+geometry: scattered
+depth_reach: about 100-500 m (top of the deepest layer)
+documents:
+- id: main
+  title: New applications of the time domain electromagnetic method (TDEM) in Israel, feasibility study (February
+    1988)
+  filename: Goldman-M-Applications-Time-Domain-Electromatic-Method-TDEM-Israel-IPRG-X5-1715-1987.pdf
+  drive_id: 1hCn4RYWkBPrVUQrBUwzQ3Zs1hS7T3lKo
+  language:
+  - en
+  scanned: true
+  role: main_report
+  sha256: 7f427e3b10f0b5b66b6a963706cccffe919a3a88721b83482bb9e19967b0f575
+  pages: 111
+notes: 40 soundings in April-May 1987. 28 have the author's 1-D layered model printed on the figure ("estimated
+  parameter values"); these are the datasets here. Not included because only the apparent-resistivity curve is printed
+  - Zenifim deep EM-42 soundings (Figs. 10-14) and Ramon stations M2, M8, M9, M10, M14 and M30 (Figs. 17, 23-25,
+  29, 31). Golan model depths agree with the breaks listed in Table 1 (page 69) and Nitzanim models with Table 2
+  (page 98).
+extraction_status: complete
+sites:
+- id: M1
+  name: TDEM station M1
+  coords:
+    x: 136048
+    y: 998330
+    crs: EPSG:28193
+    source: map
+    accuracy_m: 100
+  notes: Coordinates from Figure 15 location map (page 42), read off the 1 km grid.
+- id: M3
+  name: TDEM station M3
+  coords:
+    x: 137026
+    y: 998368
+    crs: EPSG:28193
+    source: map
+    accuracy_m: 100
+  notes: Coordinates from Figure 15 location map (page 42), read off the 1 km grid.
+- id: M4
+  name: TDEM station M4
+  coords:
+    x: 136678
+    y: 998276
+    crs: EPSG:28193
+    source: map
+    accuracy_m: 100
+  notes: Coordinates from Figure 15 location map (page 42), read off the 1 km grid.
+- id: M5
+  name: TDEM station M5
+  coords:
+    x: 137002
+    y: 998587
+    crs: EPSG:28193
+    source: map
+    accuracy_m: 100
+  notes: Coordinates from Figure 15 location map (page 42), read off the 1 km grid.
+- id: M6
+  name: TDEM station M6
+  coords:
+    x: 137264
+    y: 998792
+    crs: EPSG:28193
+    source: map
+    accuracy_m: 100
+  notes: Coordinates from Figure 15 location map (page 42), read off the 1 km grid.
+- id: M7
+  name: TDEM station M7
+  coords:
+    x: 137369
+    y: 998998
+    crs: EPSG:28193
+    source: map
+    accuracy_m: 100
+  notes: Coordinates from Figure 15 location map (page 42), read off the 1 km grid.
+- id: M11
+  name: TDEM station M11
+  coords:
+    x: 137945
+    y: 999462
+    crs: EPSG:28193
+    source: map
+    accuracy_m: 100
+  notes: Coordinates from Figure 15 location map (page 42), read off the 1 km grid.
+- id: M12
+  name: TDEM station M12
+  coords:
+    x: 137525
+    y: 999708
+    crs: EPSG:28193
+    source: map
+    accuracy_m: 100
+  notes: Coordinates from Figure 15 location map (page 42), read off the 1 km grid.
+- id: M13
+  name: TDEM station M13
+  coords:
+    x: 138660
+    y: 999908
+    crs: EPSG:28193
+    source: map
+    accuracy_m: 100
+  notes: Coordinates from Figure 15 location map (page 42), read off the 1 km grid.
+- id: M15
+  name: TDEM station M15
+  coords:
+    x: 136692
+    y: 999009
+    crs: EPSG:28193
+    source: map
+    accuracy_m: 100
+  notes: Coordinates from Figure 15 location map (page 42), read off the 1 km grid.
+- id: Z14
+  name: TDEM station Z14
+  coords:
+    x: 145000
+    y: 1003300
+    crs: EPSG:28193
+    source: map
+    accuracy_m: 1000
+  notes: Coordinates from inset of Figure 57 (page 62); hatched area of the Red Valley.
+- id: RG1
+  name: TDEM station RG1
+  coords:
+    x: 205900
+    y: 260600
+    crs: EPSG:28193
+    source: table
+    accuracy_m: 100
+  notes: Coordinates from Table 1 (page 69), printed in units of 100 m.
+- id: RG2
+  name: TDEM station RG2
+  coords:
+    x: 205800
+    y: 265000
+    crs: EPSG:28193
+    source: table
+    accuracy_m: 100
+  notes: Coordinates from Table 1 (page 69), printed in units of 100 m.
+- id: RG3
+  name: TDEM station RG3
+  coords:
+    x: 204200
+    y: 263000
+    crs: EPSG:28193
+    source: table
+    accuracy_m: 100
+  notes: Coordinates from Table 1 (page 69), printed in units of 100 m.
+- id: RG4
+  name: TDEM station RG4
+  coords:
+    x: 214000
+    y: 266000
+    crs: EPSG:28193
+    source: table
+    accuracy_m: 100
+  notes: Coordinates from Table 1 (page 69), printed in units of 100 m.
+- id: RG5
+  name: TDEM station RG5
+  coords:
+    x: 209300
+    y: 264000
+    crs: EPSG:28193
+    source: table
+    accuracy_m: 100
+  notes: Coordinates from Table 1 (page 69), printed in units of 100 m.
+- id: RG6
+  name: TDEM station RG6
+  coords:
+    x: 211300
+    y: 264500
+    crs: EPSG:28193
+    source: table
+    accuracy_m: 100
+  notes: Coordinates from Table 1 (page 69), printed in units of 100 m.
+- id: RG7
+  name: TDEM station RG7
+  coords:
+    x: 207500
+    y: 264500
+    crs: EPSG:28193
+    source: table
+    accuracy_m: 100
+  notes: Coordinates from Table 1 (page 69), printed in units of 100 m.
+- id: RG8
+  name: TDEM station RG8
+  coords:
+    x: 228700
+    y: 270000
+    crs: EPSG:28193
+    source: table
+    accuracy_m: 100
+  notes: Coordinates from Table 1 (page 69), printed in units of 100 m.
+- id: RG9
+  name: TDEM station RG9
+  coords:
+    x: 228700
+    y: 271000
+    crs: EPSG:28193
+    source: table
+    accuracy_m: 100
+  notes: Coordinates from Table 1 (page 69), printed in units of 100 m.
+- id: RG10
+  name: TDEM station RG10
+  coords:
+    x: 213000
+    y: 265400
+    crs: EPSG:28193
+    source: table
+    accuracy_m: 100
+  notes: Coordinates from Table 1 (page 69), printed in units of 100 m.
+- id: K1
+  name: TDEM station K1
+  coords:
+    x: 148300
+    y: 235500
+    crs: EPSG:28193
+    source: table
+    accuracy_m: 100
+  notes: Coordinates from text of section 5.2 (pages 84-86), printed in units of 100 m.
+- id: K2
+  name: TDEM station K2
+  coords:
+    x: 146700
+    y: 230600
+    crs: EPSG:28193
+    source: table
+    accuracy_m: 100
+  notes: Coordinates from text of section 5.2 (pages 84-86), printed in units of 100 m.
+- id: K3
+  name: TDEM station K3
+  coords:
+    x: 156300
+    y: 239600
+    crs: EPSG:28193
+    source: table
+    accuracy_m: 100
+  notes: Coordinates from text of section 5.2 (pages 84-86), printed in units of 100 m.
+- id: N1
+  name: TDEM station N1
+  coords:
+    x: 112650
+    y: 128400
+    crs: EPSG:28193
+    source: table
+    accuracy_m: 50
+  elevation_m: 4
+  notes: Coordinates from Table 2 (page 98), printed in units of 10 m.
+- id: N3
+  name: TDEM station N3
+  coords:
+    x: 112490
+    y: 128490
+    crs: EPSG:28193
+    source: table
+    accuracy_m: 50
+  elevation_m: 1
+  notes: Coordinates from Table 2 (page 98), printed in units of 10 m.
+- id: N4
+  name: TDEM station N4
+  coords:
+    x: 112660
+    y: 128020
+    crs: EPSG:28193
+    source: table
+    accuracy_m: 50
+  elevation_m: 4
+  notes: Coordinates from Table 2 (page 98), printed in units of 10 m.
+- id: N5
+  name: TDEM station N5
+  coords:
+    x: 112880
+    y: 128080
+    crs: EPSG:28193
+    source: table
+    accuracy_m: 50
+  elevation_m: 10
+  notes: Coordinates from Table 2 (page 98), printed in units of 10 m.

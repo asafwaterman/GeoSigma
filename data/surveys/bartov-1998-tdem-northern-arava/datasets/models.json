@@ -1,0 +1,3301 @@
+[
+ {
+  "id": "bartov1998-GS161-hazeva-top",
+  "survey": "bartov-1998-tdem-northern-arava",
+  "site": "GS161",
+  "method": "TEM",
+  "level": "L3",
+  "representation": "interface_depth",
+  "measured_on": null,
+  "confidence": "A",
+  "status": "draft",
+  "interface_depth_m": 78,
+  "criterion": "top of the low-resistivity layer (author: top of the Hazeva Formation)",
+  "provenance": {
+   "document": "main",
+   "pages": [
+    19
+   ],
+   "method": "manual",
+   "tool": "typed from the page at 200 dpi; geosigma.extract.printed_tables",
+   "extracted_on": "2026-10-24",
+   "notes": "Coordinates and elevations from Table 1 (pages 15-17). Depths are the author's TDEM interpretation. Values printed with '>' (a lower bound only) are not stored.",
+   "table": "Table 2 (TDEM depths next to boreholes)"
+  }
+ },
+ {
+  "id": "bartov1998-GS174-hazeva-top",
+  "survey": "bartov-1998-tdem-northern-arava",
+  "site": "GS174",
+  "method": "TEM",
+  "level": "L3",
+  "representation": "interface_depth",
+  "measured_on": null,
+  "confidence": "A",
+  "status": "draft",
+  "interface_depth_m": 78,
+  "criterion": "top of the low-resistivity layer (author: top of the Hazeva Formation)",
+  "provenance": {
+   "document": "main",
+   "pages": [
+    19
+   ],
+   "method": "manual",
+   "tool": "typed from the page at 200 dpi; geosigma.extract.printed_tables",
+   "extracted_on": "2026-10-24",
+   "notes": "Coordinates and elevations from Table 1 (pages 15-17). Depths are the author's TDEM interpretation. Values printed with '>' (a lower bound only) are not stored.",
+   "table": "Table 2 (TDEM depths next to boreholes)"
+  }
+ },
+ {
+  "id": "bartov1998-GS194-hazeva-top",
+  "survey": "bartov-1998-tdem-northern-arava",
+  "site": "GS194",
+  "method": "TEM",
+  "level": "L3",
+  "representation": "interface_depth",
+  "measured_on": null,
+  "confidence": "A",
+  "status": "draft",
+  "interface_depth_m": 15,
+  "criterion": "top of the low-resistivity layer (author: top of the Hazeva Formation)",
+  "provenance": {
+   "document": "main",
+   "pages": [
+    19
+   ],
+   "method": "manual",
+   "tool": "typed from the page at 200 dpi; geosigma.extract.printed_tables",
+   "extracted_on": "2026-10-24",
+   "notes": "Coordinates and elevations from Table 1 (pages 15-17). Depths are the author's TDEM interpretation. Values printed with '>' (a lower bound only) are not stored.",
+   "table": "Table 2 (TDEM depths next to boreholes)"
+  }
+ },
+ {
+  "id": "bartov1998-GS127-hazeva-top",
+  "survey": "bartov-1998-tdem-northern-arava",
+  "site": "GS127",
+  "method": "TEM",
+  "level": "L3",
+  "representation": "interface_depth",
+  "measured_on": null,
+  "confidence": "A",
+  "status": "draft",
+  "interface_depth_m": 122,
+  "criterion": "top of the low-resistivity layer (author: top of the Hazeva Formation)",
+  "provenance": {
+   "document": "main",
+   "pages": [
+    19
+   ],
+   "method": "manual",
+   "tool": "typed from the page at 200 dpi; geosigma.extract.printed_tables",
+   "extracted_on": "2026-10-24",
+   "notes": "Coordinates and elevations from Table 1 (pages 15-17). Depths are the author's TDEM interpretation. Values printed with '>' (a lower bound only) are not stored.",
+   "table": "Table 2 (TDEM depths next to boreholes)"
+  }
+ },
+ {
+  "id": "bartov1998-GS127-hazeva-base",
+  "survey": "bartov-1998-tdem-northern-arava",
+  "site": "GS127",
+  "method": "TEM",
+  "level": "L3",
+  "representation": "interface_depth",
+  "measured_on": null,
+  "confidence": "C",
+  "status": "draft",
+  "interface_depth_m": 382,
+  "criterion": "top of the high-resistivity layer below the Hazeva (author: base of the Hazeva Formation)",
+  "provenance": {
+   "document": "main",
+   "pages": [
+    19
+   ],
+   "method": "manual",
+   "tool": "typed from the page at 200 dpi; geosigma.extract.printed_tables",
+   "extracted_on": "2026-10-24",
+   "notes": "Coordinates and elevations from Table 1 (pages 15-17). Depths are the author's TDEM interpretation. Values printed with '>' (a lower bound only) are not stored.",
+   "table": "Table 2 (TDEM depths next to boreholes)"
+  },
+  "notes": "The author printed this depth with a question mark."
+ },
+ {
+  "id": "bartov1998-GS127-avdat-base",
+  "survey": "bartov-1998-tdem-northern-arava",
+  "site": "GS127",
+  "method": "TEM",
+  "level": "L3",
+  "representation": "interface_depth",
+  "measured_on": null,
+  "confidence": "A",
+  "status": "draft",
+  "interface_depth_m": 571,
+  "criterion": "top of the low-resistivity layer below the Avedat Group (author: base of the Avedat Group, top of the Taqiye Formation)",
+  "provenance": {
+   "document": "main",
+   "pages": [
+    19
+   ],
+   "method": "manual",
+   "tool": "typed from the page at 200 dpi; geosigma.extract.printed_tables",
+   "extracted_on": "2026-10-24",
+   "notes": "Coordinates and elevations from Table 1 (pages 15-17). Depths are the author's TDEM interpretation. Values printed with '>' (a lower bound only) are not stored.",
+   "table": "Table 2 (TDEM depths next to boreholes)"
+  }
+ },
+ {
+  "id": "bartov1998-GS128-hazeva-top",
+  "survey": "bartov-1998-tdem-northern-arava",
+  "site": "GS128",
+  "method": "TEM",
+  "level": "L3",
+  "representation": "interface_depth",
+  "measured_on": null,
+  "confidence": "A",
+  "status": "draft",
+  "interface_depth_m": 121,
+  "criterion": "top of the low-resistivity layer (author: top of the Hazeva Formation)",
+  "provenance": {
+   "document": "main",
+   "pages": [
+    19
+   ],
+   "method": "manual",
+   "tool": "typed from the page at 200 dpi; geosigma.extract.printed_tables",
+   "extracted_on": "2026-10-24",
+   "notes": "Coordinates and elevations from Table 1 (pages 15-17). Depths are the author's TDEM interpretation. Values printed with '>' (a lower bound only) are not stored.",
+   "table": "Table 2 (TDEM depths next to boreholes)"
+  }
+ },
+ {
+  "id": "bartov1998-GS128-hazeva-base",
+  "survey": "bartov-1998-tdem-northern-arava",
+  "site": "GS128",
+  "method": "TEM",
+  "level": "L3",
+  "representation": "interface_depth",
+  "measured_on": null,
+  "confidence": "C",
+  "status": "draft",
+  "interface_depth_m": 310,
+  "criterion": "top of the high-resistivity layer below the Hazeva (author: base of the Hazeva Formation)",
+  "provenance": {
+   "document": "main",
+   "pages": [
+    19
+   ],
+   "method": "manual",
+   "tool": "typed from the page at 200 dpi; geosigma.extract.printed_tables",
+   "extracted_on": "2026-10-24",
+   "notes": "Coordinates and elevations from Table 1 (pages 15-17). Depths are the author's TDEM interpretation. Values printed with '>' (a lower bound only) are not stored.",
+   "table": "Table 2 (TDEM depths next to boreholes)"
+  },
+  "notes": "The author printed this depth with a question mark."
+ },
+ {
+  "id": "bartov1998-GS112-hazeva-top",
+  "survey": "bartov-1998-tdem-northern-arava",
+  "site": "GS112",
+  "method": "TEM",
+  "level": "L3",
+  "representation": "interface_depth",
+  "measured_on": null,
+  "confidence": "A",
+  "status": "draft",
+  "interface_depth_m": 48,
+  "criterion": "top of the low-resistivity layer (author: top of the Hazeva Formation)",
+  "provenance": {
+   "document": "main",
+   "pages": [
+    19
+   ],
+   "method": "manual",
+   "tool": "typed from the page at 200 dpi; geosigma.extract.printed_tables",
+   "extracted_on": "2026-10-24",
+   "notes": "Coordinates and elevations from Table 1 (pages 15-17). Depths are the author's TDEM interpretation. Values printed with '>' (a lower bound only) are not stored.",
+   "table": "Table 2 (TDEM depths next to boreholes)"
+  }
+ },
+ {
+  "id": "bartov1998-GS195-hazeva-top",
+  "survey": "bartov-1998-tdem-northern-arava",
+  "site": "GS195",
+  "method": "TEM",
+  "level": "L3",
+  "representation": "interface_depth",
+  "measured_on": null,
+  "confidence": "A",
+  "status": "draft",
+  "interface_depth_m": 18,
+  "criterion": "top of the low-resistivity layer (author: top of the Hazeva Formation)",
+  "provenance": {
+   "document": "main",
+   "pages": [
+    19
+   ],
+   "method": "manual",
+   "tool": "typed from the page at 200 dpi; geosigma.extract.printed_tables",
+   "extracted_on": "2026-10-24",
+   "notes": "Coordinates and elevations from Table 1 (pages 15-17). Depths are the author's TDEM interpretation. Values printed with '>' (a lower bound only) are not stored.",
+   "table": "Table 2 (TDEM depths next to boreholes)"
+  }
+ },
+ {
+  "id": "bartov1998-GS196-hazeva-top",
+  "survey": "bartov-1998-tdem-northern-arava",
+  "site": "GS196",
+  "method": "TEM",
+  "level": "L3",
+  "representation": "interface_depth",
+  "measured_on": null,
+  "confidence": "A",
+  "status": "draft",
+  "interface_depth_m": 9,
+  "criterion": "top of the low-resistivity layer (author: top of the Hazeva Formation)",
+  "provenance": {
+   "document": "main",
+   "pages": [
+    19
+   ],
+   "method": "manual",
+   "tool": "typed from the page at 200 dpi; geosigma.extract.printed_tables",
+   "extracted_on": "2026-10-24",
+   "notes": "Coordinates and elevations from Table 1 (pages 15-17). Depths are the author's TDEM interpretation. Values printed with '>' (a lower bound only) are not stored.",
+   "table": "Table 2 (TDEM depths next to boreholes)"
+  }
+ },
+ {
+  "id": "bartov1998-GS191-hazeva-top",
+  "survey": "bartov-1998-tdem-northern-arava",
+  "site": "GS191",
+  "method": "TEM",
+  "level": "L3",
+  "representation": "interface_depth",
+  "measured_on": null,
+  "confidence": "A",
+  "status": "draft",
+  "interface_depth_m": 23,
+  "criterion": "top of the low-resistivity layer (author: top of the Hazeva Formation)",
+  "provenance": {
+   "document": "main",
+   "pages": [
+    19
+   ],
+   "method": "manual",
+   "tool": "typed from the page at 200 dpi; geosigma.extract.printed_tables",
+   "extracted_on": "2026-10-24",
+   "notes": "Coordinates and elevations from Table 1 (pages 15-17). Depths are the author's TDEM interpretation. Values printed with '>' (a lower bound only) are not stored.",
+   "table": "Table 2 (TDEM depths next to boreholes)"
+  }
+ },
+ {
+  "id": "bartov1998-GS113-hazeva-top",
+  "survey": "bartov-1998-tdem-northern-arava",
+  "site": "GS113",
+  "method": "TEM",
+  "level": "L3",
+  "representation": "interface_depth",
+  "measured_on": null,
+  "confidence": "A",
+  "status": "draft",
+  "interface_depth_m": 27,
+  "criterion": "top of the low-resistivity layer (author: top of the Hazeva Formation)",
+  "provenance": {
+   "document": "main",
+   "pages": [
+    19
+   ],
+   "method": "manual",
+   "tool": "typed from the page at 200 dpi; geosigma.extract.printed_tables",
+   "extracted_on": "2026-10-24",
+   "notes": "Coordinates and elevations from Table 1 (pages 15-17). Depths are the author's TDEM interpretation. Values printed with '>' (a lower bound only) are not stored.",
+   "table": "Table 2 (TDEM depths next to boreholes)"
+  }
+ },
+ {
+  "id": "bartov1998-GS113-hazeva-base",
+  "survey": "bartov-1998-tdem-northern-arava",
+  "site": "GS113",
+  "method": "TEM",
+  "level": "L3",
+  "representation": "interface_depth",
+  "measured_on": null,
+  "confidence": "A",
+  "status": "draft",
+  "interface_depth_m": 103,
+  "criterion": "top of the high-resistivity layer below the Hazeva (author: base of the Hazeva Formation)",
+  "provenance": {
+   "document": "main",
+   "pages": [
+    19
+   ],
+   "method": "manual",
+   "tool": "typed from the page at 200 dpi; geosigma.extract.printed_tables",
+   "extracted_on": "2026-10-24",
+   "notes": "Coordinates and elevations from Table 1 (pages 15-17). Depths are the author's TDEM interpretation. Values printed with '>' (a lower bound only) are not stored.",
+   "table": "Table 2 (TDEM depths next to boreholes)"
+  }
+ },
+ {
+  "id": "bartov1998-GS113-avdat-base",
+  "survey": "bartov-1998-tdem-northern-arava",
+  "site": "GS113",
+  "method": "TEM",
+  "level": "L3",
+  "representation": "interface_depth",
+  "measured_on": null,
+  "confidence": "A",
+  "status": "draft",
+  "interface_depth_m": 152,
+  "criterion": "top of the low-resistivity layer below the Avedat Group (author: base of the Avedat Group, top of the Taqiye Formation)",
+  "provenance": {
+   "document": "main",
+   "pages": [
+    19
+   ],
+   "method": "manual",
+   "tool": "typed from the page at 200 dpi; geosigma.extract.printed_tables",
+   "extracted_on": "2026-10-24",
+   "notes": "Coordinates and elevations from Table 1 (pages 15-17). Depths are the author's TDEM interpretation. Values printed with '>' (a lower bound only) are not stored.",
+   "table": "Table 2 (TDEM depths next to boreholes)"
+  }
+ },
+ {
+  "id": "bartov1998-GS113-arav-top",
+  "survey": "bartov-1998-tdem-northern-arava",
+  "site": "GS113",
+  "method": "TEM",
+  "level": "L3",
+  "representation": "interface_depth",
+  "measured_on": null,
+  "confidence": "A",
+  "status": "draft",
+  "interface_depth_m": 207,
+  "criterion": "top of the high-resistivity layer (author: top of the Arav Formation)",
+  "provenance": {
+   "document": "main",
+   "pages": [
+    19
+   ],
+   "method": "manual",
+   "tool": "typed from the page at 200 dpi; geosigma.extract.printed_tables",
+   "extracted_on": "2026-10-24",
+   "notes": "Coordinates and elevations from Table 1 (pages 15-17). Depths are the author's TDEM interpretation. Values printed with '>' (a lower bound only) are not stored.",
+   "table": "Table 2 (TDEM depths next to boreholes)"
+  }
+ },
+ {
+  "id": "bartov1998-GS114-hazeva-top",
+  "survey": "bartov-1998-tdem-northern-arava",
+  "site": "GS114",
+  "method": "TEM",
+  "level": "L3",
+  "representation": "interface_depth",
+  "measured_on": null,
+  "confidence": "A",
+  "status": "draft",
+  "interface_depth_m": 27,
+  "criterion": "top of the low-resistivity layer (author: top of the Hazeva Formation)",
+  "provenance": {
+   "document": "main",
+   "pages": [
+    19
+   ],
+   "method": "manual",
+   "tool": "typed from the page at 200 dpi; geosigma.extract.printed_tables",
+   "extracted_on": "2026-10-24",
+   "notes": "Coordinates and elevations from Table 1 (pages 15-17). Depths are the author's TDEM interpretation. Values printed with '>' (a lower bound only) are not stored.",
+   "table": "Table 2 (TDEM depths next to boreholes)"
+  }
+ },
+ {
+  "id": "bartov1998-GS114-hazeva-base",
+  "survey": "bartov-1998-tdem-northern-arava",
+  "site": "GS114",
+  "method": "TEM",
+  "level": "L3",
+  "representation": "interface_depth",
+  "measured_on": null,
+  "confidence": "A",
+  "status": "draft",
+  "interface_depth_m": 100,
+  "criterion": "top of the high-resistivity layer below the Hazeva (author: base of the Hazeva Formation)",
+  "provenance": {
+   "document": "main",
+   "pages": [
+    19
+   ],
+   "method": "manual",
+   "tool": "typed from the page at 200 dpi; geosigma.extract.printed_tables",
+   "extracted_on": "2026-10-24",
+   "notes": "Coordinates and elevations from Table 1 (pages 15-17). Depths are the author's TDEM interpretation. Values printed with '>' (a lower bound only) are not stored.",
+   "table": "Table 2 (TDEM depths next to boreholes)"
+  }
+ },
+ {
+  "id": "bartov1998-GS114-avdat-base",
+  "survey": "bartov-1998-tdem-northern-arava",
+  "site": "GS114",
+  "method": "TEM",
+  "level": "L3",
+  "representation": "interface_depth",
+  "measured_on": null,
+  "confidence": "A",
+  "status": "draft",
+  "interface_depth_m": 147,
+  "criterion": "top of the low-resistivity layer below the Avedat Group (author: base of the Avedat Group, top of the Taqiye Formation)",
+  "provenance": {
+   "document": "main",
+   "pages": [
+    19
+   ],
+   "method": "manual",
+   "tool": "typed from the page at 200 dpi; geosigma.extract.printed_tables",
+   "extracted_on": "2026-10-24",
+   "notes": "Coordinates and elevations from Table 1 (pages 15-17). Depths are the author's TDEM interpretation. Values printed with '>' (a lower bound only) are not stored.",
+   "table": "Table 2 (TDEM depths next to boreholes)"
+  }
+ },
+ {
+  "id": "bartov1998-GS114-arav-top",
+  "survey": "bartov-1998-tdem-northern-arava",
+  "site": "GS114",
+  "method": "TEM",
+  "level": "L3",
+  "representation": "interface_depth",
+  "measured_on": null,
+  "confidence": "A",
+  "status": "draft",
+  "interface_depth_m": 200,
+  "criterion": "top of the high-resistivity layer (author: top of the Arav Formation)",
+  "provenance": {
+   "document": "main",
+   "pages": [
+    19
+   ],
+   "method": "manual",
+   "tool": "typed from the page at 200 dpi; geosigma.extract.printed_tables",
+   "extracted_on": "2026-10-24",
+   "notes": "Coordinates and elevations from Table 1 (pages 15-17). Depths are the author's TDEM interpretation. Values printed with '>' (a lower bound only) are not stored.",
+   "table": "Table 2 (TDEM depths next to boreholes)"
+  }
+ },
+ {
+  "id": "bartov1998-GS113-GS114-joint-hazeva-top",
+  "survey": "bartov-1998-tdem-northern-arava",
+  "site": "GS113",
+  "method": "TEM",
+  "level": "L3",
+  "representation": "interface_depth",
+  "measured_on": null,
+  "confidence": "A",
+  "status": "draft",
+  "interface_depth_m": 27,
+  "criterion": "top of the low-resistivity layer (author: top of the Hazeva Formation)",
+  "provenance": {
+   "document": "main",
+   "pages": [
+    19
+   ],
+   "method": "manual",
+   "tool": "typed from the page at 200 dpi; geosigma.extract.printed_tables",
+   "extracted_on": "2026-10-24",
+   "notes": "Coordinates and elevations from Table 1 (pages 15-17). Depths are the author's TDEM interpretation. Values printed with '>' (a lower bound only) are not stored. Row '+': the author's joint solution of the concentric soundings GS113 and GS114.",
+   "table": "Table 2 (TDEM depths next to boreholes)"
+  }
+ },
+ {
+  "id": "bartov1998-GS113-GS114-joint-hazeva-base",
+  "survey": "bartov-1998-tdem-northern-arava",
+  "site": "GS113",
+  "method": "TEM",
+  "level": "L3",
+  "representation": "interface_depth",
+  "measured_on": null,
+  "confidence": "A",
+  "status": "draft",
+  "interface_depth_m": 100,
+  "criterion": "top of the high-resistivity layer below the Hazeva (author: base of the Hazeva Formation)",
+  "provenance": {
+   "document": "main",
+   "pages": [
+    19
+   ],
+   "method": "manual",
+   "tool": "typed from the page at 200 dpi; geosigma.extract.printed_tables",
+   "extracted_on": "2026-10-24",
+   "notes": "Coordinates and elevations from Table 1 (pages 15-17). Depths are the author's TDEM interpretation. Values printed with '>' (a lower bound only) are not stored. Row '+': the author's joint solution of the concentric soundings GS113 and GS114.",
+   "table": "Table 2 (TDEM depths next to boreholes)"
+  }
+ },
+ {
+  "id": "bartov1998-GS113-GS114-joint-avdat-base",
+  "survey": "bartov-1998-tdem-northern-arava",
+  "site": "GS113",
+  "method": "TEM",
+  "level": "L3",
+  "representation": "interface_depth",
+  "measured_on": null,
+  "confidence": "A",
+  "status": "draft",
+  "interface_depth_m": 147,
+  "criterion": "top of the low-resistivity layer below the Avedat Group (author: base of the Avedat Group, top of the Taqiye Formation)",
+  "provenance": {
+   "document": "main",
+   "pages": [
+    19
+   ],
+   "method": "manual",
+   "tool": "typed from the page at 200 dpi; geosigma.extract.printed_tables",
+   "extracted_on": "2026-10-24",
+   "notes": "Coordinates and elevations from Table 1 (pages 15-17). Depths are the author's TDEM interpretation. Values printed with '>' (a lower bound only) are not stored. Row '+': the author's joint solution of the concentric soundings GS113 and GS114.",
+   "table": "Table 2 (TDEM depths next to boreholes)"
+  }
+ },
+ {
+  "id": "bartov1998-GS113-GS114-joint-arav-top",
+  "survey": "bartov-1998-tdem-northern-arava",
+  "site": "GS113",
+  "method": "TEM",
+  "level": "L3",
+  "representation": "interface_depth",
+  "measured_on": null,
+  "confidence": "A",
+  "status": "draft",
+  "interface_depth_m": 200,
+  "criterion": "top of the high-resistivity layer (author: top of the Arav Formation)",
+  "provenance": {
+   "document": "main",
+   "pages": [
+    19
+   ],
+   "method": "manual",
+   "tool": "typed from the page at 200 dpi; geosigma.extract.printed_tables",
+   "extracted_on": "2026-10-24",
+   "notes": "Coordinates and elevations from Table 1 (pages 15-17). Depths are the author's TDEM interpretation. Values printed with '>' (a lower bound only) are not stored. Row '+': the author's joint solution of the concentric soundings GS113 and GS114.",
+   "table": "Table 2 (TDEM depths next to boreholes)"
+  }
+ },
+ {
+  "id": "bartov1998-GS171-hazeva-top",
+  "survey": "bartov-1998-tdem-northern-arava",
+  "site": "GS171",
+  "method": "TEM",
+  "level": "L3",
+  "representation": "interface_depth",
+  "measured_on": null,
+  "confidence": "C",
+  "status": "draft",
+  "interface_depth_m": 63,
+  "criterion": "top of the low-resistivity layer (author: top of the Hazeva Formation)",
+  "provenance": {
+   "document": "main",
+   "pages": [
+    19
+   ],
+   "method": "manual",
+   "tool": "typed from the page at 200 dpi; geosigma.extract.printed_tables",
+   "extracted_on": "2026-10-24",
+   "notes": "Coordinates and elevations from Table 1 (pages 15-17). Depths are the author's TDEM interpretation. Values printed with '>' (a lower bound only) are not stored.",
+   "table": "Table 2 (TDEM depths next to boreholes)"
+  },
+  "notes": "The author printed this depth with a question mark."
+ },
+ {
+  "id": "bartov1998-GS136-hazeva-top",
+  "survey": "bartov-1998-tdem-northern-arava",
+  "site": "GS136",
+  "method": "TEM",
+  "level": "L3",
+  "representation": "interface_depth",
+  "measured_on": null,
+  "confidence": "A",
+  "status": "draft",
+  "interface_depth_m": 32,
+  "criterion": "top of the low-resistivity layer (author: top of the Hazeva Formation)",
+  "provenance": {
+   "document": "main",
+   "pages": [
+    19
+   ],
+   "method": "manual",
+   "tool": "typed from the page at 200 dpi; geosigma.extract.printed_tables",
+   "extracted_on": "2026-10-24",
+   "notes": "Coordinates and elevations from Table 1 (pages 15-17). Depths are the author's TDEM interpretation. Values printed with '>' (a lower bound only) are not stored.",
+   "table": "Table 2 (TDEM depths next to boreholes)"
+  }
+ },
+ {
+  "id": "bartov1998-GS136-hazeva-base",
+  "survey": "bartov-1998-tdem-northern-arava",
+  "site": "GS136",
+  "method": "TEM",
+  "level": "L3",
+  "representation": "interface_depth",
+  "measured_on": null,
+  "confidence": "A",
+  "status": "draft",
+  "interface_depth_m": 257,
+  "criterion": "top of the high-resistivity layer below the Hazeva (author: base of the Hazeva Formation)",
+  "provenance": {
+   "document": "main",
+   "pages": [
+    19
+   ],
+   "method": "manual",
+   "tool": "typed from the page at 200 dpi; geosigma.extract.printed_tables",
+   "extracted_on": "2026-10-24",
+   "notes": "Coordinates and elevations from Table 1 (pages 15-17). Depths are the author's TDEM interpretation. Values printed with '>' (a lower bound only) are not stored.",
+   "table": "Table 2 (TDEM depths next to boreholes)"
+  }
+ },
+ {
+  "id": "bartov1998-GS120-hazeva-top",
+  "survey": "bartov-1998-tdem-northern-arava",
+  "site": "GS120",
+  "method": "TEM",
+  "level": "L3",
+  "representation": "interface_depth",
+  "measured_on": null,
+  "confidence": "A",
+  "status": "draft",
+  "interface_depth_m": 20,
+  "criterion": "top of the low-resistivity layer (author: top of the Hazeva Formation)",
+  "provenance": {
+   "document": "main",
+   "pages": [
+    19
+   ],
+   "method": "manual",
+   "tool": "typed from the page at 200 dpi; geosigma.extract.printed_tables",
+   "extracted_on": "2026-10-24",
+   "notes": "Coordinates and elevations from Table 1 (pages 15-17). Depths are the author's TDEM interpretation. Values printed with '>' (a lower bound only) are not stored.",
+   "table": "Table 2 (TDEM depths next to boreholes)"
+  }
+ },
+ {
+  "id": "bartov1998-GS120-hazeva-base",
+  "survey": "bartov-1998-tdem-northern-arava",
+  "site": "GS120",
+  "method": "TEM",
+  "level": "L3",
+  "representation": "interface_depth",
+  "measured_on": null,
+  "confidence": "C",
+  "status": "draft",
+  "interface_depth_m": 253,
+  "criterion": "top of the high-resistivity layer below the Hazeva (author: base of the Hazeva Formation)",
+  "provenance": {
+   "document": "main",
+   "pages": [
+    19
+   ],
+   "method": "manual",
+   "tool": "typed from the page at 200 dpi; geosigma.extract.printed_tables",
+   "extracted_on": "2026-10-24",
+   "notes": "Coordinates and elevations from Table 1 (pages 15-17). Depths are the author's TDEM interpretation. Values printed with '>' (a lower bound only) are not stored.",
+   "table": "Table 2 (TDEM depths next to boreholes)"
+  },
+  "notes": "The author printed this depth with a question mark."
+ },
+ {
+  "id": "bartov1998-GS119-hazeva-top",
+  "survey": "bartov-1998-tdem-northern-arava",
+  "site": "GS119",
+  "method": "TEM",
+  "level": "L3",
+  "representation": "interface_depth",
+  "measured_on": null,
+  "confidence": "A",
+  "status": "draft",
+  "interface_depth_m": 18,
+  "criterion": "top of the low-resistivity layer (author: top of the Hazeva Formation)",
+  "provenance": {
+   "document": "main",
+   "pages": [
+    19
+   ],
+   "method": "manual",
+   "tool": "typed from the page at 200 dpi; geosigma.extract.printed_tables",
+   "extracted_on": "2026-10-24",
+   "notes": "Coordinates and elevations from Table 1 (pages 15-17). Depths are the author's TDEM interpretation. Values printed with '>' (a lower bound only) are not stored.",
+   "table": "Table 2 (TDEM depths next to boreholes)"
+  }
+ },
+ {
+  "id": "bartov1998-GS119-hazeva-base",
+  "survey": "bartov-1998-tdem-northern-arava",
+  "site": "GS119",
+  "method": "TEM",
+  "level": "L3",
+  "representation": "interface_depth",
+  "measured_on": null,
+  "confidence": "A",
+  "status": "draft",
+  "interface_depth_m": 340,
+  "criterion": "top of the high-resistivity layer below the Hazeva (author: base of the Hazeva Formation)",
+  "provenance": {
+   "document": "main",
+   "pages": [
+    19
+   ],
+   "method": "manual",
+   "tool": "typed from the page at 200 dpi; geosigma.extract.printed_tables",
+   "extracted_on": "2026-10-24",
+   "notes": "Coordinates and elevations from Table 1 (pages 15-17). Depths are the author's TDEM interpretation. Values printed with '>' (a lower bound only) are not stored.",
+   "table": "Table 2 (TDEM depths next to boreholes)"
+  }
+ },
+ {
+  "id": "bartov1998-GS119-GS120-joint-hazeva-top",
+  "survey": "bartov-1998-tdem-northern-arava",
+  "site": "GS119",
+  "method": "TEM",
+  "level": "L3",
+  "representation": "interface_depth",
+  "measured_on": null,
+  "confidence": "A",
+  "status": "draft",
+  "interface_depth_m": 20,
+  "criterion": "top of the low-resistivity layer (author: top of the Hazeva Formation)",
+  "provenance": {
+   "document": "main",
+   "pages": [
+    19
+   ],
+   "method": "manual",
+   "tool": "typed from the page at 200 dpi; geosigma.extract.printed_tables",
+   "extracted_on": "2026-10-24",
+   "notes": "Coordinates and elevations from Table 1 (pages 15-17). Depths are the author's TDEM interpretation. Values printed with '>' (a lower bound only) are not stored. Row '+': the author's joint solution of the concentric soundings GS119 and GS120.",
+   "table": "Table 2 (TDEM depths next to boreholes)"
+  }
+ },
+ {
+  "id": "bartov1998-GS119-GS120-joint-hazeva-base",
+  "survey": "bartov-1998-tdem-northern-arava",
+  "site": "GS119",
+  "method": "TEM",
+  "level": "L3",
+  "representation": "interface_depth",
+  "measured_on": null,
+  "confidence": "C",
+  "status": "draft",
+  "interface_depth_m": 253,
+  "criterion": "top of the high-resistivity layer below the Hazeva (author: base of the Hazeva Formation)",
+  "provenance": {
+   "document": "main",
+   "pages": [
+    19
+   ],
+   "method": "manual",
+   "tool": "typed from the page at 200 dpi; geosigma.extract.printed_tables",
+   "extracted_on": "2026-10-24",
+   "notes": "Coordinates and elevations from Table 1 (pages 15-17). Depths are the author's TDEM interpretation. Values printed with '>' (a lower bound only) are not stored. Row '+': the author's joint solution of the concentric soundings GS119 and GS120.",
+   "table": "Table 2 (TDEM depths next to boreholes)"
+  },
+  "notes": "The author printed this depth with a question mark."
+ },
+ {
+  "id": "bartov1998-GS122-hazeva-top",
+  "survey": "bartov-1998-tdem-northern-arava",
+  "site": "GS122",
+  "method": "TEM",
+  "level": "L3",
+  "representation": "interface_depth",
+  "measured_on": null,
+  "confidence": "A",
+  "status": "draft",
+  "interface_depth_m": 35,
+  "criterion": "top of the low-resistivity layer (author: top of the Hazeva Formation)",
+  "provenance": {
+   "document": "main",
+   "pages": [
+    20
+   ],
+   "method": "manual",
+   "tool": "typed from the page at 200 dpi; geosigma.extract.printed_tables",
+   "extracted_on": "2026-10-24",
+   "notes": "Coordinates and elevations from Table 1 (pages 15-17). Depths are the author's TDEM interpretation. Values printed with '>' (a lower bound only) are not stored.",
+   "table": "Table 2 (TDEM depths next to boreholes)"
+  }
+ },
+ {
+  "id": "bartov1998-GS122-hazeva-base",
+  "survey": "bartov-1998-tdem-northern-arava",
+  "site": "GS122",
+  "method": "TEM",
+  "level": "L3",
+  "representation": "interface_depth",
+  "measured_on": null,
+  "confidence": "C",
+  "status": "draft",
+  "interface_depth_m": 343,
+  "criterion": "top of the high-resistivity layer below the Hazeva (author: base of the Hazeva Formation)",
+  "provenance": {
+   "document": "main",
+   "pages": [
+    20
+   ],
+   "method": "manual",
+   "tool": "typed from the page at 200 dpi; geosigma.extract.printed_tables",
+   "extracted_on": "2026-10-24",
+   "notes": "Coordinates and elevations from Table 1 (pages 15-17). Depths are the author's TDEM interpretation. Values printed with '>' (a lower bound only) are not stored.",
+   "table": "Table 2 (TDEM depths next to boreholes)"
+  },
+  "notes": "The author printed this depth with a question mark."
+ },
+ {
+  "id": "bartov1998-GS123-hazeva-top",
+  "survey": "bartov-1998-tdem-northern-arava",
+  "site": "GS123",
+  "method": "TEM",
+  "level": "L3",
+  "representation": "interface_depth",
+  "measured_on": null,
+  "confidence": "A",
+  "status": "draft",
+  "interface_depth_m": 41,
+  "criterion": "top of the low-resistivity layer (author: top of the Hazeva Formation)",
+  "provenance": {
+   "document": "main",
+   "pages": [
+    20
+   ],
+   "method": "manual",
+   "tool": "typed from the page at 200 dpi; geosigma.extract.printed_tables",
+   "extracted_on": "2026-10-24",
+   "notes": "Coordinates and elevations from Table 1 (pages 15-17). Depths are the author's TDEM interpretation. Values printed with '>' (a lower bound only) are not stored.",
+   "table": "Table 2 (TDEM depths next to boreholes)"
+  }
+ },
+ {
+  "id": "bartov1998-GS122-GS123-joint-hazeva-top",
+  "survey": "bartov-1998-tdem-northern-arava",
+  "site": "GS122",
+  "method": "TEM",
+  "level": "L3",
+  "representation": "interface_depth",
+  "measured_on": null,
+  "confidence": "A",
+  "status": "draft",
+  "interface_depth_m": 41,
+  "criterion": "top of the low-resistivity layer (author: top of the Hazeva Formation)",
+  "provenance": {
+   "document": "main",
+   "pages": [
+    20
+   ],
+   "method": "manual",
+   "tool": "typed from the page at 200 dpi; geosigma.extract.printed_tables",
+   "extracted_on": "2026-10-24",
+   "notes": "Coordinates and elevations from Table 1 (pages 15-17). Depths are the author's TDEM interpretation. Values printed with '>' (a lower bound only) are not stored. Row '+': the author's joint solution of the concentric soundings GS122 and GS123.",
+   "table": "Table 2 (TDEM depths next to boreholes)"
+  }
+ },
+ {
+  "id": "bartov1998-GS122-GS123-joint-hazeva-base",
+  "survey": "bartov-1998-tdem-northern-arava",
+  "site": "GS122",
+  "method": "TEM",
+  "level": "L3",
+  "representation": "interface_depth",
+  "measured_on": null,
+  "confidence": "C",
+  "status": "draft",
+  "interface_depth_m": 379,
+  "criterion": "top of the high-resistivity layer below the Hazeva (author: base of the Hazeva Formation)",
+  "provenance": {
+   "document": "main",
+   "pages": [
+    20
+   ],
+   "method": "manual",
+   "tool": "typed from the page at 200 dpi; geosigma.extract.printed_tables",
+   "extracted_on": "2026-10-24",
+   "notes": "Coordinates and elevations from Table 1 (pages 15-17). Depths are the author's TDEM interpretation. Values printed with '>' (a lower bound only) are not stored. Row '+': the author's joint solution of the concentric soundings GS122 and GS123.",
+   "table": "Table 2 (TDEM depths next to boreholes)"
+  },
+  "notes": "The author printed this depth with a question mark."
+ },
+ {
+  "id": "bartov1998-GS106-hazeva-top",
+  "survey": "bartov-1998-tdem-northern-arava",
+  "site": "GS106",
+  "method": "TEM",
+  "level": "L3",
+  "representation": "interface_depth",
+  "measured_on": null,
+  "confidence": "A",
+  "status": "draft",
+  "interface_depth_m": 25,
+  "criterion": "top of the low-resistivity layer (author: top of the Hazeva Formation)",
+  "provenance": {
+   "document": "main",
+   "pages": [
+    20
+   ],
+   "method": "manual",
+   "tool": "typed from the page at 200 dpi; geosigma.extract.printed_tables",
+   "extracted_on": "2026-10-24",
+   "notes": "Coordinates and elevations from Table 1 (pages 15-17). Depths are the author's TDEM interpretation. Values printed with '>' (a lower bound only) are not stored.",
+   "table": "Table 2 (TDEM depths next to boreholes)"
+  }
+ },
+ {
+  "id": "bartov1998-GS106-hazeva-base",
+  "survey": "bartov-1998-tdem-northern-arava",
+  "site": "GS106",
+  "method": "TEM",
+  "level": "L3",
+  "representation": "interface_depth",
+  "measured_on": null,
+  "confidence": "A",
+  "status": "draft",
+  "interface_depth_m": 287,
+  "criterion": "top of the high-resistivity layer below the Hazeva (author: base of the Hazeva Formation)",
+  "provenance": {
+   "document": "main",
+   "pages": [
+    20
+   ],
+   "method": "manual",
+   "tool": "typed from the page at 200 dpi; geosigma.extract.printed_tables",
+   "extracted_on": "2026-10-24",
+   "notes": "Coordinates and elevations from Table 1 (pages 15-17). Depths are the author's TDEM interpretation. Values printed with '>' (a lower bound only) are not stored.",
+   "table": "Table 2 (TDEM depths next to boreholes)"
+  }
+ },
+ {
+  "id": "bartov1998-GS107-hazeva-top",
+  "survey": "bartov-1998-tdem-northern-arava",
+  "site": "GS107",
+  "method": "TEM",
+  "level": "L3",
+  "representation": "interface_depth",
+  "measured_on": null,
+  "confidence": "C",
+  "status": "draft",
+  "interface_depth_m": 30,
+  "criterion": "top of the low-resistivity layer (author: top of the Hazeva Formation)",
+  "provenance": {
+   "document": "main",
+   "pages": [
+    20
+   ],
+   "method": "manual",
+   "tool": "typed from the page at 200 dpi; geosigma.extract.printed_tables",
+   "extracted_on": "2026-10-24",
+   "notes": "Coordinates and elevations from Table 1 (pages 15-17). Depths are the author's TDEM interpretation. Values printed with '>' (a lower bound only) are not stored.",
+   "table": "Table 2 (TDEM depths next to boreholes)"
+  },
+  "notes": "The author printed this depth with a question mark."
+ },
+ {
+  "id": "bartov1998-GS107-hazeva-base",
+  "survey": "bartov-1998-tdem-northern-arava",
+  "site": "GS107",
+  "method": "TEM",
+  "level": "L3",
+  "representation": "interface_depth",
+  "measured_on": null,
+  "confidence": "A",
+  "status": "draft",
+  "interface_depth_m": 276,
+  "criterion": "top of the high-resistivity layer below the Hazeva (author: base of the Hazeva Formation)",
+  "provenance": {
+   "document": "main",
+   "pages": [
+    20
+   ],
+   "method": "manual",
+   "tool": "typed from the page at 200 dpi; geosigma.extract.printed_tables",
+   "extracted_on": "2026-10-24",
+   "notes": "Coordinates and elevations from Table 1 (pages 15-17). Depths are the author's TDEM interpretation. Values printed with '>' (a lower bound only) are not stored.",
+   "table": "Table 2 (TDEM depths next to boreholes)"
+  }
+ },
+ {
+  "id": "bartov1998-GS106-GS107-joint-hazeva-top",
+  "survey": "bartov-1998-tdem-northern-arava",
+  "site": "GS106",
+  "method": "TEM",
+  "level": "L3",
+  "representation": "interface_depth",
+  "measured_on": null,
+  "confidence": "C",
+  "status": "draft",
+  "interface_depth_m": 30,
+  "criterion": "top of the low-resistivity layer (author: top of the Hazeva Formation)",
+  "provenance": {
+   "document": "main",
+   "pages": [
+    20
+   ],
+   "method": "manual",
+   "tool": "typed from the page at 200 dpi; geosigma.extract.printed_tables",
+   "extracted_on": "2026-10-24",
+   "notes": "Coordinates and elevations from Table 1 (pages 15-17). Depths are the author's TDEM interpretation. Values printed with '>' (a lower bound only) are not stored. Row '+': the author's joint solution of the concentric soundings GS106 and GS107.",
+   "table": "Table 2 (TDEM depths next to boreholes)"
+  },
+  "notes": "The author printed this depth with a question mark."
+ },
+ {
+  "id": "bartov1998-GS106-GS107-joint-hazeva-base",
+  "survey": "bartov-1998-tdem-northern-arava",
+  "site": "GS106",
+  "method": "TEM",
+  "level": "L3",
+  "representation": "interface_depth",
+  "measured_on": null,
+  "confidence": "A",
+  "status": "draft",
+  "interface_depth_m": 276,
+  "criterion": "top of the high-resistivity layer below the Hazeva (author: base of the Hazeva Formation)",
+  "provenance": {
+   "document": "main",
+   "pages": [
+    20
+   ],
+   "method": "manual",
+   "tool": "typed from the page at 200 dpi; geosigma.extract.printed_tables",
+   "extracted_on": "2026-10-24",
+   "notes": "Coordinates and elevations from Table 1 (pages 15-17). Depths are the author's TDEM interpretation. Values printed with '>' (a lower bound only) are not stored. Row '+': the author's joint solution of the concentric soundings GS106 and GS107.",
+   "table": "Table 2 (TDEM depths next to boreholes)"
+  }
+ },
+ {
+  "id": "bartov1998-GS104-hazeva-top",
+  "survey": "bartov-1998-tdem-northern-arava",
+  "site": "GS104",
+  "method": "TEM",
+  "level": "L3",
+  "representation": "interface_depth",
+  "measured_on": null,
+  "confidence": "A",
+  "status": "draft",
+  "interface_depth_m": 32,
+  "criterion": "top of the low-resistivity layer (author: top of the Hazeva Formation)",
+  "provenance": {
+   "document": "main",
+   "pages": [
+    20
+   ],
+   "method": "manual",
+   "tool": "typed from the page at 200 dpi; geosigma.extract.printed_tables",
+   "extracted_on": "2026-10-24",
+   "notes": "Coordinates and elevations from Table 1 (pages 15-17). Depths are the author's TDEM interpretation. Values printed with '>' (a lower bound only) are not stored.",
+   "table": "Table 2 (TDEM depths next to boreholes)"
+  }
+ },
+ {
+  "id": "bartov1998-GS104-hazeva-base",
+  "survey": "bartov-1998-tdem-northern-arava",
+  "site": "GS104",
+  "method": "TEM",
+  "level": "L3",
+  "representation": "interface_depth",
+  "measured_on": null,
+  "confidence": "A",
+  "status": "draft",
+  "interface_depth_m": 202,
+  "criterion": "top of the high-resistivity layer below the Hazeva (author: base of the Hazeva Formation)",
+  "provenance": {
+   "document": "main",
+   "pages": [
+    20
+   ],
+   "method": "manual",
+   "tool": "typed from the page at 200 dpi; geosigma.extract.printed_tables",
+   "extracted_on": "2026-10-24",
+   "notes": "Coordinates and elevations from Table 1 (pages 15-17). Depths are the author's TDEM interpretation. Values printed with '>' (a lower bound only) are not stored.",
+   "table": "Table 2 (TDEM depths next to boreholes)"
+  }
+ },
+ {
+  "id": "bartov1998-GS104-avdat-base",
+  "survey": "bartov-1998-tdem-northern-arava",
+  "site": "GS104",
+  "method": "TEM",
+  "level": "L3",
+  "representation": "interface_depth",
+  "measured_on": null,
+  "confidence": "A",
+  "status": "draft",
+  "interface_depth_m": 462,
+  "criterion": "top of the low-resistivity layer below the Avedat Group (author: base of the Avedat Group, top of the Taqiye Formation)",
+  "provenance": {
+   "document": "main",
+   "pages": [
+    20
+   ],
+   "method": "manual",
+   "tool": "typed from the page at 200 dpi; geosigma.extract.printed_tables",
+   "extracted_on": "2026-10-24",
+   "notes": "Coordinates and elevations from Table 1 (pages 15-17). Depths are the author's TDEM interpretation. Values printed with '>' (a lower bound only) are not stored.",
+   "table": "Table 2 (TDEM depths next to boreholes)"
+  }
+ },
+ {
+  "id": "bartov1998-GS104-arav-top",
+  "survey": "bartov-1998-tdem-northern-arava",
+  "site": "GS104",
+  "method": "TEM",
+  "level": "L3",
+  "representation": "interface_depth",
+  "measured_on": null,
+  "confidence": "A",
+  "status": "draft",
+  "interface_depth_m": 485,
+  "criterion": "top of the high-resistivity layer (author: top of the Arav Formation)",
+  "provenance": {
+   "document": "main",
+   "pages": [
+    20
+   ],
+   "method": "manual",
+   "tool": "typed from the page at 200 dpi; geosigma.extract.printed_tables",
+   "extracted_on": "2026-10-24",
+   "notes": "Coordinates and elevations from Table 1 (pages 15-17). Depths are the author's TDEM interpretation. Values printed with '>' (a lower bound only) are not stored.",
+   "table": "Table 2 (TDEM depths next to boreholes)"
+  }
+ },
+ {
+  "id": "bartov1998-GS105-hazeva-top",
+  "survey": "bartov-1998-tdem-northern-arava",
+  "site": "GS105",
+  "method": "TEM",
+  "level": "L3",
+  "representation": "interface_depth",
+  "measured_on": null,
+  "confidence": "A",
+  "status": "draft",
+  "interface_depth_m": 35,
+  "criterion": "top of the low-resistivity layer (author: top of the Hazeva Formation)",
+  "provenance": {
+   "document": "main",
+   "pages": [
+    20
+   ],
+   "method": "manual",
+   "tool": "typed from the page at 200 dpi; geosigma.extract.printed_tables",
+   "extracted_on": "2026-10-24",
+   "notes": "Coordinates and elevations from Table 1 (pages 15-17). Depths are the author's TDEM interpretation. Values printed with '>' (a lower bound only) are not stored.",
+   "table": "Table 2 (TDEM depths next to boreholes)"
+  }
+ },
+ {
+  "id": "bartov1998-GS105-hazeva-base",
+  "survey": "bartov-1998-tdem-northern-arava",
+  "site": "GS105",
+  "method": "TEM",
+  "level": "L3",
+  "representation": "interface_depth",
+  "measured_on": null,
+  "confidence": "A",
+  "status": "draft",
+  "interface_depth_m": 235,
+  "criterion": "top of the high-resistivity layer below the Hazeva (author: base of the Hazeva Formation)",
+  "provenance": {
+   "document": "main",
+   "pages": [
+    20
+   ],
+   "method": "manual",
+   "tool": "typed from the page at 200 dpi; geosigma.extract.printed_tables",
+   "extracted_on": "2026-10-24",
+   "notes": "Coordinates and elevations from Table 1 (pages 15-17). Depths are the author's TDEM interpretation. Values printed with '>' (a lower bound only) are not stored.",
+   "table": "Table 2 (TDEM depths next to boreholes)"
+  }
+ },
+ {
+  "id": "bartov1998-GS104-GS105-joint-hazeva-top",
+  "survey": "bartov-1998-tdem-northern-arava",
+  "site": "GS104",
+  "method": "TEM",
+  "level": "L3",
+  "representation": "interface_depth",
+  "measured_on": null,
+  "confidence": "A",
+  "status": "draft",
+  "interface_depth_m": 35,
+  "criterion": "top of the low-resistivity layer (author: top of the Hazeva Formation)",
+  "provenance": {
+   "document": "main",
+   "pages": [
+    20
+   ],
+   "method": "manual",
+   "tool": "typed from the page at 200 dpi; geosigma.extract.printed_tables",
+   "extracted_on": "2026-10-24",
+   "notes": "Coordinates and elevations from Table 1 (pages 15-17). Depths are the author's TDEM interpretation. Values printed with '>' (a lower bound only) are not stored. Row '+': the author's joint solution of the concentric soundings GS104 and GS105.",
+   "table": "Table 2 (TDEM depths next to boreholes)"
+  }
+ },
+ {
+  "id": "bartov1998-GS104-GS105-joint-hazeva-base",
+  "survey": "bartov-1998-tdem-northern-arava",
+  "site": "GS104",
+  "method": "TEM",
+  "level": "L3",
+  "representation": "interface_depth",
+  "measured_on": null,
+  "confidence": "A",
+  "status": "draft",
+  "interface_depth_m": 212,
+  "criterion": "top of the high-resistivity layer below the Hazeva (author: base of the Hazeva Formation)",
+  "provenance": {
+   "document": "main",
+   "pages": [
+    20
+   ],
+   "method": "manual",
+   "tool": "typed from the page at 200 dpi; geosigma.extract.printed_tables",
+   "extracted_on": "2026-10-24",
+   "notes": "Coordinates and elevations from Table 1 (pages 15-17). Depths are the author's TDEM interpretation. Values printed with '>' (a lower bound only) are not stored. Row '+': the author's joint solution of the concentric soundings GS104 and GS105.",
+   "table": "Table 2 (TDEM depths next to boreholes)"
+  }
+ },
+ {
+  "id": "bartov1998-GS104-GS105-joint-avdat-base",
+  "survey": "bartov-1998-tdem-northern-arava",
+  "site": "GS104",
+  "method": "TEM",
+  "level": "L3",
+  "representation": "interface_depth",
+  "measured_on": null,
+  "confidence": "A",
+  "status": "draft",
+  "interface_depth_m": 393,
+  "criterion": "top of the low-resistivity layer below the Avedat Group (author: base of the Avedat Group, top of the Taqiye Formation)",
+  "provenance": {
+   "document": "main",
+   "pages": [
+    20
+   ],
+   "method": "manual",
+   "tool": "typed from the page at 200 dpi; geosigma.extract.printed_tables",
+   "extracted_on": "2026-10-24",
+   "notes": "Coordinates and elevations from Table 1 (pages 15-17). Depths are the author's TDEM interpretation. Values printed with '>' (a lower bound only) are not stored. Row '+': the author's joint solution of the concentric soundings GS104 and GS105.",
+   "table": "Table 2 (TDEM depths next to boreholes)"
+  }
+ },
+ {
+  "id": "bartov1998-GS104-GS105-joint-arav-top",
+  "survey": "bartov-1998-tdem-northern-arava",
+  "site": "GS104",
+  "method": "TEM",
+  "level": "L3",
+  "representation": "interface_depth",
+  "measured_on": null,
+  "confidence": "A",
+  "status": "draft",
+  "interface_depth_m": 440,
+  "criterion": "top of the high-resistivity layer (author: top of the Arav Formation)",
+  "provenance": {
+   "document": "main",
+   "pages": [
+    20
+   ],
+   "method": "manual",
+   "tool": "typed from the page at 200 dpi; geosigma.extract.printed_tables",
+   "extracted_on": "2026-10-24",
+   "notes": "Coordinates and elevations from Table 1 (pages 15-17). Depths are the author's TDEM interpretation. Values printed with '>' (a lower bound only) are not stored. Row '+': the author's joint solution of the concentric soundings GS104 and GS105.",
+   "table": "Table 2 (TDEM depths next to boreholes)"
+  }
+ },
+ {
+  "id": "bartov1998-GS108-hazeva-top",
+  "survey": "bartov-1998-tdem-northern-arava",
+  "site": "GS108",
+  "method": "TEM",
+  "level": "L3",
+  "representation": "interface_depth",
+  "measured_on": null,
+  "confidence": "A",
+  "status": "draft",
+  "interface_depth_m": 6,
+  "criterion": "top of the low-resistivity layer (author: top of the Hazeva Formation)",
+  "provenance": {
+   "document": "main",
+   "pages": [
+    20
+   ],
+   "method": "manual",
+   "tool": "typed from the page at 200 dpi; geosigma.extract.printed_tables",
+   "extracted_on": "2026-10-24",
+   "notes": "Coordinates and elevations from Table 1 (pages 15-17). Depths are the author's TDEM interpretation. Values printed with '>' (a lower bound only) are not stored.",
+   "table": "Table 2 (TDEM depths next to boreholes)"
+  }
+ },
+ {
+  "id": "bartov1998-GS109-hazeva-top",
+  "survey": "bartov-1998-tdem-northern-arava",
+  "site": "GS109",
+  "method": "TEM",
+  "level": "L3",
+  "representation": "interface_depth",
+  "measured_on": null,
+  "confidence": "A",
+  "status": "draft",
+  "interface_depth_m": 5,
+  "criterion": "top of the low-resistivity layer (author: top of the Hazeva Formation)",
+  "provenance": {
+   "document": "main",
+   "pages": [
+    20
+   ],
+   "method": "manual",
+   "tool": "typed from the page at 200 dpi; geosigma.extract.printed_tables",
+   "extracted_on": "2026-10-24",
+   "notes": "Coordinates and elevations from Table 1 (pages 15-17). Depths are the author's TDEM interpretation. Values printed with '>' (a lower bound only) are not stored.",
+   "table": "Table 2 (TDEM depths next to boreholes)"
+  }
+ },
+ {
+  "id": "bartov1998-GS137-hazeva-top",
+  "survey": "bartov-1998-tdem-northern-arava",
+  "site": "GS137",
+  "method": "TEM",
+  "level": "L3",
+  "representation": "interface_depth",
+  "measured_on": null,
+  "confidence": "A",
+  "status": "draft",
+  "interface_depth_m": 32,
+  "criterion": "top of the low-resistivity layer (author: top of the Hazeva Formation)",
+  "provenance": {
+   "document": "main",
+   "pages": [
+    20
+   ],
+   "method": "manual",
+   "tool": "typed from the page at 200 dpi; geosigma.extract.printed_tables",
+   "extracted_on": "2026-10-24",
+   "notes": "Coordinates and elevations from Table 1 (pages 15-17). Depths are the author's TDEM interpretation. Values printed with '>' (a lower bound only) are not stored.",
+   "table": "Table 2 (TDEM depths next to boreholes)"
+  }
+ },
+ {
+  "id": "bartov1998-GS164-hazeva-top",
+  "survey": "bartov-1998-tdem-northern-arava",
+  "site": "GS164",
+  "method": "TEM",
+  "level": "L3",
+  "representation": "interface_depth",
+  "measured_on": null,
+  "confidence": "A",
+  "status": "draft",
+  "interface_depth_m": 27,
+  "criterion": "top of the low-resistivity layer (author: top of the Hazeva Formation)",
+  "provenance": {
+   "document": "main",
+   "pages": [
+    20
+   ],
+   "method": "manual",
+   "tool": "typed from the page at 200 dpi; geosigma.extract.printed_tables",
+   "extracted_on": "2026-10-24",
+   "notes": "Coordinates and elevations from Table 1 (pages 15-17). Depths are the author's TDEM interpretation. Values printed with '>' (a lower bound only) are not stored.",
+   "table": "Table 2 (TDEM depths next to boreholes)"
+  }
+ },
+ {
+  "id": "bartov1998-GS164-hazeva-base",
+  "survey": "bartov-1998-tdem-northern-arava",
+  "site": "GS164",
+  "method": "TEM",
+  "level": "L3",
+  "representation": "interface_depth",
+  "measured_on": null,
+  "confidence": "A",
+  "status": "draft",
+  "interface_depth_m": 275,
+  "criterion": "top of the high-resistivity layer below the Hazeva (author: base of the Hazeva Formation)",
+  "provenance": {
+   "document": "main",
+   "pages": [
+    20
+   ],
+   "method": "manual",
+   "tool": "typed from the page at 200 dpi; geosigma.extract.printed_tables",
+   "extracted_on": "2026-10-24",
+   "notes": "Coordinates and elevations from Table 1 (pages 15-17). Depths are the author's TDEM interpretation. Values printed with '>' (a lower bound only) are not stored.",
+   "table": "Table 2 (TDEM depths next to boreholes)"
+  }
+ },
+ {
+  "id": "bartov1998-GS121-hazeva-top",
+  "survey": "bartov-1998-tdem-northern-arava",
+  "site": "GS121",
+  "method": "TEM",
+  "level": "L3",
+  "representation": "interface_depth",
+  "measured_on": null,
+  "confidence": "A",
+  "status": "draft",
+  "interface_depth_m": 35,
+  "criterion": "top of the low-resistivity layer (author: top of the Hazeva Formation)",
+  "provenance": {
+   "document": "main",
+   "pages": [
+    20
+   ],
+   "method": "manual",
+   "tool": "typed from the page at 200 dpi; geosigma.extract.printed_tables",
+   "extracted_on": "2026-10-24",
+   "notes": "Coordinates and elevations from Table 1 (pages 15-17). Depths are the author's TDEM interpretation. Values printed with '>' (a lower bound only) are not stored.",
+   "table": "Table 2 (TDEM depths next to boreholes)"
+  }
+ },
+ {
+  "id": "bartov1998-GS121-hazeva-base",
+  "survey": "bartov-1998-tdem-northern-arava",
+  "site": "GS121",
+  "method": "TEM",
+  "level": "L3",
+  "representation": "interface_depth",
+  "measured_on": null,
+  "confidence": "A",
+  "status": "draft",
+  "interface_depth_m": 151,
+  "criterion": "top of the high-resistivity layer below the Hazeva (author: base of the Hazeva Formation)",
+  "provenance": {
+   "document": "main",
+   "pages": [
+    20
+   ],
+   "method": "manual",
+   "tool": "typed from the page at 200 dpi; geosigma.extract.printed_tables",
+   "extracted_on": "2026-10-24",
+   "notes": "Coordinates and elevations from Table 1 (pages 15-17). Depths are the author's TDEM interpretation. Values printed with '>' (a lower bound only) are not stored.",
+   "table": "Table 2 (TDEM depths next to boreholes)"
+  }
+ },
+ {
+  "id": "bartov1998-GS121-avdat-base",
+  "survey": "bartov-1998-tdem-northern-arava",
+  "site": "GS121",
+  "method": "TEM",
+  "level": "L3",
+  "representation": "interface_depth",
+  "measured_on": null,
+  "confidence": "A",
+  "status": "draft",
+  "interface_depth_m": 276,
+  "criterion": "top of the low-resistivity layer below the Avedat Group (author: base of the Avedat Group, top of the Taqiye Formation)",
+  "provenance": {
+   "document": "main",
+   "pages": [
+    20
+   ],
+   "method": "manual",
+   "tool": "typed from the page at 200 dpi; geosigma.extract.printed_tables",
+   "extracted_on": "2026-10-24",
+   "notes": "Coordinates and elevations from Table 1 (pages 15-17). Depths are the author's TDEM interpretation. Values printed with '>' (a lower bound only) are not stored.",
+   "table": "Table 2 (TDEM depths next to boreholes)"
+  }
+ },
+ {
+  "id": "bartov1998-GS103-hazeva-top",
+  "survey": "bartov-1998-tdem-northern-arava",
+  "site": "GS103",
+  "method": "TEM",
+  "level": "L3",
+  "representation": "interface_depth",
+  "measured_on": null,
+  "confidence": "A",
+  "status": "draft",
+  "interface_depth_m": 27,
+  "criterion": "top of the low-resistivity layer (author: top of the Hazeva Formation)",
+  "provenance": {
+   "document": "main",
+   "pages": [
+    20
+   ],
+   "method": "manual",
+   "tool": "typed from the page at 200 dpi; geosigma.extract.printed_tables",
+   "extracted_on": "2026-10-24",
+   "notes": "Coordinates and elevations from Table 1 (pages 15-17). Depths are the author's TDEM interpretation. Values printed with '>' (a lower bound only) are not stored.",
+   "table": "Table 2 (TDEM depths next to boreholes)"
+  }
+ },
+ {
+  "id": "bartov1998-GS102-hazeva-top",
+  "survey": "bartov-1998-tdem-northern-arava",
+  "site": "GS102",
+  "method": "TEM",
+  "level": "L3",
+  "representation": "interface_depth",
+  "measured_on": null,
+  "confidence": "A",
+  "status": "draft",
+  "interface_depth_m": 22,
+  "criterion": "top of the low-resistivity layer (author: top of the Hazeva Formation)",
+  "provenance": {
+   "document": "main",
+   "pages": [
+    20
+   ],
+   "method": "manual",
+   "tool": "typed from the page at 200 dpi; geosigma.extract.printed_tables",
+   "extracted_on": "2026-10-24",
+   "notes": "Coordinates and elevations from Table 1 (pages 15-17). Depths are the author's TDEM interpretation. Values printed with '>' (a lower bound only) are not stored.",
+   "table": "Table 2 (TDEM depths next to boreholes)"
+  }
+ },
+ {
+  "id": "bartov1998-GS102-hazeva-base",
+  "survey": "bartov-1998-tdem-northern-arava",
+  "site": "GS102",
+  "method": "TEM",
+  "level": "L3",
+  "representation": "interface_depth",
+  "measured_on": null,
+  "confidence": "A",
+  "status": "draft",
+  "interface_depth_m": 402,
+  "criterion": "top of the high-resistivity layer below the Hazeva (author: base of the Hazeva Formation)",
+  "provenance": {
+   "document": "main",
+   "pages": [
+    20
+   ],
+   "method": "manual",
+   "tool": "typed from the page at 200 dpi; geosigma.extract.printed_tables",
+   "extracted_on": "2026-10-24",
+   "notes": "Coordinates and elevations from Table 1 (pages 15-17). Depths are the author's TDEM interpretation. Values printed with '>' (a lower bound only) are not stored.",
+   "table": "Table 2 (TDEM depths next to boreholes)"
+  }
+ },
+ {
+  "id": "bartov1998-GS102-GS103-joint-hazeva-top",
+  "survey": "bartov-1998-tdem-northern-arava",
+  "site": "GS102",
+  "method": "TEM",
+  "level": "L3",
+  "representation": "interface_depth",
+  "measured_on": null,
+  "confidence": "A",
+  "status": "draft",
+  "interface_depth_m": 27,
+  "criterion": "top of the low-resistivity layer (author: top of the Hazeva Formation)",
+  "provenance": {
+   "document": "main",
+   "pages": [
+    20
+   ],
+   "method": "manual",
+   "tool": "typed from the page at 200 dpi; geosigma.extract.printed_tables",
+   "extracted_on": "2026-10-24",
+   "notes": "Coordinates and elevations from Table 1 (pages 15-17). Depths are the author's TDEM interpretation. Values printed with '>' (a lower bound only) are not stored. Row '+': the author's joint solution of the concentric soundings GS102 and GS103.",
+   "table": "Table 2 (TDEM depths next to boreholes)"
+  }
+ },
+ {
+  "id": "bartov1998-GS102-GS103-joint-hazeva-base",
+  "survey": "bartov-1998-tdem-northern-arava",
+  "site": "GS102",
+  "method": "TEM",
+  "level": "L3",
+  "representation": "interface_depth",
+  "measured_on": null,
+  "confidence": "A",
+  "status": "draft",
+  "interface_depth_m": 441,
+  "criterion": "top of the high-resistivity layer below the Hazeva (author: base of the Hazeva Formation)",
+  "provenance": {
+   "document": "main",
+   "pages": [
+    20
+   ],
+   "method": "manual",
+   "tool": "typed from the page at 200 dpi; geosigma.extract.printed_tables",
+   "extracted_on": "2026-10-24",
+   "notes": "Coordinates and elevations from Table 1 (pages 15-17). Depths are the author's TDEM interpretation. Values printed with '>' (a lower bound only) are not stored. Row '+': the author's joint solution of the concentric soundings GS102 and GS103.",
+   "table": "Table 2 (TDEM depths next to boreholes)"
+  }
+ },
+ {
+  "id": "bartov1998-GS134-hazeva-top",
+  "survey": "bartov-1998-tdem-northern-arava",
+  "site": "GS134",
+  "method": "TEM",
+  "level": "L3",
+  "representation": "interface_depth",
+  "measured_on": null,
+  "confidence": "A",
+  "status": "draft",
+  "interface_depth_m": 46,
+  "criterion": "top of the low-resistivity layer (author: top of the Hazeva Formation)",
+  "provenance": {
+   "document": "main",
+   "pages": [
+    20
+   ],
+   "method": "manual",
+   "tool": "typed from the page at 200 dpi; geosigma.extract.printed_tables",
+   "extracted_on": "2026-10-24",
+   "notes": "Coordinates and elevations from Table 1 (pages 15-17). Depths are the author's TDEM interpretation. Values printed with '>' (a lower bound only) are not stored.",
+   "table": "Table 2 (TDEM depths next to boreholes)"
+  }
+ },
+ {
+  "id": "bartov1998-GS51-hazeva-base",
+  "survey": "bartov-1998-tdem-northern-arava",
+  "site": "GS51",
+  "method": "TEM",
+  "level": "L3",
+  "representation": "interface_depth",
+  "measured_on": null,
+  "confidence": "A",
+  "status": "draft",
+  "interface_depth_m": 134,
+  "criterion": "top of the high-resistivity layer below the Hazeva (author: base of the Hazeva Formation)",
+  "provenance": {
+   "document": "main",
+   "pages": [
+    23
+   ],
+   "method": "manual",
+   "tool": "typed from the page at 200 dpi; geosigma.extract.printed_tables",
+   "extracted_on": "2026-10-24",
+   "notes": "Coordinates and elevations from Table 1 (pages 15-17). Depths are the author's TDEM interpretation. Values printed with '>' (a lower bound only) are not stored.",
+   "table": "Table 4 (depths at the other stations)"
+  }
+ },
+ {
+  "id": "bartov1998-GS52-hazeva-base",
+  "survey": "bartov-1998-tdem-northern-arava",
+  "site": "GS52",
+  "method": "TEM",
+  "level": "L3",
+  "representation": "interface_depth",
+  "measured_on": null,
+  "confidence": "A",
+  "status": "draft",
+  "interface_depth_m": 71,
+  "criterion": "top of the high-resistivity layer below the Hazeva (author: base of the Hazeva Formation)",
+  "provenance": {
+   "document": "main",
+   "pages": [
+    23
+   ],
+   "method": "manual",
+   "tool": "typed from the page at 200 dpi; geosigma.extract.printed_tables",
+   "extracted_on": "2026-10-24",
+   "notes": "Coordinates and elevations from Table 1 (pages 15-17). Depths are the author's TDEM interpretation. Values printed with '>' (a lower bound only) are not stored.",
+   "table": "Table 4 (depths at the other stations)"
+  }
+ },
+ {
+  "id": "bartov1998-GS52-avdat-base",
+  "survey": "bartov-1998-tdem-northern-arava",
+  "site": "GS52",
+  "method": "TEM",
+  "level": "L3",
+  "representation": "interface_depth",
+  "measured_on": null,
+  "confidence": "A",
+  "status": "draft",
+  "interface_depth_m": 222,
+  "criterion": "top of the low-resistivity layer below the Avedat Group (author: base of the Avedat Group, top of the Taqiye Formation)",
+  "provenance": {
+   "document": "main",
+   "pages": [
+    23
+   ],
+   "method": "manual",
+   "tool": "typed from the page at 200 dpi; geosigma.extract.printed_tables",
+   "extracted_on": "2026-10-24",
+   "notes": "Coordinates and elevations from Table 1 (pages 15-17). Depths are the author's TDEM interpretation. Values printed with '>' (a lower bound only) are not stored.",
+   "table": "Table 4 (depths at the other stations)"
+  }
+ },
+ {
+  "id": "bartov1998-GS94A-hazeva-top",
+  "survey": "bartov-1998-tdem-northern-arava",
+  "site": "GS94A",
+  "method": "TEM",
+  "level": "L3",
+  "representation": "interface_depth",
+  "measured_on": null,
+  "confidence": "A",
+  "status": "draft",
+  "interface_depth_m": 10,
+  "criterion": "top of the low-resistivity layer (author: top of the Hazeva Formation)",
+  "provenance": {
+   "document": "main",
+   "pages": [
+    23
+   ],
+   "method": "manual",
+   "tool": "typed from the page at 200 dpi; geosigma.extract.printed_tables",
+   "extracted_on": "2026-10-24",
+   "notes": "Coordinates and elevations from Table 1 (pages 15-17). Depths are the author's TDEM interpretation. Values printed with '>' (a lower bound only) are not stored.",
+   "table": "Table 4 (depths at the other stations)"
+  }
+ },
+ {
+  "id": "bartov1998-GS94B-hazeva-top",
+  "survey": "bartov-1998-tdem-northern-arava",
+  "site": "GS94B",
+  "method": "TEM",
+  "level": "L3",
+  "representation": "interface_depth",
+  "measured_on": null,
+  "confidence": "A",
+  "status": "draft",
+  "interface_depth_m": 10,
+  "criterion": "top of the low-resistivity layer (author: top of the Hazeva Formation)",
+  "provenance": {
+   "document": "main",
+   "pages": [
+    23
+   ],
+   "method": "manual",
+   "tool": "typed from the page at 200 dpi; geosigma.extract.printed_tables",
+   "extracted_on": "2026-10-24",
+   "notes": "Coordinates and elevations from Table 1 (pages 15-17). Depths are the author's TDEM interpretation. Values printed with '>' (a lower bound only) are not stored.",
+   "table": "Table 4 (depths at the other stations)"
+  }
+ },
+ {
+  "id": "bartov1998-GS115-hazeva-top",
+  "survey": "bartov-1998-tdem-northern-arava",
+  "site": "GS115",
+  "method": "TEM",
+  "level": "L3",
+  "representation": "interface_depth",
+  "measured_on": null,
+  "confidence": "A",
+  "status": "draft",
+  "interface_depth_m": 17,
+  "criterion": "top of the low-resistivity layer (author: top of the Hazeva Formation)",
+  "provenance": {
+   "document": "main",
+   "pages": [
+    23
+   ],
+   "method": "manual",
+   "tool": "typed from the page at 200 dpi; geosigma.extract.printed_tables",
+   "extracted_on": "2026-10-24",
+   "notes": "Coordinates and elevations from Table 1 (pages 15-17). Depths are the author's TDEM interpretation. Values printed with '>' (a lower bound only) are not stored.",
+   "table": "Table 4 (depths at the other stations)"
+  }
+ },
+ {
+  "id": "bartov1998-GS115-hazeva-base",
+  "survey": "bartov-1998-tdem-northern-arava",
+  "site": "GS115",
+  "method": "TEM",
+  "level": "L3",
+  "representation": "interface_depth",
+  "measured_on": null,
+  "confidence": "A",
+  "status": "draft",
+  "interface_depth_m": 224,
+  "criterion": "top of the high-resistivity layer below the Hazeva (author: base of the Hazeva Formation)",
+  "provenance": {
+   "document": "main",
+   "pages": [
+    23
+   ],
+   "method": "manual",
+   "tool": "typed from the page at 200 dpi; geosigma.extract.printed_tables",
+   "extracted_on": "2026-10-24",
+   "notes": "Coordinates and elevations from Table 1 (pages 15-17). Depths are the author's TDEM interpretation. Values printed with '>' (a lower bound only) are not stored.",
+   "table": "Table 4 (depths at the other stations)"
+  }
+ },
+ {
+  "id": "bartov1998-GS116-hazeva-top",
+  "survey": "bartov-1998-tdem-northern-arava",
+  "site": "GS116",
+  "method": "TEM",
+  "level": "L3",
+  "representation": "interface_depth",
+  "measured_on": null,
+  "confidence": "A",
+  "status": "draft",
+  "interface_depth_m": 22,
+  "criterion": "top of the low-resistivity layer (author: top of the Hazeva Formation)",
+  "provenance": {
+   "document": "main",
+   "pages": [
+    23
+   ],
+   "method": "manual",
+   "tool": "typed from the page at 200 dpi; geosigma.extract.printed_tables",
+   "extracted_on": "2026-10-24",
+   "notes": "Coordinates and elevations from Table 1 (pages 15-17). Depths are the author's TDEM interpretation. Values printed with '>' (a lower bound only) are not stored.",
+   "table": "Table 4 (depths at the other stations)"
+  }
+ },
+ {
+  "id": "bartov1998-GS116-hazeva-base",
+  "survey": "bartov-1998-tdem-northern-arava",
+  "site": "GS116",
+  "method": "TEM",
+  "level": "L3",
+  "representation": "interface_depth",
+  "measured_on": null,
+  "confidence": "A",
+  "status": "draft",
+  "interface_depth_m": 218,
+  "criterion": "top of the high-resistivity layer below the Hazeva (author: base of the Hazeva Formation)",
+  "provenance": {
+   "document": "main",
+   "pages": [
+    23
+   ],
+   "method": "manual",
+   "tool": "typed from the page at 200 dpi; geosigma.extract.printed_tables",
+   "extracted_on": "2026-10-24",
+   "notes": "Coordinates and elevations from Table 1 (pages 15-17). Depths are the author's TDEM interpretation. Values printed with '>' (a lower bound only) are not stored.",
+   "table": "Table 4 (depths at the other stations)"
+  }
+ },
+ {
+  "id": "bartov1998-GS115-GS116-joint-hazeva-top",
+  "survey": "bartov-1998-tdem-northern-arava",
+  "site": "GS115",
+  "method": "TEM",
+  "level": "L3",
+  "representation": "interface_depth",
+  "measured_on": null,
+  "confidence": "A",
+  "status": "draft",
+  "interface_depth_m": 23,
+  "criterion": "top of the low-resistivity layer (author: top of the Hazeva Formation)",
+  "provenance": {
+   "document": "main",
+   "pages": [
+    23
+   ],
+   "method": "manual",
+   "tool": "typed from the page at 200 dpi; geosigma.extract.printed_tables",
+   "extracted_on": "2026-10-24",
+   "notes": "Coordinates and elevations from Table 1 (pages 15-17). Depths are the author's TDEM interpretation. Values printed with '>' (a lower bound only) are not stored. Row '+': the author's joint solution of the concentric soundings GS115 and GS116.",
+   "table": "Table 4 (depths at the other stations)"
+  }
+ },
+ {
+  "id": "bartov1998-GS115-GS116-joint-hazeva-base",
+  "survey": "bartov-1998-tdem-northern-arava",
+  "site": "GS115",
+  "method": "TEM",
+  "level": "L3",
+  "representation": "interface_depth",
+  "measured_on": null,
+  "confidence": "A",
+  "status": "draft",
+  "interface_depth_m": 219,
+  "criterion": "top of the high-resistivity layer below the Hazeva (author: base of the Hazeva Formation)",
+  "provenance": {
+   "document": "main",
+   "pages": [
+    23
+   ],
+   "method": "manual",
+   "tool": "typed from the page at 200 dpi; geosigma.extract.printed_tables",
+   "extracted_on": "2026-10-24",
+   "notes": "Coordinates and elevations from Table 1 (pages 15-17). Depths are the author's TDEM interpretation. Values printed with '>' (a lower bound only) are not stored. Row '+': the author's joint solution of the concentric soundings GS115 and GS116.",
+   "table": "Table 4 (depths at the other stations)"
+  }
+ },
+ {
+  "id": "bartov1998-GS117-hazeva-top",
+  "survey": "bartov-1998-tdem-northern-arava",
+  "site": "GS117",
+  "method": "TEM",
+  "level": "L3",
+  "representation": "interface_depth",
+  "measured_on": null,
+  "confidence": "A",
+  "status": "draft",
+  "interface_depth_m": 27,
+  "criterion": "top of the low-resistivity layer (author: top of the Hazeva Formation)",
+  "provenance": {
+   "document": "main",
+   "pages": [
+    23
+   ],
+   "method": "manual",
+   "tool": "typed from the page at 200 dpi; geosigma.extract.printed_tables",
+   "extracted_on": "2026-10-24",
+   "notes": "Coordinates and elevations from Table 1 (pages 15-17). Depths are the author's TDEM interpretation. Values printed with '>' (a lower bound only) are not stored.",
+   "table": "Table 4 (depths at the other stations)"
+  }
+ },
+ {
+  "id": "bartov1998-GS117-hazeva-base",
+  "survey": "bartov-1998-tdem-northern-arava",
+  "site": "GS117",
+  "method": "TEM",
+  "level": "L3",
+  "representation": "interface_depth",
+  "measured_on": null,
+  "confidence": "A",
+  "status": "draft",
+  "interface_depth_m": 95,
+  "criterion": "top of the high-resistivity layer below the Hazeva (author: base of the Hazeva Formation)",
+  "provenance": {
+   "document": "main",
+   "pages": [
+    23
+   ],
+   "method": "manual",
+   "tool": "typed from the page at 200 dpi; geosigma.extract.printed_tables",
+   "extracted_on": "2026-10-24",
+   "notes": "Coordinates and elevations from Table 1 (pages 15-17). Depths are the author's TDEM interpretation. Values printed with '>' (a lower bound only) are not stored.",
+   "table": "Table 4 (depths at the other stations)"
+  }
+ },
+ {
+  "id": "bartov1998-GS117-avdat-base",
+  "survey": "bartov-1998-tdem-northern-arava",
+  "site": "GS117",
+  "method": "TEM",
+  "level": "L3",
+  "representation": "interface_depth",
+  "measured_on": null,
+  "confidence": "A",
+  "status": "draft",
+  "interface_depth_m": 198,
+  "criterion": "top of the low-resistivity layer below the Avedat Group (author: base of the Avedat Group, top of the Taqiye Formation)",
+  "provenance": {
+   "document": "main",
+   "pages": [
+    23
+   ],
+   "method": "manual",
+   "tool": "typed from the page at 200 dpi; geosigma.extract.printed_tables",
+   "extracted_on": "2026-10-24",
+   "notes": "Coordinates and elevations from Table 1 (pages 15-17). Depths are the author's TDEM interpretation. Values printed with '>' (a lower bound only) are not stored.",
+   "table": "Table 4 (depths at the other stations)"
+  }
+ },
+ {
+  "id": "bartov1998-GS117-arav-top",
+  "survey": "bartov-1998-tdem-northern-arava",
+  "site": "GS117",
+  "method": "TEM",
+  "level": "L3",
+  "representation": "interface_depth",
+  "measured_on": null,
+  "confidence": "A",
+  "status": "draft",
+  "interface_depth_m": 241,
+  "criterion": "top of the high-resistivity layer (author: top of the Arav Formation)",
+  "provenance": {
+   "document": "main",
+   "pages": [
+    23
+   ],
+   "method": "manual",
+   "tool": "typed from the page at 200 dpi; geosigma.extract.printed_tables",
+   "extracted_on": "2026-10-24",
+   "notes": "Coordinates and elevations from Table 1 (pages 15-17). Depths are the author's TDEM interpretation. Values printed with '>' (a lower bound only) are not stored.",
+   "table": "Table 4 (depths at the other stations)"
+  }
+ },
+ {
+  "id": "bartov1998-GS118-hazeva-top",
+  "survey": "bartov-1998-tdem-northern-arava",
+  "site": "GS118",
+  "method": "TEM",
+  "level": "L3",
+  "representation": "interface_depth",
+  "measured_on": null,
+  "confidence": "A",
+  "status": "draft",
+  "interface_depth_m": 27,
+  "criterion": "top of the low-resistivity layer (author: top of the Hazeva Formation)",
+  "provenance": {
+   "document": "main",
+   "pages": [
+    23
+   ],
+   "method": "manual",
+   "tool": "typed from the page at 200 dpi; geosigma.extract.printed_tables",
+   "extracted_on": "2026-10-24",
+   "notes": "Coordinates and elevations from Table 1 (pages 15-17). Depths are the author's TDEM interpretation. Values printed with '>' (a lower bound only) are not stored.",
+   "table": "Table 4 (depths at the other stations)"
+  }
+ },
+ {
+  "id": "bartov1998-GS118-hazeva-base",
+  "survey": "bartov-1998-tdem-northern-arava",
+  "site": "GS118",
+  "method": "TEM",
+  "level": "L3",
+  "representation": "interface_depth",
+  "measured_on": null,
+  "confidence": "A",
+  "status": "draft",
+  "interface_depth_m": 95,
+  "criterion": "top of the high-resistivity layer below the Hazeva (author: base of the Hazeva Formation)",
+  "provenance": {
+   "document": "main",
+   "pages": [
+    23
+   ],
+   "method": "manual",
+   "tool": "typed from the page at 200 dpi; geosigma.extract.printed_tables",
+   "extracted_on": "2026-10-24",
+   "notes": "Coordinates and elevations from Table 1 (pages 15-17). Depths are the author's TDEM interpretation. Values printed with '>' (a lower bound only) are not stored.",
+   "table": "Table 4 (depths at the other stations)"
+  }
+ },
+ {
+  "id": "bartov1998-GS118-avdat-base",
+  "survey": "bartov-1998-tdem-northern-arava",
+  "site": "GS118",
+  "method": "TEM",
+  "level": "L3",
+  "representation": "interface_depth",
+  "measured_on": null,
+  "confidence": "A",
+  "status": "draft",
+  "interface_depth_m": 197,
+  "criterion": "top of the low-resistivity layer below the Avedat Group (author: base of the Avedat Group, top of the Taqiye Formation)",
+  "provenance": {
+   "document": "main",
+   "pages": [
+    23
+   ],
+   "method": "manual",
+   "tool": "typed from the page at 200 dpi; geosigma.extract.printed_tables",
+   "extracted_on": "2026-10-24",
+   "notes": "Coordinates and elevations from Table 1 (pages 15-17). Depths are the author's TDEM interpretation. Values printed with '>' (a lower bound only) are not stored.",
+   "table": "Table 4 (depths at the other stations)"
+  }
+ },
+ {
+  "id": "bartov1998-GS118-arav-top",
+  "survey": "bartov-1998-tdem-northern-arava",
+  "site": "GS118",
+  "method": "TEM",
+  "level": "L3",
+  "representation": "interface_depth",
+  "measured_on": null,
+  "confidence": "A",
+  "status": "draft",
+  "interface_depth_m": 237,
+  "criterion": "top of the high-resistivity layer (author: top of the Arav Formation)",
+  "provenance": {
+   "document": "main",
+   "pages": [
+    23
+   ],
+   "method": "manual",
+   "tool": "typed from the page at 200 dpi; geosigma.extract.printed_tables",
+   "extracted_on": "2026-10-24",
+   "notes": "Coordinates and elevations from Table 1 (pages 15-17). Depths are the author's TDEM interpretation. Values printed with '>' (a lower bound only) are not stored.",
+   "table": "Table 4 (depths at the other stations)"
+  }
+ },
+ {
+  "id": "bartov1998-GS117-GS118-joint-hazeva-top",
+  "survey": "bartov-1998-tdem-northern-arava",
+  "site": "GS117",
+  "method": "TEM",
+  "level": "L3",
+  "representation": "interface_depth",
+  "measured_on": null,
+  "confidence": "A",
+  "status": "draft",
+  "interface_depth_m": 27,
+  "criterion": "top of the low-resistivity layer (author: top of the Hazeva Formation)",
+  "provenance": {
+   "document": "main",
+   "pages": [
+    23
+   ],
+   "method": "manual",
+   "tool": "typed from the page at 200 dpi; geosigma.extract.printed_tables",
+   "extracted_on": "2026-10-24",
+   "notes": "Coordinates and elevations from Table 1 (pages 15-17). Depths are the author's TDEM interpretation. Values printed with '>' (a lower bound only) are not stored. Row '+': the author's joint solution of the concentric soundings GS117 and GS118.",
+   "table": "Table 4 (depths at the other stations)"
+  }
+ },
+ {
+  "id": "bartov1998-GS117-GS118-joint-hazeva-base",
+  "survey": "bartov-1998-tdem-northern-arava",
+  "site": "GS117",
+  "method": "TEM",
+  "level": "L3",
+  "representation": "interface_depth",
+  "measured_on": null,
+  "confidence": "A",
+  "status": "draft",
+  "interface_depth_m": 95,
+  "criterion": "top of the high-resistivity layer below the Hazeva (author: base of the Hazeva Formation)",
+  "provenance": {
+   "document": "main",
+   "pages": [
+    23
+   ],
+   "method": "manual",
+   "tool": "typed from the page at 200 dpi; geosigma.extract.printed_tables",
+   "extracted_on": "2026-10-24",
+   "notes": "Coordinates and elevations from Table 1 (pages 15-17). Depths are the author's TDEM interpretation. Values printed with '>' (a lower bound only) are not stored. Row '+': the author's joint solution of the concentric soundings GS117 and GS118.",
+   "table": "Table 4 (depths at the other stations)"
+  }
+ },
+ {
+  "id": "bartov1998-GS117-GS118-joint-avdat-base",
+  "survey": "bartov-1998-tdem-northern-arava",
+  "site": "GS117",
+  "method": "TEM",
+  "level": "L3",
+  "representation": "interface_depth",
+  "measured_on": null,
+  "confidence": "A",
+  "status": "draft",
+  "interface_depth_m": 197,
+  "criterion": "top of the low-resistivity layer below the Avedat Group (author: base of the Avedat Group, top of the Taqiye Formation)",
+  "provenance": {
+   "document": "main",
+   "pages": [
+    23
+   ],
+   "method": "manual",
+   "tool": "typed from the page at 200 dpi; geosigma.extract.printed_tables",
+   "extracted_on": "2026-10-24",
+   "notes": "Coordinates and elevations from Table 1 (pages 15-17). Depths are the author's TDEM interpretation. Values printed with '>' (a lower bound only) are not stored. Row '+': the author's joint solution of the concentric soundings GS117 and GS118.",
+   "table": "Table 4 (depths at the other stations)"
+  }
+ },
+ {
+  "id": "bartov1998-GS117-GS118-joint-arav-top",
+  "survey": "bartov-1998-tdem-northern-arava",
+  "site": "GS117",
+  "method": "TEM",
+  "level": "L3",
+  "representation": "interface_depth",
+  "measured_on": null,
+  "confidence": "A",
+  "status": "draft",
+  "interface_depth_m": 241,
+  "criterion": "top of the high-resistivity layer (author: top of the Arav Formation)",
+  "provenance": {
+   "document": "main",
+   "pages": [
+    23
+   ],
+   "method": "manual",
+   "tool": "typed from the page at 200 dpi; geosigma.extract.printed_tables",
+   "extracted_on": "2026-10-24",
+   "notes": "Coordinates and elevations from Table 1 (pages 15-17). Depths are the author's TDEM interpretation. Values printed with '>' (a lower bound only) are not stored. Row '+': the author's joint solution of the concentric soundings GS117 and GS118.",
+   "table": "Table 4 (depths at the other stations)"
+  }
+ },
+ {
+  "id": "bartov1998-GS133-hazeva-top",
+  "survey": "bartov-1998-tdem-northern-arava",
+  "site": "GS133",
+  "method": "TEM",
+  "level": "L3",
+  "representation": "interface_depth",
+  "measured_on": null,
+  "confidence": "A",
+  "status": "draft",
+  "interface_depth_m": 52,
+  "criterion": "top of the low-resistivity layer (author: top of the Hazeva Formation)",
+  "provenance": {
+   "document": "main",
+   "pages": [
+    23
+   ],
+   "method": "manual",
+   "tool": "typed from the page at 200 dpi; geosigma.extract.printed_tables",
+   "extracted_on": "2026-10-24",
+   "notes": "Coordinates and elevations from Table 1 (pages 15-17). Depths are the author's TDEM interpretation. Values printed with '>' (a lower bound only) are not stored.",
+   "table": "Table 4 (depths at the other stations)"
+  }
+ },
+ {
+  "id": "bartov1998-GS141-hazeva-top",
+  "survey": "bartov-1998-tdem-northern-arava",
+  "site": "GS141",
+  "method": "TEM",
+  "level": "L3",
+  "representation": "interface_depth",
+  "measured_on": null,
+  "confidence": "A",
+  "status": "draft",
+  "interface_depth_m": 22,
+  "criterion": "top of the low-resistivity layer (author: top of the Hazeva Formation)",
+  "provenance": {
+   "document": "main",
+   "pages": [
+    23
+   ],
+   "method": "manual",
+   "tool": "typed from the page at 200 dpi; geosigma.extract.printed_tables",
+   "extracted_on": "2026-10-24",
+   "notes": "Coordinates and elevations from Table 1 (pages 15-17). Depths are the author's TDEM interpretation. Values printed with '>' (a lower bound only) are not stored.",
+   "table": "Table 4 (depths at the other stations)"
+  }
+ },
+ {
+  "id": "bartov1998-GS142-hazeva-top",
+  "survey": "bartov-1998-tdem-northern-arava",
+  "site": "GS142",
+  "method": "TEM",
+  "level": "L3",
+  "representation": "interface_depth",
+  "measured_on": null,
+  "confidence": "A",
+  "status": "draft",
+  "interface_depth_m": 25,
+  "criterion": "top of the low-resistivity layer (author: top of the Hazeva Formation)",
+  "provenance": {
+   "document": "main",
+   "pages": [
+    23
+   ],
+   "method": "manual",
+   "tool": "typed from the page at 200 dpi; geosigma.extract.printed_tables",
+   "extracted_on": "2026-10-24",
+   "notes": "Coordinates and elevations from Table 1 (pages 15-17). Depths are the author's TDEM interpretation. Values printed with '>' (a lower bound only) are not stored.",
+   "table": "Table 4 (depths at the other stations)"
+  }
+ },
+ {
+  "id": "bartov1998-GS143-hazeva-top",
+  "survey": "bartov-1998-tdem-northern-arava",
+  "site": "GS143",
+  "method": "TEM",
+  "level": "L3",
+  "representation": "interface_depth",
+  "measured_on": null,
+  "confidence": "A",
+  "status": "draft",
+  "interface_depth_m": 25,
+  "criterion": "top of the low-resistivity layer (author: top of the Hazeva Formation)",
+  "provenance": {
+   "document": "main",
+   "pages": [
+    23
+   ],
+   "method": "manual",
+   "tool": "typed from the page at 200 dpi; geosigma.extract.printed_tables",
+   "extracted_on": "2026-10-24",
+   "notes": "Coordinates and elevations from Table 1 (pages 15-17). Depths are the author's TDEM interpretation. Values printed with '>' (a lower bound only) are not stored.",
+   "table": "Table 4 (depths at the other stations)"
+  }
+ },
+ {
+  "id": "bartov1998-GS165-hazeva-top",
+  "survey": "bartov-1998-tdem-northern-arava",
+  "site": "GS165",
+  "method": "TEM",
+  "level": "L3",
+  "representation": "interface_depth",
+  "measured_on": null,
+  "confidence": "A",
+  "status": "draft",
+  "interface_depth_m": 22,
+  "criterion": "top of the low-resistivity layer (author: top of the Hazeva Formation)",
+  "provenance": {
+   "document": "main",
+   "pages": [
+    23
+   ],
+   "method": "manual",
+   "tool": "typed from the page at 200 dpi; geosigma.extract.printed_tables",
+   "extracted_on": "2026-10-24",
+   "notes": "Coordinates and elevations from Table 1 (pages 15-17). Depths are the author's TDEM interpretation. Values printed with '>' (a lower bound only) are not stored.",
+   "table": "Table 4 (depths at the other stations)"
+  }
+ },
+ {
+  "id": "bartov1998-GS154-hazeva-top",
+  "survey": "bartov-1998-tdem-northern-arava",
+  "site": "GS154",
+  "method": "TEM",
+  "level": "L3",
+  "representation": "interface_depth",
+  "measured_on": null,
+  "confidence": "A",
+  "status": "draft",
+  "interface_depth_m": 51,
+  "criterion": "top of the low-resistivity layer (author: top of the Hazeva Formation)",
+  "provenance": {
+   "document": "main",
+   "pages": [
+    23
+   ],
+   "method": "manual",
+   "tool": "typed from the page at 200 dpi; geosigma.extract.printed_tables",
+   "extracted_on": "2026-10-24",
+   "notes": "Coordinates and elevations from Table 1 (pages 15-17). Depths are the author's TDEM interpretation. Values printed with '>' (a lower bound only) are not stored.",
+   "table": "Table 4 (depths at the other stations)"
+  }
+ },
+ {
+  "id": "bartov1998-GS154-hazeva-base",
+  "survey": "bartov-1998-tdem-northern-arava",
+  "site": "GS154",
+  "method": "TEM",
+  "level": "L3",
+  "representation": "interface_depth",
+  "measured_on": null,
+  "confidence": "A",
+  "status": "draft",
+  "interface_depth_m": 95,
+  "criterion": "top of the high-resistivity layer below the Hazeva (author: base of the Hazeva Formation)",
+  "provenance": {
+   "document": "main",
+   "pages": [
+    23
+   ],
+   "method": "manual",
+   "tool": "typed from the page at 200 dpi; geosigma.extract.printed_tables",
+   "extracted_on": "2026-10-24",
+   "notes": "Coordinates and elevations from Table 1 (pages 15-17). Depths are the author's TDEM interpretation. Values printed with '>' (a lower bound only) are not stored.",
+   "table": "Table 4 (depths at the other stations)"
+  }
+ },
+ {
+  "id": "bartov1998-GS154-avdat-base",
+  "survey": "bartov-1998-tdem-northern-arava",
+  "site": "GS154",
+  "method": "TEM",
+  "level": "L3",
+  "representation": "interface_depth",
+  "measured_on": null,
+  "confidence": "A",
+  "status": "draft",
+  "interface_depth_m": 108,
+  "criterion": "top of the low-resistivity layer below the Avedat Group (author: base of the Avedat Group, top of the Taqiye Formation)",
+  "provenance": {
+   "document": "main",
+   "pages": [
+    23
+   ],
+   "method": "manual",
+   "tool": "typed from the page at 200 dpi; geosigma.extract.printed_tables",
+   "extracted_on": "2026-10-24",
+   "notes": "Coordinates and elevations from Table 1 (pages 15-17). Depths are the author's TDEM interpretation. Values printed with '>' (a lower bound only) are not stored.",
+   "table": "Table 4 (depths at the other stations)"
+  }
+ },
+ {
+  "id": "bartov1998-GS154-arav-top",
+  "survey": "bartov-1998-tdem-northern-arava",
+  "site": "GS154",
+  "method": "TEM",
+  "level": "L3",
+  "representation": "interface_depth",
+  "measured_on": null,
+  "confidence": "A",
+  "status": "draft",
+  "interface_depth_m": 147,
+  "criterion": "top of the high-resistivity layer (author: top of the Arav Formation)",
+  "provenance": {
+   "document": "main",
+   "pages": [
+    23
+   ],
+   "method": "manual",
+   "tool": "typed from the page at 200 dpi; geosigma.extract.printed_tables",
+   "extracted_on": "2026-10-24",
+   "notes": "Coordinates and elevations from Table 1 (pages 15-17). Depths are the author's TDEM interpretation. Values printed with '>' (a lower bound only) are not stored.",
+   "table": "Table 4 (depths at the other stations)"
+  }
+ },
+ {
+  "id": "bartov1998-GS155-hazeva-top",
+  "survey": "bartov-1998-tdem-northern-arava",
+  "site": "GS155",
+  "method": "TEM",
+  "level": "L3",
+  "representation": "interface_depth",
+  "measured_on": null,
+  "confidence": "A",
+  "status": "draft",
+  "interface_depth_m": 55,
+  "criterion": "top of the low-resistivity layer (author: top of the Hazeva Formation)",
+  "provenance": {
+   "document": "main",
+   "pages": [
+    23
+   ],
+   "method": "manual",
+   "tool": "typed from the page at 200 dpi; geosigma.extract.printed_tables",
+   "extracted_on": "2026-10-24",
+   "notes": "Coordinates and elevations from Table 1 (pages 15-17). Depths are the author's TDEM interpretation. Values printed with '>' (a lower bound only) are not stored.",
+   "table": "Table 4 (depths at the other stations)"
+  }
+ },
+ {
+  "id": "bartov1998-GS155-hazeva-base",
+  "survey": "bartov-1998-tdem-northern-arava",
+  "site": "GS155",
+  "method": "TEM",
+  "level": "L3",
+  "representation": "interface_depth",
+  "measured_on": null,
+  "confidence": "A",
+  "status": "draft",
+  "interface_depth_m": 94,
+  "criterion": "top of the high-resistivity layer below the Hazeva (author: base of the Hazeva Formation)",
+  "provenance": {
+   "document": "main",
+   "pages": [
+    23
+   ],
+   "method": "manual",
+   "tool": "typed from the page at 200 dpi; geosigma.extract.printed_tables",
+   "extracted_on": "2026-10-24",
+   "notes": "Coordinates and elevations from Table 1 (pages 15-17). Depths are the author's TDEM interpretation. Values printed with '>' (a lower bound only) are not stored.",
+   "table": "Table 4 (depths at the other stations)"
+  }
+ },
+ {
+  "id": "bartov1998-GS155-avdat-base",
+  "survey": "bartov-1998-tdem-northern-arava",
+  "site": "GS155",
+  "method": "TEM",
+  "level": "L3",
+  "representation": "interface_depth",
+  "measured_on": null,
+  "confidence": "A",
+  "status": "draft",
+  "interface_depth_m": 108,
+  "criterion": "top of the low-resistivity layer below the Avedat Group (author: base of the Avedat Group, top of the Taqiye Formation)",
+  "provenance": {
+   "document": "main",
+   "pages": [
+    23
+   ],
+   "method": "manual",
+   "tool": "typed from the page at 200 dpi; geosigma.extract.printed_tables",
+   "extracted_on": "2026-10-24",
+   "notes": "Coordinates and elevations from Table 1 (pages 15-17). Depths are the author's TDEM interpretation. Values printed with '>' (a lower bound only) are not stored.",
+   "table": "Table 4 (depths at the other stations)"
+  }
+ },
+ {
+  "id": "bartov1998-GS155-arav-top",
+  "survey": "bartov-1998-tdem-northern-arava",
+  "site": "GS155",
+  "method": "TEM",
+  "level": "L3",
+  "representation": "interface_depth",
+  "measured_on": null,
+  "confidence": "A",
+  "status": "draft",
+  "interface_depth_m": 150,
+  "criterion": "top of the high-resistivity layer (author: top of the Arav Formation)",
+  "provenance": {
+   "document": "main",
+   "pages": [
+    23
+   ],
+   "method": "manual",
+   "tool": "typed from the page at 200 dpi; geosigma.extract.printed_tables",
+   "extracted_on": "2026-10-24",
+   "notes": "Coordinates and elevations from Table 1 (pages 15-17). Depths are the author's TDEM interpretation. Values printed with '>' (a lower bound only) are not stored.",
+   "table": "Table 4 (depths at the other stations)"
+  }
+ },
+ {
+  "id": "bartov1998-GS156-hazeva-top",
+  "survey": "bartov-1998-tdem-northern-arava",
+  "site": "GS156",
+  "method": "TEM",
+  "level": "L3",
+  "representation": "interface_depth",
+  "measured_on": null,
+  "confidence": "A",
+  "status": "draft",
+  "interface_depth_m": 31,
+  "criterion": "top of the low-resistivity layer (author: top of the Hazeva Formation)",
+  "provenance": {
+   "document": "main",
+   "pages": [
+    23
+   ],
+   "method": "manual",
+   "tool": "typed from the page at 200 dpi; geosigma.extract.printed_tables",
+   "extracted_on": "2026-10-24",
+   "notes": "Coordinates and elevations from Table 1 (pages 15-17). Depths are the author's TDEM interpretation. Values printed with '>' (a lower bound only) are not stored.",
+   "table": "Table 4 (depths at the other stations)"
+  }
+ },
+ {
+  "id": "bartov1998-GS156-hazeva-base",
+  "survey": "bartov-1998-tdem-northern-arava",
+  "site": "GS156",
+  "method": "TEM",
+  "level": "L3",
+  "representation": "interface_depth",
+  "measured_on": null,
+  "confidence": "A",
+  "status": "draft",
+  "interface_depth_m": 166,
+  "criterion": "top of the high-resistivity layer below the Hazeva (author: base of the Hazeva Formation)",
+  "provenance": {
+   "document": "main",
+   "pages": [
+    23
+   ],
+   "method": "manual",
+   "tool": "typed from the page at 200 dpi; geosigma.extract.printed_tables",
+   "extracted_on": "2026-10-24",
+   "notes": "Coordinates and elevations from Table 1 (pages 15-17). Depths are the author's TDEM interpretation. Values printed with '>' (a lower bound only) are not stored.",
+   "table": "Table 4 (depths at the other stations)"
+  }
+ },
+ {
+  "id": "bartov1998-GS156-avdat-base",
+  "survey": "bartov-1998-tdem-northern-arava",
+  "site": "GS156",
+  "method": "TEM",
+  "level": "L3",
+  "representation": "interface_depth",
+  "measured_on": null,
+  "confidence": "A",
+  "status": "draft",
+  "interface_depth_m": 266,
+  "criterion": "top of the low-resistivity layer below the Avedat Group (author: base of the Avedat Group, top of the Taqiye Formation)",
+  "provenance": {
+   "document": "main",
+   "pages": [
+    23
+   ],
+   "method": "manual",
+   "tool": "typed from the page at 200 dpi; geosigma.extract.printed_tables",
+   "extracted_on": "2026-10-24",
+   "notes": "Coordinates and elevations from Table 1 (pages 15-17). Depths are the author's TDEM interpretation. Values printed with '>' (a lower bound only) are not stored.",
+   "table": "Table 4 (depths at the other stations)"
+  }
+ },
+ {
+  "id": "bartov1998-GS157-hazeva-top",
+  "survey": "bartov-1998-tdem-northern-arava",
+  "site": "GS157",
+  "method": "TEM",
+  "level": "L3",
+  "representation": "interface_depth",
+  "measured_on": null,
+  "confidence": "A",
+  "status": "draft",
+  "interface_depth_m": 48,
+  "criterion": "top of the low-resistivity layer (author: top of the Hazeva Formation)",
+  "provenance": {
+   "document": "main",
+   "pages": [
+    23
+   ],
+   "method": "manual",
+   "tool": "typed from the page at 200 dpi; geosigma.extract.printed_tables",
+   "extracted_on": "2026-10-24",
+   "notes": "Coordinates and elevations from Table 1 (pages 15-17). Depths are the author's TDEM interpretation. Values printed with '>' (a lower bound only) are not stored.",
+   "table": "Table 4 (depths at the other stations)"
+  }
+ },
+ {
+  "id": "bartov1998-GS157-hazeva-base",
+  "survey": "bartov-1998-tdem-northern-arava",
+  "site": "GS157",
+  "method": "TEM",
+  "level": "L3",
+  "representation": "interface_depth",
+  "measured_on": null,
+  "confidence": "A",
+  "status": "draft",
+  "interface_depth_m": 210,
+  "criterion": "top of the high-resistivity layer below the Hazeva (author: base of the Hazeva Formation)",
+  "provenance": {
+   "document": "main",
+   "pages": [
+    23
+   ],
+   "method": "manual",
+   "tool": "typed from the page at 200 dpi; geosigma.extract.printed_tables",
+   "extracted_on": "2026-10-24",
+   "notes": "Coordinates and elevations from Table 1 (pages 15-17). Depths are the author's TDEM interpretation. Values printed with '>' (a lower bound only) are not stored.",
+   "table": "Table 4 (depths at the other stations)"
+  }
+ },
+ {
+  "id": "bartov1998-GS157-avdat-base",
+  "survey": "bartov-1998-tdem-northern-arava",
+  "site": "GS157",
+  "method": "TEM",
+  "level": "L3",
+  "representation": "interface_depth",
+  "measured_on": null,
+  "confidence": "A",
+  "status": "draft",
+  "interface_depth_m": 429,
+  "criterion": "top of the low-resistivity layer below the Avedat Group (author: base of the Avedat Group, top of the Taqiye Formation)",
+  "provenance": {
+   "document": "main",
+   "pages": [
+    23
+   ],
+   "method": "manual",
+   "tool": "typed from the page at 200 dpi; geosigma.extract.printed_tables",
+   "extracted_on": "2026-10-24",
+   "notes": "Coordinates and elevations from Table 1 (pages 15-17). Depths are the author's TDEM interpretation. Values printed with '>' (a lower bound only) are not stored.",
+   "table": "Table 4 (depths at the other stations)"
+  }
+ },
+ {
+  "id": "bartov1998-GS158-hazeva-top",
+  "survey": "bartov-1998-tdem-northern-arava",
+  "site": "GS158",
+  "method": "TEM",
+  "level": "L3",
+  "representation": "interface_depth",
+  "measured_on": null,
+  "confidence": "A",
+  "status": "draft",
+  "interface_depth_m": 35,
+  "criterion": "top of the low-resistivity layer (author: top of the Hazeva Formation)",
+  "provenance": {
+   "document": "main",
+   "pages": [
+    23
+   ],
+   "method": "manual",
+   "tool": "typed from the page at 200 dpi; geosigma.extract.printed_tables",
+   "extracted_on": "2026-10-24",
+   "notes": "Coordinates and elevations from Table 1 (pages 15-17). Depths are the author's TDEM interpretation. Values printed with '>' (a lower bound only) are not stored.",
+   "table": "Table 4 (depths at the other stations)"
+  }
+ },
+ {
+  "id": "bartov1998-GS162-hazeva-top",
+  "survey": "bartov-1998-tdem-northern-arava",
+  "site": "GS162",
+  "method": "TEM",
+  "level": "L3",
+  "representation": "interface_depth",
+  "measured_on": null,
+  "confidence": "C",
+  "status": "draft",
+  "interface_depth_m": 48,
+  "criterion": "top of the low-resistivity layer (author: top of the Hazeva Formation)",
+  "provenance": {
+   "document": "main",
+   "pages": [
+    23
+   ],
+   "method": "manual",
+   "tool": "typed from the page at 200 dpi; geosigma.extract.printed_tables",
+   "extracted_on": "2026-10-24",
+   "notes": "Coordinates and elevations from Table 1 (pages 15-17). Depths are the author's TDEM interpretation. Values printed with '>' (a lower bound only) are not stored.",
+   "table": "Table 4 (depths at the other stations)"
+  },
+  "notes": "The author printed this depth with a question mark."
+ },
+ {
+  "id": "bartov1998-GS162-hazeva-base",
+  "survey": "bartov-1998-tdem-northern-arava",
+  "site": "GS162",
+  "method": "TEM",
+  "level": "L3",
+  "representation": "interface_depth",
+  "measured_on": null,
+  "confidence": "C",
+  "status": "draft",
+  "interface_depth_m": 97,
+  "criterion": "top of the high-resistivity layer below the Hazeva (author: base of the Hazeva Formation)",
+  "provenance": {
+   "document": "main",
+   "pages": [
+    23
+   ],
+   "method": "manual",
+   "tool": "typed from the page at 200 dpi; geosigma.extract.printed_tables",
+   "extracted_on": "2026-10-24",
+   "notes": "Coordinates and elevations from Table 1 (pages 15-17). Depths are the author's TDEM interpretation. Values printed with '>' (a lower bound only) are not stored.",
+   "table": "Table 4 (depths at the other stations)"
+  },
+  "notes": "The author printed this depth with a question mark."
+ },
+ {
+  "id": "bartov1998-GS163-hazeva-top",
+  "survey": "bartov-1998-tdem-northern-arava",
+  "site": "GS163",
+  "method": "TEM",
+  "level": "L3",
+  "representation": "interface_depth",
+  "measured_on": null,
+  "confidence": "A",
+  "status": "draft",
+  "interface_depth_m": 47,
+  "criterion": "top of the low-resistivity layer (author: top of the Hazeva Formation)",
+  "provenance": {
+   "document": "main",
+   "pages": [
+    23
+   ],
+   "method": "manual",
+   "tool": "typed from the page at 200 dpi; geosigma.extract.printed_tables",
+   "extracted_on": "2026-10-24",
+   "notes": "Coordinates and elevations from Table 1 (pages 15-17). Depths are the author's TDEM interpretation. Values printed with '>' (a lower bound only) are not stored.",
+   "table": "Table 4 (depths at the other stations)"
+  }
+ },
+ {
+  "id": "bartov1998-GS166-hazeva-top",
+  "survey": "bartov-1998-tdem-northern-arava",
+  "site": "GS166",
+  "method": "TEM",
+  "level": "L3",
+  "representation": "interface_depth",
+  "measured_on": null,
+  "confidence": "A",
+  "status": "draft",
+  "interface_depth_m": 47,
+  "criterion": "top of the low-resistivity layer (author: top of the Hazeva Formation)",
+  "provenance": {
+   "document": "main",
+   "pages": [
+    23
+   ],
+   "method": "manual",
+   "tool": "typed from the page at 200 dpi; geosigma.extract.printed_tables",
+   "extracted_on": "2026-10-24",
+   "notes": "Coordinates and elevations from Table 1 (pages 15-17). Depths are the author's TDEM interpretation. Values printed with '>' (a lower bound only) are not stored.",
+   "table": "Table 4 (depths at the other stations)"
+  }
+ },
+ {
+  "id": "bartov1998-GS172-hazeva-top",
+  "survey": "bartov-1998-tdem-northern-arava",
+  "site": "GS172",
+  "method": "TEM",
+  "level": "L3",
+  "representation": "interface_depth",
+  "measured_on": null,
+  "confidence": "A",
+  "status": "draft",
+  "interface_depth_m": 18,
+  "criterion": "top of the low-resistivity layer (author: top of the Hazeva Formation)",
+  "provenance": {
+   "document": "main",
+   "pages": [
+    23
+   ],
+   "method": "manual",
+   "tool": "typed from the page at 200 dpi; geosigma.extract.printed_tables",
+   "extracted_on": "2026-10-24",
+   "notes": "Coordinates and elevations from Table 1 (pages 15-17). Depths are the author's TDEM interpretation. Values printed with '>' (a lower bound only) are not stored.",
+   "table": "Table 4 (depths at the other stations)"
+  }
+ },
+ {
+  "id": "bartov1998-GS172-hazeva-base",
+  "survey": "bartov-1998-tdem-northern-arava",
+  "site": "GS172",
+  "method": "TEM",
+  "level": "L3",
+  "representation": "interface_depth",
+  "measured_on": null,
+  "confidence": "A",
+  "status": "draft",
+  "interface_depth_m": 238,
+  "criterion": "top of the high-resistivity layer below the Hazeva (author: base of the Hazeva Formation)",
+  "provenance": {
+   "document": "main",
+   "pages": [
+    23
+   ],
+   "method": "manual",
+   "tool": "typed from the page at 200 dpi; geosigma.extract.printed_tables",
+   "extracted_on": "2026-10-24",
+   "notes": "Coordinates and elevations from Table 1 (pages 15-17). Depths are the author's TDEM interpretation. Values printed with '>' (a lower bound only) are not stored.",
+   "table": "Table 4 (depths at the other stations)"
+  }
+ },
+ {
+  "id": "bartov1998-GS172-avdat-base",
+  "survey": "bartov-1998-tdem-northern-arava",
+  "site": "GS172",
+  "method": "TEM",
+  "level": "L3",
+  "representation": "interface_depth",
+  "measured_on": null,
+  "confidence": "A",
+  "status": "draft",
+  "interface_depth_m": 390,
+  "criterion": "top of the low-resistivity layer below the Avedat Group (author: base of the Avedat Group, top of the Taqiye Formation)",
+  "provenance": {
+   "document": "main",
+   "pages": [
+    23
+   ],
+   "method": "manual",
+   "tool": "typed from the page at 200 dpi; geosigma.extract.printed_tables",
+   "extracted_on": "2026-10-24",
+   "notes": "Coordinates and elevations from Table 1 (pages 15-17). Depths are the author's TDEM interpretation. Values printed with '>' (a lower bound only) are not stored.",
+   "table": "Table 4 (depths at the other stations)"
+  }
+ },
+ {
+  "id": "bartov1998-GS183-hazeva-top",
+  "survey": "bartov-1998-tdem-northern-arava",
+  "site": "GS183",
+  "method": "TEM",
+  "level": "L3",
+  "representation": "interface_depth",
+  "measured_on": null,
+  "confidence": "A",
+  "status": "draft",
+  "interface_depth_m": 36,
+  "criterion": "top of the low-resistivity layer (author: top of the Hazeva Formation)",
+  "provenance": {
+   "document": "main",
+   "pages": [
+    23
+   ],
+   "method": "manual",
+   "tool": "typed from the page at 200 dpi; geosigma.extract.printed_tables",
+   "extracted_on": "2026-10-24",
+   "notes": "Coordinates and elevations from Table 1 (pages 15-17). Depths are the author's TDEM interpretation. Values printed with '>' (a lower bound only) are not stored.",
+   "table": "Table 4 (depths at the other stations)"
+  }
+ },
+ {
+  "id": "bartov1998-GS185-hazeva-top",
+  "survey": "bartov-1998-tdem-northern-arava",
+  "site": "GS185",
+  "method": "TEM",
+  "level": "L3",
+  "representation": "interface_depth",
+  "measured_on": null,
+  "confidence": "A",
+  "status": "draft",
+  "interface_depth_m": 7,
+  "criterion": "top of the low-resistivity layer (author: top of the Hazeva Formation)",
+  "provenance": {
+   "document": "main",
+   "pages": [
+    23
+   ],
+   "method": "manual",
+   "tool": "typed from the page at 200 dpi; geosigma.extract.printed_tables",
+   "extracted_on": "2026-10-24",
+   "notes": "Coordinates and elevations from Table 1 (pages 15-17). Depths are the author's TDEM interpretation. Values printed with '>' (a lower bound only) are not stored.",
+   "table": "Table 4 (depths at the other stations)"
+  }
+ },
+ {
+  "id": "bartov1998-GS186-hazeva-top",
+  "survey": "bartov-1998-tdem-northern-arava",
+  "site": "GS186",
+  "method": "TEM",
+  "level": "L3",
+  "representation": "interface_depth",
+  "measured_on": null,
+  "confidence": "A",
+  "status": "draft",
+  "interface_depth_m": 16,
+  "criterion": "top of the low-resistivity layer (author: top of the Hazeva Formation)",
+  "provenance": {
+   "document": "main",
+   "pages": [
+    23
+   ],
+   "method": "manual",
+   "tool": "typed from the page at 200 dpi; geosigma.extract.printed_tables",
+   "extracted_on": "2026-10-24",
+   "notes": "Coordinates and elevations from Table 1 (pages 15-17). Depths are the author's TDEM interpretation. Values printed with '>' (a lower bound only) are not stored.",
+   "table": "Table 4 (depths at the other stations)"
+  }
+ },
+ {
+  "id": "bartov1998-GS192-hazeva-top",
+  "survey": "bartov-1998-tdem-northern-arava",
+  "site": "GS192",
+  "method": "TEM",
+  "level": "L3",
+  "representation": "interface_depth",
+  "measured_on": null,
+  "confidence": "A",
+  "status": "draft",
+  "interface_depth_m": 24,
+  "criterion": "top of the low-resistivity layer (author: top of the Hazeva Formation)",
+  "provenance": {
+   "document": "main",
+   "pages": [
+    23
+   ],
+   "method": "manual",
+   "tool": "typed from the page at 200 dpi; geosigma.extract.printed_tables",
+   "extracted_on": "2026-10-24",
+   "notes": "Coordinates and elevations from Table 1 (pages 15-17). Depths are the author's TDEM interpretation. Values printed with '>' (a lower bound only) are not stored.",
+   "table": "Table 4 (depths at the other stations)"
+  }
+ },
+ {
+  "id": "bartov1998-GS198-hazeva-top",
+  "survey": "bartov-1998-tdem-northern-arava",
+  "site": "GS198",
+  "method": "TEM",
+  "level": "L3",
+  "representation": "interface_depth",
+  "measured_on": null,
+  "confidence": "A",
+  "status": "draft",
+  "interface_depth_m": 32,
+  "criterion": "top of the low-resistivity layer (author: top of the Hazeva Formation)",
+  "provenance": {
+   "document": "main",
+   "pages": [
+    24
+   ],
+   "method": "manual",
+   "tool": "typed from the page at 200 dpi; geosigma.extract.printed_tables",
+   "extracted_on": "2026-10-24",
+   "notes": "Coordinates and elevations from Table 1 (pages 15-17). Depths are the author's TDEM interpretation. Values printed with '>' (a lower bound only) are not stored.",
+   "table": "Table 4 (depths at the other stations)"
+  }
+ },
+ {
+  "id": "bartov1998-GS199-hazeva-top",
+  "survey": "bartov-1998-tdem-northern-arava",
+  "site": "GS199",
+  "method": "TEM",
+  "level": "L3",
+  "representation": "interface_depth",
+  "measured_on": null,
+  "confidence": "A",
+  "status": "draft",
+  "interface_depth_m": 18,
+  "criterion": "top of the low-resistivity layer (author: top of the Hazeva Formation)",
+  "provenance": {
+   "document": "main",
+   "pages": [
+    24
+   ],
+   "method": "manual",
+   "tool": "typed from the page at 200 dpi; geosigma.extract.printed_tables",
+   "extracted_on": "2026-10-24",
+   "notes": "Coordinates and elevations from Table 1 (pages 15-17). Depths are the author's TDEM interpretation. Values printed with '>' (a lower bound only) are not stored.",
+   "table": "Table 4 (depths at the other stations)"
+  }
+ },
+ {
+  "id": "bartov1998-GS205-hazeva-top",
+  "survey": "bartov-1998-tdem-northern-arava",
+  "site": "GS205",
+  "method": "TEM",
+  "level": "L3",
+  "representation": "interface_depth",
+  "measured_on": null,
+  "confidence": "A",
+  "status": "draft",
+  "interface_depth_m": 14,
+  "criterion": "top of the low-resistivity layer (author: top of the Hazeva Formation)",
+  "provenance": {
+   "document": "main",
+   "pages": [
+    24
+   ],
+   "method": "manual",
+   "tool": "typed from the page at 200 dpi; geosigma.extract.printed_tables",
+   "extracted_on": "2026-10-24",
+   "notes": "Coordinates and elevations from Table 1 (pages 15-17). Depths are the author's TDEM interpretation. Values printed with '>' (a lower bound only) are not stored.",
+   "table": "Table 4 (depths at the other stations)"
+  }
+ },
+ {
+  "id": "bartov1998-GS205-hazeva-base",
+  "survey": "bartov-1998-tdem-northern-arava",
+  "site": "GS205",
+  "method": "TEM",
+  "level": "L3",
+  "representation": "interface_depth",
+  "measured_on": null,
+  "confidence": "A",
+  "status": "draft",
+  "interface_depth_m": 21,
+  "criterion": "top of the high-resistivity layer below the Hazeva (author: base of the Hazeva Formation)",
+  "provenance": {
+   "document": "main",
+   "pages": [
+    24
+   ],
+   "method": "manual",
+   "tool": "typed from the page at 200 dpi; geosigma.extract.printed_tables",
+   "extracted_on": "2026-10-24",
+   "notes": "Coordinates and elevations from Table 1 (pages 15-17). Depths are the author's TDEM interpretation. Values printed with '>' (a lower bound only) are not stored.",
+   "table": "Table 4 (depths at the other stations)"
+  }
+ },
+ {
+  "id": "bartov1998-GS205-avdat-base",
+  "survey": "bartov-1998-tdem-northern-arava",
+  "site": "GS205",
+  "method": "TEM",
+  "level": "L3",
+  "representation": "interface_depth",
+  "measured_on": null,
+  "confidence": "A",
+  "status": "draft",
+  "interface_depth_m": 53,
+  "criterion": "top of the low-resistivity layer below the Avedat Group (author: base of the Avedat Group, top of the Taqiye Formation)",
+  "provenance": {
+   "document": "main",
+   "pages": [
+    24
+   ],
+   "method": "manual",
+   "tool": "typed from the page at 200 dpi; geosigma.extract.printed_tables",
+   "extracted_on": "2026-10-24",
+   "notes": "Coordinates and elevations from Table 1 (pages 15-17). Depths are the author's TDEM interpretation. Values printed with '>' (a lower bound only) are not stored.",
+   "table": "Table 4 (depths at the other stations)"
+  }
+ },
+ {
+  "id": "bartov1998-GS205-arav-top",
+  "survey": "bartov-1998-tdem-northern-arava",
+  "site": "GS205",
+  "method": "TEM",
+  "level": "L3",
+  "representation": "interface_depth",
+  "measured_on": null,
+  "confidence": "A",
+  "status": "draft",
+  "interface_depth_m": 151,
+  "criterion": "top of the high-resistivity layer (author: top of the Arav Formation)",
+  "provenance": {
+   "document": "main",
+   "pages": [
+    24
+   ],
+   "method": "manual",
+   "tool": "typed from the page at 200 dpi; geosigma.extract.printed_tables",
+   "extracted_on": "2026-10-24",
+   "notes": "Coordinates and elevations from Table 1 (pages 15-17). Depths are the author's TDEM interpretation. Values printed with '>' (a lower bound only) are not stored.",
+   "table": "Table 4 (depths at the other stations)"
+  }
+ },
+ {
+  "id": "bartov1998-GS206-hazeva-top",
+  "survey": "bartov-1998-tdem-northern-arava",
+  "site": "GS206",
+  "method": "TEM",
+  "level": "L3",
+  "representation": "interface_depth",
+  "measured_on": null,
+  "confidence": "A",
+  "status": "draft",
+  "interface_depth_m": 14,
+  "criterion": "top of the low-resistivity layer (author: top of the Hazeva Formation)",
+  "provenance": {
+   "document": "main",
+   "pages": [
+    24
+   ],
+   "method": "manual",
+   "tool": "typed from the page at 200 dpi; geosigma.extract.printed_tables",
+   "extracted_on": "2026-10-24",
+   "notes": "Coordinates and elevations from Table 1 (pages 15-17). Depths are the author's TDEM interpretation. Values printed with '>' (a lower bound only) are not stored.",
+   "table": "Table 4 (depths at the other stations)"
+  }
+ },
+ {
+  "id": "bartov1998-GS206-hazeva-base",
+  "survey": "bartov-1998-tdem-northern-arava",
+  "site": "GS206",
+  "method": "TEM",
+  "level": "L3",
+  "representation": "interface_depth",
+  "measured_on": null,
+  "confidence": "A",
+  "status": "draft",
+  "interface_depth_m": 21,
+  "criterion": "top of the high-resistivity layer below the Hazeva (author: base of the Hazeva Formation)",
+  "provenance": {
+   "document": "main",
+   "pages": [
+    24
+   ],
+   "method": "manual",
+   "tool": "typed from the page at 200 dpi; geosigma.extract.printed_tables",
+   "extracted_on": "2026-10-24",
+   "notes": "Coordinates and elevations from Table 1 (pages 15-17). Depths are the author's TDEM interpretation. Values printed with '>' (a lower bound only) are not stored.",
+   "table": "Table 4 (depths at the other stations)"
+  }
+ },
+ {
+  "id": "bartov1998-GS206-avdat-base",
+  "survey": "bartov-1998-tdem-northern-arava",
+  "site": "GS206",
+  "method": "TEM",
+  "level": "L3",
+  "representation": "interface_depth",
+  "measured_on": null,
+  "confidence": "A",
+  "status": "draft",
+  "interface_depth_m": 53,
+  "criterion": "top of the low-resistivity layer below the Avedat Group (author: base of the Avedat Group, top of the Taqiye Formation)",
+  "provenance": {
+   "document": "main",
+   "pages": [
+    24
+   ],
+   "method": "manual",
+   "tool": "typed from the page at 200 dpi; geosigma.extract.printed_tables",
+   "extracted_on": "2026-10-24",
+   "notes": "Coordinates and elevations from Table 1 (pages 15-17). Depths are the author's TDEM interpretation. Values printed with '>' (a lower bound only) are not stored.",
+   "table": "Table 4 (depths at the other stations)"
+  }
+ },
+ {
+  "id": "bartov1998-GS207-hazeva-top",
+  "survey": "bartov-1998-tdem-northern-arava",
+  "site": "GS207",
+  "method": "TEM",
+  "level": "L3",
+  "representation": "interface_depth",
+  "measured_on": null,
+  "confidence": "A",
+  "status": "draft",
+  "interface_depth_m": 32,
+  "criterion": "top of the low-resistivity layer (author: top of the Hazeva Formation)",
+  "provenance": {
+   "document": "main",
+   "pages": [
+    24
+   ],
+   "method": "manual",
+   "tool": "typed from the page at 200 dpi; geosigma.extract.printed_tables",
+   "extracted_on": "2026-10-24",
+   "notes": "Coordinates and elevations from Table 1 (pages 15-17). Depths are the author's TDEM interpretation. Values printed with '>' (a lower bound only) are not stored.",
+   "table": "Table 4 (depths at the other stations)"
+  }
+ },
+ {
+  "id": "bartov1998-GS207-hazeva-base",
+  "survey": "bartov-1998-tdem-northern-arava",
+  "site": "GS207",
+  "method": "TEM",
+  "level": "L3",
+  "representation": "interface_depth",
+  "measured_on": null,
+  "confidence": "A",
+  "status": "draft",
+  "interface_depth_m": 97,
+  "criterion": "top of the high-resistivity layer below the Hazeva (author: base of the Hazeva Formation)",
+  "provenance": {
+   "document": "main",
+   "pages": [
+    24
+   ],
+   "method": "manual",
+   "tool": "typed from the page at 200 dpi; geosigma.extract.printed_tables",
+   "extracted_on": "2026-10-24",
+   "notes": "Coordinates and elevations from Table 1 (pages 15-17). Depths are the author's TDEM interpretation. Values printed with '>' (a lower bound only) are not stored.",
+   "table": "Table 4 (depths at the other stations)"
+  }
+ },
+ {
+  "id": "bartov1998-GS207-avdat-base",
+  "survey": "bartov-1998-tdem-northern-arava",
+  "site": "GS207",
+  "method": "TEM",
+  "level": "L3",
+  "representation": "interface_depth",
+  "measured_on": null,
+  "confidence": "A",
+  "status": "draft",
+  "interface_depth_m": 185,
+  "criterion": "top of the low-resistivity layer below the Avedat Group (author: base of the Avedat Group, top of the Taqiye Formation)",
+  "provenance": {
+   "document": "main",
+   "pages": [
+    24
+   ],
+   "method": "manual",
+   "tool": "typed from the page at 200 dpi; geosigma.extract.printed_tables",
+   "extracted_on": "2026-10-24",
+   "notes": "Coordinates and elevations from Table 1 (pages 15-17). Depths are the author's TDEM interpretation. Values printed with '>' (a lower bound only) are not stored.",
+   "table": "Table 4 (depths at the other stations)"
+  }
+ },
+ {
+  "id": "bartov1998-GS320-hazeva-top",
+  "survey": "bartov-1998-tdem-northern-arava",
+  "site": "GS320",
+  "method": "TEM",
+  "level": "L3",
+  "representation": "interface_depth",
+  "measured_on": null,
+  "confidence": "A",
+  "status": "draft",
+  "interface_depth_m": 5,
+  "criterion": "top of the low-resistivity layer (author: top of the Hazeva Formation)",
+  "provenance": {
+   "document": "main",
+   "pages": [
+    24
+   ],
+   "method": "manual",
+   "tool": "typed from the page at 200 dpi; geosigma.extract.printed_tables",
+   "extracted_on": "2026-10-24",
+   "notes": "Coordinates and elevations from Table 1 (pages 15-17). Depths are the author's TDEM interpretation. Values printed with '>' (a lower bound only) are not stored.",
+   "table": "Table 4 (depths at the other stations)"
+  }
+ },
+ {
+  "id": "bartov1998-GS320-hazeva-base",
+  "survey": "bartov-1998-tdem-northern-arava",
+  "site": "GS320",
+  "method": "TEM",
+  "level": "L3",
+  "representation": "interface_depth",
+  "measured_on": null,
+  "confidence": "A",
+  "status": "draft",
+  "interface_depth_m": 244,
+  "criterion": "top of the high-resistivity layer below the Hazeva (author: base of the Hazeva Formation)",
+  "provenance": {
+   "document": "main",
+   "pages": [
+    24
+   ],
+   "method": "manual",
+   "tool": "typed from the page at 200 dpi; geosigma.extract.printed_tables",
+   "extracted_on": "2026-10-24",
+   "notes": "Coordinates and elevations from Table 1 (pages 15-17). Depths are the author's TDEM interpretation. Values printed with '>' (a lower bound only) are not stored.",
+   "table": "Table 4 (depths at the other stations)"
+  }
+ },
+ {
+  "id": "bartov1998-GS324-hazeva-top",
+  "survey": "bartov-1998-tdem-northern-arava",
+  "site": "GS324",
+  "method": "TEM",
+  "level": "L3",
+  "representation": "interface_depth",
+  "measured_on": null,
+  "confidence": "A",
+  "status": "draft",
+  "interface_depth_m": 18,
+  "criterion": "top of the low-resistivity layer (author: top of the Hazeva Formation)",
+  "provenance": {
+   "document": "main",
+   "pages": [
+    24
+   ],
+   "method": "manual",
+   "tool": "typed from the page at 200 dpi; geosigma.extract.printed_tables",
+   "extracted_on": "2026-10-24",
+   "notes": "Coordinates and elevations from Table 1 (pages 15-17). Depths are the author's TDEM interpretation. Values printed with '>' (a lower bound only) are not stored.",
+   "table": "Table 4 (depths at the other stations)"
+  }
+ }
+]

@@ -1,0 +1,31 @@
+# Table 1, pages 3-4, typed from the page at 200 dpi. Hebrew column headers (right to left):
+# "depth in metres" (depth to the bottom of the layer), "thickness in metres", "resistivity in ohm-m".
+# Each printed depth equals the previous depth plus the printed thickness (checked by the builder).
+# Coordinates are given in the text on page 3 as six-digit Israel Transverse Mercator metres; ZN-1 (185339/450724)
+# lies about 2 km from the Sinaf 1 well (Old Grid 136228/948831, about ITM 186.2/448.8 km), as the text describes.
+# Each layer row: [top, bottom, rho, note, {thick: printed thickness}]
+document: main
+unit: ohm.m
+method: TEM
+prefix: goldman2004
+confidence: A
+table: Table 1
+crs: EPSG:2039
+site_word: TDEM station
+accuracy_m: 50
+prov_notes: Unit printed in the column header ("resistivity in ohm/metre").
+notes: Central-loop SHOTEM sounding, 600 x 600 m loop. Last layer is the half-space.
+sites:
+- {id: ZN-1, xy: [185339, 450724], elev: 511, page: 3, box: [0.14, 0.614, 0.865, 0.78],
+   site_notes: "On the western slope of Har Zenifim, near the Sinaf 1 well (the loop could not be laid at the well).",
+   layers: [[0, 29, 136, null, {thick: 29}], [29, 50, 13, null, {thick: 21}], [50, 79, 29, null, {thick: 29}],
+            [79, 215, 9, null, {thick: 136}], [215, 936, 33, null, {thick: 721}], [936, null, 195]]}
+- {id: ZN-2, xy: [195039, 444242], elev: 373, pages: [4, 3], page: 4, box: [0.143, 0.085, 0.863, 0.181],
+   site_notes: Nahal Hiyyon area, on the Arava Formation.,
+   prov_notes: "The table starts on page 3 (header and first row: 27 ohm-m, 64 m) and continues on page 4.",
+   layers: [[0, 64, 27, null, {thick: 64}], [64, 94, 9, null, {thick: 30}], [94, 237, 50, null, {thick: 143}],
+            [237, 1124, 16, null, {thick: 887}], [1124, null, 207]]}
+- {id: ZN-3, xy: [203245, 450467], page: 4, box: [0.449, 0.279, 0.862, 0.422],
+   site_notes: Near the Shizafon 1 well, on the Arava Formation. No elevation given.,
+   layers: [[0, 47, 70, null, {thick: 47}], [47, 71, 12, null, {thick: 24}], [71, 324, 38, null, {thick: 253}],
+            [324, 1096, 16, null, {thick: 772}], [1096, null, 35]]}
