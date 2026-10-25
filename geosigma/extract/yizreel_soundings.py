@@ -10,6 +10,9 @@ Footers print one or two coordinate pairs (Old Israel Grid m). With two pairs, t
 is shared by the two soundings of each source (the report: "two for each source"), so it
 is taken as the source and the second as the sounding point, where the site is put. Each array on a sheet becomes its own L1 sounding curve.
 
+Only the 10 sheets with a CAL. RES. model are kept: a sheet without one has no author model, so it is
+left off the dashboard (its readings stay in ``extraction/soundings.json``).
+
 Run: ``python -m geosigma.extract.yizreel_soundings``.
 """
 from __future__ import annotations
@@ -38,6 +41,8 @@ def run() -> list[dict]:
     sites = [s for s in survey.get("sites", []) if not s["id"].startswith("DS-")]
     today, ds = date.today().isoformat(), []
     for sh in sorted(sheets, key=lambda s: s["page"]):
+        if not (sh.get("model") or {}).get("rho"):
+            continue
         pts = [p for p in (pair(c) for c in sh.get("coords", [])) if p]
         if not pts:
             print("no coordinates, skipped: page", sh["page"])

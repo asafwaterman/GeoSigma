@@ -163,39 +163,6 @@ def views(ds: dict, filename: str | None) -> list[dict]:
                                 "inset (resistivity against depth in km); the points and curves around it are the "
                                 "measured apparent resistivity and phase with the model's fit", region, boxes=[b])]
 
-    # Southern Arava iso-resistivity maps: ring the sounding on each map it appears on.
-    if survey == "paparo-1969-southern-arava" and ds["site"].startswith("map-") and filename:
-        from .extract.arava_maps import SLICES, norm_label
-
-        mp = _extraction(survey, "map_points.json") or {"pages": {}}
-        out = []
-        for p in sorted(mp["pages"], key=int):
-            s = page_size(filename, int(p))
-            pts = [q for q in mp["pages"][p]["points"]
-                   if q.get("label") is not None and f"map-{norm_label(q['label'])}" == ds["site"]]
-            if not pts or not s:
-                continue
-            ref, depth = SLICES[int(p)]
-            where = f"{depth} m below sea level" if ref == "below_sea_level" else f"{depth} m depth"
-            marks = [{"site": ds["site"], "x": fx, "y": fy} for fx, fy in (_frac(s, q["x"], q["y"]) for q in pts)]
-            vals = ", ".join(f"{q['value']:g} ohm.cm" for q in pts if q.get("value") is not None) or "no value printed"
-            out.append(view(int(p), f"Page {p}, the author's iso-resistivity map titled {where}: the value printed "
-                                    f"at the ringed sounding ({vals}). These map values follow the measured "
-                                    "apparent-resistivity curve, not the layered model, so they are shown as "
-                                    "measured data", marks=marks, zoom=True))
-        if out:
-            return out
-
-    # Yizreel-Harod roving-dipole maps: one map per source, ring the selected station.
-    if ds.get("representation") == "map_grid" and filename and sizes.get(first):
-        rd = _extraction(survey, "roving_dipole.json") or {"pages": {}}
-        page = rd["pages"].get(str(first))
-        if page:
-            marks = [{"site": f"RD-{q['station']}", "x": fx, "y": fy}
-                     for q in page["points"] for fx, fy in [_frac(sizes[first], q["x"], q["y"])]]
-            return [view(first, f"Page {first}: {what}. The value printed beside the ringed station is "
-                                "the one shown here", marks=marks, zoom=True)]
-
     # Geoelectric Atlas: several plot panels per page; frame the panel, mark each reading.
     if ds.get("representation") == "profile" and survey == "paparo-1982-geoelectric-atlas" and sizes.get(first):
         pr = (_extraction(survey, "plot_readings.json") or {}).get(str(first)) or []

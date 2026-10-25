@@ -234,14 +234,10 @@ function legend() {
 // What a survey's sites can and cannot show, so missing values are not a surprise.
 const SITE_NOTES = {
   "rotstein-1977-yizreel-harod": {
-    "RD-": `<b>Roving-dipole station: measured data, no depth.</b> A fixed 2–3 km "L" source dipole was read at
-      hundreds of receiver stations around it (report §4.1). Each number is an apparent resistivity, a bulk average
-      over a depth range the report does not give (our estimate: the top few hundred metres to ~1 km), so it has no
-      value on the depth map. The author used these maps
-      only to outline low-resistivity zones as possible geothermal targets (§5.1, Fig. 42).`,
     "DS-": `<b>Depth sounding at a roving-dipole source.</b> Two soundings were run along the arms of each source dipole
-      (report §5.3). The author says most could not be interpreted; only 10 sheets carry a model (CAL. RES. row), which
-      is what the depth map shows. The others are measured curves only, so they show no value.`,
+      (report §5.3). The author says most could not be interpreted; only these 10 sheets carry a model (CAL. RES. row),
+      which is what the depth map shows. The roving-dipole maps and the other 24 sheets give apparent resistivity
+      only, with no model, so they are not shown.`,
   },
 };
 function siteNote(p) {

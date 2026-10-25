@@ -114,11 +114,13 @@ def test_sea_level_models_stay_off_the_depth_axis():
     assert value_at_depth(ds, 25) is None
 
 
-def test_southern_arava_map_values_are_measured_data():
-    # the iso-resistivity maps follow the apparent-resistivity curve, not the layered models
-    for ds in load_catalogue().datasets:
-        if ds.id.startswith("paparo-1969-southern-arava-maps-"):
-            assert ds.level.value == "L1" and ds.representation.value != "model_1d", ds.id
+def test_southern_arava_and_yizreel_show_only_author_models():
+    # their maps and most sheets give apparent resistivity only, so every site kept must carry a model
+    cat = load_catalogue()
+    for survey in ("paparo-1969-southern-arava", "rotstein-1977-yizreel-harod"):
+        with_model = {ds.site for ds in cat.datasets if ds.survey == survey and ds.representation.value == "model_1d"}
+        sites = {s.id for sv in cat.surveys if sv.id == survey for s in sv.sites}
+        assert sites and sites == with_model, survey
 
 
 def test_layers_are_contiguous_from_the_surface():
