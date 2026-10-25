@@ -40,9 +40,13 @@ const map = new maplibregl.Map({
 map.addControl(new maplibregl.NavigationControl(), "top-left");
 map.addControl(new maplibregl.ScaleControl(), "bottom-left");
 
+// No value at this depth: no model there, or the model stops above it.
+const NO_VALUE = ["any", ["==", ["get", "rho_at_depth"], null],
+  ["match", ["get", "reliability"], ["beyond_model", "no_model"], true, false]];
+
 function colourExpr() {
   const stops = RAMP.flatMap(([v, c]) => [v, c]);
-  return ["case", ["==", ["get", "rho_at_depth"], null], "#9aa4b2",
+  return ["case", NO_VALUE, "#9aa4b2",
     ["interpolate", ["linear"], ["log10", ["max", ["get", "rho_at_depth"], 0.01]], ...stops]];
 }
 
@@ -59,12 +63,15 @@ async function loadSites(current = () => true) {
   map.addLayer({
     id: "sites", type: "circle", source: "sites",
     paint: {
-      "circle-radius": ["interpolate", ["linear"], ["zoom"], 6, 3, 10, 6, 14, 9],
+      "circle-radius": ["interpolate", ["linear"], ["zoom"], 6, ["case", NO_VALUE, 2, 3], 10, ["case", NO_VALUE, 4, 6], 14, ["case", NO_VALUE, 6, 9]],
       "circle-color": colourExpr(),
       "circle-opacity": ["match", ["get", "reliability"], "reliable", 1, "unknown_doi", 0.9, "below_doi", 0.35, 0.15],
       "circle-stroke-width": ["match", ["get", "reliability"], "unknown_doi", 1, "reliable", 1, 1],
       "circle-stroke-color": ["match", ["get", "reliability"], "beyond_model", "#9aa4b2", "no_model", "#9aa4b2", "#ffffff"],
+      // sites with no value at this depth fade back so the coloured ones stay readable
+      "circle-stroke-opacity": ["case", NO_VALUE, 0.25, 1],
     },
+    layout: { "circle-sort-key": ["case", NO_VALUE, 0, 1] },  // and are drawn underneath
   });
   map.addLayer({
     id: "selected", type: "circle", source: "sites", filter: ["==", ["get", "site"], ""],
@@ -227,7 +234,7 @@ function legend() {
     <div class="legendrow">${labels.map((l) => `<span>${l}</span>`).join("")}</div>
     <p><span class="sym" style="background:#67a9cf"></span>model value at the depth</p>
     <p><span class="sym" style="background:#67a9cf;opacity:.35"></span>below depth of investigation</p>
-    <p><span class="sym" style="border:1px solid #9aa4b2"></span>model too shallow, or no model</p>
+    <p><span class="sym" style="border:1px solid rgba(154,164,178,0.5)"></span>model too shallow, or no model</p>
     <p class="muted">Most digitised models have no stated depth of investigation; check the source page.</p>`;
 }
 
